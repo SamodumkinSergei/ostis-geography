@@ -3,15 +3,30 @@ OSTIS-geography is an open-source knowledge base for geographical system for Ope
 
 ## Install
 
-Linux:
+Clone the project
 ```sh
 git clone https://github.com/ostis-apps/ostis-geography
+cd ostis-geography
+git submodule update --init --recursive
+```
+
+### Using Docker
+Pull Docker (only for the first time ):
+```
+docker-compose pull 
+```
+
+### Using Ubuntu 20.04
+Linux:
+```sh
 cd ostis-geography/scripts
 ./install_project.sh
 ```
 
 ## Build knowledge base
-Linux:
+If you are using the Docker version, just put your scs files in the "kb" folder and restart.
+
+For Linux:
 ```sh
 cd ostis-geography/scripts
 ./build_kb.sh
@@ -19,6 +34,12 @@ cd ostis-geography/scripts
 
 ## Run
 ### Option 1. Run sc-server & sc-web
+
+Run in Docker:
+```sh
+docker-compose up
+```
+
 Run on Linux:
 ```sh
 #Terminal 1
