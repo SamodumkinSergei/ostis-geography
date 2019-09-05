@@ -1,0 +1,9 @@
+lida_4413000000 <- concept_town;;
+lida_4413000000 <- sc_node_not_relation;;
+lida_4413000000 => nrel_main_idtf: [Лида 4413000000](* <- lang_ru;; *);;
+lida_4413000000 => nrel_main_idtf: [Lida 4413000000](* <- lang_en;; *);;
+lida_4413000000 => nrel_population: 101616(*<-number;;*);;
+lida_4413000000 => nrel_wiki_data: [Q241475](* <- lang_en;; *);;
+lida_4413000000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Лида"]({{bbox}}););out body;>;out skel qt;];;lida_4413000000 => nrel_inception_year: 1323(* <- concept_number;; *);;
+lida_4413000000 => nrel_longitude: [25.302777777](* <- lang_en;; *);;
+lida_4413000000 => nrel_latitude: [53.887222222](* <- lang_en;; *);;

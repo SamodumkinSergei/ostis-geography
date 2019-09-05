@@ -1,0 +1,19 @@
+sharkovshchina_2255551000 <- concept_urban_village;;
+sharkovshchina_2255551000 <- sc_node_not_relation;;
+sharkovshchina_2255551000 => nrel_main_idtf: [Шарковщина 2255551000](* <- lang_ru;; *);;
+sharkovshchina_2255551000 => nrel_main_idtf: [Sharkovshchina 2255551000](* <- lang_en;; *);;
+sharkovshchina_2255551000 => nrel_population: 6248(*<-number;;*);;
+sharkovshchina_2255551000 => nrel_wiki_data: [Q2659505](* <- lang_en;; *);;
+sharkovshchina_2255551000 => nrel_longitude: [27.466666666](* <- lang_en;; *);;
+sharkovshchina_2255551000 => nrel_latitude: [55.366666666](* <- lang_en;; *);;
+sharkovshchina_2255551000 <- rrel_key_sc_element: ... (* <- illustration;;
+<= nrel_sc_text_translation: ... (*
+-> "file://sharkovshchina_2255551000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+sharkovshchina_2255551000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://sharkovshchina_2255551000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

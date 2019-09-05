@@ -1,0 +1,19 @@
+chechersk_3256501000 <- concept_town;;
+chechersk_3256501000 <- sc_node_not_relation;;
+chechersk_3256501000 => nrel_main_idtf: [Чечерск 3256501000](* <- lang_ru;; *);;
+chechersk_3256501000 => nrel_main_idtf: [Chechersk 3256501000](* <- lang_en;; *);;
+chechersk_3256501000 => nrel_population: 8445(*<-number;;*);;
+chechersk_3256501000 => nrel_wiki_data: [Q867722](* <- lang_en;; *);;
+chechersk_3256501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Чечерск"]({{bbox}}););out body;>;out skel qt;];;chechersk_3256501000 => nrel_longitude: [30.916666666](* <- lang_en;; *);;
+chechersk_3256501000 => nrel_latitude: [52.916666666](* <- lang_en;; *);;
+/*chechersk_3256501000 <- rrel_key_sc_element: ... (* <- illustration;;
+<= nrel_sc_text_translation: ... (*
+-> "chechersk_3256501000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+chechersk_3256501000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"chechersk_3256501000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;*/

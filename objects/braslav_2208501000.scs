@@ -1,0 +1,6 @@
+braslav_2208501000 <- concept_town;;
+braslav_2208501000 <- sc_node_not_relation;;
+braslav_2208501000 => nrel_main_idtf: [Браслав 2208501000](* <- lang_ru;; *);;
+braslav_2208501000 => nrel_main_idtf: [Braslav 2208501000](* <- lang_en;; *);;
+braslav_2208501000 => nrel_population: 9829(*<-number;;*);;
+braslav_2208501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Браслав"]({{bbox}}););out body;>;out skel qt;];;

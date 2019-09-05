@@ -1,0 +1,14 @@
+mozyr_3415000000 <- concept_town;;
+mozyr_3415000000 <- sc_node_not_relation;;
+mozyr_3415000000 => nrel_main_idtf: [Мозырь 3415000000](* <- lang_ru;; *);;
+mozyr_3415000000 => nrel_main_idtf: [Mozyr 3415000000](* <- lang_en;; *);;
+mozyr_3415000000 => nrel_population: 111733(*<-number;;*);;
+mozyr_3415000000 => nrel_wiki_data: [Q386487](* <- lang_en;; *);;
+mozyr_3415000000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Мозырь"]({{bbox}}););out body;>;out skel qt;];;mozyr_3415000000 => nrel_longitude: [29.233333333](* <- lang_en;; *);;
+mozyr_3415000000 => nrel_latitude: [52.05](* <- lang_en;; *);;
+mozyr_3415000000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://mozyr_3415000000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

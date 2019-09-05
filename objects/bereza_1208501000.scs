@@ -1,0 +1,5 @@
+bereza_1208501000 <- concept_town;;
+bereza_1208501000 <- sc_node_not_relation;;
+bereza_1208501000 => nrel_main_idtf: [Береза 1208501000](* <- lang_ru;; *);;
+bereza_1208501000 => nrel_main_idtf: [Bereza 1208501000](* <- lang_en;; *);;
+bereza_1208501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Береза"]({{bbox}}););out body;>;out skel qt;];;

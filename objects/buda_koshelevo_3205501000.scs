@@ -1,0 +1,5 @@
+buda_koshelevo_3205501000 <- concept_town;;
+buda_koshelevo_3205501000 <- sc_node_not_relation;;
+buda_koshelevo_3205501000 => nrel_main_idtf: [Буда-Кошелево 3205501000](* <- lang_ru;; *);;
+buda_koshelevo_3205501000 => nrel_main_idtf: [Buda_koshelevo 3205501000](* <- lang_en;; *);;
+buda_koshelevo_3205501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Буда-Кошелево"]({{bbox}}););out body;>;out skel qt;];;

@@ -1,0 +1,22 @@
+drogichin_1220501000 <- concept_town;;
+drogichin_1220501000 <- sc_node_not_relation;;
+drogichin_1220501000 => nrel_main_idtf: [Дрогичин 1220501000](* <- lang_ru;; *);;
+drogichin_1220501000 => nrel_main_idtf: [Drogichin 1220501000](* <- lang_en;; *);;
+drogichin_1220501000 => nrel_population: 14910(*<-number;;*);;
+drogichin_1220501000 => nrel_wiki_data: [Q956471](* <- lang_en;; *);;
+drogichin_1220501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Дрогичин"]({{bbox}}););out body;>;out skel qt;];;drogichin_1220501000 => nrel_longitude: [25.15](* <- lang_en;; *);;
+drogichin_1220501000 => nrel_latitude: [52.183333333](* <- lang_en;; *);;
+drogichin_1220501000 <- rrel_key_sc_element: ... (* 
+<- illustration;;
+=> nrel_main_idtf: [Рис. Флаг](* <-lang_ru;; *); [Pict. Flag](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+-> "file://drogichin_1220501000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+drogichin_1220501000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+=> nrel_main_idtf: [Рис. Герб](* <-lang_ru;; *); [Pict. Coat](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+->"file://drogichin_1220501000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

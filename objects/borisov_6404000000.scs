@@ -1,0 +1,23 @@
+borisov_6404000000 <- concept_town;;
+borisov_6404000000 <- sc_node_not_relation;;
+borisov_6404000000 => nrel_main_idtf: [Борисов 6404000000](* <- lang_ru;; *);;
+borisov_6404000000 => nrel_main_idtf: [Borisov 6404000000](* <- lang_en;; *);;
+borisov_6404000000 => nrel_population: 143051(*<-number;;*);;
+borisov_6404000000 => nrel_wiki_data: [Q19313](* <- lang_en;; *);;
+borisov_6404000000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Борисов"]({{bbox}}););out body;>;out skel qt;];;borisov_6404000000 => nrel_inception_year: 1102(* <- concept_number;; *);;
+borisov_6404000000 => nrel_longitude: [28.51198](* <- lang_en;; *);;
+borisov_6404000000 => nrel_latitude: [54.22429](* <- lang_en;; *);;
+borisov_6404000000 <- rrel_key_sc_element: ... (* 
+<- illustration;;
+=> nrel_main_idtf: [Рис. Флаг](* <-lang_ru;; *); [Pict. Flag](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+-> "file://borisov_6404000000_flag.gif"(* => nrel_format:format_gif;; *);;
+*);;
+*);;
+borisov_6404000000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+=> nrel_main_idtf: [Рис. Герб](* <-lang_ru;; *); [Pict. Coat](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+->"file://borisov_6404000000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

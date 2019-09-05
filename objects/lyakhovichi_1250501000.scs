@@ -1,0 +1,6 @@
+lyakhovichi_1250501000 <- concept_town;;
+lyakhovichi_1250501000 <- sc_node_not_relation;;
+lyakhovichi_1250501000 => nrel_main_idtf: [Ляховичи 1250501000](* <- lang_ru;; *);;
+lyakhovichi_1250501000 => nrel_main_idtf: [Lyakhovichi 1250501000](* <- lang_en;; *);;
+lyakhovichi_1250501000 => nrel_population: 10908(*<-number;;*);;
+lyakhovichi_1250501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Ляховичи"]({{bbox}}););out body;>;out skel qt;];;

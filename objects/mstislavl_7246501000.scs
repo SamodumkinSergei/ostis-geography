@@ -1,0 +1,6 @@
+mstislavl_7246501000 <- concept_town;;
+mstislavl_7246501000 <- sc_node_not_relation;;
+mstislavl_7246501000 => nrel_main_idtf: [Мстиславль 7246501000](* <- lang_ru;; *);;
+mstislavl_7246501000 => nrel_main_idtf: [Mstislavl 7246501000](* <- lang_en;; *);;
+mstislavl_7246501000 => nrel_population: 10343(*<-number;;*);;
+mstislavl_7246501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Мстиславль"]({{bbox}}););out body;>;out skel qt;];;

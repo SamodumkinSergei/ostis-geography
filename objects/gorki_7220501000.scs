@@ -1,0 +1,20 @@
+gorki_7220501000 <- concept_town;;
+gorki_7220501000 <- sc_node_not_relation;;
+gorki_7220501000 => nrel_main_idtf: [Горки 7220501000](* <- lang_ru;; *);;
+gorki_7220501000 => nrel_main_idtf: [Gorki 7220501000](* <- lang_en;; *);;
+gorki_7220501000 => nrel_population: 34008(*<-number;;*);;
+gorki_7220501000 => nrel_wiki_data: [Q954812](* <- lang_en;; *);;
+gorki_7220501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Горки"]({{bbox}}););out body;>;out skel qt;];;gorki_7220501000 => nrel_inception_year: 1544(* <- concept_number;; *);;
+gorki_7220501000 => nrel_longitude: [30.983333333](* <- lang_en;; *);;
+gorki_7220501000 => nrel_latitude: [54.283333333](* <- lang_en;; *);;
+/*gorki_7220501000 <- rrel_key_sc_element: ... (* <- illustration;;
+<= nrel_sc_text_translation: ... (*
+-> "gorki_7220501000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+gorki_7220501000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"gorki_7220501000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;*/

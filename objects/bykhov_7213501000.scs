@@ -1,0 +1,6 @@
+bykhov_7213501000 <- concept_town;;
+bykhov_7213501000 <- sc_node_not_relation;;
+bykhov_7213501000 => nrel_main_idtf: [Быхов 7213501000](* <- lang_ru;; *);;
+bykhov_7213501000 => nrel_main_idtf: [Bykhov 7213501000](* <- lang_en;; *);;
+bykhov_7213501000 => nrel_population: 17185(*<-number;;*);;
+bykhov_7213501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Быхов"]({{bbox}}););out body;>;out skel qt;];;

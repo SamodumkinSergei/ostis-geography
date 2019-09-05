@@ -1,0 +1,6 @@
+dokshitsy_2221501000 <- concept_town;;
+dokshitsy_2221501000 <- sc_node_not_relation;;
+dokshitsy_2221501000 => nrel_main_idtf: [Докшицы 2221501000](* <- lang_ru;; *);;
+dokshitsy_2221501000 => nrel_main_idtf: [Dokshitsy 2221501000](* <- lang_en;; *);;
+dokshitsy_2221501000 => nrel_population: 6954(*<-number;;*);;
+dokshitsy_2221501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Докшицы"]({{bbox}}););out body;>;out skel qt;];;

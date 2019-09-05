@@ -1,0 +1,20 @@
+kobrin_1243506000 <- concept_town;;
+kobrin_1243506000 <- sc_node_not_relation;;
+kobrin_1243506000 => nrel_main_idtf: [Кобрин 1243506000](* <- lang_ru;; *);;
+kobrin_1243506000 => nrel_main_idtf: [Kobrin 1243506000](* <- lang_en;; *);;
+kobrin_1243506000 => nrel_population: 53177(*<-number;;*);;
+kobrin_1243506000 => nrel_wiki_data: [Q955992](* <- lang_en;; *);;
+kobrin_1243506000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Кобрин"]({{bbox}}););out body;>;out skel qt;];;kobrin_1243506000 => nrel_inception_year: 1287(* <- concept_number;; *);;
+kobrin_1243506000 => nrel_longitude: [24.366666666](* <- lang_en;; *);;
+kobrin_1243506000 => nrel_latitude: [52.216666666](* <- lang_en;; *);;
+kobrin_1243506000 <- rrel_key_sc_element: ... (* <- illustration;;
+<= nrel_sc_text_translation: ... (*
+-> "file://kobrin_1243506000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+kobrin_1243506000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://kobrin_1243506000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

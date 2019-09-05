@@ -1,0 +1,19 @@
+petrikov_3243501000 <- concept_town;;
+petrikov_3243501000 <- sc_node_not_relation;;
+petrikov_3243501000 => nrel_main_idtf: [Петриков 3243501000](* <- lang_ru;; *);;
+petrikov_3243501000 => nrel_main_idtf: [Petrikov 3243501000](* <- lang_en;; *);;
+petrikov_3243501000 => nrel_population: 10100(*<-number;;*);;
+petrikov_3243501000 => nrel_wiki_data: [Q955717](* <- lang_en;; *);;
+petrikov_3243501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Петриков"]({{bbox}}););out body;>;out skel qt;];;petrikov_3243501000 => nrel_longitude: [28.5](* <- lang_en;; *);;
+petrikov_3243501000 => nrel_latitude: [52.133333333](* <- lang_en;; *);;
+petrikov_3243501000 <- rrel_key_sc_element: ... (* <- illustration;;
+<= nrel_sc_text_translation: ... (*
+-> "file://petrikov_3243501000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+petrikov_3243501000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://petrikov_3243501000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

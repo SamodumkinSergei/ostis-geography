@@ -1,0 +1,7 @@
+gantsevichi_1216501000 <- concept_town;;
+gantsevichi_1216501000 <- sc_node_not_relation;;
+gantsevichi_1216501000 => nrel_main_idtf: [Ганцевичи 1216501000](* <- lang_ru;; *);;
+gantsevichi_1216501000 => nrel_main_idtf: [Gantsevichi 1216501000](* <- lang_en;; *);;
+gantsevichi_1216501000 => nrel_wiki_data: [Q15864941](* <- lang_en;; *);;
+gantsevichi_1216501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Ганцевичи"]({{bbox}}););out body;>;out skel qt;];;gantsevichi_1216501000 => nrel_longitude: [23.683888888](* <- lang_en;; *);;
+gantsevichi_1216501000 => nrel_latitude: [52.466111111](* <- lang_en;; *);;

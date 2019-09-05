@@ -1,0 +1,6 @@
+slonim_4254506000 <- concept_town;;
+slonim_4254506000 <- sc_node_not_relation;;
+slonim_4254506000 => nrel_main_idtf: [Слоним 4254506000](* <- lang_ru;; *);;
+slonim_4254506000 => nrel_main_idtf: [Slonim 4254506000](* <- lang_en;; *);;
+slonim_4254506000 => nrel_population: 49441(*<-number;;*);;
+slonim_4254506000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Слоним"]({{bbox}}););out body;>;out skel qt;];;

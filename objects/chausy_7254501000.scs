@@ -1,0 +1,22 @@
+chausy_7254501000 <- concept_town;;
+chausy_7254501000 <- sc_node_not_relation;;
+chausy_7254501000 => nrel_main_idtf: [Чаусы 7254501000](* <- lang_ru;; *);;
+chausy_7254501000 => nrel_main_idtf: [Chausy 7254501000](* <- lang_en;; *);;
+chausy_7254501000 => nrel_population: 10505(*<-number;;*);;
+chausy_7254501000 => nrel_wiki_data: [Q955113](* <- lang_en;; *);;
+chausy_7254501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Чаусы"]({{bbox}}););out body;>;out skel qt;];;chausy_7254501000 => nrel_longitude: [30.966666666](* <- lang_en;; *);;
+chausy_7254501000 => nrel_latitude: [53.8](* <- lang_en;; *);;
+chausy_7254501000 <- rrel_key_sc_element: ... (* 
+<- illustration;;
+=> nrel_main_idtf: [Рис. Флаг](* <-lang_ru;; *); [Pict. Flag](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+-> "file://chausy_7254501000_flag.jpg"(* => nrel_format:format_jpg;; *);;
+*);;
+*);;
+chausy_7254501000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+=> nrel_main_idtf: [Рис. Герб](* <-lang_ru;; *); [Pict. Coat](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+->"file://chausy_7254501000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

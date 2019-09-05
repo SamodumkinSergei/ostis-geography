@@ -1,0 +1,6 @@
+berezino_6204501000 <- concept_town;;
+berezino_6204501000 <- sc_node_not_relation;;
+berezino_6204501000 => nrel_main_idtf: [Березино 6204501000](* <- lang_ru;; *);;
+berezino_6204501000 => nrel_main_idtf: [Berezino 6204501000](* <- lang_en;; *);;
+berezino_6204501000 => nrel_population: 11672(*<-number;;*);;
+berezino_6204501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Березино"]({{bbox}}););out body;>;out skel qt;];;

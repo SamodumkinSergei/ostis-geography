@@ -1,0 +1,15 @@
+kamenets_1240501000 <- concept_town;;
+kamenets_1240501000 <- sc_node_not_relation;;
+kamenets_1240501000 => nrel_main_idtf: [Каменец 1240501000](* <- lang_ru;; *);;
+kamenets_1240501000 => nrel_main_idtf: [Kamenets 1240501000](* <- lang_en;; *);;
+kamenets_1240501000 => nrel_population: 8360(*<-number;;*);;
+kamenets_1240501000 => nrel_wiki_data: [Q956614](* <- lang_en;; *);;
+kamenets_1240501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Каменец"]({{bbox}}););out body;>;out skel qt;];;kamenets_1240501000 => nrel_inception_year: 1296(* <- concept_number;; *);;
+kamenets_1240501000 => nrel_longitude: [23.808333333](* <- lang_en;; *);;
+kamenets_1240501000 => nrel_latitude: [52.402833333](* <- lang_en;; *);;
+kamenets_1240501000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://kamenets_1240501000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

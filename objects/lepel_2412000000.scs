@@ -1,0 +1,19 @@
+lepel_2412000000 <- concept_town;;
+lepel_2412000000 <- sc_node_not_relation;;
+lepel_2412000000 => nrel_main_idtf: [Лепель 2412000000](* <- lang_ru;; *);;
+lepel_2412000000 => nrel_main_idtf: [Lepel 2412000000](* <- lang_en;; *);;
+lepel_2412000000 => nrel_population: 17828(*<-number;;*);;
+lepel_2412000000 => nrel_wiki_data: [Q954132](* <- lang_en;; *);;
+lepel_2412000000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Лепель"]({{bbox}}););out body;>;out skel qt;];;lepel_2412000000 => nrel_longitude: [28.694444444](* <- lang_en;; *);;
+lepel_2412000000 => nrel_latitude: [54.875](* <- lang_en;; *);;
+lepel_2412000000 <- rrel_key_sc_element: ... (* <- illustration;;
+<= nrel_sc_text_translation: ... (*
+-> "file://lepel_2412000000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+lepel_2412000000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://lepel_2412000000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

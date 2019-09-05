@@ -1,0 +1,16 @@
+dobrush_3212501000 <- concept_town;;
+dobrush_3212501000 <- sc_node_not_relation;;
+dobrush_3212501000 => nrel_main_idtf: [Добруш 3212501000](* <- lang_ru;; *);;
+dobrush_3212501000 => nrel_main_idtf: [Dobrush 3212501000](* <- lang_en;; *);;
+dobrush_3212501000 => nrel_population: 18388(*<-number;;*);;
+dobrush_3212501000 => nrel_wiki_data: [Q955474](* <- lang_en;; *);;
+dobrush_3212501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Добруш"]({{bbox}}););out body;>;out skel qt;];;dobrush_3212501000 => nrel_inception_year: 1335(* <- concept_number;; *);;
+dobrush_3212501000 => nrel_longitude: [31.316666666](* <- lang_en;; *);;
+dobrush_3212501000 => nrel_latitude: [52.416666666](* <- lang_en;; *);;
+dobrush_3212501000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+=> nrel_main_idtf: [Рис. Герб](* <-lang_ru;; *); [Pict. Coat](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+->"file://dobrush_3212501000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

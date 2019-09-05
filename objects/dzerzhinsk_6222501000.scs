@@ -1,0 +1,22 @@
+dzerzhinsk_6222501000 <- concept_town;;
+dzerzhinsk_6222501000 <- sc_node_not_relation;;
+dzerzhinsk_6222501000 => nrel_main_idtf: [Дзержинск 6222501000](* <- lang_ru;; *);;
+dzerzhinsk_6222501000 => nrel_main_idtf: [Dzerzhinsk 6222501000](* <- lang_en;; *);;
+dzerzhinsk_6222501000 => nrel_population: 27839(*<-number;;*);;
+dzerzhinsk_6222501000 => nrel_wiki_data: [Q200891](* <- lang_en;; *);;
+dzerzhinsk_6222501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Дзержинск"]({{bbox}}););out body;>;out skel qt;];;dzerzhinsk_6222501000 => nrel_longitude: [27.133333333](* <- lang_en;; *);;
+dzerzhinsk_6222501000 => nrel_latitude: [53.683333333](* <- lang_en;; *);;
+dzerzhinsk_6222501000 <- rrel_key_sc_element: ... (* 
+<- illustration;;
+=> nrel_main_idtf: [Рис. Флаг](* <-lang_ru;; *); [Pict. Flag](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+-> "file://dzerzhinsk_6222501000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+dzerzhinsk_6222501000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+=> nrel_main_idtf: [Рис. Герб](* <-lang_ru;; *); [Pict. Coat](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+->"file://dzerzhinsk_6222501000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

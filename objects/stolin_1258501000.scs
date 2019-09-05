@@ -1,0 +1,6 @@
+stolin_1258501000 <- concept_town;;
+stolin_1258501000 <- sc_node_not_relation;;
+stolin_1258501000 => nrel_main_idtf: [Столин 1258501000](* <- lang_ru;; *);;
+stolin_1258501000 => nrel_main_idtf: [Stolin 1258501000](* <- lang_en;; *);;
+stolin_1258501000 => nrel_population: 13460(*<-number;;*);;
+stolin_1258501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Столин"]({{bbox}}););out body;>;out skel qt;];;

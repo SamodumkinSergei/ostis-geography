@@ -1,0 +1,23 @@
+bobrujsk_7410000000 <- concept_town;;
+bobrujsk_7410000000 <- sc_node_not_relation;;
+bobrujsk_7410000000 => nrel_main_idtf: [Бобруйск 7410000000](* <- lang_ru;; *);;
+bobrujsk_7410000000 => nrel_main_idtf: [Bobrujsk 7410000000](* <- lang_en;; *);;
+bobrujsk_7410000000 => nrel_population: 217546(*<-number;;*);;
+bobrujsk_7410000000 => nrel_wiki_data: [Q207294](* <- lang_en;; *);;
+bobrujsk_7410000000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Бобруйск"]({{bbox}}););out body;>;out skel qt;];;bobrujsk_7410000000 => nrel_inception_year: 1387(* <- concept_number;; *);;
+bobrujsk_7410000000 => nrel_longitude: [29.233333333](* <- lang_en;; *);;
+bobrujsk_7410000000 => nrel_latitude: [53.15](* <- lang_en;; *);;
+bobrujsk_7410000000 <- rrel_key_sc_element: ... (* 
+<- illustration;;
+=> nrel_main_idtf: [Рис. Флаг](* <-lang_ru;; *); [Pict. Flag](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+-> "file://bobrujsk_7410000000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+bobrujsk_7410000000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+=> nrel_main_idtf: [Рис. Герб](* <-lang_ru;; *); [Pict. Coat](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+->"file://bobrujsk_7410000000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

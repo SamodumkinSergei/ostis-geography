@@ -1,0 +1,15 @@
+elsk_3214501000 <- concept_town;;
+elsk_3214501000 <- sc_node_not_relation;;
+elsk_3214501000 => nrel_main_idtf: [Ельск 3214501000](* <- lang_ru;; *);;
+elsk_3214501000 => nrel_main_idtf: [Elsk 3214501000](* <- lang_en;; *);;
+elsk_3214501000 => nrel_population: 9046(*<-number;;*);;
+elsk_3214501000 => nrel_wiki_data: [Q955726](* <- lang_en;; *);;
+elsk_3214501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Ельск"]({{bbox}}););out body;>;out skel qt;];;elsk_3214501000 => nrel_longitude: [29.15](* <- lang_en;; *);;
+elsk_3214501000 => nrel_latitude: [51.816666666](* <- lang_en;; *);;
+/*elsk_3214501000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+=> nrel_main_idtf: [Рис. Герб](* <-lang_ru;; *); [Pict. Coat](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+->"file://elsk_3214501000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;*/

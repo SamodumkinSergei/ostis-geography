@@ -1,0 +1,19 @@
+postavy_2240501000 <- concept_town;;
+postavy_2240501000 <- sc_node_not_relation;;
+postavy_2240501000 => nrel_main_idtf: [Поставы 2240501000](* <- lang_ru;; *);;
+postavy_2240501000 => nrel_main_idtf: [Postavy 2240501000](* <- lang_en;; *);;
+postavy_2240501000 => nrel_population: 19881(*<-number;;*);;
+postavy_2240501000 => nrel_wiki_data: [Q539012](* <- lang_en;; *);;
+postavy_2240501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Поставы"]({{bbox}}););out body;>;out skel qt;];;postavy_2240501000 => nrel_longitude: [26.833333333](* <- lang_en;; *);;
+postavy_2240501000 => nrel_latitude: [55.116666666](* <- lang_en;; *);;
+postavy_2240501000 <- rrel_key_sc_element: ... (* <- illustration;;
+<= nrel_sc_text_translation: ... (*
+-> "file://postavy_2240501000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+postavy_2240501000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://postavy_2240501000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

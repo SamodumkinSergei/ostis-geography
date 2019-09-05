@@ -1,0 +1,20 @@
+pinsk_1445000000 <- concept_town;;
+pinsk_1445000000 <- sc_node_not_relation;;
+pinsk_1445000000 => nrel_main_idtf: [Пинск 1445000000](* <- lang_ru;; *);;
+pinsk_1445000000 => nrel_main_idtf: [Pinsk 1445000000](* <- lang_en;; *);;
+pinsk_1445000000 => nrel_population: 137961(*<-number;;*);;
+pinsk_1445000000 => nrel_wiki_data: [Q204150](* <- lang_en;; *);;
+pinsk_1445000000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Пинск"]({{bbox}}););out body;>;out skel qt;];;pinsk_1445000000 => nrel_inception_year: 1097(* <- concept_number;; *);;
+pinsk_1445000000 => nrel_longitude: [26.083333333](* <- lang_en;; *);;
+pinsk_1445000000 => nrel_latitude: [52.116666666](* <- lang_en;; *);;
+pinsk_1445000000 <- rrel_key_sc_element: ... (* <- illustration;;
+<= nrel_sc_text_translation: ... (*
+-> "file://pinsk_1445000000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+pinsk_1445000000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://pinsk_1445000000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

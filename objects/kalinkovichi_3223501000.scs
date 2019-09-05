@@ -1,0 +1,19 @@
+kalinkovichi_3223501000 <- concept_town;;
+kalinkovichi_3223501000 <- sc_node_not_relation;;
+kalinkovichi_3223501000 => nrel_main_idtf: [Калинковичи 3223501000](* <- lang_ru;; *);;
+kalinkovichi_3223501000 => nrel_main_idtf: [Kalinkovichi 3223501000](* <- lang_en;; *);;
+kalinkovichi_3223501000 => nrel_population: 40282(*<-number;;*);;
+kalinkovichi_3223501000 => nrel_wiki_data: [Q937344](* <- lang_en;; *);;
+kalinkovichi_3223501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Калинковичи"]({{bbox}}););out body;>;out skel qt;];;kalinkovichi_3223501000 => nrel_longitude: [29.333333333](* <- lang_en;; *);;
+kalinkovichi_3223501000 => nrel_latitude: [52.133333333](* <- lang_en;; *);;
+kalinkovichi_3223501000 <- rrel_key_sc_element: ... (* <- illustration;;
+<= nrel_sc_text_translation: ... (*
+-> "file://kalinkovichi_3223501000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+kalinkovichi_3223501000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://kalinkovichi_3223501000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

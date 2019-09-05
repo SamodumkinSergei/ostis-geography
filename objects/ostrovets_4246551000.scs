@@ -1,0 +1,19 @@
+ostrovets_4246551000 <- concept_urban_village;;
+ostrovets_4246551000 <- sc_node_not_relation;;
+ostrovets_4246551000 => nrel_main_idtf: [Островец 4246551000](* <- lang_ru;; *);;
+ostrovets_4246551000 => nrel_main_idtf: [Ostrovets 4246551000](* <- lang_en;; *);;
+ostrovets_4246551000 => nrel_population: 10878(*<-number;;*);;
+ostrovets_4246551000 => nrel_wiki_data: [Q261024](* <- lang_en;; *);;
+ostrovets_4246551000 => nrel_longitude: [25.955277777](* <- lang_en;; *);;
+ostrovets_4246551000 => nrel_latitude: [54.613611111](* <- lang_en;; *);;
+ostrovets_4246551000 <- rrel_key_sc_element: ... (* <- illustration;;
+<= nrel_sc_text_translation: ... (*
+-> "file://ostrovets_4246551000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+ostrovets_4246551000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://ostrovets_4246551000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

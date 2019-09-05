@@ -1,0 +1,22 @@
+belynichi_7204551000 <- concept_urban_village;;
+belynichi_7204551000 <- sc_node_not_relation;;
+belynichi_7204551000 => nrel_main_idtf: [Белыничи 7204551000](* <- lang_ru;; *);;
+belynichi_7204551000 => nrel_main_idtf: [Belynichi 7204551000](* <- lang_en;; *);;
+belynichi_7204551000 => nrel_population: 9887(*<-number;;*);;
+belynichi_7204551000 => nrel_wiki_data: [Q2630527](* <- lang_en;; *);;
+belynichi_7204551000 => nrel_longitude: [29.70958](* <- lang_en;; *);;
+belynichi_7204551000 => nrel_latitude: [53.99558](* <- lang_en;; *);;
+belynichi_7204551000 <- rrel_key_sc_element: ... (* 
+<- illustration;;
+=> nrel_main_idtf: [Рис. Флаг](* <-lang_ru;; *); [Pict. Flag](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+-> "file://belynichi_7204551000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+belynichi_7204551000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+=> nrel_main_idtf: [Рис. Герб](* <-lang_ru;; *); [Pict. Coat](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+->"file://belynichi_7204551000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

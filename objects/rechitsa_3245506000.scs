@@ -1,0 +1,19 @@
+rechitsa_3245506000 <- concept_town;;
+rechitsa_3245506000 <- sc_node_not_relation;;
+rechitsa_3245506000 => nrel_main_idtf: [Речица 3245506000](* <- lang_ru;; *);;
+rechitsa_3245506000 => nrel_main_idtf: [Rechitsa 3245506000](* <- lang_en;; *);;
+rechitsa_3245506000 => nrel_population: 65940(*<-number;;*);;
+rechitsa_3245506000 => nrel_wiki_data: [Q909612](* <- lang_en;; *);;
+rechitsa_3245506000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Речица"]({{bbox}}););out body;>;out skel qt;];;rechitsa_3245506000 => nrel_longitude: [30.38796](* <- lang_en;; *);;
+rechitsa_3245506000 => nrel_latitude: [52.3724](* <- lang_en;; *);;
+rechitsa_3245506000 <- rrel_key_sc_element: ... (* <- illustration;;
+<= nrel_sc_text_translation: ... (*
+-> "file://rechitsa_3245506000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+rechitsa_3245506000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://rechitsa_3245506000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

@@ -1,0 +1,15 @@
+babinovichi_2218804016 <- concept_village;;
+babinovichi_2218804016 <- sc_node_not_relation;;
+babinovichi_2218804016 => nrel_main_idtf: [Бабиновичи 2218804016](* <- lang_ru;; *);;
+babinovichi_2218804016 => nrel_main_idtf: [Babinovichi 2218804016](* <- lang_en;; *);;
+babinovichi_2218804016 => nrel_population: 461(*<-number;;*);;
+babinovichi_2218804016 => nrel_wiki_data: [Q1066728](* <- lang_en;; *);;
+babinovichi_2218804016 => nrel_longitude: [30.55](* <- lang_en;; *);;
+babinovichi_2218804016 => nrel_latitude: [54.833333333](* <- lang_en;; *);;
+babinovichi_2218804016 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+=> nrel_main_idtf: [Рис. Герб](* <-lang_ru;; *); [Pict. Coat](* <-lang_en;; *);;
+->"file://babinovichi_2218804016_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

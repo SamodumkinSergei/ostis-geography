@@ -1,0 +1,19 @@
+polotsk_2435000000 <- concept_town;;
+polotsk_2435000000 <- sc_node_not_relation;;
+polotsk_2435000000 => nrel_main_idtf: [Полоцк 2435000000](* <- lang_ru;; *);;
+polotsk_2435000000 => nrel_main_idtf: [Polotsk 2435000000](* <- lang_en;; *);;
+polotsk_2435000000 => nrel_population: 84597(*<-number;;*);;
+polotsk_2435000000 => nrel_wiki_data: [Q200797](* <- lang_en;; *);;
+polotsk_2435000000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Полоцк"]({{bbox}}););out body;>;out skel qt;];;polotsk_2435000000 => nrel_longitude: [28.8](* <- lang_en;; *);;
+polotsk_2435000000 => nrel_latitude: [55.483333333](* <- lang_en;; *);;
+polotsk_2435000000 <- rrel_key_sc_element: ... (* <- illustration;;
+<= nrel_sc_text_translation: ... (*
+-> "file://polotsk_2435000000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+polotsk_2435000000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://polotsk_2435000000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

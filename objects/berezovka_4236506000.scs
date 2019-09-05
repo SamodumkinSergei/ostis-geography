@@ -1,0 +1,6 @@
+berezovka_4236506000 <- concept_town;;
+berezovka_4236506000 <- sc_node_not_relation;;
+berezovka_4236506000 => nrel_main_idtf: [Березовка 4236506000](* <- lang_ru;; *);;
+berezovka_4236506000 => nrel_main_idtf: [Berezovka 4236506000](* <- lang_en;; *);;
+berezovka_4236506000 => nrel_wiki_data: [Q6469152](* <- lang_en;; *);;
+berezovka_4236506000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Березовка"]({{bbox}}););out body;>;out skel qt;];;

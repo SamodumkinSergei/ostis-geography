@@ -1,0 +1,6 @@
+david_gorodok_1258510000 <- concept_town;;
+david_gorodok_1258510000 <- sc_node_not_relation;;
+david_gorodok_1258510000 => nrel_main_idtf: [Давид-Городок 1258510000](* <- lang_ru;; *);;
+david_gorodok_1258510000 => nrel_main_idtf: [David_gorodok 1258510000](* <- lang_en;; *);;
+david_gorodok_1258510000 => nrel_population: 5851(*<-number;;*);;
+david_gorodok_1258510000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Давид-Городок"]({{bbox}}););out body;>;out skel qt;];;

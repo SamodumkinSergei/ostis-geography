@@ -1,0 +1,20 @@
+liozno_2230551000 <- concept_urban_village;;
+liozno_2230551000 <- sc_node_not_relation;;
+liozno_2230551000 => nrel_main_idtf: [Лиозно 2230551000](* <- lang_ru;; *);;
+liozno_2230551000 => nrel_main_idtf: [Liozno 2230551000](* <- lang_en;; *);;
+liozno_2230551000 => nrel_population: 6684(*<-number;;*);;
+liozno_2230551000 => nrel_wiki_data: [Q1025872](* <- lang_en;; *);;
+liozno_2230551000 => nrel_inception_year: 1525(* <- concept_number;; *);;
+liozno_2230551000 => nrel_longitude: [30.8](* <- lang_en;; *);;
+liozno_2230551000 => nrel_latitude: [55.016666666](* <- lang_en;; *);;
+liozno_2230551000 <- rrel_key_sc_element: ... (* <- illustration;;
+<= nrel_sc_text_translation: ... (*
+-> "file://liozno_2230551000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+liozno_2230551000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://liozno_2230551000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

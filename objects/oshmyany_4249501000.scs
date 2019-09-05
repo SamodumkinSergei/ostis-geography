@@ -1,0 +1,19 @@
+oshmyany_4249501000 <- concept_town;;
+oshmyany_4249501000 <- sc_node_not_relation;;
+oshmyany_4249501000 => nrel_main_idtf: [Ошмяны 4249501000](* <- lang_ru;; *);;
+oshmyany_4249501000 => nrel_main_idtf: [Oshmyany 4249501000](* <- lang_en;; *);;
+oshmyany_4249501000 => nrel_population: 16835(*<-number;;*);;
+oshmyany_4249501000 => nrel_wiki_data: [Q722836](* <- lang_en;; *);;
+oshmyany_4249501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Ошмяны"]({{bbox}}););out body;>;out skel qt;];;oshmyany_4249501000 => nrel_longitude: [25.916666666](* <- lang_en;; *);;
+oshmyany_4249501000 => nrel_latitude: [54.416666666](* <- lang_en;; *);;
+oshmyany_4249501000 <- rrel_key_sc_element: ... (* <- illustration;;
+<= nrel_sc_text_translation: ... (*
+-> "file://oshmyany_4249501000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+oshmyany_4249501000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://oshmyany_4249501000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

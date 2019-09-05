@@ -1,0 +1,9 @@
+novogrudok_4243501000 <- concept_town;;
+novogrudok_4243501000 <- sc_node_not_relation;;
+novogrudok_4243501000 => nrel_main_idtf: [Новогрудок 4243501000](* <- lang_ru;; *);;
+novogrudok_4243501000 => nrel_main_idtf: [Novogrudok 4243501000](* <- lang_en;; *);;
+novogrudok_4243501000 => nrel_population: 29424(*<-number;;*);;
+novogrudok_4243501000 => nrel_wiki_data: [Q278743](* <- lang_en;; *);;
+novogrudok_4243501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Новогрудок"]({{bbox}}););out body;>;out skel qt;];;novogrudok_4243501000 => nrel_inception_year: 1044(* <- concept_number;; *);;
+novogrudok_4243501000 => nrel_longitude: [25.816666666](* <- lang_en;; *);;
+novogrudok_4243501000 => nrel_latitude: [53.583333333](* <- lang_en;; *);;

@@ -1,0 +1,8 @@
+shchuchin_4258501000 <- concept_town;;
+shchuchin_4258501000 <- sc_node_not_relation;;
+shchuchin_4258501000 => nrel_main_idtf: [Щучин 4258501000](* <- lang_ru;; *);;
+shchuchin_4258501000 => nrel_main_idtf: [Shchuchin 4258501000](* <- lang_en;; *);;
+shchuchin_4258501000 => nrel_population: 15475(*<-number;;*);;
+shchuchin_4258501000 => nrel_wiki_data: [Q431779](* <- lang_en;; *);;
+shchuchin_4258501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Щучин"]({{bbox}}););out body;>;out skel qt;];;shchuchin_4258501000 => nrel_longitude: [24.74263](* <- lang_en;; *);;
+shchuchin_4258501000 => nrel_latitude: [53.6044](* <- lang_en;; *);;

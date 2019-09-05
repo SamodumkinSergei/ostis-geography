@@ -1,0 +1,19 @@
+stolbtsy_6254501000 <- concept_town;;
+stolbtsy_6254501000 <- sc_node_not_relation;;
+stolbtsy_6254501000 => nrel_main_idtf: [Столбцы 6254501000](* <- lang_ru;; *);;
+stolbtsy_6254501000 => nrel_main_idtf: [Stolbtsy 6254501000](* <- lang_en;; *);;
+stolbtsy_6254501000 => nrel_population: 16946(*<-number;;*);;
+stolbtsy_6254501000 => nrel_wiki_data: [Q201421](* <- lang_en;; *);;
+stolbtsy_6254501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Столбцы"]({{bbox}}););out body;>;out skel qt;];;stolbtsy_6254501000 => nrel_longitude: [26.733333333](* <- lang_en;; *);;
+stolbtsy_6254501000 => nrel_latitude: [53.483333333](* <- lang_en;; *);;
+stolbtsy_6254501000 <- rrel_key_sc_element: ... (* <- illustration;;
+<= nrel_sc_text_translation: ... (*
+-> "file://stolbtsy_6254501000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+stolbtsy_6254501000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://stolbtsy_6254501000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

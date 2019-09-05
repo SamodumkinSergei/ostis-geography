@@ -1,0 +1,22 @@
+begoml_2221552000 <- concept_urban_village;;
+begoml_2221552000 <- sc_node_not_relation;;
+begoml_2221552000 => nrel_main_idtf: [Бегомль 2221552000](* <- lang_ru;; *);;
+begoml_2221552000 => nrel_main_idtf: [Begoml 2221552000](* <- lang_en;; *);;
+begoml_2221552000 => nrel_population: 2677(*<-number;;*);;
+begoml_2221552000 => nrel_wiki_data: [Q2987876](* <- lang_en;; *);;
+begoml_2221552000 => nrel_longitude: [28.05](* <- lang_en;; *);;
+begoml_2221552000 => nrel_latitude: [54.733333333](* <- lang_en;; *);;
+begoml_2221552000 <- rrel_key_sc_element: ... (* 
+<- illustration;;
+=> nrel_main_idtf: [Рис. Флаг](* <-lang_ru;; *); [Pict. Flag](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+-> "file://begoml_2221552000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+begoml_2221552000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+=> nrel_main_idtf: [Рис. Герб](* <-lang_ru;; *); [Pict. Coat](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+->"file://begoml_2221552000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

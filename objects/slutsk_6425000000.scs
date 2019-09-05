@@ -1,0 +1,20 @@
+slutsk_6425000000 <- concept_town;;
+slutsk_6425000000 <- sc_node_not_relation;;
+slutsk_6425000000 => nrel_main_idtf: [Слуцк 6425000000](* <- lang_ru;; *);;
+slutsk_6425000000 => nrel_main_idtf: [Slutsk 6425000000](* <- lang_en;; *);;
+slutsk_6425000000 => nrel_population: 61818(*<-number;;*);;
+slutsk_6425000000 => nrel_wiki_data: [Q201243](* <- lang_en;; *);;
+slutsk_6425000000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Слуцк"]({{bbox}}););out body;>;out skel qt;];;slutsk_6425000000 => nrel_inception_year: 1116(* <- concept_number;; *);;
+slutsk_6425000000 => nrel_longitude: [27.55](* <- lang_en;; *);;
+slutsk_6425000000 => nrel_latitude: [53.016666666](* <- lang_en;; *);;
+slutsk_6425000000 <- rrel_key_sc_element: ... (* <- illustration;;
+<= nrel_sc_text_translation: ... (*
+-> "file://slutsk_6425000000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+slutsk_6425000000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://slutsk_6425000000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

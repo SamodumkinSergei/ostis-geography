@@ -1,0 +1,20 @@
+lyuban_6234501000 <- concept_town;;
+lyuban_6234501000 <- sc_node_not_relation;;
+lyuban_6234501000 => nrel_main_idtf: [Любань 6234501000](* <- lang_ru;; *);;
+lyuban_6234501000 => nrel_main_idtf: [Lyuban 6234501000](* <- lang_en;; *);;
+lyuban_6234501000 => nrel_population: 10917(*<-number;;*);;
+lyuban_6234501000 => nrel_wiki_data: [Q200991](* <- lang_en;; *);;
+lyuban_6234501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Любань"]({{bbox}}););out body;>;out skel qt;];;lyuban_6234501000 => nrel_inception_year: 1566(* <- concept_number;; *);;
+lyuban_6234501000 => nrel_longitude: [28.0525](* <- lang_en;; *);;
+lyuban_6234501000 => nrel_latitude: [52.781944444](* <- lang_en;; *);;
+lyuban_6234501000 <- rrel_key_sc_element: ... (* <- illustration;;
+<= nrel_sc_text_translation: ... (*
+-> "file://lyuban_6234501000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+lyuban_6234501000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://lyuban_6234501000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

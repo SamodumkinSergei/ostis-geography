@@ -1,0 +1,8 @@
+marina_gorka_6244501000 <- concept_town;;
+marina_gorka_6244501000 <- sc_node_not_relation;;
+marina_gorka_6244501000 => nrel_main_idtf: [Марьина Горка 6244501000](* <- lang_ru;; *);;
+marina_gorka_6244501000 => nrel_main_idtf: [Marina gorka 6244501000](* <- lang_en;; *);;
+marina_gorka_6244501000 => nrel_population: 21167(*<-number;;*);;
+marina_gorka_6244501000 => nrel_wiki_data: [Q201173](* <- lang_en;; *);;
+marina_gorka_6244501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Марьина"]({{bbox}}););out body;>;out skel qt;];;marina_gorka_6244501000 => nrel_longitude: [28.141666666](* <- lang_en;; *);;
+marina_gorka_6244501000 => nrel_latitude: [53.516666666](* <- lang_en;; *);;

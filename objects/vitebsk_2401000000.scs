@@ -1,0 +1,23 @@
+vitebsk_2401000000 <- concept_town;;
+vitebsk_2401000000 <- sc_node_not_relation;;
+vitebsk_2401000000 => nrel_main_idtf: [Витебск 2401000000](* <- lang_ru;; *);;
+vitebsk_2401000000 => nrel_main_idtf: [Vitebsk 2401000000](* <- lang_en;; *);;
+vitebsk_2401000000 => nrel_population: 370298(*<-number;;*);;
+vitebsk_2401000000 => nrel_wiki_data: [Q102217](* <- lang_en;; *);;
+vitebsk_2401000000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Витебск"]({{bbox}}););out body;>;out skel qt;];;vitebsk_2401000000 => nrel_inception_year: 0974(* <- concept_number;; *);;
+vitebsk_2401000000 => nrel_longitude: [30.166666666](* <- lang_en;; *);;
+vitebsk_2401000000 => nrel_latitude: [55.183333333](* <- lang_en;; *);;
+vitebsk_2401000000 <- rrel_key_sc_element: ... (* 
+<- illustration;;
+=> nrel_main_idtf: [Рис. Флаг](* <-lang_ru;; *); [Pict. Flag](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+-> "file://vitebsk_2401000000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+vitebsk_2401000000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+=> nrel_main_idtf: [Рис. Герб](* <-lang_ru;; *); [Pict. Coat](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+->"file://vitebsk_2401000000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

@@ -1,0 +1,6 @@
+smorgon_4256501000 <- concept_town;;
+smorgon_4256501000 <- sc_node_not_relation;;
+smorgon_4256501000 => nrel_main_idtf: [Сморгонь 4256501000](* <- lang_ru;; *);;
+smorgon_4256501000 => nrel_main_idtf: [Smorgon 4256501000](* <- lang_en;; *);;
+smorgon_4256501000 => nrel_population: 37527(*<-number;;*);;
+smorgon_4256501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Сморгонь"]({{bbox}}););out body;>;out skel qt;];;

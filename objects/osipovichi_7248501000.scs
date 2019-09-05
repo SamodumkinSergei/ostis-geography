@@ -1,0 +1,8 @@
+osipovichi_7248501000 <- concept_town;;
+osipovichi_7248501000 <- sc_node_not_relation;;
+osipovichi_7248501000 => nrel_main_idtf: [Осиповичи 7248501000](* <- lang_ru;; *);;
+osipovichi_7248501000 => nrel_main_idtf: [Osipovichi 7248501000](* <- lang_en;; *);;
+osipovichi_7248501000 => nrel_population: 363(*<-number;;*);;
+osipovichi_7248501000 => nrel_wiki_data: [Q6465476](* <- lang_en;; *);;
+osipovichi_7248501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Осиповичи"]({{bbox}}););out body;>;out skel qt;];;osipovichi_7248501000 => nrel_longitude: [24.81766667](* <- lang_en;; *);;
+osipovichi_7248501000 => nrel_latitude: [52.13752778](* <- lang_en;; *);;

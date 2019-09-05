@@ -1,0 +1,20 @@
+novopolotsk_2418000000 <- concept_town;;
+novopolotsk_2418000000 <- sc_node_not_relation;;
+novopolotsk_2418000000 => nrel_main_idtf: [Новополоцк 2418000000](* <- lang_ru;; *);;
+novopolotsk_2418000000 => nrel_main_idtf: [Novopolotsk 2418000000](* <- lang_en;; *);;
+novopolotsk_2418000000 => nrel_population: 101596(*<-number;;*);;
+novopolotsk_2418000000 => nrel_wiki_data: [Q750424](* <- lang_en;; *);;
+novopolotsk_2418000000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Новополоцк"]({{bbox}}););out body;>;out skel qt;];;novopolotsk_2418000000 => nrel_inception_year: 1958(* <- concept_number;; *);;
+novopolotsk_2418000000 => nrel_longitude: [28.666666666](* <- lang_en;; *);;
+novopolotsk_2418000000 => nrel_latitude: [55.533333333](* <- lang_en;; *);;
+novopolotsk_2418000000 <- rrel_key_sc_element: ... (* <- illustration;;
+<= nrel_sc_text_translation: ... (*
+-> "file://novopolotsk_2418000000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+novopolotsk_2418000000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://novopolotsk_2418000000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

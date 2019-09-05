@@ -1,0 +1,19 @@
+ivanovo_1230501000 <- concept_town;;
+ivanovo_1230501000 <- sc_node_not_relation;;
+ivanovo_1230501000 => nrel_main_idtf: [Иваново 1230501000](* <- lang_ru;; *);;
+ivanovo_1230501000 => nrel_main_idtf: [Ivanovo 1230501000](* <- lang_en;; *);;
+ivanovo_1230501000 => nrel_population: 16417(*<-number;;*);;
+ivanovo_1230501000 => nrel_wiki_data: [Q956207](* <- lang_en;; *);;
+ivanovo_1230501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Иваново"]({{bbox}}););out body;>;out skel qt;];;ivanovo_1230501000 => nrel_longitude: [25.55](* <- lang_en;; *);;
+ivanovo_1230501000 => nrel_latitude: [52.133333333](* <- lang_en;; *);;
+ivanovo_1230501000 <- rrel_key_sc_element: ... (* <- illustration;;
+<= nrel_sc_text_translation: ... (*
+-> "file://ivanovo_1230501000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+ivanovo_1230501000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://ivanovo_1230501000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

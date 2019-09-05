@@ -1,0 +1,6 @@
+malorita_1252501000 <- concept_town;;
+malorita_1252501000 <- sc_node_not_relation;;
+malorita_1252501000 => nrel_main_idtf: [Малорита 1252501000](* <- lang_ru;; *);;
+malorita_1252501000 => nrel_main_idtf: [Malorita 1252501000](* <- lang_en;; *);;
+malorita_1252501000 => nrel_population: 11914(*<-number;;*);;
+malorita_1252501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Малорита"]({{bbox}}););out body;>;out skel qt;];;

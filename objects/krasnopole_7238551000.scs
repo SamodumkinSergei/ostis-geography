@@ -1,0 +1,19 @@
+krasnopole_7238551000 <- concept_urban_village;;
+krasnopole_7238551000 <- sc_node_not_relation;;
+krasnopole_7238551000 => nrel_main_idtf: [Краснополье 7238551000](* <- lang_ru;; *);;
+krasnopole_7238551000 => nrel_main_idtf: [Krasnopole 7238551000](* <- lang_en;; *);;
+krasnopole_7238551000 => nrel_population: 5757(*<-number;;*);;
+krasnopole_7238551000 => nrel_wiki_data: [Q2630603](* <- lang_en;; *);;
+krasnopole_7238551000 => nrel_longitude: [31.402222222](* <- lang_en;; *);;
+krasnopole_7238551000 => nrel_latitude: [53.333333333](* <- lang_en;; *);;
+krasnopole_7238551000 <- rrel_key_sc_element: ... (* <- illustration;;
+<= nrel_sc_text_translation: ... (*
+-> "file://krasnopole_7238551000_flag.jpg"(* => nrel_format:format_jpg;; *);;
+*);;
+*);;
+krasnopole_7238551000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://krasnopole_7238551000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

@@ -1,0 +1,20 @@
+oktyabrskij_3240551000 <- concept_urban_village;;
+oktyabrskij_3240551000 <- sc_node_not_relation;;
+oktyabrskij_3240551000 => nrel_main_idtf: [Октябрьский 3240551000](* <- lang_ru;; *);;
+oktyabrskij_3240551000 => nrel_main_idtf: [Oktyabrskij 3240551000](* <- lang_en;; *);;
+oktyabrskij_3240551000 => nrel_population: 6594(*<-number;;*);;
+oktyabrskij_3240551000 => nrel_wiki_data: [Q2494383](* <- lang_en;; *);;
+oktyabrskij_3240551000 => nrel_inception_year: 1954(* <- concept_number;; *);;
+oktyabrskij_3240551000 => nrel_longitude: [28.882222222](* <- lang_en;; *);;
+oktyabrskij_3240551000 => nrel_latitude: [52.643055555](* <- lang_en;; *);;
+oktyabrskij_3240551000 <- rrel_key_sc_element: ... (* <- illustration;;
+<= nrel_sc_text_translation: ... (*
+-> "file://oktyabrskij_3240551000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+oktyabrskij_3240551000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://oktyabrskij_3240551000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

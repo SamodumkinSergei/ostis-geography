@@ -1,0 +1,8 @@
+novolukoml_2251510000 <- concept_town;;
+novolukoml_2251510000 <- sc_node_not_relation;;
+novolukoml_2251510000 => nrel_main_idtf: [Новолукомль 2251510000](* <- lang_ru;; *);;
+novolukoml_2251510000 => nrel_main_idtf: [Novolukoml 2251510000](* <- lang_en;; *);;
+novolukoml_2251510000 => nrel_population: 12943(*<-number;;*);;
+novolukoml_2251510000 => nrel_wiki_data: [Q954178](* <- lang_en;; *);;
+novolukoml_2251510000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Новолукомль"]({{bbox}}););out body;>;out skel qt;];;novolukoml_2251510000 => nrel_longitude: [29.154722222](* <- lang_en;; *);;
+novolukoml_2251510000 => nrel_latitude: [54.665833333](* <- lang_en;; *);;

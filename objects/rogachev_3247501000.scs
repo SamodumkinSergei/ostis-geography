@@ -1,0 +1,5 @@
+rogachev_3247501000 <- concept_town;;
+rogachev_3247501000 <- sc_node_not_relation;;
+rogachev_3247501000 => nrel_main_idtf: [Рогачев 3247501000](* <- lang_ru;; *);;
+rogachev_3247501000 => nrel_main_idtf: [Rogachev 3247501000](* <- lang_en;; *);;
+rogachev_3247501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Рогачев"]({{bbox}}););out body;>;out skel qt;];;

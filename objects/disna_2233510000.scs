@@ -1,0 +1,20 @@
+disna_2233510000 <- concept_town;;
+disna_2233510000 <- sc_node_not_relation;;
+disna_2233510000 => nrel_main_idtf: [Дисна 2233510000](* <- lang_ru;; *);;
+disna_2233510000 => nrel_main_idtf: [Disna 2233510000](* <- lang_en;; *);;
+disna_2233510000 => nrel_population: 1462(*<-number;;*);;
+disna_2233510000 => nrel_wiki_data: [Q651555](* <- lang_en;; *);;
+disna_2233510000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Дисна"]({{bbox}}););out body;>;out skel qt;];;
+disna_2233510000 => nrel_longitude: [28.225833333](* <- lang_en;; *);;
+disna_2233510000 => nrel_latitude: [55.562777777](* <- lang_en;; *);;
+/*disna_2233510000 <- rrel_key_sc_element: ... (* <- illustration;;
+<= nrel_sc_text_translation: ... (*
+-> "disna_2233510000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+disna_2233510000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"disna_2233510000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;*/

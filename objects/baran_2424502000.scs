@@ -1,0 +1,8 @@
+baran_2424502000 <- concept_town;;
+baran_2424502000 <- sc_node_not_relation;;
+baran_2424502000 => nrel_main_idtf: [Барань 2424502000](* <- lang_ru;; *);;
+baran_2424502000 => nrel_main_idtf: [Baran 2424502000](* <- lang_en;; *);;
+baran_2424502000 => nrel_population: 11154(*<-number;;*);;
+baran_2424502000 => nrel_wiki_data: [Q286964](* <- lang_en;; *);;
+baran_2424502000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Барань"]({{bbox}}););out body;>;out skel qt;];;baran_2424502000 => nrel_longitude: [30.333333333](* <- lang_en;; *);;
+baran_2424502000 => nrel_latitude: [54.483333333](* <- lang_en;; *);;

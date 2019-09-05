@@ -1,0 +1,15 @@
+ruzhany_1256555000 <- concept_urban_village;;
+ruzhany_1256555000 <- sc_node_not_relation;;
+ruzhany_1256555000 => nrel_main_idtf: [Ружаны 1256555000](* <- lang_ru;; *);;
+ruzhany_1256555000 => nrel_main_idtf: [Ruzhany 1256555000](* <- lang_en;; *);;
+ruzhany_1256555000 => nrel_population: 3021(*<-number;;*);;
+ruzhany_1256555000 => nrel_wiki_data: [Q615132](* <- lang_en;; *);;
+ruzhany_1256555000 => nrel_inception_year: 1552(* <- concept_number;; *);;
+ruzhany_1256555000 => nrel_longitude: [24.890555555](* <- lang_en;; *);;
+ruzhany_1256555000 => nrel_latitude: [52.864722222](* <- lang_en;; *);;
+ruzhany_1256555000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://ruzhany_1256555000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

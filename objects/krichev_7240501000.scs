@@ -1,0 +1,6 @@
+krichev_7240501000 <- concept_town;;
+krichev_7240501000 <- sc_node_not_relation;;
+krichev_7240501000 => nrel_main_idtf: [Кричев 7240501000](* <- lang_ru;; *);;
+krichev_7240501000 => nrel_main_idtf: [Krichev 7240501000](* <- lang_en;; *);;
+krichev_7240501000 => nrel_population: 26007(*<-number;;*);;
+krichev_7240501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Кричев"]({{bbox}}););out body;>;out skel qt;];;

@@ -1,0 +1,6 @@
+cherven_6258501000 <- concept_town;;
+cherven_6258501000 <- sc_node_not_relation;;
+cherven_6258501000 => nrel_main_idtf: [Червень 6258501000](* <- lang_ru;; *);;
+cherven_6258501000 => nrel_main_idtf: [Cherven 6258501000](* <- lang_en;; *);;
+cherven_6258501000 => nrel_population: 9619(*<-number;;*);;
+cherven_6258501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Червень"]({{bbox}}););out body;>;out skel qt;];;

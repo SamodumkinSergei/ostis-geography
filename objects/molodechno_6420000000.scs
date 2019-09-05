@@ -1,0 +1,22 @@
+molodechno_6420000000 <- concept_town;;
+molodechno_6420000000 <- sc_node_not_relation;;
+molodechno_6420000000 => nrel_main_idtf: [Молодечно 6420000000](* <- lang_ru;; *);;
+molodechno_6420000000 => nrel_main_idtf: [Molodechno 6420000000](* <- lang_en;; *);;
+molodechno_6420000000 => nrel_population: 95011(*<-number;;*);;
+molodechno_6420000000 => nrel_wiki_data: [Q201203](* <- lang_en;; *);;
+molodechno_6420000000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Молодечно"]({{bbox}}););out body;>;out skel qt;];;molodechno_6420000000 => nrel_longitude: [26.851666666](* <- lang_en;; *);;
+molodechno_6420000000 => nrel_latitude: [54.313611111](* <- lang_en;; *);;
+molodechno_6420000000 <- rrel_key_sc_element: ... (* 
+<- illustration;;
+=> nrel_main_idtf: [Рис. Флаг](* <-lang_ru;; *); [Pict. Flag](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+-> "file://molodechno_6420000000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+molodechno_6420000000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+=> nrel_main_idtf: [Рис. Герб](* <-lang_ru;; *); [Pict. Coat](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+->"file://molodechno_6420000000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

@@ -1,0 +1,8 @@
+kossovo_1234510000 <- concept_town;;
+kossovo_1234510000 <- sc_node_not_relation;;
+kossovo_1234510000 => nrel_main_idtf: [Коссово 1234510000](* <- lang_ru;; *);;
+kossovo_1234510000 => nrel_main_idtf: [Kossovo 1234510000](* <- lang_en;; *);;
+kossovo_1234510000 => nrel_population: 1832(*<-number;;*);;
+kossovo_1234510000 => nrel_wiki_data: [Q956635](* <- lang_en;; *);;
+kossovo_1234510000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Коссово"]({{bbox}}););out body;>;out skel qt;];;kossovo_1234510000 => nrel_longitude: [25.15294](* <- lang_en;; *);;
+kossovo_1234510000 => nrel_latitude: [52.75802](* <- lang_en;; *);;

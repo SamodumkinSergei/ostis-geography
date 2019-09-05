@@ -1,0 +1,6 @@
+miory_2233501000 <- concept_town;;
+miory_2233501000 <- sc_node_not_relation;;
+miory_2233501000 => nrel_main_idtf: [Миоры 2233501000](* <- lang_ru;; *);;
+miory_2233501000 => nrel_main_idtf: [Miory 2233501000](* <- lang_en;; *);;
+miory_2233501000 => nrel_population: 7935(*<-number;;*);;
+miory_2233501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Миоры"]({{bbox}}););out body;>;out skel qt;];;

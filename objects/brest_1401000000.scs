@@ -1,0 +1,23 @@
+brest_1401000000 <- concept_town;;
+brest_1401000000 <- sc_node_not_relation;;
+brest_1401000000 => nrel_main_idtf: [Брест 1401000000](* <- lang_ru;; *);;
+brest_1401000000 => nrel_main_idtf: [Brest 1401000000](* <- lang_en;; *);;
+brest_1401000000 => nrel_population: 347576(*<-number;;*);;
+brest_1401000000 => nrel_wiki_data: [Q140147](* <- lang_en;; *);;
+brest_1401000000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Брест"]({{bbox}}););out body;>;out skel qt;];;brest_1401000000 => nrel_inception_year: 1019(* <- concept_number;; *);;
+brest_1401000000 => nrel_longitude: [23.666666666](* <- lang_en;; *);;
+brest_1401000000 => nrel_latitude: [52.133333333](* <- lang_en;; *);;
+brest_1401000000 <- rrel_key_sc_element: ... (* 
+<- illustration;;
+=> nrel_main_idtf: [Рис. Флаг](* <-lang_ru;; *); [Pict. Flag](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+-> "file://brest_1401000000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+brest_1401000000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+=> nrel_main_idtf: [Рис. Герб](* <-lang_ru;; *); [Pict. Coat](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+->"file://brest_1401000000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

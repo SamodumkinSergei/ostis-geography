@@ -1,0 +1,19 @@
+khotimsk_7252551000 <- concept_urban_village;;
+khotimsk_7252551000 <- sc_node_not_relation;;
+khotimsk_7252551000 => nrel_main_idtf: [Хотимск 7252551000](* <- lang_ru;; *);;
+khotimsk_7252551000 => nrel_main_idtf: [Khotimsk 7252551000](* <- lang_en;; *);;
+khotimsk_7252551000 => nrel_population: 6240(*<-number;;*);;
+khotimsk_7252551000 => nrel_wiki_data: [Q2630628](* <- lang_en;; *);;
+khotimsk_7252551000 => nrel_longitude: [32.572222222](* <- lang_en;; *);;
+khotimsk_7252551000 => nrel_latitude: [53.408333333](* <- lang_en;; *);;
+khotimsk_7252551000 <- rrel_key_sc_element: ... (* <- illustration;;
+<= nrel_sc_text_translation: ... (*
+-> "file://khotimsk_7252551000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+khotimsk_7252551000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://khotimsk_7252551000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

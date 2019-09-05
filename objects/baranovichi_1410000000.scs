@@ -1,0 +1,23 @@
+baranovichi_1410000000 <- concept_town;;
+baranovichi_1410000000 <- sc_node_not_relation;;
+baranovichi_1410000000 => nrel_main_idtf: [Барановичи 1410000000](* <- lang_ru;; *);;
+baranovichi_1410000000 => nrel_main_idtf: [Baranovichi 1410000000](* <- lang_en;; *);;
+baranovichi_1410000000 => nrel_population: 179166(*<-number;;*);;
+baranovichi_1410000000 => nrel_wiki_data: [Q237655](* <- lang_en;; *);;
+baranovichi_1410000000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Барановичи"]({{bbox}}););out body;>;out skel qt;];;baranovichi_1410000000 => nrel_inception_year: 1627(* <- concept_number;; *);;
+baranovichi_1410000000 => nrel_longitude: [25.983333333](* <- lang_en;; *);;
+baranovichi_1410000000 => nrel_latitude: [53.116666666](* <- lang_en;; *);;
+baranovichi_1410000000 <- rrel_key_sc_element: ... (* 
+<- illustration;;
+=> nrel_main_idtf: [Рис. Флаг](* <-lang_ru;; *); [Pict. Flag](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+-> "file://baranovichi_1410000000_flag.jpg"(* => nrel_format:format_jpg;; *);;
+*);;
+*);;
+baranovichi_1410000000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+=> nrel_main_idtf: [Рис. Герб](* <-lang_ru;; *); [Pict. Coat](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+->"file://baranovichi_1410000000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

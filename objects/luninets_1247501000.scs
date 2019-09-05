@@ -1,0 +1,17 @@
+luninets_1247501000 <- concept_town;;
+luninets_1247501000 <- sc_node_not_relation;;
+luninets_1247501000 => nrel_main_idtf: [Лунинец 1247501000](* <- lang_ru;; *);;
+luninets_1247501000 => nrel_main_idtf: [Luninets 1247501000](* <- lang_en;; *);;
+luninets_1247501000 => nrel_population: 24816(*<-number;;*);;
+luninets_1247501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Лунинец"]({{bbox}}););out body;>;out skel qt;];;
+luninets_1247501000 <- rrel_key_sc_element: ... (* <- illustration;;
+<= nrel_sc_text_translation: ... (*
+-> "file://luninets_1247501000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+luninets_1247501000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://luninets_1247501000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

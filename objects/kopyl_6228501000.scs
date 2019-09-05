@@ -1,0 +1,6 @@
+kopyl_6228501000 <- concept_town;;
+kopyl_6228501000 <- sc_node_not_relation;;
+kopyl_6228501000 => nrel_main_idtf: [Копыль 6228501000](* <- lang_ru;; *);;
+kopyl_6228501000 => nrel_main_idtf: [Kopyl 6228501000](* <- lang_en;; *);;
+kopyl_6228501000 => nrel_population: 9489(*<-number;;*);;
+kopyl_6228501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Копыль"]({{bbox}}););out body;>;out skel qt;];;

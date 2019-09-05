@@ -1,0 +1,19 @@
+ivatsevichi_1234501000 <- concept_town;;
+ivatsevichi_1234501000 <- sc_node_not_relation;;
+ivatsevichi_1234501000 => nrel_main_idtf: [Ивацевичи 1234501000](* <- lang_ru;; *);;
+ivatsevichi_1234501000 => nrel_main_idtf: [Ivatsevichi 1234501000](* <- lang_en;; *);;
+ivatsevichi_1234501000 => nrel_population: 23458(*<-number;;*);;
+ivatsevichi_1234501000 => nrel_wiki_data: [Q587173](* <- lang_en;; *);;
+ivatsevichi_1234501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Ивацевичи"]({{bbox}}););out body;>;out skel qt;];;ivatsevichi_1234501000 => nrel_longitude: [25.338888888](* <- lang_en;; *);;
+ivatsevichi_1234501000 => nrel_latitude: [52.709166666](* <- lang_en;; *);;
+ivatsevichi_1234501000 <- rrel_key_sc_element: ... (* <- illustration;;
+<= nrel_sc_text_translation: ... (*
+-> "file://ivatsevichi_1234501000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+ivatsevichi_1234501000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://ivatsevichi_1234501000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

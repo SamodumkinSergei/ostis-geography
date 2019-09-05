@@ -1,0 +1,8 @@
+skidel_4220504000 <- concept_town;;
+skidel_4220504000 <- sc_node_not_relation;;
+skidel_4220504000 => nrel_main_idtf: [Скидель 4220504000](* <- lang_ru;; *);;
+skidel_4220504000 => nrel_main_idtf: [Skidel 4220504000](* <- lang_en;; *);;
+skidel_4220504000 => nrel_population: 10717(*<-number;;*);;
+skidel_4220504000 => nrel_wiki_data: [Q958847](* <- lang_en;; *);;
+skidel_4220504000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Скидель"]({{bbox}}););out body;>;out skel qt;];;skidel_4220504000 => nrel_longitude: [24.25](* <- lang_en;; *);;
+skidel_4220504000 => nrel_latitude: [53.583333333](* <- lang_en;; *);;

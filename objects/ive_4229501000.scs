@@ -1,0 +1,6 @@
+ive_4229501000 <- concept_town;;
+ive_4229501000 <- sc_node_not_relation;;
+ive_4229501000 => nrel_main_idtf: [Ивье 4229501000](* <- lang_ru;; *);;
+ive_4229501000 => nrel_main_idtf: [Ive 4229501000](* <- lang_en;; *);;
+ive_4229501000 => nrel_population: 7702(*<-number;;*);;
+ive_4229501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Ивье"]({{bbox}}););out body;>;out skel qt;];;

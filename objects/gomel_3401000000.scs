@@ -1,0 +1,23 @@
+gomel_3401000000 <- concept_town;;
+gomel_3401000000 <- sc_node_not_relation;;
+gomel_3401000000 => nrel_main_idtf: [Гомель 3401000000](* <- lang_ru;; *);;
+gomel_3401000000 => nrel_main_idtf: [Gomel 3401000000](* <- lang_en;; *);;
+gomel_3401000000 => nrel_population: 535693(*<-number;;*);;
+gomel_3401000000 => nrel_wiki_data: [Q2678](* <- lang_en;; *);;
+gomel_3401000000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Гомель"]({{bbox}}););out body;>;out skel qt;];;gomel_3401000000 => nrel_inception_year: 1142(* <- concept_number;; *);;
+gomel_3401000000 => nrel_longitude: [30.983333333](* <- lang_en;; *);;
+gomel_3401000000 => nrel_latitude: [52.441666666](* <- lang_en;; *);;
+gomel_3401000000 <- rrel_key_sc_element: ... (* 
+<- illustration;;
+=> nrel_main_idtf: [Рис. Флаг](* <-lang_ru;; *); [Pict. Flag](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+-> "file://gomel_3401000000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+gomel_3401000000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+=> nrel_main_idtf: [Рис. Герб](* <-lang_ru;; *); [Pict. Coat](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+->"file://gomel_3401000000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

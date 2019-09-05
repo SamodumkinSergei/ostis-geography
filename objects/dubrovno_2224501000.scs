@@ -1,0 +1,22 @@
+dubrovno_2224501000 <- concept_town;;
+dubrovno_2224501000 <- sc_node_not_relation;;
+dubrovno_2224501000 => nrel_main_idtf: [Дубровно 2224501000](* <- lang_ru;; *);;
+dubrovno_2224501000 => nrel_main_idtf: [Dubrovno 2224501000](* <- lang_en;; *);;
+dubrovno_2224501000 => nrel_population: 7079(*<-number;;*);;
+dubrovno_2224501000 => nrel_wiki_data: [Q954505](* <- lang_en;; *);;
+dubrovno_2224501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Дубровно"]({{bbox}}););out body;>;out skel qt;];;dubrovno_2224501000 => nrel_longitude: [30.683333333](* <- lang_en;; *);;
+dubrovno_2224501000 => nrel_latitude: [54.566666666](* <- lang_en;; *);;
+dubrovno_2224501000 <- rrel_key_sc_element: ... (* 
+<- illustration;;
+=> nrel_main_idtf: [Рис. Флаг](* <-lang_ru;; *); [Pict. Flag](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+-> "file://dubrovno_2224501000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+dubrovno_2224501000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+=> nrel_main_idtf: [Рис. Герб](* <-lang_ru;; *); [Pict. Coat](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+->"file://dubrovno_2224501000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

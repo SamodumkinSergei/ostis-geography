@@ -1,0 +1,22 @@
+chashniki_2251501000 <- concept_town;;
+chashniki_2251501000 <- sc_node_not_relation;;
+chashniki_2251501000 => nrel_main_idtf: [Чашники 2251501000](* <- lang_ru;; *);;
+chashniki_2251501000 => nrel_main_idtf: [Chashniki 2251501000](* <- lang_en;; *);;
+chashniki_2251501000 => nrel_population: 8817(*<-number;;*);;
+chashniki_2251501000 => nrel_wiki_data: [Q954421](* <- lang_en;; *);;
+chashniki_2251501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Чашники"]({{bbox}}););out body;>;out skel qt;];;chashniki_2251501000 => nrel_longitude: [29.164722222](* <- lang_en;; *);;
+chashniki_2251501000 => nrel_latitude: [54.853333333](* <- lang_en;; *);;
+chashniki_2251501000 <- rrel_key_sc_element: ... (* 
+<- illustration;;
+=> nrel_main_idtf: [Рис. Флаг](* <-lang_ru;; *); [Pict. Flag](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+-> "file://chashniki_2251501000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+chashniki_2251501000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+=> nrel_main_idtf: [Рис. Герб](* <-lang_ru;; *); [Pict. Coat](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+->"file://chashniki_2251501000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

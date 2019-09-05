@@ -1,0 +1,19 @@
+mogilev_7401000000 <- concept_town;;
+mogilev_7401000000 <- sc_node_not_relation;;
+mogilev_7401000000 => nrel_main_idtf: [Могилев 7401000000](* <- lang_ru;; *);;
+mogilev_7401000000 => nrel_main_idtf: [Mogilev 7401000000](* <- lang_en;; *);;
+mogilev_7401000000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Могилев"]({{bbox}}););out body;>;out skel qt;];;
+mogilev_7401000000 <- rrel_key_sc_element: ... (* 
+<- illustration;;
+=> nrel_main_idtf: [Рис. Флаг](* <-lang_ru;; *); [Pict. Flag](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+-> "file://mogilev_7401000000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+mogilev_7401000000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+=> nrel_main_idtf: [Рис. Герб](* <-lang_ru;; *); [Pict. Coat](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+->"file://mogilev_7401000000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

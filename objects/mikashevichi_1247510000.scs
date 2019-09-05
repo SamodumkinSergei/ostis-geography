@@ -1,0 +1,6 @@
+mikashevichi_1247510000 <- concept_town;;
+mikashevichi_1247510000 <- sc_node_not_relation;;
+mikashevichi_1247510000 => nrel_main_idtf: [Микашевичи 1247510000](* <- lang_ru;; *);;
+mikashevichi_1247510000 => nrel_main_idtf: [Mikashevichi 1247510000](* <- lang_en;; *);;
+mikashevichi_1247510000 => nrel_population: 12665(*<-number;;*);;
+mikashevichi_1247510000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Микашевичи"]({{bbox}}););out body;>;out skel qt;];;

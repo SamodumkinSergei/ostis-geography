@@ -1,0 +1,22 @@
+dyatlovo_4223501000 <- concept_town;;
+dyatlovo_4223501000 <- sc_node_not_relation;;
+dyatlovo_4223501000 => nrel_main_idtf: [Дятлово 4223501000](* <- lang_ru;; *);;
+dyatlovo_4223501000 => nrel_main_idtf: [Dyatlovo 4223501000](* <- lang_en;; *);;
+dyatlovo_4223501000 => nrel_population: 7624(*<-number;;*);;
+dyatlovo_4223501000 => nrel_wiki_data: [Q1025883](* <- lang_en;; *);;
+dyatlovo_4223501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Дятлово"]({{bbox}}););out body;>;out skel qt;];;dyatlovo_4223501000 => nrel_longitude: [25.4](* <- lang_en;; *);;
+dyatlovo_4223501000 => nrel_latitude: [53.45](* <- lang_en;; *);;
+dyatlovo_4223501000 <- rrel_key_sc_element: ... (* 
+<- illustration;;
+=> nrel_main_idtf: [Рис. Флаг](* <-lang_ru;; *); [Pict. Flag](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+-> "file://dyatlovo_4223501000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+dyatlovo_4223501000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+=> nrel_main_idtf: [Рис. Герб](* <-lang_ru;; *); [Pict. Coat](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+->"file://dyatlovo_4223501000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

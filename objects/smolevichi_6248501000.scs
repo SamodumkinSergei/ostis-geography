@@ -1,0 +1,20 @@
+smolevichi_6248501000 <- concept_town;;
+smolevichi_6248501000 <- sc_node_not_relation;;
+smolevichi_6248501000 => nrel_main_idtf: [Смолевичи 6248501000](* <- lang_ru;; *);;
+smolevichi_6248501000 => nrel_main_idtf: [Smolevichi 6248501000](* <- lang_en;; *);;
+smolevichi_6248501000 => nrel_population: 16784(*<-number;;*);;
+smolevichi_6248501000 => nrel_wiki_data: [Q201265](* <- lang_en;; *);;
+smolevichi_6248501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Смолевичи"]({{bbox}}););out body;>;out skel qt;];;smolevichi_6248501000 => nrel_inception_year: 1448(* <- concept_number;; *);;
+smolevichi_6248501000 => nrel_longitude: [28.071944444](* <- lang_en;; *);;
+smolevichi_6248501000 => nrel_latitude: [54.022777777](* <- lang_en;; *);;
+smolevichi_6248501000 <- rrel_key_sc_element: ... (* <- illustration;;
+<= nrel_sc_text_translation: ... (*
+-> "file://smolevichi_6248501000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+smolevichi_6248501000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://smolevichi_6248501000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

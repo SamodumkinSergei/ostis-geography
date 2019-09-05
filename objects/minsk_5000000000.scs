@@ -1,0 +1,23 @@
+minsk_5000000000 <- concept_town;;
+minsk_5000000000 <- sc_node_not_relation;;
+minsk_5000000000 => nrel_main_idtf: [Минск 5000000000](* <- lang_ru;; *);;
+minsk_5000000000 => nrel_main_idtf: [Minsk 5000000000](* <- lang_en;; *);;
+minsk_5000000000 => nrel_population: 1982444(*<-number;;*);;
+minsk_5000000000 => nrel_wiki_data: [Q2280](* <- lang_en;; *);;
+minsk_5000000000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Минск"]({{bbox}}););out body;>;out skel qt;];;minsk_5000000000 => nrel_inception_year: 1067(* <- concept_number;; *);;
+minsk_5000000000 => nrel_longitude: [27.561837](* <- lang_en;; *);;
+minsk_5000000000 => nrel_latitude: [53.902246](* <- lang_en;; *);;
+minsk_5000000000 <- rrel_key_sc_element: ... (* 
+<- illustration;;
+=> nrel_main_idtf: [Рис. Флаг](* <-lang_ru;; *); [Pict. Flag](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+-> "file://minsk_5000000000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+minsk_5000000000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+=> nrel_main_idtf: [Рис. Герб](* <-lang_ru;; *); [Pict. Coat](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+->"file://minsk_5000000000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

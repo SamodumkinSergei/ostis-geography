@@ -1,0 +1,21 @@
+grodno_4401000000 <- concept_town;;
+grodno_4401000000 <- sc_node_not_relation;;
+grodno_4401000000 => nrel_main_idtf: [Гродно 4401000000](* <- lang_ru;; *);;
+grodno_4401000000 => nrel_main_idtf: [Grodno 4401000000](* <- lang_en;; *);;
+grodno_4401000000 => nrel_wiki_data: [Q21651064](* <- lang_en;; *);;
+grodno_4401000000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Гродно"]({{bbox}}););out body;>;out skel qt;];;grodno_4401000000 => nrel_longitude: [28.649722222](* <- lang_en;; *);;
+grodno_4401000000 => nrel_latitude: [53.938888888](* <- lang_en;; *);;
+grodno_4401000000 <- rrel_key_sc_element: ... (* 
+<- illustration;;
+=> nrel_main_idtf: [Рис. Флаг](* <-lang_ru;; *); [Pict. Flag](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+-> "file://grodno_4401000000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+grodno_4401000000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+=> nrel_main_idtf: [Рис. Герб](* <-lang_ru;; *); [Pict. Coat](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+->"file://grodno_4401000000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

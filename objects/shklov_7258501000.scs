@@ -1,0 +1,15 @@
+shklov_7258501000 <- concept_town;;
+shklov_7258501000 <- sc_node_not_relation;;
+shklov_7258501000 => nrel_main_idtf: [Шклов 7258501000](* <- lang_ru;; *);;
+shklov_7258501000 => nrel_main_idtf: [Shklov 7258501000](* <- lang_en;; *);;
+shklov_7258501000 => nrel_population: 16300(*<-number;;*);;
+shklov_7258501000 => nrel_wiki_data: [Q730175](* <- lang_en;; *);;
+shklov_7258501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Шклов"]({{bbox}}););out body;>;out skel qt;];;shklov_7258501000 => nrel_inception_year: 1535(* <- concept_number;; *);;
+shklov_7258501000 => nrel_longitude: [30.286944444](* <- lang_en;; *);;
+shklov_7258501000 => nrel_latitude: [54.208333333](* <- lang_en;; *);;
+shklov_7258501000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://shklov_7258501000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

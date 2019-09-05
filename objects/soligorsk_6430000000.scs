@@ -1,0 +1,20 @@
+soligorsk_6430000000 <- concept_town;;
+soligorsk_6430000000 <- sc_node_not_relation;;
+soligorsk_6430000000 => nrel_main_idtf: [Солигорск 6430000000](* <- lang_ru;; *);;
+soligorsk_6430000000 => nrel_main_idtf: [Soligorsk 6430000000](* <- lang_en;; *);;
+soligorsk_6430000000 => nrel_population: 106627(*<-number;;*);;
+soligorsk_6430000000 => nrel_wiki_data: [Q201393](* <- lang_en;; *);;
+soligorsk_6430000000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Солигорск"]({{bbox}}););out body;>;out skel qt;];;soligorsk_6430000000 => nrel_inception_year: 1958(* <- concept_number;; *);;
+soligorsk_6430000000 => nrel_longitude: [27.5425](* <- lang_en;; *);;
+soligorsk_6430000000 => nrel_latitude: [52.78416](* <- lang_en;; *);;
+soligorsk_6430000000 <- rrel_key_sc_element: ... (* <- illustration;;
+<= nrel_sc_text_translation: ... (*
+-> "file://soligorsk_6430000000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+soligorsk_6430000000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://soligorsk_6430000000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

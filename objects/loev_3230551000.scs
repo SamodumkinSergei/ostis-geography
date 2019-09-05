@@ -1,0 +1,19 @@
+loev_3230551000 <- concept_urban_village;;
+loev_3230551000 <- sc_node_not_relation;;
+loev_3230551000 => nrel_main_idtf: [Лоев 3230551000](* <- lang_ru;; *);;
+loev_3230551000 => nrel_main_idtf: [Loev 3230551000](* <- lang_en;; *);;
+loev_3230551000 => nrel_population: 6698(*<-number;;*);;
+loev_3230551000 => nrel_wiki_data: [Q2494413](* <- lang_en;; *);;
+loev_3230551000 => nrel_longitude: [30.801111111](* <- lang_en;; *);;
+loev_3230551000 => nrel_latitude: [51.933333333](* <- lang_en;; *);;
+loev_3230551000 <- rrel_key_sc_element: ... (* <- illustration;;
+<= nrel_sc_text_translation: ... (*
+-> "file://loev_3230551000_flag.gif"(* => nrel_format:format_gif;; *);;
+*);;
+*);;
+loev_3230551000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://loev_3230551000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

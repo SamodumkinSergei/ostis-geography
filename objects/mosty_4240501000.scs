@@ -1,0 +1,19 @@
+mosty_4240501000 <- concept_town;;
+mosty_4240501000 <- sc_node_not_relation;;
+mosty_4240501000 => nrel_main_idtf: [Мосты 4240501000](* <- lang_ru;; *);;
+mosty_4240501000 => nrel_main_idtf: [Mosty 4240501000](* <- lang_en;; *);;
+mosty_4240501000 => nrel_population: 15838(*<-number;;*);;
+mosty_4240501000 => nrel_wiki_data: [Q958685](* <- lang_en;; *);;
+mosty_4240501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Мосты"]({{bbox}}););out body;>;out skel qt;];;mosty_4240501000 => nrel_longitude: [24.533333333](* <- lang_en;; *);;
+mosty_4240501000 => nrel_latitude: [53.4](* <- lang_en;; *);;
+mosty_4240501000 <- rrel_key_sc_element: ... (* <- illustration;;
+<= nrel_sc_text_translation: ... (*
+-> "file://mosty_4240501000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+mosty_4240501000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://mosty_4240501000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

@@ -1,0 +1,5 @@
+beloozersk_1208510000 <- concept_town;;
+beloozersk_1208510000 <- sc_node_not_relation;;
+beloozersk_1208510000 => nrel_main_idtf: [Белоозерск 1208510000](* <- lang_ru;; *);;
+beloozersk_1208510000 => nrel_main_idtf: [Beloozersk 1208510000](* <- lang_en;; *);;
+beloozersk_1208510000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Белоозерск"]({{bbox}}););out body;>;out skel qt;];;

@@ -1,0 +1,19 @@
+gorodok_2218501000 <- concept_town;;
+gorodok_2218501000 <- sc_node_not_relation;;
+gorodok_2218501000 => nrel_main_idtf: [Городок 2218501000](* <- lang_ru;; *);;
+gorodok_2218501000 => nrel_main_idtf: [Gorodok 2218501000](* <- lang_en;; *);;
+gorodok_2218501000 => nrel_population: 12332(*<-number;;*);;
+gorodok_2218501000 => nrel_wiki_data: [Q954265](* <- lang_en;; *);;
+gorodok_2218501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Городок"]({{bbox}}););out body;>;out skel qt;];;gorodok_2218501000 => nrel_longitude: [29.983333333](* <- lang_en;; *);;
+gorodok_2218501000 => nrel_latitude: [55.466666666](* <- lang_en;; *);;
+gorodok_2218501000 <- rrel_key_sc_element: ... (* <- illustration;;
+<= nrel_sc_text_translation: ... (*
+-> "file://gorodok_2218501000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+gorodok_2218501000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://gorodok_2218501000_coat.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;

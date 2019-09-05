@@ -1,0 +1,15 @@
+babinovichi_2230804006 <- concept_agro_town;;
+babinovichi_2230804006 <- sc_node_not_relation;;
+babinovichi_2230804006 => nrel_main_idtf: [Бабиновичи 2230804006](* <- lang_ru;; *);;
+babinovichi_2230804006 => nrel_main_idtf: [Babinovichi 2230804006](* <- lang_en;; *);;
+babinovichi_2230804006 => nrel_population: 461(*<-number;;*);;
+babinovichi_2230804006 => nrel_wiki_data: [Q1066728](* <- lang_en;; *);;
+babinovichi_2230804006 => nrel_longitude: [30.55](* <- lang_en;; *);;
+babinovichi_2230804006 => nrel_latitude: [54.833333333](* <- lang_en;; *);;
+babinovichi_2230804006 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+=> nrel_main_idtf: [Рис. Герб](* <-lang_ru;; *); [Pict. Coat](* <-lang_en;; *);;
+->"file://babinovichi_2230804006_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

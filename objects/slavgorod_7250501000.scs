@@ -1,0 +1,6 @@
+slavgorod_7250501000 <- concept_town;;
+slavgorod_7250501000 <- sc_node_not_relation;;
+slavgorod_7250501000 => nrel_main_idtf: [Славгород 7250501000](* <- lang_ru;; *);;
+slavgorod_7250501000 => nrel_main_idtf: [Slavgorod 7250501000](* <- lang_en;; *);;
+slavgorod_7250501000 => nrel_population: 7826(*<-number;;*);;
+slavgorod_7250501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Славгород"]({{bbox}}););out body;>;out skel qt;];;

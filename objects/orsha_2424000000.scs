@@ -1,0 +1,20 @@
+orsha_2424000000 <- concept_town;;
+orsha_2424000000 <- sc_node_not_relation;;
+orsha_2424000000 => nrel_main_idtf: [Орша 2424000000](* <- lang_ru;; *);;
+orsha_2424000000 => nrel_main_idtf: [Orsha 2424000000](* <- lang_en;; *);;
+orsha_2424000000 => nrel_population: 115052(*<-number;;*);;
+orsha_2424000000 => nrel_wiki_data: [Q208609](* <- lang_en;; *);;
+orsha_2424000000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Орша"]({{bbox}}););out body;>;out skel qt;];;orsha_2424000000 => nrel_inception_year: 1067(* <- concept_number;; *);;
+orsha_2424000000 => nrel_longitude: [30.425833333](* <- lang_en;; *);;
+orsha_2424000000 => nrel_latitude: [54.509166666](* <- lang_en;; *);;
+orsha_2424000000 <- rrel_key_sc_element: ... (* <- illustration;;
+<= nrel_sc_text_translation: ... (*
+-> "file://orsha_2424000000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+orsha_2424000000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://orsha_2424000000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

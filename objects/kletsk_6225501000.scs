@@ -1,0 +1,6 @@
+kletsk_6225501000 <- concept_town;;
+kletsk_6225501000 <- sc_node_not_relation;;
+kletsk_6225501000 => nrel_main_idtf: [Клецк 6225501000](* <- lang_ru;; *);;
+kletsk_6225501000 => nrel_main_idtf: [Kletsk 6225501000](* <- lang_en;; *);;
+kletsk_6225501000 => nrel_population: 11483(*<-number;;*);;
+kletsk_6225501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Клецк"]({{bbox}}););out body;>;out skel qt;];;

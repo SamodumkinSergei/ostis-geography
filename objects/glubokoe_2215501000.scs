@@ -1,0 +1,22 @@
+glubokoe_2215501000 <- concept_town;;
+glubokoe_2215501000 <- sc_node_not_relation;;
+glubokoe_2215501000 => nrel_main_idtf: [Глубокое 2215501000](* <- lang_ru;; *);;
+glubokoe_2215501000 => nrel_main_idtf: [Glubokoe 2215501000](* <- lang_en;; *);;
+glubokoe_2215501000 => nrel_population: 19084(*<-number;;*);;
+glubokoe_2215501000 => nrel_wiki_data: [Q954114](* <- lang_en;; *);;
+glubokoe_2215501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Глубокое"]({{bbox}}););out body;>;out skel qt;];;glubokoe_2215501000 => nrel_longitude: [27.683333333](* <- lang_en;; *);;
+glubokoe_2215501000 => nrel_latitude: [55.133333333](* <- lang_en;; *);;
+glubokoe_2215501000 <- rrel_key_sc_element: ... (* 
+<- illustration;;
+=> nrel_main_idtf: [Рис. Флаг](* <-lang_ru;; *); [Pict. Flag](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+-> "file://glubokoe_2215501000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+glubokoe_2215501000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+=> nrel_main_idtf: [Рис. Герб](* <-lang_ru;; *); [Pict. Coat](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+->"file://glubokoe_2215501000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

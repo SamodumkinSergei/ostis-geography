@@ -1,0 +1,6 @@
+logojsk_6232501000 <- concept_town;;
+logojsk_6232501000 <- sc_node_not_relation;;
+logojsk_6232501000 => nrel_main_idtf: [Логойск 6232501000](* <- lang_ru;; *);;
+logojsk_6232501000 => nrel_main_idtf: [Logojsk 6232501000](* <- lang_en;; *);;
+logojsk_6232501000 => nrel_population: 13099(*<-number;;*);;
+logojsk_6232501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Логойск"]({{bbox}}););out body;>;out skel qt;];;

@@ -1,0 +1,6 @@
+senno_2244501000 <- concept_town;;
+senno_2244501000 <- sc_node_not_relation;;
+senno_2244501000 => nrel_main_idtf: [Сенно 2244501000](* <- lang_ru;; *);;
+senno_2244501000 => nrel_main_idtf: [Senno 2244501000](* <- lang_en;; *);;
+senno_2244501000 => nrel_population: 7165(*<-number;;*);;
+senno_2244501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Сенно"]({{bbox}}););out body;>;out skel qt;];;

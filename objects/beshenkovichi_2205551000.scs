@@ -1,0 +1,23 @@
+beshenkovichi_2205551000 <- concept_urban_village;;
+beshenkovichi_2205551000 <- sc_node_not_relation;;
+beshenkovichi_2205551000 => nrel_main_idtf: [Бешенковичи 2205551000](* <- lang_ru;; *);;
+beshenkovichi_2205551000 => nrel_main_idtf: [Beshenkovichi 2205551000](* <- lang_en;; *);;
+beshenkovichi_2205551000 => nrel_population: 6597(*<-number;;*);;
+beshenkovichi_2205551000 => nrel_wiki_data: [Q1033593](* <- lang_en;; *);;
+beshenkovichi_2205551000 => nrel_inception_year: 1460(* <- concept_number;; *);;
+beshenkovichi_2205551000 => nrel_longitude: [29.45](* <- lang_en;; *);;
+beshenkovichi_2205551000 => nrel_latitude: [55.033333333](* <- lang_en;; *);;
+beshenkovichi_2205551000 <- rrel_key_sc_element: ... (* 
+<- illustration;;
+=> nrel_main_idtf: [Рис. Флаг](* <-lang_ru;; *); [Pict. Flag](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+-> "file://beshenkovichi_2205551000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+beshenkovichi_2205551000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+=> nrel_main_idtf: [Рис. Герб](* <-lang_ru;; *); [Pict. Coat](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+->"file://beshenkovichi_2205551000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

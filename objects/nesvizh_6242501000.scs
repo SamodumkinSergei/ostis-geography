@@ -1,0 +1,6 @@
+nesvizh_6242501000 <- concept_town;;
+nesvizh_6242501000 <- sc_node_not_relation;;
+nesvizh_6242501000 => nrel_main_idtf: [Несвиж 6242501000](* <- lang_ru;; *);;
+nesvizh_6242501000 => nrel_main_idtf: [Nesvizh 6242501000](* <- lang_en;; *);;
+nesvizh_6242501000 => nrel_population: 15808(*<-number;;*);;
+nesvizh_6242501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Несвиж"]({{bbox}}););out body;>;out skel qt;];;

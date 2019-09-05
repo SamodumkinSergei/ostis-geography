@@ -1,0 +1,19 @@
+klimovichi_7228501000 <- concept_town;;
+klimovichi_7228501000 <- sc_node_not_relation;;
+klimovichi_7228501000 => nrel_main_idtf: [Климовичи 7228501000](* <- lang_ru;; *);;
+klimovichi_7228501000 => nrel_main_idtf: [Klimovichi 7228501000](* <- lang_en;; *);;
+klimovichi_7228501000 => nrel_population: 16270(*<-number;;*);;
+klimovichi_7228501000 => nrel_wiki_data: [Q603249](* <- lang_en;; *);;
+klimovichi_7228501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Климовичи"]({{bbox}}););out body;>;out skel qt;];;klimovichi_7228501000 => nrel_longitude: [31.95](* <- lang_en;; *);;
+klimovichi_7228501000 => nrel_latitude: [53.616666666](* <- lang_en;; *);;
+klimovichi_7228501000 <- rrel_key_sc_element: ... (* <- illustration;;
+<= nrel_sc_text_translation: ... (*
+-> "file://klimovichi_7228501000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+klimovichi_7228501000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://klimovichi_7228501000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

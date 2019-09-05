@@ -1,0 +1,6 @@
+kostyukovichi_7235501000 <- concept_town;;
+kostyukovichi_7235501000 <- sc_node_not_relation;;
+kostyukovichi_7235501000 => nrel_main_idtf: [Костюковичи 7235501000](* <- lang_ru;; *);;
+kostyukovichi_7235501000 => nrel_main_idtf: [Kostyukovichi 7235501000](* <- lang_en;; *);;
+kostyukovichi_7235501000 => nrel_population: 15977(*<-number;;*);;
+kostyukovichi_7235501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Костюковичи"]({{bbox}}););out body;>;out skel qt;];;

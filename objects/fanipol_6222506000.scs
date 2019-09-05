@@ -1,0 +1,14 @@
+fanipol_6222506000 <- concept_town;;
+fanipol_6222506000 <- sc_node_not_relation;;
+fanipol_6222506000 => nrel_main_idtf: [Фаниполь 6222506000](* <- lang_ru;; *);;
+fanipol_6222506000 => nrel_main_idtf: [Fanipol 6222506000](* <- lang_en;; *);;
+fanipol_6222506000 => nrel_population: 16444(*<-number;;*);;
+fanipol_6222506000 => nrel_wiki_data: [Q201439](* <- lang_en;; *);;
+fanipol_6222506000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Фаниполь"]({{bbox}}););out body;>;out skel qt;];;fanipol_6222506000 => nrel_longitude: [27.333333333](* <- lang_en;; *);;
+fanipol_6222506000 => nrel_latitude: [53.75](* <- lang_en;; *);;
+/*fanipol_6222506000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"fanipol_6222506000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;*/

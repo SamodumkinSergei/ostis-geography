@@ -1,0 +1,19 @@
+klichev_7230501000 <- concept_town;;
+klichev_7230501000 <- sc_node_not_relation;;
+klichev_7230501000 => nrel_main_idtf: [Кличев 7230501000](* <- lang_ru;; *);;
+klichev_7230501000 => nrel_main_idtf: [Klichev 7230501000](* <- lang_en;; *);;
+klichev_7230501000 => nrel_population: 7512(*<-number;;*);;
+klichev_7230501000 => nrel_wiki_data: [Q955153](* <- lang_en;; *);;
+klichev_7230501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Кличев"]({{bbox}}););out body;>;out skel qt;];;klichev_7230501000 => nrel_longitude: [29.341111111](* <- lang_en;; *);;
+klichev_7230501000 => nrel_latitude: [53.482777777](* <- lang_en;; *);;
+klichev_7230501000 <- rrel_key_sc_element: ... (* <- illustration;;
+<= nrel_sc_text_translation: ... (*
+-> "file://klichev_7230501000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+klichev_7230501000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://klichev_7230501000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

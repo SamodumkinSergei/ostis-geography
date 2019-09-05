@@ -1,0 +1,9 @@
+pruzhany_1256501000 <- concept_town;;
+pruzhany_1256501000 <- sc_node_not_relation;;
+pruzhany_1256501000 => nrel_main_idtf: [Пружаны 1256501000](* <- lang_ru;; *);;
+pruzhany_1256501000 => nrel_main_idtf: [Pruzhany 1256501000](* <- lang_en;; *);;
+pruzhany_1256501000 => nrel_population: 18608(*<-number;;*);;
+pruzhany_1256501000 => nrel_wiki_data: [Q956159](* <- lang_en;; *);;
+pruzhany_1256501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Пружаны"]({{bbox}}););out body;>;out skel qt;];;pruzhany_1256501000 => nrel_inception_year: 1487(* <- concept_number;; *);;
+pruzhany_1256501000 => nrel_longitude: [24.464444444](* <- lang_en;; *);;
+pruzhany_1256501000 => nrel_latitude: [52.556666666](* <- lang_en;; *);;

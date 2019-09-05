@@ -1,0 +1,22 @@
+cherikov_7256501000 <- concept_town;;
+cherikov_7256501000 <- sc_node_not_relation;;
+cherikov_7256501000 => nrel_main_idtf: [Чериков 7256501000](* <- lang_ru;; *);;
+cherikov_7256501000 => nrel_main_idtf: [Cherikov 7256501000](* <- lang_en;; *);;
+cherikov_7256501000 => nrel_population: 8144(*<-number;;*);;
+cherikov_7256501000 => nrel_wiki_data: [Q955126](* <- lang_en;; *);;
+cherikov_7256501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Чериков"]({{bbox}}););out body;>;out skel qt;];;cherikov_7256501000 => nrel_longitude: [31.366666666](* <- lang_en;; *);;
+cherikov_7256501000 => nrel_latitude: [53.566666666](* <- lang_en;; *);;
+cherikov_7256501000 <- rrel_key_sc_element: ... (* 
+<- illustration;;
+=> nrel_main_idtf: [Рис. Флаг](* <-lang_ru;; *); [Pict. Flag](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+-> "file://cherikov_7256501000_flag.png"(* => nrel_format:format_png;; *);;
+*);;
+*);;
+cherikov_7256501000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+=> nrel_main_idtf: [Рис. Герб](* <-lang_ru;; *); [Pict. Coat](* <-lang_en;; *);;
+<= nrel_sc_text_translation: ... (*
+->"file://cherikov_7256501000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

@@ -1,0 +1,6 @@
+starye_dorogi_6252501000 <- concept_town;;
+starye_dorogi_6252501000 <- sc_node_not_relation;;
+starye_dorogi_6252501000 => nrel_main_idtf: [Старые Дороги 6252501000](* <- lang_ru;; *);;
+starye_dorogi_6252501000 => nrel_main_idtf: [Starye dorogi 6252501000](* <- lang_en;; *);;
+starye_dorogi_6252501000 => nrel_population: 10406(*<-number;;*);;
+starye_dorogi_6252501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Старые"]({{bbox}}););out body;>;out skel qt;];;

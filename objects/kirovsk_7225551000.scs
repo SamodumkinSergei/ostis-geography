@@ -1,0 +1,14 @@
+kirovsk_7225551000 <- concept_town;;
+kirovsk_7225551000 <- sc_node_not_relation;;
+kirovsk_7225551000 => nrel_main_idtf: [Кировск 7225551000](* <- lang_ru;; *);;
+kirovsk_7225551000 => nrel_main_idtf: [Kirovsk 7225551000](* <- lang_en;; *);;
+kirovsk_7225551000 => nrel_population: 8646(*<-number;;*);;
+kirovsk_7225551000 => nrel_wiki_data: [Q955115](* <- lang_en;; *);;
+kirovsk_7225551000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Кировск"]({{bbox}}););out body;>;out skel qt;];;kirovsk_7225551000 => nrel_longitude: [29.473611111](* <- lang_en;; *);;
+kirovsk_7225551000 => nrel_latitude: [53.268611111](* <- lang_en;; *);;
+kirovsk_7225551000 <- rrel_key_sc_element: ... (*
+<-illustration;;
+<= nrel_sc_text_translation: ... (*
+->"file://kirovsk_7225551000_coat.png"(* =>nrel_format:format_png;; *);;
+*);;
+*);;

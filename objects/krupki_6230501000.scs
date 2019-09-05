@@ -1,0 +1,6 @@
+krupki_6230501000 <- concept_town;;
+krupki_6230501000 <- sc_node_not_relation;;
+krupki_6230501000 => nrel_main_idtf: [Крупки 6230501000](* <- lang_ru;; *);;
+krupki_6230501000 => nrel_main_idtf: [Krupki 6230501000](* <- lang_en;; *);;
+krupki_6230501000 => nrel_population: 8650(*<-number;;*);;
+krupki_6230501000 => nrel_overpass_turbo: [[out:json][timeout:25];(relation["place"="city"]["name"="Крупки"]({{bbox}}););out body;>;out skel qt;];;
