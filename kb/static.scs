@@ -1,0 +1,12 @@
+sc_node_norole_relation->nrel_code;;
+ nrel_code=>nrel_main_idtf: [Классификационный код](* <-lang_ru;; *);;
+sc_node_norole_relation->nrel_name;;
+ nrel_name=>nrel_main_idtf: [Название](* <-lang_ru;; *);;
+sc_node_norole_relation->nrel_type;;
+ nrel_type=>nrel_main_idtf: [Тип](* <-lang_ru;; *);;
+sc_node_norole_relation->nrel_measure;;
+ nrel_measure=>nrel_main_idtf: [Единица измерения](* <-lang_ru;; *);;
+sc_node_norole_relation->nrel_code_to_definition;;
+ nrel_code_to_definition=>nrel_main_idtf: [Код определения](* <-lang_ru;; *);;
+sc_node_norole_relation->nrel_feature;;
+ nrel_feature=>nrel_main_idtf: [Код признака](* <-lang_ru;; *);;
