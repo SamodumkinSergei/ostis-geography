@@ -1,0 +1,30 @@
+haradok_district <- concept_district;
+=>nrel_main_idtf:
+    [Haradok District]
+    (* <- lang_en;; <- name_en;;*);
+    [Городокский район]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [6]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitebsk_region;;
+
+
+haradok <- concept_city;
+=>nrel_main_idtf:
+    [Haradok]
+    (* <- lang_en;; <- name_en;;*);
+    [Городок]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [8]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitebsk_region;
+=>nrel_district:
+    haradok_district;;

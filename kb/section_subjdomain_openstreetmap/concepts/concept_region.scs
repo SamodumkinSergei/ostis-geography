@@ -1,0 +1,36 @@
+concept_region
+<-sc_node_not_relation;
+<-concept_administrative_unit;
+=>nrel_main_idtf:
+	[область]
+	(* <- lang_ru;; *);
+	[region]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (область)]
+		(* <- lang_ru;; *);
+		[Def. (region)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Область - административно-территориальная единица.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Region - аdministrative-territorial unit.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_region;
+			concept_administrative_unit
+		};;
+	*);;

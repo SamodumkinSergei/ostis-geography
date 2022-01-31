@@ -1,0 +1,29 @@
+dokshytsy_district <- concept_district;
+=>nrel_main_idtf:
+    [Haradok District]
+    (* <- lang_en;; <- name_en;;*);
+    [Докшицкий район]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [6]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitebsk_region;;
+
+dokshytsy <- concept_city;
+=>nrel_main_idtf:
+    [Dokshytsy]
+    (* <- lang_en;; <- name_en;;*);
+    [Докшицы]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [8]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitebsk_region;
+=>nrel_district:
+    dokshytsy_district;;

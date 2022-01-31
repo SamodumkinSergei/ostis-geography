@@ -1,0 +1,15 @@
+baranavichy_brest_region <- concept_city;
+=>nrel_main_idtf:
+    [Baranavichy]
+    (* <- lang_en;; <- name_en;;*);
+    [Барановичи]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [6]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    baranavichy_district;;

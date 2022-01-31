@@ -1,0 +1,29 @@
+pastavy_district <- concept_district;
+=>nrel_main_idtf:
+    [Pastavy District]
+    (* <- lang_en;; <- name_en;;*);
+    [Поставский район]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [6]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitebsk_region;;
+
+pastavy <- concept_city;
+=>nrel_main_idtf:
+    [Pastavy]
+    (* <- lang_en;; <- name_en;;*);
+    [Поставы]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [8]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitebsk_region;
+=>nrel_district:
+    pastavy_district;;

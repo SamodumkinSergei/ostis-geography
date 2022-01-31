@@ -1,0 +1,66 @@
+vitebsk <- concept_city;
+=>nrel_main_idtf:
+    [Vitsebsk]
+    (* <- lang_en;; <- name_en;;*);
+    [Витебск]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [6]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitebsk_region;
+=>nrel_district:
+    vitebsk_district;;
+
+
+zhelezny_city_district  <- concept_city_district;
+=>nrel_main_idtf:
+    [Железнодорожный район]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [9]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitebsk_region;
+=>nrel_district:
+    vitebsk_district;
+=>nrel_city:
+    vitebsk;;
+
+
+oktyabrsky_city_district  <- concept_city_district;
+=>nrel_main_idtf:
+    [Октябрьский район]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [9]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitebsk_region;
+=>nrel_district:
+    vitebsk_district;
+=>nrel_city:
+    vitebsk;;
+
+
+pervomausky_city_district  <- concept_city_district;
+=>nrel_main_idtf:
+    [Первомайский район]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [9]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitebsk_region;
+=>nrel_district:
+    vitebsk_district;
+=>nrel_city:
+    vitebsk;;

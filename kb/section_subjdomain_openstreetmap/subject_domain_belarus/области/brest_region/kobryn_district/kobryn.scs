@@ -1,0 +1,15 @@
+kobryn <- concept_town;
+=>nrel_main_idtf:
+    [Kobryn]
+    (* <- lang_en;; <- name_en;;*);
+    [Кобрин]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [8]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    kobryn_district;;

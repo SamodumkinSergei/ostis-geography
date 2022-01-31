@@ -1,0 +1,35 @@
+concept_agrogorodok
+<-sc_node_not_relation;
+<-concept_administrative_unit;
+=>nrel_main_idtf:
+	[агрогородок]
+	(* <- lang_ru;; *);
+	[agrogorodok]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (агрогородок)]
+		(* <- lang_ru;; *);
+		[Def. (agrogorodok)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Агрогородо́к благоустроенный сельский населённый пункт с производственной и социальной инфраструктурой для обеспечения социальных стандартов проживающему в нём населению.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Agrogorodok is a comfortable rural settlement with production and social infrastructure to ensure social standards for the population living in it.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_agrogorodok
+		};;
+	*);;

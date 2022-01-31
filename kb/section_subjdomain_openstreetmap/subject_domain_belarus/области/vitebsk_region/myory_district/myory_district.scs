@@ -1,0 +1,45 @@
+myory_district <- concept_district;
+=>nrel_main_idtf:
+    [Myory District]
+    (* <- lang_en;; <- name_en;;*);
+    [Миорский район]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [6]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitebsk_region;;
+
+myory <- concept_city;
+=>nrel_main_idtf:
+    [Myory]
+    (* <- lang_en;; <- name_en;;*);
+    [Миоры]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [8]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitebsk_region;
+=>nrel_district:
+    myory_district;;
+
+dzisna <- concept_city;
+=>nrel_main_idtf:
+    [Dzisna]
+    (* <- lang_en;; <- name_en;;*);
+    [Дисна]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [8]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitebsk_region;
+=>nrel_district:
+    myory_district;;
