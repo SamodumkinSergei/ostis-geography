@@ -71,8 +71,8 @@ if [ -d "${PLATFORM_PATH}" ];
 		"${APP_ROOT_PATH}"/scripts/clone_subsystems.sh
 		prepare_platform_without_build
 		include_problem_solver
-		include_kb
 		include_interface
+		include_kb
 fi
 
 cd "${WORKING_PATH}"

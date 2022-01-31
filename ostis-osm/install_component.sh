@@ -1,5 +1,5 @@
 sudo chmod +x ./prepare_jsx.sh
-cp ./openstreetmap_view.scs ../kb/openstreetmap_view.scs
+cp ./openstreetmap_view.scs ../../kb/openstreetmap_view.scs
 cp ./prepare_jsx.sh ../sc-web/scripts/prepare_jsx.sh
 cp -R ./map ../sc-web/components
 cp -R ./common ../sc-web/client/static
