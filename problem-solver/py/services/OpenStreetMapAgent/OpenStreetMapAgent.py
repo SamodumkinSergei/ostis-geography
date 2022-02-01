@@ -250,7 +250,12 @@ class OpenStreetMapAgent(ScAgent):
         relation = ''
         for k, v in relations_tags.items():
             relation += '["' + k + '"="' + v + '"]'
-        query = f'[out:json][timeout:25];area["name:en"="Belarus"]->.searchArea;' \
+        if admin_level is None:
+            query = f'[out:json][timeout:25];area["name:en"="Belarus"]->.searchArea;' \
+                f'(node["name"="{self.get_main_idtf(node)}"](area.searchArea);' \
+                f'relation["name"="{self.get_main_idtf(node)}"]{relation}(area.searchArea););out center;>;out skel qt;'
+        else:    
+            query = f'[out:json][timeout:25];area["name:en"="Belarus"]->.searchArea;' \
                 f'(relation["name"="{self.get_main_idtf(node)}"]{relation}(area.searchArea););out center;>;out skel qt;'
         print(colored('Generated: ' + query, color='green'))
         query_link = self.ctx.CreateLink()
