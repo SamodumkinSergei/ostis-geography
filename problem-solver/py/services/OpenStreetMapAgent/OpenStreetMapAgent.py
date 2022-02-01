@@ -253,6 +253,7 @@ class OpenStreetMapAgent(ScAgent):
         if admin_level is None:
             query = f'[out:json][timeout:25];area["name:en"="Belarus"]->.searchArea;' \
                 f'(node["name"="{self.get_main_idtf(node)}"](area.searchArea);' \
+                f'(way["name"="{self.get_main_idtf(node)}"](area.searchArea);' \
                 f'relation["name"="{self.get_main_idtf(node)}"]{relation}(area.searchArea););out center;>;out skel qt;'
         else:    
             query = f'[out:json][timeout:25];area["name:en"="Belarus"]->.searchArea;' \
