@@ -243,18 +243,50 @@ class OpenStreetMapAgent(ScAgent):
                     relations_tags[tag] = value
         return relations_tags
 
+    def get_way(self, node) -> bool:
+        template = ScTemplate()
+        template.Triple(
+            self.keynodes['concept_way'],
+            ScType.EdgeAccessVarPosPerm,
+            node
+        )
+        template_result = self.ctx.HelperSearchTemplate(template)
+        if template_result.Size() > 0:
+            return True
+        else:
+            return False
+
+    def get_search_area_name(self, node) -> str:
+        template = ScTemplate()
+        template.TripleWithRelation(
+            node,
+            ScType.EdgeDCommonVar,
+            ScType.NodeVar >> '_search_area',
+            ScType.EdgeAccessVarPosPerm,
+            self.keynodes['nrel_search_area']
+        )
+        template_result = self.ctx.HelperSearchTemplate(template)
+        if template_result.Size() > 0:
+            return self.get_main_idtf(template_result[0]['_search_area'])
+        else:
+            return ''
+
     def generate_osm_query(self, node) -> list:
         admin_level = self.get_admin_level(node)
+        is_way = self.get_way(node)
         relations_tags = self.get_values_links_of_tags_for_node(node, admin_level)
         relations_tags.update(self.get_values_nodes_of_tags_for_node(node, admin_level))
         relation = ''
         for k, v in relations_tags.items():
             relation += '["' + k + '"="' + v + '"]'
         if admin_level is None:
-            query = f'[out:json][timeout:25];area["name:en"="Belarus"]->.searchArea;' \
-                f'(node["name"="{self.get_main_idtf(node)}"](area.searchArea);' \
-                f'(way["name"="{self.get_main_idtf(node)}"](area.searchArea);' \
-                f'relation["name"="{self.get_main_idtf(node)}"]{relation}(area.searchArea););out center;>;out skel qt;'
+            if not is_way:
+                query = f'[out:json][timeout:25];area["name:en"="Belarus"]->.searchArea;' \
+                    f'(node["name"="{self.get_main_idtf(node)}"](area.searchArea);' \
+                    f'relation["name"="{self.get_main_idtf(node)}"]{relation}(area.searchArea););out center;>;out skel qt;'
+            else:
+                query = f'[out:json][timeout:25];area["name"="{self.get_search_area_name(node)}"]->.searchArea;' \
+                    f'(way["name"="{self.get_main_idtf(node)}"]{relation}(area.searchArea););out center;>;out skel qt;'
         else:    
             query = f'[out:json][timeout:25];area["name:en"="Belarus"]->.searchArea;' \
                 f'(relation["name"="{self.get_main_idtf(node)}"]{relation}(area.searchArea););out center;>;out skel qt;'
