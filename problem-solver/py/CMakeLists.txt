@@ -1,3 +1,1 @@
-add_subdirectory(HelloAgent)
-add_subdirectory(HelloScript)
 add_subdirectory(OpenStreetMapAgent)
