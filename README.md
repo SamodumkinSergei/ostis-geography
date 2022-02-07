@@ -1,11 +1,5 @@
-## Version 0.6.0
-
-This version allows communication with the knowledge base via [JSON-based Websocket protocol](http://ostis-dev.github.io/sc-machine/http/websocket/).
-
-New version of web interface implements to show usage of **sc-server** (runner of two-side JSON protocol).?
-The new version of web interface communicates with **sc-server** using two-way JSON protocol.
-
-You can still use [sctp protocol](http://ostis-dev.github.io/sc-machine/net/sctp/) with this version of web interface as well.
+## OSTIS-geography
+OSTIS-geography is an open-source knowledge base for geographical system for Open Semantic Technology for Intelligent Systems. System includes OpenStreetMap support to display geographical objects. There is special agent that can display object on map according to their description.
 
 ## Install
 
@@ -25,19 +19,7 @@ cd {project-name}/ostis-web-platform/scripts
 ```
 
 ## Run
-
-There are 2 possible options to run:
-### Option 1. Run sc-server 
-Run on Linux:
-```sh
-cd {project-name}/ostis-web-platform/scripts
-./run_sc_server.sh
-```
-
-Then open localhost:8090 in your browser
-![](https://i.imgur.com/wibISSV.png)
-Current interface version allows creating nodes with system identifiers and searching for the main identifier by the provided system identifier.
-### Option 2. Run sctp-server & sc-web
+### Option 1. Run sctp-server & sc-web
 Please note that JSON Websocket protocol will be available as well after start.
 Run on Linux:
 ```sh
@@ -54,6 +36,19 @@ Then open localhost:8000 in your browser.
 ![](https://i.imgur.com/6SehI5s.png)
 
 You can open localhost:8090 in your browser as well to see the new web interface version.
+
+## OpenStreetMap
+To check if everything is working run system, find minsk, switch to expert mode and change from scs view mode to OpenStreetMap.
+
+## Pull requests
+1. Add understandable title to the Pull Request which covers all changes in this Pull Request.
+
+Good Example:
+821701 Brunner KB schools
+
+2. Also you can write this information inside Pull request, like here https://github.com/Vikort/ostis-geography/pull/3 or here https://github.com/Vikort/ostis-geography/pull/4
+3. Dont forget about newline at the end of the file
+4. Not necessary, but we will appreciate if you clean your commit history
 
 ## Project Structure
 
