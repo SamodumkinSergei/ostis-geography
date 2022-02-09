@@ -1,0 +1,35 @@
+concept_institution_of_higher_education
+<- sc_node_not_relation;
+<= nrel_inclusion: concept_sup_concept;
+=> nrel_main_idtf:
+	[высшее учебное заведение]
+	(* <- lang_ru;; *);
+	[institution of higher education]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+		[Опр. (высшее учебное заведение)]
+		(* <- lang_ru;; *);
+		[Def. (institution of higher education)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Высшее учебное заведение — образовательное учреждение, осуществляющее подготовку специалистов с высшим профессиональным образованием.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[A higher educational institution — is an educational institution that trains specialists with a higher professional education.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_institution_of_higher_education
+		};;
+	*);;
