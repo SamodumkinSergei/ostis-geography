@@ -77,23 +77,7 @@ belgazprombank_brest_cbu_102 <- concept_bank;
     pinsk_district;
 =>nrel_city:
     pinsk;;
-
-//belveb_brest_cbu_102 <- concept_bank;
-//<- concept_map_object;
-//=>nrel_main_idtf:
-//    [БелВЭБ РКЦ "Припять"]
-//    (* <- lang_ru;; <- name_ru;; <- name;;*);
-//=>nrel_operator:
-//	belveb_brand;
-//=>nrel_country:
-//    belarus;
-//=>nrel_region:
-//    brest_region;
-//=>nrel_district:
-//    pinsk_district;
-//=>nrel_city:
-//    pinsk;;
-    
+	
 belgazprombank_brest_cbu_102 <- concept_bank;
 <- concept_map_object;
 =>nrel_main_idtf:
@@ -109,22 +93,6 @@ belgazprombank_brest_cbu_102 <- concept_bank;
     pinsk_district;
 =>nrel_city:
     pinsk;;
-    
-//bnb_brest_cbu_12 <- concept_bank;
-//<- concept_map_object;
-//=>nrel_main_idtf:
-//    [ЦБУ №12 ОАО «БНБ-Банк»]
-//    (* <- lang_ru;; <- name_ru;; <- name;;*);
-//=>nrel_operator:
-//	bnb_brand;
-//=>nrel_country:
-//    belarus;
-//=>nrel_region:
-//    brest_region;
-//=>nrel_district:
-//    brest_district;
-//=>nrel_city:
-//    brest;;
     
 belarusbank_brest_cbu_124_121 <- concept_bank;
 <- concept_map_object;

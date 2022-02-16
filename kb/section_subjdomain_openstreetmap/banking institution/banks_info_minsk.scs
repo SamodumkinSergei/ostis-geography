@@ -1,17 +1,4 @@
-//belgazprombank_minsk_cbu_505 <- concept_bank;
-//<- concept_map_object;
-//=>nrel_main_idtf:
-//    [ЦБУ №505 ОАО "Белгазпромбанк"]
-//    (* <- lang_ru;; <- name;;*);
-//=>nrel_operator:
-//	belgazprombank_brand;
-//=>nrel_country:
-//    belarus;
-//=>nrel_region:
-//    minsk_region;
-//=>nrel_district:
-//    dzyarzhynsk_district;;
-   
+
 belgazprombank_minsk_rkc_10 <- concept_bank;
 <- concept_map_object;
 =>nrel_main_idtf:
@@ -54,20 +41,6 @@ belgazprombank_minsk_cbu_703 <- concept_bank;
 =>nrel_city:
     minsk;;
       
-    
-//mtbank_minsk_cbu_4 <- concept_bank;
-//<- concept_map_object;
-//=>nrel_main_idtf:
-//    [МТБанк, ЦБУ №4 "Милавица"]
-//    (* <- lang_ru;; <- name_ru;; <- name;;*);
-//=>nrel_operator:
-//	mtbank_brand;
-//=>nrel_country:
-//    belarus;
-//=>nrel_region:
-//    minsk_region;
-//=>nrel_city:
-//    minsk;;
     
 mtbank_minsk_cbu_5 <- concept_bank;
 <- concept_map_object;
@@ -194,20 +167,7 @@ belgazprombank_minsk_cbu_707 <- concept_bank;
     minsk_region;
 =>nrel_city:
     minsk;; 
-
-//belgazprombank_minsk_cbu_505 <- concept_bank;
-//<- concept_map_object;
-//=>nrel_main_idtf:
-//    [ЦБУ №505 ОАО "Белгазпромбанк"]
-//    (* <- lang_ru;; <- name;;*);
-//=>nrel_operator:
-//	belgazprombank_brand;
-//=>nrel_country:
-//    belarus;
-//=>nrel_region:
-//    minsk_region;
-//=>nrel_district:
-//    dzyarzhynsk_district;;  
+ 
 
 belgazprombank_minsk_cbu_703 <- concept_bank;
 <- concept_map_object;
@@ -279,19 +239,6 @@ fransabank_minsk_cbu_3 <- concept_bank;
 =>nrel_city:
     minsk;;     
     
-//belarusbank_minsk_cbu_0 <- concept_bank;
-//<- concept_map_object;
-//=>nrel_main_idtf:
-//    [ЦБУ "Беларусбанк"]
-//    (* <- lang_ru;; <- name_ru;; <- name;;*);
-//=>nrel_operator:
-//	belarusbank_brand;
-//=>nrel_country:
-//    belarus;
-//=>nrel_region:
-//    minsk_region;
-//=>nrel_city:
-//    minsk;;
     
 belarusbank_minsk_cbu_632 <- concept_bank;
 <- concept_map_object;
