@@ -72,5 +72,6 @@
 На вход подаются координаты точки согласно JPS (широта, долгота) и название отделения банка РБ.
 
 На выходе:
+
 ![](https://github.com/DamnedDeus/ostis-geography/blob/pis/docs/interface.png)
 
