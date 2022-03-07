@@ -1,77 +1,116 @@
-Шкут Роман, группа 821703
+## Version 0.6.0
 
-Тема: Отделения банков
+This version allows communication with the knowledge base via [JSON-based Websocket protocol](http://ostis-dev.github.io/sc-machine/http/websocket/).
 
-Список понятий:
+New version of web interface implements to show usage of **sc-server** (runner of two-side JSON protocol).?
+The new version of web interface communicates with **sc-server** using two-way JSON protocol.
 
-1) Иерархия и типы (4 понятия):
+You can still use [sctp protocol](http://ostis-dev.github.io/sc-machine/net/sctp/) with this version of web interface as well.
 
-1.1) Общее понятие - банковское учреждение (concept_banking_institution)
-1.2) Банкомат (concept_atm)
-1.3) Банк (concept_bank)
-1.4) Пункт обмена волют (concept_bureau_de_change)
+## Install
 
-1.2 - 1.4 в соответствии с тэгами OSM
+Linux:
+```sh
+git clone https://github.com/Vikort/ostis-geography
+git checkout pis
+cd {project-name}/scripts
+./install_ostis.sh
+```
 
-2) Брэнды (27 понятий):
+## Build knowledge base
+Linux:
+```sh
+cd {project-name}/ostis-web-platform/scripts
+./build_kb.sh
+```
 
-2.1) Концепт брэнда банковского учреждения (concept_banking_institution_brand)
-2.2) 25 брэндов РБ, включая частные и государственные 
-2.3) Отношение управления в соответсвии с тегами OSM (nrel_operator)
+## Run
 
-3) Банковские отделения (103 понятия):
+There are 2 possible options to run:
+### Option 1. Run sc-server 
+Run on Linux:
+```sh
+cd {project-name}/ostis-web-platform/scripts
+./run_sc_server.sh
+```
 
-Ввиду текущей ограниченности модуля поиска в OSM (тольо тэг "name"),
-и общей анархичности названий отделений банков (чаще всего пишут
-только название брэнда, без номера отделения) имеется возможность по 
-фоормализации лишь малой части всех банковских отделений.
+Then open localhost:8090 in your browser
+![](https://i.imgur.com/wibISSV.png)
+Current interface version allows creating nodes with system identifiers and searching for the main identifier by the provided system identifier.
+### Option 2. Run sctp-server & sc-web
+Please note that JSON Websocket protocol will be available as well after start.
+Run on Linux:
+```sh
+#Terminal 1
+cd {project-name}/ostis-web-platform/scripts
+./run_sctp.sh
+#Terminal 2
+cd {project-name}/ostis-web-platform/scripts
+./run_scweb.sh
+```
 
-3.1) Гомель - 18 отделений 
-3.2) Могилев - 11 отделений
-3.3) Минск - 45 отделений
-3.4) Витебск - 15 понятий
-3.5) Брест - 8 понятий
-3.6) Гродно - 6 понятий
+Then open localhost:8000 in your browser.
+![](https://i.imgur.com/6SehI5s.png)
 
-4) Потенциально используемые понятия (2 понятия):
+You can open localhost:8090 in your browser as well to see the new web interface version.
 
-4.1) Улица (nrel_street) - отношение, связывающее банковское отделение и concept_way (здание/улица).
-Требуется переработка и формализация семантических окрестностей, вместе с поятийным аппаратом
-4.2) Наличие банкомата (nrel_atm_availability) - отношение, связывающее банковское учреждение и банкомат при наличии последнего.
-Требуется возможность формализации ATM (банкоматов).
+## Project Structure
 
-Суммарно - 136 понятий
+### kb
+The place for the knowledge base of your app. Put your **.scs** files here.
 
-Три агента:
-1. Поиск отделений банка по типу
-	
-На вход подаётся тип банковского отделения (?<-concept_banking_institution).
-	
-На выход:
-	
-![](https://github.com/DamnedDeus/ostis-geography/blob/pis/docs/type.png)
-	
-2. Поиск отделений банка по управляющему брэнду
-	
-На вход подаётся название брэнда.
-	
-На выход:
-	
-![](https://github.com/DamnedDeus/ostis-geography/blob/pis/docs/brand.png)
-	
-3. Поиск отделений банка по городу дислокации
-	
-На вход подаётся название города.
-	
-На выход:
-	
-![](https://github.com/DamnedDeus/ostis-geography/blob/pis/docs/city.png)
+### problem-solver
+The place for the problem solver of your app. Put your agents here.
 
-Интерфейс поска пути между точкой и банком
+*Use **scp_stable** branch for the development of agents on SCP.*  
+*Use **0.5.0** or **0.6.0** branch for the development of agents on C++.*  
+*Use **0.6.0** branch for the development of agents on Python.*  
 
-На вход подаются координаты точки согласно JPS (широта, долгота) и название отделения банка РБ.
+#### Agents on C++
+Some tips:
+- Store your modules with C++ agents in *problem-solver/cxx*;
+- After updating your C++ code you need to rebuild problem-solver. Just run:  
+```
+cd {project-name}/scripts
+./build_problem_solver.sh
+```
+For a full rebuild with the deleting of the *bin* and *build* folders run:
+```
+cd patient-care/scripts
+./build_problem_solver.sh -f
+```
 
-На выходе:
+- To enable debug:
+    * add *SET(CMAKE_BUILD_TYPE Debug)* line 
+    to *{project-name}/CMakeLists.txt* file;
+    * rebuild problem-solver.
+- You can see an example module with a C++ agent [here](problem-solver/cxx/exampleModule/README.md).
 
-![](https://github.com/DamnedDeus/ostis-geography/blob/pis/docs/interface.png)
+#### Agents on Python
+Some tips:
+- Store your modules with Python agents in *problem-solver/py*;
+- After updating your Python code you don't need to rebuild problem-solver;
+- You can see example modules using Python [here](problem-solver/py). 
 
+### interface
+
+The place for your interface modules.
+
+To learn more about creating web components for the new web interface version please follow this [link](https://github.com/MikhailSadovsky/sc-machine/tree/example/web/client)
+
+#### sc-web-extensions
+The place for your extensions using **IMS interface(sc-web)** standard. 
+
+*Your extensions are not applied to sc-web automatically for now, but you can do it by hand.*
+
+### scripts
+The place for scripts of your app.
+
+#### build_problem_solver.sh [-f, --full]
+Build the problem-solver of your app. Use an argument *-f* or *--full* for a complete rebuild of the problem-solver with the deleting of the *ostis-web-platform/sc-machine/bin* and *ostis-web-platform/sc-machine/build* folders.
+
+#### install_ostis.sh
+Install or update the OSTIS platform.
+
+#### install_subsystems.sh
+Building a problem solver and a knowledge base of subsystems.
