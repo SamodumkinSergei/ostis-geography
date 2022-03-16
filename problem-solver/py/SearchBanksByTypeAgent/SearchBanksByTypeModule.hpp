@@ -9,7 +9,7 @@
 
 #include "sc-memory/sc_module.hpp"
 #include "SearchBanksByTypeService.hpp"
-#include "SearchBanksByTypeeModule.generated.hpp"
+#include "SearchBanksByTypeModule.generated.hpp"
 
 
 class SearchBanksByTypeAgentModule : public ScModule
