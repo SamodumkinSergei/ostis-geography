@@ -4,7 +4,7 @@ from SearchBanksByCityAgent import SearchBanksByCityAgent # импорт аге�
 from sc import *
 
 
-class SearchBanksByCityModule(ScModule):
+class SearchPostOfficeByCityModule(ScModule):
 
     def __init__(self):
         ScModule.__init__(
@@ -26,5 +26,5 @@ class SearchBanksByCityModule(ScModule):
         print('Shutting down SearchBanksByCity module') # меняем название модуля для логов
 
 
-service = SearchBanksByCityModule()
+service = SearchPostOfficeByCityModule()
 service.Run()

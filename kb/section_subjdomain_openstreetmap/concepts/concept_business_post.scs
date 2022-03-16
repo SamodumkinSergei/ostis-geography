@@ -1,0 +1,17 @@
+concept_business_post <- sc_node_not_relation;
+<- concept_post_institution;
+=>nrel_main_idtf:
+	[отделене бизнес почты]
+	(* <- lang_ru;; *);
+	[business post]
+	(* <- lang_en;; *);
+<-rrel_key_sc_element:...(*
+<-definition;;
+=>nrel_main_idtf:
+[Опр.(отделене бизнес почты)](*<-lang_ru;;*);
+[Опр.(business post)](*<-lang_en;;*);;
+<=nrel_sc_text_translation:...(*
+->[Отделене бизнес почты — комплексное, качественное обслуживание и предоставление широкого перечня услуг в отделении.](* <- lang_ru;; => nrel_format: format_html;; *);;
+->[Business post department - comprehensive, high-quality service and the provision of a wide range of services in the department.](* <- lang_en;; => nrel_format: format_html;; *);;
+*);;
+*);;

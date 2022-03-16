@@ -4,18 +4,18 @@
 * (See accompanying file COPYING.MIT or copy at http://opensource.org/licenses/MIT)
 */
 // Меняем везде Example на свое
-#include "SearchBanksByTypeModule.hpp"
+#include "SearchPostOfficeByTypeModule.hpp"
 
-SC_IMPLEMENT_MODULE(SearchBanksByTypeAgentModule)
+SC_IMPLEMENT_MODULE(SearchPostOfficeByTypeAgentModule)
 
-sc_result SearchBanksByTypeAgentModule::InitializeImpl()
+sc_result SearchPostOfficeByTypeAgentModule::InitializeImpl()
 {
-  m_SearchBanksByTypeService.reset(new SearchBanksByTypeAgentPythonService("SearchBanksByTypeAgent/SearchBanksByTypeModule.py")); // тут указывается путь к модулю на python от папки problem-solver/py/services
+  m_SearchBanksByTypeService.reset(new SearchPostOfficeByTypeAgentPythonService("SearchPostOfficeByTypeAgent/SearchPostOfficeByTypeModule.py")); // тут указывается путь к модулю на python от папки problem-solver/py/services
   m_SearchBanksByTypeService->Run();
   return SC_RESULT_OK;
 }
 
-sc_result SearchBanksByTypeAgentModule::ShutdownImpl()
+sc_result SearchPostOfficeByTypeAgentModule::ShutdownImpl()
 {
   m_SearchBanksByTypeService->Stop();
   m_SearchBanksByTypeService.reset();

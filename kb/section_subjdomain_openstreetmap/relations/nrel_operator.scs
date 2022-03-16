@@ -10,15 +10,15 @@ nrel_operator
 <-antireflexive_relation;
 <-antitransitive_relation;
 <-asymmetric_relation;
-=> nrel_first_domain: concept_banking_institution;
-=> nrel_second_domain: concept_banking_institution_brand;
+=> nrel_first_domain: concept_post_institution;
+=> nrel_second_domain: concept_post_office_company;
 => nrel_definitional_domain:
 	...
 	(*
 	<= nrel_combination:
 		{
-			concept_banking_institution;
-			concept_banking_institution_brand
+			concept_post_institution;
+			concept_post_office_company
 		};;
 	*);
 => nrel_main_idtf:

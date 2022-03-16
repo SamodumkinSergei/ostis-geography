@@ -9,10 +9,10 @@
 
 #include "sc-memory/sc_module.hpp"
 #include "SearchBanksByTypeService.hpp"
-#include "SearchBanksByTypeModule.generated.hpp"
+#include "SearchPostOfficeByTypeModule.generated.hpp"
 
 
-class SearchBanksByTypeAgentModule : public ScModule
+class SearchPostOfficeByTypeAgentModule : public ScModule
 {
   SC_CLASS(LoadOrder(1000))
   SC_GENERATED_BODY()
@@ -21,5 +21,5 @@ class SearchBanksByTypeAgentModule : public ScModule
   virtual sc_result ShutdownImpl() override;
 
 private:
-  std::unique_ptr<SearchBanksByTypeAgentPythonService> m_SearchBanksByTypeService;
+  std::unique_ptr<SearchPostOfficeByTypeAgentPythonService> m_SearchBanksByTypeService;
 };

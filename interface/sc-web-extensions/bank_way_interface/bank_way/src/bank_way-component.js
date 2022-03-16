@@ -2,7 +2,7 @@
  * Way component.
  */
 Way.DrawComponent = {
-    ext_lang: 'bank_way_code',
+    ext_lang: 'post_office_way_code',
     formats: ['format_bank_way_json'],
     struct_support: true,
     factory: function (sandbox) {

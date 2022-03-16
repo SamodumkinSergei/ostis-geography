@@ -1,0 +1,18 @@
+concept_post_office <- sc_node_not_relation;
+<- concept_post_institution;
+=>nrel_main_idtf:
+	[почтовое отделение]
+	(* <- lang_ru;; *);
+	[почтовое отделение]
+	(* <- lang_en;; *);
+<-rrel_key_sc_element:...(*
+<-definition;;
+=>nrel_main_idtf:
+[Опр.(почтовое отделение)](*<-lang_ru;;*);
+[Опр.(почтовое отделение)](*<-lang_en;;*);;
+
+<=nrel_sc_text_translation:...(*
+->[Почтовое отделение — объект почтовой связи, осуществляющий приёмку, сортировку, отправку, обработку и доставку почты.](* <- lang_ru;; => nrel_format: format_html;; *);;
+->[A post office is a postal service that receives, sorts, sends, processes and delivers mail.](* <- lang_en;; => nrel_format: format_html;; *);;
+*);;
+*);;

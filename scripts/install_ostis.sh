@@ -29,7 +29,7 @@ include_kb()
 	echo "../problem-solver/py/services/OpenStreetMapAgent/specification" >> ./repo.path
 	echo "../problem-solver/py/services/SearchBanksByBrandAgent/specification" >> ./repo.path
 	echo "../problem-solver/py/services/SearchBanksByCityAgent/specification" >> ./repo.path
-	echo "../problem-solver/py/services/SearchBanksByTypeAgent/specification" >> ./repo.path
+	echo "../problem-solver/py/services/SearchPostOfficeByTypeAgent/specification" >> ./repo.path
 	cd scripts
 	./build_kb.sh
 	cd "${PLATFORM_PATH}"

@@ -1,0 +1,18 @@
+
+concept_post_institution <- sc_node_not_relation;
+=>nrel_main_idtf:
+	[почтовое учреждение]
+	(* <- lang_ru;; *);
+	[post institution]
+	(* <- lang_en;; *);
+<-rrel_key_sc_element:...(*
+<-definition;;
+=>nrel_main_idtf:
+[Опр.(почтовое учреждение)](*<-lang_ru;;*);
+[Опр.(post institution)](*<-lang_en;;*);;
+
+<=nrel_sc_text_translation:...(*
+->[Почтовое учреждение - существляющее все виды почтовой, телеграфной и телефонной связи.](* <- lang_ru;; => nrel_format: format_html;; *);;
+->[Postal institution - existing all types of postal, telegraph and telephone communications](* <- lang_en;; => nrel_format: format_html;; *);;
+*);;
+*);;

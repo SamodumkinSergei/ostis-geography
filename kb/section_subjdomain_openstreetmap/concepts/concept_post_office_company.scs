@@ -1,0 +1,41 @@
+concept_post_office_company <- sc_node_not_relation;
+=>nrel_main_idtf:
+	[почтовая компания]
+	(* <- lang_ru;; *);
+	[postal company]
+	(* <- lang_en;; *);
+<-rrel_key_sc_element:...(*
+<-definition;;
+=>nrel_main_idtf:
+[Опр.(почтовая компания)](*<-lang_ru;;*);
+[Опр.(postal company)](*<-lang_en;;*);;
+
+<=nrel_sc_text_translation:...(*
+->[Почтовая компания – редприятие, перемещающее почтовые отправления в вещественной форме, что не делает её видом транспорта.](* <- lang_ru;; => nrel_format: format_html;; *);;
+->[A postal company is an enterprise that moves postal items in physical form, which does not make it a mode of transport.](* <- lang_en;; => nrel_format: format_html;; *);;
+*);;
+*);;
+	
+DHL_brand
+<-concept_post_office_company;
+=>nrel_main_idtf:
+[DHL] (*<-lang_ru;;*);
+[DHL] (*<-lang_en;;*);;
+	
+UPS_brand
+<-concept_post_office_company;
+=>nrel_main_idtf:
+[UPS] (*<-lang_ru;;*);
+[UPS] (*<-lang_en;;*);;
+
+fedex_brand
+<-concept_post_office_company;
+=>nrel_main_idtf:
+[fedex] (*<-lang_ru;;*);
+[fedex] (*<-lang_en;;*);;
+
+belpost_brand
+<-concept_post_office_company;
+=>nrel_main_idtf:
+[Белпочта] (*<-lang_ru;;*);
+[belpost] (*<-lang_en;;*);;

@@ -1,0 +1,29 @@
+ui_menu_search_post_office_by_city <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+ui_menu_search_post_office_by_city
+=> nrel_main_idtf: 
+	[Найти банки в городе]
+	(* <- lang_ru;; *);
+=> nrel_idtf: 
+	[Запрос поиска баннковских отделений в указанном городе]
+	(* <- lang_ru;; *);;
+
+ui_menu_search_post_office_by_city
+=> nrel_main_idtf: 
+	[Find banks in the city]
+	(* <- lang_en;; *);
+=> nrel_idtf: 
+	[Search for bank offices in the specified city]
+	(* <- lang_en;; *);;
+
+ui_menu_search_post_office_by_city => ui_nrel_command_template:
+	[*
+		action_search_post_offices_by_city _-> ._question_search_banks_by_city
+			(*
+				_-> rrel_1::ui_arg_1;;
+			*);;
+		._question_search_banks_by_city _<- question;;
+	*];;
+
+ui_menu_search_post_office_by_city => ui_nrel_command_lang_template: [Найти банки в городе $ui_arg_1] (* <- lang_ru;; *);;
+ui_menu_search_post_office_by_city => ui_nrel_command_lang_template: [Find banks in the city $ui_arg_1] (* <- lang_en;; *);;

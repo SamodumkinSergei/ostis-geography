@@ -6,16 +6,16 @@
 
 1) Иерархия и типы (4 понятия):
 
-1.1) Общее понятие - банковское учреждение (concept_banking_institution)
-1.2) Банкомат (concept_atm)
-1.3) Банк (concept_bank)
-1.4) Пункт обмена волют (concept_bureau_de_change)
+1.1) Общее понятие - банковское учреждение (concept_post_institution)
+1.2) Банкомат (concept_business_post)
+1.3) Банк (concept_post_office)
+1.4) Пункт обмена волют (concept_international_post_office)
 
 1.2 - 1.4 в соответствии с тэгами OSM
 
 2) Брэнды (27 понятий):
 
-2.1) Концепт брэнда банковского учреждения (concept_banking_institution_brand)
+2.1) Концепт брэнда банковского учреждения (concept_post_office_company)
 2.2) 25 брэндов РБ, включая частные и государственные 
 2.3) Отношение управления в соответсвии с тегами OSM (nrel_operator)
 
@@ -45,7 +45,7 @@
 Три агента:
 1. Поиск отделений банка по типу
 	
-На вход подаётся тип банковского отделения (?<-concept_banking_institution).
+На вход подаётся тип банковского отделения (?<-concept_post_institution).
 	
 На выход:
 	

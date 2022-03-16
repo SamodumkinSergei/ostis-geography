@@ -1,0 +1,29 @@
+ui_menu_search_post_office_by_type <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+ui_menu_search_post_office_by_type
+=> nrel_main_idtf: 
+	[Найти почтовое отделение по типу]
+	(* <- lang_ru;; *);
+=> nrel_idtf: 
+	[Запрос поиска почтового отделения выбранного типа]
+	(* <- lang_ru;; *);;
+
+ui_menu_search_post_office_by_type
+=> nrel_main_idtf: 
+	[Find post office by type]
+	(* <- lang_en;; *);
+=> nrel_idtf: 
+	[Search for post office branches of the selected type]
+	(* <- lang_en;; *);;
+
+ui_menu_search_post_office_by_type => ui_nrel_command_template:
+	[*
+		action_search_post_offices_by_type _-> ._question_search_post_office_by_type
+			(*
+				_-> rrel_1::ui_arg_1;;
+			*);;
+		._question_search_post_office_by_type _<- question;;
+	*];;
+
+ui_menu_search_post_office_by_type => ui_nrel_command_lang_template: [Найти почтовые офисы типа $ui_arg_1] (* <- lang_ru;; *);;
+ui_menu_search_post_office_by_type => ui_nrel_command_lang_template: [Find post offices like $ui_arg_1] (* <- lang_en;; *);;

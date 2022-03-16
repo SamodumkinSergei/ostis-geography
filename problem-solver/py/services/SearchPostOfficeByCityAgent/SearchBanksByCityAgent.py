@@ -4,7 +4,7 @@ from common import ScAgent, ScEventParams, ScKeynodes
 from sc import *
 
 
-class SearchBanksByTypeAgent(ScAgent):
+class SearchBanksByCityAgent(ScAgent):
     def __init__(self, module):
         super().__init__(module)
         self.ctx = module.ctx
@@ -17,7 +17,7 @@ class SearchBanksByTypeAgent(ScAgent):
 
         # проверяем что был вызван действительно наш агент
         if self.module.ctx.HelperCheckEdge(
-                self.keynodes['action_search_banks_by_type'],
+                self.keynodes['action_search_post_offices_by_city'],
                 self.main_node,
                 ScType.EdgeAccessConstPosPerm,
         ):
@@ -29,27 +29,43 @@ class SearchBanksByTypeAgent(ScAgent):
                 answerNode = self.ctx.CreateNode(ScType.NodeConstStruct) # создаем узел ответа
                 self.add_nodes_to_answer(answerNode, [node]) # добавляем входные аргументы в ответ
 
-                # тут пишите свой агент
-                # в данном примере агент получает как аргумент узел и находит описание этого узла, т.е. конструкцию: node <- rrel_key_sc_element: ...(* <-definition;; <= nrel_sc_text_translation: ...(* ->rrel_example: [Определение];; *);; *);;
-                # ниже получение определения через итераторы
-				
-				# проверка на принадлежность к типам банковских учреждений
-                checkIt = self.ctx.Iterator3(
-                    self.keynodes['concept_banking_institution'],
+                # Получение всех банков и схожих объектов
+                bankIterator = self.ctx.Iterator5(
+                    ScType.Unknown,
+                    ScType.EdgeDCommon,
+                    node,
                     ScType.EdgeAccessConstPosPerm,
-                    node
+                    self.keynodes['nrel_city']
                 )
-                if checkIt.Next():
-                    print("+")
-                    # Получение всех банков и схожих объектов
-                    bankIterator = self.ctx.Iterator3(
-                        node,
+                while bankIterator.Next():
+                    bank = bankIterator.Get(0)
+                    # проверка на принадлежность к типам банковских учреждений
+                    bankcheck = False
+                    checkIterator = self.ctx.Iterator3(
+                        self.keynodes['concept_post_office'],
                         ScType.EdgeAccessConstPosPerm,
-                        ScType.Unknown
+                        bank
                     )
-                    while bankIterator.Next():
-                        print("!")
-                        bank = bankIterator.Get(2)
+                    if checkIterator.Next():
+                        bankcheck = True
+                    else:
+                        checkIterator = self.ctx.Iterator3(
+                            self.keynodes['concept_business_post'],
+                            ScType.EdgeAccessConstPosPerm,
+                            bank
+                        )
+                        if checkIterator.Next():
+                            bankcheck = True
+                        else:
+                            checkIterator = self.ctx.Iterator3(
+                                self.keynodes['concept_international_post_office'],
+                                ScType.EdgeAccessConstPosPerm,
+                                bank
+                            )
+                            if checkIterator.Next():
+                                bankcheck = True
+
+                    if bankcheck == True:
                         # Проверка на принадлежность к объектам карты
                         checkIterator = self.ctx.Iterator3(
                             self.keynodes['concept_map_object'],
@@ -57,10 +73,9 @@ class SearchBanksByTypeAgent(ScAgent):
                             bank
                         )
                         if checkIterator.Next():
-                            print("1")
-                            self.add_nodes_to_answer(answerNode, [bank, bankIterator.Get(1), bankIterator.Get(2)])
+                            self.add_nodes_to_answer(answerNode, [bank, bankIterator.Get(1), bankIterator.Get(3), bankIterator.Get(4)])
                         else:
-                            print("It is not concept_banking_institution")
+                            print("It is not concept_post_institution")
 					
 				# print(self.get_definition(node)) # получение определение через шаблон
                 self.finish_agent(self.main_node, answerNode) # завершаем работу агента

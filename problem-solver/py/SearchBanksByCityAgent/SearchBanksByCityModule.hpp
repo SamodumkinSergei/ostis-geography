@@ -9,7 +9,7 @@
 
 #include "sc-memory/sc_module.hpp"
 #include "SearchBanksByCityService.hpp"
-#include "SearchBanksByCityModule.generated.hpp"
+#include "SearchPostOfficeByCityModule.generated.hpp"
 
 
 class SearchBanksByCityAgentModule : public ScModule

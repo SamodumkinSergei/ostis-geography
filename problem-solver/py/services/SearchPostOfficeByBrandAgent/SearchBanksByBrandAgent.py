@@ -17,7 +17,7 @@ class SearchBanksByBrandAgent(ScAgent):
 
         # проверяем что был вызван действительно наш агент
         if self.module.ctx.HelperCheckEdge(
-                self.keynodes['action_search_banks_by_brand'],
+                self.keynodes['action_search_post_offices_by_brand'],
                 self.main_node,
                 ScType.EdgeAccessConstPosPerm,
         ):
@@ -44,7 +44,7 @@ class SearchBanksByBrandAgent(ScAgent):
                 while bankIterator.Next():
                     bank = bankIterator.Get(0)
                     checkIterator = self.ctx.Iterator3(
-                        self.keynodes['concept_bank'],
+                        self.keynodes['concept_post_office'],
 						ScType.EdgeAccessConstPosPerm,
                         bank
 					)
@@ -52,7 +52,7 @@ class SearchBanksByBrandAgent(ScAgent):
                         self.add_nodes_to_answer(answerNode, [bank, bankIterator.Get(1), bankIterator.Get(3), bankIterator.Get(4)])
                     else:
                         checkIterator = self.ctx.Iterator3(
-                            self.keynodes['concept_atm'],
+                            self.keynodes['concept_business_post'],
                             ScType.EdgeAccessConstPosPerm,
                             bank
                         )
@@ -60,7 +60,7 @@ class SearchBanksByBrandAgent(ScAgent):
                             self.add_nodes_to_answer(answerNode, [bank, bankIterator.Get(1), bankIterator.Get(3), bankIterator.Get(4)])
                         else:
                             checkIterator = self.ctx.Iterator3(
-                                self.keynodes['concept_bureau_de_change'],
+                                self.keynodes['concept_international_post_office'],
                                 ScType.EdgeAccessConstPosPerm,
                                 bank
                             )
