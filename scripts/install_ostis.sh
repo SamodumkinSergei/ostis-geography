@@ -27,6 +27,9 @@ include_kb()
 	rm -rf ./kb/menu
 	echo "../kb" >> ./repo.path
 	echo "../problem-solver/py/services/OpenStreetMapAgent/specification" >> ./repo.path
+	echo "../problem-solver/py/services/SearchBanksByBrandAgent/specification" >> ./repo.path
+	echo "../problem-solver/py/services/SearchBanksByCityAgent/specification" >> ./repo.path
+	echo "../problem-solver/py/services/SearchBanksByTypeAgent/specification" >> ./repo.path
 	cd scripts
 	./build_kb.sh
 	cd "${PLATFORM_PATH}"
@@ -53,6 +56,13 @@ include_interface()
 	cd "${PLATFORM_PATH}"/ostis-osm
 	cp -f build_components.py "${PLATFORM_PATH}"/sc-web/scripts
 	./install_component.sh
+	
+}
+
+include_bank_way_interface()
+{
+	cd "${APP_ROOT_PATH}"
+	sh ./interface/sc-web-extensions/bank_way_interface/bank_way_install.sh
 }
 
 cd "${APP_ROOT_PATH}"
@@ -72,6 +82,7 @@ if [ -d "${PLATFORM_PATH}" ];
 		prepare_platform_without_build
 		include_problem_solver
 		include_interface
+		include_bank_way_interface
 		include_kb
 fi
 
