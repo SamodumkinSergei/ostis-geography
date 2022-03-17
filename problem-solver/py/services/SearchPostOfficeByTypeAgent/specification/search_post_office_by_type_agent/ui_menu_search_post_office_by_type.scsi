@@ -18,11 +18,11 @@ ui_menu_search_post_office_by_type
 
 ui_menu_search_post_office_by_type => ui_nrel_command_template:
 	[*
-		action_search_post_offices_by_type _-> ._question_search_post_office_by_type
+		action_search_post_offices_by_type _-> ._question_search_post_officepost_office_by_type
 			(*
 				_-> rrel_1::ui_arg_1;;
 			*);;
-		._question_search_post_office_by_type _<- question;;
+		._question_search_post_officepost_office_by_type _<- question;;
 	*];;
 
 ui_menu_search_post_office_by_type => ui_nrel_command_lang_template: [Найти почтовые офисы типа $ui_arg_1] (* <- lang_ru;; *);;

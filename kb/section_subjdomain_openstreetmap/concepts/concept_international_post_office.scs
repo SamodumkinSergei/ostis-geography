@@ -9,7 +9,7 @@ concept_international_post_office <- sc_node_not_relation;
 <-definition;;
 =>nrel_main_idtf:
 [Опр.(международное отделение пункта почтовой связи)](*<-lang_ru;;*);
-[Опр.(bank)](*<-lang_en;;*);;
+[Опр.(international post office)](*<-lang_en;;*);;
 
 <=nrel_sc_text_translation:...(*
 ->[Международное отделение пункта почтовой связи - осуществляет в том числе прием и отпраку междунородгых сообщений](* <- lang_ru;; => nrel_format: format_html;; *);;
