@@ -27,6 +27,7 @@ include_kb()
 	rm -rf ./kb/menu
 	echo "../kb" >> ./repo.path
 	echo "../problem-solver/py/services/OpenStreetMapAgent/specification" >> ./repo.path
+	echo "../problem-solver/py/services/LakesModule/specification" >> ./repo.path
 	cd scripts
 	./build_kb.sh
 	cd "${PLATFORM_PATH}"

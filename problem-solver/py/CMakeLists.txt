@@ -1,2 +1,3 @@
 add_subdirectory(OpenStreetMapAgent)
+add_subdirectory(LakesModule)
 add_subdirectory(StreetTranslatorModule)

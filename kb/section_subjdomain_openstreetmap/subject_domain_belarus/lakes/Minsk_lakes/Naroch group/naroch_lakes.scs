@@ -1,0 +1,218 @@
+lake_narach 
+<- concept_lake;
+<- concept_Naroch_lakes;
+<- concept_lake_of_the_Minsk_region;
+=>nrel_main_idtf:
+    [lake Narach]
+    (* <- lang_en;; <- name_en;;*);
+    [озеро Нарочь]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_temperature:
+    [10];
+=> nrel_area:
+    [79.62];
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_district:
+    myadzel_district;;
+
+
+lake_myastro 
+<- concept_lake;
+<- concept_Naroch_lakes;
+<- concept_lake_of_the_Minsk_region;
+=>nrel_main_idtf:
+    [озеро Мястро]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=> nrel_area:
+    [13];
+=>nrel_region:
+    minsk_region;
+=>nrel_district:
+    myadzel_district;;
+
+
+lake_batorino 
+<- concept_lake;
+<- concept_Naroch_lakes;
+<- concept_lake_of_the_Minsk_region;
+=>nrel_main_idtf:
+    [озеро Баторино]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=> nrel_area:
+    [6];
+=>nrel_region:
+    minsk_region;
+=>nrel_district:
+    myadzel_district;;
+
+
+lake_blyado 
+<- concept_lake;
+<- concept_Naroch_lakes;
+<- concept_lake_of_the_Minsk_region;
+=>nrel_main_idtf:
+    [озеро Блядо]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_temperature:
+    [5];
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_district:
+    myadzel_district;;
+
+
+lake_gryadskoe 
+<- concept_lake;
+<- concept_Naroch_lakes;
+<- concept_lake_of_the_Minsk_region;
+<- concept_way;
+=>nrel_search_area:
+    minsk_region;
+=>nrel_main_idtf:
+    [Грядское озеро]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_district:
+    myadzel_district;;
+
+
+lake_podshapie 
+<- concept_lake;
+<- concept_Naroch_lakes;
+<- concept_lake_of_the_Minsk_region;
+<- concept_way;
+=>nrel_search_area:
+    minsk_region;
+=> nrel_temperature:
+    [20];
+=>nrel_main_idtf:
+    [озеро Подшапье]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_district:
+    myadzel_district;;
+
+
+lake_zaportovo 
+<- concept_lake;
+<- concept_Naroch_lakes;
+<- concept_lake_of_the_Minsk_region;
+<- concept_way;
+=>nrel_search_area:
+    minsk_region;
+=>nrel_main_idtf:
+    [озеро Запортово]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_district:
+    myadzel_district;;
+
+
+lake_vydrenik 
+<- concept_lake;
+<- concept_Naroch_lakes;
+<- concept_lake_of_the_Minsk_region;
+<- concept_way;
+=>nrel_search_area:
+    minsk_region;
+=>nrel_main_idtf:
+    [озеро Выдреник]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_district:
+    myadzel_district;;
+
+
+lake_mlynok 
+<- concept_lake;
+<- concept_Naroch_lakes;
+<- concept_lake_of_the_Minsk_region;
+<- concept_way;
+=>nrel_search_area:
+    minsk_region;
+=>nrel_main_idtf:
+    [озеро Млынок]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_temperature:
+    [7];
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_district:
+    myadzel_district;;
+
+
+lake_kozie 
+<- concept_lake;
+<- concept_Naroch_lakes;
+<- concept_lake_of_the_Minsk_region;
+<- concept_way;
+=>nrel_search_area:
+    minsk_region;
+=>nrel_main_idtf:
+    [озеро Козье]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_district:
+    myadzel_district;;
+
+
+lake_bezdonica 
+<- concept_lake;
+<- concept_Naroch_lakes;
+<- concept_lake_of_the_Minsk_region;
+<- concept_way;
+=>nrel_search_area:
+    minsk_region;
+=>nrel_main_idtf:
+    [озеро Бездонница]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_district:
+    myadzel_district;;
+
+
+lake_blyadko 
+<- concept_lake;
+<- concept_Naroch_lakes;
+<- concept_lake_of_the_Minsk_region;
+<- concept_way;
+=>nrel_search_area:
+    minsk_region;
+=>nrel_main_idtf:
+    [озеро Блядко]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_district:
+    myadzel_district;;

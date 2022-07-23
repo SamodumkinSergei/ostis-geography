@@ -6,5 +6,8 @@ ui_menu_na_example_commands
 
 <= nrel_ui_commands_decomposition:
 	{
-		ui_menu_generate_osm_query
+		ui_menu_generate_osm_query;
+		ui_menu_get_lakes_by_area;
+		ui_menu_get_lakes_by_temperature;
+		ui_menu_get_lakes_by_salt_index
 	};;

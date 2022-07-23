@@ -1,0 +1,52 @@
+nrel_salt
+<-sc_node_norole_relation;
+<-relation;
+<-norole_relation;
+<-binary_relation;
+<-oriented_relation;
+<-antireflexive_relation;
+<-antitransitive_relation;
+<-asymmetric_relation;
+=>nrel_main_idtf:
+	[ показатель солености озера* ]
+	(* <- lang_ru;; *);
+	[ lake salt index* ]
+	(* <- lang_en;; *);
+=>nrel_first_domain: concept_lake;
+=>nrel_second_domain: link;
+=>nrel_definitional_domain:
+	...
+	(*
+	<= nrel_combination:
+		{
+		concept_lake;
+		link
+		};;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (показатель солености озера*)]
+		(* <- lang_ru;; *);
+		[Def. (lake salt index*)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Показатель солености озера* — неролевое ориентированное отношение, связывающее озеро и индекс его солености.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Lake salt index* - a non-role-oriented relationship linking a lake and its salt index.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_lake
+		};;
+	*);;
