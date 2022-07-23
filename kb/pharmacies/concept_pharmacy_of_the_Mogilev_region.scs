@@ -1,0 +1,38 @@
+concept_pharmacy_of_the_Mogilev_region
+<-sc_node_not_relation;
+<-concept_pharmacy;
+=>nrel_main_idtf:
+	[аптека Могилёвской области]
+	(* <- lang_ru;; *);
+	[pharmacy of the Mogilev region]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (аптека Могилёвской области)]
+		(* <- lang_ru;; *);
+		[Def. (pharmacy of the Mogilev region)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Аптека Могилёвской области — аптека, которое располагается в Могилёвской области.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Pharmacy of the Mogilev region is a pharmacy, which is located in the Mogilev region.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_pharmacy;
+			mogilev_region;
+			belarus
+		};;
+	*);;
+	

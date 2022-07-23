@@ -1,0 +1,34 @@
+concept_pharmacy
+=> nrel_main_idtf:
+	[pharmacy] (* <- lang_en;; *);
+	[аптека] (* <- lang_ru;; *);
+=>nrel_inclusion:concept_pharmacy_chain;	
+<- rrel_key_sc_element: ...
+    (*
+		<- definition;;
+		=> nrel_main_idtf:
+			[Def.(pharmacy)] (* <-lang_en;; *);
+			[Опр.(аптека)] (* <-lang_ru;; *);;
+	    <= nrel_sc_text_translation:
+		    ...
+			(*
+			-> rrel_example:
+				[A Pharmacy is a special specialized organization of the healthcare system engaged in the manufacture, packaging, analysis and sale of medicines.]
+				(* <-lang_en;; *);; 
+			*);
+		    ...
+			(*
+			-> rrel_example:
+				[Аптека — особая специализированная организация системы здравоохранения, занимающаяся изготовлением, фасовкой, анализом и продажей лекарственных средств.]
+				(* <-lang_ru;; *);; 
+			*);;
+    *);
+<- rrel_key_sc_element: ...
+    (*
+	    <-sc_illustration;;
+	    <=nrel_sc_text_translation: ...
+	    (*
+		    -> rrel_example: "file://images/pharmacy.jpg" (* => nrel_format: format_jpg;; *);;
+	    *);;
+    *);	
+<-sc_node_not_relation;;

@@ -1,0 +1,38 @@
+concept_pharmacy_of_the_Gomel_region
+<-sc_node_not_relation;
+<-concept_pharmacy;
+=>nrel_main_idtf:
+	[аптека Гомельской области]
+	(* <- lang_ru;; *);
+	[pharmacy of the Gomel region]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (аптека Гомельской области)]
+		(* <- lang_ru;; *);
+		[Def. (pharmacy of the Gomel region)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Аптека Гомельской области — аптека, которое располагается в Гомельской области.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Pharmacy of the Gomel region is a pharmacy, which is located in the Gomel region.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_pharmacy;
+			gomel_region;
+			belarus
+		};;
+	*);;
+	
