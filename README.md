@@ -26,7 +26,6 @@ Run on Linux:
 #Terminal 1
 cd {project-name}/ostis-web-platform/scripts
 ./run_sctp.sh
-
 #Terminal 2
 cd {project-name}/ostis-web-platform/scripts
 ./run_scweb.sh

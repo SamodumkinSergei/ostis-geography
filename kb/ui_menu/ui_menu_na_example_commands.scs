@@ -7,6 +7,9 @@ ui_menu_na_example_commands
 <= nrel_ui_commands_decomposition:
 	{
 		ui_menu_generate_osm_query;
+		ui_menu_search_banks_by_brand;
+		ui_menu_search_banks_by_city;
+		ui_menu_search_banks_by_type;
 		ui_menu_get_pharmacies_by_phone_number;
 		ui_menu_pharmacies_by_location_house_number;
 		ui_menu_get_pharmacies_by_city;

@@ -1,0 +1,53 @@
+nrel_street
+<-sc_node_norole_relation;
+<-relation;
+<-norole_relation;
+<-binary_relation;
+<-oriented_relation;
+<-antireflexive_relation;
+<-antitransitive_relation;
+<-asymmetric_relation;
+=> nrel_first_domain: concept_banking_institution;
+=> nrel_second_domain: concept_way;
+=> nrel_definitional_domain:
+	...
+	(*
+	<= nrel_combination:
+		{
+			concept_banking_institution;
+			concept_way
+		};;
+	*);
+=> nrel_main_idtf:
+	[улица*]
+	(* <- lang_ru;; *);
+	[street*]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+		[Опр. (улица*)]
+		(* <- lang_ru;; *);
+		[Def. (street*)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Улица* - неролевое ориентированное отношение, связывающее административную единицу и улицу.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Street* is a non-role oriented attitude connecting the administrative unit and the street.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_administrative_unit;
+			concept_way
+		};;
+	*);;
