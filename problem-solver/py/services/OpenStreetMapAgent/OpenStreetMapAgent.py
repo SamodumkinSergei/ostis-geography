@@ -269,7 +269,7 @@ class OpenStreetMapAgent(ScAgent):
         if template_result.Size() > 0:
             return self.get_main_idtf(template_result[0]['_search_area'])
         else:
-            return ''
+            return 'Беларусь'
 
     def generate_osm_query(self, node) -> list:
         admin_level = self.get_admin_level(node)
@@ -281,8 +281,9 @@ class OpenStreetMapAgent(ScAgent):
             relation += '["' + k + '"="' + v + '"]'
         if admin_level is None:
             if not is_way:
-                query = f'[out:json][timeout:25];area["name:en"="Belarus"]->.searchArea;' \
-                    f'(node["name"="{self.get_main_idtf(node)}"](area.searchArea);' \
+                query = f'[out:json][timeout:25];area["name"="{self.get_search_area_name(node)}"]->.searchArea;' \
+                    f'(node["name"="{self.get_main_idtf(node)}"]{relation}(area.searchArea);' \
+                    f'way["name"="{self.get_main_idtf(node)}"]{relation}(area.searchArea);' \
                     f'relation["name"="{self.get_main_idtf(node)}"]{relation}(area.searchArea););out center;>;out skel qt;'
             else:
                 query = f'[out:json][timeout:25];area["name"="{self.get_search_area_name(node)}"]->.searchArea;' \

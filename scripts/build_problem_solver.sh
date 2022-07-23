@@ -1,3 +1,4 @@
+#!/bin/bash
 echo -en '\E[47;31m'"\033[1mBuild sc-machine\033[0m\n"
 tput sgr0
 
@@ -10,6 +11,12 @@ if [ "$1" == "--full" ] || [ "$1" == "-f" ];
 	then
 		rm -rf build
 		rm -rf bin
+fi
+
+if [ "$1" == "--problem-solver" ] || [ "$1" == "-p" ];
+	then
+		rm -rf bin/extensions
+		rm -rf build/problem-solver
 fi
 
 if [ ! -d "./build" ];
