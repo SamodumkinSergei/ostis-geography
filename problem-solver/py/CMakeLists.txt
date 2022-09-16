@@ -1,6 +1,0 @@
-add_subdirectory(OpenStreetMapAgent)
-add_subdirectory(SearchBanksByBrandAgent)
-add_subdirectory(SearchBanksByCityAgent)
-add_subdirectory(SearchBanksByTypeAgent)
-add_subdirectory(LakesModule)
-add_subdirectory(StreetTranslatorModule)

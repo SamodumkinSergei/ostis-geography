@@ -25,10 +25,10 @@ Run on Linux:
 ```sh
 #Terminal 1
 cd {project-name}/ostis-web-platform/scripts
-./run_sctp.sh
+./run_sc_server.sh
 #Terminal 2
 cd {project-name}/ostis-web-platform/scripts
-./run_scweb.sh
+./run_sc_web.sh
 ```
 
 Then open localhost:8000 in your browser.
@@ -56,10 +56,6 @@ The place for the knowledge base of your app. Put your **.scs** files here.
 
 ### problem-solver
 The place for the problem solver of your app. Put your agents here.
-
-*Use **scp_stable** branch for the development of agents on SCP.*  
-*Use **0.5.0** or **0.6.0** branch for the development of agents on C++.*  
-*Use **0.6.0** branch for the development of agents on Python.*  
 
 #### Agents on C++
 Some tips:
