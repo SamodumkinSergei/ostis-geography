@@ -3,7 +3,7 @@ set(OSTIS_GEOGRAPHY_ROOT ${CMAKE_CURRENT_LIST_DIR})
 cmake_minimum_required(VERSION 2.8.12)
 
 set(PROBLEM_SOLVER_PATH "${CMAKE_CURRENT_LIST_DIR}/problem-solver")
-set(SC_MACHINE_PATH "${PROBLEM_SOLVER_PATH}/sc-machine")
+set(SC_MACHINE_PATH "${PROBLEM_SOLVER_PATH}/cxx/sc-machine")
 include("${SC_MACHINE_PATH}/CMakeLists.txt")
 project_version(OSTIS_GEOGRAPHY_ROOT "0.1.0")
 

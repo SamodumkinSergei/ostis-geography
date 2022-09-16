@@ -19,7 +19,7 @@ class SearchBanksByBrandModule(ScModule):
         print('Initialize SearchBanksByBrand module') # меняем название модуля для логов
         question_initiated = self.keynodes['question_initiated']
 
-        agent = SearchBanksByBrandAgent(self) # меняем SearchBanksByBrandAgent на свой, по аналогии можно добавлять больше агентов
+        agent = SearchBanksByBrandAgent(self) # меняем search_banks_by_brand_agent на свой, по аналогии можно добавлять больше агентов
         agent.Register(question_initiated, ScPythonEventType.AddOutputEdge)
 
     def OnShutdown(self):
