@@ -1,0 +1,44 @@
+rrel_name
+<- sc_node_role_relation; // if nrel then sc_node_norole_relation
+=> nrel_first_domain: set;
+=> nrel_second_domain: set;
+=> nrel_definitional_domain:
+	...
+	(*
+	<= nrel_combination:
+		{
+			set
+		};;
+	*);
+=> nrel_main_idtf:
+	[name']
+	(* <- lang_ru;; *);
+	[name']
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+		[Опр. (name')]
+		(* <- lang_ru;; *);
+		[Def. (name')]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[definition]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[definition]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			const
+		};;
+	*);;

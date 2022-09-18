@@ -1,0 +1,1644 @@
+pharmacy_planeta_1 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    minsk;
+=>nrel_open_time:9;
+=>nrel_close_time:22;
+=>nrel_street:[пр-т Дзержинского] (* <- lang_ru;; *);
+=>nrel_location_house_number:[3Б];
+<- concept_pharmacy_of_the_Minsk_region;
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_2 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    minsk;
+=>nrel_open_time:9;
+=>nrel_close_time:21;
+=>nrel_street:[Якубова] (* <- lang_ru;; *);
+=>nrel_location_house_number:[58];
+=>nrel_phone_number:[(017)3459843];
+<- concept_pharmacy_of_the_Minsk_region;
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_3 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    minsk;
+=>nrel_open_time:9;
+=>nrel_close_time:21;
+=>nrel_street:[Седых] (* <- lang_ru;; *);
+<- concept_pharmacy_of_the_Minsk_region;
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_4 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    minsk;
+=>nrel_street:[Одинцова] (* <- lang_ru;; *);
+=>nrel_location_house_number:[65];
+=>nrel_open_time:9;
+=>nrel_close_time:22;
+=>nrel_phone_number:[(017)352-59-35];
+<- concept_pharmacy_of_the_Minsk_region;
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_5 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    minsk;
+=>nrel_street:[Воронянского] (* <- lang_ru;; *);
+=>nrel_location_house_number:[19-3];
+=>nrel_open_time:9;
+=>nrel_close_time:21;
+=>nrel_phone_number:[(017)270-75-45];
+=>nrel_operator:[ООО "Аптека №28"]
+(* <- lang_ru;;*);
+<- concept_pharmacy_of_the_Minsk_region;
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_6 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья, аптека №7]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    minsk;
+=>nrel_street:[ул. Розы Люксембург] (* <- lang_ru;; *);
+=>nrel_location_house_number:[80];
+=>nrel_open_time:9;
+=>nrel_close_time:22;
+=>nrel_phone_number:[(017)270-75-45];
+=>nrel_operator:[ИООО Абфармация]
+(* <- lang_ru;;*);
+<- concept_pharmacy_of_the_Minsk_region;
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_7 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitsebsk_region;
+=>nrel_city:
+    vitsebsk;
+<- concept_pharmacy_of_the_Vitsebsk_region;
+=>nrel_search_area:
+vitsebsk_region;;
+
+pharmacy_planeta_8 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitsebsk_region;
+=>nrel_city:
+    vitsebsk;
+=>nrel_street:[ул. Чкалова] (* <- lang_ru;; *);
+=>nrel_location_house_number:[56];
+<- concept_pharmacy_of_the_Vitsebsk_region;
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_9 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья №30]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    grodno_region;
+=>nrel_city:
+    grodno;
+=>nrel_street:[ул. Огинского] (* <- lang_ru;; *);
+=>nrel_location_house_number:[2];
+=>nrel_open_time:9;
+=>nrel_close_time:21;
+=>nrel_phone_number:[80152676646];
+<- concept_pharmacy_of_the_Grodno_region;
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_10 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья 16]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_street:[ул. Советская] (* <- lang_ru;; *);
+=>nrel_open_time:9;
+=>nrel_close_time:21;
+=>nrel_phone_number:[+375 21 621 8960];
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitsebsk_region;
+<- concept_pharmacy_of_the_Vitsebsk_region;
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_11 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    minsk;
+=>nrel_street:[Логойский тракт] (* <- lang_ru;; *);
+=>nrel_location_house_number:[80];
+=>nrel_open_time:10;
+=>nrel_close_time:22;
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_12 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitsebsk_region;
+=>nrel_city:
+    polatsk;
+=>nrel_street:[Коммунистическая] (* <- lang_ru;; *);
+=>nrel_location_house_number:[17];
+=>nrel_open_time:9;
+=>nrel_close_time:21;
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_13 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+   mahilyow_region;
+=>nrel_city:
+    babruysk;
+=>nrel_street:[Интернациональная] (* <- lang_ru;; *);
+=>nrel_location_house_number:[17];
+=>nrel_open_time:9;
+=>nrel_close_time:21;
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_13 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+   mahilyow_region;
+=>nrel_city:
+    babruysk;
+=>nrel_street:[Интернациональная] (* <- lang_ru;; *);
+=>nrel_location_house_number:[68];
+=>nrel_open_time:9;
+=>nrel_close_time:21;
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_14 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+   homyel_region;
+=>nrel_city:
+    mazyr;
+=>nrel_street:[Интернациональная] (* <- lang_ru;; *);
+=>nrel_location_house_number:[53А] (* <- lang_ru;;*);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_15 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+   homyel_region;
+=>nrel_city:
+    mazyr;
+=>nrel_street:[Ульяновская] (* <- lang_ru;; *);
+=>nrel_location_house_number:[11];
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_16 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+   homyel_region;
+=>nrel_city:
+    mazyr;
+=>nrel_street:[Нефтестроителей] (* <- lang_ru;; *);
+=>nrel_location_house_number:[1В]
+(* <- lang_ru;;*);
+=>nrel_operator:[Белфармация]
+(* <- lang_ru;;*);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_17 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+   homyel_region;
+=>nrel_city:
+    mazyr;
+=>nrel_street:[Малинина] (* <- lang_ru;; *);
+=>nrel_location_house_number:[13]
+(* <- lang_ru;;*);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_18 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+   homyel_region;
+=>nrel_city:
+    mazyr;
+=>nrel_street:[бульвар Юности] (* <- lang_ru;; *);
+=>nrel_location_house_number:[79А]
+(* <- lang_ru;;*);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_19 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+   homyel_region;
+=>nrel_city:
+    mazyr;
+=>nrel_street:[Советская улица] (* <- lang_ru;; *);
+=>nrel_location_house_number:[31А]
+(* <- lang_ru;;*);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_20 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья # 9]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+   homyel_region;
+=>nrel_city:
+    mazyr;
+=>nrel_street:[бульвар Юности] (* <- lang_ru;; *);
+=>nrel_location_house_number:[37А]
+(* <- lang_ru;;*);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_21 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+   homyel_region;
+=>nrel_city:
+    zhlobin;
+=>nrel_street:[Нефтестроителей] (* <- lang_ru;; *);
+=>nrel_location_house_number:[1В]
+(* <- lang_ru;;*);
+=>nrel_open_time:9;
+=>nrel_close_time:22;
+=>nrel_operator:[ООО "КосмоФарма"]
+(* <- lang_ru;;*);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_22 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    minsk;
+=>nrel_street:[пр-т Независимости] (* <- lang_ru;; *);
+=>nrel_location_house_number:[18];
+=>nrel_open_time:8;
+=>nrel_close_time:22;
+=>nrel_phone_number:[(017)352-17-81];
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_23 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    minsk;
+=>nrel_street:[пр-т Независимости] (* <- lang_ru;; *);
+=>nrel_location_house_number:[117];
+=>nrel_open_time:8;
+=>nrel_close_time:22;
+=>nrel_phone_number:[(017)397-85-68];
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_24 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    mahilyow_region;
+=>nrel_city:
+    asipovichy;
+=>nrel_street:[улица Сумченко] (* <- lang_ru;; *);
+=>nrel_location_house_number:[63Б];
+=>nrel_search_area:
+asipovichy_district;;
+
+pharmacy_planeta_25 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    homyel_region;
+=>nrel_city:
+    rahachow;
+=>nrel_street:[улица Сумченко] (* <- lang_ru;; *);
+=>nrel_location_house_number:[63Б];
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_26 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    mahilyow_region;
+=>nrel_city:
+    shklov;
+=>nrel_street:[Советская] (* <- lang_ru;; *);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_27 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета Здоровья №28]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    minsk;
+=>nrel_open_time:8;
+=>nrel_close_time:22;
+=>nrel_phone_number:[+375 17 2848568];
+=>nrel_operator:[ИООО "АБФармация"]
+(* <- lang_ru;;*);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_28 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета Здоровья №3]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    minsk;
+=>nrel_open_time:9;
+=>nrel_close_time:21;
+=>nrel_street:[2-й переулок Багратиона] (* <- lang_ru;; *);
+=>nrel_location_house_number:[18А];
+=>nrel_phone_number:[+375 17 2975196];
+=>nrel_operator:[ОДО "Фарм-Продукт"]
+(* <- lang_ru;;*);
+<- concept_pharmacy_of_the_Minsk_region;
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_29 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета Здоровья №1]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    minsk;
+=>nrel_open_time:8;
+=>nrel_close_time:21;
+=>nrel_street:[Долгобродская] (* <- lang_ru;; *);
+=>nrel_location_house_number:[7];
+=>nrel_phone_number:[+375 17 2453103];
+=>nrel_operator:[ОДО "Белэкрос"]
+(* <- lang_ru;;*);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_30 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета Здоровья №18]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    minsk;
+=>nrel_open_time:8;
+=>nrel_close_time:21;
+=>nrel_street:[Нестерова] (* <- lang_ru;; *);
+=>nrel_location_house_number:[18];
+=>nrel_phone_number:[+375 17 2912246];
+=>nrel_operator:[ООО "Доктор Таир"]
+(* <- lang_ru;;*);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_31 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_city:
+    pinsk;
+=>nrel_street:[Комсомольская] (* <- lang_ru;; *);
+=>nrel_search_area:
+brest_region;;
+
+pharmacy_planeta_32 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета Здоровья №17]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    minsk;
+=>nrel_open_time:8;
+=>nrel_close_time:22;
+=>nrel_street:[Водолажского] (* <- lang_ru;; *);
+=>nrel_phone_number:[+375 17 2665399];
+=>nrel_operator:[ООО "Доктор Таир"]
+(* <- lang_ru;;*);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_33 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета Здоровья, аптека №8]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    minsk;
+=>nrel_open_time:9;
+=>nrel_close_time:22;
+=>nrel_street:[ул.Максима Богдановича] (* <- lang_ru;; *);
+=>nrel_phone_number:[+375-17-3352477];
+=>nrel_operator:[ИООО Абфармация]
+(* <- lang_ru;;*);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_34 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета Здоровья №5]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    minsk;
+=>nrel_open_time:9;
+=>nrel_close_time:22;
+=>nrel_street:[ул.Нестерова] (* <- lang_ru;; *);
+=>nrel_phone_number:[+375 17 2979710];
+=>nrel_operator:[ООО "КосмоФарма"](* <- lang_ru;;*);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_35 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    minsk;
+=>nrel_open_time:9;
+=>nrel_close_time:21;
+=>nrel_street:[ул.Алибегова] (* <- lang_ru;; *);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_36 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    minsk;
+=>nrel_open_time:9;
+=>nrel_close_time:21;
+=>nrel_street:[ул.Петра Глебки] (* <- lang_ru;; *);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_37 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    minsk;
+=>nrel_open_time:9;
+=>nrel_close_time:21;
+=>nrel_street:[ул.Притыцкого] (* <- lang_ru;; *);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_38 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    minsk;
+=>nrel_open_time:9;
+=>nrel_close_time:22;
+=>nrel_street:[ул.Петра Глебки] (* <- lang_ru;; *);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_39 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_description:[ООО "Доктор Таир" Аптека N5] (* <- lang_ru;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    minsk;
+=>nrel_open_time:9;
+=>nrel_close_time:22;
+=>nrel_street:[ул.Дунина-Марцинкевича] (* <- lang_ru;; *);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_40 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Доктор Таир]
+    (* <- lang_ru;; <- name;;*);
+    [Планета Здоровья]
+     (* <- lang_ru;; <- name_ru;;*);
+=>nrel_description:[ООО "Доктор Таир" Аптека N5] (* <- lang_ru;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    minsk;
+=>nrel_open_time:9;
+=>nrel_close_time:22;
+=>nrel_street:[ул.Пономарева] (* <- lang_ru;; *);
+=>nrel_operator:[ООО Доктор-Таир](* <- lang_ru;; *);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_41 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета Здоровья №11]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    minsk;
+=>nrel_open_time:9;
+=>nrel_close_time:22;
+=>nrel_street:[ул.Пономарева] (* <- lang_ru;; *);
+=>nrel_operator:[ООО "Доктор Таир"](* <- lang_ru;; *);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_42 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета Здоровья Доктор Таир №14]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    minsk;
+=>nrel_open_time:9;
+=>nrel_close_time:22;
+=>nrel_street:[проспект Газеты Звязда] (* <- lang_ru;; *);
+=>nrel_operator:[ООО "Доктор Таир"](* <- lang_ru;; *);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_43 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета Здоровья №4]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    minsk;
+=>nrel_open_time:9;
+=>nrel_close_time:22;
+=>nrel_street:[Лобанка] (* <- lang_ru;; *);
+=>nrel_operator:[ОДО "Белэкрос"](* <- lang_ru;; *);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_44 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    minsk;
+=>nrel_open_time:9;
+=>nrel_close_time:21;
+=>nrel_street:[улица Ленинского Комсомола] (* <- lang_ru;; *);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_45 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+     (* <- lang_ru;; <- name;; <- name_ru;;*);
+=>nrel_description:[ООО "Космофарма", Аптека N26 (пятой категории)] (* <- lang_ru;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    minsk;
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_46 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья №16]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    minsk;
+=>nrel_open_time:10;
+=>nrel_close_time:18;
+=>nrel_phone_number:[+375 44 5678824];
+=>nrel_street:[улица Ленинская] (* <- lang_ru;; *);
+=>nrel_operator:[ООО "Доктор Таир"](* <- lang_ru;; *);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_47 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета Здоровья №6]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    minsk;
+=>nrel_open_time:9;
+=>nrel_close_time:22;
+=>nrel_phone_number:[+375 44 5678824];
+=>nrel_street:[ул. Космонавтов] (* <- lang_ru;; *);
+=>nrel_operator:[ООО "Доктор Таир"](* <- lang_ru;; *);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_48 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета Здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    minsk;
+=>nrel_open_time:9;
+=>nrel_close_time:22;
+=>nrel_street:[ул. Яна Чечота] (* <- lang_ru;; *);
+=>nrel_search_area:
+minsk;;
+
+pharmacy_planeta_49 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета Здоровья №19]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    minsk;
+=>nrel_open_time:9;
+=>nrel_close_time:22;
+=>nrel_street:[ул. Монтажников] (* <- lang_ru;; *);
+=>nrel_operator:[ООО "КосмоФарма"](* <- lang_ru;; *);
+=>nrel_search_area:
+minsk;;
+
+pharmacy_planeta_50 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета Здоровья]
+     (* <- lang_ru;; <- name;; <- name_ru;;*);
+=>nrel_description:[ООО "КосмоФарма" Аптека N11 (пятой категории)] (* <- lang_ru;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    salihorsk;
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_51 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета Здоровья]
+     (* <- lang_ru;; <- name;; <- name_ru;;*);
+=>nrel_description:[Аптека N1 ООО "Белтрейдсервис" (второй категории)] (* <- lang_ru;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    salihorsk;
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_53 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    salihorsk;
+=>nrel_open_time:9;
+=>nrel_close_time:22;
+=>nrel_street:[ул. Козлова] (* <- lang_ru;; *);
+=>nrel_search_area:
+salihorsk;;
+
+pharmacy_planeta_54 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_description:[ООО "Космофарма", Аптека N26 (пятой категории)] (* <- lang_ru;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    salihorsk;
+=>nrel_open_time:9;
+=>nrel_close_time:22;
+=>nrel_street:[ул. Козлова] (* <- lang_ru;; *);
+=>nrel_search_area:
+salihorsk;;
+
+pharmacy_planeta_55 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    salihorsk;
+=>nrel_open_time:9;
+=>nrel_close_time:22;
+=>nrel_street:[ул. Ленинского Комсомола] (* <- lang_ru;; *);
+=>nrel_search_area:
+salihorsk;;
+
+pharmacy_planeta_56 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_city:
+    brest;
+=>nrel_open_time:8;
+=>nrel_close_time:20;
+=>nrel_street:[ул. Мицкевича] (* <- lang_ru;; *);
+=>nrel_search_area:
+brest;;
+
+pharmacy_planeta_57 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_city:
+    brest;
+=>nrel_street:[Варшавское шоссе] (* <- lang_ru;; *);
+=>nrel_search_area:
+brest;;
+
+pharmacy_planeta_58 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_city:
+    brest;
+=>nrel_street:[ул. Гаврилова] (* <- lang_ru;; *);
+=>nrel_search_area:
+brest;;
+
+pharmacy_planeta_59 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_city:
+    brest;
+=>nrel_street:[ул. Комсомольская] (* <- lang_ru;; *);
+=>nrel_search_area:
+brest;;
+
+pharmacy_planeta_60 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_city:
+    brest;
+=>nrel_open_time:9;
+=>nrel_close_time:21;
+=>nrel_street:[Гвардейская улица] (* <- lang_ru;; *);
+=>nrel_operator:[ООО Космофарма](* <- lang_ru;; *);
+=>nrel_search_area:
+brest;;
+
+
+pharmacy_planeta_61 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_city:
+    pinsk;
+=>nrel_open_time:9;
+=>nrel_close_time:21;
+=>nrel_operator:[ООО Космофарма](* <- lang_ru;; *);
+=>nrel_search_area:
+brest_region;;
+
+pharmacy_planeta_62 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    homyel_region;
+=>nrel_city:
+    homyel;
+=>nrel_open_time:9;
+=>nrel_close_time:21;
+=>nrel_search_area:
+homyel_region;;
+
+pharmacy_planeta_63 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    ["Планета здоровья"]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    homyel_region;
+=>nrel_city:
+    homyel;
+=>nrel_open_time:9;
+=>nrel_close_time:21;
+=>nrel_street:[Каменщикова] (* <- lang_ru;; *);
+=>nrel_search_area:
+homyel_region;;
+
+pharmacy_planeta_64 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья # 20]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    homyel_region;
+=>nrel_city:
+    homyel;
+=>nrel_open_time:9;
+=>nrel_search_area:
+homyel_region;;
+
+pharmacy_planeta_65 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета Здоровья]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    homyel_region;
+=>nrel_city:
+    homyel;
+=>nrel_open_time:9;
+=>nrel_close_time:21;
+=>nrel_street:[Космонавтов] (* <- lang_ru;; *);
+=>nrel_search_area:
+homyel_region;;
+
+pharmacy_planeta_66 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета Здоровья # 6]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    homyel_region;
+=>nrel_city:
+    homyel;
+=>nrel_open_time:9;
+=>nrel_close_time:21;
+=>nrel_street:[50 лет БССР] (* <- lang_ru;; *);
+=>nrel_search_area:
+homyel_region;;
+
+pharmacy_planeta_67 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья №21]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    homyel_region;
+=>nrel_city:
+    homyel;
+=>nrel_open_time:9;
+=>nrel_close_time:22;
+=>nrel_street:[Свиридова] (* <- lang_ru;; *);
+=>nrel_operator:[ООО Космофарма](* <- lang_ru;; *);
+=>nrel_search_area:
+homyel_region;;
+
+pharmacy_planeta_68 <- pharmacy_chain_Planet_Health;
+=>nrel_main_idtf:
+    [Планета здоровья №21]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    homyel_region;
+=>nrel_city:
+    homyel;
+=>nrel_open_time:9;
+=>nrel_close_time:22;
+=>nrel_street:[Свиридова] (* <- lang_ru;; *);
+=>nrel_operator:[ООО Космофарма](* <- lang_ru;; *);
+=>nrel_search_area:
+homyel_region;;
+
+pharmacy_planeta_69 <- pharmacy_chain_Green_pharmacy;
+=>nrel_main_idtf:
+    [Зелёная аптека]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_city:
+    baranavichy;
+=>nrel_search_area:
+brest_region;;
+
+pharmacy_planeta_70 <- pharmacy_chain_Green_pharmacy;
+=>nrel_main_idtf:
+    [Зелёная аптека]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_city:
+    baranavichy;
+=>nrel_street:[Ленина] (* <- lang_ru;; *);
+=>nrel_search_area:
+brest_region;;
+
+pharmacy_planeta_71 <- pharmacy_chain_Green_pharmacy;
+=>nrel_main_idtf:
+    [Зелёная аптека]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_city:
+    baranavichy;
+=>nrel_street:[Слонимское шоссе] (* <- lang_ru;; *);
+=>nrel_search_area:
+brest_region;;
+
+pharmacy_planeta_72 <- pharmacy_chain_Green_pharmacy;
+=>nrel_main_idtf:
+    [Зелёная аптека]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_city:
+    baranavichy;
+=>nrel_street:[Чкалова] (* <- lang_ru;; *);
+=>nrel_search_area:
+brest_region;;
+
+pharmacy_planeta_73 <- pharmacy_chain_Green_pharmacy;
+=>nrel_main_idtf:
+    [Зелёная аптека]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_city:
+    baranavichy;
+=>nrel_street:[Тельмана] (* <- lang_ru;; *);
+=>nrel_search_area:
+brest_region;;
+
+pharmacy_planeta_74 <- pharmacy_chain_Green_pharmacy;
+=>nrel_main_idtf:
+    [Аптека №4]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_city:
+    baranavichy;
+=>nrel_street:[Брестская] (* <- lang_ru;; *);
+=>nrel_search_area:
+baranavichy;;
+
+pharmacy_planeta_75 <- pharmacy_chain_Green_pharmacy;
+=>nrel_main_idtf:
+    [Аптека №21]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_city:
+    baranavichy;
+=>nrel_open_time:9;
+=>nrel_close_time:20;
+=>nrel_street:[Тельмана] (* <- lang_ru;; *);
+=>nrel_search_area:
+baranavichy;;
+
+pharmacy_planeta_76 <- pharmacy_chain_Green_pharmacy;
+=>nrel_main_idtf:
+    [Аптека № 224]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_city:
+    baranavichy;
+=>nrel_open_time:9;
+=>nrel_close_time:20;
+=>nrel_street:[Вильчковского] (* <- lang_ru;; *);
+=>nrel_search_area:
+baranavichy;;
+
+pharmacy_planeta_77 <- pharmacy_chain_Green_pharmacy;
+=>nrel_main_idtf:
+    [Аптека #252]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_city:
+    baranavichy;
+=>nrel_open_time:9;
+=>nrel_close_time:20;
+=>nrel_street:[Фроленкова] (* <- lang_ru;; *);
+=>nrel_search_area:
+baranavichy;;
+
+pharmacy_planeta_78 <- pharmacy_chain_Green_pharmacy;
+=>nrel_main_idtf:
+    [Аптека №6]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_city:
+    baranavichy;
+=>nrel_open_time:9;
+=>nrel_close_time:21;
+=>nrel_street:[Притыцкого] (* <- lang_ru;; *);
+=>nrel_search_area:
+baranavichy;;
+
+pharmacy_planeta_79 <- pharmacy_chain_Green_pharmacy;
+=>nrel_main_idtf:
+    [Аптека №250]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_city:
+    baranavichy;
+=>nrel_open_time:9;
+=>nrel_close_time:21;
+=>nrel_street:[Советская] (* <- lang_ru;; *);
+=>nrel_search_area:
+baranavichy;;
+
+pharmacy_planeta_80 <- pharmacy_chain_Green_pharmacy;
+=>nrel_main_idtf:
+    [Аптека №154]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_city:
+    baranavichy;
+=>nrel_open_time:7;
+=>nrel_close_time:21;
+=>nrel_street:[Тельмана] (* <- lang_ru;; *);
+=>nrel_search_area:
+baranavichy;;
+
+pharmacy_planeta_81 <- pharmacy_chain_Green_pharmacy;
+=>nrel_main_idtf:
+     [Аптека №4 *Альфа*]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_city:
+    baranavichy;
+=>nrel_search_area:
+baranavichy;;
+
+pharmacy_planeta_82 <- pharmacy_chain_Green_pharmacy;
+=>nrel_main_idtf:
+    [Аптека №1]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_city:
+    baranavichy;
+=>nrel_open_time:7;
+=>nrel_close_time:00;
+=>nrel_street:[Ленина] (* <- lang_ru;; *);
+=>nrel_search_area:
+baranavichy;;
+
+pharmacy_planeta_83 <- pharmacy_chain_Green_pharmacy;
+=>nrel_main_idtf:
+    [Аптека №5]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_city:
+    baranavichy;
+=>nrel_street:[Парковая] (* <- lang_ru;; *);
+=>nrel_search_area:
+baranavichy;;
+
+pharmacy_planeta_84 <- pharmacy_chain_Green_pharmacy;
+=>nrel_main_idtf:
+    [Аптека № 140]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_city:
+    baranavichy;
+=>nrel_street:[Советская] (* <- lang_ru;; *);
+=>nrel_search_area:
+baranavichy;;
+
+pharmacy_planeta_85 <- pharmacy_chain_Green_pharmacy;
+=>nrel_main_idtf:
+    [Доктор Время]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_city:
+    baranavichy;
+=>nrel_open_time:9;
+=>nrel_close_time:20;
+=>nrel_street:[Ленина] (* <- lang_ru;; *);
+=>nrel_search_area:
+baranavichy;;
+
+pharmacy_planeta_86 <- pharmacy_chain_Green_pharmacy;
+=>nrel_main_idtf:
+    [Зелёная аптека]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    minsk;
+=>nrel_street:[Ольшевского] (* <- lang_ru;; *);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_87 <- pharmacy_chain_Green_pharmacy;
+=>nrel_main_idtf:
+    [Зелёная аптека]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_open_time:9;
+=>nrel_close_time:20;
+=>nrel_city:
+    minsk;
+=>nrel_street:[Ул. Лейтенанта Кижеватого] (* <- lang_ru;; *);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_88 <- pharmacy_chain_Green_pharmacy;
+=>nrel_main_idtf:
+    [Зелёная аптека №1]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_open_time:9;
+=>nrel_close_time:20;
+=>nrel_city:
+    minsk;
+=>nrel_street:[Ул. Сухаревская] (* <- lang_ru;; *);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_89 <- pharmacy_chain_Green_pharmacy;
+=>nrel_main_idtf:
+    [Зелёная аптека]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_open_time:9;
+=>nrel_close_time:20;
+=>nrel_city:
+    minsk;
+=>nrel_street:[Ул. Шаранговича] (* <- lang_ru;; *);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_90 <- pharmacy_chain_Green_pharmacy;
+=>nrel_main_idtf:
+    [Зелёная аптека]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_open_time:10;
+=>nrel_close_time:22;
+=>nrel_city:
+    minsk;
+=>nrel_street:[Ул. Тимирязева] (* <- lang_ru;; *);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_91 <- pharmacy_chain_Green_pharmacy;
+=>nrel_main_idtf:
+    [Зелёная аптека]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_open_time:9;
+=>nrel_close_time:21;
+=>nrel_city:
+    minsk;
+=>nrel_street:[Ул. Ангарская] (* <- lang_ru;; *);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_92 <- pharmacy_chain_Green_pharmacy;
+=>nrel_main_idtf:
+    [Зелёная аптека]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_open_time:9;
+=>nrel_close_time:21;
+=>nrel_city:
+    minsk;
+=>nrel_street:[Ул. Киселева] (* <- lang_ru;; *);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_93 <- pharmacy_chain_Green_pharmacy;
+=>nrel_main_idtf:
+    [Зелёная аптека]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_open_time:9;
+=>nrel_close_time:21;
+=>nrel_city:
+    minsk;
+=>nrel_street:[Ул. Толбухина] (* <- lang_ru;; *);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_94 <- pharmacy_chain_Green_pharmacy;
+=>nrel_main_idtf:
+    [Зеленая аптека №6]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_open_time:9;
+=>nrel_close_time:21;
+=>nrel_city:
+    minsk;
+=>nrel_street:[Ул. Воронянского] (* <- lang_ru;; *);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_95 <- pharmacy_chain_Green_pharmacy;
+=>nrel_main_idtf:
+    [Зелёная аптека]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_city:
+    minsk;
+=>nrel_street:[Ул. Бобруйская] (* <- lang_ru;; *);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_96 <- pharmacy_chain_Green_pharmacy;
+=>nrel_main_idtf:
+    [Зелёная аптека]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_open_time:9;
+=>nrel_close_time:21;
+=>nrel_city:
+    minsk;
+=>nrel_street:[Ул. Веры Хоружей] (* <- lang_ru;; *);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_97 <- pharmacy_chain_Green_pharmacy;
+=>nrel_main_idtf:
+    [Зеленая аптека №44]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_open_time:8;
+=>nrel_close_time:19;
+=>nrel_city:
+    minsk;
+=>nrel_street:[Ул. Герасименко] (* <- lang_ru;; *);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_98 <- pharmacy_chain_Green_pharmacy;
+=>nrel_main_idtf:
+    [Зелёная аптека]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_open_time:10;
+=>nrel_close_time:22;
+=>nrel_city:
+    minsk;
+=>nrel_street:[Ул. Владислава Голубко] (* <- lang_ru;; *);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_99 <- pharmacy_chain_Green_pharmacy;
+=>nrel_main_idtf:
+    [Зелёная аптека]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_open_time:10;
+=>nrel_close_time:22;
+=>nrel_city:
+    minsk;
+=>nrel_street:[Ул. Монтажников] (* <- lang_ru;; *);
+=>nrel_search_area:
+belarus;;
+
+
+pharmacy_planeta_100 <- pharmacy_chain_Green_pharmacy;
+=>nrel_main_idtf:
+    [Зелёная аптека]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_open_time:10;
+=>nrel_close_time:22;
+=>nrel_city:
+    minsk;
+=>nrel_street:[Ул. Филатова] (* <- lang_ru;; *);
+=>nrel_search_area:
+belarus;;
+
+pharmacy_planeta_101 <- pharmacy_chain_Green_pharmacy;
+=>nrel_main_idtf:
+    [Зелёная аптека]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_open_time:10;
+=>nrel_close_time:22;
+=>nrel_city:
+    minsk;
+=>nrel_street:[Надеждинская улица] (* <- lang_ru;; *);
+=>nrel_search_area:
+belarus;;

@@ -1,0 +1,9 @@
+lib_component_ui_menu_get_pharmacies_by_open_time
+=> nrel_main_idtf:
+	[Компонент библиотеки. Команда пользовательского интерфейса поиска аптек по времени открытия]
+	(* <- lang_ru;; *);
+	[Library component. User interfaces command of search of pharmacies by open time]
+	(* <- lang_en;; *);
+
+<- library_of_platform_independent_reusable_components;
+<- library_of_atomic_reusable_components;;

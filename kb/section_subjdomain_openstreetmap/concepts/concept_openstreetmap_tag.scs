@@ -1,0 +1,35 @@
+concept_openstreetmap_tag
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[OpenStreetMap тэг]
+	(* <- lang_ru;; *);
+	[OpenStreetMap tag]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (OpenStreetMap тэг)]
+		(* <- lang_ru;; *);
+		[Def. (OpenStreetMap tag)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[OpenStreetMap тэг — линка содержащая тэг OpenStreetMap.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[OpenStreetMap tag - link which contains OpenStreetMap tag.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_link;
+            concept_openstreetmap_tag
+		};;
+	*);;

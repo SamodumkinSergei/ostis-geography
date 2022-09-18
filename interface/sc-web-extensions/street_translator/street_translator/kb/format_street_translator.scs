@@ -1,0 +1,27 @@
+format_street_translator
+<- sc_node_not_relation;
+<- format;
+=> nrel_main_idtf:
+	[формат примера компонента ПИ street_translator]
+	(*
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf:
+	[format of UI component street_translator]
+	(*
+	<- lang_en;;
+	*);
+=> nrel_mimetype:
+	[application/html];;
+
+street_translator_code <- ui_external_languages;
+=> nrel_main_idtf:
+	[Пример компонента интерфейса street_translator]
+	(*
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf:
+	[UI component street_translator]
+	(*
+	<- lang_en;;
+	*);;

@@ -1,0 +1,24 @@
+cash_form<-sc_node_not_relation;;
+non_cash_form<-sc_node_not_relation;;
+
+concept_bank <- sc_node_not_relation;
+<- concept_banking_institution;
+=>nrel_main_idtf:
+	[банк]
+	(* <- lang_ru;; *);
+	[bank]
+	(* <- lang_en;; *);
+<-rrel_key_sc_element:...(*
+<-definition;;
+=>nrel_main_idtf:
+[Опр.(банк)](*<-lang_ru;;*);
+[Опр.(bank)](*<-lang_en;;*);;
+=>nrel_using_constants:{
+cash_form;
+non_cash_form
+};;
+<=nrel_sc_text_translation:...(*
+->[Банк — денежно-кредитная организация, регулирующая платёжный оборот в наличной и безналичной форме.](* <- lang_ru;; => nrel_format: format_html;; *);;
+->[The Bank is a monetary organization that regulates payment turnover in cash and non-cash form.](* <- lang_en;; => nrel_format: format_html;; *);;
+*);;
+*);;

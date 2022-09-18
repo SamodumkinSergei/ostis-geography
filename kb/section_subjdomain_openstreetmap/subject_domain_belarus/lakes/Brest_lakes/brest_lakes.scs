@@ -1,0 +1,314 @@
+//1
+lake_Miadnianskaje 
+<- concept_lake;
+<- concept_lake_of_the_Brest_region;
+<- concept_way;
+=>nrel_main_idtf:
+    [Меднянское озеро]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=> nrel_area:
+    [0.24]
+   (* <- concept_square;; *);
+=>nrel_district:
+    brest_district;
+=>nrel_search_area:
+    brest_region;;
+
+//2
+lake_Stradzieckaje  
+<- concept_lake;
+<- concept_lake_of_the_Brest_region;
+<- concept_way;
+=>nrel_main_idtf:
+    [Страдечское озеро]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_area:
+    [0.14]
+    (* <- concept_square;; *);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    brest_district;
+=>nrel_search_area:
+    brest_region;;
+
+//3
+lake_Lukava  
+<- concept_lake;
+<- concept_lake_of_the_Brest_region;
+<- concept_way;
+=>nrel_main_idtf:
+    [Луковское озеро]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    brest_district;
+=>nrel_search_area:
+    brest_region;;
+
+//4
+lake_pogost  
+<- concept_lake;
+<- concept_lake_of_the_Brest_region;
+=>nrel_main_idtf:
+    [Погост]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_area:
+    [17]
+    (* <- concept_square;; *);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    brest_district;;
+
+//5
+lake_Horodyszczewskie  
+<- concept_lake;
+<- concept_lake_of_the_Brest_region;
+<- concept_way;
+=>nrel_main_idtf:
+    [Городищенское озеро]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_temperature:
+    [5];
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    brest_district;
+=>nrel_search_area:
+    brest_region;;
+
+//6
+lake_pochapovo  
+<- concept_lake;
+<- concept_lake_of_the_Brest_region;
+<- concept_way;
+=>nrel_search_area:
+    brest_region;
+=>nrel_main_idtf:
+    [Почапово]
+    (* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    brest_district;;
+
+//7
+lake_Sporauskaje  
+<- concept_lake;
+<- concept_lake_of_the_Brest_region;
+=>nrel_main_idtf:
+    [Споровское озеро]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    brest_district;;
+
+//8
+lake_purushe  
+<- concept_lake;
+<- concept_lake_of_the_Brest_region;
+<- concept_way;
+=>nrel_search_area:
+    brest_region;
+=>nrel_main_idtf:
+    [Бездежское озеро (Пырище)]
+    (* <- lang_ru;;  <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    brest_district;;
+
+//9
+lake_bobrovichskoe  
+<- concept_lake;
+<- concept_lake_of_the_Brest_region;
+<- concept_way;
+=>nrel_search_area:
+    brest_region;
+=>nrel_main_idtf:
+    [Бобровичское озеро]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_salt:
+    [0.12];
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    ivatsevichy_district;;
+
+//10
+lake_vulkovskoe  
+<- concept_lake;
+<- concept_lake_of_the_Brest_region;
+<- concept_way;
+=>nrel_search_area:
+    brest_region;
+=>nrel_main_idtf:
+    [озеро Вульковское]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    ivatsevichy_district;;
+
+//11
+lake_Wygonowskie  
+<- concept_lake;
+<- concept_lake_of_the_Brest_region;
+<- concept_way;
+=>nrel_search_area:
+    brest_region;
+=>nrel_main_idtf:
+    [Выгонощанское озеро]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=> nrel_salt:
+    [26];
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    ivatsevichy_district;;
+
+//12
+lake_kachayskoe  
+<- concept_lake;
+<- concept_lake_of_the_Brest_region;
+<- concept_way;
+=>nrel_search_area:
+    brest_region;
+=>nrel_main_idtf:
+    [Качайское озеро]
+    (* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    hantsavichy_district;;
+
+//13
+lake_Koldyczewskie  
+<- concept_lake;
+<- concept_lake_of_the_Brest_region;
+<- concept_way;
+=>nrel_search_area:
+    brest_region;
+=>nrel_main_idtf:
+    [Колдычевское озеро]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    hantsavichy_district;;
+
+//14
+lake_lukovo  
+<- concept_lake;
+<- concept_lake_of_the_Brest_region;
+<- concept_way;
+=>nrel_search_area:
+    brest_region;
+=>nrel_main_idtf:
+    [Луково]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    brest_district;;
+
+//15
+lake_Motol  
+<- concept_lake;
+<- concept_lake_of_the_Brest_region;
+<- concept_way;
+=>nrel_search_area:
+    brest_region;
+=>nrel_main_idtf:
+    [Мотольское озеро]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    malaryta_district;;
+
+//16
+lake_Oltuskie 
+<- concept_lake;
+<- concept_lake_of_the_Brest_region;
+<- concept_way;
+=>nrel_search_area:
+    brest_region;
+=>nrel_main_idtf:
+    [Олтушское озеро]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    malaryta_district;;
+
+//17
+lake_Orzechowskie 
+<- concept_lake;
+<- concept_lake_of_the_Brest_region;
+<- concept_way;
+=>nrel_search_area:
+    brest_region;
+=>nrel_main_idtf:
+    [Ореховское озеро]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    malaryta_district;;
+
+//18
+lake_sominskoe 
+<- concept_lake;
+<- concept_lake_of_the_Brest_region;
+<- concept_way;
+=>nrel_search_area:
+    brest_region;
+=>nrel_main_idtf:
+    [Соминское озеро]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    ivatsevichy_district;;

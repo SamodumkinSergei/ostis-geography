@@ -1,0 +1,34 @@
+concept_administrative_unit
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[административно-территориальный единица]
+	(* <- lang_ru;; *);
+	[administrative-territorial unit]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (административно-территориальный единица)]
+		(* <- lang_ru;; *);
+		[Def. (administrative-territorial unit)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Административно-территориальный единица — единица административно-территориального деления государства. Административно-территориальная единица обычно имеют полномочия принимать административные или политические решения для своей территории.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Administrative-territorial unit - a unit of administrative-territorial division of the state. An administrative-territorial unit usually has the power to make administrative or political decisions for its territory.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_administrative_unit
+		};;
+	*);;

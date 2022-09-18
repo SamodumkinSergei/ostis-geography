@@ -1,0 +1,25 @@
+foreign_banknotes<-sc_node_not_relation;;
+traffic_checks<-sc_node_not_relation;;
+
+concept_bureau_de_change <- sc_node_not_relation;
+<- concept_banking_institution;
+=>nrel_main_idtf:
+	[пункт обмена валюты]
+	(* <- lang_ru;; *);
+	[bureau de change]
+	(* <- lang_en;; *);
+<-rrel_key_sc_element:...(*
+<-definition;;
+=>nrel_main_idtf:
+[Опр.(банк)](*<-lang_ru;;*);
+[Опр.(bank)](*<-lang_en;;*);;
+=>nrel_using_constants:{
+cash_form;
+foreign_banknotes;
+traffic_checks
+};;
+<=nrel_sc_text_translation:...(*
+->[Пункт обмена валюты - представляет собой, как правило, небольшой офис или киоск, в котором можно обменять иностранные банкноты и дорожные чеки.](* <- lang_ru;; => nrel_format: format_html;; *);;
+->[Bureau de change - is usually a small office or kiosk where foreign banknotes and traffic checks can be exchanged.](* <- lang_en;; => nrel_format: format_html;; *);;
+*);;
+*);;

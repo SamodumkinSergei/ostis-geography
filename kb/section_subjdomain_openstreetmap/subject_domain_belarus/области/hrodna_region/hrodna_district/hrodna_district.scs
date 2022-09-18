@@ -1,0 +1,13 @@
+hrodna_district <- concept_district;
+=>nrel_main_idtf:
+    [Hrodna District]
+    (* <- lang_en;; <- name_en;;*);
+    [Гродненский район]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [6]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    grodno_region;;

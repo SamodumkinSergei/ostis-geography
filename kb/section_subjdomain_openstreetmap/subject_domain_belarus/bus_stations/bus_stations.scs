@@ -1,0 +1,1278 @@
+//-------------------1
+concept_bus_station
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+[автобусная остановка]
+(* <- lang_ru;; *);
+[bus station]
+(* <- lang_en;; *);;
+//-------------------2
+nrel_bus_number
+<-sc_node_norole_relation;
+<-relation;
+<-norole_relation;
+<-binary_relation;
+<-oriented_relation;
+<-antireflexive_relation;
+<-antitransitive_relation;
+<-asymmetric_relation;
+=>nrel_main_idtf:
+	[ номер автобуса* ]
+	(* <- lang_ru;; *);
+	[ bus number* ]
+	(* <- lang_en;; *);;
+//-------------------3
+station_gedroica <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Ежы Гедройца]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	28;
+=>nrel_country:
+    belarus;;
+
+
+//-------------------4
+station_studenckaya_veska <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Студэнцкая вёска]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	84;
+=>nrel_country:
+    belarus;;
+
+    //-------------------5
+station_med_univer <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Медуніверсітэт]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	84;
+=>nrel_country:
+    belarus;;
+
+     //-------------------6
+station_metro_petrovshcnina <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Станция метро «Петровщина»]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	84;
+=>nrel_country:
+    belarus;;
+
+    //-------------------7
+station_metro_mihalova <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Ст. м. "Міхалова"]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	84;
+=>nrel_country:
+    belarus;;
+
+     //-------------------8
+station_prilyckaya <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Прылуцкая]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	84;
+=>nrel_country:
+    belarus;;
+
+
+    //-------------------9
+station_hrushayskaya <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Грушаўская]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	84;
+=>nrel_country:
+    belarus;;
+
+    //-------------------10
+station_neyski_zavylak <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Неўскі завулак]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	84;
+=>nrel_country:
+    belarus;;
+
+    //-------------------11
+station_brileyskaya <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Брылеўская]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	84;
+=>nrel_country:
+    belarus;;
+
+
+//-------------------12
+station_old_airport <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Стары аэрапорт]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	84;
+=>nrel_country:
+    belarus;;
+
+//-------------------13
+station_avakyana <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Авакяна]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	84;
+=>nrel_country:
+    belarus;;
+
+    //-------------------14
+station_lyaykova <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Ляўкова]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	84;
+=>nrel_country:
+    belarus;;
+
+
+    //-------------------15
+station_kozirayskaya <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Козыраўская]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	84;
+=>nrel_country:
+    belarus;;
+
+
+    //-------------------16
+station_mayakoyskaga <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Маякоўскага]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	84;
+=>nrel_country:
+    belarus;;
+
+    //-------------------17
+station_sakalanski_zavylak <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Сакалянскі завулак]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	84;
+=>nrel_country:
+    belarus;;
+
+    //-------------------18
+station_traleybysny_park <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Тралейбусны парк]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	84;
+=>nrel_country:
+    belarus;;
+
+    //-------------------19
+station_autabaza <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Аўтабаза]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	84;
+=>nrel_country:
+    belarus;;
+
+
+    //-------------------20
+station_autavakzal_yshodni <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Аўтавакзал усходні]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	84;
+=>nrel_country:
+    belarus;;
+
+    //-------------------21
+station_bgeu <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Эканамічны ўніверсітэт]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	84;
+=>nrel_country:
+    belarus;;
+
+    //-------------------22
+partizanski_praspekt <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Партызанскі праспект]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	84;
+=>nrel_country:
+    belarus;;
+
+    //-------------------23
+station_stadion_traktor <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Стадыён трактар]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	84;
+=>nrel_country:
+    belarus;;
+
+    //-------------------24
+station_budzenaga <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Будзёнага]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	84;
+=>nrel_country:
+    belarus;;
+
+
+    //-------------------25
+station_traktornuy_zavod <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Ст. м. Тракторный завод]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	84;
+=>nrel_country:
+    belarus;;
+
+    //-------------------26
+station_brileyskaya <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    []
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	84;
+=>nrel_country:
+    belarus;;
+
+    //-------------------27
+station_filial_bdu <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Філіял БДУ]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	96;
+=>nrel_country:
+    belarus;;
+
+    //-------------------28
+station_akademika_kur4atova <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Акадэміка Курчатава]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	96;
+=>nrel_country:
+    belarus;;
+
+    //-------------------29
+station_fuckultet_radiofiziki <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Факультэт радыёфізікі]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	96;
+=>nrel_country:
+    belarus;;
+
+    //-------------------30
+station_napaleona_ordi <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Напалеона Орды]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	96;
+=>nrel_country:
+    belarus;;
+
+    //-------------------31
+station_yana_4a4ota <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Яна Чачота]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	96;
+=>nrel_country:
+    belarus;;
+
+    //-------------------32
+station_caralinskaya <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Каралінская]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	96;
+=>nrel_country:
+    belarus;;
+
+    //-------------------33
+station_filial_bdu <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Станцыя метро «Малінаўка»]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	96;
+=>nrel_country:
+    belarus;;
+
+    //-------------------34
+station_sergeya_esenina <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Сяргея Ясеніна]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	96;
+=>nrel_country:
+    belarus;;
+
+
+    //-------------------35
+station_universam <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Універсам]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	96;
+=>nrel_country:
+    belarus;;
+
+    //-------------------36
+station_malinauka1 <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Малінаўка-1]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	96;
+=>nrel_country:
+    belarus;;
+
+    //-------------------37
+station_dzichya4i_sad <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Дзіцячы сад]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	96;
+=>nrel_country:
+    belarus;;
+
+    //-------------------38
+station_gromava <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Громава]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	96;
+=>nrel_country:
+    belarus;;
+
+    //-------------------39
+station_ats <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [АТС]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	96;
+=>nrel_country:
+    belarus;;
+
+    //-------------------40
+station_polickinica25 <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Паліклініка №25]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	96;
+=>nrel_country:
+    belarus;;
+
+    //-------------------41
+station_syargeya_111 <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Сяргея Ясеніна, 111]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	96;
+=>nrel_country:
+    belarus;;
+
+    //-------------------42
+station_malinauka4 <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [ДС "Малінаўка-4"]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	96;
+=>nrel_country:
+    belarus;;
+
+//-------------------43
+station_ds_carbisheva <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Диспетчерская станция "Карбышева"]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	37;
+=>nrel_country:
+    belarus;;
+
+    //-------------------44
+station_gostinica_agat <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Гостиница Агат]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	37;
+=>nrel_country:
+    belarus;;
+
+    //-------------------45
+station_ds_kalinouskaga <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [ДС "Каліноўскага"]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	37;
+=>nrel_country:
+    belarus;;
+
+
+    //-------------------46
+station_pagranci <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Інстытут пагранічная службы]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	37;
+=>nrel_country:
+    belarus;;
+
+
+    //-------------------47
+station_palac_baracbi <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Палац барацьбы]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	37;
+=>nrel_country:
+    belarus;;
+
+
+    //-------------------48
+station_hlebazavod5 <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Хлебазавод №5]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	37;
+=>nrel_country:
+    belarus;;
+
+    //-------------------49
+station_wide <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Шырокая]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	37;
+=>nrel_country:
+    belarus;;
+
+    //-------------------50
+station_paligrafi4naya <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Паліграфічная]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	37;
+=>nrel_country:
+    belarus;;
+
+
+    //-------------------51
+station_sevastopalskaya <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Севастопальская]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	37;
+=>nrel_country:
+    belarus;;
+
+    //-------------------52
+station_yakuba_kolasa <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Якуба Коласа]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	37;
+=>nrel_country:
+    belarus;;
+
+
+    //-------------------53
+station_knorina <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Кнорына]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	37;
+=>nrel_country:
+    belarus;;
+
+
+    //-------------------54
+station_korolenko <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Короленко]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	37;
+=>nrel_country:
+    belarus;;
+
+    //-------------------55
+station_kedishki <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Кедышкі]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	37;
+=>nrel_country:
+    belarus;;
+
+
+    //-------------------56
+station_metro_maskouskaya <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Станція метро Маскоўская]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	37;
+=>nrel_country:
+    belarus;;
+
+
+    //-------------------57
+station_metro_park_4aluskincau <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Станцыя метро Парк Чалюскінцаў]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	37;
+=>nrel_country:
+    belarus;;
+
+    //-------------------58
+station_kalinina <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Плошча Калініна]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	37;
+=>nrel_country:
+    belarus;;
+
+    //-------------------59
+station_dom_druku <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Дом друку]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	37;
+=>nrel_country:
+    belarus;;
+
+    //-------------------60
+station_petrusya_brovki <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Вуліца П. Броўкі]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	37;
+=>nrel_country:
+    belarus;;
+
+    //-------------------61
+station_gikalo <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Улица Гикало]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	37;
+=>nrel_country:
+    belarus;;
+
+
+    //-------------------62
+station_platonava <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Платонава вул.]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	37;
+=>nrel_country:
+    belarus;;
+
+    //-------------------63
+station_gostinica_agat <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Гостиница Агат]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	37;
+=>nrel_country:
+    belarus;;
+
+
+    //-------------------64
+station_zaharava <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Захарава]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	37;
+=>nrel_country:
+    belarus;;
+
+
+    //-------------------65
+station_salamyanaya <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Саламяная]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	37;
+=>nrel_country:
+    belarus;;
+
+
+    //-------------------66
+station_andreeyskaya <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Андрэеўская]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	37;
+=>nrel_country:
+    belarus;;
+
+    //-------------------67
+station_ds_ushodnaya <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [ДС Усходняя(высадка пасажыраў)]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	37;
+=>nrel_country:
+    belarus;;
+
+    //-------------------68
+station_ds_shabany <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [ДС "Шабаны"]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	93;
+=>nrel_country:
+    belarus;;
+
+    //-------------------69
+station_rotmistava <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Ротмістава]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	93;
+=>nrel_country:
+    belarus;;
+
+    //-------------------70
+station_lazneva_kompleks <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Лазнева-Аздараўленчы комплекс]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	93;
+=>nrel_country:
+    belarus;;
+
+//-------------------71
+station_syalickaga <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Сяліцкага]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	93;
+=>nrel_country:
+    belarus;;
+
+
+    //-------------------72
+station_maly_trascyanec <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Малы Трасцянец]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	93;
+=>nrel_country:
+    belarus;;
+
+    //-------------------73
+station_syalickaga105 <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Сяліцкага, 105]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	93;
+=>nrel_country:
+    belarus;;
+
+
+    //-------------------74
+station_pavarot_na_shabany <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Паварот на Шабаны]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	93;
+=>nrel_country:
+    belarus;;
+
+
+    //-------------------75
+station_big_trascyanec <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Вялікі Трасцянец]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	93;
+=>nrel_country:
+    belarus;;
+
+
+    //-------------------76
+station_malo4ny_cumbinat <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Малочны камбінат]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	93;
+=>nrel_country:
+    belarus;;
+
+
+    //-------------------77
+station_metro_magileyskaya <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Станцыя метро "Магілёўская"]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	93;
+=>nrel_country:
+    belarus;;
+
+    //-------------------78
+station_varvasheny <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Варвашэні]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	93;
+=>nrel_country:
+    belarus;;
+
+
+    //-------------------79
+station_katoyskaga <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Катоўскага]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	93;
+=>nrel_country:
+    belarus;;
+
+
+    //-------------------80
+station_gostinica_agat <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Станцыя метро Аўтазаводская]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	93;
+=>nrel_country:
+    belarus;;
+
+    //-------------------81
+station_kylyashova <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Куляшова]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	93;
+=>nrel_country:
+    belarus;;
+
+
+    //-------------------82
+station_metro_partizanskaya <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Станцыя метро Партызанская]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	93;
+=>nrel_country:
+    belarus;;
+
+    //-------------------83
+station_vasnyacova <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Васняцова]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	93;
+=>nrel_country:
+    belarus;;
+
+    //-------------------84
+station_suhareva5 <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [ДС "Сухарево-5"]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	17;
+=>nrel_country:
+    belarus;;
+
+//-------------------85
+station_suharava6 <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Мікрараён Сухарава-6]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	17;
+=>nrel_country:
+    belarus;;
+
+    //-------------------86
+station_pimena_pan4anki <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Пімена Панчанкі]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	17;
+=>nrel_country:
+    belarus;;
+
+//-------------------87
+station_akademika_fedorova <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Акадэміка Фёдарава]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	17;
+=>nrel_country:
+    belarus;;
+
+
+    //-------------------88
+station_suharava2 <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Мікрараён Сухарава-2]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	17;
+=>nrel_country:
+    belarus;;
+
+    //-------------------89
+station_pimena_pan4anki <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    []
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	17;
+=>nrel_country:
+    belarus;;
+
+
+    //-------------------90
+station_labanka99 <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Лабанка, 99]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	17;
+=>nrel_country:
+    belarus;;
+
+    //-------------------91
+station_labanka <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Лабанка]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	17;
+=>nrel_country:
+    belarus;;
+
+    //-------------------92
+station_ivana_shyamyakina <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Івана Шамякіна]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	17;
+=>nrel_country:
+    belarus;;
+
+    //-------------------93
+station_mazurava <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Мазурава]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	17;
+=>nrel_country:
+    belarus;;
+
+
+    //-------------------94
+station_zahad3 <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Захад-3]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	17;
+=>nrel_country:
+    belarus;;
+
+
+    //-------------------95
+station_burdzeinaga <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Бурдзейнага]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	17;
+=>nrel_country:
+    belarus;;
+
+
+//-------------------96
+station_metro_kamennaya_gorka <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Станцыя метро "Каменная горка"]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	17;
+=>nrel_country:
+    belarus;;
+
+    //-------------------97
+station_paliclinika26 <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Паліклініка №26]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	17;
+=>nrel_country:
+    belarus;;
+
+    //-------------------98
+station_ds_kuncayshchina <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [ДС "Кунцаўшчына"]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	17;
+=>nrel_country:
+    belarus;;
+
+    //-------------------99
+station_kasmanautau <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Касманаўтаў]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	84;
+=>nrel_country:
+    belarus;;
+
+    //-------------------100
+station_dvorishchya <- concept_map_object; <- concept_bus_station;
+=>nrel_main_idtf:
+    [Дворышча]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    minsk;
+=>nrel_bus_number:
+	84;
+=>nrel_country:
+    belarus;;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

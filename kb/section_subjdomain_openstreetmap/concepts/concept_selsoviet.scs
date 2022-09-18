@@ -1,0 +1,34 @@
+concept_selsoviet
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[сельсовет]
+	(* <- lang_ru;; *);
+	[selsoviet]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (сельсовет)]
+		(* <- lang_ru;; *);
+		[Def. (selsoviet)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Сельсовет, сельский совет - единица административно-территориального деления, используемая в ряде стран бывшего СССР.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Selsoviet is a unit of administrative-territorial division used in a number of countries of the former USSR.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_selsoviet
+		};;
+	*);;

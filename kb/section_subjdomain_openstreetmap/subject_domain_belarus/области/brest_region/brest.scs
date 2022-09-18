@@ -1,0 +1,51 @@
+brest <- concept_city;
+=>nrel_main_idtf:
+    [Brest]
+    (* <- lang_en;; <- name_en;;*);
+    [Брест]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [6]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    brest_district;;
+
+leninsky_city_district_brest  <- concept_city_district;
+=>nrel_main_idtf:
+    [Leninsky District]
+    (* <- lang_en;; <- name_en;;*);
+    [Ленинский район]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [9]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    brest_district;
+=>nrel_city:
+    brest;;
+
+maskowski_city_district_brest  <- concept_city_district;
+=>nrel_main_idtf:
+    [Maskowski District]
+    (* <- lang_en;; <- name_en;;*);
+    [Московский район]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [9]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    brest_district;
+=>nrel_city:
+    brest;;

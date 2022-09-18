@@ -1,0 +1,97 @@
+zabinkauski_selsoviet <- concept_selsoviet;
+=>nrel_main_idtf:
+    [Жабинковский сельский Совет]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [8]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    zhabinka_district;;
+
+kryulanski_selsoviet <- concept_selsoviet;
+=>nrel_main_idtf:
+    [Кривлянский сельский Совет]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [8]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    zhabinka_district;;
+
+leninski_selsoviet_zhabinka_district <- concept_selsoviet;
+=>nrel_main_idtf:
+    [Ленинский сельский Совет]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [8]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    zhabinka_district;;
+
+aziacki_selsoviet <- concept_selsoviet;
+=>nrel_main_idtf:
+    [Озятский сельский Совет]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [8]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    zhabinka_district;;
+
+rakitnicki_selsoviet <- concept_selsoviet;
+=>nrel_main_idtf:
+    [Ракитницкий сельский Совет]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [8]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    zhabinka_district;;
+
+sciapankauski_selsoviet <- concept_selsoviet;
+=>nrel_main_idtf:
+    [Степанковский сельский Совет]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [8]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    zhabinka_district;;
+
+chmieleuski_selsoviet <- concept_selsoviet;
+=>nrel_main_idtf:
+    [Хмелевский сельский Совет]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [8]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    zhabinka_district;;

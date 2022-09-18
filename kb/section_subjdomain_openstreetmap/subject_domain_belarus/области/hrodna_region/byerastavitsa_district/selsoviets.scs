@@ -1,0 +1,83 @@
+berestovitskiy_selsoviet <- concept_selsoviet;
+=>nrel_main_idtf:
+    [Берестовицкий сельский Совет]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [8]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    hrodna_region;
+=>nrel_district:
+    byerastavitsa_district;;
+
+konyuhovskiy_selsoviet <- concept_selsoviet;
+=>nrel_main_idtf:
+    [Конюховский сельский Совет]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [8]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    hrodna_region;
+=>nrel_district:
+    byerastavitsa_district;;
+
+maloberestovitskiy_selsoviet <- concept_selsoviet;
+=>nrel_main_idtf:
+    [Малоберестовицкий сельский Совет]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [8]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    hrodna_region;
+=>nrel_district:
+    byerastavitsa_district;;
+
+olekshitskiy_selsoviet <- concept_selsoviet;
+=>nrel_main_idtf:
+    [Олекшицкий сельский Совет]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [8]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    hrodna_region;
+=>nrel_district:
+    byerastavitsa_district;;
+
+pogranichnyy_selsoviet <- concept_selsoviet;
+=>nrel_main_idtf:
+    [Пограничный сельский Совет]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [8]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    hrodna_region;
+=>nrel_district:
+    byerastavitsa_district;;
+
+eysmontovskiy_selsoviet <- concept_selsoviet;
+=>nrel_main_idtf:
+    [Эйсмонтовский сельский Совет]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [8]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    hrodna_region;
+=>nrel_district:
+    byerastavitsa_district;;

@@ -1,0 +1,29 @@
+dubrowna_district <- concept_district;
+=>nrel_main_idtf:
+    [Dubrowna District]
+    (* <- lang_en;; <- name_en;;*);
+    [Дубровенский район]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [6]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitebsk_region;;
+
+dubrowna <- concept_city;
+=>nrel_main_idtf:
+    [Dubrowna]
+    (* <- lang_en;; <- name_en;;*);
+    [Дубровно]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [8]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitebsk_region;
+=>nrel_district:
+    dubrowna_district;;

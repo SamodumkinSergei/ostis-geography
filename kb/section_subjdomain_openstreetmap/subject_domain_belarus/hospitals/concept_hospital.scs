@@ -1,0 +1,34 @@
+concept_hospital
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[больница]
+	(* <- lang_ru;; *);
+	[hospital]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+		[Опр. (больница)]
+		(* <- lang_ru;; *);
+		[Def. (hospital)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Больница - вид гражданского стационарного медицинского учреждения, направленного на лечение больных и/или специализированную углубленную дифференциальную диагностику заболеваний в стационарных условиях..]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Hospital - health care institution providing patient treatment with specialized health science and auxiliary healthcare staff and medical equipment.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_hospital
+		};;
+	*);;

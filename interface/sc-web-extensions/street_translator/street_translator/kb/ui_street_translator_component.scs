@@ -1,0 +1,49 @@
+ui_street_translator_enName_input <- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Імя на англійском с маленькой буквы]
+	(*
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf:
+	[Name in enlgish startingwith lowercase letter]
+	(*
+	<- lang_en;;
+	*);;
+
+ui_street_translator_ruName_input <- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Імя на россійском]
+	(*
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf:
+	[Name in russian]
+	(*
+	<- lang_en;;
+	*);;
+
+ui_street_translator_count_input <- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Колічество уліц для трансляціі!]
+	(*
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf:
+	[Number of streets to translate!]
+	(*
+	<- lang_en;;
+	*);;
+
+
+ui_street_translator_button <- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Трансліровать!]
+	(*
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf:
+	[Translate!]
+	(*
+	<- lang_en;;
+	*);;
+
