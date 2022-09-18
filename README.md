@@ -5,29 +5,27 @@ OSTIS-geography is an open-source knowledge base for geographical system for Ope
 
 Linux:
 ```sh
-git clone https://github.com/Vikort/ostis-geography
-git checkout pis
-cd {project-name}/scripts
+git clone https://github.com/ostis-apps/ostis-geography
+cd ostis-geography/scripts
 ./install_ostis.sh
 ```
 
 ## Build knowledge base
 Linux:
 ```sh
-cd {project-name}/ostis-web-platform/scripts
+cd ostis-geography/scripts
 ./build_kb.sh
 ```
 
 ## Run
-### Option 1. Run sctp-server & sc-web
-Please note that JSON Websocket protocol will be available as well after start.
+### Option 1. Run sc-server & sc-web
 Run on Linux:
 ```sh
 #Terminal 1
-cd {project-name}/ostis-web-platform/scripts
+cd ostis-geography/scripts
 ./run_sc_server.sh
 #Terminal 2
-cd {project-name}/ostis-web-platform/scripts
+cd ostis-geography/scripts
 ./run_sc_web.sh
 ```
 
@@ -62,18 +60,18 @@ Some tips:
 - Store your modules with C++ agents in *problem-solver/cxx*;
 - After updating your C++ code you need to rebuild problem-solver. Just run:  
 ```
-cd {project-name}/scripts
+cd ostis-geography/scripts
 ./build_problem_solver.sh
 ```
 For a full rebuild with the deleting of the *bin* and *build* folders run:
 ```
-cd patient-care/scripts
+cd ostis-geography/scripts
 ./build_problem_solver.sh -f
 ```
 
 - To enable debug:
     * add *SET(CMAKE_BUILD_TYPE Debug)* line 
-    to *{project-name}/CMakeLists.txt* file;
+    to *ostis-geography/CMakeLists.txt* file;
     * rebuild problem-solver.
 - You can see an example module with a C++ agent [here](problem-solver/cxx/exampleModule/README.md).
 
@@ -98,7 +96,7 @@ The place for your extensions using **IMS interface(sc-web)** standard.
 The place for scripts of your app.
 
 #### build_problem_solver.sh [-f, --full]
-Build the problem-solver of your app. Use an argument *-f* or *--full* for a complete rebuild of the problem-solver with the deleting of the *ostis-web-platform/sc-machine/bin* and *ostis-web-platform/sc-machine/build* folders.
+Build the problem-solver of your app. Use an argument *-f* or *--full* for a complete rebuild of the problem-solver with the deleting of the *bin* and *build* folders.
 
 #### install_ostis.sh
 Install or update the OSTIS platform.
