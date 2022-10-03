@@ -2,7 +2,7 @@ section_subject_domain_of_openstreetmap
     => nrel_main_idtf:
         [Раздел. Предметная область OpenStreetMap] (* <- lang_ru;; *);
         [Section. Subject domain of OpenStreetMap] (* <- lang_en;; *);
-<- sc_node_not_relation;
+<- sc_node_class;
 <- atomic_section;;
 
 section_subject_domain_of_openstreetmap = [*

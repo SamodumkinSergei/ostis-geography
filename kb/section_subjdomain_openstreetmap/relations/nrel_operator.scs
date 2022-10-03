@@ -1,5 +1,5 @@
-company<-sc_node_not_relation;;
-organization<-sc_node_not_relation;;
+company<-sc_node_class;;
+organization<-sc_node_class;;
 
 nrel_operator
 <- sc_node_norole_relation;
