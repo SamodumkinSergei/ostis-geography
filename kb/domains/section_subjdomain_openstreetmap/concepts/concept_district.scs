@@ -19,13 +19,13 @@ concept_district
 		...
 		(*
 		->rrel_example:
-			[Район - административная единица.]
+			[Район - административно-территориальная единица, включающая строго определённую территорию с проживающим населением.]
 			(* <- lang_ru;; *);;
 		*);
 		...
 		(*
 		-> rrel_example: 
-			[District - administrative unit.]
+			[District - administrative-territorial unit, including a strictly defined territory with a resident population.]
 			(* <- lang_en;; *);;
 		*);;
 	<= nrel_using_constants:
