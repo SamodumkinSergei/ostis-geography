@@ -7,7 +7,7 @@ Linux:
 ```sh
 git clone https://github.com/ostis-apps/ostis-geography
 cd ostis-geography/scripts
-./install_ostis.sh
+./install_project.sh
 ```
 
 ## Build knowledge base
