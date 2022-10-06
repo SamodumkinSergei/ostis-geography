@@ -1,0 +1,12 @@
+griboedov_street_vitebsk <- concept_way;
+                =>nrel_main_idtf:
+                [Griboedov street]
+                (* <- lang_en;; <- name_en;;*);
+                [улица Грибоедова]
+                (* <- lang_ru;; <- name_ru;; <- name;;*);
+                =>nrel_street_length:1700;
+                =>nrel_number_of_house:25;
+                =>zhelezny_city_district;
+                =>nrel_search_area:
+                vitebsk;;
+                
