@@ -1,0 +1,24 @@
+lake_bolshie_shvakshty <- concept_lake;
+<-concept_Shvakshtinskaya_group_lakes;
+=>nrel_main_idtf:
+    [озеро Большие Швакшты]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_district:
+    myadzel_district;;
+
+
+lake_belogolovoe <- concept_lake;
+<-concept_Shvakshtinskaya_group_lakes;
+=>nrel_main_idtf:
+    [Белоголовое озеро]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_district:
+    myadzel_district;;
