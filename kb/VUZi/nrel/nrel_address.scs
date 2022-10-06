@@ -1,0 +1,53 @@
+nrel_address
+<-sc_node_norole_relation;
+<-relation;
+<-binary_relation;
+<-oriented_relation;
+<-antireflexive_relation;
+<-antitransitive_relation;
+<-asymmetric_relation;
+=>nrel_main_idtf:
+	[адрес]
+	(* <- lang_ru;; *);
+	[address]
+	(* <- lang_en;; *);
+=>nrel_first_domain: concept_institution_of_higher_education;
+=>nrel_second_domain: concept_address;
+=>nrel_definitional_domain:
+	...
+	(*
+	<= nrel_combination:
+		{
+		concept_institution_of_higher_education;
+		concept_address
+		};;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (адрес)]
+		(* <- lang_ru;; *);
+		[Def. (address)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Адрес* — бинарное отношение, связывающее высшее учебное заведение и его адрес.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Address* - a binary relation that connects a institution of higher education and an address assigned to that institution.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+            concept_institution_of_higher_education;
+			concept_address;
+            binary_relation
+		};;
+	*);;

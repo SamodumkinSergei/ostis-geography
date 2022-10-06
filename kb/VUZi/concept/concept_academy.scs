@@ -1,6 +1,5 @@
-concept_academy <- concept_institution_of_higher_education;
-<- sc_node_not_relation;
-<= nrel_inclusion: concept_sup_concept;
+concept_academy
+<- sc_node_class;
 => nrel_main_idtf:
 	[академия]
 	(* <- lang_ru;; *);
@@ -33,4 +32,5 @@ concept_academy <- concept_institution_of_higher_education;
 			concept_institution_of_higher_education;
 			concept_academy
 		};;
-	*);;
+	*);
+<= nrel_inclusion: concept_institution_of_higher_education;;

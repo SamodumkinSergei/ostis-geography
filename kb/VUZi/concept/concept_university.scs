@@ -1,6 +1,5 @@
-concept_university <- concept_institution_of_higher_education;
-<- sc_node_not_relation;
-<= nrel_inclusion: concept_sup_concept;
+concept_university
+<- sc_node_class;
 => nrel_main_idtf:
 	[университет]
 	(* <- lang_ru;; *);
@@ -33,4 +32,5 @@ concept_university <- concept_institution_of_higher_education;
 			concept_institution_of_higher_education;
 			concept_university
 		};;
-	*);;
+	*);
+<=nrel_inclusion: concept_institution_of_higher_education;;

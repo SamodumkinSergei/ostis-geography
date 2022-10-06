@@ -1,6 +1,5 @@
 concept_institution_of_higher_education
-<- sc_node_not_relation;
-<= nrel_inclusion: concept_sup_concept;
+<- sc_node_class;
 => nrel_main_idtf:
 	[высшее учебное заведение]
 	(* <- lang_ru;; *);
@@ -32,4 +31,5 @@ concept_institution_of_higher_education
 		{
 			concept_institution_of_higher_education
 		};;
-	*);;
+	*);
+<= nrel_inclusion: concept_administrative_unit;;
