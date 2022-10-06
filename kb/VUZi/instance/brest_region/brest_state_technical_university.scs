@@ -1,0 +1,27 @@
+brest_state_technical_university
+<- concept_university;
+=>nrel_main_idtf:
+    [Brest State Technical University]
+    (* <- lang_en;; <- name_en;;*);
+    [Брестский Государственный Технический Университет]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_address:
+    [г. Брест, ул. Московская, 267.]
+    (*<-concept_address;;*);
+=> nrel_average_passing_grade:
+    [7]
+    (*<-concept_average_passing_grade;;*);
+=> nrel_email:
+    [canc@bstu.by]
+    (*<-concept_email;;*);
+=> nrel_phone_number:
+    [8 016 232-17-32]
+    (*<-concept_phone_number;;*);
+=> nrel_number_of_faculties:
+    [5]
+    (*<-concept_number_of_faculties;;*);
+=> nrel_number_of_students:
+    [1831]
+    (*<-concept_number_of_students;;*);
+=> nrel_region:
+    brest_region;;
