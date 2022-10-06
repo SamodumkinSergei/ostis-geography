@@ -9,5 +9,3 @@ packagelist=(
 	libssl-dev
 )
 sudo apt-get install -y --no-install-recommends "${packagelist[@]}"
-
-python3 -m pip install -r agents_requirements.txt
