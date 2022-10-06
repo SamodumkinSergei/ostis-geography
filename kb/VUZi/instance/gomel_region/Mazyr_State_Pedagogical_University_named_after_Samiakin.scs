@@ -1,0 +1,27 @@
+Mazyr_State_Pedagogical_University_named_after_Samiakin
+<- concept_university;
+=>nrel_main_idtf:
+    [Mazyr State Pedagogical University named after Samiakin]
+    (* <- lang_en;; <- name_en;;*);
+    [Мозырский государственный педагогический университет имени Шамякина]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_address:
+    [г. Мозырь, ул. Студенческая, 28]
+    (*<-concept_address;;*);
+=> nrel_average_passing_grade:
+    [8]
+    (*<-concept_average_passing_grade;;*);
+=> nrel_email:
+    [mgpu@mail.gomel.by]
+    (*<-concept_email;;*);
+=> nrel_phone_number:
+    [8 0236 23-59-14]
+    (*<-concept_phone_number;;*);
+=> nrel_number_of_faculties:
+    [10]
+    (*<-concept_number_of_faculties;;*);
+=> nrel_number_of_students:
+    [3600]
+    (*<-concept_number_of_students;;*);
+=> nrel_region:
+    gomel_region;;

@@ -1,0 +1,27 @@
+Vitebsk_State_University_named_after_Masherov
+<- concept_university;
+=>nrel_main_idtf:
+    [Vitebsk State University named after Masherov]
+    (* <- lang_en;; <- name_en;;*);
+    [Витебский государственный университет имени Машерова]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_address:
+    [г. Витебск, Московский проспект, 33]
+    (*<-concept_address;;*);
+=> nrel_average_passing_grade:
+    [10]
+    (*<-concept_average_passing_grade;;*);
+=> nrel_email:
+    [info@mail-vsu.by]
+    (*<-concept_email;;*);
+=> nrel_phone_number:
+    [8 0212 37-96-43]
+    (*<-concept_phone_number;;*);
+=> nrel_number_of_faculties:
+    [8]
+    (*<-concept_number_of_faculties;;*);
+=> nrel_number_of_students:
+    [5005]
+    (*<-concept_number_of_students;;*);
+=> nrel_region:
+    vitebsk_region;;
