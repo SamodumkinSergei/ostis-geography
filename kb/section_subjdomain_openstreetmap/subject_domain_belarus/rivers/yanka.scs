@@ -1,0 +1,18 @@
+yanka 
+<- concept_river;
+<- concept_way;
+=>nrel_main_idtf:
+    [Yanka]
+    (* <- lang_en;; <- name_en;;*);
+    [Янка]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitebsk_region;
+=>nrel_length:
+    48(*=>nrel_main_idtf:
+    [48];;*);
+=>nrel_basin:
+    564(*=>nrel_main_idtf:
+    [564];;*);;

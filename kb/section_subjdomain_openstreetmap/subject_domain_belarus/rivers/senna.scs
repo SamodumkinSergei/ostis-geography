@@ -1,0 +1,18 @@
+senna 
+<- concept_river;
+<- concept_way;
+=>nrel_main_idtf:
+    [Senna]
+    (* <- lang_en;; <- name_en;;*);
+    [Сенна]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    gomel_region;
+=>nrel_length:
+    59(*=>nrel_main_idtf:
+    [59];;*);
+=>nrel_basin:
+    543(*=>nrel_main_idtf:
+    [543];;*);;

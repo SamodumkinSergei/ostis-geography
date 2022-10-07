@@ -1,0 +1,18 @@
+druika 
+<- concept_river;
+<- concept_way;
+=>nrel_main_idtf:
+    [Druika]
+    (* <- lang_en;; <- name_en;;*);
+    [Друйка]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitebsk_region;
+=>nrel_length:
+    52(*=>nrel_main_idtf:
+    [52];;*);
+=>nrel_basin:
+    1050(*=>nrel_main_idtf:
+    [1050];;*);;

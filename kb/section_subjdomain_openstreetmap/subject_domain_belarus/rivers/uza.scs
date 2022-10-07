@@ -1,0 +1,18 @@
+uza 
+<- concept_river;
+<- concept_way;
+=>nrel_main_idtf:
+    [Uza]
+    (* <- lang_en;; <- name_en;;*);
+    [Уза]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    gomel_region;
+=>nrel_length:
+    76(*=>nrel_main_idtf:
+    [76];;*);
+=>nrel_basin:
+    944(*=>nrel_main_idtf:
+    [944];;*);;

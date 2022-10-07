@@ -1,0 +1,18 @@
+neman 
+<- concept_river;
+<- concept_way;
+=>nrel_main_idtf:
+    [Neman]
+    (* <- lang_en;; <- name_en;;*);
+    [Нёман]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_length:
+    937(*=>nrel_main_idtf:
+    [937];;*);
+=>nrel_basin:
+    98200(*=>nrel_main_idtf:
+    [98200];;*);;

@@ -1,0 +1,18 @@
+sosnitsa 
+<- concept_river;
+<- concept_way;
+=>nrel_main_idtf:
+    [Sosnitsa]
+    (* <- lang_en;; <- name_en;;*);
+    [Сосница]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitebsk_region;
+=>nrel_length:
+    39(*=>nrel_main_idtf:
+    [39];;*);
+=>nrel_basin:
+    394(*=>nrel_main_idtf:
+    [394];;*);;
