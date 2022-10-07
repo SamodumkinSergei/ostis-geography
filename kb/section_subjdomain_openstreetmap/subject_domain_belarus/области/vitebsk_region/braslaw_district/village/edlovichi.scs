@@ -1,0 +1,23 @@
+edlovichi <- concept_village;
+=>nrel_main_idtf:
+    [Edlovichi]
+    (* <- lang_en;; <- name_en;;*);
+    [Едловичи]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [10]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:   
+    vitebsk_region;
+=>nrel_district:
+    braslaw_district;
+=>nrel_selsoviet:
+    opsovsky_selsoviet;
+=>nrel_population:
+    95(*=>nrel_main_idtf:
+    [95];;*);
+=>nrel_distanceFromArea:
+    210(*=>nrel_main_idtf:
+    [210];;*);;

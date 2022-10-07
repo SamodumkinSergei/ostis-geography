@@ -1,0 +1,23 @@
+germanovichi <- concept_village;
+=>nrel_main_idtf:
+    [Germanovichi]
+    (* <- lang_en;; <- name_en;;*);
+    [Германовичи]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [10]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:   
+    vitebsk_region;
+=>nrel_district:
+    sharkawshchyna_district;
+=>nrel_selsoviet:
+    germanovichskiy_selsoviet;
+=>nrel_population:
+    645(*=>nrel_main_idtf:
+    [645];;*);
+=>nrel_distanceFromArea:
+    158(*=>nrel_main_idtf:
+    [158];;*);;

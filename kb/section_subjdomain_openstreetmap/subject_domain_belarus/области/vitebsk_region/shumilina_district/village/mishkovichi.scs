@@ -1,0 +1,23 @@
+mishkovichi <- concept_village;
+=>nrel_main_idtf:
+    [Mishkovichi]
+    (* <- lang_en;; <- name_en;;*);
+    [Мишковичи]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [10]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:   
+    vitebsk_region;
+=>nrel_district:
+    shumilina_district;
+=>nrel_selsoviet:
+    shumilina_nikolaevskiy_selsoviet;
+=>nrel_population:
+    709(*=>nrel_main_idtf:
+    [709];;*);
+=>nrel_distanceFromArea:
+    54(*=>nrel_main_idtf:
+    [54];;*);;

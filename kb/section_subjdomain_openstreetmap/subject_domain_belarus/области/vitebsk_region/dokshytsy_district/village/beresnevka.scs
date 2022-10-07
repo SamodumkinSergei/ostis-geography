@@ -1,0 +1,23 @@
+beresnevka <- concept_village;
+=>nrel_main_idtf:
+    [Beresnevka]
+    (* <- lang_en;; <- name_en;;*);
+    [Бересневка]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [10]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:   
+    vitebsk_region;
+=>nrel_district:
+    dokshytsy_district;
+=>nrel_selsoviet:
+    begomlskiy_selsoviet;
+=>nrel_population:
+    221(*=>nrel_main_idtf:
+    [221];;*);
+=>nrel_distanceFromArea:
+    143(*=>nrel_main_idtf:
+    [143];;*);;

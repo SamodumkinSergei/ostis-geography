@@ -1,0 +1,23 @@
+churchyard <- concept_village;
+=>nrel_main_idtf:
+    [Churchyard]
+    (* <- lang_en;; <- name_en;;*);
+    [Погостище]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [10]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:   
+    vitebsk_region;
+=>nrel_district:
+    braslaw_district;
+=>nrel_selsoviet:
+    opsovsky_selsoviet;
+=>nrel_population:
+    27(*=>nrel_main_idtf:
+    [27];;*);
+=>nrel_distanceFromArea:
+    178(*=>nrel_main_idtf:
+    [178];;*);;
