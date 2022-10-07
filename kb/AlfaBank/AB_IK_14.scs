@@ -1,0 +1,14 @@
+AlfaBank_IK_14<- concept_info_kiosk;
+=> nrel_main_idtf:
+    [AlfaBank_Information_kiosk_14]
+    (* <- lang_en;; <- name_en;; *);
+    [Альфабанк_Инфокиоск_14]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+AlfaBank_IK_14
+<= nrel_address:
+[г. Минск, пр. Притыцкого, д. 142 (Универсам «Соседи»)]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[	Пн-Вс: Круглосуточно	]
+(*<-lang_ru;;*);;

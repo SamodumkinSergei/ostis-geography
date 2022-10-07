@@ -1,0 +1,16 @@
+BelarusB_ATM_10<- concept_atm;
+=> nrel_main_idtf:
+    [BelarusBank_ATM_10]
+    (* <- lang_en;; <- name_en;; *);
+    [БеларусБанк_Банкомат_10]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+BelarusB_ATM_10
+<= nrel_address:
+[г. Минск, пр. Дзержинского, 8
+
+]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[	Пн-Вс: Круглосуточно	]
+(*<-lang_ru;;*);;

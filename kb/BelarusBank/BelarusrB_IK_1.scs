@@ -1,0 +1,14 @@
+BelarusB_IK_1<- concept_info_kiosk;
+=> nrel_main_idtf:
+    [BelarusBank_Information_kiosk_1]
+    (* <- lang_en;; <- name_en;; *);
+    [БеларусБанк_Инфокиоск_1]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+BelarusB_IK_1
+<= nrel_address:
+[г. Минск, пр. Независимости, 64]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[	Пн-Вс: Круглосуточно	]
+(*<-lang_ru;;*);;

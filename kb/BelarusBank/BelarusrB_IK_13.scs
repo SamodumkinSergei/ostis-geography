@@ -1,0 +1,14 @@
+BelarusB_IK_13<- concept_info_kiosk;
+=> nrel_main_idtf:
+    [BelarusBank_Information_kiosk_13]
+    (* <- lang_en;; <- name_en;; *);
+    [БеларусБанк_Инфокиоск_13]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+BelarusB_IK_13
+<= nrel_address:
+[г. Минск, ул. Водолажского, 4-2Н]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[	Пн-Вс: Круглосуточно]
+(*<-lang_ru;;*);;

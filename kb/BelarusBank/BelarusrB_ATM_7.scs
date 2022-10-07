@@ -1,0 +1,14 @@
+BelarusB_ATM_7<- concept_atm;
+=> nrel_main_idtf:
+    [BelarusBank_ATM_7]
+    (* <- lang_en;; <- name_en;; *);
+    [БеларусБанк_Банкомат_7]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+BelarusB_ATM_7
+<= nrel_address:
+[fffffff]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[ffffffff]
+(*<-lang_ru;;*);;

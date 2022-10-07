@@ -1,0 +1,14 @@
+AB_IK_26<- concept_info_kiosk;
+=> nrel_main_idtf:
+    [AlfaBank_Information_kiosk_26]
+    (* <- lang_en;; <- name_en;; *);
+    [Альфабанк_Инфокиоск_26]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+AB_IK_26
+<= nrel_address:
+[г. Минск, пр-т Победителей, 89 (магазин «Соседи»)]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[	Пн-Вс: 08:00-24:00	]
+(*<-lang_ru;;*);;

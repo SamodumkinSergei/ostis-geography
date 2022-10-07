@@ -1,0 +1,14 @@
+AB_ATM_8<- concept_ATM;
+=> nrel_main_idtf:
+    [AlfaBank_ATM_8]
+    (* <- lang_en;; <- name_en;; *);
+    [Альфабанк_Банкомат_8]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+AB_ATM_8
+<= nrel_address:
+[Минский район, Щомыслицкий с/с, 32/4 (ТЦ «Diamond city»)]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[Пн-Вс: 09:00-23:00]
+(*<-lang_ru;;*);;

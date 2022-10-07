@@ -1,0 +1,15 @@
+BelarusB_IK_16<- concept_info_kiosk;
+=> nrel_main_idtf:
+    [BelarusBank_Information_kiosk_16]
+    (* <- lang_en;; <- name_en;; *);
+    [БеларусБанк_Инфокиоск_16]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+BelarusB_IK_16
+<= nrel_address:
+[
+г. Минск, ул. Карбышева, 13/2]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[	Пн-Вс: Круглосуточно]
+(*<-lang_ru;;*);;

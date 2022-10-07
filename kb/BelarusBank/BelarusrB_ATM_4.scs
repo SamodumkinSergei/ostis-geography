@@ -1,0 +1,14 @@
+BelarusB_ATM_4<- concept_atm;
+=> nrel_main_idtf:
+    [BelarusBank_ATM_4]
+    (* <- lang_en;; <- name_en;; *);
+    [БеларусБанк_Банкомат_4]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+BelarusB_ATM_4
+<= nrel_address:
+[г. Минск, ул. Солтыса, 189]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[Пн-Вс: Круглосуточно	]
+(*<-lang_ru;;*);;

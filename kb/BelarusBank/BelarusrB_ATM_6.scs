@@ -1,0 +1,17 @@
+BelarusB_ATM_6<- concept_atm;
+=> nrel_main_idtf:
+    [BelarusBank_ATM_6]
+    (* <- lang_en;; <- name_en;; *);
+    [БеларусБанк_Банкомат_6]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+BelarusB_ATM_6
+<= nrel_address:
+[г. Минск, пр. Независимости, 116
+]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[Пн-Пт: 10:00-20:00,
+ Сб: 10:00-18:00,
+ Вс: Выходной]
+(*<-lang_ru;;*);;

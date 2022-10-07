@@ -1,0 +1,14 @@
+AB_IK_38<- concept_info_kiosk;
+=> nrel_main_idtf:
+    [AlfaBank_Information_kiosk_38]
+    (* <- lang_en;; <- name_en;; *);
+    [Альфабанк_Инфокиоск_38]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+AB_IK_38
+<= nrel_address:
+[г. Минск, пр-т Дзержинского, 106 (ТЦ «Магнит»)]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[Пн-Вс: 10:00-22:00	]
+(*<-lang_ru;;*);;

@@ -1,0 +1,14 @@
+AB_ATM_18<- concept_ATM;
+=> nrel_main_idtf:
+    [AlfaBank_ATM_18]
+    (* <- lang_en;; <- name_en;; *);
+    [Альфабанк_Банкомат_18]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+AB_ATM_18
+<= nrel_address:
+[г. Минск, ул. Денисовская, 8-2 (ТРЦ «Корона-Сити»)]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[Пн-Вс: 09:00-23:00]
+(*<-lang_ru;;*);;

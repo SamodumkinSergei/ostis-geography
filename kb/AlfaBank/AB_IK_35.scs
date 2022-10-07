@@ -1,0 +1,14 @@
+AB_IK_35<- concept_info_kiosk;
+=> nrel_main_idtf:
+    [AlfaBank_Information_kiosk_35]
+    (* <- lang_en;; <- name_en;; *);
+    [Альфабанк_Инфокиоск_35]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+AB_IK_35
+<= nrel_address:
+[г. Минск, ул. Рафиева, 56 (Магазин «Виталюр»)]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[	Пн-Вс: 09:00-23:00		]
+(*<-lang_ru;;*);;

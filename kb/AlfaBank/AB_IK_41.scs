@@ -1,0 +1,14 @@
+AB_IK_41<- concept_info_kiosk;
+=> nrel_main_idtf:
+    [AlfaBank_Information_kiosk_41]
+    (* <- lang_en;; <- name_en;; *);
+    [Альфабанк_Инфокиоск_41]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+AB_IK_41
+<= nrel_address:
+[г. Минск, ул. Матусевича, 20 (Дом культуры)]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[	Пн-Вс: Круглосуточно	]
+(*<-lang_ru;;*);;

@@ -1,0 +1,15 @@
+AB_IK_39<- concept_info_kiosk;
+=> nrel_main_idtf:
+    [AlfaBank_Information_kiosk_39]
+    (* <- lang_en;; <- name_en;; *);
+    [Альфабанк_Инфокиоск_39]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+AB_IK_39
+<= nrel_address:
+[г. Минск, ул. Жилуновича, 4 (Универмаг «Беларусь»)]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[Пн-Сб: 09:00-21:00,
+ Вс: 10:00-20:00	]
+(*<-lang_ru;;*);;

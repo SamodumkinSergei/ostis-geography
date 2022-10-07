@@ -1,0 +1,14 @@
+AB_IK_6<- concept_info_kiosk;
+=> nrel_main_idtf:
+    [AlfaBank_Information_kiosk_6]
+    (* <- lang_en;; <- name_en;; *);
+    [Альфабанк_Инфокиоск_6]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+AB_IK_6
+<= nrel_address:
+[г. Минск, Минский р-н, д. Боровая, д. 7 (АЗС А100 №2)]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[Пн-Вс: Круглосуточно]
+(*<-lang_ru;;*);;

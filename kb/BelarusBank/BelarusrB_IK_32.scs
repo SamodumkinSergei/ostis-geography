@@ -1,0 +1,14 @@
+BelarusB_IK_32<- concept_info_kiosk;
+=> nrel_main_idtf:
+    [BelarusBank_Information_kiosk_32]
+    (* <- lang_en;; <- name_en;; *);
+    [БеларусБанк_Инфокиоск_32]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+BelarusB_IK_32
+<= nrel_address:
+[г. Минск, тракт Игуменский, 20]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[	Пн-Вс: Круглосуточно	]
+(*<-lang_ru;;*);;

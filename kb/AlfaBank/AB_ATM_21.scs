@@ -1,0 +1,14 @@
+AB_ATM_21<- concept_ATM;
+=> nrel_main_idtf:
+    [AlfaBank_ATM_21]
+    (* <- lang_en;; <- name_en;; *);
+    [Альфабанк_Банкомат_21]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+AB_ATM_21
+<= nrel_address:
+[г. Минск, пр. Рокоссовского, 80 (Отделение «На Рокоссовского»))]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[Пн-Вс: Круглосуточно]
+(*<-lang_ru;;*);;

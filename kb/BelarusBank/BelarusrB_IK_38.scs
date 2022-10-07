@@ -1,0 +1,16 @@
+BelarusB_IK_38<- concept_info_kiosk;
+=> nrel_main_idtf:
+    [BelarusBank_Information_kiosk_38]
+    (* <- lang_en;; <- name_en;; *);
+    [БеларусБанк_Инфокиоск_38]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+BelarusB_IK_38
+<= nrel_address:
+[г. Минск, пр. Газеты звязда, 55
+
+]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[Пн-Вс: Круглосуточно]
+(*<-lang_ru;;*);;

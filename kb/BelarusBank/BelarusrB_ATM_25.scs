@@ -1,0 +1,16 @@
+BelarusB_ATM_25<- concept_atm;
+=> nrel_main_idtf:
+    [BelarusBank_ATM_25]
+    (* <- lang_en;; <- name_en;; *);
+    [БеларусБанк_Банкомат_25]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+BelarusB_ATM_25
+<= nrel_address:
+[г. Минск, ул. М.богдановича, 254
+
+]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[	Пн-Вс: Круглосуточно]
+(*<-lang_ru;;*);;

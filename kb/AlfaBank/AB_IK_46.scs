@@ -1,0 +1,15 @@
+AB_IK_46<- concept_info_kiosk;
+=> nrel_main_idtf:
+    [AlfaBank_Information_kiosk_46]
+    (* <- lang_en;; <- name_en;; *);
+    [Альфабанк_Инфокиоск_46]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+AB_IK_46
+<= nrel_address:
+[г. Минск, ул. Петра Мстиславца, 11 (ТЦ «Дана Молл»)]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[Пн-Вс: 09:00-24:00
+	]
+(*<-lang_ru;;*);;
