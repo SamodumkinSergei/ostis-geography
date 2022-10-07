@@ -1,0 +1,35 @@
+concept_belarusbank <- concept_bank;
+<- sc_node_not_relation;
+<= nrel_inclusion: concept_sup_concept;
+=> nrel_main_idtf:
+	[БеларусБанк]
+	(* <- lang_ru;; *);
+	[BelarusBank]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+		[Опр. (Беларусбанк)]
+		(* <- lang_ru;; *);
+		[Def. (Belarusbank)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Беларусбанк —  крупнейший в Республике Беларусь банк, занимает лидирующие позиции в белорусской банковской системе по уровню собственного капитала, активов, кредитов, депозитов.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Belarusbank - the largest bank in the Republic of Belarus, occupies a leading position in the Belarusian banking system in terms of equity capital, assets, loans, deposits.]
+			(* <- lang_en;; *);;
+		*);;
+		<= nrel_using_constants:
+		{
+			concept_bank
+		};;
+	*);;
