@@ -1,0 +1,36 @@
+
+sc_node_not_relation -> concept_stela_minsk;;
+sc_node_not_relation -> concept_architectural_sculptural_complex;;
+sc_node_not_relation -> concept_minsk;;
+
+sc_node_norole_relation -> nrel_street;;
+sc_node_norole_relation -> nrel_location;;
+
+concept_stela_minsk => nrel_main_idtf: [Стела Минск](* <- lang_ru;; *);;
+concept_stela_minsk => nrel_main_idtf: [Stela Minsk](* <- lang_en;; *);;
+
+   
+definition ->...
+(*
+	-> rrel_key_sc_element : concept_stela_minsk;;
+	<= nrel_sc_text_translation: ...(*->rrel_example:[Монастырь бернардинцев архитектурно-скульптурный комплекс включающий обелиск и бронзовую скульптуру «Родина-мать». ](*<-lang_ru;;*);;*);;
+	=> nrel_main_idtf: [Определение (Стела Минск)](*<- lang_ru;;*);;
+	=> nrel_using_constants: ...
+	(*
+           -> concept_minsk;;
+		   -> concept_architectural_sculptural_complex;;
+	*);;
+*);;
+
+statement ->...
+(*
+	-> rrel_key_sc_element : concept_stela_minsk;;
+	<= nrel_sc_text_translation: ...(*->rrel_example:[Он расположен в Минске на проспекте Победителей.](*<-lang_ru;;*);;*);;
+	=> nrel_main_idtf: [Утверждение(Стела Минск)](*<- lang_ru;;*);;
+	=> nrel_using_constants: ...
+	(* 
+	 -> nrel_location;;
+	 -> concept_minsk;;
+	 -> nrel_street;;
+	*);;
+*);;

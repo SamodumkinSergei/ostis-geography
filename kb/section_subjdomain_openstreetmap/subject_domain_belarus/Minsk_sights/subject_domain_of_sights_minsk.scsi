@@ -1,0 +1,47 @@
+subject_domain_of_sights_minsk
+	=> nrel_main_idtf:
+	              [Предметная область достопримечательности Минска]
+	              (* <- lang_ru;; *);
+	              [Subject domain of sights Minsk]
+	              (* <- lang_en;; *);
+
+<= nrel_private_subject_domain:
+	              subject_domain_of_sights_belarus;
+	
+-> rrel_maximum_studied_object_class: 
+		        concept_monument;
+                concept_botanical_garden;
+                concept_town;
+				concept_lakes;
+                concept_village;
+                concept_library;
+
+
+-> rrel_not_maximum_studied_object_class:
+concept_monument_sofia_slutskaya; 
+concept_monument_prince_boris;
+concept_holy_trinity_church;
+concept_botanical_garden_minsk;
+concept_Naroch_lakes;
+concept_khatyn;
+concept_upper_town;
+concept_nesvizh_castle;
+concept_puslovsky;
+concept_nalibokskaya_pushcha;
+concept_victory_square;
+concept_bernardine_monastery;
+concept_monument_yanka_kupala;
+concept_monument_mulyavin;
+concept_stela_minsk;
+concept_national_library_belarus;
+concept_Shvakshtinskaya_group_lakes;
+concept_Myadel_lakes;
+concept_Bolduc_lakes;
+concept_Svir_lakes;
+
+
+-> rrel_explored_relation:
+                  nrel_street;
+				  nrel_district;
+
+<- subject_domain;;
