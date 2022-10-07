@@ -1,0 +1,17 @@
+museum_krasny_bierah <- concept_museum;
+=> nrel_main_idtf:
+   [Museum "Krasny Bierah"]
+   (* <- lang_en;; <- name_en;;*);
+   [Музей «Красный Берег»]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375-2334-49945;+375-2334-40262;+375-2334-40263]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [http://krbereg.museum.by/]
+   (*<-concept_site;;*);
+=> nrel_email:
+   [krbereg.usadba@mail.gomel.by]
+   (*<-concept_email;;*);
+=> nrel_region:
+   gomel_region;;
