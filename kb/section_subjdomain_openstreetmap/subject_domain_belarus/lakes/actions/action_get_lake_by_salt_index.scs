@@ -1,9 +1,0 @@
-action_get_lake_by_salt_index
-<- sc_node_not_relation;
-=> nrel_main_idtf:
-	[действие. получить озеро по диапазону cоленности]
-	(* <- lang_ru;; *);
-	[action. get lakes by salt index]
-	(* <- lang_en;; *);
-<- actions_class;
-<- atomic_action_class;;
