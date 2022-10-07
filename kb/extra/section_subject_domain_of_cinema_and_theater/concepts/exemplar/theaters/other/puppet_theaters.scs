@@ -1,0 +1,15 @@
+puppet_theaters <- concept_theatre;
+=>nrel_main_idtf:
+    [Puppet theaters]
+    (* <- lang_en;; <- name_en;;*);
+    [Кукольный театры]
+    (* <- lang_ru;; <- name_ru;;<- name;;*);
+=>nrel_city:
+kalinkovichi;
+=>nrel_country:
+belarus;
+=>nrel_type:
+national;
+=>nrel_status:
+opened_status;;
+
