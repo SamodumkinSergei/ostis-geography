@@ -1,0 +1,34 @@
+car_center_lada_on_gagarina_street_169_in_vitebsk <- concept_car_service;
+    =>nrel_main_idtf:
+        [Car center "Lada" on Gagarina street, 169 in Vitebsk]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Лада» на улице Гагарина, 169 в Витебске]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [Витебск, ул. Гагарина, 169];
+    
+    =>nrel_phone:
+    [80212630308];
+    
+    =>nrel_gps:
+    [55.2274968,30.260938949515];
+    
+    =>nrel_site:
+    [https://vitebsk.lada.by/];
+    
+    =>nrel_working_hours:
+    [09:00-20:00];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Лада» на улице Гагарина, 169 в Витебске)](*<-lang_ru;;*);
+		    [Pic. (Car center "Lada" on Gagarina street, 169 in Vitebsk)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://car_center_lada_on_gagarina_street_169_in_vitebsk_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

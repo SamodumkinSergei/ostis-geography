@@ -1,0 +1,37 @@
+autocenter_hyundai_tempavto_on_minsk_highway_1b_in_mogilev <- concept_car_service;
+    =>nrel_main_idtf:
+        [Autocenter "Hyundai" Temp-Avto on Minsk highway, 1B in Mogilev]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Хёндэ» Темп-Авто на Минском шоссе, 1Б в Могилёве]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [г. Могилёв, Минское шоссе, 1Б];
+    
+    =>nrel_phone:
+    [375447777432];
+    
+    =>nrel_gps:
+    [53.9371256,30.2486018];
+    
+    =>nrel_site:
+    [https://hyundai-mogilev.by/];
+    
+    =>nrel_working_hours:
+    [09:00-20:00];
+    
+    =>nrel_email:
+    [tempauto_mogilev@mail.ru];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Хёндэ» Темп-Авто на Минском шоссе, 1Б в Могилёве)](*<-lang_ru;;*);
+		    [Pic. (Autocenter "Hyundai" Temp-Avto on Minsk highway, 1B in Mogilev)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://autocenter_hyundai_tempavto_on_minsk_highway_1b_in_mogilev_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

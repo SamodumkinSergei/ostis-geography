@@ -1,0 +1,37 @@
+autocentre_gaz_on_ozerny_lane_2_in_oktyabrsky <- concept_car_service;
+    =>nrel_main_idtf:
+        [Autocentre "GAZ" on Ozerny Lane, 2 in Oktyabrsky]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «ГАЗ» на переулке Озерном, д 2 в Октябрьском]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [г.п. Октябрьский, пер. Озерный, д 2];
+    
+    =>nrel_phone:
+    [375298732832];
+    
+    =>nrel_gps:
+    [52.658219574437,28.881891252232];
+    
+    =>nrel_site:
+    [https://belgaz.by/];
+    
+    =>nrel_working_hours:
+    [08:00-17:00];
+    
+    =>nrel_email:
+    [oktyabr@belgaz.by];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «ГАЗ» на переулке Озерном, д 2 в Октябрьском)](*<-lang_ru;;*);
+		    [Pic. (Autocentre "GAZ" on Ozerny Lane, 2 in Oktyabrsky)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://autocentre_gaz_on_ozerny_lane_2_in_oktyabrsky_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

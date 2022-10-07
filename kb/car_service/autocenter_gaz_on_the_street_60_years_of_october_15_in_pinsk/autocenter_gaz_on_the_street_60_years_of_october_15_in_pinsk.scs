@@ -1,0 +1,37 @@
+autocenter_gaz_on_the_street_60_years_of_october_15_in_pinsk <- concept_car_service;
+    =>nrel_main_idtf:
+        [Autocenter "GAZ" on the street 60 years of October, 15 in Pinsk]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «ГАЗ» на улице 60 лет Октября, д 15 в Пинске]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [г. Пинск, ул 60 лет Октября, д 15];
+    
+    =>nrel_phone:
+    [375165683067];
+    
+    =>nrel_gps:
+    [52.1218107,26.0672387];
+    
+    =>nrel_site:
+    [https://belgaz.by/];
+    
+    =>nrel_working_hours:
+    [08:00-17:00];
+    
+    =>nrel_email:
+    [pinsk@belgaz.by];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «ГАЗ» на улице 60 лет Октября, д 15 в Пинске)](*<-lang_ru;;*);
+		    [Pic. (Autocenter "GAZ" on the street 60 years of October, 15 in Pinsk)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://autocenter_gaz_on_the_street_60_years_of_october_15_in_pinsk_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

@@ -1,0 +1,37 @@
+car_center_gaz_on_zhukov_avenue_44_in_minsk <- concept_car_service;
+    =>nrel_main_idtf:
+        [Car center "GAZ" on Zhukov Avenue, 44 in Minsk]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «ГАЗ» на проспекте Жукова, 44 в Минске]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [г. Минск, пр-т Жукова, 44];
+    
+    =>nrel_phone:
+    [375173099384];
+    
+    =>nrel_gps:
+    [53.876671528809,27.517458642484];
+    
+    =>nrel_site:
+    [https://belgaz.by/];
+    
+    =>nrel_working_hours:
+    [08:30-18:00];
+    
+    =>nrel_email:
+    [next@belgaz.by];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «ГАЗ» на проспекте Жукова, 44 в Минске)](*<-lang_ru;;*);
+		    [Pic. (Car center "GAZ" on Zhukov Avenue, 44 in Minsk)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://car_center_gaz_on_zhukov_avenue_44_in_minsk_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

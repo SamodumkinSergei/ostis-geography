@@ -1,0 +1,34 @@
+car_center_citroen_paradavto_on_kolesnikova_street_38_in_minsk <- concept_car_service;
+    =>nrel_main_idtf:
+        [Car center "Citroen" ParadAvto on Kolesnikova street, 38 in Minsk]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Ситроен» ПарадАвто на улице Колесникова, 38 в Минске]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [г. Минск, ул. Колесникова, 38];
+    
+    =>nrel_phone:
+    [375173362200];
+    
+    =>nrel_gps:
+    [53.9273981,27.444044553022];
+    
+    =>nrel_site:
+    [https://www.citroen.by/];
+    
+    =>nrel_working_hours:
+    [09:00-20:00];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Ситроен» ПарадАвто на улице Колесникова, 38 в Минске)](*<-lang_ru;;*);
+		    [Pic. (Car center "Citroen" ParadAvto on Kolesnikova street, 38 in Minsk)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://car_center_citroen_paradavto_on_kolesnikova_street_38_in_minsk_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

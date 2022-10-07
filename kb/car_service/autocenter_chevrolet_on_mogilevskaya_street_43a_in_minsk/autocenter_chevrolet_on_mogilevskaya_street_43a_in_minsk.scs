@@ -1,0 +1,37 @@
+autocenter_chevrolet_on_mogilevskaya_street_43a_in_minsk <- concept_car_service;
+    =>nrel_main_idtf:
+        [Autocenter "Chevrolet" on Mogilevskaya street, 43a in Minsk]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Шевроле» на улице Могилевской, 43а в Минске]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [г. Минск, ул. Могилевская 43а];
+    
+    =>nrel_phone:
+    [375172204444];
+    
+    =>nrel_gps:
+    [53.886799901235,27.560718198306];
+    
+    =>nrel_site:
+    [http://multimotors.by/];
+    
+    =>nrel_working_hours:
+    [09:00-18:00];
+    
+    =>nrel_email:
+    [info@multimotors.by];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Шевроле» на улице Могилевской, 43а в Минске)](*<-lang_ru;;*);
+		    [Pic. (Autocenter "Chevrolet" on Mogilevskaya street, 43a in Minsk)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://autocenter_chevrolet_on_mogilevskaya_street_43a_in_minsk_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

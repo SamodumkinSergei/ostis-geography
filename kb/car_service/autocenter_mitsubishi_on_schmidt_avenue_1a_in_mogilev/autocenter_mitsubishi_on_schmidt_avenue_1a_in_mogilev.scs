@@ -1,0 +1,34 @@
+autocenter_mitsubishi_on_schmidt_avenue_1a_in_mogilev <- concept_car_service;
+    =>nrel_main_idtf:
+        [Autocenter "Mitsubishi" on Schmidt Avenue, 1A in Mogilev]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Мицубиси» на проспекте Шмидта, 1А в Могилёве]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [пр-т Шмидта, 1А, Могилев];
+    
+    =>nrel_phone:
+    [6879090];
+    
+    =>nrel_gps:
+    [53.801436087733,30.336545854111];
+    
+    =>nrel_site:
+    [https://www.mitsubishi.by/];
+    
+    =>nrel_working_hours:
+    [09:00-20:00];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Мицубиси» на проспекте Шмидта, 1А в Могилёве)](*<-lang_ru;;*);
+		    [Pic. (Autocenter "Mitsubishi" on Schmidt Avenue, 1A in Mogilev)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://autocenter_mitsubishi_on_schmidt_avenue_1a_in_mogilev_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

@@ -1,0 +1,37 @@
+car_center_skoda_on_the_vorontsovsky_ring_in_vitebsk <- concept_car_service;
+    =>nrel_main_idtf:
+        [Car center "Skoda" on the Vorontsovsky ring in Vitebsk]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Шкода» на Воронцовском кольце в Витебске]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [г. Витебск Воронцовское кольцо];
+    
+    =>nrel_phone:
+    [375298777466];
+    
+    =>nrel_gps:
+    [55.158439347225,30.346794098372];
+    
+    =>nrel_site:
+    [http://skoda-vitebsk.by/];
+    
+    =>nrel_working_hours:
+    [09:00-20:00];
+    
+    =>nrel_email:
+    [autocity.vitebsk@gmail.com];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Шкода» на Воронцовском кольце в Витебске)](*<-lang_ru;;*);
+		    [Pic. (Car center "Skoda" on the Vorontsovsky ring in Vitebsk)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://car_center_skoda_on_the_vorontsovsky_ring_in_vitebsk_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

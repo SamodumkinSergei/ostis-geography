@@ -1,0 +1,34 @@
+autocentre_nissan_autopromservis_on_prospekt_georgievsky_3_in_bobruisk <- concept_car_service;
+    =>nrel_main_idtf:
+        [Autocentre "Nissan" Autopromservis on Prospekt Georgievsky 3 in Bobruisk]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Ниссан» Автопромсерсвис на проспекте Георгиевском 3 в Бобруйске]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [просп. Георгиевский 3, Бобруйск];
+    
+    =>nrel_phone:
+    [375293899090];
+    
+    =>nrel_gps:
+    [53.158751276118,29.219954116727];
+    
+    =>nrel_site:
+    [https://nissan-global.by/];
+    
+    =>nrel_working_hours:
+    [08:00-20:00];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Ниссан» Автопромсерсвис на проспекте Георгиевском 3 в Бобруйске)](*<-lang_ru;;*);
+		    [Pic. (Autocentre "Nissan" Autopromservis on Prospekt Georgievsky 3 in Bobruisk)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://autocentre_nissan_autopromservis_on_prospekt_georgievsky_3_in_bobruisk_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

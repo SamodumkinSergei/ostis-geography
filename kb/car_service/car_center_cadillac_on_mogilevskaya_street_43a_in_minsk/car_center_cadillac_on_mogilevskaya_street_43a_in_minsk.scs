@@ -1,0 +1,37 @@
+car_center_cadillac_on_mogilevskaya_street_43a_in_minsk <- concept_car_service;
+    =>nrel_main_idtf:
+        [Car center "Cadillac" on Mogilevskaya street, 43a in Minsk]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Кадиллак» на улице Могилевской, 43а в Минске]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [г. Минск, ул. Могилевская 43а];
+    
+    =>nrel_phone:
+    [375172204444];
+    
+    =>nrel_gps:
+    [53.886856811688,27.560653825292];
+    
+    =>nrel_site:
+    [http://www.cadillac.by/];
+    
+    =>nrel_working_hours:
+    [08:00-20:00];
+    
+    =>nrel_email:
+    [cadillac@multimotors.by];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Кадиллак» на улице Могилевской, 43а в Минске)](*<-lang_ru;;*);
+		    [Pic. (Car center "Cadillac" on Mogilevskaya street, 43a in Minsk)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://car_center_cadillac_on_mogilevskaya_street_43a_in_minsk_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

@@ -1,0 +1,37 @@
+autocenter_honda_on_kozlova_street_22_in_minsk <- concept_car_service;
+    =>nrel_main_idtf:
+        [Autocenter "Honda" on Kozlova street, 22 in Minsk]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Хонда» на улице Козлова, 22 в Минске]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [г. Минск, ул. Козлова, 22];
+    
+    =>nrel_phone:
+    [375293093939];
+    
+    =>nrel_gps:
+    [52.78565235,27.54290205];
+    
+    =>nrel_site:
+    [http://honda.by/];
+    
+    =>nrel_working_hours:
+    [09:00-18:00];
+    
+    =>nrel_email:
+    [info@honda.by];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Хонда» на улице Козлова, 22 в Минске)](*<-lang_ru;;*);
+		    [Pic. (Autocenter "Honda" on Kozlova street, 22 in Minsk)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://autocenter_honda_on_kozlova_street_22_in_minsk_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        
