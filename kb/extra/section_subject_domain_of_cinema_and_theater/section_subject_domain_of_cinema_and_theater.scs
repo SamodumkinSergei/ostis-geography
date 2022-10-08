@@ -14,7 +14,7 @@ section_subject_domain_of_cinema_and_theater = [*
 	<- sc_node_struct;
 	<- subject_domain;
 	-> rrel_maximum_studied_object_class:
-		concept_user;
+		concept_theater;
 	-> rrel_not_maximum_studied_object_class:
 		concept_cinema;
 		concept_seat;
