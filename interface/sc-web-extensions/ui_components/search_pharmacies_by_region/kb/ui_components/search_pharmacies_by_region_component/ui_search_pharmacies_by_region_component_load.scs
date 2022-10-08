@@ -1,8 +1,0 @@
-ui_search_pharmacies_by_region_in_memory
-	<- ui_scgg_control; sc_node_not_relation;
-	=> nrel_main_idtf:
-		[Найти аптеку по региону]
-		(* <- lang_ru;; *);
-	=> nrel_main_idtf:
-        [Find pharmacies by region]
-(* <- lang_en;; *);;
