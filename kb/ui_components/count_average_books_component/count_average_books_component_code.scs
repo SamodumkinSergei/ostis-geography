@@ -1,0 +1,27 @@
+format_count_average_books_json
+<- sc_node_not_relation;
+<- format;
+=> nrel_main_idtf:
+	[формат villages search (json)]
+	(* 
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf:
+	[format villages search (json)]
+	(* 
+	<- lang_en;;
+	*);
+=> nrel_mimetype:
+	[application/json];;
+
+count_average_books_code <- ui_external_languages;
+=> nrel_main_idtf: 
+	[Интерфейс для библиотек и памятников]
+	(* 
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf: 
+	[Find villages by district]
+	(* 
+	<- lang_en;;
+	*);;
