@@ -1,0 +1,23 @@
+smolovka <- concept_village;
+=>nrel_main_idtf:
+    [Smolovka]
+    (* <- lang_en;; <- name_en;;*);
+    [Смоловка]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [10]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:   
+    vitebsk_region;
+=>nrel_district:
+    haradok_district;
+=>nrel_selsoviet:
+    stodolischenskiy_selsoviet;
+=>nrel_population:
+    45(*=>nrel_main_idtf:
+    [45];;*);
+=>nrel_distanceFromArea:
+    40(*=>nrel_main_idtf:
+    [40];;*);;

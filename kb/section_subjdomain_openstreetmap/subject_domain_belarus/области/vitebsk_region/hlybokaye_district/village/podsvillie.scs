@@ -1,0 +1,23 @@
+podsvillie <- concept_village;
+=>nrel_main_idtf:
+    [Podsvillie]
+    (* <- lang_en;; <- name_en;;*);
+    [Подсвилье]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [10]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:   
+    vitebsk_region;
+=>nrel_district:
+    hlybokaye_district;
+=>nrel_selsoviet:
+    podsvilskiy_selsoviet;
+=>nrel_population:
+    1965(*=>nrel_main_idtf:
+    [1965];;*);
+=>nrel_distanceFromArea:
+    188(*=>nrel_main_idtf:
+    [188];;*);;
