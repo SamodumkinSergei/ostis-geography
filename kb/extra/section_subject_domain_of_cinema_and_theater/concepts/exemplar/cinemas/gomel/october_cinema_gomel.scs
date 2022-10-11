@@ -1,0 +1,16 @@
+october_cinema_gomel  <- concept_cinema;
+=>nrel_main_idtf:
+    [Октябрь]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+belarus;
+=>nrel_region:
+gomel_region;
+=>nrel_search_area: gomel_region;
+=>nrel_capacity:
+[200]
+(*<-concept_seat;;*);
+=>nrel_status:
+opened_status;;
+
+    

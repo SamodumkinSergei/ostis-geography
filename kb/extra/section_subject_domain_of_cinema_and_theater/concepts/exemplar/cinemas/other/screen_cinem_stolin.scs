@@ -1,0 +1,16 @@
+screen_cinem_stolin  <- concept_cinema;
+=>nrel_main_idtf:
+    [Экран]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+belarus;
+=>nrel_city:
+stolin;
+=>nrel_search_area: stolin;
+=>nrel_capacity:
+[78]
+(*<-concept_seat;;*);
+=>nrel_status:
+opened_status;;
+
+

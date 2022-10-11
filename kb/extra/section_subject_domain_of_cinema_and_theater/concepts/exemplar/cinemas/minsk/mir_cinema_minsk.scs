@@ -1,0 +1,15 @@
+mir_cinema_minsk  <- concept_cinema;
+=>nrel_main_idtf:
+    [Мир]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+belarus;
+=>nrel_city:
+minsk;
+=>nrel_search_area: minsk;
+=>nrel_capacity:
+[444]
+(*<-concept_seat;;*);
+=>nrel_status:
+opened_status;;
+

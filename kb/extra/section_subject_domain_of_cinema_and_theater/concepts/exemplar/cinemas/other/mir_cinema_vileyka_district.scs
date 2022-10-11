@@ -1,0 +1,15 @@
+mir_cinema_vileyka_district  <- concept_cinema;
+=>nrel_main_idtf:
+    [Мир]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+belarus;
+=>nrel_district:
+vileyka_district;
+=>nrel_search_area: vileyka_district;
+=>nrel_capacity:
+[42]
+(*<-concept_seat;;*);
+=>nrel_status:
+opened_status;;
+
