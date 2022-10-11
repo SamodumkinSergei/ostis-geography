@@ -1,0 +1,15 @@
+AB_ATM_2<- concept_ATM;
+<-concept_alfabank;
+=> nrel_main_idtf:
+    [AlfaBank_ATM_2]
+    (* <- lang_en;; <- name_en;; *);
+    [Альфабанк_Банкомат_2]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+AB_ATM_2
+<= nrel_address:
+[г. Минск, пер.4-й Монтажников, 9 (ООО СП «АЗСИНДУСТРИЯ»)]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[Пн-Вс: 07:15-15:55]
+(*<-lang_ru;;*);;

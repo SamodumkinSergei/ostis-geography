@@ -1,0 +1,15 @@
+AB_IK_3<- concept_info_kiosk;
+<-concept_alfabank;
+=> nrel_main_idtf:
+    [AlfaBank_Information_kiosk_3]
+    (* <- lang_en;; <- name_en;; *);
+    [Альфабанк_Инфокиоск_3]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+AB_IK_3
+<= nrel_address:
+[г. Минск, ул. Казинца, 52а]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[	Пн-Вс: 09:00-23:00]
+(*<-lang_ru;;*);;

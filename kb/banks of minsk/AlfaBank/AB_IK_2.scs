@@ -1,0 +1,15 @@
+AB_IK_2<- concept_info_kiosk;
+<-concept_alfabank;
+=> nrel_main_idtf:
+    [AlfaBank_Information_kiosk_2]
+    (* <- lang_en;; <- name_en;; *);
+    [Альфабанк_Инфокиоск_2]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+AB_IK_2
+<= nrel_address:
+[г. Минск, ул. Уманская, 54 (ТЦ «Globo»)]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[Пн-Вс: Круглосуточно]
+(*<-lang_ru;;*);;

@@ -1,0 +1,16 @@
+AB_IK_17<- concept_info_kiosk;
+<-concept_alfabank;
+=> nrel_main_idtf:
+    [AlfaBank_Information_kiosk_17]
+    (* <- lang_en;; <- name_en;; *);
+    [Альфабанк_Инфокиоск_17]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+AB_IK_17
+<= nrel_address:
+[г. Минск, ул. Корженевского, 26 (Гипермаркет «Корона»
+]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[Пн-Вс: 09:00-23:00]
+(*<-lang_ru;;*);;

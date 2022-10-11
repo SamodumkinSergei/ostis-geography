@@ -1,0 +1,15 @@
+BelagrB_ATM_16<- concept_ATM;
+<- concept_belagroprombank;
+=> nrel_main_idtf:
+    [BelagropromBank_ATM_16]
+    (* <- lang_en;; <- name_en;; *);
+    [БелагропромБанк_Банктомат_16]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+BelagrB_ATM_16
+<= nrel_address:
+[ул. Каменногорская, 118]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[Пн-Вс: 08:00-22:00	]
+(*<-lang_ru;;*);;

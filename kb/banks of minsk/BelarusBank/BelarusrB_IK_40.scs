@@ -1,0 +1,15 @@
+BelarusB_IK_40<- concept_info_kiosk;
+<-concept_belarusbank;
+=> nrel_main_idtf:
+    [BelarusBank_Information_kiosk_40]
+    (* <- lang_en;; <- name_en;; *);
+    [БеларусБанк_Инфокиоск_40]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+BelarusB_IK_40
+<= nrel_address:
+[ffffff]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[fffff]
+(*<-lang_ru;;*);;

@@ -1,0 +1,15 @@
+BelagrB_IK_30<- concept_info_kiosk;
+<- concept_belagroprombank;
+=> nrel_main_idtf:
+    [BelagropromBank_Information_kiosk_30]
+    (* <- lang_en;; <- name_en;; *);
+    [БелагропромБанк_Инфокиоск_30]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+BelagrB_IK_30
+<= nrel_address:
+[ул. Уборевича, 176]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[Пн-Вс: 09:00-20:00]
+(*<-lang_ru;;*);;

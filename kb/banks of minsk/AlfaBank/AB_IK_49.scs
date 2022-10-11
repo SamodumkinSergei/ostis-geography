@@ -1,0 +1,15 @@
+AB_IK_49<- concept_info_kiosk;
+<-concept_alfabank;
+=> nrel_main_idtf:
+    [AlfaBank_Information_kiosk_49]
+    (* <- lang_en;; <- name_en;; *);
+    [Альфабанк_Инфокиоск_49]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+AB_IK_49
+<= nrel_address:
+[г. Минск, ул. Сурганова, 50 (ТЦ «Рига»)]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[	Пн-Вс: Круглосуточно	]
+(*<-lang_ru;;*);;

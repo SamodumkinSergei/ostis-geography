@@ -1,0 +1,15 @@
+AB_ATM_4<- concept_ATM;
+<-concept_alfabank;
+=> nrel_main_idtf:
+    [AlfaBank_ATM_4]
+    (* <- lang_en;; <- name_en;; *);
+    [Альфабанк_Банкомат_4]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+AB_ATM_4
+<= nrel_address:
+[г. Минск, ул. Шаранговича, 25 (ТЦ «Магнит»)]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[Пн-Вс: 10:00-21:00]
+(*<-lang_ru;;*);;

@@ -1,0 +1,15 @@
+BelagrB_ATM_31<- concept_ATM;
+<- concept_belagroprombank;
+=> nrel_main_idtf:
+    [BelagropromBank_ATM_31]
+    (* <- lang_en;; <- name_en;; *);
+    [БелагропромБанк_Банктомат_31]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+BelagrB_ATM_31
+<= nrel_address:
+[ул. Корженевского, 26]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[Пн-Вс: 09:00-23:00	]
+(*<-lang_ru;;*);;

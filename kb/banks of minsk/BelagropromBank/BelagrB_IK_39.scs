@@ -1,0 +1,16 @@
+BelagrB_IK_39<- concept_info_kiosk;
+<- concept_belagroprombank;
+=> nrel_main_idtf:
+    [BelagropromBank_Information_kiosk_39]
+    (* <- lang_en;; <- name_en;; *);
+    [БелагропромБанк_Инфокиоск_39]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+BelagrB_IK_39
+<= nrel_address:
+[ул. Железнодорожная, 44]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[Пн-Пт: 11:00-19:00,
+ Сб-Вс: Выходной]
+(*<-lang_ru;;*);;
