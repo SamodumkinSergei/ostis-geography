@@ -1,0 +1,11 @@
+nrel_latitude <- sc_node_norole_relation;
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+    [latitude*](*<- lang_en;;*);
+    [широта*](*<- lang_ru;;*);;
