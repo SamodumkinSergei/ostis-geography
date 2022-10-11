@@ -1,0 +1,37 @@
+
+sc_node_not_relation -> concept_khatyn;;
+sc_node_not_relation -> concept_german_military_personnel;;
+sc_node_not_relation -> concept_minsk_region;;
+sc_node_not_relation -> concept_village;;
+
+sc_node_norole_relation -> nrel_destroyed;;
+sc_node_norole_relation -> nrel_location;;
+
+concept_khatyn => nrel_main_idtf: [Хатынь](* <- lang_ru;; *);;
+concept_khatyn => nrel_main_idtf: [Khatyn](* <- lang_en;; *);;
+
+   
+definition ->...
+(*
+	-> rrel_key_sc_element : concept_khatyn;;
+	<= nrel_sc_text_translation: ...(*->rrel_example:[Хатынь – деревня в Белоруссии, уничтоженная 22 марта 1943 года карательным отрядом в качестве мести за убийство нескольких немецких военнослужащих.](*<-lang_ru;;*);;*);;
+	=> nrel_main_idtf: [Определение (Хатынь)](*<- lang_ru;;*);;
+	=> nrel_using_constants: ...
+	(*
+           -> concept_german_military_personnel;;
+		   -> concept_village;;
+		   -> nrel_destroyed;;
+	*);;
+*);;
+
+statement ->...
+(*
+	-> rrel_key_sc_element : concept_khatyn;;
+	<= nrel_sc_text_translation: ...(*->rrel_example:[Он расположен в Минской области.](*<-lang_ru;;*);;*);;
+	=> nrel_main_idtf: [Утверждение(Хатынь)](*<- lang_ru;;*);;
+	=> nrel_using_constants: ...
+	(* 
+	 -> nrel_location;;
+	 -> concept_minsk_region;;
+	*);;
+*);;
