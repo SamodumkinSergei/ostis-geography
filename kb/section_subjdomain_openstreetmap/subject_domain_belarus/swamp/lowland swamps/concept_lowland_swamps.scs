@@ -1,0 +1,35 @@
+concept_lowland_swamps
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[низинные болота]
+	(* <- lang_ru;; *);
+	[lowland swamps]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (низинные болота)]
+		(* <- lang_ru;; *);
+		[Def. (lowland swamps)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Низинные болота -  болота грунтового питания.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[The lowland swamps are groundwater swamps.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_swamp
+
+		};;
+	*);;
