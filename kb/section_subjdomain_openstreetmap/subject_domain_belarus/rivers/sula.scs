@@ -1,0 +1,18 @@
+sula 
+<- concept_river;
+<- concept_way;
+=>nrel_main_idtf:
+    [Sula]
+    (* <- lang_en;; <- name_en;;*);
+    [Сула]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_length:
+    76(*=>nrel_main_idtf:
+    [76];;*);
+=>nrel_basin:
+    520(*=>nrel_main_idtf:
+    [520];;*);;

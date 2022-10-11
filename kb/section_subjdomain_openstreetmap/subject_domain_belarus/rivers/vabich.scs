@@ -1,0 +1,18 @@
+vabich 
+<- concept_river;
+<- concept_way;
+=>nrel_main_idtf:
+    [Vabich]
+    (* <- lang_en;; <- name_en;;*);
+    [Вабич]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    mogilev_region;
+=>nrel_length:
+    74(*=>nrel_main_idtf:
+    [74];;*);
+=>nrel_basin:
+    565(*=>nrel_main_idtf:
+    [565];;*);;

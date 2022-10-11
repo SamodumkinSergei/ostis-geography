@@ -1,0 +1,18 @@
+mnuta  
+<- concept_river;
+<- concept_way;
+=>nrel_main_idtf:
+    [Mnuta ]
+    (* <- lang_en;; <- name_en;;*);
+    [Мнюта]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    gomel_region;
+=>nrel_length:
+    75(*=>nrel_main_idtf:
+    [75];;*);
+=>nrel_basin:
+    433(*=>nrel_main_idtf:
+    [433];;*);;

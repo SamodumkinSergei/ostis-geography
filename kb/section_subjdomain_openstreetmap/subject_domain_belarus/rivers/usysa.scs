@@ -1,0 +1,18 @@
+usysa 
+<- concept_river;
+<- concept_way;
+=>nrel_main_idtf:
+    [Usysa]
+    (* <- lang_en;; <- name_en;;*);
+    [Усыса]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitebsk_region;
+=>nrel_length:
+    50(*=>nrel_main_idtf:
+    [50];;*);
+=>nrel_basin:
+    423(*=>nrel_main_idtf:
+    [423];;*);;

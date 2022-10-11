@@ -1,0 +1,18 @@
+styr 
+<- concept_river;
+<- concept_way;
+=>nrel_main_idtf:
+    [Styr]
+    (* <- lang_en;; <- name_en;;*);
+    [Стыр]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_length:
+    494(*=>nrel_main_idtf:
+    [494];;*);
+=>nrel_basin:
+    13100(*=>nrel_main_idtf:
+    [13100];;*);;

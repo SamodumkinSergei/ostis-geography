@@ -1,0 +1,35 @@
+concept_river
+<-sc_node_not_relation;
+<-concept_waterway;
+=>nrel_main_idtf:
+	[река]
+	(* <- lang_ru;; *);
+	[river]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (река)]
+		(* <- lang_ru;; *);
+		[Def. (river)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Река это природный водный поток значительных размеров с естественным течением по руслу от истока вниз до устья и питающийся за счёт поверхностного и подземного стока с его бассейна.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[River is a natural water flow of considerable size with a natural course along the channel from the source down to the mouth and fed by surface and underground runoff from its basin.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_river
+		};;
+	*);;
