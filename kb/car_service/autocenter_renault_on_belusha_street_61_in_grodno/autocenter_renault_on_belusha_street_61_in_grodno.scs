@@ -1,0 +1,34 @@
+autocenter_renault_on_belusha_street_61_in_grodno <- concept_car_service;
+    =>nrel_main_idtf:
+        [Autocenter "Renault" on Belusha street, 61 in Grodno]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Рено» на улице Белуша, 61 в Гродно]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [Гродно, ул. Белуша, 61];
+    
+    =>nrel_phone:
+    [80152603111];
+    
+    =>nrel_gps:
+    [53.6691649,23.86837639575];
+    
+    =>nrel_site:
+    [https://renault-grodno.by/];
+    
+    =>nrel_working_hours:
+    [09:00-20:00];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Рено» на улице Белуша, 61 в Гродно)](*<-lang_ru;;*);
+		    [Pic. (Autocenter "Renault" on Belusha street, 61 in Grodno)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://autocenter_renault_on_belusha_street_61_in_grodno_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

@@ -1,0 +1,37 @@
+autocenter_kia_idea_on_the_street_on_july_28_28a_in_brest <- concept_car_service;
+    =>nrel_main_idtf:
+        [Autocenter "KIA" Idea on the street on July 28, 28A in Brest]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «КИА» Идея на улице 28 июля, 28А в Бресте]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [г. Брест, ул. 28 июля, 28А];
+    
+    =>nrel_phone:
+    [375333640446];
+    
+    =>nrel_gps:
+    [52.0805692,23.7379419];
+    
+    =>nrel_site:
+    [https://kia-idea.by/];
+    
+    =>nrel_working_hours:
+    [09:00-19:00];
+    
+    =>nrel_email:
+    [info@kiabrest.by];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «КИА» Идея на улице 28 июля, 28А в Бресте)](*<-lang_ru;;*);
+		    [Pic. (Autocenter "KIA" Idea on the street on July 28, 28A in Brest)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://autocenter_kia_idea_on_the_street_on_july_28_28a_in_brest_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

@@ -1,0 +1,37 @@
+autocenter_ford_on_gozdetsky_street_8_in_brest <- concept_car_service;
+    =>nrel_main_idtf:
+        [Autocenter "Ford" on Gozdetsky street, 8 in Brest]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Форд» на улице Гоздецого, 8 в Бресте]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [г. Брест, ул. Гоздецкого, 8];
+    
+    =>nrel_phone:
+    [375336685555];
+    
+    =>nrel_gps:
+    [52.1139811,23.784160698508];
+    
+    =>nrel_site:
+    [https://xn--80aespefb3a6j.xn--90ais/];
+    
+    =>nrel_working_hours:
+    [09:00-19:00];
+    
+    =>nrel_email:
+    [ford.brest@autonomia.by];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Форд» на улице Гоздецого, 8 в Бресте)](*<-lang_ru;;*);
+		    [Pic. (Autocenter "Ford" on Gozdetsky street, 8 in Brest)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://autocenter_ford_on_gozdetsky_street_8_in_brest_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

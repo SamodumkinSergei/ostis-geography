@@ -1,0 +1,37 @@
+car_center_geely_on_borovaya_street_2_in_the_minsk_region <- concept_car_service;
+    =>nrel_main_idtf:
+        [Car center "Geely" on Borovaya street, 2 in the Minsk region]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Джили» на улице Боровой, 2 в Минском районе]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [Минский р-н, д. Боровая, 2];
+    
+    =>nrel_phone:
+    [375333269090];
+    
+    =>nrel_gps:
+    [53.962144,27.629151];
+    
+    =>nrel_site:
+    [https://geely.atlantm.by/];
+    
+    =>nrel_working_hours:
+    [08:00-20:00];
+    
+    =>nrel_email:
+    [auto@geely-atlantm.by];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Джили» на улице Боровой, 2 в Минском районе)](*<-lang_ru;;*);
+		    [Pic. (Car center "Geely" on Borovaya street, 2 in the Minsk region)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://car_center_geely_on_borovaya_street_2_in_the_minsk_region_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

@@ -1,0 +1,34 @@
+autocenter_renault_on_koltsevaya_street_6_in_soligorsk <- concept_car_service;
+    =>nrel_main_idtf:
+        [Autocenter "Renault" on Koltsevaya street, 6 in Soligorsk]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Рено» на улице Кольцевой, 6 в Солигорске]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [Солигорск, ул. Кольцевая, 6];
+    
+    =>nrel_phone:
+    [80174250606];
+    
+    =>nrel_gps:
+    [52.7945235,27.514851040252];
+    
+    =>nrel_site:
+    [https://renault-soligorsk.by/];
+    
+    =>nrel_working_hours:
+    [09:00-19:00];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Рено» на улице Кольцевой, 6 в Солигорске)](*<-lang_ru;;*);
+		    [Pic. (Autocenter "Renault" on Koltsevaya street, 6 in Soligorsk)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://autocenter_renault_on_koltsevaya_street_6_in_soligorsk_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

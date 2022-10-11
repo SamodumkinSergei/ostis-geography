@@ -1,0 +1,34 @@
+autocenter_renault_on_georgievsky_prospect_3_in_bobruisk <- concept_car_service;
+    =>nrel_main_idtf:
+        [Autocenter "Renault" on Georgievsky prospect, 3 in Bobruisk]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Рено» на проспекте Георгиевском, 3 в Бобруйске]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [Бобруйск, пр-т. Георгиевский, 3];
+    
+    =>nrel_phone:
+    [80293992424];
+    
+    =>nrel_gps:
+    [53.158789874154,29.219642980455];
+    
+    =>nrel_site:
+    [https://renault-bobruisk.by/];
+    
+    =>nrel_working_hours:
+    [09:00-20:00];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Рено» на проспекте Георгиевском, 3 в Бобруйске)](*<-lang_ru;;*);
+		    [Pic. (Autocenter "Renault" on Georgievsky prospect, 3 in Bobruisk)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://autocenter_renault_on_georgievsky_prospect_3_in_bobruisk_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

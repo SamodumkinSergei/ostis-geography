@@ -1,0 +1,37 @@
+car_center_opel_on_independence_avenue_165a_in_minsk <- concept_car_service;
+    =>nrel_main_idtf:
+        [Car center "Opel" on Independence Avenue, 165A in Minsk]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Опель» на проспекте Независимости, 165А в Минске]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [г. Минск, пр-т Независимости, 165А];
+    
+    =>nrel_phone:
+    [375173355200];
+    
+    =>nrel_gps:
+    [53.944084074685,27.660468798308];
+    
+    =>nrel_site:
+    [http://www.byopel.com/];
+    
+    =>nrel_working_hours:
+    [09:00-19:00];
+    
+    =>nrel_email:
+    [sales-rm@byopel.com];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Опель» на проспекте Независимости, 165А в Минске)](*<-lang_ru;;*);
+		    [Pic. (Car center "Opel" on Independence Avenue, 165A in Minsk)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://car_center_opel_on_independence_avenue_165a_in_minsk_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

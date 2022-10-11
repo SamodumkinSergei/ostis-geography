@@ -1,0 +1,37 @@
+gili_auto_center_at_28a_morozova_street_in_brest <- concept_car_service;
+    =>nrel_main_idtf:
+        [Gili Auto Center at 28a Morozova Street in Brest]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Джили» на улице Морозова, 28а в Бресте]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [Брест, ул. Морозова, 28а];
+    
+    =>nrel_phone:
+    [375162508666];
+    
+    =>nrel_gps:
+    [52.0755496,23.730393031627];
+    
+    =>nrel_site:
+    [https://geely-brest.by/];
+    
+    =>nrel_working_hours:
+    [09:00-19:00];
+    
+    =>nrel_email:
+    [geely@autonomia.by];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Джили» на улице Морозова, 28а в Бресте)](*<-lang_ru;;*);
+		    [Pic. (Gili Auto Center at 28a Morozova Street in Brest)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://gili_auto_center_at_28a_morozova_street_in_brest_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        
