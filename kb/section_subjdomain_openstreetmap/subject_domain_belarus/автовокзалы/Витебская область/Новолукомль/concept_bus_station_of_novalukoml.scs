@@ -1,0 +1,37 @@
+concept_bus_station_of_the_novalukoml
+<-sc_node_not_relation;
+<-concept_bus_station;
+=>nrel_main_idtf:
+	[автовокзал города Новолукомль]
+	(* <- lang_ru;; *);
+	[bus station of the Novalukoml]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (автовокзал города Новолукомль)]
+		(* <- lang_ru;; *);
+		[Def. (bus station of the Novalukoml)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Автовокзал города Новолукомль — автовокзал, который располагается в городе Новолукомль.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Novalukoml bus Station is a bus station located in the city of Novalukoml.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_bus_station;
+			novalukoml;
+           		belarus
+		};;
+	*);;

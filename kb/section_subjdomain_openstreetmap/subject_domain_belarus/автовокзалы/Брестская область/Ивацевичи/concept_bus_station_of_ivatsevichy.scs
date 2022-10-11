@@ -1,0 +1,37 @@
+concept_bus_station_of_the_ivatsevichy
+<-sc_node_not_relation;
+<-concept_bus_station;
+=>nrel_main_idtf:
+	[автовокзал деревни Ивацевичи]
+	(* <- lang_ru;; *);
+	[bus station of the Ivatsevichy]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (автовокзал города Ивацевичи)]
+		(* <- lang_ru;; *);
+		[Def. (bus station of the Ivatsevichy)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Автовокзал города Ивацевичи — автовокзал, который располагается в городе Ивацевичи.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Ivatsevichy bus Station is a bus station located in the city of Ivatsevichy.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_bus_station;
+			ivatsevichy;
+           		belarus
+		};;
+	*);;

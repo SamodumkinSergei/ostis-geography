@@ -1,0 +1,37 @@
+concept_bus_station_of_the_zhabinka
+<-sc_node_not_relation;
+<-concept_bus_station;
+=>nrel_main_idtf:
+	[автовокзал деревни Жабинка]
+	(* <- lang_ru;; *);
+	[bus station of the Zhabinka]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (автовокзал города Жабинка)]
+		(* <- lang_ru;; *);
+		[Def. (bus station of the Zhabinka)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Автовокзал города Жабинка — автовокзал, который располагается в городе Жабинка.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Zhabinka bus Station is a bus station located in the city of Zhabinka.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_bus_station;
+			zhabinka;
+           		belarus
+		};;
+	*);;

@@ -1,0 +1,37 @@
+concept_bus_station_of_the_byerazino
+<-sc_node_not_relation;
+<-concept_bus_station;
+=>nrel_main_idtf:
+	[автовокзал города Березино]
+	(* <- lang_ru;; *);
+	[bus station of the Byerazino]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (автовокзал города Березино)]
+		(* <- lang_ru;; *);
+		[Def. (bus station of the Byerazino)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Автовокзал города Березино — автовокзал, который располагается в городе Березино.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Byerazino bus Station is a bus station located in the city of Byerazino.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_bus_station;
+			byerazino;
+           		belarus
+		};;
+	*);;

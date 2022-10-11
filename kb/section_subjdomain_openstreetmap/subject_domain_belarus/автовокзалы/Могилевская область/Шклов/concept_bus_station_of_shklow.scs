@@ -1,0 +1,37 @@
+concept_bus_station_of_the_shklow
+<-sc_node_not_relation;
+<-concept_bus_station;
+=>nrel_main_idtf:
+	[автовокзал города Шклов]
+	(* <- lang_ru;; *);
+	[bus station of the Shklow]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (автовокзал города Шклов)]
+		(* <- lang_ru;; *);
+		[Def. (bus station of the Shklow)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Автовокзал города Шклов — автовокзал, который располагается в городе Шклов.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Shklow bus Station is a bus station located in the city of Shklow.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_bus_station;
+			shklow;
+           		belarus
+		};;
+	*);;

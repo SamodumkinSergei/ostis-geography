@@ -1,0 +1,37 @@
+concept_bus_station_of_the_dzyarzhynsk
+<-sc_node_not_relation;
+<-concept_bus_station;
+=>nrel_main_idtf:
+	[автовокзал города Дзержинск]
+	(* <- lang_ru;; *);
+	[bus station of the Dzyarzhynsk]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (автовокзал города Дзержинск)]
+		(* <- lang_ru;; *);
+		[Def. (bus station of the Dzyarzhynsk)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Автовокзал города Дзержинск — автовокзал, который располагается в городе Дзержинск.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Dzyarzhynsk bus Station is a bus station located in the city of Dzyarzhynsk.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_bus_station;
+			dzyarzhynsk;
+           		belarus
+		};;
+	*);;

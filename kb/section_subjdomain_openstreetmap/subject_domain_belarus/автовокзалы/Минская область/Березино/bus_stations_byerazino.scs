@@ -1,0 +1,15 @@
+bus_station_byerazino <- concept_bus_station;
+<- concept_bus_station_of_the_byerazino;
+=>nrel_main_idtf:
+    [Автостанция Березино]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_district:
+    byerazino_district;
+=>nrel_city:
+    byerazino;
+=>nrel_search_area:
+    byerazino;;

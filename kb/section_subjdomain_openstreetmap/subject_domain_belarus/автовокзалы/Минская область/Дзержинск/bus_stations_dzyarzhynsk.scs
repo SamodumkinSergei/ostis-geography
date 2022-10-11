@@ -1,0 +1,15 @@
+bus_station_dzyarzhynsk <- concept_bus_station;
+<- concept_bus_station_of_the_dzyarzhynsk;
+=>nrel_main_idtf:
+    [Автостанция Дзержинск]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_district:
+    dzyarzhynsk_district;
+=>nrel_city:
+    dzyarzhynsk;
+=>nrel_search_area:
+    dzyarzhynsk;;

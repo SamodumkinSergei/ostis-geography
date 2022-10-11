@@ -1,0 +1,37 @@
+concept_bus_station_of_the_kruhlae
+<-sc_node_not_relation;
+<-concept_bus_station;
+=>nrel_main_idtf:
+	[автовокзал деревни Круглое]
+	(* <- lang_ru;; *);
+	[bus station of the Kruhlae]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (автовокзал города Круглое)]
+		(* <- lang_ru;; *);
+		[Def. (bus station of the Kruhlae)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Автовокзал города Круглое — автовокзал, который располагается в городе Круглое.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Kruhlae bus Station is a bus station located in the city of Kruhlae.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_bus_station;
+			krugloe_brest_region;
+           		belarus
+		};;
+	*);;

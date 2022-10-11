@@ -1,0 +1,37 @@
+concept_bus_station_of_the_barysaw
+<-sc_node_not_relation;
+<-concept_bus_station;
+=>nrel_main_idtf:
+	[автовокзал города Борисов]
+	(* <- lang_ru;; *);
+	[bus station of the Борисов]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (автовокзал города Борисов)]
+		(* <- lang_ru;; *);
+		[Def. (bus station of the Борисов)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Автовокзал города Борисов — автовокзал, который располагается в городе Борисов.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Борисов bus Station is a bus station located in the city of Борисов.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_bus_station;
+			barysaw;
+           		belarus
+		};;
+	*);;

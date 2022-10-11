@@ -1,0 +1,37 @@
+concept_bus_station_of_the_stolin
+<-sc_node_not_relation;
+<-concept_bus_station;
+=>nrel_main_idtf:
+	[автовокзал Логишин]
+	(* <- lang_ru;; *);
+	[bus station of the Lahisyn]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (автовокзал города Столин)]
+		(* <- lang_ru;; *);
+		[Def. (bus station of the Lahisyn)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Автовокзал города Столин — автовокзал, который располагается в городе Столин.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Lahisyn bus Station is a bus station located in the city of Lahisyn.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_bus_station;
+			Lahisyn;
+           		belarus
+		};;
+	*);;

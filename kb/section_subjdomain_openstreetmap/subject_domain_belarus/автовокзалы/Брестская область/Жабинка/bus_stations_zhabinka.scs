@@ -1,0 +1,15 @@
+bus_station_stolin <- concept_bus_station;
+<- concept_bus_station_of_the_stolin;
+=>nrel_main_idtf:
+    [Автостанция Столин]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    stolin_district;
+=>nrel_city:
+    stolin;
+=>nrel_search_area:
+    stolin;;

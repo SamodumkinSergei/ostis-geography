@@ -1,0 +1,37 @@
+concept_bus_station_of_the_salihorsk
+<-sc_node_not_relation;
+<-concept_bus_station;
+=>nrel_main_idtf:
+	[автовокзал города Солигорск]
+	(* <- lang_ru;; *);
+	[bus station of the Salihorsk]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (автовокзал города Солигорск)]
+		(* <- lang_ru;; *);
+		[Def. (bus station of the Salihorsk)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Автовокзал города Солигорск — автовокзал, который располагается в городе Солигорск.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Salihorsk bus Station is a bus station located in the city of Salihorsk.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_bus_station;
+			salihorsk;
+           		belarus
+		};;
+	*);;

@@ -1,0 +1,15 @@
+bus_station_shklow <- concept_bus_station;
+<- concept_bus_station_of_the_shklow;
+=>nrel_main_idtf:
+    [Автостанция Шклов]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    mogilev_region;
+=>nrel_district:
+    shklow_district;
+=>nrel_city:
+    shklow;
+=>nrel_search_area:
+    shklow;;

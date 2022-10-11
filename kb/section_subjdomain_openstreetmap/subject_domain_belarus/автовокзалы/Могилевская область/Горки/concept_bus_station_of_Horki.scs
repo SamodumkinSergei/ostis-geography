@@ -1,0 +1,37 @@
+concept_bus_station_of_the_horki
+<-sc_node_not_relation;
+<-concept_bus_station;
+=>nrel_main_idtf:
+	[автовокзал города Горки]
+	(* <- lang_ru;; *);
+	[bus station of the Horki]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (автовокзал города Горки)]
+		(* <- lang_ru;; *);
+		[Def. (bus station of the Horki)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Автовокзал города Горки — автовокзал, который располагается в городе Горки.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Horki bus Station is a bus station located in the city of Horki.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_bus_station;
+			horki;
+           		belarus
+		};;
+	*);;

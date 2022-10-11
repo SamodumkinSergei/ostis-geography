@@ -1,0 +1,37 @@
+concept_bus_station_of_the_lahojsk
+<-sc_node_not_relation;
+<-concept_bus_station;
+=>nrel_main_idtf:
+	[автовокзал города Логойск]
+	(* <- lang_ru;; *);
+	[bus station of the Lahojsk]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (автовокзал города Логойск)]
+		(* <- lang_ru;; *);
+		[Def. (bus station of the Lahojsk)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Автовокзал города Логойск — автовокзал, который располагается в городе Логойск.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Lahojsk bus Station is a bus station located in the city of Lahojsk.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_bus_station;
+			lahojsk;
+           		belarus
+		};;
+	*);;
