@@ -1,0 +1,35 @@
+concept_information_kiosk <- concept_bank;
+<- sc_node_not_relation;
+<= nrel_inclusion: concept_sup_concept;
+=> nrel_main_idtf:
+	[Инфокиоск]
+	(* <- lang_ru;; *);
+	[Information kiosk]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+		[Опр. (Инфокиоск)]
+		(* <- lang_ru;; *);
+		[Def. (Information kiosk)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Инфокиоск — устройство, предназначенное для проведения операций с использованием банковской платежной карточки и просмотра справочной информации.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Information kiosk is a device designed to conduct transactions using a bank payment card and view reference information.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_bank
+		};;
+	*);;

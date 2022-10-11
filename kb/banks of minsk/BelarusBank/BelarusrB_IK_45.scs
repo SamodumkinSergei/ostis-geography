@@ -1,0 +1,15 @@
+BelarusB_IK_45<- concept_info_kiosk;
+<-concept_belarusbank;
+=> nrel_main_idtf:
+    [BelarusBank_Information_kiosk_45]
+    (* <- lang_en;; <- name_en;; *);
+    [БеларусБанк_Инфокиоск_45]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+BelarusB_IK_45
+<= nrel_address:
+[г. Минск, ул. Матусевича, 76]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[Пн-Вс: Круглосуточно	]
+(*<-lang_ru;;*);;

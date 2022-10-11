@@ -1,0 +1,15 @@
+AB_ATM_13<- concept_ATM;
+<-concept_alfabank;
+=> nrel_main_idtf:
+    [AlfaBank_ATM_13]
+    (* <- lang_en;; <- name_en;; *);
+    [Альфабанк_Банкомат_13]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+AB_ATM_13
+<= nrel_address:
+[г. Минск, пр-т Дзержинского, 57 (ООО «Белтяжмаш-инвест»)]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[Пн-Вс: Круглосуточно]
+(*<-lang_ru;;*);;

@@ -1,0 +1,17 @@
+BelarusB_IK_30<- concept_info_kiosk;
+<-concept_belarusbank;
+=> nrel_main_idtf:
+    [BelarusBank_Information_kiosk_30]
+    (* <- lang_en;; <- name_en;; *);
+    [БеларусБанк_Инфокиоск_30]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+BelarusB_IK_30
+<= nrel_address:
+[г. Минск, ул. Физкультурная, 31/-
+
+]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[	Пн-Вс: Круглосуточно	]
+(*<-lang_ru;;*);;

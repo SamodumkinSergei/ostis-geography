@@ -1,0 +1,15 @@
+BelarusB_IK_26<- concept_info_kiosk;
+<-concept_belarusbank;
+=> nrel_main_idtf:
+    [BelarusBank_Information_kiosk_26]
+    (* <- lang_en;; <- name_en;; *);
+    [БеларусБанк_Инфокиоск_26]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+BelarusB_IK_26
+<= nrel_address:
+[г. Минск, ул. Лейтенанта кижеватова, 80/1, пом.2Н]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[Пн-Вс: Круглосуточно]
+(*<-lang_ru;;*);;

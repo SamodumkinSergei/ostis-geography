@@ -1,0 +1,15 @@
+AB_ATM_14<- concept_ATM;
+<-concept_alfabank;
+=> nrel_main_idtf:
+    [AlfaBank_ATM_14]
+    (* <- lang_en;; <- name_en;; *);
+    [Альфабанк_Банкомат_14]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+AB_ATM_14
+<= nrel_address:
+[г. Минск, ул. Уманская, 54 (ТЦ «Globo»)]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[Пн-Вс: Круглосуточно]
+(*<-lang_ru;;*);;

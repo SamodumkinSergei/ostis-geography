@@ -1,0 +1,31 @@
+concept_bank;
+<- sc_node_not_relation;
+<= nrel_inclusion: concept_sup_concept;
+=> nrel_main_idtf:
+	[Банк]
+	(* <- lang_ru;; *);
+	[Bank]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+		[Опр. (Банк)]
+		(* <- lang_ru;; *);
+		[Def. (Bank)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Банк — финансовая организация, основные виды деятельности которой - привлечение и размещение денежных средств, а также проведение расчетов.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Bank - a financial institution whose main activities are raising and placing funds, as well as making settlements.]
+			(* <- lang_en;; *);;
+		*);;
+	*);;

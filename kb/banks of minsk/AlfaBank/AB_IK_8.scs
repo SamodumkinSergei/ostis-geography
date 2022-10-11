@@ -1,0 +1,15 @@
+AB_IK_8<- concept_info_kiosk;
+<-concept_alfabank;
+=> nrel_main_idtf:
+    [AlfaBank_Information_kiosk_8]
+    (* <- lang_en;; <- name_en;; *);
+    [Альфабанк_Инфокиоск_8]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+AB_IK_8
+<= nrel_address:
+[г. Минск, ул. Кирова, д. 3 (ЗАО «Ялина»)]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[	Пн-Вс: Круглосуточно]
+(*<-lang_ru;;*);;

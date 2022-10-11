@@ -1,0 +1,15 @@
+BelagrB_ATM_20<- concept_ATM;
+<- concept_belagroprombank;
+=> nrel_main_idtf:
+    [BelagropromBank_ATM_20]
+    (* <- lang_en;; <- name_en;; *);
+    [БелагропромБанк_Банктомат_20]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+BelagrB_ATM_20
+<= nrel_address:
+[пр. Пушкина, 37]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[Пн-Вс: 09:00-24:00	]
+(*<-lang_ru;;*);;

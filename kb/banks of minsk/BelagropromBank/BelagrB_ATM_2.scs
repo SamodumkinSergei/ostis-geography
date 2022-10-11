@@ -1,0 +1,15 @@
+BelagrB_ATM_2<- concept_ATM;
+<- concept_belagroprombank;
+=> nrel_main_idtf:
+    [BelagropromBank_ATM_2]
+    (* <- lang_en;; <- name_en;; *);
+    [БелагропромБанк_Банктомат_2]
+    (* <- lang_ru;; <- name_ru;; <- name;; *);
+
+BelagrB_ATM_2
+<= nrel_address:
+[ул. М. Богдановича, остановочный пункт "Станция метро Немига"]
+(*<-lang_ru;;*);;
+<= nrel_timetable:
+[Пн-Вс: Круглосуточно	]
+(*<-lang_ru;;*);;
