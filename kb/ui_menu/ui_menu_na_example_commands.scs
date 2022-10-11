@@ -12,6 +12,7 @@ ui_menu_na_example_commands
 		ui_menu_search_banks_by_type;
 		ui_menu_get_pharmacies_by_phone_number;
 		ui_menu_pharmacies_by_location_house_number;
+		ui_menu_get_pharmacies_by_city;
 		ui_menu_get_pharmacies_by_close_time;
 		ui_menu_pharmacies_by_district;
 		ui_menu_get_pharmacies_by_open_time;
@@ -20,6 +21,8 @@ ui_menu_na_example_commands
 		ui_menu_pharmacies_by_type;
 		ui_menu_get_lakes_by_area;
 		ui_menu_get_lakes_by_temperature;
-		ui_menu_get_lakes_by_salt_index
-		
+		ui_menu_get_lakes_by_salt_index;
+		ui_menu_find_distance;
+		ui_menu_compare_population;
+		ui_menu_find_population
 	};;
