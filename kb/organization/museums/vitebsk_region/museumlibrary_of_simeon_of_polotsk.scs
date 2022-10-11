@@ -1,0 +1,17 @@
+museumlibrary_of_simeon_of_polotsk <- concept_museum;
+=> nrel_main_idtf:
+   [Museum-library of Simeon of Polotsk]
+   (* <- lang_en;; <- name_en;;*);
+   [Музей книгопечатания]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375 (214) 46-63-39]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [http://simeon.polotsk.museum.by/]
+   (*<-concept_site;;*);
+=> nrel_email:
+   [book.polotsk@museum.by]
+   (*<-concept_email;;*);
+=> nrel_region:
+   vitebsk_region;;

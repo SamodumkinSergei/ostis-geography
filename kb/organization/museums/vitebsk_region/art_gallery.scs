@@ -1,0 +1,17 @@
+art_gallery <- concept_museum;
+=> nrel_main_idtf:
+   [Art gallery]
+   (* <- lang_en;; <- name_en;;*);
+   [Художественная галерея]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375 214 46-41-35]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [http://gallery.polotsk.museum.by]
+   (*<-concept_site;;*);
+=> nrel_email:
+   [gallery.polotsk@museum.by]
+   (*<-concept_email;;*);
+=> nrel_region:
+   vitebsk_region;;
