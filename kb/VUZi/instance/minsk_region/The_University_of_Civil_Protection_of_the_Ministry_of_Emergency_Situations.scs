@@ -1,0 +1,27 @@
+The_University_of_Civil_Protection_of_the_Ministry_of_Emergency_Situations
+<- concept_university;
+=>nrel_main_idtf:
+    [The_University_of_Civil_Protection_of_the_Ministry_of_Emergency_Situations]
+    (* <- lang_en;; <- name_en;;*);
+    [Университет гражданской защиты МЧС Беларуси]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_address:
+    [г. Минск ул. Машиностроителей 25]
+    (*<-concept_address;;*);
+=> nrel_average_passing_grade:
+    [10]
+    (*<-concept_average_passing_grade;;*);
+=> nrel_email:
+    [mail@ucp.by]
+    (*<-concept_email;;*);
+=> nrel_phone_number:
+    [8 017 340-35-58]
+    (*<-concept_phone_number;;*);
+=> nrel_number_of_faculties:
+    [4]
+    (*<-concept_number_of_faculties;;*);
+=> nrel_number_of_students:
+    [558]
+    (*<-concept_number_of_students;;*);
+=> nrel_region:
+    minsk_region;;

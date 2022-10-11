@@ -1,0 +1,27 @@
+belarusian_state_universiti_of_physical_education
+<- concept_university;
+=>nrel_main_idtf:
+    [Belarusian State University of Physical Education]
+    (* <- lang_en;; <- name_en;;*);
+    [Белорусский Государственный Университет Физической Культуры]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_address:
+    [г. Минск, пр-т Победителей, 105.]
+    (*<-concept_address;;*);
+=> nrel_average_passing_grade:
+    [8]
+    (*<-concept_average_passing_grade;;*);
+=> nrel_email:
+    [oo@sportedu.by]
+    (*<-concept_email;;*);
+=> nrel_phone_number:
+    [8 017 373-30-08]
+    (*<-concept_phone_number;;*);
+=> nrel_number_of_faculties:
+    [5]
+    (*<-concept_number_of_faculties;;*);
+=> nrel_number_of_students:
+    [2094]
+    (*<-concept_number_of_students;;*);
+=> nrel_region:
+    minsk_region;;

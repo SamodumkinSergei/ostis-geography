@@ -1,0 +1,27 @@
+Mogilev_State_Kuleshov_University
+<- concept_university;
+=>nrel_main_idtf:
+    [Mogilev State Kuleshov University]
+    (* <- lang_en;; <- name_en;;*);
+    [Могилёвский государственный университет имени А.А. Кулешова]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_address:
+    [г. Могилев, ул. Космонавтов, 1.]
+    (*<-concept_address;;*);
+=> nrel_average_passing_grade:
+    [10]
+    (*<-concept_average_passing_grade;;*);
+=> nrel_email:
+    [msu@msu.by]
+    (*<-concept_email;;*);
+=> nrel_phone_number:
+    [8 222 71 26 35]
+    (*<-concept_phone_number;;*);
+=> nrel_number_of_faculties:
+    [6]
+    (*<-concept_number_of_faculties;;*);
+=> nrel_number_of_students:
+    [886]
+    (*<-concept_number_of_students;;*);
+=> nrel_region:
+    mogelev_region;;

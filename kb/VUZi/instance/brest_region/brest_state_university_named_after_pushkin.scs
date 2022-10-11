@@ -1,0 +1,27 @@
+brest_state_university_named_after_pushkin
+<- concept_university;
+=>nrel_main_idtf:
+    [Brest State University named after Pushkin]
+    (* <- lang_en;; <- name_en;;*);
+    [Брестский Государственный Университет имени Пушкина]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_address:
+    [г. Брест, бульвар Космонавтов, 21.]
+    (*<-concept_address;;*);
+=> nrel_average_passing_grade:
+    [10]
+    (*<-concept_average_passing_grade;;*);
+=> nrel_email:
+    [box@brsu.by]
+    (*<-concept_email;;*);
+=> nrel_phone_number:
+    [8 016 221-70-53]
+    (*<-concept_phone_number;;*);
+=> nrel_number_of_faculties:
+    [5]
+    (*<-concept_number_of_faculties;;*);
+=> nrel_number_of_students:
+    [5603]
+    (*<-concept_number_of_students;;*);
+=> nrel_region:
+    brest_region;;

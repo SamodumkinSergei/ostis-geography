@@ -1,0 +1,27 @@
+gomel_state_university_named_after_scaryna
+<- concept_university;
+=>nrel_main_idtf:
+    [Gomel State Technical University named after Skaryna]
+    (* <- lang_en;; <- name_en;;*);
+    [Гомельский Государственный Технический Университет имени Скорины]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_address:
+    [г. Гомель, ул. Советская, 104.]
+    (*<-concept_address;;*);
+=> nrel_average_passing_grade:
+    [8]
+    (*<-concept_average_passing_grade;;*);
+=> nrel_email:
+    [mail@gsu.by]
+    (*<-concept_email;;*);
+=> nrel_phone_number:
+    [8 023 251-00-71]
+    (*<-concept_phone_number;;*);
+=> nrel_number_of_faculties:
+    [4]
+    (*<-concept_number_of_faculties;;*);
+=> nrel_number_of_students:
+    [5308]
+    (*<-concept_number_of_students;;*);
+=> nrel_region:
+    gomel_region;;
