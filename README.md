@@ -10,13 +10,7 @@ cd ostis-geography
 git submodule update --init --recursive
 ```
 
-### Using Docker
-Pull Docker (only for the first time ):
-```
-docker-compose pull 
-```
-
-### Using Ubuntu 20.04
+### Using Ubuntu 22.04 or 20.04
 Linux:
 ```sh
 cd ostis-geography/scripts

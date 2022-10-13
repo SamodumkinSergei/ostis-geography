@@ -1,6 +1,6 @@
-FROM ubuntu:focal as base
+FROM ubuntu:focal
 ARG DEBIAN_FRONTEND=noninteractive
-ENV TZ=Europe/Moscow
+ENV TZ=Europe/Minsk
 # install dependencies
 COPY ./scripts/install_deps_ubuntu.sh /tmp/install_deps_ubuntu.sh
 RUN apt-get update && \
