@@ -1,0 +1,12 @@
+city_hospital_1_brest <- concept_hospital;
+=> nrel_main_idtf:
+   [City hospital №1 Brest]
+   (* <- lang_en;; <- name_en;;*);
+   [Городская больница №1 Бреста]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375162573227]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [http://bgb1.brest.by]
+   (*<-concept_site;;*);;

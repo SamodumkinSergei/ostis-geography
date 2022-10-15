@@ -1,0 +1,12 @@
+city_hospital_brest <- concept_hospital;
+=> nrel_main_idtf:
+   [City hospital Brest]
+   (* <- lang_en;; <- name_en;;*);
+   [Городская больница Бреста]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375162406891]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [https://www.brest-bsmp.by]
+   (*<-concept_site;;*);;

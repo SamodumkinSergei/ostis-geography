@@ -1,0 +1,12 @@
+regional_psychiatric_hospital_mogilev <- concept_hospital;
+=> nrel_main_idtf:
+   [Regional psychiatric hospital Mogilev]
+   (* <- lang_en;; <- name_en;;*);
+   [Могилевская областная психиатрическая больница]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375222473409]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [https://www.mopb.by]
+   (*<-concept_site;;*);;

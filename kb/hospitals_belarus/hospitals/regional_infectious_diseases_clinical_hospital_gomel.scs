@@ -1,0 +1,12 @@
+regional_infectious_diseases_clinical_hospital_gomel <- concept_hospital;
+=> nrel_main_idtf:
+   [Gomel regional infectious diseases clinical hospital]
+   (* <- lang_en;; <- name_en;;*);
+   [Гомельская областная инфекционная клиническая больница]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375232357939]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [https://uzgoikb.by]
+   (*<-concept_site;;*);;
