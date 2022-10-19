@@ -1,6 +1,0 @@
-sc_node_norole_relation -> nrel_distance;;
-sc_relation -> nrel_distance;;
-nrel_distance
-	=> nrel_main_idtf: 
-		[ расстояние* ] (* <-lang_ru;; *);
-		[ distance* ] (* <-lang_en;; *);;
