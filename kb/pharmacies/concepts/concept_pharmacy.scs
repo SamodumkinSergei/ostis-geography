@@ -2,7 +2,6 @@ concept_pharmacy
 => nrel_main_idtf:
 	[pharmacy] (* <- lang_en;; *);
 	[аптека] (* <- lang_ru;; *);
-=>nrel_inclusion:concept_pharmacy_chain;	
 <- rrel_key_sc_element: ...
     (*
 		<- definition;;
@@ -19,7 +18,7 @@ concept_pharmacy
 		    ...
 			(*
 			-> rrel_example:
-				[Аптека — особая специализированная организация системы здравоохранения, занимающаяся изготовлением, фасовкой, анализом и продажей лекарственных средств.]
+				[Аптека это особая специализированная организация системы здравоохранения, занимающаяся изготовлением, фасовкой, анализом и продажей лекарственных средств.]
 				(* <-lang_ru;; *);; 
 			*);;
     *);
@@ -28,7 +27,9 @@ concept_pharmacy
 	    <-sc_illustration;;
 	    <=nrel_sc_text_translation: ...
 	    (*
-		    -> rrel_example: "file://images/pharmacy.jpg" (* => nrel_format: format_jpg;; *);;
+		    -> rrel_example: "file://images/pharmacy.jpg" (* 
+						=> nrel_format: format_jpg;; 
+						*);;
 	    *);;
     *);	
-<-sc_node_not_relation;;
+<- sc_node_not_relation;;

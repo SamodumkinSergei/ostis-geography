@@ -1,4 +1,4 @@
-concept_pharmacy_chain
+concept_pharmacy_chain <-sc_node_not_relation;
 => nrel_main_idtf:
 	[pharmacy chain] (* <- lang_en;; *);
 	[аптечная сеть] (* <- lang_ru;; *);
@@ -21,10 +21,5 @@ concept_pharmacy_chain
 				[объединение нескольких аптек]
 				(* <-lang_ru;; *);; 
 			*);;
-    *);
-<-sc_node_not_relation;
--> pharmacy_chain_Green_pharmacy;
--> pharmacy_chain_Planet_Health;
--> pharmacy_chain_Belfarmacy;
--> pharmacy_chain_ADEL;
--> pharmacy_chain_Dobriya_leki;;
+    *);;
+
