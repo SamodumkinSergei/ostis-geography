@@ -1,0 +1,33 @@
+sc_node_not_relation -> concept_ploschad_pobedy;;
+	sc_node_not_relation -> concept_metro_line;;
+	sc_node_not_relation -> concept_metro_line;;
+
+sc_node_norole_relation -> nrel_built;;
+	sc_node_norole_relation -> nrel_location;;
+
+
+concept_ploschad_pobedy => nrel_main_idtf: [Площадь Победы](* <- lang_ru;; *);;
+concept_ploschad_pobedy => nrel_main_idtf: [Ploschad Pobedy](* <- lang_en;; *);;
+
+   
+definition ->...
+(*
+    -> rrel_key_sc_element : concept_ploschad_pobedy;;
+    <= nrel_sc_text_translation: ...(*->rrel_example:[Площадь Победы – станция метро, построенная 30 июня 1984 года.](*<-lang_ru;;*);;*);;
+    => nrel_main_idtf: [Определение (Площадь Победы)](*<- lang_ru;;*);;
+    => nrel_using_constants: ...
+    (*
+       -> nrel_built;;
+    *);;
+*);;
+
+statement ->...
+(*
+    -> rrel_key_sc_element : concept_ploschad_pobedy;;
+    <= nrel_sc_text_translation: ...(*->rrel_example:[Площадь Победы находится на Московской ветке и имеет код станции 117.](*<-lang_ru;;*);;*);;
+    => nrel_main_idtf: [Утверждение(Площадь Победы)](*<- lang_ru;;*);;
+    => nrel_using_constants: ...
+    (* 
+       -> nrel_location;;
+    *);;
+*);;

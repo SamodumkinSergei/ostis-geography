@@ -1,0 +1,33 @@
+sc_node_not_relation -> concept_nemiga;;
+	sc_node_not_relation -> concept_metro_line;;
+	sc_node_not_relation -> concept_metro_line;;
+
+sc_node_norole_relation -> nrel_built;;
+	sc_node_norole_relation -> nrel_location;;
+
+
+concept_nemiga => nrel_main_idtf: [Немига](* <- lang_ru;; *);;
+concept_nemiga => nrel_main_idtf: [Nemiga](* <- lang_en;; *);;
+
+   
+definition ->...
+(*
+    -> rrel_key_sc_element : concept_nemiga;;
+    <= nrel_sc_text_translation: ...(*->rrel_example:[Немига – станция метро, построенная 31 декабря 1990 года.](*<-lang_ru;;*);;*);;
+    => nrel_main_idtf: [Определение (Немига)](*<- lang_ru;;*);;
+    => nrel_using_constants: ...
+    (*
+       -> nrel_built;;
+    *);;
+*);;
+
+statement ->...
+(*
+    -> rrel_key_sc_element : concept_nemiga;;
+    <= nrel_sc_text_translation: ...(*->rrel_example:[Немига находится на Автозаводской линии и имеет код станции 217.](*<-lang_ru;;*);;*);;
+    => nrel_main_idtf: [Утверждение(Немига)](*<- lang_ru;;*);;
+    => nrel_using_constants: ...
+    (* 
+       -> nrel_location;;
+    *);;
+*);;

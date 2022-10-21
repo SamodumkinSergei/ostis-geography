@@ -1,0 +1,33 @@
+sc_node_not_relation -> concept_ploschad_yakuba_kolasa;;
+	sc_node_not_relation -> concept_metro_line;;
+	sc_node_not_relation -> concept_metro_line;;
+
+sc_node_norole_relation -> nrel_built;;
+	sc_node_norole_relation -> nrel_location;;
+
+
+concept_ploschad_yakuba_kolasa => nrel_main_idtf: [Площадь Якуба Коласа](* <- lang_ru;; *);;
+concept_ploschad_yakuba_kolasa => nrel_main_idtf: [Ploschad Yakuba Kolasa](* <- lang_en;; *);;
+
+   
+definition ->...
+(*
+    -> rrel_key_sc_element : concept_ploschad_yakuba_kolasa;;
+    <= nrel_sc_text_translation: ...(*->rrel_example:[Площадь Якуба Коласа – станция метро, построенная 30 июня 1984 года.](*<-lang_ru;;*);;*);;
+    => nrel_main_idtf: [Определение (Площадь Якуба Коласа)](*<- lang_ru;;*);;
+    => nrel_using_constants: ...
+    (*
+       -> nrel_built;;
+    *);;
+*);;
+
+statement ->...
+(*
+    -> rrel_key_sc_element : concept_ploschad_yakuba_kolasa;;
+    <= nrel_sc_text_translation: ...(*->rrel_example:[Площадь Якуба Коласа находится на Московской ветке и имеет код станции 118.](*<-lang_ru;;*);;*);;
+    => nrel_main_idtf: [Утверждение(Площадь Якуба Коласа)](*<- lang_ru;;*);;
+    => nrel_using_constants: ...
+    (* 
+       -> nrel_location;;
+    *);;
+*);;

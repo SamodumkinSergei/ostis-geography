@@ -1,0 +1,33 @@
+sc_node_not_relation -> concept_borisovskiy_trakt;;
+	sc_node_not_relation -> concept_metro_line;;
+	sc_node_not_relation -> concept_metro_line;;
+
+sc_node_norole_relation -> nrel_built;;
+	sc_node_norole_relation -> nrel_location;;
+
+
+concept_borisovskiy_trakt => nrel_main_idtf: [Борисовский тракт](* <- lang_ru;; *);;
+concept_borisovskiy_trakt => nrel_main_idtf: [Borisovskiy trakt](* <- lang_en;; *);;
+
+   
+definition ->...
+(*
+    -> rrel_key_sc_element : concept_borisovskiy_trakt;;
+    <= nrel_sc_text_translation: ...(*->rrel_example:[Борисовский тракт – станция метро, построенная 7 ноября 2007 года.](*<-lang_ru;;*);;*);;
+    => nrel_main_idtf: [Определение (Борисовский тракт)](*<- lang_ru;;*);;
+    => nrel_using_constants: ...
+    (*
+       -> nrel_built;;
+    *);;
+*);;
+
+statement ->...
+(*
+    -> rrel_key_sc_element : concept_borisovskiy_trakt;;
+    <= nrel_sc_text_translation: ...(*->rrel_example:[Борисовский тракт находится на Московской ветке и имеет код станции 123.](*<-lang_ru;;*);;*);;
+    => nrel_main_idtf: [Утверждение(Борисовский тракт)](*<- lang_ru;;*);;
+    => nrel_using_constants: ...
+    (* 
+       -> nrel_location;;
+    *);;
+*);;

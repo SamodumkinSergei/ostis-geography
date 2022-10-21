@@ -1,0 +1,33 @@
+sc_node_not_relation -> concept_institut_kultury;;
+	sc_node_not_relation -> concept_metro_line;;
+	sc_node_not_relation -> concept_metro_line;;
+
+sc_node_norole_relation -> nrel_built;;
+	sc_node_norole_relation -> nrel_location;;
+
+
+concept_institut_kultury => nrel_main_idtf: [Институт культуры](* <- lang_ru;; *);;
+concept_institut_kultury => nrel_main_idtf: [Institut kultury](* <- lang_en;; *);;
+
+   
+definition ->...
+(*
+    -> rrel_key_sc_element : concept_institut_kultury;;
+    <= nrel_sc_text_translation: ...(*->rrel_example:[Институт культуры – станция метро, построенная 30 июня 1984 года.](*<-lang_ru;;*);;*);;
+    => nrel_main_idtf: [Определение (Институт культуры)](*<- lang_ru;;*);;
+    => nrel_using_constants: ...
+    (*
+       -> nrel_built;;
+    *);;
+*);;
+
+statement ->...
+(*
+    -> rrel_key_sc_element : concept_institut_kultury;;
+    <= nrel_sc_text_translation: ...(*->rrel_example:[Институт культуры находится на Московской ветке и имеет код станции 114.](*<-lang_ru;;*);;*);;
+    => nrel_main_idtf: [Утверждение(Институт культуры)](*<- lang_ru;;*);;
+    => nrel_using_constants: ...
+    (* 
+       -> nrel_location;;
+    *);;
+*);;

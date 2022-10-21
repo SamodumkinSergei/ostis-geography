@@ -1,0 +1,33 @@
+sc_node_not_relation -> concept_kamennaya_gorka;;
+	sc_node_not_relation -> concept_metro_line;;
+	sc_node_not_relation -> concept_metro_line;;
+
+sc_node_norole_relation -> nrel_built;;
+	sc_node_norole_relation -> nrel_location;;
+
+
+concept_kamennaya_gorka => nrel_main_idtf: [Каменная Горка](* <- lang_ru;; *);;
+concept_kamennaya_gorka => nrel_main_idtf: [Kamennaya Gorka](* <- lang_en;; *);;
+
+   
+definition ->...
+(*
+    -> rrel_key_sc_element : concept_kamennaya_gorka;;
+    <= nrel_sc_text_translation: ...(*->rrel_example:[Каменная Горка – станция метро, построенная 7 ноября 2005 года.](*<-lang_ru;;*);;*);;
+    => nrel_main_idtf: [Определение (Каменная Горка)](*<- lang_ru;;*);;
+    => nrel_using_constants: ...
+    (*
+       -> nrel_built;;
+    *);;
+*);;
+
+statement ->...
+(*
+    -> rrel_key_sc_element : concept_kamennaya_gorka;;
+    <= nrel_sc_text_translation: ...(*->rrel_example:[Каменная Горка находится на Автозаводской линии и имеет код станции 223.](*<-lang_ru;;*);;*);;
+    => nrel_main_idtf: [Утверждение(Каменная Горка)](*<- lang_ru;;*);;
+    => nrel_using_constants: ...
+    (* 
+       -> nrel_location;;
+    *);;
+*);;

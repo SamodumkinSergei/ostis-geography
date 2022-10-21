@@ -1,0 +1,33 @@
+sc_node_not_relation -> concept_ploschad_lenina;;
+	sc_node_not_relation -> concept_metro_line;;
+	sc_node_not_relation -> concept_metro_line;;
+
+sc_node_norole_relation -> nrel_built;;
+	sc_node_norole_relation -> nrel_location;;
+
+
+concept_ploschad_lenina => nrel_main_idtf: [Площадь Ленина](* <- lang_ru;; *);;
+concept_ploschad_lenina => nrel_main_idtf: [Ploschad Lenina](* <- lang_en;; *);;
+
+   
+definition ->...
+(*
+    -> rrel_key_sc_element : concept_ploschad_lenina;;
+    <= nrel_sc_text_translation: ...(*->rrel_example:[Площадь Ленина – станция метро, построенная 30 июня 1984 года.](*<-lang_ru;;*);;*);;
+    => nrel_main_idtf: [Определение (Площадь Ленина)](*<- lang_ru;;*);;
+    => nrel_using_constants: ...
+    (*
+       -> nrel_built;;
+    *);;
+*);;
+
+statement ->...
+(*
+    -> rrel_key_sc_element : concept_ploschad_lenina;;
+    <= nrel_sc_text_translation: ...(*->rrel_example:[Площадь Ленина находится на Московской ветке и имеет код станции 115.](*<-lang_ru;;*);;*);;
+    => nrel_main_idtf: [Утверждение(Площадь Ленина)](*<- lang_ru;;*);;
+    => nrel_using_constants: ...
+    (* 
+       -> nrel_location;;
+    *);;
+*);;

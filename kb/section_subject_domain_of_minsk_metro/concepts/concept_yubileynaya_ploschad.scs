@@ -1,0 +1,33 @@
+sc_node_not_relation -> concept_yubileynaya_ploschad;;
+	sc_node_not_relation -> concept_metro_line;;
+	sc_node_not_relation -> concept_metro_line;;
+
+sc_node_norole_relation -> nrel_built;;
+	sc_node_norole_relation -> nrel_location;;
+
+
+concept_yubileynaya_ploschad => nrel_main_idtf: [Юбилейная площадь](* <- lang_ru;; *);;
+concept_yubileynaya_ploschad => nrel_main_idtf: [Yubileynaya ploschad](* <- lang_en;; *);;
+
+   
+definition ->...
+(*
+    -> rrel_key_sc_element : concept_yubileynaya_ploschad;;
+    <= nrel_sc_text_translation: ...(*->rrel_example:[Юбилейная площадь – станция метро, построенная 7 ноября 2020 года.](*<-lang_ru;;*);;*);;
+    => nrel_main_idtf: [Определение (Юбилейная площадь)](*<- lang_ru;;*);;
+    => nrel_using_constants: ...
+    (*
+       -> nrel_built;;
+    *);;
+*);;
+
+statement ->...
+(*
+    -> rrel_key_sc_element : concept_yubileynaya_ploschad;;
+    <= nrel_sc_text_translation: ...(*->rrel_example:[Юбилейная площадь находится на Зеленолужской линии и имеет код станции 316.](*<-lang_ru;;*);;*);;
+    => nrel_main_idtf: [Утверждение(Юбилейная площадь)](*<- lang_ru;;*);;
+    => nrel_using_constants: ...
+    (* 
+       -> nrel_location;;
+    *);;
+*);;
