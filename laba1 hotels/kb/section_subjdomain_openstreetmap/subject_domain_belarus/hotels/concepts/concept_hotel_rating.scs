@@ -1,0 +1,35 @@
+concept_hotel_rating
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[рейнтинг отеля]
+	(* <- lang_ru;; *);
+	[hotel rating]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (рейтинг отеля)]
+		(* <- lang_ru;; *);
+		[Def. (hotel rating)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Рейтинг отеля - оценка, использующаяся для классификации отелей в соответствии с их качеством.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[A hotel star rating is a mark that is used to classify hotels in accordance with their quality.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_hotel_rating;
+			concept_hotel
+		};;
+	*);;

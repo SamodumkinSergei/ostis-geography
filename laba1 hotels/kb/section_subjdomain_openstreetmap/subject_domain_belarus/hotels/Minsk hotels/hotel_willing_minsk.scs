@@ -1,0 +1,22 @@
+hotel_willing_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Willing Hotel]
+	(* <- lang_en;; <- name;;*);
+    [Отель Willing]
+	(* <- lang_ru;;*);
+=>nrel_city_centre_distance:
+    [1400]
+    (* <- concept_distance;; <- concept_meters;;*);
+=>nrel_min_price_per_night:
+    [38]
+    (* <- concept_price;; <- concept_usd;;*);
+=>nrel_star_rating:
+    3
+    (* <- concept_hotel_rating;;*);
+=>nrel_nearest_metro_station:
+    [Пролетарская]
+    (* <- concept_metro_station;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 

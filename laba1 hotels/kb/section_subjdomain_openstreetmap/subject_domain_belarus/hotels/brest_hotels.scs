@@ -1,0 +1,71 @@
+// 94
+hotel_energiya_brest <- concept_hotel;
+=>nrel_main_idtf:
+	[Энергия]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    brest;; 
+
+// 95
+hotel_five_rings_brest <- concept_hotel;
+=>nrel_main_idtf:
+	[Пять Колец]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    brest;; 
+
+// 96
+hotel_molodezhnaya_brest <- concept_hotel;
+=>nrel_main_idtf:
+	[Молодёжная]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    brest;; 
+
+// 97
+hotel_serebriany_taler_brest <- concept_hotel;
+=>nrel_main_idtf:
+	[Серебряный талер]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    brest;; 
+
+// 98
+hotel_graevskoye_predmestye_brest <- concept_hotel;
+=>nrel_main_idtf:
+	[Граевское предместье]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    brest;; 
+
+// 99
+hotel_inturist_brest <- concept_hotel;
+=>nrel_main_idtf:
+	[Интурист]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    brest;; 
+
+// 100
+hotel_hermitage_brest <- concept_hotel;
+=>nrel_main_idtf:
+	[Hermitage]
+	(* <- lang_en;; <- name;;*);
+    [Отель Hermitage]
+	(* <- lang_ru;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    brest;; 

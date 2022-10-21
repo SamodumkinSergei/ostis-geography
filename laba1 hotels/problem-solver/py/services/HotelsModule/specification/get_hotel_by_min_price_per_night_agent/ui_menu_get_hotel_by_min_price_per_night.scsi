@@ -1,0 +1,29 @@
+ui_menu_get_hotel_by_min_price_per_night <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+ui_menu_get_hotel_by_min_price_per_night
+=> nrel_main_idtf: 
+	[Найти отели по минимальной цене за сутки]
+	(* <- lang_ru;; *);
+=> nrel_idtf: 
+	[Запрос поиска отелей по минимальной цене за сутки]
+	(* <- lang_ru;; *);;
+
+ui_menu_get_hotel_by_min_price_per_night
+=> nrel_main_idtf: 
+	[Find hotels by minimum price per night]
+	(* <- lang_en;; *);
+=> nrel_idtf: 
+	[Search query to find hotels by minimum price per night]
+	(* <- lang_en;; *);;
+
+ui_menu_get_hotel_by_min_price_per_night => ui_nrel_command_template:
+	[*
+		action_get_hotel_by_min_price_per_night _-> ._question_get_hotel_by_min_price_per_night
+			(*
+				_-> rrel_1::ui_arg_1;;
+			*);;
+		._question_get_hotel_by_min_price_per_night _<- question;;
+	*];;
+
+ui_menu_get_hotel_by_min_price_per_night => ui_nrel_command_lang_template: [Найти отели с минимальной ценой за сутки $ui_arg_1] (* <- lang_ru;; *);;
+ui_menu_get_hotel_by_min_price_per_night => ui_nrel_command_lang_template: [Find hotels with minimal price per night of $ui_arg_1] (* <- lang_en;; *);;

@@ -1,0 +1,9 @@
+action_get_hotel_by_star_rating
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[действие. получить отели по количеству звезд]
+	(* <- lang_ru;; *);
+	[action. get hotels by star rating]
+	(* <- lang_en;; *);
+<- actions_class;
+<- atomic_action_class;; 

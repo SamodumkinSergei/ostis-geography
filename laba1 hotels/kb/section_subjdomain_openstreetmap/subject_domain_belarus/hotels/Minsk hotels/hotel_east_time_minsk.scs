@@ -1,0 +1,22 @@
+hotel_east_time_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[East Time Hotel]
+	(* <- lang_en;; <- name;;*);
+    [Отель East Time]
+	(* <- lang_ru;;*);
+=>nrel_city_centre_distance:
+    [3200]
+    (* <- concept_distance;; <- concept_meters;;*);
+=>nrel_min_price_per_night:
+    [23]
+    (* <- concept_price;; <- concept_usd;;*);
+=>nrel_star_rating:
+    2
+    (* <- concept_hotel_rating;;*);
+=>nrel_nearest_metro_station:
+    [Пролетарская]
+    (* <- concept_metro_station;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 

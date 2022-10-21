@@ -1,0 +1,29 @@
+ui_menu_get_hotel_by_star_rating <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+ui_menu_get_hotel_by_star_rating
+=> nrel_main_idtf: 
+	[Найти отели по количеству звезд]
+	(* <- lang_ru;; *);
+=> nrel_idtf: 
+	[Запрос поиска отелей по количеству звезд]
+	(* <- lang_ru;; *);;
+
+ui_menu_get_hotel_by_star_rating
+=> nrel_main_idtf: 
+	[Find hotels by star rating]
+	(* <- lang_en;; *);
+=> nrel_idtf: 
+	[Search query to find hotels by star rating]
+	(* <- lang_en;; *);;
+
+ui_menu_get_hotel_by_star_rating => ui_nrel_command_template:
+	[*
+		action_get_hotel_by_star_rating _-> ._question_get_hotel_by_star_rating
+			(*
+				_-> rrel_1::ui_arg_1;;
+			*);;
+		._question_get_hotel_by_star_rating _<- question;;
+	*];;
+
+ui_menu_get_hotel_by_star_rating => ui_nrel_command_lang_template: [Найти отели с количеством звезд $ui_arg_1] (* <- lang_ru;; *);;
+ui_menu_get_hotel_by_star_rating => ui_nrel_command_lang_template: [Find hotels with the star rating of $ui_arg_1] (* <- lang_en;; *);;

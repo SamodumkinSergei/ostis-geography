@@ -1,0 +1,22 @@
+hotel_sport_time_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Спорт Тайм]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+    [Sport Time]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_city_centre_distance:
+    [6900]
+    (* <- concept_distance;; <- concept_meters;;*);
+=>nrel_min_price_per_night:
+    [27]
+    (* <- concept_price;; <- concept_usd;;*);
+=>nrel_star_rating:
+    2
+    (* <- concept_hotel_rating;;*);
+=>nrel_nearest_metro_station:
+    [Спортивная]
+    (* <- concept_metro_station;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 

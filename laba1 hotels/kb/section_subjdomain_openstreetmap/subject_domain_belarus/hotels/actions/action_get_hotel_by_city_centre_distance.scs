@@ -1,0 +1,9 @@
+action_get_hotel_by_city_centre_distance
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[действие. получить отели по расстоянию от центра города]
+	(* <- lang_ru;; *);
+	[action. get hotels by city centre distance]
+	(* <- lang_en;; *);
+<- actions_class;
+<- atomic_action_class;; 

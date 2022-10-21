@@ -1,0 +1,35 @@
+concept_town
+<-sc_node_not_relation;
+<-concept_administrative_unit;
+=>nrel_main_idtf:
+	[городок]
+	(* <- lang_ru;; *);
+	[town]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (город)]
+		(* <- lang_ru;; *);
+		[Def. (town)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Городок — небольшой населённый пункт, жители которого заняты, как правило, не сельским хозяйством.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Town - a small settlement, the inhabitants of which, as a rule, are not engaged in agriculture.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_town
+		};;
+	*);;

@@ -1,0 +1,532 @@
+// 34
+hotel_lya_menska_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Мини-отель Ля Менска]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_city_centre_distance:
+    [8200]
+    (* <- concept_distance;; <- concept_meters;;*);
+=>nrel_min_price_per_night:
+    [25]
+    (* <- concept_price;; <- concept_usd;;*);
+=>nrel_nearest_metro_station:
+    [Пушкинская]
+    (* <- concept_metro_station;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 35
+hotel_sport_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Спорт]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_city_centre_distance:
+    [3400]
+    (* <- concept_distance;; <- concept_meters;;*);
+=>nrel_min_price_per_night:
+    [7]
+    (* <- concept_price;; <- concept_usd;;*);
+=>nrel_nearest_metro_station:
+    [Академия наук]
+    (* <- concept_metro_station;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 36
+hotel_hotel_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Отель]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+
+// 37
+hotel_zhuravinka_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Журавинка]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 38
+hotel_gazprom_transgaz_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Гостиничный комплекс ОАО Газпром трансгаз Беларусь]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 39
+hotel_mvd_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Гостиница МВД департамента финансов и тыла]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 40
+hotel_express_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Экспресс]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 41
+hotel_olympiez_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Олимпиец]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 42
+hotel_nz_chess_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[НЦ Шашек И Шахмат]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 43
+hotel_mtz_5_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Гостиница МТЗ - 5 этаж]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 45
+hotel_double_tree_1_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[DoubleTree by Hilton Hotel Minsk]
+	(* <- lang_en;; <- name;;*);
+    [Отель DoubleTree by Hilton Hotel Минск]
+	(* <- lang_ru;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 46
+hotel_minprirody_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Гостиница Минприроды]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 47
+hotel_astoria_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Astoria]
+	(* <- lang_en;; <- name;;*);
+    [Астория]
+	(* <- lang_ru;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 48
+hotel_double_tree_2_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[DoubleTree by Hilton]
+	(* <- lang_en;; <- name;;*);
+    [Отель DoubleTree by Hilton]
+	(* <- lang_ru;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 49
+hotel_dom_moskvy_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Гостиница Дом Москвы]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 50
+hotel_mmz_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Гостиница ММЗ]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 51
+hotel_ripo_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Гостиница РИПО]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 52
+hotel_valeo_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Valeo]
+	(* <- lang_en;; <- name;;*);
+    [Отель Valeo]
+	(* <- lang_ru;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 53
+hotel_belagrozdravnitsa_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[ОАО "Белагроздравница"]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 54
+hotel_almaz_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Алмаз]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 55
+hotel_granit_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Гранит]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 56
+hotel_crocus_guest_house_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Крокус гостиница]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 57
+hotel_belstroycentr_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Гостиница Белстройцентр]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 58
+hotel_complex_tourist_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Гостиничный комплекс Турист]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 59
+hotel_akademicheskaya_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Гостиница Академическая]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 60
+hotel_apart4me_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Apart4me]
+	(* <- lang_en;; <- name;;*);
+    [Отель Apart4me]
+	(* <- lang_ru;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 61
+hotel_polonez_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Полонез]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 62
+hotel_ursula_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Урсула]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 63
+hotel_zhelon_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Желонь]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 64
+hotel_centro_energo_montazh_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Гостиница ОАО "ЦентроЭнергоМонтаж"]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 65
+hotel_green_city_hotel_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Green City Hotel]
+	(* <- lang_en;; <- name;;*);
+    [Отель Green City Hotel]
+	(* <- lang_ru;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 66
+hotel_belarusfilm_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Беларусьфильмовская]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 67
+hotel_40_let_pobedy_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[40 лет Победы]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 68
+hotel_aparton_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Aparton]
+	(* <- lang_en;; <- name;;*);
+    [Отель Aparton]
+	(* <- lang_ru;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 69
+hotel_mercure_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Mercure]
+	(* <- lang_en;; <- name;;*);
+    [Отель Mercure]
+	(* <- lang_ru;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 70
+hotel_voyage_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Вояж]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 71
+hotel_slutsk_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Гостиница "Слуцк"]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 72
+hostel_trinity_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Trinity]
+	(* <- lang_en;; <- name;;*);
+    [Хостел Trinity]
+	(* <- lang_ru;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 73
+hostel_new_hostel_minsk_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[New Hostel Minsk]
+	(* <- lang_en;; <- name;;*);
+    [Хостел New Hostel Minsk]
+	(* <- lang_ru;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 74
+hostel_myhostel_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Myhostel]
+	(* <- lang_en;; <- name;;*);
+    [Хостел Myhostel]
+	(* <- lang_ru;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 75
+hostel_family_hostel_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Family hostel]
+	(* <- lang_en;; <- name;;*);
+    [Хостел Family hostel]
+	(* <- lang_ru;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 76
+hostel_happy_hostel_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Happy Hostel]
+	(* <- lang_en;; <- name;;*);
+    [Хостел Happy hostel]
+	(* <- lang_ru;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 77
+hostel_k_c_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Hostel K&C]
+	(* <- lang_en;; <- name;;*);
+    [Хостел K&C]
+	(* <- lang_ru;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 78
+hostel_urban_hostel_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Urban Hostel]
+	(* <- lang_en;; <- name;;*);
+    [Хостел Urban Hostel]
+	(* <- lang_ru;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 79
+hostel_alesia_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[ОАО"Алеся"]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 80
+hostel_flatcom_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Флэтком]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 81
+hostel_smile_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Smile]
+	(* <- lang_en;; <- name;;*);
+    [Хостел Smile]
+	(* <- lang_ru;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
+
+// 82
+hostel_riverside_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Riverside]
+	(* <- lang_en;; <- name;;*);
+    [Хостел Riverside]
+	(* <- lang_ru;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 

@@ -1,0 +1,22 @@
+hotel_ibb_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[IBB Hotel]
+	(* <- lang_en;; <- name;;*);
+    [Отель IBB]
+	(* <- lang_ru;;*);
+=>nrel_city_centre_distance:
+    [6100]
+    (* <- concept_distance;; <- concept_meters;;*);
+=>nrel_min_price_per_night:
+    [55]
+    (* <- concept_price;; <- concept_usd;;*);
+=>nrel_star_rating:
+    3
+    (* <- concept_hotel_rating;;*);
+=>nrel_nearest_metro_station:
+    [Петровщина]
+    (* <- concept_metro_station;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 

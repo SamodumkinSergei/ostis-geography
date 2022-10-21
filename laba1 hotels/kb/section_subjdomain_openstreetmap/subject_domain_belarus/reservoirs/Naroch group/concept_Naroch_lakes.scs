@@ -1,0 +1,37 @@
+concept_Naroch_lakes
+<-sc_node_not_relation;
+<-concept_lake_group;
+=>nrel_main_idtf:
+	[Нарочанская группа озёр]
+	(* <- lang_ru;; *);
+	[Naroch group of lakes]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Нарочанская группа озёр)]
+		(* <- lang_ru;; *);
+		[Def. (Naroch group of lakes)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Нарочанские озёра — группа озёр на северо-западе Мядельского района Минской области.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Naroch Lakes are a group of lakes in the north-west of the Myadel district of the Minsk region.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_lake_group;
+			myadzel_district;
+			minsk_region
+		};;
+	*);;

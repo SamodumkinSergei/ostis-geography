@@ -1,0 +1,29 @@
+talachyn_district <- concept_district;
+=>nrel_main_idtf:
+    [Talachyn District]
+    (* <- lang_en;; <- name_en;;*);
+    [Толочинский район]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [6]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitebsk_region;;
+
+talachyn <- concept_city;
+=>nrel_main_idtf:
+    [Talachyn]
+    (* <- lang_en;; <- name_en;;*);
+    [Толочин]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [8]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitebsk_region;
+=>nrel_district:
+    talachyn_district;;

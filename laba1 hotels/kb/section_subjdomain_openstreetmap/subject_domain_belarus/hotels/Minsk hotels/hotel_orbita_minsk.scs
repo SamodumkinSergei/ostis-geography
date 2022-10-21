@@ -1,0 +1,20 @@
+hotel_orbita_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Орбита]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_city_centre_distance:
+    [4800]
+    (* <- concept_distance;; <- concept_meters;;*);
+=>nrel_min_price_per_night:
+    [28]
+    (* <- concept_price;; <- concept_usd;;*);
+=>nrel_star_rating:
+    3
+    (* <- concept_hotel_rating;;*);
+=>nrel_nearest_metro_station:
+    [Пушкинская]
+    (* <- concept_metro_station;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 

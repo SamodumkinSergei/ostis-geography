@@ -1,0 +1,35 @@
+concept_metro_station
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[станция метро]
+	(* <- lang_ru;; *);
+	[metro station]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (станция метро)]
+		(* <- lang_ru;; *);
+		[Def. (metro station)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Станция метро - остановочный пункт, предназначенный для посадки и высадки пассажиров метрополитена.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[A metro station is a railway station for a rapid transit system that provides a means for passengers to purchase tickets, board trains, and evacuat the system in case of an emergency.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_metro_station;
+            concept_metro
+		};;
+	*);;

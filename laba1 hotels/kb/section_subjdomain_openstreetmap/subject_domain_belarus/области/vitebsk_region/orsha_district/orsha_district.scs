@@ -1,0 +1,46 @@
+orsha_district <- concept_district;
+=>nrel_main_idtf:
+    [Orsha District]
+    (* <- lang_en;; <- name_en;;*);
+    [Оршанский район]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [6]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitebsk_region;;
+
+
+orsha <- concept_city;
+=>nrel_main_idtf:
+    [Orsha]
+    (* <- lang_en;; <- name_en;;*);
+    [Орша]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [8]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitebsk_region;
+=>nrel_district:
+    orsha_district;;
+
+baran <- concept_city;
+=>nrel_main_idtf:
+    [Baran]
+    (* <- lang_en;; <- name_en;;*);
+    [Барань]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [8]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitebsk_region;
+=>nrel_district:
+    orsha_district;;

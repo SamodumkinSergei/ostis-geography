@@ -1,0 +1,20 @@
+hotel_u_fontana_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[У Фонтана]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city_centre_distance:
+    [2600]
+    (* <- concept_distance;; <- concept_meters;;*);
+=>nrel_min_price_per_night:
+    [33]
+    (* <- concept_price;; <- concept_usd;;*);
+=>nrel_star_rating:
+    3
+    (* <- concept_hotel_rating;;*);
+=>nrel_nearest_metro_station:
+    [Молодёжная]
+    (* <- concept_metro_station;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;;

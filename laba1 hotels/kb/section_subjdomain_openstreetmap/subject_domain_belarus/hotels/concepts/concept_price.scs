@@ -1,0 +1,34 @@
+concept_price
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[цена]
+	(* <- lang_ru;; *);
+	[price]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (цена)]
+		(* <- lang_ru;; *);
+		[Def. (price)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Цена - стоимость в деньгах.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[A price is the quantity of payment or compensation given by one party to another in return for goods or services.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_price
+		};;
+	*);;

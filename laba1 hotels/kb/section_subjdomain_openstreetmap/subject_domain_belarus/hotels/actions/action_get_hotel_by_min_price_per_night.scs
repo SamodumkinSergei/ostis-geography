@@ -1,0 +1,9 @@
+action_get_hotel_by_min_price_per_night
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[действие. получить отели по минимальной цене за сутки]
+	(* <- lang_ru;; *);
+	[action. get hotels by minimal price per night]
+	(* <- lang_en;; *);
+<- actions_class;
+<- atomic_action_class;; 

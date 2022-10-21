@@ -1,0 +1,22 @@
+hotel_it_time_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[IT Time]
+	(* <- lang_en;; <- name_en;; <- name;;*);
+    [АйТи Тайм]
+	(* <- lang_ru;; <- name_ru;;*);
+=>nrel_city_centre_distance:
+    [8500]
+    (* <- concept_distance;; <- concept_meters;;*);
+=>nrel_min_price_per_night:
+    [23]
+    (* <- concept_price;; <- concept_usd;;*);
+=>nrel_star_rating:
+    2
+    (* <- concept_hotel_rating;;*);
+=>nrel_nearest_metro_station:
+    [Борисовский тракт]
+    (* <- concept_metro_station;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 

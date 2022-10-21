@@ -1,0 +1,13 @@
+masty_district <- concept_district;
+=>nrel_main_idtf:
+    [Masty District]
+    (* <- lang_en;; <- name_en;;*);
+    [Мостовский район]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [6]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    grodno_region;;

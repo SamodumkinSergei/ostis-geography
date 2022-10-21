@@ -1,0 +1,54 @@
+nrel_city_centre_distance
+<-sc_node_norole_relation;
+<-relation;
+<-norole_relation;
+<-binary_relation;
+<-oriented_relation;
+<-antireflexive_relation;
+<-antitransitive_relation;
+<-asymmetric_relation;
+=>nrel_main_idtf:
+	[ расстояние до центра города* ]
+	(* <- lang_ru;; *);
+	[ distance to the city centre* ]
+	(* <- lang_en;; *);
+=>nrel_first_domain: concept_map_object;
+=>nrel_second_domain: concept_distance;
+=>nrel_definitional_domain:
+	...
+	(*
+	<= nrel_combination:
+		{
+		concept_map_object;
+		concept_distance
+		};;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (расстояние до центра города*)]
+		(* <- lang_ru;; *);
+		[Def. (distance to the city centre*)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Расстояние до центра города* — неролевое ориентированное отношение, связывающее объект карты и расстояние.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Distance to the city centre* - a non-role-oriented relationship linking a map object and distance.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_city;
+			concept_map_object;
+			concept_distance
+		};;
+	*);;

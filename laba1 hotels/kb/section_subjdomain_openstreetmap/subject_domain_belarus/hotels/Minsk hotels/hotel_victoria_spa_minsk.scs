@@ -1,0 +1,22 @@
+hotel_victoria_spa_minsk <- concept_hotel;
+=>nrel_main_idtf:
+	[Виктория & СПА]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+    [Victoria & SPA]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_city_centre_distance:
+    [3600]
+    (* <- concept_distance;; <- concept_meters;;*);
+=>nrel_min_price_per_night:
+    [62]
+    (* <- concept_price;; <- concept_usd;;*);
+=>nrel_star_rating:
+    4
+    (* <- concept_hotel_rating;;*);
+=>nrel_nearest_metro_station:
+    [Молодёжная]
+    (* <- concept_metro_station;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;; 
