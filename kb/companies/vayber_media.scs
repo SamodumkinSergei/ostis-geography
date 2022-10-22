@@ -1,0 +1,24 @@
+company_vayber_media <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Вайбер Медиа]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_17_240_36_44]
+	(* <- concept_phone_number;;*);
+	[belarus@viber.com]
+	(* <- concept_email;;*);
+	[http://viber.com]
+	(* <- concept_website;;*);
+	[191699514]
+	(* <- concept_ucn;;*);
+	[ул. Платонова, д. 20Б, помещение 17, комната 19]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2012;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,20 @@
+company_era_zashchity <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Эра защиты]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 222 60 51]
+	(* <- concept_phone_number;;*);
+	[info@era_zaschity.by]
+	(* <- concept_email;;*);
+	[193359132]
+	(* <- concept_ucn;;*);
+	[ул. Мельникайте, 2, помещение 1, комната 504]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

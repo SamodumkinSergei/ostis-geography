@@ -1,0 +1,24 @@
+company_djeneral_soft <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Дженерал Софт]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_510_61_31]
+	(* <- concept_phone_number;;*);
+	[info@generals_soft.com]
+	(* <- concept_email;;*);
+	[http://generals_soft.com]
+	(* <- concept_website;;*);
+	[391341286]
+	(* <- concept_ucn;;*);
+	[проезд Гоголя, д. 3]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	vitebsk;
+=>nrel_year_registration:
+	2012;
+=>nrel_scope:
+	it;;
+

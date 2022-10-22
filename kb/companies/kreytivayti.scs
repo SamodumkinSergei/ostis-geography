@@ -1,0 +1,24 @@
+company_kreytivayti <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[КреативАйТи]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29 3799327]
+	(* <- concept_phone_number;;*);
+	[hello@creativeit.io]
+	(* <- concept_email;;*);
+	[http://creativeit.io/]
+	(* <- concept_website;;*);
+	[192562000]
+	(* <- concept_ucn;;*);
+	[пер. Кольцова 4_й, д.51, каб.22/3]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2015;
+=>nrel_scope:
+	it;;
+

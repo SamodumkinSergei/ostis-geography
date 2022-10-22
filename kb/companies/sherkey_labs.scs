@@ -1,0 +1,24 @@
+company_sherkey_labs <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ШЕРКЕЙ Лабс]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 33 301 5555]
+	(* <- concept_phone_number;;*);
+	[labs@sharekey.com]
+	(* <- concept_email;;*);
+	[http://sharekey.com/]
+	(* <- concept_website;;*);
+	[192974553]
+	(* <- concept_ucn;;*);
+	[ул.Интернациональная, 25а_24]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2017;
+=>nrel_scope:
+	it;;
+

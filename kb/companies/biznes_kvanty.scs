@@ -1,0 +1,24 @@
+company_biznes_kvanty <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Бизнес Кванты]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 586_73_26]
+	(* <- concept_phone_number;;*);
+	[info@biquants.com]
+	(* <- concept_email;;*);
+	[www.biquants.com]
+	(* <- concept_website;;*);
+	[193082655]
+	(* <- concept_ucn;;*);
+	[Республика Беларусь, г. Минск, ул. Богдановича, 108, офис 175, 5 этаж]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,24 @@
+company_viakod_bel <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ВИАКОД БЕЛ]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 2022386]
+	(* <- concept_phone_number;;*);
+	[info@viacode.by]
+	(* <- concept_email;;*);
+	[http://www.viacode.com/]
+	(* <- concept_website;;*);
+	[192642296]
+	(* <- concept_ucn;;*);
+	[1_й Загородный переулок, 20 пом.7]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2016;
+=>nrel_scope:
+	it;;
+

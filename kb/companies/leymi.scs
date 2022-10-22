@@ -1,0 +1,22 @@
+company_leymi <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ЛЕЙМИ]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375333112776]
+	(* <- concept_phone_number;;*);
+	[dmitry@lej.me]
+	(* <- concept_email;;*);
+	[https://lej.me/]
+	(* <- concept_website;;*);
+	[590209037]
+	(* <- concept_ucn;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	gomel;
+=>nrel_year_registration:
+	2021;
+=>nrel_scope:
+	it;;
+

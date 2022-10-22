@@ -1,0 +1,22 @@
+company_sproayti <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[СпроАйТи]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 203 85 21]
+	(* <- concept_phone_number;;*);
+	[info@spro_it.net]
+	(* <- concept_email;;*);
+	[191440928]
+	(* <- concept_ucn;;*);
+	[ул. Ольшевского, 22, 13_й этаж, комн. 22.]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2011;
+=>nrel_scope:
+	it;;
+

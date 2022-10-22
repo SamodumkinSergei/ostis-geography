@@ -1,0 +1,24 @@
+company_stil_mankiz_kompani <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Стил Манкиз Компани]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_17 2124128]
+	(* <- concept_phone_number;;*);
+	[mail@steelmonkeys.by]
+	(* <- concept_email;;*);
+	[http://steelmonkeys.by/]
+	(* <- concept_website;;*);
+	[190656273]
+	(* <- concept_ucn;;*);
+	[ул. Корженевского, 18, офис 202]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2005;
+=>nrel_scope:
+	it;;
+

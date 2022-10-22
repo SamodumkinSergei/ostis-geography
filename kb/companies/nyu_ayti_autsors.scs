@@ -1,0 +1,24 @@
+company_nyu_ayti_autsors <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Нью Айти Аутсорс]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 278 00 45]
+	(* <- concept_phone_number;;*);
+	[a1@newsite.by]
+	(* <- concept_email;;*);
+	[http://www.newsite.by/]
+	(* <- concept_website;;*);
+	[191926853]
+	(* <- concept_ucn;;*);
+	[улица Одоевского, д.115А, пом. 291]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2013;
+=>nrel_scope:
+	it;;
+

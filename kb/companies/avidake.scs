@@ -1,0 +1,24 @@
+company_avidake <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Авидакэ]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 25 9475297]
+	(* <- concept_phone_number;;*);
+	[albert.jung@avidacare.ch]
+	(* <- concept_email;;*);
+	[http://avidacare.ch/]
+	(* <- concept_website;;*);
+	[193037951]
+	(* <- concept_ucn;;*);
+	[город Минск, улица Карла Либкнехта 66, помещение 81]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

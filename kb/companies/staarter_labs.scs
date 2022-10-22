@@ -1,0 +1,24 @@
+company_staarter_labs <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Стаартер Лабс]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375173779538]
+	(* <- concept_phone_number;;*);
+	[info@staarter.com]
+	(* <- concept_email;;*);
+	[http://staarter.com]
+	(* <- concept_website;;*);
+	[193330925]
+	(* <- concept_ucn;;*);
+	[ул. Интернациональная, 20А, офис 306]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2019;
+=>nrel_scope:
+	it;;
+

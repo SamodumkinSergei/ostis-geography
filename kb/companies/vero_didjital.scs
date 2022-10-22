@@ -1,0 +1,24 @@
+company_vero_didjital <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ВЕРО Диджитал]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_747_55_02]
+	(* <- concept_phone_number;;*);
+	[office@vero.digital.com]
+	(* <- concept_email;;*);
+	[http://vero.digital/]
+	(* <- concept_website;;*);
+	[193155496]
+	(* <- concept_ucn;;*);
+	[ул. Кульман, д. 9, офис 23]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

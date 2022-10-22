@@ -1,0 +1,22 @@
+company_ksappeksbel <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[КсаппексБел]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_629_44_91]
+	(* <- concept_phone_number;;*);
+	[it@xappexbel.by]
+	(* <- concept_email;;*);
+	[https://www.xappex.com/]
+	(* <- concept_website;;*);
+	[193303758]
+	(* <- concept_ucn;;*);
+	[ул. Чапаева, д. 3, каб. 310/1]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

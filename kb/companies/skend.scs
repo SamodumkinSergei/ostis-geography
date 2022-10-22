@@ -1,0 +1,24 @@
+company_skend <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[СКЭНД]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 256 07 76]
+	(* <- concept_phone_number;;*);
+	[contact@scand.com]
+	(* <- concept_email;;*);
+	[http://www.scand.com/]
+	(* <- concept_website;;*);
+	[190149789]
+	(* <- concept_ucn;;*);
+	[ул. Фабрициуса, д. 8б/1, офис 520]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	brest;
+=>nrel_year_registration:
+	2000;
+=>nrel_scope:
+	it;;
+

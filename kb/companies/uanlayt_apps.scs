@@ -1,0 +1,22 @@
+company_uanlayt_apps <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[УАНЛАЙТ АППС]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_156_51_56]
+	(* <- concept_phone_number;;*);
+	[info@onelightapps.io]
+	(* <- concept_email;;*);
+	[onelightapps.io]
+	(* <- concept_website;;*);
+	[193327902]
+	(* <- concept_ucn;;*);
+	[Пр. Победителей, д. 110, 5 этаж, офис 5_10]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

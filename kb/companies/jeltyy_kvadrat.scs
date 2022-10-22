@@ -1,0 +1,24 @@
+company_jeltyy_kvadrat <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Жёлтый Квадрат]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_825_94_92]
+	(* <- concept_phone_number;;*);
+	[hello@yellowsquare.dev]
+	(* <- concept_email;;*);
+	[https://yellowsquare.dev/]
+	(* <- concept_website;;*);
+	[591028454]
+	(* <- concept_ucn;;*);
+	[ул. Подольная, д. 37, оф. 302]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	grodno;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

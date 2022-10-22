@@ -1,0 +1,24 @@
+company_cifrovye_platformy <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Цифровые платформы]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 3653528]
+	(* <- concept_phone_number;;*);
+	[mb@dpi4.com]
+	(* <- concept_email;;*);
+	[http://dpi4.com/]
+	(* <- concept_website;;*);
+	[193120989]
+	(* <- concept_ucn;;*);
+	[ул. П. Глебки, 15А, кабинет 4]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

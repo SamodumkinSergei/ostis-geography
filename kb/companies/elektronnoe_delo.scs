@@ -1,0 +1,24 @@
+company_elektronnoe_delo <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Электронное ДЕЛО]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29 3966889]
+	(* <- concept_phone_number;;*);
+	[ced@e_office.by]
+	(* <- concept_email;;*);
+	[http://e_office.by/]
+	(* <- concept_website;;*);
+	[191366355]
+	(* <- concept_ucn;;*);
+	[ул. Могилёвская, 2/2 помещение 18]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2010;
+=>nrel_scope:
+	it;;
+

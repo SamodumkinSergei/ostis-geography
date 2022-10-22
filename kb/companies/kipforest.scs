@@ -1,0 +1,22 @@
+company_kipforest <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[КИПФОРЕСТ]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[info@keep_forest.com]
+	(* <- concept_email;;*);
+	[http://keep_forest.com/]
+	(* <- concept_website;;*);
+	[193297726]
+	(* <- concept_ucn;;*);
+	[пр. Дзержинского, д. 127, пом. 460_461]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2019;
+=>nrel_scope:
+	it;;
+

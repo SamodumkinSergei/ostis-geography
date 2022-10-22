@@ -1,0 +1,24 @@
+company_lemel_labs <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ЛемеЛ Лабс]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 296 840 836]
+	(* <- concept_phone_number;;*);
+	[Egor.Stepanichtchev@lemellabs.com]
+	(* <- concept_email;;*);
+	[http://lemellabs.com/]
+	(* <- concept_website;;*);
+	[193208435]
+	(* <- concept_ucn;;*);
+	[3я_ул.Щорса, 9, офис 508]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2019;
+=>nrel_scope:
+	it;;
+

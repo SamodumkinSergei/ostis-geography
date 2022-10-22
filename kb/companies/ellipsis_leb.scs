@@ -1,0 +1,22 @@
+company_ellipsis_leb <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Эллипсис Лэб]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[legal@ellipsis_lab.com]
+	(* <- concept_email;;*);
+	[https://ellipsis_lab.com/]
+	(* <- concept_website;;*);
+	[193488430]
+	(* <- concept_ucn;;*);
+	[Республика Беларусь, 220043, г. Минск, ул. Кальварийская, д. 33 ком. 4Г]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2020;
+=>nrel_scope:
+	it;;
+

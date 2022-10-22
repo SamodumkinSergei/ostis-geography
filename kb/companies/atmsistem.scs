@@ -1,0 +1,24 @@
+company_atmsistem <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Атмсистем]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 (17) 268_84_0]
+	(* <- concept_phone_number;;*);
+	[mail@atmsys.by]
+	(* <- concept_email;;*);
+	[http://www.atmsys.by/]
+	(* <- concept_website;;*);
+	[192152908]
+	(* <- concept_ucn;;*);
+	[ул. Стариновская, д. 31. пом. 16Н]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2013;
+=>nrel_scope:
+	it;;
+

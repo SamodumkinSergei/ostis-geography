@@ -1,0 +1,20 @@
+company_praym_tekhnolodzhis <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Прайм Технолоджис]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[info@primetechnologies.by]
+	(* <- concept_email;;*);
+	[193472377]
+	(* <- concept_ucn;;*);
+	[ул. Димитрова, д. 5, пом. 3]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2020;
+=>nrel_scope:
+	it;;
+

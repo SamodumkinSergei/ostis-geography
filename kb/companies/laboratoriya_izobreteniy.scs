@@ -1,0 +1,24 @@
+company_laboratoriya_izobreteniy <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Лаборатория изобретений]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375(17)247_0973]
+	(* <- concept_phone_number;;*);
+	[info@labinvent.com]
+	(* <- concept_email;;*);
+	[http://labinvent.com/]
+	(* <- concept_website;;*);
+	[192439310]
+	(* <- concept_ucn;;*);
+	[ул. Одоевского, дом 131, каб. 13, пом. 8]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2015;
+=>nrel_scope:
+	it;;
+

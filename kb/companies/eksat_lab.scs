@@ -1,0 +1,24 @@
+company_eksat_lab <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ЭКСАТ_ЛАБ]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375173968615]
+	(* <- concept_phone_number;;*);
+	[info@ecsat_lab.com]
+	(* <- concept_email;;*);
+	[http://ecsat_lab.com/]
+	(* <- concept_website;;*);
+	[193260846]
+	(* <- concept_ucn;;*);
+	[пр_т Партизанский, д.178, пом.201, каб.10]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2019;
+=>nrel_scope:
+	it;;
+
