@@ -1,0 +1,36 @@
+concept_Chashnik_District_Executive_Committee
+<-concept_admin_building;
+<-sc_node_not_relation;=>nrel_main_idtf:
+	[Чашникский районный исполнительный комитет]
+	(* <- lang_ru;;<-name;; *);
+	[Chashnik District Executive Committee]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Чашникский районный исполнительный комитет)]
+		(* <- lang_ru;; *);
+		[Def. (Chashnik District Executive Committee)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[административный центр города Чашники]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[the administrative center of the city of Chashnik]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+			concept_Chashnik_District_Executive_Committee;
+			concept_town;
+			chashniki
+		};;
+    *);;

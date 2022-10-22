@@ -1,0 +1,54 @@
+nrel_embassy
+<-sc_node_norole_relation;
+<-relation;
+<-norole_relation;
+<-binary_relation;
+<-oriented_relation;
+<-antireflexive_relation;
+<-antitransitive_relation;
+<-asymmetric_relation;
+=>nrel_main_idtf:
+	[ посольство* ]
+	(* <- lang_ru;; *);
+	[ embassy* ]
+	(* <- lang_en;; *);
+=>nrel_first_domain: country;
+=>nrel_second_domain: concept_embassy;
+=>nrel_definitional_domain:
+	...
+	(*
+	<= nrel_combination:
+		{
+		country;
+		concept_embassy
+		};;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (посольство*)]
+		(* <- lang_ru;; *);
+		[Def. (embassy*)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Некоторые странны имеют своиё представление в других страннах ввиде посольств.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Some countries have their own representative offices in other countries in the form of embassies.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			country;
+			embassy;
+			nrel_embassy
+		};;
+	*);;

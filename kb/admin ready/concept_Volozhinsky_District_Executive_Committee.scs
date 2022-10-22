@@ -1,0 +1,38 @@
+concept_Volozhinsky_District_Executive_Committee
+<-sc_node_not_relation;
+<-concept_admin_building;
+=>nrel_search_area:valozhyn_district;
+ <- concept_way;=>nrel_main_idtf:
+	[Воложинский районный исполнительный комитет]
+	(* <- lang_ru;;<-name;; *);
+	[Volozhinsky District Executive Committee]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Воложинский районный исполнительный комитет)]
+		(* <- lang_ru;; *);
+		[Def. (Volozhinsky District Executive Committee)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[административный центр города воложин]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[the administrative center of the city of Volozhin]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+			concept_Volozhinsky_District_Executive_Committee;
+			concept_town;
+			voloki
+		};;
+    *);;

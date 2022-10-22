@@ -1,0 +1,36 @@
+concept_Grodno_Regional_Executive_Committee
+<-sc_node_not_relation;
+<-concept_admin_building;
+=>nrel_search_area:hrodna; <- concept_way;=>nrel_main_idtf:
+	[Гродненский областной исполнительный комитет]
+	(* <- lang_ru;;<-name;; *);
+	[Grodno Regional Executive Committee]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Гродненский областной исполнительный комитет)]
+		(* <- lang_ru;; *);
+		[Def. (Grodno Regional Executive Committee)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[исполнителный центр Гродненской области]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[executive center of the region]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+		concept_Grodno_Regional_Executive_Committee;
+		concept_town	
+		};;
+    *);;

@@ -1,0 +1,40 @@
+concept_Delegation_of_the_European_Union_EU_minsk
+<-sc_node_not_relation;
+<-concept_admin_building;
+=>nrel_search_area:
+    minsk;
+ <- concept_way;
+=>nrel_main_idtf:
+	[Делегация Европейского Союза]
+	(* <- lang_ru;;<-name;; *);
+	[Delegation of the European Union (EU)]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Делегация Европейского Союза)]
+		(* <- lang_ru;; *);
+		[Def. (Delegation of the European Union (EU))]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[В мандат Представительства Европейского Союза в Беларуси входит: развитие и поддержание хороших и эффективных контактов с государственными, региональными и местными властями и администрациями, представителями бизнес-сообщества, посольствами стран ЕС, посольствами третьих стран, а также международными и региональными организациями / учреждениями; обеспечение тесного диалога с властями и другими заинтересованными сторонами (организациями гражданского общества, университетами, местными СМИ) по вопросам экономической, социальной, управленческой, правозащитной и другой политики; декларирование и разъяснение позиции Европейского Союза государственным органам и местным представителям государств-членов; расширение знаний о Европейском Союзе, его институтах и программах, которые начали действовать в Беларуси в рамках Европейского инструмента политики соседства; поддержка в подготовке и реализации программ технической поддержки, финансируемых ЕС.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[The mandate of the Delegation of the European Union to Belarus includes: developing and maintaining good and effective contacts with state, regional and local authorities and administrations, representatives of the business community, embassies of EU countries, embassies of third countries, as well as international and regional organizations / institutions; ensuring a close dialogue with the authorities and other stakeholders (civil society organizations, universities, local media) on economic, social, governance, human rights and other policies; declaring and explaining the position of the European Union to state authorities and local representatives of the Member States; expanding knowledge about the European Union, its institutions and programs that have begun to operate in Belarus under the European Neighborhood Policy Instrument; support in the preparation and implementation of technical assistance programs funded by the EU.]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+			concept_Delegation_of_the_European_Union_EU_minsk;
+			concept_town;
+			minsk
+		};;
+    *);;

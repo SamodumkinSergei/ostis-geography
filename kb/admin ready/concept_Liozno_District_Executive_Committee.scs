@@ -1,0 +1,39 @@
+concept_Liozno_District_Executive_Committee
+<-sc_node_not_relation;
+<-concept_admin_building;
+=>nrel_search_area:belarus;
+ <- concept_way;=>nrel_main_idtf:
+	[Лиозненский райисполком]
+	(* <- lang_ru;;<-name;; *);
+	[Liozno District Executive Committee]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Лиозненский райисполком)]
+		(* <- lang_ru;; *);
+		[Def. (Liozno District Executive Committee)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[административный центр города  Лиозно]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[the administrative center of the city of Liozno]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+		concept_Liozno_District_Executive_Committee;
+		concept_town;
+		liozna
+			
+		};;
+    *);;

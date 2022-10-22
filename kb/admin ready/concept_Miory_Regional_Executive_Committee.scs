@@ -1,0 +1,36 @@
+concept_Miory_Regional_Executive_Committee
+<-sc_node_not_relation;
+<-concept_admin_building;
+=>nrel_main_idtf:
+	[Миорский районный исполнительный комитет]
+	(* <- lang_ru;;<-name;; *);
+	[Miory Regional Executive Committee]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Миорский районный исполнительный комитет)]
+		(* <- lang_ru;; *);
+		[Def. (Miory Regional Executive Committee)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[административный центр города  Миоры]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[the administrative center of the city of Miory]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+			concept_Miory_Regional_Executive_Committee;
+			concept_town
+		};;
+    *);;

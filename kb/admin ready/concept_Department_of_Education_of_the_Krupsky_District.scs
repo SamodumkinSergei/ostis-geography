@@ -1,0 +1,36 @@
+concept_Department_of_Education_of_the_Krupsky_District
+<-sc_node_not_relation;
+<-concept_admin_building;
+=>nrel_search_area:krupki_district;
+ <- concept_way;=>nrel_main_idtf:
+	[Управление по образованию Крупского района]
+	(* <- lang_ru;;<-name;; *);
+	[Department of Education of the Krupsky District]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Управление по образованию Крупского района)]
+		(* <- lang_ru;; *);
+		[Def. (Department of Education of the Krupsky District)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[центр образования Крупского района]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[education center of Krupsky district]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+			concept_Department_of_Education_of_the_Krupsky_District
+		};;
+    *);;

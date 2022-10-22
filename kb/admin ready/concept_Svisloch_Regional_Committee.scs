@@ -1,0 +1,37 @@
+concept_Svisloch_Regional_Committee
+<-sc_node_not_relation;
+<-concept_admin_building;
+=>nrel_search_area:svislach_district;
+ <- concept_way;=>nrel_main_idtf:
+	[Свислочский Райиспоком]
+	(* <- lang_ru;;<-name;; *);
+	[Svisloch Regional Committee]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Свислочский Райиспоком)]
+		(* <- lang_ru;; *);
+		[Def. (Svisloch Regional Committee)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[административный центр города Свислочь]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[the administrative center of the city of Svisloch]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+			concept_Svisloch_Regional_Committee;
+			concept_town
+		};;
+    *);;

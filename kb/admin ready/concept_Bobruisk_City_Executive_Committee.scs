@@ -1,0 +1,39 @@
+concept_Bobruisk_City_Executive_Committee
+<-sc_node_not_relation;
+<-concept_admin_building;
+=>nrel_search_area:Babruysk_district;
+ <- concept_way;
+=>nrel_main_idtf:
+	[Бобруйский городской исполнительный комитет]
+	(* <- lang_ru;;<-name;; *);
+	[Bobruisk City Executive Committee]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Бобруйский городской исполнительный комитет)]
+		(* <- lang_ru;; *);
+		[Def. (Bobruisk City Executive Committee)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[административный центр города Бобруйск]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[the administrative center of the city of Bobruisk]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+		concept_Bobruisk_City_Executive_Committee;
+		concept_town
+			
+		};;
+    *);;

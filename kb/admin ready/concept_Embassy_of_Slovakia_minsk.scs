@@ -1,0 +1,42 @@
+concept_Embassy_of_Slovakia_minsk
+->concept_embassy;
+<-concept_admin_building;
+=>nrel_embassy:Slovakia;
+<-sc_node_not_relation;
+=>nrel_search_area:
+    minsk;
+ <- concept_way;
+=>nrel_main_idtf:
+	[Посольство Словацкой Республики]
+	(* <- lang_ru;;<-name;; *);
+	[Embassy of Slovakia]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Посольство Словацкой Республики)]
+		(* <- lang_ru;; *);
+		[Def. (Embassy of Slovakia)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Между странами крепкие дружественные отношения, взаимодействие и сотрудничество в торгово-экономической, культурной и научной сферах. Крепнут межрегиональные связи. Двухсторонний экспорт и импорт носят достаточно широкий характер, начиная с металлопродукции и бытовой техники, и заканчивая автомашинами, полимерами и пластмассами, пищевыми продуктами и запчастями. Активное сотрудничество происходит между институтами, характеризуясь обменом студентами, преподавателями и стажерами, совместными конференциями. Регулярно проходят культурные мероприятия, связанные с культурой дружественных народов в обеих странах.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[There are strong friendly relations between the countries, interaction and cooperation in trade, economic, cultural and scientific spheres. Interregional ties are strengthening. Bilateral exports and imports are quite wide, starting with metal products and household appliances, and ending with cars, polymers and plastics, food products and spare parts. Active cooperation takes place between the institutes, characterized by the exchange of students, teachers and trainees, joint conferences. Cultural events related to the culture of friendly peoples in both countries are regularly held.]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+			concept_Embassy_of_Slovakia_minsk;
+			concept_town;
+			minsk
+		};;
+    *);;

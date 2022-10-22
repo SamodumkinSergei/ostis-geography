@@ -1,0 +1,127 @@
+Brazil <- concept_country;
+=>nrel_main_idtf:
+    [Brazil]
+    (* <- lang_en;; <- name_en;;*);
+    [Бразилия]
+    (* <- lang_ru;; <- name_ru;;*);
+
+=>nrel_admin_level:
+    [2]
+    (*<-concept_admin_level;;*);;
+
+Ukraine <- concept_country;
+=>nrel_main_idtf:
+    [Ukraine]
+    (* <- lang_en;; <- name_en;;*);
+    [Украина]
+    (* <- lang_ru;; <- name_ru;;*);
+
+=>nrel_admin_level:
+    [2]
+    (*<-concept_admin_level;;*);;
+
+
+Slovakia <- concept_country;
+=>nrel_main_idtf:
+    [Slovakia]
+    (* <- lang_en;; <- name_en;;*);
+    [Словакия]
+    (* <- lang_ru;; <- name_ru;;*);
+
+=>nrel_admin_level:
+    [2]
+    (*<-concept_admin_level;;*);;
+
+
+Kyrgyzstan <- concept_country;
+=>nrel_main_idtf:
+    [Kyrgyzstan]
+    (* <- lang_en;; <- name_en;;*);
+    [Киргизия]
+    (* <- lang_ru;; <- name_ru;;*);
+
+=>nrel_admin_level:
+    [2]
+    (*<-concept_admin_level;;*);;
+
+
+Poland_Republic <- concept_country;
+=>nrel_main_idtf:
+    [Poland_Republic]
+    (* <- lang_en;; <- name_en;;*);
+    [Польская республика]
+    (* <- lang_ru;; <- name_ru;;*);
+
+=>nrel_admin_level:
+    [2]
+    (*<-concept_admin_level;;*);;
+
+
+United_States <- concept_country;
+=>nrel_main_idtf:
+    [United_States]
+    (* <- lang_en;; <- name_en;;*);
+    [Соеденённые штаты]
+    (* <- lang_ru;; <- name_ru;;*);
+
+=>nrel_admin_level:
+    [2]
+    (*<-concept_admin_level;;*);;
+
+
+Czech_Republic <- concept_country;
+=>nrel_main_idtf:
+    [Czech_Republic]
+    (* <- lang_en;; <- name_en;;*);
+    [Чешская республика]
+    (* <- lang_ru;; <- name_ru;;*);
+
+=>nrel_admin_level:
+    [2]
+    (*<-concept_admin_level;;*);;
+
+Republic_of_Korea <- concept_country;
+=>nrel_main_idtf:
+    [Republic_of_Korea]
+    (* <- lang_en;; <- name_en;;*);
+    [Республика Корея]
+    (* <- lang_ru;; <- name_ru;;*);
+
+=>nrel_admin_level:
+    [2]
+    (*<-concept_admin_level;;*);;
+
+the_United_Arab_Emirates <- concept_country;
+=>nrel_main_idtf:
+    [the_United_Arab_Emirates]
+    (* <- lang_en;; <- name_en;;*);
+    [Соединённые арабские имираты]
+    (* <- lang_ru;; <- name_ru;;*);
+
+=>nrel_admin_level:
+    [2]
+    (*<-concept_admin_level;;*);;
+
+Russia <- concept_country;
+=>nrel_main_idtf:
+    [Russia]
+    (* <- lang_en;; <- name_en;;*);
+    [Россия]
+    (* <- lang_ru;; <- name_ru;;*);
+
+=>nrel_admin_level:
+    [2]
+    (*<-concept_admin_level;;*);;
+
+
+concept_admin_building<-sc_node_not_relation;;
+concept_embassy<-sc_node_not_relation;;
+
+concept_admin_building
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[Административное здание]
+	(* <- lang_ru;;<-name;; *);
+	[Admin building]
+	(* <- lang_en;; *);;
+

@@ -1,0 +1,37 @@
+concept_Slutsk_Regional_Executive_Committee
+<-sc_node_not_relation;
+<-concept_admin_building;
+=>nrel_search_area:slutsk_district;
+ <- concept_way;=>nrel_main_idtf:
+	[Слуцкий Районный Исполнительный Комитет]
+	(* <- lang_ru;;<-name;; *);
+	[Slutsk Regional Executive Committee]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Слуцкий Районный Исполнительный Комитет)]
+		(* <- lang_ru;; *);
+		[Def. (Slutsk Regional Executive Committee)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[административный центр города Слуцк]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[the administrative center of the city of Slutsk]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+			concept_Slutsk_Regional_Executive_Committee;
+			concept_town
+		};;
+    *);;
