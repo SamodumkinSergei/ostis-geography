@@ -1,0 +1,11 @@
+apricot_street_minsk <- concept_way;
+                =>nrel_main_idtf:
+                [Apricot street]
+                (* <- lang_en;; <- name_en;;*);
+                [Абрикосовая улица]
+                (* <- lang_ru;; <- name_ru;; <- name;;*);
+                =>nrel_street_length:500;
+                =>nrel_number_of_house:75;
+                =>nrel_search_area:
+                minsk;;
+                

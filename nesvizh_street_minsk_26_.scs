@@ -1,0 +1,11 @@
+nesvizh_street_minsk <- concept_way;
+                =>nrel_main_idtf:
+                [Nesvizh street]
+                (* <- lang_en;; <- name_en;;*);
+                [Несвижская улица]
+                (* <- lang_ru;; <- name_ru;; <- name;;*);
+                =>nrel_street_length:800;
+                =>nrel_number_of_house:9;
+                =>nrel_search_area:
+                minsk;;
+                

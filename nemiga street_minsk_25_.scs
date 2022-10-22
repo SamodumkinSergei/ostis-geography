@@ -1,0 +1,11 @@
+nemiga_street_minsk <- concept_way;
+                =>nrel_main_idtf:
+                [Nemiga street]
+                (* <- lang_en;; <- name_en;;*);
+                [Немига улица]
+                (* <- lang_ru;; <- name_ru;; <- name;;*);
+                =>nrel_street_length:1700;
+                =>nrel_number_of_house:26;
+                =>nrel_search_area:
+                minsk;;
+                

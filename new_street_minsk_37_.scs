@@ -1,0 +1,11 @@
+new_street_minsk <- concept_way;
+                =>nrel_main_idtf:
+                [New street]
+                (* <- lang_en;; <- name_en;;*);
+                [Новая улица]
+                (* <- lang_ru;; <- name_ru;; <- name;;*);
+                =>nrel_street_length:2400;
+                =>nrel_number_of_house:6;
+                =>nrel_search_area:
+                minsk;;
+                
