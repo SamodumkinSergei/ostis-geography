@@ -1,0 +1,17 @@
+store_a1_denisovskaya_8
+
+<- sc_node_not_relation;
+
+<- concept_hardware_store;
+
+=> nrel_main_idtf:
+	[Магазин A1 по адресу Минск, ул. Денисовская, 8]
+	(* <- lang_ru;; *);
+	[Store A1 at Minsk, st. Denisovskaya, 8]
+	(* <- lang_en;; *);
+
+=> nrel_address:
+	[Минск, ул. Денисовская, 8]
+	(* <- concept_address;; *);
+
+=> nrel_company: company_a1;;

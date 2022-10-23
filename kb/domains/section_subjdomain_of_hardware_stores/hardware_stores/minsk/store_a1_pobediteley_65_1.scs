@@ -1,0 +1,17 @@
+store_a1_pobediteley_65_1
+
+<- sc_node_not_relation;
+
+<- concept_hardware_store;
+
+=> nrel_main_idtf:
+	[Магазин A1 по адресу Минск, пр-т Победителей, 65-1]
+	(* <- lang_ru;; *);
+	[Shop A1 at Minsk, Pobediteley Ave, 65-1]
+	(* <- lang_en;; *);
+
+=> nrel_address:
+	[Минск, пр-т Победителей, 65-1]
+	(* <- concept_address;; *);
+
+=> nrel_company: company_a1;;
