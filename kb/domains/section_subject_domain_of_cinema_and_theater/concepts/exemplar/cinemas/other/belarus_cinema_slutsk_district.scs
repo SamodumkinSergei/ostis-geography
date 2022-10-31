@@ -1,0 +1,15 @@
+belarus_cinema_slutsk_district  <- concept_cinema;
+=>nrel_main_idtf:
+    [Беларусь]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+belarus;
+=>nrel_district:
+slutsk_district;
+=>nrel_search_area: slutsk_district;
+=>nrel_capacity:
+[42]
+(*<-concept_seat;;*);
+=>nrel_status:
+opened_status;;
+

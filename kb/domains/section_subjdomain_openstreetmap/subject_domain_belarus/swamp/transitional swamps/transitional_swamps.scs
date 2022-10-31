@@ -1,0 +1,23 @@
+swamp_old_zhaden <- concept_swamp;
+<-concept_transitional_swamps;
+=>nrel_main_idtf:
+    [Водно-болотный заказник «Старый Жаден»]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    gomel_region;
+=>nrel_district:
+    Zhytkavichy_district;;
+
+swamp_yukhovichskoye <- concept_swamp;
+<-concept_transitional_swamps;
+=>nrel_main_idtf:
+    [болото Юховичское]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitebsk_region;
+=>nrel_district:
+    rasony_district;;

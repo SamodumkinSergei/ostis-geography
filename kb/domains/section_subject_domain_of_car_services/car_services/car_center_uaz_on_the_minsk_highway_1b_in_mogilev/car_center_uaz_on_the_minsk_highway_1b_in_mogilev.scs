@@ -1,0 +1,37 @@
+car_center_uaz_on_the_minsk_highway_1b_in_mogilev <- concept_car_service;
+    =>nrel_main_idtf:
+        [Car center "UAZ" on the Minsk highway, 1B in Mogilev]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «УАЗ» на Минском шоссе, 1Б в Могилёве]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [г. Могилев, Минское шоссе, 1Б];
+    
+    =>nrel_phone:
+    [375222746598];
+    
+    =>nrel_gps:
+    [53.9414573,30.2389925];
+    
+    =>nrel_site:
+    [https://tempauto.by/%20];
+    
+    =>nrel_working_hours:
+    [09:00-20:00];
+    
+    =>nrel_email:
+    [tempauto_mogilev@mail.ru];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «УАЗ» на Минском шоссе, 1Б в Могилёве)](*<-lang_ru;;*);
+		    [Pic. (Car center "UAZ" on the Minsk highway, 1B in Mogilev)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://car_center_uaz_on_the_minsk_highway_1b_in_mogilev_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

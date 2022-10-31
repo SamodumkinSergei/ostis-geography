@@ -1,0 +1,18 @@
+servech 
+<- concept_river;
+<- concept_way;
+=>nrel_main_idtf:
+    [Servech]
+    (* <- lang_en;; <- name_en;;*);
+    [Сервечь]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_length:
+    63(*=>nrel_main_idtf:
+    [63];;*);
+=>nrel_basin:
+    770(*=>nrel_main_idtf:
+    [770];;*);;

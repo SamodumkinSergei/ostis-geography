@@ -3,15 +3,24 @@ OSTIS-geography is an open-source knowledge base for geographical system for Ope
 
 ## Install
 
-Linux:
+Clone the project
 ```sh
 git clone https://github.com/ostis-apps/ostis-geography
+cd ostis-geography
+git submodule update --init --recursive
+```
+
+### Using Ubuntu 22.04 or 20.04
+Linux:
+```sh
 cd ostis-geography/scripts
 ./install_project.sh
 ```
 
 ## Build knowledge base
-Linux:
+If you are using the Docker version, just put your scs files in the "kb" folder and restart.
+
+For Linux:
 ```sh
 cd ostis-geography/scripts
 ./build_kb.sh
@@ -19,6 +28,12 @@ cd ostis-geography/scripts
 
 ## Run
 ### Option 1. Run sc-server & sc-web
+
+Run in Docker:
+```sh
+docker-compose up
+```
+
 Run on Linux:
 ```sh
 #Terminal 1
@@ -58,7 +73,7 @@ The place for the problem solver of your app. Put your agents here.
 #### Agents on C++
 Some tips:
 - Store your modules with C++ agents in *problem-solver/cxx*;
-- After updating your C++ code you need to rebuild problem-solver. Just run:  
+- After updating your C++ code you need to rebuild problem-solver. Just run:
 ```
 cd ostis-geography/scripts
 ./build_problem_solver.sh
@@ -70,16 +85,16 @@ cd ostis-geography/scripts
 ```
 
 - To enable debug:
-    * add *SET(CMAKE_BUILD_TYPE Debug)* line 
+  * add *SET(CMAKE_BUILD_TYPE Debug)* line
     to *ostis-geography/CMakeLists.txt* file;
-    * rebuild problem-solver.
+  * rebuild problem-solver.
 - You can see an example module with a C++ agent [here](problem-solver/cxx/exampleModule/README.md).
 
 #### Agents on Python
 Some tips:
 - Store your modules with Python agents in *problem-solver/py*;
 - After updating your Python code you don't need to rebuild problem-solver;
-- You can see example modules using Python [here](problem-solver/py). 
+- You can see example modules using Python [here](problem-solver/py).
 
 ### interface
 
@@ -88,7 +103,7 @@ The place for your interface modules.
 To learn more about creating web components for the new web interface version please follow this [link](https://github.com/MikhailSadovsky/sc-machine/tree/example/web/client)
 
 #### sc-web-extensions
-The place for your extensions using **IMS interface(sc-web)** standard. 
+The place for your extensions using **IMS interface(sc-web)** standard.
 
 *Your extensions are not applied to sc-web automatically for now, but you can do it by hand.*
 

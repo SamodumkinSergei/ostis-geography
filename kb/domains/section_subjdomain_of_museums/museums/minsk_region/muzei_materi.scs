@@ -1,0 +1,11 @@
+muzei_materi <- concept_museum;
+=> nrel_main_idtf:
+   [Muzei Materi]
+   (* <- lang_en;; <- name_en;;*);
+   [Музей Матери]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_site:
+   [http://soligorsk.city/museum/museum_mum/]
+   (*<-concept_site;;*);
+=> nrel_region:
+   minsk_region;;

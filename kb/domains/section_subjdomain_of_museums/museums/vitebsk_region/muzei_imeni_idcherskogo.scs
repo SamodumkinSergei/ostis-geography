@@ -1,0 +1,11 @@
+muzei_imeni_idcherskogo <- concept_museum;
+=> nrel_main_idtf:
+   [Muzei imeni I.D.Cherskogo]
+   (* <- lang_en;; <- name_en;;*);
+   [Музей имени И.Д.Черского]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375 2151 59309]
+   (* <- concept_phone_number;;*);
+=> nrel_region:
+   vitebsk_region;;

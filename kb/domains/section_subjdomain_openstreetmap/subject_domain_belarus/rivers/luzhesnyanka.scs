@@ -1,0 +1,18 @@
+luzhesnyanka 
+<- concept_river;
+<- concept_way;
+=>nrel_main_idtf:
+    [Luzhesnyanka]
+    (* <- lang_en;; <- name_en;;*);
+    [Лужеснянка]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitebsk_region;
+=>nrel_length:
+    32(*=>nrel_main_idtf:
+    [32];;*);
+=>nrel_basin:
+    700(*=>nrel_main_idtf:
+    [700];;*);;

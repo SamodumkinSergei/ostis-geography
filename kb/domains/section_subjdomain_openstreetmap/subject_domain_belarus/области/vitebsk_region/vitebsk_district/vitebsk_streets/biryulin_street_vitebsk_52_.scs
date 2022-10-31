@@ -1,0 +1,12 @@
+biryulin_street_vitebsk <- concept_way;
+                =>nrel_main_idtf:
+                [Biryulin street]
+                (* <- lang_en;; <- name_en;;*);
+                [улица Бирюлина]
+                (* <- lang_ru;; <- name_ru;; <- name;;*);
+                =>nrel_street_length:1500;
+                =>nrel_number_of_house:10;
+                =>oktyabrsky_city_district;
+                =>nrel_search_area:
+                vitebsk;;
+                

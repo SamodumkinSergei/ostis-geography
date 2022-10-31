@@ -1,0 +1,37 @@
+autocentre_hyundai_goles_on_lepeshinsky_street_38a_in_gomel <- concept_car_service;
+    =>nrel_main_idtf:
+        [Autocentre "Hyundai" Goles on Lepeshinsky street, 38A in Gomel]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Хёндэ» Голес на улице Лепешинского, 38А в Гомеле]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [г. Гомель, ул. Лепешинского, 38А];
+    
+    =>nrel_phone:
+    [375296551913];
+    
+    =>nrel_gps:
+    [52.477336373356,30.991390813579];
+    
+    =>nrel_site:
+    [https://hyundai-gomel.by/];
+    
+    =>nrel_working_hours:
+    [09:00-19:00];
+    
+    =>nrel_email:
+    [goles2000@tut.by];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Хёндэ» Голес на улице Лепешинского, 38А в Гомеле)](*<-lang_ru;;*);
+		    [Pic. (Autocentre "Hyundai" Goles on Lepeshinsky street, 38A in Gomel)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://autocentre_hyundai_goles_on_lepeshinsky_street_38a_in_gomel_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

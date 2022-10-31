@@ -1,0 +1,18 @@
+pronya 
+<- concept_river;
+<- concept_way;
+=>nrel_main_idtf:
+    [Pronya]
+    (* <- lang_en;; <- name_en;;*);
+    [Проня]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitebsk_region;
+=>nrel_length:
+    172(*=>nrel_main_idtf:
+    [172];;*);
+=>nrel_basin:
+    4910(*=>nrel_main_idtf:
+    [4910];;*);;

@@ -1,0 +1,18 @@
+chechera 
+<- concept_river;
+<- concept_way;
+=>nrel_main_idtf:
+    [Chechera]
+    (* <- lang_en;; <- name_en;;*);
+    [Чечёра]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    gomel_region;
+=>nrel_length:
+    56(*=>nrel_main_idtf:
+    [56];;*);
+=>nrel_basin:
+    551(*=>nrel_main_idtf:
+    [551];;*);;

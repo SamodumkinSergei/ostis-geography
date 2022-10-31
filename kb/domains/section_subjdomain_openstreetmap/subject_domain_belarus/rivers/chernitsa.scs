@@ -1,0 +1,18 @@
+chernitsa 
+<- concept_river;
+<- concept_way;
+=>nrel_main_idtf:
+    [Chernitsa]
+    (* <- lang_en;; <- name_en;;*);
+    [Черница]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitebsk_region;
+=>nrel_length:
+    74(*=>nrel_main_idtf:
+    [74];;*);
+=>nrel_basin:
+    775(*=>nrel_main_idtf:
+    [775];;*);;

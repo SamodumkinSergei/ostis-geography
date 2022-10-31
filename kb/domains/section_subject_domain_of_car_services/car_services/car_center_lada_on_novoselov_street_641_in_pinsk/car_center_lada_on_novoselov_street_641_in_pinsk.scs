@@ -1,0 +1,34 @@
+car_center_lada_on_novoselov_street_641_in_pinsk <- concept_car_service;
+    =>nrel_main_idtf:
+        [Car center "Lada" on Novoselov street, 64/1 in Pinsk]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Лада» на улице Новоселов, 64/1 в Пинске]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [Пинск, ул. Новоселов, 64/1];
+    
+    =>nrel_phone:
+    [80165623333];
+    
+    =>nrel_gps:
+    [52.13493311714,26.081421968821];
+    
+    =>nrel_site:
+    [https://pinsk.lada.by/];
+    
+    =>nrel_working_hours:
+    [09:00-19:00];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Лада» на улице Новоселов, 64/1 в Пинске)](*<-lang_ru;;*);
+		    [Pic. (Car center "Lada" on Novoselov street, 64/1 in Pinsk)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://car_center_lada_on_novoselov_street_641_in_pinsk_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

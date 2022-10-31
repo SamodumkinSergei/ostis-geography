@@ -1,0 +1,37 @@
+car_center_gaz_on_mogilevskaya_street_1b_in_gomel <- concept_car_service;
+    =>nrel_main_idtf:
+        [Car center "GAZ" on Mogilevskaya street, 1B in Gomel]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «ГАЗ» на улице Могилёвской, 1Б в Гомеле]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [г. Гомель, ул. Могилёвская, 1Б, пом. 2];
+    
+    =>nrel_phone:
+    [375232798202];
+    
+    =>nrel_gps:
+    [52.462848026904,30.939752367567];
+    
+    =>nrel_site:
+    [https://belgaz.by/];
+    
+    =>nrel_working_hours:
+    [08:30-17:00];
+    
+    =>nrel_email:
+    [gomelautogaz@belgaz.by];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «ГАЗ» на улице Могилёвской, 1Б в Гомеле)](*<-lang_ru;;*);
+		    [Pic. (Car center "GAZ" on Mogilevskaya street, 1B in Gomel)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://car_center_gaz_on_mogilevskaya_street_1b_in_gomel_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

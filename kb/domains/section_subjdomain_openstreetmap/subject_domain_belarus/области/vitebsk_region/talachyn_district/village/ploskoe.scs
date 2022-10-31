@@ -1,0 +1,23 @@
+ploskoe <- concept_village;
+=>nrel_main_idtf:
+    [Ploskoe]
+    (* <- lang_en;; <- name_en;;*);
+    [Плоское]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [10]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:   
+    vitebsk_region;
+=>nrel_district:
+    talachyn_district;
+=>nrel_selsoviet:
+    tolochinskiy_selsoviet;
+=>nrel_population:
+    87(*=>nrel_main_idtf:
+    [87];;*);
+=>nrel_distanceFromArea:
+    94(*=>nrel_main_idtf:
+    [94];;*);;

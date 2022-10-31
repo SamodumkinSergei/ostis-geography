@@ -1,0 +1,23 @@
+kanzerovo <- concept_village;
+=>nrel_main_idtf:
+    [Kanzerovo]
+    (* <- lang_en;; <- name_en;;*);
+    [Канцерово]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [10]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:   
+    vitebsk_region;
+=>nrel_district:
+    myory_district;
+=>nrel_selsoviet:
+    yaznenskiy_selsoviet;
+=>nrel_population:
+    140(*=>nrel_main_idtf:
+    [140];;*);
+=>nrel_distanceFromArea:
+    130(*=>nrel_main_idtf:
+    [130];;*);;

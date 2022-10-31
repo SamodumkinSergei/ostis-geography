@@ -1,0 +1,12 @@
+aviation_street_vitebsk <- concept_way;
+                =>nrel_main_idtf:
+                [Aviation street]
+                (* <- lang_en;; <- name_en;;*);
+                [улица Авиационный]
+                (* <- lang_ru;; <- name_ru;; <- name;;*);
+                =>nrel_street_length:3000;
+                =>nrel_number_of_house:10;
+                =>pervomausky_city_district;
+                =>nrel_search_area:
+                vitebsk;;
+                

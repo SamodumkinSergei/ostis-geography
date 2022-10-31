@@ -1,0 +1,37 @@
+car_center_haveil_on_the_vorontsovsky_ring_in_vitebsk <- concept_car_service;
+    =>nrel_main_idtf:
+        [Car center "Haveil" on the Vorontsovsky ring in Vitebsk]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Хавейл» на Воронцовском кольце в Витебске]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [г. Витебск Воронцовское кольцо];
+    
+    =>nrel_phone:
+    [375297081010];
+    
+    =>nrel_gps:
+    [55.158469994618,30.346804827208];
+    
+    =>nrel_site:
+    [https://vitautocity.by/];
+    
+    =>nrel_working_hours:
+    [09:00-20:00];
+    
+    =>nrel_email:
+    [autocity.vitebsk@gmail.com];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Хавейл» на Воронцовском кольце в Витебске)](*<-lang_ru;;*);
+		    [Pic. (Car center "Haveil" on the Vorontsovsky ring in Vitebsk)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://car_center_haveil_on_the_vorontsovsky_ring_in_vitebsk_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

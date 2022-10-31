@@ -1,0 +1,37 @@
+car_center_gili_on_chelyuskintsev_street_105v_in_mogilev <- concept_car_service;
+    =>nrel_main_idtf:
+        [Car center "Gili" on Chelyuskintsev street, 105v in Mogilev]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Джили» на улице Челюскинцев, 105в в Могилёве]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [г. Могилев, ул. Челюскинцев, 105в	 ];
+    
+    =>nrel_phone:
+    [375445802222];
+    
+    =>nrel_gps:
+    [53.8899114,30.292446103835];
+    
+    =>nrel_site:
+    [https://geelymogilev.by/];
+    
+    =>nrel_working_hours:
+    [09:00-18:00];
+    
+    =>nrel_email:
+    [geelyautobuy@mail.ru];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Джили» на улице Челюскинцев, 105в в Могилёве)](*<-lang_ru;;*);
+		    [Pic. (Car center "Gili" on Chelyuskintsev street, 105v in Mogilev)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://car_center_gili_on_chelyuskintsev_street_105v_in_mogilev_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

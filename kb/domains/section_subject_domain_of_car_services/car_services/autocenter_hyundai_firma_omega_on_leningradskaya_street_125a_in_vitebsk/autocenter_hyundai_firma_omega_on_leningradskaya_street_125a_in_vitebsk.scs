@@ -1,0 +1,37 @@
+autocenter_hyundai_firma_omega_on_leningradskaya_street_125a_in_vitebsk <- concept_car_service;
+    =>nrel_main_idtf:
+        [Autocenter "Hyundai" Firma Omega on Leningradskaya street, 125a in Vitebsk]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Хёндэ» Фирма Омега на улице Ленинградской, 125а в Витебске]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [г. Витебск, ул. Ленинградская, 125 а];
+    
+    =>nrel_phone:
+    [375291339393];
+    
+    =>nrel_gps:
+    [55.20524318171,30.162169814387];
+    
+    =>nrel_site:
+    [https://hyundai-vitebsk.by/];
+    
+    =>nrel_working_hours:
+    [09:00-19:00];
+    
+    =>nrel_email:
+    [v.papko@omega.by];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Хёндэ» Фирма Омега на улице Ленинградской, 125а в Витебске)](*<-lang_ru;;*);
+		    [Pic. (Autocenter "Hyundai" Firma Omega on Leningradskaya street, 125a in Vitebsk)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://autocenter_hyundai_firma_omega_on_leningradskaya_street_125a_in_vitebsk_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

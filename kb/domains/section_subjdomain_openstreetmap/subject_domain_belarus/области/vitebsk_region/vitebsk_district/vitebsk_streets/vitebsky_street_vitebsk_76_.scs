@@ -1,0 +1,12 @@
+vitebsky_street_vitebsk <- concept_way;
+                =>nrel_main_idtf:
+                [Vitebsky street]
+                (* <- lang_en;; <- name_en;;*);
+                [улица Витебский]
+                (* <- lang_ru;; <- name_ru;; <- name;;*);
+                =>nrel_street_length:800;
+                =>nrel_number_of_house:11;
+                =>pervomausky_city_district;
+                =>nrel_search_area:
+                vitebsk;;
+                

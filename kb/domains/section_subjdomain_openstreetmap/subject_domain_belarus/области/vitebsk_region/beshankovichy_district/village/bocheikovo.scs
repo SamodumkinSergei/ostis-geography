@@ -1,0 +1,23 @@
+bocheikovo <- concept_village;
+=>nrel_main_idtf:
+    [Bocheikovo]
+    (* <- lang_en;; <- name_en;;*);
+    [Бочейково]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [10]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:   
+    vitebsk_region;
+=>nrel_district:
+    beshankovichy_district;
+=>nrel_selsoviet:
+    bochekovsky_selsoviet;
+=>nrel_population:
+    731(*=>nrel_main_idtf:
+    [731];;*);
+=>nrel_distanceFromArea:
+    70(*=>nrel_main_idtf:
+    [70];;*);;

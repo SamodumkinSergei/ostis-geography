@@ -1,0 +1,12 @@
+gaidukov_street_vitebsk <- concept_way;
+                =>nrel_main_idtf:
+                [Gaidukov street]
+                (* <- lang_en;; <- name_en;;*);
+                [улица Гайдукова]
+                (* <- lang_ru;; <- name_ru;; <- name;;*);
+                =>nrel_street_length:700;
+                =>nrel_number_of_house:45;
+                =>oktyabrsky_city_district;
+                =>nrel_search_area:
+                vitebsk;;
+                

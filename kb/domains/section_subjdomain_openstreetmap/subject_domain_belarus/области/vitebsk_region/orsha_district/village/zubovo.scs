@@ -1,0 +1,23 @@
+zubovo <- concept_village;
+=>nrel_main_idtf:
+    [Zubovo]
+    (* <- lang_en;; <- name_en;;*);
+    [Зубово]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [10]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:   
+    vitebsk_region;
+=>nrel_district:
+    orsha_district;
+=>nrel_selsoviet:
+    zubovskiy_selsoviet;
+=>nrel_population:
+    880(*=>nrel_main_idtf:
+    [880];;*);
+=>nrel_distanceFromArea:
+    93(*=>nrel_main_idtf:
+    [93];;*);;

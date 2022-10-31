@@ -1,0 +1,18 @@
+ganutka 
+<- concept_river;
+<- concept_way;
+=>nrel_main_idtf:
+    [Ganutka]
+    (* <- lang_en;; <- name_en;;*);
+    [Ганутка]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    hrodna_region;
+=>nrel_length:
+    12(*=>nrel_main_idtf:
+    [12];;*);
+=>nrel_basin:
+    59(*=>nrel_main_idtf:
+    [59];;*);;

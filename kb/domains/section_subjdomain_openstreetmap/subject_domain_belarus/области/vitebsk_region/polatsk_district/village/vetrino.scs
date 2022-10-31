@@ -1,0 +1,23 @@
+vetrino <- concept_village;
+=>nrel_main_idtf:
+    [Vetrino]
+    (* <- lang_en;; <- name_en;;*);
+    [Ветрино]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [10]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:   
+    vitebsk_region;
+=>nrel_district:
+    polatsk_district;
+=>nrel_selsoviet:
+    vetrinskiy_selsoviet;
+=>nrel_population:
+    2220(*=>nrel_main_idtf:
+    [2220];;*);
+=>nrel_distanceFromArea:
+    113(*=>nrel_main_idtf:
+    [113];;*);;

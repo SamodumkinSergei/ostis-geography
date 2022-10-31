@@ -1,0 +1,12 @@
+gromova_street_vitebsk <- concept_way;
+                =>nrel_main_idtf:
+                [Gromova street]
+                (* <- lang_en;; <- name_en;;*);
+                [улица Громова]
+                (* <- lang_ru;; <- name_ru;; <- name;;*);
+                =>nrel_street_length:3400;
+                =>nrel_number_of_house:82;
+                =>zhelezny_city_district;
+                =>nrel_search_area:
+                vitebsk;;
+                

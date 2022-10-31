@@ -1,0 +1,27 @@
+institute_of_the_border_service_of_the_republic_of_belarus
+<- concept_institute;
+=>nrel_main_idtf:
+    [Institute of the Border Service of the Republic of Belarus]
+    (* <- lang_en;; <- name_en;;*);
+    [Институт Пограничной Службы Республики Беларусь]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_address:
+    [г. Минск, ул. Славинского, 4.]
+    (*<-concept_address;;*);
+=> nrel_average_passing_grade:
+    [8]
+    (*<-concept_average_passing_grade;;*);
+=> nrel_email:
+    [ips@gpk.gov.by]
+    (*<-concept_email;;*);
+=> nrel_phone_number:
+    [8 017 356-70-96]
+    (*<-concept_phone_number;;*);
+=> nrel_number_of_faculties:
+    [5]
+    (*<-concept_number_of_faculties;;*);
+=> nrel_number_of_students:
+    [3560]
+    (*<-concept_number_of_students;;*);
+=> nrel_region:
+    minsk_region;;

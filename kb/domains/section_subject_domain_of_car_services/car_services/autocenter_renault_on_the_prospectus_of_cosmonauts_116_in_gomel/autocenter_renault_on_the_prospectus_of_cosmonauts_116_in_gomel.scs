@@ -1,0 +1,34 @@
+autocenter_renault_on_the_prospectus_of_cosmonauts_116_in_gomel <- concept_car_service;
+    =>nrel_main_idtf:
+        [Autocenter "Renault" on the prospectus of Cosmonauts, 116 in Gomel]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Рено» на проспекте Космонавтов, 116 в Гомеле]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [Гомель, пр. Космонавтов, 116];
+    
+    =>nrel_phone:
+    [80232251125];
+    
+    =>nrel_gps:
+    [52.459093964928,30.953057349799];
+    
+    =>nrel_site:
+    [https://renault-gomel.by/];
+    
+    =>nrel_working_hours:
+    [09:00-20:00];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Рено» на проспекте Космонавтов, 116 в Гомеле)](*<-lang_ru;;*);
+		    [Pic. (Autocenter "Renault" on the prospectus of Cosmonauts, 116 in Gomel)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://autocenter_renault_on_the_prospectus_of_cosmonauts_116_in_gomel_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

@@ -1,0 +1,18 @@
+uzlyanka 
+<- concept_river;
+<- concept_way;
+=>nrel_main_idtf:
+    [Uzlyanka]
+    (* <- lang_en;; <- name_en;;*);
+    [Узлянка]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_length:
+    53(*=>nrel_main_idtf:
+    [53];;*);
+=>nrel_basin:
+    663(*=>nrel_main_idtf:
+    [663];;*);;
