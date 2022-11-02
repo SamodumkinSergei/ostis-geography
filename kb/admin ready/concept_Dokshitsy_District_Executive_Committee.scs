@@ -1,0 +1,38 @@
+concept_Dokshitsy_District_Executive_Committee
+<-sc_node_not_relation;
+<-concept_admin_building;
+=>nrel_main_idtf:
+	[Докшицкий районный исполнительный комитет]
+	(* <- lang_ru;;<-name;; *);
+	[Dokshitsy District Executive Committee]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Докшицкий районный исполнительный комитет)]
+		(* <- lang_ru;; *);
+		[Def. (Dokshitsy District Executive Committee)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[административный центр города  Докшицы]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[the administrative center of the city of Dokshit]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+		concept_Dokshitsy_District_Executive_Committee;
+		concept_town;
+		dokshytsy
+			
+		};;
+    *);;

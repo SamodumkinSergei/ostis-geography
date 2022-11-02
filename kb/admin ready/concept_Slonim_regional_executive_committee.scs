@@ -1,0 +1,37 @@
+concept_Slonim_regional_executive_committee
+<-sc_node_not_relation;
+<-concept_admin_building;
+=>nrel_search_area:slonim_district;
+ <- concept_way;=>nrel_main_idtf:
+	[Слонимский райисполком]
+	(* <- lang_ru;;<-name;; *);
+	[Slonim regional executive committee]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. ( Слонимский райисполком)]
+		(* <- lang_ru;; *);
+		[Def. (Slonim regional executive committee)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[административный центр города Слоним]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[the administrative center of the city of Slonim]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+			concept_Slonim_regional_executive_committee;
+			concept_town
+		};;
+    *);;

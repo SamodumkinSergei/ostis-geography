@@ -1,0 +1,41 @@
+concept_Consulate_of_the_Kingdom_of_Bahrain_minsk
+<-sc_node_not_relation;
+<-concept_admin_building;
+=>nrel_search_area:
+    minsk;
+ <- concept_way;
+=>nrel_main_idtf:
+	[Консульство Королевства Бахрейн]
+	(* <- lang_ru;;<-name;; *);
+	[Consulate of the Kingdom of Bahrain]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Консульство Королевства Бахрейн)]
+		(* <- lang_ru;; *);
+		[Def. (Consulate of the Kingdom of Bahrain)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Между Беларусью и Бахрейном заключены межправительственные соглашения о торговом и экономическом сотрудничестве, о содействии осуществлению и взаимной защите инвестиций, об избежании двойного налогообложения, о воздушном сообщении. Также подписаны протокол о сотрудничестве между Палатой представителей Национального собрания Республики Беларусь и Советом представителей Национальной ассамблеи Королевства Бахрейн, меморандум о сотрудничестве между министерствами иностранных дел, меморандум о взаимопонимании между министерствами финансов, соглашение о сотрудничестве между торгово-промышленными палатами.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Belarus and Bahrain have signed intergovernmental agreements on trade and economic cooperation, on the promotion and mutual protection of investments, on the avoidance of double taxation, and on air traffic. A protocol on cooperation between the House of Representatives of the National Assembly of the Republic of Belarus and the Council of Representatives of the National Assembly of the Kingdom of Bahrain, a memorandum of cooperation between the ministries of foreign affairs, a memorandum of understanding between the ministries of finance, an agreement on cooperation between the chambers of commerce and industry were also signed.]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+		concept_Consulate_of_the_Kingdom_of_Bahrain_minsk;
+		concept_town;
+		minsk
+			
+		};;
+    *);;

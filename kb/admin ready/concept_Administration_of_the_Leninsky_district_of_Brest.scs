@@ -1,0 +1,39 @@
+concept_Administration_of_the_Leninsky_district_of_Brest
+<-sc_node_not_relation;
+<-concept_admin_building;
+=>nrel_search_area:leninsky_city_district_brest;
+ <- concept_way;
+=>nrel_main_idtf:
+	[Администрация Ленинского района Бреста]
+	(* <- lang_ru;;<-name;; *);
+	[Administration of the Leninsky district of Brest]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Администрация Ленинского района Бреста)]
+		(* <- lang_ru;; *);
+		[Def. (Administration of the Leninsky district of Brest)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[административный центр Ленинского района города Бреста]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[the administrative center of the Leninsky district of the city of Brest]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+			concept_Administration_of_the_Leninsky_district_of_Brest;
+			concept_town;
+			brest
+		};;
+    *);;

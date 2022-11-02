@@ -1,0 +1,44 @@
+concept_Embassy_of_Brazil_minsk
+->concept_embassy;
+<-concept_admin_building;
+=>nrel_embassy:Brazil;
+
+<-sc_node_not_relation;
+=>nrel_search_area:
+    minsk;
+ <- concept_way;
+=>nrel_main_idtf:
+	[Посольство Бразилии]
+	(* <- lang_ru;;<-name;; *);
+	[Embassy of Brazil]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Посольство Бразилии)]
+		(* <- lang_ru;; *);
+		[Def. (Embassy of Brazil)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Деятельность Посольства охватывает такие сферы двустороннего сотрудничества с Бразилией, как политика, экономика, культура, консульские вопросы и другое. Ключевой целью Посольства является развитие белорусско-бразильских отношений при соблюдении принципов дружбы и взаимности, взаимной выгоды и поиска компромиссов.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[The activities of the Embassy cover such areas of bilateral cooperation with Brazil as politics, economy, culture, consular issues and more. The key goal of the Embassy is the development of Belarusian-Brazilian relations while respecting the principles of friendship and reciprocity, mutual benefit and compromise.]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+			concept_Embassy_of_Brazil_minsk;
+			concept_town;
+			minsk
+			
+		};;
+    *);;

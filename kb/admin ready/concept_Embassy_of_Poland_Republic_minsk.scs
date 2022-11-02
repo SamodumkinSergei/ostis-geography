@@ -1,0 +1,43 @@
+concept_Embassy_of_Poland_Republic_minsk
+->concept_embassy;
+<-concept_admin_building;
+=>nrel_embassy:Poland_Republic;
+<-sc_node_not_relation;
+=>nrel_search_area:
+    minsk;
+ <- concept_way;
+=>nrel_main_idtf:
+	[Посольство Республики Польша]
+	(* <- lang_ru;;<-name;; *);
+	[Embassy of Poland Republic]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Посольство Республики Польша)]
+		(* <- lang_ru;; *);
+		[Def. (Embassy of Poland Republic)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Польское посольство в Минске представляет собой аккредитованный орган, учрежденный для поддержания между нашими странами дипломатических отношений.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[The Polish Embassy in Minsk is an accredited body established to maintain diplomatic relations between our countries.]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+			concept_Embassy_of_Poland_Republic_minsk;
+			conept_town;
+			minsk
+			
+		};;
+    *);;

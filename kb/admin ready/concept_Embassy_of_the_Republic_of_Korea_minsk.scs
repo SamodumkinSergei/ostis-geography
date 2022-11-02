@@ -1,0 +1,43 @@
+concept_Embassy_of_the_Republic_of_Korea_minsk
+->concept_embassy;
+<-concept_admin_building;
+=>nrel_embassy:Republic_of_Korea;
+<-sc_node_not_relation;
+=>nrel_search_area:
+    minsk;
+ <- concept_way;
+=>nrel_main_idtf:
+	[Посольство Республики Корея]
+	(* <- lang_ru;;<-name;; *);
+	[Embassy of the Republic of Korea]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Посольство Республики Корея)]
+		(* <- lang_ru;; *);
+		[Def. (Embassy of the Republic of Korea)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Между Кореей и Беларусью существует взаимовыгодное сотрудничество в разнообразных областях и направлениях – культура, наука, экономика и т.д. Они создали крепкий и надежный союз на международной арене. На данный момент посольство способствует активному развитию сотрудничества в области наук, совершению обмена учеными и специалистами с учебными и исследовательскими целями.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[There is mutually beneficial cooperation between Korea and Belarus in various fields and directions - culture, science, economy, etc. They have created a strong and reliable alliance in the international arena. At the moment, the embassy promotes the active development of cooperation in the field of sciences, the exchange of scientists and specialists for educational and research purposes.]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+			minsk;
+			concept_Embassy_of_the_Republic_of_Korea_minsk;
+			concept_town
+			
+		};;
+    *);;

@@ -1,0 +1,43 @@
+concept_Embassy_of_Kyrgyzstan_minsk
+->concept_embassy;
+<-concept_admin_building;
+=>nrel_embassy:Kyrgyzstan;
+<-sc_node_not_relation;
+=>nrel_search_area:
+    minsk;
+ <- concept_way;
+=>nrel_main_idtf:
+	[Посольство Кыргызской Республики]
+	(* <- lang_ru;;<-name;; *);
+	[Embassy of Kyrgyzstan]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Посольство Кыргызской Республики)]
+		(* <- lang_ru;; *);
+		[Def. (Embassy of Kyrgyzstan)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Посольство Кыргызской Республики в Республике Беларусь — официальная дипломатическая миссия Киргизии в Беларуси. Базовые политические документы, определяющие принципы и направления двусторонних отношений — межгосударственный Договор о дружбе, сотрудничестве и взаимной помощи (1992 г.) и Декларация о вечной дружбе, союзничестве и партнерстве между Республикой Беларусь и Киргизской Республикой.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[The Embassy of the Kyrgyz Republic in the Republic of Belarus is the official diplomatic mission of Kyrgyzstan in Belarus. The basic political documents that define the principles and directions of bilateral relations are the interstate Treaty of Friendship, Cooperation and Mutual Assistance (1992) and the Declaration of Eternal Friendship, Alliance and Partnership between the Republic of Belarus and the Kyrgyz Republic.]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+		concept_Embassy_of_Kyrgyzstan_minsk;
+		concept_town;
+		minsk
+			
+		};;
+    *);;
