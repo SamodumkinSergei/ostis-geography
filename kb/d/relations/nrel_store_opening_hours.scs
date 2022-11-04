@@ -1,0 +1,11 @@
+nrel_store_opening_hours <- sc_node_norole_relation;
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+    [store opening hours*](*<- lang_en;;*);
+    [время работы магазина*](*<- lang_ru;;*);;

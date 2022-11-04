@@ -1,0 +1,34 @@
+concept_santa_shop
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Магазин Санта]
+	(* <- lang_ru;; *);
+	[santa_shop]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+		[Опр. (Магазин Санта)]
+		(* <- lang_ru;; *);
+		[Def. (santa_shop)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Магазин Санта - предприятие розничной торговли, принадлежащее подразделению «Санта Ритейл» для продаж товаров и оказания услуг.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Santa shop - is a retail enterprise that occupies a dedicated "Santa Retail" for the sale of goods and the provision of services.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_santa_shop
+		};;
+	*);;

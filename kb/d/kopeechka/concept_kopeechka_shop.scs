@@ -1,0 +1,34 @@
+concept_kopeechka_shop
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Магазин Копеечка]
+	(* <- lang_ru;; *);
+	[kopeechka_shop]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+		[Опр. (Магазин Копеечка)]
+		(* <- lang_ru;; *);
+		[Def. (kopeechka_shop)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Тут акции и скидки сегодня в магазинах Копеечка.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Here are promotions and discounts today in Kopeechka shops.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_kopeechka_shop
+		};;
+	*);;
