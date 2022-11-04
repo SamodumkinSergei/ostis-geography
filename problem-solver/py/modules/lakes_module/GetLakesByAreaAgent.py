@@ -5,14 +5,14 @@ from sc_client import client
 from sc_client.models import ScAddr, ScTemplate
 from sc_client.constants import sc_types
 
-from sc_kpm import ClassicScAgent, ScResult, ScKeynodes
+from sc_kpm import ScAgentClassic, ScResult, ScKeynodes
 
 from sc_kpm.utils.action_utils import get_action_arguments
 from sc_kpm.utils import create_edge
 from sc_kpm.utils.creation_utils import create_structure, wrap_in_set
 
 
-class GetLakesByAreaAgent(ClassicScAgent):
+class GetLakesByAreaAgent(ScAgentClassic):
     def __init__(self):
         super().__init__("action_get_lake_by_area")
         self._keynodes = ScKeynodes()
@@ -23,9 +23,7 @@ class GetLakesByAreaAgent(ClassicScAgent):
         try:
             self._logger.debug("GetLakesByAreaAgent get arguments")
 
-            area_nodes = get_action_arguments(action_node, 2)
-            first_area_node = area_nodes[0]
-            second_area_node = area_nodes[0]
+            first_area_node, second_area_node = get_action_arguments(action_node, 2)
 
             answer_node = create_structure(*area_nodes)
 
