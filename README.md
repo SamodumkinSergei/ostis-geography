@@ -5,7 +5,7 @@ OSTIS-geography is an open-source knowledge base for geographical system for Ope
 
 Clone the project
 ```sh
-git clone https://github.com/ostis-apps/ostis-geography
+git clone -c core.longpaths=true -c core.autocrlf=true https://github.com/ostis-apps/ostis-geography
 cd ostis-geography
 git submodule update --init --recursive
 ```
