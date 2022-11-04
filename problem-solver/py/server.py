@@ -3,6 +3,7 @@ import argparse
 from sc_kpm import ScServer
 
 from modules.lakes_module.LakesModule import LakesModule
+from modules.open_street_map_module.OpenStreetMapModule import OpenStreetMapModule
 
 import logging.config
 from pathlib import Path
@@ -51,7 +52,7 @@ def main(args: dict):
     server = ScServer(f"ws://{args[SC_SERVER_HOST]}:{args[SC_SERVER_PORT]}")
 
     with server.connect():
-        modules = [LakesModule()]
+        modules = [LakesModule(), OpenStreetMapModule()]
         server.add_modules(*modules)
 
         with server.register_modules():
