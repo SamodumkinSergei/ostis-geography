@@ -30,6 +30,9 @@ class OpenStreetMapAgent(ScAgentClassic):
         self._keynodes = ScKeynodes()
 
     def on_event(self, class_node: ScAddr, edge: ScAddr, action_node: ScAddr) -> ScResult:
+        if not self._confirm_action_class(action_node):
+            return ScResult.SKIP
+
         status = ScResult.OK
         self._logger.debug("GetLakesByAreaAgent starts")
 
