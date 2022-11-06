@@ -21,6 +21,9 @@ class GetLakesByAreaAgent(ScAgentClassic):
         self._keynodes = ScKeynodes()
 
     def on_event(self, class_node: ScAddr, edge: ScAddr, action_node: ScAddr) -> ScResult:
+        if not self._confirm_action_class(action_node):
+            return ScResult.SKIP
+
         status = ScResult.OK
         logger.debug("GetLakesByAreaAgent starts")
         try:
@@ -31,8 +34,8 @@ class GetLakesByAreaAgent(ScAgentClassic):
             answer_node = create_structure(first_area_node, second_area_node)
 
             lake_area = self.get_lakes_with_area()
-            first_area = float(self.get_main_idtf(first_area_node))
-            second_area = float(self.get_main_idtf(second_area_node))
+            first_area = float(client.get_link_content(first_area_node)[0].data)
+            second_area = float(client.get_link_content(second_area_node)[0].data)
 
             results = []
             for lake, area in lake_area.items():
