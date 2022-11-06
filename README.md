@@ -41,6 +41,9 @@ cd ostis-geography/scripts
 ./run_sc_server.sh
 #Terminal 2
 cd ostis-geography/scripts
+./run_py_sc_server
+#Terminal 3
+cd ostis-geography/scripts
 ./run_sc_web.sh
 ```
 
