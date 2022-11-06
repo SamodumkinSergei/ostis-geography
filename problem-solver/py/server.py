@@ -28,7 +28,7 @@ logging.config.dictConfig(
         handlers={
             "stream_handler": {
                 "class": "logging.StreamHandler",
-                "level": logging.INFO,
+                "level": logging.DEBUG,
                 "formatter": "common_formatter",
             },
             "file_handler": {
