@@ -106,7 +106,7 @@ class GetLakesByAreaAgent(ScAgentClassic):
                 search_result[0].get('_area'),
             )
 
-    def get_lakes_with_area(self) -> dict[ScAddr, float]:
+    def get_lakes_with_area(self):
         template = ScTemplate()
         template.triple(
             self._keynodes['concept_lake'],
