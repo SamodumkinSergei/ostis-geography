@@ -1,0 +1,11 @@
+tarkhanov_street_minsk <- concept_way;
+                =>nrel_main_idtf:
+                [Tarkhanov street]
+                (* <- lang_en;; <- name_en;;*);
+                [Тарханова улица]
+                (* <- lang_ru;; <- name_ru;; <- name;;*);
+                =>nrel_street_length:2100;
+                =>nrel_number_of_house:54;
+                =>nrel_search_area:
+                minsk;;
+                

@@ -1,0 +1,11 @@
+belinsky_street_minsk <- concept_way;
+                =>nrel_main_idtf:
+                [Belinsky street]
+                (* <- lang_en;; <- name_en;;*);
+                [Белинского улица]
+                (* <- lang_ru;; <- name_ru;; <- name;;*);
+                =>nrel_street_length:900;
+                =>nrel_number_of_house:62;
+                =>nrel_search_area:
+                minsk;;
+                

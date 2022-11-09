@@ -1,0 +1,11 @@
+obukhovskaya_street_minsk <- concept_way;
+                =>nrel_main_idtf:
+                [Obukhovskaya street]
+                (* <- lang_en;; <- name_en;;*);
+                [Обуховская улица]
+                (* <- lang_ru;; <- name_ru;; <- name;;*);
+                =>nrel_street_length:1400;
+                =>nrel_number_of_house:46;
+                =>nrel_search_area:
+                minsk;;
+                

@@ -1,0 +1,11 @@
+kirova_street_minsk <- concept_way;
+                =>nrel_main_idtf:
+                [Kirova street]
+                (* <- lang_en;; <- name_en;;*);
+                [Кирова улица]
+                (* <- lang_ru;; <- name_ru;; <- name;;*);
+                =>nrel_street_length:1000;
+                =>nrel_number_of_house:42;
+                =>nrel_search_area:
+                minsk;;
+                

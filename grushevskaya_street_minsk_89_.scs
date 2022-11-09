@@ -1,0 +1,11 @@
+grushevskaya_street_minsk <- concept_way;
+                =>nrel_main_idtf:
+                [Grushevskaya street]
+                (* <- lang_en;; <- name_en;;*);
+                [Грушевская улица]
+                (* <- lang_ru;; <- name_ru;; <- name;;*);
+                =>nrel_street_length:2200;
+                =>nrel_number_of_house:60;
+                =>nrel_search_area:
+                minsk;;
+                

@@ -1,0 +1,11 @@
+ogaryov_street_minsk <- concept_way;
+                =>nrel_main_idtf:
+                [Ogaryov street]
+                (* <- lang_en;; <- name_en;;*);
+                [Огарева улица]
+                (* <- lang_ru;; <- name_ru;; <- name;;*);
+                =>nrel_street_length:1400;
+                =>nrel_number_of_house:7;
+                =>nrel_search_area:
+                minsk;;
+                
