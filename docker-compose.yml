@@ -1,0 +1,55 @@
+services:
+  web:
+    image: ostis/sc-web:latest
+    build:
+      context: ./sc-web
+      dockerfile: ./Dockerfile
+    container_name: geo-sc-web
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    expose:
+      - 8000
+    networks:
+      - geo
+    command:
+      - "--server-host=problem-solver"
+    depends_on:
+      problem-solver:
+        condition: service_healthy
+
+  problem-solver:
+    image: geo-problem-solver
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    container_name: geo-problem-solver
+    restart: unless-stopped
+    volumes:
+      - ./kb:/ostis-geography/kb
+      - kb-binary:/kb.bin
+      - ./repo.path:/ostis-geography/repo.path
+      - ./ostis-geography.ini:/ostis-geography/ostis-geography.ini
+    networks:
+      - geo
+    ports:
+      - "8090:8090"
+    expose:
+      - 8090
+    healthcheck:
+      test: "python3 /ostis-geography/problem-solver/cxx/sc-machine/scripts/healthcheck.py"
+      interval: 5s
+      timeout: 10s
+      retries: 6
+      start_period: 120s
+    environment:
+      # Use the commented env variable if you need to rebuild KB every startup.
+      - "REBUILD_KB=1"
+      - "KB_PATH=../repo.path"
+    command:
+      - "serve"
+volumes:
+  kb-binary: {}
+
+networks:
+  geo: {}
