@@ -1,0 +1,29 @@
+ui_menu_get_kindergartens_by_amount_less <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+ui_menu_get_kindergartens_by_amount_less
+=> nrel_main_idtf: 
+	[Найти детский сад по количеству детей]
+	(* <- lang_ru;; *);
+=> nrel_idtf: 
+	[Запрос поиска детского сада по количеству детей]
+	(* <- lang_ru;; *);;
+
+ui_menu_get_kindergartens_by_amount_less
+=> nrel_main_idtf: 
+	[Get kindergartens_by_amount_less?]
+	(* <- lang_en;; *);
+=> nrel_idtf: 
+	[Request searches for kindergartens of the specified entity]
+	(* <- lang_en;; *);;
+
+ui_menu_get_kindergartens_by_amount_less => ui_nrel_command_template:
+	[*
+		action_get_kindergartens_by_amount_less _-> ._question_get_kindergartens_by_amount_less
+			(*
+				_-> rrel_1::ui_arg_1;;
+			*);;
+		._question_get_kindergartens_by_amount_less _<- question;;
+	*];;
+
+ui_menu_get_kindergartens_by_amount_less => ui_nrel_command_lang_template: [Найти детский сад по количеству для $ui_arg_1] (* <- lang_ru;; *);;
+ui_menu_get_kindergartens_by_amount_less => ui_nrel_command_lang_template: [Get kindergartens for $ui_arg_1] (* <- lang_en;; *);;
