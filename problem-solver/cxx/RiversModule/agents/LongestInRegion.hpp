@@ -20,4 +20,4 @@ class LongestInRegion : public ScAgent
   SC_GENERATED_BODY()
 };
 
-} // namespace exampleModule
+} // namespace RiversModule
