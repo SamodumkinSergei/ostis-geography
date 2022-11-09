@@ -13,7 +13,7 @@ git submodule update --init --recursive
 ### Using Ubuntu 22.04 or 20.04
 Linux:
 ```sh
-cd ostis-geography/scripts
+cd scripts
 ./install_project.sh
 ```
 
@@ -121,3 +121,22 @@ Install or update the OSTIS platform.
 
 #### install_subsystems.sh
 Building a problem solver and a knowledge base of subsystems.
+
+## Troubleshooting
+
+### Linux native installation
+
+#### ./install_project.sh: /bin/bash^M: bad interpreter
+When you run ./install_project.sh installation script, you may face the following error: bash: ./install_project.sh: /bin/bash^M: bad interpreter: No such file or directory. The error message suggests that the script you're invoking has embedded \r characters, which in turn suggests that it has Windows-style \r\n line endings instead of the \n-only line endings bash expects. To fix issue you should remove \r characater at the end of each line. It can be reached running the following commands:
+```
+sudo apt-get install -y dos2unix
+find . -type f -exec dos2unix {} \;
+```
+The commands listed below recursively updates all the line endings to \n-only.
+
+#### Media change: please insert the disc labeled
+It will be fixed by running
+```
+sudo sed -i '/cdrom/d' /etc/apt/sources.list
+```
+
