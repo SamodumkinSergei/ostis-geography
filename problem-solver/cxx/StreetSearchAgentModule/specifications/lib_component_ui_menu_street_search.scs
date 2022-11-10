@@ -1,0 +1,11 @@
+lib_component_ui_menu_street_search
+=> nrel_main_idtf:
+	[Компонент библиотеки. Агент поиска улицы по номеру дома]
+	(* <- lang_ru;; *);
+	[Library component. Search street by house number]
+	(* <- lang_en;; *);
+
+<- library_of_platform_independent_reusable_components;
+<- library_of_atomic_reusable_components;;
+
+
