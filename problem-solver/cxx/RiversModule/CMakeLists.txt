@@ -2,14 +2,15 @@ set(SOURCES
 		"RiversModule.cpp"
 		"keynodes/keynodes.cpp"
 		"agents/LongestInRegion.cpp"
+		"agents/BiggerBasin.cpp"
 		)
 
 set(HEADERS
 		"RiversModule.hpp"
 		"keynodes/keynodes.hpp"
 		"agents/LongestInRegion.hpp"
+		"agents/BiggerBasin.hpp"
 		)
-
 
 include_directories(
 		${CMAKE_CURRENT_LIST_DIR}
