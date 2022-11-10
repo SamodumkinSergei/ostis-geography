@@ -1,0 +1,29 @@
+ui_menu_get_milas_by_time <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+ui_menu_get_milas_by_time
+=> nrel_main_idtf: 
+	[Найти магазины Мила по времени открытия]
+	(* <- lang_ru;; *);
+=> nrel_idtf: 
+	[Запрос поиска магазинов Мила по времени открытия]
+	(* <- lang_ru;; *);;
+
+ui_menu_get_milas_by_time
+=> nrel_main_idtf: 
+	[Get Mila stores by open time]
+	(* <- lang_en;; *);
+=> nrel_idtf: 
+	[Request searches for Milas stores of the specified open time]
+	(* <- lang_en;; *);;
+
+ui_menu_get_milas_by_time => ui_nrel_command_template:
+	[*
+		action_get_milas_by_time _-> ._question_get_milas_by_time
+			(*
+				_-> rrel_1::ui_arg_1;;
+			*);;
+		._question_get_milas_by_time _<- question;;
+	*];;
+
+ui_menu_get_milas_by_time => ui_nrel_command_lang_template: [Найти магазины сети Мила с временем открытия $ui_arg_1] (* <- lang_ru;; *);;
+ui_menu_get_milas_by_time => ui_nrel_command_lang_template: [Get Milas stores with open time $ui_arg_1] (* <- lang_en;; *);;
