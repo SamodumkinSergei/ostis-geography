@@ -30,6 +30,8 @@ services:
       - kb-binary:/kb.bin
       - ./repo.path:/ostis-geography/repo.path
       - ./ostis-geography.ini:/ostis-geography/ostis-geography.ini
+      - ./problem-solver:/ostis-geography/problem-solver
+      - ./scripts:/ostis-geography/scripts
     networks:
       - geo
     ports:
@@ -41,10 +43,11 @@ services:
       interval: 5s
       timeout: 10s
       retries: 6
-      start_period: 120s
+      start_period: 1200000000s
     environment:
       # Use the commented env variable if you need to rebuild KB every startup.
       - "REBUILD_KB=1"
+      - "REBUILD_PS=1"
       - "KB_PATH=../repo.path"
     command:
       - "serve"

@@ -1,0 +1,52 @@
+nrel_street
+<-sc_node_norole_relation;
+<-relation;
+<-norole_relation;
+<-binary_relation;
+<-oriented_relation;
+<-antireflexive_relation;
+<-antitransitive_relation;
+<-asymmetric_relation;
+=>nrel_main_idtf:
+	[ улица* ]
+	(* <- lang_ru;; *);
+	[ street* ]
+	(* <- lang_en;; *);
+=>nrel_definitional_domain:
+	...
+	(*
+	<= nrel_combination:
+		{
+		concept_preschool_education_institution;
+		concept_street
+		};;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (улица*)]
+		(* <- lang_ru;; *);
+		[Def. (street*)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Улица* — неролевое ориентированное отношение, связывающее город и улицу.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Street* - a non-role-oriented relationship linking a city and a street.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			nrel_street;
+			concept_street;
+			concept_preschool_education_institution
+		};;
+	*);;
