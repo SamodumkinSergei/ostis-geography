@@ -27,7 +27,6 @@ public:
   SC_PROPERTY(Keynode("action_get_admin_building_region"), ForceCreate)
   static ScAddr action_get_admin_building_region;
 
-  
   SC_PROPERTY(Keynode("nrel_region"), ForceCreate)
   static ScAddr nrel_region;
 

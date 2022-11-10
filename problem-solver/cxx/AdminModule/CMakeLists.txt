@@ -2,12 +2,14 @@ set(SOURCES
 		"AdminModule.cpp"
 		"keynodes/AdminKeynodes.cpp"
 		"agent/GetAdminBuildingRegion.cpp"
+		"agent/GetAdminBuildingDistrict.cpp"
 		)
 
 set(HEADERS
 		"AdminModule.hpp"
 		"keynodes/AdminKeynodes.hpp"
 		"agent/GetAdminBuildingRegion.hpp"
+		"agent/GetAdminBuildingDistrict.hpp"
 		)
 
 include_directories(

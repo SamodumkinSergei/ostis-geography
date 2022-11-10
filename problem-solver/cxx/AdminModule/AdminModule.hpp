@@ -5,7 +5,11 @@
 
 //подключаем все файлы которые используются для работы модуля
 #include "keynodes/AdminKeynodes.hpp"
+<<<<<<< HEAD
 #include "agent/GetAdminBuildingRegion.hpp"
+=======
+#include "agent/GetAdminBuildingDistrict.hpp"
+>>>>>>> d5906af (feat(problem-solver): GetAdminBuildingDistrict)
 
 #include "AdminModule.generated.hpp" // заменяем тут назавние файла т.е. заменить AdminModule на свое название
 
