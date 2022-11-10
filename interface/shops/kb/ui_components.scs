@@ -1,0 +1,23 @@
+ui_shop_text_component <- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Введите название магазина]
+	(*
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf:
+	[Enter the shop]
+	(*
+	<- lang_en;;
+	*);;
+
+ui_shop_answer_button <- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Найти магазины]
+	(*
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf:
+	[Find shops]
+	(*
+	<- lang_en;;
+	*);;

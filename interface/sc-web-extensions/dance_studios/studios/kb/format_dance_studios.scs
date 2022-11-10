@@ -1,0 +1,17 @@
+format_dance_studios
+<- sc_node_not_relation;
+<- format;
+=> nrel_main_idtf:
+	[Format of dance studios UI component]
+	(*
+	<- lang_en;;
+	*);
+=> nrel_mimetype:
+	[application/html];;
+
+dance_studios_code <- ui_external_languages;
+=> nrel_main_idtf:
+	[Dance studios UI component]
+	(*
+	<- lang_en;;
+	*);;

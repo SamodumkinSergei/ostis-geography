@@ -1,0 +1,27 @@
+format_shop
+<- sc_node_not_relation;
+<- format;
+=> nrel_main_idtf:
+	[формат компонента ПИ поиска магазинов в городе] 
+	(*
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf:
+	[format of UI component search shop in the city]
+	(*
+	<- lang_en;;
+	*);
+=> nrel_mimetype:
+	[application/html];;
+
+shop_code <- ui_external_languages;
+=> nrel_main_idtf:
+	[Компонента интерфейса поиска магазинов в городе]
+	(*
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf:
+	[UI component of searching shops in the city]
+	(*
+	<- lang_en;;
+	*);;

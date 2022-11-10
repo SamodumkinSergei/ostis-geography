@@ -1,4 +1,4 @@
-sc_web_path=../../ostis-web-platform/sc-web/client
+sc_web_path=../../../ostis-web-platform/sc-web/client
 dance_studios_js_path=components/js/dance_studios/dance_studios.js
 dance_studios_css_path=components/css/dance_studios.css
 
