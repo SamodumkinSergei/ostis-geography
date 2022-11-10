@@ -9,14 +9,14 @@
 #include "sc-memory/kpm/sc_agent.hpp"
 
 #include "keynodes/keynodes.hpp"
-#include "TheBiggestBasin.generated.hpp"
+#include "TheBiggestBasinInRegion.generated.hpp"
 
 namespace RiversModule
 {
 
-class TheBiggestBasin : public ScAgent
+class TheBiggestBasinInRegion : public ScAgent
 {
-  SC_CLASS(Agent, Event(Keynodes::question_TheBiggestBasin, ScEvent::Type::AddOutputEdge))
+  SC_CLASS(Agent, Event(Keynodes::question_TheBiggestBasinInRegion, ScEvent::Type::AddOutputEdge))
   SC_GENERATED_BODY()
 };
 

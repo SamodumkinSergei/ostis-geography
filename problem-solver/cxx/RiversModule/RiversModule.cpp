@@ -11,14 +11,14 @@ sc_result RiversModule::InitializeImpl()
 
   ScMemoryContext ctx(sc_access_lvl_make_min, "RiversModule");
 
-  SC_AGENT_REGISTER(TheBiggestBasin)
+  SC_AGENT_REGISTER(TheBiggestBasinInRegion)
 
   return SC_RESULT_OK;
 }
 
 sc_result RiversModule::ShutdownImpl()
 {
-  SC_AGENT_UNREGISTER(TheBiggestBasin)
+  SC_AGENT_UNREGISTER(TheBiggestBasinInRegion)
 
   return SC_RESULT_OK;
 }

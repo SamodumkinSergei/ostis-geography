@@ -4,7 +4,7 @@
 #include "sc-memory/sc_module.hpp"
 
 #include "keynodes/keynodes.hpp"
-#include "agents/TheBiggestBasin.hpp"
+#include "agents/TheBiggestBasinInRegion.hpp"
 
 #include "RiversModule.generated.hpp"
 

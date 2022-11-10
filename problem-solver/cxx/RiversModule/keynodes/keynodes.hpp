@@ -26,8 +26,8 @@ public:
   SC_PROPERTY(Keynode("question_longerRiver"), ForceCreate)
   static ScAddr question_longerRiver;
 
-  SC_PROPERTY(Keynode("question_theBiggestBasin"), ForceCreate)
-  static ScAddr question_theBiggestBasin;
+  SC_PROPERTY(Keynode("question_theBiggestBasinInRegion"), ForceCreate)
+  static ScAddr question_theBiggestBasinInRegion;
 
   SC_PROPERTY(Keynode("question_longestInRegion"), ForceCreate)
   static ScAddr question_longestInRegion;

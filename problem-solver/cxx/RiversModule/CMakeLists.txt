@@ -1,13 +1,13 @@
 set(SOURCES
 		"RiversModule.cpp"
 		"keynodes/keynodes.cpp"
-		"agents/TheBiggestBasin.cpp"
+		"agents/TheBiggestBasinInRegion.cpp"
 		)
 
 set(HEADERS
 		"RiversModule.hpp"
 		"keynodes/keynodes.hpp"
-		"agents/TheBiggestBasin.hpp"
+		"agents/TheBiggestBasinInRegion.hpp"
 		)
 
 include_directories(
