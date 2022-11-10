@@ -1,0 +1,33 @@
+concept_admin_building
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[административное здание]
+	(* <- lang_ru;; *);
+	[administrative building]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (административное здание)]
+		(* <- lang_ru;; *);
+		[Def. (administrative building)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[административное здание - сооружения, объединенные общей архитектурной задачей создания среды для работы управленческого аппарата государственных, хозяйственных, общественных организаций и учреждений.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[administrative building - structures united by a common architectural task of creating an environment for the work of the administrative apparatus of state, economic, public organizations and institutions.
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_admin_building
+		};;
+	*);;
