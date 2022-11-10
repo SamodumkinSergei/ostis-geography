@@ -1,8 +1,23 @@
-set(SC_COMMON_MODULE_SRC "${CMAKE_CURRENT_LIST_DIR}/commonModule")
-set(CATCH_DIR "${SC_MACHINE_PATH}/generated/lib/Catch2")
+set(SOURCES
+        "SchoolSearchAgentModule.cpp"
+        "keynodes/keynodes.cpp"
+        "agents/SchoolSearchAgent.cpp"
+        )
 
-if (EXISTS ${CATCH_DIR})
-	include_directories(${CATCH_DIR})
-endif ()
+set(HEADERS
+        "SchoolSearchAgentModule.hpp"
+        "keynodes/keynodes.hpp"
+        "agents/SchoolSearchAgent.hpp"
+        )
 
-include_directories(${SC_MACHINE_PATH}/sc-memory/sc-test-framework)
+include_directories(
+		${CMAKE_CURRENT_LIST_DIR}
+		${SC_MEMORY_SRC}
+		${SC_KPM_SRC}
+		${SC_TOOLS_SRC}
+		${SC_COMMON_MODULE_SRC})
+
+add_library(SchoolSearchAgentModule SHARED ${SOURCES} ${HEADERS})
+target_link_libraries(SchoolSearchAgentModule sc-memory sc-agents-common)
+
+sc_codegen_ex(SchoolSearchAgentModule ${CMAKE_CURRENT_LIST_DIR} ${CMAKE_CURRENT_LIST_DIR}/generated) 
