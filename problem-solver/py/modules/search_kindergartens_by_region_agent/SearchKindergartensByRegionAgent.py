@@ -65,21 +65,16 @@ class SearchKindergartensByRegionAgent(ScAgentClassic):
             self._keynodes["nrel_region"]
         )
         _logger.debug("1st passed")
-        kindergarten_template.triple(
-            self._keynodes['concept_map_object'],
-            [sc_types.EDGE_ACCESS_VAR_POS_PERM, "_edge_to_map_object"],
-            "_kindergarten"
-        )
-        _logger.debug("2st passed")
+
         kindergarten_template.triple(
             self._keynodes['concept_preschool_education_institution'],
             [sc_types.EDGE_ACCESS_VAR_POS_PERM, "_edge_to_kindergarten"],
             "_kindergarten"
         )
-        _logger.debug("3st passed")
+        _logger.debug("2st passed")
         result = client.template_search(kindergarten_template)
 
-        wrap_in_set(answer_node, self._keynodes['concept_map_object'])
+        wrap_in_set(answer_node, self._keynodes['concept_preschool_education_institution'])
 
         for item in result:
             _logger.debug("SearchKindergartensByRegionAgent get answer: " +
