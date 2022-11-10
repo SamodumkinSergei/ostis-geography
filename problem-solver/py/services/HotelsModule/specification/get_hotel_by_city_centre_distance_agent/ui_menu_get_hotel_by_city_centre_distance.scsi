@@ -1,0 +1,29 @@
+ui_menu_get_hotel_by_city_centre_distance <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+ui_menu_get_hotel_by_city_centre_distance
+=> nrel_main_idtf: 
+	[Найти отели по расстоянию от центра города]
+	(* <- lang_ru;; *);
+=> nrel_idtf: 
+	[Запрос поиска отелей по расстоянию от центра города]
+	(* <- lang_ru;; *);;
+
+ui_menu_get_hotel_by_city_centre_distance
+=> nrel_main_idtf: 
+	[Find hotels by city centre distance]
+	(* <- lang_en;; *);
+=> nrel_idtf: 
+	[Search query to find hotels by city centre distance]
+	(* <- lang_en;; *);;
+
+ui_menu_get_hotel_by_city_centre_distance => ui_nrel_command_template:
+	[*
+		action_get_hotel_by_city_centre_distance _-> ._question_get_hotel_by_city_centre_distance
+			(*
+				_-> rrel_1::ui_arg_1;;
+			*);;
+		._question_get_hotel_by_city_centre_distance _<- question;;
+	*];;
+
+ui_menu_get_hotel_by_city_centre_distance => ui_nrel_command_lang_template: [Найти отели с расстоянием от центра города $ui_arg_1] (* <- lang_ru;; *);;
+ui_menu_get_hotel_by_city_centre_distance => ui_nrel_command_lang_template: [Find hotels with city centre distance of $ui_arg_1] (* <- lang_en;; *);;
