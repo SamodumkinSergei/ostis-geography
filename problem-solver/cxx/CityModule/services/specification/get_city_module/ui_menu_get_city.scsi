@@ -1,0 +1,33 @@
+ui_menu_get_city <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+
+
+
+
+ui_menu_get_city
+=> nrel_main_idtf: 
+	[Найти памятники в городе]
+	(* <- lang_ru;; *);
+=> nrel_idtf: 
+	[Запрос поиска памятников в городе для данной сущности]
+	(* <- lang_ru;; *);;
+
+ui_menu_get_city
+=> nrel_main_idtf: 
+	[Get definition?]
+	(* <- lang_en;; *);
+=> nrel_idtf: 
+	[Request searches for definition of the specified entity]
+	(* <- lang_en;; *);;
+
+ui_menu_get_city => ui_nrel_command_template:
+	[*
+		action_get_city _-> ._question_get_city
+			(*
+				_-> rrel_1::ui_arg_1;;
+			*);;
+		._question_get_city _<- question;;
+	*];;
+
+ui_menu_get_city => ui_nrel_command_lang_template: [Найти памятники в городе $ui_arg_1] (* <- lang_ru;; *);;
+ui_menu_get_city => ui_nrel_command_lang_template: [Get definition for $ui_arg_1] (* <- lang_en;; *);;
