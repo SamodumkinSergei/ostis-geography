@@ -3,7 +3,6 @@ from termcolor import colored
 from common import ScAgent, ScEventParams, ScKeynodes
 from sc import *
 
-
 class GetPharmaciesByRegionAgent(ScAgent):
     def __init__(self, module):
         super().__init__(module)
