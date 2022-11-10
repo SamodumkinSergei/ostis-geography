@@ -4,6 +4,7 @@
 #include "sc-memory/sc_module.hpp"
 
 #include "keynodes/keynodes.hpp"
+#include "agents/LongestRiver.hpp"
 #include "agents/LongestInRegion.hpp"
 #include "agents/BiggerBasin.hpp"
 

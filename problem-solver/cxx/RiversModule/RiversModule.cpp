@@ -11,6 +11,7 @@ sc_result RiversModule::InitializeImpl()
 
   ScMemoryContext ctx(sc_access_lvl_make_min, "RiversModule");
 
+  SC_AGENT_REGISTER(LongerRiver)
   SC_AGENT_REGISTER(LongestInRegion)
   SC_AGENT_REGISTER(BiggerBasin)
 
@@ -19,6 +20,7 @@ sc_result RiversModule::InitializeImpl()
 
 sc_result RiversModule::ShutdownImpl()
 {
+  SC_AGENT_UNREGISTER(LongerRiver)
   SC_AGENT_UNREGISTER(LongestInRegion)
   SC_AGENT_UNREGISTER(BiggerBasin)
 
