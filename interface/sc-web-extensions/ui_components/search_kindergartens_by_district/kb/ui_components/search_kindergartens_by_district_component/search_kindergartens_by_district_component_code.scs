@@ -1,4 +1,4 @@
-format_search_kindergartens_by_region_json
+format_search_kindergartens_by_district_json
 <- sc_node_not_relation;
 <- format;
 => nrel_main_idtf:
@@ -14,14 +14,14 @@ format_search_kindergartens_by_region_json
 => nrel_mimetype:
 	[application/json];;
 
-search_kindergartens_by_region_code <- ui_external_languages;
+search_kindergartens_by_district_code <- ui_external_languages;
 => nrel_main_idtf: 
-	[Поиск садов по региону]
+	[Поиск садов по району]
 	(* 
 	<- lang_ru;;
 	 *);
 => nrel_main_idtf: 
-	[Find kindergartens by region]
+	[Find kindergartens by district]
 	(* 
 	<- lang_en;;
 	*);;

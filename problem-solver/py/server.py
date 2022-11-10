@@ -4,7 +4,7 @@ from sc_kpm import ScServer
 
 from modules.lakes_module.LakesModule import LakesModule
 from modules.search_kindergartens_by_region_agent.SearchKindergartensByRegionModule import SearchKindergartensByRegionModule
-from modules.search_banks_by_city_agent.SearchBanksByCityModule import SearchBanksByCityModule
+from modules.search_kindergartens_by_district_agent.SearchKindergartensByDistrictModule import SearchKindergartensByDistrictModule
 
 import logging.config
 from pathlib import Path
@@ -53,7 +53,7 @@ def main(args: dict):
     server = ScServer(f"ws://{args[SC_SERVER_HOST]}:{args[SC_SERVER_PORT]}")
 
     with server.connect():
-        modules = [LakesModule(),SearchBanksByCityModule(),SearchKindergartensByRegionModule()]
+        modules = [LakesModule(),SearchKindergartensByDistrictModule(),SearchKindergartensByRegionModule()]
         server.add_modules(*modules)
 
         with server.register_modules():
