@@ -12,6 +12,6 @@ namespace StatusAndDistrictSearchModule
 	ScAddr Keynodes::nrel_main_idtf;
 	ScAddr Keynodes::nrel_district;
 	ScAddr Keynodes::nrel_search_area;
-	ScAddr Keynodes::nrel_region;
+	ScAddr Keynodes::nrel_city;
 	ScAddr Keynodes::nrel_status;
 }

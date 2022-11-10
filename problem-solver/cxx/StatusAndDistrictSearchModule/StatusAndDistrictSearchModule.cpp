@@ -8,7 +8,7 @@
 namespace StatusAndDistrictSearchModule {
     SC_IMPLEMENT_MODULE(StatusAndDistrictSearchModule)
 
-        sc_result StatusSearchModule::InitializeImpl()
+        sc_result StatusAndDistrictSearchModule::InitializeImpl()
         {
             if (!Keynodes::InitGlobal()) 
             {
@@ -22,7 +22,7 @@ namespace StatusAndDistrictSearchModule {
             return SC_RESULT_OK;
         }
 
-    sc_result RiversModule::ShutdownImpl()
+    sc_result StatusAndDistrictSearchModule::ShutdownImpl()
     {
         SC_AGENT_UNREGISTER(StatusAndDistrictSearch)
 

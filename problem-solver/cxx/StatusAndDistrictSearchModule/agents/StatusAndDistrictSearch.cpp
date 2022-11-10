@@ -33,9 +33,9 @@ namespace StatusAndDistrictSearchModule {
 			actionNode,
 			scAgentsCommon::CoreKeynodes::rrel_1);
 
-		if (!firstParameter.IsValid())
+		if (!shop.IsValid())
 		{
-			SC_LOG_ERROR("First parameter isn't valid.")
+			SC_LOG_ERROR("First parameter isn't valid.");
 				AgentUtils::finishAgentWork(&m_memoryCtx, actionNode, false);
 			return SC_RESULT_ERROR_INVALID_PARAMS;
 		}
@@ -55,9 +55,9 @@ namespace StatusAndDistrictSearchModule {
 				ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, answer, shopResult);
 			}
 			else {
-				SC_LOG_ERROR("There is no such embassy in Minsk")
+				SC_LOG_ERROR("There is no such shops");
 			}
-		}
+		};
 		AgentUtils::finishAgentWork(ms_context.get(), actionNode, answer);
 		SC_LOG_INFO("StatusAndDistrictSearch end");
 		return SC_RESULT_OK;
