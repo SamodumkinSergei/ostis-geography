@@ -21,7 +21,7 @@ namespace dance_studios {
   SC_AGENT_IMPLEMENTATION(SearchDanceStudiosByTypeAgent)
   {
 
-    SC_LOG_INFO("agent start")
+    SC_LOG_INFO("agent start");
 
 
     if (!edgeAddr.IsValid()) {

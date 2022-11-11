@@ -8,7 +8,7 @@
 
 namespace VillagesModule
 {
-    ScAddr Keynodes::question_longerRiver;
+    ScAddr Keynodes::question_vitebskVillage;
     ScAddr Keynodes::nrel_main_idtf;
     ScAddr Keynodes::nrel_length;
 }

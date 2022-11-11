@@ -4,19 +4,18 @@
 * (See accompanying file COPYING.MIT or copy at http://opensource.org/licenses/MIT)
 */
 
-#include <sc-memory/cpp/sc_stream.hpp>
-#include <sc-kpm/sc-agents-common/utils/IteratorUtils.hpp>
-#include <sc-kpm/sc-agents-common/utils/GenerationUtils.hpp>
-#include <sc-kpm/sc-agents-common/utils/AgentUtils.hpp>
+#include <sc-memory/sc_stream.hpp>
+#include <sc-agents-common/utils/IteratorUtils.hpp>
+#include <sc-agents-common/utils/GenerationUtils.hpp>
+#include <sc-agents-common/utils/AgentUtils.hpp>
 
 #include <iostream>
-#include "VilllageSearchAgent.hpp"
-#include "keynodes/keynodes.hpp"
+#include "VillageSearchAgent.hpp"
 
 using namespace std;
 using namespace utils;
 
-namespace VillageModule
+namespace VillagesModule
 {
 
 ScAddr getVillageNode(ScLog *logger, std::unique_ptr<ScMemoryContext> &ms_context, ScAddr set){
@@ -27,8 +26,8 @@ ScAddr getVillageNode(ScLog *logger, std::unique_ptr<ScMemoryContext> &ms_contex
     
     ScIterator5Ptr iter = ms_context->Iterator5(set, ScType::EdgeDCommonConst, ScType::Unknown, ScType::EdgeAccessConstPosPerm, first);
     while(iter->Next()){
-    	SC_LOG_ERROR("Found Vitebsk village")
-        logger->Message(ScLog::Type::Info, "Village: " + ms_context->HelperGetSystemIdtf(iter->Get(2)));  
+    	SC_LOG_ERROR("Found Vitebsk village");
+        logger->Message(ScLog::Type::Info, "Village: " + ms_context->HelperGetSystemIdtf(iter->Get(2)));
         ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, answer, iter->Get(2));                  
         return answer;
     }
@@ -38,9 +37,9 @@ ScAddr getVillageNode(ScLog *logger, std::unique_ptr<ScMemoryContext> &ms_contex
     return answer;
 }
 
-SC_AGENT_IMPLEMENTATION(VilllageSearchAgent)
+SC_AGENT_IMPLEMENTATION(VillageSearchAgent)
 {
-	SC_LOG_ERROR("VilllageSearchAgent started")
+	SC_LOG_ERROR("VillageSearchAgent started");
   ScLog *logger = ScLog::GetInstance();
 
 
@@ -53,7 +52,7 @@ SC_AGENT_IMPLEMENTATION(VilllageSearchAgent)
   ScAddr node  = IteratorUtils::getFirstFromSet(ms_context.get(), questionNode);
     if (!node.IsValid())
     {
-    	SC_LOG_ERROR("Arg not found")
+    	SC_LOG_ERROR("Arg not found");
     	return SC_RESULT_ERROR_INVALID_PARAMS; 
     }
      

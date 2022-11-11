@@ -16,7 +16,7 @@ namespace RiversModule
 
 class TheBiggestBasinInRegion : public ScAgent
 {
-  SC_CLASS(Agent, Event(Keynodes::question_TheBiggestBasinInRegion, ScEvent::Type::AddOutputEdge))
+  SC_CLASS(Agent, Event(Keynodes::question_theBiggestBasinInRegion, ScEvent::Type::AddOutputEdge))
   SC_GENERATED_BODY()
 };
 

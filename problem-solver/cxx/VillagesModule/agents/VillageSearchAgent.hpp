@@ -6,18 +6,18 @@
 
 #pragma once
 
-#include <sc-memory/cpp/kpm/sc_agent.hpp>
+#include <sc-memory/kpm/sc_agent.hpp>
 
 #include "keynodes/keynodes.hpp"
-#include "VilllageSearchAgent.generated.hpp"
+#include "VillageSearchAgent.generated.hpp"
 
-namespace exampleModule
+namespace VillagesModule
 {
 
-class VilllageSearchAgent : public ScAgent
+class VillageSearchAgent : public ScAgent
 {
-  SC_CLASS(Agent, Event(Keynodes::question_find_village, ScEvent::Type::AddOutputEdge))
+  SC_CLASS(Agent, Event(Keynodes::question_vitebskVillage, ScEvent::Type::AddOutputEdge))
   SC_GENERATED_BODY()
 };
 
-} // namespace exampleModule
+} // namespace VillagesModule

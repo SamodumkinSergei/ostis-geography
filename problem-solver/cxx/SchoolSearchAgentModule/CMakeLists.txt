@@ -21,3 +21,8 @@ add_library(SchoolSearchAgentModule SHARED ${SOURCES} ${HEADERS})
 target_link_libraries(SchoolSearchAgentModule sc-memory sc-agents-common)
 
 sc_codegen_ex(SchoolSearchAgentModule ${CMAKE_CURRENT_LIST_DIR} ${CMAKE_CURRENT_LIST_DIR}/generated) 
+
+if(${SC_CLANG_FORMAT_CODE})
+	target_clangformat_setup(SchoolSearchAgentModule)
+endif()
+

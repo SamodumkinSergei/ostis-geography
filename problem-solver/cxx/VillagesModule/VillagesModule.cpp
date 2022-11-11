@@ -1,10 +1,11 @@
 #include "VillagesModule.hpp"
+#include "agents/VillageSearchAgent.hpp"
 
 namespace VillagesModule
 {
   SC_IMPLEMENT_MODULE(VillagesModule)
 
-  sc_result RiversModule::InitializeImpl()
+  sc_result VillagesModule::InitializeImpl()
   {
     if (!Keynodes::InitGlobal())
     {
@@ -18,7 +19,7 @@ namespace VillagesModule
     return SC_RESULT_OK;
   }
 
-  sc_result RiversModule::ShutdownImpl()
+  sc_result VillagesModule::ShutdownImpl()
   {
     SC_AGENT_UNREGISTER(VillageSearchAgent)
 

@@ -6,7 +6,8 @@
 
 #pragma once
 
-#include "sc-memory/kpm/sc_agent.hpp"
+#include "sc-memory/sc_memory.hpp"
+#include "sc-memory/sc_module.hpp"
 
 #include "keynodes/keynodes.hpp"
 #include "VillagesModule.generated.hpp"
@@ -14,10 +15,14 @@
 namespace VillagesModule
 {
 
-  class VillagesModule : public ScAgent
+  class VillagesModule : public ScModule
   {
-    SC_CLASS(Agent, Event(Keynodes::question_vitebskVillage, ScEvent::Type::AddOutputEdge))
-    SC_GENERATED_BODY()
+      SC_CLASS(LoadOrder(100))
+      SC_GENERATED_BODY()
+
+      virtual sc_result InitializeImpl() override;
+
+      virtual sc_result ShutdownImpl() override;
   };
 
 }
