@@ -78,7 +78,6 @@ class SearchBanksByCityAgent(ScAgentClassic):
         )
         _logger.debug("3st passed")
         result = client.template_search(bank_template)
-
         wrap_in_set(answer_node, self._keynodes['concept_map_object'])
 
         for item in result:
@@ -86,6 +85,8 @@ class SearchBanksByCityAgent(ScAgentClassic):
                           get_system_idtf(item.get(0)))
 
             wrap_in_set(answer_node, item.get(1), item.get(0))
+
+        wrap_in_set(answer_node, self._keynodes['concept_map_object'])
 
     def set_unsuccessful_status(self, action_node: ScAddr) -> None:
         create_edge(

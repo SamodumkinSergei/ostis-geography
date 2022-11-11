@@ -1,0 +1,17 @@
+store_electrosila_krasnaya_22
+
+<- sc_node_not_relation;
+
+<- concept_hardware_store;
+
+=> nrel_main_idtf:
+	[Магазин Электросила по адресу Минск, ул. Красная, 22]
+	(* <- lang_ru;; *);
+	[Elektrosila store at Minsk, st. Krasnaya, 22]
+	(* <- lang_en;; *);
+
+=> nrel_address:
+	[Минск, ул. Красная, 22]
+	(* <- concept_address;; *);
+
+=> nrel_company: company_electrosila;;

@@ -33,24 +33,28 @@ function rebuild_kb() {
 }
 
 function rebuild_problem_solver() {
-    "$SCRIPTS_PATH"/build_problem_solver.sh -f
+    if [ "$FULL_REBUILD_PS" -eq 1 ]; then
+        "$SCRIPTS_PATH"/build_problem_solver.sh -f
+    else
+        "$SCRIPTS_PATH"/build_problem_solver.sh
+    fi
 }
 
 function start_server() {
-if [ "$REBUILD_PS" -eq 1 ]; then
-    rebuild_problem_solver 
-fi
+    if [ "$REBUILD_PS" -eq 1 ]; then
+        rebuild_problem_solver 
+    fi
 
-if [ "$REBUILD_KB" -eq 1 ]; then
-    rebuild_kb "${KB_PATH:-"/kb"}"
-fi
+    if [ "$REBUILD_KB" -eq 1 ]; then
+        rebuild_kb "${KB_PATH:-"/kb"}"
+    fi
 
-if [ -e "$1" ]; then
-    /ostis-geography/scripts/run_sc_server.sh "$@"
-else
-    echo "Using default arguments."
-    /ostis-geography/scripts/run_sc_server.sh -h 0.0.0.0
-fi
+    if [ -e "$1" ]; then
+        /ostis-geography/scripts/run_sc_server.sh "$@"
+    else
+        echo "Using default arguments."
+        /ostis-geography/scripts/run_sc_server.sh -h 0.0.0.0
+    fi
 }
 
 

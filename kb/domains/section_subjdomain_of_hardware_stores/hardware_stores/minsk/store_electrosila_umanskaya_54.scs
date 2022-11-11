@@ -1,0 +1,17 @@
+store_electrosila_umanskaya_54
+
+<- sc_node_not_relation;
+
+<- concept_hardware_store;
+
+=> nrel_main_idtf:
+	[Магазин Электросила по адресу Минск, ул. Уманская, 54]
+	(* <- lang_ru;; *);
+	[Elektrosila store at Minsk, st. Umanskaya, 54]
+	(* <- lang_en;; *);
+
+=> nrel_address:
+	[Минск, ул. Уманская, 54]
+	(* <- concept_address;; *);
+
+=> nrel_company: company_electrosila;;

@@ -1,0 +1,17 @@
+store_electrosila_pritytsky_101
+
+<- sc_node_not_relation;
+
+<- concept_hardware_store;
+
+=> nrel_main_idtf:
+	[Магазин Электросила по адресу Минск, ул. Притыцкого, 101]
+	(* <- lang_ru;; *);
+	[Elektrosila store at Minsk, st. Pritytsky, 101]
+	(* <- lang_en;; *);
+
+=> nrel_address:
+	[Минск, ул. Притыцкого, 101]
+	(* <- concept_address;; *);
+
+=> nrel_company: company_electrosila;;
