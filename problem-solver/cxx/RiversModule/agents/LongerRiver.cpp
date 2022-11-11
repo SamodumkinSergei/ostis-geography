@@ -10,10 +10,8 @@
 #include "sc-agents-common/keynodes/coreKeynodes.hpp"
 #include <string>
 #include <iostream>
-#include <vector>
 
 #include "LongerRiver.hpp"
-#include "keynodes/keynodes.hpp"
 
 using namespace std;
 using namespace utils;

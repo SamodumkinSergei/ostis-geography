@@ -8,9 +8,9 @@
 
 namespace RiversModule
 {
+ScAddr Keynodes::question_longerRiver;
 ScAddr Keynodes::question_longestInRegion;
 ScAddr Keynodes::question_biggerBasin;
-ScAddr Keynodes::question_longerRiver;
 ScAddr Keynodes::nrel_main_idtf;
 ScAddr Keynodes::nrel_length;
 ScAddr Keynodes::nrel_basin;
