@@ -9,15 +9,18 @@
 
 #include "templates/HotelTemplates.hpp"
 
-namespace hotelModule {
-    class HotelSearcher {
-    private:
-        ScMemoryContext * context;
+namespace hotelModule
+{
+class HotelSearcher
+{
+private:
+  ScMemoryContext * context;
 
-        std::unique_ptr<HotelTemplates> hotelTemplates;
-    public:
-        explicit HotelSearcher(ScMemoryContext *ms_context);
+  std::unique_ptr<HotelTemplates> hotelTemplates;
 
-        ScAddr searchHotelByMinPricePerNight(ScAddr const & minPricePerNightAddr);
-    };
-}
+public:
+  explicit HotelSearcher(ScMemoryContext * ms_context);
+
+  ScAddr searchHotelByMinPricePerNight(ScAddr const & minPricePerNightAddr);
+};
+}  // namespace hotelModule

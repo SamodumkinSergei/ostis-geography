@@ -6,21 +6,22 @@
 
 #include "HotelTemplates.hpp"
 
-namespace hotelModule {
-    std::string const HotelTemplates::HOTEL_ALIAS = "_hotel";
+namespace hotelModule
+{
+std::string const HotelTemplates::HOTEL_ALIAS = "_hotel";
 
-    HotelTemplates::HotelTemplates() = default;
+HotelTemplates::HotelTemplates() = default;
 
-    std::unique_ptr<ScTemplate> HotelTemplates::getHotelByMinPricePerNightTemplate(ScAddr const & minPricePerNightAddr) {
-        std::unique_ptr<ScTemplate> hotelByMinPricePerNightTemplate = std::make_unique<ScTemplate>();
+std::unique_ptr<ScTemplate> HotelTemplates::getHotelByMinPricePerNightTemplate(ScAddr const & minPricePerNightAddr)
+{
+  std::unique_ptr<ScTemplate> hotelByMinPricePerNightTemplate = std::make_unique<ScTemplate>();
 
-        hotelByMinPricePerNightTemplate->TripleWithRelation(
-                ScType::NodeVar >> HOTEL_ALIAS,
-                ScType::EdgeDCommonVar,
-                minPricePerNightAddr,
-                ScType::EdgeAccessVarPosPerm,
-                HotelKeynodes::nrel_min_price_per_night
-        );
-        return hotelByMinPricePerNightTemplate;
-    }
+  hotelByMinPricePerNightTemplate->TripleWithRelation(
+      ScType::NodeVar >> HOTEL_ALIAS,
+      ScType::EdgeDCommonVar,
+      minPricePerNightAddr,
+      ScType::EdgeAccessVarPosPerm,
+      HotelKeynodes::nrel_min_price_per_night);
+  return hotelByMinPricePerNightTemplate;
 }
+}  // namespace hotelModule

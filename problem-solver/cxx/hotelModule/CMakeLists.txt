@@ -34,3 +34,8 @@ sc_codegen_ex(hotelModule ${CMAKE_CURRENT_LIST_DIR} ${CMAKE_CURRENT_LIST_DIR}/ge
 if (${SC_BUILD_TESTS})
     include(${CMAKE_CURRENT_LIST_DIR}/test/tests.cmake)
 endif ()
+
+if(${SC_CLANG_FORMAT_CODE})
+    target_clangformat_setup(hotelModule)
+endif()
+

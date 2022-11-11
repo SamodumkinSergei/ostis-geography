@@ -12,17 +12,19 @@ using namespace hotelModule;
 
 SC_IMPLEMENT_MODULE(HotelModule)
 
-sc_result HotelModule::InitializeImpl() {
-    if (hotelModule::HotelKeynodes::InitGlobal() == SC_FALSE)
-        return SC_RESULT_ERROR;
+sc_result HotelModule::InitializeImpl()
+{
+  if (hotelModule::HotelKeynodes::InitGlobal() == SC_FALSE)
+    return SC_RESULT_ERROR;
 
-    SC_AGENT_REGISTER(GetHotelByMinPricePerNightAgent)
+  SC_AGENT_REGISTER(GetHotelByMinPricePerNightAgent)
 
-    return SC_RESULT_OK;
+  return SC_RESULT_OK;
 }
 
-sc_result HotelModule::ShutdownImpl() {
-    SC_AGENT_UNREGISTER(GetHotelByMinPricePerNightAgent)
+sc_result HotelModule::ShutdownImpl()
+{
+  SC_AGENT_UNREGISTER(GetHotelByMinPricePerNightAgent)
 
-    return SC_RESULT_OK;
+  return SC_RESULT_OK;
 }
