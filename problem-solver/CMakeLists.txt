@@ -5,4 +5,3 @@ if (EXISTS ${CATCH_DIR})
 endif ()
 
 include_directories(${SC_MACHINE_PATH}/sc-memory/sc-test-framework)
-add_subdirectory(VillagesModule)
