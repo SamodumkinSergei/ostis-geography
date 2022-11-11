@@ -1,0 +1,20 @@
+company_kerneliks <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Кернеликс]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_44_592_42_55]
+	(* <- concept_phone_number;;*);
+	[https://kernelics.by/]
+	(* <- concept_website;;*);
+	[193403475]
+	(* <- concept_ucn;;*);
+	[ул. Мележа, д. 1, пом. 330, офис 505, помещение 1 и 2]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

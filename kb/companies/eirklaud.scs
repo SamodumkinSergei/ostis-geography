@@ -1,0 +1,18 @@
+company_eirklaud <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ЭИРКЛАУД]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[https://aircloud.org/ru/]
+	(* <- concept_website;;*);
+	[193328207]
+	(* <- concept_ucn;;*);
+	[ул. Зыбицкая, д. 2, офис 304]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

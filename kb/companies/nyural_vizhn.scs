@@ -1,0 +1,24 @@
+company_nyural_vizhn <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Нюрал Вижн ]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 670 80 66]
+	(* <- concept_phone_number;;*);
+	[info@neuralvision.co]
+	(* <- concept_email;;*);
+	[www.neuralvision.co]
+	(* <- concept_website;;*);
+	[193486984]
+	(* <- concept_ucn;;*);
+	[220007, г. Минск, ул. Фабрициуса, д.8Б, 1 этаж, каб.21]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2020;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,24 @@
+company_sumatosoft <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[СуматоСофт]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 625 51 78]
+	(* <- concept_phone_number;;*);
+	[y.shamrey@sumatosoft.com]
+	(* <- concept_email;;*);
+	[https://sumatosoft.com]
+	(* <- concept_website;;*);
+	[190619234]
+	(* <- concept_ucn;;*);
+	[ул. Академика Купревича 1/5, офис 301]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2005;
+=>nrel_scope:
+	it;;
+

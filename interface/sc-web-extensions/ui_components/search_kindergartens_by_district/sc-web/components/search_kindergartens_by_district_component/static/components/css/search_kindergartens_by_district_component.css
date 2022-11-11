@@ -1,0 +1,39 @@
+.inputBox {
+    vertical-align: middle;
+    display: block;
+    border: 1px solid rgb(229, 229, 229);
+    border-radius: 20px;
+    padding: 15px;
+    margin: 100px auto;
+    top: 176px;
+    width: 350px;
+    text-align: center;
+}
+.label {
+    vertical-align: middle;
+    display: block;
+    border: 1px solid rgb(229, 229, 229);
+    border-radius: 20px;
+    padding: 15px;
+    margin: 100px auto;
+    top: 176px;
+    width: 200px;
+    text-align: center;
+}
+
+.input-name-field {
+    width: 150px;
+}
+
+.input-district-field {
+    width: 150px;
+}
+
+.input-description-field {
+    width: 150px;
+    height: 200px;
+}
+
+.button-load-series {
+    margin: 5px;
+}

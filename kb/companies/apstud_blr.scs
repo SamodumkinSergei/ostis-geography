@@ -1,0 +1,24 @@
+company_apstud_blr <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Апстуд БЛР]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375296246256]
+	(* <- concept_phone_number;;*);
+	[skvasov@appstud.com]
+	(* <- concept_email;;*);
+	[http://appstud.com/]
+	(* <- concept_website;;*);
+	[193216128]
+	(* <- concept_ucn;;*);
+	[ул. Танка, д. 20, пом. 225]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2019;
+=>nrel_scope:
+	it;;
+

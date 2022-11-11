@@ -1,0 +1,22 @@
+minsk_linguistics_college.scs
+<- concept_college;
+=>nrel_main_idtf:
+    [Minsk linguistics college]
+    (* <- lang_en;; <- name_en;;*);
+    [Минский лингвогуманитарный колледж]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_address:
+    [г.Минск, ул. Притыцкого, 60б]
+    (*<-concept_address;;*);
+=> nrel_email:
+    [lingvocolledg@tut.by]
+    (*<-concept_email;;*);
+=> nrel_phone_number:
+    [375 17 365 52 97]
+    (*<-concept_phone_number;;*);
+=> nrel_number_of_faculties:
+    [5]
+    (*<-concept_number_of_faculties;;*);
+=> nrel_number_of_students:
+    [650]
+    (*<-concept_number_of_students;;*);;

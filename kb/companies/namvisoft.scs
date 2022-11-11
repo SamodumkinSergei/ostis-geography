@@ -1,0 +1,24 @@
+company_namvisoft <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Намвисофт]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_823_12_00]
+	(* <- concept_phone_number;;*);
+	[elizaveta@namvisoft.com]
+	(* <- concept_email;;*);
+	[http://namvisoft.com/]
+	(* <- concept_website;;*);
+	[193187969]
+	(* <- concept_ucn;;*);
+	[ул. Немига, д. 5, пом. 52]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2019;
+=>nrel_scope:
+	it;;
+

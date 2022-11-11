@@ -1,0 +1,17 @@
+store_5_element_pritytsky_156
+
+<- sc_node_not_relation;
+
+<- concept_hardware_store;
+
+=> nrel_main_idtf:
+	[Магазин 5 Элемент по адресу Минск, ул. Притыцкого, 156]
+	(* <- lang_ru;; *);
+	[Shop 5 Element at Minsk, st. Pritytsky, 156]
+	(* <- lang_en;; *);
+
+=> nrel_address:
+	[Минск, ул. Притыцкого, 156]
+	(* <- concept_address;; *);
+
+=> nrel_company: company_5_element;;

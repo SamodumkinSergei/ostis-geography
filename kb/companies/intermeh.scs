@@ -1,0 +1,24 @@
+company_intermeh <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ИНТЕРМЕХ]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_17 3062130]
+	(* <- concept_phone_number;;*);
+	[market@intermech.ru]
+	(* <- concept_email;;*);
+	[http://intermech.ru]
+	(* <- concept_website;;*);
+	[100176519]
+	(* <- concept_ucn;;*);
+	[ул. Короля В.А. д.51, помещение 9]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	1992;
+=>nrel_scope:
+	it;;
+

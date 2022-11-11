@@ -1,0 +1,24 @@
+company_premium_soft <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Премиум Софт]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 200_09_20]
+	(* <- concept_phone_number;;*);
+	[postmaster@psoft.by]
+	(* <- concept_email;;*);
+	[http://www.psoft.by/]
+	(* <- concept_website;;*);
+	[191114472]
+	(* <- concept_ucn;;*);
+	[пр. имени газеты Правда, 1, помещение 320]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2009;
+=>nrel_scope:
+	it;;
+

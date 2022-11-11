@@ -1,0 +1,22 @@
+company_valling <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Bamper.by]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_695_95_88]
+	(* <- concept_phone_number;;*);
+	[info@bamper.by]
+	(* <- concept_email;;*);
+	[https://bamper.by/]
+	(* <- concept_website;;*);
+	[690568802]
+	(* <- concept_ucn;;*);
+	[г. Минск, ул. Бабушкина, д. 76, помещение 2, комната 108]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	brest;
+=>nrel_scope:
+	it;;
+

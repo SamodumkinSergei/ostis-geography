@@ -1,0 +1,28 @@
+{{identifier}}
+=> nrel_main_idtf:{% for lang, label in labels %}
+	[{{label}}] (* <- lang_{{lang}};; *);{% endfor %}
+<- rrel_key_sc_element: ...
+    (*
+		<- sc_definition;;
+		=> nrel_main_idtf:{% for lang, label in labels %}
+			{% if lang == 'ru' %}[Опр.({{label}})]{% else %}[Def.({{label}})]{% endif %} (* <-lang_{{lang}};; *);{% endfor %};
+		{% if has_descr %}
+	    <= nrel_sc_text_translation:{% for lang, description in descriptions %}
+		    ...
+			(*
+			-> rrel_example:
+				[{{description}}]
+				(* <-lang_{{lang}};; *);; 
+			*);{% endfor %};{% endif %}
+    *);
+{% if img_name %}<- rrel_key_sc_element: ...
+    (*
+	    <-sc_illustration;;
+	    <=nrel_sc_text_translation: ...
+	    (*
+		    -> rrel_example: "file://images/{{img_name}}" (* => nrel_format: format_{{img_format}};; *);;
+	    *);;
+    *);{% endif %}
+<-sc_node_class;
+<-class;
+<-sc_node_not_relation;;

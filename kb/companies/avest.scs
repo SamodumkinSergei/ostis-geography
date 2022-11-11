@@ -1,0 +1,24 @@
+company_avest <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[АВЕСT]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_17_207_92_34]
+	(* <- concept_phone_number;;*);
+	[welcome@avest.by]
+	(* <- concept_email;;*);
+	[http://www.avest.by/]
+	(* <- concept_website;;*);
+	[100421938]
+	(* <- concept_ucn;;*);
+	[проспект газеты "Правда", дом 5, офис 3Н, каб.7, а/я 203]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	1994;
+=>nrel_scope:
+	it;;
+

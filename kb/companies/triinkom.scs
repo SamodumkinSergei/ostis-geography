@@ -1,0 +1,24 @@
+company_triinkom <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ТриИнком]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 (17) 552_00_77]
+	(* <- concept_phone_number;;*);
+	[info@hb.by]
+	(* <- concept_email;;*);
+	[https://hb.by/]
+	(* <- concept_website;;*);
+	[391493811]
+	(* <- concept_ucn;;*);
+	[Витебская обл., г. Новополоцк, ул. Юбилейная, дом 2а, каб. 308]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	brest;
+=>nrel_year_registration:
+	2013;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,24 @@
+company_vizuteh_sistem <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Визутех Систем]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 3483702]
+	(* <- concept_phone_number;;*);
+	[info@visutechsystem.by]
+	(* <- concept_email;;*);
+	[https://visutechsystem.by/]
+	(* <- concept_website;;*);
+	[101472744]
+	(* <- concept_ucn;;*);
+	[ул. Клары Цеткин, 24_9]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	1998;
+=>nrel_scope:
+	it;;
+

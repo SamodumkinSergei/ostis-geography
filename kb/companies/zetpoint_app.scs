@@ -1,0 +1,24 @@
+company_zetpoint_app <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ЗЭТПОИНТ АПП]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375(29) 5176760]
+	(* <- concept_phone_number;;*);
+	[hello@zpoint.app]
+	(* <- concept_email;;*);
+	[http://zpoint.app/]
+	(* <- concept_website;;*);
+	[193320382]
+	(* <- concept_ucn;;*);
+	[ул.Мележа, 5/2, офис 1512]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2019;
+=>nrel_scope:
+	it;;
+

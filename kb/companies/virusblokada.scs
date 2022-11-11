@@ -1,0 +1,24 @@
+company_virusblokada <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ВирусБлокАда]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_17_294_84_29]
+	(* <- concept_phone_number;;*);
+	[info@anti_virus.by]
+	(* <- concept_email;;*);
+	[http://www.anti_virus.by/]
+	(* <- concept_website;;*);
+	[101294617]
+	(* <- concept_ucn;;*);
+	[ул. Смоленская, д. 15, офис 803б]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2000;
+=>nrel_scope:
+	it;;
+

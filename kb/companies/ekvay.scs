@@ -1,0 +1,22 @@
+company_ekvay <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Эквай]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_177_51_90]
+	(* <- concept_phone_number;;*);
+	[htp@equai.xyz]
+	(* <- concept_email;;*);
+	[https://www.equai.xyz/]
+	(* <- concept_website;;*);
+	[193415201]
+	(* <- concept_ucn;;*);
+	[ул. Кульман, д. 9, офис 607, помещение 161]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

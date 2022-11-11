@@ -1,0 +1,24 @@
+company_onilab <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Онилаб]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 739 45 18]
+	(* <- concept_phone_number;;*);
+	[talkto@onilab.com]
+	(* <- concept_email;;*);
+	[https://onilab.com/]
+	(* <- concept_website;;*);
+	[192307266]
+	(* <- concept_ucn;;*);
+	[ул. Притыцкого, д. 156, 11 этаж, пом. 17]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2014;
+=>nrel_scope:
+	it;;
+

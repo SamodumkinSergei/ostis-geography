@@ -1,0 +1,24 @@
+company_uneksbioteh <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[УНЕКСБИОТЕХ]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375296135343]
+	(* <- concept_phone_number;;*);
+	[biotech@unex_holding.de]
+	(* <- concept_email;;*);
+	[http://unex_holding.de/]
+	(* <- concept_website;;*);
+	[691778417]
+	(* <- concept_ucn;;*);
+	[ул. Амураторская, д.4, оф.418]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2014;
+=>nrel_scope:
+	it;;
+

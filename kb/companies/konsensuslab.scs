@@ -1,0 +1,22 @@
+company_konsensuslab <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ООО "КонсенсусЛаб"]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 137 00 03]
+	(* <- concept_phone_number;;*);
+	[cashewpay.by]
+	(* <- concept_website;;*);
+	[192167572]
+	(* <- concept_ucn;;*);
+	[Партизанский проспект 174, помещение 27]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

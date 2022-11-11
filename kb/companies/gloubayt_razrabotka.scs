@@ -1,0 +1,24 @@
+company_gloubayt_razrabotka <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ГлоуБайт Разработка]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+37517_306_24_55]
+	(* <- concept_phone_number;;*);
+	[contact@gbconsulting.ru]
+	(* <- concept_email;;*);
+	[http://gbconsulting.ru/]
+	(* <- concept_website;;*);
+	[191777276]
+	(* <- concept_ucn;;*);
+	[ул. К. Цеткин, д. 51, 2 этаж помещение 3]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2013;
+=>nrel_scope:
+	it;;
+

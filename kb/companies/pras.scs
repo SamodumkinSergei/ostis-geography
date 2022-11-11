@@ -1,0 +1,24 @@
+company_pras <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ПРАС]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 130_03_77]
+	(* <- concept_phone_number;;*);
+	[list@pras.by]
+	(* <- concept_email;;*);
+	[https://pras.by/]
+	(* <- concept_website;;*);
+	[192734384]
+	(* <- concept_ucn;;*);
+	[220113, г. Минск, ул. Восточная, 129, п.2]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2011;
+=>nrel_scope:
+	it;;
+

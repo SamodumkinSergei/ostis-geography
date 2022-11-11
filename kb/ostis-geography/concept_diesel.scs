@@ -1,0 +1,39 @@
+sc_node_not_relation -> concept_diesel;;
+
+concept_diesel => nrel_system_idtf: [concept_diesel];;
+concept_diesel => nrel_main_idtf: [Дизельное транспортное средство](*<- lang_ru;;*);;
+concept_diesel => nrel_idtf: [Дизельное транспортное средство](*<- lang_ru;;*);;
+concept_diesel => nrel_idtf: [Diesel](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_diesel;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Вид транспорта, использующий в качестве источника энергии дизельное топливо.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Дизельное транспортное средство)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+		->concept_vehicle;;
+		->concept_drive_unit;;
+		->concept_diesel_fuel;;
+        *);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_diesel;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Основные потребители дизельного топлива — железнодорожный транспорт, грузовой автотранспорт, автобусы.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(Об.Дизельное транспортное средство)](*<- lang_ru;;*);;
+<= nrel_using_constants: ...
+        (*
+->concept_railway_vehicle;;
+->concept_cargo_vehicle;;
+->concept_bus;;
+        *);;
+*);;

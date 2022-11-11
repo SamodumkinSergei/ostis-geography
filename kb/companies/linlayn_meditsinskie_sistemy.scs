@@ -1,0 +1,24 @@
+company_linlayn_meditsinskie_sistemy <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ЛИНЛАЙН Медицинские Системы]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 375 2991]
+	(* <- concept_phone_number;;*);
+	[mail@linline_ms.com]
+	(* <- concept_email;;*);
+	[https://linline_ms.com/]
+	(* <- concept_website;;*);
+	[190789750]
+	(* <- concept_ucn;;*);
+	[ул. Антоновская 28А]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2006;
+=>nrel_scope:
+	it;;
+

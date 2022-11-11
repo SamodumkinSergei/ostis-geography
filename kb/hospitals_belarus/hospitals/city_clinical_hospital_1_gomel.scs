@@ -1,0 +1,12 @@
+city_clinical_hospital_1_gomel <- concept_hospital;
+=> nrel_main_idtf:
+   [Gomel city clinical hospital №1]
+   (* <- lang_en;; <- name_en;;*);
+   [Гомельская городская клиническая больница №1]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375232333686]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [http://ggkb1.by]
+   (*<-concept_site;;*);;

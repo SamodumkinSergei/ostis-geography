@@ -1,0 +1,20 @@
+company_kognitiv_apps <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Когнитив Аппс]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_586_62_63]
+	(* <- concept_phone_number;;*);
+	[https://cogapps.com/]
+	(* <- concept_website;;*);
+	[193380539]
+	(* <- concept_ucn;;*);
+	[ул. Логойский тракт, д. 15/2, офис 2Н]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

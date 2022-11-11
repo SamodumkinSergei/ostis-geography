@@ -1,27 +1,7 @@
-from common import ScModule, ScKeynodes, ScPythonEventType
-from StreetTranslatorExecuteAgent import StreetTranslatorExecuteAgent
+from sc_kpm import ScModule
+from .StreetTranslatorExecuteAgent import StreetTranslatorExecuteAgent
+
 
 class StreetTranslatorModule(ScModule):
     def __init__(self):
-        ScModule.__init__(
-            self,
-            ctx=__ctx__,
-            cpp_bridge=__cpp_bridge__,
-            keynodes=[],
-        )
-        self.keynodes = ScKeynodes(self.ctx)
-
-    def OnInitialize(self, params):
-        print('Initialize street translator module')
-        question_initiated = self.keynodes['question_initiated']
-
-        agent1 = StreetTranslatorExecuteAgent(self)
-
-        agent1.Register(question_initiated, ScPythonEventType.AddOutputEdge)
-
-    def OnShutdown(self):
-        print('Shutting down Driving schools module')
-
-
-service = StreetTranslatorModule()
-service.Run()
+        super().__init__(StreetTranslatorExecuteAgent())

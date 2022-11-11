@@ -1,0 +1,24 @@
+company_oz_alyans <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Оз Альянс]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 696 55 73]
+	(* <- concept_phone_number;;*);
+	[info@ozalliance.by]
+	(* <- concept_email;;*);
+	[http://ozalliance.by]
+	(* <- concept_website;;*);
+	[192775242]
+	(* <- concept_ucn;;*);
+	[ул. Скрыганова, д.14, каб. 44]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2017;
+=>nrel_scope:
+	it;;
+
