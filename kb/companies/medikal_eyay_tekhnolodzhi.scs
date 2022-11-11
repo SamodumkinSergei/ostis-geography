@@ -1,0 +1,20 @@
+company_medikal_eyay_tekhnolodzhi <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Медикал ЭйАй Технолоджи]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[info@helthik.com]
+	(* <- concept_email;;*);
+	[https://helthik.com/]
+	(* <- concept_website;;*);
+	[193450911]
+	(* <- concept_ucn;;*);
+	[ул. К.Либкнехта, д. 66, оф.165_6]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,24 @@
+company_devhab <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Девхаб]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_554_08_99]
+	(* <- concept_phone_number;;*);
+	[htp@upsilonit.com]
+	(* <- concept_email;;*);
+	[http://upsilonit.com/]
+	(* <- concept_website;;*);
+	[192676243]
+	(* <- concept_ucn;;*);
+	[ул. Тимирязева, д. 23]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2016;
+=>nrel_scope:
+	it;;
+

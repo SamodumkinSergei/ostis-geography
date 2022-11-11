@@ -1,0 +1,24 @@
+company_institut_prikladnyh_programmnyh_sistem <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Институт прикладных программных систем]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 290 07 66]
+	(* <- concept_phone_number;;*);
+	[info@ipps.by]
+	(* <- concept_email;;*);
+	[http://ipps.by/]
+	(* <- concept_website;;*);
+	[100059271]
+	(* <- concept_ucn;;*);
+	[ул. Беломорская, 18]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	1992;
+=>nrel_scope:
+	it;;
+

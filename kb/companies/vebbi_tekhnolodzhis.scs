@@ -1,0 +1,20 @@
+company_vebbi_tekhnolodzhis <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Вебби Технолоджис]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_25_916_30_64]
+	(* <- concept_phone_number;;*);
+	[https://www.web_bee.org/]
+	(* <- concept_website;;*);
+	[193177796]
+	(* <- concept_ucn;;*);
+	[ул. Нововиленская, д. 38, офис 21]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

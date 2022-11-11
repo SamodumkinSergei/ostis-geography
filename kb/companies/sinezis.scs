@@ -1,0 +1,24 @@
+company_sinezis <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Синезис]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 240 36 50]
+	(* <- concept_phone_number;;*);
+	[contact@synesis.by]
+	(* <- concept_email;;*);
+	[http://www.synesis.by/]
+	(* <- concept_website;;*);
+	[190950894]
+	(* <- concept_ucn;;*);
+	[ул. Платонова, 20Б, помещение 15, комната 5]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2007;
+=>nrel_scope:
+	it;;
+

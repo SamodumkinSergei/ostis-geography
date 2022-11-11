@@ -1,0 +1,24 @@
+company_alveren <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Альверден]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 (44) 777_44_51]
+	(* <- concept_phone_number;;*);
+	[info@alverden.com]
+	(* <- concept_email;;*);
+	[http://alverden.com/]
+	(* <- concept_website;;*);
+	[193159688]
+	(* <- concept_ucn;;*);
+	[ул. Тимирязева 65А, оф. 316, А/Я 47]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

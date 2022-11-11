@@ -1,0 +1,24 @@
+company_ohis_sistems <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ОХИС СИСТЕМС]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375296881368.]
+	(* <- concept_phone_number;;*);
+	[info@ohi_s.by]
+	(* <- concept_email;;*);
+	[http://ohi_s.com/]
+	(* <- concept_website;;*);
+	[193319467]
+	(* <- concept_ucn;;*);
+	[ул. Зыбицкая д.6 оф.52]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2019;
+=>nrel_scope:
+	it;;
+

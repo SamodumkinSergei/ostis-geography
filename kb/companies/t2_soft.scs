@@ -1,0 +1,22 @@
+company_t2_soft <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Т2 Софт]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375296335234]
+	(* <- concept_phone_number;;*);
+	[Nikolay.Reshetov@topsoft.by]
+	(* <- concept_email;;*);
+	[193260805]
+	(* <- concept_ucn;;*);
+	[ул. Сурганова, 28А, ком. 112]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2019;
+=>nrel_scope:
+	it;;
+

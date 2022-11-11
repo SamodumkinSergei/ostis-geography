@@ -1,0 +1,24 @@
+company_baytehsolyushn <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[БайТехСолюшн]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 207 83 82]
+	(* <- concept_phone_number;;*);
+	[info@bytechs.by]
+	(* <- concept_email;;*);
+	[http://bytechs.by]
+	(* <- concept_website;;*);
+	[200339518]
+	(* <- concept_ucn;;*);
+	[г. Минск, ул. Минина, 23а]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	1994;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,24 @@
+company_orion_soft <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Орион Софт]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+ 375 29 6855658]
+	(* <- concept_phone_number;;*);
+	[info@orionsoft.net]
+	(* <- concept_email;;*);
+	[http://orionsoft.net/]
+	(* <- concept_website;;*);
+	[193089264]
+	(* <- concept_ucn;;*);
+	[ул. Гурского 22б, офис 303]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

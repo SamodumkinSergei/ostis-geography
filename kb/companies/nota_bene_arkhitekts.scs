@@ -1,0 +1,22 @@
+company_nota_bene_arkhitekts <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[НОТА БЕНЕ_архитектс]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_377_37_83]
+	(* <- concept_phone_number;;*);
+	[director@nota.by]
+	(* <- concept_email;;*);
+	[https://nota.by/]
+	(* <- concept_website;;*);
+	[692160978]
+	(* <- concept_ucn;;*);
+	[ул. Аллейная, д. 17/1]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

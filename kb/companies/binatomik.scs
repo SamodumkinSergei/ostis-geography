@@ -1,0 +1,24 @@
+company_binatomik <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[БИНАТОМИК]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_315_11_27]
+	(* <- concept_phone_number;;*);
+	[info@binatomic.com]
+	(* <- concept_email;;*);
+	[http://binatomic.by/]
+	(* <- concept_website;;*);
+	[191877759]
+	(* <- concept_ucn;;*);
+	[ул. Кальварийская, д. 42, 2 этаж, помещение 5]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2013;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,24 @@
+company_adevinta <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Адевинта]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375447930034]
+	(* <- concept_phone_number;;*);
+	[marketing@kufar.by]
+	(* <- concept_email;;*);
+	[http://kufar.by/]
+	(* <- concept_website;;*);
+	[191767445]
+	(* <- concept_ucn;;*);
+	[ул. Немига, 5, помещение 77]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2012;
+=>nrel_scope:
+	it;;
+

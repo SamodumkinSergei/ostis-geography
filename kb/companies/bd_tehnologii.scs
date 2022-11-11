@@ -1,0 +1,24 @@
+company_bd_tehnologii <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[БД Технологии]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 275 55 36]
+	(* <- concept_phone_number;;*);
+	[main@bdtech.by]
+	(* <- concept_email;;*);
+	[http://www.bdtech.by/]
+	(* <- concept_website;;*);
+	[192778162]
+	(* <- concept_ucn;;*);
+	[ул. Платонова, 20Б, корп. 2, пом. 3]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2017;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,24 @@
+company_passatinnovacii <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ПассатИнновации]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_3217719]
+	(* <- concept_phone_number;;*);
+	[pi@passat_group.by]
+	(* <- concept_email;;*);
+	[http://p_i.by/]
+	(* <- concept_website;;*);
+	[691548819]
+	(* <- concept_ucn;;*);
+	[223709, Минская обл., Солигорский р_н., г. Солигорск, пр_т Мира, д.12, каб. 16]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2013;
+=>nrel_scope:
+	it;;
+

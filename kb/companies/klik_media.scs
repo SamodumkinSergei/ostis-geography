@@ -1,0 +1,24 @@
+company_klik_media <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Клик Медиа]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 244 34 33]
+	(* <- concept_phone_number;;*);
+	[info@clickmedia.by]
+	(* <- concept_email;;*);
+	[http://clickmedia.by/]
+	(* <- concept_website;;*);
+	[192220456]
+	(* <- concept_ucn;;*);
+	[ул. Л.Украинки, д.14, комн.2, кабинет 7]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2014;
+=>nrel_scope:
+	it;;
+

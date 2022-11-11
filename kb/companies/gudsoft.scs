@@ -1,0 +1,24 @@
+company_gudsoft <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ГудСофт]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 717 09 24]
+	(* <- concept_phone_number;;*);
+	[sales@good_soft.com]
+	(* <- concept_email;;*);
+	[http://good_soft.com/]
+	(* <- concept_website;;*);
+	[391678147]
+	(* <- concept_ucn;;*);
+	[пр_т Московский 31а, помещение 12 офис 2]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	vitebsk;
+=>nrel_year_registration:
+	2015;
+=>nrel_scope:
+	it;;
+

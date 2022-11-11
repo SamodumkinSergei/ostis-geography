@@ -1,0 +1,22 @@
+company_fitbit_bel <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Фитбит Бел]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_17_380_33_38]
+	(* <- concept_phone_number;;*);
+	[stsvetkova@fitbit.com]
+	(* <- concept_email;;*);
+	[https://www.fitbit.com/global/eu/home]
+	(* <- concept_website;;*);
+	[192314787]
+	(* <- concept_ucn;;*);
+	[ул. К. Цеткин, д. 51А, офис 10]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

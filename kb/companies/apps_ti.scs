@@ -1,0 +1,24 @@
+company_apps_ti <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ООО "Аппс Ти"]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_297232508]
+	(* <- concept_phone_number;;*);
+	[i@appstea.com]
+	(* <- concept_email;;*);
+	[www.appstea.com]
+	(* <- concept_website;;*);
+	[193412271]
+	(* <- concept_ucn;;*);
+	[ул. Марьевская, д.7А, пом.3, кабинет 4, г.Минск 220034]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2020;
+=>nrel_scope:
+	it;;
+

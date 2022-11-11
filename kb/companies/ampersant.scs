@@ -1,0 +1,22 @@
+company_ampersant <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[АМПЕРСАНТ]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_17_256_27_83]
+	(* <- concept_phone_number;;*);
+	[gs1994@gmail.com]
+	(* <- concept_email;;*);
+	[http://gsbelarus.com/]
+	(* <- concept_website;;*);
+	[101496345]
+	(* <- concept_ucn;;*);
+	[ул. Скрыганова, 6/2, офис 2204]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

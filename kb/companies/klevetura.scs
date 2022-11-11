@@ -1,0 +1,24 @@
+company_klevetura <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Клэвэтура]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 6053087]
+	(* <- concept_phone_number;;*);
+	[info@clevetura.com]
+	(* <- concept_email;;*);
+	[http://clevetura.com]
+	(* <- concept_website;;*);
+	[192813747]
+	(* <- concept_ucn;;*);
+	[ул. Купревича, д. 1, корп. 5, офис 205 а]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2017;
+=>nrel_scope:
+	it;;
+

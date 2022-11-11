@@ -1,0 +1,18 @@
+company_kleverdev_softvare <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[КлеверДев Софтваре]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_187_69_20]
+	(* <- concept_phone_number;;*);
+	[193436944]
+	(* <- concept_ucn;;*);
+	[ул. Кропоткина, д. 91, помещение 11, комната 25]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

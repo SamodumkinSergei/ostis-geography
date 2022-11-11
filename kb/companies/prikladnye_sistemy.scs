@@ -1,0 +1,24 @@
+company_prikladnye_sistemy <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Прикладные системы]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 227_10_30]
+	(* <- concept_phone_number;;*);
+	[contact@appsys.net]
+	(* <- concept_email;;*);
+	[http://www.appsys.net/]
+	(* <- concept_website;;*);
+	[101243864]
+	(* <- concept_ucn;;*);
+	[ул. Каменногорская, д.47, 5 этаж]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	1997;
+=>nrel_scope:
+	it;;
+

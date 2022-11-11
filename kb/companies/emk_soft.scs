@@ -1,0 +1,20 @@
+company_emk_soft <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ЕМК Софт]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_610_21_18]
+	(* <- concept_phone_number;;*);
+	[https://emksoft.dev/]
+	(* <- concept_website;;*);
+	[193535481]
+	(* <- concept_ucn;;*);
+	[ул. Кальварийская, д. 16, офис 218]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,24 @@
+company_epikmaks <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Эпикмакс]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 344 11 13]
+	(* <- concept_phone_number;;*);
+	[hello@epicmax.co]
+	(* <- concept_email;;*);
+	[http://epicmax.co/]
+	(* <- concept_website;;*);
+	[193090519]
+	(* <- concept_ucn;;*);
+	[ул.Домбровская, д. 9, офис 13.3.17]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

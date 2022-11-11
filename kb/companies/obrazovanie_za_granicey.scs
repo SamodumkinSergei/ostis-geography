@@ -1,0 +1,24 @@
+company_obrazovanie_za_granicey <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Образование за границей]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 (29) 555 55 09]
+	(* <- concept_phone_number;;*);
+	[seo@bookyourstudy.com]
+	(* <- concept_email;;*);
+	[http://bookyourstudy.com/]
+	(* <- concept_website;;*);
+	[491499354]
+	(* <- concept_ucn;;*);
+	[ул. Карла Маркса 25 (3 подъезд 6 этаж)]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,24 @@
+company_DelivioSoftwear <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Деливери софтвеа]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_44_555_55_33]
+	(* <- concept_phone_number;;*);
+	[business@delivio.by]
+	(* <- concept_email;;*);
+	[http://delivio.by]
+	(* <- concept_website;;*);
+	[193175076]
+	(* <- concept_ucn;;*);
+	[ул. Толбухина, д. 2, офис 324]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

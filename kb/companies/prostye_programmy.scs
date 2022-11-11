@@ -1,0 +1,24 @@
+company_prostye_programmy <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Простые программы]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 2 767 767]
+	(* <- concept_phone_number;;*);
+	[office@1pro.by]
+	(* <- concept_email;;*);
+	[http://1pro.by/]
+	(* <- concept_website;;*);
+	[191233327]
+	(* <- concept_ucn;;*);
+	[пр_т Дзержинского, д.104, каб. 1105]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2009;
+=>nrel_scope:
+	it;;
+

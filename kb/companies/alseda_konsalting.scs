@@ -1,0 +1,24 @@
+company_alseda_konsalting <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Алседа Консалтинг]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+ 375 29 6594033]
+	(* <- concept_phone_number;;*);
+	[Office@alseda.by]
+	(* <- concept_email;;*);
+	[http://alseda.by]
+	(* <- concept_website;;*);
+	[191770110]
+	(* <- concept_ucn;;*);
+	[Минский район, д. Копище, ул. Лопатина, д. 7А, каб. 1305]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2012;
+=>nrel_scope:
+	it;;
+

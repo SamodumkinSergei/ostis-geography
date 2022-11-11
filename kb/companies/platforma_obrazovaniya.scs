@@ -1,0 +1,18 @@
+company_platforma_obrazovaniya <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Платформа образования]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 222 20 86]
+	(* <- concept_phone_number;;*);
+	[193481199]
+	(* <- concept_ucn;;*);
+	[ул. Немига, 5, офис 41]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

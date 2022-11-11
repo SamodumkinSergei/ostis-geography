@@ -1,0 +1,24 @@
+company_ay_di_ey_tehnolodjis <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Ай Ди Эй Технолоджис]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29 5557586]
+	(* <- concept_phone_number;;*);
+	[park@idatech.dev]
+	(* <- concept_email;;*);
+	[http://idatech.dev/]
+	(* <- concept_website;;*);
+	[193194601]
+	(* <- concept_ucn;;*);
+	[Проспект Дзержинского, дом 3Б, пом. 128]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2019;
+=>nrel_scope:
+	it;;
+

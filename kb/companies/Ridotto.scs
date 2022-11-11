@@ -1,0 +1,22 @@
+company_Ridotto <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Ридотто]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_567_85_86]
+	(* <- concept_phone_number;;*);
+	[info@ridotto.by]
+	(* <- concept_email;;*);
+	[193384228]
+	(* <- concept_ucn;;*);
+	[ул. Платонова, д. 20Б, пом. 12, комната 1]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2020;
+=>nrel_scope:
+	it;;
+

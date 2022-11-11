@@ -1,0 +1,20 @@
+company_geyms_bend <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Геймс Бенд]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_376_16_30]
+	(* <- concept_phone_number;;*);
+	[support@gamesband.com]
+	(* <- concept_email;;*);
+	[193383288]
+	(* <- concept_ucn;;*);
+	[ул. Тимирязева, д. 72/1, помещение 28, офис 307]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

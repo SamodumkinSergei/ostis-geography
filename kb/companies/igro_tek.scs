@@ -1,0 +1,22 @@
+company_igro_tek <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Игро Тэк]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29 1187000]
+	(* <- concept_phone_number;;*);
+	[contact@igro_tek.com]
+	(* <- concept_email;;*);
+	[192990750]
+	(* <- concept_ucn;;*);
+	[пер. С.Ковалевской, д.60, офис 711]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2017;
+=>nrel_scope:
+	it;;
+

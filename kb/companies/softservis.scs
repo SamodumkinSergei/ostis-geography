@@ -1,0 +1,24 @@
+company_softservis <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[СофтСервис]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 (152) 61 03 54]
+	(* <- concept_phone_number;;*);
+	[support@softservice.by]
+	(* <- concept_email;;*);
+	[http://softservice.by/]
+	(* <- concept_website;;*);
+	[500484719]
+	(* <- concept_ucn;;*);
+	[ул. Ленина 5/2]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	grodno;
+=>nrel_year_registration:
+	1997;
+=>nrel_scope:
+	it;;
+
