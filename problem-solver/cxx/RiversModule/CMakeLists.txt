@@ -5,6 +5,7 @@ set(SOURCES
 		"agents/LongerRiver.cpp"
 		"agents/LongestInRegion.cpp"
 		"agents/BiggerBasin.cpp"
+		"agents/ShorterRiver.cpp"
 		)
 
 set(HEADERS
@@ -14,6 +15,7 @@ set(HEADERS
 		"agents/LongerRiver.hpp"
 		"agents/LongestInRegion.hpp"
 		"agents/BiggerBasin.hpp"
+		"agents/ShorterRiver.hpp"
 		)
 
 include_directories(

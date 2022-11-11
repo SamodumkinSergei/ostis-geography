@@ -8,6 +8,7 @@
 #include "agents/LongerRiver.hpp"
 #include "agents/LongestInRegion.hpp"
 #include "agents/BiggerBasin.hpp"
+#include "agents/ShorterRiver.hpp"
 
 #include "RiversModule.generated.hpp"
 
