@@ -1,0 +1,36 @@
+concept_Rogachev_Regional_Executive_Committee
+<-sc_node_not_relation;
+<-concept_admin_building;
+=>nrel_main_idtf:
+	[Рогачевский районный исполнительный комитет]
+	(* <- lang_ru;;<-name;; *);
+	[Rogachev Regional Executive Committee]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Рогачевский районный исполнительный комитет)]
+		(* <- lang_ru;; *);
+		[Def. (Rogachev Regional Executive Committee)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[административный центр города  Рогачев]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[the administrative center of the city of Rogachev]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+			concept_Rogachev_Regional_Executive_Committee;
+			concept_town
+		};;
+    *);;

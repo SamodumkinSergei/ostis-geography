@@ -1,0 +1,37 @@
+concept_Zelvensky_District_Executive_Committee
+<-sc_node_not_relation;
+<-concept_admin_building;
+=>nrel_search_area:zelva_district;
+ <- concept_way;=>nrel_main_idtf:
+	[Зельвенский районный исполнительный комитет]
+	(* <- lang_ru;;<-name;; *);
+	[Zelvensky District Executive Committee]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Зельвенский районный исполнительный комитет)]
+		(* <- lang_ru;; *);
+		[Def. (Zelvensky District Executive Committee)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[административный центр города Зельва]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[the administrative center of the city of Zelvens]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+			concept_Zelvensky_District_Executive_Committee;
+			concept_town
+		};;
+    *);;

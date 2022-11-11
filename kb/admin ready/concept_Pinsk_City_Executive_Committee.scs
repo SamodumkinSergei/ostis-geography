@@ -1,0 +1,38 @@
+concept_Pinsk_City_Executive_Committee
+<-sc_node_not_relation;
+<-concept_admin_building;
+=>nrel_search_area:pinsk_district;
+ <- concept_way;=>nrel_main_idtf:
+	[Пинский городской исполнительный комитет]
+	(* <- lang_ru;;<-name;; *);
+	[Pinsk City Executive Committee]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Пинский городской исполнительный комитет)]
+		(* <- lang_ru;; *);
+		[Def. (Pinsk City Executive Committee)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[административный центр города Пинск]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[the administrative center of the city of Pinsk]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+			concept_Pinsk_City_Executive_Committee;
+			concept_town;
+			pinsk
+		};;
+    *);;

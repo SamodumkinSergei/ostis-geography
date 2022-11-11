@@ -1,0 +1,36 @@
+concept_Loyevsky_District_Executive_Committee
+<-sc_node_not_relation;
+<-concept_admin_building;
+=>nrel_main_idtf:
+	[Лоевский районный исполнительный комитет]
+	(* <- lang_ru;;<-name;; *);
+	[Loyevsky District Executive Committee]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Лоевский районный исполнительный комитет)]
+		(* <- lang_ru;; *);
+		[Def. (Loyevsky District Executive Committee)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[административный центр города  Лоев]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[the administrative center of the city of Loyev]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+			concept_Loyevsky_District_Executive_Committee;
+			concept_town
+		};;
+    *);;

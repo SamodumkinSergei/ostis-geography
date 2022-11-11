@@ -1,0 +1,37 @@
+concept_Gorodok_District_Executive_Committee
+<-sc_node_not_relation;
+<-concept_admin_building;
+=>nrel_search_area:haradok_district; <- concept_way;=>nrel_main_idtf:
+	[Городокский РИК]
+	(* <- lang_ru;;<-name;; *);
+	[Gorodok District Executive Committee]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Городокский РИК)]
+		(* <- lang_ru;; *);
+		[Def. (Gorodok District Executive Committee)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[административный центр города  Городок]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[the administrative center of the city of Gorodok]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+			concept_Gorodok_District_Executive_Committee;
+			concept_town;
+			gorodki
+		};;
+    *);;

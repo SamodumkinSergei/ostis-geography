@@ -1,0 +1,39 @@
+concept_village_council_kurenec
+<-sc_node_not_relation;
+<-concept_admin_building;
+=>nrel_search_area:
+    kurenec;
+ <- concept_way;
+=>nrel_main_idtf:
+	[Сельсовет]
+	(* <- lang_ru;;<-name;; *);
+	[village council]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Сельсовет)]
+		(* <- lang_ru;; *);
+		[Def. (village council)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Сельсовет города куренец]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Village council of the city of Kurenets]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+			concept_village_council_kurenec;
+			kurenec
+		};;
+    *);;

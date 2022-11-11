@@ -1,0 +1,37 @@
+concept_Senno_District_Executive_Committee
+<-sc_node_not_relation;
+<-concept_admin_building;
+=>nrel_search_area:syanno_district;
+ <- concept_way;=>nrel_main_idtf:
+	[ Сенненский Районный исполнительный комитет]
+	(* <- lang_ru;;<-name;; *);
+	[Senno District Executive Committee]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. ( Сенненский Районный исполнительный комитет)]
+		(* <- lang_ru;; *);
+		[Def. (Senno District Executive Committee)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[административный центр города Сенно]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[the administrative center of the city of Senno]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+			concept_Senno_District_Executive_Committee;
+			concept_town
+		};;
+    *);;

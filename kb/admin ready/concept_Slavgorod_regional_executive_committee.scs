@@ -1,0 +1,37 @@
+concept_Slavgorod_regional_executive_committee
+<-sc_node_not_relation;
+<-concept_admin_building;
+=>nrel_search_area:Slawharad_district;
+ <- concept_way;=>nrel_main_idtf:
+	[Славгородский районный исполнительный комитет]
+	(* <- lang_ru;;<-name;; *);
+	[Slavgorod regional executive committee]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Славгородский районный исполнительный комитет)]
+		(* <- lang_ru;; *);
+		[Def. (Slavgorod regional executive committee)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[административный центр города Славгород]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[the administrative center of the city of Slavgorod]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+			concept_Slavgorod_regional_executive_committee;
+			concept_town
+		};;
+    *);;

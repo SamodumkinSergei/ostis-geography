@@ -1,0 +1,38 @@
+concept_Stolin_City_Executive_Committee
+<-sc_node_not_relation;
+<-concept_admin_building;
+=>nrel_search_area:stolin_district;
+ <- concept_way;=>nrel_main_idtf:
+	[Столинский РИК]
+	(* <- lang_ru;;<-name;; *);
+	[Stolin City Executive Committee]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Столинский РИК)]
+		(* <- lang_ru;; *);
+		[Def. (Stolin City Executive Committee)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[административный центр города Столин]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[the administrative center of the city of Stolin]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+			concept_Stolin_City_Executive_Committee;
+			concept_town;
+			stolin
+		};;
+    *);;

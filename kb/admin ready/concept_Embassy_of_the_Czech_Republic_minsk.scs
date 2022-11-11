@@ -1,0 +1,42 @@
+concept_Embassy_of_the_Czech_Republic_minsk
+->concept_embassy;
+<-concept_admin_building;
+=>nrel_embassy:Czech_Republic;
+<-sc_node_not_relation;
+=>nrel_search_area:
+    minsk;
+ <- concept_way;
+=>nrel_main_idtf:
+	[Посольство Чешской Республики]
+	(* <- lang_ru;;<-name;; *);
+	[Embassy of the Czech Republic]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Посольство Чешской Республики)]
+		(* <- lang_ru;; *);
+		[Def. (Embassy of the Czech Republic)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Приоритеты посольства Чешской Республики направлены на: развитие взаимоотношений между Чешской Республикой и Республикой Беларусь на основе уважения всеобщих международных ценностей в области демократии и прав человека; поддержка активного членства Беларуси в Восточном партнерстве; поиск экспортных, инвестиционных и приватизационных возможностей в Беларуси, поддержка чешских предпринимателей в целях установления контактов в Республике Беларусь; предоставление консульских услуг гражданам Чешской Республики и услуг визового центра; продвижение Чешской Республики; активная поддержка гражданского общества; развитие сотрудничества в области культуры и взаимного обмена культурными ценностями.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[The priorities of the Embassy of the Czech Republic are aimed at: developing relations between the Czech Republic and the Republic of Belarus based on respect for universal international values in the field of democracy and human rights; support for the active membership of Belarus in the Eastern Partnership; search for export, investment and privatization opportunities in Belarus, support for Czech entrepreneurs in order to establish contacts in the Republic of Belarus; provision of consular services to citizens of the Czech Republic and visa center services; promotion of the Czech Republic; active support of civil society; development of cooperation in the field of culture and mutual exchange of cultural values.]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+			minsk;
+			concept_Embassy_of_the_Czech_Republic_minsk;
+			concept_town
+		};;
+    *);;

@@ -1,0 +1,36 @@
+concept_Residence_of_the_President_Ozerny
+<-sc_node_not_relation;
+<-concept_admin_building;
+=>nrel_search_area:minsk_district;
+ <- concept_way;=>nrel_main_idtf:
+	[Резиденция президента "Озёрный"]
+	(* <- lang_ru;;<-name;; *);
+	[Residence of the President Ozerny]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Резиденция президента Озёрный)]
+		(* <- lang_ru;; *);
+		[Def. (Residence of the President Ozerny)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Загородная резиденция Лукашенко «Озерный»]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Country residence of Lukashenka "Ozerny"]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+			concept_Residence_of_the_President_Ozerny
+		};;
+    *);;

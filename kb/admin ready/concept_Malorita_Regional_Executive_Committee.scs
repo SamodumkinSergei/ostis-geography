@@ -1,0 +1,37 @@
+concept_Malorita_Regional_Executive_Committee
+<-sc_node_not_relation;
+<-concept_admin_building;
+=>nrel_search_area:malaryta_district;
+ <- concept_way;=>nrel_main_idtf:
+	[Малоритский районный исполнительный комитет]
+	(* <- lang_ru;;<-name;; *);
+	[Malorita Regional Executive Committee]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Малоритский районный исполнительный комитет)]
+		(* <- lang_ru;; *);
+		[Def. (Malorita Regional Executive Committee)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[административный центр города Малорита]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[the administrative center of the city of Malorita]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+			concept_Malorita_Regional_Executive_Committee;
+			concept_town
+		};;
+    *);;

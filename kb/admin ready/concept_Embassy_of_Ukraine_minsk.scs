@@ -1,0 +1,42 @@
+concept_Embassy_of_Ukraine_minsk
+->concept_embassy;
+<-concept_admin_building;
+=>nrel_embassy:Ukraine;
+<-sc_node_not_relation;
+=>nrel_search_area:
+    minsk;
+ <- concept_way;
+=>nrel_main_idtf:
+	[Посольство Украины]
+	(* <- lang_ru;;<-name;; *);
+	[Embassy of Ukraine]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Посольство Украины)]
+		(* <- lang_ru;; *);
+		[Def. (Embassy of Ukraine)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Посольство способствует развитию добрососедских гармоничных отношений между Украиной и Республикой Беларусь на всех уровнях, а также сотрудничеству по вопросам, представляющим взаимный интерес. Посольство выполняет также консульские функции.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[The Embassy promotes the development of good-neighborly harmonious relations between Ukraine and the Republic of Belarus at all levels, as well as cooperation on issues of mutual interest. The embassy also performs consular functions.]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+			concept_Embassy_of_Ukraine_minsk;
+			minsk;
+			concept_town
+		};;
+    *);;

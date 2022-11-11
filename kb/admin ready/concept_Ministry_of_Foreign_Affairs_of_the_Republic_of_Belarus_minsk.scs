@@ -1,0 +1,40 @@
+concept_Ministry_of_Foreign_Affairs_of_the_Republic_of_Belarus_minsk
+<-sc_node_not_relation;
+<-concept_admin_building;
+=>nrel_search_area:
+    minsk;
+ <- concept_way;
+=>nrel_main_idtf:
+	[Министерство иностранных дел]
+	(* <- lang_ru;;<-name;; *);
+	[Ministry of Foreign Affairs of the Republic of Belarus]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Министерство иностранных дел)]
+		(* <- lang_ru;; *);
+		[Def. (Ministry of Foreign Affairs of the Republic of Belarus)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[В соответствии с Положением о Министерстве иностранных дел, утвержденным постановлением Совета Министров Республики Беларусь, МИД проводит государственную политику в сфере внешних связей и осуществляет координацию внешнеполитической и внешнеэкономической деятельности нашей страны.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[In accordance with the Regulations on the Ministry of Foreign Affairs, approved by the Decree of the Council of Ministers of the Republic of Belarus, the Ministry of Foreign Affairs pursues a state policy in the field of foreign relations and coordinates the foreign policy and foreign economic activities of our country.]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+			concept_Ministry_of_Foreign_Affairs_of_the_Republic_of_Belarus_minsk;
+			concept_town;
+			minsk
+		};;
+    *);;

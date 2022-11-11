@@ -1,0 +1,36 @@
+concept_Logoisk_District_Council_of_Deputies
+<-sc_node_not_relation;
+<-concept_admin_building;
+=>nrel_main_idtf:
+	[Логойский районный Совет депутатов]
+	(* <- lang_ru;;<-name;; *);
+	[Logoisk District Council of Deputies]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Логойский районный Совет депутатов)]
+		(* <- lang_ru;; *);
+		[Def. (Logoisk District Council of Deputies)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[административный центр города Логойск]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[the administrative center of the city of Logoisk]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{
+			concept_Logoisk_District_Council_of_Deputies;
+			concept_town
+		};;
+    *);;
