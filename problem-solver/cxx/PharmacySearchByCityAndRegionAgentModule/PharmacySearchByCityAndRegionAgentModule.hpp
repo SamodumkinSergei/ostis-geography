@@ -7,15 +7,16 @@
 
 #include "PharmacySearchByCityAndRegionAgentModule.generated.hpp"
 
-namespace PharmacySearchByCityAndRegionAgentModule {
+namespace PharmacySearchByCityAndRegionAgentModule
+{
 
-	class PharmacySearchByCityAndRegionAgentModule : public ScModule
-	{
-		SC_CLASS(LoadOrder(100))
-			SC_GENERATED_BODY()
+class PharmacySearchByCityAndRegionAgentModule : public ScModule
+{
+  SC_CLASS(LoadOrder(100))
+  SC_GENERATED_BODY()
 
-		virtual sc_result InitializeImpl() override;
+  virtual sc_result InitializeImpl() override;
 
-		virtual sc_result ShutdownImpl() override;
-	};
-}
+  virtual sc_result ShutdownImpl() override;
+};
+}  // namespace PharmacySearchByCityAndRegionAgentModule

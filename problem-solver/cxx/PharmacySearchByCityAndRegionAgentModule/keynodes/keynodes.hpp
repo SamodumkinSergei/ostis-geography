@@ -14,7 +14,6 @@ class Keynodes : public ScObject
   SC_GENERATED_BODY()
 
 public:
-
   SC_PROPERTY(Keynode("action_pharmacyByCityAndRegionSearch"), ForceCreate)
   static ScAddr action_pharmacyByCityAndRegionSearch;
 
@@ -28,4 +27,4 @@ public:
   static ScAddr nrel_region;
 };
 
-} // namespace exampleModule
+}  // namespace PharmacySearchByCityAndRegionAgentModule

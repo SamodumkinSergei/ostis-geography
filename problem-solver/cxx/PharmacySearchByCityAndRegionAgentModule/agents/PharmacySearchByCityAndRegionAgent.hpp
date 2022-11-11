@@ -14,4 +14,4 @@ class PharmacySearchByCityAndRegionAgent : public ScAgent
   SC_GENERATED_BODY()
 };
 
-} // namespace exampleModule
+}  // namespace PharmacySearchByCityAndRegionAgentModule
