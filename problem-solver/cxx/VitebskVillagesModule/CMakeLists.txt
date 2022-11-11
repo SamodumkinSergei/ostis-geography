@@ -2,12 +2,14 @@ set(SOURCES
 		"VitebskVillagesModule.cpp"
 		"keynodes/keynodes.cpp"
 		"agents/LargerVillageByPopulation.cpp"
+		"agents/GreatestDistanceToTheRegionalCenter.cpp"
 		)
 
 set(HEADERS
 		"VitebskVillagesModule.hpp"
 		"keynodes/keynodes.hpp"
 		"agents/LargerVillageByPopulation.hpp"
+		"agents/GreatestDistanceToTheRegionalCenter.hpp"
 		)
 
 include_directories(

@@ -21,10 +21,11 @@ class Keynodes : public ScObject
 
 public:
 
-
-
   SC_PROPERTY(Keynode("question_largerVillageByPopulation"), ForceCreate)
   static ScAddr question_largerVillageByPopulation;
+
+  SC_PROPERTY(Keynode("question_greatestDistanceToTheRegionalCenter"), ForceCreate)
+  static ScAddr question_greatestDistanceToTheRegionalCenter;
 
   SC_PROPERTY(Keynode("nrel_population"), ForceCreate)
   static ScAddr nrel_population;

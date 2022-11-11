@@ -5,6 +5,7 @@
 
 #include "keynodes/keynodes.hpp"
 #include "agents/LargerVillageByPopulation.hpp"
+#include "agents/GreatestDistanceToTheRegionalCenter.hpp"
 
 #include "VitebskVillagesModule.generated.hpp"
 
