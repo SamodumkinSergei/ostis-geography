@@ -1,0 +1,12 @@
+infectious_diseases_hospital_mogilev <- concept_hospital;
+=> nrel_main_idtf:
+   [Infectious diseases hospital Mogilev]
+   (* <- lang_en;; <- name_en;;*);
+   [Могилевская инфекционная больница]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375222740345]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [http://mogcp.by/paid-services/services-for/item/224-services-isolation-hospital]
+   (*<-concept_site;;*);;

@@ -1,0 +1,12 @@
+city_hospital_2_brest <- concept_hospital;
+=> nrel_main_idtf:
+   [City hospital №2 Brest]
+   (* <- lang_en;; <- name_en;;*);
+   [Городская больница №2 Бреста]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375162247266]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [https://bgb2-brest.by]
+   (*<-concept_site;;*);;

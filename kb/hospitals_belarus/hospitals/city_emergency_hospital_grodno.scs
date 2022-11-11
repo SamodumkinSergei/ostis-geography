@@ -1,0 +1,12 @@
+city_emergency_hospital_grodno <- concept_hospital;
+=> nrel_main_idtf:
+   [Grodno city emergency hospital]
+   (* <- lang_en;; <- name_en;;*);
+   [Гродненская городская больница скорой медицинской помощи]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375152681912]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [https://bsmpgrodno.by]
+   (*<-concept_site;;*);;

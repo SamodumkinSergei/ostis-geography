@@ -1,0 +1,12 @@
+city_clinical_hospital_3_grodno <- concept_hospital;
+=> nrel_main_idtf:
+   [Grodno city clinical hospital №3]
+   (* <- lang_en;; <- name_en;;*);
+   [Городская клиническая больница №3 Гродно]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375152554728]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [http://www.grodno-gkb3.by]
+   (*<-concept_site;;*);;

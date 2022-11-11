@@ -1,0 +1,12 @@
+regional_clinical_hospital_vitebsk <- concept_hospital;
+=> nrel_main_idtf:
+   [Vitebsk regional clinical hospital]
+   (* <- lang_en;; <- name_en;;*);
+   [Витебская областная клиническая больница]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375212616274]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [https://vokb.by]
+   (*<-concept_site;;*);;

@@ -1,0 +1,12 @@
+city_gynecological_hospital_minsk <- concept_hospital;
+=> nrel_main_idtf:
+   [City gynecological hospital Minsk]
+   (* <- lang_en;; <- name_en;;*);
+   [Городская гинекологическая больница Минска]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375172206984]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [https://ggb.by]
+   (*<-concept_site;;*);;
