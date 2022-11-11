@@ -6,8 +6,8 @@
 
 #include "DanceStudiosModule.hpp"
 
-
 #include "agent/SearchDanceStudiosByCityAgent.hpp"
+#include "agent/SearchDanceStudiosByFoundingYearAgent.hpp"
 #include "keynodes/DanceStudiosKeynodes.hpp"
 
 using namespace dance_studios;
@@ -21,16 +21,16 @@ sc_result DanceStudiosModule::InitializeImpl()
   if (!DanceStudiosKeynodes::InitGlobal())
     return SC_RESULT_ERROR;
 
-
   SC_AGENT_REGISTER(SearchDanceStudiosByCityAgent)
+  SC_AGENT_REGISTER(SearchDanceStudiosByFoundingYearAgent);
 
   return SC_RESULT_OK;
 }
 
 sc_result DanceStudiosModule::ShutdownImpl()
 {
-
   SC_AGENT_UNREGISTER(SearchDanceStudiosByCityAgent)
+  SC_AGENT_UNREGISTER(SearchDanceStudiosByFoundingYearAgent);
 
   return SC_RESULT_OK;
 }
