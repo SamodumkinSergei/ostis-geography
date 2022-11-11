@@ -1,0 +1,33 @@
+sc_node_not_relation -> concept_petrovschina;;
+sc_node_not_relation -> concept_metro_station;;
+sc_node_not_relation -> concept_metro_line;;
+
+sc_node_norole_relation -> nrel_built;;
+sc_node_norole_relation -> nrel_location;;
+
+
+concept_petrovschina => nrel_main_idtf: [Петровщина](* <- lang_ru;; *);;
+concept_petrovschina => nrel_main_idtf: [Petrovschina](* <- lang_en;; *);;
+
+   
+definition ->...
+(*
+    -> rrel_key_sc_element : concept_petrovschina;;
+    <= nrel_sc_text_translation: ...(*->rrel_example:[Петровщина – станция метро, построенная 7 ноября 2012 года.](*<-lang_ru;;*);;*);;
+    => nrel_main_idtf: [Определение (Петровщина)](*<- lang_ru;;*);;
+    => nrel_using_constants: ...
+    (*
+       -> nrel_built;;
+    *);;
+*);;
+
+statement ->...
+(*
+    -> rrel_key_sc_element : concept_petrovschina;;
+    <= nrel_sc_text_translation: ...(*->rrel_example:[Петровщина находится на Московской ветке и имеет код станции 111.](*<-lang_ru;;*);;*);;
+    => nrel_main_idtf: [Утверждение(Петровщина)](*<- lang_ru;;*);;
+    => nrel_using_constants: ...
+    (* 
+       -> nrel_location;;
+    *);;
+*);;
