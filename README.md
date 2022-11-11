@@ -5,7 +5,7 @@ OSTIS-geography is an open-source knowledge base for geographical system for Ope
 
 Clone the project
 ```sh
-git clone -c core.longpaths=true -c core.autocrlf=true https://github.com/ostis-apps/ostis-geography
+git clone -c core.longpaths=true -c core.autocrlf=false https://github.com/ostis-apps/ostis-geography
 cd ostis-geography
 git submodule update --init --recursive
 ```
@@ -121,22 +121,3 @@ Install or update the OSTIS platform.
 
 #### install_subsystems.sh
 Building a problem solver and a knowledge base of subsystems.
-
-## Troubleshooting
-
-### Linux native installation
-
-#### ./install_project.sh: /bin/bash^M: bad interpreter
-When you run ./install_project.sh installation script, you may face the following error: bash: ./install_project.sh: /bin/bash^M: bad interpreter: No such file or directory. The error message suggests that the script you're invoking has embedded \r characters, which in turn suggests that it has Windows-style \r\n line endings instead of the \n-only line endings bash expects. To fix issue you should remove \r characater at the end of each line. It can be reached running the following commands:
-```
-sudo apt-get install -y dos2unix
-find . -type f -exec dos2unix {} \;
-```
-The commands listed below recursively updates all the line endings to \n-only.
-
-#### Media change: please insert the disc labeled
-It will be fixed by running
-```
-sudo sed -i '/cdrom/d' /etc/apt/sources.list
-```
-
