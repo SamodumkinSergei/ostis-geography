@@ -1,0 +1,37 @@
+concept_company
+
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	[компания]
+	(* <- lang_ru;; *);
+	[company]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+		[Опр. (компания)]
+		(* <- lang_ru;; *);
+		[Def. (company)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Компания — капиталистическое торговое или промышленное предприятие, обычно торгово-промышленное объединение предпринимателей.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Company - a capitalist commercial or industrial enterprise, usually a trade and industrial association of entrepreneurs.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_company
+		};;
+	*);;

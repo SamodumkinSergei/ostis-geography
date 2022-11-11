@@ -1,4 +1,4 @@
-var MapKeynodes = {
+const MapKeynodes = {
   
 }
 
@@ -15,13 +15,9 @@ MapKeynodes.IDENTIFIERS = [
 ];
 
 MapKeynodes.init = function() {
-  var deferred = $.Deferred();
-  var self = this;
-  SCWeb.core.Server.resolveScAddr(MapKeynodes.IDENTIFIERS, function (keynodes) {
+  SCWeb.core.Server.resolveScAddr(MapKeynodes.IDENTIFIERS).then(keynodes => {
     self.keynodes = keynodes;
-    deferred.resolve();
   });
-  return deferred;
 };
 
 

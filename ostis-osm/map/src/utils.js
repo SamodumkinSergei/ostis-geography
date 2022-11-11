@@ -1,4 +1,4 @@
-var MapUtils = {
+const MapUtils = {
     SQUARE_SIDE: 0.0001,
     doOSMQuery: function (query, callback) {
         $.ajax({
@@ -11,7 +11,7 @@ var MapUtils = {
         })
     },
     getOSMQueryForCoordinates: function (coordinates) {
-        square = [
+        let square = [
             coordinates.lat - MapUtils.SQUARE_SIDE,
             coordinates.lng - MapUtils.SQUARE_SIDE,
             coordinates.lat + MapUtils.SQUARE_SIDE,
@@ -33,7 +33,7 @@ var MapUtils = {
         return !geojson || !geojson.features || !geojson.features.length;
     },
     importer: function (coordinates) {
-        var contour = MapStore.get().contour;
+        const contour = MapStore.get().contour;
         return {
             import: function () {
                 MapUtils.doOSMQuery(MapUtils.getOSMQueryForCoordinates(coordinates), (data) => {
@@ -44,232 +44,244 @@ var MapUtils = {
                 });
             },
             createNode: function (element) {
-                window.sctpClient.create_node(sc_type_const | sc_type_node)
-                    .done((node) => {
-                        element["ostisId"] = node;
-                        $.when(this.importIdentifier(element), this.importQuery(element))
-                            .done(() => {
-                                console.log("Created");
-                                this.addToContour(element);
-                            })
-                            .fail(() => {
-                                console.log("Failed to import");
-                            })
-                    });
+                let constr = new sc.ScConstruction();
+                constr.createNode(sc.ScType.NodeConst);
+                window.scClient.createElements(constr)
+                .then(elems => {
+                    element["ostisId"] = elems[0];
+                    $.when(this.importIdentifier(element), this.importQuery(element))
+                    .done(() => {
+                        console.log("Created");
+                        this.addToContour(element);
+                    })
+                    .fail(() => {
+                        console.log("Failed to import");
+                    })
+                });
             },
             showModal: function (element) {
                 $.toast(element["tags"]["name"] + " добавлен на карту");
             },
             importIdentifier: function (element) {
-                var deferred = $.Deferred();
-                window.sctpClient.create_link()
-                    .done((link) => {
-                        window.sctpClient.set_link_content(link, element["tags"]["name"])
-                            .done(() => {
-                                window.sctpClient.create_arc(sc_type_arc_common | sc_type_const, element["ostisId"], link)
-                                    .done((arc) => {
-                                        window.sctpClient.create_arc(sc_type_arc_pos_const_perm, MapKeynodes.get("nrel_main_idtf"), arc)
-                                            .done(() => {
-                                                window.sctpClient.create_arc(sc_type_arc_pos_const_perm, MapKeynodes.get("lang_ru"), link)
-                                                    .done(() => {
-                                                        deferred.resolve();
-                                                    }).fail(deferred.reject)
-                                            }).fail(deferred.reject)
-                                    }).fail(deferred.reject)
-                            }).fail(deferred.reject)
-                    }).fail(deferred.reject);
-                return deferred.promise();
+                return new Promise(resolve => {
+                    let constr = new sc.ScConstruction();
+                    constr.createLink(
+                        sc.ScType.LinkConst,
+                        new sc.ScLinkContent(element, element["tags"]["name"]),
+                        "_link"
+                    );
+                    constr.createEdge(
+                        sc.ScType.EdgeDCommonConst,
+                        new sc.ScAddr(element["ostisId"]),
+                        "_link",
+                        "_arc"
+                    );
+                    constr.createEdge(
+                        sc.ScType.EdgeAccessConstPosPerm,
+                        new sc.ScAddr(MapKeynodes.get("nrel_main_idtf")),
+                        "_arc"
+                    );
+                    constr.createEdge(
+                        sc.ScType.EdgeAccessConstPosPerm,
+                        new sc.ScAddr(MapKeynodes.get("lang_ru")),
+                        "_link"
+                    );
+                    window.scClient.createElements(constr).then(resolve);
+                });
             },
             importQuery: function (element) {
-                var deferred = $.Deferred();
-                window.sctpClient.create_link()
-                    .done((link) => {
-                        window.sctpClient.set_link_content(link, element["type"] + "(" + element["id"] + ");")
-                            .done(() => {
-                                window.sctpClient.create_arc(sc_type_arc_common | sc_type_const, element["ostisId"], link)
-                                    .done((arc) => {
-                                        window.sctpClient.create_arc(sc_type_arc_pos_const_perm, MapKeynodes.get("nrel_osm_query"), arc)
-                                            .done(() => {
-                                                deferred.resolve();
-                                            }).fail(deferred.reject)
-                                    }).fail(deferred.reject)
-                            }).fail(deferred.reject)
-                    }).fail(deferred.reject);
-                return deferred.promise();
+                return new Promise(resolve => {
+                    let constr = new sc.ScConstruction();
+                    constr.createLink(
+                        sc.ScType.LinkConst,
+                        new sc.ScLinkContent(element, element["type"] + "(" + element["id"] + ");"),
+                        "_link"
+                    );
+                    constr.createEdge(
+                        sc.ScType.EdgeDCommonConst,
+                        new sc.ScAddr(element["ostisId"]),
+                        "_link",
+                        "_arc"
+                    );
+                    constr.createEdge(
+                        sc.ScType.EdgeAccessConstPosPerm,
+                        new sc.ScAddr(MapKeynodes.get("nrel_osm_query")),
+                        "_arc"
+                    );
+                    window.scClient.createElements(constr).then(resolve);
+                });
             },
             addToContour: function (element) {
                 console.log(contour);
                 console.log(element["ostisId"]);
-                window.sctpClient.create_arc(sc_type_arc_pos_const_perm, contour, element["ostisId"])
-                    .done(() => {
-                        this.showModal(element);
-                    })
-                    .fail(() => {
-                        console.log("Can't add!");
-                    })
+                let constr = new sc.ScConstruction();
+                constr.createEdge(
+                    sc.ScType.EdgeAccessConstPosPerm,
+                    new sc.ScAddr(contour),
+                    new sc.ScAddr(element["ostisId"]),
+                );
+                window.scClient.createElements(constr)
+                .then(_ => {
+                    this.showModal(element);
+                });
             }
         }
     },
     extractor: function (arc) {
-        var contour = MapStore.get().contour;
+        const contour = MapStore.get().contour;
         return {
             extract: function () {
                 let self = this;
-                var question = $('a.history-item.active').attr("sc_addr");
-                window.sctpClient.iterate_elements(SctpIteratorType.SCTP_ITERATOR_3F_A_A, [
-                    question,
-                    sc_type_arc_pos_const_perm,
-                    sc_type_node])
-                    .done(function (it) {
-                        var question_arg = it[0][2];
-                        self.checkTerrainObject(question_arg)
-                            .done(() => {
-                                self.extractIdentifier(question_arg);
-                                self.extractCoordinates(question_arg);
-                            })
+                const question = $('a.history-item.active').attr("sc_addr");
+                let template = new sc.ScTemplate();
+                template.triple(
+                    new sc.ScAddr(question),
+                    sc.ScType.EdgeAccessVarPosPerm,
+                    sc.ScType.NodeVar
+                );
+                window.scClient.templateSearch(template)
+                .done(result => {
+                    const question_arg = result[0].get(2);
+                    self.checkTerrainObject(question_arg)
+                    .done(() => {
+                        self.extractIdentifier(question_arg);
+                        self.extractCoordinates(question_arg);
                     })
+                })
             },
             checkTerrainObject: function (object) {
-                var deferred = $.Deferred();
-                window.sctpClient.iterate_constr(
-                    SctpConstrIter(SctpIteratorType.SCTP_ITERATOR_5F_A_A_A_F,
-                        [
-                            object,
-                            sc_type_arc_common | sc_type_const,
-                            sc_type_link,
-                            sc_type_arc_pos_const_perm,
-                            MapKeynodes.get("nrel_osm_query")
-                        ])
-                ).done(function (results) {
-                    if (results.exist())
-                        deferred.resolve();
-                    else
-                        deferred.reject();
+                return new Promise((resolve, reject) => {
+                    let template = new sc.ScTemplate();
+                    template.triple(
+                        new sc.ScAddr(object),
+                        sc.ScType.EdgeDCommonConst,
+                        sc.ScType.LinkVar,
+                        sc.ScType.EdgeAccessVarPosPerm,
+                        new sc.ScAddr(MapKeynodes.get("nrel_osm_query"))
+                    );
+                    window.scClient.templateSearch(template)
+                    .then(result => {
+                        if (result.length) {
+                            resolve();
+                        }
+                        else {
+                            reject();
+                        }
+                    });
                 })
-                    .fail(deferred.reject);
-                return deferred.promise();
             },
             extractIdentifier: function (object) {
-                window.sctpClient.iterate_constr(
-                    SctpConstrIter(SctpIteratorType.SCTP_ITERATOR_5F_A_A_A_F,
-                        [
-                            object,
-                            sc_type_arc_common | sc_type_const,
-                            sc_type_link,
-                            sc_type_arc_pos_const_perm,
-                            MapKeynodes.get("nrel_main_idtf")
-                        ], {"identifier": 2}),
-                    SctpConstrIter(SctpIteratorType.SCTP_ITERATOR_3F_A_F,
-                        [
-                            MapKeynodes.get("lang_ru"),
-                            sc_type_arc_pos_const_perm,
-                            "identifier"
-                        ])
-                ).done(function (results) {
-                    window.sctpClient.get_link_content(results.get(0, "identifier"))
-                        .done(function (title) {
-                            fluxify.doAction('changeObject', {id: object, title: title});
-                        });
+                let template = new sc.ScTemplate();
+                template.tripleWithRelation(
+                    new sc.ScAddr(object),
+                    sc.ScType.EdgeDCommonConst,
+                    [sc.ScType.LinkVar, "_link"],
+                    sc.ScType.EdgeAccessVarPosPerm,
+                    new sc.ScAddr(MapKeynodes.get("nrel_main_idtf"))
+                );
+                template.triple(
+                    new sc.ScAddr(MapKeynodes.get("lang_ru")),
+                    sc.ScType.EdgeAccessVarPosPerm,
+                    "_link"
+                );
+                window.scClient.templateSearch(template)
+                .then(result => {
+                    window.scClient.getLinkContents(result[0].get("_link"))
+                    .then(result => {
+                        fluxify.doAction('changeObject', {id: object, title: result[0].data});
+                    });
                 });
             },
             extractImage: function (object) {
-                window.sctpClient.iterate_constr(
-                    SctpConstrIter(SctpIteratorType.SCTP_ITERATOR_5A_A_F_A_F,
-                        [
-                            sc_type_node,
-                            sc_type_arc_pos_const_perm,
-                            object,
-                            sc_type_arc_pos_const_perm,
-                            MapKeynodes.get("rrel_key_sc_element")
-                        ], {"image_node": 0}),
-                    SctpConstrIter(SctpIteratorType.SCTP_ITERATOR_3F_A_F,
-                        [
-                            MapKeynodes.get("sc_illustration"),
-                            sc_type_arc_pos_const_perm,
-                            "image_node"
-                        ]),
-                    SctpConstrIter(SctpIteratorType.SCTP_ITERATOR_5A_A_F_A_F,
-                        [
-                            sc_type_node,
-                            sc_type_arc_common | sc_type_const,
-                            "image_node",
-                            sc_type_arc_pos_const_perm,
-                            MapKeynodes.get("nrel_sc_text_translation")
-                        ], {"translation_node": 0}),
-                    SctpConstrIter(SctpIteratorType.SCTP_ITERATOR_5F_A_A_A_F,
-                        [
-                            "translation_node",
-                            sc_type_arc_pos_const_perm,
-                            sc_type_link,
-                            sc_type_arc_pos_const_perm,
-                            MapKeynodes.get("rrel_example")
-                        ], {"image": 2})
-                ).done(function (results) {
-                    var image = "api/link/content/?addr=" + results.get(0, "image");
+                let template = new sc.ScTemplate();
+                template.tripleWithRelation(
+                    [sc.ScType.NodeVar, "_node"],
+                    sc.ScType.EdgeDCommonConst,
+                    new sc.ScAddr(object),
+                    sc.ScType.EdgeAccessVarPosPerm,
+                    new sc.ScAddr(MapKeynodes.get("rrel_key_sc_element"))
+                );
+                template.triple(
+                    new sc.ScAddr(MapKeynodes.get("sc_illustration")),
+                    sc.ScType.EdgeAccessVarPosPerm,
+                    "_node"
+                );
+                template.tripleWithRelation(
+                    [sc.ScType.NodeVar, "_translation_node"],
+                    sc.ScType.EdgeDCommonConst,
+                    "_node",
+                    sc.ScType.EdgeAccessVarPosPerm,
+                    new sc.ScAddr(MapKeynodes.get("nrel_sc_text_translation"))
+                );
+                template.tripleWithRelation(
+                    "_translation_node",
+                    sc.ScType.EdgeDCommonConst,
+                    [sc.ScType.LinkVar, "_image_link"],
+                    sc.ScType.EdgeAccessVarPosPerm,
+                    new sc.ScAddr(MapKeynodes.get("rrel_example"))
+                );
+                window.scClient.templateSearch(template)
+                .then(result => {
+                    const image = "api/link/content/?addr=" + result[0].get("_image_link");
                     fluxify.doAction('changeObject', {id: object, image: image});
                 });
             },
             extractDescription: function (object) {
-                window.sctpClient.iterate_constr(
-                    SctpConstrIter(SctpIteratorType.SCTP_ITERATOR_5A_A_F_A_F,
-                        [
-                            sc_type_node,
-                            sc_type_arc_pos_const_perm,
-                            object,
-                            sc_type_arc_pos_const_perm,
-                            MapKeynodes.get("rrel_key_sc_element")
-                        ], {"description_node": 0}),
-                    SctpConstrIter(SctpIteratorType.SCTP_ITERATOR_3F_A_F,
-                        [
-                            MapKeynodes.get("sc_definition"),
-                            sc_type_arc_pos_const_perm,
-                            "description_node"
-                        ]),
-                    SctpConstrIter(SctpIteratorType.SCTP_ITERATOR_5A_A_F_A_F,
-                        [
-                            sc_type_node,
-                            sc_type_arc_common | sc_type_const,
-                            "description_node",
-                            sc_type_arc_pos_const_perm,
-                            MapKeynodes.get("nrel_sc_text_translation")
-                        ], {"translation_node": 0}),
-                    SctpConstrIter(SctpIteratorType.SCTP_ITERATOR_5F_A_A_A_F,
-                        [
-                            "translation_node",
-                            sc_type_arc_pos_const_perm,
-                            sc_type_link,
-                            sc_type_arc_pos_const_perm,
-                            MapKeynodes.get("rrel_example")
-                        ], {"description": 2}),
-                    SctpConstrIter(SctpIteratorType.SCTP_ITERATOR_3F_A_F,
-                        [
-                            MapKeynodes.get("lang_ru"),
-                            sc_type_arc_pos_const_perm,
-                            "description"
-                        ])
-                ).done(function (results) {
-                    window.sctpClient.get_link_content(results.get(0, "description"))
-                        .done(function (description) {
-                            fluxify.doAction('changeObject', {id: object, description: description});
-                        });
+                let template = new sc.ScTemplate();
+                template.tripleWithRelation(
+                    [sc.ScType.NodeVar, "_node"],
+                    sc.ScType.EdgeDCommonConst,
+                    new sc.ScAddr(object),
+                    sc.ScType.EdgeAccessVarPosPerm,
+                    new sc.ScAddr(MapKeynodes.get("rrel_key_sc_element"))
+                );
+                template.triple(
+                    new sc.ScAddr(MapKeynodes.get("sc_definition")),
+                    sc.ScType.EdgeAccessVarPosPerm,
+                    "_node"
+                );
+                template.tripleWithRelation(
+                    [sc.ScType.NodeVar, "_translation_node"],
+                    sc.ScType.EdgeDCommonConst,
+                    "_node",
+                    sc.ScType.EdgeAccessVarPosPerm,
+                    new sc.ScAddr(MapKeynodes.get("nrel_sc_text_translation"))
+                );
+                template.tripleWithRelation(
+                    "_translation_node",
+                    sc.ScType.EdgeDCommonConst,
+                    [sc.ScType.LinkVar, "_description_link"],
+                    sc.ScType.EdgeAccessVarPosPerm,
+                    new sc.ScAddr(MapKeynodes.get("rrel_example"))
+                );
+                template.triple(
+                    new sc.ScAddr(MapKeynodes.get("lang_ru")),
+                    sc.ScType.EdgeAccessVarPosPerm,
+                    "_description_link"
+                );
+                window.scClient.templateSearch(template)
+                .then(result => {
+                    window.scClient.getLinkContents(result[0].get("_description_link"))
+                    .then(descriptions => {
+                        fluxify.doAction('changeObject', {id: object, description: descriptions[0].data});
+                    });
                 });
             },
             extractCoordinates: function (object) {
-                var self = this;
-                window.sctpClient.iterate_constr(
-                    SctpConstrIter(SctpIteratorType.SCTP_ITERATOR_5F_A_A_A_F,
-                        [
-                            object,
-                            sc_type_arc_common | sc_type_const,
-                            sc_type_link,
-                            sc_type_arc_pos_const_perm,
-                            MapKeynodes.get("nrel_osm_query")
-                        ], {"query": 2})
-                ).done(function (results) {
-                    window.sctpClient.get_link_content(results.get(0, "query"))
-                        .done((query) => {
-                            self.extractGeoJSON(object, query);
-                        });
+                let template = new sc.ScTemplate();
+                template.tripleWithRelation(
+                    new sc.ScAddr(object),
+                    sc.ScType.EdgeDCommonConst,
+                    [sc.ScType.LinkVar, "_query_link"],
+                    sc.ScType.EdgeAccessVarPosPerm,
+                    new sc.ScAddr(MapKeynodes.get("nrel_osm_query"))
+                );
+                window.scClient.templateSearch(template)
+                .then(result => {
+                    window.scClient.getLinkContents(result[0].get("_description_link"))
+                    .then(quieries => {
+                        self.extractGeoJSON(object, quieries[0].data);
+                    });
                 });
             },
             extractGeoJSON: function (id, query) {

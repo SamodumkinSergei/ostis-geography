@@ -1,0 +1,37 @@
+concept_address
+
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	[адрес]
+	(* <- lang_ru;; *);
+	[address]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+		[Опр. (адрес)]
+		(* <- lang_ru;; *);
+		[Def. (address)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Адрес — местонахождение, местожительство, а также обозначение, название местонахождения, местожительства.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Address - the particulars of the place where someone lives or an organization is situated.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_address
+		};;
+	*);;

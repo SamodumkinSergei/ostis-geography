@@ -1,23 +1,17 @@
-set(SOURCES
-        "StreetSearchAgentModule.cpp"
-        "keynodes/keynodes.cpp"
-        "agents/StreetSearchAgent.cpp"
-        )
+set(SC_COMMON_MODULE_SRC "${CMAKE_CURRENT_LIST_DIR}/commonModule")
+set(CATCH_DIR "${SC_MACHINE_PATH}/generated/lib/Catch2")
 
-set(HEADERS
-        "StreetSearchAgentModule.hpp"
-        "keynodes/keynodes.hpp"
-        "agents/StreetSearchAgent.hpp"
-        )
+if (EXISTS ${CATCH_DIR})
+	include_directories(${CATCH_DIR})
+endif ()
 
-include_directories(
-		${CMAKE_CURRENT_LIST_DIR}
-		${SC_MEMORY_SRC}
-		${SC_KPM_SRC}
-		${SC_TOOLS_SRC}
-		${SC_COMMON_MODULE_SRC})
+include_directories(${SC_MACHINE_PATH}/sc-memory/sc-test-framework)
 
-add_library(StreetSearchAgentModule SHARED ${SOURCES} ${HEADERS})
-target_link_libraries(StreetSearchAgentModule sc-memory sc-agents-common)
-
-sc_codegen_ex(StreetSearchAgentModule ${CMAKE_CURRENT_LIST_DIR} ${CMAKE_CURRENT_LIST_DIR}/generated)
+add_subdirectory(AdminModule)
+add_subdirectory(dance_studiosModule)
+add_subdirectory(PotteryModule)
+add_subdirectory(RiversModule)
+add_subdirectory(VitebskVillagesModule)
+add_subdirectory(StatusAndDistrictSearchModule)
+add_subdirectory(VillagesModule)
+add_subdirectory(StreetSearchAgentModule)

@@ -1,0 +1,21 @@
+ui_menu_largerVillageByPopulationInTheDistrict <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+ui_menu_largerVillageByPopulationInTheDistrict
+=> nrel_main_idtf: 
+	[СамаяНаселеннаяДеревняВРайоне]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf: 
+	[largerVillageByPopulationInTheDistrict]
+	(* <- lang_en;; *);;
+
+ui_menu_largerVillageByPopulationInTheDistrict => ui_nrel_command_template:
+	[*
+		question_largerVillageByPopulationInTheDistrict _-> ._question_largerVillageByPopulationInTheDistrict_instance
+			(*
+				_-> rrel_1::ui_arg_1;;
+			*);;
+		._question_largerVillageByPopulationInTheDistrict_instance _<- question;;
+	*];;
+
+ui_menu_largerVillageByPopulationInTheDistrict => ui_nrel_command_lang_template: [largerVillageByPopulationInTheDistrict $ui_arg_1] (* <- lang_ru;; *);;
+ui_menu_largerVillageByPopulationInTheDistrict => ui_nrel_command_lang_template: [largerVillageByPopulationInTheDistrict $ui_arg_1] (* <- lang_en;; *);;

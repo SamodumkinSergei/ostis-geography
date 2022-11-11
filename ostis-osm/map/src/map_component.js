@@ -3,7 +3,7 @@ MapComponent = {
     formats: ['format_openstreetmap_view'],
     struct_support: true,
     factory: function (sandbox) {
-        var viewer = new MapViewer(sandbox);
+        const viewer = new MapViewer(sandbox);
         viewer.init();
         return viewer;
     }
@@ -24,44 +24,51 @@ MapViewer.prototype.init = function () {
 };
 
 MapViewer.prototype._callGenerateOSMQueryAgent = function () {
-    let self = this;
-    var question = $('a.history-item.active').attr("sc_addr");
-    window.sctpClient.iterate_elements(SctpIteratorType.SCTP_ITERATOR_3F_A_A, [
-        question,
-        sc_type_arc_pos_const_perm,
-        sc_type_node]).done(function (it) {
-        var question_arg = it[0][2];
-        SCWeb.core.Server.resolveScAddr(["ui_menu_generate_osm_query"],
-            function (data) {
-                var cmd = data["ui_menu_generate_osm_query"];
+    const question = $('a.history-item.active').attr("sc_addr");
+    let template = new sc.ScTemplate();
+    template.triple(
+        new sc.ScAddr(question),
+        sc.ScType.EdgeAccessVarPosPerm,
+        sc.ScType.NodeVar
+    );
+    window.scClient.templateSearch(template)
+    .then(result => {
+        const question_arg = result[0].get(2);
+        SCWeb.core.Server.resolveScAddr(["ui_menu_generate_osm_query", 'nrel_answer'])
+            .then(keynodes => {
+                const cmd = keynodes["ui_menu_generate_osm_query"];
                 SCWeb.core.Server.doCommand(cmd,
                     [question_arg], function (plain_text_result) {
                         console.log("GenerateOSMQueryAgent is done");
-                        var result_question_node = plain_text_result.question;
-                        setTimeout(function () {
-                            SCWeb.core.Server.resolveScAddr(['nrel_answer'], function (keynodes) {
-                                var nrel_answer_addr = keynodes['nrel_answer'];
-                                window.sctpClient.iterate_elements(SctpIteratorType.SCTP_ITERATOR_5F_A_A_A_F, [
-                                    result_question_node,
-                                    sc_type_arc_common | sc_type_const,
-                                    sc_type_node,
-                                    sc_type_arc_pos_const_perm,
-                                    nrel_answer_addr])
-                                    .done(function (iter) {
-                                        var answer = iter[0][2];
-                                        window.sctpClient.iterate_elements(SctpIteratorType.SCTP_ITERATOR_3F_A_A, [
-                                            answer,
-                                            sc_type_arc_pos_const_perm,
-                                            sc_type_link])
-                                            .done(function (it3) {
-                                                var answ_cont = it3[0][2];
-                                                window.sctpClient.get_link_content(answ_cont, 'string')
-                                                    .done(function (content) {
-                                                        console.log("query: " + content);
-                                                        self.sandbox.updateContent();
-                                                    });
-                                            });
+                        const result_question_node = plain_text_result.question;
+                        setTimeout(() => {
+                            const nrel_answer_addr = keynodes['nrel_answer'];
+                            let template = new sc.ScTemplate();
+                            template.tripleWithRelation(
+                                new sc.ScAddr(result_question_node),
+                                sc.ScType.EdgeDCommonVar,
+                                sc.ScType.NodeVar,
+                                sc.ScType.EdgeAccessVarPosPerm,
+                                new sc.ScAddr(nrel_answer_addr)
+                            );
+                            window.scClient.templateSearch(template)
+                            .then((result) => {
+                                const answer = result[0].get(2);
+                                let template = new sc.ScTemplate();
+                                template.triple(
+                                    answer,
+                                    sc.ScType.EdgeAccessVarPosPerm,
+                                    sc.ScType.LinkVar
+                                );
+                                window.scClient.templateSearch(template)
+                                .then((result) => {
+                                    const answ_cont = result[0].get(2);
+                                    window.scClient.getLinkContents(answ_cont)
+                                    .then((content) => {
+                                        console.log("query: " + content[0].data);
+                                        self.sandbox.updateContent();
                                     });
+                                });
                             });
                         }, 1000);
                     });
@@ -74,8 +81,8 @@ MapViewer.prototype.initCallback = function () {
 }
 
 MapViewer.prototype.createReactComponent = function () {
-    var store = this.createStore();
-    var mapInterface = React.createElement(MapInterface, {store: store});
+    const store = this.createStore();
+    const mapInterface = React.createElement(MapInterface, {store: store});
     ReactDOM.render(mapInterface, document.getElementById(this.sandbox.container));
 }
 
