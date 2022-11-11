@@ -1,0 +1,37 @@
+concept_hardware_store
+
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	[магазин аппаратного обеспечения]
+	(* <- lang_ru;; *);
+	[hardware store]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+		[Опр. (магазин аппаратного обеспечения)]
+		(* <- lang_ru;; *);
+		[Def. (hardware store)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Магазин аппаратного обеспечения — предприятие розничной торговли, размещённое в стационарном здании, оборудованном для продаж товаров и оказания услуг, связанных с аппаратным обеспечением.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Hardware store - retail establishment located in a fixed building equipped for the sale of goods and services related to hardware.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_hardware_store
+		};;
+	*);;

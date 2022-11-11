@@ -7,4 +7,9 @@ endif ()
 
 include_directories(${SC_MACHINE_PATH}/sc-memory/sc-test-framework)
 
+add_subdirectory(AdminModule)
 add_subdirectory(dance_studiosModule)
+add_subdirectory(PotteryModule)
+add_subdirectory(RiversModule)
+add_subdirectory(VitebskVillagesModule)
+add_subdirectory(StatusAndDistrictSearchModule)

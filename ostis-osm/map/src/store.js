@@ -15,7 +15,7 @@ MapStore = {
       },
       actionCallbacks: {
         importObject: function(updater, coordinates) {
-          var objects = Object.assign({}, this.objects);
+          Object.assign({}, this.objects);
           MapUtils.importer(coordinates).import();
         },
         changeObject: function(updater, object) {
