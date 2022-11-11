@@ -1,0 +1,17 @@
+store_electrosila_dzerzhinsky_126
+
+<- sc_node_not_relation;
+
+<- concept_hardware_store;
+
+=> nrel_main_idtf:
+	[Магазин Электросила по адресу Минск, пр-т Дзержинского, 126]
+	(* <- lang_ru;; *);
+	[Electrosila store at Minsk, Dzerzhinsky Ave., 126]
+	(* <- lang_en;; *);
+
+=> nrel_address:
+	[Минск, пр-т Дзержинского, 126]
+	(* <- concept_address;; *);
+
+=> nrel_company: company_electrosila;;

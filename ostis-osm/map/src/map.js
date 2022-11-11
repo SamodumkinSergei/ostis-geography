@@ -1,4 +1,4 @@
-var Map = React.createClass({displayName: "Map",
+const Map = React.createClass({displayName: "Map",
   propTypes: {
     objects: React.PropTypes.array,
     chosen: React.PropTypes.object,
@@ -18,8 +18,8 @@ var Map = React.createClass({displayName: "Map",
 
   createMap: function() {
     this.map = new L.Map('map', {zoomControl: false});
-    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-    var osm = new L.TileLayer(osmUrl, {minZoom: 1, maxZoom: 17});
+    const osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    const osm = new L.TileLayer(osmUrl, {minZoom: 1, maxZoom: 17});
     this.map.addLayer(osm);
   },
 
@@ -40,11 +40,11 @@ var Map = React.createClass({displayName: "Map",
   },
 
   addMarkersToMap: function() {
-    var markers = [];
-    var onMarkerClick = this.props.onMarkerClick;
+    let markers = [];
+    const onMarkerClick = this.props.onMarkerClick;
     this.props.objects.map(function(object) {
       if (!MapUtils.empty(object.geojson)) {
-        var marker = L.geoJSON(object.geojson).on('click', () => onMarkerClick(object));
+        const marker = L.geoJSON(object.geojson).on('click', () => onMarkerClick(object));
         markers.push(marker);
       }
     });

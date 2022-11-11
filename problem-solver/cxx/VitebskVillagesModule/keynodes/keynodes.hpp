@@ -20,9 +20,6 @@ class Keynodes : public ScObject
   SC_GENERATED_BODY()
 
 public:
-
-
-
   SC_PROPERTY(Keynode("question_largerVillageByPopulationInTheDistrict"), ForceCreate)
   static ScAddr question_largerVillageByPopulationInTheDistrict;
 
