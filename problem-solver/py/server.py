@@ -5,6 +5,7 @@ from sc_kpm import ScServer
 from modules.lakes_module.LakesModule import LakesModule
 from modules.open_street_map_module.OpenStreetMapModule import OpenStreetMapModule
 from modules.search_banks_by_type_agent.SearchBanksByTypeModule import SearchBanksByTypeModule
+from modules.street_translator_module.StreetTranslatorModule import StreetTranslatorModule
 
 import logging.config
 from pathlib import Path
@@ -30,7 +31,7 @@ logging.config.dictConfig(
         handlers={
             "stream_handler": {
                 "class": "logging.StreamHandler",
-                "level": logging.DEBUG,
+                "level": logging.INFO,
                 "formatter": "common_formatter",
             },
             "file_handler": {
@@ -56,7 +57,8 @@ def main(args: dict):
         modules = [
             LakesModule(),
             OpenStreetMapModule(),
-            SearchBanksByTypeModule()
+            SearchBanksByTypeModule(),
+            StreetTranslatorModule()
         ]
         server.add_modules(*modules)
 
