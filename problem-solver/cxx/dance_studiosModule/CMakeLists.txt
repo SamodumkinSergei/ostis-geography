@@ -2,9 +2,9 @@ set(SOURCES
         "DanceStudiosModule.cpp"
         "keynodes/DanceStudiosKeynodes.cpp"
         "search/DanceStudiosByPropertyInNumericalRangeFinder.cpp"
-		"agent/SearchDanceStudiosByCityAgent.cpp"
+	      "agent/SearchDanceStudiosByTypeAgent.cpp"
+		    "agent/SearchDanceStudiosByCityAgent.cpp"
         "agent/SearchDanceStudiosByFoundingYearAgent.cpp"
-        "search/DanceStudiosByPropertyInNumericalRangeFinder.cpp"
         "search/DanceStudiosByString.cpp"
         )
 
@@ -12,9 +12,9 @@ set(HEADERS
         "DanceStudiosModule.hpp"
         "keynodes/DanceStudiosKeynodes.hpp"
         "search/DanceStudiosByPropertyInNumericalRangeFinder.hpp"
-		"agent/SearchDanceStudiosByCityAgent.hpp"
+	      "agent/SearchDanceStudiosByTypeAgent.hpp"
+		    "agent/SearchDanceStudiosByCityAgent.hpp"
         "agent/SearchDanceStudiosByFoundingYearAgent.hpp"
-        "search/DanceStudiosByPropertyInNumericalRangeFinder.hpp"
         "search/DanceStudiosByString.hpp"
         )
 
