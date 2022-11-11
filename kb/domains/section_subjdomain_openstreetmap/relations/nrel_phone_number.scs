@@ -1,0 +1,52 @@
+nrel_phone_number
+<-sc_node_norole_relation;
+<-relation;
+<-norole_relation;
+<-binary_relation;
+<-oriented_relation;
+<-antireflexive_relation;
+<-antitransitive_relation;
+<-asymmetric_relation;
+=>nrel_main_idtf:
+	[ номер телефона* ]
+	(* <- lang_ru;; *);
+	[ phone number* ]
+	(* <- lang_en;; *);
+=>nrel_definitional_domain:
+	...
+	(*
+	<= nrel_combination:
+		{
+		concept_preschool_education_institution;
+		concept_phone_number
+		};;
+	*);	
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (номер телефона*)]
+		(* <- lang_ru;; *);
+		[Def. (phone number*)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[номер телефона* — неролевое ориентированное отношение, номер телефона и детский сад.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Close time* - a non-role-oriented relationship linking phone number and a kindergarten.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			nrel_open_time;
+			concept_preschool_education_institution;
+			concept_phone_number
+		};;
+	*);;

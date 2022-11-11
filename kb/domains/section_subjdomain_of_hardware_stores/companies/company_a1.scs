@@ -1,0 +1,43 @@
+company_a1
+
+<- sc_node_not_relation;
+
+<- concept_company;
+
+=> nrel_main_idtf:
+	[A1]
+	(* <- lang_ru;; *);
+	[A1]
+	(* <- lang_en;; *);
+
+=> nrel_website:
+	["https://www.a1.by/"]
+	(* <- concept_website;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+		[Опр. (A1)]
+		(* <- lang_ru;; *);
+		[Def. (A1)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[A1 – белорусский провайдер телекоммуникационных, также обеспечивающий продажу электроники.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[A1 - Belarusian telecommunications provider that also sells electronics.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			company_a1
+		};;
+	*);;
