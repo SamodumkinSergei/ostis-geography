@@ -1,6 +1,7 @@
 set(SOURCES
 		"RiversModule.cpp"
 		"keynodes/keynodes.cpp"
+		"agents/TheBiggestBasinInRegion.cpp"
 		"agents/LongerRiver.cpp"
 		"agents/LongestInRegion.cpp"
 		"agents/BiggerBasin.cpp"
@@ -9,6 +10,7 @@ set(SOURCES
 set(HEADERS
 		"RiversModule.hpp"
 		"keynodes/keynodes.hpp"
+		"agents/TheBiggestBasinInRegion.hpp"
 		"agents/LongerRiver.hpp"
 		"agents/LongestInRegion.hpp"
 		"agents/BiggerBasin.hpp"

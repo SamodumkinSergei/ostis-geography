@@ -20,6 +20,9 @@ class Keynodes : public ScObject
   SC_GENERATED_BODY()
 
 public:
+  SC_PROPERTY(Keynode("question_theBiggestBasinInRegion"), ForceCreate)
+  static ScAddr question_theBiggestBasinInRegion;
+  
   SC_PROPERTY(Keynode("question_longerRiver"), ForceCreate)
   static ScAddr question_longerRiver;
 
