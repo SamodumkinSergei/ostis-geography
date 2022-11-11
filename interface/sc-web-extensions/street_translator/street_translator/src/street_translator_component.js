@@ -9,11 +9,13 @@ StreetTranslatorComponent = {
 };
 
 StreetTranslatorWindow = function (sandbox) {
-
     this.sandbox = sandbox;
     this.sandbox.container = sandbox.container;
 
-    const keynodes = ['ui_street_translator_enName_input', 'ui_street_translator_ruName_input', 'ui_street_translator_count_input',
+    const keynodes = [
+        'ui_street_translator_enName_input',
+        'ui_street_translator_ruName_input',
+        'ui_street_translator_count_input',
         'ui_street_translator_button'];
     const answerButton = '#streetTranslator-' + sandbox.container + " #translate-button";
     const nameInEnglish = '#streetTranslator-' + sandbox.container + " #nameInEnglish";
@@ -38,8 +40,8 @@ StreetTranslatorWindow = function (sandbox) {
     };
 
     function getUIComponentsIdentifiers() {
-        SCWeb.core.Server.resolveScAddr(keynodes, function (keynodes) {
-            SCWeb.core.Server.resolveIdentifiers(keynodes, function (identifiers) {
+        SCWeb.core.Server.resolveScAddr(keynodes).then(keynodes => {
+            SCWeb.core.Server.resolveIdentifiers(keynodes).then(identifiers => {
                 let enNameComponentScAddr = keynodes['ui_street_translator_enName_input'];
                 let enNameComponentText = identifiers[enNameComponentScAddr];
                 //$(nameInEnglish).html(enNameComponentText);
@@ -60,11 +62,9 @@ StreetTranslatorWindow = function (sandbox) {
 
     function startTranslation(enNameAddr, ruNameAddr, countAddr) {
         const actionName = "ui_menu_street_translator";
-        SCWeb.core.Server.resolveScAddr([actionName], function (keynodes) {
+        SCWeb.core.Server.resolveScAddr([actionName]).then(keynodes => {
             let actionScAddr = keynodes[actionName];
-            SCWeb.core.Main.doCommand(actionScAddr, [enNameAddr, ruNameAddr, countAddr], function (res) {
-                //SCWeb.ui.WindowManager.appendHistoryItem(res.question);
-            })
+            SCWeb.core.Main.doCommand(actionScAddr, [enNameAddr, ruNameAddr, countAddr]);
         })
     }
 
