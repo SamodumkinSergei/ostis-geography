@@ -1,0 +1,23 @@
+ui_menu_libraries_town_search <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+ui_menu_libraries_town_search 
+=> nrel_main_idtf: 
+	[Библиотеки города]
+	(* <- lang_ru;; *);;
+
+ui_menu_libraries_town_search
+=> nrel_main_idtf: 
+	[Libraries of town]
+	(* <- lang_en;; *);;
+
+ui_menu_libraries_town_search => ui_nrel_command_template:
+	[*
+		question_libraries_town_-> ._question_libraries_town_instance
+			(*
+				_-> ui_arg_1;;
+			*);;
+		._question_libraries_town_instance _<- question;;
+	*];;
+
+ui_menu_libraries_town_search => ui_nrel_command_lang_template: [Найти библиотеку по городу $ui_arg_1] (* <- lang_ru;; *);;
+ui_menu_libraries_town_search => ui_nrel_command_lang_template: [Find libraries by town $ui_arg_1] (* <- lang_en;; *);;

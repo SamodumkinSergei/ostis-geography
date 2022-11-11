@@ -1,0 +1,9 @@
+lib_component_ui_menu_libraries_town_search
+=> nrel_main_idtf:
+	[Компонент библиотеки. Команда пользовательского интерфейса поиска библиотек по городу]
+	(* <- lang_ru;; *);
+	[Library component. User interfaces command of search of libraries by town]
+	(* <- lang_en;; *);
+
+<- library_of_platform_independent_reusable_components;
+<- library_of_atomic_reusable_components;;
