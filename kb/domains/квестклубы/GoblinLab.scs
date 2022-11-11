@@ -1,0 +1,24 @@
+concept_GoblinLab<-sc_node_not_relation; <- concept_map_object;  <- concept_quest;
+=> nrel_main_idtf:
+    [GoblinLab](*<-lang_ru;;*);
+    [GoblinLab](*<-lang_en;;*);
+=> nrel_gps:
+    [53.897185,27.569107];
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;
+=>nrel_address:
+    [Минск,ул. Ульяновская, 3];
+=>nrel_street:
+    uljanovskaja;
+=>nrel_age_category:
+    18;
+=>nrel_open_time:
+    09;
+=>nrel_close_time:
+    23;
+=>nrel_average_price:
+    40;
+=>nrel_price_currency:
+    BYN;;

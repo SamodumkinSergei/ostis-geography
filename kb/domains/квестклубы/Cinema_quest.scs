@@ -1,0 +1,24 @@
+concept_Cinema_quest<-sc_node_not_relation; <- concept_map_object;  <- concept_quest;
+=> nrel_main_idtf:
+    [Cinema-quest](*<-lang_ru;;*);
+    [Cinema_quest](*<-lang_en;;*);
+=> nrel_gps:
+    [53.928864,27.612532];
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;
+=>nrel_address:
+    [Минск, ул. Толбухина, 10А];
+=>nrel_street:
+    tolbuhina;
+=>nrel_age_category:
+    18;
+=>nrel_open_time:
+    09;
+=>nrel_close_time:
+    23;
+=>nrel_average_price:
+    25;
+=>nrel_price_currency:
+    BYN;;

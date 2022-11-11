@@ -1,0 +1,35 @@
+ui_menu_file_for_finding_quest_by_age_category <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+ui_menu_file_for_finding_quest_by_age_category
+=> nrel_main_idtf: 
+	[Какие квеструмы соответсвуют заданной возрастной категории?] 
+	(* <- lang_ru;; *);
+=> nrel_idtf: 
+	[Запрос всех квеструмов с указанной возрастной категорией.] 
+	(* <- lang_ru;; *);;
+
+ui_menu_file_for_finding_quest_by_age_category
+=> nrel_main_idtf: 
+	[Which quests correspond to the specified age category?] 
+	(* <- lang_en;; *);
+=> nrel_idtf: 
+	[Request all quests with the specified age category.] 
+	(* <- lang_en;; *);;
+
+ui_menu_file_for_finding_quest_by_age_category => ui_nrel_command_template:
+	[*
+		action_of_finding_quest_by_age_category _-> ._action_of_finding_quest_by_age_category
+			(*
+			_-> rrel_1:: ui_arg_1;;	
+			_-> rrel_2:: ui_arg_2;;			
+			*);;
+		._action_of_finding_quest_by_age_category _<- question;;
+	*];;
+
+ui_menu_file_for_finding_quest_by_age_category => ui_nrel_command_lang_template: 
+	[Какие квесты в городе $ui_arg_1 сотетсвуют указанной возрастной категории $ui_arg_2 ?] 
+	(* <- lang_ru;; *);;
+
+ui_menu_file_for_finding_quest_by_age_category => ui_nrel_command_lang_template: 
+	[What quests in the city of $ ui_arg_1 corresponds to age category $ ui_arg_2 street?] 
+	(* <- lang_en;; *);;

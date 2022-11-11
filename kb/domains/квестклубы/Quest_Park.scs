@@ -1,0 +1,24 @@
+concept_Quest_Park<-sc_node_not_relation; <- concept_map_object;  <- concept_quest;
+=> nrel_main_idtf:
+    [Квест парк](*<-lang_ru;;*);
+    [Quest Park](*<-lang_en;;*);
+=> nrel_gps:
+    [55.169409,30.224168];
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    vitebsk;
+=>nrel_address:
+    [Витебск, просп. Победы, 15];
+=>nrel_street:
+    pobedy;
+=>nrel_age_category:
+    14;
+=>nrel_open_time:
+    10;
+=>nrel_close_time:
+    20;
+=>nrel_average_price:
+    30;
+=>nrel_price_currency:
+    BYN;;

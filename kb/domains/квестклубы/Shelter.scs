@@ -1,0 +1,24 @@
+concept_Shelter<-sc_node_not_relation; <- concept_map_object;  <- concept_quest;
+=> nrel_main_idtf:
+    [Убежище](*<-lang_ru;;*);
+    [Shelter](*<-lang_en;;*);
+=> nrel_gps:
+    [53.672761,23.808284];
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    grodno;
+=>nrel_address:
+    [Гродно, ул. Гагарина, 41];
+=>nrel_street:
+    gagarina;
+=>nrel_age_category:
+    14;
+=>nrel_open_time:
+    11;
+=>nrel_close_time:
+    21;
+=>nrel_average_price:
+    25;
+=>nrel_price_currency:
+    BYN;;

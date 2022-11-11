@@ -1,0 +1,24 @@
+concept_Anti_quest<-sc_node_not_relation; <- concept_map_object;  <- concept_quest;
+=> nrel_main_idtf:
+    [Anti-quest](*<-lang_ru;;*);
+    [Anti_quest](*<-lang_en;;*);
+=> nrel_gps:
+    [53.869989,27.653053];
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;
+=>nrel_address:
+    [Минск,ул. Украинская, 5];
+=>nrel_street:
+    ukrainskaja;
+=>nrel_age_category:
+    16;
+=>nrel_open_time:
+    11;
+=>nrel_close_time:
+    22;
+=>nrel_average_price:
+    35;
+=>nrel_price_currency:
+    BYN;;

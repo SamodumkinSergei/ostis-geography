@@ -1,0 +1,24 @@
+concept_Pripyat<-sc_node_not_relation; <- concept_map_object;  <- concept_quest;
+=> nrel_main_idtf:
+    [Припять](*<-lang_ru;;*);
+    [Pripyat](*<-lang_en;;*);
+=> nrel_gps:
+    [52.12829,23.658129];
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    brest;
+=>nrel_address:
+    [Брест, ул. Сосновая, 4/1];
+=>nrel_street:
+    sosnovaja;
+=>nrel_age_category:
+    14;
+=>nrel_open_time:
+    10;
+=>nrel_close_time:
+    20;
+=>nrel_average_price:
+    45;
+=>nrel_price_currency:
+    BYN;;

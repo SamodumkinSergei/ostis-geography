@@ -1,0 +1,24 @@
+concept_Vr_Zone<-sc_node_not_relation; <- concept_map_object;  <- concept_quest;
+=> nrel_main_idtf:
+    [Vr Zone](*<-lang_ru;;*);
+    [Vr Zone](*<-lang_en;;*);
+=> nrel_gps:
+    [53.86075,27.478713];
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;
+=>nrel_address:
+    [Минск, просп. Дзержинского, 104, корп. 2];
+=>nrel_street:
+    dzerzhinskogo;
+=>nrel_age_category:
+    14;
+=>nrel_open_time:
+    10;
+=>nrel_close_time:
+    21;
+=>nrel_average_price:
+    35;
+=>nrel_price_currency:
+    BYN;;

@@ -1,0 +1,24 @@
+concept_Saw<-sc_node_not_relation; <- concept_map_object;  <- concept_quest;
+=> nrel_main_idtf:
+    [Пила](*<-lang_ru;;*);
+    [Saw](*<-lang_en;;*);
+=> nrel_gps:
+    [53.915772,27.522017];
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;
+=>nrel_address:
+    [Минск, ул. Тимирязева, 44];
+=>nrel_street:
+    timirjazeva;
+=>nrel_age_category:
+    18;
+=>nrel_open_time:
+    09;
+=>nrel_close_time:
+    01;
+=>nrel_average_price:
+    65;
+=>nrel_price_currency:
+    BYN;;

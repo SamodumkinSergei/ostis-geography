@@ -1,0 +1,24 @@
+concept_Lasertime<-sc_node_not_relation; <- concept_map_object;  <- concept_quest;
+=> nrel_main_idtf:
+    [Lasertime](*<-lang_ru;;*);
+    [Lasertime](*<-lang_en;;*);
+=> nrel_gps:
+    [52.093879,23.716492];
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    brest;
+=>nrel_address:
+    [Брест, ул. Сикорского, 76];
+=>nrel_street:
+    sikorskogo;
+=>nrel_age_category:
+    16;
+=>nrel_open_time:
+    09;
+=>nrel_close_time:
+    22;
+=>nrel_average_price:
+    25;
+=>nrel_price_currency:
+    BYN;;
