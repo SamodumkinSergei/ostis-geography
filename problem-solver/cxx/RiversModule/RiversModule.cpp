@@ -15,6 +15,7 @@ sc_result RiversModule::InitializeImpl()
   SC_AGENT_REGISTER(LongerRiver)
   SC_AGENT_REGISTER(LongestInRegion)
   SC_AGENT_REGISTER(BiggerBasin)
+  SC_AGENT_REGISTER(ShorterRiver)
 
   return SC_RESULT_OK;
 }
@@ -25,7 +26,7 @@ sc_result RiversModule::ShutdownImpl()
   SC_AGENT_UNREGISTER(LongerRiver)
   SC_AGENT_UNREGISTER(LongestInRegion)
   SC_AGENT_UNREGISTER(BiggerBasin)
-
+  SC_AGENT_UNREGISTER(ShorterRiver)
   return SC_RESULT_OK;
 }
 }

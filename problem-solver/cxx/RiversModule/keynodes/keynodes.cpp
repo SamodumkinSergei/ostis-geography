@@ -12,6 +12,7 @@ ScAddr Keynodes::question_longestInRegion;
 ScAddr Keynodes::question_theBiggestBasinInRegion;
 ScAddr Keynodes::question_longerRiver;
 ScAddr Keynodes::question_biggerBasin;
+ScAddr Keynodes::question_shorterRiver;
 ScAddr Keynodes::nrel_main_idtf;
 ScAddr Keynodes::nrel_length;
 ScAddr Keynodes::nrel_basin;

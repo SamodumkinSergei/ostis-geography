@@ -26,6 +26,9 @@ public:
   SC_PROPERTY(Keynode("question_longerRiver"), ForceCreate)
   static ScAddr question_longerRiver;
 
+  SC_PROPERTY(Keynode("question_shorterRiver"), ForceCreate)
+  static ScAddr question_shorterRiver;
+
   SC_PROPERTY(Keynode("question_biggerBasin"), ForceCreate)
   static ScAddr question_biggerBasin;
 
