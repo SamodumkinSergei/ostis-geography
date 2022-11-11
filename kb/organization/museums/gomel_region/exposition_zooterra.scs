@@ -1,0 +1,14 @@
+exposition_zooterra <- concept_museum;
+=> nrel_main_idtf:
+   [Exposition "ZOOTERRA"]
+   (* <- lang_en;; <- name_en;;*);
+   [Экспозиция «ZООТЕРРА»]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375-232-75-89-11;+375-232-75-80-93;+375-29-174-19-11]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [http://www.palacegomel.by/index.php?newsid=1557]
+   (*<-concept_site;;*);
+=> nrel_region:
+   gomel_region;;

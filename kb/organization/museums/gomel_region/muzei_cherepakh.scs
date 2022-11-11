@@ -1,0 +1,11 @@
+muzei_cherepakh <- concept_museum;
+=> nrel_main_idtf:
+   [Muzei cherepakh]
+   (* <- lang_en;; <- name_en;;*);
+   [Музей черепах]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_site:
+   [http://www.rcvr.guo.by/e/868-informatsionno-ekologicheskiy-tsentr]
+   (*<-concept_site;;*);
+=> nrel_region:
+   gomel_region;;
