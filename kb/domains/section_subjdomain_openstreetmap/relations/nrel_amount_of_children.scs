@@ -1,0 +1,52 @@
+nrel_amount_of_children
+<-sc_node_norole_relation;
+<-relation;
+<-norole_relation;
+<-binary_relation;
+<-oriented_relation;
+<-antireflexive_relation;
+<-antitransitive_relation;
+<-asymmetric_relation;
+=>nrel_main_idtf:
+	[ количество детей* ]
+	(* <- lang_ru;; *);
+	[ amount of children* ]
+	(* <- lang_en;; *);
+=>nrel_definitional_domain:
+	...
+	(*
+	<= nrel_combination:
+		{
+		concept_preschool_education_institution;
+		concept_amount_of_children
+		};;
+	*);	
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (количество детей*)]
+		(* <- lang_ru;; *);
+		[Def. (amount of children*)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Время закрытия* — неролевое ориентированное отношение, количество детей и детский сад.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Close time* - a non-role-oriented relationship linking amount of children and a kindergarten.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			nrel_open_time;
+			concept_preschool_education_institution;
+			concept_amount_of_children
+		};;
+	*);;

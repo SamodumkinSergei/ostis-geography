@@ -7,6 +7,8 @@ from modules.open_street_map_module.OpenStreetMapModule import OpenStreetMapModu
 from modules.search_banks_by_type_agent.SearchBanksByTypeModule import SearchBanksByTypeModule
 from modules.search_banks_by_city_agent.SearchBanksByCityModule import SearchBanksByCityModule
 from modules.street_translator_module.StreetTranslatorModule import StreetTranslatorModule
+from modules.search_kindergartens_by_region_agent.SearchKindergartensByRegionModule import SearchKindergartensByRegionModule
+from modules.search_kindergartens_by_district_agent.SearchKindergartensByDistrictModule import SearchKindergartensByDistrictModule
 
 import logging.config
 from pathlib import Path
@@ -60,7 +62,9 @@ def main(args: dict):
             OpenStreetMapModule(),
             SearchBanksByTypeModule(),
             SearchBanksByCityModule(),
-            StreetTranslatorModule()
+            StreetTranslatorModule(),
+            SearchKindergartensByDistrictModule(),
+            SearchKindergartensByRegionModule()
         ]
         server.add_modules(*modules)
 
