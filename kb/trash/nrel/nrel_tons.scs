@@ -1,0 +1,33 @@
+nrel_tons
+	<- sc_node_norole_relation;
+	=> nrel_main_idtf: [тоны*] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [tons] (* <- lang_en;; *);;
+
+nrel_tons => nrel_definitional_domain: ...
+	(*
+		<= nrel_combination: ...
+			(*
+				-> object (* <= nrel_first_domain: nrel_tons;; *);;
+				-> number (* <= nrel_second_domain: nrel_tons;; *);;
+			*);;
+	*);;
+
+
+nrel_tons
+	<- binary_relation;
+	<- oriented_relation;
+	<- antireflexive_relation;
+	<- antisymmetric_relation;
+	<- antitransitive_relation;;
+
+
+definition -> ...
+	(*
+		=> nrel_main_idtf: [Опр.(тоны*)] (* <-lang_ru;; *);;
+		-> rrel_key_sc_element: nrel_tons;;
+
+		<= nrel_sc_text_translation: ...
+			(*
+				->[измерение в тонах] (* <- lang_ru;; *);;
+			*);;
+	*);;

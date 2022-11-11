@@ -1,0 +1,35 @@
+concept_silt_landfields_mogilev_region
+<-sc_node_not_relation;
+=>nrel_search_area:
+    mogilev_region;
+	<-concept_way;=>nrel_main_idtf:
+	[Иловые площадки]
+	(* <- lang_ru;;<-name;; *);
+	[silt landfields]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Иловые площадки)]
+		(* <- lang_ru;; *);
+		[Def. (silt landfields)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Иловые площадки  Могилёвского района]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[silt landfields of Morilev region]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{landfill;
+		silt_landfields_mogilev_region};;
+    *);;

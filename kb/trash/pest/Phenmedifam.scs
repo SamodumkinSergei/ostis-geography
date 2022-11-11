@@ -1,0 +1,30 @@
+Phenmedifam
+<-sc_node_not_relation;=>nrel_main_idtf:
+	[Фенмедифам]
+	(* <- lang_ru;; *);
+	[Phenmedifam]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Фенмедифам)]
+		(* <- lang_ru;; *);
+		[Def. (Phenmedifam)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Химически чистое вещество – бесцветные кристаллы. В воде слабо растворимы, лучше – в органических растворителях. (ацетон, циклогексанон) – до 20%. По степени летучести относится к малолетучим соединениям.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Chemically pure substance - colorless crystals. Slightly soluble in water, better in organic solvents. (acetone, cyclohexanone) - up to 20%. According to the degree of volatility, it belongs to low-volatile compounds.]
+			(* <- lang_en;; *);;
+		*);;
+  *);;
+

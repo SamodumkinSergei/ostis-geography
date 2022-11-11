@@ -1,0 +1,15 @@
+tiles <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Tiles]
+    (* <- lang_en;; <- name_en;;*);
+    [Изразцы]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+
+
+<- rrel_key_sc_element: ...(*
+    <- definition;;
+    => nrel_main_idtf: [Опр.(Изразцы)] (* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ...(*
+            -> [ Керамические плитки, используемые для облицовки каминов, печей, стен.] (* <- lang_ru;; *);;
+      *);;
+  *);;

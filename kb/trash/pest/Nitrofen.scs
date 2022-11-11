@@ -1,0 +1,30 @@
+Nitrofen
+<-sc_node_not_relation;=>nrel_main_idtf:
+	[Нитрофен]
+	(* <- lang_ru;; *);
+	[Nitrofen]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Нитрофен)]
+		(* <- lang_ru;; *);
+		[Def. (Nitrofen)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Инструкция по применению Нитрафена содержит описание дозировки и нормы расхода для обработки плодово-ягодных деревьев и кустарников. В общем случае необходимо подготовить раствор слабой концентрации (2-3%) и полить им почву весной или осенью. Это помогает защитить культуры от сорняков, насекомых и различных заболеваний.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Instructions for use Nitrafen contains a description of the dosage and consumption rate for the treatment of fruit trees and shrubs. In general, it is necessary to prepare a solution of low concentration (2-3%) and water the soil with it in spring or autumn. This helps protect crops from weeds, insects and various diseases.]
+			(* <- lang_en;; *);;
+		*);;
+  *);;
+

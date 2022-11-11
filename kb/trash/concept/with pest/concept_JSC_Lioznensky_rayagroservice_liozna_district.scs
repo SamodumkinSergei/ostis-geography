@@ -1,0 +1,39 @@
+concept_JSC_Lioznensky_rayagroservice_liozna_district
+<-sc_node_not_relation;
+=>nrel_search_area:
+    liozna_district;
+	<-concept_way;=>nrel_main_idtf:
+	[ОАО "Лиозненский райагросервис"]
+	(* <- lang_ru;;<-name;; *);
+	[JSC "Lioznensky rayagroservice"]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (ОАО "Лиозненский райагросервис")]
+		(* <- lang_ru;; *);
+		[Def. (JSC "Lioznensky rayagroservice")]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Предлагаемая продукция/услуги: Работы/услуги: ремонт сельхозтехники Сельское хозяйство: животноводство мясо-молочного направления; зерно Оптовая торговля: запчасти к сельхозтехнике; удобрения]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Offered products/services: Works/services: repair of agricultural machinery Agriculture: meat and dairy cattle breeding; corn Wholesale trade: spare parts for agricultural machinery; fertilizer]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{company;
+		concept_JSC_Lioznensky_rayagroservice_liozna_district};;
+    *);;
+
+
+concept_JSC_Lioznensky_rayagroservice_liozna_district=>nrel_stored_pesticides:Debos_sodium_thiocyanate;;
+concept_JSC_Lioznensky_rayagroservice_liozna_district=>nrel_number_of_stocked_pesticides:41(*<-number;;*);;

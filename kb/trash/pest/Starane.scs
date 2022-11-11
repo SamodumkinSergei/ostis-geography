@@ -1,0 +1,30 @@
+Starane
+<-sc_node_not_relation;=>nrel_main_idtf:
+	[Старане]
+	(* <- lang_ru;; *);
+	[Starane]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Старане)]
+		(* <- lang_ru;; *);
+		[Def. (Starane)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Уникальный гербицид применяемый для контроля таких сорняков, как подмаренник, звездчатка, пикульник, щавель, вьюнок полевой, горцы (в т.ч. вьюнковый), крапива и другие на зерновых культурах.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[The unique herbicide is used to control such weeds as bedstraw, chickweed, pikulnik, sorrel, field bindweed, highlanders (including bindweed), nettle and others on grain crops.]
+			(* <- lang_en;; *);;
+		*);;
+  *);;
+

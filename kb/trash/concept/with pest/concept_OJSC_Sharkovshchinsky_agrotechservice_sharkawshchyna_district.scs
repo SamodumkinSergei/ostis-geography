@@ -1,0 +1,46 @@
+concept_OJSC_Sharkovshchinsky_agrotechservice_sharkawshchyna_district
+<-sc_node_not_relation;
+=>nrel_search_area:
+    sharkawshchyna_district;
+	<-concept_way;=>nrel_main_idtf:
+	[ОАО "Шарковщинский агротехсервис"]
+	(* <- lang_ru;;<-name;; *);
+	[OJSC "Sharkovshchinsky agrotechservice"]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (ОАО "Шарковщинский агротехсервис")]
+		(* <- lang_ru;; *);
+		[Def. (OJSC "Sharkovshchinsky agrotechservice")]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Динамично развивающее предприятие сельскохозяйственного профиля. Основными направлениями деятельности являются: мясное и молочное животноводство; ремонт и техническое обслуживание сельскохозяйственной техники; внесение минеральных удобрений. На платной основе организацией оказываются следующие виды услуг: выращивание сельскохозяйственной продукции; перевозка грузов; хранение, погрузка-разгрузка грузов; ремонт и техническое обслуживание машин и тракторов; сварочные и токарные работы; распиловка и строгание древесины.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[A dynamically developing agricultural enterprise. The main activities are: meat and dairy farming; repair and maintenance of agricultural machinery; application of mineral fertilizers. On a paid basis, the organization provides the following types of services: growing agricultural products; transportation of goods; storage, loading and unloading of goods; repair and maintenance of machines and tractors; welding and turning works; sawing and planing of wood.]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{company;
+		concept_OJSC_Sharkovshchinsky_agrotechservice_sharkawshchyna_district};;
+    *);;
+
+
+concept_OJSC_Sharkovshchinsky_agrotechservice_sharkawshchyna_district=>nrel_stored_pesticides:Pesticide_mix;;
+concept_OJSC_Sharkovshchinsky_agrotechservice_sharkawshchyna_district=>nrel_number_of_stocked_pesticides:6.974(*<-number;;*);;
+
+concept_OJSC_Sharkovshchinsky_agrotechservice_sharkawshchyna_district=>nrel_stored_pesticides:Nitrofen;;
+concept_OJSC_Sharkovshchinsky_agrotechservice_sharkawshchyna_district=>nrel_number_of_stocked_pesticides:0.2(*<-number;;*);;
+
+concept_OJSC_Sharkovshchinsky_agrotechservice_sharkawshchyna_district=>nrel_stored_pesticides:Granosan;;
+concept_OJSC_Sharkovshchinsky_agrotechservice_sharkawshchyna_district=>nrel_number_of_stocked_pesticides:0.14(*<-number;;*);;
+

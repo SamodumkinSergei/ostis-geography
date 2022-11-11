@@ -1,0 +1,10 @@
+ruzhanskaya_pottery_workshop <-concept_city;
+=>nrel_main_idtf:
+    [Ruzhanskaya pottery workshop ]
+    (* <- lang_en;; <- name_en;;*);
+    [Ружанская гончарная мастерская]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    ryzhany;=>nrel_type_of_production:workshop;=>nrel_technologies_used:lactation;<-pottery_centre; =>nrel_date:1400(*=>nrel_main_idtf:
+    [1400];;*);;
+

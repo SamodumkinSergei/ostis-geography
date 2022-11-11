@@ -1,0 +1,29 @@
+Vitatiuram
+<-sc_node_not_relation;=>nrel_main_idtf:
+	[Витатиурам]
+	(* <- lang_ru;; *);
+	[Vitatiuram]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Витатиурам)]
+		(* <- lang_ru;; *);
+		[Def. (Vitatiuram)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Применяется для протравливания семян многолетних злаковых кормовых трав и для защиты проса. Для картофеля он не рекомендован. Выпускается в виде смеси с инсектицидами, а также в составе комбинированных препаратов, куда в качестве действующих веществ входят тирам, пентатиурам, гек-сатиурам и витатиурам.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[It is used for dressing seeds of perennial forage grasses and for protection of millet. It is not recommended for potatoes. It is produced in the form of a mixture with insecticides, as well as as part of combined preparations, which include tiram, pentatiuram, hexathiuram and vitatiuram as active ingredients.]
+			(* <- lang_en;; *);;
+		*);;
+  *);;

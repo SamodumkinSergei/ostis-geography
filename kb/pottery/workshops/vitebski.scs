@@ -1,0 +1,10 @@
+vitebski_pottery_workshop <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Vitebski pottery workshop ]
+    (* <- lang_en;; <- name_en;;*);
+    [Витебская гончарная мастерская]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    vitebsk;=>nrel_type_of_production:manufactory;=>nrel_technologies_used:welding;<-pottery_centre; =>nrel_date:1087(*=>nrel_main_idtf:
+    [1087];;*);;
+

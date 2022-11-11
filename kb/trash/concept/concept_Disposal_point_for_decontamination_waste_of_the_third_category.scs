@@ -1,0 +1,35 @@
+concept_Disposal_point_for_decontamination_waste_of_the_third_category
+<-sc_node_not_relation;	<-concept_way;
+=>nrel_search_area:
+   Vietka_district;
+=>nrel_main_idtf:
+	[Пункт захоронения отходов дезактивации третьей категории]
+	(* <- lang_ru;;<-name;; *);
+	[Disposal point for decontamination waste of the third category]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Пункт захоронения отходов дезактивации третьей категории)]
+		(* <- lang_ru;; *);
+		[Def. (Disposal point for decontamination waste of the third category)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Пункт захоронения отходов дезактивации третьей категории ветковский район гомельская область]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Disposal point for decontamination waste of the third category Vetka district Gomel region]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{landfill;
+		Disposal_point_for_decontamination_waste_of_the_third_category};;
+    *);;

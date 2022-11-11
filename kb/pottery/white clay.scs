@@ -1,0 +1,15 @@
+white_clay <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [White clay]
+    (* <- lang_en;; <- name_en;;*);
+    [Белая глина]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+
+
+<- rrel_key_sc_element: ...(*
+    <- definition;;
+    => nrel_main_idtf: [Опр.(Белая глина)] (* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ...(*
+            -> [ Горная порода, состоящая из минерала каолинита.] (* <- lang_ru;; *);;
+      *);;
+  *);;

@@ -1,0 +1,16 @@
+nrel_number_of_stocked_pesticides
+	<- sc_node_norole_relation;
+	=> nrel_main_idtf: [nrel_number_of_stocked_pesticides*] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [nrel_number_of_stocked_pesticides] (* <- lang_en;; *);;
+
+
+
+nrel_stored_pesticides
+	<- binary_relation;
+	<- oriented_relation;
+	<- antireflexive_relation;
+	<- antisymmetric_relation;
+	<- antitransitive_relation;;
+
+
+

@@ -1,0 +1,44 @@
+concept_JSC_Verhnedvinsky_rayagroservice_verkhnyadzvinsk_district
+<-sc_node_not_relation;
+=>nrel_search_area:
+    verkhnyadzvinsk_district;
+	<-concept_way;=>nrel_main_idtf:
+	[ОАО "Верхнедвинский райагросервис"]
+	(* <- lang_ru;;<-name;; *);
+	[JSC "Verhnedvinsky rayagroservice"]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (ОАО "Верхнедвинский райагросервис")]
+		(* <- lang_ru;; *);
+		[Def. (JSC "Verhnedvinsky rayagroservice")]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Создание Дриссенской МТС по решению Совнаркома от 25 марта 1931 года положило начало деятельности нынешнего ОАО «Верхнедвинский райагросервис».]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[The creation of the Drissenskaya MTS by the decision of the Council of People's Commissars of March 25, 1931 laid the foundation for the activities of the current JSC "Verkhnedvinsky rayagroservice".]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{company;
+		concept_JSC_Verhnedvinsky_rayagroservice_verkhnyadzvinsk_district};;
+    *);;
+
+
+concept_JSC_Verhnedvinsky_rayagroservice_verkhnyadzvinsk_district=>nrel_stored_pesticides:Bazocen;;
+concept_JSC_Verhnedvinsky_rayagroservice_verkhnyadzvinsk_district=>nrel_number_of_stocked_pesticides:0.16(*<-number;;*);;
+concept_JSC_Verhnedvinsky_rayagroservice_verkhnyadzvinsk_district=>nrel_stored_pesticides:Ramrod;;
+concept_JSC_Verhnedvinsky_rayagroservice_verkhnyadzvinsk_district=>nrel_number_of_stocked_pesticides:0.095(*<-number;;*);;
+concept_JSC_Verhnedvinsky_rayagroservice_verkhnyadzvinsk_district=>nrel_stored_pesticides:Burifen;;
+concept_JSC_Verhnedvinsky_rayagroservice_verkhnyadzvinsk_district=>nrel_number_of_stocked_pesticides:0.63(*<-number;;*);;
+

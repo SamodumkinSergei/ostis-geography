@@ -1,0 +1,15 @@
+nrel_main_dynasty
+<-sc_node_norole_relation;
+<-relation;
+<-norole_relation;
+<-binary_relation;
+<-oriented_relation;
+<-antireflexive_relation;
+<-antitransitive_relation;
+<-asymmetric_relation;
+=>nrel_main_idtf:
+	[ основная династия* ]
+	(* <- lang_ru;; *);
+	[ main dynasty ]
+	(* <- lang_en;; *);;
+

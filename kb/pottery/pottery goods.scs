@@ -1,0 +1,26 @@
+pottery_goods <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Pottery goods]
+    (* <- lang_en;; <- name_en;;*);
+    [Гончарные изделия]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+
+
+<- rrel_key_sc_element: ...(*
+    <- definition;;
+    => nrel_main_idtf: [Опр.(Гончарные изделия)] (* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ...(*
+            -> [Гончарные изделия - это  наименование любых бытовых или художественных изделий, выполненных из глины или содержащих глину смесей, обожженных в печи или высушенных на солнце.] (* <- lang_ru;; *);;
+      *);;
+  *);
+<- rrel_key_sc_element: ...
+ (*
+   <- illustration;;
+   <= nrel_sc_text_translation: ...
+   (*
+     -> rrel_example: "file://img/Pottery_goods.jpg"
+   (*
+   => nrel_format: format_jpg;;
+   *);;
+  *);;
+*);;

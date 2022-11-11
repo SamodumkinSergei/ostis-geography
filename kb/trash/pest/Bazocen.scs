@@ -1,0 +1,30 @@
+Bazocen
+<-sc_node_not_relation;=>nrel_main_idtf:
+	[Базоцен]
+	(* <- lang_ru;; *);
+	[Bazocen]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Базоцен)]
+		(* <- lang_ru;; *);
+		[Def. (Bazocen)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[бесцветное кристаллическое вещество, т. пл. 82,3°С. Давление пара (20°С) < 0,1 мПа (< 7,5·10-7 мм рт. ст.). Растворимость (в г/кг): в воде (20°С) 0,26, циклогексаноне 600, изопропаноле 200, дихлорметане 1200, толуоле 400.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[colorless crystalline solid, m.p. 82.3°C. Vapor pressure (20°C) < 0.1 MPa (< 7.5 10-7 mmHg). Solubility (in g/kg): in water (20°C) 0.26, cyclohexanone 600, isopropanol 200, dichloromethane 1200, toluene 400.]
+			(* <- lang_en;; *);;
+		*);;
+  *);;
+

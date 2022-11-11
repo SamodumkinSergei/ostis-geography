@@ -1,0 +1,35 @@
+concept_Borisov_solid_waste_landfill
+<-sc_node_not_relation;	<-concept_way;
+=>nrel_search_area:
+   smalyavichy_district;
+=>nrel_main_idtf:
+	[Борисовский полигон ТБО]
+	(* <- lang_ru;;<-name;; *);
+	[Borisov solid waste landfill]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Борисовский полигон ТБО)]
+		(* <- lang_ru;; *);
+		[Def. (Borisov solid waste landfill)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Полигон твердых коммунальных отходов города борисов]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Borisov municipal solid waste landfill]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{landfill;
+		Borisov_solid_waste_landfill};;
+    *);;

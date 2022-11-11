@@ -1,0 +1,10 @@
+loevski_pottery_workshop <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Loevski pottery workshop ]
+    (* <- lang_en;; <- name_en;;*);
+    [Лоевская гончарная мастерская]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    loev;=>nrel_type_of_production:manufactory;=>nrel_technologies_used:glazing;<-pottery_centre; =>nrel_date:1287(*=>nrel_main_idtf:
+    [1287];;*);;
+

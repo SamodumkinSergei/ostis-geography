@@ -1,0 +1,10 @@
+slutski_pottery_workshop <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Slutski pottery workshop ]
+    (* <- lang_en;; <- name_en;;*);
+    [Слуцкая гончарная мастерская]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    slutsk;=>nrel_type_of_production:factory;=>nrel_technologies_used:lactation;<-pottery_centre; =>nrel_date:1698(*=>nrel_main_idtf:
+    [1698];;*);;
+

@@ -1,0 +1,34 @@
+concept_dynasty
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[династия]
+	(* <- lang_ru;; *);
+	[dynasty]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (династия)]
+		(* <- lang_ru;; *);
+		[Def. (dynasty)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Династия гончаров - это ряд гончаров из одного рода, последовательно принимавших знания о ремесле.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[The dynasty of potters is a series of potters from the same family who consistently accepted knowledge about the craft.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_dynasty
+		};;
+	*);;

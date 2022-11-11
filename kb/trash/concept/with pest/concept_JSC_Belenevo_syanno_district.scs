@@ -1,0 +1,39 @@
+concept_JSC_Belenevo_syanno_district
+<-sc_node_not_relation;
+=>nrel_search_area:
+    syanno_district;
+	<-concept_way;=>nrel_main_idtf:
+	[ОАО "Беленево"]
+	(* <- lang_ru;;<-name;; *);
+	[JSC "Belenevo"]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (ОАО "Беленево")]
+		(* <- lang_ru;; *);
+		[Def. (JSC "Belenevo")]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Животноводство мясо-молочного направления, зерно, Рапс Зерно, зернобобовые, Масличные культуры, С/х животные и птиц]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Animal husbandry of meat and dairy direction, grain, Rapeseed Grain, legumes, Oilseeds, Farm animals and poultry]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{company;
+		concept_JSC_Belenevo_syanno_district};;
+    *);;
+
+
+concept_JSC_Belenevo_syanno_district=>nrel_stored_pesticides:unknown_pesticides;;
+concept_JSC_Belenevo_syanno_district=>nrel_number_of_stocked_pesticides:8.672(*<-number;;*);;

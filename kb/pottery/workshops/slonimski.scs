@@ -1,0 +1,10 @@
+slonimski_pottery_workshop <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Slonimski pottery workshop ]
+    (* <- lang_en;; <- name_en;;*);
+    [Слонимская гончарная мастерская]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    slonim;=>nrel_type_of_production:workshop;=>nrel_technologies_used:lactation;<-pottery_centre; =>nrel_date:1820(*=>nrel_main_idtf:
+    [1820];;*);;
+

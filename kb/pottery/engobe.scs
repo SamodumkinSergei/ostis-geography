@@ -1,0 +1,26 @@
+engobe <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Engobe]
+    (* <- lang_en;; <- name_en;;*);
+    [Aнгоб]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+
+
+<- rrel_key_sc_element: ...(*
+    <- definition;;
+    => nrel_main_idtf: [Опр.(Aнгоб)] (* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ...(*
+            -> [Ангобы - непрозрачные покрытия с высоким содержанием глинистых веществ.] (* <- lang_ru;; *);;
+      *);;
+  *);
+<- rrel_key_sc_element: ...
+ (*
+   <- illustration;;
+   <= nrel_sc_text_translation: ...
+   (*
+     -> rrel_example: "file://img/Engobe.jpg"
+   (*
+   => nrel_format: format_jpg;;
+   *);;
+  *);;
+*);;

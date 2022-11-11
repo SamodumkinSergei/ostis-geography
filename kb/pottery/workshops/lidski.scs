@@ -1,0 +1,10 @@
+lidski_pottery_workshop <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Lidski pottery workshop ]
+    (* <- lang_en;; <- name_en;;*);
+    [Лидская гончарная мастерская]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    lida;=>nrel_type_of_production:manufactory;=>nrel_technologies_used:glazing;<-pottery_centre; =>nrel_date:1387(*=>nrel_main_idtf:
+    [1387];;*);;
+

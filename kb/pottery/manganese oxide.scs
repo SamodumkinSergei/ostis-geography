@@ -1,0 +1,15 @@
+manganese_oxide <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Manganese oxide]
+    (* <- lang_en;; <- name_en;;*);
+    [Оксид марганца]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+
+
+<- rrel_key_sc_element: ...(*
+    <- definition;;
+    => nrel_main_idtf: [Опр.(Оксид марганца)] (* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ...(*
+            -> [Порошок тёмно-коричневого цвета, нерастворимый в воде. ] (* <- lang_ru;; *);;
+      *);;
+  *);;

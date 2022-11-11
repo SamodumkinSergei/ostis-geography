@@ -1,0 +1,33 @@
+concept_Scrap_storage_area
+<-sc_node_not_relation;	<-concept_way;=>nrel_search_area:
+   svislach_district;=>nrel_main_idtf:
+	[Площадка для хранения металлолома]
+	(* <- lang_ru;;<-name;; *);
+	[Scrap storage area]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Площадка для хранения металлолома)]
+		(* <- lang_ru;; *);
+		[Def. (Scrap storage area)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Площадка для хранения металлолома свислочского района]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Scrap metal storage site of the Svisla region]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{landfill;
+		Scrap_storage_area};;
+    *);;

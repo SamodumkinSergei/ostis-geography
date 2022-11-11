@@ -1,0 +1,10 @@
+porozovki_pottery_workshop <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Porozovki pottery workshop ]
+    (* <- lang_en;; <- name_en;;*);
+    [Порозовская гончарная мастерская]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    porozovo;=>nrel_type_of_production:workshop;=>nrel_technologies_used:lactation;<-pottery_centre; =>nrel_date:1040(*=>nrel_main_idtf:
+    [1040];;*);;
+

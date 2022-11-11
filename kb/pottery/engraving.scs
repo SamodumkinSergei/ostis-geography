@@ -1,0 +1,26 @@
+engraving <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Engraving]
+    (* <- lang_en;; <- name_en;;*);
+    [Гравировка]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+
+
+<- rrel_key_sc_element: ...(*
+    <- definition;;
+    => nrel_main_idtf: [Опр.(Гравировка)] (* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ...(*
+            -> [Гравировка — декоративная обработка изделия из глины в кожетвердом состоянии остроконечным инструментом, которым удаляется часть материала с поверхности.] (* <- lang_ru;; *);;
+      *);;
+  *);
+<- rrel_key_sc_element: ...
+ (*
+   <- illustration;;
+   <= nrel_sc_text_translation: ...
+   (*
+     -> rrel_example: "file://img/Engraving.jpg"
+   (*
+   => nrel_format: format_jpg;;
+   *);;
+  *);;
+*);;

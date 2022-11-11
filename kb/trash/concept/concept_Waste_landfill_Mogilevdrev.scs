@@ -1,0 +1,33 @@
+concept_Waste_landfill_Mogilevdrev
+<-sc_node_not_relation;	<-concept_way;=>nrel_search_area:
+   mogilev_region;=>nrel_main_idtf:
+	[Полигон отходов "Могилевдрев"]
+	(* <- lang_ru;;<-name;; *);
+	[Waste landfill Mogilevdrev]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Полигон отходов Могилевдрев)]
+		(* <- lang_ru;; *);
+		[Def. (Waste landfill Mogilevdrev)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Мусорный полигон отходов продукции Могилёвдрев]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Waste landfill of Mogilevdrev production]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{landfill;
+		Waste_landfill_Mogilevdrev};;
+    *);;

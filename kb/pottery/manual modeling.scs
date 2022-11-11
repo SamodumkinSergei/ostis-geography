@@ -1,0 +1,26 @@
+manual_modeling <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Manual modeling]
+    (* <- lang_en;; <- name_en;;*);
+    [Ручная лепка]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+
+
+<- rrel_key_sc_element: ...(*
+    <- definition;;
+    => nrel_main_idtf: [Опр.(Ручная лепка)] (* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ...(*
+            -> [Ручная лепка - это придание формы пластическому материалу с помощью рук и вспомогательных инструментов.] (* <- lang_ru;; *);;
+      *);;
+  *);
+<- rrel_key_sc_element: ...
+ (*
+   <- illustration;;
+   <= nrel_sc_text_translation: ...
+   (*
+     -> rrel_example: "file://img/Manual_modeling.jpg"
+   (*
+   => nrel_format: format_jpg;;
+   *);;
+  *);;
+*);;

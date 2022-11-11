@@ -1,0 +1,29 @@
+Byleton
+<-sc_node_not_relation;=>nrel_main_idtf:
+	[Байлетон]
+	(* <- lang_ru;; *);
+	[Byleton]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Байлетон)]
+		(* <- lang_ru;; *);
+		[Def. (Byleton)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[препарат для защиты зерновых, кукурузы, овощных, ягодных и фруктовых культур от заболеваний. Применяется, в частности, для борьбы с мучнистой росой, фузариозами, ржавчинными грибами, ринхоспориозом, септориозом, пиренофорозом, красно-бурой пятнистостью, cетчатой пятнистостью, церкоспореллезом.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[preparation for the protection of grain, corn, vegetable, berry and fruit crops from diseases. It is used, in particular, to combat powdery mildew, fusarium, rust fungi, rhynchosporia, septoria, pyrenophorosis, red-brown spotting, net spotting, cercosporellosis.]
+			(* <- lang_en;; *);;
+		*);;
+  *);;

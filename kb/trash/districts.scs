@@ -1,0 +1,28 @@
+polotsk_district <- concept_district;
+=>nrel_main_idtf:
+    [Polatsk District]
+    (* <- lang_en;; <- name_en;;*);
+    [Полоцкий район]
+    (* <- lang_ru;; <- name_ru;;<- name;;*);
+=>nrel_admin_level:
+    [6]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitebsk_region;;
+
+
+gomel_district <- concept_district;
+=>nrel_main_idtf:
+    [Homyel District]
+    (* <- lang_en;; <- name_en;;*);
+    [Гомельский район]
+    (* <- lang_ru;; <- name_ru;;<- name;;*);
+=>nrel_admin_level:
+    [6]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    gomel_region;;

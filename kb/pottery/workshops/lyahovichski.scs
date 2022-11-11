@@ -1,0 +1,10 @@
+lyahovichski_pottery_workshop <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Lyahovichski pottery workshop ]
+    (* <- lang_en;; <- name_en;;*);
+    [Ляховичкая гончарная мастерская]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    lyahovichi;=>nrel_type_of_production:manufactory;=>nrel_technologies_used:glazing;<-pottery_centre; =>nrel_date:1790(*=>nrel_main_idtf:
+    [1790];;*);;
+

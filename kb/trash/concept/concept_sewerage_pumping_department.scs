@@ -1,0 +1,33 @@
+concept_sewerage_pumping_department
+<-sc_node_not_relation;	<-concept_way;=>nrel_search_area:
+   Mazyr_district;=>nrel_main_idtf:
+	[отдел откачивания канализационных отходов]
+	(* <- lang_ru;;<-name;; *);
+	[sewerage pumping department]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (отдел откачивания канализационных отходов)]
+		(* <- lang_ru;; *);
+		[Def. (sewerage pumping department)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[отдел откачивания канализационных отходов мозырьский район гомельская область]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[sewerage pumping department Mozyr district Gomel region]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{landfill;
+		sewerage_pumping_department};;
+    *);;

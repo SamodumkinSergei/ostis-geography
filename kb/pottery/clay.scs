@@ -1,0 +1,26 @@
+clay <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Clay]
+    (* <- lang_en;; <- name_en;;*);
+    [Глина]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+
+
+<- rrel_key_sc_element: ...(*
+    <- definition;;
+    => nrel_main_idtf: [Опр.(Глина)] (* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ...(*
+            -> [Глина — это горная порода особой структуры.] (* <- lang_ru;; *);;
+      *);;
+  *);
+<- rrel_key_sc_element: ...
+ (*
+   <- illustration;;
+   <= nrel_sc_text_translation: ...
+   (*
+     -> rrel_example: "file://img/Clay.jpg"
+   (*
+   => nrel_format: format_jpg;;
+   *);;
+  *);;
+*);;

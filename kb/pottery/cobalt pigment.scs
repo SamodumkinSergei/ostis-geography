@@ -1,0 +1,15 @@
+cobalt_pigment <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Cobalt pigment]
+    (* <- lang_en;; <- name_en;;*);
+    [Кобальтовый пигмент]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+
+
+<- rrel_key_sc_element: ...(*
+    <- definition;;
+    => nrel_main_idtf: [Опр.(Кобальтовый пигмент)] (* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ...(*
+            -> [Кобальтовый пигмент - это синий пигмент, получаемый путем спекания оксида кобальта(II) с оксидом алюминия(III) (глиноземом) при температуре 1200 °C.] (* <- lang_ru;; *);;
+      *);;
+  *);;

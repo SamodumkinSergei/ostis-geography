@@ -1,0 +1,26 @@
+welding <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Welding]
+    (* <- lang_en;; <- name_en;;*);
+    [Обварка]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+
+
+<- rrel_key_sc_element: ...(*
+    <- definition;;
+    => nrel_main_idtf: [Опр.(Обварка)] (* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ...(*
+            -> [Обварка – это способ варить керамику в специальном составе] (* <- lang_ru;; *);;
+      *);;
+  *);
+<- rrel_key_sc_element: ...
+ (*
+   <- illustration;;
+   <= nrel_sc_text_translation: ...
+   (*
+     -> rrel_example: "file://img/Welding.jpg"
+   (*
+   => nrel_format: format_jpg;;
+   *);;
+  *);;
+*);;

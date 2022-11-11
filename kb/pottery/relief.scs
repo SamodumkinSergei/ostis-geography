@@ -1,0 +1,15 @@
+relief <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Relief]
+    (* <- lang_en;; <- name_en;;*);
+    [Рельеф]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+
+
+<- rrel_key_sc_element: ...(*
+    <- definition;;
+    => nrel_main_idtf: [Опр.(Рельеф)] (* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ...(*
+            -> [выпуклое изображение на плоскости, разновидность скульптуры, в которой изображение создаётся с помощью объёма, частично выступающего из плоскости фона.] (* <- lang_ru;; *);;
+      *);;
+  *);;

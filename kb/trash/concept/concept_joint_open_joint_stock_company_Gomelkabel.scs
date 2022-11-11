@@ -1,0 +1,35 @@
+concept_joint_open_joint_stock_company_Gomelkabel
+<-sc_node_not_relation;	<-concept_way;
+=>nrel_search_area:
+   homyel;
+=>nrel_main_idtf:
+	[СОАО «Гомелькабель»]
+	(* <- lang_ru;;<-name;; *);
+	[joint open joint stock company Gomelkabel]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (СОАО Гомелькабель)]
+		(* <- lang_ru;; *);
+		[Def. (joint open joint stock company Gomelkabel)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Установка термического обезвреживания отходов производства]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Installation of thermal waste disposal production]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{landfill;
+		joint_open_joint_stock_company_Gomelkabel};;
+    *);;

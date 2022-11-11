@@ -1,0 +1,26 @@
+molding <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Molding]
+    (* <- lang_en;; <- name_en;;*);
+    [Молдинг]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+
+
+<- rrel_key_sc_element: ...(*
+    <- definition;;
+    => nrel_main_idtf: [Опр.(Молдинг)] (* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ...(*
+            -> [Молдингом принято называть объемную планку, накладной декор, задачей которого является добавление объема и рельефа изделию] (* <- lang_ru;; *);;
+      *);;
+  *);
+<- rrel_key_sc_element: ...
+ (*
+   <- illustration;;
+   <= nrel_sc_text_translation: ...
+   (*
+     -> rrel_example: "file://img/Molding.jpg"
+   (*
+   => nrel_format: format_jpg;;
+   *);;
+  *);;
+*);;

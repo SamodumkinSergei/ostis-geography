@@ -1,8 +1,0 @@
-ui_count_average_books_in_memory
-	<- ui_scgg_control; sc_node_not_relation;
-	=> nrel_main_idtf:
-		[Найти среднее количество книг в библиотеках города]
-		(* <- lang_ru;; *);
-	=> nrel_main_idtf:
-        [Find books average]
-(* <- lang_en;; *);;

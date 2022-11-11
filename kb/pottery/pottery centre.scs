@@ -1,0 +1,26 @@
+pottery_centre <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Pottery centre]
+    (* <- lang_en;; <- name_en;;*);
+    [Гончарный центр]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+
+
+<- rrel_key_sc_element: ...(*
+    <- definition;;
+    => nrel_main_idtf: [Опр.(Гончарный центр)] (* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ...(*
+            -> [Гончарный центр - это центр по изготовлению гончарных изделий.] (* <- lang_ru;; *);;
+      *);;
+  *);
+<- rrel_key_sc_element: ...
+ (*
+   <- illustration;;
+   <= nrel_sc_text_translation: ...
+   (*
+     -> rrel_example: "file://img/Pottery_centre.jpg"
+   (*
+   => nrel_format: format_jpg;;
+   *);;
+  *);;
+*);;

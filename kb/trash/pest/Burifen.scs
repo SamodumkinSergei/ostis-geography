@@ -1,0 +1,29 @@
+Burifen
+<-sc_node_not_relation;=>nrel_main_idtf:
+	[Бурифен]
+	(* <- lang_ru;; *);
+	[Burifen]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Бурифен)]
+		(* <- lang_ru;; *);
+		[Def. (Burifen)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Действующее вещество изопропиламинная соль. Аналоги этого препарата являются широко известный Раундап, Ураган Форте, Торнадо 500. Из гербицидов селективного действия по овощам используют Гезагард и Лазурит. А в дополнение используют Бицепс Бурифен и Диал Голд.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[The active ingredient is isopropylamine salt. The analogues of this drug are the widely known Roundup, Hurricane Forte, Tornado 500. From herbicides of selective action on vegetables, Gezagard and Lazurit are used. And in addition, Biceps Burifen and Dial Gold are used.]
+			(* <- lang_en;; *);;
+		*);;
+  *);;

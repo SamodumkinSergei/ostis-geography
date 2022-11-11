@@ -1,0 +1,15 @@
+pottery_wheel <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Pottery Wheel]
+    (* <- lang_en;; <- name_en;;*);
+    [Гончарный круг]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+
+
+<- rrel_key_sc_element: ...(*
+    <- definition;;
+    => nrel_main_idtf: [Опр.(Гончарный круг)] (* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ...(*
+            -> [устройство для формирования посуды и керамических изделий, позволяющий использовать инерцию вращения для создания формы изделий и повышения производительности труда.] (* <- lang_ru;; *);;
+      *);;
+  *);;

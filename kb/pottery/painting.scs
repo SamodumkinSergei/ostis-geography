@@ -1,0 +1,26 @@
+painting <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Painting]
+    (* <- lang_en;; <- name_en;;*);
+    [Роспись]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+
+
+<- rrel_key_sc_element: ...(*
+    <- definition;;
+    => nrel_main_idtf: [Опр.(Роспись)] (* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ...(*
+            -> [Роспись производят по сырому, высохшему и даже обожженному изделию.] (* <- lang_ru;; *);;
+      *);;
+  *);
+<- rrel_key_sc_element: ...
+ (*
+   <- illustration;;
+   <= nrel_sc_text_translation: ...
+   (*
+     -> rrel_example: "file://img/Painting.jpg"
+   (*
+   => nrel_format: format_jpg;;
+   *);;
+  *);;
+*);;

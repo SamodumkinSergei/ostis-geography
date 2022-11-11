@@ -1,0 +1,30 @@
+Triallat
+<-sc_node_not_relation;=>nrel_main_idtf:
+	[Триаллат]
+	(* <- lang_ru;; *);
+	[Triallat]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Триаллат)]
+		(* <- lang_ru;; *);
+		[Def. (Triallat)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Трихлораллил-N, N-диизопропилтиокарбамат, химическое средство борьбы с овсюгом и др. сорными растениями;]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Trichlorallyl-N, N-diisopropylthiocarbamate, chemical control agent for wild oats and other weeds;]
+			(* <- lang_en;; *);;
+		*);;
+  *);;
+

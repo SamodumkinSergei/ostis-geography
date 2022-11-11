@@ -1,0 +1,15 @@
+danilevichi <-concept_dynasty;
+=>nrel_main_idtf:
+    [Danilevichi]
+    (* <- lang_en;; <- name_en;;*);
+    [Данилевичи]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+
+
+<- rrel_key_sc_element: ...(*
+    <- definition;;
+    => nrel_main_idtf: [Опр.(Данилевичи)] (* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ...(*
+            -> [Советская и белорусская гончарная династия.] (* <- lang_ru;; *);;
+      *);;
+  *);;

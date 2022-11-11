@@ -1,0 +1,29 @@
+Unknown_pesticides
+<-sc_node_not_relation;=>nrel_main_idtf:
+	[Неизвестные пестициды]
+	(* <- lang_ru;; *);
+	[Unknown pesticides]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Неизвестные пестициды)]
+		(* <- lang_ru;; *);
+		[Def. (Unknown pesticides)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[ядовитые вещества, используемые для уничтожения вредителей и возбудителей болезней растений, а также различных паразитов, сорняков, вредителей зерна и зернопродуктов, древесины, изделий из хлопка, шерсти, кожи, эктопаразитов домашних животных, переносчиков опасных заболеваний человека и животных.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[poisonous substances used to destroy pests and pathogens of plants, as well as various parasites, weeds, pests of grain and grain products, wood, cotton products, wool, leather, ectoparasites of domestic animals, carriers of dangerous human and animal]
+			(* <- lang_en;; *);;
+		*);;
+  *);;

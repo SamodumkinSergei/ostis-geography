@@ -1,0 +1,15 @@
+manufactory <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Manufactory]
+    (* <- lang_en;; <- name_en;;*);
+    [Мануфактура]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+
+
+<- rrel_key_sc_element: ...(*
+    <- definition;;
+    => nrel_main_idtf: [Опр.(Мануфактура)] (* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ...(*
+            -> [Мануфактура — это предприятие, основанное на ручном труде наемных работников, где существует разделение труда на отдельные производственные операции] (* <- lang_ru;; *);;
+      *);;
+  *);;

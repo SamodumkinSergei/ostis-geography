@@ -1,0 +1,26 @@
+lactation <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Lactation]
+    (* <- lang_en;; <- name_en;;*);
+    [Молочение]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+
+
+<- rrel_key_sc_element: ...(*
+    <- definition;;
+    => nrel_main_idtf: [Опр.(Молочение)] (* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ...(*
+            -> [Молочение (молочный обжиг) — один из древних способов обработки керамики для придания ей декоративности и улучшения водонепроницаемости.] (* <- lang_ru;; *);;
+      *);;
+  *);
+<- rrel_key_sc_element: ...
+ (*
+   <- illustration;;
+   <= nrel_sc_text_translation: ...
+   (*
+     -> rrel_example: "file://img/Lactation.jpg"
+   (*
+   => nrel_format: format_jpg;;
+   *);;
+  *);;
+*);;

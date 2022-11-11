@@ -1,0 +1,33 @@
+concept_Overgrown_BO_Junkyard
+<-sc_node_not_relation;	<-concept_way;=>nrel_search_area:
+   pukhavichy_district;=>nrel_main_idtf:
+	[Заросшая свалка БО]
+	(* <- lang_ru;;<-name;; *);
+	[Overgrown BO Junkyard]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Заросшая свалка БО)]
+		(* <- lang_ru;; *);
+		[Def. (Overgrown BO Junkyard)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[свалка биологических отходов пуховического раёна]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[biological waste dump of the pukhovichi district]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{landfill;
+		Overgrown_BO_Junkyard};;
+    *);;

@@ -1,0 +1,26 @@
+pottery <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Pottery]
+    (* <- lang_en;; <- name_en;;*);
+    [Гончарство]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+
+
+<- rrel_key_sc_element: ...(*
+    <- definition;;
+    => nrel_main_idtf: [Опр.(Гончарство)] (* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ...(*
+            -> [Гончарство – это производство изделий из обожженной глины.] (* <- lang_ru;; *);;
+      *);;
+  *);
+<- rrel_key_sc_element: ...
+ (*
+   <- illustration;;
+   <= nrel_sc_text_translation: ...
+   (*
+     -> rrel_example: "file://img/Pottery.jpg"
+   (*
+   => nrel_format: format_jpg;;
+   *);;
+  *);;
+*);;

@@ -1,0 +1,15 @@
+nrel_type_of_production
+<-sc_node_norole_relation;
+<-relation;
+<-norole_relation;
+<-binary_relation;
+<-oriented_relation;
+<-antireflexive_relation;
+<-antitransitive_relation;
+<-asymmetric_relation;
+=>nrel_main_idtf:
+	[ тип производства* ]
+	(* <- lang_ru;; *);
+	[ type of production ]
+	(* <- lang_en;; *);;
+

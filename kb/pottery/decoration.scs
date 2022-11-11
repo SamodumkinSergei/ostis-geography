@@ -1,0 +1,26 @@
+decoration <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Decoration]
+    (* <- lang_en;; <- name_en;;*);
+    [Украшение]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+
+
+<- rrel_key_sc_element: ...(*
+    <- definition;;
+    => nrel_main_idtf: [Опр.(Украшение)] (* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ...(*
+            -> [Украшение – придание глиняным изделиям приятного, красивого внешнего вида.] (* <- lang_ru;; *);;
+      *);;
+  *);
+<- rrel_key_sc_element: ...
+ (*
+   <- illustration;;
+   <= nrel_sc_text_translation: ...
+   (*
+     -> rrel_example: "file://img/Decoration.jpg"
+   (*
+   	=> nrel_format: format_jpg;;
+   *);;
+  *);;
+*);;

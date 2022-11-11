@@ -1,0 +1,15 @@
+tile_craft <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Tile craft]
+    (* <- lang_en;; <- name_en;;*);
+    [Изразцовое ремесло]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+
+
+<- rrel_key_sc_element: ...(*
+    <- definition;;
+    => nrel_main_idtf: [Опр.(Изразцовое ремесло)] (* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ...(*
+            -> [Ремесло, используемое керамические плитки, используемые для облицовки каминов, печей, стен.] (* <- lang_ru;; *);;
+      *);;
+  *);;

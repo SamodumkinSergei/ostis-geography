@@ -1,0 +1,10 @@
+oshmyanski_pottery_workshop <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Oshmyanski pottery workshop ]
+    (* <- lang_en;; <- name_en;;*);
+    [Ошмянская гончарная мастерская]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    oshmyany;=>nrel_type_of_production:workshop;=>nrel_technologies_used:lactation;<-pottery_centre; =>nrel_date:1180(*=>nrel_main_idtf:
+    [1180];;*);;
+

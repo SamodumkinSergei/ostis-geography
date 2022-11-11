@@ -1,0 +1,42 @@
+concept_KUPP_Gorodok_enterprise_of_boiler_houses_and_heat_networks_haradok_district
+<-sc_node_not_relation;
+=>nrel_search_area:
+    haradok_district;
+	<-concept_way;=>nrel_main_idtf:
+	[КУПП "Городокское предприятие котельных и тепловых сетей"]
+	(* <- lang_ru;;<-name;; *);
+	[KUPP "Gorodok enterprise of boiler houses and heat networks"]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (КУПП "Городокское предприятие котельных и тепловых сетей")]
+		(* <- lang_ru;; *);
+		[Def. (KUPP "Gorodok enterprise of boiler houses and heat networks")]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[создано на базе Городокского РПО ЖКХ в марте 1995 года с целью осуществления хозяйственной деятельности. Полномочие собственника осуществляет Городокский районный исполнительный комитет. При этом Унитарное предприятие входит в систему Министерства жилищно-коммунального хозяйства, где организационное руководство осуществляет Управление ЖКХ Витебского облисполкома.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[was established on the basis of the Gorodok RPO housing and communal services in March 1995 for the purpose of carrying out economic activities. The authority of the owner is exercised by the Gorodok District Executive Committee. At the same time, the Unitary Enterprise is included in the system of the Ministry of Housing and Communal Services, where the organizational management is carried out by the Housing and Communal Services Department of the Vitebsk Regional Executive Committee.]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{company;
+		concept_KUPP_Gorodok_enterprise_of_boiler_houses_and_heat_networks_haradok_district};;
+    *);;
+
+
+
+concept_KUPP_Gorodok_enterprise_of_boiler_houses_and_heat_networks_haradok_district=>nrel_stored_pesticides:Pesticide_mix;;
+concept_KUPP_Gorodok_enterprise_of_boiler_houses_and_heat_networks_haradok_district=>nrel_number_of_stocked_pesticides:9.907(*<-number;;*);;
+concept_KUPP_Gorodok_enterprise_of_boiler_houses_and_heat_networks_haradok_district=>nrel_stored_pesticides:Magnesium_Chlorate;;
+concept_KUPP_Gorodok_enterprise_of_boiler_houses_and_heat_networks_haradok_district=>nrel_number_of_stocked_pesticides:2.8(*<-number;;*);;

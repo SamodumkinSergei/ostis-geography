@@ -1,0 +1,35 @@
+concept_Landfill_MSW_Trostenetsky
+<-sc_node_not_relation;	<-concept_way;
+=>nrel_search_area:
+   minsk;
+=>nrel_main_idtf:
+	[Полигон ТКО "Тростенецкий"]
+	(* <- lang_ru;;<-name;; *);
+	[Landfill MSW Trostenetsky]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Полигон ТКО Тростенецкий)]
+		(* <- lang_ru;; *);
+		[Def. (Landfill MSW Trostenetsky)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Свалка твёрдых коммунальных отходов Заводского района]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Municipal waste dump of Zavodskoy district]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{landfill;
+		Landfill_MSW_Trostenetsky};;
+    *);;

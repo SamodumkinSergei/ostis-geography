@@ -1,0 +1,10 @@
+borisovski_pottery_workshop <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Borisovski pottery workshop ]
+    (* <- lang_en;; <- name_en;;*);
+    [Борисовская гончарная мастерская]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    borisov;=>nrel_type_of_production:factory;=>nrel_technologies_used:engraving;<-pottery_centre; =>nrel_date:1600(*=>nrel_main_idtf:
+    [1600];;*);;
+

@@ -1,0 +1,35 @@
+concept_MSW_landfill_shumilina_district
+<-sc_node_not_relation;
+=>nrel_search_area:
+    shumilina_district;
+	<-concept_way;=>nrel_main_idtf:
+	[Полигон ТКО]
+	(* <- lang_ru;;<-name;; *);
+	[MSW landfill]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Полигон ТКО)]
+		(* <- lang_ru;; *);
+		[Def. (MSW landfill)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Свалка твёрдых коммунальных отходов Шумилинского района]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Municipal waste dump of Shumilinsky district]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{landfill;
+		MSW_landfill_shumilina_district};;
+    *);;

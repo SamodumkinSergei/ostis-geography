@@ -1,0 +1,26 @@
+glazing <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Glazing]
+    (* <- lang_en;; <- name_en;;*);
+    [Глазурирование]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+
+
+<- rrel_key_sc_element: ...(*
+    <- definition;;
+    => nrel_main_idtf: [Опр.(Глазурирование)] (* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ...(*
+            -> [Глазурование – самый популярный прием, используемый для декорирования керамических изделий.] (* <- lang_ru;; *);;
+      *);;
+  *);
+<- rrel_key_sc_element: ...
+ (*
+   <- illustration;;
+   <= nrel_sc_text_translation: ...
+   (*
+     -> rrel_example: "file://img/Glazing.jpg"
+   (*
+   => nrel_format: format_jpg;;
+   *);;
+  *);;
+*);;

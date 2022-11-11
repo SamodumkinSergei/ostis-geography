@@ -1,0 +1,15 @@
+onufrievich <-concept_dynasty;
+=>nrel_main_idtf:
+    [Onufrievich]
+    (* <- lang_en;; <- name_en;;*);
+    [Онуфриевичи]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+
+
+<- rrel_key_sc_element: ...(*
+    <- definition;;
+    => nrel_main_idtf: [Опр.(Онуфриевичи)] (* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ...(*
+            -> [Советская и украинская гончарная династия.] (* <- lang_ru;; *);;
+      *);;
+  *);;

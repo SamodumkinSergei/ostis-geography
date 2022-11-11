@@ -1,0 +1,10 @@
+pinski_pottery_workshop <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Pinski pottery workshop ]
+    (* <- lang_en;; <- name_en;;*);
+    [Пинская гончарная мастерская]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    pinsk;=>nrel_type_of_production:workshop;=>nrel_technologies_used:lactation;<-pottery_centre; =>nrel_date:1002(*=>nrel_main_idtf:
+    [1002];;*);;
+

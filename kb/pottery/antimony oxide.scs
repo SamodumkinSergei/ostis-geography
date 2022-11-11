@@ -1,0 +1,15 @@
+antimony_oxide <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Antimony oxide]
+    (* <- lang_en;; <- name_en;;*);
+    [Оксид сурьмы]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+
+
+<- rrel_key_sc_element: ...(*
+    <- definition;;
+    => nrel_main_idtf: [Опр.(Оксид сурьмы)] (* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ...(*
+            -> [Бинарное неорганическое соединение металла сурьмы и кислорода с формулой Sb₂O₃, белые кристаллы, плохо растворимые в воде.] (* <- lang_ru;; *);;
+      *);;
+  *);;

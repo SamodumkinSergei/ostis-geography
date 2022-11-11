@@ -1,0 +1,33 @@
+concept_Polygon_Gorbaty
+<-sc_node_not_relation;	<-concept_way;=>nrel_search_area:
+   uzda_district;=>nrel_main_idtf:
+	[Полигон Горбаты]
+	(* <- lang_ru;;<-name;; *);
+	[Polygon Gorbaty]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Полигон Горбаты)]
+		(* <- lang_ru;; *);
+		[Def. (Polygon Gorbaty)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Полигон твёрдых коммунальных отходов узденского района]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Landfill for municipal solid waste of the Uzdensky district]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{landfill;
+		Polygon_Gorbaty};;
+    *);;

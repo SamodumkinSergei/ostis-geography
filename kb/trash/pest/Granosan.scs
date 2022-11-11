@@ -1,0 +1,29 @@
+Granosan
+<-sc_node_not_relation;=>nrel_main_idtf:
+	[Гранозан]
+	(* <- lang_ru;; *);
+	[Granosan]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Гранозан)]
+		(* <- lang_ru;; *);
+		[Def. (Granosan)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[металлоорганическое соединение ртути с формулой С2H5HgCl. При нормальных условиях образует желтовато-белое твёрдое вещество.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[an organometallic compound of mercury with the formula C2H5HgCl. Forms a yellowish-white solid under normal conditions.]
+			(* <- lang_en;; *);;
+		*);;
+  *);;

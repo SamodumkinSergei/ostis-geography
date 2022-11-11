@@ -1,0 +1,10 @@
+bobruiski_pottery_workshop <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Bobruiski pottery workshop ]
+    (* <- lang_en;; <- name_en;;*);
+    [Бубруйская гончарная мастерская]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city:
+    bobruisk;=>nrel_type_of_production:factory;=>nrel_technologies_used:engraving;<-pottery_centre; =>nrel_date:1050(*=>nrel_main_idtf:
+    [1050];;*);;
+

@@ -1,0 +1,29 @@
+Debos_sodium_thiocyanate
+<-sc_node_not_relation;=>nrel_main_idtf:
+	[Дебос тиоцианат натрия]
+	(* <- lang_ru;; *);
+	[Debos sodium thiocyanate]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Дебос тиоцианат натрия)]
+		(* <- lang_ru;; *);
+		[Def. (Debos sodium thiocyanate)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[неорганическое вещество, натриевая соль роданистоводородной кислоты. Бесцветные ромбические гигроскопичные кристаллы, хорошо растворимые в воде, растворимые в ацетоне, метаноле, этаноле. Из воды ниже 30,4 °С кристаллизуется в виде дигидрата, выше — в виде безводной соли.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[inorganic substance, sodium salt of thiocyanate. Colorless rhombic hygroscopic crystals, readily soluble in water, soluble in acetone, methanol, ethanol. In water below 30.4 ° C, it crystallizes as a dihydrate, above - in the form of an anhydrous salt.]
+			(* <- lang_en;; *);;
+		*);;
+  *);;

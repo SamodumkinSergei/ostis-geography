@@ -1,9 +1,0 @@
-action_get_lake_by_temperature
-<- sc_node_not_relation;
-=> nrel_main_idtf:
-	[действие. получить озеро по среднегодовой температуре]
-	(* <- lang_ru;; *);
-	[action. get lakes by temperature]
-	(* <- lang_en;; *);
-<- actions_class;
-<- atomic_action_class;;

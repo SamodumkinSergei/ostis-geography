@@ -1,0 +1,26 @@
+fuming <-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Fuming]
+    (* <- lang_en;; <- name_en;;*);
+    [Дымление]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+
+
+<- rrel_key_sc_element: ...(*
+    <- definition;;
+    => nrel_main_idtf: [Опр.(Дымление)] (* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ...(*
+            -> [Дымление - это такой способ отделки керамических изделий при котором поверхность черепка становится темной.] (* <- lang_ru;; *);;
+      *);;
+  *);
+<- rrel_key_sc_element: ...
+ (*
+   <- illustration;;
+   <= nrel_sc_text_translation: ...
+   (*
+     -> rrel_example: "file://img/Fuming.jpg"
+   (*
+   => nrel_format: format_jpg;;
+   *);;
+  *);;
+*);;
