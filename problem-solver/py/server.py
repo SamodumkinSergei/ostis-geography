@@ -5,6 +5,7 @@ from sc_kpm import ScServer
 from modules.lakes_module.LakesModule import LakesModule
 from modules.open_street_map_module.OpenStreetMapModule import OpenStreetMapModule
 from modules.search_banks_by_type_agent.SearchBanksByTypeModule import SearchBanksByTypeModule
+from modules.search_banks_by_city_agent.SearchBanksByCityModule import SearchBanksByCityModule
 from modules.street_translator_module.StreetTranslatorModule import StreetTranslatorModule
 
 import logging.config
@@ -58,6 +59,7 @@ def main(args: dict):
             LakesModule(),
             OpenStreetMapModule(),
             SearchBanksByTypeModule(),
+            SearchBanksByCityModule(),
             StreetTranslatorModule()
         ]
         server.add_modules(*modules)
