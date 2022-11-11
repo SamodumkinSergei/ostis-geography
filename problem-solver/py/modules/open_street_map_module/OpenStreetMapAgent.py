@@ -1,7 +1,17 @@
 from termcolor import colored
+from typing import List
 
-from common import ScAgent, ScEventParams, ScKeynodes
-from sc import *
+from sc_client import client
+
+from sc_client.models import ScAddr, ScTemplate, ScLinkContent
+from sc_client.constants import sc_types
+
+from sc_kpm import ScAgentClassic, ScResult, ScKeynodes
+
+from sc_kpm.utils.action_utils import get_action_arguments
+from sc_kpm.utils import create_edge, create_link
+from sc_kpm.utils.creation_utils import create_node, create_structure, wrap_in_set
+
 
 osm_level_to_tag = {
     '2': ['addr:city', 'addr:district', 'addr:region'],
@@ -14,260 +24,221 @@ osm_level_to_tag = {
 }
 
 
-class OpenStreetMapAgent(ScAgent):
-    def __init__(self, module):
-        super().__init__(module)
-        self.ctx = module.ctx
-        self.keynodes = ScKeynodes(self.ctx)
-        self.main_node = None
+class OpenStreetMapAgent(ScAgentClassic):
+    def __init__(self):
+        super().__init__("action_generate_osm_query")
+        self._keynodes = ScKeynodes()
 
-    def RunImpl(self, evt: ScEventParams) -> ScResult:
-        self.main_node = evt.other_addr
-        status = ScResult.Ok
+    def on_event(self, class_node: ScAddr, edge: ScAddr, action_node: ScAddr) -> ScResult:
+        status = ScResult.OK
+        self._logger.debug("GetLakesByAreaAgent starts")
 
-        if self.module.ctx.HelperCheckEdge(
-                self.keynodes['action_generate_osm_query'],
-                self.main_node,
-                ScType.EdgeAccessConstPosPerm,
-        ):
-            try:
-                if self.main_node is None or not self.main_node.IsValid():
-                    raise Exception("The question node isn't valid.")
+        try:
+            if action_node is None or not action_node.is_valid():
+                raise Exception("The question node isn't valid.")
 
-                node = self.get_action_argument(self.main_node, 'rrel_1')
-                contour = self.ctx.CreateNode(ScType.NodeConstStruct)
-                self.ctx.CreateEdge(
-                    ScType.EdgeAccessConstPosPerm,
-                    contour,
-                    node
-                )
+            node = get_action_arguments(action_node, 1)
+            contour = create_node(sc_types.NODE_CONST_STRUCT)
+            create_edge(
+                sc_types.EDGE_ACCESS_CONST_POS_PERM,
+                contour,
+                node
+            )
 
-                elements = self.get_query(node)
-                if elements is None:
-                    elements = self.generate_osm_query(node)
+            elements = self.get_query(node)
+            if elements is None:
+                elements = self.generate_osm_query(node)
 
-                self.add_nodes_to_answer(contour, elements)
+            self.add_nodes_to_answer(contour, elements)
 
-                contour_edge = self.ctx.CreateEdge(
-                    ScType.EdgeDCommonConst,
-                    self.main_node,
-                    contour
-                )
-                self.ctx.CreateEdge(
-                    ScType.EdgeAccessConstPosPerm,
-                    self.keynodes['nrel_answer'],
-                    contour_edge
-                )
-                self.ctx.CreateEdge(
-                    ScType.EdgeAccessConstPosPerm,
-                    self.keynodes['question_finished_successfully'],
-                    self.main_node,
-                )
-            except Exception as ex:
-                print(colored(str(ex), color='red'))
-                self.set_unsuccessful_status()
-                status = ScResult.Error
-            finally:
-                self.ctx.CreateEdge(
-                    ScType.EdgeAccessConstPosPerm,
-                    self.keynodes['question_finished'],
-                    self.main_node,
-                )
+            contour_edge = create_edge(
+                sc_types.EDGE_D_COMMON_CONST,
+                action_node,
+                contour
+            )
+            create_edge(
+                sc_types.EDGE_ACCESS_CONST_POS_PERM,
+                self._keynodes['nrel_answer'],
+                contour_edge
+            )
+            create_edge(
+                sc_types.EDGE_ACCESS_CONST_POS_PERM,
+                self._keynodes['question_finished_successfully'],
+                action_node,
+            )
+        except Exception as ex:
+            print(colored(str(ex), color='red'))
+            self.set_unsuccessful_status(action_node)
+            status = ScResult.ERROR
+        finally:
+            self.create_edge(
+                sc_types.EDGE_ACCESS_CONST_POS_PERM,
+                self._keynodes['question_finished'],
+                action_node,
+            )
         return status
 
-    def set_unsuccessful_status(self):
-        self.module.ctx.CreateEdge(
-            ScType.EdgeAccessConstPosPerm,
-            self.keynodes['question_finished_unsuccessfully'],
-            self.main_node,
+    def set_unsuccessful_status(self, action_node: ScAddr) -> ScAddr:
+        create_edge(
+            sc_types,
+            self._keynodes['question_finished_unsuccessfully'],
+            action_node,
         )
 
-    def get_action_argument(self, question: ScAddr, rrel: str, argument_class=None) -> ScAddr:
-        actual_argument = "_actual_argument"
-
-        keynodes = self.keynodes
-
+    def get_query(self, node: ScAddr) -> List[ScAddr]:
         template = ScTemplate()
-        template.TripleWithRelation(
-            question,
-            ScType.EdgeAccessVarPosPerm,
-            ScType.NodeVar >> actual_argument,
-            ScType.EdgeAccessVarPosPerm,
-            keynodes[rrel],
-        )
-        if argument_class is not None:
-            template.Triple(keynodes[argument_class], ScType.EdgeAccessVarPosPerm, actual_argument)
-
-        search_result = self.ctx.HelperSearchTemplate(template)
-
-        search_result_size = search_result.Size()
-        if search_result_size > 0:
-            argument_node = search_result[0][actual_argument]
-        else:
-            raise Exception("The argument node isn't found.")
-
-        return argument_node
-
-    def get_query(self, node):
-        template = ScTemplate()
-        template.TripleWithRelation(
+        template.triple_with_relation(
             node,
-            ScType.EdgeDCommonVar >> 'dedge',
-            ScType.LinkVar >> 'value',
-            ScType.EdgeAccessVarPosPerm >> 'aedge',
-            self.keynodes['nrel_osm_query']
+            [sc_types.EDGE_D_COMMON_VAR, '_dedge'],
+            [sc_types.LINK_VAR, '_value'],
+            [sc_types.EDGE_ACCESS_VAR_POS_PERM, '_aedge'],
+            self._keynodes.resolve('nrel_osm_query', sc_types.NODE_CONST_NOROLE)
         )
-        template_result = self.ctx.HelperSearchTemplate(template)
-        if template_result.Size():
-            print(colored("Get from base: " + self.ctx.GetLinkContent(template_result[0]['value']).AsString(),
-                          color='green')
-                  )
-            return [template_result[0]['dedge'],
-                    template_result[0]['value'],
-                    template_result[0]['aedge'],
-                    self.keynodes['nrel_osm_query']
-                    ]
+        template_result = client.template_search(template)
+        if template_result:
+            print(colored(
+                "Get from base: " + client.get_link_content(template_result[0].get('_value'))[0].data, color='green'))
+            return [
+                template_result[0].get('_dedge'),
+                template_result[0].get('_value'),
+                template_result[0].get('_aedge'),
+                self._keynodes['nrel_osm_query']
+            ]
         else:
-            return None
+            return []
 
-    def get_main_idtf(self, node):
+    def get_main_idtf(self, node: ScAddr) -> str:
         template = ScTemplate()
-        template.TripleWithRelation(
+        template.triple_with_relation(
             node,
-            ScType.EdgeDCommonVar,
-            ScType.LinkVar >> 'value',
-            ScType.EdgeAccessVarPosPerm,
-            self.keynodes['nrel_main_idtf']
+            sc_types.EDGE_D_COMMON_VAR,
+            [sc_types.LINK_VAR, '_value'],
+            sc_types.EDGE_ACCESS_VAR_POS_PERM,
+            self._keynodes['nrel_main_idtf']
         )
-        template.Triple(
-            self.keynodes['name'],
-            ScType.EdgeAccessVarPosPerm,
-            "value"
+        template.triple(
+            self._keynodes.resolve('name', sc_types.NODE_CONST_CLASS),
+            sc_types.EDGE_ACCESS_VAR_POS_PERM,
+            "_value"
         )
-        template_result = self.ctx.HelperSearchTemplate(template)
-        value = ''
-        if template_result.Size():
-            value = self.ctx.GetLinkContent(template_result[0]['value']).AsString()
+        template_result = client.template_search(template)
+        if template_result:
+            return client.get_link_content(template_result[0].get('_value'))[0].data
 
-        return value
+        return ""
 
     def get_admin_level(self, node):
         template = ScTemplate()
-        template.TripleWithRelation(
+        template.triple_with_relation(
             node,
-            ScType.EdgeDCommonVar,
-            ScType.LinkVar >> 'value',
-            ScType.EdgeAccessVarPosPerm,
-            self.keynodes['nrel_admin_level']
+            sc_types.EDGE_D_COMMON_VAR,
+            [sc_types.LINK_VAR, '_value'],
+            sc_types.EDGE_ACCESS_VAR_POS_PERM,
+            self._keynodes.resolve('nrel_admin_level', sc_types.NODE_CONST_NOROLE)
         )
-        template_result = self.ctx.HelperSearchTemplate(template)
-        if template_result.Size():
-            return self.ctx.GetLinkContent(template_result[0]['value']).AsString()
-        return None
+        template_result = client.template_search(template)
+        if template_result:
+            return client.get_link_content(template_result[0].get('_value'))[0].data
+        return ""
 
-    def get_values_links_of_tags_for_node(self, node, admin_level):
+    def get_values_links_of_tags_for_node(self, node: ScAddr, admin_level):
         global osm_level_to_tag
         template = ScTemplate()
-        template.TripleWithRelation(
+        template.triple_with_relation(
             node,
-            ScType.EdgeDCommonVar,
-            ScType.LinkVar >> 'value',
-            ScType.EdgeAccessVarPosPerm,
-            ScType.NodeVar >> "tag_relation"
+            sc_types.EDGE_D_COMMON_VAR,
+            [sc_types.LINK_VAR, '_value'],
+            sc_types.EDGE_ACCESS_VAR_POS_PERM,
+            [sc_types.NODE_VAR, "_tag_relation"]
+        )
+        template.triple_with_relation(
+            "_tag_relation",
+            sc_types.EDGE_D_COMMON_VAR,
+            [sc_types.LINK_VAR, "_tag_class"],
+            sc_types.EDGE_ACCESS_VAR_POS_PERM,
+            self._keynodes.resolve('nrel_tag', sc_types.NODE_CONST_NOROLE),
+        )
+        template.triple(
+            self._keynodes.resolve('concept_openstreetmap_tag', sc_types.NODE_CONST_CLASS),
+            sc_types.EDGE_ACCESS_VAR_POS_PERM,
+            "_tag_class"
         )
         template.TripleWithRelation(
-            "tag_relation",
-            ScType.EdgeDCommonVar,
-            ScType.NodeVar >> "tag_class",
-            ScType.EdgeAccessVarPosPerm,
-            self.keynodes['nrel_tag'],
+            "_tag_class",
+            sc_types.EDGE_D_COMMON_VAR,
+            [sc_types.LINK_VAR, "_tag_name"],
+            sc_types.EDGE_ACCESS_VAR_POS_PERM,
+            self._keynodes['nrel_main_idtf']
         )
-        template.Triple(
-            self.keynodes['concept_openstreetmap_tag'],
-            ScType.EdgeAccessVarPosPerm,
-            "tag_class"
-        )
-        template.TripleWithRelation(
-            "tag_class",
-            ScType.EdgeDCommonVar,
-            ScType.LinkVar >> "tag_name",
-            ScType.EdgeAccessVarPosPerm,
-            self.keynodes['nrel_main_idtf']
-        )
-        template_result = self.ctx.HelperSearchTemplate(template)
+        template_result = client.template_search(template)
         relations_tags = {}
-        if template_result.Size():
-            for i in range(template_result.Size()):
-                tag = self.ctx.GetLinkContent(template_result[i]['tag_name']).AsString()
-                value = self.ctx.GetLinkContent(template_result[i]['value']).AsString()
-                if tag not in osm_level_to_tag.get(admin_level):
-                    relations_tags[tag] = value
+        for item in template_result:
+            tag = client.get_link_content(item.get('_tag_name'))[0].data
+            value = client.get_link_content(item.get('_value'))[0].data
+            if tag not in osm_level_to_tag.get(admin_level):
+                relations_tags[tag] = value
         return relations_tags
 
-    def get_values_nodes_of_tags_for_node(self, node, admin_level):
+    def get_values_nodes_of_tags_for_node(self, node: ScAddr, admin_level):
         global osm_level_to_tag
         template = ScTemplate()
-        template.TripleWithRelation(
+        template.triple_with_relation(
             node,
-            ScType.EdgeDCommonVar,
-            ScType.NodeVar >> 'value',
-            ScType.EdgeAccessVarPosPerm,
-            ScType.NodeVar >> "tag_relation"
+            sc_types.EDGE_D_COMMON_VAR,
+            [sc_types.NODE_VAR, '_value'],
+            sc_types.EDGE_ACCESS_VAR_POS_PERM,
+            [sc_types.NODE_VAR, "_tag_relation"]
         )
-        template.TripleWithRelation(
-            "tag_relation",
-            ScType.EdgeDCommonVar,
-            ScType.NodeVar >> "tag_class",
-            ScType.EdgeAccessVarPosPerm,
-            self.keynodes['nrel_tag'],
+        template.triple_with_relation(
+            "_tag_relation",
+            sc_types.EDGE_D_COMMON_VAR,
+            [sc_types.NODE_VAR, "_tag_class"],
+            sc_types.EDGE_ACCESS_VAR_POS_PERM,
+            self._keynodes.resolve('nrel_tag', sc_types.NODE_CONST_NOROLE),
         )
-        template.Triple(
-            self.keynodes['concept_openstreetmap_tag'],
-            ScType.EdgeAccessVarPosPerm,
-            "tag_class"
+        template.triple(
+            self._keynodes.resolve('concept_openstreetmap_tag', sc_types.NODE_CONST_CLASS),
+            sc_types.EDGE_ACCESS_VAR_POS_PERM,
+            "_tag_class"
         )
-        template.TripleWithRelation(
-            "tag_class",
-            ScType.EdgeDCommonVar,
-            ScType.LinkVar >> "tag_name",
-            ScType.EdgeAccessVarPosPerm,
-            self.keynodes['nrel_main_idtf']
+        template.triple_with_relation(
+            "_tag_class",
+            sc_types.EDGE_D_COMMON_VAR,
+            [sc_types.LINK_VAR, "tag_name"],
+            sc_types.EDGE_ACCESS_VAR_POS_PERM,
+            self._keynodes['nrel_main_idtf']
         )
-        template_result = self.ctx.HelperSearchTemplate(template)
+        template_result = client.template_search(template)
         relations_tags = {}
-        if template_result.Size():
-            for i in range(template_result.Size()):
-                tag = self.ctx.GetLinkContent(template_result[i]['tag_name']).AsString()
-                value = self.get_main_idtf(template_result[i]['value'])
-                if tag not in osm_level_to_tag.get(admin_level):
-                    relations_tags[tag] = value
+        for item in template_result:
+            tag = client.get_link_content(item.get('_tag_name'))
+            value = self.get_main_idtf(item.get('_value'))
+            if tag not in osm_level_to_tag.get(admin_level):
+                relations_tags[tag] = value
         return relations_tags
 
-    def get_way(self, node) -> bool:
+    def get_way(self, node: ScAddr) -> bool:
         template = ScTemplate()
-        template.Triple(
-            self.keynodes['concept_way'],
-            ScType.EdgeAccessVarPosPerm,
+        template.triple(
+            self._keynodes.resolve('concept_way', sc_types.NODE_CONST_CLASS),
+            sc_types.EDGE_ACCESS_VAR_POS_PERM,
             node
         )
         template_result = self.ctx.HelperSearchTemplate(template)
-        if template_result.Size() > 0:
-            return True
-        else:
-            return False
+        return template_result
 
-    def get_search_area_name(self, node) -> str:
+    def get_search_area_name(self, node: ScAddr) -> str:
         template = ScTemplate()
-        template.TripleWithRelation(
+        template.triple_with_relation(
             node,
-            ScType.EdgeDCommonVar,
-            ScType.NodeVar >> '_search_area',
-            ScType.EdgeAccessVarPosPerm,
-            self.keynodes['nrel_search_area']
+            sc_types.EDGE_D_COMMON_VAR,
+            [sc_types.NODE_VAR, '_search_area'],
+            sc_types.EDGE_ACCESS_VAR_POS_PERM,
+            self._keynodes.resolve('nrel_search_area', sc_types.NODE_CONST_NOROLE)
         )
-        template_result = self.ctx.HelperSearchTemplate(template)
-        if template_result.Size() > 0:
-            return self.get_main_idtf(template_result[0]['_search_area'])
+        template_result = client.template_search(template)
+        if template_result:
+            return self.get_main_idtf(template_result[0].get('_search_area'))
         else:
             return 'Беларусь'
 
@@ -292,32 +263,27 @@ class OpenStreetMapAgent(ScAgent):
             query = f'[out:json][timeout:25];area["name:en"="Belarus"]->.searchArea;' \
                 f'(relation["name"="{self.get_main_idtf(node)}"]{relation}(area.searchArea););out center;>;out skel qt;'
         print(colored('Generated: ' + query, color='green'))
-        query_link = self.ctx.CreateLink()
-        elements = []
-        if self.ctx.SetLinkContent(query_link, query):
-            query_edge = self.ctx.CreateEdge(
-                ScType.EdgeDCommonConst,
-                node,
-                query_link
-            )
-            query_edge2 = self.ctx.CreateEdge(
-                ScType.EdgeAccessConstPosPerm,
-                self.keynodes['nrel_osm_query'],
-                query_edge
-            )
-            elements += [query_edge, query_link, query_edge2, self.keynodes['nrel_osm_query']]
-        else:
-            raise Exception("Invalid content: " + query)
-        return elements
+        query_link = create_link(query)
+        query_edge = create_edge(
+            sc_types.EDGE_D_COMMON_CONST,
+            node,
+            query_link
+        )
+        query_edge2 = create_edge(
+            sc_types.EDGE_ACCESS_CONST_POS_PERM,
+            self._keynodes['nrel_osm_query'],
+            query_edge
+        )
+        return [query_edge, query_link, query_edge2, self._keynodes['nrel_osm_query']]
 
-    def add_nodes_to_answer(self, contour=None, nodes=None):
+    def add_nodes_to_answer(self, contour: ScAddr, nodes: ScAddr):
         if contour is None:
-            contour = self.ctx.CreateNode()
+            contour = create_node(sc_types.NODE_CONST_STRUCT)
         if nodes is None:
             nodes = []
         for node in nodes:
-            self.ctx.CreateEdge(
-                ScType.EdgeAccessConstPosPerm,
+            create_edge(
+                sc_types.EDGE_ACCESS_CONST_POS_PERM,
                 contour,
                 node
             )
