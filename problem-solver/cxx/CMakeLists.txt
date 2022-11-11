@@ -13,4 +13,3 @@ add_subdirectory(PotteryModule)
 add_subdirectory(RiversModule)
 add_subdirectory(VitebskVillagesModule)
 add_subdirectory(StatusAndDistrictSearchModule)
-
