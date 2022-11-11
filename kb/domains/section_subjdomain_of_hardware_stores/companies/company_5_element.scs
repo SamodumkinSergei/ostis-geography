@@ -1,0 +1,43 @@
+company_5_element
+
+<- sc_node_not_relation;
+
+<- concept_company;
+
+=> nrel_main_idtf:
+	[5 элемент]
+	(* <- lang_ru;; *);
+	[5 element]
+	(* <- lang_en;; *);
+
+=> nrel_website:
+	["https://5element.by/"]
+	(* <- concept_website;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+		[Опр. (5 элемент)]
+		(* <- lang_ru;; *);
+		[Def. (5 element)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[5 элемент – национальная компания, предлагающая решения для покупки электроники и бытовой техники в Беларуси.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[5 element - national company offering solutions for the purchase of electronics and home appliances in Belarus.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			company_5_element
+		};;
+	*);;

@@ -1,0 +1,17 @@
+store_a1_logoisky_trakt_37
+
+<- sc_node_not_relation;
+
+<- concept_hardware_store;
+
+=> nrel_main_idtf:
+	[Магазин A1 по адресу Минск, Логойский тракт, 37]
+	(* <- lang_ru;; *);
+	[Shop A1 at Minsk, Logoisky Trakt, 37]
+	(* <- lang_en;; *);
+
+=> nrel_address:
+	[Минск, Логойский тракт, 37]
+	(* <- concept_address;; *);
+
+=> nrel_company: company_a1;;

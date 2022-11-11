@@ -1,0 +1,43 @@
+company_21_vek
+
+<- sc_node_not_relation;
+
+<- concept_company;
+
+=> nrel_main_idtf:
+	[21век]
+	(* <- lang_ru;; *);
+	[21vek]
+	(* <- lang_en;; *);
+
+=> nrel_website:
+	["https://www.21vek.by/"]
+	(* <- concept_website;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+		[Опр. (21век)]
+		(* <- lang_ru;; *);
+		[Def. (21vek)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[21век – онлайн-магазин бытовой техники и электроники.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[21vek - online store of home appliances and electronics.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			company_21_vek
+		};;
+	*);;

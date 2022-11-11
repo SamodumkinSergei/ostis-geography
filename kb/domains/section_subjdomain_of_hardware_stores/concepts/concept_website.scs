@@ -1,0 +1,37 @@
+concept_website
+
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	[веб-сайт]
+	(* <- lang_ru;; *);
+	[website]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+		[Опр. (веб-сайт)]
+		(* <- lang_ru;; *);
+		[Def. (website)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Веб-сайт — одна или несколько логически связанных между собой веб-страниц; также место расположения контента сервера.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Website - a set of related web pages located under a single domain name, typically produced by a single person or organization.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_website
+		};;
+	*);;

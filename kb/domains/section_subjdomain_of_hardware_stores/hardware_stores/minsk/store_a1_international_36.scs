@@ -1,0 +1,17 @@
+store_a1_international_36
+
+<- sc_node_not_relation;
+
+<- concept_hardware_store;
+
+=> nrel_main_idtf:
+	[Магазин A1 по адресу Минск, ул. Интернациональная, 36]
+	(* <- lang_ru;; *);
+	[Store A1 at Minsk, st. International, 36]
+	(* <- lang_en;; *);
+
+=> nrel_address:
+	[Минск, ул. Интернациональная, 36]
+	(* <- concept_address;; *);
+
+=> nrel_company: company_a1;;
