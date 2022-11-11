@@ -36,13 +36,13 @@ docker-compose up
 Run on Linux:
 ```sh
 #Terminal 1
-cd ostis-geography/scripts
+cd scripts
 ./run_sc_server.sh
 #Terminal 2
-cd ostis-geography/scripts
+cd scripts
 ./run_py_sc_server.sh
 #Terminal 3
-cd ostis-geography/scripts
+cd scripts
 ./run_sc_web.sh
 ```
 

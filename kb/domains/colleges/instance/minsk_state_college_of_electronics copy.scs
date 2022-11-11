@@ -1,0 +1,22 @@
+minsk_state_college_of_electronics.scs
+<- concept_college;
+=>nrel_main_idtf:
+    [Minsk State College of Electronics]
+    (* <- lang_en;; <- name_en;;*);
+    [Минский государственный колледж электроники]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_address:
+    [г.Минск, ул. Казинца, 91]
+    (*<-concept_address;;*);
+=> nrel_email:
+    [mgke@minsk.edu.by]
+    (*<-concept_email;;*);
+=> nrel_phone_number:
+    [375 17 398 33 75]
+    (*<-concept_phone_number;;*);
+=> nrel_number_of_specialties:
+    [10]
+    (*<-concept_number_of_specialties;;*);
+=> nrel_number_of_students:
+    [850]
+    (*<-concept_number_of_students;;*);;
