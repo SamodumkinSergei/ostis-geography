@@ -4,6 +4,7 @@ from sc_kpm import ScServer
 
 from modules.lakes_module.LakesModule import LakesModule
 from modules.open_street_map_module.OpenStreetMapModule import OpenStreetMapModule
+from modules.search_banks_by_type_agent.SearchBanksByTypeModule import SearchBanksByTypeModule
 
 import logging.config
 from pathlib import Path
@@ -52,7 +53,11 @@ def main(args: dict):
     server = ScServer(f"ws://{args[SC_SERVER_HOST]}:{args[SC_SERVER_PORT]}")
 
     with server.connect():
-        modules = [LakesModule(), OpenStreetMapModule()]
+        modules = [
+            LakesModule(),
+            OpenStreetMapModule(),
+            SearchBanksByTypeModule()
+        ]
         server.add_modules(*modules)
 
         with server.register_modules():
