@@ -1,0 +1,43 @@
+company_electrosila
+
+<- sc_node_not_relation;
+
+<- concept_company;
+
+=> nrel_main_idtf:
+	[Электросила]
+	(* <- lang_ru;; *);
+	[Electrosila]
+	(* <- lang_en;; *);
+
+=> nrel_website:
+	["https://sila.by/"]
+	(* <- concept_website;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+		[Опр. (Электросила)]
+		(* <- lang_ru;; *);
+		[Def. (Electrosila)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Электросила – магазин обеспечивающий оптовую и розничную торговлю бытовой техникой и электроникой.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Electrosila - a store providing wholesale and retail trade in household appliances and electronics.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			company_electrosila
+		};;
+	*);;

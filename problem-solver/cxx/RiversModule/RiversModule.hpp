@@ -5,6 +5,9 @@
 
 #include "keynodes/keynodes.hpp"
 #include "agents/TheBiggestBasinInRegion.hpp"
+#include "agents/LongerRiver.hpp"
+#include "agents/LongestInRegion.hpp"
+#include "agents/BiggerBasin.hpp"
 
 #include "RiversModule.generated.hpp"
 

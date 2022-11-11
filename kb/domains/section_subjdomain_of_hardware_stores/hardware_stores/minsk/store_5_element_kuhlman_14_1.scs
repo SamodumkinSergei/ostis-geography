@@ -1,0 +1,17 @@
+store_5_element_kuhlman_14_1
+
+<- sc_node_not_relation;
+
+<- concept_hardware_store;
+
+=> nrel_main_idtf:
+	[Магазин 5 Элемент по адресу Минск, ул. Кульман, 14-1]
+	(* <- lang_ru;; *);
+	[Shop 5 Element at Minsk, st. Kuhlman, 14-1]
+	(* <- lang_en;; *);
+
+=> nrel_address:
+	[Минск, ул. Кульман, 14-1]
+	(* <- concept_address;; *);
+
+=> nrel_company: company_5_element;;

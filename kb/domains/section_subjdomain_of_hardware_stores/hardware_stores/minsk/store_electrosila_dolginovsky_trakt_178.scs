@@ -1,0 +1,17 @@
+store_electrosila_dolginovsky_trakt_178
+
+<- sc_node_not_relation;
+
+<- concept_hardware_store;
+
+=> nrel_main_idtf:
+	[Магазин Электросила по адресу Минск, Долгиновский тракт, 178]
+	(* <- lang_ru;; *);
+	[Elektrosila store at Minsk, Dolginovsky Trakt, 178]
+	(* <- lang_en;; *);
+
+=> nrel_address:
+	[Минск, Долгиновский тракт, 178]
+	(* <- concept_address;; *);
+
+=> nrel_company: company_electrosila;;

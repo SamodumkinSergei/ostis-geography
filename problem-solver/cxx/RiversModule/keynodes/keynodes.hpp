@@ -20,14 +20,14 @@ class Keynodes : public ScObject
   SC_GENERATED_BODY()
 
 public:
-
-
-
+  SC_PROPERTY(Keynode("question_theBiggestBasinInRegion"), ForceCreate)
+  static ScAddr question_theBiggestBasinInRegion;
+  
   SC_PROPERTY(Keynode("question_longerRiver"), ForceCreate)
   static ScAddr question_longerRiver;
 
-  SC_PROPERTY(Keynode("question_theBiggestBasinInRegion"), ForceCreate)
-  static ScAddr question_theBiggestBasinInRegion;
+  SC_PROPERTY(Keynode("question_biggerBasin"), ForceCreate)
+  static ScAddr question_biggerBasin;
 
   SC_PROPERTY(Keynode("question_longestInRegion"), ForceCreate)
   static ScAddr question_longestInRegion;
@@ -43,8 +43,6 @@ public:
 
   SC_PROPERTY(Keynode("nrel_main_idtf"), ForceCreate)
   static ScAddr nrel_main_idtf;
-
-  
 };
 
 } // namespace RiversModule
