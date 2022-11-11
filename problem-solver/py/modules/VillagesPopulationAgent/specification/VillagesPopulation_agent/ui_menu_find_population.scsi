@@ -1,0 +1,29 @@
+ui_menu_find_population <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+ui_menu_find_population
+=> nrel_main_idtf: 
+	[Найти количество людей в деревне]
+	(* <- lang_ru;; *);
+=> nrel_idtf: 
+	[Запрос поиска количества людей в деревне]
+	(* <- lang_ru;; *);;
+
+ui_menu_find_population
+=> nrel_main_idtf: 
+	[Find population of the village]
+	(* <- lang_en;; *);
+=> nrel_idtf: 
+	[Request searches for population of the village]
+	(* <- lang_en;; *);;
+
+ui_menu_find_population => ui_nrel_command_template:
+	[*
+		action_find_population _-> ._question_find_population
+			(*
+				_-> rrel_1::ui_arg_1;;
+			*);;
+		._question_find_population _<- question;;
+	*];;
+
+ui_menu_find_population => ui_nrel_command_lang_template: [Найти количество человек в $ui_arg_1] (* <- lang_ru;; *);;
+ui_menu_find_population => ui_nrel_command_lang_template: [Find population in $ui_arg_1] (* <- lang_en;; *);;
