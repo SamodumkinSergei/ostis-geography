@@ -1,4 +1,4 @@
-var MapInterface = React.createClass({displayName: "MapInterface",
+const MapInterface = React.createClass({displayName: "MapInterface",
   propTypes: {
     store: React.PropTypes.object
   },
