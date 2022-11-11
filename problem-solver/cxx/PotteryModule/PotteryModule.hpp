@@ -8,7 +8,8 @@
 
 #include "PotteryModule.generated.hpp"
 
-namespace PotteryModule {
+namespace PotteryModule
+{
 
 class PotteryModule : public ScModule
 {
@@ -19,4 +20,4 @@ class PotteryModule : public ScModule
 
   virtual sc_result ShutdownImpl() override;
 };
-}
+}  // namespace PotteryModule

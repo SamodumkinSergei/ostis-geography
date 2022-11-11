@@ -8,13 +8,12 @@
 namespace adminModule
 {
 
-class AdminKeynodes : public ScObject 
+class AdminKeynodes : public ScObject
 {
   SC_CLASS()
   SC_GENERATED_BODY()
 
 public:
-
   SC_PROPERTY(Keynode("action_get_embassy"), ForceCreate)
   static ScAddr action_get_embassy;
 
@@ -38,7 +37,6 @@ public:
 
   SC_PROPERTY(Keynode("minsk"), ForceCreate)
   static ScAddr minsk;
-
 };
 
-}
+}  // namespace adminModule

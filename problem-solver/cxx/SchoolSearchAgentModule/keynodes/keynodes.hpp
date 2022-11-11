@@ -14,7 +14,6 @@ class Keynodes : public ScObject
   SC_GENERATED_BODY()
 
 public:
-
   SC_PROPERTY(Keynode("action_schoolByNumberSearch"), ForceCreate)
   static ScAddr action_schoolByNumberSearch;
 
@@ -28,4 +27,4 @@ public:
   static ScAddr nrel_search_area;
 };
 
-} // namespace exampleModule
+}  // namespace SchoolSearchAgentModule

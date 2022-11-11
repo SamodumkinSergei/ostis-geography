@@ -1,8 +1,8 @@
 /*
-* This source file is part of an OSTIS project. For the latest info, see http://ostis.net
-* Distributed under the MIT License
-* (See accompanying file COPYING.MIT or copy at http://opensource.org/licenses/MIT)
-*/
+ * This source file is part of an OSTIS project. For the latest info, see http://ostis.net
+ * Distributed under the MIT License
+ * (See accompanying file COPYING.MIT or copy at http://opensource.org/licenses/MIT)
+ */
 
 #pragma once
 
@@ -20,9 +20,6 @@ class Keynodes : public ScObject
   SC_GENERATED_BODY()
 
 public:
-
-
-
   SC_PROPERTY(Keynode("question_potteryType"), ForceCreate)
   static ScAddr question_potteryType;
 
@@ -47,18 +44,14 @@ public:
   SC_PROPERTY(Keynode("pottery_centre"), ForceCreate)
   static ScAddr pottery_centre;
 
-  //SC_PROPERTY(Keynode("nrel_system_identifier"), ForceCreate)
-  //static ScAddr nrel_system_identifier;
+  // SC_PROPERTY(Keynode("nrel_system_identifier"), ForceCreate)
+  // static ScAddr nrel_system_identifier;
 
-  //SC_PROPERTY(Keynode("system_identifier"), ForceCreate)
-  //static ScAddr system_identifier;
+  // SC_PROPERTY(Keynode("system_identifier"), ForceCreate)
+  // static ScAddr system_identifier;
 
-  //SC_PROPERTY(Keynode("nrel_sys_idtf"), ForceCreate)
-  //static ScAddr nrel_sys_idtf;
-
-
-
-  
+  // SC_PROPERTY(Keynode("nrel_sys_idtf"), ForceCreate)
+  // static ScAddr nrel_sys_idtf;
 };
 
-} // namespace exampleModule
+}  // namespace PotteryModule

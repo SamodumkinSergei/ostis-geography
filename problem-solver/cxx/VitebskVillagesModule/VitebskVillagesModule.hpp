@@ -10,7 +10,8 @@
 
 #include "VitebskVillagesModule.generated.hpp"
 
-namespace VitebskVillagesModule {
+namespace VitebskVillagesModule
+{
 
 class VitebskVillagesModule : public ScModule
 {
@@ -21,4 +22,4 @@ class VitebskVillagesModule : public ScModule
 
   virtual sc_result ShutdownImpl() override;
 };
-}
+}  // namespace VitebskVillagesModule

@@ -14,4 +14,4 @@ class SchoolSearchAgent : public ScAgent
   SC_GENERATED_BODY()
 };
 
-} // namespace exampleModule
+}  // namespace SchoolSearchAgentModule

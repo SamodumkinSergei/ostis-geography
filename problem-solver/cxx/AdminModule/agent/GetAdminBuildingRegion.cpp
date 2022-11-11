@@ -12,21 +12,17 @@ using namespace utils;
 
 SC_AGENT_IMPLEMENTATION(GetAdminBuildingRegion)
 {
-  
-  ScAddr actionNode = m_memoryCtx.GetEdgeTarget(edgeAddr); 
+  ScAddr actionNode = m_memoryCtx.GetEdgeTarget(edgeAddr);
 
-  if (!checkActionClass(actionNode)) 
+  if (!checkActionClass(actionNode))
   {
     return SC_RESULT_OK;
   }
 
   SC_LOG_DEBUG("GetAdminBuildingRegion started");
 
-
-  ScAddr firstParameter = IteratorUtils::getFirstByOutRelation(
-        &m_memoryCtx,
-        actionNode,
-        scAgentsCommon::CoreKeynodes::rrel_1); 
+  ScAddr firstParameter =
+      IteratorUtils::getFirstByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_1);
 
   if (!firstParameter.IsValid())
   {
@@ -35,41 +31,45 @@ SC_AGENT_IMPLEMENTATION(GetAdminBuildingRegion)
     return SC_RESULT_ERROR_INVALID_PARAMS;
   }
 
-
   ScAddr answerNode = m_memoryCtx.CreateNode(ScType::NodeConstStruct);
   ScAddr district;
 
-  ScIterator5Ptr iterator5 = m_memoryCtx.Iterator5(ScType::Unknown, ScType::EdgeDCommonConst,firstParameter, ScType::EdgeAccessConstPosPerm, AdminKeynodes::nrel_region);
+  ScIterator5Ptr iterator5 = m_memoryCtx.Iterator5(
+      ScType::Unknown,
+      ScType::EdgeDCommonConst,
+      firstParameter,
+      ScType::EdgeAccessConstPosPerm,
+      AdminKeynodes::nrel_region);
   while (iterator5->Next())
   {
-      std::cout<<"1 ";
+    std::cout << "1 ";
 
-      district = iterator5->Get(0);
-      ScAddr building;
-      
-      ScIterator5Ptr it5 = m_memoryCtx.Iterator5(ScType::Unknown, ScType::EdgeDCommonConst, district , ScType::EdgeAccessConstPosPerm, AdminKeynodes::nrel_search_area);
+    district = iterator5->Get(0);
+    ScAddr building;
 
-      while (it5->Next())
-      {
-       std::cout<<"2 "; 
-       building = it5->Get(0);
-      
-        if (m_memoryCtx.HelperCheckEdge(AdminKeynodes::concept_admin_building, building, ScType::EdgeAccessConstPosPerm))
-            m_memoryCtx.CreateEdge(ScType::EdgeAccessConstPosPerm, answerNode, building);
+    ScIterator5Ptr it5 = m_memoryCtx.Iterator5(
+        ScType::Unknown,
+        ScType::EdgeDCommonConst,
+        district,
+        ScType::EdgeAccessConstPosPerm,
+        AdminKeynodes::nrel_search_area);
 
-      }
+    while (it5->Next())
+    {
+      std::cout << "2 ";
+      building = it5->Get(0);
+
+      if (m_memoryCtx.HelperCheckEdge(AdminKeynodes::concept_admin_building, building, ScType::EdgeAccessConstPosPerm))
+        m_memoryCtx.CreateEdge(ScType::EdgeAccessConstPosPerm, answerNode, building);
+    }
   }
-      AgentUtils::finishAgentWork(&m_memoryCtx, actionNode, answerNode, true);
-      SC_LOG_DEBUG("GetAdminBuildingRegion finished");
-      return SC_RESULT_OK;
-  
+  AgentUtils::finishAgentWork(&m_memoryCtx, actionNode, answerNode, true);
+  SC_LOG_DEBUG("GetAdminBuildingRegion finished");
+  return SC_RESULT_OK;
 }
 
 bool GetAdminBuildingRegion::checkActionClass(const ScAddr & actionNode)
 {
   return m_memoryCtx.HelperCheckEdge(
-        AdminKeynodes::action_get_admin_building_region,
-        actionNode,
-        ScType::EdgeAccessConstPosPerm);
+      AdminKeynodes::action_get_admin_building_region, actionNode, ScType::EdgeAccessConstPosPerm);
 }
-

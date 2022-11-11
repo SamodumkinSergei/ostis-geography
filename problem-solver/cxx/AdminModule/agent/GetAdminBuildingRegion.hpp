@@ -9,9 +9,8 @@
 namespace adminModule
 {
 
-class GetAdminBuildingRegion : public ScAgent 
+class GetAdminBuildingRegion : public ScAgent
 {
-  
   SC_CLASS(Agent, Event(AdminKeynodes::action_get_admin_building_region, ScEvent::Type::AddOutputEdge))
   SC_GENERATED_BODY()
 
@@ -19,4 +18,4 @@ private:
   bool checkActionClass(const ScAddr & actionNode);
 };
 
-}
+}  // namespace adminModule

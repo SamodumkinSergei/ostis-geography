@@ -1,8 +1,8 @@
 /*
-* This source file is part of an OSTIS project. For the latest info, see http://ostis.net
-* Distributed under the MIT License
-* (See accompanying file COPYING.MIT or copy at http://opensource.org/licenses/MIT)
-*/
+ * This source file is part of an OSTIS project. For the latest info, see http://ostis.net
+ * Distributed under the MIT License
+ * (See accompanying file COPYING.MIT or copy at http://opensource.org/licenses/MIT)
+ */
 
 #pragma once
 
@@ -22,7 +22,7 @@ class Keynodes : public ScObject
 public:
   SC_PROPERTY(Keynode("question_theBiggestBasinInRegion"), ForceCreate)
   static ScAddr question_theBiggestBasinInRegion;
-  
+
   SC_PROPERTY(Keynode("question_longerRiver"), ForceCreate)
   static ScAddr question_longerRiver;
 
@@ -48,4 +48,4 @@ public:
   static ScAddr nrel_main_idtf;
 };
 
-} // namespace RiversModule
+}  // namespace RiversModule

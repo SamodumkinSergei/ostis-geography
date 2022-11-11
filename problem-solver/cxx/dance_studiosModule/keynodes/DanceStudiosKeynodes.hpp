@@ -1,8 +1,8 @@
 /*
-* This source file is part of an OSTIS project. For the latest info, see http://ostis.net
-* Distributed under the MIT License
-* (See accompanying file COPYING.MIT or copy at http://opensource.org/licenses/MIT)
-*/
+ * This source file is part of an OSTIS project. For the latest info, see http://ostis.net
+ * Distributed under the MIT License
+ * (See accompanying file COPYING.MIT or copy at http://opensource.org/licenses/MIT)
+ */
 
 #pragma once
 
@@ -20,7 +20,6 @@ class DanceStudiosKeynodes : public ScObject
   SC_GENERATED_BODY()
 
 public:
-
   SC_PROPERTY(Keynode("action_search_dance_studios_by_city"), ForceCreate)
   static ScAddr action_search_dance_studios_by_city;
 
@@ -58,4 +57,4 @@ public:
   static ScAddr concept_dance_studio;
 };
 
-}
+}  // namespace dance_studios

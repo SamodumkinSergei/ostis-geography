@@ -12,7 +12,8 @@
 
 #include "RiversModule.generated.hpp"
 
-namespace RiversModule {
+namespace RiversModule
+{
 
 class RiversModule : public ScModule
 {
@@ -23,4 +24,4 @@ class RiversModule : public ScModule
 
   virtual sc_result ShutdownImpl() override;
 };
-}
+}  // namespace RiversModule

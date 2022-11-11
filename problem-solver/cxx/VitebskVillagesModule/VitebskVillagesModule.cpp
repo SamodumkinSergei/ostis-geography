@@ -1,5 +1,6 @@
 #include "VitebskVillagesModule.hpp"
-namespace VitebskVillagesModule {
+namespace VitebskVillagesModule
+{
 SC_IMPLEMENT_MODULE(VitebskVillagesModule)
 
 sc_result VitebskVillagesModule::InitializeImpl()
@@ -11,7 +12,7 @@ sc_result VitebskVillagesModule::InitializeImpl()
   }
 
   ScMemoryContext ctx(sc_access_lvl_make_min, "VitebskVillagesModule");
-  
+
   SC_AGENT_REGISTER(LargerVillageByPopulationInTheDistrict)
   SC_AGENT_REGISTER(LargerVillageByPopulation)
   SC_AGENT_REGISTER(GreatestDistanceToTheRegionalCenter)
@@ -27,4 +28,4 @@ sc_result VitebskVillagesModule::ShutdownImpl()
 
   return SC_RESULT_OK;
 }
-}
+}  // namespace VitebskVillagesModule

@@ -14,10 +14,10 @@
 namespace RiversModule
 {
 
-  class LongerRiver : public ScAgent
-  {
-    SC_CLASS(Agent, Event(Keynodes::question_longerRiver, ScEvent::Type::AddOutputEdge))
-    SC_GENERATED_BODY()
-  };
+class LongerRiver : public ScAgent
+{
+  SC_CLASS(Agent, Event(Keynodes::question_longerRiver, ScEvent::Type::AddOutputEdge))
+  SC_GENERATED_BODY()
+};
 
-}
+}  // namespace RiversModule

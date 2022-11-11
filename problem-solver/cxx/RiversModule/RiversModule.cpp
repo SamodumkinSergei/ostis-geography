@@ -1,5 +1,6 @@
 #include "RiversModule.hpp"
-namespace RiversModule {
+namespace RiversModule
+{
 SC_IMPLEMENT_MODULE(RiversModule)
 
 sc_result RiversModule::InitializeImpl()
@@ -29,4 +30,4 @@ sc_result RiversModule::ShutdownImpl()
   SC_AGENT_UNREGISTER(ShorterRiver)
   return SC_RESULT_OK;
 }
-}
+}  // namespace RiversModule

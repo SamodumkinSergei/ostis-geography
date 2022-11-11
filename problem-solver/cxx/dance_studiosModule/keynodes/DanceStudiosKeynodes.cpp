@@ -1,8 +1,8 @@
 /*
-* This source file is part of an OSTIS project. For the latest info, see http://ostis.net
-* Distributed under the MIT License
-* (See accompanying file COPYING.MIT or copy at http://opensource.org/licenses/MIT)
-*/
+ * This source file is part of an OSTIS project. For the latest info, see http://ostis.net
+ * Distributed under the MIT License
+ * (See accompanying file COPYING.MIT or copy at http://opensource.org/licenses/MIT)
+ */
 
 #include "DanceStudiosKeynodes.hpp"
 
@@ -24,4 +24,4 @@ ScAddr DanceStudiosKeynodes::nrel_year_of_foundation;
 ScAddr DanceStudiosKeynodes::nrel_type;
 ScAddr DanceStudiosKeynodes::concept_dance_studio;
 
-}
+}  // namespace dance_studios

@@ -1,5 +1,6 @@
 #include "PotteryModule.hpp"
-namespace PotteryModule {
+namespace PotteryModule
+{
 SC_IMPLEMENT_MODULE(PotteryModule)
 
 sc_result PotteryModule::InitializeImpl()
@@ -22,4 +23,4 @@ sc_result PotteryModule::ShutdownImpl()
 
   return SC_RESULT_OK;
 }
-}
+}  // namespace PotteryModule

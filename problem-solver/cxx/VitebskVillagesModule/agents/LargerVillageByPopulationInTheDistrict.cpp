@@ -1,8 +1,8 @@
 /*
-* This source file is part of an OSTIS project. For the latest info, see http://ostis.net
-* Distributed under the MIT License
-* (See accompanying file COPYING.MIT or copy at http://opensource.org/licenses/MIT)
-*/
+ * This source file is part of an OSTIS project. For the latest info, see http://ostis.net
+ * Distributed under the MIT License
+ * (See accompanying file COPYING.MIT or copy at http://opensource.org/licenses/MIT)
+ */
 
 #include "sc-agents-common/utils/AgentUtils.hpp"
 #include "sc-agents-common/utils/CommonUtils.hpp"
@@ -26,15 +26,11 @@ SC_AGENT_IMPLEMENTATION(LargerVillageByPopulationInTheDistrict)
   if (!edgeAddr.IsValid())
     return SC_RESULT_ERROR;
 
-
   SC_LOG_INFO("----------LargerVillageByPopulationInTheDistrict begin----------");
   ScAddr actionNode = ms_context->GetEdgeTarget(edgeAddr);
 
-  ScAddr district = IteratorUtils::getFirstByOutRelation(
-        &m_memoryCtx,
-        actionNode,
-        scAgentsCommon::CoreKeynodes::rrel_1
-        );
+  ScAddr district =
+      IteratorUtils::getFirstByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_1);
 
   if (!district.IsValid())
   {
@@ -44,17 +40,16 @@ SC_AGENT_IMPLEMENTATION(LargerVillageByPopulationInTheDistrict)
 
   ScAddr answer = ms_context->CreateNode(ScType::NodeConstStruct);
 
-
-  ScIterator5Ptr it1 = ms_context->Iterator5(ScType::Unknown, ScType::EdgeDCommonConst, district,
-                                             ScType::EdgeAccessConstPosPerm, Keynodes::nrel_district);
+  ScIterator5Ptr it1 = ms_context->Iterator5(
+      ScType::Unknown, ScType::EdgeDCommonConst, district, ScType::EdgeAccessConstPosPerm, Keynodes::nrel_district);
   ScAddr village;
   int number = 0;
   ScAddr largestVillage{};
   while (it1->Next())
   {
     village = it1->Get(0);
-    ScIterator5Ptr it2 = ms_context->Iterator5(village, ScType::EdgeDCommonConst, ScType::Unknown,
-                                               ScType::EdgeAccessConstPosPerm, Keynodes::nrel_population);
+    ScIterator5Ptr it2 = ms_context->Iterator5(
+        village, ScType::EdgeDCommonConst, ScType::Unknown, ScType::EdgeAccessConstPosPerm, Keynodes::nrel_population);
     while (it2->Next())
     {
       ScAddr num = it2->Get(2);
@@ -72,12 +67,7 @@ SC_AGENT_IMPLEMENTATION(LargerVillageByPopulationInTheDistrict)
   if (largestVillage.IsValid())
   {
     ScIterator5Ptr iteratorToAddToAnswer = ms_context->Iterator5(
-          largestVillage,
-          ScType::Unknown,
-          district,
-          ScType::EdgeAccessConstPosPerm,
-          Keynodes::nrel_district
-    );
+        largestVillage, ScType::Unknown, district, ScType::EdgeAccessConstPosPerm, Keynodes::nrel_district);
 
     if (iteratorToAddToAnswer->Next())
     {
@@ -93,9 +83,8 @@ SC_AGENT_IMPLEMENTATION(LargerVillageByPopulationInTheDistrict)
     SC_LOG_WARNING("There is no largest village in this district");
   }
 
-
   SC_LOG_INFO("----------LargerVillageByPopulationInTheDistrict	 end----------");
   AgentUtils::finishAgentWork(ms_context.get(), actionNode, answer);
   return SC_RESULT_OK;
 }
-}
+}  // namespace VitebskVillagesModule
