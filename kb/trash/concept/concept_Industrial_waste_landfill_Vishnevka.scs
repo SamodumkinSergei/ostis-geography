@@ -1,0 +1,35 @@
+concept_Industrial_waste_landfill_Vishnevka
+<-sc_node_not_relation;	<-concept_way;
+=>nrel_search_area:
+   Babruysk_district;
+=>nrel_main_idtf:
+	[Полигон промышленных отходов "Вишневка" УКПП "Промотходы"]
+	(* <- lang_ru;;<-name;; *);
+	[Industrial waste landfill Vishnevka]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Полигон промышленных отходов Вишневка)]
+		(* <- lang_ru;; *);
+		[Def. (Industrial waste landfill Vishnevka)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Полигон промышленных отходов "Вишневка" УКПП "Промотходы" бобруйский район могилёвская область]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Landfill for industrial waste "Vishnevka" UKPP "Industrial waste" Bobruisk district Mogilev region]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{landfill;
+		Industrial_waste_landfill_Vishnevka};;
+    *);;

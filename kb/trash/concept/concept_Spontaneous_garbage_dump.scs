@@ -1,0 +1,35 @@
+concept_Spontaneous_garbage_dump
+<-sc_node_not_relation;
+<-concept_way;
+=>nrel_search_area:minsk_district;
+=>nrel_main_idtf:
+	[Стихийная свалка мусора]
+	(* <- lang_ru;;<-name;; *);
+	[Spontaneous garbage dump]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Стихийная свалка мусора)]
+		(* <- lang_ru;; *);
+		[Def. (Spontaneous garbage dump)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Боровлянская свалка муссора]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Borovlyanskaya garbage dump]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{landfill;
+		Spontaneous_garbage_dump};;
+    *);;

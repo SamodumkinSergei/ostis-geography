@@ -1,0 +1,39 @@
+concept_CUPE_Shumilinsky_rayagroservice_shumilina_district
+<-sc_node_not_relation;
+=>nrel_search_area:
+    shumilina_district;
+	<-concept_way;=>nrel_main_idtf:
+	[КУПП "Шумилинский райагросервис"]
+	(* <- lang_ru;;<-name;; *);
+	[CUPE "Shumilinsky rayagroservice"]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (КУПП "Шумилинский райагросервис")]
+		(* <- lang_ru;; *);
+		[Def. (CUPE "Shumilinsky rayagroservice")]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[В Соответствии с Уставом и действующим законодательством предприятие может осуществлять следующие виды деятельности: выращивание зерновых и зернобобовых и других культур, разведение крупного рогатого скота и свиней, заниматься растеневодством в сочетании с животноводством, распиловка и строгание древесины, производство столярных изделий, осуществлять теплоснабжение и сбор, очистку, расп ределение воды, оптовая торговля непродовольственными товарами, розничная торговля, ветеринарная деятельность, грузоперевозка.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[In accordance with the Charter and current legislation, the enterprise can carry out the following activities: cultivation of cereals and legumes and other crops, breeding of cattle and pigs, engage in crop production in combination with animal husbandry, sawing and planing of wood, production of joinery, carry out heat supply and collection, purification, distribution of water, wholesale trade in non-food products, retail trade, veterinary activities, cargo transportation.]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{company;
+		CUPE_Shumilinsky_rayagroservice_shumilina_district};;
+    *);;
+concept_CUPE_Shumilinsky_rayagroservice_shumilina_district=>nrel_stored_pesticides:mayosin;;
+concept_CUPE_Shumilinsky_rayagroservice_shumilina_district=>nrel_number_of_stocked_pesticides:0.3(*<-number;;*);;
+concept_CUPE_Shumilinsky_rayagroservice_shumilina_district=>nrel_stored_pesticides:phenoxazine;;
+concept_CUPE_Shumilinsky_rayagroservice_shumilina_district=>nrel_number_of_stocked_pesticides:0.1(*<-number;;*);;

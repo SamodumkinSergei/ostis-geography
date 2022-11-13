@@ -1,0 +1,33 @@
+concept_Plant_JSC_Mogilevkhimvolokno
+<-sc_node_not_relation;	<-concept_way;=>nrel_search_area:
+   mogilev_region;=>nrel_main_idtf:
+	[ОАО «Могилёвхимволокно»]
+	(* <- lang_ru;;<-name;; *);
+	[Plant JSC Mogilevkhimvolokno]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Завод ОАО Могилёвхимволокно)]
+		(* <- lang_ru;; *);
+		[Def. (Plant JSC Mogilevkhimvolokno)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Завод по переработке химического волокна в Могилеве]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Chemical fiber processing plant in Mogilev]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{landfill;
+		Plant_JSC_Mogilevkhimvolokno};;
+    *);;

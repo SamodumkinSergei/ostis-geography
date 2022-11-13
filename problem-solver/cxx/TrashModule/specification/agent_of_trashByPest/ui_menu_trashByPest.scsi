@@ -1,0 +1,23 @@
+ui_menu_trashByPest <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+ui_menu_trashByPest
+=> nrel_main_idtf: 
+	[trashByPest]
+	(* <- lang_ru;; *);;
+
+ui_menu_trashByPest
+=> nrel_main_idtf: 
+	[trashByPest]
+	(* <- lang_en;; *);;
+
+ui_menu_trashByPest => ui_nrel_command_template:
+	[*
+		question_trashByPest _-> ._question_trashByPest_instance
+			(*
+				_-> ui_arg_1;;
+			*);;
+		._question_trashByPest_instance _<- question;;
+	*];;
+
+ui_menu_trashByPest => ui_nrel_command_lang_template: [trashByPest $ui_arg_1] (* <- lang_ru;; *);;
+ui_menu_trashByPest => ui_nrel_command_lang_template: [trashByPest $ui_arg_1] (* <- lang_en;; *);;

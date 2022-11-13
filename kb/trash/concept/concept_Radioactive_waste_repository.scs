@@ -1,0 +1,33 @@
+concept_Radioactive_waste_repository
+<-sc_node_not_relation;	<-concept_way;=>nrel_search_area:
+   brest_district;=>nrel_main_idtf:
+	[Могильник радиоактивных отходов]
+	(* <- lang_ru;;<-name;; *);
+	[Radioactive waste repository]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Могильник радиоактивных отходов)]
+		(* <- lang_ru;; *);
+		[Def. (Radioactive waste repository)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Могильник радиоактивных отходов брестский район брестская область]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Radioactive waste burial ground Brest district Brest region]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{landfill;
+		Radioactive_waste_repository};;
+    *);;

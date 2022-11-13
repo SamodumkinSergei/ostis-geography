@@ -1,0 +1,30 @@
+Pesticide_mix
+<-sc_node_not_relation;=>nrel_main_idtf:
+	[смесь пестицидов]
+	(* <- lang_ru;; *);
+	[Pesticide mix]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (смесь пестицидов)]
+		(* <- lang_ru;; *);
+		[Def. (Pesticide mix)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Смесь разных пестицидов хранящихся беспорядочно]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[A mix of different pesticides stored randomly]
+			(* <- lang_en;; *);;
+		*);;
+
+  *);;

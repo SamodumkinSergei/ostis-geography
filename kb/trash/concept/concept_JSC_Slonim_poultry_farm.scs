@@ -1,0 +1,35 @@
+concept_JSC_Slonim_poultry_farm
+<-sc_node_not_relation;	<-concept_way;
+=>nrel_search_area:
+   slonim_district;
+=>nrel_main_idtf:
+	[ОАО "Слонимская птицефабрика"]
+	(* <- lang_ru;;<-name;; *);
+	[JSC Slonim poultry farm]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (ОАО Слонимская птицефабрика)]
+		(* <- lang_ru;; *);
+		[Def. (JSC Slonim poultry farm)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Переработка отходов внутренностей птицы]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Recycling poultry entrails]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{landfill;
+		JSC_Slonim_poultry_farm};;
+    *);;

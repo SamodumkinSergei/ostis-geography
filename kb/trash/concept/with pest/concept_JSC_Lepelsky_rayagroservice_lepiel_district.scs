@@ -1,0 +1,39 @@
+concept_JSC_Lepelsky_rayagroservice_lepiel_district
+<-sc_node_not_relation;
+=>nrel_search_area:
+    lepiel_district;
+	<-concept_way;=>nrel_main_idtf:
+	[ОАО "Лепельский райагросервис"]
+	(* <- lang_ru;;<-name;; *);
+	[JSC "Lepelsky rayagroservice"]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (ОАО "Лепельский райагросервис")]
+		(* <- lang_ru;; *);
+		[Def. (JSC "Lepelsky rayagroservice")]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Минеральные удобрения доставляются железнодорожным транспортом, выгружаются на базе ОАО "Лепельский райагросервис", а оттуда вывозится транспортом самих хозяйств на их склады. Больше всего доставлено калийных удобрений - 2580 тонн действующего вещества (90%).]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Mineral fertilizers are delivered by rail, unloaded at the premises of OAO "Lepelsky rayagroservis", and from there it is taken out by transport of the farms themselves to their warehouses. Most of all, potash fertilizers were delivered - 2580 tons of active ingredient (90%).]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{company;
+		concept_JSC_Lepelsky_rayagroservice_lepiel_district};;
+    *);;
+
+
+concept_JSC_Lepelsky_rayagroservice_lepiel_district=>nrel_stored_pesticides:Pesticide_mix;;
+concept_JSC_Lepelsky_rayagroservice_lepiel_district=>nrel_number_of_stocked_pesticides:1.064(*<-number;;*);;

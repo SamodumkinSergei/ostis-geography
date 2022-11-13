@@ -1,0 +1,30 @@
+Mayosin
+<-sc_node_not_relation;=>nrel_main_idtf:
+	[Майозин]
+	(* <- lang_ru;; *);
+	[Mayosin]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Майозин)]
+		(* <- lang_ru;; *);
+		[Def. (Mayosin)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[фибриллярный белок, один из главных компонентов сократительных волокон мышц — миофибрилл. Составляет 40—60 % общего количества мышечных белков.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[fibrillar protein, one of the main components of contractile muscle fibers - myofibrils. It makes up 40-60% of the total amount of muscle proteins.]
+			(* <- lang_en;; *);;
+		*);;
+  *);;
+

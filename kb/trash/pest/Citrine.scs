@@ -1,0 +1,29 @@
+Citrine
+<-sc_node_not_relation;=>nrel_main_idtf:
+	[Цитрин]
+	(* <- lang_ru;; *);
+	[Citrine]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Цитрин)]
+		(* <- lang_ru;; *);
+		[Def. (Citrine)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[оксид кремния (SiO2), сингония тригональная. Часты двойники. Образует достаточно крупные прозрачные и хорошо огранённые кристаллы и их друзы, зёрна и зернистые агрегаты. Как и все кварцы, обладает пьезоэлектрическими свойствами. Твёрдость 7; плотность 2,65 г/см³.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Silicon oxide (SiO2), trigonal syngony. Often doppelgangers. It forms fairly large transparent and well-faceted crystals and their druses, grains and granular aggregates. Like all quartz, it has piezoelectric properties. Hardness 7; density 2.65 g/cm³.]
+			(* <- lang_en;; *);;
+		*);;
+  *);;

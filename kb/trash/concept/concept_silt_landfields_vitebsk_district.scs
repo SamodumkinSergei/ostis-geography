@@ -1,0 +1,35 @@
+concept_silt_landfields_vitebsk_district
+<-sc_node_not_relation;
+=>nrel_search_area:
+    vitebsk_district;
+	<-concept_way;=>nrel_main_idtf:
+	[Иловые площадки]
+	(* <- lang_ru;;<-name;; *);
+	[silt landfields]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Иловые площадки)]
+		(* <- lang_ru;; *);
+		[Def. (silt landfields)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Иловые площадки Витебской области]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[silt landfields of Vitebsk region]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{landfill;
+		silt_landfields_vitebsk_district};;
+    *);;

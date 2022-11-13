@@ -1,0 +1,33 @@
+concept_Chemicals_and_waste
+<-sc_node_not_relation;	
+=>nrel_main_idtf:
+	[Химические вещества и отходы]
+	(* <- lang_ru;;<-name;; *);
+	[Chemicals and waste]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Химические вещества и отходы)]
+		(* <- lang_ru;; *);
+		[Def. (Chemicals and waste)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[место для хранения химических веществ и отходов московского района брестской области]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[place for storage of chemicals and waste of the Moscow district of the Brest region]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{landfill;
+		Chemicals_and_waste};;
+    *);;

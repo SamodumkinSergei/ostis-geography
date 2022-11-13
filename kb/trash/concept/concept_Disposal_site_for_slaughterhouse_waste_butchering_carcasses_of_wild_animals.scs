@@ -1,0 +1,35 @@
+concept_Disposal_site_for_slaughterhouse_waste_butchering_carcasses_of_wild_animals
+<-sc_node_not_relation;	<-concept_way;
+=>nrel_search_area:
+   uzda_district;
+=>nrel_main_idtf:
+	[Место утилизации боенских отходов разделки туш диких животных]
+	(* <- lang_ru;;<-name;; *);
+	[Disposal site for slaughterhouse waste butchering carcasses of wild animals]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Место утилизации боенских отходов разделки туш диких животных)]
+		(* <- lang_ru;; *);
+		[Def. (Disposal site for slaughterhouse waste butchering carcasses of wild animals)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Место утилизации боенских отходов разделки туш диких животных уздецкий район минская область]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Slaughterhouse waste disposal site for butchering carcasses of wild animals Uzdetsky district Minsk region]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{landfill;
+		Disposal_site_for_slaughterhouse_waste_butchering_carcasses_of_wild_animals};;
+    *);;

@@ -1,0 +1,45 @@
+concept_JSC_Miory_Rayagroservice_myory_district
+<-sc_node_not_relation;
+=>nrel_search_area:
+    myory_district;
+	<-concept_way;=>nrel_main_idtf:
+	[ОАО "Миорский райагросервис"]
+	(* <- lang_ru;;<-name;; *);
+	[JSC "Miory Rayagroservice"]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (ОАО "Миорский райагросервис")]
+		(* <- lang_ru;; *);
+		[Def. (JSC "Miory Rayagroservice")]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Открытое акционерное общество "Миорский райагросервис" (УНП 300070002) в глобальной компьютерной сети Интернет - miori-ras.epfr.by – информационный ресурс, обеспечивающий освещение деятельности ОАО Миорский райагросервис в глобальной компьютерной сети Интернет.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Open Joint Stock Company "Miory Rayagroservice" (UNP 300070002) in the global computer network Internet - miori-ras.epfr.by - an information resource that provides coverage of the activities of OJSC Miorskiy Rayagroservice in the global computer network Internet.]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{company;
+		concept_JSC_Miory_Rayagroservice_myory_district};;
+    *);;
+
+
+concept_JSC_Miory_Rayagroservice_myory_district=>nrel_stored_pesticides:Pesticide_mix;;
+concept_JSC_Miory_Rayagroservice_myory_district=>nrel_number_of_stocked_pesticides:8.4(*<-number;;*);;
+
+concept_JSC_Miory_Rayagroservice_myory_district=>nrel_stored_pesticides:Phenmedifam;;
+concept_JSC_Miory_Rayagroservice_myory_district=>nrel_number_of_stocked_pesticides:0.2(*<-number;;*);;
+
+concept_JSC_Miory_Rayagroservice_myory_district=>nrel_stored_pesticides:Byleton;;
+concept_JSC_Miory_Rayagroservice_myory_district=>nrel_number_of_stocked_pesticides:0.075(*<-number;;*);;

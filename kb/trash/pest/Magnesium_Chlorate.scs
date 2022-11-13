@@ -1,0 +1,29 @@
+Magnesium_chlorate
+<-sc_node_not_relation;=>nrel_main_idtf:
+	[Хлорат магния]
+	(* <- lang_ru;; *);
+	[Magnesium chlorate]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Хлорат магния)]
+		(* <- lang_ru;; *);
+		[Def. (Magnesium chlorate)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[неорганическое соединение, соль магния и хлорноватой кислоты с формулой Mg(ClO3)2, бесцветные кристаллы, растворяется в воде, образует кристаллогидраты]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[inorganic compound, salt of magnesium and chloric acid with the formula Mg(ClO3)2, colorless crystals, soluble in water, forms crystalline hydrates]
+			(* <- lang_en;; *);;
+		*);;
+  *);;

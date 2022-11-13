@@ -1,0 +1,30 @@
+Polyhom
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[Полихом]
+	(* <- lang_ru;; *);
+	[Polyhom]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Полихом)]
+		(* <- lang_ru;; *);
+		[Def. (Polyhom)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[лекарство от болезней овощных, плодовых и декоративных культур. Полихом - фунгицид зашитно-контактного действия. Смесь поликарбоцина и хлорокиси меди (3:1). 80%-ный смачивающийся порошок.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[medicine for diseases of vegetable, fruit and ornamental crops. Polychom is a fungicide of protective-contact action. A mixture of polycarbocin and copper oxychloride (3:1). 80% wettable powder.]
+			(* <- lang_en;; *);;
+		*);;
+  *);;

@@ -1,0 +1,35 @@
+concept_junk_yard_petrishkovski_district
+<-sc_node_not_relation;
+=>nrel_search_area:
+    Pyetrykaw_district;
+	<-concept_way;=>nrel_main_idtf:
+	[Свалка]
+	(* <- lang_ru;;<-name;; *);
+	[junk yard]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Свалка)]
+		(* <- lang_ru;; *);
+		[Def. (junk yard)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[свалка  Петриковского района]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[dump of the Petrikovsky district]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{landfill;
+		junk_yard_petrishkovski_district};;
+    *);;

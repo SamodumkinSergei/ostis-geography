@@ -1,0 +1,42 @@
+concept_JSC_Tolochinskiy_rayagroservice_talachyn_district
+<-sc_node_not_relation;
+=>nrel_search_area:
+    talachyn_district;
+	<-concept_way;=>nrel_main_idtf:
+	[ОАО "Толочинский райагросервис"]
+	(* <- lang_ru;;<-name;; *);
+	[JSC "Tolochinskiy rayagroservice"]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (ОАО "Толочинский райагросервис")]
+		(* <- lang_ru;; *);
+		[Def. (JSC "Tolochinskiy rayagroservice")]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Открытое акционерное общество "Толочинский райагросервис" (УНП 300028905) в глобальной компьютерной сети Интернет - tolagro.epfr.by – информационный ресурс, обеспечивающий освещение деятельности ОАО Толочинский райагросервис в глобальной компьютерной сети Интернет.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Open Joint Stock Company "Tolochinskiy rayagroservice" (UNP 300028905) in the global computer network Internet - tolagro.epfr.by - an information resource that provides coverage of the activities of OJSC Tolochinskiy rayagroservice in the global computer network Internet.]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{company;
+		concept_JSC_Tolochinskiy_rayagroservice_talachyn_district};;
+    *);;
+
+
+concept_JSC_Tolochinskiy_rayagroservice_talachyn_district=>nrel_stored_pesticides:Triallat;;
+concept_JSC_Tolochinskiy_rayagroservice_talachyn_district=>nrel_number_of_stocked_pesticides:11(*<-number;;*);;
+concept_JSC_Tolochinskiy_rayagroservice_talachyn_district=>nrel_stored_pesticides:Pesticide_mix;;
+concept_JSC_Tolochinskiy_rayagroservice_talachyn_district=>nrel_number_of_stocked_pesticides:51.26(*<-number;;*);;
+

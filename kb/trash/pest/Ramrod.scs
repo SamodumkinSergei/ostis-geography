@@ -1,0 +1,29 @@
+Ramrod
+<-sc_node_not_relation;=>nrel_main_idtf:
+	[Рамрод]
+	(* <- lang_ru;; *);
+	[Ramrod]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Рамрод)]
+		(* <- lang_ru;; *);
+		[Def. (Ramrod)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Избирательный гербицид системного действия. Почву опрыскивают (7—10 кг/га) до всходов белокочанной и кормовой капусты, лука, брюквы, турнепса, а также до высадки рассады капусты в грунт. Хорошо подавляет мышей, куриное просо, марь белую, щирицу запрокинутую, горцы, ромашку непахучую, звездчатку среднюю.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Selective systemic herbicide. The soil is sprayed (7-10 kg / ha) before the shoots of white and fodder cabbage, onions, rutabaga, turnips, and also before planting seedlings of cabbage in the ground. Well suppresses mice, chicken millet, white gauze, upturned amaranth, highlanders, odorless chamomile, medium chickweed.]
+			(* <- lang_en;; *);;
+		*);;
+  *);;

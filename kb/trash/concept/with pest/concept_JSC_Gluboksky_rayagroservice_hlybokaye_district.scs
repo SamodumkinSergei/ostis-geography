@@ -1,0 +1,41 @@
+concept_JSC_Gluboksky_rayagroservice_hlybokaye_district
+<-sc_node_not_relation;
+=>nrel_search_area:
+    hlybokaye_district;
+	<-concept_way;=>nrel_main_idtf:
+	[ОАО "Глубокский райагросервис]
+	(* <- lang_ru;;<-name;; *);
+	[JSC "Gluboksky rayagroservice"]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (ОАО "Глубокский райагросервис)]
+		(* <- lang_ru;; *);
+		[Def. (JSC "Gluboksky rayagroservice")]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[многофункциональное предприятие, история которого началась еще в довоенное время.  В 1940 году называлась  Глубокская МТС (машинно-тракторная станция) и уже тогда оказывала техническую помощь сельским хозяйствам.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[multifunctional enterprise, the history of which dates back to pre-war times. In 1940, it was called Glubokoe MTS (Machine and Tractor Station) and even then provided technical assistance to agriculture.]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{company;
+		concept_JSC_Gluboksky_rayagroservice_hlybokaye_district};;
+    *);;
+
+
+concept_JSC_Gluboksky_rayagroservice_hlybokaye_district=>nrel_stored_pesticides:Granosan;;
+concept_JSC_Gluboksky_rayagroservice_hlybokaye_district=>nrel_number_of_stocked_pesticides:0.4(*<-number;;*);;
+concept_JSC_Gluboksky_rayagroservice_hlybokaye_district=>nrel_stored_pesticides:Pesticide_mix;;
+concept_JSC_Gluboksky_rayagroservice_hlybokaye_district=>nrel_number_of_stocked_pesticides:5.16(*<-number;;*);;

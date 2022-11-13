@@ -1,0 +1,29 @@
+Phenoxazine
+<-sc_node_not_relation;=>nrel_main_idtf:
+	[Феноксазин]
+	(* <- lang_ru;; *);
+	[Phenoxazine]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Феноксазин)]
+		(* <- lang_ru;; *);
+		[Def. (Phenoxazine)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Представляет собой гетероциклический компонент nd . Структура феноксазина состоит из оксазина , конденсированного с двумя бензольными кольцами. Он является центральным ядром ряда природных химических соединений, таких как дактиномицин и лакмус . Красители нильский синий и нильский красный также основаны на феноксазиновом ядре.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[It is a heterocyclic component nd. The structure of phenoxazine consists of an oxazine fused to two benzene rings. It is the central core of a number of natural chemical compounds such as dactinomycin and litmus. The dyes Nile blue and Nile red are also based on the phenoxazine nucleus.]
+			(* <- lang_en;; *);;
+		*);;
+  *);;

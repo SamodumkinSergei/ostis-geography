@@ -1,0 +1,40 @@
+concept_F_l_Mnuto_OAO_Glubokoe_MKK_hlybokaye_district
+<-sc_node_not_relation;
+=>nrel_search_area:
+    hlybokaye_district;
+	<-concept_way;=>nrel_main_idtf:
+	[Ф-л "Мнюто"ОАО Глубокский МКК"]
+	(* <- lang_ru;;<-name;; *);
+	[F-l "Mnuto" OAO Glubokoe MKK"]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Ф-л "Мнюто"ОАО Глубокский МКК")]
+		(* <- lang_ru;; *);
+		[Def. (F-l "Mnuto" OAO Glubokoe MKK")]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Сельское хозяйство: животноводство мясо-молочного направления; зерно; картофель; лен (выращивание)]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Agriculture: meat and dairy cattle breeding; corn; potato; flax (cultivation)]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{company;
+		concept_F_l_Mnuto_OAO_Glubokoe_MKK_hlybokaye_district};;
+    *);;
+
+
+concept_F_l_Mnuto_OAO_Glubokoe_MKK_hlybokaye_district=>nrel_stored_pesticides:Pesticide_mix;;
+concept_F_l_Mnuto_OAO_Glubokoe_MKK_hlybokaye_district=>nrel_number_of_stocked_pesticides:0.64(*<-number;;*);;
+

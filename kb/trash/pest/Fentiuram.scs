@@ -1,0 +1,30 @@
+Fentiuram
+<-sc_node_not_relation;=>nrel_main_idtf:
+	[Фентиурам]
+	(* <- lang_ru;; *);
+	[Fentiuram]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Фентиурам)]
+		(* <- lang_ru;; *);
+		[Def. (Fentiuram)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[хим. препарат для защиты р-ний от болезней, вызываемых фитопатогенными грибами и бактериями, а также от почвенных вредителей; протравитель семян. Механич. смесь 40% тирама, 15% гамма-изомера ГХЦГ к 10% трихлорфенолята меди. Выпускают 65%-ный]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[chem. preparation for the protection of districts from diseases caused by phytopathogenic fungi and bacteria, as well as from soil pests; seed treater. Mechanical mixture of 40% thiram, 15% gamma isomer HCCH to 10% copper trichlorophenolate. Produce 65%]
+			(* <- lang_en;; *);;
+		*);;
+  *);;
+

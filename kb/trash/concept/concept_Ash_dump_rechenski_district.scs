@@ -1,0 +1,35 @@
+concept_Ash_dump_rechenski_district
+<-sc_node_not_relation;
+=>nrel_search_area:
+   Rechytsa_district;
+	<-concept_way;=>nrel_main_idtf:
+	[Золоотвал]
+	(* <- lang_ru;;<-name;; *);
+	[Ash dump]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Золоотвал)]
+		(* <- lang_ru;; *);
+		[Def. (Ash dump)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Место хранение золы  Речицкого района]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Place of storage of ash in the Rechitsa district]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{landfill;
+		Ash_dump_rechenski_district};;
+    *);;

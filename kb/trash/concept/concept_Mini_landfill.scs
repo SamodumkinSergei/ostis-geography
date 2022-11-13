@@ -1,0 +1,35 @@
+concept_Mini_landfill
+<-sc_node_not_relation;	<-concept_way;
+=>nrel_search_area:
+   vitebsk_district;
+=>nrel_main_idtf:
+	[Мини-полигон отходов]
+	(* <- lang_ru;;<-name;; *);
+	[Mini landfill]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Мини-полигон отходов)]
+		(* <- lang_ru;; *);
+		[Def. (Mini landfill)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[мини свалка октябрьского сельсовета витебской области]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[mini dump of the Oktyabrsky village council of the Vitebsk region]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{landfill;
+		Mini_landfill};;
+    *);;

@@ -1,6 +1,7 @@
 add_subdirectory(AdminModule)
 add_subdirectory(dance_studiosModule)
 add_subdirectory(PotteryModule)
+add_subdirectory(TrashModule)
 add_subdirectory(RiversModule)
 add_subdirectory(VitebskVillagesModule)
 add_subdirectory(StatusAndDistrictSearchModule)

@@ -1,0 +1,44 @@
+concept_NSC_Vitebsk_rayagroservice_vitebsk_district
+<-sc_node_not_relation;
+=>nrel_search_area:
+    vitebsk_district;
+	<-concept_way;=>nrel_main_idtf:
+	[ОАО "Витебский райагросервис"]
+	(* <- lang_ru;;<-name;; *);
+	[NSC "Vitebsk rayagroservice"]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (ОАО "Витебский райагросервис")]
+		(* <- lang_ru;; *);
+		[Def. (NSC "Vitebsk rayagroservice")]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Открытое акционерное общество "Витебский райагросервис" (ОАО "Витебский райагросервис") управления сельского хозяйства и продовольствия Витебского районного исполнительного комитета, г. Витебск]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Open Joint Stock Company "Vitebsk Rayagroservice" (JSC "Vitebsk Rayagroservice") of the Department of Agriculture and Food of the Vitebsk District Executive Committee, Vitebsk]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{company;
+		concept_NSC_Vitebsk_rayagroservice_vitebsk_district};;
+    *);;
+
+concept_NSC_Vitebsk_rayagroservice_vitebsk_district=>nrel_stored_pesticides:Polyhom;;
+concept_NSC_Vitebsk_rayagroservice_vitebsk_district=>nrel_number_of_stocked_pesticides:1.231(*<-number;;*);;
+
+concept_NSC_Vitebsk_rayagroservice_vitebsk_district=>nrel_stored_pesticides:Granosan;;
+concept_NSC_Vitebsk_rayagroservice_vitebsk_district=>nrel_number_of_stocked_pesticides:0.48(*<-number;;*);;
+
+concept_NSC_Vitebsk_rayagroservice_vitebsk_district=>nrel_stored_pesticides:Simazin;;
+concept_NSC_Vitebsk_rayagroservice_vitebsk_district=>nrel_number_of_stocked_pesticides:0.222(*<-number;;*);;

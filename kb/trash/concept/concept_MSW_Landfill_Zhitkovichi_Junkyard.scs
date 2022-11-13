@@ -1,0 +1,33 @@
+concept_MSW_Landfill_Zhitkovichi_Junkyard
+<-sc_node_not_relation;=>nrel_search_area:
+   Zhytkavichy_district;	<-concept_way;=>nrel_main_idtf:
+	[Полигон ТБО Житковичи (свалка)]
+	(* <- lang_ru;;<-name;; *);
+	[MSW Landfill Zhytkavichy Junkyard]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Полигон ТБО Житковичи свалка)]
+		(* <- lang_ru;; *);
+		[Def. (MSW Landfill Zhitkovichi Junkyard)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Свалка твёрдых бытовых отходов города житковичи]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Municipal waste dump of Zhitkovichi city]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{landfill;
+		MSW_Landfill_Zhitkovichi_Junkyard};;
+    *);;

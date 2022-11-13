@@ -1,0 +1,41 @@
+concept_JSC_Vitebsk_broiler_poultry_farm_vitebsk_district
+<-sc_node_not_relation;
+=>nrel_search_area:
+    vitebsk_district;
+	<-concept_way;=>nrel_main_idtf:
+	[ОАО "Витебская бройлерная птицефабрика"]
+	(* <- lang_ru;;<-name;; *);
+	[JSC "Vitebsk broiler poultry farm"]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (ОАО "Витебская бройлерная птицефабрика")]
+		(* <- lang_ru;; *);
+		[Def. (JSC "Vitebsk broiler poultry farm")]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[ОАО «Витебская бройлерная птицефабрика» - это не только одно из крупнейших предприятий в Республике Беларусь, но и единственное в области, где мясо птицы производится на промышленной основе в замкнутом производственном цикле: от получения племенных цыплят, производство инкубационных яиц, выращивание бройлеров до полной переработки мяса птицы, натуральных полуфабрикатов, копчености и колбасные изделия.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[OJSC "Vitebsk Broiler Poultry Farm" is not only one of the largest enterprises in the Republic of Belarus, but also the only one in the region where poultry meat is produced on an industrial basis in a closed production cycle: from obtaining breeding chickens, production of hatching eggs, raising broilers to complete processing poultry meat, natural semi-finished products, smoked products and sausages.]
+			(* <- lang_en;; *);;
+		*);;
+<= nrel_using_constants:
+		{company;
+		concept_JSC_Vitebsk_broiler_poultry_farm_vitebsk_district};;
+    *);;
+
+
+concept_JSC_Vitebsk_broiler_poultry_farm_vitebsk_district=>nrel_stored_pesticides:Fentiuram;;
+concept_JSC_Vitebsk_broiler_poultry_farm_vitebsk_district=>nrel_number_of_stocked_pesticides:0.15(*<-number;;*);;
+concept_JSC_Vitebsk_broiler_poultry_farm_vitebsk_district=>nrel_stored_pesticides:Pesticide_mix;;
+concept_JSC_Vitebsk_broiler_poultry_farm_vitebsk_district=>nrel_number_of_stocked_pesticides:2.4(*<-number;;*);;
