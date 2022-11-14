@@ -1,0 +1,29 @@
+ui_menu_search_pharmacies_by_chain <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+ui_menu_search_pharmacies_by_chain
+=> nrel_main_idtf: 
+	[Найти аптеки по сети]
+	(* <- lang_ru;; *);
+=> nrel_idtf: 
+	[Запрос поиска аптек выбранной сети]
+	(* <- lang_ru;; *);;
+
+ui_menu_search_pharmacies_by_chain
+=> nrel_main_idtf: 
+	[Find pharmacies by chain]
+	(* <- lang_en;; *);
+=> nrel_idtf: 
+	[Query pharmacy search of selected chain]
+	(* <- lang_en;; *);;
+
+ui_menu_search_pharmacies_by_chain => ui_nrel_command_template:
+	[*
+		action_search_pharmacies_by_chain _-> ._question_search_pharmacies_by_chain
+			(*
+				_-> rrel_1::ui_arg_1;;
+			*);;
+		._question_search_pharmacies_by_chain _<- question;;
+	*];;
+
+ui_menu_search_pharmacies_by_chain => ui_nrel_command_lang_template: [Найти аптеки сети $ui_arg_1] (* <- lang_ru;; *);;
+ui_menu_search_pharmacies_by_chain => ui_nrel_command_lang_template: [Find pharmacies of chain $ui_arg_1] (* <- lang_en;; *);;

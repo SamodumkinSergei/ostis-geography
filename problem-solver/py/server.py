@@ -9,6 +9,9 @@ from modules.search_banks_by_city_agent.SearchBanksByCityModule import SearchBan
 from modules.street_translator_module.StreetTranslatorModule import StreetTranslatorModule
 from modules.search_kindergartens_by_region_agent.SearchKindergartensByRegionModule import SearchKindergartensByRegionModule
 from modules.search_kindergartens_by_district_agent.SearchKindergartensByDistrictModule import SearchKindergartensByDistrictModule
+from modules.search_pharmacies_by_chain_agent.SearchPharmaciesByChainModule import SearchPharmaciesByChainModule
+from modules.search_smaller_pharmacy_chains_agent.SearchSmallerPharmacyChainsModule import SearchSmallerPharmacyChainsModule
+from modules.search_larger_pharmacy_chains_agent.SearchLargerPharmacyChainsModule import SearchLargerPharmacyChainsModule
 
 import logging.config
 from pathlib import Path
@@ -64,7 +67,10 @@ def main(args: dict):
             SearchBanksByCityModule(),
             StreetTranslatorModule(),
             SearchKindergartensByDistrictModule(),
-            SearchKindergartensByRegionModule()
+            SearchKindergartensByRegionModule(),
+            SearchPharmaciesByChainModule(),
+            SearchSmallerPharmacyChainsModule(),
+            SearchLargerPharmacyChainsModule()
         ]
         server.add_modules(*modules)
 
