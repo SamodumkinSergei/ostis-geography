@@ -1,0 +1,34 @@
+concept_hospital
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[больница]
+	(* <- lang_ru;; *);
+	[hospital]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (больница)]
+		(* <- lang_ru;; *);
+		[Def. (hospital)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Больница - это лечебно-профилактическое учреждение здравоохранения, в котором оказывается специализированная медицинская помощь в условиях стационара.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Hospital is a medical and preventive healthcare institution that provides specialized medical care in a hospital setting.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_hospital
+		};;
+	*);;

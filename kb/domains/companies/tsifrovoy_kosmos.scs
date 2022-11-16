@@ -1,0 +1,22 @@
+company_tsifrovoy_kosmos <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Цифровой космос]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_767_51_34]
+	(* <- concept_phone_number;;*);
+	[v.d.drozd1@gmail.com]
+	(* <- concept_email;;*);
+	[https://www.digitalspacellc.com/]
+	(* <- concept_website;;*);
+	[193420903]
+	(* <- concept_ucn;;*);
+	[ул. Кедышко, д. 14Б, офис 202]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

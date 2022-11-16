@@ -1,0 +1,24 @@
+company_lift_bieler <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Лифт БиЭлЭр]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375172516063]
+	(* <- concept_phone_number;;*);
+	[belarus@lyft.com]
+	(* <- concept_email;;*);
+	[https://www.lyft.com/]
+	(* <- concept_website;;*);
+	[192471835]
+	(* <- concept_ucn;;*);
+	[Республика Беларусь, 220114, г. Минск, ул. Ф. Скорины д. 2, помещение 7_56]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2015;
+=>nrel_scope:
+	it;;
+

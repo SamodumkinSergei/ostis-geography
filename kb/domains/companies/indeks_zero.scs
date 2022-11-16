@@ -1,0 +1,24 @@
+company_indeks_zero <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Индекс Зеро]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375292770069]
+	(* <- concept_phone_number;;*);
+	[hi@idx_zero.com]
+	(* <- concept_email;;*);
+	[http://idx_zero.com]
+	(* <- concept_website;;*);
+	[193279008]
+	(* <- concept_ucn;;*);
+	[ул. Платонова 31б, офис 5]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2019;
+=>nrel_scope:
+	it;;
+

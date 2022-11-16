@@ -1,0 +1,24 @@
+company_alekspley <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[АлексПлей]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375(29)672_87_62]
+	(* <- concept_phone_number;;*);
+	[info@alexplay.net]
+	(* <- concept_email;;*);
+	[http://alexplay.net/]
+	(* <- concept_website;;*);
+	[193297700]
+	(* <- concept_ucn;;*);
+	[ул. Максима Танка, д. 20, оф. 201]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2019;
+=>nrel_scope:
+	it;;
+

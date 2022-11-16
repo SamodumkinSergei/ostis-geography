@@ -1,0 +1,24 @@
+company_its_partner <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ИТС Партнёр]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375172131518]
+	(* <- concept_phone_number;;*);
+	[info@itspartner.net]
+	(* <- concept_email;;*);
+	[http://www.itspartner.net/]
+	(* <- concept_website;;*);
+	[191434791]
+	(* <- concept_ucn;;*);
+	[ул. Воронянского, 7а, помещение 3, комната 606/2]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2010;
+=>nrel_scope:
+	it;;
+

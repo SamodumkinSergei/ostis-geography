@@ -1,0 +1,24 @@
+company_oktopus_geyms <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Октопус Геймс]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29 3312433]
+	(* <- concept_phone_number;;*);
+	[info@gamedevsource.com]
+	(* <- concept_email;;*);
+	[http://gamedevsource.com]
+	(* <- concept_website;;*);
+	[192699417]
+	(* <- concept_ucn;;*);
+	[ул. Передовая, д.6, оф. 301]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2016;
+=>nrel_scope:
+	it;;
+

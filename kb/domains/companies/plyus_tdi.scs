@@ -1,0 +1,20 @@
+company_plyus_tdi <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ПЛЮС ТДИ]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_17_296_67_83]
+	(* <- concept_phone_number;;*);
+	[https://tdi.by/]
+	(* <- concept_website;;*);
+	[193395440]
+	(* <- concept_ucn;;*);
+	[ул. Краснозвездная, д. 18Б, помещение 4, комната 9.]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

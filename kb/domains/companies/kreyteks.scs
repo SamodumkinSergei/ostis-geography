@@ -1,0 +1,22 @@
+company_kreyteks <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[КРЕЙТЕКС]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375295075501]
+	(* <- concept_phone_number;;*);
+	[idea@createx.by]
+	(* <- concept_email;;*);
+	[193049295]
+	(* <- concept_ucn;;*);
+	[ул. Тимирязева 67, часть изолированного помещения 289 (внутренний номер 2002)]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

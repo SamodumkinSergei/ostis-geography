@@ -1,0 +1,24 @@
+company_vizart <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Визарт]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 _29_699_59_96]
+	(* <- concept_phone_number;;*);
+	[contact@wizart.tech]
+	(* <- concept_email;;*);
+	[http://wizart.tech/]
+	(* <- concept_website;;*);
+	[591029037]
+	(* <- concept_ucn;;*);
+	[Ул. Поповича, д. 2_Б]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	grodno;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

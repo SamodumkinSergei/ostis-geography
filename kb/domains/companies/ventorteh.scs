@@ -1,0 +1,24 @@
+company_ventorteh <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ВенторТех]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_629_96_49]
+	(* <- concept_phone_number;;*);
+	[administration@ventor.tech]
+	(* <- concept_email;;*);
+	[http://ventor.tech/]
+	(* <- concept_website;;*);
+	[193255925]
+	(* <- concept_ucn;;*);
+	[Ул. Шафарнянская, д. 18, помещение 1, кабинет 1]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2019;
+=>nrel_scope:
+	it;;
+

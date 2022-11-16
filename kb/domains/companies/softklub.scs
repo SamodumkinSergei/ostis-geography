@@ -1,0 +1,24 @@
+company_softklub <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[СОФТКЛУБ]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+ 375 17 279 33 00]
+	(* <- concept_phone_number;;*);
+	[office@softclub.by]
+	(* <- concept_email;;*);
+	[https://softclub.com/]
+	(* <- concept_website;;*);
+	[100370603]
+	(* <- concept_ucn;;*);
+	[пр т Независимости, 168/1, административное помещение, к.305]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	1993;
+=>nrel_scope:
+	it;;
+

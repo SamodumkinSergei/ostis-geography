@@ -1,0 +1,24 @@
+company_arkhstroykonsalt <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[АрхСтройКонсалт]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375296361234]
+	(* <- concept_phone_number;;*);
+	[ha@arhstroi.by]
+	(* <- concept_email;;*);
+	[arhstroi.by]
+	(* <- concept_website;;*);
+	[691435932]
+	(* <- concept_ucn;;*);
+	[220039, Республика Беларусь, Минск, ул. Чкалова, д.14, оф. 201А]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2012;
+=>nrel_scope:
+	it;;
+

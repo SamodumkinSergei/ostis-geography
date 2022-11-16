@@ -1,0 +1,24 @@
+company_vrtek <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ВРТЭК]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_17_235_54_53]
+	(* <- concept_phone_number;;*);
+	[info.vrtek@teslasuit.io]
+	(* <- concept_email;;*);
+	[https://teslasuit.io/]
+	(* <- concept_website;;*);
+	[291194141]
+	(* <- concept_ucn;;*);
+	[ул. Жуковского, д.11А, к. 20]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2016;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,24 @@
+company_egosekyur <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ЭгоСекьюр]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 270_40_7]
+	(* <- concept_phone_number;;*);
+	[iproved.software@tut.by]
+	(* <- concept_email;;*);
+	[www.egosecure.com]
+	(* <- concept_website;;*);
+	[191695881]
+	(* <- concept_ucn;;*);
+	[220123, ул. Веры Хоружей, 25/3, кабинет 7_1]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2012;
+=>nrel_scope:
+	it;;
+

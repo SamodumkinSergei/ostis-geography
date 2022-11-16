@@ -1,0 +1,24 @@
+company_kompliteh <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[КомплИТех]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_17_3360350]
+	(* <- concept_phone_number;;*);
+	[contact_us@complitech.by]
+	(* <- concept_email;;*);
+	[http://www.complitech.by/]
+	(* <- concept_website;;*);
+	[191564830]
+	(* <- concept_ucn;;*);
+	[ул. Филимонова, 25Г, офис 503]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2011;
+=>nrel_scope:
+	it;;
+

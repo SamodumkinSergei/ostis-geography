@@ -1,0 +1,24 @@
+company_runa_sistems <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Руна Системс]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 652 37 10]
+	(* <- concept_phone_number;;*);
+	[info@runasystems.by]
+	(* <- concept_email;;*);
+	[http://www.runasystems.by]
+	(* <- concept_website;;*);
+	[192008039]
+	(* <- concept_ucn;;*);
+	[ул. Притыцкого, д. 156, помещение 31а]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2013;
+=>nrel_scope:
+	it;;
+

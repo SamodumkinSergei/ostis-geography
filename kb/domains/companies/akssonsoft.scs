@@ -1,0 +1,24 @@
+company_akssonsoft <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[АкссонСофт]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_17 3952008]
+	(* <- concept_phone_number;;*);
+	[mnk@itv.ru]
+	(* <- concept_email;;*);
+	[http://axxonsoft.by/]
+	(* <- concept_website;;*);
+	[191217449]
+	(* <- concept_ucn;;*);
+	[ул. Огинского 6, помещение 11]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2009;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,24 @@
+company_geym_strim <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Гейм Стрим]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 330 52 02]
+	(* <- concept_phone_number;;*);
+	[info@game_stream.by]
+	(* <- concept_email;;*);
+	[http://www.game_stream.by/]
+	(* <- concept_website;;*);
+	[190664298]
+	(* <- concept_ucn;;*);
+	[Пр_т Партизанский 178/2, помещение 38]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2005;
+=>nrel_scope:
+	it;;
+

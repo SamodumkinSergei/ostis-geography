@@ -1,0 +1,18 @@
+company_ze_vyu <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Зе Вью]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[193128632]
+	(* <- concept_ucn;;*);
+	[ул. Замковая, д. 27, помещение 8]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

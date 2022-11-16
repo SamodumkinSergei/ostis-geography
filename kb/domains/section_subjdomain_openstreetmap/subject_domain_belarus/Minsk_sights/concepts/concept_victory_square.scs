@@ -1,0 +1,36 @@
+
+sc_node_not_relation -> concept_victory_square;;
+sc_node_not_relation -> concept_square;;
+sc_node_not_relation -> concept_minsk;;
+
+sc_node_norole_relation -> nrel_street;;
+sc_node_norole_relation -> nrel_location;;
+
+concept_victory_square => nrel_main_idtf: [Площадь Победы](* <- lang_ru;; *);;
+concept_victory_square => nrel_main_idtf: [Victory Square](* <- lang_en;; *);;
+
+   
+definition ->...
+(*
+	-> rrel_key_sc_element : concept_victory_square;;
+	<= nrel_sc_text_translation: ...(*->rrel_example:[Площадь Победы - площадь в центре Минска, столицы Белоруссии.](*<-lang_ru;;*);;*);;
+	=> nrel_main_idtf: [Определение (Площадь Победы)](*<- lang_ru;;*);;
+	=> nrel_using_constants: ...
+	(*
+	       -> concept_minsk;;
+           -> concept_square;;
+	*);;
+*);;
+
+statement ->...
+(*
+	-> rrel_key_sc_element : concept_victory_square;;
+	<= nrel_sc_text_translation: ...(*->rrel_example:[Он расположен в Минске на улице проспекте Независимости.](*<-lang_ru;;*);;*);;
+	=> nrel_main_idtf: [Утверждение(Площадь Победыу)](*<- lang_ru;;*);;
+	=> nrel_using_constants: ...
+	(* 
+	 -> nrel_location;;
+	 -> concept_minsk;;
+	 -> nrel_street;;
+	*);;
+*);;

@@ -1,0 +1,15 @@
+childrens_library <- concept_library;
+=> nrel_main_idtf:
+   [Children's library]
+   (* <- lang_en;; <- name_en;;*);
+   [Детская библиотека]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_open_time:
+    10;
+=>nrel_close_time:
+    19;
+=> nrel_phone_number:
+   [8-017-377-07-21]
+   (* <- concept_phone_number;;*);
+=> nrel_region:
+   minsk_region;;

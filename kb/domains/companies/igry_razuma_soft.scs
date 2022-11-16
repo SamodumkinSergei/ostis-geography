@@ -1,0 +1,24 @@
+company_igry_razuma_soft <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Игры Разума Софт]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 550 02 38]
+	(* <- concept_phone_number;;*);
+	[mail@razum.by]
+	(* <- concept_email;;*);
+	[razum.by]
+	(* <- concept_website;;*);
+	[193333289]
+	(* <- concept_ucn;;*);
+	[г. Минск, прю Дзержинского, 104 корпус Б, офис 705Б]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2016;
+=>nrel_scope:
+	it;;
+

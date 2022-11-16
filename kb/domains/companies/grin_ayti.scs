@@ -1,0 +1,24 @@
+company_grin_ayti <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Грин АйТи]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375256082444]
+	(* <- concept_phone_number;;*);
+	[info@grinteq.com]
+	(* <- concept_email;;*);
+	[http://grinteq.com/]
+	(* <- concept_website;;*);
+	[192968409]
+	(* <- concept_ucn;;*);
+	[пр. Независимости, 58, офис 420]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2017;
+=>nrel_scope:
+	it;;
+

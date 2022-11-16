@@ -1,0 +1,24 @@
+company_sovershennyy_kod <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Совершенный код]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375297641471]
+	(* <- concept_phone_number;;*);
+	[hello@alignedcode.com]
+	(* <- concept_email;;*);
+	[http://alignedcode.com/]
+	(* <- concept_website;;*);
+	[192639592]
+	(* <- concept_ucn;;*);
+	[ул. Академика Купревича д. 1, к. 5, оф. 211]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2016;
+=>nrel_scope:
+	it;;
+

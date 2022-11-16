@@ -1,0 +1,20 @@
+company_sportdata <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Спортдата]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 389 00 01]
+	(* <- concept_phone_number;;*);
+	[http://sportdata.by/]
+	(* <- concept_website;;*);
+	[192571394]
+	(* <- concept_ucn;;*);
+	[ул. Мстиславца, 9]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

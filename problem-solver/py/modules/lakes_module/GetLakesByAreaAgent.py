@@ -1,3 +1,4 @@
+from sc_kpm.logging import get_kpm_logger
 from termcolor import colored
 
 from sc_client import client
@@ -5,33 +6,36 @@ from sc_client import client
 from sc_client.models import ScAddr, ScTemplate
 from sc_client.constants import sc_types
 
-from sc_kpm import ClassicScAgent, ScResult, ScKeynodes
+from sc_kpm import ScAgentClassic, ScResult, ScKeynodes
 
 from sc_kpm.utils.action_utils import get_action_arguments
 from sc_kpm.utils import create_edge
 from sc_kpm.utils.creation_utils import create_structure, wrap_in_set
 
+logger = get_kpm_logger()
 
-class GetLakesByAreaAgent(ClassicScAgent):
+
+class GetLakesByAreaAgent(ScAgentClassic):
     def __init__(self):
         super().__init__("action_get_lake_by_area")
         self._keynodes = ScKeynodes()
 
     def on_event(self, class_node: ScAddr, edge: ScAddr, action_node: ScAddr) -> ScResult:
+        if not self._confirm_action_class(action_node):
+            return ScResult.SKIP
+
         status = ScResult.OK
-        self._logger.debug("GetLakesByAreaAgent starts")
+        logger.debug("GetLakesByAreaAgent starts")
         try:
-            self._logger.debug("GetLakesByAreaAgent get arguments")
+            logger.debug("GetLakesByAreaAgent get arguments")
 
-            area_nodes = get_action_arguments(action_node, 2)
-            first_area_node = area_nodes[0]
-            second_area_node = area_nodes[0]
+            first_area_node, second_area_node = get_action_arguments(action_node, 2)
 
-            answer_node = create_structure(*area_nodes)
+            answer_node = create_structure(first_area_node, second_area_node)
 
             lake_area = self.get_lakes_with_area()
-            first_area = float(self.get_main_idtf(first_area_node))
-            second_area = float(self.get_main_idtf(second_area_node))
+            first_area = float(client.get_link_content(first_area_node)[0].data)
+            second_area = float(client.get_link_content(second_area_node)[0].data)
 
             results = []
             for lake, area in lake_area.items():
@@ -40,11 +44,11 @@ class GetLakesByAreaAgent(ClassicScAgent):
                     results.append(lake)
 
             for lake in results:
-                self._logger.debug("GetLakesByAreaAgent get answer")
+                logger.debug("GetLakesByAreaAgent get answer")
                 self.add_lake_to_answer(lake, answer_node)
 
             self.finish_agent(action_node, answer_node)
-            self._logger.debug("GetLakesByAreaAgent ends")
+            logger.debug("GetLakesByAreaAgent ends")
 
         except Exception as ex:
             self.set_unsuccessful_status(action_node)
@@ -102,7 +106,7 @@ class GetLakesByAreaAgent(ClassicScAgent):
                 search_result[0].get('_area'),
             )
 
-    def get_lakes_with_area(self) -> dict[ScAddr, float]:
+    def get_lakes_with_area(self):
         template = ScTemplate()
         template.triple(
             self._keynodes['concept_lake'],

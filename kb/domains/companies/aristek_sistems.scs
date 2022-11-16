@@ -1,0 +1,24 @@
+company_aristek_sistems <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Аристек Системс]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 (29) 744 23 52]
+	(* <- concept_phone_number;;*);
+	[sales@aristeksystems.com]
+	(* <- concept_email;;*);
+	[http://www.aristeksystems.com]
+	(* <- concept_website;;*);
+	[191924161]
+	(* <- concept_ucn;;*);
+	[ул. Логойский тракт, 22а, пом. 130]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2013;
+=>nrel_scope:
+	it;;
+

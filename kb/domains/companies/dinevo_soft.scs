@@ -1,0 +1,22 @@
+company_dinevo_soft <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Динево Софт]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_287_19_23]
+	(* <- concept_phone_number;;*);
+	[andrei@dynevo.org]
+	(* <- concept_email;;*);
+	[https://dynevo.org/]
+	(* <- concept_website;;*);
+	[591035988]
+	(* <- concept_ucn;;*);
+	[ул. М. Горького, д. 1/2]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	grodno;
+=>nrel_scope:
+	it;;
+

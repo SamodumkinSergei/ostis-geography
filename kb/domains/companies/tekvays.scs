@@ -1,0 +1,18 @@
+company_tekvays <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Тэквайс]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 581 82 37]
+	(* <- concept_phone_number;;*);
+	[591027417]
+	(* <- concept_ucn;;*);
+	[пер. Дзержинского 9, офис 307]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	grodno;
+=>nrel_scope:
+	it;;
+

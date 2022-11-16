@@ -1,0 +1,22 @@
+company_pavaga_geyming <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Павага Гейминг]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375296232427]
+	(* <- concept_phone_number;;*);
+	[am@pavaga.gg]
+	(* <- concept_email;;*);
+	[193169797]
+	(* <- concept_ucn;;*);
+	[ул. Кропоткина 44_2, комната 502]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

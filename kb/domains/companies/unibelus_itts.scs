@@ -1,0 +1,22 @@
+company_unibelus_itts <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Унибелус ИТЦ]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375173301505 (доб. 333)]
+	(* <- concept_phone_number;;*);
+	[hello@unibelusitc.by]
+	(* <- concept_email;;*);
+	[100083970]
+	(* <- concept_ucn;;*);
+	[ул. Нахимова, д. 10, пом. 2Н]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	1993;
+=>nrel_scope:
+	it;;
+

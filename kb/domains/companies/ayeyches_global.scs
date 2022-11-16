@@ -1,0 +1,24 @@
+company_ayeyches_global <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[АйЭйчЭс Глобал]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 239 12 00]
+	(* <- concept_phone_number;;*);
+	[jobminsk@ihs.com]
+	(* <- concept_email;;*);
+	[http://www.ihs.com]
+	(* <- concept_website;;*);
+	[190591204]
+	(* <- concept_ucn;;*);
+	[пр_т Победителей, 106, комн. 201]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2004;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,20 @@
+company_taktil <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ТАКТИЛ]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_767_35_25]
+	(* <- concept_phone_number;;*);
+	[https://taktil.tech/]
+	(* <- concept_website;;*);
+	[192617501]
+	(* <- concept_ucn;;*);
+	[ул. Толбухина, д. 2, помещение 10]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

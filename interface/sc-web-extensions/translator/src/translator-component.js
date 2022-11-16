@@ -13,8 +13,11 @@ ExampleWindow = function (sandbox) {
     this.sandbox = sandbox;
     this.sandbox.container = sandbox.container;
 
-    const keynodes = ['ui_example_text_component', 'ui_example_search_component', 'ui_example_answer_button',
-    'ui_example_info_block'];
+    const keynodes = [
+        'ui_example_text_component',
+        'ui_example_search_component',
+        'ui_example_answer_button',
+        'ui_example_info_block'];
     const textComponent = '#example-' + sandbox.container + " #text-component";
     const searchComponent = '#example-' + sandbox.container + " #search-component";
     const answerButton = '#example-' + sandbox.container + " #answer-button";
@@ -41,8 +44,8 @@ ExampleWindow = function (sandbox) {
     };
 
     function getUIComponentsIdentifiers() {
-        SCWeb.core.Server.resolveScAddr(keynodes, function (keynodes) {
-            SCWeb.core.Server.resolveIdentifiers(keynodes, function (identifiers) {
+        SCWeb.core.Server.resolveScAddr(keynodes).then(keynodes => {
+            SCWeb.core.Server.resolveIdentifiers(keynodes).then(identifiers => {
                 let textComponentScAddr = keynodes['ui_example_text_component'];
                 let textComponentText = identifiers[textComponentScAddr];
                 $(textComponent).html(textComponentText);
@@ -60,8 +63,7 @@ ExampleWindow = function (sandbox) {
     }
 
     function findByIdentifier(identifier) {
-        var exec = require('child_process').exec;
-
+        const exec = require('child_process').exec;
 
         exec(
             "pip install -r ../../../../tools/translator/requirements.txt",
@@ -73,7 +75,7 @@ ExampleWindow = function (sandbox) {
                 }
             }
         )
-        command = "python3 ../../../../tools/translator/" + identifier
+        let command = "python3 ../../../../tools/translator/" + identifier
         exec(command,
             function (error, stdout, stderr) {
                 console.log('stdout: ' + stdout);

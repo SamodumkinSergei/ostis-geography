@@ -1,0 +1,22 @@
+company_fotek <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ФОТЭК]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_17_385_19_22]
+	(* <- concept_phone_number;;*);
+	[info@mediola.by]
+	(* <- concept_email;;*);
+	[https://mediola.by/]
+	(* <- concept_website;;*);
+	[100025347]
+	(* <- concept_ucn;;*);
+	[пер. Липковский, д. 34, помещение 3, комнаты 69, 74А]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

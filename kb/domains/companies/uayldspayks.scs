@@ -1,0 +1,24 @@
+company_uayldspayks <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Уайлдспайкс]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 (29) 2582936]
+	(* <- concept_phone_number;;*);
+	[office@wildspike.com]
+	(* <- concept_email;;*);
+	[https://www.wildspike.com]
+	(* <- concept_website;;*);
+	[193002199]
+	(* <- concept_ucn;;*);
+	[пр_т Дзержинского 3Б, 19]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2017;
+=>nrel_scope:
+	it;;
+

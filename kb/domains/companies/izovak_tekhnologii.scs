@@ -1,0 +1,22 @@
+company_izovak_tekhnologii <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ИЗОВАК Технологии]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_17_334_95_76]
+	(* <- concept_phone_number;;*);
+	[info@izovac.com]
+	(* <- concept_email;;*);
+	[https://www.izovac_coatings.com/]
+	(* <- concept_website;;*);
+	[191631885]
+	(* <- concept_ucn;;*);
+	[ул. М. Богдановича, д. 155, офис 907]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

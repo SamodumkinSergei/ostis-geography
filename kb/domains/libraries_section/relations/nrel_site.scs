@@ -1,0 +1,52 @@
+nrel_site
+<-sc_node_norole_relation;
+<-relation;
+<-norole_relation;
+<-binary_relation;
+<-oriented_relation;
+<-antireflexive_relation;
+<-antitransitive_relation;
+<-asymmetric_relation;
+=>nrel_main_idtf:
+	[сайт]
+	(* <- lang_ru;; *);
+	[site]
+	(* <- lang_en;; *);
+=>nrel_first_domain: concept_library;
+=>nrel_second_domain: concept_site;
+=>nrel_definitional_domain:
+	...
+	(*
+	<= nrel_combination:
+		{
+		concept_administrative_unit;
+		concept_region
+		};;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (сайт)]
+		(* <- lang_ru;; *);
+		[Def. (site)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Сайт* — бинарное отношение, связывающее музей и его сайт.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Site* - a binary relation that connects a library and site assigned to that library.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_site
+		};;
+	*);;

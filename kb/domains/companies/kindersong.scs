@@ -1,0 +1,24 @@
+company_kindersong <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Киндерсонг]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_44 7962006]
+	(* <- concept_phone_number;;*);
+	[info@kindersong.by]
+	(* <- concept_email;;*);
+	[http://kindersong.by/]
+	(* <- concept_website;;*);
+	[193065783]
+	(* <- concept_ucn;;*);
+	[пр. Победителей, 108, офис 7_17]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

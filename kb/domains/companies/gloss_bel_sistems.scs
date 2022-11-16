@@ -1,0 +1,20 @@
+company_gloss_bel_sistems <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ГЛОСС Бел Системс]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[pvt@gloss.education]
+	(* <- concept_email;;*);
+	[193457998]
+	(* <- concept_ucn;;*);
+	[ул. Захарова, д. 27, пом. 1Н]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2020;
+=>nrel_scope:
+	it;;
+

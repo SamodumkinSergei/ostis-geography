@@ -1,0 +1,22 @@
+company_tyutoronlayn <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ТьюторОнлайн]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_507_11_45]
+	(* <- concept_phone_number;;*);
+	[https://www.tutoronline.ru/]
+	(* <- concept_website;;*);
+	[193405294]
+	(* <- concept_ucn;;*);
+	[ул. Мележа, д. 5, к.2, оф. 810]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2020;
+=>nrel_scope:
+	it;;
+

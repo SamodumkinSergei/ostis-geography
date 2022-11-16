@@ -1,0 +1,24 @@
+company_a2_konsalting <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[А2 Консалтинг]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375296083700]
+	(* <- concept_phone_number;;*);
+	[sales@a2c.by]
+	(* <- concept_email;;*);
+	[http://a2c.by/]
+	(* <- concept_website;;*);
+	[191377922]
+	(* <- concept_ucn;;*);
+	[ул. Куйбышева 35, корп. 1]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2010;
+=>nrel_scope:
+	it;;
+

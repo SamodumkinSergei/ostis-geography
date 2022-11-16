@@ -1,0 +1,24 @@
+company_kurshi <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Курши]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 123 39 91]
+	(* <- concept_phone_number;;*);
+	[dzmitry.memus@kurshi.co]
+	(* <- concept_email;;*);
+	[kurshi.co]
+	(* <- concept_website;;*);
+	[193246031]
+	(* <- concept_ucn;;*);
+	[ул. Тимирязева, д. 67, помещение 274, офис 2]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2019;
+=>nrel_scope:
+	it;;
+

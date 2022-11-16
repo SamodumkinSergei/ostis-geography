@@ -1,0 +1,24 @@
+company_lansoft <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ЛанСофт]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_557_36_74]
+	(* <- concept_phone_number;;*);
+	[info@lansoft.by]
+	(* <- concept_email;;*);
+	[https://www.lansoft.dev/]
+	(* <- concept_website;;*);
+	[191665753]
+	(* <- concept_ucn;;*);
+	[проспект Дзержинского, д. 3Б, офис 65]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2011;
+=>nrel_scope:
+	it;;
+

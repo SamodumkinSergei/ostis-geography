@@ -1,0 +1,52 @@
+nrel_close_time
+<-sc_node_norole_relation;
+<-relation;
+<-norole_relation;
+<-binary_relation;
+<-oriented_relation;
+<-antireflexive_relation;
+<-antitransitive_relation;
+<-asymmetric_relation;
+=>nrel_main_idtf:
+	[ время закрытия* ]
+	(* <- lang_ru;; *);
+	[ open time* ]
+	(* <- lang_en;; *);
+=>nrel_definitional_domain:
+	...
+	(*
+	<= nrel_combination:
+		{
+		concept_preschool_education_institution;
+		concept_close_time
+		};;
+	*);	
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (время закрытия*)]
+		(* <- lang_ru;; *);
+		[Def. (close time*)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Время закрытия* — неролевое ориентированное отношение, время закрытия и детский сад.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Close time* - a non-role-oriented relationship linking close time and a kindergarten.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			nrel_open_time;
+			concept_preschool_education_institution;
+			concept_close_time
+		};;
+	*);;
