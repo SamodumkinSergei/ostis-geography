@@ -1,0 +1,29 @@
+ui_menu_search_smaller_pharmacy_chains <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+ui_menu_search_smaller_pharmacy_chains
+=> nrel_main_idtf: 
+	[Найти меньшие аптечные сети]
+	(* <- lang_ru;; *);
+=> nrel_idtf: 
+	[Запрос поиска меньших аптечных сетей]
+	(* <- lang_ru;; *);;
+
+ui_menu_search_smaller_pharmacy_chains
+=> nrel_main_idtf: 
+	[Find smaller pharmacy chains]
+	(* <- lang_en;; *);
+=> nrel_idtf: 
+	[Find smaller pharmacy chains]
+	(* <- lang_en;; *);;
+
+ui_menu_search_smaller_pharmacy_chains => ui_nrel_command_template:
+	[*
+		action_search_smaller_pharmacy_chains _-> ._question_search_smaller_pharmacy_chains
+			(*
+				_-> rrel_1::ui_arg_1;;
+			*);;
+		._question_search_smaller_pharmacy_chains _<- question;;
+	*];;
+
+ui_menu_search_smaller_pharmacy_chains => ui_nrel_command_lang_template: [Найти аптечные сети, которые меньше, чем $ui_arg_1] (* <- lang_ru;; *);;
+ui_menu_search_smaller_pharmacy_chains => ui_nrel_command_lang_template: [Find pharmacy chains smaller than $ui_arg_1] (* <- lang_en;; *);;
