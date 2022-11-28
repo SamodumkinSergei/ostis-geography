@@ -9,6 +9,7 @@ def parse(entities, save_dir='sc_out'):
     loader.load_entities(entities)
     json_to_scs(loader.get_json(), save_dir)
 
+
 def args_parser_init():
     parser = argparse.ArgumentParser(
         description='Module for parsing external sources into SC-code')
@@ -23,6 +24,3 @@ if __name__ == "__main__":
     parser = args_parser_init()
     args = parser.parse_args()
     parse(args.entities, args.dir)
-
-
-

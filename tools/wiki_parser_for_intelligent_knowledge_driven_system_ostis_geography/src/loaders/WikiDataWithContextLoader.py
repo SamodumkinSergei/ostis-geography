@@ -1,9 +1,10 @@
-from WikiDataLoader import WikiDataLoader
 import wptools
 import re
 import threading
 from queue import Queue
 from deep_translator import (GoogleTranslator)
+
+from src.loaders.WikiDataLoader import WikiDataLoader
 
 
 class WikiDataWithContextLoader(WikiDataLoader):
@@ -11,26 +12,26 @@ class WikiDataWithContextLoader(WikiDataLoader):
         super().__init__()
         self._lock = threading.Lock()
         self._THREADS_NUM = 16
-        self._relations = ['P31',    # instance_of
+        self._relations = ['P31',  # instance_of
                            'P1552',  # has_quality
-                           'P361',   # part_of
-                           'P527',   # has_parts
+                           'P361',  # part_of
+                           'P527',  # has_parts
                            'P2283',  # uses
-                           'P111',   # measure_physical_quantity
+                           'P111',  # measure_physical_quantity
                            'P1889',  # different_from
                            'P1269',  # facet_of
                            'P1542',  # has_effect
                            'P1557',  # manifestation_of
-                           'P461',   # opposite_of
+                           'P461',  # opposite_of
                            'P1382',  # partially_coincident_with
                            'P1344',  # participant_in
-                           'P129',   # physically_interacts_with
+                           'P129',  # physically_interacts_with
                            'P1056',  # product_or_material_produced
                            'P3342',  # significant_person
                            'P2579',  # studied_by
-                           'P495',   # country_of_origin
-                           'P425',   # field_of_this_occupation
-                           'P279']   # subclass_of
+                           'P495',  # country_of_origin
+                           'P425',  # field_of_this_occupation
+                           'P279']  # subclass_of
 
     def _load_object(self, obj, obj_type, languages):
         en_page = wptools.page(wikibase=obj, skip=['labels'], silent=True)
@@ -107,7 +108,6 @@ class WikiDataWithContextLoader(WikiDataLoader):
             self._info['relations'][temp_rlt[rlt]['identifier']] = temp_rlt[rlt]
 
     def _load_entity(self, entity, lang='en'):
-        additional_languages = ['ru', 'de', 'fr']
         super()._load_entity(entity, lang=lang)
         self._page = wptools.page(wikibase=self._page.data['wikibase'], lang='en', skip=[
             'labels', 'imageinfo'], silent=True)
@@ -118,7 +118,7 @@ class WikiDataWithContextLoader(WikiDataLoader):
 
         for _ in range(self._THREADS_NUM):
             threading.Thread(target=self._thread_fun, args=[
-                loading_queue, additional_languages], daemon=True).start()
+                loading_queue, self._languages], daemon=True).start()
 
         context = self._page.data['claims']
         for rlt, ents in context.items():
@@ -136,3 +136,6 @@ class WikiDataWithContextLoader(WikiDataLoader):
 
         loading_queue.join()
         self._resolve_ids()
+
+    def _set_languages(self, languages):
+        self._languages = languages
