@@ -3,6 +3,7 @@ set(SOURCES
 		"keynodes/keynodes.cpp"
 		"agents/LargerVillageByPopulationInTheDistrict.cpp"
 		"agents/LargerVillageByPopulation.cpp"
+		"agents/SmallerVillageByPopulation.cpp"
 		"agents/GreatestDistanceToTheRegionalCenter.cpp"
 		)
 
@@ -11,6 +12,7 @@ set(HEADERS
 		"keynodes/keynodes.hpp"
 		"agents/LargerVillageByPopulationInTheDistrict.hpp"
 		"agents/LargerVillageByPopulation.hpp"
+		"agents/SmallerVillageByPopulation.hpp"
 		"agents/GreatestDistanceToTheRegionalCenter.hpp"
 		)
 

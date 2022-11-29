@@ -15,6 +15,7 @@ sc_result VitebskVillagesModule::InitializeImpl()
 
   SC_AGENT_REGISTER(LargerVillageByPopulationInTheDistrict)
   SC_AGENT_REGISTER(LargerVillageByPopulation)
+  SC_AGENT_REGISTER(SmallerVillageByPopulation)
   SC_AGENT_REGISTER(GreatestDistanceToTheRegionalCenter)
 
   return SC_RESULT_OK;
@@ -24,6 +25,7 @@ sc_result VitebskVillagesModule::ShutdownImpl()
 {
   SC_AGENT_UNREGISTER(LargerVillageByPopulationInTheDistrict)
   SC_AGENT_UNREGISTER(LargerVillageByPopulation)
+  SC_AGENT_UNREGISTER(SmallerVillageByPopulation)
   SC_AGENT_UNREGISTER(GreatestDistanceToTheRegionalCenter)
 
   return SC_RESULT_OK;

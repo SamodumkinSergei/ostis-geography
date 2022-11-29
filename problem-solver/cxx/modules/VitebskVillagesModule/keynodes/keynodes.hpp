@@ -26,6 +26,9 @@ public:
   SC_PROPERTY(Keynode("question_largerVillageByPopulation"), ForceCreate)
   static ScAddr question_largerVillageByPopulation;
 
+  SC_PROPERTY(Keynode("question_smallerVillageByPopulation"), ForceCreate)
+  static ScAddr question_smallerVillageByPopulation;
+
   SC_PROPERTY(Keynode("question_greatestDistanceToTheRegionalCenter"), ForceCreate)
   static ScAddr question_greatestDistanceToTheRegionalCenter;
 
