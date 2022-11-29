@@ -1,3 +1,6 @@
+/*
+* Author Teterski Ivan
+*/
 #pragma once
 #include "sc-memory/sc_memory.hpp"
 #include "sc-memory/sc_module.hpp"

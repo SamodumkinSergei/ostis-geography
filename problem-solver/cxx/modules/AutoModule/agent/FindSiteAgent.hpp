@@ -1,5 +1,5 @@
 /*
-* Author Artsiom Salauyou
+* Author Teterski Ivan
 */
 
 #pragma once

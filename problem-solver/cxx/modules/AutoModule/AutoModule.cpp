@@ -1,3 +1,6 @@
+/*
+* Author Teterski Ivan
+*/
 
 #include "AutoModule.hpp"
 #include "agent/FindSiteAgent.hpp"

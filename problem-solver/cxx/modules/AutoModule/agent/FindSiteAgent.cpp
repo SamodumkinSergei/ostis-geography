@@ -1,5 +1,5 @@
 /*
-* Author Artsiom Salauyou
+* Author Teterski Ivan
 */
 
 #include "sc-agents-common/utils/AgentUtils.hpp"
