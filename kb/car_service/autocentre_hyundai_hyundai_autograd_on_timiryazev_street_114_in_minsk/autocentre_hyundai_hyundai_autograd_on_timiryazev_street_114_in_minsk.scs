@@ -1,0 +1,37 @@
+autocentre_hyundai_hyundai_autograd_on_timiryazev_street_114_in_minsk <- concept_car_service;
+    =>nrel_main_idtf:
+        [Autocentre "Hyundai" Hyundai AutoGrad on Timiryazev Street, 114 in Minsk]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Хёндэ» Хёндэ АвтоГрад на улице Тимирязева, 114 в Минске]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [г. Минск, ул. Тимирязева, 114];
+    
+    =>nrel_phone:
+    [375173335000];
+    
+    =>nrel_gps:
+    [53.934437955295,27.458817672529];
+    
+    =>nrel_site:
+    [https://hyundai.by/];
+    
+    =>nrel_working_hours:
+    [08:00-20:00];
+    
+    =>nrel_email:
+    [call@hyundai.by];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Хёндэ» Хёндэ АвтоГрад на улице Тимирязева, 114 в Минске)](*<-lang_ru;;*);
+		    [Pic. (Autocentre "Hyundai" Hyundai AutoGrad on Timiryazev Street, 114 in Minsk)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://autocentre_hyundai_hyundai_autograd_on_timiryazev_street_114_in_minsk_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

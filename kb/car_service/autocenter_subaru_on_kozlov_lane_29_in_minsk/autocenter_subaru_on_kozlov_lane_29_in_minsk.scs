@@ -1,0 +1,37 @@
+autocenter_subaru_on_kozlov_lane_29_in_minsk <- concept_car_service;
+    =>nrel_main_idtf:
+        [Autocenter "Subaru" on Kozlov lane, 29 in Minsk]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Субару» на переулок Козлова, 29 в Минске]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [г. Минск пер. Козлова, 29];
+    
+    =>nrel_phone:
+    [375173501111];
+    
+    =>nrel_gps:
+    [53.906194009841,27.608612442485];
+    
+    =>nrel_site:
+    [https://lankor.by/];
+    
+    =>nrel_working_hours:
+    [09:00-19:00];
+    
+    =>nrel_email:
+    [sales@lankor.by];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Субару» на переулок Козлова, 29 в Минске)](*<-lang_ru;;*);
+		    [Pic. (Autocenter "Subaru" on Kozlov lane, 29 in Minsk)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://autocenter_subaru_on_kozlov_lane_29_in_minsk_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

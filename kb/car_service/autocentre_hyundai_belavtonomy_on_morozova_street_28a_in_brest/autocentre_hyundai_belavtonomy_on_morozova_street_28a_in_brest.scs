@@ -1,0 +1,37 @@
+autocentre_hyundai_belavtonomy_on_morozova_street_28a_in_brest <- concept_car_service;
+    =>nrel_main_idtf:
+        [Autocentre "Hyundai" BelAVTOnomy on Morozova street, 28A in Brest]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Хёндэ» БелАВТОномия на улице Морозова, 28А в Бресте]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [г. Брест, ул. Морозова, 28А];
+    
+    =>nrel_phone:
+    [375333471177];
+    
+    =>nrel_gps:
+    [52.0755496,23.730393031627];
+    
+    =>nrel_site:
+    [https://hyundai-brest.by/];
+    
+    =>nrel_working_hours:
+    [09:00-19:00];
+    
+    =>nrel_email:
+    [hyundai@autonomia.by];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Хёндэ» БелАВТОномия на улице Морозова, 28А в Бресте)](*<-lang_ru;;*);
+		    [Pic. (Autocentre "Hyundai" BelAVTOnomy on Morozova street, 28A in Brest)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://autocentre_hyundai_belavtonomy_on_morozova_street_28a_in_brest_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

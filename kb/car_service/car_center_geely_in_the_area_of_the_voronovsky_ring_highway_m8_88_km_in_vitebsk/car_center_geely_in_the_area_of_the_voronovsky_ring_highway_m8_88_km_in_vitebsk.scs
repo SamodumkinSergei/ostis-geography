@@ -1,0 +1,37 @@
+car_center_geely_in_the_area_of_the_voronovsky_ring_highway_m8_88_km_in_vitebsk <- concept_car_service;
+    =>nrel_main_idtf:
+        [Car center "Geely" in the area of ​​the Voronovsky ring, highway M-8, 88 km. in Vitebsk]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Джили» в районе Вороновского кольца, трасса М-8, 88 км. в Витебске]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [Витебск, р-н Вороновского кольца, трасса М-8, 88 км.];
+    
+    =>nrel_phone:
+    [375212697777];
+    
+    =>nrel_gps:
+    [55.158703670439,30.347344286119];
+    
+    =>nrel_site:
+    [http://gmotors.by/];
+    
+    =>nrel_working_hours:
+    [09:00-20:00];
+    
+    =>nrel_email:
+    [info@gmotors.by];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Джили» в районе Вороновского кольца, трасса М-8, 88 км. в Витебске)](*<-lang_ru;;*);
+		    [Pic. (Car center "Geely" in the area of ​​the Voronovsky ring, highway M-8, 88 km. in Vitebsk)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://car_center_geely_in_the_area_of_the_voronovsky_ring_highway_m8_88_km_in_vitebsk_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

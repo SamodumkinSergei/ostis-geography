@@ -1,0 +1,37 @@
+car_center_haveil_car_center_on_the_moscow_ring_road_on_vaupshasova_street_55_in_minsk <- concept_car_service;
+    =>nrel_main_idtf:
+        [Car center "Haveil" Car center on the Moscow Ring Road on Vaupshasova street, 55 in Minsk]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Хавейл» Автоцентр на МКАД на улице Ваупшасова, 55 в Минске]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [Минск, ул. Ваупшасова 55 (МКАД, 5-й км)];
+    
+    =>nrel_phone:
+    [375447017169];
+    
+    =>nrel_gps:
+    [53.904343594967,27.687637786022];
+    
+    =>nrel_site:
+    [https://haval.by/];
+    
+    =>nrel_working_hours:
+    [09:00-19:00];
+    
+    =>nrel_email:
+    [salemanager@chinamobil.by];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Хавейл» Автоцентр на МКАД на улице Ваупшасова, 55 в Минске)](*<-lang_ru;;*);
+		    [Pic. (Car center "Haveil" Car center on the Moscow Ring Road on Vaupshasova street, 55 in Minsk)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://car_center_haveil_car_center_on_the_moscow_ring_road_on_vaupshasova_street_55_in_minsk_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

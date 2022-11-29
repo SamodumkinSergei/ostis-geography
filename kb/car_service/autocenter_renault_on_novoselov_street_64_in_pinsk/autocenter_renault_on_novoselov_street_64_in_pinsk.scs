@@ -1,0 +1,34 @@
+autocenter_renault_on_novoselov_street_64_in_pinsk <- concept_car_service;
+    =>nrel_main_idtf:
+        [Autocenter "Renault" on Novoselov street, 64 in Pinsk]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Рено» на улице Новоселов, 64 в Пинске]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [Пинск, ул. Новоселов, 64];
+    
+    =>nrel_phone:
+    [80165680000];
+    
+    =>nrel_gps:
+    [52.134906775523,26.081035730754];
+    
+    =>nrel_site:
+    [https://renault-pinsk.by/];
+    
+    =>nrel_working_hours:
+    [09:00-19:00];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Рено» на улице Новоселов, 64 в Пинске)](*<-lang_ru;;*);
+		    [Pic. (Autocenter "Renault" on Novoselov street, 64 in Pinsk)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://autocenter_renault_on_novoselov_street_64_in_pinsk_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        
