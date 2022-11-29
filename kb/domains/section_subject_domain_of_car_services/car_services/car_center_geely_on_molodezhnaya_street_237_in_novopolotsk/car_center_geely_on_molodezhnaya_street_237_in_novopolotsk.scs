@@ -1,0 +1,37 @@
+car_center_geely_on_molodezhnaya_street_237_in_novopolotsk <- concept_car_service;
+    =>nrel_main_idtf:
+        [Car center "Geely" on Molodezhnaya street, 237 in Novopolotsk]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Джили» на улице Молодёжной, 237 в Новополоцке]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [г. Новополоцк, ул.Молодёжная, 237];
+    
+    =>nrel_phone:
+    [375445075050];
+    
+    =>nrel_gps:
+    [55.507748364457,28.701043454174];
+    
+    =>nrel_site:
+    [http://gmotors.by/];
+    
+    =>nrel_working_hours:
+    [09:00-20:00];
+    
+    =>nrel_email:
+    [info@gmotors.by];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Джили» на улице Молодёжной, 237 в Новополоцке)](*<-lang_ru;;*);
+		    [Pic. (Car center "Geely" on Molodezhnaya street, 237 in Novopolotsk)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://car_center_geely_on_molodezhnaya_street_237_in_novopolotsk_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

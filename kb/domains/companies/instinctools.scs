@@ -1,0 +1,24 @@
+company_instinctools <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[instinctools]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 287 74 37]
+	(* <- concept_phone_number;;*);
+	[contact@instinctools.com]
+	(* <- concept_email;;*);
+	[https://instinctools.com]
+	(* <- concept_website;;*);
+	[590662711]
+	(* <- concept_ucn;;*);
+	[ул. Лермонтова, д. 29, пом. 2.]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	grodno;
+=>nrel_year_registration:
+	2005;
+=>nrel_scope:
+	it;;
+

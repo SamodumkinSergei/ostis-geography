@@ -1,0 +1,24 @@
+company_nors_ayti_grupp <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Норс АйТи Групп]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 33 3556477]
+	(* <- concept_phone_number;;*);
+	[office@northitgroup.com]
+	(* <- concept_email;;*);
+	[http://northitgroup.com/]
+	(* <- concept_website;;*);
+	[193179559]
+	(* <- concept_ucn;;*);
+	[ул. Мясникова, д. 70, офис 504]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

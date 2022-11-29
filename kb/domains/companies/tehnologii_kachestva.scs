@@ -1,0 +1,24 @@
+company_tehnologii_kachestva <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Технологии качества]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 (29) 872 00 49]
+	(* <- concept_phone_number;;*);
+	[start@a1qa.com]
+	(* <- concept_email;;*);
+	[http://a1qa.by/]
+	(* <- concept_website;;*);
+	[190891361]
+	(* <- concept_ucn;;*);
+	[ул. Кульман, 1, литер П 4/К – ЖБ]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2007;
+=>nrel_scope:
+	it;;
+

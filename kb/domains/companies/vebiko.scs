@@ -1,0 +1,22 @@
+company_vebiko <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ВебиКо]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_155_60_31]
+	(* <- concept_phone_number;;*);
+	[pavro@tut.by]
+	(* <- concept_email;;*);
+	[192600666]
+	(* <- concept_ucn;;*);
+	[пр. Независимости, д. 58А, помещение 34]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2016;
+=>nrel_scope:
+	it;;
+

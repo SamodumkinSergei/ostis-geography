@@ -1,0 +1,20 @@
+company_abf_programming <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[АБФ Программинг]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 44 503 33 15]
+	(* <- concept_phone_number;;*);
+	[https://abfprogramming.com]
+	(* <- concept_website;;*);
+	[193103902]
+	(* <- concept_ucn;;*);
+	[220069, пр_т Дзержинского, 3Б, пом. 44, 45]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,23 @@
+barsuki <- concept_village;
+=>nrel_main_idtf:
+    [Barsuki]
+    (* <- lang_en;; <- name_en;;*);
+    [Барсуки]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [10]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:   
+    vitebsk_region;
+=>nrel_district:
+    dokshytsy_district;
+=>nrel_selsoviet:
+    dokshytskiy_selsoviet;
+=>nrel_population:
+    340(*=>nrel_main_idtf:
+    [340];;*);
+=>nrel_distanceFromArea:
+    162(*=>nrel_main_idtf:
+    [162];;*);;

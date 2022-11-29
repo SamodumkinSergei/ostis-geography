@@ -1,0 +1,24 @@
+company_artbiotekh <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[АртБиоТех]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_17_395_94_22]
+	(* <- concept_phone_number;;*);
+	[info@qpcr.by]
+	(* <- concept_email;;*);
+	[http://www.qpcr.by/]
+	(* <- concept_website;;*);
+	[192743351]
+	(* <- concept_ucn;;*);
+	[ул. Купревича, д. 1, к. 3, помещение 8, каб. 306]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2016;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,37 @@
+car_center_geely_on_orlovskaya_street_88_in_minsk <- concept_car_service;
+    =>nrel_main_idtf:
+        [Car center "Geely" on Orlovskaya street, 88 in Minsk]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Джили» на улице Орловской, 88 в Минске]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [г. Минск, ул. Орловская, 88];
+    
+    =>nrel_phone:
+    [375296182929];
+    
+    =>nrel_gps:
+    [53.928420687884,27.507134713012];
+    
+    =>nrel_site:
+    [https://geely.by/];
+    
+    =>nrel_working_hours:
+    [08:00-20:00];
+    
+    =>nrel_email:
+    [info@geely.by];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Джили» на улице Орловской, 88 в Минске)](*<-lang_ru;;*);
+		    [Pic. (Car center "Geely" on Orlovskaya street, 88 in Minsk)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://car_center_geely_on_orlovskaya_street_88_in_minsk_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

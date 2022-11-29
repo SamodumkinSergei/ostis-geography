@@ -1,0 +1,24 @@
+company_pleytika_bel <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Плэйтика Бел]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 240 36 50]
+	(* <- concept_phone_number;;*);
+	[info@playtika.by]
+	(* <- concept_email;;*);
+	[http://www.playtika.by/]
+	(* <- concept_website;;*);
+	[191764022]
+	(* <- concept_ucn;;*);
+	[ул. Платонова, 20Б, помещение 16, комната 7]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2012;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,24 @@
+company_palessit <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Палессит]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375297777297]
+	(* <- concept_phone_number;;*);
+	[dzmitry@palessit.com]
+	(* <- concept_email;;*);
+	[http://palessit.com/]
+	(* <- concept_website;;*);
+	[193058395]
+	(* <- concept_ucn;;*);
+	[ул. Пинская, 28А_25]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

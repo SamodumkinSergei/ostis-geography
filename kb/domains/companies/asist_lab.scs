@@ -1,0 +1,18 @@
+company_asist_lab <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Асист_лаб]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[https://asist_lab.com/]
+	(* <- concept_website;;*);
+	[491335510]
+	(* <- concept_ucn;;*);
+	[ул. Кирова, 32А, кабинет 605]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	gomel;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,24 @@
+company_noyriks <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Нойрикс]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375296223398]
+	(* <- concept_phone_number;;*);
+	[ceo@noirix.com]
+	(* <- concept_email;;*);
+	[http://noirix.com/]
+	(* <- concept_website;;*);
+	[692149027]
+	(* <- concept_ucn;;*);
+	[пр_т Независимости 39, пом. 2H, ком. 80]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2019;
+=>nrel_scope:
+	it;;
+

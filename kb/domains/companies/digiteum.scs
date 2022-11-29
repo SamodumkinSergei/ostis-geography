@@ -1,0 +1,24 @@
+company_digiteum <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Дигитеум]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_17_288_60_05]
+	(* <- concept_phone_number;;*);
+	[hello@digiteum.com]
+	(* <- concept_email;;*);
+	[http://digiteum.com/]
+	(* <- concept_website;;*);
+	[193140913]
+	(* <- concept_ucn;;*);
+	[ул. Кульман, д. 9, помещение 393]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,24 @@
+company_artismedia <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[АртисМедиа]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375(17)2102810]
+	(* <- concept_phone_number;;*);
+	[pvt@artismedia.by]
+	(* <- concept_email;;*);
+	[http://artismedia.by/]
+	(* <- concept_website;;*);
+	[190882394]
+	(* <- concept_ucn;;*);
+	[Мележа, 1_1217]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2007;
+=>nrel_scope:
+	it;;
+

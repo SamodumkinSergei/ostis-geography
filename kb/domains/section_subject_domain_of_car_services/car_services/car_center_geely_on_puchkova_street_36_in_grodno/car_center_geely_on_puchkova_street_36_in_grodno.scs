@@ -1,0 +1,37 @@
+car_center_geely_on_puchkova_street_36_in_grodno <- concept_car_service;
+    =>nrel_main_idtf:
+        [Car center "Geely" on Puchkova street, 36 in Grodno]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Джили» на улице Пучкова, 36 в Гродно]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [Гродно, ул. Пучкова, 36];
+    
+    =>nrel_phone:
+    [375336931111];
+    
+    =>nrel_gps:
+    [53.6509991,23.8047056];
+    
+    =>nrel_site:
+    [https://geelygrodno.by/];
+    
+    =>nrel_working_hours:
+    [09:00-20:00];
+    
+    =>nrel_email:
+    [info@geelygrodno.by];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Джили» на улице Пучкова, 36 в Гродно)](*<-lang_ru;;*);
+		    [Pic. (Car center "Geely" on Puchkova street, 36 in Grodno)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://car_center_geely_on_puchkova_street_36_in_grodno_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

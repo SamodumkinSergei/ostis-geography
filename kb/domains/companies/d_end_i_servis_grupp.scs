@@ -1,0 +1,18 @@
+company_d_end_i_servis_grupp <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Д энд И сервис групп]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_178_78_57]
+	(* <- concept_phone_number;;*);
+	[193360017]
+	(* <- concept_ucn;;*);
+	[ул. Корженевского, д. 14/4, офис 32]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

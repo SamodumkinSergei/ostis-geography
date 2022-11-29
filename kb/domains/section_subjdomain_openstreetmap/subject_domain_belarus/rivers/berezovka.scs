@@ -1,0 +1,18 @@
+berezovka 
+<- concept_river;
+<- concept_way;
+=>nrel_main_idtf:
+    [Berezovka]
+    (* <- lang_en;; <- name_en;;*);
+    [Берёзовка]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitebsk_region;
+=>nrel_length:
+    53(*=>nrel_main_idtf:
+    [53];;*);
+=>nrel_basin:
+    721(*=>nrel_main_idtf:
+    [721];;*);;

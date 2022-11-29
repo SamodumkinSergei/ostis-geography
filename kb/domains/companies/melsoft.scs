@@ -1,0 +1,24 @@
+company_melsoft <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Мелсофт]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 264 24 09]
+	(* <- concept_phone_number;;*);
+	[info@melsoft_games.com]
+	(* <- concept_email;;*);
+	[http://melsoft_games.com/]
+	(* <- concept_website;;*);
+	[690542788]
+	(* <- concept_ucn;;*);
+	[ул. Купревича 14, помещение 19, 2 этаж]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2008;
+=>nrel_scope:
+	it;;
+

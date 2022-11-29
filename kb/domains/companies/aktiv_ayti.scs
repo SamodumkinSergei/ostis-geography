@@ -1,0 +1,22 @@
+company_aktiv_ayti <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Актив АйТи]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 360 03 73]
+	(* <- concept_phone_number;;*);
+	[info@active_it.by]
+	(* <- concept_email;;*);
+	[http://www.active_it.by/]
+	(* <- concept_website;;*);
+	[191477611]
+	(* <- concept_ucn;;*);
+	[ул. Тимирязева, 67, помещение 909]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

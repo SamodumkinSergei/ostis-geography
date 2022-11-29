@@ -1,0 +1,37 @@
+autocenter_mazda_near_the_village_of_borovoy_2_in_minsk <- concept_car_service;
+    =>nrel_main_idtf:
+        [Autocenter "Mazda" near the village of Borovoy 2 in Minsk]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Мазда» в районе д. Боровой 2 в Минске]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [г. Минск р-н д. Боровая 2 223053, Беларусь, Минский р-н];
+    
+    =>nrel_phone:
+    [375447848895];
+    
+    =>nrel_gps:
+    [53.962172,27.629123];
+    
+    =>nrel_site:
+    [https://mazda.by/];
+    
+    =>nrel_working_hours:
+    [09:00-20:00];
+    
+    =>nrel_email:
+    [auto@mazda.by];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Мазда» в районе д. Боровой 2 в Минске)](*<-lang_ru;;*);
+		    [Pic. (Autocenter "Mazda" near the village of Borovoy 2 in Minsk)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://autocenter_mazda_near_the_village_of_borovoy_2_in_minsk_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

@@ -1,0 +1,22 @@
+company_kolada_tekhnolodzhis <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Колада Технолоджис]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 25 724 17 90]
+	(* <- concept_phone_number;;*);
+	[pritchinmihail@gmail.com]
+	(* <- concept_email;;*);
+	[193473187]
+	(* <- concept_ucn;;*);
+	[пр_т Независимости, 177, офис 43]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2020;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,37 @@
+car_center_geely_on_timiryazeva_street_123_in_minsk <- concept_car_service;
+    =>nrel_main_idtf:
+        [Car center "Geely" on Timiryazeva street, 123 in Minsk]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Джили» на улице Тимирязева, 123 в Минске]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [г. Минск, ул. Тимирязева, 123];
+    
+    =>nrel_phone:
+    [375173366767];
+    
+    =>nrel_gps:
+    [53.936959596253,27.447672320968];
+    
+    =>nrel_site:
+    [https://geely-minsk.by/];
+    
+    =>nrel_working_hours:
+    [08:00-20:00];
+    
+    =>nrel_email:
+    [info@geely-minsk.by];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Джили» на улице Тимирязева, 123 в Минске)](*<-lang_ru;;*);
+		    [Pic. (Car center "Geely" on Timiryazeva street, 123 in Minsk)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://car_center_geely_on_timiryazeva_street_123_in_minsk_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

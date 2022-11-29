@@ -1,0 +1,20 @@
+company_kapitan_shou <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Капитан Шоу]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_511_46_20]
+	(* <- concept_phone_number;;*);
+	[https://captain.show/]
+	(* <- concept_website;;*);
+	[193426437]
+	(* <- concept_ucn;;*);
+	[ул. Шорная, д. 20, офис 1_Н]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

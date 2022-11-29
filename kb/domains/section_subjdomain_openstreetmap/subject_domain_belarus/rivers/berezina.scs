@@ -1,0 +1,18 @@
+berezina 
+<- concept_river;
+<- concept_way;
+=>nrel_main_idtf:
+    [Berezina]
+    (* <- lang_en;; <- name_en;;*);
+    [Березина]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    mogilev_region;
+=>nrel_length:
+    561(*=>nrel_main_idtf:
+    [561];;*);
+=>nrel_basin:
+    24500(*=>nrel_main_idtf:
+    [24500];;*);;

@@ -1,0 +1,24 @@
+company_roketsaens <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[РОКЕТСАЕНС]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 366 66 86]
+	(* <- concept_phone_number;;*);
+	[e@rocketscience.by]
+	(* <- concept_email;;*);
+	[http://rocketscience.by/]
+	(* <- concept_website;;*);
+	[192967323]
+	(* <- concept_ucn;;*);
+	[ул. Тимирязева, д.72/1, каб. 301]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2017;
+=>nrel_scope:
+	it;;
+

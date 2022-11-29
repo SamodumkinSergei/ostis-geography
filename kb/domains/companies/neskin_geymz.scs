@@ -1,0 +1,22 @@
+company_neskin_geymz <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Нескин Геймз]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 5800341]
+	(* <- concept_phone_number;;*);
+	[sergey@neskinsoft.com]
+	(* <- concept_email;;*);
+	[193166200]
+	(* <- concept_ucn;;*);
+	[ул. Толбухина, 2, помещение 28]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

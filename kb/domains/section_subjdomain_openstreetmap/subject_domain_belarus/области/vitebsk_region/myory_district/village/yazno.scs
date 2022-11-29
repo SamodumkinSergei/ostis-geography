@@ -1,0 +1,23 @@
+yazno <- concept_village;
+=>nrel_main_idtf:
+    [Yazno]
+    (* <- lang_en;; <- name_en;;*);
+    [Язно]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [10]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:   
+    vitebsk_region;
+=>nrel_district:
+    myory_district;
+=>nrel_selsoviet:
+    yaznenskiy_selsoviet;
+=>nrel_population:
+    630(*=>nrel_main_idtf:
+    [630];;*);
+=>nrel_distanceFromArea:
+    131(*=>nrel_main_idtf:
+    [131];;*);;

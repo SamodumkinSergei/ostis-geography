@@ -1,0 +1,24 @@
+company_iva_gomel_park <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ИВА_Гомель_Парк]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+ 375 232 68 26 64]
+	(* <- concept_phone_number;;*);
+	[park@gomel.iba.by]
+	(* <- concept_email;;*);
+	[http://iba.by/about/ibagomel/]
+	(* <- concept_website;;*);
+	[490650922]
+	(* <- concept_ucn;;*);
+	[ул. Федюнинского, 13]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	gomel;
+=>nrel_year_registration:
+	2008;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,22 @@
+company_pervyy_nomer <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Первый номер]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 (17) 388_27_00]
+	(* <- concept_phone_number;;*);
+	[info@fn.by]
+	(* <- concept_email;;*);
+	[https://fn.by]
+	(* <- concept_website;;*);
+	[190860770]
+	(* <- concept_ucn;;*);
+	[220005, г. Минск, ул. Платонова 36]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	brest;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,37 @@
+car_center_kia_on_sharangovicha_street_22_in_minsk <- concept_car_service;
+    =>nrel_main_idtf:
+        [Car center "Kia" on Sharangovicha street, 22 in Minsk]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Киа» на улице Шаранговича, 22 в Минске]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [г. Минск, ул. Шаранговича, 22];
+    
+    =>nrel_phone:
+    [375445172811];
+    
+    =>nrel_gps:
+    [53.8863864,27.449190353814];
+    
+    =>nrel_site:
+    [https://kia-atlantm.by/];
+    
+    =>nrel_working_hours:
+    [09:00-20:00];
+    
+    =>nrel_email:
+    [info-sharangovicha@kia-atlantm.by];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Киа» на улице Шаранговича, 22 в Минске)](*<-lang_ru;;*);
+		    [Pic. (Car center "Kia" on Sharangovicha street, 22 in Minsk)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://car_center_kia_on_sharangovicha_street_22_in_minsk_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

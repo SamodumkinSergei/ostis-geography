@@ -1,0 +1,24 @@
+company_guli_geymz <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Гули ГЕЙМЗ]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375292547442]
+	(* <- concept_phone_number;;*);
+	[info@guli_games.com]
+	(* <- concept_email;;*);
+	[http://guli_games.com]
+	(* <- concept_website;;*);
+	[193367024]
+	(* <- concept_ucn;;*);
+	[ул. Мележа 1, этаж 5, офис 510]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2020;
+=>nrel_scope:
+	it;;
+

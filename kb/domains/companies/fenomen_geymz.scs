@@ -1,0 +1,24 @@
+company_fenomen_geymz <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Феномен Геймз]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375296897814]
+	(* <- concept_phone_number;;*);
+	[fenomengames@fenomen_games.com]
+	(* <- concept_email;;*);
+	[http://fenomen_games.com/]
+	(* <- concept_website;;*);
+	[790644103]
+	(* <- concept_ucn;;*);
+	[ул. Первомайская, 29_308]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	mogilev;
+=>nrel_year_registration:
+	2009;
+=>nrel_scope:
+	it;;
+

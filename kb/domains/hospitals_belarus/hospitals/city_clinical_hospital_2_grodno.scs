@@ -1,0 +1,12 @@
+city_clinical_hospital_2_grodno <- concept_hospital;
+=> nrel_main_idtf:
+   [Grodno city clinical hospital №2]
+   (* <- lang_en;; <- name_en;;*);
+   [Городская клиническая больница №2 Гродно]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375152521310]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [https://gkb2.grodno.by]
+   (*<-concept_site;;*);;

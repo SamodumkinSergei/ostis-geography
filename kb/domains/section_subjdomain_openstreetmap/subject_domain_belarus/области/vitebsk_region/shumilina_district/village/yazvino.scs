@@ -1,0 +1,23 @@
+yazvino <- concept_village;
+=>nrel_main_idtf:
+    [Yazvino]
+    (* <- lang_en;; <- name_en;;*);
+    [Язвино]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [10]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:   
+    vitebsk_region;
+=>nrel_district:
+    shumilina_district;
+=>nrel_selsoviet:
+    svetloselskiy_selsoviet;
+=>nrel_population:
+    386(*=>nrel_main_idtf:
+    [386];;*);
+=>nrel_distanceFromArea:
+    30(*=>nrel_main_idtf:
+    [30];;*);;

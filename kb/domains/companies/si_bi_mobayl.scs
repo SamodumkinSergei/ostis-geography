@@ -1,0 +1,20 @@
+company_si_bi_mobayl <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Си Би Мобайл]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_17_360_16_89]
+	(* <- concept_phone_number;;*);
+	[https://cbmobile.by/]
+	(* <- concept_website;;*);
+	[193059838]
+	(* <- concept_ucn;;*);
+	[ул. Толбухина, д. 2, помещение 13, 14 в составе помещения 9]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

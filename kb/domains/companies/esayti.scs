@@ -1,0 +1,22 @@
+company_esayti <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ЕсАйТи]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_684_48_12]
+	(* <- concept_phone_number;;*);
+	[info@yesit.by]
+	(* <- concept_email;;*);
+	[192737794]
+	(* <- concept_ucn;;*);
+	[пр. Победителей, д. 141, комн. 9]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2016;
+=>nrel_scope:
+	it;;
+

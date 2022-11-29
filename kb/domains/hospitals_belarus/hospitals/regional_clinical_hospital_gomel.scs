@@ -1,0 +1,12 @@
+regional_clinical_hospital_gomel <- concept_hospital;
+=> nrel_main_idtf:
+   [Gomel regional clinical hospital]
+   (* <- lang_en;; <- name_en;;*);
+   [Гомельская областная клиническая больница]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375232347292]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [https://gokb.by]
+   (*<-concept_site;;*);;

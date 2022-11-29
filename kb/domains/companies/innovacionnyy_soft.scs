@@ -1,0 +1,24 @@
+company_innovacionnyy_soft <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Инновационный Софт]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 25 659 0320]
+	(* <- concept_phone_number;;*);
+	[contacts@softgreat.com]
+	(* <- concept_email;;*);
+	[http://softgreat.com/]
+	(* <- concept_website;;*);
+	[192940976]
+	(* <- concept_ucn;;*);
+	[пр_т Дзержинского, 57, офис 18]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2017;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,37 @@
+concept_Shvakshtinskaya_group_lakes
+<-sc_node_not_relation;
+<-concept_lake_group;
+=>nrel_main_idtf:
+	[Швакштинская группа озер]
+	(* <- lang_ru;; *);
+	[Shvakshtinskaya group of lakes]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Швакштинская группа озер)]
+		(* <- lang_ru;; *);
+		[Def. (Shvakshtinskaya group of lakes)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Швакштинская группа озер — группа озёр на территории  Мядельского района Минской области.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[The Shvakshtinskaya group of lakes  is a group of lakes on the territory of the Myadelsky district of the Minsk region.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_lake_group;
+			myadzel_district;
+            minsk_region
+		};;
+	*);;

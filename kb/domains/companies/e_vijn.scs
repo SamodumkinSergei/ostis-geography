@@ -1,0 +1,22 @@
+company_e_vijn <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Е_Вижн]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_17_387_05_38]
+	(* <- concept_phone_number;;*);
+	[info@e_vision.by]
+	(* <- concept_email;;*);
+	[192318621]
+	(* <- concept_ucn;;*);
+	[пр_т Рокоссовского, д. 136А]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2014;
+=>nrel_scope:
+	it;;
+

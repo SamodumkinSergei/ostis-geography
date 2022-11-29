@@ -1,0 +1,36 @@
+concept_district
+<-sc_node_not_relation;
+<-concept_administrative_unit;
+=>nrel_main_idtf:
+	[район]
+	(* <- lang_ru;; *);
+	[district]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (район)]
+		(* <- lang_ru;; *);
+		[Def. (district)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Район - административно-территориальная единица, включающая строго определённую территорию с проживающим населением.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[District - administrative-territorial unit, including a strictly defined territory with a resident population.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_district;
+			concept_administrative_unit
+		};;
+	*);;

@@ -1,0 +1,24 @@
+company_egorov_edjensi <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Егоров Эдженси]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_606_02_80]
+	(* <- concept_phone_number;;*);
+	[welcome@egorovagency.com]
+	(* <- concept_email;;*);
+	[http://egorovagency.com/]
+	(* <- concept_website;;*);
+	[192256567]
+	(* <- concept_ucn;;*);
+	[ул. Мстиславца, д. 13, офис 271А]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2014;
+=>nrel_scope:
+	it;;
+

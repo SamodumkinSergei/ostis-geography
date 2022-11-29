@@ -1,0 +1,12 @@
+city_clinical_emergency_hospital_minsk <- concept_hospital;
+=> nrel_main_idtf:
+   [City clinical emergency hospital Minsk]
+   (* <- lang_en;; <- name_en;;*);
+   [Минская городская клиническая больница скорой медицинской помощи]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375172127621]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [http://www.bsmp.by]
+   (*<-concept_site;;*);;

@@ -1,0 +1,34 @@
+car_center_lada_on_partizansky_avenue_34_in_brest <- concept_car_service;
+    =>nrel_main_idtf:
+        [Car center "Lada" on Partizansky Avenue, 34 in Brest]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Лада» на проспекте Партизанском, 34 в Бресте]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [Брест, пр-т Партизанский, 34];
+    
+    =>nrel_phone:
+    [80162253030];
+    
+    =>nrel_gps:
+    [52.111211591685,23.756521049787];
+    
+    =>nrel_site:
+    [https://brest.lada.by/];
+    
+    =>nrel_working_hours:
+    [09:00-20:00];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Лада» на проспекте Партизанском, 34 в Бресте)](*<-lang_ru;;*);
+		    [Pic. (Car center "Lada" on Partizansky Avenue, 34 in Brest)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://car_center_lada_on_partizansky_avenue_34_in_brest_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

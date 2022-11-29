@@ -1,0 +1,24 @@
+company_rednevis <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Рэднэвис]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+ 375 29 619 33 44]
+	(* <- concept_phone_number;;*);
+	[sales@rednavis.com]
+	(* <- concept_email;;*);
+	[http://rednavis.com/]
+	(* <- concept_website;;*);
+	[191777526]
+	(* <- concept_ucn;;*);
+	[пр._т Дзержинского, д. 104 офис 8001]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2013;
+=>nrel_scope:
+	it;;
+

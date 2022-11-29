@@ -1,0 +1,24 @@
+company_servis_desk <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Сервис Деск]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 215 55 00]
+	(* <- concept_phone_number;;*);
+	[info@service_it.by]
+	(* <- concept_email;;*);
+	[http://service_it.by/]
+	(* <- concept_website;;*);
+	[191636450]
+	(* <- concept_ucn;;*);
+	[просп. Партизанский, 8]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2012;
+=>nrel_scope:
+	it;;
+

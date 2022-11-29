@@ -1,0 +1,24 @@
+company_effektivnye_programmy <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Эффективные программы]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 342 01 37]
+	(* <- concept_phone_number;;*);
+	[sales@effectivesoft.com]
+	(* <- concept_email;;*);
+	[http://www.effectivesoft.com/]
+	(* <- concept_website;;*);
+	[190437793]
+	(* <- concept_ucn;;*);
+	[ул. Московская 22 офис 18]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2003;
+=>nrel_scope:
+	it;;
+

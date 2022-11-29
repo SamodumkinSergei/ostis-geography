@@ -1,0 +1,24 @@
+company_skedyuler <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Скедюлер]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 33 6025079]
+	(* <- concept_phone_number;;*);
+	[nickzenko@sumoscheduler.com]
+	(* <- concept_email;;*);
+	[http://sumoscheduler.com]
+	(* <- concept_website;;*);
+	[193298669]
+	(* <- concept_ucn;;*);
+	[пер. Железнодорожный 3_й, 10_243, офисное помещение 2]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2019;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,20 @@
+company_pleyforiya <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ПЛЕЙФОРИЯ]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_872_34_22]
+	(* <- concept_phone_number;;*);
+	[playphoria@gmail.com]
+	(* <- concept_email;;*);
+	[193454600]
+	(* <- concept_ucn;;*);
+	[ул. Платонова, д. 20Б, офис 155]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

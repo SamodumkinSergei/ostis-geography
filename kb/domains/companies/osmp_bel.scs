@@ -1,0 +1,24 @@
+company_osmp_bel <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ОСМП БЕЛ]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+ 375 29 650_64_65]
+	(* <- concept_phone_number;;*);
+	[support@osmp.by; n.blazhko@qiwi.com]
+	(* <- concept_email;;*);
+	[http://qiwi.by/]
+	(* <- concept_website;;*);
+	[190980754]
+	(* <- concept_ucn;;*);
+	[проспект Машерова, дом 25, корпус 3, помещение 509]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2008;
+=>nrel_scope:
+	it;;
+

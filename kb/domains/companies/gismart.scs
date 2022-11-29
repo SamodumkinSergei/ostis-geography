@@ -1,0 +1,24 @@
+company_gismart <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Гисмарт]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 3337354]
+	(* <- concept_phone_number;;*);
+	[info@gismart.com]
+	(* <- concept_email;;*);
+	[http://gismart.com/]
+	(* <- concept_website;;*);
+	[192661372]
+	(* <- concept_ucn;;*);
+	[пр.Победителей, 7А, помещение 72]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2016;
+=>nrel_scope:
+	it;;
+

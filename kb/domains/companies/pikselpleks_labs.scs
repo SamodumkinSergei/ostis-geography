@@ -1,0 +1,24 @@
+company_pikselpleks_labs <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ПикселПлекс Лабс]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+ 375 297 70 07 30]
+	(* <- concept_phone_number;;*);
+	[alexei.dulub@pixelplex.io]
+	(* <- concept_email;;*);
+	[https://pixelplex.io/]
+	(* <- concept_website;;*);
+	[193039967]
+	(* <- concept_ucn;;*);
+	[улица Тимирязева, дом 72, этаж 9, помещение 24, офис 9009]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

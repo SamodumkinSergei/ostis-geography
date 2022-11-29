@@ -1,0 +1,24 @@
+company_oranjsoft_development <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Оранжсофт Девелопмент]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+7_926_657_6777]
+	(* <- concept_phone_number;;*);
+	[tk@orangesoft.by]
+	(* <- concept_email;;*);
+	[http://www.orangesoft.by/]
+	(* <- concept_website;;*);
+	[291461355]
+	(* <- concept_ucn;;*);
+	[Московская 275А, 608]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	brest;
+=>nrel_year_registration:
+	2017;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,18 @@
+luchosa 
+<- concept_river;
+<- concept_way;
+=>nrel_main_idtf:
+    [Luchosa]
+    (* <- lang_en;; <- name_en;;*);
+    [Лучоса]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitebsk_region;
+=>nrel_length:
+    90(*=>nrel_main_idtf:
+    [90];;*);
+=>nrel_basin:
+    3510(*=>nrel_main_idtf:
+    [3510];;*);;

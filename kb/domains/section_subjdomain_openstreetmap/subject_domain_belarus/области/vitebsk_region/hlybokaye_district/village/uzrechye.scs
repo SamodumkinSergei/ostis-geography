@@ -1,0 +1,23 @@
+uzrechye <- concept_village;
+=>nrel_main_idtf:
+    [Uzrechye]
+    (* <- lang_en;; <- name_en;;*);
+    [Узречье]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [10]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:   
+    vitebsk_region;
+=>nrel_district:
+    hlybokaye_district;
+=>nrel_selsoviet:
+    yzrechskiy_selsoviet;
+=>nrel_population:
+    108(*=>nrel_main_idtf:
+    [108];;*);
+=>nrel_distanceFromArea:
+    128(*=>nrel_main_idtf:
+    [128];;*);;

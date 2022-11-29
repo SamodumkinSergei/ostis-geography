@@ -1,0 +1,34 @@
+car_center_citroen_franztsentr_on_lazurnaya_street_13a_in_gomel <- concept_car_service;
+    =>nrel_main_idtf:
+        [Car center "Citroen" Franztsentr on Lazurnaya street, 13a in Gomel]
+        (* <- lang_en;; <- name_en;;*);
+        [Автоцентр «Ситроен» Франсцентр на улице Лазурной, 13а в Гомеле]
+        (* <- lang_ru;; <- name_ru;; <- name;;*);
+    
+    =>nrel_adress:
+    [г. Гомель, ул. Лазурная, 13а];
+    
+    =>nrel_phone:
+    [375293736736];
+    
+    =>nrel_gps:
+    [52.409727961027,30.910766140513];
+    
+    =>nrel_site:
+    [https://www.citroen.by/];
+    
+    =>nrel_working_hours:
+    [09:00-19:00];
+    
+        <-rrel_key_sc_element:...
+            (*
+	        <-illustration;;
+	        =>nrel_main_idtf:
+		    [Рис. (Автоцентр «Ситроен» Франсцентр на улице Лазурной, 13а в Гомеле)](*<-lang_ru;;*);
+		    [Pic. (Car center "Citroen" Franztsentr on Lazurnaya street, 13a in Gomel)](*<-lang_en;;*);;
+	        <=nrel_sc_text_translation:...
+	(*
+		->"file://car_center_citroen_franztsentr_on_lazurnaya_street_13a_in_gomel_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+        

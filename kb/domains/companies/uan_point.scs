@@ -1,0 +1,20 @@
+company_uan_point <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Уан Поинт]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[enquiry@1pt.com]
+	(* <- concept_email;;*);
+	[https://1pt.com/]
+	(* <- concept_website;;*);
+	[192196079]
+	(* <- concept_ucn;;*);
+	[ул. Платонова, 1Б, этаж 7, пом. 7]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	brest;
+=>nrel_scope:
+	it;;
+

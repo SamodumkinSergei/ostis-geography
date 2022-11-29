@@ -1,0 +1,23 @@
+luzhki <- concept_village;
+=>nrel_main_idtf:
+    [Luzhki]
+    (* <- lang_en;; <- name_en;;*);
+    [Лужки]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [10]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:   
+    vitebsk_region;
+=>nrel_district:
+    sharkawshchyna_district;
+=>nrel_selsoviet:
+    sharkawshchyna_luzhkovskiy_selsoviet;
+=>nrel_population:
+    810(*=>nrel_main_idtf:
+    [810];;*);
+=>nrel_distanceFromArea:
+    148(*=>nrel_main_idtf:
+    [148];;*);;

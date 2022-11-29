@@ -1,0 +1,24 @@
+company_belhard_development <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[БелХард Девелопмент]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 220_84_26]
+	(* <- concept_phone_number;;*);
+	[info@belhard.com]
+	(* <- concept_email;;*);
+	[http://www.belhard.com/]
+	(* <- concept_website;;*);
+	[190738186]
+	(* <- concept_ucn;;*);
+	[ул. Мельникайте, д.2, пом. 1, комн. 1203]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2006;
+=>nrel_scope:
+	it;;
+
