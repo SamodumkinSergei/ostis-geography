@@ -1,0 +1,26 @@
+ concept_museum_1000692127
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Витебский городской музей воинов-интернационалистов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебский городской музей воинов-интернационалистов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Воинов-Интернационалистов, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 263-82-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–17:30; сб,вс 09:00–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.165098,30.207156"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://afgan.museum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

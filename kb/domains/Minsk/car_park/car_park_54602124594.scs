@@ -1,0 +1,26 @@
+ concept_car_park_54602124594
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Парковка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парковка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908899,27.492096"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

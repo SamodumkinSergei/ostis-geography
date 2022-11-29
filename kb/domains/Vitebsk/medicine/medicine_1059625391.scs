@@ -1,0 +1,26 @@
+ concept_medicine_1059625391
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["ГАУЗ Брянская городская поликлиника № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГАУЗ Брянская городская поликлиника № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брянск, Бежицкий район, улица Куйбышева, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (4832) 51-44-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.305821,34.311517"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

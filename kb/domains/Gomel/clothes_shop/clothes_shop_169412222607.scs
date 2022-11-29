@@ -1,0 +1,26 @@
+ concept_clothes_shop_169412222607
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Одежда из Европы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Одежда из Европы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Свиридова, 93Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 744-39-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.469176,31.038715"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://secondbel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

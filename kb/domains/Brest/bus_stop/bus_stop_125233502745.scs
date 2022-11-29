@@ -1,0 +1,26 @@
+ concept_bus_stop_125233502745
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Магазин Техника и быт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин Техника и быт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Гродненская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.110984,23.782982"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

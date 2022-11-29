@@ -1,0 +1,26 @@
+ concept_fallback_services_164351397341
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Брест"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брест"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Забайкальский край, Чита, улица Курнатовского, 46"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (3022) 35-10-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.041812,113.500024"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://chitabrest.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

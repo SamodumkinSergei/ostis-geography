@@ -1,0 +1,26 @@
+ concept_medicine_1014365205
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["2-я Городская Клиническая больница"]
+	(* <- lang_ru;; <- name;;*);
+    ["2-я Городская Клиническая больница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Энгельса, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 327-50-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.898162,27.566655"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://2gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

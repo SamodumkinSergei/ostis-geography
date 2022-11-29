@@ -1,0 +1,26 @@
+ concept_medicine_1131891682
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Поликлиника № 7"]
+	(* <- lang_ru;; <- name;;*);
+    ["Поликлиника № 7"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Станиславского, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 378-02-97"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–20:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.887159,27.591743"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.7gp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

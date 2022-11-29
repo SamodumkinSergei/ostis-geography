@@ -1,0 +1,26 @@
+ concept_college_1020009943
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГУО Средняя школа № 8"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО Средняя школа № 8"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Михася Василька, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 262-00-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.681801,23.838601"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sh8grodno.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

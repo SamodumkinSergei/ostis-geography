@@ -1,0 +1,26 @@
+ concept_protestant_church_1016669565
+ <- concept_protestant_church;
+=>nrel_main_idtf:
+	["Церковь Рождества евангельских христиан-баптистов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Церковь Рождества евангельских христиан-баптистов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Лейтенанта Рябцева, 12/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 229-35-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пт 19:30–21:00; вс 10:00–20:00, перерыв 12:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.111819,23.664752"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rozhdestvo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_government_1306593432
+ <- concept_government;
+=>nrel_main_idtf:
+	["Заводской районный отдел г. Минска Следственного комитета Республики Беларусь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Заводской районный отдел г. Минска Следственного комитета Республики Беларусь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Плеханова, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 295-68-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.868671,27.622142"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sk.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

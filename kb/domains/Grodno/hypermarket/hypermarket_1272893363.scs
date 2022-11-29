@@ -1,0 +1,26 @@
+ concept_hypermarket_1272893363
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Стройбазторг"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стройбазторг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Скидельское шоссе, 8Г/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 260-60-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.669799,23.937457"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://stroybaza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

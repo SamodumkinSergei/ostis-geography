@@ -1,0 +1,26 @@
+ concept_supermarket_232011376019
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Светофор"]
+	(* <- lang_ru;; <- name;;*);
+    ["Светофор"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Румлёвский проспект, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 978-69-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.665705,23.859812"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://svetoforbel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

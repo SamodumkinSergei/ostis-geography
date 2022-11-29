@@ -1,0 +1,26 @@
+ concept_police_208079127409
+ <- concept_police;
+=>nrel_main_idtf:
+	["ОВД Могилёвского Райисполкома"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОВД Могилёвского Райисполкома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Плеханова, 18А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 263-11-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897963,30.321464"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://uvd.mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

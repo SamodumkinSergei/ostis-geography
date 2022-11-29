@@ -1,0 +1,26 @@
+ concept_drugstores_78407041240
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Искамед"]
+	(* <- lang_ru;; <- name;;*);
+    ["Искамед"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Махновича, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 234-06-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб,вс 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.072221,23.708032"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.iskamed.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

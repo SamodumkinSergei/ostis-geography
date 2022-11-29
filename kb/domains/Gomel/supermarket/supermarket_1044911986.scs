@@ -1,0 +1,26 @@
+ concept_supermarket_1044911986
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Любимый"]
+	(* <- lang_ru;; <- name;;*);
+    ["Любимый"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Любенский, улица 60 лет СССР, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 222-25-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.407815,30.983445"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_restaurants_53327516119
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Аэропорт Холл"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аэропорт Холл"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельский район, Поколюбичский сельсовет, Р-129, 12-й километр, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.520466,31.0159"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

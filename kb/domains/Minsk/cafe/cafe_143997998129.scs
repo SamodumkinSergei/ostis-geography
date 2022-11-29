@@ -1,0 +1,26 @@
+ concept_cafe_143997998129
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["My coffee"]
+	(* <- lang_ru;; <- name;;*);
+    ["My coffee"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Боровлянский сельсовет, 74"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.964908,27.624296"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

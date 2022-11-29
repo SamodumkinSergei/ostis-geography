@@ -1,0 +1,26 @@
+ concept_drugstores_1212392866
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Белфармация, аптека № 40"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белфармация, аптека № 40"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Бельского, 60"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 380-06-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.896749,27.479131"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

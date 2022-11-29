@@ -1,0 +1,26 @@
+ concept_college_1082925007
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 43 г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 43 г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Жукова, 46А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 235-90-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.40732,30.970861"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.school-43.gorodgomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

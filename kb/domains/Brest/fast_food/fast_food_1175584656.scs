@@ -1,0 +1,26 @@
+ concept_fast_food_1175584656
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Metromilano"]
+	(* <- lang_ru;; <- name;;*);
+    ["Metromilano"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Советская улица, 73"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 221-04-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.089871,23.694342"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://venezia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

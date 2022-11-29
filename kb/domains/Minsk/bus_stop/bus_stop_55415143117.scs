@@ -1,0 +1,26 @@
+ concept_bus_stop_55415143117
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Микрорайон Чкаловский"]
+	(* <- lang_ru;; <- name;;*);
+    ["Микрорайон Чкаловский"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Могилёвская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.885689,27.553784"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

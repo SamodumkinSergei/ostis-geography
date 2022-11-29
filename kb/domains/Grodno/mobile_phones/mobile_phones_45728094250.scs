@@ -1,0 +1,26 @@
+ concept_mobile_phones_45728094250
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Яблоко"]
+	(* <- lang_ru;; <- name;;*);
+    ["Яблоко"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Брикеля, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 374-43-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–19:00; сб 11:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.701647,23.844818"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://jablokogro.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

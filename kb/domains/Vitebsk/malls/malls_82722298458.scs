@@ -1,0 +1,26 @@
+ concept_malls_82722298458
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Ганна"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ганна"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 99"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 267-02-28"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.172952,30.263676"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ganna.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

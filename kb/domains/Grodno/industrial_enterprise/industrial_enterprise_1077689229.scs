@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_1077689229
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["ОАО БелТОПАЗ"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОАО БелТОПАЗ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Гаспадарчая улица, 29, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 243-96-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.713759,23.823408"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.beltapaz.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

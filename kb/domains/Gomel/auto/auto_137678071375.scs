@@ -1,0 +1,26 @@
+ concept_auto_137678071375
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Škoda, официальный сервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Škoda, официальный сервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица М.Г. Ефремова, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 721-00-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб,вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.465966,30.974172"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://skoda-gomel.by/service/maintenance/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

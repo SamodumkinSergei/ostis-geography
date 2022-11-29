@@ -1,0 +1,26 @@
+ concept_clothes_shop_87730522250
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Секонд-хенд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Секонд-хенд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ложинская улица, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.952546,27.682854"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

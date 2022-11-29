@@ -1,0 +1,26 @@
+ concept_mobile_phones_221522002758
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Сервисный центр Samsung"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сервисный центр Samsung"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева, 74А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.927035,27.509855"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://samsung.service.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

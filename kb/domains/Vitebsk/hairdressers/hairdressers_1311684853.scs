@@ -1,0 +1,26 @@
+ concept_hairdressers_1311684853
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Апрель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Апрель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чкалова, 23В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 514-89-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 08:00–18:00; вс 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.169191,30.210384"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

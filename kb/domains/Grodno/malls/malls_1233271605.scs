@@ -1,0 +1,26 @@
+ concept_malls_1233271605
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Орифлэйм"]
+	(* <- lang_ru;; <- name;;*);
+    ["Орифлэйм"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Дзержинского, 41, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 586-52-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт,сб 12:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.698802,23.840314"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://by.oriflame.com/?store=1151080"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

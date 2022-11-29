@@ -1,0 +1,26 @@
+ concept_mobile_phones_80858753047
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Ремонт телефонов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт телефонов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева, 127"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 694-00-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.93847,27.443664"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://smart-servis.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

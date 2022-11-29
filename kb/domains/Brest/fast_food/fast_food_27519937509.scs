@@ -1,0 +1,26 @@
+ concept_fast_food_27519937509
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Бриг"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бриг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, микрорайон Ковалёво"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 669-43-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.063725,23.760143"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

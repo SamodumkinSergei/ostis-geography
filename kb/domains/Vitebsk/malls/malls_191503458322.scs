@@ -1,0 +1,26 @@
+ concept_malls_191503458322
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Omnimarket.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Omnimarket.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Генерала Белобородова, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 715-37-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–18:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.182667,30.200045"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://omnimarket.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

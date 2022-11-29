@@ -1,0 +1,26 @@
+ concept_medicine_148304025680
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Белсоно"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белсоно"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Мельников Луг, 18-й микрорайон, бульвар Газеты Гомельская Правда, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 505-58-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:30–20:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.448302,31.026429"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://belsono.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

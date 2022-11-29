@@ -1,0 +1,26 @@
+ concept_baby_shop_164308501126
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Детский магазин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский магазин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Лиможа, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 885-81-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:30–19:00; сб,вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.708449,23.848191"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

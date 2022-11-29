@@ -1,0 +1,26 @@
+ concept_car_park_144366350229
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Парковка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парковка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Октябрьский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 263-72-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.185392,30.249514"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_restaurants_222377332670
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Ali Traiteur Brest"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ali Traiteur Brest"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Бретань, Финистер, Округ Брест, Брест, Rue Robespierre, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["48.414718,-4.492133"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://alitraiteur.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

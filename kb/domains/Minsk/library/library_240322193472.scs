@@ -1,0 +1,26 @@
+ concept_library_240322193472
+ <- concept_library;
+=>nrel_main_idtf:
+	["БГАТУ, библиотека"]
+	(* <- lang_ru;; <- name;;*);
+    ["БГАТУ, библиотека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 99"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 358-93-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–19:00, перерыв 13:00–13:30; сб 08:30–15:45, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.927197,27.622449"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bsatu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_1090243763
+ <- concept_college;
+=>nrel_main_idtf:
+	["Могилевский государственный профессиональный лицей № 7"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилевский государственный профессиональный лицей № 7"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Симонова, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 263-41-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.871868,30.314133"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.mgpl7.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

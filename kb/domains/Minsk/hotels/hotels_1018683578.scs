@@ -1,0 +1,26 @@
+ concept_hotels_1018683578
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Спутник"]
+	(* <- lang_ru;; <- name;;*);
+    ["Спутник"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Брилевская улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 220-36-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878576,27.53346"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sputnik-hotel.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

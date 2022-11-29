@@ -1,0 +1,26 @@
+ concept_college_1052802154
+ <- concept_college;
+=>nrel_main_idtf:
+	["Брестский государственный колледж строителей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестский государственный колледж строителей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Пригородная улица, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 223-73-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.098547,23.65226"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ptu65.brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

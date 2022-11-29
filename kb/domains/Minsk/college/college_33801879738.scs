@@ -1,0 +1,26 @@
+ concept_college_33801879738
+ <- concept_college;
+=>nrel_main_idtf:
+	["БГТУ, учебный корпус № 3"]
+	(* <- lang_ru;; <- name;;*);
+    ["БГТУ, учебный корпус № 3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Свердлова, 17А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 327-59-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 07:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.891228,27.560742"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belstu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_currency_exchange_237100953126
+ <- concept_currency_exchange;
+=>nrel_main_idtf:
+	["БТА банк"]
+	(* <- lang_ru;; <- name;;*);
+    ["БТА банк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 87"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 528-22-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:30–07:45, перерывы 10:00–11:00, 13:00–13:40, 15:30–15:40, 18:00–18:20, 19:45–20:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.448012,30.999632"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.btabank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

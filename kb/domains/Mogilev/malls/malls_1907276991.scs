@@ -1,0 +1,26 @@
+ concept_malls_1907276991
+ <- concept_malls;
+=>nrel_main_idtf:
+	["ТЦ Планета Green"]
+	(* <- lang_ru;; <- name;;*);
+    ["ТЦ Планета Green"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Островского, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 242-02-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.874812,30.333397"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://planeta-green.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

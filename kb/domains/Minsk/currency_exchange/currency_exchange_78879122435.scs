@@ -1,0 +1,26 @@
+ concept_currency_exchange_78879122435
+ <- concept_currency_exchange;
+=>nrel_main_idtf:
+	["Технобанк, пункт обмена валют"]
+	(* <- lang_ru;; <- name;;*);
+    ["Технобанк, пункт обмена валют"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Мстиславца, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 388-57-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:50–22:25, перерывы 13:00–13:30, 15:15–15:45; сб,вс 11:00–22:25, перерывы 13:00–13:30, 15:15–15:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.934425,27.653882"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://tb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

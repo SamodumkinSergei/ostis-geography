@@ -1,0 +1,26 @@
+ concept_sportcenter_1024425592
+ <- concept_sportcenter;
+=>nrel_main_idtf:
+	["Шпиль"]
+	(* <- lang_ru;; <- name;;*);
+    ["Шпиль"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева, 123к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 258-63-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–02:00; пт 09:00–00:00; сб круглосуточно; вс 09:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.932689,27.457338"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://spiele.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

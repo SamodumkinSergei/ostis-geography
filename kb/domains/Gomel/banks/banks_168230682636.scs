@@ -1,0 +1,26 @@
+ concept_banks_168230682636
+ <- concept_banks;
+=>nrel_main_idtf:
+	["УРМ, Белинвестбанк УРМ дирекции"]
+	(* <- lang_ru;; <- name;;*);
+    ["УРМ, Белинвестбанк УРМ дирекции"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Междугородняя улица, 7А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 239-02-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:45–20:00, перерыв 13:00–14:00; сб,вс 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.42045,30.923458"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.belinvestbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

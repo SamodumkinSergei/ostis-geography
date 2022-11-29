@@ -1,0 +1,26 @@
+ concept_fast_food_98092200951
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Фиеста"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фиеста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 61"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90616,30.339583"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

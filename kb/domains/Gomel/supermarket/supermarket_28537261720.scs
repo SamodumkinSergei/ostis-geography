@@ -1,0 +1,26 @@
+ concept_supermarket_28537261720
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Экономька"]
+	(* <- lang_ru;; <- name;;*);
+    ["Экономька"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Железнодорожный район, район Новая Мильча, Оршанская улица, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.438384,30.913833"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

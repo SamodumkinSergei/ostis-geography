@@ -1,0 +1,26 @@
+ concept_tire_fitting_1074944152
+ <- concept_tire_fitting;
+=>nrel_main_idtf:
+	["Автомастерская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автомастерская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Казимировка, улица Авиаторов, 16А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 358-51-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 15:00–16:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.931548,30.262625"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

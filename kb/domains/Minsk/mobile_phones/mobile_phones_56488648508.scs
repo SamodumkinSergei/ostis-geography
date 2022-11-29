@@ -1,0 +1,26 @@
+ concept_mobile_phones_56488648508
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Единый сервисный центр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Единый сервисный центр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Кальварийская улица, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 388-66-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 11:00–16:00; вс 11:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906714,27.532451"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://escenter.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

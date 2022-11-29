@@ -1,0 +1,26 @@
+ concept_furniture_store_199623612967
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Кухни по индивидуальным заказам"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кухни по индивидуальным заказам"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Карповича, 28, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 133-50-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.424979,30.997339"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://tochka-m.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

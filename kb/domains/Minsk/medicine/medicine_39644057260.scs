@@ -1,0 +1,26 @@
+ concept_medicine_39644057260
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Больница Участковая Лапичская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Больница Участковая Лапичская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Червенский район, Смиловичский сельсовет"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 355-50-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.79126,27.97978"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

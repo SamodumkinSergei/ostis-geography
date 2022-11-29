@@ -1,0 +1,26 @@
+ concept_mobile_phones_130229100955
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Ремонт и обмен смартфонов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт и обмен смартфонов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинградская улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 757-57-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.893486,27.55001"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://youfix.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

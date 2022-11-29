@@ -1,0 +1,26 @@
+ concept_hypermarket_243380424165
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Корона"]
+	(* <- lang_ru;; <- name;;*);
+    ["Корона"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Денисовская улица, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 377-23-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.871597,27.572282"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.korona.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

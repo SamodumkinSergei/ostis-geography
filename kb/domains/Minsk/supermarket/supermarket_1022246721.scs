@@ -1,0 +1,26 @@
+ concept_supermarket_1022246721
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Алми"]
+	(* <- lang_ru;; <- name;;*);
+    ["Алми"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, проспект Рокоссовского, 119"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 308-16-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.857151,27.61374"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://almi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

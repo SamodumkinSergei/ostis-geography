@@ -1,0 +1,26 @@
+ concept_gasstation_119623284508
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Наас"]
+	(* <- lang_ru;; <- name;;*);
+    ["Наас"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Гродненская улица, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 247-75-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.118425,23.777232"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

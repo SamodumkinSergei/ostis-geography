@@ -1,0 +1,26 @@
+ concept_clothes_shop_150704648609
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Ваш сосед"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ваш сосед"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Щорса, 39"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 260-80-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:30; сб 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.679058,23.861613"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sizstroy.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

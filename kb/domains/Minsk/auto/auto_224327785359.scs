@@ -1,0 +1,26 @@
+ concept_auto_224327785359
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автоэлектрика"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автоэлектрика"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Бородинская улица, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 674-21-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.859067,27.566124"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://auto-electrik.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

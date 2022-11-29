@@ -1,0 +1,26 @@
+ concept_fast_food_23915667402
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Бабулины блины"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бабулины блины"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Старозадворская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 520-26-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.121852,23.772608"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

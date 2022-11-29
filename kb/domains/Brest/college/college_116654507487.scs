@@ -1,0 +1,26 @@
+ concept_college_116654507487
+ <- concept_college;
+=>nrel_main_idtf:
+	["Брестский государственный технический университет, кафедра гуманитарных наук"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестский государственный технический университет, кафедра гуманитарных наук"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 267"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 232-17-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.095604,23.759141"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kgn.bstu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

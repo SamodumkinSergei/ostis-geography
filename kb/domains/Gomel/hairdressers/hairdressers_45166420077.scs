@@ -1,0 +1,26 @@
+ concept_hairdressers_45166420077
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["ДО и После"]
+	(* <- lang_ru;; <- name;;*);
+    ["ДО и После"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица М.Г. Ефремова, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 663-84-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.458599,30.963052"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://doiposle.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

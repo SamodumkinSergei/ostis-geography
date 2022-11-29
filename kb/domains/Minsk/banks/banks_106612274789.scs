@@ -1,0 +1,26 @@
+ concept_banks_106612274789
+ <- concept_banks;
+=>nrel_main_idtf:
+	["БСБ банк"]
+	(* <- lang_ru;; <- name;;*);
+    ["БСБ банк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Щомыслицкий сельсовет, Меньковский тракт, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 306-20-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 08:20–15:00, перерывы 10:15–10:30, 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.854071,27.420535"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

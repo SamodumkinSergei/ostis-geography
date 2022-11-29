@@ -1,0 +1,26 @@
+ concept_auto_50472572898
+ <- concept_auto;
+=>nrel_main_idtf:
+	["ВиражСервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["ВиражСервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Коммерческая улица, 32/107"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 539-37-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–19:30; вс 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.128842,23.765631"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://24h-service.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

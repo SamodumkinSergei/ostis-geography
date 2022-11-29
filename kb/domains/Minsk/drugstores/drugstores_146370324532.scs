@@ -1,0 +1,26 @@
+ concept_drugstores_146370324532
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Минская Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минская Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, агрогородок Колодищи, улица Чкалова, 8Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 542-12-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:30, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.94486,27.775583"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://minfarm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

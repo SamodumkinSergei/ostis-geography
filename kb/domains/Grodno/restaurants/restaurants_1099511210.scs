@@ -1,0 +1,26 @@
+ concept_restaurants_1099511210
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Королевская охота"]
+	(* <- lang_ru;; <- name;;*);
+    ["Королевская охота"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Ожешко, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 722-64-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 12:00–22:00; вт-сб 12:00–00:00; вс 12:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.682671,23.83354"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://korolevskaya-ohota.grodnomk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

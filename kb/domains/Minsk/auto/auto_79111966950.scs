@@ -1,0 +1,26 @@
+ concept_auto_79111966950
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Ремонт МКПП"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт МКПП"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Щомыслицкий сельсовет, Меньковский тракт, 23А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 738-40-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.870063,27.49307"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://remkor.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

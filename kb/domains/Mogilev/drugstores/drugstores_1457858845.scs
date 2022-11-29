@@ -1,0 +1,26 @@
+ concept_drugstores_1457858845
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Ленинская улица, 87"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 277-55-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909252,30.346114"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

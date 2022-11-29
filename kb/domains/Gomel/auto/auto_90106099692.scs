@@ -1,0 +1,26 @@
+ concept_auto_90106099692
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Терминал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Терминал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, 1-я Техническая улица, 16А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 533-44-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.36648,31.027297"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://terminal-sto.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_tire_fitting_95236420381
+ <- concept_tire_fitting;
+=>nrel_main_idtf:
+	["Шиномонтаж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Шиномонтаж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Воинов-Интернационалистов, 1В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 715-04-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.163537,30.202735"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.avtokan.by/SHinomontazh.html"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

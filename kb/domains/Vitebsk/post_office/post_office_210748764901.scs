@@ -1,0 +1,26 @@
+ concept_post_office_210748764901
+ <- concept_post_office;
+=>nrel_main_idtf:
+	["Отделение почтовой связи Витебск 210032"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отделение почтовой связи Витебск 210032"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Строителей, 12к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 261-64-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.17146,30.21976"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belpost.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

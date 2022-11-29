@@ -1,0 +1,26 @@
+ concept_college_1122859095
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гимназия № 14 г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гимназия № 14 г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Олимпийская улица, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 234-30-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.476529,31.026523"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gymn14gomel.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

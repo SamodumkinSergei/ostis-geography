@@ -1,0 +1,26 @@
+ concept_college_34493817726
+ <- concept_college;
+=>nrel_main_idtf:
+	["Днепр-Могилёв"]
+	(* <- lang_ru;; <- name;;*);
+    ["Днепр-Могилёв"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Якубовского, 15А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 272-25-97"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:15–17:00, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.918028,30.319851"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://fc-dnepr.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

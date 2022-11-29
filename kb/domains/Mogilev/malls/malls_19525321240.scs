@@ -1,0 +1,26 @@
+ concept_malls_19525321240
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Офистон"]
+	(* <- lang_ru;; <- name;;*);
+    ["Офистон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Островского, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 277-33-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30; пт 10:00–16:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.874741,30.333221"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mogilev.officeton.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

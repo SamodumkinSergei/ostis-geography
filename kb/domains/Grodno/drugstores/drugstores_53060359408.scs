@@ -1,0 +1,26 @@
+ concept_drugstores_53060359408
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродненская область, Сморгонский район, Кревский сельсовет, агрогородок Крево, Ошмянская улица, 52"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 929-77-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,вт,чт,пт 08:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.312999,26.271536"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://farmacia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

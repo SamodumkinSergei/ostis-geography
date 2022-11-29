@@ -1,0 +1,26 @@
+ concept_clothes_shop_6674616710
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["DeFacto"]
+	(* <- lang_ru;; <- name;;*);
+    ["DeFacto"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 34А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб,вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907224,30.338858"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://by.defacto.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

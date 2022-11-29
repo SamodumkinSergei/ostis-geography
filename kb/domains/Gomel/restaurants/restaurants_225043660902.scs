@@ -1,0 +1,26 @@
+ concept_restaurants_225043660902
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Nravizza pizza"]
+	(* <- lang_ru;; <- name;;*);
+    ["Nravizza pizza"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельская область, Жлобин, улица Козлова, 37А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 736-19-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:30–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.907541,30.016073"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://nravizza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

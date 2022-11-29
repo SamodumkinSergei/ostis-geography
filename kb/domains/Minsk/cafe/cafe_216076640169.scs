@@ -1,0 +1,26 @@
+ concept_cafe_216076640169
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Столовая"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столовая"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Захарова, 55"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 217-16-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 13:15–14:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.900631,27.585171"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://beltelecom.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

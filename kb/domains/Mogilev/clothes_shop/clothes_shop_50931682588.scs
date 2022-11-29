@@ -1,0 +1,26 @@
+ concept_clothes_shop_50931682588
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Магазин обуви"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин обуви"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Холмы, Витебский проспект"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.882759,30.406866"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

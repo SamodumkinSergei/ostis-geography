@@ -1,0 +1,26 @@
+ concept_cafe_1109621592
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Буфет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Буфет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Генерала Людникова, 10к3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–17:00, перерыв 14:00–14:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.203646,30.220602"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

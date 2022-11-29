@@ -1,0 +1,26 @@
+ concept_college_96229300002
+ <- concept_college;
+=>nrel_main_idtf:
+	["Факультет искусств и дизайна, Кафедра изобразительного искусства ГРГУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Факультет искусств и дизайна, Кафедра изобразительного искусства ГРГУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица 17 Сентября, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 274-07-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.688625,23.835444"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://art.grsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

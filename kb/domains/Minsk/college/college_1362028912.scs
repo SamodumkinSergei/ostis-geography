@@ -1,0 +1,26 @@
+ concept_college_1362028912
+ <- concept_college;
+=>nrel_main_idtf:
+	["Белорусский Государственный Медицинский университет учебный корпус № 4"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусский Государственный Медицинский университет учебный корпус № 4"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинградская улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 226-56-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.894644,27.550562"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsmu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

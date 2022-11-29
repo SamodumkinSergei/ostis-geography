@@ -1,0 +1,26 @@
+ concept_hotels_160166216632
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Усадьба в Паперне"]
+	(* <- lang_ru;; <- name;;*);
+    ["Усадьба в Паперне"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Папернянский сельсовет, деревня Паперня, Новопоселковая улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 676-41-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.038991,27.567092"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_malls_241463773237
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Cascad"]
+	(* <- lang_ru;; <- name;;*);
+    ["Cascad"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Славинского, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 884-14-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–19:00; сб,вс 11:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.64738,23.828061"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://cascad.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

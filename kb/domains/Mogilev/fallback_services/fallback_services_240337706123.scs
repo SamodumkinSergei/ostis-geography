@@ -1,0 +1,26 @@
+ concept_fallback_services_240337706123
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Могилёв Гранит"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилёв Гранит"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Крыленко, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 535-96-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 10:00–18:00; сб,вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907682,30.335792"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogilevgranit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

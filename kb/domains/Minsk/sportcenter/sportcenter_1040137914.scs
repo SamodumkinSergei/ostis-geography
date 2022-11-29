@@ -1,0 +1,26 @@
+ concept_sportcenter_1040137914
+ <- concept_sportcenter;
+=>nrel_main_idtf:
+	["Старт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Старт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Калиновского, 66А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 661-05-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–02:00; пт,сб 10:00–06:00; вс 10:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.939105,27.650827"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://startbilliard.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

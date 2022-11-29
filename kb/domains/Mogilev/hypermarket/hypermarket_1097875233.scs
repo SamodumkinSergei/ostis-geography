@@ -1,0 +1,26 @@
+ concept_hypermarket_1097875233
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Стандарт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стандарт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Симонова, 73"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 263-56-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.862037,30.310254"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://modular.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

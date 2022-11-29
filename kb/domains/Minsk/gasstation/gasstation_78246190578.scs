@@ -1,0 +1,26 @@
+ concept_gasstation_78246190578
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["АЗС № 5 РУП Белоруснефть-минскавтозаправка"]
+	(* <- lang_ru;; <- name;;*);
+    ["АЗС № 5 РУП Белоруснефть-минскавтозаправка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Минский район, Папернянский сельсовет, агрогородок Большевик, Промышленная улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 506-33-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.00664,27.55635"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://belorusneft.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

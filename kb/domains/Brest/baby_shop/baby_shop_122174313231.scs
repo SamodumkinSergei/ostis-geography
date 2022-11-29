@@ -1,0 +1,26 @@
+ concept_baby_shop_122174313231
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Funtastik"]
+	(* <- lang_ru;; <- name;;*);
+    ["Funtastik"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гаврилова, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 653-36-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.108303,23.773179"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.funtastik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

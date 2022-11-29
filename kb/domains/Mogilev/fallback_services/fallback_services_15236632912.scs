@@ -1,0 +1,26 @@
+ concept_fallback_services_15236632912
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["ПамБел"]
+	(* <- lang_ru;; <- name;;*);
+    ["ПамБел"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Островского, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 743-74-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 09:00–18:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.877067,30.336935"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pambel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

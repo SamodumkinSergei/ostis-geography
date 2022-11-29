@@ -1,0 +1,26 @@
+ concept_medicine_1068432569
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городская поликлиника № 28"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская поликлиника № 28"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Гинтовта, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 270-44-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.950814,27.677488"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://28gp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

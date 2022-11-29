@@ -1,0 +1,26 @@
+ concept_bus_stop_225182362272
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Нагорная"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Нагорная"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Прудок, улица Крупской, 233"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.479572,31.013008"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

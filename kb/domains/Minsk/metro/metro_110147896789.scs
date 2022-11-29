@@ -1,0 +1,26 @@
+ concept_metro_110147896789
+ <- concept_metro;
+=>nrel_main_idtf:
+	["Пролетарская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пролетарская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Судмалиса, 1Г"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 05:30–00:40"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.890217,27.585904"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://metropoliten.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

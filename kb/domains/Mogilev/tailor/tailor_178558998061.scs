@@ -1,0 +1,26 @@
+ concept_tailor_178558998061
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Ремонт галантереи"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт галантереи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пушкинский проспект, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 242-78-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 10:00–18:45; сб,вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878629,30.337129"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.remprof.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

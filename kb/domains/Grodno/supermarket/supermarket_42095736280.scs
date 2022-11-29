@@ -1,0 +1,26 @@
+ concept_supermarket_42095736280
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Сузорье"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сузорье"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Ткацкая улица, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.675092,23.774893"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

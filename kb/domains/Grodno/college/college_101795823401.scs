@@ -1,0 +1,26 @@
+ concept_college_101795823401
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГРГУ имени Янки Купалы, Факультет экономики и управления, Факультет психологии"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГРГУ имени Янки Купалы, Факультет экономики и управления, Факультет психологии"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Гаспадарчая улица, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 273-01-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.711871,23.826025"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://fem.grsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

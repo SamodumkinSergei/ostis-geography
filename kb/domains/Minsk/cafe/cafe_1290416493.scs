@@ -1,0 +1,26 @@
+ concept_cafe_1290416493
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["ButterBro"]
+	(* <- lang_ru;; <- name;;*);
+    ["ButterBro"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Жасминовая улица, 3Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 188-11-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–23:00; сб,вс 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.926597,27.651642"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://butterbro-bistro.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

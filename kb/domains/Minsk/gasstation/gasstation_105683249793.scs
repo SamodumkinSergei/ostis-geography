@@ -1,0 +1,26 @@
+ concept_gasstation_105683249793
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["А-100"]
+	(* <- lang_ru;; <- name;;*);
+    ["А-100"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Луговослободской сельсовет, посёлок Привольный"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 233-33-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 03:30–03:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.802118,27.792518"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://azs.a-100.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

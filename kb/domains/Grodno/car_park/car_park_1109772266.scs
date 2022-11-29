@@ -1,0 +1,26 @@
+ concept_car_park_1109772266
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автостоянка № 5"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостоянка № 5"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Репина, 52"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 296-43-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 04:00–01:00, перерыв 13:30–14:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.656292,23.789082"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

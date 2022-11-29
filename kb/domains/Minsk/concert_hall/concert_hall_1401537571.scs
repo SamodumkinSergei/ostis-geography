@@ -1,0 +1,26 @@
+ concept_concert_hall_1401537571
+ <- concept_concert_hall;
+=>nrel_main_idtf:
+	["Караоке холл Статус"]
+	(* <- lang_ru;; <- name;;*);
+    ["Караоке холл Статус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурганова, 61"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 688-84-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 20:00–05:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.929889,27.579665"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://statushall.turbo.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_1069676823
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 27 г. Могилева"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 27 г. Могилева"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Якубовского, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 241-70-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.91797,30.317591"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sosh27.mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

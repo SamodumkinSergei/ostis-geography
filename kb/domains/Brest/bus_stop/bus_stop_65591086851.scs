@@ -1,0 +1,26 @@
+ concept_bus_stop_65591086851
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Микрорайон Лагуна"]
+	(* <- lang_ru;; <- name;;*);
+    ["Микрорайон Лагуна"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Луцкая улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.079104,23.763406"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

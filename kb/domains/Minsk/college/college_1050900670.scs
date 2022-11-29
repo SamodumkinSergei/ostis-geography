@@ -1,0 +1,26 @@
+ concept_college_1050900670
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минский городской педагогический колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский городской педагогический колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Макаёнка, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 369-31-96"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:30; сб 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916273,27.619637"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pedkol.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

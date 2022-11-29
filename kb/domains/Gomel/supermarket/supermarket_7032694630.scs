@@ -1,0 +1,26 @@
+ concept_supermarket_7032694630
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Родны кут"]
+	(* <- lang_ru;; <- name;;*);
+    ["Родны кут"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельский район, Бобовичский сельсовет, деревня Уза, Комсомольская улица, 16А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 09:00–18:00, перерыв 13:00–14:00; вс 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.384108,30.885072"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rodnykut.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

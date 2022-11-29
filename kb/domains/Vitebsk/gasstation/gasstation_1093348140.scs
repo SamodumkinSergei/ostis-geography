@@ -1,0 +1,26 @@
+ concept_gasstation_1093348140
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Газпром трансгаз Беларусь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Газпром трансгаз Беларусь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Воинов-Интернационалистов, 51А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 267-73-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–07:30, перерыв 19:30–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.152376,30.238155"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://metan.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_drugstores_188519330928
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 218"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 218"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Кутепова, 38А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 274-53-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.870069,30.303704"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

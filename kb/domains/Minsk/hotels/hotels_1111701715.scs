@@ -1,0 +1,26 @@
+ concept_hotels_1111701715
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Ля Менска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ля Менска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Центральный район, микрорайон Зацень, переулок Ермака, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 110-36-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.96749,27.514126"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mini-hotel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

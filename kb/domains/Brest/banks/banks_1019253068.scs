@@ -1,0 +1,26 @@
+ concept_banks_1019253068
+ <- concept_banks;
+=>nrel_main_idtf:
+	["МТБАНК"]
+	(* <- lang_ru;; <- name;;*);
+    ["МТБАНК"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Машерова, 53"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 509-99-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.087547,23.703805"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.mtbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

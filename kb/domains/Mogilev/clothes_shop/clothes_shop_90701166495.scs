@@ -1,0 +1,26 @@
+ concept_clothes_shop_90701166495
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Королевский размер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Королевский размер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Мира, 39"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 301-88-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 10:00–19:00; сб 10:00–17:00; вс 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908757,30.338848"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://krshop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

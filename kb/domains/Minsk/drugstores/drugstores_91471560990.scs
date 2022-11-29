@@ -1,0 +1,26 @@
+ concept_drugstores_91471560990
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптекарь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптекарь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Максима Богдановича, 70"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 501-83-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.924145,27.570706"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://аптекарь.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

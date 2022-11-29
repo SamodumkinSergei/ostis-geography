@@ -1,0 +1,26 @@
+ concept_fitness_1124659833
+ <- concept_fitness;
+=>nrel_main_idtf:
+	["Футбольный клуб Гомель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Футбольный клуб Гомель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, площадь Восстания, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 234-99-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.436299,31.013388"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.fcgomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

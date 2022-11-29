@@ -1,0 +1,26 @@
+ concept_sportcenter_161585869324
+ <- concept_sportcenter;
+=>nrel_main_idtf:
+	["Бильярд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бильярд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Дзержинского, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 540-40-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 18:00–00:00; пт 18:00–02:00; сб 13:00–02:00; вс 13:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.9016,30.332923"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_hairdressers_215084513987
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Квартира"]
+	(* <- lang_ru;; <- name;;*);
+    ["Квартира"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Жесткова, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 762-02-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–20:00; вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.183675,30.210794"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

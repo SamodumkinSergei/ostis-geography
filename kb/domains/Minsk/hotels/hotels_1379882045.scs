@@ -1,0 +1,26 @@
+ concept_hotels_1379882045
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Раубичи Hotel"]
+	(* <- lang_ru;; <- name;;*);
+    ["Раубичи Hotel"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Острошицко-Городокский сельсовет, деревня Околица, Ивановская улица, 4Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 676-61-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.058262,27.749"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

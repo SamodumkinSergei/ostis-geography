@@ -1,0 +1,26 @@
+ concept_bus_stop_107362325839
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Обсерватория"]
+	(* <- lang_ru;; <- name;;*);
+    ["Обсерватория"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.929914,27.634168"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

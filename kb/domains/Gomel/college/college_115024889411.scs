@@ -1,0 +1,26 @@
+ concept_college_115024889411
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гомельский государственный аграрно-экономический колледж, корпус № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский государственный аграрно-экономический колледж, корпус № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Пролетарская улица, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 232-00-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.419956,31.010124"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ggaek.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

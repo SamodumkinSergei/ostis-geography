@@ -1,0 +1,26 @@
+ concept_museum_1037749756
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Дворец культуры области"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дворец культуры области"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пушкинский проспект, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 276-81-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.886352,30.329867"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dko-mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

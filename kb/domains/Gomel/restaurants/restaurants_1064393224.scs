@@ -1,0 +1,26 @@
+ concept_restaurants_1064393224
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Речицкий"]
+	(* <- lang_ru;; <- name;;*);
+    ["Речицкий"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Речицкий проспект, 61к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 226-58-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср 13:00–16:00; чт-вс 13:00–00:00, перерыв 16:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.40897,30.932538"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

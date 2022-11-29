@@ -1,0 +1,26 @@
+ concept_malls_134634847250
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Арго"]
+	(* <- lang_ru;; <- name;;*);
+    ["Арго"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Габровская улица, 45"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 342-90-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб,вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.872287,30.361353"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://argo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

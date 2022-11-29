@@ -1,0 +1,26 @@
+ concept_college_1111839012
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 30"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 30"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Жуковского, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 222-10-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.880456,27.552754"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch30.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_98526496727
+ <- concept_college;
+=>nrel_main_idtf:
+	["Отдел маркетинга и научных коммуникаций Нич БГУИР"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отдел маркетинга и научных коммуникаций Нич БГУИР"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петруся Бровки, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 293-80-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 13:00–13:45; пт 08:30–16:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917818,27.594796"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsuir.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

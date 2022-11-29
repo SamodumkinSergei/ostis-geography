@@ -1,0 +1,26 @@
+ concept_college_1206585982
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 13 г. Могилева, отдел по образованию"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 13 г. Могилева, отдел по образованию"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Алтайская улица, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 270-04-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.855191,30.30294"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://school13.mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

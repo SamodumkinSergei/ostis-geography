@@ -1,0 +1,26 @@
+ concept_gasstation_18527444649
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["ГаллонАвтоГаз"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГаллонАвтоГаз"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Лейтенанта Рябцева"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 228-12-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.107837,23.666226"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gallonautogas.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

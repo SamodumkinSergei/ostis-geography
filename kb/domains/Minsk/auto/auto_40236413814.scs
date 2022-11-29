@@ -1,0 +1,26 @@
+ concept_auto_40236413814
+ <- concept_auto;
+=>nrel_main_idtf:
+	["ProSTOservice"]
+	(* <- lang_ru;; <- name;;*);
+    ["ProSTOservice"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Глаголева, 43"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 750-47-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.885648,27.485232"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://prosto-service.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

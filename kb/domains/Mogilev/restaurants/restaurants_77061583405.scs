@@ -1,0 +1,26 @@
+ concept_restaurants_77061583405
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Sprut"]
+	(* <- lang_ru;; <- name;;*);
+    ["Sprut"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Космонавтов, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 771-31-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912224,30.319237"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sprut.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

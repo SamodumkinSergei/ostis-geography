@@ -1,0 +1,26 @@
+ concept_hypermarket_33590842526
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Фор сейл - секонд хенд оптом в Бресте"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фор сейл - секонд хенд оптом в Бресте"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Ленинский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 671-49-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00; сб 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.125255,23.763332"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://forseil.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

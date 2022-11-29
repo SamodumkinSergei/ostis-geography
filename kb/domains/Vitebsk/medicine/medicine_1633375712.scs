@@ -1,0 +1,26 @@
+ concept_medicine_1633375712
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Drcall Poliklinik"]
+	(* <- lang_ru;; <- name;;*);
+    ["Drcall Poliklinik"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Анталья, Аланья, бульвар Ататюрк, 138"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+90 530 201 31 12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["36.547931,31.98359"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.drcall.com.tr/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

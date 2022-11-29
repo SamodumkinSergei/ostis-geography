@@ -1,0 +1,26 @@
+ concept_banks_190666001586
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Статусбанк, пункт обмена валюты"]
+	(* <- lang_ru;; <- name;;*);
+    ["Статусбанк, пункт обмена валюты"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Нестерова, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 303-00-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:30–21:00, перерыв 15:00–15:40"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.883425,27.681508"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://stbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

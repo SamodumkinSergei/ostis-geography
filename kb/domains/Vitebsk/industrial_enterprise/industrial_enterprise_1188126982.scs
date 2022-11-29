@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_1188126982
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Белль Бимбо"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белль Бимбо"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Петруся Бровки, 50А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 214-42-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.160352,30.237515"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bellbimbo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

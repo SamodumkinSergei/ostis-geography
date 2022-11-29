@@ -1,0 +1,26 @@
+ concept_cafe_96467263481
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Хороший день"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хороший день"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Монтажников, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–20:00; сб,вс 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873705,27.416778"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

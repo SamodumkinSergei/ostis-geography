@@ -1,0 +1,26 @@
+ concept_bus_stop_19515556073
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Рогачевского"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Рогачевского"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Индурское шоссе"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.630395,23.856222"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

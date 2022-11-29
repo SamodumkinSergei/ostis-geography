@@ -1,0 +1,26 @@
+ concept_drugstores_195547542818
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Витвар, аптека № 8"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витвар, аптека № 8"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, 2-я Заречная улица, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 109-92-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:50–18:50"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.162044,30.145051"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitvar.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

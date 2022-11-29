@@ -1,0 +1,26 @@
+ concept_hotels_13578563527
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Смарт Бутик Отель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Смарт Бутик Отель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Суворова, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 364-34-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.197693,30.204888"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://smartvitebsk.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

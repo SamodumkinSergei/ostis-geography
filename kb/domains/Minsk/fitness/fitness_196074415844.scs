@@ -1,0 +1,26 @@
+ concept_fitness_196074415844
+ <- concept_fitness;
+=>nrel_main_idtf:
+	["Дворец спорта, малая арена"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дворец спорта, малая арена"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 4А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 203-44-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911153,27.550868"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.sportpalace.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

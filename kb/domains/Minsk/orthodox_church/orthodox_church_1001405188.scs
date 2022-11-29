@@ -1,0 +1,26 @@
+ concept_orthodox_church_1001405188
+ <- concept_orthodox_church;
+=>nrel_main_idtf:
+	["Храм Воскресения Христова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Храм Воскресения Христова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Гамарника, 27А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 261-52-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–21:00; вс 05:30–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.956114,27.6039"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://voskresprihod.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

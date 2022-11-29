@@ -1,0 +1,26 @@
+ concept_drugstores_160389315390
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 89"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 377-58-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб 10:00–20:00; вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905844,27.44667"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.dominantapharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

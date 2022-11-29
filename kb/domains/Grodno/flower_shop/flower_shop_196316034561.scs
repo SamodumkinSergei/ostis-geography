@@ -1,0 +1,26 @@
+ concept_flower_shop_196316034561
+ <- concept_flower_shop;
+=>nrel_main_idtf:
+	["Флоран"]
+	(* <- lang_ru;; <- name;;*);
+    ["Флоран"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Ожешко, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 557-79-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.685076,23.84246"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://floran.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_office_service_110641899853
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Al'fakrov Sklad"]
+	(* <- lang_ru;; <- name;;*);
+    ["Al'fakrov Sklad"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Бехтерева, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.877709,27.641045"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://alfakrov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

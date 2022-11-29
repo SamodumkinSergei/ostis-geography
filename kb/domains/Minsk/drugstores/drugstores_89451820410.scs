@@ -1,0 +1,26 @@
+ concept_drugstores_89451820410
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Белфармация аптека № 7 пятой категории"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белфармация аптека № 7 пятой категории"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Академика Красина, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 380-06-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00, перерывы 12:40–13:00, 17:00–17:30; сб 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.825652,27.766306"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

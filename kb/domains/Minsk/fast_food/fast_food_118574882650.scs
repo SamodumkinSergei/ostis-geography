@@ -1,0 +1,26 @@
+ concept_fast_food_118574882650
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Country Chicken"]
+	(* <- lang_ru;; <- name;;*);
+    ["Country Chicken"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 120"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 505-65-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.953479,27.45211"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

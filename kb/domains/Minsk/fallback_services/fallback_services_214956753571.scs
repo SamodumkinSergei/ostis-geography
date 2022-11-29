@@ -1,0 +1,26 @@
+ concept_fallback_services_214956753571
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Obelisk-Art"]
+	(* <- lang_ru;; <- name;;*);
+    ["Obelisk-Art"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Долгиновский тракт, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 557-60-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.935412,27.54607"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://obelisk-art.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

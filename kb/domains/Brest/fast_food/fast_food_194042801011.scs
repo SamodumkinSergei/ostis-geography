@@ -1,0 +1,26 @@
+ concept_fast_food_194042801011
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["New_macdoner"]
+	(* <- lang_ru;; <- name;;*);
+    ["New_macdoner"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица МОПРа, 5/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 365-62-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.086693,23.70919"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

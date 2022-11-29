@@ -1,0 +1,26 @@
+ concept_sportcenter_1717390123
+ <- concept_sportcenter;
+=>nrel_main_idtf:
+	["Noga Pool House"]
+	(* <- lang_ru;; <- name;;*);
+    ["Noga Pool House"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Скрыганова, 6/4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 107-04-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–23:00; сб,вс 18:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911635,27.517602"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://virtu.by/p/noga"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

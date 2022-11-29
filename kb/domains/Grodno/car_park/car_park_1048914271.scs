@@ -1,0 +1,26 @@
+ concept_car_park_1048914271
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автостоянка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостоянка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Дзержинского, 54"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 245-06-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.694328,23.837833"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ghb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

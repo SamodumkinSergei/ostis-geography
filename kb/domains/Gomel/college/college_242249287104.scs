@@ -1,0 +1,26 @@
+ concept_college_242249287104
+ <- concept_college;
+=>nrel_main_idtf:
+	["Механико-технологический факультет Гомельского государственного технического университета имени П. О. Сухого"]
+	(* <- lang_ru;; <- name;;*);
+    ["Механико-технологический факультет Гомельского государственного технического университета имени П. О. Сухого"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Октября, 48/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 223-19-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.406898,30.938247"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.gstu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

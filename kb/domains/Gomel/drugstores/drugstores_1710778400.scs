@@ -1,0 +1,26 @@
+ concept_drugstores_1710778400
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация 176/2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация 176/2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Залинейный, улица Циолковского, 119А/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 340-80-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.430617,30.966763"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomelpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_auto_1022320110
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Авто-Даерс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Авто-Даерс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московский район, микрорайон Шпановичи"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 255-77-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.088557,23.722177"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://avto-daers.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_hairdressers_1029715015
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["У Элизы"]
+	(* <- lang_ru;; <- name;;*);
+    ["У Элизы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Ожешко, 42"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 262-30-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 08:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.687061,23.846097"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

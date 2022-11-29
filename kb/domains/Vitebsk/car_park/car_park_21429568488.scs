@@ -1,0 +1,26 @@
+ concept_car_park_21429568488
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Паркинг"]
+	(* <- lang_ru;; <- name;;*);
+    ["Паркинг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебская область, Витебск, Офицерская улица, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 247-88-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.180838,30.223374"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

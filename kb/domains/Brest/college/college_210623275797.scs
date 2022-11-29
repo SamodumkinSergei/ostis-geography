@@ -1,0 +1,26 @@
+ concept_college_210623275797
+ <- concept_college;
+=>nrel_main_idtf:
+	["Малышкина школа"]
+	(* <- lang_ru;; <- name;;*);
+    ["Малышкина школа"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Советская улица, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 730-21-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.093102,23.692488"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://taplink.cc/malyshkina.school"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

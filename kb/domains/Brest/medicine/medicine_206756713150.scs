@@ -1,0 +1,26 @@
+ concept_medicine_206756713150
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Инфекционный корпус Брестской областной больницы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Инфекционный корпус Брестской областной больницы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Медицинская улица, 7/6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 227-21-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.105265,23.81293"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.hospital.brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

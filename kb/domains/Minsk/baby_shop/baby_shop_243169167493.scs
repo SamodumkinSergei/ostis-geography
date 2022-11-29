@@ -1,0 +1,26 @@
+ concept_baby_shop_243169167493
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Биг-Мастер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Биг-Мастер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лили Карастояновой, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 272-55-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.941933,27.56659"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bigmaster.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

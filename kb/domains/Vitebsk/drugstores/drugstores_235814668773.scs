@@ -1,0 +1,26 @@
+ concept_drugstores_235814668773
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Рецепт Здоровья"]
+	(* <- lang_ru;; <- name;;*);
+    ["Рецепт Здоровья"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Богатырёва, 8А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 268-65-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.170533,30.261686"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://tishas.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

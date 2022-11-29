@@ -1,0 +1,26 @@
+ concept_haulier_1117664110
+ <- concept_haulier;
+=>nrel_main_idtf:
+	["Faktoriall"]
+	(* <- lang_ru;; <- name;;*);
+    ["Faktoriall"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лили Карастояновой, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 235-13-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–18:00, перерыв 12:00–13:00; пт 09:00–17:30, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.941975,27.566552"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://faktoriall.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

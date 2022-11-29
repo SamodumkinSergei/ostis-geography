@@ -1,0 +1,26 @@
+ concept_fallback_services_93002562110
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Бит Фэктори"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бит Фэктори"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Карла Либкнехта, 66"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 397-97-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897318,27.529007"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://bit-factory.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

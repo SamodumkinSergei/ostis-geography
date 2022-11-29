@@ -1,0 +1,26 @@
+ concept_auto_1166565698
+ <- concept_auto;
+=>nrel_main_idtf:
+	["АвтоОрех"]
+	(* <- lang_ru;; <- name;;*);
+    ["АвтоОрех"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Фабрициуса, 9А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 399-12-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.887842,27.536922"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.avtooreh.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

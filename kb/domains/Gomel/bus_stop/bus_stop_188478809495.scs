@@ -1,0 +1,26 @@
+ concept_bus_stop_188478809495
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Парк Фестивальный"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парк Фестивальный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Речицкий проспект"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.410584,30.945446"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

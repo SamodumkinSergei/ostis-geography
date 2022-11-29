@@ -1,0 +1,26 @@
+ concept_clothes_shop_55048818189
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Модамакс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Модамакс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Воронянского, 13к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 242-08-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878264,27.545571"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://modamax.by/shops/minsk/minsk-ul-voronyanskogo-13-1"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

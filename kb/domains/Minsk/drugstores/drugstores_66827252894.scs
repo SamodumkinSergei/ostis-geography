@@ -1,0 +1,26 @@
+ concept_drugstores_66827252894
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["InLek"]
+	(* <- lang_ru;; <- name;;*);
+    ["InLek"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Червякова, 57"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 343-05-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.930331,27.547654"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.inlek.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

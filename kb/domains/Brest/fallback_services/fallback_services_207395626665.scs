@@ -1,0 +1,26 @@
+ concept_fallback_services_207395626665
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["РУП Брестское отделение Белорусской Ж/д Локомотивное депо Брест"]
+	(* <- lang_ru;; <- name;;*);
+    ["РУП Брестское отделение Белорусской Ж/д Локомотивное депо Брест"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Скрипникова, 135к6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 226-19-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.108459,23.729769"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://brest.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

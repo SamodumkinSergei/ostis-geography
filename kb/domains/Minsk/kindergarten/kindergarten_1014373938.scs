@@ -1,0 +1,26 @@
+ concept_kindergarten_1014373938
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Детский сад № 371"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский сад № 371"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Якуба Коласа, 67А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 397-31-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.936772,27.601715"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu371.minsk.edu.by/main.aspx"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

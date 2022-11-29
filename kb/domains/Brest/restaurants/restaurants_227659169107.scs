@@ -1,0 +1,26 @@
+ concept_restaurants_227659169107
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Lyon Brest"]
+	(* <- lang_ru;; <- name;;*);
+    ["Lyon Brest"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Рон, Лион, Rue de Brest, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 4 78 37 52 08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:30–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["45.764259,4.833383"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_car_park_110242990479
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автомобильная парковка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автомобильная парковка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Сябровская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.063155,23.732377"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

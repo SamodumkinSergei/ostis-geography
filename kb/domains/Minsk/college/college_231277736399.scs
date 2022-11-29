@@ -1,0 +1,26 @@
+ concept_college_231277736399
+ <- concept_college;
+=>nrel_main_idtf:
+	["Welcome"]
+	(* <- lang_ru;; <- name;;*);
+    ["Welcome"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Кальварийская улица, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 755-00-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 12:00–21:00; сб 11:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905972,27.520912"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://wlc.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

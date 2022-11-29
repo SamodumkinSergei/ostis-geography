@@ -1,0 +1,26 @@
+ concept_clothes_shop_230308806077
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Я Майка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Я Майка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 326/4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 11:00–19:00; вс 11:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.100749,23.756829"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_supermarket_176128342281
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Пятёрочка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пятёрочка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёвская область, Могилёвский район, Вейно, Вейнянская улица, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.829586,30.386744"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

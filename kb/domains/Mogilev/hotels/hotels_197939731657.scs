@@ -1,0 +1,26 @@
+ concept_hotels_197939731657
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Центр временного содержания"]
+	(* <- lang_ru;; <- name;;*);
+    ["Центр временного содержания"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Новицкого, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 264-32-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.864203,30.35636"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

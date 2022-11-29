@@ -1,0 +1,26 @@
+ concept_bus_station_78511174141
+ <- concept_bus_station;
+=>nrel_main_idtf:
+	["Военкомат"]
+	(* <- lang_ru;; <- name;;*);
+    ["Военкомат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кольцова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.952534,27.612012"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

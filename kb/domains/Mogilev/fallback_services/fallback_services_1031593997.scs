@@ -1,0 +1,26 @@
+ concept_fallback_services_1031593997
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Могилевский инструментальный завод"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилевский инструментальный завод"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Станция Луполово, 6А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 263-59-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.87869,30.401421"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://moiz.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

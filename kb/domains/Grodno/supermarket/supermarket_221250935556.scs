@@ -1,0 +1,26 @@
+ concept_supermarket_221250935556
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Квасовский"]
+	(* <- lang_ru;; <- name;;*);
+    ["Квасовский"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Клецкова, 3А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 260-67-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.648097,23.840758"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_hotels_212557666786
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Villa Condra Brest"]
+	(* <- lang_ru;; <- name;;*);
+    ["Villa Condra Brest"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брестский район, агрогородок Мухавец, Фруктовая улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 356-40-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.029863,23.785328"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://villa.condra.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

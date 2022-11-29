@@ -1,0 +1,26 @@
+ concept_hotels_1204696183
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Общежитие Брестской дистанции гражданских сооружений"]
+	(* <- lang_ru;; <- name;;*);
+    ["Общежитие Брестской дистанции гражданских сооружений"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Скрипникова, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 226-36-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.105876,23.700328"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://brest.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

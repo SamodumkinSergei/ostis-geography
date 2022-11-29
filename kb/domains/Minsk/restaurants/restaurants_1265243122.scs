@@ -1,0 +1,26 @@
+ concept_restaurants_1265243122
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Васильки"]
+	(* <- lang_ru;; <- name;;*);
+    ["Васильки"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Бобруйская улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 748-82-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–22:00; пт,сб 10:00–23:00; вс 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.89035,27.553982"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vasilki.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

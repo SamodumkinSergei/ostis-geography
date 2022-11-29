@@ -1,0 +1,26 @@
+ concept_kindergarten_1054969500
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["ГУО Санаторный ясли-сад № 388 г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО Санаторный ясли-сад № 388 г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Малинина, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 379-69-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.851826,27.606643"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu388.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

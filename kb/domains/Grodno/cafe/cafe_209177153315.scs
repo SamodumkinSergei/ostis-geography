@@ -1,0 +1,26 @@
+ concept_cafe_209177153315
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кофейный автомат"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кофейный автомат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Победы, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.655898,23.831484"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

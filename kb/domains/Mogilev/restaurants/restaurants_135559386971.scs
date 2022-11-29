@@ -1,0 +1,26 @@
+ concept_restaurants_135559386971
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Domino's Pizza"]
+	(* <- lang_ru;; <- name;;*);
+    ["Domino's Pizza"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 5/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897063,30.332406"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://dominos.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

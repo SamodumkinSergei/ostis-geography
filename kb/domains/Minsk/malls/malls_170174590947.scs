@@ -1,0 +1,26 @@
+ concept_malls_170174590947
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Замок"]
+	(* <- lang_ru;; <- name;;*);
+    ["Замок"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 65"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 309-54-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.926088,27.517916"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.tczamok.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

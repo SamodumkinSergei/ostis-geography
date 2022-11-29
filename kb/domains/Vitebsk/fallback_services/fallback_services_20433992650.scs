@@ -1,0 +1,26 @@
+ concept_fallback_services_20433992650
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["P-servis.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["P-servis.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 81А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.194159,30.258413"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

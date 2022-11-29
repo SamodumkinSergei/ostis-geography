@@ -1,0 +1,26 @@
+ concept_catholic_church_1156981900
+ <- concept_catholic_church;
+=>nrel_main_idtf:
+	["Костёл Воздвижения святого Креста"]
+	(* <- lang_ru;; <- name;;*);
+    ["Костёл Воздвижения святого Креста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Ленина, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 520-66-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.09316,23.686042"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brestcatholic.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

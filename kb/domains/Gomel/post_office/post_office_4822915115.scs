@@ -1,0 +1,26 @@
+ concept_post_office_4822915115
+ <- concept_post_office;
+=>nrel_main_idtf:
+	["Европочта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Европочта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельская область, Ветка, улица Заслонова, 1Д"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 535-36-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 10:00–19:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.568486,31.168599"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://evropochta.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

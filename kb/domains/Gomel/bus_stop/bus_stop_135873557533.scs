@@ -1,0 +1,26 @@
+ concept_bus_stop_135873557533
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Локомотивное депо"]
+	(* <- lang_ru;; <- name;;*);
+    ["Локомотивное депо"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Полесская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.440119,30.969283"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_tailor_218954559451
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Ключ сервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ключ сервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Габровская улица, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 760-11-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.868425,30.347961"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://keyservice.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_232031237228
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Одоевского"]
+	(* <- lang_ru;; <- name;;*);
+    ["Одоевского"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Бельского, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903127,27.482106"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_136698642181
+ <- concept_college;
+=>nrel_main_idtf:
+	["Кафедра стоматологии детского возраста БГМУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафедра стоматологии детского возраста БГМУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Сухая улица, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 200-56-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902815,27.536553"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsmu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

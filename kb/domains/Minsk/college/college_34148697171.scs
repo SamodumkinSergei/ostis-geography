@@ -1,0 +1,26 @@
+ concept_college_34148697171
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГУО университет гражданской защиты Министерства по чрезвычайным ситуациям Республики Беларусь"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО университет гражданской защиты Министерства по чрезвычайным ситуациям Республики Беларусь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Машиностроителей, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 340-24-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.849633,27.662498"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ucp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

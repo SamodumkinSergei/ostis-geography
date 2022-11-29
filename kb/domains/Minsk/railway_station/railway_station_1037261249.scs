@@ -1,0 +1,26 @@
+ concept_railway_station_1037261249
+ <- concept_railway_station;
+=>nrel_main_idtf:
+	["Станция Минск-Сортировочный"]
+	(* <- lang_ru;; <- name;;*);
+    ["Станция Минск-Сортировочный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Брест-Литовская улица, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 225-66-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.879279,27.528488"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://minsk.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

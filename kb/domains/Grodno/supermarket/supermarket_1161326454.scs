@@ -1,0 +1,26 @@
+ concept_supermarket_1161326454
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Родны кут"]
+	(* <- lang_ru;; <- name;;*);
+    ["Родны кут"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Южная улица, 9/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 268-72-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.642073,23.866289"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rodnykut.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_police_99962483792
+ <- concept_police;
+=>nrel_main_idtf:
+	["ГАИ УВД Гродненского Облисполкома"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГАИ УВД Гродненского Облисполкома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Белуша, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 279-75-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.670291,23.85943"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gaigrodno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

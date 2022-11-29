@@ -1,0 +1,26 @@
+ concept_drugstores_1079958328
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Минская Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минская Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, агрогородок Ждановичи, Линейная улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 509-55-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:30, перерыв 13:30–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.947028,27.424142"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://minfarm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

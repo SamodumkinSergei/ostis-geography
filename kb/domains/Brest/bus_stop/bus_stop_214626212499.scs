@@ -1,0 +1,26 @@
+ concept_bus_stop_214626212499
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Дворец спорта Виктория"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дворец спорта Виктория"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Янки Купалы"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.114239,23.773279"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

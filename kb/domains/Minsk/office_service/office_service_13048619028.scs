@@ -1,0 +1,26 @@
+ concept_office_service_13048619028
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Азарэнне, головной офис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Азарэнне, головной офис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Харьковская улица, 54А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 248-03-24"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:45–17:30, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90047,27.515157"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://azarenne.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

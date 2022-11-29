@@ -1,0 +1,26 @@
+ concept_drugstores_50254178833
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Искамед"]
+	(* <- lang_ru;; <- name;;*);
+    ["Искамед"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Фатина, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 224-10-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб,вс 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.881261,30.36972"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.iskamed.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

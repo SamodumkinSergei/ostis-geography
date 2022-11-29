@@ -1,0 +1,26 @@
+ concept_medicine_41233537121
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Минский городской клинический онкологический центр, корпус № 5"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский городской клинический онкологический центр, корпус № 5"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 64, корп. 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917621,27.5997"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

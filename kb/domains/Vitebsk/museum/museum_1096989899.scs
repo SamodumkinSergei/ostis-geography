@@ -1,0 +1,26 @@
+ concept_museum_1096989899
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Центр современного искусства, выставочный зал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Центр современного искусства, выставочный зал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 258-48-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср-вс 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.192185,30.208768"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.vitebskavangard.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

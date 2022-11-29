@@ -1,0 +1,26 @@
+ concept_medicine_16811756284
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гродненская университетская клиника, гематологическое отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненская университетская клиника, гематологическое отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, бульвар Ленинского Комсомола, 52/4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 243-26-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.694507,23.79131"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

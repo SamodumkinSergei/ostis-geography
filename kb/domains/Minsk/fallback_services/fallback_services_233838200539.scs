@@ -1,0 +1,26 @@
+ concept_fallback_services_233838200539
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Промокамень"]
+	(* <- lang_ru;; <- name;;*);
+    ["Промокамень"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Логойский тракт, 54"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 690-96-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.95976,27.633171"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://promokamen.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

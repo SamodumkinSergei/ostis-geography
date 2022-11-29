@@ -1,0 +1,26 @@
+ concept_library_1111528888
+ <- concept_library;
+=>nrel_main_idtf:
+	["Республиканская научно-техническая библиотека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Республиканская научно-техническая библиотека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 203-31-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908225,27.549942"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rntbcat.org.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

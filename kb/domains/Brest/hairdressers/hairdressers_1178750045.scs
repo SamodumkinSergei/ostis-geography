@@ -1,0 +1,26 @@
+ concept_hairdressers_1178750045
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Парикмахерская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парикмахерская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Адамковская улица, 44А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 258-83-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.100661,23.652809"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

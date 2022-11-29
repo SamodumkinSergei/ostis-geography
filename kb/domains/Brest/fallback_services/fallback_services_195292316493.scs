@@ -1,0 +1,26 @@
+ concept_fallback_services_195292316493
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гранитная мастерская Стелла"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гранитная мастерская Стелла"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Кирова, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 807-76-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.098036,23.689939"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pamyatniki-brest-stella.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_hairdressers_12702386329
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Оди"]
+	(* <- lang_ru;; <- name;;*);
+    ["Оди"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Алибегова, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 516-12-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–20:00; вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873653,27.47785"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

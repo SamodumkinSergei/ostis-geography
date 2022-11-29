@@ -1,0 +1,26 @@
+ concept_malls_241755531781
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Gefest"]
+	(* <- lang_ru;; <- name;;*);
+    ["Gefest"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пушкинский проспект, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 519-19-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–19:00; вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.872939,30.346281"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mogilev.magazin-gefest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

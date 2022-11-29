@@ -1,0 +1,26 @@
+ concept_library_1111145905
+ <- concept_library;
+=>nrel_main_idtf:
+	["Библиотека № 15 имени Тетки"]
+	(* <- lang_ru;; <- name;;*);
+    ["Библиотека № 15 имени Тетки"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Толбухина, 12А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 253-38-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 10:00–20:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.929551,27.611708"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://publib.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_stadium_143974158129
+ <- concept_stadium;
+=>nrel_main_idtf:
+	["Стадион БГАТУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стадион БГАТУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Первомайский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.928979,27.619068"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsatu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_cafe_110932134584
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Столовая"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столовая"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Харьковская улица, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 863-53-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90175,27.51877"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_malls_1205957296
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Вода и тепло"]
+	(* <- lang_ru;; <- name;;*);
+    ["Вода и тепло"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Владимирова, 57"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 110-57-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб,вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.425704,30.947348"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.sanbest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

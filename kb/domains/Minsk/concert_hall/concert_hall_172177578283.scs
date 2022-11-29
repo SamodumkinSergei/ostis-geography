@@ -1,0 +1,26 @@
+ concept_concert_hall_172177578283
+ <- concept_concert_hall;
+=>nrel_main_idtf:
+	["Chablis"]
+	(* <- lang_ru;; <- name;;*);
+    ["Chablis"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петруся Бровки, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-ср 09:00–19:00; чт,пт 09:00–04:00; сб,вс 19:00–04:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912884,27.600475"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

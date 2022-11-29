@@ -1,0 +1,26 @@
+ concept_spa_1009168662
+ <- concept_spa;
+=>nrel_main_idtf:
+	["Зеленое Яблоко"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зеленое Яблоко"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Головацкого, 113"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 178-48-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–20:00; вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.451143,31.019788"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.green-apple.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

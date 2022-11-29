@@ -1,0 +1,26 @@
+ concept_drugstores_196463403468
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельский район, Улуковский сельсовет, деревня Берёзки, Тепличная улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 293-62-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.399878,31.09939"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomelpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

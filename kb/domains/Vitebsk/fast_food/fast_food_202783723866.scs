@@ -1,0 +1,26 @@
+ concept_fast_food_202783723866
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Дабл ю кафе"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дабл ю кафе"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Черняховского"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.174231,30.200128"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

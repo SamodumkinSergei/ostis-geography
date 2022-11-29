@@ -1,0 +1,26 @@
+ concept_hotels_1344003172
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Renaissance Minsk Hotel"]
+	(* <- lang_ru;; <- name;;*);
+    ["Renaissance Minsk Hotel"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 1Е"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 309-90-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.89234,27.528833"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://renaissance.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_drugstores_1227239741
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Гагарина, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 239-01-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–18:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.672249,23.809757"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://farmacia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_gasstation_92978884708
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Газпром трансгаз Беларусь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Газпром трансгаз Беларусь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Чистая улица, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 260-00-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 02:10–01:50, перерывы 04:50–05:10, 07:30–08:00, 10:50–11:10, 13:50–14:10, 17:50–18:10, 19:30–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.872844,30.274107"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://metan.by/ecogas-map/agnks_mogilev2"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

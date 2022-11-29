@@ -1,0 +1,26 @@
+ concept_kindergarten_164287630325
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["IT-plus"]
+	(* <- lang_ru;; <- name;;*);
+    ["IT-plus"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Пушкина, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 627-11-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.193306,30.203407"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://it-plus.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_hotels_63611263095
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["River"]
+	(* <- lang_ru;; <- name;;*);
+    ["River"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Вологодская область, Череповец, улица Металлургов, 9А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (921) 250-00-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["59.1291,37.905351"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.hotel-river.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

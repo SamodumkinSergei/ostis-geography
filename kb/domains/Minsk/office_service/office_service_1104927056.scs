@@ -1,0 +1,26 @@
+ concept_office_service_1104927056
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Вышэйшая школа"]
+	(* <- lang_ru;; <- name;;*);
+    ["Вышэйшая школа"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 203-70-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 13:00–13:48; пт 08:30–16:30, перерыв 13:00–13:48"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909228,27.548316"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vshph.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

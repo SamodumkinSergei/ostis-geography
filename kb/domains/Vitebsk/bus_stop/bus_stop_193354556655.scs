@@ -1,0 +1,26 @@
+ concept_bus_stop_193354556655
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Аптекоуправление"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптекоуправление"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Великолукский тракт, 67"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.2154,30.210109"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_126798291499
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Банковский процессинговый центр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Банковский процессинговый центр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 33А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 226-35-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–12:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.194427,30.207457"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://npc.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_drugstores_1103169444
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Витвар, аптека № 14"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витвар, аптека № 14"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Ленинградская улица, 135А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 237-49-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.206054,30.159802"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitvar.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

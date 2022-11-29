@@ -1,0 +1,26 @@
+ concept_bus_stop_24553849608
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Автовокзал Гомель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автовокзал Гомель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Курчатова, 1, корп. 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.434932,30.992236"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_office_service_16131323241
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Отдел маркетинга Брестгазоаппарат"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отдел маркетинга Брестгазоаппарат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Орджоникидзе, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 227-64-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.100859,23.690194"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gefest.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

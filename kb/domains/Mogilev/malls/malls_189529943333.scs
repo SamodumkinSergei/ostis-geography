@@ -1,0 +1,26 @@
+ concept_malls_189529943333
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Магазин № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Шмидта, 45/168"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–18:00; пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.826682,30.334202"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

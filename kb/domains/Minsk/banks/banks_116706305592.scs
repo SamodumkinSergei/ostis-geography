@@ -1,0 +1,26 @@
+ concept_banks_116706305592
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Альфа-Банк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Альфа-Банк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Некрасова, 3/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 733-33-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:35–20:30, перерывы 11:00–11:15, 15:00–15:45, 17:15–17:30, 19:00–19:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.930136,27.596131"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.alfabank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

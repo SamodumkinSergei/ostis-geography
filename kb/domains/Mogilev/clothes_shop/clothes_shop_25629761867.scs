@@ -1,0 +1,26 @@
+ concept_clothes_shop_25629761867
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Brand_tut"]
+	(* <- lang_ru;; <- name;;*);
+    ["Brand_tut"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Орловского, 3А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 844-19-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.915257,30.321701"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

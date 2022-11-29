@@ -1,0 +1,26 @@
+ concept_medicine_5618908448
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Терапевтический корпус, ГКБ № 6"]
+	(* <- lang_ru;; <- name;;*);
+    ["Терапевтический корпус, ГКБ № 6"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Уральская улица, 5А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 245-10-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902232,27.607593"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://6gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_malls_205450728301
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Магазин хозтоваров"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин хозтоваров"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Шмидта, 70А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.86657,30.331071"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

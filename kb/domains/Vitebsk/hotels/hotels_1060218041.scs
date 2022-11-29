@@ -1,0 +1,26 @@
+ concept_hotels_1060218041
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Витебск Отель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебск Отель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Замковая улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 264-32-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.192365,30.202724"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.hotel-vitebsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

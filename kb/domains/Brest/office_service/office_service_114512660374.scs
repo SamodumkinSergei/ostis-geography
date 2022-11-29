@@ -1,0 +1,26 @@
+ concept_office_service_114512660374
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Санта Импэкс Брест"]
+	(* <- lang_ru;; <- name;;*);
+    ["Санта Импэкс Брест"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Катин Бор, 106А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 229-91-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.146483,23.671977"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

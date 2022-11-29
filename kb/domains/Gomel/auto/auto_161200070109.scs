@@ -1,0 +1,26 @@
+ concept_auto_161200070109
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Ник Сервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ник Сервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Железнодорожный район, район Старая Мильча, улица Чернышевского, 1И"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 604-30-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.440187,30.933844"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://car-service-14426.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

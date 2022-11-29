@@ -1,0 +1,26 @@
+ concept_college_65043042332
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гимназия № 5, начальные классы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гимназия № 5, начальные классы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Менделеева, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 348-88-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902443,27.620603"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gymn5.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

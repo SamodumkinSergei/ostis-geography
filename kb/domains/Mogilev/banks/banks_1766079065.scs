@@ -1,0 +1,26 @@
+ concept_banks_1766079065
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Банк Решение"]
+	(* <- lang_ru;; <- name;;*);
+    ["Банк Решение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пожарный переулок, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 311-10-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.89942,30.334723"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

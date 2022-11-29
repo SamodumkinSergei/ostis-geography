@@ -1,0 +1,26 @@
+ concept_malls_1108296808
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Гранд парк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гранд парк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Платонова, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 361-10-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.91083,27.596401"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://web.direct.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

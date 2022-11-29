@@ -1,0 +1,26 @@
+ concept_college_191152649052
+ <- concept_college;
+=>nrel_main_idtf:
+	["Белорусский национальный технический университет, учебный корпус № 8"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусский национальный технический университет, учебный корпус № 8"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Якуба Коласа, 12, подъезд 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 292-22-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.920945,27.589041"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bntu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

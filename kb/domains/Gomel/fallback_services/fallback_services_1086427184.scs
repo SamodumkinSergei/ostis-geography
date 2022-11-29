@@ -1,0 +1,26 @@
+ concept_fallback_services_1086427184
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Филиал Гомельское управление Белтеплоизоляция"]
+	(* <- lang_ru;; <- name;;*);
+    ["Филиал Гомельское управление Белтеплоизоляция"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Барыкина, 279А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 250-78-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.424188,30.94017"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://belteplo.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

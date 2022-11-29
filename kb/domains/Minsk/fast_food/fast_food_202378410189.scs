@@ -1,0 +1,26 @@
+ concept_fast_food_202378410189
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Главпит"]
+	(* <- lang_ru;; <- name;;*);
+    ["Главпит"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Платонова, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 331-00-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.91434,27.602022"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://edamarket.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

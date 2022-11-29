@@ -1,0 +1,26 @@
+ concept_bus_stop_237276280394
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Кинотеатр Октябрь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кинотеатр Октябрь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Барыкина"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.418853,30.976209"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

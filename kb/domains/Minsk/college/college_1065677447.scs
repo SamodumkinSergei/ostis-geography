@@ -1,0 +1,26 @@
+ concept_college_1065677447
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минский государственный профессиональный лицей № 7 строительства"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский государственный профессиональный лицей № 7 строительства"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Машиностроителей, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 361-92-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:15–16:45, перерыв 13:00–13:30; сб 08:15–12:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.850531,27.659444"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://licey7.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_107522006948
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Рестор Маркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Рестор Маркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кропоткина, 108А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 771-73-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.925063,27.564431"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

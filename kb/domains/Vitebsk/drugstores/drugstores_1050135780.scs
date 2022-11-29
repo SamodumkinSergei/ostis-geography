@@ -1,0 +1,26 @@
+ concept_drugstores_1050135780
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Де жур"]
+	(* <- lang_ru;; <- name;;*);
+    ["Де жур"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 42"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 267-54-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.18063,30.216561"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitvar.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

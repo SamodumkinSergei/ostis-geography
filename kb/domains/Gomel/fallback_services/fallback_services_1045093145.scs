@@ -1,0 +1,26 @@
+ concept_fallback_services_1045093145
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Белинтертранс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белинтертранс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Киселёва, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 295-24-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.427051,30.992498"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

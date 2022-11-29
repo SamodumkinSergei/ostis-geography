@@ -1,0 +1,26 @@
+ concept_medicine_1094480486
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Неомед"]
+	(* <- lang_ru;; <- name;;*);
+    ["Неомед"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Академическая улица, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 284-24-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 07:00–14:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909383,27.609968"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.neomed.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

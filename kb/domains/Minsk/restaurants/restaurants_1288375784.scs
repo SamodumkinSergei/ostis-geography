@@ -1,0 +1,26 @@
+ concept_restaurants_1288375784
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["BonBistro"]
+	(* <- lang_ru;; <- name;;*);
+    ["BonBistro"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 104-33-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:30–20:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910451,27.506169"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bonhotel.by/main/bonbistro/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_malls_1014475806
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Wine & Spirits"]
+	(* <- lang_ru;; <- name;;*);
+    ["Wine & Spirits"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пионерская улица, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 778-77-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–21:00; вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897371,30.338072"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://wss.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

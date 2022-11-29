@@ -1,0 +1,26 @@
+ concept_bus_stop_217171343566
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Станция юннатов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Станция юннатов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Сикорского"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.102976,23.710566"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

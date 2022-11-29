@@ -1,0 +1,26 @@
+ concept_swimming_pool_1207787068
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Гимназии № 14"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гимназии № 14"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Васнецова, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–20:00, перерыв 13:00–14:00; сб 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.870749,27.617438"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

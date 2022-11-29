@@ -1,0 +1,26 @@
+ concept_baby_shop_60818410814
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Буслик"]
+	(* <- lang_ru;; <- name;;*);
+    ["Буслик"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Островского, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 264-09-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.874547,30.332797"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://buslik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

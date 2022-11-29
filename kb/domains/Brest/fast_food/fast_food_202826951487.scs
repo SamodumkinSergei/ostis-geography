@@ -1,0 +1,26 @@
+ concept_fast_food_202826951487
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["МакДональдс"]
+	(* <- lang_ru;; <- name;;*);
+    ["МакДональдс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Октябрьской Революции, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 225-73-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.07995,23.739253"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

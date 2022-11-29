@@ -1,0 +1,26 @@
+ concept_museum_129821122404
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Террариум"]
+	(* <- lang_ru;; <- name;;*);
+    ["Террариум"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Чижовка, Ташкентская улица, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 765-29-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 13:00–21:00; вт-вс 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.850353,27.636353"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://minskzoo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

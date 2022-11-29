@@ -1,0 +1,26 @@
+ concept_cafe_146684472230
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["МС Doner"]
+	(* <- lang_ru;; <- name;;*);
+    ["МС Doner"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Казимировка, Минское шоссе, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 244-22-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.935549,30.258068"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.mcdoner.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

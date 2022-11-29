@@ -1,0 +1,26 @@
+ concept_college_1080582461
+ <- concept_college;
+=>nrel_main_idtf:
+	["Лицей межгосударственного образовательного учреждения высшего образования, Белорусско-Российский университет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лицей межгосударственного образовательного учреждения высшего образования, Белорусско-Российский университет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Ленинская улица, 61"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 262-75-71"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:30–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904361,30.34308"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.licey.bru.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_supermarket_88662284522
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Продукты"]
+	(* <- lang_ru;; <- name;;*);
+    ["Продукты"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Залинейный, улица Циолковского, 89"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 253-13-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.429327,30.974163"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

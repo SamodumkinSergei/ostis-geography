@@ -1,0 +1,26 @@
+ concept_museum_28653391000
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Новы корпус музея"]
+	(* <- lang_ru;; <- name;;*);
+    ["Новы корпус музея"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Карла Маркса, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.898772,27.559729"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.sb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

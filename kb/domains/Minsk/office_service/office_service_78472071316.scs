@@ -1,0 +1,26 @@
+ concept_office_service_78472071316
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Склад Комфорт статус"]
+	(* <- lang_ru;; <- name;;*);
+    ["Склад Комфорт статус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский район, микрорайон Степянка"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 506-57-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909512,27.681638"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mebio.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

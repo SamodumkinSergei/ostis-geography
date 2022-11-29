@@ -1,0 +1,26 @@
+ concept_fallback_services_117443883450
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Электромонтажные работы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Электромонтажные работы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 141"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 145-10-71"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.465807,30.984619"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

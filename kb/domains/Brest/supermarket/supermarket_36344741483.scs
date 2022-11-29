@@ -1,0 +1,26 @@
+ concept_supermarket_36344741483
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Рынок"]
+	(* <- lang_ru;; <- name;;*);
+    ["Рынок"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Сябровская улица, 61Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.065876,23.72639"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

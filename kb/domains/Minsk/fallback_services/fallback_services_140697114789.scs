@@ -1,0 +1,26 @@
+ concept_fallback_services_140697114789
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Обелиск"]
+	(* <- lang_ru;; <- name;;*);
+    ["Обелиск"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурганова, 7А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 664-10-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.918206,27.602094"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://obelisk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

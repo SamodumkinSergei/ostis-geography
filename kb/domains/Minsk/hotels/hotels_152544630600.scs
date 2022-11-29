@@ -1,0 +1,26 @@
+ concept_hotels_152544630600
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Комнаты ЦНА"]
+	(* <- lang_ru;; <- name;;*);
+    ["Комнаты ЦНА"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Советский район, микрорайон Цна, Папернянский переулок, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 773-77-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.96981,27.570303"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

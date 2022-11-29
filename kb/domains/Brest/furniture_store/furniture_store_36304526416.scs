@@ -1,0 +1,26 @@
+ concept_furniture_store_36304526416
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["СеСлав-сервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["СеСлав-сервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Карьерная улица, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 522-85-24"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–17:00; сб,вс 11:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.063067,23.76011"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://seslav.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

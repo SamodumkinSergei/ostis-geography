@@ -1,0 +1,26 @@
+ concept_fallback_services_1231435392
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Спатканне"]
+	(* <- lang_ru;; <- name;;*);
+    ["Спатканне"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Челюскинцев, 62"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 273-58-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.893901,30.308263"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

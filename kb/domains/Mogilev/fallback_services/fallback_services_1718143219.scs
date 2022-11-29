@@ -1,0 +1,26 @@
+ concept_fallback_services_1718143219
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Ритуал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ритуал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Броды, Заречный переулок, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 604-30-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.857608,30.298358"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ritual-v-mogileve.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

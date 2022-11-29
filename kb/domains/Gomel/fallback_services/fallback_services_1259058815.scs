@@ -1,0 +1,26 @@
+ concept_fallback_services_1259058815
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Принт сервис Oprint.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Принт сервис Oprint.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Жарковского, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.429146,31.002015"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_hairdressers_213732003590
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Кьяра"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кьяра"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Черняховского, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 810-73-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.176693,30.201017"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://meconnect.ru/salon_kiara"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

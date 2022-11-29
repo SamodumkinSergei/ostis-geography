@@ -1,0 +1,26 @@
+ concept_museum_1004422658
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Гомельский областной общественно-культурный центр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский областной общественно-культурный центр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ланге, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 250-30-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.42749,31.014765"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomelokc.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

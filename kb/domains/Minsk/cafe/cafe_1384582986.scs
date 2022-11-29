@@ -1,0 +1,26 @@
+ concept_cafe_1384582986
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кафе Белтаможсервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафе Белтаможсервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Могилёвская улица, 45к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 218-97-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.885704,27.558376"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://declarant.by/ru/services/cafe"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

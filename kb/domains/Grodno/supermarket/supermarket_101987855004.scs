@@ -1,0 +1,26 @@
+ concept_supermarket_101987855004
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Мини-рынок Ольшанка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мини-рынок Ольшанка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Великая Ольшанка"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 630-34-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.623936,23.812959"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_37548658390
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Торговый центр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Торговый центр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, квартал Терёхина"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.882393,30.368042"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_office_service_95387999850
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Апартаменты Center Brest"]
+	(* <- lang_ru;; <- name;;*);
+    ["Апартаменты Center Brest"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Беларусь, Брест, Ул. Гоголя, Д. 81"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.093238,23.69455"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

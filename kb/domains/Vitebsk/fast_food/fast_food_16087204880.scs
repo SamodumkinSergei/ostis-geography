@@ -1,0 +1,26 @@
+ concept_fast_food_16087204880
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Шаурма"]
+	(* <- lang_ru;; <- name;;*);
+    ["Шаурма"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 81к33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 669-77-71"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.192312,30.251716"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

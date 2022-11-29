@@ -1,0 +1,26 @@
+ concept_hotels_1098723344
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["У фонтана"]
+	(* <- lang_ru;; <- name;;*);
+    ["У фонтана"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Амураторская улица, 4/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 763-58-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910866,27.529852"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.ufontana.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

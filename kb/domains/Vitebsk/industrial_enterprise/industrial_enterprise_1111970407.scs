@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_1111970407
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Завод СТР"]
+	(* <- lang_ru;; <- name;;*);
+    ["Завод СТР"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Старобабиновичский тракт, 3В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 260-02-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:00, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.160085,30.26113"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.stankoremont.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

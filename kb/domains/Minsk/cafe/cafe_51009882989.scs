@@ -1,0 +1,26 @@
+ concept_cafe_51009882989
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Жанчик"]
+	(* <- lang_ru;; <- name;;*);
+    ["Жанчик"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Червякова, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 179-00-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.923854,27.547607"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

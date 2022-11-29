@@ -1,0 +1,26 @@
+ concept_hypermarket_1231172279
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Офис-Техника"]
+	(* <- lang_ru;; <- name;;*);
+    ["Офис-Техника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Пушкина, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 223-53-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–17:00, перерыв 12:30–13:30; пт 09:00–16:00, перерыв 12:30–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.193356,30.203659"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.officetechnica.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

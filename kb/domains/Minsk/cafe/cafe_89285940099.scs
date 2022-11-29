@@ -1,0 +1,26 @@
+ concept_cafe_89285940099
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Mia Фамiлia"]
+	(* <- lang_ru;; <- name;;*);
+    ["Mia Фамiлia"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Иосифа Жиновича, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 566-65-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–21:00; сб,вс 11:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.920528,27.448019"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

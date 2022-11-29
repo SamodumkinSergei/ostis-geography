@@ -1,0 +1,26 @@
+ concept_banks_20771002929
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Технобанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Технобанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 65"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 388-57-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:30–21:30; сб,вс 09:15–21:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.925763,27.51791"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.tb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

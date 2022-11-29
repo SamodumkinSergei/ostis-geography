@@ -1,0 +1,26 @@
+ concept_college_1157869121
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГУО Средняя школа № 43 г. Могилева"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО Средняя школа № 43 г. Могилева"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Заднепровье-5, Рогачёвская улица, 5А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 224-99-28"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.874064,30.338579"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.school43.mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

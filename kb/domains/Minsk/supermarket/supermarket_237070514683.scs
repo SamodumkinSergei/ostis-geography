@@ -1,0 +1,26 @@
+ concept_supermarket_237070514683
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["У дома"]
+	(* <- lang_ru;; <- name;;*);
+    ["У дома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Московский район, Брилевичи-1, улица Наполеона Орды, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 355-27-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.843207,27.48093"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

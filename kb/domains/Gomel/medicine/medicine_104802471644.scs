@@ -1,0 +1,26 @@
+ concept_medicine_104802471644
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Больница Участковая Улуковская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Больница Участковая Улуковская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельский район, Улуковский сельсовет, деревня Берёзки, Тепличный переулок, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.400547,31.100249"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

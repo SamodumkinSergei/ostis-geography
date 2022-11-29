@@ -1,0 +1,26 @@
+ concept_college_64799739453
+ <- concept_college;
+=>nrel_main_idtf:
+	["Старт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Старт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Глебки, 30А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 244-49-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 06:00–22:00; вс 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911458,27.475075"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://start.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

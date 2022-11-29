@@ -1,0 +1,26 @@
+ concept_restaurants_1791686624
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Pizza on the Road"]
+	(* <- lang_ru;; <- name;;*);
+    ["Pizza on the Road"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Ждановичский сельсовет, деревня Тарасово, Олимпийская улица, 5А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 555-52-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919503,27.378683"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://roadpizza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

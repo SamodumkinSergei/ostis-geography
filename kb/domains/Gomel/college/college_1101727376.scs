@@ -1,0 +1,26 @@
+ concept_college_1101727376
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГУО Базовая школа № 48 г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО Базовая школа № 48 г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Железнодорожный район, район Новая Мильча, улица Стрельца, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 226-16-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.439206,30.914226"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://soch-48.gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_college_90012892777
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа Вейнянская ГУО"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа Вейнянская ГУО"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёвская область, Могилёвский район, Вейнянский сельсовет, Вейно, Школьная улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 220-26-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.827499,30.381732"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://veino.mogilev.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

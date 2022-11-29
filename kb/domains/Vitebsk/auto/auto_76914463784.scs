@@ -1,0 +1,26 @@
+ concept_auto_76914463784
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Витебский"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебский"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Санкт-Петербург, Мебельный проезд, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (812) 309-96-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–21:00; сб,вс 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["59.997219,30.23712"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitebskiy1.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

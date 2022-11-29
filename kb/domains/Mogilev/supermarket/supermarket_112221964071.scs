@@ -1,0 +1,26 @@
+ concept_supermarket_112221964071
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Родны Кут Могилевское РАЙПО"]
+	(* <- lang_ru;; <- name;;*);
+    ["Родны Кут Могилевское РАЙПО"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёвский район, Буйничский сельсовет, Бруски, Западная улица, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.864971,30.213866"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

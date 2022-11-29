@@ -1,0 +1,26 @@
+ concept_auto_177930834752
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автосервис СТО Ремонт автомобилей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автосервис СТО Ремонт автомобилей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Машиностроителей, 9А/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 365-71-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.851493,27.647897"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sto-v-minske.tilda.ws/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

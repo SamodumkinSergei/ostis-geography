@@ -1,0 +1,26 @@
+ concept_supermarket_224545718109
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Казимировский Могилевское РАЙПО"]
+	(* <- lang_ru;; <- name;;*);
+    ["Казимировский Могилевское РАЙПО"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Казимировка, Профсоюзная улица, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 224-50-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.927851,30.257114"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

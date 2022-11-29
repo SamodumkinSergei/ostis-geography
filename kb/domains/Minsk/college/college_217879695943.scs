@@ -1,0 +1,26 @@
+ concept_college_217879695943
+ <- concept_college;
+=>nrel_main_idtf:
+	["Химический факультет БГУ, кафедра электрохимии"]
+	(* <- lang_ru;; <- name;;*);
+    ["Химический факультет БГУ, кафедра электрохимии"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинградская улица, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 209-53-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 13:00–13:45; пт 08:30–17:00, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.893677,27.549705"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://chemistry.bsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

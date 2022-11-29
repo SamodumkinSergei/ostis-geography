@@ -1,0 +1,26 @@
+ concept_cafe_164532554382
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Coffee wanted"]
+	(* <- lang_ru;; <- name;;*);
+    ["Coffee wanted"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Кальварийская улица, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 136-07-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906133,27.527931"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.coffee-wanted.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

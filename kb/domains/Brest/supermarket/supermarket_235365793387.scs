@@ -1,0 +1,26 @@
+ concept_supermarket_235365793387
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Магазин № 6"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин № 6"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Клейниковская улица, 121"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 911-11-97"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.123561,23.574156"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://declarant.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

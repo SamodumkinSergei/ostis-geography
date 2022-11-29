@@ -1,0 +1,26 @@
+ concept_college_1080248104
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГУО Средняя школа № 14 имени Е. М. Фомина"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО Средняя школа № 14 имени Е. М. Фомина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Рябиновая улица, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 259-13-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.067802,23.72886"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://14brest.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_college_139339771121
+ <- concept_college;
+=>nrel_main_idtf:
+	["БНТУ, факультет транспортных коммуникаций, кафедра Мосты и тоннели"]
+	(* <- lang_ru;; <- name;;*);
+    ["БНТУ, факультет транспортных коммуникаций, кафедра Мосты и тоннели"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 146А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 265-96-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:15–17:30, перерыв 13:00–15:00; пт 08:15–16:00, перерыв 13:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.93645,27.666283"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bntu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

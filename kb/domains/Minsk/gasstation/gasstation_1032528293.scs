@@ -1,0 +1,26 @@
+ concept_gasstation_1032528293
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Лукойл"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лукойл"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Орловская улица, 38"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 334-83-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.933077,27.555166"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://lukoil.by/ru/ForMotorists/PetrolStation?id=6021&type=gasStation"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_baby_shop_91068887998
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Фантазёры Бел"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фантазёры Бел"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лазо, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 140-25-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.870629,27.660518"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_medicine_1097993774
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Участковая больница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Участковая больница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебская область, Витебский район, Бабиничский сельсовет, агрогородок Бабиничи, Юбилейная улица, 1Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 233-21-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.26367,30.358385"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_33403483523
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Проспект Рокоссовского"]
+	(* <- lang_ru;; <- name;;*);
+    ["Проспект Рокоссовского"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, проспект Рокоссовского"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.87524,27.596675"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

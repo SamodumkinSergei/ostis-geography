@@ -1,0 +1,26 @@
+ concept_car_park_188489448551
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Парковка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парковка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Янки Брыля, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 338-16-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.872529,27.477386"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

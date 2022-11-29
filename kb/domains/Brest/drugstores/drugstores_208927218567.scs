@@ -1,0 +1,26 @@
+ concept_drugstores_208927218567
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Витафарм"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витафарм"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Республики, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 228-13-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–22:00; вс 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.097186,23.763299"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://tabletka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

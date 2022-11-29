@@ -1,0 +1,26 @@
+ concept_college_109004508692
+ <- concept_college;
+=>nrel_main_idtf:
+	["StudyPoland"]
+	(* <- lang_ru;; <- name;;*);
+    ["StudyPoland"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Некрасова, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 728-79-96"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.930538,27.595115"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://studypoland.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_railway_station_5043679711
+ <- concept_railway_station;
+=>nrel_main_idtf:
+	["Минск-Восточный"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минск-Восточный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Смоленская улица, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 225-64-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 04:30–01:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.891046,27.585955"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

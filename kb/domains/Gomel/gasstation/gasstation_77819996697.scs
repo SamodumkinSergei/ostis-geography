@@ -1,0 +1,26 @@
+ concept_gasstation_77819996697
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Гомельоблнефтепродукт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельоблнефтепродукт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Лазурная улица, 11А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 322-50-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.410641,30.913869"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://azs.belorusneft.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

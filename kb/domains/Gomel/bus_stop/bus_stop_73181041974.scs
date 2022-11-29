@@ -1,0 +1,26 @@
+ concept_bus_stop_73181041974
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Мельников луг"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мельников луг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Хатаевича"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.444042,31.018482"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

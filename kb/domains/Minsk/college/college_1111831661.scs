@@ -1,0 +1,26 @@
+ concept_college_1111831661
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минский колледж предпринимательства"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский колледж предпринимательства"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Уручская улица, 21В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 633-44-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.955075,27.692589"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.mcb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

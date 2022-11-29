@@ -1,0 +1,26 @@
+ concept_medicine_183303773981
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гомельская городская клиническая больница № 3, гастроэнтерологическое отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельская городская клиническая больница № 3, гастроэнтерологическое отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 286"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 253-50-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.355902,31.034742"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.ggkb3.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

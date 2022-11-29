@@ -1,0 +1,26 @@
+ concept_gasstation_80372025300
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Белоруснефть"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белоруснефть"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Димитрова, 60"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 260-41-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873111,30.372324"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://azs.belorusneft.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

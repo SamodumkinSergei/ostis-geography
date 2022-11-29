@@ -1,0 +1,26 @@
+ concept_clothes_shop_1161887828
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Одежда из Европы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Одежда из Европы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Захарова, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 271-85-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–19:00; вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.676503,23.845036"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://secondgrodno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

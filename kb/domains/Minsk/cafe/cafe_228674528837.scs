@@ -1,0 +1,26 @@
+ concept_cafe_228674528837
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Varka Coffee"]
+	(* <- lang_ru;; <- name;;*);
+    ["Varka Coffee"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Яна Чечота, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 176-63-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–22:00; сб,вс 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.849726,27.478337"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

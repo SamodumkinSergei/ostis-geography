@@ -1,0 +1,26 @@
+ concept_tailor_232038043196
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Ремонт обуви"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт обуви"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Писателя Смирнова, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 694-11-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–17:55; сб 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.100223,23.649857"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

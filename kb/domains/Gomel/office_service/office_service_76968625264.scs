@@ -1,0 +1,26 @@
+ concept_office_service_76968625264
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Kitan-market.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Kitan-market.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 133В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 255-55-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.46544,30.986251"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kitan.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_tailor_1232424749
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Мастерская по ремонту обуви"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мастерская по ремонту обуви"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Машерова, 17А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 797-79-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 09:00–18:00, перерыв 14:00–15:00; сб 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.085175,23.695498"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

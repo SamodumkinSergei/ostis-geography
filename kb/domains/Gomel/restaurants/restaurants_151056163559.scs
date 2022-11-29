@@ -1,0 +1,26 @@
+ concept_restaurants_151056163559
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Васильки"]
+	(* <- lang_ru;; <- name;;*);
+    ["Васильки"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Победы, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 557-04-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.431991,30.994251"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vasilki.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

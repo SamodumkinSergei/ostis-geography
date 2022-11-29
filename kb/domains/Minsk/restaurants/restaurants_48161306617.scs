@@ -1,0 +1,26 @@
+ concept_restaurants_48161306617
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Ginger"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ginger"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 62к3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 635-44-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–06:00; сб,вс 18:00–06:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908943,27.45582"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_supermarket_148698716527
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Евроопт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Евроопт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Волгоградская улица, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.935748,27.61654"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://evroopt.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

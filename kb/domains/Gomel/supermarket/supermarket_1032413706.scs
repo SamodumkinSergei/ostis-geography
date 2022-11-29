@@ -1,0 +1,26 @@
+ concept_supermarket_1032413706
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Черниговский"]
+	(* <- lang_ru;; <- name;;*);
+    ["Черниговский"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 301"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 229-51-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.358169,31.029094"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.ntkalesya.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_office_service_1125564757
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Телерадиокомпания Могилёв"]
+	(* <- lang_ru;; <- name;;*);
+    ["Телерадиокомпания Могилёв"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 83"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 231-00-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:30, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.91552,30.342159"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_124963730954
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["GranitExpo"]
+	(* <- lang_ru;; <- name;;*);
+    ["GranitExpo"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Адамковская улица, 46"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 662-29-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–19:00; сб 11:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.101343,23.655261"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://granitehouse.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

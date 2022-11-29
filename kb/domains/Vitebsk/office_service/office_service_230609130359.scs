@@ -1,0 +1,26 @@
+ concept_office_service_230609130359
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Склад Black Red White"]
+	(* <- lang_ru;; <- name;;*);
+    ["Склад Black Red White"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Лазо, 117"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.20078,30.262373"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brw-shop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_kindergarten_1080387840
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 364"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 364"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Глебки, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 248-33-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912639,27.475711"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu364.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_restaurants_174690084780
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Пит Stop"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пит Stop"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 210"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 225-94-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.097233,23.745852"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://korona.by/pit-stop/brest"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

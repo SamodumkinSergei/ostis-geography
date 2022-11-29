@@ -1,0 +1,26 @@
+ concept_drugstores_102181602598
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["InLek"]
+	(* <- lang_ru;; <- name;;*);
+    ["InLek"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Городецкая улица, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 357-87-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.947616,27.678406"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.inlek.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

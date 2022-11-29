@@ -1,0 +1,26 @@
+ concept_bus_stop_6160805546
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Белорусская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Белорусская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.115572,23.668466"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

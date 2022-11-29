@@ -1,0 +1,26 @@
+ concept_supermarket_1358125961
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Красный пищевик"]
+	(* <- lang_ru;; <- name;;*);
+    ["Красный пищевик"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Крыленко, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 223-04-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб,вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906994,30.337553"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.zefir.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

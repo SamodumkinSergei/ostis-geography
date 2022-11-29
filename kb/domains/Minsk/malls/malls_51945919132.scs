@@ -1,0 +1,26 @@
+ concept_malls_51945919132
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Vishivanka"]
+	(* <- lang_ru;; <- name;;*);
+    ["Vishivanka"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Немига, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 553-93-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 12:00–20:00; сб,вс 11:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903792,27.552425"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vishivanka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

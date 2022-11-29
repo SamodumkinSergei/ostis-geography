@@ -1,0 +1,26 @@
+ concept_hypermarket_1387844605
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Metro"]
+	(* <- lang_ru;; <- name;;*);
+    ["Metro"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Нур-Султан (Астана), трасса Астана - Караганда, 4/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["8 (800) 080-02-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["51.131288,71.545209"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.metro.com.kz/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

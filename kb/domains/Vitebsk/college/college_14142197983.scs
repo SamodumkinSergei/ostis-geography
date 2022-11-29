@@ -1,0 +1,26 @@
+ concept_college_14142197983
+ <- concept_college;
+=>nrel_main_idtf:
+	["Витебский государственный индустриальный колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебский государственный индустриальный колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 267-20-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.186238,30.204188"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vgik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

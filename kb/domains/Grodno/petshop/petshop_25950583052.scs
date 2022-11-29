@@ -1,0 +1,26 @@
+ concept_petshop_25950583052
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Зообазар"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зообазар"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Победы, 47"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 560-26-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.650737,23.832505"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://zoobazar.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

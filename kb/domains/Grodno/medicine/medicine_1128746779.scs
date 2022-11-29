@@ -1,0 +1,26 @@
+ concept_medicine_1128746779
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Больница скорой медицинской помощи"]
+	(* <- lang_ru;; <- name;;*);
+    ["Больница скорой медицинской помощи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Советских Пограничников, 115"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 268-19-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.673481,23.797582"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ssmpgrodno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

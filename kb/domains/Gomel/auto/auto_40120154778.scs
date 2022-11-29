@@ -1,0 +1,26 @@
+ concept_auto_40120154778
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Станция технического обслуживания"]
+	(* <- lang_ru;; <- name;;*);
+    ["Станция технического обслуживания"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Киселёва, 1/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.426876,30.992498"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

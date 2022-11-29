@@ -1,0 +1,26 @@
+ concept_fallback_services_2338064634
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Pamyatniki-mir"]
+	(* <- lang_ru;; <- name;;*);
+    ["Pamyatniki-mir"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Основателей, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 696-46-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 11:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.945549,27.735971"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pamyatniki-mir.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

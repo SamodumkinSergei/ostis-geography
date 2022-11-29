@@ -1,0 +1,26 @@
+ concept_cafe_144099126547
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Ла-ла ланч"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ла-ла ланч"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Пушкинская улица, 39"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 797-97-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–19:00; пт-вс 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.096537,23.692865"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

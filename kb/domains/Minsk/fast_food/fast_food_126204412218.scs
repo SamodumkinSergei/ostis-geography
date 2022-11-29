@@ -1,0 +1,26 @@
+ concept_fast_food_126204412218
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["АлиБаБа"]
+	(* <- lang_ru;; <- name;;*);
+    ["АлиБаБа"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кульман, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 680-80-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–00:00; сб,вс круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.921409,27.579502"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_petshop_67916489240
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Зоомагазин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зоомагазин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Казимировка, Минское шоссе, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 09:00–18:00; сб,вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.931467,30.259382"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

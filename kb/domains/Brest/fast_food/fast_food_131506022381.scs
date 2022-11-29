@@ -1,0 +1,26 @@
+ concept_fast_food_131506022381
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Yozep Grill"]
+	(* <- lang_ru;; <- name;;*);
+    ["Yozep Grill"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, микрорайон Восток-2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 641-81-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.101144,23.763644"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

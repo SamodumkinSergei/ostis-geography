@@ -1,0 +1,26 @@
+ concept_car_park_14803399634
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автомобильная парковка Транстэк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автомобильная парковка Транстэк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Чапаева, 5к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903424,27.590146"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_1055768121
+ <- concept_college;
+=>nrel_main_idtf:
+	["Государственное учреждение образования Средняя школа № 152 г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Государственное учреждение образования Средняя школа № 152 г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, 2-й Велосипедный переулок, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 367-85-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.869947,27.591933"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch152.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_86713013889
+ <- concept_college;
+=>nrel_main_idtf:
+	["БГМУ, Кафедра эпидемиологии"]
+	(* <- lang_ru;; <- name;;*);
+    ["БГМУ, Кафедра эпидемиологии"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, переулок Асаналиева, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 365-94-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.838142,27.539793"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsmu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

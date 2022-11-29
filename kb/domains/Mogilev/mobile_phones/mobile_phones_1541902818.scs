@@ -1,0 +1,26 @@
+ concept_mobile_phones_1541902818
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Ок компьютер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ок компьютер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Лазаренко, 47"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 116-55-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00, перерыв 13:00–14:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905636,30.317214"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.ok-mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_tailor_1153217235
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Ремонт обуви"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт обуви"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Ленинградская улица, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 716-84-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 09:00–18:00; сб,вс 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.200596,30.180062"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

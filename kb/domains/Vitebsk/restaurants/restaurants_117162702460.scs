@@ -1,0 +1,26 @@
+ concept_restaurants_117162702460
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["У Ганны"]
+	(* <- lang_ru;; <- name;;*);
+    ["У Ганны"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 99"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 267-11-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 12:00–15:00; вт-чт 12:00–22:00; пт,сб 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.172938,30.263591"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ganna.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

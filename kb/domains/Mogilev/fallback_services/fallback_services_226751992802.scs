@@ -1,0 +1,26 @@
+ concept_fallback_services_226751992802
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Благовест Мемориал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Благовест Мемориал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Космонавтов, 57А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 278-38-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб,вс 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.893952,30.295415"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://благовест-мемориал.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

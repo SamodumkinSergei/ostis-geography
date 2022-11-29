@@ -1,0 +1,26 @@
+ concept_railway_terminal_122451803706
+ <- concept_railway_terminal;
+=>nrel_main_idtf:
+	["Железнодорожный вокзал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Железнодорожный вокзал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Октябрьский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.806944,27.580748"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

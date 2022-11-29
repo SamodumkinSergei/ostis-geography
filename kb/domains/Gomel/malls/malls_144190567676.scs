@@ -1,0 +1,26 @@
+ concept_malls_144190567676
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Mav, офис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Mav, офис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Прудок, 1-й переулок Крупской, 4Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 616-53-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:45, перерыв 12:00–12:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.466407,31.001941"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.mav.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

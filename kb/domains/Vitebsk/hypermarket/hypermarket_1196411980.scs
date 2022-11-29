@@ -1,0 +1,26 @@
+ concept_hypermarket_1196411980
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Бобруйский бровар"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бобруйский бровар"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Максима Горького, 43Ак10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 261-13-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.178398,30.175056"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://bbrovar.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

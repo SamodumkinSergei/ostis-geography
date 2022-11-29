@@ -1,0 +1,26 @@
+ concept_spa_218832655032
+ <- concept_spa;
+=>nrel_main_idtf:
+	["Белита-Витэкс-Могилев, офис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белита-Витэкс-Могилев, офис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Заднепровье-4, улица Чайковского, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 241-00-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878753,30.332739"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bv-mog.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

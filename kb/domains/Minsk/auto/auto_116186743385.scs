@@ -1,0 +1,26 @@
+ concept_auto_116186743385
+ <- concept_auto;
+=>nrel_main_idtf:
+	["GMGService"]
+	(* <- lang_ru;; <- name;;*);
+    ["GMGService"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, переулок Стебенёва, 5/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 647-91-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.838037,27.552864"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gmgservice.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

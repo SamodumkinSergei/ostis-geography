@@ -1,0 +1,26 @@
+ concept_car_park_205540693672
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Трак Стоп"]
+	(* <- lang_ru;; <- name;;*);
+    ["Трак Стоп"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, микрорайон Билево, Минская улица, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 333-63-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.180203,30.26868"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

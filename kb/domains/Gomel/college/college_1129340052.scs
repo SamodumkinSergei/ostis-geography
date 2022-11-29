@@ -1,0 +1,26 @@
+ concept_college_1129340052
+ <- concept_college;
+=>nrel_main_idtf:
+	["Брилёвская средняя школа"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брилёвская средняя школа"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельский район, Красненский сельсовет, агрогородок Мичуринская, улица Мира, 32А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 291-14-96"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.474744,30.966483"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.scbril.gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

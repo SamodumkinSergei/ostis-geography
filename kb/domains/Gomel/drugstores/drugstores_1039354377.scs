@@ -1,0 +1,26 @@
+ concept_drugstores_1039354377
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 162/2, Гомельское УП Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 162/2, Гомельское УП Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Привокзальная площадь, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 250-75-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:30–20:30, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.430939,30.991363"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomelpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

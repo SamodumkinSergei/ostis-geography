@@ -1,0 +1,26 @@
+ concept_restaurants_93889930225
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Хинкальня"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хинкальня"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Раковская улица, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 767-47-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905451,27.544934"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://taplink.cc/hinkalnyaminsk"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

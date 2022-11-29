@@ -1,0 +1,26 @@
+ concept_fallback_services_122677428323
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Деды"]
+	(* <- lang_ru;; <- name;;*);
+    ["Деды"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Белорусская улица, 6А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 349-76-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.196486,30.19019"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pomniki.org/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

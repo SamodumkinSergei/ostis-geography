@@ -1,0 +1,26 @@
+ concept_bus_stop_192920084305
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Яблоневый сад"]
+	(* <- lang_ru;; <- name;;*);
+    ["Яблоневый сад"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Рафиева"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.866761,27.455829"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

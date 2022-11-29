@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_1137865543
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Шарм-арт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Шарм-арт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Победы, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 699-66-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.664238,23.829886"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sharm-art.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

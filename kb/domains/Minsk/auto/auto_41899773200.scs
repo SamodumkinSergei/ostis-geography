@@ -1,0 +1,26 @@
+ concept_auto_41899773200
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Сервис Автогарант"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сервис Автогарант"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Красная улица, 7, корп. 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 192-13-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.914149,27.571434"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://avtogarantsto.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

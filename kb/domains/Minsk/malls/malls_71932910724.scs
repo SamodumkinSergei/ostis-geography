@@ -1,0 +1,26 @@
+ concept_malls_71932910724
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Планета Подарков"]
+	(* <- lang_ru;; <- name;;*);
+    ["Планета Подарков"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Мстиславца, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 339-87-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.933604,27.652525"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://planeta-podarkov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

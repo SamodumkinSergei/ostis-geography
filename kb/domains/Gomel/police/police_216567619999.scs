@@ -1,0 +1,26 @@
+ concept_police_216567619999
+ <- concept_police;
+=>nrel_main_idtf:
+	["Советский отдел департамента охраны МВД Республики Беларусь, г. Гомель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Советский отдел департамента охраны МВД Республики Беларусь, г. Гомель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Залинейный, улица Котовского, 85"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 223-46-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.427731,30.976895"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ohrana.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

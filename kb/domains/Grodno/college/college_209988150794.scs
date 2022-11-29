@@ -1,0 +1,26 @@
+ concept_college_209988150794
+ <- concept_college;
+=>nrel_main_idtf:
+	["Ггау, факультет бухгалтерского учёта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ггау, факультет бухгалтерского учёта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Терешковой, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 271-91-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:30, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.695916,23.842588"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.ggau.by/fbu"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

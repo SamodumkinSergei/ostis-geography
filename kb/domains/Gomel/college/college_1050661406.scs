@@ -1,0 +1,26 @@
+ concept_college_1050661406
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа Торфозаводская ГУО"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа Торфозаводская ГУО"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельский район, рабочий посёлок Большевик, Советская улица, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 294-80-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.56083,30.88547"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

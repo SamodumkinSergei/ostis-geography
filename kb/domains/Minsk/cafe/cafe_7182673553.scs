@@ -1,0 +1,26 @@
+ concept_cafe_7182673553
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Bruschetta"]
+	(* <- lang_ru;; <- name;;*);
+    ["Bruschetta"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Веры Хоружей, 34А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 774-28-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–22:00; пт 10:00–23:00; вс 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.922974,27.560068"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bruschetta.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

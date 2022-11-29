@@ -1,0 +1,26 @@
+ concept_malls_1110249783
+ <- concept_malls;
+=>nrel_main_idtf:
+	["ОАО Гомельский химический завод"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОАО Гомельский химический завод"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Химзаводская улица, 5/16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 223-12-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 07:30–18:00; пт 07:30–16:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.434016,30.86717"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.belfert.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

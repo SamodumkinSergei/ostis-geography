@@ -1,0 +1,26 @@
+ concept_clothes_shop_127172102229
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Мода Макс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мода Макс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 72"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 233-24-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.441284,31.002541"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://modamax.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

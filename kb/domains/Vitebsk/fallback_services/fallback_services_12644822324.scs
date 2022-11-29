@@ -1,0 +1,26 @@
+ concept_fallback_services_12644822324
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Памятники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 76"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 694-64-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 08:00–17:00, перерыв 13:00–14:00; сб 09:00–15:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.204571,30.207591"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

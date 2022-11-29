@@ -1,0 +1,26 @@
+ concept_fallback_services_207671481290
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Памятники и ритуальные услуги ХимельТорг"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятники и ритуальные услуги ХимельТорг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Речицкий проспект, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 692-77-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 09:00–18:00, перерыв 12:00–13:00; сб 09:00–16:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.417145,30.963349"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://химельторг.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

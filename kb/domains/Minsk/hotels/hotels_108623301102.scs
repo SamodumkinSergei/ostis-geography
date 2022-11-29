@@ -1,0 +1,26 @@
+ concept_hotels_108623301102
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Агроусадьба Ельница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Агроусадьба Ельница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Новодворский сельсовет, Ельница, улица Китаева, 85"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 625-01-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.822311,27.71754"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.elnica.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

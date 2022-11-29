@@ -1,0 +1,26 @@
+ concept_medicine_112266934447
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["3-я городская клиническая больница, Терапевтический корпус № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["3-я городская клиническая больница, Терапевтический корпус № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ленина, 30/3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 327-31-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.896375,27.563238"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://3gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

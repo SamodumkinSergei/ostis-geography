@@ -1,0 +1,26 @@
+ concept_post_office_203828988606
+ <- concept_post_office;
+=>nrel_main_idtf:
+	["Европочта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Европочта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 535-36-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907701,27.484585"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://evropochta.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

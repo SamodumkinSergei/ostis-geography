@@ -1,0 +1,26 @@
+ concept_police_1017712366
+ <- concept_police;
+=>nrel_main_idtf:
+	["Отдел ГАИ УВД Администрации Московского района г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отдел ГАИ УВД Администрации Московского района г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Янки Брыля, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 372-79-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 10:00–15:00; сб 09:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.877584,27.481721"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://minsk.mvd.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

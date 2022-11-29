@@ -1,0 +1,26 @@
+ concept_spa_151818792331
+ <- concept_spa;
+=>nrel_main_idtf:
+	["Maison de Catherine"]
+	(* <- lang_ru;; <- name;;*);
+    ["Maison de Catherine"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Комсомольская улица, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 123-50-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.900316,27.55442"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://maison.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

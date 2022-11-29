@@ -1,0 +1,26 @@
+ concept_auto_1224026292
+ <- concept_auto;
+=>nrel_main_idtf:
+	["УСМаркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["УСМаркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Глаголева, 39"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 192-09-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.886476,27.492619"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://usm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

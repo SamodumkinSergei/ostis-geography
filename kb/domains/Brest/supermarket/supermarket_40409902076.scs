@@ -1,0 +1,26 @@
+ concept_supermarket_40409902076
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Родны кут"]
+	(* <- lang_ru;; <- name;;*);
+    ["Родны кут"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Солнечная улица, 82А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 09:30–18:00; вс 09:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.109485,23.647932"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rodnykut.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

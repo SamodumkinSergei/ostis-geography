@@ -1,0 +1,26 @@
+ concept_bus_station_88216303239
+ <- concept_bus_station;
+=>nrel_main_idtf:
+	["Аэродромная"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аэродромная"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Лейтенанта Рябцева"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.112451,23.668432"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

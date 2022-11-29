@@ -1,0 +1,26 @@
+ concept_malls_218827834186
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Офис поинт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Офис поинт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Рогачёвская улица, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 799-93-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.437925,31.003448"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

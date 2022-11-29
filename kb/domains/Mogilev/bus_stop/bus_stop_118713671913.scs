@@ -1,0 +1,26 @@
+ concept_bus_stop_118713671913
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Завод Могилёвтрансмаш"]
+	(* <- lang_ru;; <- name;;*);
+    ["Завод Могилёвтрансмаш"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Крупской"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.969253,30.344018"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

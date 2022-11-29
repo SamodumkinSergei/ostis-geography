@@ -1,0 +1,26 @@
+ concept_car_park_102829004065
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автостоянка РЭХА"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостоянка РЭХА"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ванеева, 42А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 649-57-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.875214,27.58625"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://samo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

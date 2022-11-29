@@ -1,0 +1,26 @@
+ concept_kindergarten_1121539095
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Детский сад № 57 для детей с нарушениями речи"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский сад № 57 для детей с нарушениями речи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Румянцева, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 284-85-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 07:30–16:30; вт 09:00–18:00; ср 11:00–20:00; чт 09:00–18:00; пт 07:30–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906557,27.574441"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu57.minsk.edu.by/ru/main.aspx?guid=1241"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

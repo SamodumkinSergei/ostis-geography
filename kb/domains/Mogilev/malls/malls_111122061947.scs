@@ -1,0 +1,26 @@
+ concept_malls_111122061947
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Вариант"]
+	(* <- lang_ru;; <- name;;*);
+    ["Вариант"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, переулок Буянова, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 152-99-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903092,30.34427"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://eco-ceiling.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

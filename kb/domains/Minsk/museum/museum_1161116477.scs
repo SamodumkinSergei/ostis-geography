@@ -1,0 +1,26 @@
+ concept_museum_1161116477
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Корпоративный музей Аливария"]
+	(* <- lang_ru;; <- name;;*);
+    ["Корпоративный музей Аливария"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Киселёва, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 500-17-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.91517,27.561983"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://alivariamuseum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

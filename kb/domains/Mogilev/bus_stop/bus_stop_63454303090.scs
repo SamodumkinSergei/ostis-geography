@@ -1,0 +1,26 @@
+ concept_bus_stop_63454303090
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Торговый центр Парк Сити"]
+	(* <- lang_ru;; <- name;;*);
+    ["Торговый центр Парк Сити"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Казимировка, Минское шоссе"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.934429,30.255295"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

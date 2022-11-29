@@ -1,0 +1,26 @@
+ concept_police_1023122530
+ <- concept_police;
+=>nrel_main_idtf:
+	["Отдел внутренних дел администрации Железнодорожного района"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отдел внутренних дел администрации Железнодорожного района"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Димитрова, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 267-86-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.195415,30.192291"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitebsk.mvd.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

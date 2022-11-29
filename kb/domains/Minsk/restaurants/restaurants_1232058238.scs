@@ -1,0 +1,26 @@
+ concept_restaurants_1232058238
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Маргарита"]
+	(* <- lang_ru;; <- name;;*);
+    ["Маргарита"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Молочный переулок, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 398-59-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.889143,27.538962"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

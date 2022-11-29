@@ -1,0 +1,26 @@
+ concept_catholic_church_1127641033
+ <- concept_catholic_church;
+=>nrel_main_idtf:
+	["Костёл Пресвятой Девы Марии Милосердия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Костёл Пресвятой Девы Марии Милосердия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Репина, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 253-05-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб,вс 07:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.662304,23.793025"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://msj.by/katolicheskie-xramy/kostel-na-repina-v-grodno/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_cafe_233684720029
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Сова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Мазуринская улица, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 623-55-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 12:00–00:00; сб,вс 10:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.209195,30.173227"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_kindergarten_1035083003
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 84"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 84"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Лошица, улица Прушинских, 50"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 378-75-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.837131,27.578235"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu84.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

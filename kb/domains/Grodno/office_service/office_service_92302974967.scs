@@ -1,0 +1,26 @@
+ concept_office_service_92302974967
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Белгосстрах"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белгосстрах"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродненская область, Лида, улица Радюка, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 558-83-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:00, перерыв 12:40–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.881286,25.299679"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://grodno.bgs.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

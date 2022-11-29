@@ -1,0 +1,26 @@
+ concept_college_136357009549
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГРГУ им Я. Купалы Факультет математики и информатики"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГРГУ им Я. Купалы Факультет математики и информатики"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Ожешко, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 273-19-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:20–19:30, перерыв 13:40–14:10; сб 08:30–17:00, перерыв 13:40–14:10"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.684819,23.840227"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mf.grsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

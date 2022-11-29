@@ -1,0 +1,26 @@
+ concept_baby_shop_217625368915
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Магазин игрушек"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин игрушек"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Калиновского, 66А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 570-44-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.938981,27.650693"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://hobby-centr.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

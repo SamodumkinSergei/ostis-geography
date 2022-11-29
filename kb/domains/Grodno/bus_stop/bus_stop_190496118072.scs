@@ -1,0 +1,26 @@
+ concept_bus_stop_190496118072
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Белые Росы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Белые Росы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Дзержинского"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.715477,23.83961"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

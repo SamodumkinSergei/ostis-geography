@@ -1,0 +1,26 @@
+ concept_supermarket_81470061902
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Колобок"]
+	(* <- lang_ru;; <- name;;*);
+    ["Колобок"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, бульвар Непокорённых, 35А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.871867,30.329395"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

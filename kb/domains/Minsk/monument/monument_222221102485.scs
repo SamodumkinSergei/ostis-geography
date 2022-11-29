@@ -1,0 +1,26 @@
+ concept_monument_222221102485
+ <- concept_monument;
+=>nrel_main_idtf:
+	["Памятник А. С. Пушкину"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятник А. С. Пушкину"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, сквер Старостинская Слобода"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.913456,27.5507"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

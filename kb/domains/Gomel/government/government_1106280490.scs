@@ -1,0 +1,26 @@
+ concept_government_1106280490
+ <- concept_government;
+=>nrel_main_idtf:
+	["Управление спорта и туризма Гомельского облисполкома"]
+	(* <- lang_ru;; <- name;;*);
+    ["Управление спорта и туризма Гомельского облисполкома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 275-64-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.430387,31.011055"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sportgomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

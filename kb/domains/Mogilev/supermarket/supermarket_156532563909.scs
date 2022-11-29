@@ -1,0 +1,26 @@
+ concept_supermarket_156532563909
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Семейка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Семейка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Алтайская улица, 2К"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 270-68-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.867474,30.304279"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_fast_food_73186809987
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Bonjour"]
+	(* <- lang_ru;; <- name;;*);
+    ["Bonjour"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, 2-й Крутой переулок"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901801,30.333086"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

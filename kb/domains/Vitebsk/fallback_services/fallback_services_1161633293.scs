@@ -1,0 +1,26 @@
+ concept_fallback_services_1161633293
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Faberlic"]
+	(* <- lang_ru;; <- name;;*);
+    ["Faberlic"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 31А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 518-42-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 11:00–18:30, перерыв 14:00–15:00; ср 12:00–19:00, перерыв 14:00–15:00; чт 11:00–18:30, перерыв 14:00–15:00; пт 12:00–18:30, перерыв 14:00–15:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.178445,30.223365"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://v-faberlic.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

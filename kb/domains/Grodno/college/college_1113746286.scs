@@ -1,0 +1,26 @@
+ concept_college_1113746286
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гродненский государственный политехнический колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненский государственный политехнический колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Советских Пограничников, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 239-36-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:30, перерыв 13:30–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.667314,23.827909"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ggpk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

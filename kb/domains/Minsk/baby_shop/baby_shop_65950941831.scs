@@ -1,0 +1,26 @@
+ concept_baby_shop_65950941831
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Книги, игрушки"]
+	(* <- lang_ru;; <- name;;*);
+    ["Книги, игрушки"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Бурдейного, 6А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–19:00; вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904793,27.455743"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

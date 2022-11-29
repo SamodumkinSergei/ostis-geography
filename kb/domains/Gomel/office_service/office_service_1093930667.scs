@@ -1,0 +1,26 @@
+ concept_office_service_1093930667
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Офистон"]
+	(* <- lang_ru;; <- name;;*);
+    ["Офистон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Крестьянская улица, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 182-03-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30; пт 08:30–16:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.429291,31.014746"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gomel.officeton.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_126335341016
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Брестское епархиальное управление"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестское епархиальное управление"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гоголя, 74"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 243-16-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.093724,23.696718"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pravbrest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_college_143107220399
+ <- concept_college;
+=>nrel_main_idtf:
+	["БГУИР, военный факультет"]
+	(* <- lang_ru;; <- name;;*);
+    ["БГУИР, военный факультет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петруся Бровки, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 293-84-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 13:00–13:45; пт 08:30–16:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916557,27.596484"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsuir.by/ru/vf"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

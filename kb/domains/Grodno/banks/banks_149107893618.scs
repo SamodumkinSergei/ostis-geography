@@ -1,0 +1,26 @@
+ concept_banks_149107893618
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Альфа-Банк, банкомат"]
+	(* <- lang_ru;; <- name;;*);
+    ["Альфа-Банк, банкомат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Ожешко, 6А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 733-33-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.682747,23.833175"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.alfabank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

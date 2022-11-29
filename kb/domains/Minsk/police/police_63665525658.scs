@@ -1,0 +1,26 @@
+ concept_police_63665525658
+ <- concept_police;
+=>nrel_main_idtf:
+	["Инспекция по делам несовершеннолетних Центрального РУВД Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Инспекция по делам несовершеннолетних Центрального РУВД Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Старовиленский тракт, 79"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 288-72-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.931982,27.54229"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://minsk.mvd.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

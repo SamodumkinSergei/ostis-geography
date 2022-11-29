@@ -1,0 +1,26 @@
+ concept_college_1269118692
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 25"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 25"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чкалова, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 267-16-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.174749,30.215393"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch25.pervroo-vitebsk.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

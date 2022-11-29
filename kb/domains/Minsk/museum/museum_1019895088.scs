@@ -1,0 +1,26 @@
+ concept_museum_1019895088
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Белорусский государственный архив-музей литературы и искусства"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусский государственный архив-музей литературы и искусства"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кирилла и Мефодия, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 316-47-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 13:00–13:45; пт 08:30–16:15, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90474,27.556694"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://archives.gov.by/?id=922684"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

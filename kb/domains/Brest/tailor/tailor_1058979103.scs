@@ -1,0 +1,26 @@
+ concept_tailor_1058979103
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Мастерская по ремонту обуви"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мастерская по ремонту обуви"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Советской Конституции, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 727-38-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.099439,23.751028"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

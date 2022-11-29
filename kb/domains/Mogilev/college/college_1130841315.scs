@@ -1,0 +1,26 @@
+ concept_college_1130841315
+ <- concept_college;
+=>nrel_main_idtf:
+	["Могилёвская городская гимназия № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилёвская городская гимназия № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Мовчанского, 47"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 241-20-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.876934,30.372222"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mogilevgymn1.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

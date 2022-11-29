@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_1237573659
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["М8 Сити"]
+	(* <- lang_ru;; <- name;;*);
+    ["М8 Сити"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Кооперативная улица, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 228-05-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.388585,31.038028"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.m8city.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

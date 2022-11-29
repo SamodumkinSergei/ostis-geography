@@ -1,0 +1,26 @@
+ concept_hotels_44545463017
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Славянская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Славянская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Нарочанская улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 359-15-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.933517,27.477181"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://slavyanskaya-minsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

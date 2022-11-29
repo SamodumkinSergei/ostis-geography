@@ -1,0 +1,26 @@
+ concept_hotels_94884730808
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Виктория на Замковой"]
+	(* <- lang_ru;; <- name;;*);
+    ["Виктория на Замковой"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Замковая улица, 27А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 329-04-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906803,27.548706"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://nazamkovoy.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

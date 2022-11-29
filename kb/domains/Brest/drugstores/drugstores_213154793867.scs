@@ -1,0 +1,26 @@
+ concept_drugstores_213154793867
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Планета Здоровья"]
+	(* <- lang_ru;; <- name;;*);
+    ["Планета Здоровья"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Комсомольская улица, 25/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 253-38-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.094467,23.688583"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://healthplanet.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_clothes_shop_19786729735
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Одежда из Европы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Одежда из Европы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Машерова, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.086439,23.697983"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

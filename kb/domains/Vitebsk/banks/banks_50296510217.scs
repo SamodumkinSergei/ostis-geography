@@ -1,0 +1,26 @@
+ concept_banks_50296510217
+ <- concept_banks;
+=>nrel_main_idtf:
+	["БТА банк"]
+	(* <- lang_ru;; <- name;;*);
+    ["БТА банк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Советская улица, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 311-32-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–17:00; пт 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.199377,30.205979"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.btabank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

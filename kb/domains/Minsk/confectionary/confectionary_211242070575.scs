@@ -1,0 +1,26 @@
+ concept_confectionary_211242070575
+ <- concept_confectionary;
+=>nrel_main_idtf:
+	["The Odi"]
+	(* <- lang_ru;; <- name;;*);
+    ["The Odi"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 772-12-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–22:00; пт,сб 09:00–23:00; вс 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897138,27.552626"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://odi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_supermarket_1125419926
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Аркада deLUX"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аркада deLUX"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 233-79-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.431006,31.010641"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://kontaktgomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

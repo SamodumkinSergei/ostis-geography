@@ -1,0 +1,26 @@
+ concept_mobile_phones_1042180187
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["МобилМастер"]
+	(* <- lang_ru;; <- name;;*);
+    ["МобилМастер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Советских Пограничников, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 348-82-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00, перерыв 13:00–14:30; сб 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.668536,23.825387"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.mobilmaster.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

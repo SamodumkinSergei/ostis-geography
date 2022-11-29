@@ -1,0 +1,26 @@
+ concept_cinemas_1135041875
+ <- concept_cinemas;
+=>nrel_main_idtf:
+	["Кинотеатр Беларусь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кинотеатр Беларусь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Советская улица, 62"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 234-18-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:15–22:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.090737,23.69425"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.kinobrest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

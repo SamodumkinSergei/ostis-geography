@@ -1,0 +1,26 @@
+ concept_banks_1387907864
+ <- concept_banks;
+=>nrel_main_idtf:
+	["БСБ банк, обменный пункт"]
+	(* <- lang_ru;; <- name;;*);
+    ["БСБ банк, обменный пункт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Глебки, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 306-20-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–22:00, перерывы 13:45–14:00, 16:00–17:00, 18:45–19:00, 20:15–20:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908924,27.470535"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bsb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

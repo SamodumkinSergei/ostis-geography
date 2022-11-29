@@ -1,0 +1,26 @@
+ concept_medicine_104245547016
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["РНПЦ 30-ое отделение, СПЭ"]
+	(* <- lang_ru;; <- name;;*);
+    ["РНПЦ 30-ое отделение, СПЭ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Долгиновский тракт, 152к10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 289-85-89"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–19:00, перерыв 13:00–17:00; сб,вс 10:00–19:00, перерыв 13:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.953528,27.543957"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mentalhealth.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

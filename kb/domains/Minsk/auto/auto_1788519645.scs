@@ -1,0 +1,26 @@
+ concept_auto_1788519645
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автомойка F1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автомойка F1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский район, микрорайон Степянка, улица Карвата, 73, корп. 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 605-85-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90892,27.68428"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://f1minsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

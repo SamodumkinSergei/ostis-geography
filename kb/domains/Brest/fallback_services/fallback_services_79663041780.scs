@@ -1,0 +1,26 @@
+ concept_fallback_services_79663041780
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Брест-ВТИ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брест-ВТИ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Суворова, 166"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:10, перерыв 12:20–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.658029,23.807468"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

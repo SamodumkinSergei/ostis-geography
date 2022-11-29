@@ -1,0 +1,26 @@
+ concept_bars_24483496748
+ <- concept_bars;
+=>nrel_main_idtf:
+	["Лавка разливного пива в Уручье"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лавка разливного пива в Уручье"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 365-77-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:00–23:00; пт,сб 11:00–00:00; вс 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.945384,27.688896"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://your.beer/place/lavka-uruchie"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

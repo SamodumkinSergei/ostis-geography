@@ -1,0 +1,26 @@
+ concept_car_park_58386081912
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автостоянка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостоянка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Заречная улица, 1Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.161776,30.157167"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

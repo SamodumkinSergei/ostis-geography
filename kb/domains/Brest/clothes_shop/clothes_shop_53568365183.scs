@@ -1,0 +1,26 @@
+ concept_clothes_shop_53568365183
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Syncshop"]
+	(* <- lang_ru;; <- name;;*);
+    ["Syncshop"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Советская улица, 85"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 790-38-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–18:30, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.089099,23.694763"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://syncshop27.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

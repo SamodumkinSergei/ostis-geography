@@ -1,0 +1,26 @@
+ concept_hotels_154633355002
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Квартира на сутки"]
+	(* <- lang_ru;; <- name;;*);
+    ["Квартира на сутки"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Фомина, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.087147,23.675785"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

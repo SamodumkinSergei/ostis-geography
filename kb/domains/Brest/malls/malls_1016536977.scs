@@ -1,0 +1,26 @@
+ concept_malls_1016536977
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Диана"]
+	(* <- lang_ru;; <- name;;*);
+    ["Диана"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Комсомольская улица, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 559-28-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–17:00; вс 11:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.093997,23.68918"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ovates.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

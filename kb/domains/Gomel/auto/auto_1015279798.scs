@@ -1,0 +1,26 @@
+ concept_auto_1015279798
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Комета авто"]
+	(* <- lang_ru;; <- name;;*);
+    ["Комета авто"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Лепешинского, 2Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 623-45-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.472345,30.993023"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.kometa-auto.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

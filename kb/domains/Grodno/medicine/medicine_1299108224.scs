@@ -1,0 +1,26 @@
+ concept_medicine_1299108224
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городская клиническая больница № 3"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская клиническая больница № 3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, бульвар Ленинского Комсомола, 59"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 255-47-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.700201,23.790037"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.grodno-gkb3.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_hotels_1064143008
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Комфорт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Комфорт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Московский район, Грушевка, улица Щорса, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 575-08-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.880717,27.518003"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://comforthotel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

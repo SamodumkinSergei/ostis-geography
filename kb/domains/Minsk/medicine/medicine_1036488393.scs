@@ -1,0 +1,26 @@
+ concept_medicine_1036488393
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Психоневрологический дом-интернат № 4 г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Психоневрологический дом-интернат № 4 г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 81"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 277-13-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.860889,27.491549"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://komtrud.minsk.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

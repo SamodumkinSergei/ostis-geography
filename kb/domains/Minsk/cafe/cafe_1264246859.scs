@@ -1,0 +1,26 @@
+ concept_cafe_1264246859
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Зерно"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зерно"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 46"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 263-26-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–23:00; сб,вс 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912348,27.580669"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

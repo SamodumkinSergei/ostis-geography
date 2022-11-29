@@ -1,0 +1,26 @@
+ concept_supermarket_16615934460
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Хит! Стандарт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хит! Стандарт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Якубовского, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 500-11-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917807,30.306602"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://hitdiscount.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

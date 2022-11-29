@@ -1,0 +1,26 @@
+ concept_fallback_services_1422400617
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Санкт-Петербургское-Витебское территориальное управление Октябрьской железной дороги"]
+	(* <- lang_ru;; <- name;;*);
+    ["Санкт-Петербургское-Витебское территориальное управление Октябрьской железной дороги"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Санкт-Петербург, Подъездной переулок, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["8 (800) 775-00-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00, перерыв 12:00–12:48"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["59.92051,30.330385"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.rzd.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

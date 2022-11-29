@@ -1,0 +1,26 @@
+ concept_malls_34451091551
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Тракторозаводской"]
+	(* <- lang_ru;; <- name;;*);
+    ["Тракторозаводской"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Будённого, 16А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 378-90-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.883307,27.612379"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://tzuniversam.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

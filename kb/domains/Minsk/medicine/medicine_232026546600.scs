@@ -1,0 +1,26 @@
+ concept_medicine_232026546600
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Урологический корпус ГКБ № 4 имени Н. Е. Савченко"]
+	(* <- lang_ru;; <- name;;*);
+    ["Урологический корпус ГКБ № 4 имени Н. Е. Савченко"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Карла Либкнехта, 85"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 208-36-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–18:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.892755,27.514692"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://4gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

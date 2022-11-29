@@ -1,0 +1,26 @@
+ concept_supermarket_1115010606
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Chocote"]
+	(* <- lang_ru;; <- name;;*);
+    ["Chocote"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Комсомольская улица, 25/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 328-18-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.094499,23.688662"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

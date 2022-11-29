@@ -1,0 +1,26 @@
+ concept_mobile_phones_1324664088
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["IСломал"]
+	(* <- lang_ru;; <- name;;*);
+    ["IСломал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 694-01-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.899735,27.558133"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.islomal.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

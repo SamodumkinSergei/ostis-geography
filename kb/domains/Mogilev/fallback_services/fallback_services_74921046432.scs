@@ -1,0 +1,26 @@
+ concept_fallback_services_74921046432
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["РосПриорГранит"]
+	(* <- lang_ru;; <- name;;*);
+    ["РосПриорГранит"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Шмидта, 70А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 702-40-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–16:00; сб 10:00–14:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.866449,30.331418"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://rosgranit.pro/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

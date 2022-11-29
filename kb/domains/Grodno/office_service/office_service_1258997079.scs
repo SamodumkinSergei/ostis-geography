@@ -1,0 +1,26 @@
+ concept_office_service_1258997079
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Гродно +"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродно +"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Урицкого, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 274-22-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.682265,23.832919"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://105fm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

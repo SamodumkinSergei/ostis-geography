@@ -1,0 +1,26 @@
+ concept_malls_203681068343
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Ideashop"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ideashop"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 58"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 365-45-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–19:00, перерыв 14:30–15:00; сб 11:00–18:00, перерыв 14:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.918027,27.589392"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ideashop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_furniture_store_173080399697
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Кухни Монтанья Могилев"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кухни Монтанья Могилев"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Тимирязевская улица, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 642-14-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911724,30.338525"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://modulmogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

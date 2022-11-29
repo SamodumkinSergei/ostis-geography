@@ -1,0 +1,26 @@
+ concept_petshop_192337000502
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Зоомагазин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зоомагазин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Пушкинская улица, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.097056,23.692955"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

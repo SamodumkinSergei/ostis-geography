@@ -1,0 +1,26 @@
+ concept_car_park_81782811199
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автостоянка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостоянка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["г. Минск, ул. Ангарская, 192"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 380-37-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.887735,27.670348"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://upgaip.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

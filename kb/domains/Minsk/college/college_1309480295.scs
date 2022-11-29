@@ -1,0 +1,26 @@
+ concept_college_1309480295
+ <- concept_college;
+=>nrel_main_idtf:
+	["Динамо-Юни"]
+	(* <- lang_ru;; <- name;;*);
+    ["Динамо-Юни"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, посёлок Кунцевщина"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 508-91-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904639,27.416371"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://dinamo-minsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

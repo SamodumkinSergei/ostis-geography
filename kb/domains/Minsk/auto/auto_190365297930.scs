@@ -1,0 +1,26 @@
+ concept_auto_190365297930
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Шведские автомобили"]
+	(* <- lang_ru;; <- name;;*);
+    ["Шведские автомобили"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Могилёвская улица, 54"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 652-78-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:30–19:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.887722,27.550296"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

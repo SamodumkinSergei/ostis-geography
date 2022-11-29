@@ -1,0 +1,26 @@
+ concept_baby_shop_140777780963
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Золотой ключик"]
+	(* <- lang_ru;; <- name;;*);
+    ["Золотой ключик"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 81, корп. 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 715-38-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.19209,30.251718"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://klyuchik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

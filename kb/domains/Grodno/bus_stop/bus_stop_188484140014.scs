@@ -1,0 +1,26 @@
+ concept_bus_stop_188484140014
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Молодая улица"]
+	(* <- lang_ru;; <- name;;*);
+    ["Молодая улица"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Архитектурная улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.638267,23.907125"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

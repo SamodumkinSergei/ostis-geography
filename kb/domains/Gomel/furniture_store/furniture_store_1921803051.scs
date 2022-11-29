@@ -1,0 +1,26 @@
+ concept_furniture_store_1921803051
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Веста мебель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Веста мебель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Жукова, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 234-42-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00, перерыв 14:00–15:00; сб,вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.413849,30.957588"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vestamebel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_supermarket_189963046929
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Могилёвский мясокомбинат"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилёвский мясокомбинат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Романова, 8А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.895006,30.304953"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.mogmk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

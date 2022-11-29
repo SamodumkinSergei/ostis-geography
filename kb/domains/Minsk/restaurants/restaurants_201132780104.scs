@@ -1,0 +1,26 @@
+ concept_restaurants_201132780104
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Бонджорно"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бонджорно"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Левкова, 43"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 130-43-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–23:00; пт,сб 12:00–02:00; вс 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.872922,27.55602"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://бонджорно.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

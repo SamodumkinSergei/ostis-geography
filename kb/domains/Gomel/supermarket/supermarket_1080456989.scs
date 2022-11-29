@@ -1,0 +1,26 @@
+ concept_supermarket_1080456989
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Алми"]
+	(* <- lang_ru;; <- name;;*);
+    ["Алми"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Мазурова, 79"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 308-16-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–01:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.455042,31.025342"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://almi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

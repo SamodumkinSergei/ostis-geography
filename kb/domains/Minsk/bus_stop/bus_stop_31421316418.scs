@@ -1,0 +1,26 @@
+ concept_bus_stop_31421316418
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Станция метро Грушевка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Станция метро Грушевка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Московский район, Грушевка, улица Щорса"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.88603,27.515214"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

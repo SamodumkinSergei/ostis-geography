@@ -1,0 +1,26 @@
+ concept_hotels_220611302789
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["River Club"]
+	(* <- lang_ru;; <- name;;*);
+    ["River Club"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельская область, Петриковский сельсовет, деревня Новосёлки"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 650-00-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.140514,28.61464"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://riverclub.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

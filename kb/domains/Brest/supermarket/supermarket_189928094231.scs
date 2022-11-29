@@ -1,0 +1,26 @@
+ concept_supermarket_189928094231
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Родны кут"]
+	(* <- lang_ru;; <- name;;*);
+    ["Родны кут"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брестский район, Тельминский сельсовет, деревня Тельмы-1, Зелёная улица, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.114787,23.83342"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rodnykut.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

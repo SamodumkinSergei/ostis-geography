@@ -1,0 +1,26 @@
+ concept_fire_station_99742550631
+ <- concept_fire_station;
+=>nrel_main_idtf:
+	["Fire Station"]
+	(* <- lang_ru;; <- name;;*);
+    ["Fire Station"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["штат Вирджиния, Портсмут, дорога Ходжес Ферри, 1195"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+1 757 393 8765"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["36.819104,-76.389783"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

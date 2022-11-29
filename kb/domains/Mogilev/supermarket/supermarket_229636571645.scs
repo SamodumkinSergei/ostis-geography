@@ -1,0 +1,26 @@
+ concept_supermarket_229636571645
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Доброцен"]
+	(* <- lang_ru;; <- name;;*);
+    ["Доброцен"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Тагильский переулок, 1Б/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 122-93-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878253,30.391948"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://dobrocenbel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

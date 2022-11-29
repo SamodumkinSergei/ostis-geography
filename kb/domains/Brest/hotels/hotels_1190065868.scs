@@ -1,0 +1,26 @@
+ concept_hotels_1190065868
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Серебряный Талер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Серебряный Талер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Красногвардейская улица, 88Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 545-02-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.115385,23.687365"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://talerhotel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

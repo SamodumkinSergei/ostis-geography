@@ -1,0 +1,26 @@
+ concept_hotels_167955609219
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Спорт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Спорт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Коммунальная улица, 3Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 272-38-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.687685,23.822329"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.cskneman.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

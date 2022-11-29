@@ -1,0 +1,26 @@
+ concept_college_155736165179
+ <- concept_college;
+=>nrel_main_idtf:
+	["Факультет цифровой экономики БГЭУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Факультет цифровой экономики БГЭУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 26, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 209-79-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00, перерыв 13:30–14:00; сб 09:30–12:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878365,27.608084"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://digitale.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

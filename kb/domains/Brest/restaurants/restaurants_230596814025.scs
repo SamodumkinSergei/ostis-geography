@@ -1,0 +1,26 @@
+ concept_restaurants_230596814025
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Pizza al taglio"]
+	(* <- lang_ru;; <- name;;*);
+    ["Pizza al taglio"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Орджоникидзе, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 253-90-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.09887,23.681543"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

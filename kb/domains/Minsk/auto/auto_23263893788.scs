@@ -1,0 +1,26 @@
+ concept_auto_23263893788
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Кузовной ремонт и покраска автомобилей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кузовной ремонт и покраска автомобилей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Харьковская улица, 3А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 106-23-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.899429,27.526319"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://auto-remont.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

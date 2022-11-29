@@ -1,0 +1,26 @@
+ concept_malls_147509278561
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Мила"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мила"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, бульвар Непокорённых, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 537-37-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб,вс 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.872041,30.329829"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mila.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

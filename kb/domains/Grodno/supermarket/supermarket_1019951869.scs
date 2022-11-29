@@ -1,0 +1,26 @@
+ concept_supermarket_1019951869
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Продукты"]
+	(* <- lang_ru;; <- name;;*);
+    ["Продукты"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Горновых, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 265-57-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.670509,23.823808"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://narochgrodno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

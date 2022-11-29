@@ -1,0 +1,26 @@
+ concept_malls_1072573534
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Ева"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ева"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Машерова, 42"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 727-10-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–17:00; вс 11:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.086365,23.69339"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://evabrest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

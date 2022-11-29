@@ -1,0 +1,26 @@
+ concept_restaurants_181500530236
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Pizzeria Da Franco"]
+	(* <- lang_ru;; <- name;;*);
+    ["Pizzeria Da Franco"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Бретань, Финистер, Округ Брест, Брест, Avenue du Baron Lacrosse, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 2 98 02 13 36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["48.429032,-4.461555"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://restaurant-dafranco-brest.fr/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_auto_146852032457
+ <- concept_auto;
+=>nrel_main_idtf:
+	["АвтоСтиль"]
+	(* <- lang_ru;; <- name;;*);
+    ["АвтоСтиль"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Спокойная улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 234-22-96"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–16:00; сб 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.091288,23.723101"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://avtostil.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

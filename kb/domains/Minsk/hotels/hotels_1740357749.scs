@@ -1,0 +1,26 @@
+ concept_hotels_1740357749
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Отель Дрозды клуб"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отель Дрозды клуб"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Минский район, Ждановичский сельсовет, 38"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 704-04-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.954943,27.447087"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://drozdy-club.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

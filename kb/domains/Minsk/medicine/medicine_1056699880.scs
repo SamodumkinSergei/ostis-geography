@@ -1,0 +1,26 @@
+ concept_medicine_1056699880
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["УЗ 11-я городская поликлиника"]
+	(* <- lang_ru;; <- name;;*);
+    ["УЗ 11-я городская поликлиника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Великоморская улица, 36"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 530-83-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.865921,27.568768"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://11gp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

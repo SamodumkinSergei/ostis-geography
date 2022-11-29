@@ -1,0 +1,26 @@
+ concept_car_park_83248347362
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автомобильная парковка ТЦ Немига-3"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автомобильная парковка ТЦ Немига-3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Немига, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 751-38-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904097,27.553094"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://nemiga3.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

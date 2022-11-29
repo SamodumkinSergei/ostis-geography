@@ -1,0 +1,26 @@
+ concept_college_54486353959
+ <- concept_college;
+=>nrel_main_idtf:
+	["Ksv"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ksv"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Никитина, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 608-20-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.950372,27.589978"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.ksvschool.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

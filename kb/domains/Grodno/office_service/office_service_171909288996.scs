@@ -1,0 +1,26 @@
+ concept_office_service_171909288996
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Dart Studio Grodno"]
+	(* <- lang_ru;; <- name;;*);
+    ["Dart Studio Grodno"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Янки Купалы, 50"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 614-30-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.660192,23.840524"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

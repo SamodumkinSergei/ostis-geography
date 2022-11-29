@@ -1,0 +1,26 @@
+ concept_restaurants_177743496264
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Литвины"]
+	(* <- lang_ru;; <- name;;*);
+    ["Литвины"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 156/1-1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 519-11-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908139,27.434411"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://litviny.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

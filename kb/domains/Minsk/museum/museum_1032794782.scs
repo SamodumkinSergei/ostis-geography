@@ -1,0 +1,26 @@
+ concept_museum_1032794782
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Дом литератора"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дом литератора"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Фрунзе, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 674-00-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90627,27.574792"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_currency_exchange_123000780421
+ <- concept_currency_exchange;
+=>nrel_main_idtf:
+	["БТА банк, банкомат"]
+	(* <- lang_ru;; <- name;;*);
+    ["БТА банк, банкомат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Антонова, 5А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 528-22-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.675854,23.841514"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.btabank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

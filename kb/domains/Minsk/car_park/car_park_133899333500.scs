@@ -1,0 +1,26 @@
+ concept_car_park_133899333500
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автостоянка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостоянка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Алибегова, 12А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 385-90-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 05:00–01:00, перерыв 09:00–09:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.872426,27.48319"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://upgaip.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

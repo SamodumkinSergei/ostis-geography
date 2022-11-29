@@ -1,0 +1,26 @@
+ concept_medicine_1031182239
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["33-я Городская студенческая поликлиника"]
+	(* <- lang_ru;; <- name;;*);
+    ["33-я Городская студенческая поликлиника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурганова, 45, корп. 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 378-30-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.925798,27.586359"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.33gsp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

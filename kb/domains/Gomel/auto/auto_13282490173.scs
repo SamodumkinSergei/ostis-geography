@@ -1,0 +1,26 @@
+ concept_auto_13282490173
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Car Service"]
+	(* <- lang_ru;; <- name;;*);
+    ["Car Service"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Речицкий проспект, 7/3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 319-41-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.417878,30.965427"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

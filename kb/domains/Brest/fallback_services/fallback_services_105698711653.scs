@@ -1,0 +1,26 @@
+ concept_fallback_services_105698711653
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гранитная мастерская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гранитная мастерская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, бульвар Космонавтов, 36"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 720-02-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–17:30; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.098466,23.695636"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

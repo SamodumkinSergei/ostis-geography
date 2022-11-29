@@ -1,0 +1,26 @@
+ concept_car_park_1034217263
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автомобильная парковка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автомобильная парковка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, бульвар Шевченко, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 258-92-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.085238,23.704625"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brestturist.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

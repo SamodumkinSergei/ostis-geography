@@ -1,0 +1,26 @@
+ concept_college_82972602141
+ <- concept_college;
+=>nrel_main_idtf:
+	["Белорусский государственный экономический университет, Факультет права"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусский государственный экономический университет, Факультет права"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, проспект Рокоссовского, 65"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 209-79-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:45–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.866676,27.607413"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pravo.bseu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

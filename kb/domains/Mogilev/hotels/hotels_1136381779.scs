@@ -1,0 +1,26 @@
+ concept_hotels_1136381779
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Квартира в Минске"]
+	(* <- lang_ru;; <- name;;*);
+    ["Квартира в Минске"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Малая Боровка, улица Киселёва, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.875204,30.426011"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

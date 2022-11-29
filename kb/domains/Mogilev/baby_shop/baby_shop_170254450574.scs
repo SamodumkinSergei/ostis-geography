@@ -1,0 +1,26 @@
+ concept_baby_shop_170254450574
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Дом игрушек"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дом игрушек"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Терёхина, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 379-44-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.881812,30.367617"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://dom-igrushek.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

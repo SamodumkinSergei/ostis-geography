@@ -1,0 +1,26 @@
+ concept_college_130203588555
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 3 имени Л. Н. Белицкого"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 3 имени Л. Н. Белицкого"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, 4-я Садовая улица, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 226-29-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.204046,30.218185"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://3vitebsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_1138331807
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Росни"]
+	(* <- lang_ru;; <- name;;*);
+    ["Росни"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Янки Купалы, 109"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 933-66-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.108326,23.749798"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://diomant.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

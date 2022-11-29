@@ -1,0 +1,26 @@
+ concept_bus_stop_112729428700
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Советская улица"]
+	(* <- lang_ru;; <- name;;*);
+    ["Советская улица"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 61"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.199961,30.207561"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

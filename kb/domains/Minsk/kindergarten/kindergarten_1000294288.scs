@@ -1,0 +1,26 @@
+ concept_kindergarten_1000294288
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 444"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 444"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Одинцова, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 379-52-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897731,27.448875"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ddu444.minskedu.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

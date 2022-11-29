@@ -1,0 +1,26 @@
+ concept_banks_45356651088
+ <- concept_banks;
+=>nrel_main_idtf:
+	["МТБАНК"]
+	(* <- lang_ru;; <- name;;*);
+    ["МТБАНК"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Боровлянский сельсовет, деревня Боровая, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 181-00-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:15–20:20, перерывы 10:00–10:15, 13:30–14:30, 17:00–17:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.962207,27.629786"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.mtbank.by/business/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_1073154276
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 21 г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 21 г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Столярная улица, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 274-72-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.421584,31.000588"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://school21.iptv.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

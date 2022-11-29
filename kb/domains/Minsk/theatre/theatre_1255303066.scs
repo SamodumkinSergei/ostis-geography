@@ -1,0 +1,26 @@
+ concept_theatre_1255303066
+ <- concept_theatre;
+=>nrel_main_idtf:
+	["Драматический театр Белорусской Армии"]
+	(* <- lang_ru;; <- name;;*);
+    ["Драматический театр Белорусской Армии"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Красноармейская улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 399-58-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 10:00–19:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901999,27.565087"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

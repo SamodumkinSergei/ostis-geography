@@ -1,0 +1,26 @@
+ concept_supermarket_191028578655
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Витебские продукты"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебские продукты"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Великолукский тракт, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 248-51-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.209527,30.211319"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitprod.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

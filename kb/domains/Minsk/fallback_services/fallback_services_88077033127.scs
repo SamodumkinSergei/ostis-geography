@@ -1,0 +1,26 @@
+ concept_fallback_services_88077033127
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гранитная мастерская Mementomori.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гранитная мастерская Mementomori.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 95В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 666-22-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.874266,27.637992"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mementomori.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

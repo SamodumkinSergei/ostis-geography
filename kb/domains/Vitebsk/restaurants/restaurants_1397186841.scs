@@ -1,0 +1,26 @@
+ concept_restaurants_1397186841
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Ветразь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ветразь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Черняховского, 25, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 234-63-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:00–00:00, перерыв 16:00–17:00; пт,сб 08:00–02:00, перерыв 16:00–17:00; вс 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.174268,30.194966"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitebsktourist.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

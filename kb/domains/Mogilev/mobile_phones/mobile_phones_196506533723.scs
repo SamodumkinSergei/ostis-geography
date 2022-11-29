@@ -1,0 +1,26 @@
+ concept_mobile_phones_196506533723
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Алло"]
+	(* <- lang_ru;; <- name;;*);
+    ["Алло"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Мира, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 740-17-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб,вс 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909123,30.339708"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.alloremont.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_restaurants_121712269563
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Brioche Buffet"]
+	(* <- lang_ru;; <- name;;*);
+    ["Brioche Buffet"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Интернациональная улица, 20А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 187-88-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.900778,27.554591"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://briochebuffet.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

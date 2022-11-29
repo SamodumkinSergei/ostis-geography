@@ -1,0 +1,26 @@
+ concept_bus_stop_6357453827
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Славинского"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Славинского"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Славинского"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.647237,23.832692"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_post_office_1098123581
+ <- concept_post_office;
+=>nrel_main_idtf:
+	["Белпочта, отделение почтовой связи № 140"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белпочта, отделение почтовой связи № 140"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 78"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 361-72-28"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907004,27.446451"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belpost.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

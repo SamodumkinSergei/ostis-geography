@@ -1,0 +1,26 @@
+ concept_museum_1505479475
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Церковно-исторический музей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Церковно-исторический музей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Зыбицкая улица, 25А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 318-51-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905736,27.55602"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://minda.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

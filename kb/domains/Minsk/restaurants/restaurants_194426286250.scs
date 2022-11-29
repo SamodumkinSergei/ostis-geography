@@ -1,0 +1,26 @@
+ concept_restaurants_194426286250
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Дрозды клуб"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дрозды клуб"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Минский район, Ждановичский сельсовет, 38"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 740-04-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–23:00; пт,сб 12:00–03:00; вс 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.954875,27.447278"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://drozdy-club.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

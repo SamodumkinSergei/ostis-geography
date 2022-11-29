@@ -1,0 +1,26 @@
+ concept_bus_station_117056808313
+ <- concept_bus_station;
+=>nrel_main_idtf:
+	["Детская больница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детская больница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лейтенанта Кижеватова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.850471,27.537835"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_malls_73228710329
+ <- concept_malls;
+=>nrel_main_idtf:
+	["The Home Depot"]
+	(* <- lang_ru;; <- name;;*);
+    ["The Home Depot"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["штат Коннектикут, округ Нью-Хейвен, Таун-оф-Ист-Хейвен"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 06:00–22:00; вс 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["41.287728,-72.878267"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

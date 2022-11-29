@@ -1,0 +1,26 @@
+ concept_hairdressers_1051303208
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Парикмахерская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парикмахерская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Победы, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 236-46-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 09:00–18:00; вс 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.162928,30.221404"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

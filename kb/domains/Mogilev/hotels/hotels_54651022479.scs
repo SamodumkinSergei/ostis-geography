@@ -1,0 +1,26 @@
+ concept_hotels_54651022479
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Окей Могилев"]
+	(* <- lang_ru;; <- name;;*);
+    ["Окей Могилев"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Ленинская улица, 68"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 366-83-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 13:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906559,30.343815"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://okaymogilev.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

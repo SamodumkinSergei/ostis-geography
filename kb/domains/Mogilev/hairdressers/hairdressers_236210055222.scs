@@ -1,0 +1,26 @@
+ concept_hairdressers_236210055222
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Парикмахерская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парикмахерская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Юбилейный, улица Народного Ополчения, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 271-38-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб,вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906337,30.363117"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

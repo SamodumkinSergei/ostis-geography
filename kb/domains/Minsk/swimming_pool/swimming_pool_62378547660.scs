@@ -1,0 +1,26 @@
+ concept_swimming_pool_62378547660
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Дружба"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дружба"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Каролинская улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 396-85-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–21:00; пт 09:00–14:00; вс 16:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.849152,27.482471"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dryzhba.neptunbassin.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

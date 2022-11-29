@@ -1,0 +1,26 @@
+ concept_currency_exchange_107085795010
+ <- concept_currency_exchange;
+=>nrel_main_idtf:
+	["Технобанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Технобанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Генерала Белобородова, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 388-57-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:30–21:00, перерывы 12:30–13:00, 15:30–16:00; сб,вс 10:30–19:45, перерывы 12:30–13:00, 15:30–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.186136,30.189943"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://tb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_college_123216608989
+ <- concept_college;
+=>nrel_main_idtf:
+	["Международный государственный экологический институт имени А. Д. Сахарова БГУ, ОТСОиК"]
+	(* <- lang_ru;; <- name;;*);
+    ["Международный государственный экологический институт имени А. Д. Сахарова БГУ, ОТСОиК"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ботаническая улица, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 360-11-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 13:00–13:45; пт 08:30–16:00, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907338,27.602663"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.iseu.bsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

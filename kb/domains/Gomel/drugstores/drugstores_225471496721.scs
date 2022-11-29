@@ -1,0 +1,26 @@
+ concept_drugstores_225471496721
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["ВитВар, аптека № 10"]
+	(* <- lang_ru;; <- name;;*);
+    ["ВитВар, аптека № 10"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Т.С. Бородина, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 234-71-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.4596,31.028235"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitvar.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

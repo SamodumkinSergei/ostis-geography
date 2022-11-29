@@ -1,0 +1,26 @@
+ concept_swimming_pool_184289619310
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Iswim.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Iswim.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Столетова, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 333-03-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,ср 19:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907573,27.621151"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://iswim.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

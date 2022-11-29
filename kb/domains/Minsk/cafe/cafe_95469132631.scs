@@ -1,0 +1,26 @@
+ concept_cafe_95469132631
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Столовая"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столовая"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Филимонова, 55к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:30, перерыв 14:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.92517,27.635384"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

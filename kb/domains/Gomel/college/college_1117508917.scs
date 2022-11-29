@@ -1,0 +1,26 @@
+ concept_college_1117508917
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 47 г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 47 г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Любенский, улица Мележа, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 255-20-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:15–19:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.404147,30.986779"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_hotels_11908096017
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Хуторянка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хуторянка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Р-1, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 180-06-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.780781,27.365327"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

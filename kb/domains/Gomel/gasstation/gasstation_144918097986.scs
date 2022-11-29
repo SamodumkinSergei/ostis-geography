@@ -1,0 +1,26 @@
+ concept_gasstation_144918097986
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["АГЗС"]
+	(* <- lang_ru;; <- name;;*);
+    ["АГЗС"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.41498,30.927194"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://tatbelneft.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

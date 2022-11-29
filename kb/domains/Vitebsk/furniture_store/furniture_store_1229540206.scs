@@ -1,0 +1,26 @@
+ concept_furniture_store_1229540206
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Black Red White"]
+	(* <- lang_ru;; <- name;;*);
+    ["Black Red White"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Воинов-Интернационалистов, 1Д"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 265-84-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.163298,30.203537"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brw-shop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

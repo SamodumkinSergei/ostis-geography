@@ -1,0 +1,26 @@
+ concept_bus_station_148579622437
+ <- concept_bus_station;
+=>nrel_main_idtf:
+	["Автостанция"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостанция"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельская область, Ветка, улица Луначарского, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 05:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.566657,31.172188"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

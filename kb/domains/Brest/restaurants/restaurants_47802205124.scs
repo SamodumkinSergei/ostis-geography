@@ -1,0 +1,26 @@
+ concept_restaurants_47802205124
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Le Relais Brest"]
+	(* <- lang_ru;; <- name;;*);
+    ["Le Relais Brest"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Бретань, Финистер, Округ Брест, Брест, Avenue Georges Clemenceau, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 2 98 80 25 73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["48.389182,-4.484147"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.lesrelaisdalsace.com/?option"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

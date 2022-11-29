@@ -1,0 +1,26 @@
+ concept_police_1090609414
+ <- concept_police;
+=>nrel_main_idtf:
+	["Санкт-Петербург-Витебский линейный отдел МВД России на транспорте"]
+	(* <- lang_ru;; <- name;;*);
+    ["Санкт-Петербург-Витебский линейный отдел МВД России на транспорте"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Санкт-Петербург, Загородный проспект, 52"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["8 (800) 200-16-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["59.91981,30.328766"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://мвд.рф/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

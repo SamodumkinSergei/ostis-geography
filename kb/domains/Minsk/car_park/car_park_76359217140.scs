@@ -1,0 +1,26 @@
+ concept_car_park_76359217140
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Парковка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парковка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петруся Бровки, 12к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 293-21-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916072,27.59723"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsuir.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_supermarket_35386494917
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Овощная фабрика"]
+	(* <- lang_ru;; <- name;;*);
+    ["Овощная фабрика"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Славинского, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.640772,23.815306"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

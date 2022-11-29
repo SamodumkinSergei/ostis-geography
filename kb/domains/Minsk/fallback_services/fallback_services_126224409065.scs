@@ -1,0 +1,26 @@
+ concept_fallback_services_126224409065
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Грин-Стоун"]
+	(* <- lang_ru;; <- name;;*);
+    ["Грин-Стоун"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Михася Лынькова, 19/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 663-55-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 09:00–18:00; сб 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.927187,27.490029"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://green-stone.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

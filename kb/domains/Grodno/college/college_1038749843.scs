@@ -1,0 +1,26 @@
+ concept_college_1038749843
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гродненский Государственный университет имени Янки Купалы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненский Государственный университет имени Янки Купалы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Ожешко, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 273-19-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.684817,23.84022"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://fem.grsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

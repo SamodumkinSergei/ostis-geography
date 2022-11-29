@@ -1,0 +1,26 @@
+ concept_tailor_172354490314
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Ремонт обуви"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт обуви"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Янковского, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 670-61-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00, перерыв 13:00–14:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.880105,27.453589"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://40-boot-repair-shop.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

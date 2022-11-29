@@ -1,0 +1,26 @@
+ concept_currency_exchange_205028383302
+ <- concept_currency_exchange;
+=>nrel_main_idtf:
+	["Белинвестбанк, банкомат"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белинвестбанк, банкомат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Софьи Панковой, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 239-02-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.187896,30.2547"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.belinvestbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_cafe_1912755033
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Marconi"]
+	(* <- lang_ru;; <- name;;*);
+    ["Marconi"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Мясникова, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 333-38-96"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб,вс 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897845,27.544036"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.marconi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_banks_94539687398
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Банк БелВЭБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Банк БелВЭБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 71"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 215-61-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.443961,31.001475"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belveb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

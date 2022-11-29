@@ -1,0 +1,26 @@
+ concept_restaurants_20992252942
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Гастро-бар"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гастро-бар"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Республики, 1/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 151-59-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–23:00; сб,вс 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.096788,23.763492"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

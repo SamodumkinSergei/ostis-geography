@@ -1,0 +1,26 @@
+ concept_auto_194167381814
+ <- concept_auto;
+=>nrel_main_idtf:
+	["БелТБ сервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["БелТБ сервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Казинца, 33, корп. 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 777-50-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.858468,27.519422"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://man-service.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

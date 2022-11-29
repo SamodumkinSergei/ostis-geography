@@ -1,0 +1,26 @@
+ concept_medicine_131458843445
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Приёмное отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["Приёмное отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Красноармейская улица, 10, корп. 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 327-29-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:30–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.898286,27.567598"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://2gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

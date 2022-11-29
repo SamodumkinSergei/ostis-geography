@@ -1,0 +1,26 @@
+ concept_cafe_48451591088
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Хатка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хатка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, переулок Чаплыгина, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 668-74-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–22:00; пт-вс 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.923298,30.304471"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://prokat-mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

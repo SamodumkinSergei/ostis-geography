@@ -1,0 +1,26 @@
+ concept_supermarket_1707379166
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Корона"]
+	(* <- lang_ru;; <- name;;*);
+    ["Корона"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, агрогородок Ждановичи, Заречная улица, 1В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 512-21-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.945918,27.432442"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://korona.by/hypermarkets/shops/supermarket-korona-zarechnaya-1"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

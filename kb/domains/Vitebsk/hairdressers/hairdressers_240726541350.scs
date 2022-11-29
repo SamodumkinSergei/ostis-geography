@@ -1,0 +1,26 @@
+ concept_hairdressers_240726541350
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Пралеска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пралеска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Генерала Ивановского, 18к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 206-93-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб,вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.166595,30.26245"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://dikidi.online/436173"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_restaurants_12124797550
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Сакагучи"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сакагучи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Мстиславца, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.931526,27.651955"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_1109651263
+ <- concept_college;
+=>nrel_main_idtf:
+	["УО Витебский государственный ордена Дружбы народов медицинский университет"]
+	(* <- lang_ru;; <- name;;*);
+    ["УО Витебский государственный ордена Дружбы народов медицинский университет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 224-04-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.192757,30.219122"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.vsmu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

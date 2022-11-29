@@ -1,0 +1,26 @@
+ concept_college_1331296214
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 9 г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 9 г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Московский район, Брилевичи-2, улица Ежи Гедройца, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 326-24-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 07:30–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.851461,27.483194"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch9.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

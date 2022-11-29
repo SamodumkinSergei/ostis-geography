@@ -1,0 +1,26 @@
+ concept_hairdressers_1394071958
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Парикмахерская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парикмахерская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Заводской район, Северный посёлок, улица Артёма, 47"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 689-41-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб 09:00–19:00; вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.887576,27.676073"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_100983471278
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Памятники, надгробия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятники, надгробия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Центральный район, микрорайон Новинки, улица Автомобилистов, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 607-76-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.964435,27.543761"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://granko.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

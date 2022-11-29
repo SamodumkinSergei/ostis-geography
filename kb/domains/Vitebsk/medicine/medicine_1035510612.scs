@@ -1,0 +1,26 @@
+ concept_medicine_1035510612
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городская поликлиника № 24"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская поликлиника № 24"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Харьков, улица Полтавский Шлях, 153"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+380 (57) 725-27-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00; сб 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["49.982047,36.182291"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://24pol.city.kharkov.ua/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

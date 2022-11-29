@@ -1,0 +1,26 @@
+ concept_cinemas_88953686341
+ <- concept_cinemas;
+=>nrel_main_idtf:
+	["3D кино"]
+	(* <- lang_ru;; <- name;;*);
+    ["3D кино"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Денисовская улица, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 377-24-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 14:00–22:00; сб,вс 12:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.872057,27.573047"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.tczamok.by/poster/facility/1291602"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

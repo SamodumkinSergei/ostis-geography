@@ -1,0 +1,26 @@
+ concept_bus_stop_26145284398
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Нагорная"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Нагорная"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Свиридова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.479631,31.011902"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

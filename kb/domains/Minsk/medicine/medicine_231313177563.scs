@@ -1,0 +1,26 @@
+ concept_medicine_231313177563
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Proud clinic"]
+	(* <- lang_ru;; <- name;;*);
+    ["Proud clinic"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 135Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 640-96-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–21:00; вс 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.943478,27.461353"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://proudclinic.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

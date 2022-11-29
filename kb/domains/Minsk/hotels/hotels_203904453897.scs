@@ -1,0 +1,26 @@
+ concept_hotels_203904453897
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Санаторий Журавушка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Санаторий Журавушка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Сосновая улица, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 799-67-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909015,27.653666"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sanatorij.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

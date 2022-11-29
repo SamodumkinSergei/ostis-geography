@@ -1,0 +1,26 @@
+ concept_museum_70103472727
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Гродненский государственный историко-археологический музей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненский государственный историко-археологический музей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Замковая улица, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 271-86-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.677254,23.823448"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://history.grodno.museum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_145486708841
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Горновых"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Горновых"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Горновых"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.669445,23.823405"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

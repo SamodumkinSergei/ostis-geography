@@ -1,0 +1,26 @@
+ concept_college_1086930906
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 15"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 15"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, улица Якубова, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 367-11-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.852763,27.602014"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sch15.minskedu.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

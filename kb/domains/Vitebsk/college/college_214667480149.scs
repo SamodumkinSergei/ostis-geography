@@ -1,0 +1,26 @@
+ concept_college_214667480149
+ <- concept_college;
+=>nrel_main_idtf:
+	["Юридический факультет ВГУ имени П. М. Машерова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Юридический факультет ВГУ имени П. М. Машерова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 242-83-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.177952,30.225002"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

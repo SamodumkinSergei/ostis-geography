@@ -1,0 +1,26 @@
+ concept_malls_111222154082
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Стрела"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стрела"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пушкинский проспект, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 177-11-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб,вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.872616,30.346748"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://strelaonline.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

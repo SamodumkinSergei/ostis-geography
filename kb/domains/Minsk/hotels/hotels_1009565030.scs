@@ -1,0 +1,26 @@
+ concept_hotels_1009565030
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Кадм"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кадм"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Максима Богдановича, 239"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 353-50-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.946031,27.592484"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.belmotel.com/chastnaya-gostinica"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

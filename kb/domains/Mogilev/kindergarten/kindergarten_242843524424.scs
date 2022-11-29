@@ -1,0 +1,26 @@
+ concept_kindergarten_242843524424
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Маленькая страна"]
+	(* <- lang_ru;; <- name;;*);
+    ["Маленькая страна"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 559-19-89"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901097,30.335772"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

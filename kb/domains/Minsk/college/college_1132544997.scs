@@ -1,0 +1,26 @@
+ concept_college_1132544997
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 53"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 53"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Леонида Беды, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 202-03-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.931504,27.586688"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch53.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

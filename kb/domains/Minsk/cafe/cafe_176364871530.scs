@@ -1,0 +1,26 @@
+ concept_cafe_176364871530
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Пункт Питания"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пункт Питания"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Максима Богдановича, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 315-53-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:30–21:30; сб,вс 11:00–21:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912288,27.560544"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://punktpitania.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

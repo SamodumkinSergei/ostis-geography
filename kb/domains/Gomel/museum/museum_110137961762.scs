@@ -1,0 +1,26 @@
+ concept_museum_110137961762
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Гомельский городской центр дополнительного образования детей и молодежи, выставочный зал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский городской центр дополнительного образования детей и молодежи, выставочный зал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Трудовая улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 256-90-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:15, перерыв 13:00–14:00; сб 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.425728,31.011892"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ggcdodim.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_car_park_192955309586
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Паркинг"]
+	(* <- lang_ru;; <- name;;*);
+    ["Паркинг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Московский район, микрорайон Брилевичи, Брилевичи-2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.852431,27.476895"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

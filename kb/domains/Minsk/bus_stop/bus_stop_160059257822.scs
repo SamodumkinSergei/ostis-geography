@@ -1,0 +1,26 @@
+ concept_bus_stop_160059257822
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Поликлиника № 24"]
+	(* <- lang_ru;; <- name;;*);
+    ["Поликлиника № 24"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Филимонова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.924605,27.639082"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

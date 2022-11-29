@@ -1,0 +1,26 @@
+ concept_college_1099710777
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 28 г. Могилева"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 28 г. Могилева"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Вишневецкого, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 231-46-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.889333,30.274301"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sosh28.iam.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

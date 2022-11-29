@@ -1,0 +1,26 @@
+ concept_software_110739334449
+ <- concept_software;
+=>nrel_main_idtf:
+	["Интернет-провайдер WikiLink"]
+	(* <- lang_ru;; <- name;;*);
+    ["Интернет-провайдер WikiLink"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Варшавское шоссе, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 250-02-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.075459,23.717352"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://wikilink.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_229824827353
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Медицинский комплекс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Медицинский комплекс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Бориса Маслова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.064688,23.713107"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

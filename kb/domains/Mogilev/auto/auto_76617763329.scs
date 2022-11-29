@@ -1,0 +1,26 @@
+ concept_auto_76617763329
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Центр ключей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Центр ключей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Лазаренко, 73В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 197-59-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 09:00–17:00; вс 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908794,30.306222"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://центр-ключей.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

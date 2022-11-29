@@ -1,0 +1,26 @@
+ concept_college_122585398459
+ <- concept_college;
+=>nrel_main_idtf:
+	["БНТУ, отдел информационного и технического обеспечения образовательного процесса Фммп"]
+	(* <- lang_ru;; <- name;;*);
+    ["БНТУ, отдел информационного и технического обеспечения образовательного процесса Фммп"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 67к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 293-91-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:15–17:30, перерыв 13:00–14:00; пт 08:15–16:15, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.92158,27.594376"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://fmmp.bntu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_1105154053
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 97"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 97"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Казинца, 118"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 342-73-71"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.843088,27.499847"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch97.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

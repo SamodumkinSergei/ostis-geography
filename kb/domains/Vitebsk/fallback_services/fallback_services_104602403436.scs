@@ -1,0 +1,26 @@
+ concept_fallback_services_104602403436
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Медтехника"]
+	(* <- lang_ru;; <- name;;*);
+    ["Медтехника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Лазо, 108"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 267-72-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:00–17:00, перерыв 12:00–13:00; пт 07:40–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.201108,30.257059"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitmt.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

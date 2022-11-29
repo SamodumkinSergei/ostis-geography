@@ -1,0 +1,26 @@
+ concept_restaurants_139598201123
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Nravizza pizza"]
+	(* <- lang_ru;; <- name;;*);
+    ["Nravizza pizza"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Соломинка, Жемчужная улица, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 277-99-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:30–20:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.949232,30.374103"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://nravizza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

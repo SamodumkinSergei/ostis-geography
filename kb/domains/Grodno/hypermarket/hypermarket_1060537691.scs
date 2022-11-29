@@ -1,0 +1,26 @@
+ concept_hypermarket_1060537691
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Всё для офиса"]
+	(* <- lang_ru;; <- name;;*);
+    ["Всё для офиса"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Советских Пограничников, 91"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 265-02-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.67128,23.810455"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.adast.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

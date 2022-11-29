@@ -1,0 +1,26 @@
+ concept_fallback_services_71213188112
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Памятники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Малявки"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 224-10-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.848359,27.60554"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

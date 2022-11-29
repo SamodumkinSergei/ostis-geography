@@ -1,0 +1,26 @@
+ concept_drugstores_1263910121
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 185"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 185"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Свиридова, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 253-10-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.474804,31.026106"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomelpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

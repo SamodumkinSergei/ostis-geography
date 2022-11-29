@@ -1,0 +1,26 @@
+ concept_bus_stop_201967379964
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Жемчужная улица"]
+	(* <- lang_ru;; <- name;;*);
+    ["Жемчужная улица"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Жемчужная улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.357799,31.018221"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

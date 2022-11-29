@@ -1,0 +1,26 @@
+ concept_bus_stop_155991887371
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Парк Павлова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парк Павлова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Газеты Правда"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.858443,27.474867"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

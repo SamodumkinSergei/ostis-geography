@@ -1,0 +1,26 @@
+ concept_government_1762247961
+ <- concept_government;
+=>nrel_main_idtf:
+	["Церковь Спасение"]
+	(* <- lang_ru;; <- name;;*);
+    ["Церковь Спасение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Скрипникова, 45"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 228-97-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пт 19:00–20:00; вс 09:00–12:30, перерыв 10:30–11:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.106563,23.708839"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ehb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

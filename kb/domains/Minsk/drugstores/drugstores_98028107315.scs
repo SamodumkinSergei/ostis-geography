@@ -1,0 +1,26 @@
+ concept_drugstores_98028107315
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Минская Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минская Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, городской посёлок Мачулищи, Молодёжная улица, 41"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 516-94-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:30–20:00, перерыв 14:00–14:30; сб 10:00–19:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.776439,27.59153"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://minfarm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

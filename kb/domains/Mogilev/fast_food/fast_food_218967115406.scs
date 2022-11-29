@@ -1,0 +1,26 @@
+ concept_fast_food_218967115406
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["На районе"]
+	(* <- lang_ru;; <- name;;*);
+    ["На районе"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Ленинский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 913-15-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.931794,30.362032"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

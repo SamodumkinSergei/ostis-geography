@@ -1,0 +1,26 @@
+ concept_fallback_services_234350478573
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Возьми и Баабахни"]
+	(* <- lang_ru;; <- name;;*);
+    ["Возьми и Баабахни"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Карповича, 28, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 530-29-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.424915,30.997263"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://babahni.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

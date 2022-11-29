@@ -1,0 +1,26 @@
+ concept_malls_81124402963
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Витебские ковры"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебские ковры"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Фрунзенский район, Западный промузел"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 517-42-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:15–17:00, перерыв 12:30–13:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.866232,27.397869"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitcarpet.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

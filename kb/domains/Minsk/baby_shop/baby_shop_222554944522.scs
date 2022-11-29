@@ -1,0 +1,26 @@
+ concept_baby_shop_222554944522
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Товары в дом"]
+	(* <- lang_ru;; <- name;;*);
+    ["Товары в дом"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 75/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 702-30-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.931186,27.508606"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://tovaryvdom.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

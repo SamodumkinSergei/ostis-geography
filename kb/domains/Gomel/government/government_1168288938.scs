@@ -1,0 +1,26 @@
+ concept_government_1168288938
+ <- concept_government;
+=>nrel_main_idtf:
+	["Гомельский областной центр по ценообразованию в строительстве"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский областной центр по ценообразованию в строительстве"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Билецкого, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 225-16-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.42693,31.017394"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.rstc.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

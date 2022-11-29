@@ -1,0 +1,26 @@
+ concept_banks_152686264634
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Беларусбанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Беларусбанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Солтыса, 54"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["147"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.8953,27.653313"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://belarusbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

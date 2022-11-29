@@ -1,0 +1,26 @@
+ concept_college_1069985858
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 134"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 134"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Плеханова, 107"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 367-87-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–21:00; сб 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.858142,27.599943"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch134.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

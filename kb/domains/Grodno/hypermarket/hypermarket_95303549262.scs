@@ -1,0 +1,26 @@
+ concept_hypermarket_95303549262
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Софит"]
+	(* <- lang_ru;; <- name;;*);
+    ["Софит"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Красноармейская улица, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 357-77-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.679206,23.84339"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://grolinka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_office_service_1071485478
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Автосеть"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автосеть"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 275А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 686-86-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00; вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.099173,23.767973"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://autoset.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

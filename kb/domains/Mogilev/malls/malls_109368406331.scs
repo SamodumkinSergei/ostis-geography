@@ -1,0 +1,26 @@
+ concept_malls_109368406331
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Магазин хозтоваров и бытовой химии"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин хозтоваров и бытовой химии"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Симонова, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 632-48-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.872582,30.313656"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

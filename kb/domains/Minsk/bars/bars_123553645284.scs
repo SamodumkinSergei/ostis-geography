@@ -1,0 +1,26 @@
+ concept_bars_123553645284
+ <- concept_bars;
+=>nrel_main_idtf:
+	["Пивная А"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пивная А"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Машерова, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 397-88-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:00–23:00; пт 11:00–00:00; сб 12:00–00:00; вс 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916875,27.560089"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

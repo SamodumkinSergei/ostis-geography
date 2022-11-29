@@ -1,0 +1,26 @@
+ concept_hotels_1107499261
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Алмаз"]
+	(* <- lang_ru;; <- name;;*);
+    ["Алмаз"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Герасименко, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 711-12-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.879919,27.68956"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://almaz.maz.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

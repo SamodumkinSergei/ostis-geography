@@ -1,0 +1,26 @@
+ concept_office_service_77268876022
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Sklad"]
+	(* <- lang_ru;; <- name;;*);
+    ["Sklad"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 129"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 340-63-28"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.941,27.465998"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://skld.me/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

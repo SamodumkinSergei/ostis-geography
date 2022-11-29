@@ -1,0 +1,26 @@
+ concept_cafe_1024404824
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Театральное"]
+	(* <- lang_ru;; <- name;;*);
+    ["Театральное"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Ленина, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 694-77-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.424773,31.011002"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kafe-teatr.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

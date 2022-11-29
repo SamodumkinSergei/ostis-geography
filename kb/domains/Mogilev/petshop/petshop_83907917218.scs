@@ -1,0 +1,26 @@
+ concept_petshop_83907917218
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Зоотовары"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зоотовары"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Мира, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 946-07-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912071,30.321233"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

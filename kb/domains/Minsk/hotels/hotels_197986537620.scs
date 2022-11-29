@@ -1,0 +1,26 @@
+ concept_hotels_197986537620
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["StaryMinsk"]
+	(* <- lang_ru;; <- name;;*);
+    ["StaryMinsk"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 901-91-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 14:00–23:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.899216,27.557275"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://staryminsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_medicine_1046501632
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Брестская центральная поликлиника"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестская центральная поликлиника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Советской Конституции, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 225-56-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:30–15:00; вс 08:30–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.099902,23.750272"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bcp.brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

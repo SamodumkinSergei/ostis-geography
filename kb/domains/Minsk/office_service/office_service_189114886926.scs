@@ -1,0 +1,26 @@
+ concept_office_service_189114886926
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Минский метрополитен"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский метрополитен"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 6А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 219-50-89"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 12:15–13:00; пт 08:30–16:15, перерыв 12:15–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.894491,27.548798"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

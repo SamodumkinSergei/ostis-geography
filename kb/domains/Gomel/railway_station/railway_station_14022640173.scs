@@ -1,0 +1,26 @@
+ concept_railway_station_14022640173
+ <- concept_railway_station;
+=>nrel_main_idtf:
+	["Пост Эц, станция Гомель-Сортировочный"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пост Эц, станция Гомель-Сортировочный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Хозяйственная улица, 4А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.440194,30.964859"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

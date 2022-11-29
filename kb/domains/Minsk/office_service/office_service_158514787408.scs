@@ -1,0 +1,26 @@
+ concept_office_service_158514787408
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["МастерМилк"]
+	(* <- lang_ru;; <- name;;*);
+    ["МастерМилк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Долгиновский тракт, 150"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 355-23-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.954138,27.547013"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

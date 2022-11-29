@@ -1,0 +1,26 @@
+ concept_bus_stop_36497343586
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["ПО Витебсклес"]
+	(* <- lang_ru;; <- name;;*);
+    ["ПО Витебсклес"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Ленинградская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.212204,30.139562"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

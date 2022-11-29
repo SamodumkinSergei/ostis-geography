@@ -1,0 +1,26 @@
+ concept_bus_stop_225702695254
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Дом быта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дом быта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, проспект Рокоссовского"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873011,27.597685"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

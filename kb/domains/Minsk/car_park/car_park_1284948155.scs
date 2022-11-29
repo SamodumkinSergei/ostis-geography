@@ -1,0 +1,26 @@
+ concept_car_park_1284948155
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автостоянка Минскремстрой"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостоянка Минскремстрой"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Железнодорожная улица, 21А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 219-07-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.875039,27.508022"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mrs.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

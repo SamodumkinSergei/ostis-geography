@@ -1,0 +1,26 @@
+ concept_furniture_store_1173831023
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Эра"]
+	(* <- lang_ru;; <- name;;*);
+    ["Эра"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Черняховского, 35, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 696-30-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 12:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.170534,30.197384"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mebelera.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

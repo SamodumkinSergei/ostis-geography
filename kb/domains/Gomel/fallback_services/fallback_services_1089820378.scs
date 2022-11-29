@@ -1,0 +1,26 @@
+ concept_fallback_services_1089820378
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гомельское отделение Белорусской железной дороги"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельское отделение Белорусской железной дороги"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Ветковская улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 295-33-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.435457,30.999106"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gomel.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

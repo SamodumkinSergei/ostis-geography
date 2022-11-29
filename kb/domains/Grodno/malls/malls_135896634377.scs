@@ -1,0 +1,26 @@
+ concept_malls_135896634377
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Oz"]
+	(* <- lang_ru;; <- name;;*);
+    ["Oz"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Дубко, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 695-25-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–21:00; пт,сб 10:00–22:00; вс 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.701917,23.833278"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://oz.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

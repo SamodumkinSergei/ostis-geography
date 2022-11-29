@@ -1,0 +1,26 @@
+ concept_hairdressers_1375606022
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Парикмахерская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парикмахерская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Московская улица, 7А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 377-57-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср-вс 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.889018,27.540357"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_library_1053410284
+ <- concept_library;
+=>nrel_main_idtf:
+	["Библиотека-филиал № 3 им. Е. Р. Романова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Библиотека-филиал № 3 им. Е. Р. Романова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 236-26-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.390727,31.030149"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gorbibl.gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

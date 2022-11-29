@@ -1,0 +1,26 @@
+ concept_restaurants_141332315677
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Pozzi Brest"]
+	(* <- lang_ru;; <- name;;*);
+    ["Pozzi Brest"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Бретань, Финистер, Округ Брест, Плузане, Rue de Brest, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 7 67 74 70 01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["48.369577,-4.587058"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.pozzi-pizzeria.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

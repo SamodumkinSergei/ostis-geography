@@ -1,0 +1,26 @@
+ concept_concert_hall_199550135873
+ <- concept_concert_hall;
+=>nrel_main_idtf:
+	["Jagger karaoke project"]
+	(* <- lang_ru;; <- name;;*);
+    ["Jagger karaoke project"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Достоевского, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 830-03-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–00:00; пт,сб 12:00–04:00; вс 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.386821,31.022656"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bulldogbox.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

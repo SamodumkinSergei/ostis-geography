@@ -1,0 +1,26 @@
+ concept_medicine_1073474280
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городская больница скорой неотложной медицинской помощи, приемное отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская больница скорой неотложной медицинской помощи, приемное отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Боткина, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 229-16-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897358,30.344531"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mgbsmp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_hairdressers_1004324566
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Светская львица"]
+	(* <- lang_ru;; <- name;;*);
+    ["Светская львица"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Богдана Хмельницкого, 108к3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 147-65-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.408074,30.979507"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_government_1216629095
+ <- concept_government;
+=>nrel_main_idtf:
+	["Суд Ленинского района г. Гродно"]
+	(* <- lang_ru;; <- name;;*);
+    ["Суд Ленинского района г. Гродно"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Доватора, 2/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 241-41-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.692498,23.834459"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://court.gov.by/ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

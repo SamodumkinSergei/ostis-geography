@@ -1,0 +1,26 @@
+ concept_bus_stop_192559685047
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Пригородная"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пригородная"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Пригородная улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.099234,23.659332"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

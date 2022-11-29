@@ -1,0 +1,26 @@
+ concept_car_park_1133850330
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Парковка БОАМЛ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парковка БОАМЛ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Дзержинского, 100"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 241-25-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 05:00–00:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.710219,23.836261"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

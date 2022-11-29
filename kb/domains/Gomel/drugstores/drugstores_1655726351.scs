@@ -1,0 +1,26 @@
+ concept_drugstores_1655726351
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["ADEL"]
+	(* <- lang_ru;; <- name;;*);
+    ["ADEL"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Речицкий проспект, 61к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 683-87-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб,вс 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.408982,30.932604"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://apteka-adel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_clothes_shop_140759098567
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Одежка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Одежка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Рокоссовского, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.059486,23.737341"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

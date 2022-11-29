@@ -1,0 +1,26 @@
+ concept_post_office_150454877648
+ <- concept_post_office;
+=>nrel_main_idtf:
+	["Пункт почтовой связи Витебск 210033"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пункт почтовой связи Витебск 210033"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Лазо, 118, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 261-66-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 10:30–17:30, перерыв 13:00–14:00; сб 11:00–15:00, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.201025,30.266408"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belpost.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

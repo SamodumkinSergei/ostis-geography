@@ -1,0 +1,26 @@
+ concept_kindergarten_1004123708
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Детский сад-начальная школа № 1 г. Бреста"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский сад-начальная школа № 1 г. Бреста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Луцкая улица, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 235-15-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.077682,23.745655"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://upk1brest.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

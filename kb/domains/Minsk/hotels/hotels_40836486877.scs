@@ -1,0 +1,26 @@
+ concept_hotels_40836486877
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Усадьба Дом в Лядах"]
+	(* <- lang_ru;; <- name;;*);
+    ["Усадьба Дом в Лядах"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Смолевичский район, Озерицко-Слободской сельсовет, деревня Ляды, 1-й Первомайский переулок, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 610-12-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.059013,27.80761"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://domvlyadah.wordpress.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

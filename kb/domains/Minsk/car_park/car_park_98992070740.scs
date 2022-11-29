@@ -1,0 +1,26 @@
+ concept_car_park_98992070740
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автомобильная парковка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автомобильная парковка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.933135,27.458004"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

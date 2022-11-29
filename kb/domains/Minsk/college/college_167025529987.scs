@@ -1,0 +1,26 @@
+ concept_college_167025529987
+ <- concept_college;
+=>nrel_main_idtf:
+	["ImproviNation Minsk"]
+	(* <- lang_ru;; <- name;;*);
+    ["ImproviNation Minsk"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Веры Хоружей, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 563-37-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.922029,27.566583"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://impro.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

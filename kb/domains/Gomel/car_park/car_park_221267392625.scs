@@ -1,0 +1,26 @@
+ concept_car_park_221267392625
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автостоянка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостоянка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Центральный район, улица Мазурова, 131А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 399-21-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.457458,31.033489"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

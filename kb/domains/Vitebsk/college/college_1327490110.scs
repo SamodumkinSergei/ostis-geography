@@ -1,0 +1,26 @@
+ concept_college_1327490110
+ <- concept_college;
+=>nrel_main_idtf:
+	["Древо знаний"]
+	(* <- lang_ru;; <- name;;*);
+    ["Древо знаний"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Замковая улица, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 549-01-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.193083,30.204689"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitebsk.uchi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

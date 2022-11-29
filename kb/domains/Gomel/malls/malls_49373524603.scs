@@ -1,0 +1,26 @@
+ concept_malls_49373524603
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Сантехлиния"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сантехлиния"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Речицкий проспект, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 113-45-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,ср,чт,пт,сб,вс 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.407055,30.931663"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://santeh-l.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

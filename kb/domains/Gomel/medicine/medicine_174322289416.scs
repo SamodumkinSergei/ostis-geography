@@ -1,0 +1,26 @@
+ concept_medicine_174322289416
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гомельская городская клиническая больница скорой медицинской помощи, корпус № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельская городская клиническая больница скорой медицинской помощи, корпус № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Комиссарова, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 229-63-97"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.417357,31.011709"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://uggbsmp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

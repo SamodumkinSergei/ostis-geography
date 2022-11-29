@@ -1,0 +1,26 @@
+ concept_cafe_1185708657
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Лондон"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лондон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 51"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 553-00-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.879576,27.608787"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

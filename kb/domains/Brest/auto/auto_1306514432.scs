@@ -1,0 +1,26 @@
+ concept_auto_1306514432
+ <- concept_auto;
+=>nrel_main_idtf:
+	["ВоркСервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["ВоркСервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Лейтенанта Рябцева, 39Д"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 228-05-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.141525,23.681649"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

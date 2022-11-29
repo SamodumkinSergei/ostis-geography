@@ -1,0 +1,26 @@
+ concept_malls_1124569778
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Электросила"]
+	(* <- lang_ru;; <- name;;*);
+    ["Электросила"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Дубко, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 509-30-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–21:00; пт,сб 10:00–22:00; вс 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.701903,23.834203"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sila.by/?utm_campaign=Grodno_Dybko_17&utm_medium=maps&utm_source=yandex"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

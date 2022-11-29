@@ -1,0 +1,26 @@
+ concept_malls_197426331281
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Е-сити"]
+	(* <- lang_ru;; <- name;;*);
+    ["Е-сити"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Гагарина, 79"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 278-41-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.880506,30.317139"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ecity.evroopt.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

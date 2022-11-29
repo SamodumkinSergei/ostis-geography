@@ -1,0 +1,26 @@
+ concept_government_1292328884
+ <- concept_government;
+=>nrel_main_idtf:
+	["Гомельский городской учебно-методический кабинет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский городской учебно-методический кабинет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Ленина, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 221-22-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.424098,31.010438"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gomelumk.guo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

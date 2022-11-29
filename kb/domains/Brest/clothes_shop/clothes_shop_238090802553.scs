@@ -1,0 +1,26 @@
+ concept_clothes_shop_238090802553
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Olegran"]
+	(* <- lang_ru;; <- name;;*);
+    ["Olegran"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Карьерная улица, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 623-00-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.068092,23.755495"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.olegran.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

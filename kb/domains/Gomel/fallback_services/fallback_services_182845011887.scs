@@ -1,0 +1,26 @@
+ concept_fallback_services_182845011887
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Грузоподъемсервис групп"]
+	(* <- lang_ru;; <- name;;*);
+    ["Грузоподъемсервис групп"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Могилёвская улица, 19Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 681-98-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:00–17:00; пт 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.460769,30.917652"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gpservis.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

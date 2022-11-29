@@ -1,0 +1,26 @@
+ concept_mobile_phones_1227944237
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Chipmaster.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Chipmaster.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сапёров, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 120-51-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–19:00; пт 12:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.923319,27.517509"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://chipmaster.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

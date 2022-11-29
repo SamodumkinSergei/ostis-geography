@@ -1,0 +1,26 @@
+ concept_college_1013496689
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 17 г. Бреста"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 17 г. Бреста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Северная улица, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 252-63-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.109963,23.679055"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sch17.brestgoo.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

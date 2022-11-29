@@ -1,0 +1,26 @@
+ concept_kindergarten_1000568399
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 110 г. Могилёва"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 110 г. Могилёва"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Кедровая улица, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 273-80-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 08:00–17:00, перерыв 13:00–14:00; вт 11:00–20:00, перерыв 13:00–14:00; ср-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.914437,30.351535"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sad110mogilev.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

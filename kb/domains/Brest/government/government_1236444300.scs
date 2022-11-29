@@ -1,0 +1,26 @@
+ concept_government_1236444300
+ <- concept_government;
+=>nrel_main_idtf:
+	["Брестское котельное хозяйство"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестское котельное хозяйство"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Фортечная улица, 111, подъезд 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 245-48-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:00–17:00, перерыв 12:00–12:45; пт 08:00–15:45, перерыв 12:00–12:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.118928,23.685308"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bkh.brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

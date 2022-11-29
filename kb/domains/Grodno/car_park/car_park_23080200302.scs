@@ -1,0 +1,26 @@
+ concept_car_park_23080200302
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автостоянка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостоянка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Лиможа, 55"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 674-08-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 05:00–01:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.71652,23.850606"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://5-automobile-storage-facility.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_tailor_1102142098
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Ремонт одежды, обуви"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт одежды, обуви"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кунцевщина, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 270-04-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.913298,27.440235"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_baby_shop_121660060378
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Магазин Все детям"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин Все детям"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Тростенецкая улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 702-30-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.882508,27.581118"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vsedetyam.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

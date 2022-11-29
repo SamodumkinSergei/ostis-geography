@@ -1,0 +1,26 @@
+ concept_fallback_services_120112995187
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Champion"]
+	(* <- lang_ru;; <- name;;*);
+    ["Champion"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Ольги Соломовой, 42"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 620-28-28"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.670247,23.792018"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ilkevich2001.wixsite.com/champion"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

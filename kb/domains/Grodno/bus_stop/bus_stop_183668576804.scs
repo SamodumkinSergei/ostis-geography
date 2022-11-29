@@ -1,0 +1,26 @@
+ concept_bus_stop_183668576804
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Гостиница Турист"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гостиница Турист"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Янки Купалы"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.654894,23.84797"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

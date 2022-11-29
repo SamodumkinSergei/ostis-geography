@@ -1,0 +1,26 @@
+ concept_hypermarket_1083893822
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Дары"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дары"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёвский район, Подгорьевский сельсовет, деревня Дары, Полевая улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 645-63-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–17:00; сб 07:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.84945,30.470441"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

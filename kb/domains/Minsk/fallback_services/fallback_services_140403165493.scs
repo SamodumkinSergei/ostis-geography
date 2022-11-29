@@ -1,0 +1,26 @@
+ concept_fallback_services_140403165493
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Naveki"]
+	(* <- lang_ru;; <- name;;*);
+    ["Naveki"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Мозырская улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 769-20-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.933715,27.549328"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://naveki.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

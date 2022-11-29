@@ -1,0 +1,26 @@
+ concept_drugstores_78624250444
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Белфармация аптека № 106 пятой категории"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белфармация аптека № 106 пятой категории"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Иосифа Жиновича, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 260-34-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:30–20:00; сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.92316,27.44279"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

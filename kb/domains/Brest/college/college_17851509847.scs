@@ -1,0 +1,26 @@
+ concept_college_17851509847
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГУ Территориальный центр социального обслуживания населения Ленинского района города Бреста"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУ Территориальный центр социального обслуживания населения Ленинского района города Бреста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Советская улица, 53"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 295-83-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.092129,23.693171"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://soc.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

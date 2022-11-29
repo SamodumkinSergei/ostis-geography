@@ -1,0 +1,26 @@
+ concept_office_service_137872762850
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["ЧТУП ПаркетМастер"]
+	(* <- lang_ru;; <- name;;*);
+    ["ЧТУП ПаркетМастер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 762-22-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.888066,27.520486"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.parketm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

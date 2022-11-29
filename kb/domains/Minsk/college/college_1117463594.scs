@@ -1,0 +1,26 @@
+ concept_college_1117463594
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минский государственный медицинский колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский государственный медицинский колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Долгобродская улица, 41/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 235-25-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.886378,27.619505"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://msmc.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

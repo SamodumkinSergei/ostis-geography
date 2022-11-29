@@ -1,0 +1,26 @@
+ concept_college_47995700607
+ <- concept_college;
+=>nrel_main_idtf:
+	["Белорусский государственный университет физической культуры"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусский государственный университет физической культуры"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 105"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 373-30-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.935923,27.489615"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.sportedu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

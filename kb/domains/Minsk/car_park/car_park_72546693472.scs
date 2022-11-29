@@ -1,0 +1,26 @@
+ concept_car_park_72546693472
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автостоянка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостоянка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Алтайская улица, 110"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 903-01-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 05:00–00:00, перерывы 11:00–11:30, 14:30–15:30, 21:00–21:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873872,27.67145"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

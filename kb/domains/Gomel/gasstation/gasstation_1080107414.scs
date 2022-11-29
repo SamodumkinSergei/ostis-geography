@@ -1,0 +1,26 @@
+ concept_gasstation_1080107414
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Газпром Трансгаз Беларусь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Газпром Трансгаз Беларусь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, 1-я Витебская улица, 78А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 233-89-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.485749,31.01097"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://metan.by/ecogas-map/agnks_gomel2"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

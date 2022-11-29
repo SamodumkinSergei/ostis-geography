@@ -1,0 +1,26 @@
+ concept_drugstores_216352009182
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Nasze Apteki"]
+	(* <- lang_ru;; <- name;;*);
+    ["Nasze Apteki"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Люблинское воеводство, повят Бяльский, Тересполь, улица Войска Польского, 81-83"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.070279,23.603593"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

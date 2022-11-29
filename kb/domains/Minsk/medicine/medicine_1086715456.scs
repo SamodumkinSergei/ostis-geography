@@ -1,0 +1,26 @@
+ concept_medicine_1086715456
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["20-я Городская Детская поликлиника"]
+	(* <- lang_ru;; <- name;;*);
+    ["20-я Городская Детская поликлиника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ольшевского, 29, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 368-61-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916141,27.502003"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.20gdp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

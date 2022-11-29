@@ -1,0 +1,26 @@
+ concept_supermarket_18928857279
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Светофор"]
+	(* <- lang_ru;; <- name;;*);
+    ["Светофор"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, переулок Козлова, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 978-69-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897558,27.600972"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://svetoforbel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

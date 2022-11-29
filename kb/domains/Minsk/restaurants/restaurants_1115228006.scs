@@ -1,0 +1,26 @@
+ concept_restaurants_1115228006
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["У фонтана"]
+	(* <- lang_ru;; <- name;;*);
+    ["У фонтана"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Амураторская улица, 4/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 203-58-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910817,27.529782"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.ufontanarest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

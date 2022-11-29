@@ -1,0 +1,26 @@
+ concept_hairdressers_1028536587
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Новый стиль"]
+	(* <- lang_ru;; <- name;;*);
+    ["Новый стиль"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, микрорайон Зелёный Луг, микрорайон Зелёный Луг-5, улица Карбышева, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 324-84-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.951753,27.635215"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

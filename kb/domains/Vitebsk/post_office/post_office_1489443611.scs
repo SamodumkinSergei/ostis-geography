@@ -1,0 +1,26 @@
+ concept_post_office_1489443611
+ <- concept_post_office;
+=>nrel_main_idtf:
+	["Отделение почтовой связи Витебск 210039"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отделение почтовой связи Витебск 210039"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Медицинская улица, 4В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 261-67-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.153937,30.220496"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belpost.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

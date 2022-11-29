@@ -1,0 +1,26 @@
+ concept_car_park_22696899840
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автомобильная парковка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автомобильная парковка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московский район, Восточная промзона"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.094178,23.734036"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

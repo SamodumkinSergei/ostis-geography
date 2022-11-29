@@ -1,0 +1,26 @@
+ concept_college_1251270254
+ <- concept_college;
+=>nrel_main_idtf:
+	["Урицкая средняя школа"]
+	(* <- lang_ru;; <- name;;*);
+    ["Урицкая средняя школа"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельский район, агрогородок Урицкое, Тенистая улица, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 298-51-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.468584,30.815201"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://shuritskoe.gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_fast_food_102822279715
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Пирожковая кофейня"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пирожковая кофейня"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Быховская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.894241,30.324137"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

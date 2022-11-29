@@ -1,0 +1,26 @@
+ concept_bus_stop_151017736629
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Маршала Лосика"]
+	(* <- lang_ru;; <- name;;*);
+    ["Маршала Лосика"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Маршала Лосика"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873953,27.443872"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

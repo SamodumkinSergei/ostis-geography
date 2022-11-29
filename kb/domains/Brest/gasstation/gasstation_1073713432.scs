@@ -1,0 +1,26 @@
+ concept_gasstation_1073713432
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Белоруснефть"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белоруснефть"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Героев Обороны Брестской Крепости, 3В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 250-76-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.096378,23.678111"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://azs.belorusneft.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

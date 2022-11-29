@@ -1,0 +1,26 @@
+ concept_bus_stop_52592336107
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Леонида Беды"]
+	(* <- lang_ru;; <- name;;*);
+    ["Леонида Беды"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Некрасова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.932447,27.590985"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

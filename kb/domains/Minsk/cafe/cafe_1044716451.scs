@@ -1,0 +1,26 @@
+ concept_cafe_1044716451
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Спадчына"]
+	(* <- lang_ru;; <- name;;*);
+    ["Спадчына"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 23, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 306-45-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:00–17:00; пт 11:00–23:00; сб 15:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911145,27.542578"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://focsport.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

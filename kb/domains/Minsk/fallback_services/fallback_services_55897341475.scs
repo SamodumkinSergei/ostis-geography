@@ -1,0 +1,26 @@
+ concept_fallback_services_55897341475
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["ТДпринт - Картриджи, канцтовары, бумага"]
+	(* <- lang_ru;; <- name;;*);
+    ["ТДпринт - Картриджи, канцтовары, бумага"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Руссиянова, 3/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 269-63-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.940711,27.685439"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://tdprint.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

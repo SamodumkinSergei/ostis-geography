@@ -1,0 +1,26 @@
+ concept_bus_stop_30497480781
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Остановка общественного транспорта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Остановка общественного транспорта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Ленинский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.921097,30.351224"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_software_1119796704
+ <- concept_software;
+=>nrel_main_idtf:
+	["ЮКОЛА-ИНФО-Брест"]
+	(* <- lang_ru;; <- name;;*);
+    ["ЮКОЛА-ИНФО-Брест"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 332/3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 823-44-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.101275,23.760368"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.1soft.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

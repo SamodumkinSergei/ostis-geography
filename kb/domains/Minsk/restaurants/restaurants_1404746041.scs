@@ -1,0 +1,26 @@
+ concept_restaurants_1404746041
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Сундук"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сундук"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кнорина, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 627-26-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["чт 10:00–02:00; пт,сб 10:00–00:00; вс 10:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.930394,27.60897"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

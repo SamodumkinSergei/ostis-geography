@@ -1,0 +1,26 @@
+ concept_supermarket_1233811910
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Марцiн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Марцiн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Барыкина, 143"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 223-01-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.419804,30.968076"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

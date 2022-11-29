@@ -1,0 +1,26 @@
+ concept_tailor_124322364909
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Ремонт обуви"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт обуви"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Михася Лынькова, 77"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 878-84-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.928523,27.47439"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

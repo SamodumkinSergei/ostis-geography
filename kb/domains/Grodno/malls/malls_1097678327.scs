@@ -1,0 +1,26 @@
+ concept_malls_1097678327
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Товары для дома магазин № 1 Ясень"]
+	(* <- lang_ru;; <- name;;*);
+    ["Товары для дома магазин № 1 Ясень"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Врублевского, 44Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 243-42-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 09:00–17:00; вс 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.701697,23.805688"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://yasen.015.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

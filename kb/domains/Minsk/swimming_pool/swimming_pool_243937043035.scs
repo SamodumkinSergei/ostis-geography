@@ -1,0 +1,26 @@
+ concept_swimming_pool_243937043035
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Фристайл"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фристайл"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурганова, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 357-97-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 15:00–22:00; сб,вс 11:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.918798,27.605869"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.free-style.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

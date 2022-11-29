@@ -1,0 +1,26 @@
+ concept_restaurants_203965813280
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Anna Dom Weselny, Ranizow"]
+	(* <- lang_ru;; <- name;;*);
+    ["Anna Dom Weselny, Ranizow"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Люблинское воеводство, повят Бяльский, Тересполь, Солнечная улица, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+48  509 86 70 11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.073974,23.621281"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://domweselnyranizow.pl/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

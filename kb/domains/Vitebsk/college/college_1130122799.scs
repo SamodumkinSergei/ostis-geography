@@ -1,0 +1,26 @@
+ concept_college_1130122799
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 38"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 38"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 45А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 263-49-28"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.175169,30.237631"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sch38.pervroo-vitebsk.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_kindergarten_1267743767
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 203"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 203"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Толбухина, 14А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 326-16-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.930306,27.612567"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu203.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

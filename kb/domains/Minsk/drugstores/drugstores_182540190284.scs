@@ -1,0 +1,26 @@
+ concept_drugstores_182540190284
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Белфармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белфармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, проспект Рокоссовского, 134-2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 399-03-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.854277,27.604254"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

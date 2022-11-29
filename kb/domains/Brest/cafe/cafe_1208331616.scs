@@ -1,0 +1,26 @@
+ concept_cafe_1208331616
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Буфет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Буфет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, микрорайон Киевка, 2-й Минский переулок, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 226-50-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.097011,23.709471"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

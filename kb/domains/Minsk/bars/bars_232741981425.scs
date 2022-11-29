@@ -1,0 +1,26 @@
+ concept_bars_232741981425
+ <- concept_bars;
+=>nrel_main_idtf:
+	["Фабрика"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фабрика"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Машерова, 11, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 569-86-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 17:00–23:00; пт,сб 17:00–06:00; вс 17:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.915131,27.5686"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://taplink.cc/emofactory.minsk"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

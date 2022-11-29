@@ -1,0 +1,26 @@
+ concept_currency_exchange_5302109590
+ <- concept_currency_exchange;
+=>nrel_main_idtf:
+	["Приорбанк, банкомат"]
+	(* <- lang_ru;; <- name;;*);
+    ["Приорбанк, банкомат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 85"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 289-92-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–00:00; сб 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.196748,30.266401"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.priorbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

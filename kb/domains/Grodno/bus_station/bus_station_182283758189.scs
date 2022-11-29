@@ -1,0 +1,26 @@
+ concept_bus_station_182283758189
+ <- concept_bus_station;
+=>nrel_main_idtf:
+	["Пассажирский терминал Тринити"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пассажирский терминал Тринити"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Янки Купалы, 87"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 588-88-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.649997,23.856798"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

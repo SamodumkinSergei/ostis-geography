@@ -1,0 +1,26 @@
+ concept_hotels_1263608872
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Журавинка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Журавинка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Янки Купалы, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 328-69-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905397,27.561023"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

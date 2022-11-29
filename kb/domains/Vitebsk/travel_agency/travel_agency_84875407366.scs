@@ -1,0 +1,26 @@
+ concept_travel_agency_84875407366
+ <- concept_travel_agency;
+=>nrel_main_idtf:
+	["Порт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Порт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Максима Горького, 200А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 842-77-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.162109,30.109682"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://port-vitebsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

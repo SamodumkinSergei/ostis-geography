@@ -1,0 +1,26 @@
+ concept_office_service_127432588529
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Витебская база хранения медицинской техники и имущества"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебская база хранения медицинской техники и имущества"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Воинов-Интернационалистов, 37, корп. 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 236-08-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.158979,30.226853"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vituzo.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

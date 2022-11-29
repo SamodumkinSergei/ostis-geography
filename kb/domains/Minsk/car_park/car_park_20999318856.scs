@@ -1,0 +1,26 @@
+ concept_car_park_20999318856
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Паркинг ФОК Серебрянка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Паркинг ФОК Серебрянка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, проспект Рокоссовского, 44"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 505-65-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.866032,27.590877"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

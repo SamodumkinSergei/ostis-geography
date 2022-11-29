@@ -1,0 +1,26 @@
+ concept_college_1388699244
+ <- concept_college;
+=>nrel_main_idtf:
+	["Факультет журналистики БГУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Факультет журналистики БГУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Кальварийская улица, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 259-74-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00, перерыв 13:00–14:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905578,27.532751"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://journ.bsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

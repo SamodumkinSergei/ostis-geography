@@ -1,0 +1,26 @@
+ concept_clothes_shop_213446235793
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Секонд-хенд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Секонд-хенд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Веры Хоружей, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 672-72-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.9184,27.579356"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_restaurants_148070819364
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["River"]
+	(* <- lang_ru;; <- name;;*);
+    ["River"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Рамат-ха-Шарон, Соколов, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+972 3 609 9909"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["32.14192,34.836586"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://river-bar.co.il/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

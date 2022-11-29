@@ -1,0 +1,26 @@
+ concept_drugstores_120436969262
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Белфармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белфармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Нарочанская улица, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 236-06-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.932586,27.480656"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

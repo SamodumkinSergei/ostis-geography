@@ -1,0 +1,26 @@
+ concept_furniture_store_229713707084
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["DomWell"]
+	(* <- lang_ru;; <- name;;*);
+    ["DomWell"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Генерала Белобородова, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 891-91-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.182552,30.200397"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://domwell.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

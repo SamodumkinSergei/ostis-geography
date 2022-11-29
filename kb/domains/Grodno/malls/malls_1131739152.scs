@@ -1,0 +1,26 @@
+ concept_malls_1131739152
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Колоритстрой"]
+	(* <- lang_ru;; <- name;;*);
+    ["Колоритстрой"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Ольги Соломовой, 137"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 586-97-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–16:00; вс 11:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.659035,23.780941"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://plitkagrodno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

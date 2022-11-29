@@ -1,0 +1,26 @@
+ concept_cafe_1022857030
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Столовая БГАТУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столовая БГАТУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 99, корп. 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 272-02-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.92726,27.620624"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

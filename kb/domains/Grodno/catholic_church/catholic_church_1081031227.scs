@@ -1,0 +1,26 @@
+ concept_catholic_church_1081031227
+ <- concept_catholic_church;
+=>nrel_main_idtf:
+	["Костёл святого Франтишка Ксаверия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Костёл святого Франтишка Ксаверия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Советская площадь, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 274-36-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 07:00–20:00; вс 07:00–21:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.678212,23.831142"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://katedra-grodno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

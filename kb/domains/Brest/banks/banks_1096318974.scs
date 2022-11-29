@@ -1,0 +1,26 @@
+ concept_banks_1096318974
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Беларусбанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Беларусбанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Стафеева, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 218-84-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.102747,23.786787"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://belarusbank.by/ru/33139/33142/structure/search_filials/~Otdelenie_100_1021"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

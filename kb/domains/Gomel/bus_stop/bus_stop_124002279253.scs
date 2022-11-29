@@ -1,0 +1,26 @@
+ concept_bus_stop_124002279253
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["По требованию"]
+	(* <- lang_ru;; <- name;;*);
+    ["По требованию"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Якубовка, Полевая улица, 86"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.415239,31.026418"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

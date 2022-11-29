@@ -1,0 +1,26 @@
+ concept_bus_stop_78261627203
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Кинотеатр Киев"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кинотеатр Киев"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, бульвар Шевченко, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.928934,27.556965"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

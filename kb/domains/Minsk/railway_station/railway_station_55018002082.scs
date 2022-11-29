@@ -1,0 +1,26 @@
+ concept_railway_station_55018002082
+ <- concept_railway_station;
+=>nrel_main_idtf:
+	["Станция Минск-Восточный, приемосдатчики"]
+	(* <- lang_ru;; <- name;;*);
+    ["Станция Минск-Восточный, приемосдатчики"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 239-25-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:30–12:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.891873,27.586886"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

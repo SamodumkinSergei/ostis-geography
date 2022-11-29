@@ -1,0 +1,26 @@
+ concept_banks_6874664822
+ <- concept_banks;
+=>nrel_main_idtf:
+	["МТБАНК"]
+	(* <- lang_ru;; <- name;;*);
+    ["МТБАНК"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 150А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 509-99-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.859604,27.673991"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.mtbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

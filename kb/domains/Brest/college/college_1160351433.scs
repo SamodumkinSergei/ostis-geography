@@ -1,0 +1,26 @@
+ concept_college_1160351433
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 15"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 15"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Машерова, 55"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 220-24-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–20:00; сб 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.087149,23.706301"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://15brest.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

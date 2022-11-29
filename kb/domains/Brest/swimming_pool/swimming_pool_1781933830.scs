@@ -1,0 +1,26 @@
+ concept_swimming_pool_1781933830
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Брестский областной центр олимпийского резерва по гребле"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестский областной центр олимпийского резерва по гребле"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Октябрьской Революции, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 796-10-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:45; сб,вс 08:00–20:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.081934,23.740301"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rowingbrest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

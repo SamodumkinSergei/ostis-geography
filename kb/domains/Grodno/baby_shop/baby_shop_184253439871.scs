@@ -1,0 +1,26 @@
+ concept_baby_shop_184253439871
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Игрушки, сувениры"]
+	(* <- lang_ru;; <- name;;*);
+    ["Игрушки, сувениры"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Максима Горького, 91"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 782-90-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.71084,23.815992"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

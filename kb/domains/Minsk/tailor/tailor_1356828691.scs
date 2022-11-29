@@ -1,0 +1,26 @@
+ concept_tailor_1356828691
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Пирс сервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пирс сервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Московский район, Брилевичи-1, улица Наполеона Орды, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 372-30-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.844277,27.482479"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

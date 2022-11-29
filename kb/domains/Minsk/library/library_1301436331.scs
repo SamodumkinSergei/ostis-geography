@@ -1,0 +1,26 @@
+ concept_library_1301436331
+ <- concept_library;
+=>nrel_main_idtf:
+	["Научная библиотека БНТУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Научная библиотека БНТУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Якуба Коласа, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 296-66-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 09:00–16:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.92247,27.590541"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bntu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

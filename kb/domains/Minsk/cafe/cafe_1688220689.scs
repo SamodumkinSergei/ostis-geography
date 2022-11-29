@@ -1,0 +1,26 @@
+ concept_cafe_1688220689
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Дэпо № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дэпо № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Зыбицкая улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 635-39-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–22:00; пт,сб 10:00–23:00; вс 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90632,27.557294"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

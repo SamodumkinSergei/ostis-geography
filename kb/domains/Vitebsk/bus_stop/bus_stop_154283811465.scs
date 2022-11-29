@@ -1,0 +1,26 @@
+ concept_bus_stop_154283811465
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Магистральная"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магистральная"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица 33-й Армии"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.168978,30.296126"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

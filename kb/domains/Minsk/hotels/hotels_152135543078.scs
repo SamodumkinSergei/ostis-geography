@@ -1,0 +1,26 @@
+ concept_hotels_152135543078
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Гостевой дом на Площади Победы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гостевой дом на Площади Победы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Козлова, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 277-22-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908622,27.583191"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

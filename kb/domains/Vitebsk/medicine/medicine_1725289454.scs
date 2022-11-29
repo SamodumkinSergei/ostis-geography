@@ -1,0 +1,26 @@
+ concept_medicine_1725289454
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["ОГБУЗ Иркутская поликлиника Р. П. Маркова"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОГБУЗ Иркутская поликлиника Р. П. Маркова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Иркутский район, рабочий посёлок Маркова, Луговая улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (3952) 48-06-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:15–20:00, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.255204,104.181798"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://crbirk.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

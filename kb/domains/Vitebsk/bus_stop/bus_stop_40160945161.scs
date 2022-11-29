@@ -1,0 +1,26 @@
+ concept_bus_stop_40160945161
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Замковая улица"]
+	(* <- lang_ru;; <- name;;*);
+    ["Замковая улица"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Замковая улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.192772,30.203517"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

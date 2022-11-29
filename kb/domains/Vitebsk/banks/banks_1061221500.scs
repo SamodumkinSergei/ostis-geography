@@ -1,0 +1,26 @@
+ concept_banks_1061221500
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Сбер Банк, отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сбер Банк, отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебская область, Полоцк, улица Ленина, 15А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 514-81-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.48781,28.77133"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.sber-bank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_police_61538398030
+ <- concept_police;
+=>nrel_main_idtf:
+	["Отдел ГАИ Ленинского РУВД города Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отдел ГАИ Ленинского РУВД города Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 253-28-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 15:00–17:00; чт 08:00–10:00; сб 09:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.884577,27.589604"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gaiminsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_cafe_228313533567
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Амели"]
+	(* <- lang_ru;; <- name;;*);
+    ["Амели"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 302-61-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:30–23:00; сб,вс 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.89017,27.524938"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.amelie-cafe.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

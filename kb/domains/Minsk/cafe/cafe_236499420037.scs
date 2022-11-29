@@ -1,0 +1,26 @@
+ concept_cafe_236499420037
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Эклер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Эклер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Румянцева, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 160-00-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–22:00; сб,вс 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908912,27.579347"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

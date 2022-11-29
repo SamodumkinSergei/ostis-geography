@@ -1,0 +1,26 @@
+ concept_college_1073511284
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гимназия № 71 г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гимназия № 71 г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Любенский, улица Зои Космодемьянской, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 235-70-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.410399,30.983694"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://school71.iam.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

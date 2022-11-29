@@ -1,0 +1,26 @@
+ concept_banks_80029198623
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Белинвестбанк, удаленное рабочее место дирекции"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белинвестбанк, удаленное рабочее место дирекции"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Максима Богдановича, 153"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 239-02-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00; сб 08:00–16:20"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.935246,27.580064"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.belinvestbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

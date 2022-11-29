@@ -1,0 +1,26 @@
+ concept_museum_1081450852
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Израильский культурный центр при Посольстве Государства Израиль в РБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Израильский культурный центр при Посольстве Государства Израиль в РБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Комсомольская улица, 12А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 220-20-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,вт,ср,чт,вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902108,27.551822"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://il4u.org.il/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_cafe_57413846439
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Muffin"]
+	(* <- lang_ru;; <- name;;*);
+    ["Muffin"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Московская улица, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 651-43-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.88798,27.53801"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://muffin.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

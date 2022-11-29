@@ -1,0 +1,26 @@
+ concept_fast_food_148315508982
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Shaw-Books"]
+	(* <- lang_ru;; <- name;;*);
+    ["Shaw-Books"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Щорса, 11А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 566-55-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.678291,23.850969"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://shaw-books.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

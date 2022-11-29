@@ -1,0 +1,26 @@
+ concept_supermarket_142397026108
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["G. N. Market"]
+	(* <- lang_ru;; <- name;;*);
+    ["G. N. Market"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Скрипникова, 60"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 642-17-71"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903263,27.425252"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

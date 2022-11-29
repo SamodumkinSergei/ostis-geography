@@ -1,0 +1,26 @@
+ concept_hotels_69420269031
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Гостиный дом"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гостиный дом"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Сторожовская улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 652-00-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910303,27.556907"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.rentminsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

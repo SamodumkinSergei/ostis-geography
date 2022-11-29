@@ -1,0 +1,26 @@
+ concept_clothes_shop_1519327273
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Эконом Сити"]
+	(* <- lang_ru;; <- name;;*);
+    ["Эконом Сити"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 119"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.851341,27.476596"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://secondhand.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

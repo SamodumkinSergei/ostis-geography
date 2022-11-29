@@ -1,0 +1,26 @@
+ concept_supermarket_197280632408
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["ДеалБелТрейд"]
+	(* <- lang_ru;; <- name;;*);
+    ["ДеалБелТрейд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Черняховского"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.178682,30.201831"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

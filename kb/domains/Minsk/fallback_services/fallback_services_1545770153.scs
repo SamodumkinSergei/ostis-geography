@@ -1,0 +1,26 @@
+ concept_fallback_services_1545770153
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["ЧТУП Щербук"]
+	(* <- lang_ru;; <- name;;*);
+    ["ЧТУП Щербук"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Бурдейного, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 672-22-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.9037,27.455129"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://scherbuk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

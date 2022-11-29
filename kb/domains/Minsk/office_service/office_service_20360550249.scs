@@ -1,0 +1,26 @@
+ concept_office_service_20360550249
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["ЖивГрупп"]
+	(* <- lang_ru;; <- name;;*);
+    ["ЖивГрупп"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Селицкого, 21М, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 598-60-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.818945,27.691701"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://zhivgroup.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

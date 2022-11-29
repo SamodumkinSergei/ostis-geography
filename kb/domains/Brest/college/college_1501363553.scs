@@ -1,0 +1,26 @@
+ concept_college_1501363553
+ <- concept_college;
+=>nrel_main_idtf:
+	["Газ-институт, Брестский филиал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Газ-институт, Брестский филиал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Шевченко, 122/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 259-29-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:00, перерыв 13:00–13:30; пт 08:30–15:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.08819,23.723117"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://brest.gazinstitut.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_petshop_212858848102
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Zoo маркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Zoo маркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пушкинский проспект, 41"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 741-14-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.87712,30.338287"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ezoo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

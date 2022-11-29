@@ -1,0 +1,26 @@
+ concept_swimming_pool_54433584020
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["ФОК"]
+	(* <- lang_ru;; <- name;;*);
+    ["ФОК"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 348/3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 229-24-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.105442,23.773868"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bfos.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

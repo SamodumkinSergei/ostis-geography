@@ -1,0 +1,26 @@
+ concept_medicine_117071327647
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Dr Joseph's Al Nahda Poly Clinic"]
+	(* <- lang_ru;; <- name;;*);
+    ["Dr Joseph's Al Nahda Poly Clinic"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["эмират Дубай, улица Амман"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+971 4 234 44 29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["25.295807,55.375998"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://jupiter-clinics.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

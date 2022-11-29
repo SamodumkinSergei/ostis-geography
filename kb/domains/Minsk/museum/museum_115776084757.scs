@@ -1,0 +1,26 @@
+ concept_museum_115776084757
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей Библии"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей Библии"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 762-08-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90249,27.563885"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.inst.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

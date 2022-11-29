@@ -1,0 +1,26 @@
+ concept_college_1351236363
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минский государственный художественный колледж имени А. К. Глебова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский государственный художественный колледж имени А. К. Глебова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петруся Бровки, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 270-09-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:45–17:15, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.91252,27.601279"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://glebovka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

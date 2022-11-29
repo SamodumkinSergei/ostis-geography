@@ -1,0 +1,26 @@
+ concept_fallback_services_190341861574
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Памятники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Лошица, улица Янки Лучины, 60"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 888-61-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.837799,27.585573"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pamytniki.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

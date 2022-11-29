@@ -1,0 +1,26 @@
+ concept_gasstation_178787835815
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["МАЗС № 5 РУП Белоруснефть-брестоблнефтепродукт"]
+	(* <- lang_ru;; <- name;;*);
+    ["МАЗС № 5 РУП Белоруснефть-брестоблнефтепродукт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Северное полукольцо"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 229-83-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.150403,23.714742"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.belorusneft.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

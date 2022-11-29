@@ -1,0 +1,26 @@
+ concept_cemetery_18999853534
+ <- concept_cemetery;
+=>nrel_main_idtf:
+	["Кладбище Восточное, администрация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кладбище Восточное, администрация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 161Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 128-13-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 13:50–17:00; вт-пт 08:00–17:00, перерыв 13:00–13:50; сб 18:00–13:00; вс 13:50–13:00, перерыв 16:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.93805,27.662414"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ritual-minsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

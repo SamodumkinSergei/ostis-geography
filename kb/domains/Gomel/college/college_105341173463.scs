@@ -1,0 +1,26 @@
+ concept_college_105341173463
+ <- concept_college;
+=>nrel_main_idtf:
+	["Белорусский торгово-экономический университет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусский торгово-экономический университет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Октября, 50/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 680-68-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.406655,30.935636"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://i-bteu.by/ru-ru/контакты.aspx"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_museum_7483455900
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Армейский клуб"]
+	(* <- lang_ru;; <- name;;*);
+    ["Армейский клуб"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, остров Северный"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 09:00–17:30, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.08379,23.661395"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.brest-fortress.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

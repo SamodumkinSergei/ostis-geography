@@ -1,0 +1,26 @@
+ concept_restaurants_71670895171
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Мимино"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мимино"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пушкинский проспект, 41/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 546-88-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,вт 13:00–23:00; ср-вс 11:00–01:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.877098,30.338498"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mimino.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_155658331224
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Гостиница Дружба"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гостиница Дружба"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, микрорайон Старые Задворцы"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.134124,23.775978"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

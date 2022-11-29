@@ -1,0 +1,26 @@
+ concept_bus_stop_216077734440
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Крушинская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Крушинская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Республики"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.096577,23.765846"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

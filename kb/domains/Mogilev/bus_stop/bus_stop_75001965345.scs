@@ -1,0 +1,26 @@
+ concept_bus_stop_75001965345
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Столярная улица"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столярная улица"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Трудовая улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.86774,30.387623"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

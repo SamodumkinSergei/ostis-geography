@@ -1,0 +1,26 @@
+ concept_college_209050854078
+ <- concept_college;
+=>nrel_main_idtf:
+	["Школа Seo"]
+	(* <- lang_ru;; <- name;;*);
+    ["Школа Seo"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Веры Хоружей, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 190-90-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917108,27.579187"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://seo-school.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

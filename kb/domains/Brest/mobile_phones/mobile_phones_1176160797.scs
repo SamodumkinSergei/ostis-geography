@@ -1,0 +1,26 @@
+ concept_mobile_phones_1176160797
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Unitel"]
+	(* <- lang_ru;; <- name;;*);
+    ["Unitel"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Куйбышева, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 747-47-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:30–18:30; сб 09:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.096784,23.691382"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://unitel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

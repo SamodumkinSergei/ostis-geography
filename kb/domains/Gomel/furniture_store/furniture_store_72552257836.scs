@@ -1,0 +1,26 @@
+ concept_furniture_store_72552257836
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Комод"]
+	(* <- lang_ru;; <- name;;*);
+    ["Комод"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Барыкина, 84"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 570-33-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.41797,30.979321"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ko-mod.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

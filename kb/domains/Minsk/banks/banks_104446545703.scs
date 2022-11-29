@@ -1,0 +1,26 @@
+ concept_banks_104446545703
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Белорусский народный банк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусский народный банк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 104Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 309-73-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.860106,27.479"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bnb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

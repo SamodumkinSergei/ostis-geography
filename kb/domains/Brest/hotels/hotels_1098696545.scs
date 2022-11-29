@@ -1,0 +1,26 @@
+ concept_hotels_1098696545
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Брестский областной центр олимпийского резерва по гребле"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестский областной центр олимпийского резерва по гребле"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Октябрьской Революции, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 232-18-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.082199,23.741454"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rowingbrest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

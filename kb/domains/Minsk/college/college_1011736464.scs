@@ -1,0 +1,26 @@
+ concept_college_1011736464
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 46"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 46"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Чижовка, улица Уборевича, 124А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 342-64-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.836746,27.634922"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch46.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

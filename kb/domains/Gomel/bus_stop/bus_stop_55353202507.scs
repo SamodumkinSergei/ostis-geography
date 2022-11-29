@@ -1,0 +1,26 @@
+ concept_bus_stop_55353202507
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Пугачёва"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Пугачёва"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, 1-я улица Луначарского"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.408061,31.036684"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

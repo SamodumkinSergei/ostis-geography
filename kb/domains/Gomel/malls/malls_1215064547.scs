@@ -1,0 +1,26 @@
+ concept_malls_1215064547
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Zund"]
+	(* <- lang_ru;; <- name;;*);
+    ["Zund"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Речицкий проспект, 5А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 240-19-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.416274,30.959363"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://zund.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_banks_227438138875
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Банк Дабрабыт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Банк Дабрабыт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Веры Хоружей, 6Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 522-21-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 10:00–19:00, перерыв 14:00–15:00; сб 10:00–17:00, перерыв 13:00–14:00; вс 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.918872,27.580068"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://bankdabrabyt.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

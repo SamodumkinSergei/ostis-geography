@@ -1,0 +1,26 @@
+ concept_office_service_243829513970
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["ВитебскПродуктСервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["ВитебскПродуктСервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 53"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.17498,30.246884"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://svetoforbel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

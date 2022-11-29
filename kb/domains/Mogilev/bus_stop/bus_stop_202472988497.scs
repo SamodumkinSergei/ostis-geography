@@ -1,0 +1,26 @@
+ concept_bus_stop_202472988497
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Берёзовская улица"]
+	(* <- lang_ru;; <- name;;*);
+    ["Берёзовская улица"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Калужская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.922707,30.358297"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

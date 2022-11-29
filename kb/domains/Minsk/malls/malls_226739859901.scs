@@ -1,0 +1,26 @@
+ concept_malls_226739859901
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Спектр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Спектр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 179"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 364-30-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.946445,27.687951"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://тцспектр.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

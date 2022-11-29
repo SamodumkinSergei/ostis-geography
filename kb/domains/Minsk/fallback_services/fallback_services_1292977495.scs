@@ -1,0 +1,26 @@
+ concept_fallback_services_1292977495
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Ритуальный магазин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ритуальный магазин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Передовая улица, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 713-17-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 10:00–12:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.899669,27.622653"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

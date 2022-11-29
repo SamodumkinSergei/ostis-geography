@@ -1,0 +1,26 @@
+ concept_restaurants_174226926917
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Marbl"]
+	(* <- lang_ru;; <- name;;*);
+    ["Marbl"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, площадь Свободы, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 688-44-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–00:00; пт,сб 12:00–02:00; вс 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904472,27.555319"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

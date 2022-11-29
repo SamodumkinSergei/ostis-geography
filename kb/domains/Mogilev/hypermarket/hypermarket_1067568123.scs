@@ -1,0 +1,26 @@
+ concept_hypermarket_1067568123
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Экабуд. бел"]
+	(* <- lang_ru;; <- name;;*);
+    ["Экабуд. бел"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Гребенёвский, улица Мелиораторов, 2/5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 305-07-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.877858,30.310421"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

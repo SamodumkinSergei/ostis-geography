@@ -1,0 +1,26 @@
+ concept_supermarket_203074690909
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Корона"]
+	(* <- lang_ru;; <- name;;*);
+    ["Корона"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Одинцова, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 322-37-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.900555,27.447079"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://korona.by/hypermarkets/shops/supermarket-korona-odincovo-20"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

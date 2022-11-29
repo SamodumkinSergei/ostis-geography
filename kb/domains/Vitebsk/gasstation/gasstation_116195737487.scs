@@ -1,0 +1,26 @@
+ concept_gasstation_116195737487
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Белоруснефть"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белоруснефть"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Лазо, 139"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 265-20-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.203882,30.270322"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://azs.belorusneft.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

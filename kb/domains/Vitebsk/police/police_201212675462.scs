@@ -1,0 +1,26 @@
+ concept_police_201212675462
+ <- concept_police;
+=>nrel_main_idtf:
+	["Управление ГАИ УВД Витебского облисполкома"]
+	(* <- lang_ru;; <- name;;*);
+    ["Управление ГАИ УВД Витебского облисполкома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 57"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 264-64-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.17245,30.249257"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitebsk.mvd.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

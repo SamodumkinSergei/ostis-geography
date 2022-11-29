@@ -1,0 +1,26 @@
+ concept_supermarket_1027056636
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["ДОРОРС"]
+	(* <- lang_ru;; <- name;;*);
+    ["ДОРОРС"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Денисовская улица, 45"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 223-87-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873465,27.577289"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dorors.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

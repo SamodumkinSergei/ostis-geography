@@ -1,0 +1,26 @@
+ concept_bus_station_1103755434
+ <- concept_bus_station;
+=>nrel_main_idtf:
+	["АС Автозаводская"]
+	(* <- lang_ru;; <- name;;*);
+    ["АС Автозаводская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 148"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 243-46-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:00–21:50"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.858076,27.676911"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.minsktrans.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

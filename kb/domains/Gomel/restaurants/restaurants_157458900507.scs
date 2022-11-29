@@ -1,0 +1,26 @@
+ concept_restaurants_157458900507
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Пицца Мастер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пицца Мастер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Октября, 41"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:30–21:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.406126,30.954555"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_drugstores_199033346068
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Минская Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минская Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, агрогородок Сеница, улица Янки Купалы, 8Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 506-12-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00; сб 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.822596,27.52293"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://minfarm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

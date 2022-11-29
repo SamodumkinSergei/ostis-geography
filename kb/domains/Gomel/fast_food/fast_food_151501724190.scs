@@ -1,0 +1,26 @@
+ concept_fast_food_151501724190
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Кафетерий"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафетерий"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Октября, 48"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.40577,30.938192"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

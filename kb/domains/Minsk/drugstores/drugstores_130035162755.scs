@@ -1,0 +1,26 @@
+ concept_drugstores_130035162755
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["НПО Фармавит"]
+	(* <- lang_ru;; <- name;;*);
+    ["НПО Фармавит"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Плеханова, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 619-20-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873552,27.625654"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://farmavit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

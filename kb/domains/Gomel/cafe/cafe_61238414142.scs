@@ -1,0 +1,26 @@
+ concept_cafe_61238414142
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кофе Саунд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кофе Саунд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 333"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 181-40-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.356748,31.027437"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://coffeesound.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

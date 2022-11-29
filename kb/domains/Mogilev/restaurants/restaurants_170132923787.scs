@@ -1,0 +1,26 @@
+ concept_restaurants_170132923787
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["De Paris"]
+	(* <- lang_ru;; <- name;;*);
+    ["De Paris"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Мира, 21А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 186-78-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 17:00–00:00; пт,сб 17:00–05:00; вс 17:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909516,30.327198"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://de-paris-restaurant.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

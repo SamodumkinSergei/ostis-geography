@@ -1,0 +1,26 @@
+ concept_gasstation_1696300526
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Газпромнефть"]
+	(* <- lang_ru;; <- name;;*);
+    ["Газпромнефть"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебский район, Летчанский сельсовет, агрогородок Кировская, Шоссейная улица, 1Д"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["8 (800) 700-51-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.18641,30.09545"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gpncard.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

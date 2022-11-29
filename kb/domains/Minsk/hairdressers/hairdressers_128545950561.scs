@@ -1,0 +1,26 @@
+ concept_hairdressers_128545950561
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Лютас"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лютас"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 40А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 186-25-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908894,27.577949"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

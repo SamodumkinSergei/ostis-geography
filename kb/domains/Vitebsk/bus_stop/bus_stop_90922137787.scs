@@ -1,0 +1,26 @@
+ concept_bus_stop_90922137787
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Кинотеатр Бригантина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кинотеатр Бригантина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чкалова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.171063,30.212278"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

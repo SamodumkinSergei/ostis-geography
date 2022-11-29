@@ -1,0 +1,26 @@
+ concept_haulier_51525580342
+ <- concept_haulier;
+=>nrel_main_idtf:
+	["7330"]
+	(* <- lang_ru;; <- name;;*);
+    ["7330"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Дзержинского, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 835-73-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.088508,23.693578"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://7330.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_furniture_store_244750686972
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["ЛВ Трейдинг"]
+	(* <- lang_ru;; <- name;;*);
+    ["ЛВ Трейдинг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ленина, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 875-36-89"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.8891,27.580683"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ergomebel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

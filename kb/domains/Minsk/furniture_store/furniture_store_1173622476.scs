@@ -1,0 +1,26 @@
+ concept_furniture_store_1173622476
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Misfero"]
+	(* <- lang_ru;; <- name;;*);
+    ["Misfero"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурганова, 61"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 300-37-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.929812,27.579681"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.misfero.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

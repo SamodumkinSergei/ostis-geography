@@ -1,0 +1,26 @@
+ concept_college_1063175976
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 140"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 140"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Глебки, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 363-03-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910981,27.473996"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sch140.minskedu.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

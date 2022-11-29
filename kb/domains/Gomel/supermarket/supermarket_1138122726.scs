@@ -1,0 +1,26 @@
+ concept_supermarket_1138122726
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Людмила"]
+	(* <- lang_ru;; <- name;;*);
+    ["Людмила"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Медицинская улица, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 250-49-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.395439,30.904401"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

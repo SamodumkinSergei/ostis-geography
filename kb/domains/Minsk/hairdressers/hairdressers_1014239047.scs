@@ -1,0 +1,26 @@
+ concept_hairdressers_1014239047
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Севильский Цирюльник"]
+	(* <- lang_ru;; <- name;;*);
+    ["Севильский Цирюльник"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Лошица, улица Янки Лучины, 60"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 397-67-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.838007,27.58592"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

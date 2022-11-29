@@ -1,0 +1,26 @@
+ concept_college_88117710012
+ <- concept_college;
+=>nrel_main_idtf:
+	["Факультет прикладной математики и информатики БГУ, кафедра технологий программирования"]
+	(* <- lang_ru;; <- name;;*);
+    ["Факультет прикладной математики и информатики БГУ, кафедра технологий программирования"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 209-52-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:15, перерыв 13:00–13:45; пт 08:30–17:00, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.894034,27.546964"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://fpmi.bsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

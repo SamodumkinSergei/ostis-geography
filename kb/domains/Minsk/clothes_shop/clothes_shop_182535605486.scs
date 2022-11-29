@@ -1,0 +1,26 @@
+ concept_clothes_shop_182535605486
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["МодаМакс"]
+	(* <- lang_ru;; <- name;;*);
+    ["МодаМакс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Дунина-Марцинкевича, 2/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 352-06-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90583,27.481773"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://modamax.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

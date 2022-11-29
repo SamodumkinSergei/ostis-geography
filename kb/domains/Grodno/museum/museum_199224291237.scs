@@ -1,0 +1,26 @@
+ concept_museum_199224291237
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Парус"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Огинского, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 348-89-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.618347,23.816378"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://parusgrodno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

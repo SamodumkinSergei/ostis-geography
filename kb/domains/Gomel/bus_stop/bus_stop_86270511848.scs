@@ -1,0 +1,26 @@
+ concept_bus_stop_86270511848
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["БелГУТ"]
+	(* <- lang_ru;; <- name;;*);
+    ["БелГУТ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Победы, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.433729,31.002419"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

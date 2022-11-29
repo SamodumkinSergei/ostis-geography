@@ -1,0 +1,26 @@
+ concept_auto_228780599673
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автотехцентр Mercedes"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автотехцентр Mercedes"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева, 68/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 203-99-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00; вс 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.922563,27.5134"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

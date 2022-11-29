@@ -1,0 +1,26 @@
+ concept_office_service_177430681039
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Tennis-shop.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Tennis-shop.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Корш-Саблина, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 160-39-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.935434,27.594386"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://tennis-shop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

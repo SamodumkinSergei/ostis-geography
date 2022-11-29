@@ -1,0 +1,26 @@
+ concept_malls_65192662024
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Nadex"]
+	(* <- lang_ru;; <- name;;*);
+    ["Nadex"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Денисовская улица, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 623-32-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.872013,27.572702"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.nadex.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

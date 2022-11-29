@@ -1,0 +1,26 @@
+ concept_bus_stop_84801766576
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Городская ветеринарная станция"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская ветеринарная станция"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Ленинский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.957913,30.321931"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

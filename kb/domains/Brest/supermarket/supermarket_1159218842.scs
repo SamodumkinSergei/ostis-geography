@@ -1,0 +1,26 @@
+ concept_supermarket_1159218842
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Продукты магазин № 54 Брестского РАЙПО"]
+	(* <- lang_ru;; <- name;;*);
+    ["Продукты магазин № 54 Брестского РАЙПО"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брестская область, Брестский район, Чернинский сельсовет, деревня Большая Курница"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.180167,23.74294"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_office_service_27148799120
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Happy Office"]
+	(* <- lang_ru;; <- name;;*);
+    ["Happy Office"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 770-14-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.932272,27.510063"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.happy-office.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

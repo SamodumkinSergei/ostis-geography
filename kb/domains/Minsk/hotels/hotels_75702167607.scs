@@ -1,0 +1,26 @@
+ concept_hotels_75702167607
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Белтаможсервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белтаможсервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Сеницкий сельсовет, 27/3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 500-92-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.811816,27.527989"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://declarant.by/ru/services/minsk"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

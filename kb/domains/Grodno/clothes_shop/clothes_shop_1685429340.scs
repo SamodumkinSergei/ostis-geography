@@ -1,0 +1,26 @@
+ concept_clothes_shop_1685429340
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Tom Tailor"]
+	(* <- lang_ru;; <- name;;*);
+    ["Tom Tailor"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Янки Купалы, 16А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 250-99-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.663364,23.833537"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://korona.by/modnyy-moll/modnyy-moll-grodno/tom-tailor"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

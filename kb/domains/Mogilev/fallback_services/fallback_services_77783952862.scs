@@ -1,0 +1,26 @@
+ concept_fallback_services_77783952862
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Могилевхимволокно"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилевхимволокно"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Челюскинцев, 105"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 222-05-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 12:30–13:18"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.889759,30.293907"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.khimvolokno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

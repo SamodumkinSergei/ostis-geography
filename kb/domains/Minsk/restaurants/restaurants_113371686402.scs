@@ -1,0 +1,26 @@
+ concept_restaurants_113371686402
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Гранде Пицца"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гранде Пицца"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Логойский тракт, 29А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 667-87-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:30–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.954155,27.61909"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.grandepizza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

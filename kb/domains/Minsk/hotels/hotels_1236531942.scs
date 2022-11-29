@@ -1,0 +1,26 @@
+ concept_hotels_1236531942
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["BonHotel"]
+	(* <- lang_ru;; <- name;;*);
+    ["BonHotel"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 586-25-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.91045,27.50617"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bonhotel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

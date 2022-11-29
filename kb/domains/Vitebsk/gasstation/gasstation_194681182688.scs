@@ -1,0 +1,26 @@
+ concept_gasstation_194681182688
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Лукойл"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лукойл"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, микрорайон Лучёса, Зеленогурская улица, 81"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 251-40-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.160744,30.172126"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.lukoil.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

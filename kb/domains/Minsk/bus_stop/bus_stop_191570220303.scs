@@ -1,0 +1,26 @@
+ concept_bus_stop_191570220303
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Алтайская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Алтайская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Алтайская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.872421,27.670315"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_auto_218287999801
+ <- concept_auto;
+=>nrel_main_idtf:
+	["ПроСТОр-авто"]
+	(* <- lang_ru;; <- name;;*);
+    ["ПроСТОр-авто"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Красногвардейская улица, 131Г"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 804-00-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.121845,23.699486"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://prostor-autoservice.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

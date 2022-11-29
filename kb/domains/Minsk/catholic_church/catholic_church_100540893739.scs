@@ -1,0 +1,26 @@
+ concept_catholic_church_100540893739
+ <- concept_catholic_church;
+=>nrel_main_idtf:
+	["Костёл Святого Духа"]
+	(* <- lang_ru;; <- name;;*);
+    ["Костёл Святого Духа"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Чижовка, проезд Голодеда, 15В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 616-08-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 18:00–20:00; сб 12:00–20:00; вс 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.837043,27.608253"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://catholic.by/3/kasciol/parishes/19-mma/3388-minsk-chyzhouka-parafiya-svyatoga-dukha"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

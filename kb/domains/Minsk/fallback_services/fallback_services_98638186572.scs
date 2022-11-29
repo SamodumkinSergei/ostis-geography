@@ -1,0 +1,26 @@
+ concept_fallback_services_98638186572
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Белокаменка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белокаменка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурганова, 88"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 744-60-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 10:00–17:00, перерыв 14:00–15:00; вт-пт 10:00–19:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.931617,27.578328"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://belokamenka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_8094958987
+ <- concept_college;
+=>nrel_main_idtf:
+	["Учебный корпус № 3 ВГТК"]
+	(* <- lang_ru;; <- name;;*);
+    ["Учебный корпус № 3 ВГТК"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Лазо, 103А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 267-75-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.200028,30.253289"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vgtk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

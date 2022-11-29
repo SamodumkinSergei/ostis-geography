@@ -1,0 +1,26 @@
+ concept_college_223617358589
+ <- concept_college;
+=>nrel_main_idtf:
+	["Образовательный центр Лидер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Образовательный центр Лидер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Куйбышева, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 735-23-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.097952,23.690024"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://lider.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

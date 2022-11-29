@@ -1,0 +1,26 @@
+ concept_supermarket_29761108184
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Фолюш"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фолюш"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Лизы Чайкиной"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 253-15-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.665947,23.78739"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

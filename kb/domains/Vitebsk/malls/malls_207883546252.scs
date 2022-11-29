@@ -1,0 +1,26 @@
+ concept_malls_207883546252
+ <- concept_malls;
+=>nrel_main_idtf:
+	["5 Элемент"]
+	(* <- lang_ru;; <- name;;*);
+    ["5 Элемент"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чкалова, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 359-59-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.162972,30.207712"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://5element.by/?utm_campaign=id_47&utm_medium=maps&utm_source=ybis"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

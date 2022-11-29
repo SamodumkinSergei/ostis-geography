@@ -1,0 +1,26 @@
+ concept_tire_fitting_192919533844
+ <- concept_tire_fitting;
+=>nrel_main_idtf:
+	["Покрышкин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Покрышкин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельская область, Ветка, улица Луначарского, 42"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 550-09-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.569451,31.164875"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://покрышкин24.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

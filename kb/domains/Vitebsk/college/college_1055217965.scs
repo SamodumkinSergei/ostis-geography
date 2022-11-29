@@ -1,0 +1,26 @@
+ concept_college_1055217965
+ <- concept_college;
+=>nrel_main_idtf:
+	["Индустриально-педагогический колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Индустриально-педагогический колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Терешковой, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 267-41-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.185342,30.246801"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vgipk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_220071429732
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Ритуальные товары и услуги"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ритуальные товары и услуги"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Островского, 1Г"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 514-25-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.871318,30.328544"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

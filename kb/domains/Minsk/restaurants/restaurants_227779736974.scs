@@ -1,0 +1,26 @@
+ concept_restaurants_227779736974
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["A-pizza"]
+	(* <- lang_ru;; <- name;;*);
+    ["A-pizza"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Франциска Скорины, 52, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 500-44-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 11:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.933938,27.700664"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

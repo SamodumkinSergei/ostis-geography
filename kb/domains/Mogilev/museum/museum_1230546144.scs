@@ -1,0 +1,26 @@
+ concept_museum_1230546144
+ <- concept_museum;
+=>nrel_main_idtf:
+	["УК Музей истории Могилева, Выставочный зал"]
+	(* <- lang_ru;; <- name;;*);
+    ["УК Музей истории Могилева, Выставочный зал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 5/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 276-86-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср-вс 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897068,30.332762"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://museumhm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

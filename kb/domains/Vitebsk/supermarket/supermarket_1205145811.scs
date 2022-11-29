@@ -1,0 +1,26 @@
+ concept_supermarket_1205145811
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Веста"]
+	(* <- lang_ru;; <- name;;*);
+    ["Веста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 237-88-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–21:00; сб,вс 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.191846,30.205464"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vesta-retail.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

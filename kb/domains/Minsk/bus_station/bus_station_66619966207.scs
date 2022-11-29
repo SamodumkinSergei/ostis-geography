@@ -1,0 +1,26 @@
+ concept_bus_station_66619966207
+ <- concept_bus_station;
+=>nrel_main_idtf:
+	["ДС Кунцевщина"]
+	(* <- lang_ru;; <- name;;*);
+    ["ДС Кунцевщина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Колесникова, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916858,27.43565"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.minsktrans.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

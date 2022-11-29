@@ -1,0 +1,26 @@
+ concept_restaurants_88379331695
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Burger King"]
+	(* <- lang_ru;; <- name;;*);
+    ["Burger King"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Махновича, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 348-81-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.072656,23.706629"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://burger-king.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

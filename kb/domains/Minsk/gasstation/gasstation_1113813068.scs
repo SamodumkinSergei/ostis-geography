@@ -1,0 +1,26 @@
+ concept_gasstation_1113813068
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Лукойл"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лукойл"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский район, микрорайон Степянка, Южная улица, 39"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 287-58-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.913374,27.683094"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.lukoil.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

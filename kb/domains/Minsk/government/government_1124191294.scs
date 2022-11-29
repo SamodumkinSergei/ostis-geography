@@ -1,0 +1,26 @@
+ concept_government_1124191294
+ <- concept_government;
+=>nrel_main_idtf:
+	["Управление Департамента финансовых расследований Комитета государственного контроля РБ по Минску и Минской области"]
+	(* <- lang_ru;; <- name;;*);
+    ["Управление Департамента финансовых расследований Комитета государственного контроля РБ по Минску и Минской области"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петруся Бровки, 3к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 352-64-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916132,27.597797"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.kgk.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

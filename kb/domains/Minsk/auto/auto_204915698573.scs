@@ -1,0 +1,26 @@
+ concept_auto_204915698573
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Авто-кат"]
+	(* <- lang_ru;; <- name;;*);
+    ["Авто-кат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Пушкина, 70Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 190-20-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–20:00; вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.923996,27.505183"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://auto-kat.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

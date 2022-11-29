@@ -1,0 +1,26 @@
+ concept_furniture_store_1307665137
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Крона"]
+	(* <- lang_ru;; <- name;;*);
+    ["Крона"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Лазо, 15А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 599-81-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.198689,30.252266"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

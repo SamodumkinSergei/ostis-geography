@@ -1,0 +1,26 @@
+ concept_car_park_242587873143
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Парковка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парковка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Первомайский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 284-21-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919582,27.604069"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://uiip.bas-net.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

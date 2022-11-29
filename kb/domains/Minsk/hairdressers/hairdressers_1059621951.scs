@@ -1,0 +1,26 @@
+ concept_hairdressers_1059621951
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Кот Матроскин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кот Матроскин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Машерова, 78"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 104-91-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–20:00; вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912608,27.531633"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.kot-matroskin.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

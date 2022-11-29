@@ -1,0 +1,26 @@
+ concept_currency_exchange_70463251833
+ <- concept_currency_exchange;
+=>nrel_main_idtf:
+	["Альфа-Банк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Альфа-Банк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Космонавтов, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 733-33-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.195707,30.188895"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.alfabank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

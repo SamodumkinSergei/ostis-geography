@@ -1,0 +1,26 @@
+ concept_mobile_phones_199585221620
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Электрон мастер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Электрон мастер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пушкинский проспект, 75Д"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 302-79-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.87078,30.347648"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://e-master.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

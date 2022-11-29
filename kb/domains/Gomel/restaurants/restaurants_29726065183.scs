@@ -1,0 +1,26 @@
+ concept_restaurants_29726065183
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Пиццерия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пиццерия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Свиридова, 1Е"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.485382,30.99726"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

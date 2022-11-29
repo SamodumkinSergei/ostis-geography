@@ -1,0 +1,26 @@
+ concept_banks_10659642972
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Беларусбанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Беларусбанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Воронянского, 7А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 218-84-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–18:00; пт 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878344,27.542625"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://belarusbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

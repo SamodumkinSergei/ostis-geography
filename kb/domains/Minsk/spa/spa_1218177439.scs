@@ -1,0 +1,26 @@
+ concept_spa_1218177439
+ <- concept_spa;
+=>nrel_main_idtf:
+	["Салон красоты Сириус"]
+	(* <- lang_ru;; <- name;;*);
+    ["Салон красоты Сириус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Газеты Правда, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 337-90-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб 09:00–18:00; вс 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.868214,27.482934"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sirius-salon.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

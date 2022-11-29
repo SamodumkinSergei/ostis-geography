@@ -1,0 +1,26 @@
+ concept_medicine_1006851848
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Женская консультация № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Женская консультация № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Островского, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 262-36-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–20:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.690265,23.833606"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gp1.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

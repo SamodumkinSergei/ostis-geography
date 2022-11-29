@@ -1,0 +1,26 @@
+ concept_college_212411403386
+ <- concept_college;
+=>nrel_main_idtf:
+	["Ггау, Экономический факультет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ггау, Экономический факультет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Терешковой, 20А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 273-81-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:50, перерыв 12:00–12:50"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.696166,23.843063"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ggau.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

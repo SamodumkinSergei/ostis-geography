@@ -1,0 +1,26 @@
+ concept_fire_station_131701423913
+ <- concept_fire_station;
+=>nrel_main_idtf:
+	["Portsmouth Fire Station"]
+	(* <- lang_ru;; <- name;;*);
+    ["Portsmouth Fire Station"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["штат Вирджиния, Портсмут, улица Брод, 645"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+1 757 393 8628"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["36.843264,-76.334345"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

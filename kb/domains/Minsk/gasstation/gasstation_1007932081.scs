@@ -1,0 +1,26 @@
+ concept_gasstation_1007932081
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Белоруснефть"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белоруснефть"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева, 106"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 209-04-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.932043,27.473906"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://azs.belorusneft.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_museum_205830355318
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Лестница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лестница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Стариновская улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 104-88-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00; сб 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.947494,27.699444"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mirlestnic.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_fast_food_34037000984
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Mamas food"]
+	(* <- lang_ru;; <- name;;*);
+    ["Mamas food"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Налибокская улица, 36"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 367-26-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.927736,27.432034"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

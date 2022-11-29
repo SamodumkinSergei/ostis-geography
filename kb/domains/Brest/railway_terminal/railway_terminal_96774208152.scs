@@ -1,0 +1,26 @@
+ concept_railway_terminal_96774208152
+ <- concept_railway_terminal;
+=>nrel_main_idtf:
+	["Центральный вокзал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Центральный вокзал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Кижеватова, 1Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 226-21-28"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:00–21:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.101545,23.680453"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

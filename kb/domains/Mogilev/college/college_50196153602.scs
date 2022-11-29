@@ -1,0 +1,26 @@
+ concept_college_50196153602
+ <- concept_college;
+=>nrel_main_idtf:
+	["Белорусско-Российский университет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусско-Российский университет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Казимировка, улица Ровчакова, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 222-58-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:15–17:15, перерыв 12:30–13:18"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.932276,30.277236"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bru.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

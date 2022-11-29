@@ -1,0 +1,26 @@
+ concept_cafe_167971459737
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кафе-кондитерская Фамилия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафе-кондитерская Фамилия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 151"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 500-64-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 11:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.092446,23.737982"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

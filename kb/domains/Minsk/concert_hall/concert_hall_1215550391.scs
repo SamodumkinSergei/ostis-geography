@@ -1,0 +1,26 @@
+ concept_concert_hall_1215550391
+ <- concept_concert_hall;
+=>nrel_main_idtf:
+	["Брюгге"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брюгге"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 6А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 580-00-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–06:00, перерывы 15:00–18:00, 22:00–23:00; сб,вс 18:00–06:00, перерыв 22:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.884374,27.583536"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bruggeminsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

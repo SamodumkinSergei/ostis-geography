@@ -1,0 +1,26 @@
+ concept_banks_242781973111
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Банк РРБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Банк РРБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, ул. Огинского, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 306-02-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:30–20:30, перерывы 11:20–11:30, 13:00–14:00, 15:20–15:30, 17:00–17:10, 19:00–19:10"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.618259,23.815964"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.rrb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

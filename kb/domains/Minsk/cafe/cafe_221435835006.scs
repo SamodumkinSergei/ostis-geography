@@ -1,0 +1,26 @@
+ concept_cafe_221435835006
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["CoffeeCake"]
+	(* <- lang_ru;; <- name;;*);
+    ["CoffeeCake"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева, 123, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 737-26-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.933368,27.456012"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://coffeecake.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

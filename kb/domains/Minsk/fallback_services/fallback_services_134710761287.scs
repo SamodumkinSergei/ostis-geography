@@ -1,0 +1,26 @@
+ concept_fallback_services_134710761287
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["ВИП-Монумент"]
+	(* <- lang_ru;; <- name;;*);
+    ["ВИП-Монумент"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петруся Бровки, 12, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 617-44-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.915698,27.597548"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vipkamen.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

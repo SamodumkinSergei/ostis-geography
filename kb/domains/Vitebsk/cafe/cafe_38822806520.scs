@@ -1,0 +1,26 @@
+ concept_cafe_38822806520
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кофе Хауз NEW"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кофе Хауз NEW"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Москва, Зубовский бульвар, 4, стр. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (909) 952-88-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.737419,37.590344"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.coffeehouse.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

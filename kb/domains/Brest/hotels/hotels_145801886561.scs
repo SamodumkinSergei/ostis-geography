@@ -1,0 +1,26 @@
+ concept_hotels_145801886561
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Le Paris-brest Hôtel"]
+	(* <- lang_ru;; <- name;;*);
+    ["Le Paris-brest Hôtel"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Франция, Ренн, 7 bis Place de la Gare"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 2 99 31 48 48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["48.104332,-1.67319"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://parisbresthotel.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

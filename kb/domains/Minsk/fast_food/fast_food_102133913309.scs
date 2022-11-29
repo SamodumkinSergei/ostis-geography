@@ -1,0 +1,26 @@
+ concept_fast_food_102133913309
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["МакДональдс"]
+	(* <- lang_ru;; <- name;;*);
+    ["МакДональдс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 58"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 379-51-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908598,27.472302"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mcdonalds.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

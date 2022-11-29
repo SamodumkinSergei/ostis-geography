@@ -1,0 +1,26 @@
+ concept_auto_71426957888
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Отдел сервиса и запчастей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отдел сервиса и запчастей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Морозова, 28А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 535-49-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.075447,23.730423"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://geely-brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

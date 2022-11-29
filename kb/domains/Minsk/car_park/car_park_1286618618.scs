@@ -1,0 +1,26 @@
+ concept_car_park_1286618618
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Паркинг, Президент-Отель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Паркинг, Президент-Отель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Энгельса, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 229-70-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.899008,27.565615"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

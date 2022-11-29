@@ -1,0 +1,26 @@
+ concept_medicine_63970852482
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["1-я Городская Клиническая больница, Эндоскопическое отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["1-я Городская Клиническая больница, Эндоскопическое отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 64к3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 243-39-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 17:00–20:00; сб,вс 12:00–20:00, перерыв 14:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919513,27.594995"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://1gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

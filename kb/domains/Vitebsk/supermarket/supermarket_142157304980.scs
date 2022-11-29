@@ -1,0 +1,26 @@
+ concept_supermarket_142157304980
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Ганна"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ганна"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Генерала Людникова, 16Д"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 236-04-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.19633,30.228597"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ganna.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

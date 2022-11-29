@@ -1,0 +1,26 @@
+ concept_restaurants_212802088013
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Pizza ok"]
+	(* <- lang_ru;; <- name;;*);
+    ["Pizza ok"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Машерова, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 806-80-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.085384,23.695045"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

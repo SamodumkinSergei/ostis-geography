@@ -1,0 +1,26 @@
+ concept_cafe_1081477447
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["News Cafe"]
+	(* <- lang_ru;; <- name;;*);
+    ["News Cafe"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Карла Маркса, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 103-11-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–00:00; сб,вс 10:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.899765,27.561759"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

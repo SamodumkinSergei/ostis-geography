@@ -1,0 +1,26 @@
+ concept_supermarket_1107776134
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Белмаркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белмаркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, улица Якубова, 58"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 398-21-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.861718,27.588658"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bel-market.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

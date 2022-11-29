@@ -1,0 +1,26 @@
+ concept_bus_stop_166496912112
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Будённого"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Будённого"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Будённого"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.682912,23.845161"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_hotels_1023479807
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Славянская традиция"]
+	(* <- lang_ru;; <- name;;*);
+    ["Славянская традиция"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Челюскинцев, 178"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 331-50-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.87562,30.263683"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://slavservis.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

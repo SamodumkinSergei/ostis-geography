@@ -1,0 +1,26 @@
+ concept_fast_food_85042666689
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Шаурма"]
+	(* <- lang_ru;; <- name;;*);
+    ["Шаурма"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Студенческий проезд"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.407112,30.929859"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

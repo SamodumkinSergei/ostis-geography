@@ -1,0 +1,26 @@
+ concept_malls_1081395080
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Торговый центр фирмы Мока Пегас"]
+	(* <- lang_ru;; <- name;;*);
+    ["Торговый центр фирмы Мока Пегас"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Брикеля, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 885-48-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 11:00–18:00; вс 11:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.701568,23.84481"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

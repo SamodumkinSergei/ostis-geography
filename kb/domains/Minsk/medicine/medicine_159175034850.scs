@@ -1,0 +1,26 @@
+ concept_medicine_159175034850
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["5-я Городская Клиническая больница, Кардиологическое отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["5-я Городская Клиническая больница, Кардиологическое отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Филатова, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 295-88-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 17:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.870134,27.632202"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.5gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

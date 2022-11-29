@@ -1,0 +1,26 @@
+ concept_bus_stop_190348876186
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Давыдовская усадьба"]
+	(* <- lang_ru;; <- name;;*);
+    ["Давыдовская усадьба"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Давыдовская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.395447,30.910836"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

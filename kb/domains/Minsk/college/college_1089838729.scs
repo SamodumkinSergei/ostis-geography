@@ -1,0 +1,26 @@
+ concept_college_1089838729
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минский государственный энергетический колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский государственный энергетический колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Радиальная улица, 38"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 270-42-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.890817,27.647881"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mgek.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

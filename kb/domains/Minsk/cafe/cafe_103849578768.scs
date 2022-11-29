@@ -1,0 +1,26 @@
+ concept_cafe_103849578768
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кофейня"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кофейня"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, подземный переход возле ГУМа"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:30–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.900446,27.558855"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://cofix.global/ru-by/main/minsk/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_drugstores_122902200512
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Флора-Фарм аптека № 16"]
+	(* <- lang_ru;; <- name;;*);
+    ["Флора-Фарм аптека № 16"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Богдана Хмельницкого, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 270-65-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–21:00; вс 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.924158,27.594969"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://tabletka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

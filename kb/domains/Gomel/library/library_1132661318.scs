@@ -1,0 +1,26 @@
+ concept_library_1132661318
+ <- concept_library;
+=>nrel_main_idtf:
+	["Библиотека-филиал № 14"]
+	(* <- lang_ru;; <- name;;*);
+    ["Библиотека-филиал № 14"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Жемчужная улица, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 230-34-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,вт,ср,чт,сб,вс 11:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.358467,31.019904"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ggcbs.gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_fitness_103258494975
+ <- concept_fitness;
+=>nrel_main_idtf:
+	["Фитнес & Спа-клуб Well B"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фитнес & Спа-клуб Well B"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Михаловская улица, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 338-41-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–22:00; сб 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.874235,27.478158"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://well-b.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

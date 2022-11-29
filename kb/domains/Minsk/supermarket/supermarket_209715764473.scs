@@ -1,0 +1,26 @@
+ concept_supermarket_209715764473
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Expobel Market"]
+	(* <- lang_ru;; <- name;;*);
+    ["Expobel Market"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Минский район, Боровлянский сельсовет, деревня Боровая, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.96494,27.62485"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

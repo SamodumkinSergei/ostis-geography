@@ -1,0 +1,26 @@
+ concept_hairdressers_1683456531
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Улари"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улари"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 125"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 661-10-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.938825,27.467992"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

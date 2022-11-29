@@ -1,0 +1,26 @@
+ concept_banks_93421441369
+ <- concept_banks;
+=>nrel_main_idtf:
+	["БТА банк"]
+	(* <- lang_ru;; <- name;;*);
+    ["БТА банк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Антонова, 5А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 271-52-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–17:00; пт 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.675876,23.841525"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.btabank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

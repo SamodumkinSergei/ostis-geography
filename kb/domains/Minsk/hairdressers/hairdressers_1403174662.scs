@@ -1,0 +1,26 @@
+ concept_hairdressers_1403174662
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Унисон стиль"]
+	(* <- lang_ru;; <- name;;*);
+    ["Унисон стиль"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, улица Якубова, 2, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 399-45-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб,вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.848798,27.600384"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://taplink.cc/103_by"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

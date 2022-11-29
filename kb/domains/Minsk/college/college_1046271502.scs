@@ -1,0 +1,26 @@
+ concept_college_1046271502
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГУО Средняя школа № 8 г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО Средняя школа № 8 г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Герасименко, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 317-40-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.875273,27.689055"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch8.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

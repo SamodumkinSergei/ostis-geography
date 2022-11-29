@@ -1,0 +1,26 @@
+ concept_bus_stop_234776999155
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Остановка общественного транспорта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Остановка общественного транспорта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельский район, Приборский сельсовет, садоводческое товарищество Устинка"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.402146,30.773547"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

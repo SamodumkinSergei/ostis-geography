@@ -1,0 +1,26 @@
+ concept_clothes_shop_179027197451
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Евролюкс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Евролюкс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Смоленская улица, 11А/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 591-63-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.187146,30.235878"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

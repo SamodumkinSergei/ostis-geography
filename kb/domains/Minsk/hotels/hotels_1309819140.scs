@@ -1,0 +1,26 @@
+ concept_hotels_1309819140
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["DoubleTree by Hilton Hotel Minsk"]
+	(* <- lang_ru;; <- name;;*);
+    ["DoubleTree by Hilton Hotel Minsk"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 309-80-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908102,27.54813"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.hilton.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_car_park_9598745109
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автостоянка АРМ-Моторс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостоянка АРМ-Моторс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Железнодорожный район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 377-74-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.443114,30.939369"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://parking-lot-1237.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

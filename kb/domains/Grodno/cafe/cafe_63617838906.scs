@@ -1,0 +1,26 @@
+ concept_cafe_63617838906
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кафе-бар"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафе-бар"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Космонавтов, 41/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 15:00–03:00; сб,вс 13:00–03:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.674994,23.851691"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vostokfit.by/kinobar"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

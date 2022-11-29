@@ -1,0 +1,26 @@
+ concept_gasstation_2498769822
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Лукойл"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лукойл"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёвский район, Вейнянский сельсовет, Новосёлки, Новосельский переулок"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 272-54-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.836095,30.35873"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.lukoil.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

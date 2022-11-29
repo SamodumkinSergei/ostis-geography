@@ -1,0 +1,26 @@
+ concept_malls_1018025532
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Галантэя"]
+	(* <- lang_ru;; <- name;;*);
+    ["Галантэя"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Ленинская улица, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 278-06-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.895503,30.33391"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://galanteya.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

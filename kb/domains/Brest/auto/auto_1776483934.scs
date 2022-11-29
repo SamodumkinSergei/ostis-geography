@@ -1,0 +1,26 @@
+ concept_auto_1776483934
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Haval, Ford, Peugeot, Citroen, УАЗ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Haval, Ford, Peugeot, Citroen, УАЗ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гоздецкого, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 253-14-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб,вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.11402,23.784391"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://autonomia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

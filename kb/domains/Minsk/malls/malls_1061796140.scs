@@ -1,0 +1,26 @@
+ concept_malls_1061796140
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Галерея Мастацтва"]
+	(* <- lang_ru;; <- name;;*);
+    ["Галерея Мастацтва"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 727-31-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 11:00–20:00; сб 11:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897316,27.55303"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.artgallery.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

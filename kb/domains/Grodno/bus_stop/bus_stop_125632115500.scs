@@ -1,0 +1,26 @@
+ concept_bus_stop_125632115500
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Гроднозеленстрой"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гроднозеленстрой"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, бульвар Ленинского Комсомола"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.690058,23.788007"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

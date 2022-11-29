@@ -1,0 +1,26 @@
+ concept_hairdressers_1019445704
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Александра"]
+	(* <- lang_ru;; <- name;;*);
+    ["Александра"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Ольги Соломовой, 88"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 265-27-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.662394,23.784333"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

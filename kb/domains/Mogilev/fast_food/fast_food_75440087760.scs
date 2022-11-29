@@ -1,0 +1,26 @@
+ concept_fast_food_75440087760
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["KFC"]
+	(* <- lang_ru;; <- name;;*);
+    ["KFC"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 57"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 647-07-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904008,30.339468"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.kfc.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

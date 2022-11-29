@@ -1,0 +1,26 @@
+ concept_malls_52930981580
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Comix.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Comix.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Максима Богдановича, 155"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 615-01-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.937145,27.580925"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://comix.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

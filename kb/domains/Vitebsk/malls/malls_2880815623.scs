@@ -1,0 +1,26 @@
+ concept_malls_2880815623
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Oz"]
+	(* <- lang_ru;; <- name;;*);
+    ["Oz"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Строителей, 15В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 695-25-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.17034,30.218139"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://oz.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

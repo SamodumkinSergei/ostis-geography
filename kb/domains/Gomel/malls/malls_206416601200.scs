@@ -1,0 +1,26 @@
+ concept_malls_206416601200
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Мандарин Плаза"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мандарин Плаза"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Речицкий проспект, 5В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 143-01-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.416703,30.961625"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mandarinplaza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

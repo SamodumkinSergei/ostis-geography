@@ -1,0 +1,26 @@
+ concept_malls_163666089010
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Derugo"]
+	(* <- lang_ru;; <- name;;*);
+    ["Derugo"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 551-68-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.886149,27.516018"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://derugoart-gallery.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

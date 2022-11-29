@@ -1,0 +1,26 @@
+ concept_malls_132031291932
+ <- concept_malls;
+=>nrel_main_idtf:
+	["В Гомеле"]
+	(* <- lang_ru;; <- name;;*);
+    ["В Гомеле"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Барыкина, 154"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 231-19-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.420212,30.952307"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.santehgomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_petshop_1113951330
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Зоомагазин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зоомагазин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, 1-я улица Доватора, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 294-95-71"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.193238,30.213883"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

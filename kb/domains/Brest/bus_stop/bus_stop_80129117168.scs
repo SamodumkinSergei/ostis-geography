@@ -1,0 +1,26 @@
+ concept_bus_stop_80129117168
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Машиностроительный завод"]
+	(* <- lang_ru;; <- name;;*);
+    ["Машиностроительный завод"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Суворова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.066469,23.740494"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

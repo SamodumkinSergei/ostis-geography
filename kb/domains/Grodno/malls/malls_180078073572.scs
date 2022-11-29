@@ -1,0 +1,26 @@
+ concept_malls_180078073572
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Правильная сантехника"]
+	(* <- lang_ru;; <- name;;*);
+    ["Правильная сантехника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Фомичёва, 4А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 268-34-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.658392,23.843172"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ipsh.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

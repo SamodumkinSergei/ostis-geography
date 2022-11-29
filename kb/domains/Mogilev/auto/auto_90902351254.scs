@@ -1,0 +1,26 @@
+ concept_auto_90902351254
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Ремонт глушителя"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт глушителя"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Чаусское шоссе, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 697-07-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00; сб,вс 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.879659,30.406623"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://glushitel1.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_furniture_store_1223869167
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["СеСлав-сервис, офис"]
+	(* <- lang_ru;; <- name;;*);
+    ["СеСлав-сервис, офис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Писателя Смирнова, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 791-17-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.095224,23.650445"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://seslav.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

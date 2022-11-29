@@ -1,0 +1,26 @@
+ concept_banks_1744462313
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Белинвестбанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белинвестбанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 346"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 239-02-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 09:30–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.101745,23.772345"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.belinvestbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_43296966428
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Поликлиника № 8"]
+	(* <- lang_ru;; <- name;;*);
+    ["Поликлиника № 8"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Симонова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.86579,30.316121"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_drugstores_1179612012
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Победы, 31, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 236-78-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб,вс 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.162816,30.219444"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pharmacia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

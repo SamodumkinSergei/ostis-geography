@@ -1,0 +1,26 @@
+ concept_college_1129493132
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гомельский государственный профессиональный многопрофильный лицей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский государственный профессиональный многопрофильный лицей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Лазурная улица, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 250-24-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00; сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.408579,30.912435"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://new.gpml.gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

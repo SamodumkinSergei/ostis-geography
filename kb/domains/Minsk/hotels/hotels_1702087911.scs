@@ -1,0 +1,26 @@
+ concept_hotels_1702087911
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Minsk Marriott Hotel"]
+	(* <- lang_ru;; <- name;;*);
+    ["Minsk Marriott Hotel"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 279-30-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.932269,27.510152"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.marriott.com/hotels/travel/mhpmc-minsk-marriott-hotel/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

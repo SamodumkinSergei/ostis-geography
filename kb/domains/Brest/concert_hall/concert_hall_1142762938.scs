@@ -1,0 +1,26 @@
+ concept_concert_hall_1142762938
+ <- concept_concert_hall;
+=>nrel_main_idtf:
+	["Учреждение культуры, театр танца Фантазия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Учреждение культуры, театр танца Фантазия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, бульвар Космонавтов, 96"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 253-21-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:30, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.09099,23.702034"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.fantasydance.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_college_182853448554
+ <- concept_college;
+=>nrel_main_idtf:
+	["Филиал средней школы № 11"]
+	(* <- lang_ru;; <- name;;*);
+    ["Филиал средней школы № 11"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Вокзальная улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 232-00-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.430255,30.999755"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gomelschool11.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

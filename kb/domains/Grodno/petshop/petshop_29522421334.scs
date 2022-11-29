@@ -1,0 +1,26 @@
+ concept_petshop_29522421334
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Студия зверской красоты"]
+	(* <- lang_ru;; <- name;;*);
+    ["Студия зверской красоты"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Брикеля, 7А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 668-15-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.700649,23.845758"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://msto.me/grum_bumgrodno"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

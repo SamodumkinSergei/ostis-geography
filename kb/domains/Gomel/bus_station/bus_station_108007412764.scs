@@ -1,0 +1,26 @@
+ concept_bus_station_108007412764
+ <- concept_bus_station;
+=>nrel_main_idtf:
+	["Фабрика 8 Марта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фабрика 8 Марта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.436139,31.007461"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

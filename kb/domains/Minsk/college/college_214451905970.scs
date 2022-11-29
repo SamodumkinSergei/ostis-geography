@@ -1,0 +1,26 @@
+ concept_college_214451905970
+ <- concept_college;
+=>nrel_main_idtf:
+	["Юридический факультет БИПа"]
+	(* <- lang_ru;; <- name;;*);
+    ["Юридический факультет БИПа"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Октябрьская улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 327-17-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.89349,27.56662"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://bip-ip.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

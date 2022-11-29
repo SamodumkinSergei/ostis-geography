@@ -1,0 +1,26 @@
+ concept_college_1393578083
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 94"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 94"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Беляева, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 375-84-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.94347,27.71733"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://94minsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

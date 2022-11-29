@@ -1,0 +1,26 @@
+ concept_hotels_180846752250
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Student Depot Polonez"]
+	(* <- lang_ru;; <- name;;*);
+    ["Student Depot Polonez"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Великопольское воеводство, Познань, аллея Независимости, 36"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+48  608 14 09 73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.415087,16.926991"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://studentdepot.pl/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

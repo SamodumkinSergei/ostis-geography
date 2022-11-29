@@ -1,0 +1,26 @@
+ concept_malls_1150231917
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Светодиод"]
+	(* <- lang_ru;; <- name;;*);
+    ["Светодиод"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чкалова, 24, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 762-57-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.173248,30.214142"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://stadim.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

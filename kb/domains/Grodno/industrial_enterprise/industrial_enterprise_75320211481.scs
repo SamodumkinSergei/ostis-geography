@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_75320211481
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["ПНД-Групп"]
+	(* <- lang_ru;; <- name;;*);
+    ["ПНД-Групп"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Максима Горького, 91"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 286-86-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.712211,23.818034"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://amina.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

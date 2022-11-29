@@ -1,0 +1,26 @@
+ concept_bus_stop_51034677570
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Малиновка-9"]
+	(* <- lang_ru;; <- name;;*);
+    ["Малиновка-9"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Слободская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.84618,27.469493"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

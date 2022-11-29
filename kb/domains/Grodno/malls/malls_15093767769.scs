@@ -1,0 +1,26 @@
+ concept_malls_15093767769
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Правильная сантехника"]
+	(* <- lang_ru;; <- name;;*);
+    ["Правильная сантехника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Великая Ольшанка, 7А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 781-66-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.621288,23.818082"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ipsh.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

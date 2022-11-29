@@ -1,0 +1,26 @@
+ concept_kindergarten_1092078084
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 52 г. Могилёва"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 52 г. Могилёва"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Орловского, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 273-28-24"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916931,30.322029"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sadmogilev-52.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

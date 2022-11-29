@@ -1,0 +1,26 @@
+ concept_clothes_shop_47026860575
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["House"]
+	(* <- lang_ru;; <- name;;*);
+    ["House"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Казимировка, Минское шоссе, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 277-62-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–21:00; пт,сб 10:00–22:00; вс 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.93572,30.255761"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.housebrand.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

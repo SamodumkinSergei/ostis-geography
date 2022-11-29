@@ -1,0 +1,26 @@
+ concept_clothes_shop_163187505191
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Секонд хенд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Секонд хенд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, бульвар Космонавтов, 97"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 203-56-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 12:00–19:00; сб,вс 12:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.090206,23.700899"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

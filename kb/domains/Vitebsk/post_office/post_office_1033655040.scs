@@ -1,0 +1,26 @@
+ concept_post_office_1033655040
+ <- concept_post_office;
+=>nrel_main_idtf:
+	["Пункт почтовой связи Витебск-1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пункт почтовой связи Витебск-1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Ленинградская улица, 87А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 261-40-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 09:00–17:15, перерыв 13:00–14:00; сб 09:00–14:15, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.204189,30.166237"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belpost.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

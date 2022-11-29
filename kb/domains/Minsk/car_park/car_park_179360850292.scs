@@ -1,0 +1,26 @@
+ concept_car_park_179360850292
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Паркинг ТЦ Метрополь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Паркинг ТЦ Метрополь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Немига, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 694-50-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902736,27.550196"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://metropolnemiga.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_office_service_137802197131
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["HAArchitect"]
+	(* <- lang_ru;; <- name;;*);
+    ["HAArchitect"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Комсомольская улица, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 699-03-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.095441,23.688379"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://haarchitect.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

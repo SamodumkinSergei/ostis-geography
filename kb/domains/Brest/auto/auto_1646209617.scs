@@ -1,0 +1,26 @@
+ concept_auto_1646209617
+ <- concept_auto;
+=>nrel_main_idtf:
+	["АвтЭкс"]
+	(* <- lang_ru;; <- name;;*);
+    ["АвтЭкс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Лейтенанта Рябцева, 84И"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 658-55-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.133049,23.670292"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://avteks.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_supermarket_232482926579
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Родны Кут Могилевское РАЙПО"]
+	(* <- lang_ru;; <- name;;*);
+    ["Родны Кут Могилевское РАЙПО"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёвский район, Кадинский сельсовет, Большая Боровка, Молодёжная улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 273-39-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.87368,30.457137"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

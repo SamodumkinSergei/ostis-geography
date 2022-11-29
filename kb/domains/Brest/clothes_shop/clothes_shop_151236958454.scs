@@ -1,0 +1,26 @@
+ concept_clothes_shop_151236958454
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Фирменный магазин Брестские № 31"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фирменный магазин Брестские № 31"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёвская область, Бобруйск, проспект Строителей, 58"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 250-49-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.195058,29.223957"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bchk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

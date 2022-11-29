@@ -1,0 +1,26 @@
+ concept_fallback_services_34847130523
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Бытовые услуги"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бытовые услуги"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Мовчанского, 53"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.877983,30.375223"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

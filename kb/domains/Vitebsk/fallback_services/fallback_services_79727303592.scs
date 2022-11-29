@@ -1,0 +1,26 @@
+ concept_fallback_services_79727303592
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Памятники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Смоленская площадь, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 649-46-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 10:00–17:00; сб,вс 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.205141,30.210473"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_103516482777
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Горэлектротранспорт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Горэлектротранспорт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 66"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 222-49-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:30–20:30, перерыв 18:15–18:50"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.440145,31.003645"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://get.gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_kindergarten_1699469609
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Хогвард"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хогвард"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Утульная улица, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 747-47-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00; сб 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.89856,27.468219"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://hogward.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

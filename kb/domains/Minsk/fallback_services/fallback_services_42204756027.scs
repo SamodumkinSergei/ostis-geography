@@ -1,0 +1,26 @@
+ concept_fallback_services_42204756027
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Мастерская цвета"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мастерская цвета"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Веры Хоружей, 8, корп. 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 260-24-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 09:00–18:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.920183,27.580181"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vspomnim.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_drugstores_1269974568
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Янки Купалы, 89"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 267-63-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,вт 08:30–16:30; ср 08:30–16:00; чт,пт 08:30–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.649177,23.858012"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://farmacia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

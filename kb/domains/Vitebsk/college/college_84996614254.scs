@@ -1,0 +1,26 @@
+ concept_college_84996614254
+ <- concept_college;
+=>nrel_main_idtf:
+	["Факультет дизайна ВГТУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Факультет дизайна ВГТУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Правды, 59"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 222-62-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:00, перерыв 12:00–13:00; сб 08:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.181879,30.238371"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://fd.vstu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

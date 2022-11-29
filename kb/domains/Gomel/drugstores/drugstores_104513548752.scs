@@ -1,0 +1,26 @@
+ concept_drugstores_104513548752
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 167/2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 167/2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ландышева, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 231-58-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.446443,31.003517"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomelpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_malls_88013626303
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Minsktoys.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Minsktoys.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Лазаренко, 73Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 194-02-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909958,30.307361"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://minsktoys.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

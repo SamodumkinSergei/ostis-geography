@@ -1,0 +1,26 @@
+ concept_railway_station_139971144534
+ <- concept_railway_station;
+=>nrel_main_idtf:
+	["О. П. Масюковщина, зал ожидания"]
+	(* <- lang_ru;; <- name;;*);
+    ["О. П. Масюковщина, зал ожидания"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Михася Лынькова, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.929882,27.477522"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

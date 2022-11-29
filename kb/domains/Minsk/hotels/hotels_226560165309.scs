@@ -1,0 +1,26 @@
+ concept_hotels_226560165309
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Homey Hostel"]
+	(* <- lang_ru;; <- name;;*);
+    ["Homey Hostel"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Чайковского, 8А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 691-37-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.93354,27.625983"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

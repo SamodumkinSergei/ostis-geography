@@ -1,0 +1,26 @@
+ concept_baby_shop_157595328562
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Магазин игрушек"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин игрушек"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 104, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.860493,27.478998"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

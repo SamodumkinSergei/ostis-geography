@@ -1,0 +1,26 @@
+ concept_clothes_shop_99025924484
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Conte"]
+	(* <- lang_ru;; <- name;;*);
+    ["Conte"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Глебки, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 278-58-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908664,27.470219"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://conteshop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

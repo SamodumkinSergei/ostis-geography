@@ -1,0 +1,26 @@
+ concept_restaurants_48723208578
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Kontakt"]
+	(* <- lang_ru;; <- name;;*);
+    ["Kontakt"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Люблинское воеводство, повят Бяльский, Тересполь, ulica Marszałka Józefa Piłsudskiego, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+48 81 888 88 55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.075657,23.619709"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.obiady.pulawy.pl/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

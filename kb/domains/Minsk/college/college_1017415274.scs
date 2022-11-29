@@ -1,0 +1,26 @@
+ concept_college_1017415274
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минский государственный колледж искусств"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский государственный колледж искусств"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лейтенанта Кижеватова, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 360-24-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.850583,27.538679"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://мгки.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

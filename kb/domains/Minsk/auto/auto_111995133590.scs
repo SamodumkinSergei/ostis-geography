@@ -1,0 +1,26 @@
+ concept_auto_111995133590
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Правильный Сервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Правильный Сервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Основателей, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 531-70-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.945555,27.735763"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mihalych.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

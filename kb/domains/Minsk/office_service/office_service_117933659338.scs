@@ -1,0 +1,26 @@
+ concept_office_service_117933659338
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Home Apart"]
+	(* <- lang_ru;; <- name;;*);
+    ["Home Apart"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ленина, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 336-25-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901716,27.556899"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://homeapart.bitrix24.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

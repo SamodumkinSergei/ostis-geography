@@ -1,0 +1,26 @@
+ concept_college_1377705233
+ <- concept_college;
+=>nrel_main_idtf:
+	["Архитектурно-строительный колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Архитектурно-строительный колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Космонавтов, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 271-34-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:15–17:15, перерыв 12:30–13:20; пт 08:15–16:15, перерыв 12:30–13:20"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909962,30.312739"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ask-bru.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

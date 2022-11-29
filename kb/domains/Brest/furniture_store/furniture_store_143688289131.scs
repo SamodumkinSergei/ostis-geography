@@ -1,0 +1,26 @@
+ concept_furniture_store_143688289131
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Black Red White"]
+	(* <- lang_ru;; <- name;;*);
+    ["Black Red White"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Янки Купалы, 1В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 229-86-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.100994,23.731765"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.brw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_155257461296
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Университет имени Машерова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Университет имени Машерова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Смоленская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.178872,30.228944"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_drugstores_225796382183
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, микрорайон Юг-7А, улица Генерала Маргелова, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 237-25-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.161458,30.207912"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pharmacia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

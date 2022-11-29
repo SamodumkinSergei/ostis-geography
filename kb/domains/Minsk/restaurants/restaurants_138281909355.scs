@@ -1,0 +1,26 @@
+ concept_restaurants_138281909355
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Flow"]
+	(* <- lang_ru;; <- name;;*);
+    ["Flow"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Октябрьская улица, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 540-58-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 13:00–00:00; пт,сб 13:00–01:00; вс 13:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.891575,27.57217"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

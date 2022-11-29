@@ -1,0 +1,26 @@
+ concept_tailor_123431422408
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Ремонт обуви и одежды"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт обуви и одежды"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Болеслава Берута, 24, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 667-95-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.899579,27.505856"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

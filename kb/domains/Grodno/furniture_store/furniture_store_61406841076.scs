@@ -1,0 +1,26 @@
+ concept_furniture_store_61406841076
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Распил и кромкование"]
+	(* <- lang_ru;; <- name;;*);
+    ["Распил и кромкование"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Автомобильная улица, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 231-81-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.641331,23.804097"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://raspilgrodno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

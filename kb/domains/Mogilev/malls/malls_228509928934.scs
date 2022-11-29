@@ -1,0 +1,26 @@
+ concept_malls_228509928934
+ <- concept_malls;
+=>nrel_main_idtf:
+	["СтройЭкспо"]
+	(* <- lang_ru;; <- name;;*);
+    ["СтройЭкспо"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Островского, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 248-06-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.876873,30.336458"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://стройэкспо.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

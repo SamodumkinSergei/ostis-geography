@@ -1,0 +1,26 @@
+ concept_drugstores_1069051713
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Медвакс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Медвакс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Козлова, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 316-36-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб 10:00–20:00; вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90857,27.583238"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.medvax.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

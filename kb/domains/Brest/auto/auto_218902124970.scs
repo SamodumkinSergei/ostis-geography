@@ -1,0 +1,26 @@
+ concept_auto_218902124970
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Ваш Авто Электрик"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ваш Авто Электрик"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Коммерческая улица, 32, корп. 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 821-92-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.128523,23.754181"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

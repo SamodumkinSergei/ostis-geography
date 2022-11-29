@@ -1,0 +1,26 @@
+ concept_medicine_1204735822
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["УЗ 5-я Городская клиническая больница"]
+	(* <- lang_ru;; <- name;;*);
+    ["УЗ 5-я Городская клиническая больница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Филатова, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 295-33-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.87008,27.632404"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://5gkb-bel.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_clothes_shop_1055077939
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["MEGATOP"]
+	(* <- lang_ru;; <- name;;*);
+    ["MEGATOP"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пушкинский проспект, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 278-53-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–20:00; вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.875925,30.341804"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://megatop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

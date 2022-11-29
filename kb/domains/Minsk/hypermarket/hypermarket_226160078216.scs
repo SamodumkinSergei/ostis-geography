@@ -1,0 +1,26 @@
+ concept_hypermarket_226160078216
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Офис-Хоум"]
+	(* <- lang_ru;; <- name;;*);
+    ["Офис-Хоум"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Брикета, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 386-98-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908993,27.415686"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://officehome.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

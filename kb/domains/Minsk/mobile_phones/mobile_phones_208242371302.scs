@@ -1,0 +1,26 @@
+ concept_mobile_phones_208242371302
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["МастерPin"]
+	(* <- lang_ru;; <- name;;*);
+    ["МастерPin"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кульман, 1, корп. 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 388-90-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916687,27.583104"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://masterpin.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

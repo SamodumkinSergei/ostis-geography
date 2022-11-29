@@ -1,0 +1,26 @@
+ concept_library_1026647252
+ <- concept_library;
+=>nrel_main_idtf:
+	["Библиотека Филиал № 1 имени Л. Н. Толстого"]
+	(* <- lang_ru;; <- name;;*);
+    ["Библиотека Филиал № 1 имени Л. Н. Толстого"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Московская улица, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 264-77-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.88739,27.537942"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://uk.minsk.gov.by/biblioteki/119-biblioteka-filial-1"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_library_185976819011
+ <- concept_library;
+=>nrel_main_idtf:
+	["Библиотека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Библиотека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Академика Вышелесского, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 360-08-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср-вс 10:40–18:00, перерыв 14:00–14:20"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905541,27.417082"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://minskaya-rcb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

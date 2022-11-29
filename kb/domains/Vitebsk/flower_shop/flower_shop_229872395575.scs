@@ -1,0 +1,26 @@
+ concept_flower_shop_229872395575
+ <- concept_flower_shop;
+=>nrel_main_idtf:
+	["Мотовело град"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мотовело град"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Урицкого, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 380-48-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб,вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.201563,30.209076"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.moto-velo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

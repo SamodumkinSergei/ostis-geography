@@ -1,0 +1,26 @@
+ concept_supermarket_236229889042
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Продукты"]
+	(* <- lang_ru;; <- name;;*);
+    ["Продукты"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Софьи Панковой, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 222-09-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.189173,30.25907"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.vitebsk.energo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

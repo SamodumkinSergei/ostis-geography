@@ -1,0 +1,26 @@
+ concept_college_1012059731
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 10"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 10"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Путна, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 263-99-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.200731,30.20297"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://10vitebsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

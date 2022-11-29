@@ -1,0 +1,26 @@
+ concept_drugstores_120895521071
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 192 Могилёвского РУП Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 192 Могилёвского РУП Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица 30 лет Победы, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 272-18-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб,вс 10:00–18:30, перерыв 13:30–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.931543,30.362694"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mogpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

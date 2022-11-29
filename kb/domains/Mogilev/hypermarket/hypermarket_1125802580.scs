@@ -1,0 +1,26 @@
+ concept_hypermarket_1125802580
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Ома"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Габровская улица, 43"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 270-91-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.871947,30.360059"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.oma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

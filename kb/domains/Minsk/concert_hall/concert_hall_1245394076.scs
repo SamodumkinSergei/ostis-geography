@@ -1,0 +1,26 @@
+ concept_concert_hall_1245394076
+ <- concept_concert_hall;
+=>nrel_main_idtf:
+	["Верхний город"]
+	(* <- lang_ru;; <- name;;*);
+    ["Верхний город"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, площадь Свободы, 23А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 327-35-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 13:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903956,27.556823"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://minskconcert.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

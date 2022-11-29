@@ -1,0 +1,26 @@
+ concept_cafe_56890693345
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Espresso House"]
+	(* <- lang_ru;; <- name;;*);
+    ["Espresso House"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Стокгольм, Klarabergsviadukten, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+46 1051 011 41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["59.330606,18.057179"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://espressohouse.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

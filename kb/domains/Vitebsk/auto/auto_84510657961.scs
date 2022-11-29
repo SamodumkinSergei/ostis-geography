@@ -1,0 +1,26 @@
+ concept_auto_84510657961
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Avtotabletka"]
+	(* <- lang_ru;; <- name;;*);
+    ["Avtotabletka"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Лазо, 110"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 370-30-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00; сб 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.201628,30.260126"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://avtotabletka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

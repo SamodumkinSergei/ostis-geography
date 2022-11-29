@@ -1,0 +1,26 @@
+ concept_auto_69991076780
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Дублирование ключей BMW"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дублирование ключей BMW"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 150А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 617-68-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.859902,27.674893"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bmwkey.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

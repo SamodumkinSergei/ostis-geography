@@ -1,0 +1,26 @@
+ concept_baby_shop_151968748197
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Игрушки"]
+	(* <- lang_ru;; <- name;;*);
+    ["Игрушки"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Веры Хоружей, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 650-23-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917629,27.578438"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

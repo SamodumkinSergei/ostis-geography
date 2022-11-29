@@ -1,0 +1,26 @@
+ concept_restaurants_1165280403
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Арена-Пицца"]
+	(* <- lang_ru;; <- name;;*);
+    ["Арена-Пицца"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Строителей, 3к3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 305-20-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 14:00–23:00; пт 12:00–23:00; сб,вс 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.170391,30.203946"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.arena-pizza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

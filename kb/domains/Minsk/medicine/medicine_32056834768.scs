@@ -1,0 +1,26 @@
+ concept_medicine_32056834768
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Приемное отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["Приемное отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Якубовского, 53к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 365-55-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.893206,27.454562"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gdikb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

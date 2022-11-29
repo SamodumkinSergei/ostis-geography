@@ -1,0 +1,26 @@
+ concept_post_office_1084811558
+ <- concept_post_office;
+=>nrel_main_idtf:
+	["Белпочта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белпочта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 158Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 221-16-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:30–19:00, перерыв 14:00–15:00; сб 10:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.940865,30.330851"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belpost.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

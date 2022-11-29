@@ -1,0 +1,26 @@
+ concept_college_1314876830
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 157 г. Минска им. А. С. Бурдейного"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 157 г. Минска им. А. С. Бурдейного"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Бурдейного, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 369-41-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902074,27.447271"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch157.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

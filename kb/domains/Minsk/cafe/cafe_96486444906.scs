@@ -1,0 +1,26 @@
+ concept_cafe_96486444906
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Столовая БГТУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столовая БГТУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Бобруйская улица, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.889774,27.560129"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

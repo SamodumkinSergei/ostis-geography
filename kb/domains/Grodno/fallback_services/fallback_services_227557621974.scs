@@ -1,0 +1,26 @@
+ concept_fallback_services_227557621974
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Диабаз"]
+	(* <- lang_ru;; <- name;;*);
+    ["Диабаз"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Павлова, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 584-91-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.691116,23.80982"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pamiatnikgrodno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

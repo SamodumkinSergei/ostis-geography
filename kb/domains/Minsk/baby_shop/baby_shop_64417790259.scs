@@ -1,0 +1,26 @@
+ concept_baby_shop_64417790259
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Box of bricks"]
+	(* <- lang_ru;; <- name;;*);
+    ["Box of bricks"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Логойский тракт"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 162-51-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.964467,27.628089"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

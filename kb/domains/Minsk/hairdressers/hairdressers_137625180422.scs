@@ -1,0 +1,26 @@
+ concept_hairdressers_137625180422
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Славяна"]
+	(* <- lang_ru;; <- name;;*);
+    ["Славяна"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Заславская улица, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 370-88-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00; вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908806,27.537533"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://krasatut.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

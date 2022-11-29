@@ -1,0 +1,26 @@
+ concept_museum_79217580091
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Художественный музей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Художественный музей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, остров Центральный"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 222-17-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср-вс 10:00–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.081585,23.654224"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brokm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

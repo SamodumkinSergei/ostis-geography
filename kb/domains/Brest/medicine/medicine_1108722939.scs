@@ -1,0 +1,26 @@
+ concept_medicine_1108722939
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Брестская городская поликлиника № 3"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестская городская поликлиника № 3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, микрорайон Южный, улица Жукова, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 293-32-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–20:00; сб,вс 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.06254,23.732782"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bgp3.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

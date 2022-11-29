@@ -1,0 +1,26 @@
+ concept_malls_70224404482
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Твой велик"]
+	(* <- lang_ru;; <- name;;*);
+    ["Твой велик"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 19к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 780-31-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00, перерыв 14:00–14:30; сб,вс 10:00–17:00, перерыв 14:00–14:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.179064,30.220996"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://tvojvelik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

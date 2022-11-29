@@ -1,0 +1,26 @@
+ concept_clothes_shop_225083096878
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Париж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Париж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, бульвар Непокорённых, 43В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 272-63-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.871003,30.330982"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

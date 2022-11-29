@@ -1,0 +1,26 @@
+ concept_malls_83348637047
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Луч"]
+	(* <- lang_ru;; <- name;;*);
+    ["Луч"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Дубко, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 510-47-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–21:00; пт,сб 10:00–22:00; вс 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.701809,23.834203"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://luch.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_cafe_41053795561
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кафе"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафе"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Привокзальная площадь, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 239-21-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.926448,30.338617"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

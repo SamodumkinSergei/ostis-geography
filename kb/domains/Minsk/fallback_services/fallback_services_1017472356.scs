@@ -1,0 +1,26 @@
+ concept_fallback_services_1017472356
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гранитная мастерская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гранитная мастерская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Смолячкова, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 627-88-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908664,27.582784"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://byst.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

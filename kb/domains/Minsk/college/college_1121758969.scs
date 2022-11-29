@@ -1,0 +1,26 @@
+ concept_college_1121758969
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 165"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 165"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Газеты Звязда, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 207-99-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.869823,27.468094"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch165.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

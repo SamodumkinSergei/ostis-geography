@@ -1,0 +1,26 @@
+ concept_car_park_136320520636
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автомобильная парковка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автомобильная парковка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Центральный район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 278-19-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.460156,31.019656"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

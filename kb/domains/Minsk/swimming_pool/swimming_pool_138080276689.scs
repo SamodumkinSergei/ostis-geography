@@ -1,0 +1,26 @@
+ concept_swimming_pool_138080276689
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Бассейн СШ № 56"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бассейн СШ № 56"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Каменногорская улица, 70"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 254-23-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 17:00–20:00; пт 09:00–12:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.925903,27.424816"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch56.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_drugstores_127804000819
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Искамед"]
+	(* <- lang_ru;; <- name;;*);
+    ["Искамед"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Грюнвальдская улица, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 263-41-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб,вс 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.934845,30.249364"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.iskamed.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

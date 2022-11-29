@@ -1,0 +1,26 @@
+ concept_government_1062011072
+ <- concept_government;
+=>nrel_main_idtf:
+	["Администрация Московского района г. Бреста"]
+	(* <- lang_ru;; <- name;;*);
+    ["Администрация Московского района г. Бреста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 273"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 259-00-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.098904,23.766698"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

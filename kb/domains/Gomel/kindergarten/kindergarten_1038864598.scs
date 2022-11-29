@@ -1,0 +1,26 @@
+ concept_kindergarten_1038864598
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 4 г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 4 г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Телегина, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 235-93-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.442579,30.995718"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ds4gomel.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

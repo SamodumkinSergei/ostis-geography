@@ -1,0 +1,26 @@
+ concept_bus_station_24590043993
+ <- concept_bus_station;
+=>nrel_main_idtf:
+	["ДС Лермонтова"]
+	(* <- lang_ru;; <- name;;*);
+    ["ДС Лермонтова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лермонтова, 30А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 286-18-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.892663,27.514058"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://minsktrans.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

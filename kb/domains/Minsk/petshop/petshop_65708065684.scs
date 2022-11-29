@@ -1,0 +1,26 @@
+ concept_petshop_65708065684
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Zooмаркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Zooмаркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, 4-й переулок Кольцова, 51"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 390-01-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–21:00; сб,вс 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.95306,27.600475"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ezoo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

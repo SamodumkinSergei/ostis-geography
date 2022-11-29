@@ -1,0 +1,26 @@
+ concept_drugstores_223665500327
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Белфармация, аптека № 65"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белфармация, аптека № 65"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Восточная улица, 46"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 262-34-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.93593,27.596639"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

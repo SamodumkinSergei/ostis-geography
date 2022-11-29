@@ -1,0 +1,26 @@
+ concept_college_1050212028
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 57 г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 57 г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Осипова, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 232-00-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.458761,30.960681"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://57gomel.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_college_37367741735
+ <- concept_college;
+=>nrel_main_idtf:
+	["БГУИР, кафедра инженерной и компьютерной графики ФКП"]
+	(* <- lang_ru;; <- name;;*);
+    ["БГУИР, кафедра инженерной и компьютерной графики ФКП"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петруся Бровки, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 293-88-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 13:00–13:45; пт 08:30–16:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.918797,27.593865"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsuir.by/ru/kaf-inzh-graf"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

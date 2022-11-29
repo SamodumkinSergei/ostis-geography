@@ -1,0 +1,26 @@
+ concept_drugstores_11500436854
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["InLek"]
+	(* <- lang_ru;; <- name;;*);
+    ["InLek"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Жемчужная улица, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 220-22-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.357646,31.012169"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.inlek.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

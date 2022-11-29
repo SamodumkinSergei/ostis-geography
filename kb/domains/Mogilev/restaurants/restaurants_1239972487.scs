@@ -1,0 +1,26 @@
+ concept_restaurants_1239972487
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Модерн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Модерн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Королёва, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 279-07-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903944,30.368951"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://restoran-modern.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

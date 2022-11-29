@@ -1,0 +1,26 @@
+ concept_furniture_store_21950550230
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Мир стульев"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мир стульев"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Машерова, 75к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 356-24-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.088817,23.713825"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://profi-ofis.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

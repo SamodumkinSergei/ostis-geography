@@ -1,0 +1,26 @@
+ concept_supermarket_113526048207
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Родны Кут Могилевское РАЙПО"]
+	(* <- lang_ru;; <- name;;*);
+    ["Родны Кут Могилевское РАЙПО"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёвский район, Вейно, Вейнянская улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 220-26-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.82934,30.387128"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

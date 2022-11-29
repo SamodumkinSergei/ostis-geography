@@ -1,0 +1,26 @@
+ concept_car_park_128485921153
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Охраняемая автостоянка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Охраняемая автостоянка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Домбровского, 61А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 663-30-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.709026,23.796703"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

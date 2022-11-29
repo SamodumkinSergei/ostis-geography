@@ -1,0 +1,26 @@
+ concept_malls_1255941559
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Сантехника"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сантехника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Бориса Царикова, 44"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 370-12-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00, перерыв 13:00–13:40; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.446867,30.959486"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

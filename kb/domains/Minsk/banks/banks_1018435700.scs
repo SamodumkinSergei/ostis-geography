@@ -1,0 +1,26 @@
+ concept_banks_1018435700
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Банк Дабрабыт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Банк Дабрабыт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сергея Есенина, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 522-21-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.851655,27.455965"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bankdabrabyt.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

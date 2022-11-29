@@ -1,0 +1,26 @@
+ concept_restaurants_126245722106
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Ресторан"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ресторан"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Нарочанская улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 500-28-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.933499,27.477065"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.slavyanskaya-minsk.by/restoran"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

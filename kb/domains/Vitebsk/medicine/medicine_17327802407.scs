@@ -1,0 +1,26 @@
+ concept_medicine_17327802407
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Поликлиника № 12"]
+	(* <- lang_ru;; <- name;;*);
+    ["Поликлиника № 12"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Ереван, улица Маршала Худякова, 153"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 09:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["40.215315,44.57724"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

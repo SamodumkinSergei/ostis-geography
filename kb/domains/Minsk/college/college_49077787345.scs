@@ -1,0 +1,26 @@
+ concept_college_49077787345
+ <- concept_college;
+=>nrel_main_idtf:
+	["БГУИР, кафедра инфокоммуникационных технологий Фик"]
+	(* <- lang_ru;; <- name;;*);
+    ["БГУИР, кафедра инфокоммуникационных технологий Фик"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петруся Бровки, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 293-86-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 13:00–13:45; пт 08:30–16:05, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916824,27.596263"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsuir.by/ru/kaf-ikt"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

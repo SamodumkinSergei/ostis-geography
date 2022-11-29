@@ -1,0 +1,26 @@
+ concept_museum_121370459315
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей обороны Брестской крепости"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей обороны Брестской крепости"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Героев Обороны Брестской Крепости, 60"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 225-42-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.083639,23.657927"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brest-fortress.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

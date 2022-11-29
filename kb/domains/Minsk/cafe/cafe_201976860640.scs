@@ -1,0 +1,26 @@
+ concept_cafe_201976860640
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Конференция"]
+	(* <- lang_ru;; <- name;;*);
+    ["Конференция"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Железнодорожная улица, 44"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 770-35-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–22:00; сб 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.881163,27.519627"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

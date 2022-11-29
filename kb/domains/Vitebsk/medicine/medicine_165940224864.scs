@@ -1,0 +1,26 @@
+ concept_medicine_165940224864
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["ГБУЗ Городская больница № 1 имени Н. И. Пирогова, поликлиника № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГБУЗ Городская больница № 1 имени Н. И. Пирогова, поликлиника № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Севастополь, площадь Восставших, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (8692) 41-71-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–20:00; сб 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["44.601883,33.515816"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://1gb-sevastopol.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

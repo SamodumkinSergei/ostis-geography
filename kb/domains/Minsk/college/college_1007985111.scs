@@ -1,0 +1,26 @@
+ concept_college_1007985111
+ <- concept_college;
+=>nrel_main_idtf:
+	["Государственный профессионально-технический колледж хлебопечения"]
+	(* <- lang_ru;; <- name;;*);
+    ["Государственный профессионально-технический колледж хлебопечения"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Якубовского, 43"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 270-10-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–18:00, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.896205,27.454204"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ptkhl.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

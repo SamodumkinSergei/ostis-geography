@@ -1,0 +1,26 @@
+ concept_college_183556291680
+ <- concept_college;
+=>nrel_main_idtf:
+	["Белорусский институт правоведения, административный корпус"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусский институт правоведения, административный корпус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Фрунзенский район, микрорайон Масюковщина-1, 2-й Путепроводный переулок, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 202-40-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.923014,27.498341"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bip-ip.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

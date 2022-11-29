@@ -1,0 +1,26 @@
+ concept_baby_shop_141415550456
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Хорошие Ребята"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хорошие Ребята"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Бурдейного, 6Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 155-02-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–19:00; вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904511,27.456109"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

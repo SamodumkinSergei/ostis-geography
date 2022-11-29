@@ -1,0 +1,26 @@
+ concept_medicine_1024260425
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городская поликлиника № 3, Поликлиническое отделение № 3"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская поликлиника № 3, Поликлиническое отделение № 3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Санкт-Петербург, Железноводская улица, 64"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (812) 417-20-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб,вс 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["59.950039,30.236776"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.p3vo.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

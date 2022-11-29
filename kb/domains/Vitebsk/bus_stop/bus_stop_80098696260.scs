@@ -1,0 +1,26 @@
+ concept_bus_stop_80098696260
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["ОАО Молоко"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОАО Молоко"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, микрорайон Придорожный"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.147584,30.134596"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

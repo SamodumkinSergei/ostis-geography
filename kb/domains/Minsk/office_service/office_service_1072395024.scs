@@ -1,0 +1,26 @@
+ concept_office_service_1072395024
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Youbox центр хранения и аренды"]
+	(* <- lang_ru;; <- name;;*);
+    ["Youbox центр хранения и аренды"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, деревня Боровляны, улица 40 лет Победы, 19, корп. 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 516-97-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.990972,27.682301"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://youbox.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

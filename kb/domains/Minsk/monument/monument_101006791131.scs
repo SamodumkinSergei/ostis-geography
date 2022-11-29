@@ -1,0 +1,26 @@
+ concept_monument_101006791131
+ <- concept_monument;
+=>nrel_main_idtf:
+	["Ленин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ленин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Октябрьская улица, 16, корп. 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.890102,27.573471"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

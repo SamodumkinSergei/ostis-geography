@@ -1,0 +1,26 @@
+ concept_bus_stop_8272516739
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Универсам Брест"]
+	(* <- lang_ru;; <- name;;*);
+    ["Универсам Брест"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Любимова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.859655,27.465893"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

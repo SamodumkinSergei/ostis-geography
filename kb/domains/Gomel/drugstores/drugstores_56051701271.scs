@@ -1,0 +1,26 @@
+ concept_drugstores_56051701271
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Альфа аптека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Альфа аптека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Григория Денисенко, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 227-44-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.398314,30.966302"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

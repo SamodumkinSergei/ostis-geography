@@ -1,0 +1,26 @@
+ concept_supermarket_125252839892
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Новобелицкий"]
+	(* <- lang_ru;; <- name;;*);
+    ["Новобелицкий"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 78"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 07:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.385579,31.030075"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

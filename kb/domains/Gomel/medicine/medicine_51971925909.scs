@@ -1,0 +1,26 @@
+ concept_medicine_51971925909
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Военно-врачебная комиссия медицинской службы ДФиТ МВД по Гомельской области"]
+	(* <- lang_ru;; <- name;;*);
+    ["Военно-врачебная комиссия медицинской службы ДФиТ МВД по Гомельской области"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Рогачёвская улица, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 233-78-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.437166,30.999289"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gomel.mvd.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

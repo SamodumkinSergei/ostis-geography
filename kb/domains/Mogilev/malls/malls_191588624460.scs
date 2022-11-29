@@ -1,0 +1,26 @@
+ concept_malls_191588624460
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Modus"]
+	(* <- lang_ru;; <- name;;*);
+    ["Modus"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Габровская улица, 45"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 277-30-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 10:00–19:00, перерыв 13:00–14:00; сб 10:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.871739,30.361515"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

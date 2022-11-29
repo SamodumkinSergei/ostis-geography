@@ -1,0 +1,26 @@
+ concept_fallback_services_1270390755
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Карелстоун"]
+	(* <- lang_ru;; <- name;;*);
+    ["Карелстоун"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Дмитрия Донского, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 252-05-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–17:00; пт,сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.089753,23.721784"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

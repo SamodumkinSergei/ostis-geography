@@ -1,0 +1,26 @@
+ concept_hotels_210506436252
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Agata Laskowska Nowa"]
+	(* <- lang_ru;; <- name;;*);
+    ["Agata Laskowska Nowa"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Люблинское воеводство, повят Бяльский, Тересполь, Новая улица, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.073963,23.616915"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mapa.targeo.pl/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

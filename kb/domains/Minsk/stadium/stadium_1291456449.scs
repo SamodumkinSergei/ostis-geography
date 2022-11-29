@@ -1,0 +1,26 @@
+ concept_stadium_1291456449
+ <- concept_stadium;
+=>nrel_main_idtf:
+	["Арена"]
+	(* <- lang_ru;; <- name;;*);
+    ["Арена"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 111А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 279-06-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.934608,27.481265"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.minskarena.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

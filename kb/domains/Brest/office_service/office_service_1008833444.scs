@@ -1,0 +1,26 @@
+ concept_office_service_1008833444
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Офистон"]
+	(* <- lang_ru;; <- name;;*);
+    ["Офистон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Куйбышева, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 253-12-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30; пт 08:30–16:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.098094,23.689982"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://officeton.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

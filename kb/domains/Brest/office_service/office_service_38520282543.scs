@@ -1,0 +1,26 @@
+ concept_office_service_38520282543
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Белита-Витэкс-Брест"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белита-Витэкс-Брест"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Янки Купалы, 106А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 255-45-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.11065,23.753085"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://belita-brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

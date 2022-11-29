@@ -1,0 +1,26 @@
+ concept_restaurants_1061261172
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Старое Время"]
+	(* <- lang_ru;; <- name;;*);
+    ["Старое Время"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Крестьянская улица, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 714-85-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–23:00; пт,сб 12:00–01:00; вс 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.428411,31.013382"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

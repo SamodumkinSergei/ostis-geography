@@ -1,0 +1,26 @@
+ concept_hypermarket_1771839761
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Электро- и бензоинструмент"]
+	(* <- lang_ru;; <- name;;*);
+    ["Электро- и бензоинструмент"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Генерала Людникова, 2, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 260-29-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.205394,30.219568"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pilakos.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

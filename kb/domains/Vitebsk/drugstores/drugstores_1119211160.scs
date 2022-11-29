@@ -1,0 +1,26 @@
+ concept_drugstores_1119211160
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Зеленый лист"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зеленый лист"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Димитрова, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 266-04-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб,вс 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.19357,30.191753"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.inlek.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

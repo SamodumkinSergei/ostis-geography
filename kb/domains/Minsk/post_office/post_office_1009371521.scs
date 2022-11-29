@@ -1,0 +1,26 @@
+ concept_post_office_1009371521
+ <- concept_post_office;
+=>nrel_main_idtf:
+	["Белпочта, отделение № 220031"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белпочта, отделение № 220031"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Первомайский район, посёлок Озерище, Славянская улица, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 363-69-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–15:00; сб 09:00–17:00, перерыв 13:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.936621,27.719596"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belpost.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

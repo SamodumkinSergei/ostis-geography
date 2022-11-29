@@ -1,0 +1,26 @@
+ concept_office_service_196157950229
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["БелЭЗ, производственно-техническая база"]
+	(* <- lang_ru;; <- name;;*);
+    ["БелЭЗ, производственно-техническая база"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Калиновского, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:15–17:00, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.946142,27.624025"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://belez.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

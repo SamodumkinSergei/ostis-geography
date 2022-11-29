@@ -1,0 +1,26 @@
+ concept_cafe_229699402118
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Lameira coffee"]
+	(* <- lang_ru;; <- name;;*);
+    ["Lameira coffee"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 369-57-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб,вс 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.890009,27.520487"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

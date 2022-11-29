@@ -1,0 +1,26 @@
+ concept_petshop_1136379937
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Кот и пес"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кот и пес"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Победы, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 265-03-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.169762,30.224005"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitebsk-vet.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

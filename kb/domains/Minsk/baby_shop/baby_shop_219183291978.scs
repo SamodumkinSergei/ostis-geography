@@ -1,0 +1,26 @@
+ concept_baby_shop_219183291978
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Санделайт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Санделайт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 261-83-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.89606,27.69741"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.sundelight.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

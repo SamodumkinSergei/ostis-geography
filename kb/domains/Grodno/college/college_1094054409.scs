@@ -1,0 +1,26 @@
+ concept_college_1094054409
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГУО Гимназия № 3 г. Гродно"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО Гимназия № 3 г. Гродно"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Ольги Соломовой, 58"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 250-08-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 07:30–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.668956,23.79508"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gymn3grodno.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

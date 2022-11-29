@@ -1,0 +1,26 @@
+ concept_gasstation_9371998667
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Гвозди"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гвозди"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Лейтенанта Рябцева, 44Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 229-88-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.12877,23.688166"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

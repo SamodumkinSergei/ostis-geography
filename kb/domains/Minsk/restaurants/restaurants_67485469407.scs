@@ -1,0 +1,26 @@
+ concept_restaurants_67485469407
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Nravizza pizza"]
+	(* <- lang_ru;; <- name;;*);
+    ["Nravizza pizza"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Гинтовта, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 190-81-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:30–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.948925,27.671848"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://nravizza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

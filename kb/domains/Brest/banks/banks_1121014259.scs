@@ -1,0 +1,26 @@
+ concept_banks_1121014259
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Сбер Банк, отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сбер Банк, отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Мицкевича, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 514-81-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.096574,23.684603"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.sber-bank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

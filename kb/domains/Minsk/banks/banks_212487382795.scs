@@ -1,0 +1,26 @@
+ concept_banks_212487382795
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Банк РРБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Банк РРБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, ул. М. Богдановича, 120 Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 306-02-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.935882,27.582825"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://rrb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

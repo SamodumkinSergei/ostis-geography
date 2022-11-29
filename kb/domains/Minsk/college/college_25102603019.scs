@@ -1,0 +1,26 @@
+ concept_college_25102603019
+ <- concept_college;
+=>nrel_main_idtf:
+	["Intensivkurs"]
+	(* <- lang_ru;; <- name;;*);
+    ["Intensivkurs"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Голубева, 14Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 101-72-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–21:00; сб,вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.865923,27.476441"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://taplink.cc/intensivkurs.by"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

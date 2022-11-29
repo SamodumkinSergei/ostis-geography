@@ -1,0 +1,26 @@
+ concept_bus_stop_53179146113
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Павлова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Павлова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Славгородское шоссе"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.858718,30.367017"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

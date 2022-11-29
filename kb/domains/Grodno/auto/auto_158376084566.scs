@@ -1,0 +1,26 @@
+ concept_auto_158376084566
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автосервис, автотехцентр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автосервис, автотехцентр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Максима Горького, 105А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 782-18-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.727305,23.829423"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_drugstores_79629184802
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Медвакс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Медвакс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Мазурова, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 250-99-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.444933,31.022654"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://medvax.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

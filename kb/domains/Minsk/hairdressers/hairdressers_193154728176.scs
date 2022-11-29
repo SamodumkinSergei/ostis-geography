@@ -1,0 +1,26 @@
+ concept_hairdressers_193154728176
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Студия Юлии Михеенко"]
+	(* <- lang_ru;; <- name;;*);
+    ["Студия Юлии Михеенко"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Городецкая улица, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 747-54-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–21:00; сб 10:00–20:00; вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.948556,27.682132"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://miheenko.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

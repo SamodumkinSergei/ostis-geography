@@ -1,0 +1,26 @@
+ concept_car_park_64153213037
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Паркинг"]
+	(* <- lang_ru;; <- name;;*);
+    ["Паркинг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кирилла и Мефодия, 6А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 762-41-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905946,27.557911"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

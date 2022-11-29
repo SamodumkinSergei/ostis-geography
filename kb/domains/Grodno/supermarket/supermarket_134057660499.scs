@@ -1,0 +1,26 @@
+ concept_supermarket_134057660499
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Марцiн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Марцiн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Болдина, 4Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 515-00-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.6945,23.80204"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.martinn.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

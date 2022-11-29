@@ -1,0 +1,26 @@
+ concept_post_office_1065276191
+ <- concept_post_office;
+=>nrel_main_idtf:
+	["Бизнес почта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бизнес почта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Пушкинская улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 228-25-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.093823,23.685777"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belpost.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

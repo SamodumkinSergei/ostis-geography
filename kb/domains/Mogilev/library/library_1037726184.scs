@@ -1,0 +1,26 @@
+ concept_library_1037726184
+ <- concept_library;
+=>nrel_main_idtf:
+	["Могилёвская областная библиотека имени В. И. Ленина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилёвская областная библиотека имени В. И. Ленина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Крыленко, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 262-81-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–20:00; сб,вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907162,30.336509"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://library.mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_gasstation_103370338834
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Мингаз, АГЗС № 6"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мингаз, АГЗС № 6"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Чижовка, улица Уборевича, 109"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 363-37-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00; вс 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.834601,27.60239"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mingas.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

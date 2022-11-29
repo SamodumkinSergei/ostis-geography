@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_32368001078
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Верховичский Крахмальный завод"]
+	(* <- lang_ru;; <- name;;*);
+    ["Верховичский Крахмальный завод"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 319-48-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.425687,31.015081"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://krahmal.info/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

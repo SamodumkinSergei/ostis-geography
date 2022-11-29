@@ -1,0 +1,26 @@
+ concept_tire_fitting_200785638438
+ <- concept_tire_fitting;
+=>nrel_main_idtf:
+	["Шиномонтаж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Шиномонтаж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельская область, Добруш, Гомельская улица, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 612-43-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб,вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.382966,31.324673"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://xmenserchannel.wixsite.com/avtotire"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_restaurants_231191775619
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Pablo"]
+	(* <- lang_ru;; <- name;;*);
+    ["Pablo"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Советская улица, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 244-44-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–01:00; пт,сб 09:00–02:30; вс 09:00–01:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.680333,23.830909"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://grodno.in/restaurant/pablo/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_office_service_214289513874
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Новацио"]
+	(* <- lang_ru;; <- name;;*);
+    ["Новацио"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Сябровская улица, 90Д"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,чт,пт,сб,вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.064535,23.716979"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

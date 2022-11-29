@@ -1,0 +1,26 @@
+ concept_office_9101963981
+ <- concept_office;
+=>nrel_main_idtf:
+	["Редакция Газеты Гродненский Химик Гродно Азот"]
+	(* <- lang_ru;; <- name;;*);
+    ["Редакция Газеты Гродненский Химик Гродно Азот"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Космонавтов, 100"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 279-47-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.676586,23.894264"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_1023828561
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Каменград"]
+	(* <- lang_ru;; <- name;;*);
+    ["Каменград"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Гагарина, 77А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 738-43-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.42416,30.994873"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vechnost.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

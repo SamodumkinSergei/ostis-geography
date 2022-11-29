@@ -1,0 +1,26 @@
+ concept_fallback_services_54178950398
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Памятники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Казинца, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 601-97-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.859026,27.518031"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://infinity-granit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

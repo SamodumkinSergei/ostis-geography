@@ -1,0 +1,26 @@
+ concept_hotels_1090686775
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Общежитие Витебского мотороремонтного завода"]
+	(* <- lang_ru;; <- name;;*);
+    ["Общежитие Витебского мотороремонтного завода"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Лазо, 100к2, подъезд 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 267-19-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.201903,30.255078"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.vmrz.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

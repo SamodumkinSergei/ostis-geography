@@ -1,0 +1,26 @@
+ concept_dental_1038375129
+ <- concept_dental;
+=>nrel_main_idtf:
+	["Брестская областная стоматологическая поликлиника"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестская областная стоматологическая поликлиника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Пушкинская улица, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 229-13-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–21:00; сб 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.095697,23.69063"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bosp.by/ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

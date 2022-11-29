@@ -1,0 +1,26 @@
+ concept_baby_shop_198528262556
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Fantasy-pen.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Fantasy-pen.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Сухая улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 556-04-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904933,27.539966"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://fantasy-pen.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_drugstores_146306747133
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 52 Могилёвского РУП Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 52 Могилёвского РУП Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Ленинская улица, 93"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 273-96-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00, перерыв 12:00–12:20; сб,вс 08:00–16:20, перерыв 12:00–12:20"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.913156,30.347415"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mogpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

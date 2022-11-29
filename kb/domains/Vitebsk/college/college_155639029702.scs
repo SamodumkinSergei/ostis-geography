@@ -1,0 +1,26 @@
+ concept_college_155639029702
+ <- concept_college;
+=>nrel_main_idtf:
+	["АлФаВит"]
+	(* <- lang_ru;; <- name;;*);
+    ["АлФаВит"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Генерала Ивановского, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 317-33-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.165254,30.260753"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.alfa-vit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

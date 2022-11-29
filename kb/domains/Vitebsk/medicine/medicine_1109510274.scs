@@ -1,0 +1,26 @@
+ concept_medicine_1109510274
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["УЗ 20-я городская поликлиника"]
+	(* <- lang_ru;; <- name;;*);
+    ["УЗ 20-я городская поликлиника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Пушкина, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 369-03-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.900341,27.497439"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.20gp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

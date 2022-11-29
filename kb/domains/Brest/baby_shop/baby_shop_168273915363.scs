@@ -1,0 +1,26 @@
+ concept_baby_shop_168273915363
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Коляски Ванюша"]
+	(* <- lang_ru;; <- name;;*);
+    ["Коляски Ванюша"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Машерова, 50"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 724-21-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.086712,23.695479"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.easyshop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

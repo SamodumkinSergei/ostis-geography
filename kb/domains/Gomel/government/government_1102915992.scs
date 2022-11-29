@@ -1,0 +1,26 @@
+ concept_government_1102915992
+ <- concept_government;
+=>nrel_main_idtf:
+	["Гомельский сельский исполнительный комитет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский сельский исполнительный комитет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебская область, Полоцкий район, Гомельский сельсовет, агрогородок Гомель, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 447-61-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.291346,28.754668"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://polotsk.vitebsk-region.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

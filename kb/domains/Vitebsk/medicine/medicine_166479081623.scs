@@ -1,0 +1,26 @@
+ concept_medicine_166479081623
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Polyclinic"]
+	(* <- lang_ru;; <- name;;*);
+    ["Polyclinic"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Таллинн, улица Сыле, 63"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+372  626 13 14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["59.450308,24.695675"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.keskhaigla.ee/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_furniture_store_61961647818
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Кресла Про Офис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кресла Про Офис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева, 65А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 362-22-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.923253,27.51073"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://kreslo.prooffice.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

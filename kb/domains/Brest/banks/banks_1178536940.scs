@@ -1,0 +1,26 @@
+ concept_banks_1178536940
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Цептер банк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Цептер банк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Советская улица, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 253-36-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–16:00, перерыв 12:30–13:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.094458,23.692488"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.zepterbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

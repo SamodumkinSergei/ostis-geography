@@ -1,0 +1,26 @@
+ concept_tailor_70310899654
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Ремонт обуви"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт обуви"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Наполеона Орды"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 851-79-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00, перерыв 14:00–15:00; сб 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.62089,23.810391"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

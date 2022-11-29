@@ -1,0 +1,26 @@
+ concept_college_106708848239
+ <- concept_college;
+=>nrel_main_idtf:
+	["Факультет повышения квалификации и переподготовки Бгам"]
+	(* <- lang_ru;; <- name;;*);
+    ["Факультет повышения квалификации и переподготовки Бгам"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Старовиленская улица, 56"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 252-78-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт 15:40–17:10; пт 10:00–11:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.915196,27.55967"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bgam.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_cafe_105270389676
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Этна"]
+	(* <- lang_ru;; <- name;;*);
+    ["Этна"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Ирининская улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 158-58-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.430011,31.011297"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://etnacafe.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

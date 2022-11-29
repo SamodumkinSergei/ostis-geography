@@ -1,0 +1,26 @@
+ concept_supermarket_49814779612
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Домочай"]
+	(* <- lang_ru;; <- name;;*);
+    ["Домочай"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Академика Павлова, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–17:45; сб 07:30–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.866012,30.385279"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

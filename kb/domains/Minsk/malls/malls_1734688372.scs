@@ -1,0 +1,26 @@
+ concept_malls_1734688372
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Комбат"]
+	(* <- lang_ru;; <- name;;*);
+    ["Комбат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Руссиянова, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 617-17-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–19:00; вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.942506,27.685933"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kombat-shop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

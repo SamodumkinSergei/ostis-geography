@@ -1,0 +1,26 @@
+ concept_cafe_1205019603
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Амстердам"]
+	(* <- lang_ru;; <- name;;*);
+    ["Амстердам"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Бешенковичское шоссе, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 254-05-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.159849,30.166344"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://korona.by/amsterdam/vitebsk"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

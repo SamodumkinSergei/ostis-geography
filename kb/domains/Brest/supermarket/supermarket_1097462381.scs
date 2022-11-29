@@ -1,0 +1,26 @@
+ concept_supermarket_1097462381
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Ассорти-4"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ассорти-4"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Луцкая улица, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.078477,23.743752"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://alvin.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

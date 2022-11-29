@@ -1,0 +1,26 @@
+ concept_hairdressers_1127610094
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Dinais"]
+	(* <- lang_ru;; <- name;;*);
+    ["Dinais"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Героев 120-й Дивизии, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 236-36-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 09:00–19:00; вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.94246,27.722434"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.dinais.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

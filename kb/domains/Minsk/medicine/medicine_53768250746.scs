@@ -1,0 +1,26 @@
+ concept_medicine_53768250746
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["1-я Городская детская поликлиника"]
+	(* <- lang_ru;; <- name;;*);
+    ["1-я Городская детская поликлиника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Золотая Горка, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 373-43-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:30–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.914053,27.587482"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.1gdp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

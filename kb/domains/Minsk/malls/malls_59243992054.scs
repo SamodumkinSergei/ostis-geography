@@ -1,0 +1,26 @@
+ concept_malls_59243992054
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Садовод-Минск"]
+	(* <- lang_ru;; <- name;;*);
+    ["Садовод-Минск"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кирилла Туровского, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 351-49-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.929813,27.655033"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sadovodvminsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

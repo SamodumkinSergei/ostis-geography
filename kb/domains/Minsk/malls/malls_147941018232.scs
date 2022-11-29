@@ -1,0 +1,26 @@
+ concept_malls_147941018232
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Белорусский Лён"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусский Лён"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 104"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 336-95-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.860494,27.478986"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://homelinen.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

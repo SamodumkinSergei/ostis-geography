@@ -1,0 +1,26 @@
+ concept_bus_stop_61123249974
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Витебский вокзал – Станция метро Пушкинская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебский вокзал – Станция метро Пушкинская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Санкт-Петербург, Загородный проспект"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["59.920419,30.327559"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

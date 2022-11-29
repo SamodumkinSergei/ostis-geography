@@ -1,0 +1,26 @@
+ concept_drugstores_190109977121
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Минская Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минская Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Щомыслицкий сельсовет, Озерцо, Центральная улица, 35А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 510-20-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:30, перерыв 14:00–14:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.8422,27.399408"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://minfarm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

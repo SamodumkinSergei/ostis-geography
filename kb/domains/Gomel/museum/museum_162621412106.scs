@@ -1,0 +1,26 @@
+ concept_museum_162621412106
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Дворец культуры железнодорожников им. В. И. Ленина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дворец культуры железнодорожников им. В. И. Ленина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Привокзальная площадь, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 295-38-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:30, перерыв 13:30–14:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.430607,30.992775"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gomel.rw.by/social_sphere/cultural_sports_complex/the_palace_of_culture/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

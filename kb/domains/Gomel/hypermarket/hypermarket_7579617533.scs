@@ -1,0 +1,26 @@
+ concept_hypermarket_7579617533
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["ProfCenter"]
+	(* <- lang_ru;; <- name;;*);
+    ["ProfCenter"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, 1-я Встречная улица, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 773-10-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб,вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.424653,30.964863"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://martynenka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

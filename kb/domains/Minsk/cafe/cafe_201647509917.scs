@@ -1,0 +1,26 @@
+ concept_cafe_201647509917
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Easy Soup"]
+	(* <- lang_ru;; <- name;;*);
+    ["Easy Soup"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Мстиславца, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 666-20-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.933848,27.652927"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://easysoup.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

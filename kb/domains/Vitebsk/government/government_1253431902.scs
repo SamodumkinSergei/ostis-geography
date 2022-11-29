@@ -1,0 +1,26 @@
+ concept_government_1253431902
+ <- concept_government;
+=>nrel_main_idtf:
+	["Главное статистическое управление Витебской области"]
+	(* <- lang_ru;; <- name;;*);
+    ["Главное статистическое управление Витебской области"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 10А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 242-55-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.187541,30.203972"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitebsk.belstat.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

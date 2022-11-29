@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_206900629900
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Брестский мясокомбинат"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестский мясокомбинат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Писателя Смирнова, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 227-78-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.095182,23.64502"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://brestmeat.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

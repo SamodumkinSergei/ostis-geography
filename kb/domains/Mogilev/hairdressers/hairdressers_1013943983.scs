@@ -1,0 +1,26 @@
+ concept_hairdressers_1013943983
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Визит"]
+	(* <- lang_ru;; <- name;;*);
+    ["Визит"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Привокзальная площадь, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 709-70-71"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб,вс 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.926141,30.338816"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

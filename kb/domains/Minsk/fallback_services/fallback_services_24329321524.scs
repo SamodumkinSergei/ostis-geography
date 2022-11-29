@@ -1,0 +1,26 @@
+ concept_fallback_services_24329321524
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Мастерская по изготовлению ключей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мастерская по изготовлению ключей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Восточная улица, 129"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 386-80-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.939273,27.59787"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

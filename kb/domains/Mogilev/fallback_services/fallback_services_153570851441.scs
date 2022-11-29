@@ -1,0 +1,26 @@
+ concept_fallback_services_153570851441
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Ритуальный магазин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ритуальный магазин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Димитрова, 45А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 344-33-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.874478,30.376925"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://granitbeltorg.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

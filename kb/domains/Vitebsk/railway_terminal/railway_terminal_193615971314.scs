@@ -1,0 +1,26 @@
+ concept_railway_terminal_193615971314
+ <- concept_railway_terminal;
+=>nrel_main_idtf:
+	["Железнодорожный вокзал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Железнодорожный вокзал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проезд Станция Лучёса, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.151257,30.214614"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

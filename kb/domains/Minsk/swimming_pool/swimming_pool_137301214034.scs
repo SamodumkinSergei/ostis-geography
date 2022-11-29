@@ -1,0 +1,26 @@
+ concept_swimming_pool_137301214034
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Swimmer School"]
+	(* <- lang_ru;; <- name;;*);
+    ["Swimmer School"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 109В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 918-80-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–20:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.934168,27.489898"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://swimmerschool.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

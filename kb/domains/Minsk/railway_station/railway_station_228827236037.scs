@@ -1,0 +1,26 @@
+ concept_railway_station_228827236037
+ <- concept_railway_station;
+=>nrel_main_idtf:
+	["Минск-Северный"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минск-Северный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Домашевская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906234,27.52555"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://minsk.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

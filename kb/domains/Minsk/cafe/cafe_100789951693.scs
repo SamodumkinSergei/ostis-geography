@@ -1,0 +1,26 @@
+ concept_cafe_100789951693
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Столовая"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столовая"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурганова, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 331-67-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 12:15–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.923926,27.598986"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

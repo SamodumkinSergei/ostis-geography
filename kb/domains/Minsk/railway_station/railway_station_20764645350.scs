@@ -1,0 +1,26 @@
+ concept_railway_station_20764645350
+ <- concept_railway_station;
+=>nrel_main_idtf:
+	["Станция Озерище"]
+	(* <- lang_ru;; <- name;;*);
+    ["Станция Озерище"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Первомайский район, посёлок Озерище, Славянская улица, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 225-82-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 04:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.932721,27.716452"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

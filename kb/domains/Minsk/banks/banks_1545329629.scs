@@ -1,0 +1,26 @@
+ concept_banks_1545329629
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Банк ВТБ, пункт обмена валюты"]
+	(* <- lang_ru;; <- name;;*);
+    ["Банк ВТБ, пункт обмена валюты"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева, 125, корп. 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 309-15-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 09:40–17:00, перерывы 11:10–11:20, 13:30–14:00, 16:00–16:10; сб,вс 09:10–17:10, перерывы 11:10–11:20, 13:30–14:00, 16:00–16:10"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.935569,27.448117"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.vtb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_cafe_1369867169
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Три мушкетёра"]
+	(* <- lang_ru;; <- name;;*);
+    ["Три мушкетёра"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Октябрьская улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 327-85-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.894,27.567637"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.kzminsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

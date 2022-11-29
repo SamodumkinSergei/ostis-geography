@@ -1,0 +1,26 @@
+ concept_kindergarten_1738396380
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 112 г. Могилёва"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 112 г. Могилёва"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Фатина, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 224-38-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 09:00–17:00, перерыв 13:00–14:00; вт 11:00–19:00, перерыв 13:00–14:00; ср-пт 09:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.883171,30.373774"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sad112mogilev.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

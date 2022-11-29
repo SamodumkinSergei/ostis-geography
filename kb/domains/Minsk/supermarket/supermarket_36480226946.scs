@@ -1,0 +1,26 @@
+ concept_supermarket_36480226946
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Санта супер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Санта супер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Грушевская улица, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 681-63-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.885927,27.525209"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://santa.by/adresa-magazinov/santa-super-minsk-ul-grushevskaya-21-211/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

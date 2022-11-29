@@ -1,0 +1,26 @@
+ concept_malls_60309202775
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Fantasy"]
+	(* <- lang_ru;; <- name;;*);
+    ["Fantasy"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Тимирязева, 10, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 581-43-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:30–18:00; сб 10:30–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.688304,23.846351"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.fantasysex.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

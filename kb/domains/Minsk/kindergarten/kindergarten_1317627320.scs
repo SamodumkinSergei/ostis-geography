@@ -1,0 +1,26 @@
+ concept_kindergarten_1317627320
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Дошкольный центр развития ребенка № 36 г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дошкольный центр развития ребенка № 36 г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Первомайский район, микрорайон Великий Лес, улица Беляева, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 282-76-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.942815,27.715615"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dcrr36.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

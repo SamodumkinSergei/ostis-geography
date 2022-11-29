@@ -1,0 +1,26 @@
+ concept_bus_stop_45251585787
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Гостиница Юность"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гостиница Юность"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Советской Конституции"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.106445,23.752125"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

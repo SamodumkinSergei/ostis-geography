@@ -1,0 +1,26 @@
+ concept_college_1050754189
+ <- concept_college;
+=>nrel_main_idtf:
+	["Колледж бизнеса и права"]
+	(* <- lang_ru;; <- name;;*);
+    ["Колледж бизнеса и права"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Колесникова, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 777-64-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:15–12:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917988,27.43567"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://kbp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

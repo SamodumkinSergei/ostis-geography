@@ -1,0 +1,26 @@
+ concept_mobile_phones_86977522778
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Alfa"]
+	(* <- lang_ru;; <- name;;*);
+    ["Alfa"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельская область, Речица, улица Мичурина, 144Е"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 623-20-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.366152,30.379594"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.alfapro.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

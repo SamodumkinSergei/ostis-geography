@@ -1,0 +1,26 @@
+ concept_college_1241421070
+ <- concept_college;
+=>nrel_main_idtf:
+	["Могилевский государственный технологический колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилевский государственный технологический колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Симонова, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 278-73-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.874167,30.315286"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mgtk.mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

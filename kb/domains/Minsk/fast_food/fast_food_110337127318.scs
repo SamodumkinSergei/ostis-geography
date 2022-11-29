@@ -1,0 +1,26 @@
+ concept_fast_food_110337127318
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Верифудгуд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Верифудгуд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Машерова, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 331-83-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916847,27.565607"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

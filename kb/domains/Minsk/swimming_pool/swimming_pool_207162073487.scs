@@ -1,0 +1,26 @@
+ concept_swimming_pool_207162073487
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Iswim.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Iswim.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Жудро, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 333-03-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,ср 19:30–20:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917103,27.480722"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://iswim.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

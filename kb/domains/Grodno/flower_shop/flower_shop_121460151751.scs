@@ -1,0 +1,26 @@
+ concept_flower_shop_121460151751
+ <- concept_flower_shop;
+=>nrel_main_idtf:
+	["Цветы в Евроопт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Цветы в Евроопт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Победы, 47"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 788-88-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.650498,23.832462"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://flowers.evroopt.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_medicine_1088218365
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Женская консультация Гомельской городской клинической поликлиники № 8"]
+	(* <- lang_ru;; <- name;;*);
+    ["Женская консультация Гомельской городской клинической поликлиники № 8"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Героев Подпольщиков, 13А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 234-90-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.466333,30.972737"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ggkp8.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

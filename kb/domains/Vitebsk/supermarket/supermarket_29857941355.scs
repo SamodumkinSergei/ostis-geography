@@ -1,0 +1,26 @@
+ concept_supermarket_29857941355
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Александрийское"]
+	(* <- lang_ru;; <- name;;*);
+    ["Александрийское"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Черняховского, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–19:00; пт 09:00–18:00; сб 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.181397,30.202135"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://alexandriya.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

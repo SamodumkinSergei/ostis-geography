@@ -1,0 +1,26 @@
+ concept_restaurants_181431373791
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Nravizza pizza"]
+	(* <- lang_ru;; <- name;;*);
+    ["Nravizza pizza"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Заславская улица, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 615-31-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:30–21:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909874,27.536984"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://nravizza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_mobile_phones_8582949237
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Сервис-центр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сервис-центр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Куйбышева, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 999-09-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 10:00–19:00; вт-пт 10:00–20:00; сб 10:00–19:00; вс 11:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.921398,27.577955"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.servicecenter.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

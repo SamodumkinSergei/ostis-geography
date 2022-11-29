@@ -1,0 +1,26 @@
+ concept_malls_1123589745
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Белкнига"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белкнига"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Ожешко, 38"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 304-81-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–18:00; вс 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.685888,23.84422"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belkniga.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_medicine_1394584326
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Подстанция № 4 станции скорой медицинской помощи"]
+	(* <- lang_ru;; <- name;;*);
+    ["Подстанция № 4 станции скорой медицинской помощи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кедышко, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 267-98-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.933869,27.633696"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.minsk-smp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

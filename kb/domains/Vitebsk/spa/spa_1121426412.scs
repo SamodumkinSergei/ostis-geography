@@ -1,0 +1,26 @@
+ concept_spa_1121426412
+ <- concept_spa;
+=>nrel_main_idtf:
+	["ЕвроСтиль"]
+	(* <- lang_ru;; <- name;;*);
+    ["ЕвроСтиль"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чкалова, 50, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 516-68-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00; вс 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.161313,30.210856"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://evrostylesalon.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

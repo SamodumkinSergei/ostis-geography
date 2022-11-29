@@ -1,0 +1,26 @@
+ concept_college_112788895792
+ <- concept_college;
+=>nrel_main_idtf:
+	["БГУИР, кафедра межкультурной профессиональной коммуникации"]
+	(* <- lang_ru;; <- name;;*);
+    ["БГУИР, кафедра межкультурной профессиональной коммуникации"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Гикало, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 293-86-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 13:00–13:40; пт 08:30–16:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912226,27.594342"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsuir.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

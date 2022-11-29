@@ -1,0 +1,26 @@
+ concept_bus_stop_162034012927
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Гагарина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Гагарина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Гагарина"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.672545,23.815625"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

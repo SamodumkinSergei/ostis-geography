@@ -1,0 +1,26 @@
+ concept_college_85072152293
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГНПО Оптика, оптоэлектроника и лазерная техника, исследовательский корпус"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГНПО Оптика, оптоэлектроника и лазерная техника, исследовательский корпус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Логойский тракт, 22/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 284-04-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:45, перерыв 13:00–14:00; пт 08:30–16:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.948005,27.615942"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://oelt.basnet.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

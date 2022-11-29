@@ -1,0 +1,26 @@
+ concept_bus_stop_211741232648
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Обсерватория"]
+	(* <- lang_ru;; <- name;;*);
+    ["Обсерватория"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Красногвардейская улица, 88Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.115602,23.687549"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

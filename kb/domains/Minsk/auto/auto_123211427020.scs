@@ -1,0 +1,26 @@
+ concept_auto_123211427020
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автоэлектрик Рено"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автоэлектрик Рено"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, микрорайон Серова-3, улица Асаналиева, 72А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 662-22-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.846486,27.542904"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://carhub.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

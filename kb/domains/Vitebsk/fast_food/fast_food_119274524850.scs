@@ -1,0 +1,26 @@
+ concept_fast_food_119274524850
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Армянская шаурма"]
+	(* <- lang_ru;; <- name;;*);
+    ["Армянская шаурма"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 680-30-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.187818,30.20493"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://armenianshawarma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

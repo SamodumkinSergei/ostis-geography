@@ -1,0 +1,26 @@
+ concept_auto_164465660810
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автодоктор"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автодоктор"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Лазурная улица, 11А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (029) 399-33-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.414032,30.908873"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

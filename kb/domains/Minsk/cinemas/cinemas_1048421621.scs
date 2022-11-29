@@ -1,0 +1,26 @@
+ concept_cinemas_1048421621
+ <- concept_cinemas;
+=>nrel_main_idtf:
+	["Мир"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мир"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Козлова, 4А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 284-37-71"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908525,27.580904"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://kinominska.by/objects/19"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

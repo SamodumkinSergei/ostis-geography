@@ -1,0 +1,26 @@
+ concept_drugstores_195428660106
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 71"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["169"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:30–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.194408,30.242016"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pharmacia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

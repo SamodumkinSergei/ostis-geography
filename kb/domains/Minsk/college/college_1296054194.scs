@@ -1,0 +1,26 @@
+ concept_college_1296054194
+ <- concept_college;
+=>nrel_main_idtf:
+	["City Business School Belarus"]
+	(* <- lang_ru;; <- name;;*);
+    ["City Business School Belarus"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Октябрьская улица, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 609-35-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.89033,27.56864"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mba-belarus.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

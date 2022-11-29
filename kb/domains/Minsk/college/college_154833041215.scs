@@ -1,0 +1,26 @@
+ concept_college_154833041215
+ <- concept_college;
+=>nrel_main_idtf:
+	["БГЭУ, учебный корпус № 3"]
+	(* <- lang_ru;; <- name;;*);
+    ["БГЭУ, учебный корпус № 3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 26/3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 367-30-24"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878778,27.606723"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bseu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

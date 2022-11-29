@@ -1,0 +1,26 @@
+ concept_supermarket_121663851010
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Продукты"]
+	(* <- lang_ru;; <- name;;*);
+    ["Продукты"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Октябрьский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.672365,23.804465"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

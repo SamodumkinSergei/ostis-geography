@@ -1,0 +1,26 @@
+ concept_fallback_services_1180972485
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гомельский электротехнический завод"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский электротехнический завод"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Полесская улица, 127/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 263-35-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:45–16:15, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.440407,30.974116"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gomeletz.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

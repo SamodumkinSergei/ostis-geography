@@ -1,0 +1,26 @@
+ concept_furniture_store_1018436715
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Лайн-ком"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лайн-ком"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 22, корп. 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 260-15-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.195614,30.221992"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.line-com.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

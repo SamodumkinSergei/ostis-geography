@@ -1,0 +1,26 @@
+ concept_drugstores_72012907338
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 194"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 194"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Богданова, 10Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 223-63-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.454228,30.970595"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomelpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

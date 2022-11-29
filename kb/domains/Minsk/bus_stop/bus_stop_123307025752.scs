@@ -1,0 +1,26 @@
+ concept_bus_stop_123307025752
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Кульман"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кульман"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лилии Карастояновой"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.929644,27.565883"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

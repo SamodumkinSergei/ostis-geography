@@ -1,0 +1,26 @@
+ concept_fast_food_139900280933
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Кофе и еда на вынос"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кофе и еда на вынос"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Немига, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 656-07-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902941,27.549565"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

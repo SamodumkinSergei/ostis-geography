@@ -1,0 +1,26 @@
+ concept_gasstation_103474241389
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["АЗС"]
+	(* <- lang_ru;; <- name;;*);
+    ["АЗС"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Дзержинский район, Добринёвский сельсовет"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.69487,27.383603"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

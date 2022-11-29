@@ -1,0 +1,26 @@
+ concept_supermarket_234194171845
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Марцiн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Марцiн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Димитрова, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 515-00-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.870142,30.367532"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

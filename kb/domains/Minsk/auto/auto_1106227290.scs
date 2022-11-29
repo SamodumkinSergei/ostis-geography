@@ -1,0 +1,26 @@
+ concept_auto_1106227290
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Белавторесурс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белавторесурс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Западная улица, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 652-64-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.899541,27.531929"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://belavtoresurs.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

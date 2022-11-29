@@ -1,0 +1,26 @@
+ concept_library_1043436330
+ <- concept_library;
+=>nrel_main_idtf:
+	["Филиал библиотеки № 13"]
+	(* <- lang_ru;; <- name;;*);
+    ["Филиал библиотеки № 13"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Заводской район, Северный посёлок, улица Сеченова, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 243-92-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–19:00; вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.883287,27.668022"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://publib.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

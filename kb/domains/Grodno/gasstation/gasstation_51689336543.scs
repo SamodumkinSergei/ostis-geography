@@ -1,0 +1,26 @@
+ concept_gasstation_51689336543
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Белоруснефть-Гроднооблнефтепродукт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белоруснефть-Гроднооблнефтепродукт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Дзержинского, 96"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 256-91-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.708347,23.839198"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://azs.belorusneft.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_gasstation_112439677241
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["АГЗС Белоруснефть"]
+	(* <- lang_ru;; <- name;;*);
+    ["АГЗС Белоруснефть"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельский район, агрогородок Красное"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 293-92-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.46954,30.943362"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://azs.belorusneft.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

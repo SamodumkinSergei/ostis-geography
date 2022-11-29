@@ -1,0 +1,26 @@
+ concept_car_park_77989157671
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Паркинг ТЦ Скала"]
+	(* <- lang_ru;; <- name;;*);
+    ["Паркинг ТЦ Скала"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Глебки, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 362-17-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908845,27.471143"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.skala-center.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

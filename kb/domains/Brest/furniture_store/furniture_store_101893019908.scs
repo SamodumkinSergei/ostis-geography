@@ -1,0 +1,26 @@
+ concept_furniture_store_101893019908
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Чувство вкуса"]
+	(* <- lang_ru;; <- name;;*);
+    ["Чувство вкуса"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Машерова, 63"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 734-57-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.088868,23.710541"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.vkusmebeli.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_166531395869
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Багажная касса"]
+	(* <- lang_ru;; <- name;;*);
+    ["Багажная касса"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Космонавтов, 10А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 233-24-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.19399,30.185637"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

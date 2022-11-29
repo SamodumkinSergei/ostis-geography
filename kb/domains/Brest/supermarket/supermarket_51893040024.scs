@@ -1,0 +1,26 @@
+ concept_supermarket_51893040024
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Брест"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брест"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Севастополь, улица Героев Бреста, 21А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["44.582688,33.44685"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

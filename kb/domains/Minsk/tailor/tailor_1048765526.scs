@@ -1,0 +1,26 @@
+ concept_tailor_1048765526
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Фра-мил"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фра-мил"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Олешева, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 354-54-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.944509,27.608728"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://fra-mil.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

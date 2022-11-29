@@ -1,0 +1,26 @@
+ concept_banks_1222353442
+ <- concept_banks;
+=>nrel_main_idtf:
+	["МТБАНК"]
+	(* <- lang_ru;; <- name;;*);
+    ["МТБАНК"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Свислочская улица, 9, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 181-00-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:20–18:00, перерывы 11:10–11:20, 13:30–14:15, 15:10–15:20; сб 09:20–16:30, перерывы 11:10–11:20, 13:30–14:15, 15:10–15:20"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.84981,27.647971"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.mtbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

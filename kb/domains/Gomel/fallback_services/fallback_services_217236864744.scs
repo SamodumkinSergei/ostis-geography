@@ -1,0 +1,26 @@
+ concept_fallback_services_217236864744
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Грааль"]
+	(* <- lang_ru;; <- name;;*);
+    ["Грааль"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Речицкий проспект, 7/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 781-31-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.417982,30.965661"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://graal.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

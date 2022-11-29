@@ -1,0 +1,26 @@
+ concept_printing_services_223838828140
+ <- concept_printing_services;
+=>nrel_main_idtf:
+	["Витебская областная типография"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебская областная типография"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Щербакова-Набережная, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 235-85-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.190807,30.204923"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitebskprint.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

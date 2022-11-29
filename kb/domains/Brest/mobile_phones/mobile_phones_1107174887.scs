@@ -1,0 +1,26 @@
+ concept_mobile_phones_1107174887
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["МТС"]
+	(* <- lang_ru;; <- name;;*);
+    ["МТС"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 210"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 237-98-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.09673,23.744653"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mts.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

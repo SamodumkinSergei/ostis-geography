@@ -1,0 +1,26 @@
+ concept_museum_1211637765
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей истории дорожного хозяйства"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей истории дорожного хозяйства"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Кальварийская улица, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 259-86-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:15, перерыв 12:30–13:00; пт 08:30–16:00, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90788,27.510994"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

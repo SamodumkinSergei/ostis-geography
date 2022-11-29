@@ -1,0 +1,26 @@
+ concept_tire_fitting_190242052437
+ <- concept_tire_fitting;
+=>nrel_main_idtf:
+	["Мативас авто"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мативас авто"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Гагарина, 81А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 915-92-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 12:00–13:00; сб,вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878776,30.315482"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mativas.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

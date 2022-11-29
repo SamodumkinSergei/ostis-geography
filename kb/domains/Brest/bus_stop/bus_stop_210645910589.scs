@@ -1,0 +1,26 @@
+ concept_bus_stop_210645910589
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Подсобное хозяйство"]
+	(* <- lang_ru;; <- name;;*);
+    ["Подсобное хозяйство"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Ковельская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.071664,23.676184"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

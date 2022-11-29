@@ -1,0 +1,26 @@
+ concept_college_1392686366
+ <- concept_college;
+=>nrel_main_idtf:
+	["Белорусская государственная академия искусств, учебный корпус № 5"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусская государственная академия искусств, учебный корпус № 5"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Будённого, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 337-89-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–18:00; пт 09:00–16:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.881041,27.60816"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bdam.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

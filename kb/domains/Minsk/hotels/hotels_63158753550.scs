@@ -1,0 +1,26 @@
+ concept_hotels_63158753550
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Гостиница Свято-Елисаветинского монастыря"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гостиница Свято-Елисаветинского монастыря"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Папернянский сельсовет, Цнянка, Полевой переулок, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 739-96-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.970852,27.536872"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://palomniki-obitel.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

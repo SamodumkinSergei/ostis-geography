@@ -1,0 +1,26 @@
+ concept_malls_86163351845
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Фон Танн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фон Танн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Ленина, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 231-99-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–18:00; вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.426107,31.005724"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://fontann.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

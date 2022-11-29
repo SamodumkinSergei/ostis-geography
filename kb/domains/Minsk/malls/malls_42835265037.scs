@@ -1,0 +1,26 @@
+ concept_malls_42835265037
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Галерея АртПорт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Галерея АртПорт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кирова, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 133-30-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–18:00, перерыв 13:30–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.8992,27.565664"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://artportgallery.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

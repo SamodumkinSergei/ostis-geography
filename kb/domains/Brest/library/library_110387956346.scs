@@ -1,0 +1,26 @@
+ concept_library_110387956346
+ <- concept_library;
+=>nrel_main_idtf:
+	["Библиотека, филиал № 5"]
+	(* <- lang_ru;; <- name;;*);
+    ["Библиотека, филиал № 5"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Суворова, 112, подъезд 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 248-84-28"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,вт,ср,чт,пт,вс 10:00–19:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.072404,23.760933"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gcbs-brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

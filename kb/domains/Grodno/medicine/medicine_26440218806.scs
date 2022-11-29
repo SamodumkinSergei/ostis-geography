@@ -1,0 +1,26 @@
+ concept_medicine_26440218806
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гродненская университетская клиника, отделение торакальной хирургии"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненская университетская клиника, отделение торакальной хирургии"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, бульвар Ленинского Комсомола, 52"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 243-52-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.69496,23.795013"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gocb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

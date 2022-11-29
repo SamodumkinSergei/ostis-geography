@@ -1,0 +1,26 @@
+ concept_bus_stop_40199694402
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Ленина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Ленина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Карбышева, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.680807,23.840784"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

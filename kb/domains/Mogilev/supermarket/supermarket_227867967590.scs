@@ -1,0 +1,26 @@
+ concept_supermarket_227867967590
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Светофор"]
+	(* <- lang_ru;; <- name;;*);
+    ["Светофор"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Вокзальная улица, 2, корп. 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 732-43-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.921369,30.340334"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://svetoforbel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_car_park_1014054686
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автомобильная парковка Гостиницы Турист"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автомобильная парковка Гостиницы Турист"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 81"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 295-05-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.87563,27.626948"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://hotel-tourist.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

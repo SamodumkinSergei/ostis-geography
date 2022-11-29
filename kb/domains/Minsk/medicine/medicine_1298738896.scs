@@ -1,0 +1,26 @@
+ concept_medicine_1298738896
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городская поликлиника № 22"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская поликлиника № 22"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Чижовка, Ташкентская улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 345-48-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.83577,27.629771"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.22gp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_restaurants_98791457033
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Элементум"]
+	(* <- lang_ru;; <- name;;*);
+    ["Элементум"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Интернациональная улица, 20А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 375-55-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–02:00; пт 12:00–04:00; сб 14:00–04:00; вс 14:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.900729,27.554564"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

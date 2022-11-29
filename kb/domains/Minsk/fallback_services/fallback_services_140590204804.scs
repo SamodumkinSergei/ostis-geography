@@ -1,0 +1,26 @@
+ concept_fallback_services_140590204804
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Мега-Стоун"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мега-Стоун"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Михася Лынькова, 19/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 663-55-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 09:00–18:00; сб 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.927485,27.49099"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://megastone.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

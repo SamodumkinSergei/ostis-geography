@@ -1,0 +1,26 @@
+ concept_drugstores_190618941887
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Зеленый магазин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зеленый магазин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Островского, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.874881,30.332925"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://fito.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

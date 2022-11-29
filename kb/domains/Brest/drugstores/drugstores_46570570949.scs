@@ -1,0 +1,26 @@
+ concept_drugstores_46570570949
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Медицинская улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 297-82-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.103827,23.811563"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://brest.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_155093450734
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["ОфиСити плюс"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОфиСити плюс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Суворова, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 268-25-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 12:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.660954,23.813197"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://forum.grodno.net/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

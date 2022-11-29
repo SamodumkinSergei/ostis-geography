@@ -1,0 +1,26 @@
+ concept_college_42221496787
+ <- concept_college;
+=>nrel_main_idtf:
+	["БНТУ, кафедра Маркетинг Фммп"]
+	(* <- lang_ru;; <- name;;*);
+    ["БНТУ, кафедра Маркетинг Фммп"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 67к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 293-93-97"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.921569,27.594362"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://fmmp.bntu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

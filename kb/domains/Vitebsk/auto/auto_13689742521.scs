@@ -1,0 +1,26 @@
+ concept_auto_13689742521
+ <- concept_auto;
+=>nrel_main_idtf:
+	["СТО грузовых автомобилей"]
+	(* <- lang_ru;; <- name;;*);
+    ["СТО грузовых автомобилей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Петруся Бровки, 36"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 636-25-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.162909,30.239341"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.snabavto.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

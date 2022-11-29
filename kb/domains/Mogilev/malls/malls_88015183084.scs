@@ -1,0 +1,26 @@
+ concept_malls_88015183084
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Хозяйственные товары"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хозяйственные товары"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Мельникова, 4А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 265-56-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.886172,30.274242"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://belhoztorg1m.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

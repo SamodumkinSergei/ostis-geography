@@ -1,0 +1,26 @@
+ concept_cafe_47758451849
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Центральный"]
+	(* <- lang_ru;; <- name;;*);
+    ["Центральный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 323-88-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901402,27.560042"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://centralny.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

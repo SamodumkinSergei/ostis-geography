@@ -1,0 +1,26 @@
+ concept_concert_hall_82432449642
+ <- concept_concert_hall;
+=>nrel_main_idtf:
+	["Radio Killers"]
+	(* <- lang_ru;; <- name;;*);
+    ["Radio Killers"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 669-49-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 21:00–06:00; пт,сб 21:00–09:00; вс 21:00–06:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917138,27.532902"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://radiokillers.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

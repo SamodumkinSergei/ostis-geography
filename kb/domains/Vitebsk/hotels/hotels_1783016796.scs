@@ -1,0 +1,26 @@
+ concept_hotels_1783016796
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Апартаменты"]
+	(* <- lang_ru;; <- name;;*);
+    ["Апартаменты"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Актёров Ерёменко, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.16987,30.279677"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

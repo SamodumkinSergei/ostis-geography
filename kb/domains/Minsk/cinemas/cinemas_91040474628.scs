@@ -1,0 +1,26 @@
+ concept_cinemas_91040474628
+ <- concept_cinemas;
+=>nrel_main_idtf:
+	["mooon"]
+	(* <- lang_ru;; <- name;;*);
+    ["mooon"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева, 74А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 782-04-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–00:00; пт,сб 10:00–02:00; вс 10:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.927294,27.510648"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://info.mooon.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

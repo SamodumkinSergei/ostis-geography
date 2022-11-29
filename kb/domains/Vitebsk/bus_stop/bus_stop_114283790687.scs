@@ -1,0 +1,26 @@
+ concept_bus_stop_114283790687
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Старобабиновичский тракт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Старобабиновичский тракт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Первомайский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.166896,30.249779"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

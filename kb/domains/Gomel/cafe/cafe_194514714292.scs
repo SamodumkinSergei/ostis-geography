@@ -1,0 +1,26 @@
+ concept_cafe_194514714292
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Студенческая улица, 6"]
+	(* <- lang_ru;; <- name;;*);
+    ["Студенческая улица, 6"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Студенческая улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.407589,30.935221"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

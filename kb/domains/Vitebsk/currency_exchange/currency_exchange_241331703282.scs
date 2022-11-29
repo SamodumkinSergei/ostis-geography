@@ -1,0 +1,26 @@
+ concept_currency_exchange_241331703282
+ <- concept_currency_exchange;
+=>nrel_main_idtf:
+	["Сбер Банк, платежный терминал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сбер Банк, платежный терминал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 26/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 514-81-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.190717,30.205588"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.sber-bank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

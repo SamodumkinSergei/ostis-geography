@@ -1,0 +1,26 @@
+ concept_bus_stop_236670869091
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Макаёнка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Макаёнка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Клёнковский, микрорайон 20А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.474258,31.036476"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

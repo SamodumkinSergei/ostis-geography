@@ -1,0 +1,26 @@
+ concept_office_service_217946279981
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Libra"]
+	(* <- lang_ru;; <- name;;*);
+    ["Libra"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Некрасова, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 540-30-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср-вс 12:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.930003,27.596542"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://libra-gallery.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

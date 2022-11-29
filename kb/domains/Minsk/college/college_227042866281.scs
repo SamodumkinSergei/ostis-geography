@@ -1,0 +1,26 @@
+ concept_college_227042866281
+ <- concept_college;
+=>nrel_main_idtf:
+	["Факультет межкультурных коммуникаций, МГЛУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Факультет межкультурных коммуникаций, МГЛУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Захарова, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 289-45-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00, перерыв 13:00–13:30; сб 12:00–19:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907303,27.577551"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mslu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

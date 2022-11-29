@@ -1,0 +1,26 @@
+ concept_hypermarket_20640072847
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Стройматериалы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стройматериалы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Мовчанского, 41"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 278-87-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878495,30.372041"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

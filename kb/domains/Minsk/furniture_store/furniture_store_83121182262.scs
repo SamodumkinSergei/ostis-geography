@@ -1,0 +1,26 @@
+ concept_furniture_store_83121182262
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["ТМ Мебельный"]
+	(* <- lang_ru;; <- name;;*);
+    ["ТМ Мебельный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ленина, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 875-36-89"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.888903,27.580552"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ergomebel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

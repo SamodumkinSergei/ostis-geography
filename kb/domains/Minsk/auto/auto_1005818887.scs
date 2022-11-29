@@ -1,0 +1,26 @@
+ concept_auto_1005818887
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Аларти"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аларти"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Грушевская улица, 22к6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 667-00-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.889452,27.527507"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://alarti.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_kindergarten_1073092890
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 25"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 25"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Сухаревская улица, 66"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 394-69-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.888145,27.419036"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu25.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

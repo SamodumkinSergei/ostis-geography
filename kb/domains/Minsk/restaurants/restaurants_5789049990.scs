@@ -1,0 +1,26 @@
+ concept_restaurants_5789049990
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Лаочэн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лаочэн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, площадь Свободы, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 128-68-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–02:00; сб 12:00–04:00; вс 12:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904521,27.55572"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

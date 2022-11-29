@@ -1,0 +1,26 @@
+ concept_sportcenter_1878404888
+ <- concept_sportcenter;
+=>nrel_main_idtf:
+	["Экстремальный парк Бордхаус"]
+	(* <- lang_ru;; <- name;;*);
+    ["Экстремальный парк Бордхаус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Загородный переулок, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 777-97-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.924429,30.300072"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

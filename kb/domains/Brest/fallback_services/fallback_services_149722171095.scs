@@ -1,0 +1,26 @@
+ concept_fallback_services_149722171095
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Галлонавтогаз"]
+	(* <- lang_ru;; <- name;;*);
+    ["Галлонавтогаз"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 248-41-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.078894,23.737328"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gallonautogas.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

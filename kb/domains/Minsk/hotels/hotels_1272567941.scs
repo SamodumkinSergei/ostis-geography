@@ -1,0 +1,26 @@
+ concept_hotels_1272567941
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["East Time"]
+	(* <- lang_ru;; <- name;;*);
+    ["East Time"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, 2-й Велосипедный переулок, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 330-24-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878812,27.597305"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.easttime-hotel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

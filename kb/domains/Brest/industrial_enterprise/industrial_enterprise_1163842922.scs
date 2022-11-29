@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_1163842922
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["ГизарТтэкс"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГизарТтэкс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Центральная улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 253-52-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.073799,23.739592"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gizart.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

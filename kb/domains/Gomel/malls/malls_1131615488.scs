@@ -1,0 +1,26 @@
+ concept_malls_1131615488
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Магазин № 54 Гомельского Филиала Гомельского РАЙПО"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин № 54 Гомельского Филиала Гомельского РАЙПО"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельская область, Гомельский район, Улуковский сельсовет, деревня Берёзки, Белорусская улица, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 293-62-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.402182,31.105424"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

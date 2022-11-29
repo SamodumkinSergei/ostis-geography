@@ -1,0 +1,26 @@
+ concept_supermarket_231583372205
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["ТВТ-маркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["ТВТ-маркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Интернациональная улица, 7А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 610-71-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:30–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.423305,31.006694"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://market.tabakvintorg.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_223472569419
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Областная больница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Областная больница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Медицинская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.107466,23.818791"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

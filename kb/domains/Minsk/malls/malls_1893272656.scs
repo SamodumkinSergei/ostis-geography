@@ -1,0 +1,26 @@
+ concept_malls_1893272656
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Sumki-minsk"]
+	(* <- lang_ru;; <- name;;*);
+    ["Sumki-minsk"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Немига, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 666-26-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904061,27.552504"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sumki-minsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

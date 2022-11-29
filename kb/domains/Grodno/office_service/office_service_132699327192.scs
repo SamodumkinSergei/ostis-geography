@@ -1,0 +1,26 @@
+ concept_office_service_132699327192
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Складской комплекс база"]
+	(* <- lang_ru;; <- name;;*);
+    ["Складской комплекс база"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Победы, 17Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 588-88-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.65654,23.825791"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://real-estate-agency-10913.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_restaurants_1476409492
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Ангелы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ангелы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Толбухина, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 575-44-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–00:00; пт,сб 12:00–05:00; вс 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.925647,27.614862"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.angelsclub.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

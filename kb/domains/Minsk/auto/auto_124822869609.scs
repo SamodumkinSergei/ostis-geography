@@ -1,0 +1,26 @@
+ concept_auto_124822869609
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автоторгсервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автоторгсервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кольцова, 48"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 272-46-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–21:00, перерывы 11:30–12:00, 16:30–17:00; вс 09:00–16:00, перерыв 11:30–12:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.952365,27.598429"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

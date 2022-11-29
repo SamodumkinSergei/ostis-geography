@@ -1,0 +1,26 @@
+ concept_clothes_shop_147007691890
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Кит кидс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кит кидс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Медицинская улица, 4В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 218-82-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.154066,30.220283"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

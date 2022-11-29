@@ -1,0 +1,26 @@
+ concept_bus_stop_89035164370
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Микрорайон Химы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Микрорайон Химы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Дубравная улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.355281,31.046947"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

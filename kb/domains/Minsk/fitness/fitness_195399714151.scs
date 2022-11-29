@@ -1,0 +1,26 @@
+ concept_fitness_195399714151
+ <- concept_fitness;
+=>nrel_main_idtf:
+	["Студия сайклинга Фабрика"]
+	(* <- lang_ru;; <- name;;*);
+    ["Студия сайклинга Фабрика"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Левкова, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 344-09-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 17:00–21:00; вт 09:00–21:00, перерыв 14:00–17:00; ср 17:00–21:00; чт 09:00–21:00, перерыв 14:00–17:00; пт 17:00–21:00; сб 09:00–12:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.877149,27.555101"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.fitclub.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

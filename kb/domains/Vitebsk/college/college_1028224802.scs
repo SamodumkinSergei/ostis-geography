@@ -1,0 +1,26 @@
+ concept_college_1028224802
+ <- concept_college;
+=>nrel_main_idtf:
+	["Витебская государственная СДЮШОР № 8"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебская государственная СДЮШОР № 8"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чехова, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 226-10-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:30–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.203367,30.204419"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sdyhor8-vitebsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

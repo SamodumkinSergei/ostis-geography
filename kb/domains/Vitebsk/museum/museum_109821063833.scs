@@ -1,0 +1,26 @@
+ concept_museum_109821063833
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей Мопедов Владимира Гордеева"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей Мопедов Владимира Гордеева"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 81к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 217-18-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["сб,вс 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.195965,30.257483"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mopedmuseum.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

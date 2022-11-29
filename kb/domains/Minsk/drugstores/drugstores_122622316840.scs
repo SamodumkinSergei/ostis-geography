@@ -1,0 +1,26 @@
+ concept_drugstores_122622316840
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Селицкого, 105"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 367-91-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб 09:00–20:00; вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.843878,27.70591"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_1033071828
+ <- concept_college;
+=>nrel_main_idtf:
+	["Витебский городской центр дополнительного образования детей и молодежи"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебский городской центр дополнительного образования детей и молодежи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 235-91-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.190362,30.20532"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vgcdodim.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

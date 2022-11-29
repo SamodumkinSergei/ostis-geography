@@ -1,0 +1,26 @@
+ concept_bus_stop_205480853457
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["К. Д. П. Любуж"]
+	(* <- lang_ru;; <- name;;*);
+    ["К. Д. П. Любуж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Холмы, Витебский проспект, 43"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 05:20–01:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.884616,30.419872"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

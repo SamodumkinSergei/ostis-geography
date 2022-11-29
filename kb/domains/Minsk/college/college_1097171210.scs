@@ -1,0 +1,26 @@
+ concept_college_1097171210
+ <- concept_college;
+=>nrel_main_idtf:
+	["Институт современных знаний имени А. М. Широкова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Институт современных знаний имени А. М. Широкова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Филимонова, 69"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 285-70-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–18:00; пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.933264,27.637"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.isz.minsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

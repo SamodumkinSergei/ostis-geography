@@ -1,0 +1,26 @@
+ concept_restaurants_1231432787
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Янцзы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Янцзы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, площадь Свободы, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 123-66-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904016,27.556214"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://yangtze.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

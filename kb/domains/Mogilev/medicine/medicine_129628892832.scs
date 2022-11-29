@@ -1,0 +1,26 @@
+ concept_medicine_129628892832
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["УЗ Могилевская областная клиническая больница, кардиологический корпус"]
+	(* <- lang_ru;; <- name;;*);
+    ["УЗ Могилевская областная клиническая больница, кардиологический корпус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Бялыницкого-Бирули, 12Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 240-04-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.913733,30.278432"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://uzmob.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

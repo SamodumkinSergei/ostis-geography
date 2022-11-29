@@ -1,0 +1,26 @@
+ concept_clothes_shop_1172656033
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Свiтанак"]
+	(* <- lang_ru;; <- name;;*);
+    ["Свiтанак"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Машерова, 39"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 293-76-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–18:00; вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.086942,23.700919"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://svitanak.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_malls_150659650589
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Магазин Стихия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин Стихия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 774-11-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.886994,27.519158"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.stihiya-shop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

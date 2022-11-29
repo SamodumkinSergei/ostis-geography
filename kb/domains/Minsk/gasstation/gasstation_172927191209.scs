@@ -1,0 +1,26 @@
+ concept_gasstation_172927191209
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["АЗС № 11 ИООО Рн-запад"]
+	(* <- lang_ru;; <- name;;*);
+    ["АЗС № 11 ИООО Рн-запад"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Минский район, Папернянский сельсовет, агрогородок Большевик, Промышленная улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 259-68-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.00664,27.55635"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rn-west.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

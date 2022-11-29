@@ -1,0 +1,26 @@
+ concept_supermarket_69637988076
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Байкальский"]
+	(* <- lang_ru;; <- name;;*);
+    ["Байкальский"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 300-20-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00, перерыв 16:00–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.888479,27.521165"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

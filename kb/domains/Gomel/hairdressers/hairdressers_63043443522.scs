@@ -1,0 +1,26 @@
+ concept_hairdressers_63043443522
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Парикмахерская № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парикмахерская № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Крестьянская улица, 45"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 132-19-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.424171,30.998228"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://region-pn1.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

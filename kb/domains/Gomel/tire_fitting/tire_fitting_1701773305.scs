@@ -1,0 +1,26 @@
+ concept_tire_fitting_1701773305
+ <- concept_tire_fitting;
+=>nrel_main_idtf:
+	["Поворот"]
+	(* <- lang_ru;; <- name;;*);
+    ["Поворот"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Свиридова, 1Е"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 984-67-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.485401,30.997469"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://поворот.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

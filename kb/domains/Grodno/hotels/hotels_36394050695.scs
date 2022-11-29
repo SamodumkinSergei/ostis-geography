@@ -1,0 +1,26 @@
+ concept_hotels_36394050695
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Квартира на Сутки в Гродно Лиможа"]
+	(* <- lang_ru;; <- name;;*);
+    ["Квартира на Сутки в Гродно Лиможа"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Лиможа, 27/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 789-27-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.709764,23.852984"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://apartament-grodno.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

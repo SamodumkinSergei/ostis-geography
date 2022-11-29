@@ -1,0 +1,26 @@
+ concept_supermarket_1167412923
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Евроопт Super"]
+	(* <- lang_ru;; <- name;;*);
+    ["Евроопт Super"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Алибегова, 13/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 788-88-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.871117,27.473739"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://evroopt.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

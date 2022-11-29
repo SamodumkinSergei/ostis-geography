@@ -1,0 +1,26 @@
+ concept_hotels_1131758691
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Звезда"]
+	(* <- lang_ru;; <- name;;*);
+    ["Звезда"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Газеты Звязда, 47"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 670-61-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.86112,27.465448"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://hotelzvezda.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

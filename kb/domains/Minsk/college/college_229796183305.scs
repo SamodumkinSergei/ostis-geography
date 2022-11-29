@@ -1,0 +1,26 @@
+ concept_college_229796183305
+ <- concept_college;
+=>nrel_main_idtf:
+	["Белорусская медицинская академия последипломного образования, Педиатрический факультет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусская медицинская академия последипломного образования, Педиатрический факультет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петруся Бровки, 3к3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 290-26-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–17:45, перерыв 13:00–13:30; пт 09:00–16:30, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.915704,27.598225"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://belmapo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

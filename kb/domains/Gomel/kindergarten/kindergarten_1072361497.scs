@@ -1,0 +1,26 @@
+ concept_kindergarten_1072361497
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 111 г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 111 г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Старочерниговская улица, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 260-70-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.444638,30.993156"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ds111gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_medicine_115391456176
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["МНПЦ хирургии, трансплантологии и гематологии, отделение эндоскопии"]
+	(* <- lang_ru;; <- name;;*);
+    ["МНПЦ хирургии, трансплантологии и гематологии, отделение эндоскопии"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Семашко, 8к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 277-16-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.85974,27.495684"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://msth.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

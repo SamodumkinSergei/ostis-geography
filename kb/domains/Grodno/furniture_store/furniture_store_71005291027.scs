@@ -1,0 +1,26 @@
+ concept_furniture_store_71005291027
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["ИДЕЯ-шкаф"]
+	(* <- lang_ru;; <- name;;*);
+    ["ИДЕЯ-шкаф"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Асфальтная улица, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 389-99-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.7195,23.848932"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

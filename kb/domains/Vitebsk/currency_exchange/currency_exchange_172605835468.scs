@@ -1,0 +1,26 @@
+ concept_currency_exchange_172605835468
+ <- concept_currency_exchange;
+=>nrel_main_idtf:
+	["РРБ банк"]
+	(* <- lang_ru;; <- name;;*);
+    ["РРБ банк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 26А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00, перерывы 14:00–14:30, 16:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.191198,30.203811"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.rrb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

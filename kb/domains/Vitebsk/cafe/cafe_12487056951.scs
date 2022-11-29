@@ -1,0 +1,26 @@
+ concept_cafe_12487056951
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Батькова хата"]
+	(* <- lang_ru;; <- name;;*);
+    ["Батькова хата"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 66/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 305-24-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.178339,30.230518"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://batkova-hata.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

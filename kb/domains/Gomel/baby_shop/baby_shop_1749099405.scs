@@ -1,0 +1,26 @@
+ concept_baby_shop_1749099405
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["24baby.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["24baby.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Хатаевича, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 927-82-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.445503,31.016993"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.24baby.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

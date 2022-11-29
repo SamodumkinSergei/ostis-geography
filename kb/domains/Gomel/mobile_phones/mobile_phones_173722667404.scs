@@ -1,0 +1,26 @@
+ concept_mobile_phones_173722667404
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["СупРемГомель"]
+	(* <- lang_ru;; <- name;;*);
+    ["СупРемГомель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица М.Г. Ефремова, 63"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 777-15-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00, перерыв 13:00–14:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.461489,30.967753"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://супремгомель.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

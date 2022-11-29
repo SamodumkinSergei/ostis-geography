@@ -1,0 +1,26 @@
+ concept_bus_stop_230162605691
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Якубовского"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Якубовского"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Якубовского"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916204,30.313717"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

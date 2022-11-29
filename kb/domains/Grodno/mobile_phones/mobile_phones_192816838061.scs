@@ -1,0 +1,26 @@
+ concept_mobile_phones_192816838061
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["А-Сервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["А-Сервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Ольги Соломовой, 104/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 781-67-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.658573,23.784813"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://a-servis.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

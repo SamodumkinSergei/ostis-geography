@@ -1,0 +1,26 @@
+ concept_restaurants_1161836195
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Охота"]
+	(* <- lang_ru;; <- name;;*);
+    ["Охота"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Шаранговича, 7к3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 688-60-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.887472,27.459066"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pirog24.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

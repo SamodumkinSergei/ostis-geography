@@ -1,0 +1,26 @@
+ concept_fallback_services_55387710247
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["BlackFood"]
+	(* <- lang_ru;; <- name;;*);
+    ["BlackFood"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Катунина, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 480-80-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–23:00; пт,сб 12:00–01:30; вс 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.424553,31.004354"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://blackfood.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

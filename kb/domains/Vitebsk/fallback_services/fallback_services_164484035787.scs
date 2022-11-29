@@ -1,0 +1,26 @@
+ concept_fallback_services_164484035787
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Свет Витебск"]
+	(* <- lang_ru;; <- name;;*);
+    ["Свет Витебск"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Платонова, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 889-46-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912176,27.599183"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://svet-vitebsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_clothes_shop_156554854511
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Зима Лето"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зима Лето"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Куйбышева, 69"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 760-03-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.920331,27.575592"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://3imaleto.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

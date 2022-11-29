@@ -1,0 +1,26 @@
+ concept_mobile_phones_124440646839
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Технодисконт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Технодисконт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Генерала Белобородова, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 351-11-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.182712,30.20069"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://tdsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

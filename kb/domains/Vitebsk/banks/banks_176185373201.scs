@@ -1,0 +1,26 @@
+ concept_banks_176185373201
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Белинвестбанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белинвестбанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Максима Горького, 72"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 239-02-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.172951,30.151588"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.belinvestbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

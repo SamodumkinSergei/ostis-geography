@@ -1,0 +1,26 @@
+ concept_gasstation_203910772721
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Лукойл"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лукойл"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Карского, 49А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.677052,23.8899"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.lukoil.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

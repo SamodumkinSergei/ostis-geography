@@ -1,0 +1,26 @@
+ concept_auto_68790277012
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автосервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автосервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Прудок, Нагорная улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 656-49-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 08:00–14:00; вт-пт 08:00–17:00; сб,вс 08:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.475428,31.009859"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://auto-doc.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_bus_station_176342823317
+ <- concept_bus_station;
+=>nrel_main_idtf:
+	["Автовокзал Витебск"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автовокзал Витебск"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Космонавтов, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["2114"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 05:30–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.196345,30.188183"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://voat.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

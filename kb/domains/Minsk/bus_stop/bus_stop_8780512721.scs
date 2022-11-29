@@ -1,0 +1,26 @@
+ concept_bus_stop_8780512721
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Завод Литмаш"]
+	(* <- lang_ru;; <- name;;*);
+    ["Завод Литмаш"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Машиностроителей"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.849669,27.666119"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_cafe_1244196066
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Менск"]
+	(* <- lang_ru;; <- name;;*);
+    ["Менск"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Советская улица, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 346-60-96"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 10:00–18:00, перерыв 16:00–17:00; вт-вс 10:00–23:00, перерыв 16:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.894955,27.543479"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

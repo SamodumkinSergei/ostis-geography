@@ -1,0 +1,26 @@
+ concept_drugstores_194960125527
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Суворова, 308"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 267-75-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–21:45; сб 10:00–20:00; вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.647443,23.780966"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://farmacia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

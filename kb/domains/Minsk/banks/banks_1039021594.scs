@@ -1,0 +1,26 @@
+ concept_banks_1039021594
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Торговый капитал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Торговый капитал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева, 65А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 312-10-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–16:30; пт 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.923034,27.511152"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.tcbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_auto_1360996565
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Top Salon"]
+	(* <- lang_ru;; <- name;;*);
+    ["Top Salon"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, 2-й Велосипедный переулок, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 544-51-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.879484,27.59587"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://topsalon.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

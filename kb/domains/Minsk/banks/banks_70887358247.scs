@@ -1,0 +1,26 @@
+ concept_banks_70887358247
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Альфа-Банк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Альфа-Банк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 198"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 733-33-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–20:45, перерывы 13:00–13:30, 17:00–17:30; вс 09:15–18:00, перерыв 13:30–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.951712,27.711006"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.alfabank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

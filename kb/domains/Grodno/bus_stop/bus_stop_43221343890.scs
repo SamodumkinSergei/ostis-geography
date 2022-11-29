@@ -1,0 +1,26 @@
+ concept_bus_stop_43221343890
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Вишневец"]
+	(* <- lang_ru;; <- name;;*);
+    ["Вишневец"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Южная улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.640944,23.86515"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

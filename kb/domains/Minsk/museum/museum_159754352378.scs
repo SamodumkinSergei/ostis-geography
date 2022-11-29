@@ -1,0 +1,26 @@
+ concept_museum_159754352378
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Учебно-выставочный центр БГАТУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Учебно-выставочный центр БГАТУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 99к5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:15–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.928645,27.621756"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bsatu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

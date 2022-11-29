@@ -1,0 +1,26 @@
+ concept_banks_229528352244
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Белинвестбанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белинвестбанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Жилуновича, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 239-02-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:10–20:45; вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.876672,27.630336"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.belinvestbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_malls_51634335556
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Сантехника"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сантехника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, микрорайон Ковалёво"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 722-11-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 09:00–16:30; вс 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.063762,23.760393"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

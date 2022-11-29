@@ -1,0 +1,26 @@
+ concept_college_1287313836
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минская школа киноискусства"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минская школа киноискусства"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 116"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 604-80-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 18:30–21:00; вт 18:30–20:30; сб 10:00–18:30; вс 10:30–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.931334,27.646107"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://cinemaschool.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

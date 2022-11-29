@@ -1,0 +1,26 @@
+ concept_cafe_226574084765
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Крамбамбуля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Крамбамбуля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Якуба Коласа, 52"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 606-09-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–23:00; пт,сб 12:00–02:00; вс 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.938118,27.606432"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

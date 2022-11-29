@@ -1,0 +1,26 @@
+ concept_malls_1218419226
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Дом мебели"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дом мебели"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 368"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 255-51-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.103769,23.781547"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

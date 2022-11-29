@@ -1,0 +1,26 @@
+ concept_hairdressers_1015886258
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Азалия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Азалия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Интернациональная улица, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 273-08-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб,вс 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.420359,31.003646"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

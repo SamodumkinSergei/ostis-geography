@@ -1,0 +1,26 @@
+ concept_medicine_141113296663
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Приёмное отделение экстренной госпитализации"]
+	(* <- lang_ru;; <- name;;*);
+    ["Приёмное отделение экстренной госпитализации"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Энгельса, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 392-29-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897697,27.567015"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://2gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

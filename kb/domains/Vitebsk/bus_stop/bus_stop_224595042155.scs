@@ -1,0 +1,26 @@
+ concept_bus_stop_224595042155
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Остановка общественного транспорта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Остановка общественного транспорта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебский район, Мазоловский сельсовет"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.32101,30.334179"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

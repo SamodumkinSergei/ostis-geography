@@ -1,0 +1,26 @@
+ concept_malls_1218546713
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Электросила"]
+	(* <- lang_ru;; <- name;;*);
+    ["Электросила"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Строителей, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 509-30-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:30–20:00; сб,вс 10:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909284,30.304755"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.sila.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

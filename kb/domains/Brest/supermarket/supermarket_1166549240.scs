@@ -1,0 +1,26 @@
+ concept_supermarket_1166549240
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Продукты"]
+	(* <- lang_ru;; <- name;;*);
+    ["Продукты"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гаврилова, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 668-08-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.108881,23.774153"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://santa.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

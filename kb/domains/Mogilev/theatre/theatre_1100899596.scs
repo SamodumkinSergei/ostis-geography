@@ -1,0 +1,26 @@
+ concept_theatre_1100899596
+ <- concept_theatre;
+=>nrel_main_idtf:
+	["Могилевский областной театр кукол"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилевский областной театр кукол"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 73"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 232-26-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00, перерыв 14:00–15:00; сб 08:00–16:00, перерыв 14:00–15:00; вс 09:00–17:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910247,30.341306"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.teatrkukol.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

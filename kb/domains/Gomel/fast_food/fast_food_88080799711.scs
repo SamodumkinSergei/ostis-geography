@@ -1,0 +1,26 @@
+ concept_fast_food_88080799711
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Шаурма Бургер № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Шаурма Бургер № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 331"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 326-66-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.356837,31.029241"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

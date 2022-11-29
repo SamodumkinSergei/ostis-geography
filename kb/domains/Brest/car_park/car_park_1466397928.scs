@@ -1,0 +1,26 @@
+ concept_car_park_1466397928
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автомобильная парковка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автомобильная парковка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Центральная улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 616-57-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.073516,23.737511"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brestoblgarant.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

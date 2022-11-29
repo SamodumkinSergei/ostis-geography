@@ -1,0 +1,26 @@
+ concept_fallback_services_1144487589
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Завод Горного Машиностроения"]
+	(* <- lang_ru;; <- name;;*);
+    ["Завод Горного Машиностроения"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Славгородское шоссе, 171"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 278-88-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:00–16:45; пт 08:00–15:30, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.839681,30.393276"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.niva.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

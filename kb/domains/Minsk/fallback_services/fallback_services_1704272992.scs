@@ -1,0 +1,26 @@
+ concept_fallback_services_1704272992
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["ЭлитГранит"]
+	(* <- lang_ru;; <- name;;*);
+    ["ЭлитГранит"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Чижовка, улица Голодеда, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 326-01-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.837033,27.622634"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://elitgranit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

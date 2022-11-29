@@ -1,0 +1,26 @@
+ concept_college_1119643440
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 14"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 14"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Максима Горького, 163Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 234-12-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.165867,30.123864"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sch14.pervroo-vitebsk.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

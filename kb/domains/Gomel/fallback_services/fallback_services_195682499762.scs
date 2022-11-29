@@ -1,0 +1,26 @@
+ concept_fallback_services_195682499762
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Мастерская по изготовлению памятников"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мастерская по изготовлению памятников"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 134Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 695-09-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 11:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.452899,30.993176"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

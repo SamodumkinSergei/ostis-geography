@@ -1,0 +1,26 @@
+ concept_bus_stop_212827291518
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Институт Министерства внутренних дел"]
+	(* <- lang_ru;; <- name;;*);
+    ["Институт Министерства внутренних дел"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Крупской, 76"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.936457,30.353117"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

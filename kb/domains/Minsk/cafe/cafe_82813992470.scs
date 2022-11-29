@@ -1,0 +1,26 @@
+ concept_cafe_82813992470
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Cofix"]
+	(* <- lang_ru;; <- name;;*);
+    ["Cofix"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петруся Бровки, 3, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–22:00; сб,вс 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916475,27.597664"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://cofix.global/ru-by/main/minsk/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

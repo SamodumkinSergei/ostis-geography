@@ -1,0 +1,26 @@
+ concept_museum_213630230556
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Дача-музей Василя Быкова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дача-музей Василя Быкова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, агрогородок Ждановичи, 6-я Дачная улица, 62"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 811-21-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср-вс 12:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.970711,27.45878"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bellitmuseum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

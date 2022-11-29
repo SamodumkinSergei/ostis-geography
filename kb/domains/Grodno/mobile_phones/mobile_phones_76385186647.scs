@@ -1,0 +1,26 @@
+ concept_mobile_phones_76385186647
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Displishop"]
+	(* <- lang_ru;; <- name;;*);
+    ["Displishop"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Большая Троицкая улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 666-03-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 12:00–20:00; сб,вс 12:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.682773,23.831047"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://displishop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

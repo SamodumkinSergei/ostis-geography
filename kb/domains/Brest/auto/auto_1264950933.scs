@@ -1,0 +1,26 @@
+ concept_auto_1264950933
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Сервис-24"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сервис-24"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Янки Купалы, 136"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 557-05-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.115567,23.77567"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.service24.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

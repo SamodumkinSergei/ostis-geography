@@ -1,0 +1,26 @@
+ concept_baby_shop_188563606208
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Аладдин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аладдин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 97, корп. 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 724-19-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб,вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.453914,30.994614"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://aladdin.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

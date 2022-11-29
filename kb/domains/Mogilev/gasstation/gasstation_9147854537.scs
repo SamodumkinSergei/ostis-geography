@@ -1,0 +1,26 @@
+ concept_gasstation_9147854537
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Алеро"]
+	(* <- lang_ru;; <- name;;*);
+    ["Алеро"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Гагарина, 32А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 272-55-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.881603,30.324695"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://alero.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

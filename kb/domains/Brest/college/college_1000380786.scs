@@ -1,0 +1,26 @@
+ concept_college_1000380786
+ <- concept_college;
+=>nrel_main_idtf:
+	["Вспомогательная школа г. Бреста"]
+	(* <- lang_ru;; <- name;;*);
+    ["Вспомогательная школа г. Бреста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Советская улица, 78"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 225-06-96"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.089323,23.695775"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vsch-brest.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_restaurants_204306895409
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Кафе-пиццерия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафе-пиццерия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Смоленская улица, 3Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 224-74-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.18082,30.230349"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitprod.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

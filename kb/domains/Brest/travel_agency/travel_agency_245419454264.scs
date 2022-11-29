@@ -1,0 +1,26 @@
+ concept_travel_agency_245419454264
+ <- concept_travel_agency;
+=>nrel_main_idtf:
+	["Lake Park"]
+	(* <- lang_ru;; <- name;;*);
+    ["Lake Park"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Новгородская область, Шимское городское поселение, деревня Коростынь, Озёрная улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (921) 698-14-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["58.189043,30.997859"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

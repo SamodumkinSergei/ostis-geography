@@ -1,0 +1,26 @@
+ concept_fallback_services_166230009844
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Мемориалс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мемориалс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Гамарника, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 662-04-24"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.957201,27.605588"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://memorials.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

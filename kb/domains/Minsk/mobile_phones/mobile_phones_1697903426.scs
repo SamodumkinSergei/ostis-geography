@@ -1,0 +1,26 @@
+ concept_mobile_phones_1697903426
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Xiaomi service"]
+	(* <- lang_ru;; <- name;;*);
+    ["Xiaomi service"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кульман, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 551-42-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб,вс 11:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919692,27.58255"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://xiaomiservice.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

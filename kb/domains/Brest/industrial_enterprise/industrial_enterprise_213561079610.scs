@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_213561079610
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Киви Веар"]
+	(* <- lang_ru;; <- name;;*);
+    ["Киви Веар"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Красногвардейская улица, 112Д"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 900-99-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.125858,23.698582"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://kivviwear.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

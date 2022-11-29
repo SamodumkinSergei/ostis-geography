@@ -1,0 +1,26 @@
+ concept_hotels_24187336020
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["ЭкоДом"]
+	(* <- lang_ru;; <- name;;*);
+    ["ЭкоДом"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский район, 1-й переулок Менделеева, 50/4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 360-56-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.9051,27.61659"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://oos.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

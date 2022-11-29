@@ -1,0 +1,26 @@
+ concept_kindergarten_1229352643
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Детский сад № 376"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский сад № 376"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Некрасова, 5А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 379-32-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.930074,27.594486"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu376.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

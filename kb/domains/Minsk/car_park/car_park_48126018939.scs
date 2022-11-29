@@ -1,0 +1,26 @@
+ concept_car_park_48126018939
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Паркинг"]
+	(* <- lang_ru;; <- name;;*);
+    ["Паркинг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Некрасова, 47"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 654-94-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.936374,27.577801"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://aresa-service.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_auto_1180546354
+ <- concept_auto;
+=>nrel_main_idtf:
+	["ТЕКАР-сервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["ТЕКАР-сервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Индустриальная улица, 13/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 668-33-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.659616,23.795271"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://tekar.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

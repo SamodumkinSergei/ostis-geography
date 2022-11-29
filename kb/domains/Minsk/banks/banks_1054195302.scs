@@ -1,0 +1,26 @@
+ concept_banks_1054195302
+ <- concept_banks;
+=>nrel_main_idtf:
+	["БСБ банк"]
+	(* <- lang_ru;; <- name;;*);
+    ["БСБ банк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Космонавтов, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 306-20-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,вт 09:45–20:30, перерывы 11:30–11:45, 12:15–12:45, 14:00–15:00, 17:15–17:30, 19:15–19:30; ср 10:15–20:30, перерывы 11:30–11:45, 12:15–12:45, 14:00–15:00, 17:15–17:30, 19:15–19:30; чт-вс 09:45–20:30, перерывы 11:30–11:45, 12:15–12:45, 14:00–15:00, 17:15–17:30, 19:15–19:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.849492,27.45703"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

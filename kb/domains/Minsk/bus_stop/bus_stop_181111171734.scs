@@ -1,0 +1,26 @@
+ concept_bus_stop_181111171734
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Академическая"]
+	(* <- lang_ru;; <- name;;*);
+    ["Академическая"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Академическая улица, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.914259,27.604526"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

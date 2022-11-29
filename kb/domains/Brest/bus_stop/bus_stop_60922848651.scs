@@ -1,0 +1,26 @@
+ concept_bus_stop_60922848651
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Бульвар Космонавтов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бульвар Космонавтов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, бульвар Космонавтов, 99"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.089013,23.701716"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

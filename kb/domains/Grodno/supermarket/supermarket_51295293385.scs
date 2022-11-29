@@ -1,0 +1,26 @@
+ concept_supermarket_51295293385
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Coffee shop"]
+	(* <- lang_ru;; <- name;;*);
+    ["Coffee shop"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Максима Горького, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 707-03-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:55–20:05; сб,вс 08:55–21:05"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.688292,23.827947"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

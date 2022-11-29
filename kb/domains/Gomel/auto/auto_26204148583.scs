@@ -1,0 +1,26 @@
+ concept_auto_26204148583
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Ремонт автомобилей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт автомобилей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, 1-я Транзитная улица, 20А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 355-44-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.376382,31.006569"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

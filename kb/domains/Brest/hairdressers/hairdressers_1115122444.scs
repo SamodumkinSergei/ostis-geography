@@ -1,0 +1,26 @@
+ concept_hairdressers_1115122444
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Фантаж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фантаж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Орловская улица, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 803-00-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–20:00; вс 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.106993,23.769296"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

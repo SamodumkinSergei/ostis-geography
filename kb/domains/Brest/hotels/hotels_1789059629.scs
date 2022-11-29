@@ -1,0 +1,26 @@
+ concept_hotels_1789059629
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Белтаможсервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белтаможсервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брестский район, Клейниковский сельсовет, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 227-44-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.126706,23.578423"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

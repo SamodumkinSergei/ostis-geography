@@ -1,0 +1,26 @@
+ concept_supermarket_1054171255
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Аркада food"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аркада food"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Головацкого, 34А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 128-86-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.447742,31.003494"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://kontaktgomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

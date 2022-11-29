@@ -1,0 +1,26 @@
+ concept_banks_177626967672
+ <- concept_banks;
+=>nrel_main_idtf:
+	["МТБАНК"]
+	(* <- lang_ru;; <- name;;*);
+    ["МТБАНК"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 79"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 181-00-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90593,27.456619"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.mtbank.by/business/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

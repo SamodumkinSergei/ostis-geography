@@ -1,0 +1,26 @@
+ concept_malls_107376305017
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Могилевлифтмаш"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилевлифтмаш"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Мира, 42"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 226-17-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917837,30.372255"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.electroplug.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_fast_food_97731256561
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Doner King"]
+	(* <- lang_ru;; <- name;;*);
+    ["Doner King"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Логойский тракт, 36"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 544-66-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:00–23:00; пт,сб 11:00–23:30; вс 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.953736,27.620446"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://donerking.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_office_service_1679452741
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Sezonka.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Sezonka.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 129"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 454-66-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.94124,27.465368"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

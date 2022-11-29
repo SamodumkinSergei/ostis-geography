@@ -1,0 +1,26 @@
+ concept_restaurants_72260136221
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Стар пицца"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стар пицца"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Клёнковский, Чечерская улица, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 355-55-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.462915,31.038154"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://starpizza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

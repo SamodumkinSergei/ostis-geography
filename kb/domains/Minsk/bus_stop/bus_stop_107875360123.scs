@@ -1,0 +1,26 @@
+ concept_bus_stop_107875360123
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Железнодорожный переход"]
+	(* <- lang_ru;; <- name;;*);
+    ["Железнодорожный переход"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Подлесная улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917289,27.66755"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

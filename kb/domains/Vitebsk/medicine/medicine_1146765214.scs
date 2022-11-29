@@ -1,0 +1,26 @@
+ concept_medicine_1146765214
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Детская поликлиника № 4"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детская поликлиника № 4"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Космонавтов, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 266-23-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.193618,30.188137"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.vdokb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

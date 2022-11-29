@@ -1,0 +1,26 @@
+ concept_cafe_73253253506
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Хинкальная № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хинкальная № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Суворова, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 521-29-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.196895,30.204919"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://hinkali.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

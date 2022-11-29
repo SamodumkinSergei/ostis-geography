@@ -1,0 +1,26 @@
+ concept_office_service_59088571632
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Гродненский дом науки и техники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненский дом науки и техники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Максима Горького, 72"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 255-44-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.696953,23.819811"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://belnts.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

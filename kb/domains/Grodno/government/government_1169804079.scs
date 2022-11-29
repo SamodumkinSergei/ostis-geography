@@ -1,0 +1,26 @@
+ concept_government_1169804079
+ <- concept_government;
+=>nrel_main_idtf:
+	["Управление по труду, занятости и социальной защите Гродненского райисполкома"]
+	(* <- lang_ru;; <- name;;*);
+    ["Управление по труду, занятости и социальной защите Гродненского райисполкома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Лермонтова, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 274-20-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00; сб 09:00–14:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.686361,23.829161"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://grodno.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

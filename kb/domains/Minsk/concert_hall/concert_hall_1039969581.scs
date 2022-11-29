@@ -1,0 +1,26 @@
+ concept_concert_hall_1039969581
+ <- concept_concert_hall;
+=>nrel_main_idtf:
+	["Дворец Республики"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дворец Республики"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Октябрьская площадь, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 229-90-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902878,27.560972"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.palace.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

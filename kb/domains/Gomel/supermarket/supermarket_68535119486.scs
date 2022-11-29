@@ -1,0 +1,26 @@
+ concept_supermarket_68535119486
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Дискаунтер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дискаунтер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Речицкий проспект, 40/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 608-77-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,ср,чт,пт,сб,вс 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.407534,30.932384"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_74147619070
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гомельская дистанция пути РУП Гомельское отделение БЖД"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельская дистанция пути РУП Гомельское отделение БЖД"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Шоссейная улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 295-22-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.440996,30.987022"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

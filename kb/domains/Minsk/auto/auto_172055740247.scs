@@ -1,0 +1,26 @@
+ concept_auto_172055740247
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Сервис Плюс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сервис Плюс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Серова, 2Ак1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 585-22-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб,вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.841113,27.53556"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://service-plus.by/?yclid=165120142071785"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

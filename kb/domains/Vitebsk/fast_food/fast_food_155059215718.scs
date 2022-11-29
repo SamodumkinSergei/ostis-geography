@@ -1,0 +1,26 @@
+ concept_fast_food_155059215718
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Кафетерий"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафетерий"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 80, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 267-66-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.195588,30.244722"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitprod.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

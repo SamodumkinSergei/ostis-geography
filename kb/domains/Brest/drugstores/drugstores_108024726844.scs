@@ -1,0 +1,26 @@
+ concept_drugstores_108024726844
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Добрыя лекi"]
+	(* <- lang_ru;; <- name;;*);
+    ["Добрыя лекi"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 329"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 535-57-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.103344,23.786029"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://d-leki.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

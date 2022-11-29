@@ -1,0 +1,26 @@
+ concept_bus_stop_170836429655
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Свислочская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Свислочская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Свислочская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.844176,27.669532"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_supermarket_1303892913
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Евроопт Market"]
+	(* <- lang_ru;; <- name;;*);
+    ["Евроопт Market"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, посёлок Южный, Центральная улица, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 788-88-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.625677,23.85567"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://evroopt.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

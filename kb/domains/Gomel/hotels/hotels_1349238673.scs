@@ -1,0 +1,26 @@
+ concept_hotels_1349238673
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Чисто Отель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Чисто Отель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Братьев Лизюковых, 4А, корп. 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 173-73-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.404643,30.960176"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://4isto.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

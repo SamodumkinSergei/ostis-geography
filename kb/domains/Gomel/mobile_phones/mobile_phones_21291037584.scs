@@ -1,0 +1,26 @@
+ concept_mobile_phones_21291037584
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["IService"]
+	(* <- lang_ru;; <- name;;*);
+    ["IService"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Привокзальная улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 333-44-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.428092,30.994602"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://applegomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

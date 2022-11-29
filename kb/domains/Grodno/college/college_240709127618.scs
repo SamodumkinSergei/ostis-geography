@@ -1,0 +1,26 @@
+ concept_college_240709127618
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гродненский государственный университет имени Янки Купалы, факультет истории, коммуникации и туризма"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненский государственный университет имени Янки Купалы, факультет истории, коммуникации и туризма"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Октябрьская улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 273-03-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:30–13:00; сб 09:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.680062,23.828007"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://fh.grsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

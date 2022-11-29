@@ -1,0 +1,26 @@
+ concept_fast_food_141167160860
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Pad Thai"]
+	(* <- lang_ru;; <- name;;*);
+    ["Pad Thai"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 84"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 788-44-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–22:00; пт,сб 10:00–23:00; вс 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.938085,27.488179"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://wok.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_clothes_shop_215901736504
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Секонд-хенд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Секонд-хенд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица 50 лет Завода Гомсельмаш, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–19:00; вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.449122,30.96334"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

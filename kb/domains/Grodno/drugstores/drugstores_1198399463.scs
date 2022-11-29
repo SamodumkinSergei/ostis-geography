@@ -1,0 +1,26 @@
+ concept_drugstores_1198399463
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Домбровского, 41"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 255-12-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-ср 08:30–16:20; чт 08:30–16:00; пт 08:30–16:20"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.705015,23.799911"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://farmacia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

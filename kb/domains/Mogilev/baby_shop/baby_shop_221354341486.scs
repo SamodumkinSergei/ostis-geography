@@ -1,0 +1,26 @@
+ concept_baby_shop_221354341486
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Чижик"]
+	(* <- lang_ru;; <- name;;*);
+    ["Чижик"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Холмы, Витебский проспект, 60"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 544-48-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб,вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.884966,30.417356"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

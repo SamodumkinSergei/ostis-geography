@@ -1,0 +1,26 @@
+ concept_restaurants_205657830713
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Все готово!"]
+	(* <- lang_ru;; <- name;;*);
+    ["Все готово!"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Хатаевича, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.445381,31.016326"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

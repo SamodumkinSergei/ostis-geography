@@ -1,0 +1,26 @@
+ concept_hotels_161467405266
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Bogema Apartment on Victory Square"]
+	(* <- lang_ru;; <- name;;*);
+    ["Bogema Apartment on Victory Square"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908866,27.576115"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

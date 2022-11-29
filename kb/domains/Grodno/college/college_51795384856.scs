@@ -1,0 +1,26 @@
+ concept_college_51795384856
+ <- concept_college;
+=>nrel_main_idtf:
+	["Школа и в Гродно"]
+	(* <- lang_ru;; <- name;;*);
+    ["Школа и в Гродно"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Мицкевича, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 111-07-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.687086,23.831289"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://grodno.itstep.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

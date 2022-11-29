@@ -1,0 +1,26 @@
+ concept_swimming_pool_1046970594
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Neptun"]
+	(* <- lang_ru;; <- name;;*);
+    ["Neptun"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Любимова, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 277-24-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 06:15–22:15; вс 12:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.860931,27.45535"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://neptunbassin.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_kindergarten_1070932752
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 432"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 432"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурганова, 72"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 378-62-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.931194,27.583201"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu432.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

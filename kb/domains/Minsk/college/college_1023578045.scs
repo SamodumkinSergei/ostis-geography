@@ -1,0 +1,26 @@
+ concept_college_1023578045
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГУО Специальная школа-интернат № 10 г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО Специальная школа-интернат № 10 г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кабушкина, 90"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 358-68-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.857418,27.635855"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://schi10.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

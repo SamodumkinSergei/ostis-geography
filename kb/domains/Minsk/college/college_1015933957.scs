@@ -1,0 +1,26 @@
+ concept_college_1015933957
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минский государственный политехнический колледж, филиал БНТУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский государственный политехнический колледж, филиал БНТУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 85"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 338-33-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:15–17:15, перерыв 13:00–13:45; пт 08:15–16:00, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.92317,27.602853"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mgpk.bntu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

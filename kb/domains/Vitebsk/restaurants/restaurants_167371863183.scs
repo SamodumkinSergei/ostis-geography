@@ -1,0 +1,26 @@
+ concept_restaurants_167371863183
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Суши Пицца Маркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Суши Пицца Маркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 53А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 300-54-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:00–23:00; пт,сб 11:00–00:00; вс 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.197536,30.207417"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://spm-by.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

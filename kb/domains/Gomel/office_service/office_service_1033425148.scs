@@ -1,0 +1,26 @@
+ concept_office_service_1033425148
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Белорусская универсальная товарная биржа, Гомельский филиал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусская универсальная товарная биржа, Гомельский филиал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Катунина, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 552-42-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–18:00, перерыв 13:00–13:45; пт 09:00–16:45, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.424509,31.004763"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.butb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

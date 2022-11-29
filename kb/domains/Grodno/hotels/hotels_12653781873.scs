@@ -1,0 +1,26 @@
+ concept_hotels_12653781873
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Apartment in Grodno"]
+	(* <- lang_ru;; <- name;;*);
+    ["Apartment in Grodno"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Пролетарская улица, 6, подъезд 2, этаж 4, кв. 53"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.6792,23.85399"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

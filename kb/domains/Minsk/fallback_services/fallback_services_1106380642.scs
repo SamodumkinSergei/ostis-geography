@@ -1,0 +1,26 @@
+ concept_fallback_services_1106380642
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["АлирГран"]
+	(* <- lang_ru;; <- name;;*);
+    ["АлирГран"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Яна Райниса, 1Д"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 172-65-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.876362,27.606504"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://alirgran.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

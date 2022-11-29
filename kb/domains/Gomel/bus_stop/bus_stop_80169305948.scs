@@ -1,0 +1,26 @@
+ concept_bus_stop_80169305948
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Автовокзал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автовокзал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Победы, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.432072,30.993575"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

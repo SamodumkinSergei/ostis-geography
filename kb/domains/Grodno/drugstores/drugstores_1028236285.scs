@@ -1,0 +1,26 @@
+ concept_drugstores_1028236285
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродненская область, Волковысский район, агрогородок Верейки, Гродненская улица, 20/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 129-22-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,ср,пт,сб 08:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.248824,24.187602"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://farmacia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_restaurants_97966524680
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Сытый папа"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сытый папа"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Залинейный, Лещинская улица, 153Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 650-43-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.425848,30.964836"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sytypapadostavka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

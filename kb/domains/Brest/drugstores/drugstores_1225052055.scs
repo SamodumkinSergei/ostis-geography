@@ -1,0 +1,26 @@
+ concept_drugstores_1225052055
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация, аптека № 100"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация, аптека № 100"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Карла Маркса, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 221-59-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб,вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.097097,23.683272"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://brest.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

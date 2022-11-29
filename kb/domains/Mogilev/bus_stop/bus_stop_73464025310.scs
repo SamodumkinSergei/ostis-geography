@@ -1,0 +1,26 @@
+ concept_bus_stop_73464025310
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Торговый центр Перекрёсток"]
+	(* <- lang_ru;; <- name;;*);
+    ["Торговый центр Перекрёсток"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пушкинский проспект"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.88025,30.336318"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

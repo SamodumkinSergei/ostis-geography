@@ -1,0 +1,26 @@
+ concept_bus_stop_217535108653
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["ОАО Могилёвоблавтотранс"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОАО Могилёвоблавтотранс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Октябрьский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.863934,30.357412"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

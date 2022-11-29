@@ -1,0 +1,26 @@
+ concept_office_service_203760483115
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Аливария"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аливария"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Максима Горького, 198, корп. 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 500-05-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:00–17:00, перерыв 12:00–12:45; пт 08:00–16:00, перерыв 12:00–12:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.164584,30.108839"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://alivaria.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

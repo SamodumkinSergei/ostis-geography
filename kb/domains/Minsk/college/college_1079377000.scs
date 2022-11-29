@@ -1,0 +1,26 @@
+ concept_college_1079377000
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 120"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 120"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Заводской район, Северный посёлок, улица Варвашени, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 297-48-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00; сб 08:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.864502,27.672682"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch120.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

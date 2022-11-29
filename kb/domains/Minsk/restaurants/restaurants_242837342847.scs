@@ -1,0 +1,26 @@
+ concept_restaurants_242837342847
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Nravizza pizza"]
+	(* <- lang_ru;; <- name;;*);
+    ["Nravizza pizza"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Веры Хоружей, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 303-43-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:30–21:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919988,27.571937"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://nravizza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

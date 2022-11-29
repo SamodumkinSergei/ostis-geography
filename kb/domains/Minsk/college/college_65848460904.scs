@@ -1,0 +1,26 @@
+ concept_college_65848460904
+ <- concept_college;
+=>nrel_main_idtf:
+	["Беларускi дзяржаўны унiвнрсiтэт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Беларускi дзяржаўны унiвнрсiтэт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинградская улица, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 209-59-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.892361,27.548332"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://fir.bsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

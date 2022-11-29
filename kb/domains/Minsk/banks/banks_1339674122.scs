@@ -1,0 +1,26 @@
+ concept_banks_1339674122
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Банк решение"]
+	(* <- lang_ru;; <- name;;*);
+    ["Банк решение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Сторожовская улица, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 311-10-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–17:30; пт 09:00–16:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.914377,27.553653"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://rbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

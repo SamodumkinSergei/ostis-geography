@@ -1,0 +1,26 @@
+ concept_restaurants_1368419236
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["PaPi"]
+	(* <- lang_ru;; <- name;;*);
+    ["PaPi"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Рябиновая улица, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 310-26-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–23:00; пт-вс 11:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.0645,23.730461"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

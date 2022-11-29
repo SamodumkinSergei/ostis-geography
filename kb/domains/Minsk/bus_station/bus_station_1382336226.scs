@@ -1,0 +1,26 @@
+ concept_bus_station_1382336226
+ <- concept_bus_station;
+=>nrel_main_idtf:
+	["Филиал агентства Минсктранс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Филиал агентства Минсктранс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Бобруйская улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 226-17-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.890083,27.555773"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://minsktrans.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

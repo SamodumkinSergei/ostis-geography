@@ -1,0 +1,26 @@
+ concept_hypermarket_139223315223
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Строй-стар"]
+	(* <- lang_ru;; <- name;;*);
+    ["Строй-стар"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Суворова, 104"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 721-33-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.072076,23.757484"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

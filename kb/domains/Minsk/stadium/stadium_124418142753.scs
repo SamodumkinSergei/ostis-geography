@@ -1,0 +1,26 @@
+ concept_stadium_124418142753
+ <- concept_stadium;
+=>nrel_main_idtf:
+	["Стадион ФК Минск"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стадион ФК Минск"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Маяковского, 127к6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 223-14-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.861923,27.578688"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.fcminsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

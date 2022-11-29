@@ -1,0 +1,26 @@
+ concept_museum_1381125776
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Могилёвский областной краеведческий музей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилёвский областной краеведческий музей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, площадь Славы, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 264-01-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср-вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.89506,30.329779"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogilewmuseum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_college_1084256030
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гимназия № 8"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гимназия № 8"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чкалова, 32к7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 268-08-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.167697,30.216548"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.guo8.vitebsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

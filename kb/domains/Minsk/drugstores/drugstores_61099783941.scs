@@ -1,0 +1,26 @@
+ concept_drugstores_61099783941
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Зеленая аптека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зеленая аптека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 327-84-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.898215,27.555022"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://fito.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

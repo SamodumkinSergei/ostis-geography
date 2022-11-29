@@ -1,0 +1,26 @@
+ concept_hairdressers_1328787244
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Салон Кармен"]
+	(* <- lang_ru;; <- name;;*);
+    ["Салон Кармен"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Витебская улица, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 126-26-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903914,27.548572"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

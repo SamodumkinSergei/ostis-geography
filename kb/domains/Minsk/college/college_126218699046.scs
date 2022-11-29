@@ -1,0 +1,26 @@
+ concept_college_126218699046
+ <- concept_college;
+=>nrel_main_idtf:
+	["Пресс-служба БГУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пресс-служба БГУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Бобруйская улица, 5А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 209-53-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:15, перерыв 13:00–13:45; пт 08:30–17:00, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.893021,27.545686"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

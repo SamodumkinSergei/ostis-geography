@@ -1,0 +1,26 @@
+ concept_museum_1120356906
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Первомайский КДЦ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Первомайский КДЦ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Максима Горького, 120"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 234-99-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб,вс 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.166842,30.132194"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

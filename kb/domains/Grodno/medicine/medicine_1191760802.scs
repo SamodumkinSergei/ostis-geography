@@ -1,0 +1,26 @@
+ concept_medicine_1191760802
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["ГУЗ городская поликлиника № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУЗ городская поликлиника № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Лермонтова, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 261-06-24"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.686279,23.826555"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gp1.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

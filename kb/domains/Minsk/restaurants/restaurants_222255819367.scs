@@ -1,0 +1,26 @@
+ concept_restaurants_222255819367
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Созвездие Виктория"]
+	(* <- lang_ru;; <- name;;*);
+    ["Созвездие Виктория"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 59"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 239-75-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.921488,27.52694"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://victoria1.hotel-victoria.by/restaurants/restoran-sozvezdie-viktoriya/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_medicine_124434511089
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гопкц, Акушерско-обсервационное отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гопкц, Акушерско-обсервационное отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Максима Горького, 77"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 245-18-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.700276,23.820531"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.roddom.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_drugstores_130758982590
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Государственная аптека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Государственная аптека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 23к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 328-55-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911449,27.542738"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://belleko.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

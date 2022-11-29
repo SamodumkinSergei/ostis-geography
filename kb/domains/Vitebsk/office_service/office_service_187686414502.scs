@@ -1,0 +1,26 @@
+ concept_office_service_187686414502
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Складской комплекс Витебский"]
+	(* <- lang_ru;; <- name;;*);
+    ["Складской комплекс Витебский"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Смоленск, поселок Красный Бор, улица Карбышева, 15А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (960) 580-07-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.799553,31.898272"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

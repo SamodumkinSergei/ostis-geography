@@ -1,0 +1,26 @@
+ concept_college_1349206150
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гродненский государственный электротехнический колледж имени Ивана Счастного"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненский государственный электротехнический колледж имени Ивана Счастного"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Дзержинского, 41к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 256-88-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.698167,23.841123"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ggpek.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

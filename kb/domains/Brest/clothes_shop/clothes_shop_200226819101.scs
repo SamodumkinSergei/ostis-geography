@@ -1,0 +1,26 @@
+ concept_clothes_shop_200226819101
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Брестские"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестские"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московский район, Юго-Восточный микрорайон № 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 250-49-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 09:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.078747,23.755273"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bchk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

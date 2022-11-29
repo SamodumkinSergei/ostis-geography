@@ -1,0 +1,26 @@
+ concept_museum_1079524578
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Дом Журналиста"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дом Журналиста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурганова, 48А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 379-29-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.92846,27.588374"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

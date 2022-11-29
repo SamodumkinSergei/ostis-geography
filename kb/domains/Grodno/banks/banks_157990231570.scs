@@ -1,0 +1,26 @@
+ concept_banks_157990231570
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Банк РРБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Банк РРБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, ул. Дубко, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 337-02-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–21:00; пт,сб 10:00–22:00; вс 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.701668,23.834874"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://rrb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

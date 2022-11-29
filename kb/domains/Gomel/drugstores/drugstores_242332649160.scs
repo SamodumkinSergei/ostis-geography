@@ -1,0 +1,26 @@
+ concept_drugstores_242332649160
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Альфа аптека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Альфа аптека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица М.Г. Ефремова, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 230-45-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.457137,30.962808"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

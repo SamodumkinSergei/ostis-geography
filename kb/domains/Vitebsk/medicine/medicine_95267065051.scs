@@ -1,0 +1,26 @@
+ concept_medicine_95267065051
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городская поликлиника Николаевской больницы 2-е терапевтическое отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская поликлиника Николаевской больницы 2-е терапевтическое отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Санкт-Петербург, Петергоф, Парковая улица, 20, корп. 3, стр. 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (812) 409-75-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["59.857323,29.941558"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://nikhospital.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

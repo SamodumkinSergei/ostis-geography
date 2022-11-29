@@ -1,0 +1,26 @@
+ concept_kindergarten_1065567002
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 96 г. Могилёва"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 96 г. Могилёва"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Димитрова, 56"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 273-44-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873387,30.369312"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sad96mogilev.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_hypermarket_1014051975
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Техно Офис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Техно Офис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Болдина, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 224-85-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.895764,30.335884"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

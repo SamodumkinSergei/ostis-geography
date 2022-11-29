@@ -1,0 +1,26 @@
+ concept_auto_123631610349
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автосервис Дружба"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автосервис Дружба"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Барыкина, 271/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 517-72-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–20:00; вс 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.423969,30.941844"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

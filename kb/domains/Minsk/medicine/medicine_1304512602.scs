@@ -1,0 +1,26 @@
+ concept_medicine_1304512602
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городской центр вакцинопрофилактики"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городской центр вакцинопрофилактики"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Якубовского, 53"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 258-76-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 09:00–14:00; вт 14:00–19:00; ср 09:00–14:00; чт 14:00–19:00; пт 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.893825,27.453747"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gdikb-bel.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

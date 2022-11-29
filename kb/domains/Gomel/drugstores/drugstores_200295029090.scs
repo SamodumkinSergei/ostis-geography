@@ -1,0 +1,26 @@
+ concept_drugstores_200295029090
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 162/4"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 162/4"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Победы, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 255-07-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.43401,31.003872"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://apteka.103.by/pharmacies/gomelskoe_rup_farmatsiya_apteka_162/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

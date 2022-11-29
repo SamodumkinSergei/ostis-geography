@@ -1,0 +1,26 @@
+ concept_supermarket_107733723905
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Александрийское"]
+	(* <- lang_ru;; <- name;;*);
+    ["Александрийское"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Терёхина, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 274-46-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.879987,30.363538"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://alexandriya.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

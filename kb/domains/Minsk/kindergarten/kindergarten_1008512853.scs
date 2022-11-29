@@ -1,0 +1,26 @@
+ concept_kindergarten_1008512853
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 109"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 109"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тухачевского, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 367-40-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.869833,27.621641"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu109.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

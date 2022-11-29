@@ -1,0 +1,26 @@
+ concept_furniture_store_209561806404
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["KingStyle"]
+	(* <- lang_ru;; <- name;;*);
+    ["KingStyle"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Советская улица, 68"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 771-05-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.09003,23.695181"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://kingstyle.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

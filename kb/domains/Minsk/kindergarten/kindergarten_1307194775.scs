@@ -1,0 +1,26 @@
+ concept_kindergarten_1307194775
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 381"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 381"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, улица Якубова, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 367-13-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.850246,27.600506"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu381.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

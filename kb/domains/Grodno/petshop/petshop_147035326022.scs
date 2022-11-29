@@ -1,0 +1,26 @@
+ concept_petshop_147035326022
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Товары для домашних любимцев"]
+	(* <- lang_ru;; <- name;;*);
+    ["Товары для домашних любимцев"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Лиможа, 32Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 281-18-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб,вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.711661,23.849173"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_131162166248
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Фирменный магазин Кондитерской фабрики имени Крупской"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фирменный магазин Кондитерской фабрики имени Крупской"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Санкт-Петербург, Загородный проспект, 52"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (967) 342-50-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["59.919522,30.329148"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://krupskaya-spb.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

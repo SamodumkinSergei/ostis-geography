@@ -1,0 +1,26 @@
+ concept_cafe_106699469941
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Буфет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Буфет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Судмалиса, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 624-05-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.889862,27.587251"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

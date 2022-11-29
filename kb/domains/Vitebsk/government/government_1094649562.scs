@@ -1,0 +1,26 @@
+ concept_government_1094649562
+ <- concept_government;
+=>nrel_main_idtf:
+	["Главное управление по здравоохранению Витебского облисполкома"]
+	(* <- lang_ru;; <- name;;*);
+    ["Главное управление по здравоохранению Витебского облисполкома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Гоголя, 6, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 233-61-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.189974,30.211694"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vituzo.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_railway_terminal_161107182387
+ <- concept_railway_terminal;
+=>nrel_main_idtf:
+	["Пригородный вокзал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пригородный вокзал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Бобруйская улица, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.891276,27.547832"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

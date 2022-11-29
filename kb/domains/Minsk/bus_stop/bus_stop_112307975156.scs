@@ -1,0 +1,26 @@
+ concept_bus_stop_112307975156
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Николы Теслы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Николы Теслы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Николы Теслы"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 00:05–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.870635,27.538459"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

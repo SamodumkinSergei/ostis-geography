@@ -1,0 +1,26 @@
+ concept_petshop_99811919688
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Zooмаркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Zooмаркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Строителей, 15Г"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 102-51-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–21:00; сб,вс 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.170392,30.217919"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://e-zoo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

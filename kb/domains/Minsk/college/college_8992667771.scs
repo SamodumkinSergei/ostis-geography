@@ -1,0 +1,26 @@
+ concept_college_8992667771
+ <- concept_college;
+=>nrel_main_idtf:
+	["БГУИР, факультет компьютерного проектирования"]
+	(* <- lang_ru;; <- name;;*);
+    ["БГУИР, факультет компьютерного проектирования"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петруся Бровки, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 293-22-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 13:00–13:45; пт 08:30–16:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.91858,27.593955"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsuir.by/ru/fkp"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

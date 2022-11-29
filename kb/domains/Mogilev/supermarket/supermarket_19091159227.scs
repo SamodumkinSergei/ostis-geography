@@ -1,0 +1,26 @@
+ concept_supermarket_19091159227
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Магазин продуктов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин продуктов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Островского, 87"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 381-39-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.877062,30.360811"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

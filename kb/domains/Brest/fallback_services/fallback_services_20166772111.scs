@@ -1,0 +1,26 @@
+ concept_fallback_services_20166772111
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Электрик, электромонтажные работы в Бресте"]
+	(* <- lang_ru;; <- name;;*);
+    ["Электрик, электромонтажные работы в Бресте"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Вульковская улица, 108"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 360-31-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.069817,23.724237"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://elektrik-brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

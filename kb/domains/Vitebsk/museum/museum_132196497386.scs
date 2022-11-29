@@ -1,0 +1,26 @@
+ concept_museum_132196497386
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей кулинарного искусства"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей кулинарного искусства"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 237-03-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.186237,30.204195"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

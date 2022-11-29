@@ -1,0 +1,26 @@
+ concept_office_service_163835753526
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Гродненское Агентство недвижимости"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненское Агентство недвижимости"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Захарова, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 255-33-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.675119,23.844692"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://grodnenskoe.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

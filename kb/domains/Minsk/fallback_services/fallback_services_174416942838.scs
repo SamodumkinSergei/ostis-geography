@@ -1,0 +1,26 @@
+ concept_fallback_services_174416942838
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Минскгранит"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минскгранит"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 104"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 579-75-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.86212,27.481049"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://minskgranit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

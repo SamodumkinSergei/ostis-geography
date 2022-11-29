@@ -1,0 +1,26 @@
+ concept_fast_food_7545618462
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Мини-кафе"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мини-кафе"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, бульвар Непокорённых, 37Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.872658,30.329732"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

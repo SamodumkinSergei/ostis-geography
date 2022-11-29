@@ -1,0 +1,26 @@
+ concept_malls_1175106137
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Гомельобои"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельобои"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Севастопольская улица, 45/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 251-87-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.393791,31.026919"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gomeloboi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

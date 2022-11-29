@@ -1,0 +1,26 @@
+ concept_tailor_57791311184
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Ремонт ключей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт ключей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Якуба Коласа, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 260-01-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.927049,27.595478"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mykey.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

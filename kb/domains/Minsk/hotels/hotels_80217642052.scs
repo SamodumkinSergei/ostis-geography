@@ -1,0 +1,26 @@
+ concept_hotels_80217642052
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Полонез"]
+	(* <- lang_ru;; <- name;;*);
+    ["Полонез"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Алоизы Пашкевич, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 388-35-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911684,27.561058"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://hotelpolonez.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

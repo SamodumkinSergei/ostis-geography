@@ -1,0 +1,26 @@
+ concept_restaurants_176023357894
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Nravizza pizza"]
+	(* <- lang_ru;; <- name;;*);
+    ["Nravizza pizza"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельская область, Калинковичи, улица 50 лет Октября, 20Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 785-58-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:30–20:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.125668,29.321083"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://nravizza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

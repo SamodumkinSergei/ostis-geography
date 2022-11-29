@@ -1,0 +1,26 @@
+ concept_hypermarket_32619924123
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["ЧП Люкс"]
+	(* <- lang_ru;; <- name;;*);
+    ["ЧП Люкс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Рабочая улица, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 253-87-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.453232,30.978479"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://office-space-rental-agency-866.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

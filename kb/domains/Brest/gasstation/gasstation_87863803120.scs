@@ -1,0 +1,26 @@
+ concept_gasstation_87863803120
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Татнефть"]
+	(* <- lang_ru;; <- name;;*);
+    ["Татнефть"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Катин Бор, 56"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 310-13-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.139416,23.638679"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://azs.tatneft.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

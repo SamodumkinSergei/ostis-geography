@@ -1,0 +1,26 @@
+ concept_college_1061877568
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 31 г. Бреста"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 31 г. Бреста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Янки Купалы, 30/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 253-22-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.106236,23.73412"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://31brest.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

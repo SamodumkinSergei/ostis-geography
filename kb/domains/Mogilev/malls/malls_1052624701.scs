@@ -1,0 +1,26 @@
+ concept_malls_1052624701
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Светоч"]
+	(* <- lang_ru;; <- name;;*);
+    ["Светоч"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Королёва, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 277-98-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903594,30.36531"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://светоч.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_banks_1058556536
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Сбер Банк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сбер Банк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Уральская улица, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["148"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.898855,27.606431"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.sber-bank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

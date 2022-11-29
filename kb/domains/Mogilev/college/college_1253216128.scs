@@ -1,0 +1,26 @@
+ concept_college_1253216128
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 7 г. Могилёва"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 7 г. Могилёва"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Холмы, Автозаводская улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 273-62-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.886077,30.412871"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://7mogilev.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

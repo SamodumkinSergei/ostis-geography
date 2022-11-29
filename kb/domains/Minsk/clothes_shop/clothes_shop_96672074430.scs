@@ -1,0 +1,26 @@
+ concept_clothes_shop_96672074430
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Rocket Shop"]
+	(* <- lang_ru;; <- name;;*);
+    ["Rocket Shop"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Жукова, 44"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 648-23-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.876819,27.518328"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://rocketshop.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_hotels_1004119880
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Юность"]
+	(* <- lang_ru;; <- name;;*);
+    ["Юность"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Советской Конституции, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 225-57-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.106904,23.751953"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://junosthotel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

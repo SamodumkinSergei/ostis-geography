@@ -1,0 +1,26 @@
+ concept_malls_1113712805
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Витебские ковры"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебские ковры"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Генерала Белобородова, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 258-49-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–18:00; вс 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.18226,30.20174"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitcarpet.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

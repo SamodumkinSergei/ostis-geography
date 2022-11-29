@@ -1,0 +1,26 @@
+ concept_supermarket_88927663648
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Продукты"]
+	(* <- lang_ru;; <- name;;*);
+    ["Продукты"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Героев Обороны Брестской Крепости, 68"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 322-29-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.091692,23.657504"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://santa.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_office_service_52234728732
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["River club"]
+	(* <- lang_ru;; <- name;;*);
+    ["River club"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Краснодарский край, Сочи, микрорайон Якорная Щель, Череповецкая улица, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (938) 447-84-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["43.771891,39.510934"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://river-club-sochi.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

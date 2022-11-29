@@ -1,0 +1,26 @@
+ concept_restaurants_1463228546
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Prosushi"]
+	(* <- lang_ru;; <- name;;*);
+    ["Prosushi"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, переулок Козлова, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 572-44-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.899744,27.597333"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://prosushi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_1007156477
+ <- concept_college;
+=>nrel_main_idtf:
+	["Отдел образования, спорта и туризма администрации Советского района г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отдел образования, спорта и туризма администрации Советского района г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Речицкий проспект, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 256-64-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.415918,30.964876"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sovroo.gorodgomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

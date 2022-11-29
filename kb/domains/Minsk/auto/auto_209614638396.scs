@@ -1,0 +1,26 @@
+ concept_auto_209614638396
+ <- concept_auto;
+=>nrel_main_idtf:
+	["АвтоПроСТО"]
+	(* <- lang_ru;; <- name;;*);
+    ["АвтоПроСТО"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 168, корп. 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 131-33-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.853931,27.679682"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://elektrikavto.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

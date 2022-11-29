@@ -1,0 +1,26 @@
+ concept_malls_244558542375
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Торговые ряды"]
+	(* <- lang_ru;; <- name;;*);
+    ["Торговые ряды"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Судмалиса, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.888621,27.583355"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://marketcity.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

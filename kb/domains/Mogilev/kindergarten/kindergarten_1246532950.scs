@@ -1,0 +1,26 @@
+ concept_kindergarten_1246532950
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад 94"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад 94"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Казимировка, Краснозвёздная улица, 41"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 274-64-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.927884,30.255277"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sad94mogilev.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

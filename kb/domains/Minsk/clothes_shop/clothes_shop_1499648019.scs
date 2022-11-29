@@ -1,0 +1,26 @@
+ concept_clothes_shop_1499648019
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Секонд хенд Эконом Сити"]
+	(* <- lang_ru;; <- name;;*);
+    ["Секонд хенд Эконом Сити"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Лошица, Игуменский тракт, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 360-50-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.845469,27.568082"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://secondhand.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

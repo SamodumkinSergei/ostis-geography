@@ -1,0 +1,26 @@
+ concept_drugstores_230681752812
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 41 Юнифарм"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 41 Юнифарм"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гоголя, 78"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 507-15-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб,вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.094032,23.698566"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://tabletka.by/pharmacies/7616"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

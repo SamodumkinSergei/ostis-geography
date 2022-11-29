@@ -1,0 +1,26 @@
+ concept_drugstores_32975170838
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Мелисса"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мелисса"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Советская улица, 55"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 240-56-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.091991,23.693254"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

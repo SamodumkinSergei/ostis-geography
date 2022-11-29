@@ -1,0 +1,26 @@
+ concept_library_1008358567
+ <- concept_library;
+=>nrel_main_idtf:
+	["Центральная городская библиотека имени М. Горького"]
+	(* <- lang_ru;; <- name;;*);
+    ["Центральная городская библиотека имени М. Горького"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 30А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 260-15-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 11:00–19:00; вт-пт 10:00–21:00; сб,вс 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.193727,30.222909"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.cbsvit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

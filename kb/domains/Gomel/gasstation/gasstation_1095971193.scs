@@ -1,0 +1,26 @@
+ concept_gasstation_1095971193
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Гомельоблгаз"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельоблгаз"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Барыкина, 279"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 229-68-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00, перерыв 12:00–13:00; сб 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.426128,30.938102"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomeloblgaz.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_auto_78997746017
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Dk-service"]
+	(* <- lang_ru;; <- name;;*);
+    ["Dk-service"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ивановская улица, 43А, корп. 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 382-08-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–18:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.893552,27.58842"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://dk-service.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

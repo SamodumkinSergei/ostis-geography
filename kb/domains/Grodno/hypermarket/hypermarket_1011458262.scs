@@ -1,0 +1,26 @@
+ concept_hypermarket_1011458262
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Виали"]
+	(* <- lang_ru;; <- name;;*);
+    ["Виали"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Пучкова, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 888-80-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00; сб 08:30–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.653599,23.805513"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.viali.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

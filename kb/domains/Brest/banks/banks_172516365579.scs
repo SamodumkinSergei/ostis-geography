@@ -1,0 +1,26 @@
+ concept_banks_172516365579
+ <- concept_banks;
+=>nrel_main_idtf:
+	["МТБАНК"]
+	(* <- lang_ru;; <- name;;*);
+    ["МТБАНК"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица 28 Июля, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 181-00-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:30–20:00, перерывы 11:00–11:15, 14:00–15:00, 17:45–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.077295,23.737426"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.mtbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

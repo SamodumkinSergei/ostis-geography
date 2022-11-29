@@ -1,0 +1,26 @@
+ concept_drugstores_192686553842
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Озёрское шоссе, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 271-47-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:30–18:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.690643,23.865677"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://farmacia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

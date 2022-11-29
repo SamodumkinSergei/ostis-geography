@@ -1,0 +1,26 @@
+ concept_car_park_1129845709
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автостоянка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостоянка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Илимская улица, 60"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 272-43-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:00–01:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.889214,27.676939"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ideamarket.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

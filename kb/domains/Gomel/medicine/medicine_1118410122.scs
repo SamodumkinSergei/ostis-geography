@@ -1,0 +1,26 @@
+ concept_medicine_1118410122
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гомельский областной клинический кардиологический центр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский областной клинический кардиологический центр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Медицинская улица, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 249-17-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.396947,30.904024"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://cardiogomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

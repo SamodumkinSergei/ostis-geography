@@ -1,0 +1,26 @@
+ concept_tailor_1105751120
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Три Мастера"]
+	(* <- lang_ru;; <- name;;*);
+    ["Три Мастера"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Уманская улица, 54"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 715-07-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.874903,27.498128"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.trimastera.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

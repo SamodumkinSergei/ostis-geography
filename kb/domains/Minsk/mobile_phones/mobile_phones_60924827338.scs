@@ -1,0 +1,26 @@
+ concept_mobile_phones_60924827338
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Reboot"]
+	(* <- lang_ru;; <- name;;*);
+    ["Reboot"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Золотая Горка, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 652-65-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб 12:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911195,27.583741"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://reboot.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_petshop_1184917570
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Могилевский завод ветеринарных препаратов Белзооветснабпром"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилевский завод ветеринарных препаратов Белзооветснабпром"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Шкловское шоссе, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 272-66-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.957498,30.322614"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bzvsp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

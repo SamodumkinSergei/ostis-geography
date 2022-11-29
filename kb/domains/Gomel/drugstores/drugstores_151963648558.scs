@@ -1,0 +1,26 @@
+ concept_drugstores_151963648558
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица М.Г. Ефремова, 16Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 650-51-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.462065,30.965338"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pharmacia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

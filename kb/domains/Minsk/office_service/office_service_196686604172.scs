@@ -1,0 +1,26 @@
+ concept_office_service_196686604172
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Байпринт Сервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Байпринт Сервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Пушкина, 68, корп. 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 373-70-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919748,27.503138"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://byprint.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

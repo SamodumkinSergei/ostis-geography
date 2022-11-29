@@ -1,0 +1,26 @@
+ concept_medicine_174946915032
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["4д поликлиника"]
+	(* <- lang_ru;; <- name;;*);
+    ["4д поликлиника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Ставропольский край, Пятигорск, проспект Калинина, 107"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (928) 301-23-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["44.031748,43.069114"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://yzi4d.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

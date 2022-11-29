@@ -1,0 +1,26 @@
+ concept_clothes_shop_145281100586
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Фирменный магазин Брестские № 5"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фирменный магазин Брестские № 5"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брестская область, Барановичи, Советская улица, 108"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 342-37-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.126862,26.020699"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bchk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

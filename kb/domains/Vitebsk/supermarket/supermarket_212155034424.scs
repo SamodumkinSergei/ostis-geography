@@ -1,0 +1,26 @@
+ concept_supermarket_212155034424
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["ЧП Гарантия качества"]
+	(* <- lang_ru;; <- name;;*);
+    ["ЧП Гарантия качества"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Коммунистическая улица, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 695-55-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.202399,30.210047"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gkbuhgalter.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_cafe_1019742354
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Столовая"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столовая"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Орджоникидзе, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 227-62-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 13:10–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.102171,23.69287"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

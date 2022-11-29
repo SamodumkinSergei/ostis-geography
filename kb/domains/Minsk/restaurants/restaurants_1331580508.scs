@@ -1,0 +1,26 @@
+ concept_restaurants_1331580508
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["The View"]
+	(* <- lang_ru;; <- name;;*);
+    ["The View"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 7А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 702-88-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907724,27.549701"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://view.nrg.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

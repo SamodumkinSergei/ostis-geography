@@ -1,0 +1,26 @@
+ concept_malls_191093721764
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Бульвар"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бульвар"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Победы, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 250-99-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.431936,30.994027"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

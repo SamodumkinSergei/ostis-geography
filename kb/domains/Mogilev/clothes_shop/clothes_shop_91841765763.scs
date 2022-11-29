@@ -1,0 +1,26 @@
+ concept_clothes_shop_91841765763
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Одежда из Европы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Одежда из Европы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, бульвар Непокорённых, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 515-40-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб,вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.87334,30.33133"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

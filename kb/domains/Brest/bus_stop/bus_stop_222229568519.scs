@@ -1,0 +1,26 @@
+ concept_bus_stop_222229568519
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Волгоградская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Волгоградская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Волгоградская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.081465,23.753244"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

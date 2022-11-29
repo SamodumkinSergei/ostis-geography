@@ -1,0 +1,26 @@
+ concept_supermarket_59385940281
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Лайм"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лайм"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Беломорская улица, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 500-09-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.92158,27.585064"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://thefresh.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

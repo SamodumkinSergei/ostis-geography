@@ -1,0 +1,26 @@
+ concept_cafe_237516107579
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Миросон"]
+	(* <- lang_ru;; <- name;;*);
+    ["Миросон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Рабочий переулок, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 572-66-89"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.886411,27.589401"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://miroson.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

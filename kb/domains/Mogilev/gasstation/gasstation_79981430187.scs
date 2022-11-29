@@ -1,0 +1,26 @@
+ concept_gasstation_79981430187
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Роснефть"]
+	(* <- lang_ru;; <- name;;*);
+    ["Роснефть"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Криулина, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["8 (800) 500-25-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 00:10–23:55"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.947302,30.35361"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.rosneft-azs.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

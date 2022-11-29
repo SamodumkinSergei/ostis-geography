@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_1019382952
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Надзея"]
+	(* <- lang_ru;; <- name;;*);
+    ["Надзея"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Орловская улица, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 253-88-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.106051,23.778371"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.lemur.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_clothes_shop_6462439889
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Секонд-хенд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Секонд-хенд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 08:00–17:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.941516,27.438146"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

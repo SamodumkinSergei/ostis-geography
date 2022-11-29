@@ -1,0 +1,26 @@
+ concept_supermarket_17479150529
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Беларусачка 3"]
+	(* <- lang_ru;; <- name;;*);
+    ["Беларусачка 3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица 30 лет Победы, 8А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:30–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.929404,30.360559"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

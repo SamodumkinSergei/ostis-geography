@@ -1,0 +1,26 @@
+ concept_supermarket_99871381008
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Копеечка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Копеечка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Пестрака, 42, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 144-70-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.652959,23.834184"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dobronom.by/shops/kopeechka/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

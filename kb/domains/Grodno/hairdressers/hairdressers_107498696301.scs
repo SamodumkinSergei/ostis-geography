@@ -1,0 +1,26 @@
+ concept_hairdressers_107498696301
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Салон красоты"]
+	(* <- lang_ru;; <- name;;*);
+    ["Салон красоты"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Янки Купалы, 63"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 589-02-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.654507,23.846707"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

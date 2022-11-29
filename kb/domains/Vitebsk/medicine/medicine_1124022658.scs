@@ -1,0 +1,26 @@
+ concept_medicine_1124022658
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Областная клиническая детская поликлиника Водкц"]
+	(* <- lang_ru;; <- name;;*);
+    ["Областная клиническая детская поликлиника Водкц"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чкалова, 14В, подъезд 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 260-77-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.176662,30.219913"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.vdokb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_college_160612069081
+ <- concept_college;
+=>nrel_main_idtf:
+	["БГМУ, Кафедра микробиологии, вирусологии, иммунологии"]
+	(* <- lang_ru;; <- name;;*);
+    ["БГМУ, Кафедра микробиологии, вирусологии, иммунологии"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, переулок Асаналиева, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 365-99-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–20:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.838138,27.539781"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsmu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

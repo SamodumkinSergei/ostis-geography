@@ -1,0 +1,26 @@
+ concept_college_158594009736
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 32"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 32"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, 1-й Южный переулок, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 273-47-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.875734,30.381974"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://school32.mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

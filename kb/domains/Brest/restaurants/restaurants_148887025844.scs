@@ -1,0 +1,26 @@
+ concept_restaurants_148887025844
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Агроусадьба Старый Хутор"]
+	(* <- lang_ru;; <- name;;*);
+    ["Агроусадьба Старый Хутор"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брестский район, Радваничский сельсовет, деревня Малые Радваничи, Сосновая улица, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 288-27-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 14:00–12:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.037901,23.984973"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://staryhutar.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_banks_1318468600
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Bsb Bank, пункт обмена валюты"]
+	(* <- lang_ru;; <- name;;*);
+    ["Bsb Bank, пункт обмена валюты"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 65"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 306-20-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-ср 09:20–22:00, перерывы 10:45–11:00, 12:45–13:30, 15:15–15:30, 17:15–18:00, 20:00–20:15; чт 09:50–22:00, перерывы 10:45–11:00, 12:45–13:30, 15:15–15:30, 17:15–18:00, 20:00–20:15; пт-вс 09:20–22:00, перерывы 10:45–11:00, 12:45–13:30, 15:15–15:30, 17:15–18:00, 20:00–20:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.926431,27.518372"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

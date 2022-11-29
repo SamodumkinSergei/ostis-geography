@@ -1,0 +1,26 @@
+ concept_bus_station_155457254858
+ <- concept_bus_station;
+=>nrel_main_idtf:
+	["Севастопольский парк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Севастопольский парк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кедышко"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.935711,27.637734"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

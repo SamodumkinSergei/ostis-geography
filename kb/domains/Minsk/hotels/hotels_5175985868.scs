@@ -1,0 +1,26 @@
+ concept_hotels_5175985868
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Дом паломников"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дом паломников"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Центральный район, микрорайон Новинки, улица Выготского, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 289-08-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.956173,27.537502"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_swimming_pool_1220513468
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Городской центр олимпийского резерва по теннису"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городской центр олимпийского резерва по теннису"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Жудро, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 365-39-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 07:00–22:00; вт 07:00–22:00, перерыв 11:00–12:00; ср-пт 07:00–22:00; сб,вс 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917103,27.480713"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gcor-tennis.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

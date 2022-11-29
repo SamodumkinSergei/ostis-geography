@@ -1,0 +1,26 @@
+ concept_museum_1071827710
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Республиканский дворец культуры имени Н. Ф. Шарко"]
+	(* <- lang_ru;; <- name;;*);
+    ["Республиканский дворец культуры имени Н. Ф. Шарко"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Уральская улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 373-94-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 09:00–22:00; сб 14:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.8994,27.608165"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sharko.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

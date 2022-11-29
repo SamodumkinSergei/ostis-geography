@@ -1,0 +1,26 @@
+ concept_hypermarket_67003334794
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Строительный магазин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Строительный магазин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Гагарина, 108"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 697-80-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–19:00; вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.217277,30.23634"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

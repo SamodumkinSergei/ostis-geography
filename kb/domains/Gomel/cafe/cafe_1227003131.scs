@@ -1,0 +1,26 @@
+ concept_cafe_1227003131
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Беларуская Хата"]
+	(* <- lang_ru;; <- name;;*);
+    ["Беларуская Хата"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 63"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 741-47-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 12:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.441394,31.003285"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://belhatagomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_cafe_1499774586
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Просто кофе"]
+	(* <- lang_ru;; <- name;;*);
+    ["Просто кофе"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Замковая улица, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–22:00; пт,сб 09:00–00:00; вс 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.677734,23.825428"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

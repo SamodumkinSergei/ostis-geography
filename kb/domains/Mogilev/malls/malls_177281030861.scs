@@ -1,0 +1,26 @@
+ concept_malls_177281030861
+ <- concept_malls;
+=>nrel_main_idtf:
+	["К Немо"]
+	(* <- lang_ru;; <- name;;*);
+    ["К Немо"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Заднепровье-4, улица Чайковского, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 270-80-89"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб,вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.877178,30.333835"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://plumb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

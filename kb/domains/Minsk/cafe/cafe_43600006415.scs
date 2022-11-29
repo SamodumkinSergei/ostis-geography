@@ -1,0 +1,26 @@
+ concept_cafe_43600006415
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["ДонерFamily24/7"]
+	(* <- lang_ru;; <- name;;*);
+    ["ДонерFamily24/7"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ленина, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 104-96-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.889106,27.580653"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

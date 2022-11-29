@@ -1,0 +1,26 @@
+ concept_bus_stop_35087125446
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Площадь Независимости"]
+	(* <- lang_ru;; <- name;;*);
+    ["Площадь Независимости"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.89585,27.549109"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

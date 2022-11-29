@@ -1,0 +1,26 @@
+ concept_medicine_131221267319
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городская поликлиника № 17, поликлиническое отделение № 18"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская поликлиника № 17, поликлиническое отделение № 18"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Санкт-Петербург, улица Даниила Хармса, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (812) 616-23-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["60.034952,30.451742"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://p17-spb.ru/news/HARMSA/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

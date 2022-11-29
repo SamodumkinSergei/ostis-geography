@@ -1,0 +1,26 @@
+ concept_furniture_store_155838887066
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Шифоньер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Шифоньер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Инженерная улица, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 720-59-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.12648,23.688919"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://shifoner.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

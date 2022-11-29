@@ -1,0 +1,26 @@
+ concept_college_1058721496
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 34"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 34"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Габровская улица, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 224-50-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.86521,30.33835"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://34mogilev.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

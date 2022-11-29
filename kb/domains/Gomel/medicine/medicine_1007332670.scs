@@ -1,0 +1,26 @@
+ concept_medicine_1007332670
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Больница Сестринского Ухода филиал № 1 УЗ Гомельская Городская больница № 4"]
+	(* <- lang_ru;; <- name;;*);
+    ["Больница Сестринского Ухода филиал № 1 УЗ Гомельская Городская больница № 4"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельский район, рабочий посёлок Большевик, улица Мира, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 294-75-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.563957,30.881667"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

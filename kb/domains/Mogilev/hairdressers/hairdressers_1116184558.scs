@@ -1,0 +1,26 @@
+ concept_hairdressers_1116184558
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Кристина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кристина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Якубовского, 37А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 265-43-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919103,30.308593"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

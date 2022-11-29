@@ -1,0 +1,26 @@
+ concept_bus_stop_153444565052
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Малиновка-4"]
+	(* <- lang_ru;; <- name;;*);
+    ["Малиновка-4"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сергея Есенина"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.86549,27.431527"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_supermarket_143538427596
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Дискаунтер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дискаунтер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, ул. Мошенского, 102"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 259-13-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.11431,23.742293"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://prodtovary.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

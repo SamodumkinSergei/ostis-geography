@@ -1,0 +1,26 @@
+ concept_college_1202548912
+ <- concept_college;
+=>nrel_main_idtf:
+	["Витебский государственный технологический университет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебский государственный технологический университет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 72"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 249-53-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.178217,30.234989"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vstu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

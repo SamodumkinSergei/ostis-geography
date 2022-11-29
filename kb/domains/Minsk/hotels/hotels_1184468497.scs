@@ -1,0 +1,26 @@
+ concept_hotels_1184468497
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["EasyFlat"]
+	(* <- lang_ru;; <- name;;*);
+    ["EasyFlat"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Аэродромная улица, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 771-98-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.870847,27.55951"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

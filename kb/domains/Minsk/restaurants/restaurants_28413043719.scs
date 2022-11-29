@@ -1,0 +1,26 @@
+ concept_restaurants_28413043719
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Пицца Миа"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пицца Миа"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кирилла Туровского, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 505-08-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-ср 14:00–22:00; чт-вс 12:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.931447,27.653099"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_195101561531
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Радиальная"]
+	(* <- lang_ru;; <- name;;*);
+    ["Радиальная"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Дружная улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.054931,23.753886"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

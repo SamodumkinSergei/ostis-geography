@@ -1,0 +1,26 @@
+ concept_hypermarket_12868026049
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Stroyhome"]
+	(* <- lang_ru;; <- name;;*);
+    ["Stroyhome"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Титова, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 686-25-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.668615,23.817321"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_hypermarket_1060325875
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Офиспро, офис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Офиспро, офис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Городецкая улица, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 649-70-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.948565,27.68243"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://officepro.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

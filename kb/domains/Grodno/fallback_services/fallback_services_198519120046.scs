@@ -1,0 +1,26 @@
+ concept_fallback_services_198519120046
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Авсус"]
+	(* <- lang_ru;; <- name;;*);
+    ["Авсус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Заводская улица, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 260-60-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.67538,23.825866"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://awsus.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

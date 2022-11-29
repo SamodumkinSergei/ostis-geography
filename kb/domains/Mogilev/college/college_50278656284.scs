@@ -1,0 +1,26 @@
+ concept_college_50278656284
+ <- concept_college;
+=>nrel_main_idtf:
+	["Центр сертификации и испытаний"]
+	(* <- lang_ru;; <- name;;*);
+    ["Центр сертификации и испытаний"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Ленинская улица, 89"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 225-24-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:15–17:15, перерыв 12:30–13:18; пт 08:15–16:15, перерыв 12:30–13:18"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910387,30.346373"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://oitsp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

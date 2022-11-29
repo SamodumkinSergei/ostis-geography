@@ -1,0 +1,26 @@
+ concept_currency_exchange_1035759735
+ <- concept_currency_exchange;
+=>nrel_main_idtf:
+	["МТБАНК"]
+	(* <- lang_ru;; <- name;;*);
+    ["МТБАНК"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Софьи Панковой, 1Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 509-99-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 09:10–16:10, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.18782,30.25507"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.mtbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

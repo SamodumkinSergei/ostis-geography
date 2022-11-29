@@ -1,0 +1,26 @@
+ concept_malls_225887662407
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Мила"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мила"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Воинов-Интернационалистов, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 355-71-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.161465,30.220151"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mila.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

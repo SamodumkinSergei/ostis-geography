@@ -1,0 +1,26 @@
+ concept_bus_stop_136202951930
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Аптечный склад"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптечный склад"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Академика Павлова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.861399,30.373782"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

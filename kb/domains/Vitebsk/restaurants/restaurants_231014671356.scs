@@ -1,0 +1,26 @@
+ concept_restaurants_231014671356
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Пит Stop"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пит Stop"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Бешенковичское шоссе, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 254-04-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.160489,30.167964"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://korona.by/pit-stop/vitebsk"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

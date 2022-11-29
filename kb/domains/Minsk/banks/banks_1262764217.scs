@@ -1,0 +1,26 @@
+ concept_banks_1262764217
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Банк развития Республики Беларусь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Банк развития Республики Беларусь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Машерова, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 385-96-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–18:00, перерыв 13:00–13:45; пт 09:00–16:45, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917142,27.549686"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brrb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

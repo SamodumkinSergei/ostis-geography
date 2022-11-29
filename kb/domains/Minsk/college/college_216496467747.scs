@@ -1,0 +1,26 @@
+ concept_college_216496467747
+ <- concept_college;
+=>nrel_main_idtf:
+	["Исторический факультет Белорусского государственного университета"]
+	(* <- lang_ru;; <- name;;*);
+    ["Исторический факультет Белорусского государственного университета"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Менделеева, 36"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 360-09-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90505,27.615332"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://hist.bsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

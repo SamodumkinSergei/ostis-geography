@@ -1,0 +1,26 @@
+ concept_fallback_services_127805009745
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["VIP гранит"]
+	(* <- lang_ru;; <- name;;*);
+    ["VIP гранит"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Поповича, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 584-29-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 11:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.672766,23.804449"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vipgranit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

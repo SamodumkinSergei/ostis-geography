@@ -1,0 +1,26 @@
+ concept_clothes_shop_1016776543
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Мега"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мега"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Куйбышева, 44"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 351-04-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб 10:00–19:00; вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.923119,27.579906"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

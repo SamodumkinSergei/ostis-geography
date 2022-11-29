@@ -1,0 +1,26 @@
+ concept_restaurants_1900378265
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["La Scala Trattoria Ignazio"]
+	(* <- lang_ru;; <- name;;*);
+    ["La Scala Trattoria Ignazio"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Немига, 36"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 311-99-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.899953,27.544928"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://la-scala.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

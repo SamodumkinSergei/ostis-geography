@@ -1,0 +1,26 @@
+ concept_drugstores_97774194356
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 44/3"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 44/3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Свиридова, 83А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 780-57-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.471495,31.040513"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomelpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

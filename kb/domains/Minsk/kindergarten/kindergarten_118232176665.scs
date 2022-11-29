@@ -1,0 +1,26 @@
+ concept_kindergarten_118232176665
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Global Child"]
+	(* <- lang_ru;; <- name;;*);
+    ["Global Child"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Некрасова, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 691-10-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 10:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.933592,27.58341"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://leto.gcc.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

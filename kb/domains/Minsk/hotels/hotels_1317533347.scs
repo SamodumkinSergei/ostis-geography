@@ -1,0 +1,26 @@
+ concept_hotels_1317533347
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["ITtime"]
+	(* <- lang_ru;; <- name;;*);
+    ["ITtime"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Академика Купревича, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 269-66-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.926749,27.685458"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ittime-hotel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

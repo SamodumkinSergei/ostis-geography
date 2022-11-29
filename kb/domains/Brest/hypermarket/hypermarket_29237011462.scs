@@ -1,0 +1,26 @@
+ concept_hypermarket_29237011462
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Гранитный Двор"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гранитный Двор"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Комсомольская улица, 25/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 539-10-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.094668,23.68848"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://grandvorbrest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

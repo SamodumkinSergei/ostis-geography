@@ -1,0 +1,26 @@
+ concept_hypermarket_36200418078
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Дёке-Запад"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дёке-Запад"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Терешковой, 11Л"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 312-08-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.181776,30.253711"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://dsc.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

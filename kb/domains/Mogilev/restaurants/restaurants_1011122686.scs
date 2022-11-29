@@ -1,0 +1,26 @@
+ concept_restaurants_1011122686
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Салхино"]
+	(* <- lang_ru;; <- name;;*);
+    ["Салхино"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Лазаренко, 50"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 277-16-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–16:00; пт,сб 12:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906819,30.316019"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

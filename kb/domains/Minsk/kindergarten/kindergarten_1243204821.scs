@@ -1,0 +1,26 @@
+ concept_kindergarten_1243204821
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Дарсай"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дарсай"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 2, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 751-22-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–20:30; сб,вс 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.9109,27.504574"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://darsay.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

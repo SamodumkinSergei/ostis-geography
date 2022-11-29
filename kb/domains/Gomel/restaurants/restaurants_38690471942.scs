@@ -1,0 +1,26 @@
+ concept_restaurants_38690471942
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Перец"]
+	(* <- lang_ru;; <- name;;*);
+    ["Перец"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 730-10-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.434632,31.01028"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pizzaperets.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

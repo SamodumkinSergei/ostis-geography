@@ -1,0 +1,26 @@
+ concept_police_1716314888
+ <- concept_police;
+=>nrel_main_idtf:
+	["Отдел внутренних дел Витебского райисполкома"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отдел внутренних дел Витебского райисполкома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 59"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 258-79-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.171668,30.248914"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.vitebsk.vitebsk-region.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

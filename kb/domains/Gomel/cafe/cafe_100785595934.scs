@@ -1,0 +1,26 @@
+ concept_cafe_100785595934
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Ирина Сервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ирина Сервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Медицинская улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 500-72-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00; сб 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.397751,30.907903"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

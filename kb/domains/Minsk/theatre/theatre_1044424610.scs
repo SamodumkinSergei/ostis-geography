@@ -1,0 +1,26 @@
+ concept_theatre_1044424610
+ <- concept_theatre;
+=>nrel_main_idtf:
+	["Республиканский театр белорусской драматургии"]
+	(* <- lang_ru;; <- name;;*);
+    ["Республиканский театр белорусской драматургии"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кропоткина, 44"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 385-97-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–19:30, перерывы 12:00–12:30, 15:30–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916785,27.557569"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rtbd.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

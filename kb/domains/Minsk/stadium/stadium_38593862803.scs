@@ -1,0 +1,26 @@
+ concept_stadium_38593862803
+ <- concept_stadium;
+=>nrel_main_idtf:
+	["Стадион Олимпийский"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стадион Олимпийский"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурганова, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 194-89-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919277,27.608802"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://olimpminsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

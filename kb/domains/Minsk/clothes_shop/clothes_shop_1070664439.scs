@@ -1,0 +1,26 @@
+ concept_clothes_shop_1070664439
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Секонд хенд Эконом Сити"]
+	(* <- lang_ru;; <- name;;*);
+    ["Секонд хенд Эконом Сити"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Солтыса, 189А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 347-01-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–20:00; вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.899274,27.648935"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://secondhand.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

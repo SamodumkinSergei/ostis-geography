@@ -1,0 +1,26 @@
+ concept_auto_200207793063
+ <- concept_auto;
+=>nrel_main_idtf:
+	["ОАО Белкард - производство автоагрегатов"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОАО Белкард - производство автоагрегатов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Курчатова, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 266-97-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.706761,23.827432"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belcard-grodno.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

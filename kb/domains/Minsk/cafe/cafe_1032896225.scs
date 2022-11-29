@@ -1,0 +1,26 @@
+ concept_cafe_1032896225
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Хутор"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хутор"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Казинца, 4К1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 322-50-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–23:00; пт,сб 12:00–05:00; вс 17:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.867255,27.524516"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

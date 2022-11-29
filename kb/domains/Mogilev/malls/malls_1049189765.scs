@@ -1,0 +1,26 @@
+ concept_malls_1049189765
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Догма"]
+	(* <- lang_ru;; <- name;;*);
+    ["Догма"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Болдина, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 725-14-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.896183,30.335036"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://dogmatech.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

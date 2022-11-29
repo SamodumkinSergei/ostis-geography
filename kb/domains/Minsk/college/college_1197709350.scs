@@ -1,0 +1,26 @@
+ concept_college_1197709350
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минский государственный медицинский колледж, учебный корпус"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский государственный медицинский колледж, учебный корпус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Казинца, 48"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 212-04-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.85673,27.513689"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.msmc.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

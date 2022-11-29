@@ -1,0 +1,26 @@
+ concept_supermarket_56519468731
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Городок"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городок"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Гоголя, 38"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 273-07-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.93508,30.355252"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://supermarket-9648.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

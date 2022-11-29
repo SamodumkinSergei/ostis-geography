@@ -1,0 +1,26 @@
+ concept_banks_1038508793
+ <- concept_banks;
+=>nrel_main_idtf:
+	["МТБАНК"]
+	(* <- lang_ru;; <- name;;*);
+    ["МТБАНК"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Шаранговича, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 181-00-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–19:45, перерывы 10:15–10:30, 12:30–13:00, 15:30–16:00, 18:00–18:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.886096,27.4476"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.mtbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

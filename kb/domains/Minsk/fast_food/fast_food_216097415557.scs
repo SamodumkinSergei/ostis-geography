@@ -1,0 +1,26 @@
+ concept_fast_food_216097415557
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Sabroso"]
+	(* <- lang_ru;; <- name;;*);
+    ["Sabroso"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Октябрьская улица, 16к22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 631-21-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.890337,27.573066"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sabroso.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

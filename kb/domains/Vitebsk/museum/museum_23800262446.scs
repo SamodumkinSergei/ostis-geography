@@ -1,0 +1,26 @@
+ concept_museum_23800262446
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Мемориальный музей Петра Мироновича Машерова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мемориальный музей Петра Мироновича Машерова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 237-59-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.177913,30.225253"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.vsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

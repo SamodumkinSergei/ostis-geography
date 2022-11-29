@@ -1,0 +1,26 @@
+ concept_museum_1305028585
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Выставочный зал Картинной галереи Г.Х. Ващенко"]
+	(* <- lang_ru;; <- name;;*);
+    ["Выставочный зал Картинной галереи Г.Х. Ващенко"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Ленина, 43"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 234-26-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.428581,31.000879"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vaschenko.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

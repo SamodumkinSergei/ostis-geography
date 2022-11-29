@@ -1,0 +1,26 @@
+ concept_mobile_phones_234657836054
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Mi-shop.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Mi-shop.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Скрыганова, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["8 (801) 100-55-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908406,27.520671"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mi-shop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

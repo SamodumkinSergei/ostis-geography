@@ -1,0 +1,26 @@
+ concept_bus_stop_75801501818
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Селицкого"]
+	(* <- lang_ru;; <- name;;*);
+    ["Селицкого"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Селицкого"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.835617,27.701198"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

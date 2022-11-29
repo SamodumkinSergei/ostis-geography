@@ -1,0 +1,26 @@
+ concept_hairdressers_98952298463
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Парикмахерская London"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парикмахерская London"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Пушкина, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 836-09-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.193577,30.203521"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

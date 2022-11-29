@@ -1,0 +1,26 @@
+ concept_baby_shop_106811535767
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Магазин детских игрушек"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин детских игрушек"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Восток-2, улица Славинского, 45"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–19:00; вс 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.93854,27.64202"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

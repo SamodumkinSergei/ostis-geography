@@ -1,0 +1,26 @@
+ concept_college_1063709684
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гимназия № 5"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гимназия № 5"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Дубровская улица, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 229-24-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.127636,23.65259"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gymn5brest.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

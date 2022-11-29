@@ -1,0 +1,26 @@
+ concept_office_service_1215015462
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Глубокский МКК, Склад готовой продукции"]
+	(* <- lang_ru;; <- name;;*);
+    ["Глубокский МКК, Склад готовой продукции"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Ленинградская улица, 134"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.214948,30.12397"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.glmkk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

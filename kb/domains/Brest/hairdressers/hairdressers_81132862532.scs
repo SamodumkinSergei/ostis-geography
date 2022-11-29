@@ -1,0 +1,26 @@
+ concept_hairdressers_81132862532
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Бьюти бар"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бьюти бар"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Советская улица, 128"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 377-04-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 12:00–21:00; вт-сб 09:00–21:00; вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.084912,23.69722"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

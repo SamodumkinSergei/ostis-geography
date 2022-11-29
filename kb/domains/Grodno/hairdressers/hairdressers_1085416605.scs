@@ -1,0 +1,26 @@
+ concept_hairdressers_1085416605
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Чародейка Люкс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Чародейка Люкс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Терешковой, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 310-77-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–19:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.694549,23.843393"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_malls_1012154804
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Брестодежда"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестодежда"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Катин Бор, 105"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 250-76-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-чт 08:30–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.141724,23.669377"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.brestodezhda.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

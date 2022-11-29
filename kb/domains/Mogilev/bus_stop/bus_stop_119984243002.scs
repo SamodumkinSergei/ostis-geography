@@ -1,0 +1,26 @@
+ concept_bus_stop_119984243002
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Стоматологическая поликлиника"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стоматологическая поликлиника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Гагарина, 79"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.880656,30.320695"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

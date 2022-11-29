@@ -1,0 +1,26 @@
+ concept_drugstores_243699864476
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 17 пятой категории, Белфармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 17 пятой категории, Белфармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кирилла Туровского, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 378-01-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–21:00; сб 11:00–21:00; вс 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.931013,27.653779"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

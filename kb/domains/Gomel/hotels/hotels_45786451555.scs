@@ -1,0 +1,26 @@
+ concept_hotels_45786451555
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Ривер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ривер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Краснодарский край, Сочи, жилой район Лазаревское, улица Тормахова, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (965) 483-00-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["43.911741,39.348327"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://9030.hoteels.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

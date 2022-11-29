@@ -1,0 +1,26 @@
+ concept_kindergarten_1054844955
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Детский сад № 110 г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский сад № 110 г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Богдана Хмельницкого, 94А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 250-18-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.409389,30.976873"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sad110gomel.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_kindergarten_201028670781
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Бэби-Клаб"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бэби-Клаб"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Левкова, 45"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 339-58-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873072,27.556938"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.b-c.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

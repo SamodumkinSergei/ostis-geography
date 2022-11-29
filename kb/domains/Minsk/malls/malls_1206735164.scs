@@ -1,0 +1,26 @@
+ concept_malls_1206735164
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Столица"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столица"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 3/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 226-18-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.89547,27.54817"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://tc-stolica.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

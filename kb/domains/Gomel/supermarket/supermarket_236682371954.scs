@@ -1,0 +1,26 @@
+ concept_supermarket_236682371954
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Титан - А"]
+	(* <- lang_ru;; <- name;;*);
+    ["Титан - А"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Катунина, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 900-77-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.423908,31.006107"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomelkassa.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

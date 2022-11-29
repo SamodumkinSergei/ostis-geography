@@ -1,0 +1,26 @@
+ concept_bus_station_1741434973
+ <- concept_bus_station;
+=>nrel_main_idtf:
+	["Филиал автобусного парка Минсктранс № 6 Ангарская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Филиал автобусного парка Минсктранс № 6 Ангарская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Илимская улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 356-28-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:00–00:00, перерыв 12:00–18:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.888154,27.689898"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://minsktrans.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

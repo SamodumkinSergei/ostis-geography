@@ -1,0 +1,26 @@
+ concept_hotels_1101306668
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Общежитие Гродторгмаш"]
+	(* <- lang_ru;; <- name;;*);
+    ["Общежитие Гродторгмаш"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Терешковой, 15А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.694674,23.843899"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

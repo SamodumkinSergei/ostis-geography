@@ -1,0 +1,26 @@
+ concept_fallback_services_45935539138
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гомельский лифтовый завод"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский лифтовый завод"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Борисенко, 3В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 318-17-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.412335,30.915628"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://glz.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_tailor_92754080137
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Ремонт обуви и одежды"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт обуви и одежды"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Захарова, 65к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 695-22-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897844,27.58786"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://remont-obuvi.vashparikmaher.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

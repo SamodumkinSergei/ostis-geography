@@ -1,0 +1,26 @@
+ concept_hotels_106052099856
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Апартаменты Еврокомфорт 3"]
+	(* <- lang_ru;; <- name;;*);
+    ["Апартаменты Еврокомфорт 3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, ул. Ленина, д. 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.675167,23.802331"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_auto_196763554464
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автоэксперт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автоэксперт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Гагарина, 24, корп. 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 274-55-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.209452,30.218019"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://avex.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

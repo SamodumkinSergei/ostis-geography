@@ -1,0 +1,26 @@
+ concept_supermarket_227464433811
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Славянский"]
+	(* <- lang_ru;; <- name;;*);
+    ["Славянский"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ольшевского, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 399-85-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.914229,27.503968"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://slavianski.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

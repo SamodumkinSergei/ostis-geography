@@ -1,0 +1,26 @@
+ concept_clothes_shop_231591034366
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Модный микс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Модный микс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Кривошеина, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 11:00–19:00; сб,вс 11:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.102517,23.753401"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

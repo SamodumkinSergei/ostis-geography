@@ -1,0 +1,26 @@
+ concept_concert_hall_30813598136
+ <- concept_concert_hall;
+=>nrel_main_idtf:
+	["Nota"]
+	(* <- lang_ru;; <- name;;*);
+    ["Nota"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, площадь Ленина, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 681-08-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-чт 18:00–02:00; пт,сб 18:00–05:00; вс 18:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.42294,31.014217"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

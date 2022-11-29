@@ -1,0 +1,26 @@
+ concept_landmark_230603456797
+ <- concept_landmark;
+=>nrel_main_idtf:
+	["Минская городская ратуша"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минская городская ратуша"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, площадь Свободы, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 364-75-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср-вс 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903651,27.556044"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://minskmuseum.by/minskaya-gorodskaya-ratusha"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

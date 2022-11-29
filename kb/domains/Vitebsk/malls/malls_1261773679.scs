@@ -1,0 +1,26 @@
+ concept_malls_1261773679
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Пассаж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пассаж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 719-99-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–19:00; вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.194564,30.206871"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

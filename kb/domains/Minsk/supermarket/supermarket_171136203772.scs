@@ -1,0 +1,26 @@
+ concept_supermarket_171136203772
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Родны кут"]
+	(* <- lang_ru;; <- name;;*);
+    ["Родны кут"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Смолевичский район, Озерицко-Слободской сельсовет, агрогородок Слобода"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.009583,27.877078"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rodnykut.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

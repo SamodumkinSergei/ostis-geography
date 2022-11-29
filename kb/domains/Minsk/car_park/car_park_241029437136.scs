@@ -1,0 +1,26 @@
+ concept_car_park_241029437136
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Паркинг"]
+	(* <- lang_ru;; <- name;;*);
+    ["Паркинг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского 25А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 580-12-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.882313,27.503441"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://parking.epam.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

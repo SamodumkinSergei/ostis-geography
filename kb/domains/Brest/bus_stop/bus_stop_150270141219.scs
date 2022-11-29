@@ -1,0 +1,26 @@
+ concept_bus_stop_150270141219
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Микрорайон Южный"]
+	(* <- lang_ru;; <- name;;*);
+    ["Микрорайон Южный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, микрорайон Южный, улица Жукова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.062245,23.733723"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_supermarket_171032292075
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Грин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Грин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, проспект Рокоссовского, 114"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 345-98-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.856719,27.609038"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_medicine_41784790782
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гомельская областная клиническая больница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельская областная клиническая больница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Братьев Лизюковых, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 234-71-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.402198,30.951559"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gokb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

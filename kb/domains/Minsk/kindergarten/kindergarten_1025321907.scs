@@ -1,0 +1,26 @@
+ concept_kindergarten_1025321907
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 396"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 396"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, проспект Рокоссовского, 59"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 399-08-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.86758,27.605785"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu396.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

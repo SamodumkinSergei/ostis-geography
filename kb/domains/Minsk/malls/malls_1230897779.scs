@@ -1,0 +1,26 @@
+ concept_malls_1230897779
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Galileo"]
+	(* <- lang_ru;; <- name;;*);
+    ["Galileo"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Бобруйская улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 566-11-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–22:00; пт,сб 10:00–23:00; вс 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.890524,27.553685"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://galileomall.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

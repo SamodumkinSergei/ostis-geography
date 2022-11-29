@@ -1,0 +1,26 @@
+ concept_boat_station_77270886222
+ <- concept_boat_station;
+=>nrel_main_idtf:
+	["River Park Wake Park"]
+	(* <- lang_ru;; <- name;;*);
+    ["River Park Wake Park"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 120"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 133-44-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.95267,27.454412"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://riverpark.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_cafe_109111650235
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Дружба Могилевское РАЙПО"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дружба Могилевское РАЙПО"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 97"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 273-39-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.920903,30.343583"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogops.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_office_service_1724883875
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Теплый склад"]
+	(* <- lang_ru;; <- name;;*);
+    ["Теплый склад"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Домбровская улица, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 205-77-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.915655,27.454509"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://teplosklad.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_cafe_92591642832
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Марвин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Марвин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Суворова, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 333-13-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 14:00–02:00; пт 14:00–06:00; сб 12:00–06:00; вс 12:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.195515,30.205419"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

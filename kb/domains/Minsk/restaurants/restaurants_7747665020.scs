@@ -1,0 +1,26 @@
+ concept_restaurants_7747665020
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Ristorante, pizaa"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ristorante, pizaa"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Немига, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901851,27.547769"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

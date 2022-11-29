@@ -1,0 +1,26 @@
+ concept_police_41603524659
+ <- concept_police;
+=>nrel_main_idtf:
+	["Полиция, милиция"]
+	(* <- lang_ru;; <- name;;*);
+    ["Полиция, милиция"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Домбровского, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 16:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.702319,23.799808"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

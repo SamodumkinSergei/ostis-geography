@@ -1,0 +1,26 @@
+ concept_college_1215521100
+ <- concept_college;
+=>nrel_main_idtf:
+	["Брестский государственный профессиональный лицей легкой промышленности"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестский государственный профессиональный лицей легкой промышленности"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Янки Купалы, 52"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 246-17-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.105852,23.738792"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bgpllp.brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

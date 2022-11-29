@@ -1,0 +1,26 @@
+ concept_cafe_126870969254
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Столовая"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столовая"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Федюнинского, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 253-88-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.482948,31.004502"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ap6stolovaya.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

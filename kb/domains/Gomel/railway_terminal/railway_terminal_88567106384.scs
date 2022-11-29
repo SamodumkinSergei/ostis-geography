@@ -1,0 +1,26 @@
+ concept_railway_terminal_88567106384
+ <- concept_railway_terminal;
+=>nrel_main_idtf:
+	["Вокзал региональных линий"]
+	(* <- lang_ru;; <- name;;*);
+    ["Вокзал региональных линий"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Привокзальная площадь, 3А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 239-25-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 05:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.431626,30.991435"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

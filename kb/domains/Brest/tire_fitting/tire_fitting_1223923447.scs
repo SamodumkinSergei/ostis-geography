@@ -1,0 +1,26 @@
+ concept_tire_fitting_1223923447
+ <- concept_tire_fitting;
+=>nrel_main_idtf:
+	["АвтоБрейк"]
+	(* <- lang_ru;; <- name;;*);
+    ["АвтоБрейк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Писателя Смирнова, 159"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 594-08-28"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.123681,23.633078"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

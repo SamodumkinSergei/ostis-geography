@@ -1,0 +1,26 @@
+ concept_malls_51620834195
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Атлас"]
+	(* <- lang_ru;; <- name;;*);
+    ["Атлас"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Терёхина, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 263-38-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.881807,30.367783"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://armada-group.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

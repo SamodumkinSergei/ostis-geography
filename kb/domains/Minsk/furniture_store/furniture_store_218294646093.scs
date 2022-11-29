@@ -1,0 +1,26 @@
+ concept_furniture_store_218294646093
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Иса Проф"]
+	(* <- lang_ru;; <- name;;*);
+    ["Иса Проф"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева, 121, корп. 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 302-72-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.93189,27.460535"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mebelros.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_restaurants_242785267067
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Додо Пицца"]
+	(* <- lang_ru;; <- name;;*);
+    ["Додо Пицца"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Романовская Слобода, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 606-75-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902772,27.547575"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://dodopizza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

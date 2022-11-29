@@ -1,0 +1,26 @@
+ concept_museum_1295183036
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Галерея ДК"]
+	(* <- lang_ru;; <- name;;*);
+    ["Галерея ДК"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Герцена, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 236-55-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["чт-сб 12:00–20:00; вс 12:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904954,27.558845"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://artdk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

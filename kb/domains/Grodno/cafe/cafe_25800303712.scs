@@ -1,0 +1,26 @@
+ concept_cafe_25800303712
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Столовая № 76"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столовая № 76"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Космонавтов, 100"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 279-48-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:30–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.677112,23.89472"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://azots.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

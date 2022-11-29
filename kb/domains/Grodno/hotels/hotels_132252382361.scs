@@ -1,0 +1,26 @@
+ concept_hotels_132252382361
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["ИП Жук Д. А."]
+	(* <- lang_ru;; <- name;;*);
+    ["ИП Жук Д. А."]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Доминиканская улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 320-42-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.680794,23.830184"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

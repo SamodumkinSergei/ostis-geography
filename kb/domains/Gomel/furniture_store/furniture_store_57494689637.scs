@@ -1,0 +1,26 @@
+ concept_furniture_store_57494689637
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Astrum"]
+	(* <- lang_ru;; <- name;;*);
+    ["Astrum"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Рабочая улица, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 565-59-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.453186,30.978484"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://astrum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

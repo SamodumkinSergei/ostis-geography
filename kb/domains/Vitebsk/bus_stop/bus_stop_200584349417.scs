@@ -1,0 +1,26 @@
+ concept_bus_stop_200584349417
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Микрорайон Фрунзе"]
+	(* <- lang_ru;; <- name;;*);
+    ["Микрорайон Фрунзе"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Октябрьский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.199413,30.268945"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

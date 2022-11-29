@@ -1,0 +1,26 @@
+ concept_restaurants_1229266592
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Рабиналли"]
+	(* <- lang_ru;; <- name;;*);
+    ["Рабиналли"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 51"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 643-30-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.393733,31.02899"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://rabinalli.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

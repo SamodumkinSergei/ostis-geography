@@ -1,0 +1,26 @@
+ concept_college_1183187193
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гомельский государственный автомеханический колледж, корпус № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский государственный автомеханический колледж, корпус № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Якуба Коласа, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 263-34-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00; сб 08:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.445002,30.968349"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

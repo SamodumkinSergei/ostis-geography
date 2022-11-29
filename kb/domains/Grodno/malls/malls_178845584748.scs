@@ -1,0 +1,26 @@
+ concept_malls_178845584748
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Техносвет, склад"]
+	(* <- lang_ru;; <- name;;*);
+    ["Техносвет, склад"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Суворова, 123"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 652-29-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.659196,23.805358"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://dverimagna.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

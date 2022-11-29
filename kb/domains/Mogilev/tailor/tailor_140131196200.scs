@@ -1,0 +1,26 @@
+ concept_tailor_140131196200
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Ремонт одежды"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт одежды"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Космонавтов, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 946-99-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00, перерыв 15:00–15:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912112,30.318454"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

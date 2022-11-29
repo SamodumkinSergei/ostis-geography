@@ -1,0 +1,26 @@
+ concept_museum_101295223258
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Национальный центр художественного творчества детей и молодежи"]
+	(* <- lang_ru;; <- name;;*);
+    ["Национальный центр художественного творчества детей и молодежи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Фабрициуса, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 357-59-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.890332,27.537705"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.nchtdm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

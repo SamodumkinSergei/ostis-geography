@@ -1,0 +1,26 @@
+ concept_supermarket_141401843027
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Марцiн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Марцiн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Нёманская улица, 47"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 515-00-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916008,27.42651"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.martinn.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_hypermarket_133532418412
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Гиппо"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гиппо"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 150А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 301-63-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.859879,27.673263"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gippo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_1234560638
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 143 имени М. О. Ауэзова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 143 имени М. О. Ауэзова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Чижовка, улица Ауэзова, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 338-39-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.836676,27.642465"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch143.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

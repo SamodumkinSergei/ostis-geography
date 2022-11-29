@@ -1,0 +1,26 @@
+ concept_banks_1097317200
+ <- concept_banks;
+=>nrel_main_idtf:
+	["БТА банк"]
+	(* <- lang_ru;; <- name;;*);
+    ["БТА банк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Веры Хоружей, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 311-32-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 09:00–19:00; вт-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.921778,27.567367"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.btabank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

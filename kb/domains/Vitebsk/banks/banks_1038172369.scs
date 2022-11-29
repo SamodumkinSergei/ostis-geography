@@ -1,0 +1,26 @@
+ concept_banks_1038172369
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Банк Дабрабыт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Банк Дабрабыт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 35, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 522-21-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.193114,30.225111"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://bankdabrabyt.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

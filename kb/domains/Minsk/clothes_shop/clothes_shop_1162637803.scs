@@ -1,0 +1,26 @@
+ concept_clothes_shop_1162637803
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Адзенне"]
+	(* <- lang_ru;; <- name;;*);
+    ["Адзенне"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Маяковского, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 276-70-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.880281,27.567578"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://second-hand.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

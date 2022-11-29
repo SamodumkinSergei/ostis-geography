@@ -1,0 +1,26 @@
+ concept_hairdressers_1055412311
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["АртНелли"]
+	(* <- lang_ru;; <- name;;*);
+    ["АртНелли"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Машерова, 59/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 255-30-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.088019,23.710835"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_college_1114553431
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 6"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 6"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Горновых, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 260-43-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–19:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.666058,23.81949"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://6grodno.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

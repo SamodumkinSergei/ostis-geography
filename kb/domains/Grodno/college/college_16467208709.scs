@@ -1,0 +1,26 @@
+ concept_college_16467208709
+ <- concept_college;
+=>nrel_main_idtf:
+	["Лабораторный корпус физико-технического факультета Гродненского государственного университета имени Янки Купалы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лабораторный корпус физико-технического факультета Гродненского государственного университета имени Янки Купалы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Социалистическая улица, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 261-00-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.682149,23.835723"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ftf.grsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

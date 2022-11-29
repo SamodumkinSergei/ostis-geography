@@ -1,0 +1,26 @@
+ concept_sportcenter_1098731908
+ <- concept_sportcenter;
+=>nrel_main_idtf:
+	["Бильярд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бильярд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Воронянского, 4Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 669-63-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 15:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.877744,27.539133"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

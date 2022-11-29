@@ -1,0 +1,26 @@
+ concept_auto_153740018831
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автосервис, автотехцентр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автосервис, автотехцентр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Малайчука, 47А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 127-49-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.460812,31.00441"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://alignagroup.wixsite.com/mysite"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

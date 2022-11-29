@@ -1,0 +1,26 @@
+ concept_auto_101173441931
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Auto 911"]
+	(* <- lang_ru;; <- name;;*);
+    ["Auto 911"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Пинская улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 188-23-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901606,27.517519"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://auto911.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

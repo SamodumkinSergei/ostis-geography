@@ -1,0 +1,26 @@
+ concept_fallback_services_110257117221
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["GranMir"]
+	(* <- lang_ru;; <- name;;*);
+    ["GranMir"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица 17 Сентября, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 841-74-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб,вс 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.084079,23.694486"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://granmir.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

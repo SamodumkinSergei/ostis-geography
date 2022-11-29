@@ -1,0 +1,26 @@
+ concept_bus_stop_39321955750
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Проходная"]
+	(* <- lang_ru;; <- name;;*);
+    ["Проходная"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Холмы, Витебский проспект, 4, корп. 39"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.881431,30.400201"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

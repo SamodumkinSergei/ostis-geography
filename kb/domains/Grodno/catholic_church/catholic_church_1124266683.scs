@@ -1,0 +1,26 @@
+ concept_catholic_church_1124266683
+ <- concept_catholic_church;
+=>nrel_main_idtf:
+	["Костёл Пресвятого Искупителя"]
+	(* <- lang_ru;; <- name;;*);
+    ["Костёл Пресвятого Искупителя"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Курчатова, 41"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 232-25-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00, перерыв 09:00–19:00; вс 07:30–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.707828,23.850749"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.redemptor.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

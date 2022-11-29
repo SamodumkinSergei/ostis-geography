@@ -1,0 +1,26 @@
+ concept_college_1084205966
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГУО Гимназия № 1 имени Ж. И. Алфёрова"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО Гимназия № 1 имени Ж. И. Алфёрова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, 1-я улица Доватора, 10, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 260-89-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.1959,30.211982"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gymn1vitebsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

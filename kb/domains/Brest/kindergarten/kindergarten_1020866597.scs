@@ -1,0 +1,26 @@
+ concept_kindergarten_1020866597
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 60 г. Бреста"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 60 г. Бреста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Бауманская улица, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 224-92-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.110438,23.643505"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ds60.brestgoo.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

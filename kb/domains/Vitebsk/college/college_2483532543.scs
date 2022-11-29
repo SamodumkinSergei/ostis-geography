@@ -1,0 +1,26 @@
+ concept_college_2483532543
+ <- concept_college;
+=>nrel_main_idtf:
+	["Терапевтический корпус Вгавм"]
+	(* <- lang_ru;; <- name;;*);
+    ["Терапевтический корпус Вгавм"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, 1-я улица Доватора, 7к6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 07:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.19606,30.216301"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.vsavm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

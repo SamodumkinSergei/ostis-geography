@@ -1,0 +1,26 @@
+ concept_clothes_shop_173752338684
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Фирменный магазин Брестские № 28"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фирменный магазин Брестские № 28"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Строителей, 15В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.170313,30.219515"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bchk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

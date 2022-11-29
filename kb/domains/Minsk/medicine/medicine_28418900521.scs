@@ -1,0 +1,26 @@
+ concept_medicine_28418900521
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["УЗ 40-я Городская клиническая поликлиника"]
+	(* <- lang_ru;; <- name;;*);
+    ["УЗ 40-я Городская клиническая поликлиника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Люцинская улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 359-16-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.93198,27.440407"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://40gkp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

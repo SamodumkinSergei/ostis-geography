@@ -1,0 +1,26 @@
+ concept_auto_1306775824
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Гомельгаз, техобслуживание"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельгаз, техобслуживание"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проезд Геофизиков, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 222-17-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 09:00–19:00; сб 09:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.425833,30.940941"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.gomeloblgaz.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

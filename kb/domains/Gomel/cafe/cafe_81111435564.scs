@@ -1,0 +1,26 @@
+ concept_cafe_81111435564
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Донер Сити"]
+	(* <- lang_ru;; <- name;;*);
+    ["Донер Сити"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Карповича, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 729-65-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.424984,30.996836"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

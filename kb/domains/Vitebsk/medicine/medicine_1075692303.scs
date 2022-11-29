@@ -1,0 +1,26 @@
+ concept_medicine_1075692303
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Центральная районная клиническая поликлиника № 34 Советского района г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Центральная районная клиническая поликлиника № 34 Советского района г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кульман, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 378-35-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–20:00; сб 08:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.923902,27.577439"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://34poliklinika.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

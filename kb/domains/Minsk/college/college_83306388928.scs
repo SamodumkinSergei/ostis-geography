@@ -1,0 +1,26 @@
+ concept_college_83306388928
+ <- concept_college;
+=>nrel_main_idtf:
+	["Институт Конфуция в МГЛУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Институт Конфуция в МГЛУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Захарова, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 289-45-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907302,27.577555"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.mslu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

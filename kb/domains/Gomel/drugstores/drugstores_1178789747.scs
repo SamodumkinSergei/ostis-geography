@@ -1,0 +1,26 @@
+ concept_drugstores_1178789747
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация, аптека № 180/1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация, аптека № 180/1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Юбилейная улица, 7А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 340-90-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.457127,31.001582"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomelpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

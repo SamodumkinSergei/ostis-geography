@@ -1,0 +1,26 @@
+ concept_museum_14097011077
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Ксилотека БГТУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ксилотека БГТУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Свердлова, 13А, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 327-57-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 12:30–13:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.891388,27.559649"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belstu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

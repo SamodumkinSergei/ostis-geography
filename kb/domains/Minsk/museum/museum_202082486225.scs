@@ -1,0 +1,26 @@
+ concept_museum_202082486225
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Городская художественная галерея произведений Л.Д. Щемелёва"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская художественная галерея произведений Л.Д. Щемелёва"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Революционная улица, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 342-24-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср-вс 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90337,27.552259"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://minskmuseum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

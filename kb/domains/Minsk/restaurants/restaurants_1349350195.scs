@@ -1,0 +1,26 @@
+ concept_restaurants_1349350195
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Амстердам"]
+	(* <- lang_ru;; <- name;;*);
+    ["Амстердам"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 65"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 309-11-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.926626,27.51791"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://korona.by/amsterdam/zamok"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

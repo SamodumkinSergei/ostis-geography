@@ -1,0 +1,26 @@
+ concept_bus_stop_172312061792
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Некрасова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Некрасова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Леонова, 53"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.192534,30.180705"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

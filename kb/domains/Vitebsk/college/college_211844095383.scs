@@ -1,0 +1,26 @@
+ concept_college_211844095383
+ <- concept_college;
+=>nrel_main_idtf:
+	["Хирургический корпус Вгавм"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хирургический корпус Вгавм"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Баумана, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 233-16-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 07:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.197131,30.216225"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.vsavm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

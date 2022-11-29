@@ -1,0 +1,26 @@
+ concept_kindergarten_123293787117
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Детский клуб Тутта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский клуб Тутта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тургенева, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 643-45-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:30–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.937992,27.585816"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://tutta.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_post_office_1096134960
+ <- concept_post_office;
+=>nrel_main_idtf:
+	["Белпочта, отделение почтовой связи Брест-5"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белпочта, отделение почтовой связи Брест-5"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Ленина, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 221-82-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 12:30–17:30, перерыв 13:30–14:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.093862,23.683929"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belpost.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

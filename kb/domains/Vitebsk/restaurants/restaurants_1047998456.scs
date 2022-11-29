@@ -1,0 +1,26 @@
+ concept_restaurants_1047998456
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Лямус"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лямус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Победы, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 222-59-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–23:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.176563,30.226675"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://lyamus-brew.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

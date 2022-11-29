@@ -1,0 +1,26 @@
+ concept_cafe_1228626091
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Айс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Айс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Строителей, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 511-73-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.169145,30.226508"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitebsk.hockey.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

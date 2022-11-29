@@ -1,0 +1,26 @@
+ concept_gasstation_168850009614
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["РУП Белоруснефть-Могилевоблнефтепродукт, АЗС № 72"]
+	(* <- lang_ru;; <- name;;*);
+    ["РУП Белоруснефть-Могилевоблнефтепродукт, АЗС № 72"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёвская область, Могилёвский район, Дашковский сельсовет, Салтановка"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 274-39-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.800613,30.257235"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

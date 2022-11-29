@@ -1,0 +1,26 @@
+ concept_tailor_1134513086
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Ялина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ялина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Калинина, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 360-45-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.930211,27.598947"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.yalina.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

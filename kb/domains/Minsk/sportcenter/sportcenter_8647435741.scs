@@ -1,0 +1,26 @@
+ concept_sportcenter_8647435741
+ <- concept_sportcenter;
+=>nrel_main_idtf:
+	["Бильярдный клуб-бар"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бильярдный клуб-бар"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 84"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 606-56-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–06:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.938175,27.48888"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_bus_station_172571135197
+ <- concept_bus_station;
+=>nrel_main_idtf:
+	["Научная"]
+	(* <- lang_ru;; <- name;;*);
+    ["Научная"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, микрорайон Магистр, улица Огинского"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.927597,27.67121"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

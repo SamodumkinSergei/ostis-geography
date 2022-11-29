@@ -1,0 +1,26 @@
+ concept_drugstores_1187152647
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 11"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 11"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Кутепова, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 242-08-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00, перерыв 14:00–14:30; сб,вс 09:00–17:30, перерыв 14:00–14:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.872867,30.308234"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

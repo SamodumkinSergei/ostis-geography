@@ -1,0 +1,26 @@
+ concept_college_1057483177
+ <- concept_college;
+=>nrel_main_idtf:
+	["Центр по работе с персоналом Белагропромбанка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Центр по работе с персоналом Белагропромбанка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Козыревская улица, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.869153,27.566905"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

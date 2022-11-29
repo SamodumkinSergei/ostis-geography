@@ -1,0 +1,26 @@
+ concept_supermarket_122806922518
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Ам маркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ам маркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советский район, микрорайон Шведская Горка"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.395582,30.95936"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_office_service_34868652515
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Инфо-Маркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Инфо-Маркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Смолячкова, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 636-24-28"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910953,27.585647"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ocenka-tut.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

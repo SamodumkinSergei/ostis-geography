@@ -1,0 +1,26 @@
+ concept_fallback_services_1012297991
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Офис-техника"]
+	(* <- lang_ru;; <- name;;*);
+    ["Офис-техника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Нововиленская улица, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 193-23-24"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.929499,27.541881"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://officetechnica.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

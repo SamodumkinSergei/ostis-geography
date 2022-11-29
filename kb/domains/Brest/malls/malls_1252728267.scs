@@ -1,0 +1,26 @@
+ concept_malls_1252728267
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Хозяюшка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хозяюшка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Волгоградская улица, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 721-99-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.078798,23.754624"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_clothes_shop_178478035080
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Евроспорт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Евроспорт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гоголя, 41"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 547-45-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.092125,23.690969"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vk.link/eurosport_brest"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

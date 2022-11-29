@@ -1,0 +1,26 @@
+ concept_fast_food_84013313190
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["МакДрайв"]
+	(* <- lang_ru;; <- name;;*);
+    ["МакДрайв"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 68"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 688-09-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 03:30–03:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.439961,31.002297"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mcdonalds.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

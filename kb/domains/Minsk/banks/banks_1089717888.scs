@@ -1,0 +1,26 @@
+ concept_banks_1089717888
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Zepter bank"]
+	(* <- lang_ru;; <- name;;*);
+    ["Zepter bank"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Платонова, 1Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 331-89-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–17:00; пт 09:00–15:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904302,27.588574"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.zepterbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

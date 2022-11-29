@@ -1,0 +1,26 @@
+ concept_cafe_118483999216
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Arabica Coffee House"]
+	(* <- lang_ru;; <- name;;*);
+    ["Arabica Coffee House"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Конья, Мерам, улица Меликсах, 95"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+90 312 242 10 01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["37.868857,32.46453"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://arabicacoffee.com.tr/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

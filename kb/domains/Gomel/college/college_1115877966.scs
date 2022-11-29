@@ -1,0 +1,26 @@
+ concept_college_1115877966
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 41"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 41"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Деревообделочная улица, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 223-17-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:30–19:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.375179,31.019355"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.school41.gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

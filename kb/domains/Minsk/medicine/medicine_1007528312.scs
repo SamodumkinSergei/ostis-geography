@@ -1,0 +1,26 @@
+ concept_medicine_1007528312
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Клинический корпус № 2 РНПЦ неврологии и нейрохирургии"]
+	(* <- lang_ru;; <- name;;*);
+    ["Клинический корпус № 2 РНПЦ неврологии и нейрохирургии"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Франциска Скорины, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 370-70-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.923648,27.678116"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://neuro.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

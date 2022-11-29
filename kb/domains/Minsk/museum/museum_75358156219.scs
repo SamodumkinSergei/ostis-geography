@@ -1,0 +1,26 @@
+ concept_museum_75358156219
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Галерея Артель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Галерея Артель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 58к1-6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 351-65-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 12:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.918243,27.591381"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.vystavki-minsk.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

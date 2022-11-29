@@ -1,0 +1,26 @@
+ concept_bus_stop_172179331868
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Дворец культуры Гомсельмаша"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дворец культуры Гомсельмаша"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Космонавтов"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.447845,30.96953"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

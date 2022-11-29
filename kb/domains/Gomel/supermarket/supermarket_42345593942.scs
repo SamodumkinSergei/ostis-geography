@@ -1,0 +1,26 @@
+ concept_supermarket_42345593942
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Буфет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Буфет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Медицинская улица, 6/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00; сб 09:00–14:20"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.396137,30.901726"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_college_1061861233
+ <- concept_college;
+=>nrel_main_idtf:
+	["Институт национальной безопасности"]
+	(* <- lang_ru;; <- name;;*);
+    ["Институт национальной безопасности"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Змитрока Бядули, 2к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 219-91-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907737,27.581492"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

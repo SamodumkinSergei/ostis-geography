@@ -1,0 +1,26 @@
+ concept_medicine_85942253761
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Поликлиника службы национальной безопасности"]
+	(* <- lang_ru;; <- name;;*);
+    ["Поликлиника службы национальной безопасности"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Ереван, улица Амиряна, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["40.181422,44.506523"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

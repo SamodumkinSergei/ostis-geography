@@ -1,0 +1,26 @@
+ concept_gasstation_235533742760
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Лукойл"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лукойл"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Максима Горького, 57Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 236-65-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.173098,30.161003"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.lukoil.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

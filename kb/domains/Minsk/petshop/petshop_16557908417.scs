@@ -1,0 +1,26 @@
+ concept_petshop_16557908417
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["ZooPro.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["ZooPro.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, проспект Рокоссовского, 103"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 164-50-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.859488,27.610062"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://zoopro.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

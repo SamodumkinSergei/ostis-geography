@@ -1,0 +1,26 @@
+ concept_fallback_services_57639157175
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Казак шоп бай"]
+	(* <- lang_ru;; <- name;;*);
+    ["Казак шоп бай"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Лошица, улица Прушинских, 31А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 597-17-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.834267,27.580331"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kazak-shop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

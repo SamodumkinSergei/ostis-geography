@@ -1,0 +1,26 @@
+ concept_clothes_shop_70044487667
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Ремонт одежды и обуви"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт одежды и обуви"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Киселёва, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 645-65-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909919,27.57415"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_mobile_phones_180850879272
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Serviceprint"]
+	(* <- lang_ru;; <- name;;*);
+    ["Serviceprint"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Генерала Белобородова, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 655-69-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.182597,30.200269"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://serviceprint.pro/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

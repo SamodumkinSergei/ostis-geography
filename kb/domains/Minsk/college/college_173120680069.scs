@@ -1,0 +1,26 @@
+ concept_college_173120680069
+ <- concept_college;
+=>nrel_main_idtf:
+	["Институт правоведения"]
+	(* <- lang_ru;; <- name;;*);
+    ["Институт правоведения"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, микрорайон Масюковщина-1, 2-й Путепроводный переулок, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 348-40-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.923009,27.498315"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bip-ip.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

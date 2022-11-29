@@ -1,0 +1,26 @@
+ concept_hotels_211959220508
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Русский двор"]
+	(* <- lang_ru;; <- name;;*);
+    ["Русский двор"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёвский район, Мостокский сельсовет, Фойно, Садовая улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 650-81-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.957635,30.468109"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://russkiydvor.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

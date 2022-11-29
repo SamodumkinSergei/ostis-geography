@@ -1,0 +1,26 @@
+ concept_medicine_27869144448
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Административный корпус"]
+	(* <- lang_ru;; <- name;;*);
+    ["Административный корпус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Филатова, 9к3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 295-33-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.870997,27.633371"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.5gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_office_service_234315573046
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Гаражи, автостоянки и парковки"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гаражи, автостоянки и парковки"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Гурского, 38"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 218-07-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–13:48"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.881244,27.479087"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://upgaip.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_1127998025
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 22"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 22"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Грицевца, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 235-22-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.88716,27.613647"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://22minsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

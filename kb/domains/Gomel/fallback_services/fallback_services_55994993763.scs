@@ -1,0 +1,26 @@
+ concept_fallback_services_55994993763
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Аякс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аякс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Каменщикова, 3/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 505-27-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.468572,31.01918"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ayks.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

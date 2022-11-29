@@ -1,0 +1,26 @@
+ concept_college_1092980161
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 49"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 49"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Колесникова, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 367-52-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919119,27.441249"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch49.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

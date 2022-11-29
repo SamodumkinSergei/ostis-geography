@@ -1,0 +1,26 @@
+ concept_hairdressers_119066401672
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Я люблю ваши волосы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Я люблю ваши волосы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Щорса, 11Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 366-64-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.677821,23.850762"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://hairlove.tilda.ws/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

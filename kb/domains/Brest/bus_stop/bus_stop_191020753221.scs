@@ -1,0 +1,26 @@
+ concept_bus_stop_191020753221
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Центральная"]
+	(* <- lang_ru;; <- name;;*);
+    ["Центральная"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица 28 Июля"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.073479,23.744748"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

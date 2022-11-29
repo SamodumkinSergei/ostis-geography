@@ -1,0 +1,26 @@
+ concept_currency_exchange_102188821686
+ <- concept_currency_exchange;
+=>nrel_main_idtf:
+	["Zepter Bank, пункт обмена валюты"]
+	(* <- lang_ru;; <- name;;*);
+    ["Zepter Bank, пункт обмена валюты"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Немига, 12Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 145-95-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:15–18:00, перерыв 14:00–14:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902367,27.548625"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.zepterbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

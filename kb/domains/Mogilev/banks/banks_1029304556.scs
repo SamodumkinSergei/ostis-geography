@@ -1,0 +1,26 @@
+ concept_banks_1029304556
+ <- concept_banks;
+=>nrel_main_idtf:
+	["ВТБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["ВТБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Ленинская улица, 54"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 222-87-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904753,30.342808"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.vtb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

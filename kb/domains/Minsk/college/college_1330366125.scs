@@ -1,0 +1,26 @@
+ concept_college_1330366125
+ <- concept_college;
+=>nrel_main_idtf:
+	["Беларусский Государственный университет Юридический Факультет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Беларусский Государственный университет Юридический Факультет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинградская улица, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 209-55-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.894041,27.549939"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://law.bsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

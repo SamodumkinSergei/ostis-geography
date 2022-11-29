@@ -1,0 +1,26 @@
+ concept_fallback_services_89487297150
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Сказочный город"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сказочный город"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ольшевского, 76А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 102-38-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.9244,27.487068"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://сказочный-город.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

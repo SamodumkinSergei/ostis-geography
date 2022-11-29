@@ -1,0 +1,26 @@
+ concept_supermarket_80170011766
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Алми"]
+	(* <- lang_ru;; <- name;;*);
+    ["Алми"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 90"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 308-16-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.867057,27.48751"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://almi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

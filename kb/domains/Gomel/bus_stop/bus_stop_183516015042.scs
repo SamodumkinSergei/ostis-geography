@@ -1,0 +1,26 @@
+ concept_bus_stop_183516015042
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Магазин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Якубовка, Луговая улица, 67"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.413312,31.033888"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

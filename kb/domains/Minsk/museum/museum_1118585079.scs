@@ -1,0 +1,26 @@
+ concept_museum_1118585079
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Центральный дом офицеров ВС РБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Центральный дом офицеров ВС РБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Красноармейская улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 327-77-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–18:00, перерыв 13:00–13:45; пт 09:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902021,27.564739"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

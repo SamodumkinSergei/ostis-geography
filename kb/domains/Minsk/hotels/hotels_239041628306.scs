@@ -1,0 +1,26 @@
+ concept_hotels_239041628306
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Усадьба Королев Стан"]
+	(* <- lang_ru;; <- name;;*);
+    ["Усадьба Королев Стан"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Смолевичский район, Драчковский сельсовет, деревня Быкачино, Центральная улица, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 640-81-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.900221,27.9537"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

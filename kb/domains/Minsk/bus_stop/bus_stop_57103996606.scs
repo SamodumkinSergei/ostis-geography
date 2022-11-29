@@ -1,0 +1,26 @@
+ concept_bus_stop_57103996606
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Круглая площадь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Круглая площадь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ваупшасова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.894748,27.645467"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

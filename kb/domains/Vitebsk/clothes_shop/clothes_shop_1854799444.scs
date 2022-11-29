@@ -1,0 +1,26 @@
+ concept_clothes_shop_1854799444
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Мегахенд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мегахенд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Космонавтов, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 383-85-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.193645,30.185687"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mega-hand.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_swimming_pool_155631542231
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Belswim"]
+	(* <- lang_ru;; <- name;;*);
+    ["Belswim"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Никифорова, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 338-68-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 18:30–20:15; ср,чт 17:15–20:30; сб 12:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.94186,27.697108"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://belswim.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

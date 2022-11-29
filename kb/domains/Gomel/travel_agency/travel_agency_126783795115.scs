@@ -1,0 +1,26 @@
+ concept_travel_agency_126783795115
+ <- concept_travel_agency;
+=>nrel_main_idtf:
+	["ПолонМир"]
+	(* <- lang_ru;; <- name;;*);
+    ["ПолонМир"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 61"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 234-61-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.440444,31.004114"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

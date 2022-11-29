@@ -1,0 +1,26 @@
+ concept_cafe_235160777914
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Столовая № 3"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столовая № 3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Мицкевича, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–16:30; сб 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.098192,23.688872"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

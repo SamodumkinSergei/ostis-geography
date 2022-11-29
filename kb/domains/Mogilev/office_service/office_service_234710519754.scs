@@ -1,0 +1,26 @@
+ concept_office_service_234710519754
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Могилёвхимволокно"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилёвхимволокно"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Шмидта, 300"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 274-60-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.826969,30.33808"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.khimvolokno.by/ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

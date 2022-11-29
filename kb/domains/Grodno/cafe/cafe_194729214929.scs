@@ -1,0 +1,26 @@
+ concept_cafe_194729214929
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Одесса-мама"]
+	(* <- lang_ru;; <- name;;*);
+    ["Одесса-мама"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Большая Троицкая улица, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 160-88-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:00–23:00; пт,сб 11:00–00:00; вс 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.680711,23.827276"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

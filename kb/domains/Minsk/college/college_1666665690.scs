@@ -1,0 +1,26 @@
+ concept_college_1666665690
+ <- concept_college;
+=>nrel_main_idtf:
+	["Кафедра водных видов спорта БГУФК"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафедра водных видов спорта БГУФК"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 109В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 240-46-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.934249,27.489629"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.sportedu.by/kafedra-plavaniya/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

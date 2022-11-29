@@ -1,0 +1,26 @@
+ concept_fallback_services_1903123283
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Корелид"]
+	(* <- lang_ru;; <- name;;*);
+    ["Корелид"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Войсковая улица, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 730-02-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.416809,30.934595"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://korelid.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

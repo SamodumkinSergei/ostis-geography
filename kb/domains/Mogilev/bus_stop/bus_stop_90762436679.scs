@@ -1,0 +1,26 @@
+ concept_bus_stop_90762436679
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Пашковская улица"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пашковская улица"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пашковская улица, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.936889,30.320416"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

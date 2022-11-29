@@ -1,0 +1,26 @@
+ concept_gasstation_17450751355
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["АЗС № 7 ИООО РН-Запад"]
+	(* <- lang_ru;; <- name;;*);
+    ["АЗС № 7 ИООО РН-Запад"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Жукова, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 342-44-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 00:10–23:55, перерыв 07:00–07:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.885777,27.500961"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rn-west.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

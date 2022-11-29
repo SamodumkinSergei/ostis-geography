@@ -1,0 +1,26 @@
+ concept_hotels_1099340846
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Усадьба Рыньковка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Усадьба Рыньковка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брестский район, Мотыкальский сельсовет, усадьба Рыньковка, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 209-75-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.151966,23.676594"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rinkavka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

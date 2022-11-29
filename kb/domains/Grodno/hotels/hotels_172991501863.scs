@@ -1,0 +1,26 @@
+ concept_hotels_172991501863
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Апартаменты Славинского"]
+	(* <- lang_ru;; <- name;;*);
+    ["Апартаменты Славинского"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Ул. Славинского, Д. 11, Кв. 113"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.64585,23.82123"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

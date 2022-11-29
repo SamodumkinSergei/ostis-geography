@@ -1,0 +1,26 @@
+ concept_college_145661922437
+ <- concept_college;
+=>nrel_main_idtf:
+	["Лабораторный корпус БГМУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лабораторный корпус БГМУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 83к15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 279-42-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.861428,27.486142"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bsmu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

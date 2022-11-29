@@ -1,0 +1,26 @@
+ concept_malls_220679952596
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Букваешка Discount"]
+	(* <- lang_ru;; <- name;;*);
+    ["Букваешка Discount"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Дубко, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 595-93-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–21:00; пт,сб 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.701862,23.833228"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bukvaeshka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_college_197987861214
+ <- concept_college;
+=>nrel_main_idtf:
+	["Факультет технический сервис в АПК БГАТУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Факультет технический сервис в АПК БГАТУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 99к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 357-17-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:15–17:00, перерыв 13:00–13:30; пт 08:00–15:45, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.928216,27.62169"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bsatu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

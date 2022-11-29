@@ -1,0 +1,26 @@
+ concept_supermarket_168021145257
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Всем Кофе"]
+	(* <- lang_ru;; <- name;;*);
+    ["Всем Кофе"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Пушкина, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 192-24-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–19:30; сб,вс 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.42967,31.01559"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vsemcoffee.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

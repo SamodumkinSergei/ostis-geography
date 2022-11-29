@@ -1,0 +1,26 @@
+ concept_supermarket_152230291822
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Вишневка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Вишневка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Юбилейный"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00, перерыв 13:00–14:00; сб 10:00–16:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905278,30.358573"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

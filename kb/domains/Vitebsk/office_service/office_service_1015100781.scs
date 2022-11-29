@@ -1,0 +1,26 @@
+ concept_office_service_1015100781
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Витебскоблсельстрой"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебскоблсельстрой"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Петруся Бровки, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 236-76-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.171731,30.24377"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

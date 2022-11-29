@@ -1,0 +1,26 @@
+ concept_mobile_phones_126209954791
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["РемТех"]
+	(* <- lang_ru;; <- name;;*);
+    ["РемТех"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, проспект Рокоссовского, 17, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 926-93-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:30; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.87267,27.598605"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://remteh.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_restaurants_202750340888
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Шум"]
+	(* <- lang_ru;; <- name;;*);
+    ["Шум"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Киселёва, 12А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–05:00, перерыв 16:00–19:00; сб,вс 19:00–05:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912672,27.569652"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://shum.minsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

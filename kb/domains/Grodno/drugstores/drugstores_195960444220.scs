@@ -1,0 +1,26 @@
+ concept_drugstores_195960444220
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Румлёвский проспект, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 296-36-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.665629,23.859802"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://farmacia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

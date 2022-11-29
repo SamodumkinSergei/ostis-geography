@@ -1,0 +1,26 @@
+ concept_cafe_194307676988
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Моменты"]
+	(* <- lang_ru;; <- name;;*);
+    ["Моменты"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Клёнковский, Чечерская улица, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 692-48-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.464423,31.040059"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://моменты.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_supermarket_1162461150
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Марцiн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Марцiн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Максима Богдановича, 254"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 288-35-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.949484,27.597697"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

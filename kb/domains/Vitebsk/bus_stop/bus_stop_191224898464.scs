@@ -1,0 +1,26 @@
+ concept_bus_stop_191224898464
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Областная больница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Областная больница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Первомайский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.159769,30.225624"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

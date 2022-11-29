@@ -1,0 +1,26 @@
+ concept_medicine_3264085980
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["5-я Городская клиническая больница, 10- ое пульмонологическое отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["5-я Городская клиническая больница, 10- ое пульмонологическое отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Филатова, 9к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 295-05-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.871079,27.632455"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.5gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_hotels_1074057371
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Гостиница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гостиница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Генерала Людникова, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 255-72-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.198366,30.228202"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.fc.vitebsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

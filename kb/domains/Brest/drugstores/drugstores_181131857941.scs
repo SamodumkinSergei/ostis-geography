@@ -1,0 +1,26 @@
+ concept_drugstores_181131857941
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Doctorgreen"]
+	(* <- lang_ru;; <- name;;*);
+    ["Doctorgreen"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Карбышева, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 274-32-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 11:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.098551,23.691776"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://doctorgreen.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_medicine_1073732322
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гродненский областной клинический центр, отделение фтизиатрии"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненский областной клинический центр, отделение фтизиатрии"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, бульвар Ленинского Комсомола, 55"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 274-62-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.69743,23.792646"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://grodnotub.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

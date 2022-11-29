@@ -1,0 +1,26 @@
+ concept_swimming_pool_1942472966
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Аквапарк Рамаяна"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аквапарк Рамаяна"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Чонбури"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+66 0330 059 29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,вт,чт,пт,сб,вс 11:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["12.750077,100.961783"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.ramayanawaterpark.ru/?utm_medium=map&utm_source=yandex"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

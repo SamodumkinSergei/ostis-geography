@@ -1,0 +1,26 @@
+ concept_hotels_1102277044
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Ким"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ким"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Лазаренко, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 149-10-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90259,30.324579"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.kim-hotel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

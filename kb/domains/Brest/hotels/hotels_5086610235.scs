@@ -1,0 +1,26 @@
+ concept_hotels_5086610235
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Mardog"]
+	(* <- lang_ru;; <- name;;*);
+    ["Mardog"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Люблинское воеводство, повят Бяльский, Тересполь, ulica Krótka, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+48  661 15 56 35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.076432,23.611391"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.mardog.pl/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

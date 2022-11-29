@@ -1,0 +1,26 @@
+ concept_furniture_store_76904936624
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Фабрика шкафов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фабрика шкафов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Суворова, 127, корп. 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 229-88-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.655955,23.799812"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://fabrikashkafov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

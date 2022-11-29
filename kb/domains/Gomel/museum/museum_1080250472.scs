@@ -1,0 +1,26 @@
+ concept_museum_1080250472
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Охотничий домик"]
+	(* <- lang_ru;; <- name;;*);
+    ["Охотничий домик"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Пушкина, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 275-58-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.428479,31.018799"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomelhistory.museum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

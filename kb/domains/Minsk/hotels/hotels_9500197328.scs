@@ -1,0 +1,26 @@
+ concept_hotels_9500197328
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Аренда усадьбы Каханая"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аренда усадьбы Каханая"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Сеницкий сельсовет, деревня Кохановщина"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 682-10-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.779857,27.478881"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

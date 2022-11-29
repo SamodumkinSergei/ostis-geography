@@ -1,0 +1,26 @@
+ concept_office_service_28501529604
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Офис Prime Line"]
+	(* <- lang_ru;; <- name;;*);
+    ["Офис Prime Line"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Мстиславца, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 509-99-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.9336,27.652"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.mtbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

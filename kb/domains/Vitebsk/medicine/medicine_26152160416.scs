@@ -1,0 +1,26 @@
+ concept_medicine_26152160416
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["About You Polyclinic"]
+	(* <- lang_ru;; <- name;;*);
+    ["About You Polyclinic"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["эмират Дубай, Бур Дубай, площадь Джумейра Дубаи Дри Дуккс"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+971 4 358 88 65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["25.241105,55.272324"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

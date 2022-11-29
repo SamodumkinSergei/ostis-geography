@@ -1,0 +1,26 @@
+ concept_clothes_shop_160028751872
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Triostar.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Triostar.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Ленинская улица, 74"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 190-77-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.913264,30.346617"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://triostar.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

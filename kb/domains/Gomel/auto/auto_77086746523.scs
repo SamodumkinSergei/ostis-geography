@@ -1,0 +1,26 @@
+ concept_auto_77086746523
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автопрофи"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автопрофи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Кирова, 123/10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 781-61-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.447494,30.994278"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://service-lada.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

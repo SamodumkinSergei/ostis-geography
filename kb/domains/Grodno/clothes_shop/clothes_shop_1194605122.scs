@@ -1,0 +1,26 @@
+ concept_clothes_shop_1194605122
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Ювита"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ювита"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Янки Купалы, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 266-40-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–18:00; вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.66159,23.83222"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://shop.yuvita.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

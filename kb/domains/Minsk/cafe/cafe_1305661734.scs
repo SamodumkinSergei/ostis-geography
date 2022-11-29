@@ -1,0 +1,26 @@
+ concept_cafe_1305661734
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["У Янки"]
+	(* <- lang_ru;; <- name;;*);
+    ["У Янки"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Карла Маркса, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 365-49-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897382,27.556049"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

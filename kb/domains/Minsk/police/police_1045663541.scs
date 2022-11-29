@@ -1,0 +1,26 @@
+ concept_police_1045663541
+ <- concept_police;
+=>nrel_main_idtf:
+	["ГУВД Минского городского исполнительного комитета"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУВД Минского городского исполнительного комитета"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Добромысленский переулок, 5/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 239-41-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.891189,27.538985"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gaiminsk.by/guvd-mingorispolkoma"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_drugstores_1254847444
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродненская область, Берестовицкий район, Эйсмонтовский сельсовет, агрогородок Большие Эйсмонты, Юбилейная улица, 1/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 117-45-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.366899,24.07329"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://farmacia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

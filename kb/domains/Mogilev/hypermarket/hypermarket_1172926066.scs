@@ -1,0 +1,26 @@
+ concept_hypermarket_1172926066
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Палас"]
+	(* <- lang_ru;; <- name;;*);
+    ["Палас"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Строителей, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 270-64-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 09:00–19:00; вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909223,30.304787"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.palas.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

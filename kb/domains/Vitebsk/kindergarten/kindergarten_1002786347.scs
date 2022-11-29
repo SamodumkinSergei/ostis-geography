@@ -1,0 +1,26 @@
+ concept_kindergarten_1002786347
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 65"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 65"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чкалова, 9к10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 237-84-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.177123,30.208042"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://du65.pervroo-vitebsk.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

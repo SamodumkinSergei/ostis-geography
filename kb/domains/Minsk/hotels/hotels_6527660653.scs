@@ -1,0 +1,26 @@
+ concept_hotels_6527660653
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Базилиан Минск, Кьюрио Коллекшн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Базилиан Минск, Кьюрио Коллекшн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Максима Богдановича, 2, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 390-90-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908132,27.558082"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://thebasilian.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

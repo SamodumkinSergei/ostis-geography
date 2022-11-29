@@ -1,0 +1,26 @@
+ concept_fallback_services_79997380599
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Заточка инструмента Diamond Blade"]
+	(* <- lang_ru;; <- name;;*);
+    ["Заточка инструмента Diamond Blade"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Аэродромная улица, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 703-14-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:30–19:00; пт 10:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.871312,27.555356"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://d-blade.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

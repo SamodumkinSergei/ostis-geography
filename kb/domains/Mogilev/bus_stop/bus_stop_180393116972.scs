@@ -1,0 +1,26 @@
+ concept_bus_stop_180393116972
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["ЖЭУ-5"]
+	(* <- lang_ru;; <- name;;*);
+    ["ЖЭУ-5"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Лазаренко"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905685,30.318165"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

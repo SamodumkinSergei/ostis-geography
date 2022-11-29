@@ -1,0 +1,26 @@
+ concept_medicine_57855806305
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["3-я Городская Клиническая больница, Корпус 7"]
+	(* <- lang_ru;; <- name;;*);
+    ["3-я Городская Клиническая больница, Корпус 7"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ульяновская улица, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 351-52-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.895525,27.564325"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://3gkb.by/otdeleniya/gastroenterologicheskoe-otdelenie"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

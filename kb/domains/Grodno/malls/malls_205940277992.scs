@@ -1,0 +1,26 @@
+ concept_malls_205940277992
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Офистон маркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Офистон маркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Янки Купалы, 87"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 388-59-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.650213,23.855008"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://officetonmarket.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

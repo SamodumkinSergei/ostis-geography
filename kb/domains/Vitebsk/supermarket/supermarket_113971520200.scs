@@ -1,0 +1,26 @@
+ concept_supermarket_113971520200
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Околица"]
+	(* <- lang_ru;; <- name;;*);
+    ["Околица"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Леонова, 53"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:30–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.192752,30.180459"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

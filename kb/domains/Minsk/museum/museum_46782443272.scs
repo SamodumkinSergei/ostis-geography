@@ -1,0 +1,26 @@
+ concept_museum_46782443272
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Экзотариум"]
+	(* <- lang_ru;; <- name;;*);
+    ["Экзотариум"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Чижовка, Ташкентская улица, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–21:00; сб,вс 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.84996,27.63561"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://minskzoo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

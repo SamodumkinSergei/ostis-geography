@@ -1,0 +1,26 @@
+ concept_medicine_135515104406
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["5-я Городская Клиническая больница, приемное отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["5-я Городская Клиническая больница, приемное отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Филатова, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 295-44-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.870073,27.632408"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.5gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

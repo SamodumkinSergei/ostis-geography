@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_220813748196
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Витебский Мэз"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебский Мэз"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 267-36-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.187743,30.204764"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitmez.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

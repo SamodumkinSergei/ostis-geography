@@ -1,0 +1,26 @@
+ concept_baby_shop_1442279984
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Super-toys"]
+	(* <- lang_ru;; <- name;;*);
+    ["Super-toys"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурганова, 50"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 661-88-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.928847,27.587644"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

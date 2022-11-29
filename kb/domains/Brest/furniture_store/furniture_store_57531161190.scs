@@ -1,0 +1,26 @@
+ concept_furniture_store_57531161190
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Акс-мебель. Фурнитура. Мебель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Акс-мебель. Фурнитура. Мебель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Вычулки, 129А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 500-85-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.095354,23.82058"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://aks.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

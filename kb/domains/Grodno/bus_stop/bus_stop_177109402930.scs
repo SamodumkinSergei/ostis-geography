@@ -1,0 +1,26 @@
+ concept_bus_stop_177109402930
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Больница скорой медицинской помощи"]
+	(* <- lang_ru;; <- name;;*);
+    ["Больница скорой медицинской помощи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Советских Пограничников"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.673428,23.792906"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

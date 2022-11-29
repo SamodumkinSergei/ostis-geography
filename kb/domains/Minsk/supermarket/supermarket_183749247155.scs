@@ -1,0 +1,26 @@
+ concept_supermarket_183749247155
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Перекресток"]
+	(* <- lang_ru;; <- name;;*);
+    ["Перекресток"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Новодворский сельсовет, Большое Стиклево, Молодёжная улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 387-77-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–21:00, перерыв 14:00–15:00; вс 09:00–20:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.86673,27.705074"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

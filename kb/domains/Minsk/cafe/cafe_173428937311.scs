@@ -1,0 +1,26 @@
+ concept_cafe_173428937311
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Terra Pizza"]
+	(* <- lang_ru;; <- name;;*);
+    ["Terra Pizza"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 156/1-1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 305-00-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:30–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908141,27.434471"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://terrapizza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

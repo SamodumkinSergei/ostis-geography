@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_1387710666
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Ива"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ива"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Луцкая улица, 46"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 203-73-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.078831,23.749066"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.iva-brest.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

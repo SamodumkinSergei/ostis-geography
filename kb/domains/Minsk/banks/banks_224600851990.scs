@@ -1,0 +1,26 @@
+ concept_banks_224600851990
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Белгазпромбанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белгазпромбанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева, 70"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 766-61-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:45–20:00, перерыв 13:15–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.923191,27.514041"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.belgazprombank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

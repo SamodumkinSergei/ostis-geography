@@ -1,0 +1,26 @@
+ concept_bars_1285882639
+ <- concept_bars;
+=>nrel_main_idtf:
+	["Pin-Code"]
+	(* <- lang_ru;; <- name;;*);
+    ["Pin-Code"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 116-00-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 22:00–06:00; пт,сб 22:00–08:00; вс 22:00–06:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917173,27.532676"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pin-code.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

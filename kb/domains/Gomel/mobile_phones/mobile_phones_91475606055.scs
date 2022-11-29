@@ -1,0 +1,26 @@
+ concept_mobile_phones_91475606055
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["It-servis"]
+	(* <- lang_ru;; <- name;;*);
+    ["It-servis"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Карповича, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 773-32-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; вс 11:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.426061,30.996908"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://it-src.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

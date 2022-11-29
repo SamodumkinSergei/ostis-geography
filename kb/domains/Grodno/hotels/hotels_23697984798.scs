@@ -1,0 +1,26 @@
+ concept_hotels_23697984798
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Каролинский фальварок Тызенгауза"]
+	(* <- lang_ru;; <- name;;*);
+    ["Каролинский фальварок Тызенгауза"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродненский район, Подлабенский сельсовет, Каролино, 2В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 785-99-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.635167,23.727188"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://karalino.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

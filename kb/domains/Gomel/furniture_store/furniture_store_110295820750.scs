@@ -1,0 +1,26 @@
+ concept_furniture_store_110295820750
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Origami Wood"]
+	(* <- lang_ru;; <- name;;*);
+    ["Origami Wood"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Лепешинского, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 757-23-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.474639,30.995471"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://origamiwood.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_restaurants_29111836183
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Пит Stop"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пит Stop"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 200"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 250-39-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.466646,30.981716"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://korona.by/pit-stop/gomel-sovetskaya-200"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_car_park_182041194236
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автохран"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автохран"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 126"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 955-44-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.450032,30.99535"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://avtostoyanka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

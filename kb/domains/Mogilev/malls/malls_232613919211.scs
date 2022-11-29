@@ -1,0 +1,26 @@
+ concept_malls_232613919211
+ <- concept_malls;
+=>nrel_main_idtf:
+	["АТПЦ Citadel"]
+	(* <- lang_ru;; <- name;;*);
+    ["АТПЦ Citadel"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Челюскинцев, 76"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 680-11-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.89189,30.296069"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mm69.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

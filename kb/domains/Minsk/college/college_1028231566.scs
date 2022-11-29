@@ -1,0 +1,26 @@
+ concept_college_1028231566
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 181"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 181"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Газеты Звязда, 65"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 207-99-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.857429,27.463348"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://181minsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

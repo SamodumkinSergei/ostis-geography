@@ -1,0 +1,26 @@
+ concept_hotels_1227208337
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Хостел Х. О."]
+	(* <- lang_ru;; <- name;;*);
+    ["Хостел Х. О."]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Суворова, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 618-45-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.195753,30.204873"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://xostel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

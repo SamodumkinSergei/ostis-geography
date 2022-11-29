@@ -1,0 +1,26 @@
+ concept_cafe_57348609470
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Столовая"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столовая"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Шмидта, 300"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 249-95-96"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:00–15:00; пт 11:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.825476,30.338009"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.khimvolokno.by/ru/srvc_social.asp?srvc=catering"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

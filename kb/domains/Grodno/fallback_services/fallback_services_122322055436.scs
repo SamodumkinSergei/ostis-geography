@@ -1,0 +1,26 @@
+ concept_fallback_services_122322055436
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["ГрандГранит"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГрандГранит"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Тимирязева, 10, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 789-38-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.688308,23.84634"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://grand-granit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

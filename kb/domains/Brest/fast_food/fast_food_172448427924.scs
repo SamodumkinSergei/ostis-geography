@@ -1,0 +1,26 @@
+ concept_fast_food_172448427924
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["B&b Burger"]
+	(* <- lang_ru;; <- name;;*);
+    ["B&b Burger"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Пушкинская улица, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 221-83-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–22:00; сб,вс 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.095825,23.690336"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

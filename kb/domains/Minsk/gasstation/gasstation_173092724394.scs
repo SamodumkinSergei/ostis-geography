@@ -1,0 +1,26 @@
+ concept_gasstation_173092724394
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Мингаз"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мингаз"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Новодворский сельсовет, деревня Большой Тростенец"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 344-50-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:30–20:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.853206,27.699299"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mingas.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

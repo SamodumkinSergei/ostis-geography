@@ -1,0 +1,26 @@
+ concept_restaurants_93207364773
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Пицца Темпо"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пицца Темпо"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Победы, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 557-04-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.43232,30.994114"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.pizzatempo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

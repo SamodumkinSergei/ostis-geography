@@ -1,0 +1,26 @@
+ concept_drugstores_109603593742
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["ADEL"]
+	(* <- lang_ru;; <- name;;*);
+    ["ADEL"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Пушкина, 39А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 683-87-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.672883,23.840895"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://apteka-adel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

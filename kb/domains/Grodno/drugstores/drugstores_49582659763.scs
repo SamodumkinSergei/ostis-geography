@@ -1,0 +1,26 @@
+ concept_drugstores_49582659763
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродненская область, Волковысский район, Волповский сельсовет, деревня Ковали, 21/4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 126-83-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 13:00–17:00; ср,пт 08:30–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.383892,24.402585"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://farmacia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

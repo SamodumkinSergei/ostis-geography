@@ -1,0 +1,26 @@
+ concept_cafe_1108747419
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Столовая"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столовая"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 65Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 293-91-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.921752,27.593372"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bntu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

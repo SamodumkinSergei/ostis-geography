@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_150685115475
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["ОАО Брестский чулочный комбинат"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОАО Брестский чулочный комбинат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Янки Купалы, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 259-78-89"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:15, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.102094,23.735367"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bchk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

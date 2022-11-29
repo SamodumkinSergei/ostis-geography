@@ -1,0 +1,26 @@
+ concept_malls_1047204359
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Медиа маркет групп"]
+	(* <- lang_ru;; <- name;;*);
+    ["Медиа маркет групп"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Якуба Коласа, 34Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 755-88-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб,вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.927178,27.596956"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mmg.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

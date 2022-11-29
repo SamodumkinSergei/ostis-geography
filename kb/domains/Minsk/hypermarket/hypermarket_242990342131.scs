@@ -1,0 +1,26 @@
+ concept_hypermarket_242990342131
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Green"]
+	(* <- lang_ru;; <- name;;*);
+    ["Green"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Мстиславца, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 235-37-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.93317,27.650373"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.green-market.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

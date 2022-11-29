@@ -1,0 +1,26 @@
+ concept_college_225055817365
+ <- concept_college;
+=>nrel_main_idtf:
+	["БГМУ, Кафедра гигиены труда"]
+	(* <- lang_ru;; <- name;;*);
+    ["БГМУ, Кафедра гигиены труда"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, переулок Асаналиева, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 365-84-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.838141,27.539796"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsmu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

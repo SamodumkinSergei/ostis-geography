@@ -1,0 +1,26 @@
+ concept_hotels_237564552394
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["VIP Apartments Dipservice Hall"]
+	(* <- lang_ru;; <- name;;*);
+    ["VIP Apartments Dipservice Hall"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Фрунзе, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 327-04-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90486,27.576029"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.dipservicehall.by/arenda-kottedzha"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

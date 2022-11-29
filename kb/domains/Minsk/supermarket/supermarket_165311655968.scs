@@ -1,0 +1,26 @@
+ concept_supermarket_165311655968
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["SPAR"]
+	(* <- lang_ru;; <- name;;*);
+    ["SPAR"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 19А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 153-76-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.88393,27.5933"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.sparbelarus.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

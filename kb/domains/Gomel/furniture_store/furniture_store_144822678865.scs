@@ -1,0 +1,26 @@
+ concept_furniture_store_144822678865
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Хоум Лайн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хоум Лайн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Ленина, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 396-88-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб,вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.426838,31.003975"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

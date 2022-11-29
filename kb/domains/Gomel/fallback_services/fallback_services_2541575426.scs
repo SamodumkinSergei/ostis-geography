@@ -1,0 +1,26 @@
+ concept_fallback_services_2541575426
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Памятники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельская область, Добруш, Торговая улица, 5А/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 174-73-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 10:00–15:00; сб 10:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.405089,31.330777"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://миркамня.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

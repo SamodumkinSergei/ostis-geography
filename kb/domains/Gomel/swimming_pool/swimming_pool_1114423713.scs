@@ -1,0 +1,26 @@
+ concept_swimming_pool_1114423713
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Пляж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пляж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Львов, улица Княгини Ольги, 114"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+380 (32) 263-60-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 07:00–22:00; вс 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["49.8063,23.9975"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.aqualviv.com.ua/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

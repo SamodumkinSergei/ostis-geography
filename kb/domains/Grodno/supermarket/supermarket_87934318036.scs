@@ -1,0 +1,26 @@
+ concept_supermarket_87934318036
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Вита маркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Вита маркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Фомичёва, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.661486,23.845076"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

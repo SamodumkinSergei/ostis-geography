@@ -1,0 +1,26 @@
+ concept_medicine_163991857923
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Больница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Больница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Академическая улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.915878,27.602138"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_clothes_shop_169428815400
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Stock & Second hand"]
+	(* <- lang_ru;; <- name;;*);
+    ["Stock & Second hand"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Залинейный, улица Бочкина, 194"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 661-88-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.428621,30.949381"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

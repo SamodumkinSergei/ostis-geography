@@ -1,0 +1,26 @@
+ concept_petshop_225749502539
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Зоо Дискаунтер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зоо Дискаунтер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чкалова, 36"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 513-54-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.166472,30.211477"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

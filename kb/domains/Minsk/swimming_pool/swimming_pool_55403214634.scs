@@ -1,0 +1,26 @@
+ concept_swimming_pool_55403214634
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["СДЮШОР по водным видам спорта"]
+	(* <- lang_ru;; <- name;;*);
+    ["СДЮШОР по водным видам спорта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 18к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 343-24-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.931713,27.513515"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://minsksport.by/sdushorvvs"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

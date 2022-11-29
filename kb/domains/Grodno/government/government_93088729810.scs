@@ -1,0 +1,26 @@
+ concept_government_93088729810
+ <- concept_government;
+=>nrel_main_idtf:
+	["Гродненский районный территориальный центр социального обслуживания населения"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненский районный территориальный центр социального обслуживания населения"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Максима Горького, 72"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 255-62-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.696538,23.819551"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://grtcson.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

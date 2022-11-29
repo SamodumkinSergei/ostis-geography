@@ -1,0 +1,26 @@
+ concept_supermarket_205751973845
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Могилёвский мясокомбинат"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилёвский мясокомбинат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, ул. Центральная агрогородок Кадино"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.877221,30.508081"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.mogmk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_furniture_store_1069335154
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Белбытмебель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белбытмебель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 656-44-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.435207,31.009588"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.belbytmebel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

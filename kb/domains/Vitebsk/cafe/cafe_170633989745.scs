@@ -1,0 +1,26 @@
+ concept_cafe_170633989745
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кофе Хауз"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кофе Хауз"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Москва, Снежная улица, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (965) 157-34-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.85509,37.653273"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.coffeehouse.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

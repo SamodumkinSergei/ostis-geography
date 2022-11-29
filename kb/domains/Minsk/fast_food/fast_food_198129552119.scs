@@ -1,0 +1,26 @@
+ concept_fast_food_198129552119
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Донер кебаб"]
+	(* <- lang_ru;; <- name;;*);
+    ["Донер кебаб"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Нёманская улица, 47"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.915931,27.42666"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

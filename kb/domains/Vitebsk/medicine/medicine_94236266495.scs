@@ -1,0 +1,26 @@
+ concept_medicine_94236266495
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Витебская городская центральная поликлиника"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебская городская центральная поликлиника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, микрорайон Юг-7А, улица Генерала Маргелова, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 795-93-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.161175,30.207866"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vgcp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

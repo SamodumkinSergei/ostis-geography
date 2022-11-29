@@ -1,0 +1,26 @@
+ concept_furniture_store_1287269988
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Гомельмебель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельмебель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Железнодорожный район, район Старая Мильча, улица Добролюбова, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 604-18-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.442367,30.935445"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gomelmebel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

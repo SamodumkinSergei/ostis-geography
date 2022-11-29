@@ -1,0 +1,26 @@
+ concept_restaurants_217158729405
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Мама дома"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мама дома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Гагарина, 65"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 193-37-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.424386,30.996388"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mama-doma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

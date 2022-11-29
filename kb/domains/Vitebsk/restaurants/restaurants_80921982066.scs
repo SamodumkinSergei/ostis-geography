@@ -1,0 +1,26 @@
+ concept_restaurants_80921982066
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Пиццерия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пиццерия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Московская область, городской округ Истра, деревня Давыдовское"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (995) 488-60-71"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–21:00; пт,сб 09:00–22:00; вс 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.85925,36.794731"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pitstserija-1659695501.clients.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

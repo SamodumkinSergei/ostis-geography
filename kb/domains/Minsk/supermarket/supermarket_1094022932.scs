@@ -1,0 +1,26 @@
+ concept_supermarket_1094022932
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Магазин № 44 ДОРОРС"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин № 44 ДОРОРС"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Первомайский район, посёлок Озерище, Славянская улица, 32А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 264-21-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.933318,27.717502"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.dorors.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

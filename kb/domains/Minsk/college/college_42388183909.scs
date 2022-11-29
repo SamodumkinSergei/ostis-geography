@@ -1,0 +1,26 @@
+ concept_college_42388183909
+ <- concept_college;
+=>nrel_main_idtf:
+	["УО МГЛУ Лингвогуманитарный колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["УО МГЛУ Лингвогуманитарный колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 60Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 242-02-97"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–17:15; сб 07:30–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909813,27.466772"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.mslu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_fast_food_1148032254
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Золотой ключик"]
+	(* <- lang_ru;; <- name;;*);
+    ["Золотой ключик"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, бульвар Ленина, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 274-54-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб,вс 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907162,30.342881"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://klyuchik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

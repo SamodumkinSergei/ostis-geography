@@ -1,0 +1,26 @@
+ concept_cinemas_1147492407
+ <- concept_cinemas;
+=>nrel_main_idtf:
+	["Красная Звезда"]
+	(* <- lang_ru;; <- name;;*);
+    ["Красная Звезда"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 276-30-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.900149,30.333821"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogilevkino.by/objects/4"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_hypermarket_46930014294
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Материк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Материк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 130, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 248-17-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.174526,30.265008"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://diy.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

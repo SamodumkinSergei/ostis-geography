@@ -1,0 +1,26 @@
+ concept_banks_1134687765
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Сбер Банк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сбер Банк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Кальварийская улица, 4А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 514-81-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905591,27.539301"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.sber-bank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

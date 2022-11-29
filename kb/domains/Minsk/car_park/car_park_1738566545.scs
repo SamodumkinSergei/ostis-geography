@@ -1,0 +1,26 @@
+ concept_car_park_1738566545
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Стоянка автомобилей Белсотра"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стоянка автомобилей Белсотра"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Заводской район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 698-48-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.831882,27.680239"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rudolf.by/stoyanka-avtomobiley"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

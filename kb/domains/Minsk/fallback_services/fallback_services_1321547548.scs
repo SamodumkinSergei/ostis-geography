@@ -1,0 +1,26 @@
+ concept_fallback_services_1321547548
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["АЕСервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["АЕСервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Свердлова, 23/5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 606-16-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.889386,27.563515"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ae24.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

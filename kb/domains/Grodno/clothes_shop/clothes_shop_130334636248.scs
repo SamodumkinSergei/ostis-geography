@@ -1,0 +1,26 @@
+ concept_clothes_shop_130334636248
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Рэчы да рэчы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Рэчы да рэчы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Ольги Соломовой, 137"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.659152,23.780867"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://secondgrodno.by/pages/o_solomovoi-137rdr.html"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

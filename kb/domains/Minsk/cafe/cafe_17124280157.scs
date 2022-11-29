@@ -1,0 +1,26 @@
+ concept_cafe_17124280157
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Cultural Life"]
+	(* <- lang_ru;; <- name;;*);
+    ["Cultural Life"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ленина, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 673-24-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,ср 11:00–19:00; чт 13:00–21:00; пт-вс 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.898382,27.560904"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://culturalife.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

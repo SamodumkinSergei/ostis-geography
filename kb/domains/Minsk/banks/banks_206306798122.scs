@@ -1,0 +1,26 @@
+ concept_banks_206306798122
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Приорбанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Приорбанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кропоткина, 91"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 289-90-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.920751,27.557663"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.priorbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

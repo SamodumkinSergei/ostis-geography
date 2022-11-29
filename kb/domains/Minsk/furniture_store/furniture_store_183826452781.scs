@@ -1,0 +1,26 @@
+ concept_furniture_store_183826452781
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Мэйпл"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мэйпл"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурганова, 78А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 343-32-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.930912,27.579789"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.maple.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

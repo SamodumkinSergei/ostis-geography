@@ -1,0 +1,26 @@
+ concept_fallback_services_1106190768
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Управление землеустройства Могилевского городского исполнительного комитета"]
+	(* <- lang_ru;; <- name;;*);
+    ["Управление землеустройства Могилевского городского исполнительного комитета"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 28А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 222-14-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904773,30.336653"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogilev.gov.by/?Itemid=460&id=2535&option=com_content&view=article"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

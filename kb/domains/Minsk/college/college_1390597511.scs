@@ -1,0 +1,26 @@
+ concept_college_1390597511
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минская государственная гимназия-колледж искусств"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минская государственная гимназия-колледж искусств"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Коммунистическая улица, 52"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 286-78-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.914945,27.556226"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

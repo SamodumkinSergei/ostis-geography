@@ -1,0 +1,26 @@
+ concept_drugstores_1738037706
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Белфармация № 32"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белфармация № 32"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Якуба Коласа, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 343-24-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00, перерыв 13:00–13:30; сб,вс 10:00–18:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.924594,27.591596"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

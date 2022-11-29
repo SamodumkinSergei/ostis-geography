@@ -1,0 +1,26 @@
+ concept_medicine_1370426102
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городская клиническая поликлиника № 39"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская клиническая поликлиника № 39"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Каролинская улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 358-99-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.849725,27.483215"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://39gkp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

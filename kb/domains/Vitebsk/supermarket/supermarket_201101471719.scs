@@ -1,0 +1,26 @@
+ concept_supermarket_201101471719
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Веста"]
+	(* <- lang_ru;; <- name;;*);
+    ["Веста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чкалова, 50А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 222-13-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–23:00, перерыв 15:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.160765,30.211906"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vesta-retail.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

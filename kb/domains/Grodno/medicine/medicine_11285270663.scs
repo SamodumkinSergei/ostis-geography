@@ -1,0 +1,26 @@
+ concept_medicine_11285270663
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Поликлиник"]
+	(* <- lang_ru;; <- name;;*);
+    ["Поликлиник"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Республика Карелия, Петрозаводск, улица Лизы Чайкиной, 5А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (8142) 22-20-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–16:00; сб 13:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["61.776007,34.362536"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://poli.clinic/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

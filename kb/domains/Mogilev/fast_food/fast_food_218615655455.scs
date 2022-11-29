@@ -1,0 +1,26 @@
+ concept_fast_food_218615655455
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Мясорубка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мясорубка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–22:00; пт,сб 12:00–05:00; вс 12:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901029,30.335681"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

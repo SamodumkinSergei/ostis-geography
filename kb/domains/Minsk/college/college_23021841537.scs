@@ -1,0 +1,26 @@
+ concept_college_23021841537
+ <- concept_college;
+=>nrel_main_idtf:
+	["Мужская гимназия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мужская гимназия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 58к40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 719-19-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917386,27.591521"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://m-gymnasium.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

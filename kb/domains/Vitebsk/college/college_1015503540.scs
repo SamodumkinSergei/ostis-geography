@@ -1,0 +1,26 @@
+ concept_college_1015503540
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 33 имени И. Д. Черняховского"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 33 имени И. Д. Черняховского"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Черняховского, 14/5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 237-28-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.178899,30.20656"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sch33.pervroo-vitebsk.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

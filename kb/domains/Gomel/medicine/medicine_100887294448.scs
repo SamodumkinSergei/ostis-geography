@@ -1,0 +1,26 @@
+ concept_medicine_100887294448
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Патологоанатомическое отделение общей патологии № 4"]
+	(* <- lang_ru;; <- name;;*);
+    ["Патологоанатомическое отделение общей патологии № 4"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Железнодорожный район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 251-02-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.48824,30.981299"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gpbgomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

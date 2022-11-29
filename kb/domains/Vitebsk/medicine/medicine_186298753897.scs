@@ -1,0 +1,26 @@
+ concept_medicine_186298753897
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["ГАУЗ Эгкб № 1, поликлиника"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГАУЗ Эгкб № 1, поликлиника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Саратовская область, Энгельс, Весенняя улица, 6, корп. 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (8453) 51-59-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–20:00; сб 08:00–13:00; вс 08:00–12:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["51.472118,46.155109"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://clinic1a.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

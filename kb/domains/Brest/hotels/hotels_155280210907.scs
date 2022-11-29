@@ -1,0 +1,26 @@
+ concept_hotels_155280210907
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Акватель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Акватель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 147"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 650-54-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.091184,23.733929"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brest-dvvs.by/services/dopolnitelnye_uslugi/Hotel/gostinitsa/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

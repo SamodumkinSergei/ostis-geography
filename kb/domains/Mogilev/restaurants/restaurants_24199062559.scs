@@ -1,0 +1,26 @@
+ concept_restaurants_24199062559
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Steak & Wine club"]
+	(* <- lang_ru;; <- name;;*);
+    ["Steak & Wine club"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёвский район, Княжицкий сельсовет, М-4, 187-й километр, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 333-77-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.956858,30.206058"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://steakwine.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

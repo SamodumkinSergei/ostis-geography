@@ -1,0 +1,26 @@
+ concept_fast_food_56339012542
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Кафетерий"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафетерий"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 85"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00, перерыв 14:00–14:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.196608,30.266613"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.marko.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

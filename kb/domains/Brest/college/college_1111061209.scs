@@ -1,0 +1,26 @@
+ concept_college_1111061209
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 12 г. Бреста имени К. Л. Губаревича"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 12 г. Бреста имени К. Л. Губаревича"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 346/6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 225-57-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.105111,23.7721"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://12brest.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

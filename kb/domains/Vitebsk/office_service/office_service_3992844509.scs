@@ -1,0 +1,26 @@
+ concept_office_service_3992844509
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Белгосстрах"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белгосстрах"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, городской посёлок Руба, улица 70 лет Октября, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 269-19-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 11:30–18:30, перерывы 14:00–14:20, 16:00–16:20"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.30359,30.30661"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitebsk.bgs.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

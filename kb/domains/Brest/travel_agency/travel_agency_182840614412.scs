@@ -1,0 +1,26 @@
+ concept_travel_agency_182840614412
+ <- concept_travel_agency;
+=>nrel_main_idtf:
+	["Уютный уголок"]
+	(* <- lang_ru;; <- name;;*);
+    ["Уютный уголок"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брестский район, Клейниковский сельсовет, агрогородок Клейники, Центральная улица, 84"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 643-41-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.142835,23.602912"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://agrobrest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

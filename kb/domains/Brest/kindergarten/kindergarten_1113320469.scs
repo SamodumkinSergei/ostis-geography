@@ -1,0 +1,26 @@
+ concept_kindergarten_1113320469
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Детский сад № 27 г. Бреста"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский сад № 27 г. Бреста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Карбышева, 110"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 243-15-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.088503,23.700624"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ds27.brestgoo.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

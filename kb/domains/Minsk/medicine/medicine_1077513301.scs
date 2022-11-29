@@ -1,0 +1,26 @@
+ concept_medicine_1077513301
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городская поликлиника № 23"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская поликлиника № 23"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, проспект Рокоссовского, 134"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 379-32-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.854274,27.604271"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.23gp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

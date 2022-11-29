@@ -1,0 +1,26 @@
+ concept_car_park_120061950372
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автостоянка № 17"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостоянка № 17"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Васнецова, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 295-12-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 05:00–01:00, перерыв 09:00–09:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.869425,27.618687"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_medicine_1034410866
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["УП 24-ая городская поликлиника спецмедосмотров"]
+	(* <- lang_ru;; <- name;;*);
+    ["УП 24-ая городская поликлиника спецмедосмотров"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Филимонова, 53"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 311-10-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–20:00; сб 07:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.924216,27.633128"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.24gp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

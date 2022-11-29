@@ -1,0 +1,26 @@
+ concept_car_park_41679854076
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Логистакс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Логистакс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Янки Купалы, 136"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 355-28-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.115152,23.776182"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://logistaks.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

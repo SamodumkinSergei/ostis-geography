@@ -1,0 +1,26 @@
+ concept_restaurants_171509358010
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Невинный бар"]
+	(* <- lang_ru;; <- name;;*);
+    ["Невинный бар"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 71"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 392-02-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–00:00; пт 12:00–01:00; сб 10:00–01:00; вс 10:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.921649,27.596746"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

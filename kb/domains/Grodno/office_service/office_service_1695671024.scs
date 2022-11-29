@@ -1,0 +1,26 @@
+ concept_office_service_1695671024
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["АзотХимФортис"]
+	(* <- lang_ru;; <- name;;*);
+    ["АзотХимФортис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Космонавтов, 100к101"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 279-55-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.672455,23.894164"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://azotfortis.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

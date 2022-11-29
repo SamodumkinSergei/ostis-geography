@@ -1,0 +1,26 @@
+ concept_petshop_176136477456
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Zоосфера"]
+	(* <- lang_ru;; <- name;;*);
+    ["Zоосфера"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Доминиканская улица, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 783-54-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.681025,23.82963"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://zoosfera.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

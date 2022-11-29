@@ -1,0 +1,26 @@
+ concept_kindergarten_1016670705
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 3 г. Бреста"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 3 г. Бреста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Маяковского, 43/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 257-71-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.094852,23.694943"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ds3brest.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_restaurants_147242083484
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Burger King"]
+	(* <- lang_ru;; <- name;;*);
+    ["Burger King"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 57"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 338-12-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904086,30.339527"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://burger-king.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

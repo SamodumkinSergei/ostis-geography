@@ -1,0 +1,26 @@
+ concept_fallback_services_14016525320
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гранитас"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гранитас"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, проспект Рокоссовского, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 392-80-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.87571,27.598331"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.granitas.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

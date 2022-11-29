@@ -1,0 +1,26 @@
+ concept_college_1178975713
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 26 г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 26 г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 128А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 231-64-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.451186,30.994544"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://26school.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

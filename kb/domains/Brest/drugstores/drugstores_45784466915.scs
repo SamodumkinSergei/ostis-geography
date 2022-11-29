@@ -1,0 +1,26 @@
+ concept_drugstores_45784466915
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Юнифарм"]
+	(* <- lang_ru;; <- name;;*);
+    ["Юнифарм"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Мицкевича, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 507-15-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб,вс 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.096829,23.687099"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

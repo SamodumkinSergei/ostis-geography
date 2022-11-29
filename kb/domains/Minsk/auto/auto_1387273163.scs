@@ -1,0 +1,26 @@
+ concept_auto_1387273163
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автомаксиком"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автомаксиком"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Володько, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 560-00-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:30–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.879849,27.562177"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://automaxicom.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

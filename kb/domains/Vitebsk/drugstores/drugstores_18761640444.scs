@@ -1,0 +1,26 @@
+ concept_drugstores_18761640444
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Локомотивная улица, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 233-38-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.197164,30.183599"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pharmacia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_115012271455
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гранит"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гранит"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Интендантская улица, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 155-39-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.442356,30.955855"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gomel.pamjatnik-mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

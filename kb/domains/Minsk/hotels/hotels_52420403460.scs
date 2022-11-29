@@ -1,0 +1,26 @@
+ concept_hotels_52420403460
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Villa Viola"]
+	(* <- lang_ru;; <- name;;*);
+    ["Villa Viola"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Минский район, Ждановичский сельсовет, деревня Тарасово, Красивая улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.91706,27.40533"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

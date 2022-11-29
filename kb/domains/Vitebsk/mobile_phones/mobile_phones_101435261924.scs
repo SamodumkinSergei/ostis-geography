@@ -1,0 +1,26 @@
+ concept_mobile_phones_101435261924
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Мобильный доктор"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мобильный доктор"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Гагарина, 107А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 377-01-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.21615,30.238272"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://doctorgsm.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

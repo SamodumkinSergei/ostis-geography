@@ -1,0 +1,26 @@
+ concept_drugstores_1133275723
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 147"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 147"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Артёма, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 231-62-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00, перерыв 12:00–12:30; сб 08:00–16:30, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.430737,31.016556"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomelpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

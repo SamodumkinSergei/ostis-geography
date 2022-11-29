@@ -1,0 +1,26 @@
+ concept_cafe_115611016547
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Студенческая столовая"]
+	(* <- lang_ru;; <- name;;*);
+    ["Студенческая столовая"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 33, корп. 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 237-85-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.177577,30.224156"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

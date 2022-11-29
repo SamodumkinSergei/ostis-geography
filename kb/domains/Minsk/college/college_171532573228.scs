@@ -1,0 +1,26 @@
+ concept_college_171532573228
+ <- concept_college;
+=>nrel_main_idtf:
+	["Физический факультет БГУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Физический факультет БГУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Бобруйская улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 209-52-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:20–13:20; сб 08:30–13:30, перерыв 12:20–13:20"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.892884,27.544606"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://physics.bsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

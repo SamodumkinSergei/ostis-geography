@@ -1,0 +1,26 @@
+ concept_cafe_1731121081
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Очаг"]
+	(* <- lang_ru;; <- name;;*);
+    ["Очаг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Боровлянский сельсовет, 69"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 548-45-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–00:00; пт,сб 12:00–02:00; вс 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.98296,27.656131"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.ochagkafe.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

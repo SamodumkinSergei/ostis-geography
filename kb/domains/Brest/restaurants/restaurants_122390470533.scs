@@ -1,0 +1,26 @@
+ concept_restaurants_122390470533
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Пицца Итальяна"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пицца Итальяна"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Суворова, 90"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 386-63-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.07302,23.752817"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://brest.pizza-italiana.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

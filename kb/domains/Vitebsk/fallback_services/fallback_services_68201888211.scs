@@ -1,0 +1,26 @@
+ concept_fallback_services_68201888211
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Студия Гранита RG"]
+	(* <- lang_ru;; <- name;;*);
+    ["Студия Гранита RG"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 733-85-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.185139,30.204471"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ritualgranit.by/vitebsk/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

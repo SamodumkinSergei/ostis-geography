@@ -1,0 +1,26 @@
+ concept_banks_144368740876
+ <- concept_banks;
+=>nrel_main_idtf:
+	["УРМ, Белинвестбанк Удаленное рабочее место дирекции"]
+	(* <- lang_ru;; <- name;;*);
+    ["УРМ, Белинвестбанк Удаленное рабочее место дирекции"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 87А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 239-02-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:30–19:20, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.382774,31.028653"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.belinvestbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

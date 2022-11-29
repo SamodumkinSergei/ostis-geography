@@ -1,0 +1,26 @@
+ concept_fallback_services_5001691256
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Память в камне"]
+	(* <- lang_ru;; <- name;;*);
+    ["Память в камне"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурганова, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 337-80-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.927049,27.592199"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pamyatvkamne.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

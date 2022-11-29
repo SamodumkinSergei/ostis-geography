@@ -1,0 +1,26 @@
+ concept_dental_1066844543
+ <- concept_dental;
+=>nrel_main_idtf:
+	["Городская клиническая стоматологическая поликлиника № 11"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская клиническая стоматологическая поликлиника № 11"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Некрасова, 35, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 235-12-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–21:00; сб 08:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.933782,27.582031"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://11stom.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

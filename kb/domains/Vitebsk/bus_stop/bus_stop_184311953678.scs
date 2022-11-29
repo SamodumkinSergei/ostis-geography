@@ -1,0 +1,26 @@
+ concept_bus_stop_184311953678
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Библиотека имени Лынькова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Библиотека имени Лынькова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, микрорайон Лучёса, Зеленогурская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.163859,30.185717"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

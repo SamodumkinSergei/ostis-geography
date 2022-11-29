@@ -1,0 +1,26 @@
+ concept_fallback_services_90003304874
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Наталимаркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Наталимаркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Немига, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 600-98-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904027,27.552873"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://flario.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

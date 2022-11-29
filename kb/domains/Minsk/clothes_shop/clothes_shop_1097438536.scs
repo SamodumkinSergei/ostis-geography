@@ -1,0 +1,26 @@
+ concept_clothes_shop_1097438536
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Секонд хенд Эконом Сити"]
+	(* <- lang_ru;; <- name;;*);
+    ["Секонд хенд Эконом Сити"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Калиновского, 55Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 356-73-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–20:00; вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.94709,27.629044"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://secondhand.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

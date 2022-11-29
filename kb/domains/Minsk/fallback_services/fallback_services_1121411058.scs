@@ -1,0 +1,26 @@
+ concept_fallback_services_1121411058
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["ПовладаПлюс"]
+	(* <- lang_ru;; <- name;;*);
+    ["ПовладаПлюс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Стахановская улица, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 193-14-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 10:00–18:00, перерыв 13:00–14:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.885762,27.610587"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://povlada.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

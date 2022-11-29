@@ -1,0 +1,26 @@
+ concept_sportcenter_193131501094
+ <- concept_sportcenter;
+=>nrel_main_idtf:
+	["Каньон"]
+	(* <- lang_ru;; <- name;;*);
+    ["Каньон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица 30 лет Победы, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 272-12-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.92737,30.362312"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

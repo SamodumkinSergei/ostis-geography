@@ -1,0 +1,26 @@
+ concept_restaurants_84988206433
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Amici"]
+	(* <- lang_ru;; <- name;;*);
+    ["Amici"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Миронова, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 333-37-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905414,30.342423"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://amici.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

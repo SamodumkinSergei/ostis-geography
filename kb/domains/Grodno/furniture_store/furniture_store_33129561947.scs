@@ -1,0 +1,26 @@
+ concept_furniture_store_33129561947
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["ЛегоШкаф"]
+	(* <- lang_ru;; <- name;;*);
+    ["ЛегоШкаф"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, микрорайон Фабричный, улица Бондовского, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 666-00-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.626494,23.812479"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

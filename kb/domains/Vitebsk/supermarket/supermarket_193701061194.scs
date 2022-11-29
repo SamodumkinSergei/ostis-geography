@@ -1,0 +1,26 @@
+ concept_supermarket_193701061194
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Ника"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Котовского, 39"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 757-04-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.191877,30.244055"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://nika.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

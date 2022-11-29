@@ -1,0 +1,26 @@
+ concept_museum_1242419016
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Дом литератора"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дом литератора"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Фрунзе, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905985,27.574562"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ghu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

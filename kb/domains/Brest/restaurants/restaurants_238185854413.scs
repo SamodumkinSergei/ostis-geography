@@ -1,0 +1,26 @@
+ concept_restaurants_238185854413
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Έl Greco"]
+	(* <- lang_ru;; <- name;;*);
+    ["Έl Greco"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гоголя, 65"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 760-00-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.09349,23.698383"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://elgreco.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_33931395615
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Ангарская-3"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ангарская-3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Нестерова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.882182,27.680029"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

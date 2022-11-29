@@ -1,0 +1,26 @@
+ concept_college_1108465872
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 22 г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 22 г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Черноморская улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 232-00-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 07:30–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.424628,30.952125"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://school-22.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_supermarket_192658321488
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Могилёвский рынок"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилёвский рынок"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Быховская улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 273-59-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.894404,30.323442"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mogilev.market/rynki/mogilevskij"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_medicine_1246844416
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Могилевская областная больница медицинской реабилитации"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилевская областная больница медицинской реабилитации"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёвский район, Мостокский сельсовет, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 271-08-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.94272,30.443801"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mbmr.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

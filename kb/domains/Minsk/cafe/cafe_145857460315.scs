@@ -1,0 +1,26 @@
+ concept_cafe_145857460315
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Варка Кофе"]
+	(* <- lang_ru;; <- name;;*);
+    ["Варка Кофе"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 94"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–22:00; сб,вс 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.927784,27.628052"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://varkacoffee.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

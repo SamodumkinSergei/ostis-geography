@@ -1,0 +1,26 @@
+ concept_restaurants_157835697458
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Restauracja Antonio"]
+	(* <- lang_ru;; <- name;;*);
+    ["Restauracja Antonio"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Люблинское воеводство, повят Бяльский, Тересполь, Круговая улица, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+48 58 774 17 77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.07429,23.621856"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_1420294971
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["ГраниГро"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГраниГро"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Советских Пограничников, 91"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 584-78-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:30; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.671536,23.81054"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://granitgrodno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

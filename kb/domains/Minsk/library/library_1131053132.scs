@@ -1,0 +1,26 @@
+ concept_library_1131053132
+ <- concept_library;
+=>nrel_main_idtf:
+	["Библиотека Минского инновационного университета"]
+	(* <- lang_ru;; <- name;;*);
+    ["Библиотека Минского инновационного университета"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лазо, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 272-48-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:45–18:00, перерыв 14:00–14:30; пт 08:45–16:45, перерыв 14:00–14:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.869974,27.659978"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://miu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

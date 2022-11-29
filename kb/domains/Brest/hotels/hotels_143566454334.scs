@@ -1,0 +1,26 @@
+ concept_hotels_143566454334
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["B&b Hotel Brest Centre Port De Commerce"]
+	(* <- lang_ru;; <- name;;*);
+    ["B&b Hotel Brest Centre Port De Commerce"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Бретань, Финистер, Округ Брест, Брест, Rue de l'Élorn, 325"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 8 92 23 37 67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["48.384873,-4.480396"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.hotel-bb.com/fr/hotel/brest-centre-port-de-commerce"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_drugstores_130796568918
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Белфармация № 21"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белфармация № 21"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 44"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 317-50-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:30–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911263,27.578894"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

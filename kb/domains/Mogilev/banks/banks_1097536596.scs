@@ -1,0 +1,26 @@
+ concept_banks_1097536596
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Белагропромбанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белагропромбанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пионерская улица, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 276-64-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.89752,30.338243"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://belapb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

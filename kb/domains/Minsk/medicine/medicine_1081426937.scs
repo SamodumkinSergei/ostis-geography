@@ -1,0 +1,26 @@
+ concept_medicine_1081426937
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городская клиническая больница скорой медицинской помощи Ожоговое отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская клиническая больница скорой медицинской помощи Ожоговое отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лейтенанта Кижеватова, 58к9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 212-76-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.852099,27.536087"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bsmp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

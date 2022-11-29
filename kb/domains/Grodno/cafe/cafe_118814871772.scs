@@ -1,0 +1,26 @@
+ concept_cafe_118814871772
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Столовая"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столовая"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Янки Купалы, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 231-25-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:40–19:00, перерыв 13:30–18:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.660884,23.83475"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_college_201560120842
+ <- concept_college;
+=>nrel_main_idtf:
+	["БГУИР, Факультет компьютерных систем и сетей"]
+	(* <- lang_ru;; <- name;;*);
+    ["БГУИР, Факультет компьютерных систем и сетей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Гикало, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 293-88-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 13:00–14:00; пт 08:30–16:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912224,27.594345"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsuir.by/ru/fksis"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

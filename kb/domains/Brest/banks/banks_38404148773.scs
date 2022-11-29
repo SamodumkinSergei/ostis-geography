@@ -1,0 +1,26 @@
+ concept_banks_38404148773
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Беларусбанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Беларусбанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брестский район, Тельминский сельсовет, деревня Тельмы-1, Депутатская улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 218-84-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,вт,чт,пт 09:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.115947,23.830391"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://belarusbank.by/ru/33139/33142/structure/search_filials/~Otdelenie_100_1038"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

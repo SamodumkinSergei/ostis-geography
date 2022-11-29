@@ -1,0 +1,26 @@
+ concept_college_1147155826
+ <- concept_college;
+=>nrel_main_idtf:
+	["Могилёвский государственный экономический профессионально-технический колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилёвский государственный экономический профессионально-технический колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Челюскинцев, 56"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 276-68-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.894265,30.312644"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mgeptk.sml.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

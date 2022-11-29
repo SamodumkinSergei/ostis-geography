@@ -1,0 +1,26 @@
+ concept_drugstores_89569494807
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека Фармация № 176/1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека Фармация № 176/1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Залинейный, улица Бочкина, 182А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 229-22-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 08:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.427565,30.952631"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomelpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

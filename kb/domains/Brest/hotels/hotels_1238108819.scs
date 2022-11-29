@@ -1,0 +1,26 @@
+ concept_hotels_1238108819
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["The Whitechapel Hotel"]
+	(* <- lang_ru;; <- name;;*);
+    ["The Whitechapel Hotel"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Лондон, 49-53 New Rd, Whitechapel, London E1 1HH"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+44 20 72 47 99 47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["51.516129,-0.062452"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.thewhitechapelhotel.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

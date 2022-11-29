@@ -1,0 +1,26 @@
+ concept_restaurants_1084274088
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Арбат"]
+	(* <- lang_ru;; <- name;;*);
+    ["Арбат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 143, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 389-90-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–23:00; пт,сб 12:00–03:00; вс 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.934309,27.648258"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://beerhouse.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

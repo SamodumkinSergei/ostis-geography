@@ -1,0 +1,26 @@
+ concept_bus_station_95904897225
+ <- concept_bus_station;
+=>nrel_main_idtf:
+	["Могилевский государственный политехнический колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилевский государственный политехнический колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 05:40–00:26"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916892,30.342449"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

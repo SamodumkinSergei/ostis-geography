@@ -1,0 +1,26 @@
+ concept_supermarket_86210013888
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Копеечка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Копеечка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Юбилейный, улица Народного Ополчения, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 144-70-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90477,30.35849"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dobronom.by/shops/kopeechka/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

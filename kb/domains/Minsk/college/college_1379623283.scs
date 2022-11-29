@@ -1,0 +1,26 @@
+ concept_college_1379623283
+ <- concept_college;
+=>nrel_main_idtf:
+	["Белорусская государственная академия связи, учебный корпус № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусская государственная академия связи, учебный корпус № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петруся Бровки, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 369-96-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 07:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.914917,27.598623"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bsac.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

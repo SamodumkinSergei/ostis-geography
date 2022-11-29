@@ -1,0 +1,26 @@
+ concept_car_park_188762974801
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автостоянка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостоянка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["г. Минск, ул. Физкультурная, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 223-59-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.8675,27.5596"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://upgaip.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

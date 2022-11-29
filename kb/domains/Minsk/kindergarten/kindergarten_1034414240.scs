@@ -1,0 +1,26 @@
+ concept_kindergarten_1034414240
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Детский сад № 204"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский сад № 204"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Жилуновича, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 295-33-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873281,27.630793"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu204.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

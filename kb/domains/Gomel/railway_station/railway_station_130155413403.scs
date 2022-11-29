@@ -1,0 +1,26 @@
+ concept_railway_station_130155413403
+ <- concept_railway_station;
+=>nrel_main_idtf:
+	["Гомель Нечётный"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомель Нечётный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Старочерниговская улица, 51Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:15–18:15, перерыв 15:55–16:55"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.44979,30.988674"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

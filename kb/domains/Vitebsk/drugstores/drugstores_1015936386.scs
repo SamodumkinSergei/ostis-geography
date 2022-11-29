@@ -1,0 +1,26 @@
+ concept_drugstores_1015936386
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Остров здоровья"]
+	(* <- lang_ru;; <- name;;*);
+    ["Остров здоровья"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Кирова, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 267-45-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.19427,30.193545"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ostrovzdorovya.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

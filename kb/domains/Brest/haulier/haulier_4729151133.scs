@@ -1,0 +1,26 @@
+ concept_haulier_4729151133
+ <- concept_haulier;
+=>nrel_main_idtf:
+	["M&M Militzer & Munch"]
+	(* <- lang_ru;; <- name;;*);
+    ["M&M Militzer & Munch"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Кирова, 50Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 250-04-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.096261,23.701955"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.mum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

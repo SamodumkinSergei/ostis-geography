@@ -1,0 +1,26 @@
+ concept_sportcenter_1078739120
+ <- concept_sportcenter;
+=>nrel_main_idtf:
+	["Пирамида"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пирамида"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Чернышевского, 10А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 280-28-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–00:00; пт 12:00–02:00; сб,вс 11:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.928284,27.601119"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.probilliard.by/kluby/piramida.html"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_drugstores_58427186344
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Остров здоровья"]
+	(* <- lang_ru;; <- name;;*);
+    ["Остров здоровья"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 54"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 584-56-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.200176,30.206995"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ostrovzdorovya.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

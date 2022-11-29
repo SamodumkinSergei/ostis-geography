@@ -1,0 +1,26 @@
+ concept_college_1113683812
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 28 г. Гомеля им. Э. В. Серегина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 28 г. Гомеля им. Э. В. Серегина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Залинейный, улица Циолковского, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 295-24-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.427255,30.989588"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.school-28.gorodgomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_198255989753
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Поликлиника № 11"]
+	(* <- lang_ru;; <- name;;*);
+    ["Поликлиника № 11"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Вишневецкого"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.888598,30.275421"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_banks_101243573500
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Альфа-Банк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Альфа-Банк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кульман, 5Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 733-33-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:30–18:15, перерывы 12:45–13:30, 17:15–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919866,27.581208"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.alfabank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

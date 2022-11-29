@@ -1,0 +1,26 @@
+ concept_bus_stop_180065586199
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Жилой комплекс Колбасино"]
+	(* <- lang_ru;; <- name;;*);
+    ["Жилой комплекс Колбасино"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, жилой комплекс Колбасино"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.649005,23.783192"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

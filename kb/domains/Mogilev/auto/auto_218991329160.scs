@@ -1,0 +1,26 @@
+ concept_auto_218991329160
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Авторемонт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Авторемонт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Хмелевая улица, 52"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 652-60-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.858656,30.337018"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://auto-tehnik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_college_156960069666
+ <- concept_college;
+=>nrel_main_idtf:
+	["Flario School"]
+	(* <- lang_ru;; <- name;;*);
+    ["Flario School"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Фабрициуса, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 530-33-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.892029,27.537313"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://flario-school.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

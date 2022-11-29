@@ -1,0 +1,26 @@
+ concept_malls_34978430399
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Мила"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мила"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чкалова, 11А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 593-97-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб,вс 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.176024,30.214022"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mila.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

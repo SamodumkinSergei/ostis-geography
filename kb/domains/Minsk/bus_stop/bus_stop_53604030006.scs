@@ -1,0 +1,26 @@
+ concept_bus_stop_53604030006
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Академгородок"]
+	(* <- lang_ru;; <- name;;*);
+    ["Академгородок"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Академика Купревича"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.927411,27.690396"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

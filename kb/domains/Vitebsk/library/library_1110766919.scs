@@ -1,0 +1,26 @@
+ concept_library_1110766919
+ <- concept_library;
+=>nrel_main_idtf:
+	["Библиотека имени в. Маяковского"]
+	(* <- lang_ru;; <- name;;*);
+    ["Библиотека имени в. Маяковского"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Гагарина, 33А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 236-26-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–19:00; сб,вс 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.211198,30.226986"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.cbsvit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

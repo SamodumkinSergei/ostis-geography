@@ -1,0 +1,26 @@
+ concept_kindergarten_1899021379
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Сказочный мир"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сказочный мир"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Матусевича, 64"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 601-71-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917657,27.457493"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mirskazka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

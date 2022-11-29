@@ -1,0 +1,26 @@
+ concept_medicine_70646427500
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гомельская городская клиническая больница скорой медицинской помощи, хирургическое отделение № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельская городская клиническая больница скорой медицинской помощи, хирургическое отделение № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Комиссарова, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 229-63-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.41753,31.011727"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://uggbsmp.by/xirurgicheskoe-otdelenie-2/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

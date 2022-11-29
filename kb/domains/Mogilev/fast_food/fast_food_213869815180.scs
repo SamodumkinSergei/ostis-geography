@@ -1,0 +1,26 @@
+ concept_fast_food_213869815180
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["KFC Express"]
+	(* <- lang_ru;; <- name;;*);
+    ["KFC Express"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Привокзальная площадь, 4Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 263-38-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 00:00–07:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.925566,30.340052"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://armada-group.by/malls/kfc"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

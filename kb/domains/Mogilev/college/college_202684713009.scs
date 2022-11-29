@@ -1,0 +1,26 @@
+ concept_college_202684713009
+ <- concept_college;
+=>nrel_main_idtf:
+	["Университет пищевых и химических технологий"]
+	(* <- lang_ru;; <- name;;*);
+    ["Университет пищевых и химических технологий"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Шмидта, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 264-82-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.8743,30.316936"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bgut.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_81879557255
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Реставрация мебели в Гродно"]
+	(* <- lang_ru;; <- name;;*);
+    ["Реставрация мебели в Гродно"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Малыщинская улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 682-62-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–22:00; сб,вс 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.712013,23.853379"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://remont-divana-grodno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

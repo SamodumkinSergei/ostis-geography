@@ -1,0 +1,26 @@
+ concept_tire_fitting_1088676701
+ <- concept_tire_fitting;
+=>nrel_main_idtf:
+	["Автомастерская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автомастерская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Западный, улица Джураева, 124А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 678-67-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.427991,30.953141"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

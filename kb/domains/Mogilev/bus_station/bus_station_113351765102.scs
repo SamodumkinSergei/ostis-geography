@@ -1,0 +1,26 @@
+ concept_bus_station_113351765102
+ <- concept_bus_station;
+=>nrel_main_idtf:
+	["Остановка улица Саянская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Остановка улица Саянская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Броды"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 06:00–23:00; сб,вс 07:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.871656,30.301832"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_office_service_64021103800
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Дизайн интерьера в Бресте"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дизайн интерьера в Бресте"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Советская улица, 68"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 800-55-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.090008,23.694683"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://houseofdesign.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

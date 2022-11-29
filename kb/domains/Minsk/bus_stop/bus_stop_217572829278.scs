@@ -1,0 +1,26 @@
+ concept_bus_stop_217572829278
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Восточный автовокзал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Восточный автовокзал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ванеева, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873532,27.586786"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_medicine_1070786221
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городская поликлиника № 6"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская поликлиника № 6"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Лиможа, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 232-17-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.710018,23.850334"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gp6.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_banks_155970960487
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Беларусбанк, ипотечный офис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Беларусбанк, ипотечный офис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Мясникова, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 218-81-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–19:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897939,27.542045"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://belarusbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

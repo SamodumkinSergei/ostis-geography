@@ -1,0 +1,26 @@
+ concept_supermarket_1244162177
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Хлебосолье"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хлебосолье"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Красногвардейская улица, 75"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 253-74-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:30–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.114881,23.687451"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.brestbakaleya.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

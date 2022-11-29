@@ -1,0 +1,26 @@
+ concept_college_1094972543
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 191"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 191"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Городецкая улица, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 283-82-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.950077,27.688865"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://191minsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

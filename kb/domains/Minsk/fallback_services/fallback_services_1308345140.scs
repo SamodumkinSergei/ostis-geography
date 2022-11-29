@@ -1,0 +1,26 @@
+ concept_fallback_services_1308345140
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Ритуальный дом"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ритуальный дом"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Малинина, 35В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 732-83-28"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.847805,27.603646"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://8angelov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

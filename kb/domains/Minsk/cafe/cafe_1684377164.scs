@@ -1,0 +1,26 @@
+ concept_cafe_1684377164
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Имбирь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Имбирь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 664-51-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:00–00:00; пт,сб 11:00–02:00; вс 11:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911817,27.503272"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

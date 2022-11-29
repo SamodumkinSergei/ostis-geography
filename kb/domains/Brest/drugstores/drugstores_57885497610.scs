@@ -1,0 +1,26 @@
+ concept_drugstores_57885497610
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Альфа аптека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Альфа аптека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Войкова, 79"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 243-15-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.100574,23.722845"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

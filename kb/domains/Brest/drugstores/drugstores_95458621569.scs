@@ -1,0 +1,26 @@
+ concept_drugstores_95458621569
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["ADEL"]
+	(* <- lang_ru;; <- name;;*);
+    ["ADEL"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Суворова, 105А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 683-87-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.071763,23.762639"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://apteka-adel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

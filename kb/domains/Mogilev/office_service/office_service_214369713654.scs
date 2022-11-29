@@ -1,0 +1,26 @@
+ concept_office_service_214369713654
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Eden"]
+	(* <- lang_ru;; <- name;;*);
+    ["Eden"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Габровская улица, 45"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 614-08-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.871635,30.361405"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://eden-studio.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

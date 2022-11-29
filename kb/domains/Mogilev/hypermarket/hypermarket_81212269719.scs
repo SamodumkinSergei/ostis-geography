@@ -1,0 +1,26 @@
+ concept_hypermarket_81212269719
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Ламинат"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ламинат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Островского, 64/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 248-40-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб,вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.877732,30.334486"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

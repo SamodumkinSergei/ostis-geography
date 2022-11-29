@@ -1,0 +1,26 @@
+ concept_baby_shop_65916505597
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Город игрушек"]
+	(* <- lang_ru;; <- name;;*);
+    ["Город игрушек"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Долгиновский тракт, 178"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 348-87-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.964026,27.536055"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

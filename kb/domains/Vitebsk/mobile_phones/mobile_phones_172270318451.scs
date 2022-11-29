@@ -1,0 +1,26 @@
+ concept_mobile_phones_172270318451
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Ремонт мобильной техники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт мобильной техники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебская область, Новополоцк, Молодёжная улица, 166А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 715-59-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–18:00; сб,вс 11:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.51673,28.686461"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mtrem.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

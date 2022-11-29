@@ -1,0 +1,26 @@
+ concept_hotels_1029226269
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["АМАКС Визит-отель"]
+	(* <- lang_ru;; <- name;;*);
+    ["АМАКС Визит-отель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Киселёва, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 233-24-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.42806,30.992769"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gomel.amaks-hotels.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_museum_1218231955
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Белицкий"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белицкий"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Севастопольская улица, 61А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 589-22-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.389575,31.027505"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dkbelickiy.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

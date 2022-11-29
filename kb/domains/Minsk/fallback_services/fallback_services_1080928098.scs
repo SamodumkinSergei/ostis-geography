@@ -1,0 +1,26 @@
+ concept_fallback_services_1080928098
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Сафира Плюс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сафира Плюс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 69"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 643-88-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.877414,27.618446"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.safiraplus.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

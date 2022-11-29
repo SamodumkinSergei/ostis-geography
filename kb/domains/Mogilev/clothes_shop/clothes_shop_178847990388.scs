@@ -1,0 +1,26 @@
+ concept_clothes_shop_178847990388
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Магазин дешёвой одежды из Европы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин дешёвой одежды из Европы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица 30 лет Победы, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.932469,30.361751"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

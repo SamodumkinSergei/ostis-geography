@@ -1,0 +1,26 @@
+ concept_cafe_67819608182
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кофейня Coffee House"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кофейня Coffee House"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Закарпатская область, Мукачево, улица Александра Пушкина, 62А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+380 (95) 002-32-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–22:00; сб 09:00–22:00; вс 11:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["48.436821,22.717409"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://coffee-house-mukachevo.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

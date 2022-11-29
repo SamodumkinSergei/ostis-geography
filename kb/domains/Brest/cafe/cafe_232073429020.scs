@@ -1,0 +1,26 @@
+ concept_cafe_232073429020
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кофейня 1801"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кофейня 1801"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Советская улица, 80"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–23:00; сб,вс 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.088818,23.695224"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://luch.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

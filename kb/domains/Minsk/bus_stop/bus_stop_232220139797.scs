@@ -1,0 +1,26 @@
+ concept_bus_stop_232220139797
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Пищекомбинат"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пищекомбинат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, МКАД, 10-й километр"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.856448,27.678019"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

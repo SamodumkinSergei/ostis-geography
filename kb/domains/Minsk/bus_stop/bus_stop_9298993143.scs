@@ -1,0 +1,26 @@
+ concept_bus_stop_9298993143
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Гимназия № 10"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гимназия № 10"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Голубева"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.868049,27.463818"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

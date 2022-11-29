@@ -1,0 +1,26 @@
+ concept_bars_1168029997
+ <- concept_bars;
+=>nrel_main_idtf:
+	["Квартира № 3"]
+	(* <- lang_ru;; <- name;;*);
+    ["Квартира № 3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кульман, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 155-99-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 18:00–06:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919615,27.582942"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

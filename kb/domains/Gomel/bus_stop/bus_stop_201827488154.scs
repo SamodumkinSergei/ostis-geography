@@ -1,0 +1,26 @@
+ concept_bus_stop_201827488154
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Лазурная"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Лазурная"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Междугородняя улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.412893,30.929352"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

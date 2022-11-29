@@ -1,0 +1,26 @@
+ concept_hotels_26941322967
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Сытый путник"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сытый путник"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Смолевичский район, автодорога М1 Брест-Москва, 389-й километр, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 486-53-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.964632,28.027533"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.391km.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

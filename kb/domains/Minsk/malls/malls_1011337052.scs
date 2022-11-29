@@ -1,0 +1,26 @@
+ concept_malls_1011337052
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Червенский рынок"]
+	(* <- lang_ru;; <- name;;*);
+    ["Червенский рынок"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Маяковского, 184"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 399-11-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.85525,27.568218"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://chervenrynok.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

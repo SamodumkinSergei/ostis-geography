@@ -1,0 +1,26 @@
+ concept_spa_234093864994
+ <- concept_spa;
+=>nrel_main_idtf:
+	["Твой стиль"]
+	(* <- lang_ru;; <- name;;*);
+    ["Твой стиль"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурганова, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 110-76-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–21:00; вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.926921,27.592612"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

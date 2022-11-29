@@ -1,0 +1,26 @@
+ concept_hotels_1052741476
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Динамо"]
+	(* <- lang_ru;; <- name;;*);
+    ["Динамо"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Фестивальный, Волгоградская улица, 14, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 253-81-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.407932,30.952436"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.dynamo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

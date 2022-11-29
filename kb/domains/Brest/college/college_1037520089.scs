@@ -1,0 +1,26 @@
+ concept_college_1037520089
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 5 г. Бреста"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 5 г. Бреста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Писателя Смирнова, 63"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 223-73-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.105226,23.646435"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sch5.brestgoo.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

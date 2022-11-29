@@ -1,0 +1,26 @@
+ concept_bus_stop_45279760806
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Предприятие Салео-Гомель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Предприятие Салео-Гомель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Федюнинского"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.475547,30.982912"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

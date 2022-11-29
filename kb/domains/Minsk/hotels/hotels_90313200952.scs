@@ -1,0 +1,26 @@
+ concept_hotels_90313200952
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Jacuzzi Grand Apartments Исторический центр Немига"]
+	(* <- lang_ru;; <- name;;*);
+    ["Jacuzzi Grand Apartments Исторический центр Немига"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Мясникова, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 653-75-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.899499,27.545698"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

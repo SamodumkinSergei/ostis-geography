@@ -1,0 +1,26 @@
+ concept_bus_stop_64278006737
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Проспект Шмидта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Проспект Шмидта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Шмидта"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873036,30.319726"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

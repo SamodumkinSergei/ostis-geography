@@ -1,0 +1,26 @@
+ concept_college_1133974568
+ <- concept_college;
+=>nrel_main_idtf:
+	["Брестский государственный медицинский колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестский государственный медицинский колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Медицинская улица, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 253-74-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:15–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.107294,23.81997"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://medicalbrest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

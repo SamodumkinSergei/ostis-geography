@@ -1,0 +1,26 @@
+ concept_fast_food_146391409783
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Big jones"]
+	(* <- lang_ru;; <- name;;*);
+    ["Big jones"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Будённого, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 555-05-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.686821,23.848756"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://carte.by/grodno/big-jones-delivery/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

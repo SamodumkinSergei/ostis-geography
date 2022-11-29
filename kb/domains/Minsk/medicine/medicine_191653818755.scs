@@ -1,0 +1,26 @@
+ concept_medicine_191653818755
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["1-я Городская Клиническая больница, Центральное Стерилизационное отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["1-я Городская Клиническая больница, Центральное Стерилизационное отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 64к8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 292-46-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917177,27.598432"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://1gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

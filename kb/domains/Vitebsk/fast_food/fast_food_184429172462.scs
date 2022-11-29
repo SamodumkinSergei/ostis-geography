@@ -1,0 +1,26 @@
+ concept_fast_food_184429172462
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Папа Шеф"]
+	(* <- lang_ru;; <- name;;*);
+    ["Папа Шеф"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 509-96-96"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.191592,30.206548"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pa-pa.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_supermarket_111079768135
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Витебские продукты"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебские продукты"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебский район, Бабиничский сельсовет, агрогородок Бабиничи, Комсомольская улица, 5А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.260973,30.350025"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitprod.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

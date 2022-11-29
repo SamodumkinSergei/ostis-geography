@@ -1,0 +1,26 @@
+ concept_banks_1803470990
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Белинвестбанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белинвестбанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 93"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 239-02-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–21:00, перерыв 14:30–15:15; сб 10:00–19:00, перерыв 14:30–15:15; вс 10:30–17:00, перерыв 14:30–15:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905629,27.439241"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belinvestbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

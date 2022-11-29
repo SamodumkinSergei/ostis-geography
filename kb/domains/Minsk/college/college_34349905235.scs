@@ -1,0 +1,26 @@
+ concept_college_34349905235
+ <- concept_college;
+=>nrel_main_idtf:
+	["Факультет радиофизики и компьютерных технологий БГУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Факультет радиофизики и компьютерных технологий БГУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Академика Курчатова, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 209-58-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30, перерыв 13:20–13:50"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.839807,27.476846"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rfe.bsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

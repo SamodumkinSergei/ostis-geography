@@ -1,0 +1,26 @@
+ concept_malls_145943734169
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Суперлама"]
+	(* <- lang_ru;; <- name;;*);
+    ["Суперлама"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Толстого, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 710-23-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.195025,30.203597"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://superlama.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

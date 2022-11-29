@@ -1,0 +1,26 @@
+ concept_malls_133462011317
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Штопор"]
+	(* <- lang_ru;; <- name;;*);
+    ["Штопор"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Ленина, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 779-03-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.680968,23.840509"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://shtopor.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

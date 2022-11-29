@@ -1,0 +1,26 @@
+ concept_hotels_154146622861
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Student Depot"]
+	(* <- lang_ru;; <- name;;*);
+    ["Student Depot"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Поморское воеводство, Гданьск, улица Колобжеская, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+48  697 12 67 88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.402691,18.588084"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.studentdepot.pl/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

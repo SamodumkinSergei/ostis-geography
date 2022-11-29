@@ -1,0 +1,26 @@
+ concept_bus_stop_56832379069
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Брикеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Брикеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Брикеля"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.700952,23.841469"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

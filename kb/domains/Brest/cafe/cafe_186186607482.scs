@@ -1,0 +1,26 @@
+ concept_cafe_186186607482
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Соседи"]
+	(* <- lang_ru;; <- name;;*);
+    ["Соседи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Гродненская улица, 32/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 362-35-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.110559,23.783766"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

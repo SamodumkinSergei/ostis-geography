@@ -1,0 +1,26 @@
+ concept_malls_103950072272
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Лента"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лента"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 187-61-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907513,27.484842"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.lentabel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

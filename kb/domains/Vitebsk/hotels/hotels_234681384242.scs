@@ -1,0 +1,26 @@
+ concept_hotels_234681384242
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["База Отдыха Пикник Парк"]
+	(* <- lang_ru;; <- name;;*);
+    ["База Отдыха Пикник Парк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебский район, Мазоловский сельсовет, деревня Дреколье"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 327-77-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.304071,30.082025"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

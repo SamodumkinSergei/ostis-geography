@@ -1,0 +1,26 @@
+ concept_office_service_66501856312
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Гродненский центр недвижимости"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненский центр недвижимости"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Медовая улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 262-60-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.685552,23.82793"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gcn.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

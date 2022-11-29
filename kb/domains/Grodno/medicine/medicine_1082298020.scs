@@ -1,0 +1,26 @@
+ concept_medicine_1082298020
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["ГУЗ городская поликлиника № 4"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУЗ городская поликлиника № 4"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, микрорайон Форты-1, улица Врублевского, 46/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 248-36-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:40–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.702467,23.805301"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://4gr.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

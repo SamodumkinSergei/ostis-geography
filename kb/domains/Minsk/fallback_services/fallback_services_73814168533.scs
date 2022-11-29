@@ -1,0 +1,26 @@
+ concept_fallback_services_73814168533
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Адельгран"]
+	(* <- lang_ru;; <- name;;*);
+    ["Адельгран"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Калиновского, 55Д"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 329-32-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 10:00–19:00; сб,вс 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.946779,27.628666"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://adelgran.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

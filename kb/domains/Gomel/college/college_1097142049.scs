@@ -1,0 +1,26 @@
+ concept_college_1097142049
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 72 г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 72 г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Мазурова, 77А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 256-14-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.453181,31.031654"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.school-72.gorodgomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

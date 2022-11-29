@@ -1,0 +1,26 @@
+ concept_drugstores_1726484991
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Белфармация, аптека № 110"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белфармация, аптека № 110"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Руссиянова, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 282-87-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб 09:00–20:00; вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.938775,27.684905"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_malls_1499067310
+ <- concept_malls;
+=>nrel_main_idtf:
+	["ByDom"]
+	(* <- lang_ru;; <- name;;*);
+    ["ByDom"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Терешковой, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 725-48-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,ср,чт,пт,сб,вс 09:00–18:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.188404,30.252535"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bydom.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_drugstores_1114712041
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 39"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 39"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Академика Павлова, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 244-70-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.866002,30.385274"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

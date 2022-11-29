@@ -1,0 +1,26 @@
+ concept_malls_204424570360
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Чистый берег"]
+	(* <- lang_ru;; <- name;;*);
+    ["Чистый берег"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Гагарина, 115"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 176-22-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.217894,30.239352"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bereg.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_college_1037623580
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гимназия № 15 г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гимназия № 15 г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Максима Богдановича, 84"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 392-86-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.926934,27.576608"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gymn15.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

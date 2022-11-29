@@ -1,0 +1,26 @@
+ concept_swimming_pool_16176232808
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Спортивный центр БГПУ, бассейн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Спортивный центр БГПУ, бассейн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Советская улица, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 200-55-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–21:30; сб 08:00–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.894544,27.545304"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pool.bspu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

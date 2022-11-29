@@ -1,0 +1,26 @@
+ concept_baby_shop_1127049034
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Правила игры"]
+	(* <- lang_ru;; <- name;;*);
+    ["Правила игры"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Короля, 2к10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 500-53-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901763,27.547068"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pravila.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

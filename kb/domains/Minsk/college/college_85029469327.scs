@@ -1,0 +1,26 @@
+ concept_college_85029469327
+ <- concept_college;
+=>nrel_main_idtf:
+	["Уголовно-Исполнительный факультет МВД РБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Уголовно-Исполнительный факультет МВД РБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Карла Либкнехта, 57/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.895099,27.525015"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://uif.amia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

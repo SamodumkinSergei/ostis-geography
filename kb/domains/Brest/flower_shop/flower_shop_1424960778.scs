@@ -1,0 +1,26 @@
+ concept_flower_shop_1424960778
+ <- concept_flower_shop;
+=>nrel_main_idtf:
+	["Брест-Моторс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брест-Моторс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 364"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 818-18-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 09:00–16:00; вс 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.108889,23.78697"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://brest-motors.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

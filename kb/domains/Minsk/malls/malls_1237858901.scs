@@ -1,0 +1,26 @@
+ concept_malls_1237858901
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Торговый центр Партизанский"]
+	(* <- lang_ru;; <- name;;*);
+    ["Торговый центр Партизанский"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, исторический район Шарики"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 291-39-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.875463,27.629413"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

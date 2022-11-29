@@ -1,0 +1,26 @@
+ concept_office_service_1047763632
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Совет организационной структуры г. Минска и Минской области ДОСААФ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Совет организационной структуры г. Минска и Минской области ДОСААФ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Домашевский переулок, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.898783,27.528243"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://minskdosaaf.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

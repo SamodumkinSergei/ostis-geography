@@ -1,0 +1,26 @@
+ concept_drugstores_1274357408
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Белфармация, аптека № 34"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белфармация, аптека № 34"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Авангардная улица, 38"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 245-85-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906633,27.627498"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

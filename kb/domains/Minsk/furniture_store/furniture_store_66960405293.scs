@@ -1,0 +1,26 @@
+ concept_furniture_store_66960405293
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Клерк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Клерк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Маяковского, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 751-45-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 11:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.876328,27.567068"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://clerk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

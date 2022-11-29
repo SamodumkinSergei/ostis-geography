@@ -1,0 +1,26 @@
+ concept_restaurants_209864436852
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Усадьба Хорошее Место"]
+	(* <- lang_ru;; <- name;;*);
+    ["Усадьба Хорошее Место"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельский район, Бобовичский сельсовет, деревня Осовцы, Приозёрная улица, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 646-12-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.384234,30.931025"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

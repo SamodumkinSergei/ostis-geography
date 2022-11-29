@@ -1,0 +1,26 @@
+ concept_drugstores_1299083591
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация, аптека № 286"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация, аптека № 286"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Гоголя, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 226-33-97"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.189829,30.211747"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pharmacia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

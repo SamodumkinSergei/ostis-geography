@@ -1,0 +1,26 @@
+ concept_hotels_124818518468
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Loft Hostel"]
+	(* <- lang_ru;; <- name;;*);
+    ["Loft Hostel"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 43"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 114-93-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912887,27.579094"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://loft-hostel-minsk.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

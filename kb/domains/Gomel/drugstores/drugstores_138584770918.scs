@@ -1,0 +1,26 @@
+ concept_drugstores_138584770918
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 109"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 109"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельский район, агрогородок Урицкое, улица Ятченко, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 294-14-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб,вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.4669,30.805163"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomel.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

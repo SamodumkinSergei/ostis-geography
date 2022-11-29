@@ -1,0 +1,26 @@
+ concept_clothes_shop_200622904421
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Магазин одежды"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин одежды"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Лазаренко, 73"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 650-96-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910118,30.305457"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

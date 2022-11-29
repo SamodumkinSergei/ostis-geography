@@ -1,0 +1,26 @@
+ concept_fallback_services_132623327580
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Памятники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Красногвардейская улица, 131Гк3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 804-54-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.121933,23.699085"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vip-pamyatniki.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_malls_1061464109
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Мой дом"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мой дом"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Солтыса, 187А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 395-11-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб 10:00–19:00; вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904825,27.642161"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dommebeliminsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

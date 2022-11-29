@@ -1,0 +1,26 @@
+ concept_malls_1028997357
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Сан-Арм"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сан-Арм"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Барыкина, 161"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 233-58-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.420659,30.95997"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://san-arm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

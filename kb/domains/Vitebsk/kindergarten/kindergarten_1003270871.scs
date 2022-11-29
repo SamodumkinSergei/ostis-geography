@@ -1,0 +1,26 @@
+ concept_kindergarten_1003270871
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 36"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 36"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Богдана Хмельницкого, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 247-44-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.185819,30.20605"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sad36vitebsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

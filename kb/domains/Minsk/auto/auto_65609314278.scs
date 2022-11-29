@@ -1,0 +1,26 @@
+ concept_auto_65609314278
+ <- concept_auto;
+=>nrel_main_idtf:
+	["РС авто"]
+	(* <- lang_ru;; <- name;;*);
+    ["РС авто"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Чижовка, улица Уборевича, 85"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 101-28-28"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.834141,27.64024"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rs-auto.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_clothes_shop_230122163719
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Фирменный магазин Брестские № 42"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фирменный магазин Брестские № 42"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Молодечно, улица Волынца, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 250-49-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–17:00; вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.310625,26.842218"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bchk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

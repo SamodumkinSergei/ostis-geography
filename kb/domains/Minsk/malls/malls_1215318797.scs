@@ -1,0 +1,26 @@
+ concept_malls_1215318797
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Магазин № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Мясникова, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 222-61-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.896784,27.54299"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://linea.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

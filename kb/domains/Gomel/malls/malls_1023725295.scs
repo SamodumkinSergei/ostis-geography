@@ -1,0 +1,26 @@
+ concept_malls_1023725295
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Универмаг Гомель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Универмаг Гомель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 60"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 234-70-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.439439,31.003601"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://univermaggomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

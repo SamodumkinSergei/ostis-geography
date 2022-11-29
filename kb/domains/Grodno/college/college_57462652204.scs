@@ -1,0 +1,26 @@
+ concept_college_57462652204
+ <- concept_college;
+=>nrel_main_idtf:
+	["Ггу им. Я. Купалы Филологический факультет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ггу им. Я. Купалы Филологический факультет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Ожешко, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 274-29-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.684816,23.840216"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://phf.grsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

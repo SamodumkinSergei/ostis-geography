@@ -1,0 +1,26 @@
+ concept_college_73021162515
+ <- concept_college;
+=>nrel_main_idtf:
+	["БНТУ, режимно-секретной отдел"]
+	(* <- lang_ru;; <- name;;*);
+    ["БНТУ, режимно-секретной отдел"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 65Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:15–17:30, перерыв 13:00–14:00; пт 08:15–16:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.920784,27.592188"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bntu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

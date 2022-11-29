@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_144330937168
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Белмаш"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белмаш"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Славгородский проезд, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 279-88-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.84818,30.407382"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://belmash.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

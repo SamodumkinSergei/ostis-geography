@@ -1,0 +1,26 @@
+ concept_cafe_73231069565
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Santral Coffee House"]
+	(* <- lang_ru;; <- name;;*);
+    ["Santral Coffee House"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Стамбул, Кадыкёй, Сахрайыджедит, улица Ататюрк, 63"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+90 216 385 80 16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–00:00; сб,вс 10:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["40.981207,29.089903"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://santralcoffee.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

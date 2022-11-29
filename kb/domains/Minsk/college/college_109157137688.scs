@@ -1,0 +1,26 @@
+ concept_college_109157137688
+ <- concept_college;
+=>nrel_main_idtf:
+	["БНТУ, автотракторный факультет"]
+	(* <- lang_ru;; <- name;;*);
+    ["БНТУ, автотракторный факультет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Якуба Коласа, 12, подъезд 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 293-93-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:15–17:30, перерыв 13:00–14:00; пт 08:15–16:15, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.921021,27.589251"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bntu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

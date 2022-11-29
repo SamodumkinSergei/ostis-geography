@@ -1,0 +1,26 @@
+ concept_office_service_190263719831
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Автолайтэкспресс сп/ппс № 30102 CityPost"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автолайтэкспресс сп/ппс № 30102 CityPost"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Новополесская улица, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 677-26-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00, перерыв 13:00–14:00; сб 10:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.440644,30.999729"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://autolight.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

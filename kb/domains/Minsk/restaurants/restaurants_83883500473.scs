@@ -1,0 +1,26 @@
+ concept_restaurants_83883500473
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Особое место"]
+	(* <- lang_ru;; <- name;;*);
+    ["Особое место"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Воронянского, 17А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 684-74-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:00–23:00; пт,сб 11:00–00:00; вс 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878305,27.546834"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

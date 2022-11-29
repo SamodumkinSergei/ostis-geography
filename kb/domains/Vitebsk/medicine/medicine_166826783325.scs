@@ -1,0 +1,26 @@
+ concept_medicine_166826783325
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Хирургический корпус областной детской клинической больницы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хирургический корпус областной детской клинической больницы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Шрадера, 7, корп. 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 236-83-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.184515,30.209973"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.vdokb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

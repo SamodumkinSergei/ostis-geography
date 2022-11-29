@@ -1,0 +1,26 @@
+ concept_hairdressers_217334486781
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Ваш мастер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ваш мастер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Черниговская улица, 36"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 763-52-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.374947,31.035244"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

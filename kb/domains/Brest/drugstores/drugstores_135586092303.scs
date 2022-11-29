@@ -1,0 +1,26 @@
+ concept_drugstores_135586092303
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Альфа аптека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Альфа аптека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Куйбышева, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 228-21-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.096904,23.691259"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

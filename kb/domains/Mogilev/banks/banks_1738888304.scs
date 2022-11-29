@@ -1,0 +1,26 @@
+ concept_banks_1738888304
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Беларусбанк, отделение 700/7025"]
+	(* <- lang_ru;; <- name;;*);
+    ["Беларусбанк, отделение 700/7025"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 276-72-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902135,30.337886"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://belarusbank.by/ru/33139/33142/structure/search_filials/~Otdelenie_700_7025"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_currency_exchange_1275664813
+ <- concept_currency_exchange;
+=>nrel_main_idtf:
+	["Технобанк, обмен валюты"]
+	(* <- lang_ru;; <- name;;*);
+    ["Технобанк, обмен валюты"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 60"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 388-57-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:15–19:30, перерыв 15:00–15:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.43937,31.003744"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://tb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_36063776501
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Belinga"]
+	(* <- lang_ru;; <- name;;*);
+    ["Belinga"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Добрая улица, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 722-76-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.112725,23.692932"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://belinga-design.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

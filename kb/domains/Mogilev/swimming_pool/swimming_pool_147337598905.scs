@@ -1,0 +1,26 @@
+ concept_swimming_pool_147337598905
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Бассейн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бассейн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Тишки Гартного, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 242-67-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 15:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.935378,30.239902"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

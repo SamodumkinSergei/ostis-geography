@@ -1,0 +1,26 @@
+ concept_clothes_shop_1383061446
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Секонд Хэнд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Секонд Хэнд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Бумажкова, 37А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 649-55-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–20:00; сб,вс 11:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90496,27.61942"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

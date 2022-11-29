@@ -1,0 +1,26 @@
+ concept_fallback_services_125470438273
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Капибара"]
+	(* <- lang_ru;; <- name;;*);
+    ["Капибара"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Казимировка, Минское шоссе, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 867-77-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.935508,30.258136"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://kapibaras.by/mogilev"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

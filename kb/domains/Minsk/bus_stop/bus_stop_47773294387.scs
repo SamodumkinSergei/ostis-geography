@@ -1,0 +1,26 @@
+ concept_bus_stop_47773294387
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Дом милосердия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дом милосердия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Дачный проезд"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.926393,27.654762"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_1051835196
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 25 г. Бреста"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 25 г. Бреста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Волгоградская улица, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 252-42-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 07:30–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.074635,23.758799"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://25brest.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

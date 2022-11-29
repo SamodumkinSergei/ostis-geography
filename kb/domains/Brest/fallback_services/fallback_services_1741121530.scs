@@ -1,0 +1,26 @@
+ concept_fallback_services_1741121530
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Отопительное оборудование"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отопительное оборудование"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Дворникова, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 209-70-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.105937,23.662753"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gazterma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

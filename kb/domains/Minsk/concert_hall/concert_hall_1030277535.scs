@@ -1,0 +1,26 @@
+ concept_concert_hall_1030277535
+ <- concept_concert_hall;
+=>nrel_main_idtf:
+	["Богема"]
+	(* <- lang_ru;; <- name;;*);
+    ["Богема"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Машерова, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 850-85-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 21:00–06:00; пт,сб 21:00–09:00; вс 21:00–06:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.91596,27.568153"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://karaoke.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

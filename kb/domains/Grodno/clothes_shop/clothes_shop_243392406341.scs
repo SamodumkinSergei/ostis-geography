@@ -1,0 +1,26 @@
+ concept_clothes_shop_243392406341
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Интерфино"]
+	(* <- lang_ru;; <- name;;*);
+    ["Интерфино"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Янки Купалы, 87"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 688-60-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.649769,23.854546"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://interfino.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

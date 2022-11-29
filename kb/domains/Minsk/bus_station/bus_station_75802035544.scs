@@ -1,0 +1,26 @@
+ concept_bus_station_75802035544
+ <- concept_bus_station;
+=>nrel_main_idtf:
+	["114 Справочная Автовокзалов"]
+	(* <- lang_ru;; <- name;;*);
+    ["114 Справочная Автовокзалов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Центральный район, квартал Раковское предместье"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 100-40-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.9041,27.5471"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.minsktrans.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

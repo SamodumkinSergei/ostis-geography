@@ -1,0 +1,26 @@
+ concept_malls_15932241897
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Металл Маркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Металл Маркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Октябрьский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 713-75-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 09:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.185638,30.249795"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://metall-market.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

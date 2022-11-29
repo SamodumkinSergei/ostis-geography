@@ -1,0 +1,26 @@
+ concept_fallback_services_38174165030
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Контейнерный терминал станции Брест-Северный Брестского отделения БелЖД"]
+	(* <- lang_ru;; <- name;;*);
+    ["Контейнерный терминал станции Брест-Северный Брестского отделения БелЖД"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Лейтенанта Рябцева, 27Г"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 226-00-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.114901,23.673158"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brest.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

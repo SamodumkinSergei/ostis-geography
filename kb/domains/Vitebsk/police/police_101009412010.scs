@@ -1,0 +1,26 @@
+ concept_police_101009412010
+ <- concept_police;
+=>nrel_main_idtf:
+	["Отдел внутренних дел администрации Октябрьского района"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отдел внутренних дел администрации Октябрьского района"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Терешковой, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 324-24-89"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.188113,30.24798"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.vitebsk.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_hypermarket_119413569439
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Стройтрейдинг"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стройтрейдинг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Сенная улица, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 233-33-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.419442,30.997139"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://stroitrading.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

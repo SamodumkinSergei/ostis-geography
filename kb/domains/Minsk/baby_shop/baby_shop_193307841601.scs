@@ -1,0 +1,26 @@
+ concept_baby_shop_193307841601
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Baby City"]
+	(* <- lang_ru;; <- name;;*);
+    ["Baby City"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Янки Мавра, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 911-24-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.900225,27.489306"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

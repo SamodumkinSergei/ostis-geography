@@ -1,0 +1,26 @@
+ concept_government_1350882978
+ <- concept_government;
+=>nrel_main_idtf:
+	["Минский районный исполнительный комитет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский районный исполнительный комитет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ольшевского, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 204-70-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.91227,27.507167"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.mrik.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

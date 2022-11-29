@@ -1,0 +1,26 @@
+ concept_cafe_189476405623
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Cofix"]
+	(* <- lang_ru;; <- name;;*);
+    ["Cofix"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 17А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 659-73-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:30–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909302,27.496191"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://cofix.global/ru-by/main/minsk/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

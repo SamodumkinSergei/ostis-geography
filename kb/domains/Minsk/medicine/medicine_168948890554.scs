@@ -1,0 +1,26 @@
+ concept_medicine_168948890554
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Консультативная поликлиника, 2-я городская клиническая больница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Консультативная поликлиника, 2-я городская клиническая больница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Энгельса, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 226-02-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.898571,27.565727"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://2gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

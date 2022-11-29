@@ -1,0 +1,26 @@
+ concept_banks_132675297358
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Беларусбанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Беларусбанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Привокзальная площадь, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 226-20-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 04:00–03:00, перерывы 07:00–08:00, 13:00–14:00, 19:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.100159,23.680653"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://belarusbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

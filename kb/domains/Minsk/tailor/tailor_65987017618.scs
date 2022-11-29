@@ -1,0 +1,26 @@
+ concept_tailor_65987017618
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Фабрика"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фабрика"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Веры Хоружей, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 292-65-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 11:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916802,27.579277"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

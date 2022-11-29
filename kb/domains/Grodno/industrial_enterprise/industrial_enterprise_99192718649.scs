@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_99192718649
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["ИнваШанс"]
+	(* <- lang_ru;; <- name;;*);
+    ["ИнваШанс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Терешковой, 50"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 256-36-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.697177,23.851586"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

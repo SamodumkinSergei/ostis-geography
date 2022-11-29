@@ -1,0 +1,26 @@
+ concept_hotels_150269721411
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Минск апартаменты"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минск апартаменты"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 331-19-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901535,27.559993"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.minsk-apartment.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

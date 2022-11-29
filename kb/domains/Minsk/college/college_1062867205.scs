@@ -1,0 +1,26 @@
+ concept_college_1062867205
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 55"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 55"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Надеждинская улица, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 353-66-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.876362,27.564661"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch55.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

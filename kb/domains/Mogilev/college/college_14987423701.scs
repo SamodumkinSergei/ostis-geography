@@ -1,0 +1,26 @@
+ concept_college_14987423701
+ <- concept_college;
+=>nrel_main_idtf:
+	["Могилевская городская специализированная детско-юношеская школа олимпийского резерва"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилевская городская специализированная детско-юношеская школа олимпийского резерва"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Орловского, 24А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 241-02-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.918502,30.324397"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://fokmogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

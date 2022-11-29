@@ -1,0 +1,26 @@
+ concept_malls_1569267517
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Метро"]
+	(* <- lang_ru;; <- name;;*);
+    ["Метро"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 97"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 669-77-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб,вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906341,27.43762"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

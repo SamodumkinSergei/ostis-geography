@@ -1,0 +1,26 @@
+ concept_swimming_pool_12226175722
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Бассейн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бассейн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 117А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 239-26-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,вт 07:00–20:30, перерыв 14:00–15:00; ср-пт 07:00–20:30; сб,вс 12:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.928293,30.343009"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

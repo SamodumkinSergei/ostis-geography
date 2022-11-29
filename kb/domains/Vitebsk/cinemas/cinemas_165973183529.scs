@@ -1,0 +1,26 @@
+ concept_cinemas_165973183529
+ <- concept_cinemas;
+=>nrel_main_idtf:
+	["Ретрокинозал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ретрокинозал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Революционная улица, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 260-28-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.20013,30.193568"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://kino.vitebsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_fast_food_62526375095
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["KFC"]
+	(* <- lang_ru;; <- name;;*);
+    ["KFC"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Боровлянский сельсовет, деревня Боровая, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 647-07-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.964035,27.624646"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kfc.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

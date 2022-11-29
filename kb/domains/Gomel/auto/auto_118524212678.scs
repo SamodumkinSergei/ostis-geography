@@ -1,0 +1,26 @@
+ concept_auto_118524212678
+ <- concept_auto;
+=>nrel_main_idtf:
+	["К+Авто"]
+	(* <- lang_ru;; <- name;;*);
+    ["К+Авто"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Богдана Хмельницкого, 59/3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 616-21-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 09:00–18:00; сб 09:00–16:00; вс 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.423702,30.971932"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.kplusauto.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

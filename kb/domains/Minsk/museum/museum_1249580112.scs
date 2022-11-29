@@ -1,0 +1,26 @@
+ concept_museum_1249580112
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей пожарного и аварийно-спасательного дела МЧС РБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей пожарного и аварийно-спасательного дела МЧС РБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Городской Вал, 12к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 328-54-28"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901126,27.55065"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mchs.gov.by/ministerstvo/napravleniya-deyatelnosti/istoriya-pozharnogo-dela/muzey-mchs/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

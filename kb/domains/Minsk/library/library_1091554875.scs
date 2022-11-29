@@ -1,0 +1,26 @@
+ concept_library_1091554875
+ <- concept_library;
+=>nrel_main_idtf:
+	["Детская библиотека № 5"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детская библиотека № 5"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Руссиянова, 48"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 264-59-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 10:00–19:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.933921,27.690849"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://childlib.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

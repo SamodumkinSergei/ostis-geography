@@ -1,0 +1,26 @@
+ concept_banks_1138274007
+ <- concept_banks;
+=>nrel_main_idtf:
+	["БСБ банк"]
+	(* <- lang_ru;; <- name;;*);
+    ["БСБ банк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 23, корп. 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 306-20-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–21:00, перерывы 12:15–12:30, 15:00–16:00, 18:45–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910866,27.540776"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

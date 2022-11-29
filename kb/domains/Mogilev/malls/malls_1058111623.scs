@@ -1,0 +1,26 @@
+ concept_malls_1058111623
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Арт-территория"]
+	(* <- lang_ru;; <- name;;*);
+    ["Арт-территория"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Лепешинского, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 242-40-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903844,30.339155"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://artterritory.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

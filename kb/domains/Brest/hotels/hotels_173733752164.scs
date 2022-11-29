@@ -1,0 +1,26 @@
+ concept_hotels_173733752164
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Апартаменты Old Town"]
+	(* <- lang_ru;; <- name;;*);
+    ["Апартаменты Old Town"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Советская улица, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 721-82-71"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.096402,23.689262"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://belovezhskaya-usadba.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

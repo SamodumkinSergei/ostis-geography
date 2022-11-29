@@ -1,0 +1,26 @@
+ concept_baby_shop_151179245115
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Игрушки"]
+	(* <- lang_ru;; <- name;;*);
+    ["Игрушки"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Клецкова, 21Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 788-68-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–19:00; сб,вс 11:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.64721,23.846144"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

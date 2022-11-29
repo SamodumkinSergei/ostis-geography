@@ -1,0 +1,26 @@
+ concept_college_172108105853
+ <- concept_college;
+=>nrel_main_idtf:
+	["БГМУ, кафедра судебной медицины"]
+	(* <- lang_ru;; <- name;;*);
+    ["БГМУ, кафедра судебной медицины"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 71"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 296-66-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.921884,27.596246"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsmu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

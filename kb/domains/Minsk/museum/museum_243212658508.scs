@@ -1,0 +1,26 @@
+ concept_museum_243212658508
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Выставочные залы Музея истории города Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Выставочные залы Музея истории города Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Герцена, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 354-26-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср-вс 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904801,27.55872"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://minskmuseum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

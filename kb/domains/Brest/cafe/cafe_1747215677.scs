@@ -1,0 +1,26 @@
+ concept_cafe_1747215677
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Прибужская Нива"]
+	(* <- lang_ru;; <- name;;*);
+    ["Прибужская Нива"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Поплавского, 54"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 228-13-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–17:00; пт 12:00–15:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.097839,23.663417"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.brestmuka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_155273177277
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Детская железная дорога"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детская железная дорога"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.925804,27.620335"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

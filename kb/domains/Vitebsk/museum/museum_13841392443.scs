@@ -1,0 +1,26 @@
+ concept_museum_13841392443
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей ВГТУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей ВГТУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 72"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 295-26-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср-пт 08:00–12:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.177854,30.236854"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vstu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

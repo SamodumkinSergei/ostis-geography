@@ -1,0 +1,26 @@
+ concept_cafe_160645984140
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Квасовский двор"]
+	(* <- lang_ru;; <- name;;*);
+    ["Квасовский двор"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Болдина, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 264-87-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–21:00; пт,сб 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.690816,23.801805"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://cafe.kremko.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

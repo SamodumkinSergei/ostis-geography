@@ -1,0 +1,26 @@
+ concept_supermarket_244799473734
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Корона"]
+	(* <- lang_ru;; <- name;;*);
+    ["Корона"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Первомайский район, микрорайон Великий Лес, улица 50 лет Победы, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 243-99-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.947225,27.721095"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://korona.by/hypermarkets/shops/supermarket-korona-50-let-pobedy-1"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

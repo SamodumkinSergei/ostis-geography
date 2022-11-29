@@ -1,0 +1,26 @@
+ concept_fast_food_216403502846
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Панда кук"]
+	(* <- lang_ru;; <- name;;*);
+    ["Панда кук"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Гинтовта, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 635-97-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.948752,27.671685"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

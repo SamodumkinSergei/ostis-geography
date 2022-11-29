@@ -1,0 +1,26 @@
+ concept_college_1114056952
+ <- concept_college;
+=>nrel_main_idtf:
+	["Институт пограничной службы Республики Беларусь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Институт пограничной службы Республики Беларусь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Первомайский район, микрорайон Восток, Восток-2, улица Славинского, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 356-70-96"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.942746,27.629269"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ips.gpk.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

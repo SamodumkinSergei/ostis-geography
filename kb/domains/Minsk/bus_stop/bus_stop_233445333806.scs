@@ -1,0 +1,26 @@
+ concept_bus_stop_233445333806
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Проспект Газеты Звязда"]
+	(* <- lang_ru;; <- name;;*);
+    ["Проспект Газеты Звязда"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Газеты Звязда"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.871167,27.474962"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_150849838087
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Катал гродно"]
+	(* <- lang_ru;; <- name;;*);
+    ["Катал гродно"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Славинского, 2Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 489-99-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.646397,23.827966"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://katalgrodno.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

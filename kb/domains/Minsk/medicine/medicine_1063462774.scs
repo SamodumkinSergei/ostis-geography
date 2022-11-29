@@ -1,0 +1,26 @@
+ concept_medicine_1063462774
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Ждановичская амбулатория"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ждановичская амбулатория"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, агрогородок Ждановичи, Линейная улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 509-92-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00, перерыв 12:30–13:00; сб 08:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.947013,27.424173"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://zha.103.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

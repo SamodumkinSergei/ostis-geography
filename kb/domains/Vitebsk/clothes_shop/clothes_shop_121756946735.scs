@@ -1,0 +1,26 @@
+ concept_clothes_shop_121756946735
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Добра"]
+	(* <- lang_ru;; <- name;;*);
+    ["Добра"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 19к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 237-09-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 11:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.179532,30.218526"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

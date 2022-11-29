@@ -1,0 +1,26 @@
+ concept_cafe_1026461157
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кофейня Кофе хауз"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кофейня Кофе хауз"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Киев, Заплавная улица, 71"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+380 (44) 206-84-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["50.380328,30.683001"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_police_1086346625
+ <- concept_police;
+=>nrel_main_idtf:
+	["ОПОП № 109 Заводского района г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОПОП № 109 Заводского района г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Шишкина, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 341-66-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср 17:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.858252,27.632587"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://zav.minsk.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

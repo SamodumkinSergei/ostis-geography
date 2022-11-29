@@ -1,0 +1,26 @@
+ concept_hotels_196566845258
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Sweethome"]
+	(* <- lang_ru;; <- name;;*);
+    ["Sweethome"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 46Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 104-11-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 13:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912785,27.580649"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

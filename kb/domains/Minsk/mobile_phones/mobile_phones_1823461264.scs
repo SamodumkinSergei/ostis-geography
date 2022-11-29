@@ -1,0 +1,26 @@
+ concept_mobile_phones_1823461264
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Remaks"]
+	(* <- lang_ru;; <- name;;*);
+    ["Remaks"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кульман, 5Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 657-70-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 11:00–18:00; вт-сб 10:00–19:00; вс 11:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919421,27.580912"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://remaks.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

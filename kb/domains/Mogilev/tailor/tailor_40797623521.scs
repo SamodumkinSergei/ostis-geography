@@ -1,0 +1,26 @@
+ concept_tailor_40797623521
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Дубликат ключ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дубликат ключ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Мира"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 734-42-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб,вс 10:00–14:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908962,30.340286"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

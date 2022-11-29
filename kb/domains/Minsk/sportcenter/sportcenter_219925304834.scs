@@ -1,0 +1,26 @@
+ concept_sportcenter_219925304834
+ <- concept_sportcenter;
+=>nrel_main_idtf:
+	["Бильярд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бильярд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурганова, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 357-97-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср-пт 15:00–22:00; сб,вс 11:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.918823,27.605627"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.free-style.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

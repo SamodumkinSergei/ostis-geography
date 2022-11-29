@@ -1,0 +1,26 @@
+ concept_hypermarket_1026956153
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Витьба"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витьба"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Короткевича, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 257-89-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.169802,30.256273"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitba.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

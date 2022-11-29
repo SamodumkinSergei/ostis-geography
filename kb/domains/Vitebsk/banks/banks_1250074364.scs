@@ -1,0 +1,26 @@
+ concept_banks_1250074364
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Беларусбанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Беларусбанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебская область, Городокский район, городской посёлок Езерище, Ленинская улица, 56"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 393-74-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,вт,чт,пт 09:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.835089,29.98147"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://belarusbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

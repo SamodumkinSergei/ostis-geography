@@ -1,0 +1,26 @@
+ concept_hotels_1107157938
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Отель Минск"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отель Минск"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 11к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 209-90-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.896616,27.550395"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://hotelminsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

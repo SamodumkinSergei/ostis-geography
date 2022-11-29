@@ -1,0 +1,26 @@
+ concept_banks_1007532063
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Белгазпромбанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белгазпромбанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Октября, 22А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 250-12-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–17:30; пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.409042,30.963651"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.belgazprombank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

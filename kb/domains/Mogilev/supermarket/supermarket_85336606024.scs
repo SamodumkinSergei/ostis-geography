@@ -1,0 +1,26 @@
+ concept_supermarket_85336606024
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Магазин продуктов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин продуктов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пушкинский проспект"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–18:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.874224,30.343249"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

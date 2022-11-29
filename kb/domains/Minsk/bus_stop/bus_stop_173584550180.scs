@@ -1,0 +1,26 @@
+ concept_bus_stop_173584550180
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Поворот на филиал БГУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Поворот на филиал БГУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, МКАД, 25-й километр"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.841125,27.478837"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

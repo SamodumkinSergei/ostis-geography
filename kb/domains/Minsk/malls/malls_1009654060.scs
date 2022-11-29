@@ -1,0 +1,26 @@
+ concept_malls_1009654060
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Globo"]
+	(* <- lang_ru;; <- name;;*);
+    ["Globo"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Уманская улица, 54"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 515-02-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.875541,27.49811"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.glob.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

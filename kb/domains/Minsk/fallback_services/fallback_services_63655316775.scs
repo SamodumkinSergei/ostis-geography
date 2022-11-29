@@ -1,0 +1,26 @@
+ concept_fallback_services_63655316775
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гранитек"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гранитек"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Богдана Хмельницкого, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 518-02-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.923787,27.595603"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://granitek.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

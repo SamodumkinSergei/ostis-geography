@@ -1,0 +1,26 @@
+ concept_college_65916813955
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГУО Средняя школа № 74 города Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО Средняя школа № 74 города Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Клёнковский, Чечерская улица, 60"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 235-62-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.466935,31.044898"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://school74.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

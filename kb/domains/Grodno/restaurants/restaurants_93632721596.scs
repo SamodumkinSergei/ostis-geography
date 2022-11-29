@@ -1,0 +1,26 @@
+ concept_restaurants_93632721596
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Додо Пицца"]
+	(* <- lang_ru;; <- name;;*);
+    ["Додо Пицца"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Янки Купалы, 87"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 606-75-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.649596,23.853302"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://dodopizza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

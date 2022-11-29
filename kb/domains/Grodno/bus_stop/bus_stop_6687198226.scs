@@ -1,0 +1,26 @@
+ concept_bus_stop_6687198226
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Торговый центр OldCity"]
+	(* <- lang_ru;; <- name;;*);
+    ["Торговый центр OldCity"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Дубко"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.700803,23.834156"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_medicine_172416164154
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["1-я Городская Клиническая больница, Нефрологическое отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["1-я Городская Клиническая больница, Нефрологическое отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 64, корп. 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 347-22-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 17:00–20:00; сб,вс 12:00–20:00, перерыв 14:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.918899,27.596254"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://1gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

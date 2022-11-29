@@ -1,0 +1,26 @@
+ concept_college_185870687869
+ <- concept_college;
+=>nrel_main_idtf:
+	["Исторический факультет ВГУ имени П. М. Машерова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Исторический факультет ВГУ имени П. М. Машерова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 237-97-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–18:30, перерыв 12:00–12:30; сб 09:00–15:00, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.177726,30.226453"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

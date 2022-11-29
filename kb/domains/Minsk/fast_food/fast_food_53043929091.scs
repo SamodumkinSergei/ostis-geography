@@ -1,0 +1,26 @@
+ concept_fast_food_53043929091
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Kartoffel"]
+	(* <- lang_ru;; <- name;;*);
+    ["Kartoffel"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 130-72-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908098,27.548154"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_malls_123572378998
+ <- concept_malls;
+=>nrel_main_idtf:
+	["На Пушкина"]
+	(* <- lang_ru;; <- name;;*);
+    ["На Пушкина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Пушкина, 29А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 868-24-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.695674,23.834981"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

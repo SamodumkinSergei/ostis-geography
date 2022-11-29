@@ -1,0 +1,26 @@
+ concept_hairdressers_1726029297
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Семейная"]
+	(* <- lang_ru;; <- name;;*);
+    ["Семейная"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Свиридова, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 488-29-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–20:00; вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.469546,31.036141"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

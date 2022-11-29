@@ -1,0 +1,26 @@
+ concept_bus_stop_133843896692
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Туловская улица"]
+	(* <- lang_ru;; <- name;;*);
+    ["Туловская улица"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Туловская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.18737,30.277141"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

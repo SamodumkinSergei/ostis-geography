@@ -1,0 +1,26 @@
+ concept_drugstores_162052448400
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Моя аптека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Моя аптека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Огинского, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 267-75-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.620759,23.806755"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_museum_222723077190
+ <- concept_museum;
+=>nrel_main_idtf:
+	["История Гродненской почты"]
+	(* <- lang_ru;; <- name;;*);
+    ["История Гродненской почты"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Карла Маркса, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 232-01-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср-пт 10:00–17:00, перерыв 14:00–14:30; сб,вс 10:00–16:00, перерыв 14:00–14:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.676808,23.837853"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

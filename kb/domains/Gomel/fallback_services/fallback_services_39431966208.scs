@@ -1,0 +1,26 @@
+ concept_fallback_services_39431966208
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Памятники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Озёрная улица, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 732-20-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 09:00–18:00; сб,вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.453973,30.964881"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://памятникигомель.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

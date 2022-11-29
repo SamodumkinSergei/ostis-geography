@@ -1,0 +1,26 @@
+ concept_hairdressers_1035585384
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["ШикСтайл"]
+	(* <- lang_ru;; <- name;;*);
+    ["ШикСтайл"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Дзержинского, 113А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 286-43-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.705271,23.840995"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_college_1375768239
+ <- concept_college;
+=>nrel_main_idtf:
+	["Лаборатория информационно-компьютерных технологий БГМУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лаборатория информационно-компьютерных технологий БГМУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинградская улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 328-61-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.894633,27.550555"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsmu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

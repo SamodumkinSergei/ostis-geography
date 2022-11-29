@@ -1,0 +1,26 @@
+ concept_cafe_226221913238
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["The Дом"]
+	(* <- lang_ru;; <- name;;*);
+    ["The Дом"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Островского, 64/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 887-71-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб,вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.87798,30.333963"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

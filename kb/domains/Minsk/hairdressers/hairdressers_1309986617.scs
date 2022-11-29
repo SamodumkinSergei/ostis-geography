@@ -1,0 +1,26 @@
+ concept_hairdressers_1309986617
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Парикмахерская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парикмахерская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Мясникова, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 222-67-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:40"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.896782,27.542994"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://linea.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

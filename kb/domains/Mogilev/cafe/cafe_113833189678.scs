@@ -1,0 +1,26 @@
+ concept_cafe_113833189678
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Бремен"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бремен"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пушкинский проспект, 59"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 245-07-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:00–22:00; пт,сб 11:00–23:00; вс 11:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873334,30.344157"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

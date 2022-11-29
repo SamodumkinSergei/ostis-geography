@@ -1,0 +1,26 @@
+ concept_cafe_189461485366
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Paragraph"]
+	(* <- lang_ru;; <- name;;*);
+    ["Paragraph"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Орловская улица, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 805-71-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–23:00; сб,вс 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.105947,23.765264"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://paragraph.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

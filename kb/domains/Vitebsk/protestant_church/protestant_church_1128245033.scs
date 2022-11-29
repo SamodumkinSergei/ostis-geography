@@ -1,0 +1,26 @@
+ concept_protestant_church_1128245033
+ <- concept_protestant_church;
+=>nrel_main_idtf:
+	["Дом Евангелия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дом Евангелия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица 3-я Линия, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 593-88-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вс 10:00–12:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.212375,30.199896"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://3linia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

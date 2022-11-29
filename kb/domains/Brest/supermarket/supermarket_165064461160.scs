@@ -1,0 +1,26 @@
+ concept_supermarket_165064461160
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Павильон"]
+	(* <- lang_ru;; <- name;;*);
+    ["Павильон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, аллея Дмитрия Гвишиани"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.0788,23.746323"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_cafe_210779380397
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Пиросмани"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пиросмани"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Некрасова, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 651-92-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.931613,27.593012"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pirosmani-cafe.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

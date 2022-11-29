@@ -1,0 +1,26 @@
+ concept_college_1097219654
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГУО средняя школа № 20"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО средняя школа № 20"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Ольги Соломовой, 76А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 269-62-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.666013,23.793835"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sch20grodno.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

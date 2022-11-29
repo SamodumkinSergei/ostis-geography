@@ -1,0 +1,26 @@
+ concept_college_239913549006
+ <- concept_college;
+=>nrel_main_idtf:
+	["Образовательный центр Лидер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Образовательный центр Лидер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебская область, Витебск, улица Ленина, 12А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 735-23-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.187651,30.204396"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://lider.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

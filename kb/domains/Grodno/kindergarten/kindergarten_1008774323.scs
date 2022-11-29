@@ -1,0 +1,26 @@
+ concept_kindergarten_1008774323
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-Сад № 86"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-Сад № 86"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Клецкова, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 239-90-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.650679,23.840653"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ddu86grodno.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_101358607516
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Ефросиньи Полоцкой"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ефросиньи Полоцкой"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Одоевского"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90169,27.47276"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_kindergarten_1062338453
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Специальный детский сад № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Специальный детский сад № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Орджоникидзе, 39"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 265-27-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.189572,30.174726"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sad1vitebsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

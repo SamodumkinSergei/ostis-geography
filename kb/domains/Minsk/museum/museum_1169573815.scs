@@ -1,0 +1,26 @@
+ concept_museum_1169573815
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Национальный художественный музей Республики Беларусь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Национальный художественный музей Республики Беларусь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ленина, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 397-01-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,ср 11:00–19:00; чт 13:00–21:00; пт-вс 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.89852,27.560937"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://artmuseum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

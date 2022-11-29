@@ -1,0 +1,26 @@
+ concept_college_1357221982
+ <- concept_college;
+=>nrel_main_idtf:
+	["Иит БГУИР, факультет компьютерных технологий"]
+	(* <- lang_ru;; <- name;;*);
+    ["Иит БГУИР, факультет компьютерных технологий"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Козлова, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 294-72-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 13:00–13:45; пт 08:30–16:00, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903078,27.598444"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.iti.bsuir.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

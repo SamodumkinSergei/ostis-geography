@@ -1,0 +1,26 @@
+ concept_banks_225652898360
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Банк РРБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Банк РРБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, пр. Речицкий, 62а"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 337-02-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:30–20:30, перерыв 15:00–15:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.405605,30.923911"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://rrb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

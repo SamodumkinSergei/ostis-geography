@@ -1,0 +1,26 @@
+ concept_museum_136243223130
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей Белорусского народного искусства, филиал Национального художественного музея РБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей Белорусского народного искусства, филиал Национального художественного музея РБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Минский район, Острошицко-Городокский сельсовет, агрогородок Острошицкий Городок"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 507-44-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср-вс 08:30–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.067532,27.697252"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://artmuseum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

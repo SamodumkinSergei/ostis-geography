@@ -1,0 +1,26 @@
+ concept_furniture_store_116474236093
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Ателье кухни"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ателье кухни"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Янки Купалы"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 722-80-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.109381,23.749744"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://atelie-kuhni.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

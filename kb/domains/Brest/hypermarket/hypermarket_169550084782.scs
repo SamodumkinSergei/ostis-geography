@@ -1,0 +1,26 @@
+ concept_hypermarket_169550084782
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Арт Гранит"]
+	(* <- lang_ru;; <- name;;*);
+    ["Арт Гранит"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Старозадворская улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 688-79-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:30–16:30; сб 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.121619,23.772683"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://artgranit-brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

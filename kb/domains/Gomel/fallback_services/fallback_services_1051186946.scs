@@ -1,0 +1,26 @@
+ concept_fallback_services_1051186946
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Региональный центр правовой информации Гомельской области"]
+	(* <- lang_ru;; <- name;;*);
+    ["Региональный центр правовой информации Гомельской области"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Ленина, 2/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 233-47-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.423127,31.011752"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ncpi.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

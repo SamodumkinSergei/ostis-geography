@@ -1,0 +1,26 @@
+ concept_restaurants_159521115723
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Nravizza pizza"]
+	(* <- lang_ru;; <- name;;*);
+    ["Nravizza pizza"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебская область, Толочин, улица Володарского, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 382-66-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:30–22:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.41031,29.69513"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://nravizza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

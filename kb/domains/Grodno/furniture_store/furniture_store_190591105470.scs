@@ -1,0 +1,26 @@
+ concept_furniture_store_190591105470
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["ГолдОптима"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГолдОптима"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Мясницкая улица, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 239-99-97"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.719306,23.822038"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://goldoptima.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_fast_food_100378702265
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["McDonald's"]
+	(* <- lang_ru;; <- name;;*);
+    ["McDonald's"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Горновых, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 588-14-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.669414,23.821546"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mcdonalds.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

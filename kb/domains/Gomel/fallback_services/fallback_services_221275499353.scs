@@ -1,0 +1,26 @@
+ concept_fallback_services_221275499353
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Белый мастер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белый мастер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Ирининская улица, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 525-52-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.429546,31.009164"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://whitemaster.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

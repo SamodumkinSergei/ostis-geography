@@ -1,0 +1,26 @@
+ concept_hotels_110279683288
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Апартаменты в центре Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Апартаменты в центре Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Румянцева, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90814,27.57784"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_restaurants_168099000436
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Pizzeria Przy Piekarni"]
+	(* <- lang_ru;; <- name;;*);
+    ["Pizzeria Przy Piekarni"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Люблинское воеводство, повят Бяльский, Тересполь, ulica Krótka, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+48  883 19 92 70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.076432,23.611382"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

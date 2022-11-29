@@ -1,0 +1,26 @@
+ concept_office_service_226966715205
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Телерадиокомпания Брест"]
+	(* <- lang_ru;; <- name;;*);
+    ["Телерадиокомпания Брест"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Куйбышева, 64"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 220-35-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.091032,23.696546"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://trkbrest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_medicine_1097830472
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городская клиническая больница № 2 г. Гродно"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская клиническая больница № 2 г. Гродно"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Гагарина, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 232-28-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.672421,23.82116"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

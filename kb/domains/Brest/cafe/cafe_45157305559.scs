@@ -1,0 +1,26 @@
+ concept_cafe_45157305559
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кафе-столовая"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафе-столовая"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Янки Купалы, 112/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 528-48-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.118754,23.776754"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

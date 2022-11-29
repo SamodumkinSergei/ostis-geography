@@ -1,0 +1,26 @@
+ concept_kindergarten_109610276536
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 385"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 385"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Лидская улица, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 323-09-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.924131,27.425309"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu385.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_11737742468
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Школа № 55"]
+	(* <- lang_ru;; <- name;;*);
+    ["Школа № 55"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Маневича"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.468521,30.964495"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

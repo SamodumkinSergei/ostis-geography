@@ -1,0 +1,26 @@
+ concept_banks_217556367435
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Paritetbank"]
+	(* <- lang_ru;; <- name;;*);
+    ["Paritetbank"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Бобруйская улица, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["171"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб,вс 10:30–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.891571,27.55245"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.paritetbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

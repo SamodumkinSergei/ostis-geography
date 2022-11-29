@@ -1,0 +1,26 @@
+ concept_auto_232031900039
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Официальный сервис Škoda"]
+	(* <- lang_ru;; <- name;;*);
+    ["Официальный сервис Škoda"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Старозадворская улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 642-42-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:30–20:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.121946,23.771344"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://skoda-brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

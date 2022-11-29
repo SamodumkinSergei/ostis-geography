@@ -1,0 +1,26 @@
+ concept_college_1129863884
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 33"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 33"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Королёва, 10А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 274-04-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904301,30.371725"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://school33.mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

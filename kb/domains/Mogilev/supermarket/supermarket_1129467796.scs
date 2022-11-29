@@ -1,0 +1,26 @@
+ concept_supermarket_1129467796
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Тройка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Тройка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Мовчанского, 24В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 273-56-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.876032,30.364735"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

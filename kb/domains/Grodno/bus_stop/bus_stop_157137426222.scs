@@ -1,0 +1,26 @@
+ concept_bus_stop_157137426222
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Лизы Чайкиной"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Лизы Чайкиной"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Лизы Чайкиной"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.664239,23.790755"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

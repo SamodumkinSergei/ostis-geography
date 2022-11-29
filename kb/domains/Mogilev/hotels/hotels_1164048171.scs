@@ -1,0 +1,26 @@
+ concept_hotels_1164048171
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Роял Парк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Роял Парк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёвский район, Дашковский сельсовет, деревня Салтановка"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 547-17-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.815323,30.23057"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

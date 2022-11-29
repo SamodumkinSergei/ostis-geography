@@ -1,0 +1,26 @@
+ concept_cinemas_1087801084
+ <- concept_cinemas;
+=>nrel_main_idtf:
+	["Кинотеатр Беларусь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кинотеатр Беларусь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Романовская Слобода, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 373-41-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905047,27.542454"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://kinominska.by/objects/27"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

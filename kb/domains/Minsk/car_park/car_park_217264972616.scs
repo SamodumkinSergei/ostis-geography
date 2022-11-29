@@ -1,0 +1,26 @@
+ concept_car_park_217264972616
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Парковка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парковка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Платонова, 41"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 292-63-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912292,27.597107"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pminstitute.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

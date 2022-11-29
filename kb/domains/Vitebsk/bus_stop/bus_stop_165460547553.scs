@@ -1,0 +1,26 @@
+ concept_bus_stop_165460547553
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Актёров Ерёменко"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Актёров Ерёменко"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Актёров Ерёменко"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.170965,30.278643"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_swimming_pool_1245256250
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Рцор по гандболу, бассейн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Рцор по гандболу, бассейн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Филимонова, 55к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 267-55-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.926059,27.635358"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.rcor.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_baby_shop_170675124111
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Санэндко мастерская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Санэндко мастерская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Левкова, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 604-84-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.880655,27.557093"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

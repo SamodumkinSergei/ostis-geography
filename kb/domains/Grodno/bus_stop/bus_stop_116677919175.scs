@@ -1,0 +1,26 @@
+ concept_bus_stop_116677919175
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Гипермаркет Материк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гипермаркет Материк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Румлёвский проспект"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.671536,23.861531"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

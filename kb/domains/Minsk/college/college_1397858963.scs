@@ -1,0 +1,26 @@
+ concept_college_1397858963
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 89"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 89"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Октябрьский район, Серова, Пуховичская улица, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 275-66-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.850134,27.549333"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch89.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

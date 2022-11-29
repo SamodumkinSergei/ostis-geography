@@ -1,0 +1,26 @@
+ concept_hotels_159457623487
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Dom15"]
+	(* <- lang_ru;; <- name;;*);
+    ["Dom15"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Курганная улица, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 396-59-89"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.852812,27.461254"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dom15.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

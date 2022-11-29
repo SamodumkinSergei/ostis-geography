@@ -1,0 +1,26 @@
+ concept_kindergarten_1328893000
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 303"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 303"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, проспект Рокоссовского, 102к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 396-87-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.857305,27.603755"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu303.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

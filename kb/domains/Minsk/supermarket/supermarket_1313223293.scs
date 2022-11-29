@@ -1,0 +1,26 @@
+ concept_supermarket_1313223293
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Корона"]
+	(* <- lang_ru;; <- name;;*);
+    ["Корона"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Сокол, улица Барамзиной, 8А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 397-50-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.876054,27.906382"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.korona.by/buisiness/magazin-baram/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

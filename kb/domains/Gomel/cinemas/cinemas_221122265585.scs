@@ -1,0 +1,26 @@
+ concept_cinemas_221122265585
+ <- concept_cinemas;
+=>nrel_main_idtf:
+	["5D cinema"]
+	(* <- lang_ru;; <- name;;*);
+    ["5D cinema"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, парк Гомельского дворцово-паркового ансамбля"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00, перерывы 14:40–15:00, 18:40–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.419155,31.012761"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomelpark.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

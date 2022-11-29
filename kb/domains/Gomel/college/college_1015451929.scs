@@ -1,0 +1,26 @@
+ concept_college_1015451929
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гомельский городской лицей № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский городской лицей № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Богдана Хмельницкого, 71"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 235-11-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.420903,30.972538"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.ggl.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

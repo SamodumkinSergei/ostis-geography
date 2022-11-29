@@ -1,0 +1,26 @@
+ concept_college_161775658297
+ <- concept_college;
+=>nrel_main_idtf:
+	["Наша школа"]
+	(* <- lang_ru;; <- name;;*);
+    ["Наша школа"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Литературная улица, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 680-07-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–18:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.941836,27.595597"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://nashashkola.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

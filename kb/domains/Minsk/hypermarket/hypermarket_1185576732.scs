@@ -1,0 +1,26 @@
+ concept_hypermarket_1185576732
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Мементо мори"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мементо мори"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Кальварийская улица, 17А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 909-63-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 11:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906019,27.528699"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mementomori.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_banks_1155215595
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Беларусбанк, банк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Беларусбанк, банк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 44"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 290-96-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911596,27.57924"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://belarusbank.by/ru/33139/33142/structure/search_filials/~Otdelenie_514_300"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

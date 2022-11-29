@@ -1,0 +1,26 @@
+ concept_college_1123716320
+ <- concept_college;
+=>nrel_main_idtf:
+	["Брестский областной институт развития образования"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестский областной институт развития образования"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Янки Купалы, 20/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 246-17-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.105891,23.731544"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://boiro.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

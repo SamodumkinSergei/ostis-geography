@@ -1,0 +1,26 @@
+ concept_malls_40172253276
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Pled. Minsk.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Pled. Minsk.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 106"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 320-68-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.858205,27.476121"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pledminsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

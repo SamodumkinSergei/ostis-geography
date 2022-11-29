@@ -1,0 +1,26 @@
+ concept_hotels_1706809373
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Родниковый"]
+	(* <- lang_ru;; <- name;;*);
+    ["Родниковый"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, микрорайон Вычулки, Родниковая улица, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 393-90-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.09974,23.799453"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://brestinlove.by/rodnik"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_supermarket_202949309552
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Greenery"]
+	(* <- lang_ru;; <- name;;*);
+    ["Greenery"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Ольги Соломовой, 82"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 377-00-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–19:00; сб 12:00–17:00; вс 12:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.663292,23.785107"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://eco-greenery.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

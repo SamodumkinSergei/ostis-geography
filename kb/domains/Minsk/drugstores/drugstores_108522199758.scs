@@ -1,0 +1,26 @@
+ concept_drugstores_108522199758
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Беролина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Беролина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Немига, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 373-00-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–21:00; сб,вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902447,27.550025"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://berolina.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

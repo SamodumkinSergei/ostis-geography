@@ -1,0 +1,26 @@
+ concept_hotels_1163035711
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Цікава садиба"]
+	(* <- lang_ru;; <- name;;*);
+    ["Цікава садиба"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродненская область, Гродненский район, садоводческое товарищество Верховина, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.691896,23.752067"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

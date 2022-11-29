@@ -1,0 +1,26 @@
+ concept_banks_42842331746
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Технобанк, обменный пункт № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Технобанк, обменный пункт № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Немига, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 388-57-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:45, перерывы 13:30–13:50, 16:00–16:30, 18:20–18:40; сб,вс 10:45–20:45, перерывы 13:30–13:50, 16:00–16:30, 18:20–18:40"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903923,27.552488"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://tb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

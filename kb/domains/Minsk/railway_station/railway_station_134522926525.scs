@@ -1,0 +1,26 @@
+ concept_railway_station_134522926525
+ <- concept_railway_station;
+=>nrel_main_idtf:
+	["Минск-Северный"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минск-Северный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, исторический район Кальвария"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 02:55–01:00, перерыв 13:05–13:35"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906247,27.524863"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

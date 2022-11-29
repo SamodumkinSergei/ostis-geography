@@ -1,0 +1,26 @@
+ concept_tailor_82590735338
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Дядя Дима"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дядя Дима"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чкалова, 27А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 560-28-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.167072,30.210296"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

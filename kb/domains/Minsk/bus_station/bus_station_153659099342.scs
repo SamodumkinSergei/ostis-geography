@@ -1,0 +1,26 @@
+ concept_bus_station_153659099342
+ <- concept_bus_station;
+=>nrel_main_idtf:
+	["ДС Курасовщина"]
+	(* <- lang_ru;; <- name;;*);
+    ["ДС Курасовщина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Корженевского, 14А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 397-59-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.843286,27.517491"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://minsktrans.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

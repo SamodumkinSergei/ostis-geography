@@ -1,0 +1,26 @@
+ concept_museum_1045325659
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей Владимира Георгиевича Мулявина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей Владимира Георгиевича Мулявина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 50"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 331-07-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.914886,27.584043"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://museums.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_hotels_97368196207
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Усадьба на Неманской"]
+	(* <- lang_ru;; <- name;;*);
+    ["Усадьба на Неманской"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Неманская улица, 52"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 366-66-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.680217,23.811767"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://nanemanskoj.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

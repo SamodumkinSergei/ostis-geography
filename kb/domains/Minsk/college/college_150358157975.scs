@@ -1,0 +1,26 @@
+ concept_college_150358157975
+ <- concept_college;
+=>nrel_main_idtf:
+	["Факультет русского языка для иностранных граждан, Минский Государственный Лингвистический университет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Факультет русского языка для иностранных граждан, Минский Государственный Лингвистический университет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Захарова, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 284-42-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00; сб 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907312,27.57754"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.mslu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

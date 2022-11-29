@@ -1,0 +1,26 @@
+ concept_petshop_168829387141
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Зоотовары"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зоотовары"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Поповича, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 785-02-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.672484,23.804422"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kontakt.by/grodno/predprijatija/company/1036510-%D0%9E%D0%94%D0%95%D0%96%D0%94%D0%90+%D0%94%D0%9B%D0%AF+%D0%96%D0%98%D0%92%D0%9E%D0%A2%D0%9D%D0%AB%D0%A5+%D0%98%D0%9F+%D0%92%D0%9E%D0%99%D0%A2%D0%9E%D0%92%D0%98%D0%A7+%D0%9D.%D0%92./"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

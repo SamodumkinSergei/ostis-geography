@@ -1,0 +1,26 @@
+ concept_medicine_88432888787
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Изотопная лаборатория Гомельской областной клинической больницы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Изотопная лаборатория Гомельской областной клинической больницы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Братьев Лизюковых, 5/11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.401342,30.94893"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

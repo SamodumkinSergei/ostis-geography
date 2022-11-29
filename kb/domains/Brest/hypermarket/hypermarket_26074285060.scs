@@ -1,0 +1,26 @@
+ concept_hypermarket_26074285060
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Интересстрой"]
+	(* <- lang_ru;; <- name;;*);
+    ["Интересстрой"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Кирпичная улица, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 793-67-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–18:00; вс 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.055477,23.719924"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

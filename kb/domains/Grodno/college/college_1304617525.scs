@@ -1,0 +1,26 @@
+ concept_college_1304617525
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гродненский государственный аграрный университет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненский государственный аграрный университет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Терешковой, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 262-36-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:50, перерыв 12:00–12:50"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.69603,23.848261"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.ggau.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

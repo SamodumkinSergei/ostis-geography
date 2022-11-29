@@ -1,0 +1,26 @@
+ concept_baby_shop_218478598767
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Чудо остров"]
+	(* <- lang_ru;; <- name;;*);
+    ["Чудо остров"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Глебки, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 596-07-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908912,27.470022"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

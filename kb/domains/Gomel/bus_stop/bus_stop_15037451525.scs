@@ -1,0 +1,26 @@
+ concept_bus_stop_15037451525
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Серёгина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Серёгина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Д.Н. Пенязькова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.39887,30.961263"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

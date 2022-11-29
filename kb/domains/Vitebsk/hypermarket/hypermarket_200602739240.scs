@@ -1,0 +1,26 @@
+ concept_hypermarket_200602739240
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Камдэн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Камдэн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Грибоедова, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 358-38-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб,вс 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.20506,30.204352"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.kamden.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

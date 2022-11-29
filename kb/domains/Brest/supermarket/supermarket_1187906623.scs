@@ -1,0 +1,26 @@
+ concept_supermarket_1187906623
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Санта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Санта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Партизанский проспект, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 348-81-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.106703,23.760754"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://santa.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

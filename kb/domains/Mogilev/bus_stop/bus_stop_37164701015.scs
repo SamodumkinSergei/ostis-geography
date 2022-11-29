@@ -1,0 +1,26 @@
+ concept_bus_stop_37164701015
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Могилёвский рынок"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилёвский рынок"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Челюскинцев"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.893151,30.325148"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

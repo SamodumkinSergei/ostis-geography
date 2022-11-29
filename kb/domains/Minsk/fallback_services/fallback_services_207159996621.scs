@@ -1,0 +1,26 @@
+ concept_fallback_services_207159996621
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Чёрный квадрат"]
+	(* <- lang_ru;; <- name;;*);
+    ["Чёрный квадрат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Веры Хоружей, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 348-14-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.91941,27.577707"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://blackkvadrat.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

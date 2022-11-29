@@ -1,0 +1,26 @@
+ concept_medicine_109385376707
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Ida-Viru polikliinik"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ida-Viru polikliinik"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["уезд Ида-Вирумаа, Кохтла-Ярве, улица Рави, 10D"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+372  331 11 33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["59.404757,27.296621"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ivkh.ee/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

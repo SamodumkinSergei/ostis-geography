@@ -1,0 +1,26 @@
+ concept_cafe_102782258416
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кафе 3.16"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафе 3.16"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Советская улица, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 888-80-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.094768,23.691343"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

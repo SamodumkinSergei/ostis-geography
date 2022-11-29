@@ -1,0 +1,26 @@
+ concept_drugstores_22643167048
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 78"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 78"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Холмы, Витебский проспект, 70"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 273-49-97"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00, перерыв 12:00–12:20; сб 08:00–15:00, перерыв 12:00–12:20"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.887974,30.427672"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

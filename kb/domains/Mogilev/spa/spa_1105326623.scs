@@ -1,0 +1,26 @@
+ concept_spa_1105326623
+ <- concept_spa;
+=>nrel_main_idtf:
+	["Для тебя"]
+	(* <- lang_ru;; <- name;;*);
+    ["Для тебя"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Димитрова, 76"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 278-64-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб,вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878712,30.377952"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_fast_food_244718134161
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["ГрильФуд драйв"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГрильФуд драйв"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Лошица, улица Прушинских, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 630-49-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.839104,27.587088"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

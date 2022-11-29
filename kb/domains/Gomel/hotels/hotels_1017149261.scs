@@ -1,0 +1,26 @@
+ concept_hotels_1017149261
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Престиж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Престиж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Головацкого, 72"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 250-98-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.44892,31.009642"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://prestigehotel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

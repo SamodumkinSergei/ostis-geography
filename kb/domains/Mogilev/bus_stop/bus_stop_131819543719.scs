@@ -1,0 +1,26 @@
+ concept_bus_stop_131819543719
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Могилёвский государственный колледж искусств"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилёвский государственный колледж искусств"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Комсомольская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.896531,30.336781"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

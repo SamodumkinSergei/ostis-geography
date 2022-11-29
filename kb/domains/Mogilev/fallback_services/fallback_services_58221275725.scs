@@ -1,0 +1,26 @@
+ concept_fallback_services_58221275725
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["ВПамяти"]
+	(* <- lang_ru;; <- name;;*);
+    ["ВПамяти"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Гагарина, 51"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 556-87-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.881685,30.322381"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vpamyati.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

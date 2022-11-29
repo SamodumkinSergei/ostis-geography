@@ -1,0 +1,26 @@
+ concept_post_office_99063976118
+ <- concept_post_office;
+=>nrel_main_idtf:
+	["Европочта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Европочта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица 17 Сентября, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 535-36-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.08417,23.69393"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://evropochta.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

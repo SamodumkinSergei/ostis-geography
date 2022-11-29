@@ -1,0 +1,26 @@
+ concept_bus_stop_21262892272
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Торговый центр Восток"]
+	(* <- lang_ru;; <- name;;*);
+    ["Торговый центр Восток"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Партизанский проспект, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.10661,23.759976"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

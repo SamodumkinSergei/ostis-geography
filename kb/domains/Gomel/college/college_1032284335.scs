@@ -1,0 +1,26 @@
+ concept_college_1032284335
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гимназия № 36 г. Гомеля имени и. Мележа"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гимназия № 36 г. Гомеля имени и. Мележа"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Братьев Лизюковых, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 223-13-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:45–20:00; сб 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.403374,30.951987"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gimn36gomel.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_college_1092204550
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 19"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 19"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Максима Горького, 113"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 263-50-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.171847,30.140194"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sch19.pervroo-vitebsk.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

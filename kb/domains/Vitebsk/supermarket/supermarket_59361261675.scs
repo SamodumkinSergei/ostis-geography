@@ -1,0 +1,26 @@
+ concept_supermarket_59361261675
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Магнолия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магнолия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, 5-я Клиническая улица, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 227-89-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–22:00; сб,вс 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.188942,30.244351"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

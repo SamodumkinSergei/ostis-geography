@@ -1,0 +1,26 @@
+ concept_college_10977457899
+ <- concept_college;
+=>nrel_main_idtf:
+	["Кафедра пропедевтики детских болезней БГМУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафедра пропедевтики детских болезней БГМУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Шишкина, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 341-72-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.860267,27.634054"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsmu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

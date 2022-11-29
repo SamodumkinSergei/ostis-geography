@@ -1,0 +1,26 @@
+ concept_fast_food_31498286731
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Бургер Люкс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бургер Люкс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Привокзальная площадь, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 711-00-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.431786,30.991816"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.burgerlux.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

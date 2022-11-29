@@ -1,0 +1,26 @@
+ concept_supermarket_159858215456
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Санта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Санта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Сухаревская улица, 62"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 768-63-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.888127,27.423246"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://santa.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

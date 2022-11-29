@@ -1,0 +1,26 @@
+ concept_fast_food_44462452484
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Шаурмастер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Шаурмастер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Волгоградская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 233-33-71"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–21:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.075361,23.755452"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

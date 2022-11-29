@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_1699450205
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["НазАлиИмпер"]
+	(* <- lang_ru;; <- name;;*);
+    ["НазАлиИмпер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Вычулки, 109"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 250-61-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.096583,23.808729"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://myhit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

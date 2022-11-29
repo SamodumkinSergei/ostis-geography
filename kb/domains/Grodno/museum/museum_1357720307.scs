@@ -1,0 +1,26 @@
+ concept_museum_1357720307
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Дом-музей Элизы Ожешко"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дом-музей Элизы Ожешко"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Ожешко, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 274-30-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–19:00; пт-вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.684162,23.839579"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

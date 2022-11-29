@@ -1,0 +1,26 @@
+ concept_cinemas_1004605340
+ <- concept_cinemas;
+=>nrel_main_idtf:
+	["Восток"]
+	(* <- lang_ru;; <- name;;*);
+    ["Восток"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Космонавтов, 41/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 666-51-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 19:30–12:00; сб,вс 12:30–00:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.674968,23.851469"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

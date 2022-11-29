@@ -1,0 +1,26 @@
+ concept_fallback_services_1261998095
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Региональный центр правовой информации Гродненской области"]
+	(* <- lang_ru;; <- name;;*);
+    ["Региональный центр правовой информации Гродненской области"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Антонова, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 277-28-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.673459,23.840326"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ncpi.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

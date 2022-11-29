@@ -1,0 +1,26 @@
+ concept_drugstores_209850515408
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 5"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 5"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пионерская улица, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 222-33-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.898251,30.339917"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mogpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

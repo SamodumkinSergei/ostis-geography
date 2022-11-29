@@ -1,0 +1,26 @@
+ concept_drugstores_99431004290
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 76"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 76"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Тишки Гартного, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 262-39-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.930581,30.248638"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mogpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

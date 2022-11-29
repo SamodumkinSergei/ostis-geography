@@ -1,0 +1,26 @@
+ concept_kindergarten_1033424922
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 1 г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 1 г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ульяновская улица, 39"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 225-03-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.891427,27.554992"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu1.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

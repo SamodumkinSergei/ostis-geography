@@ -1,0 +1,26 @@
+ concept_clothes_shop_231598888544
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Black shop"]
+	(* <- lang_ru;; <- name;;*);
+    ["Black shop"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Советская улица, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 303-93-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.096314,23.689354"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

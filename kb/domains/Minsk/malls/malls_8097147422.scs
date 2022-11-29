@@ -1,0 +1,26 @@
+ concept_malls_8097147422
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Legi.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Legi.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, деревня Боровляны, улица 40 лет Победы, 38"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 196-42-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.984957,27.673928"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://legi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

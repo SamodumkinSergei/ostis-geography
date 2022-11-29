@@ -1,0 +1,26 @@
+ concept_medicine_224030207040
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гомельская городская клиническая больница скорой медицинской помощи, травматологическое отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельская городская клиническая больница скорой медицинской помощи, травматологическое отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Комиссарова, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 229-62-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.417487,31.011717"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://uggbsmp.by/travmatologicheskoe-otdelenie/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

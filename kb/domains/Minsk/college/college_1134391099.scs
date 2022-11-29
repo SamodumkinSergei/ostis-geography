@@ -1,0 +1,26 @@
+ concept_college_1134391099
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гимназия № 30 г. Минска имени Героя Советского Союза Б. С. Окрестина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гимназия № 30 г. Минска имени Героя Советского Союза Б. С. Окрестина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Куйбышева, 79к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 292-55-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.925788,27.577925"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gymn30.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

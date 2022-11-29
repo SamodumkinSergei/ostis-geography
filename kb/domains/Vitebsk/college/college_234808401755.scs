@@ -1,0 +1,26 @@
+ concept_college_234808401755
+ <- concept_college;
+=>nrel_main_idtf:
+	["Учебный корпус № 4 ВГТУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Учебный корпус № 4 ВГТУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебская область, Витебск, Московский проспект, 72А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 249-53-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.177852,30.236856"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vstu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

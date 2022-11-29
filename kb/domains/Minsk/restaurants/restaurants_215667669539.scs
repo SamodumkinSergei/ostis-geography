@@ -1,0 +1,26 @@
+ concept_restaurants_215667669539
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Lidbeer bar 1876"]
+	(* <- lang_ru;; <- name;;*);
+    ["Lidbeer bar 1876"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Якуба Коласа, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 310-37-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 16:00–02:00; пт,сб 16:00–05:00; вс 16:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.92616,27.59223"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

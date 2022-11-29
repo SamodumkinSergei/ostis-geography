@@ -1,0 +1,26 @@
+ concept_museum_1256301085
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей истории профсоюзного движения Беларуси"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей истории профсоюзного движения Беларуси"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 668-64-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–18:00; пт 09:00–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903104,27.562846"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://rdkp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

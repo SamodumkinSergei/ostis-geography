@@ -1,0 +1,26 @@
+ concept_malls_83796114079
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Новый свет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Новый свет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 644-58-89"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.89584,30.331588"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://novosvet.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

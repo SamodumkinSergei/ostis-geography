@@ -1,0 +1,26 @@
+ concept_railway_terminal_1108844035
+ <- concept_railway_terminal;
+=>nrel_main_idtf:
+	["Железнодорожный вокзал Гомель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Железнодорожный вокзал Гомель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Привокзальная площадь, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 295-21-28"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.430821,30.991531"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pass.rw.by/ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_office_service_185079450520
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Аренда Конференц - Зала"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аренда Конференц - Зала"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Федюнинского, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 268-47-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.479685,30.989721"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://hall.gntp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

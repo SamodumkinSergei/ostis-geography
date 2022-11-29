@@ -1,0 +1,26 @@
+ concept_petshop_132387600054
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Зоотовары"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зоотовары"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 99"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 359-46-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–21:00; сб,вс 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.172885,30.263689"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

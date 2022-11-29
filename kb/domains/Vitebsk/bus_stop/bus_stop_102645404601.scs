@@ -1,0 +1,26 @@
+ concept_bus_stop_102645404601
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Герцена"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Герцена"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Герцена"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.183527,30.189233"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

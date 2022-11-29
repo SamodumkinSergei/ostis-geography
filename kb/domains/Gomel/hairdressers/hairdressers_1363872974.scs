@@ -1,0 +1,26 @@
+ concept_hairdressers_1363872974
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Есения"]
+	(* <- lang_ru;; <- name;;*);
+    ["Есения"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Хатаевича, 59"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 380-01-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:30–20:00; вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.446081,31.018353"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

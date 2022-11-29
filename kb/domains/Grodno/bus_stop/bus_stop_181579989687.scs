@@ -1,0 +1,26 @@
+ concept_bus_stop_181579989687
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Глухова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Глухова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Виктора Глухова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.718319,23.86967"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

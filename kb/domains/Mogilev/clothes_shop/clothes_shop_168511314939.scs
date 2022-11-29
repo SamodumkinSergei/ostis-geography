@@ -1,0 +1,26 @@
+ concept_clothes_shop_168511314939
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Белорусский лён"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусский лён"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 57"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 273-35-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904579,30.339491"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://homelinen.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

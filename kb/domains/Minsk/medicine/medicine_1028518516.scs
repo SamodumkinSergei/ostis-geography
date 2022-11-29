@@ -1,0 +1,26 @@
+ concept_medicine_1028518516
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["УЗ 15-я Городская детская поликлиника"]
+	(* <- lang_ru;; <- name;;*);
+    ["УЗ 15-я Городская детская поликлиника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Голубева, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 376-83-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.866411,27.465136"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.15gdp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

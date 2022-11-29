@@ -1,0 +1,26 @@
+ concept_drugstores_93232389992
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Добрыя лекi"]
+	(* <- lang_ru;; <- name;;*);
+    ["Добрыя лекi"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Каменщикова, 3/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 535-57-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.468187,31.019255"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://d-leki.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

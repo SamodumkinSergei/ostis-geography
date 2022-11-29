@@ -1,0 +1,26 @@
+ concept_drugstores_224909504263
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 2/4"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 2/4"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Комсомольская улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 234-50-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:30–21:00, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.432554,31.006937"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomelpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_gasstation_47364882391
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["А-100"]
+	(* <- lang_ru;; <- name;;*);
+    ["А-100"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Логойский тракт, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 541-02-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 03:30–03:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.960876,27.627302"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://azs.a-100.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

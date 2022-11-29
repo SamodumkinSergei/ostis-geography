@@ -1,0 +1,26 @@
+ concept_supermarket_211536478844
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["ЧаюЧай"]
+	(* <- lang_ru;; <- name;;*);
+    ["ЧаюЧай"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Дубко, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 655-57-97"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–21:00; пт,сб 10:00–22:00; вс 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.701692,23.834929"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://chinatea.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

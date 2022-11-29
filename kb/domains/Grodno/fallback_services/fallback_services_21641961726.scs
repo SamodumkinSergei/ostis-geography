@@ -1,0 +1,26 @@
+ concept_fallback_services_21641961726
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гранит Карелии"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гранит Карелии"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Космонавтов, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 393-88-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.676204,23.842797"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://granit-karelii.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

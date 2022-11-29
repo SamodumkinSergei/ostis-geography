@@ -1,0 +1,26 @@
+ concept_drugstores_114754522971
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека ООО Табина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека ООО Табина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Максима Богдановича, 118"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 347-53-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.935605,27.583526"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

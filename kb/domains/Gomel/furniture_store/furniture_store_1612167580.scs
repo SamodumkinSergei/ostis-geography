@@ -1,0 +1,26 @@
+ concept_furniture_store_1612167580
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Стэм дизайн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стэм дизайн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 126"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 120-88-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.449871,30.995156"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://stem.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

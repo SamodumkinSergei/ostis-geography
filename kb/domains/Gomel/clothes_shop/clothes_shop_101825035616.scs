@@ -1,0 +1,26 @@
+ concept_clothes_shop_101825035616
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Секонд хенд оптом"]
+	(* <- lang_ru;; <- name;;*);
+    ["Секонд хенд оптом"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Шилова, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 311-99-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.461071,30.994876"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://optsecond.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

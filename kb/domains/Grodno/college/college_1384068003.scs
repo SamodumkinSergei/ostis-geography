@@ -1,0 +1,26 @@
+ concept_college_1384068003
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гуманитарный колледж имени Янки Купалы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гуманитарный колледж имени Янки Купалы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Ленина, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 262-07-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:30–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.67774,23.840736"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gumcol.grsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

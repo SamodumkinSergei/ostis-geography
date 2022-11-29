@@ -1,0 +1,26 @@
+ concept_malls_196074494153
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Miniso"]
+	(* <- lang_ru;; <- name;;*);
+    ["Miniso"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Мстиславца, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 506-41-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.933851,27.653553"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://miniso.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

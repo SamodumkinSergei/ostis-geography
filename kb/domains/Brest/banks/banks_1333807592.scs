@@ -1,0 +1,26 @@
+ concept_banks_1333807592
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Белагропромбанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белагропромбанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Рябиновая улица, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 218-57-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–18:30, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.064561,23.730295"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://belapb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

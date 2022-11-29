@@ -1,0 +1,26 @@
+ concept_college_1071037127
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гимназия № 46 имени Блеза Паскаля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гимназия № 46 имени Блеза Паскаля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Клермон-Ферран, 14А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 232-15-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.412546,30.965813"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gimn46gomel.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

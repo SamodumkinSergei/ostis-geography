@@ -1,0 +1,26 @@
+ concept_cafe_1058000531
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кафе"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафе"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Франциска Скорины, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 215-69-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 11:00–11:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.925227,27.660287"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.btg.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

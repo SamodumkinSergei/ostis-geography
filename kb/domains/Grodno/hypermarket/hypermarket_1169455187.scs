@@ -1,0 +1,26 @@
+ concept_hypermarket_1169455187
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Стройся"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стройся"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Курчатова, 1Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 244-21-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 08:00–19:00; вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.707525,23.829042"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.stroysya.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

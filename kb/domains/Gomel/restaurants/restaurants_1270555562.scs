@@ -1,0 +1,26 @@
+ concept_restaurants_1270555562
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Патио"]
+	(* <- lang_ru;; <- name;;*);
+    ["Патио"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Коммунаров, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 515-14-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–00:00; пт,сб 12:00–01:00; вс 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.426522,31.01207"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rckontinent.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

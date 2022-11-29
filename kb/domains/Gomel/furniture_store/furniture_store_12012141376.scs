@@ -1,0 +1,26 @@
+ concept_furniture_store_12012141376
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Кухни Лофт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кухни Лофт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 87А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 692-30-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.382749,31.02843"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gomel-kuhni-loft.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_mobile_phones_1010177038
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Мобил групп"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мобил групп"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Лепешинского, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 179-29-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902925,30.340258"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

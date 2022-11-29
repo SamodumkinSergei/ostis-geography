@@ -1,0 +1,26 @@
+ concept_fallback_services_62245284337
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Спецкомбинат КБО"]
+	(* <- lang_ru;; <- name;;*);
+    ["Спецкомбинат КБО"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Семашко, 8к8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 276-83-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:30–17:00; вс 08:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.862727,27.495469"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ritual-minsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

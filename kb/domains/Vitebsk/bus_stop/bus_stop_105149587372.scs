@@ -1,0 +1,26 @@
+ concept_bus_stop_105149587372
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Смоленский рынок"]
+	(* <- lang_ru;; <- name;;*);
+    ["Смоленский рынок"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Смоленская площадь, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.205212,30.209735"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

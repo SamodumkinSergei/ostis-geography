@@ -1,0 +1,26 @@
+ concept_medicine_11468579212
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Витебская областная клиническая инфекционная больница, лечебный корпус № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебская областная клиническая инфекционная больница, лечебный корпус № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 73к6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 224-02-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.194803,30.246614"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.vokibvitebsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

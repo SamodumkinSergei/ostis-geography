@@ -1,0 +1,26 @@
+ concept_cinemas_112853648034
+ <- concept_cinemas;
+=>nrel_main_idtf:
+	["Voka Cinema"]
+	(* <- lang_ru;; <- name;;*);
+    ["Voka Cinema"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Мстиславца, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 388-13-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–00:00; сб,вс 10:00–01:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.934086,27.654311"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://silverscreen.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

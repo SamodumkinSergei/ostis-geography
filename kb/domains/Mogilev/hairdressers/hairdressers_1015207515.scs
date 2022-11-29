@@ -1,0 +1,26 @@
+ concept_hairdressers_1015207515
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Павлинка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Павлинка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Островского, 66"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 263-59-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 08:00–15:00; вс 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.877785,30.3374"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_70690942691
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Полоцкий рынок"]
+	(* <- lang_ru;; <- name;;*);
+    ["Полоцкий рынок"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Титова, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.198986,30.180218"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

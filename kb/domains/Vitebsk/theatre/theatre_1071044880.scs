@@ -1,0 +1,26 @@
+ concept_theatre_1071044880
+ <- concept_theatre;
+=>nrel_main_idtf:
+	["Национальный академический драматический театр имени Якуба Коласа"]
+	(* <- lang_ru;; <- name;;*);
+    ["Национальный академический драматический театр имени Якуба Коласа"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Замковая улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 262-63-96"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 12:30–19:30; сб,вс 12:30–18:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.193354,30.201405"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kolastheatre.by/ru"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

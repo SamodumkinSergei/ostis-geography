@@ -1,0 +1,26 @@
+ concept_museum_140392838664
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Народный музей истории Вгавм"]
+	(* <- lang_ru;; <- name;;*);
+    ["Народный музей истории Вгавм"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, 1-я улица Доватора, 7, корп. 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 253-80-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.196484,30.216705"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.vsavm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

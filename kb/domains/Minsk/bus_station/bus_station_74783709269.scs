@@ -1,0 +1,26 @@
+ concept_bus_station_74783709269
+ <- concept_bus_station;
+=>nrel_main_idtf:
+	["Автостанция Славинского"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостанция Славинского"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Первомайский район, микрорайон Восток, Восток-2, улица Славинского, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 395-41-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 06:30–21:00; вс 06:30–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.939459,27.632453"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.minsktrans.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_40837151070
+ <- concept_college;
+=>nrel_main_idtf:
+	["Корпус ФПК и ПК Вгавм"]
+	(* <- lang_ru;; <- name;;*);
+    ["Корпус ФПК и ПК Вгавм"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, 1-я улица Доватора, 7к3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 253-80-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 06:30–20:00; сб 07:00–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.19537,30.215382"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.vsavm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

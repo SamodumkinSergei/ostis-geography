@@ -1,0 +1,26 @@
+ concept_medicine_120659687174
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Кардиологическое отделение № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кардиологическое отделение № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Уральская улица, 5, корп. 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 245-40-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.9013,27.609115"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.6gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

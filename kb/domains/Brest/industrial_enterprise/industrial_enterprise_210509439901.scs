@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_210509439901
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Риволи"]
+	(* <- lang_ru;; <- name;;*);
+    ["Риволи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Красногвардейская улица, 131А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 739-80-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.123214,23.698693"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rivoli.li/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

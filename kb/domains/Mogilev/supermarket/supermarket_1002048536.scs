@@ -1,0 +1,26 @@
+ concept_supermarket_1002048536
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Казимировский"]
+	(* <- lang_ru;; <- name;;*);
+    ["Казимировский"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Казимировка, Минское шоссе, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 223-17-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.931451,30.2594"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

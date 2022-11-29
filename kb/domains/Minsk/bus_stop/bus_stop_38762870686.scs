@@ -1,0 +1,26 @@
+ concept_bus_stop_38762870686
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["ДС Шабаны"]
+	(* <- lang_ru;; <- name;;*);
+    ["ДС Шабаны"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Заводской район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.844242,27.694901"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

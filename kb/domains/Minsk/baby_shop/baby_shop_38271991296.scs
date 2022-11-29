@@ -1,0 +1,26 @@
+ concept_baby_shop_38271991296
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Мир кубиков"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мир кубиков"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 644-34-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90752,27.484488"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mirkubikov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

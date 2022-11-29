@@ -1,0 +1,26 @@
+ concept_bus_stop_235092924972
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Автозавод имени Кирова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автозавод имени Кирова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Холмы, Витебский проспект"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.882559,30.406004"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

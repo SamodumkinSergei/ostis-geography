@@ -1,0 +1,26 @@
+ concept_restaurants_1339832670
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Ретро-Кафе"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ретро-Кафе"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 104"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 701-10-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пт,сб 17:00–04:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.861942,27.479886"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.titanminsk.by/kafe-i-restoranyi/retro-kafe/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

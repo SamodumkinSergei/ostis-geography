@@ -1,0 +1,26 @@
+ concept_hotels_55285231701
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["У Евгена 137"]
+	(* <- lang_ru;; <- name;;*);
+    ["У Евгена 137"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Кирова, 137"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 331-32-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.089095,23.703729"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://flatbrest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

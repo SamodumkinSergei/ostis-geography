@@ -1,0 +1,26 @@
+ concept_medicine_1204578519
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гомельская университетская клиника - областной госпиталь инвалидов Великой Отечественной войны"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельская университетская клиника - областной госпиталь инвалидов Великой Отечественной войны"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 288"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 253-64-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.355532,31.038863"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gospital.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

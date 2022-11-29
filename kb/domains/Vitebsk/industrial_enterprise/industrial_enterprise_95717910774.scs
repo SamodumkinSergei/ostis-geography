@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_95717910774
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Витязь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витязь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Строителей, 23к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 226-20-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.16578,30.230887"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.vityas.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

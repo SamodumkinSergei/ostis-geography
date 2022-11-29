@@ -1,0 +1,26 @@
+ concept_petshop_1802136559
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Зооеда"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зооеда"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Ольги Соломовой, 131"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 685-92-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.660665,23.7816"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

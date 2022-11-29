@@ -1,0 +1,26 @@
+ concept_hotels_172088197763
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["River Palace"]
+	(* <- lang_ru;; <- name;;*);
+    ["River Palace"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Санкт-Петербург, Малый проспект Васильевского острова, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (812) 665-65-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["59.948687,30.279712"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.riverpalacehotel.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

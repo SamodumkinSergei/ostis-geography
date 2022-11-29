@@ -1,0 +1,26 @@
+ concept_fast_food_68146556219
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["KFC Авто"]
+	(* <- lang_ru;; <- name;;*);
+    ["KFC Авто"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гаврилова, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 254-54-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.107614,23.773088"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.kfc.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

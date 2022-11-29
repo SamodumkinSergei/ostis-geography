@@ -1,0 +1,26 @@
+ concept_auto_1127635077
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автосервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автосервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Грушевская улица, 116/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 659-77-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.881538,27.51258"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

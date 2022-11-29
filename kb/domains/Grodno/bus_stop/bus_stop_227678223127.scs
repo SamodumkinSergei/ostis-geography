@@ -1,0 +1,26 @@
+ concept_bus_stop_227678223127
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Фабричный"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фабричный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Автомобильная улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.635491,23.807802"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_233099901871
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Старомалыщинская улица"]
+	(* <- lang_ru;; <- name;;*);
+    ["Старомалыщинская улица"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Александра Курловича"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.721938,23.887665"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

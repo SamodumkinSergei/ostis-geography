@@ -1,0 +1,26 @@
+ concept_malls_172952404629
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Завод моющих средств"]
+	(* <- lang_ru;; <- name;;*);
+    ["Завод моющих средств"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Челюскинцев, 105"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 274-42-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.881443,30.289397"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.zms.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

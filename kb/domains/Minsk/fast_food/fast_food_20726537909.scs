@@ -1,0 +1,26 @@
+ concept_fast_food_20726537909
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Мама дома"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мама дома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Мстиславца, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 142-31-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.933561,27.652898"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.mama-doma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

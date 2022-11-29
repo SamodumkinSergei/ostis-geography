@@ -1,0 +1,26 @@
+ concept_hairdressers_105595729248
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Эскад-Студия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Эскад-Студия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Пестрака, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 266-24-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.658931,23.835668"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

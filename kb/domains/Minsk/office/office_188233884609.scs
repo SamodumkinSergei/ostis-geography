@@ -1,0 +1,26 @@
+ concept_office_188233884609
+ <- concept_office;
+=>nrel_main_idtf:
+	["Офис 13"]
+	(* <- lang_ru;; <- name;;*);
+    ["Офис 13"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, площадь Свободы, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 777-66-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90393,27.555709"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://infoffice13.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_restaurants_67149373121
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Gan Bei"]
+	(* <- lang_ru;; <- name;;*);
+    ["Gan Bei"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Мстиславца, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 609-00-24"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.933456,27.65208"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.ganbei.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

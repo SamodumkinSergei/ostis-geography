@@ -1,0 +1,26 @@
+ concept_college_166361516870
+ <- concept_college;
+=>nrel_main_idtf:
+	["Менада"]
+	(* <- lang_ru;; <- name;;*);
+    ["Менада"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Замковая улица, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 105-46-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 17:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.193145,30.204298"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://menada.org/hobbi-klassy/vitebsk"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

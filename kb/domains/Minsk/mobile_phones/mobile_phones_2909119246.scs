@@ -1,0 +1,26 @@
+ concept_mobile_phones_2909119246
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["AppleFox"]
+	(* <- lang_ru;; <- name;;*);
+    ["AppleFox"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Максима Богдановича, 155А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 678-12-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–20:00; сб 11:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.936837,27.580033"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://applefox.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

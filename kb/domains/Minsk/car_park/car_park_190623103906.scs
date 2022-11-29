@@ -1,0 +1,26 @@
+ concept_car_park_190623103906
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Парковка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парковка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["г. Минск, по обе стороны местного проезда от пр. Независимости до ул. Красной"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 338-40-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.914459,27.580787"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://parkouka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

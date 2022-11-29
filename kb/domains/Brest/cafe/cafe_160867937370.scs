@@ -1,0 +1,26 @@
+ concept_cafe_160867937370
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Таполі"]
+	(* <- lang_ru;; <- name;;*);
+    ["Таполі"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица 17 Сентября, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 370-73-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–22:00; сб,вс 11:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.089845,23.692522"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

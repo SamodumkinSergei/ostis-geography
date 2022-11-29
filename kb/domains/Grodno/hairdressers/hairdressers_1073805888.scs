@@ -1,0 +1,26 @@
+ concept_hairdressers_1073805888
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Фантазия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фантазия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Брикеля, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 255-94-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 08:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.701586,23.845566"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

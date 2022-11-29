@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_1007715325
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Гомельхлебпром, производство № 3"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельхлебпром, производство № 3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Димитрова, 13/6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 236-30-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.395227,31.030084"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomelhlebprom.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

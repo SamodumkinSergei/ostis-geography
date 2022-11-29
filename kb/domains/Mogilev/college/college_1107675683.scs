@@ -1,0 +1,26 @@
+ concept_college_1107675683
+ <- concept_college;
+=>nrel_main_idtf:
+	["Могилёвская государственная специализированная школа закрытого типа"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилёвская государственная специализированная школа закрытого типа"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Бялыницкого-Бирули, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 264-33-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912698,30.278603"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogschzt.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

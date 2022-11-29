@@ -1,0 +1,26 @@
+ concept_college_153881731341
+ <- concept_college;
+=>nrel_main_idtf:
+	["Ястригу"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ястригу"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Репина, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 377-46-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:30–20:00; вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.394825,31.032221"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.yastrigy.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

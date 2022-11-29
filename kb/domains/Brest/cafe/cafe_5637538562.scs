@@ -1,0 +1,26 @@
+ concept_cafe_5637538562
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Солоd"]
+	(* <- lang_ru;; <- name;;*);
+    ["Солоd"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Дубровская улица, 7А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 258-40-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–23:00; пт,сб 12:00–00:00; вс 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.125194,23.656412"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://carte.by/brest/solod/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

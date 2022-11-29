@@ -1,0 +1,26 @@
+ concept_drugstores_61089906340
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Зеленая аптека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зеленая аптека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Быховская улица, 112"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 215-02-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.412624,30.972209"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.fito.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

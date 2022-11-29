@@ -1,0 +1,26 @@
+ concept_college_143727577837
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брестский район, Чернинский сельсовет, агрогородок Черни, Пионерская улица, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 294-31-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.149233,23.749397"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://school.cherni.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

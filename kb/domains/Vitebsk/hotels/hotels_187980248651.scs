@@ -1,0 +1,26 @@
+ concept_hotels_187980248651
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Эридан"]
+	(* <- lang_ru;; <- name;;*);
+    ["Эридан"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Советская улица, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 260-44-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.199406,30.205322"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.eridan-vitebsk.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_auto_1014481219
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автодворик"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автодворик"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Прудок, улица Крупской, 135А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 349-01-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.472539,31.009945"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.autodvorik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

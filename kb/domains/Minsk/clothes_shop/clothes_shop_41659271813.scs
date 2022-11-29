@@ -1,0 +1,26 @@
+ concept_clothes_shop_41659271813
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Модамакс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Модамакс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лейтенанта Кижеватова, 78"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 364-48-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.845317,27.533744"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://modamax.by/shops/minsk"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

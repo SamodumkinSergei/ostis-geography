@@ -1,0 +1,26 @@
+ concept_fallback_services_1081742144
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гомельский электромеханический завод"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский электромеханический завод"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Калинина, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 295-25-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.442252,30.98178"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.emz.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

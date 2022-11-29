@@ -1,0 +1,26 @@
+ concept_malls_133950220360
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Уголок"]
+	(* <- lang_ru;; <- name;;*);
+    ["Уголок"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Полиграфистов, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 266-66-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.672638,23.838017"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

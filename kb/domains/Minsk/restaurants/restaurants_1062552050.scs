@@ -1,0 +1,26 @@
+ concept_restaurants_1062552050
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Вестфалия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Вестфалия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Газеты Правда, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 377-93-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.869096,27.486605"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ibb.by/restaurant"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

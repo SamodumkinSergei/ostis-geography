@@ -1,0 +1,26 @@
+ concept_hairdressers_1236711711
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Салон Super Hi-fi"]
+	(* <- lang_ru;; <- name;;*);
+    ["Салон Super Hi-fi"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Октябрьской Революции, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 230-02-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 08:00–20:00; вт 10:00–20:00; ср-вс 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.08145,23.750278"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://superhifi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

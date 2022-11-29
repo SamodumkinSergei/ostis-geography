@@ -1,0 +1,26 @@
+ concept_museum_150885555645
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Мир природы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мир природы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, парк Гомельского дворцово-паркового ансамбля"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 250-95-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–19:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.422084,31.01727"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.palacegomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

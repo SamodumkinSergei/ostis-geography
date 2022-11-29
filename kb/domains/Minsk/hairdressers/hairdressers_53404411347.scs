@@ -1,0 +1,26 @@
+ concept_hairdressers_53404411347
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Семь Образов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Семь Образов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Гурского, 43"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 728-12-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878026,27.496175"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://7obrazov.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

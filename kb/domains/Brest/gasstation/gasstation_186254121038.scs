@@ -1,0 +1,26 @@
+ concept_gasstation_186254121038
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Лукойл"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лукойл"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Карьерная улица, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 248-42-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.065211,23.757623"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.lukoil.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

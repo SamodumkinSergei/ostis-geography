@@ -1,0 +1,26 @@
+ concept_college_216909796143
+ <- concept_college;
+=>nrel_main_idtf:
+	["Архитектура Беларуси"]
+	(* <- lang_ru;; <- name;;*);
+    ["Архитектура Беларуси"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, площадь Труда, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 275-22-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.425904,31.008616"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.arhitektura.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

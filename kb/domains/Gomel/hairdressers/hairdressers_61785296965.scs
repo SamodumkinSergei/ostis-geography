@@ -1,0 +1,26 @@
+ concept_hairdressers_61785296965
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Локон"]
+	(* <- lang_ru;; <- name;;*);
+    ["Локон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Ленина, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 233-17-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 07:00–20:00; вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.430348,30.994586"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://lokongomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

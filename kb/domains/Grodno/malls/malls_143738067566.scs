@@ -1,0 +1,26 @@
+ concept_malls_143738067566
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Panda"]
+	(* <- lang_ru;; <- name;;*);
+    ["Panda"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Карла Маркса, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 904-07-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 11:00–19:00, перерыв 14:00–15:00; вс 11:00–17:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.677878,23.831804"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

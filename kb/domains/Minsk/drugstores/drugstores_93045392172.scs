@@ -1,0 +1,26 @@
+ concept_drugstores_93045392172
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Белфармация аптека № 54 пятой категории"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белфармация аптека № 54 пятой категории"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Национальный аэропорт Минск"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 279-15-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.889242,28.033806"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

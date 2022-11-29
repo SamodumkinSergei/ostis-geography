@@ -1,0 +1,26 @@
+ concept_malls_145219036523
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Мега бренд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мега бренд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Южная улица, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.635031,23.853183"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://secondgrodno.by/pages/yujnaya30.html"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

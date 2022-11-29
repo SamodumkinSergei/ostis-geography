@@ -1,0 +1,26 @@
+ concept_medicine_178224252038
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городской центр трансфузиологии"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городской центр трансфузиологии"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Уральская улица, 5, корп. 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 239-59-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:20"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901201,27.607978"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mcct.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

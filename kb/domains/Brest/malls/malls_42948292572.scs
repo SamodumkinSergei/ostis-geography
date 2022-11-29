@@ -1,0 +1,26 @@
+ concept_malls_42948292572
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Инженерная сантехника"]
+	(* <- lang_ru;; <- name;;*);
+    ["Инженерная сантехника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Ленинский район, микрорайон Граевка"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 245-07-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.123798,23.698637"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brestkomplekt.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

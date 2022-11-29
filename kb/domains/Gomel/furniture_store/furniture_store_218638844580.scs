@@ -1,0 +1,26 @@
+ concept_furniture_store_218638844580
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Прогресс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Прогресс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Залинейный, Лещинская улица, 49/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 234-18-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:20–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.424055,30.982073"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://progres.gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_cafe_1300984080
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Golden Coffee"]
+	(* <- lang_ru;; <- name;;*);
+    ["Golden Coffee"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Толбухина, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 575-44-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.926472,27.614334"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.goldencoffee.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

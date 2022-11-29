@@ -1,0 +1,26 @@
+ concept_malls_65890267353
+ <- concept_malls;
+=>nrel_main_idtf:
+	["ТЦ Green"]
+	(* <- lang_ru;; <- name;;*);
+    ["ТЦ Green"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 182"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 357-00-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.849374,27.700205"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://green-market.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

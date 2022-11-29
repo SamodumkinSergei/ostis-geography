@@ -1,0 +1,26 @@
+ concept_medicine_1214537915
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Седьмое небо"]
+	(* <- lang_ru;; <- name;;*);
+    ["Седьмое небо"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Филимонова, 53"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 649-49-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–21:00; вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.924132,27.633127"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.7nebo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

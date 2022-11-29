@@ -1,0 +1,26 @@
+ concept_hotels_1319318701
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Geo"]
+	(* <- lang_ru;; <- name;;*);
+    ["Geo"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Прудок, 1-й переулок Крупской, 1Д"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 584-22-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.467447,31.004436"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

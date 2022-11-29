@@ -1,0 +1,26 @@
+ concept_restaurants_157986340519
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Баклажан"]
+	(* <- lang_ru;; <- name;;*);
+    ["Баклажан"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Комсомольская улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 766-46-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:00–00:00; пт,сб 11:00–02:00; вс 11:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903264,27.551452"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://chaihana-minsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

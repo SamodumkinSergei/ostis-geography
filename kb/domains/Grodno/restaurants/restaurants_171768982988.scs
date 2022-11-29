@@ -1,0 +1,26 @@
+ concept_restaurants_171768982988
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Piazzetta Italiana"]
+	(* <- lang_ru;; <- name;;*);
+    ["Piazzetta Italiana"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Янки Купалы, 87"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 397-88-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.649714,23.85518"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://carte.by/grodno/piazetta/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

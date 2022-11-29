@@ -1,0 +1,26 @@
+ concept_concert_hall_1079280077
+ <- concept_concert_hall;
+=>nrel_main_idtf:
+	["Brutto"]
+	(* <- lang_ru;; <- name;;*);
+    ["Brutto"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петруся Бровки, 3, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 876-87-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–00:00; пт 09:00–06:00; сб 12:00–06:00; вс 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916038,27.597905"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

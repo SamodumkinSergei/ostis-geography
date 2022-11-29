@@ -1,0 +1,26 @@
+ concept_kindergarten_1052131992
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Санаторный ясли-сад № 560"]
+	(* <- lang_ru;; <- name;;*);
+    ["Санаторный ясли-сад № 560"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Рафиева, 47"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 270-14-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.862255,27.451076"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu560.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

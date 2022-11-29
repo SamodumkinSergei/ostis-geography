@@ -1,0 +1,26 @@
+ concept_bus_stop_85850025730
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Больница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Больница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Дворникова, 80"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.454972,30.978355"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_medicine_99718034137
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гродненская университетская клиника, радиологический корпус"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненская университетская клиника, радиологический корпус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, бульвар Ленинского Комсомола, 52/9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 243-37-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.693398,23.795001"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gocb.by/ru"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

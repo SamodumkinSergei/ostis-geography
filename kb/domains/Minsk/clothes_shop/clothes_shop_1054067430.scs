@@ -1,0 +1,26 @@
+ concept_clothes_shop_1054067430
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Валерий и Компания"]
+	(* <- lang_ru;; <- name;;*);
+    ["Валерий и Компания"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Щомыслицкий сельсовет, Щомыслица, улица Жуковского, 85А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 366-07-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.817243,27.442561"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://v-company.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

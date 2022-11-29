@@ -1,0 +1,26 @@
+ concept_clothes_shop_31027296516
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Эконом Сити"]
+	(* <- lang_ru;; <- name;;*);
+    ["Эконом Сити"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 220-14-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.390002,31.030061"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://secondhand.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_orthodox_church_1172750040
+ <- concept_orthodox_church;
+=>nrel_main_idtf:
+	["Храм в честь Рождества Христова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Храм в честь Рождества Христова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Курчатова, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 784-55-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,вт 09:00–17:00; ср 08:00–19:00; чт 09:00–17:00; пт 08:00–19:00; сб 08:00–20:00; вс 08:00–18:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.708707,23.845143"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://orthos.org/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

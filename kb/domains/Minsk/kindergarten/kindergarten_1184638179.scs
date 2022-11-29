@@ -1,0 +1,26 @@
+ concept_kindergarten_1184638179
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 50"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 50"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Уральская улица, 9А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 245-20-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902411,27.614541"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu50.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

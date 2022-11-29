@@ -1,0 +1,26 @@
+ concept_drugstores_110719621946
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Белфармация, аптека № 36"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белфармация, аптека № 36"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Центральный район, микрорайон Новинки, улица Выготского, 45"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 342-33-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–21:00, перерывы 15:40–16:00, 18:00–18:20; сб,вс 10:00–20:00, перерывы 14:00–14:20, 16:00–16:20"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.958549,27.551419"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

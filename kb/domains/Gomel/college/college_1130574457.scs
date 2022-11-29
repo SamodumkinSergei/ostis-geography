@@ -1,0 +1,26 @@
+ concept_college_1130574457
+ <- concept_college;
+=>nrel_main_idtf:
+	["Лицей речного флота"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лицей речного флота"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Кирова, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 229-57-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.431344,31.005201"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ggptu30.gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

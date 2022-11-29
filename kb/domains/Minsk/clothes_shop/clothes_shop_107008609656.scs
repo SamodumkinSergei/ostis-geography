@@ -1,0 +1,26 @@
+ concept_clothes_shop_107008609656
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Адзенне"]
+	(* <- lang_ru;; <- name;;*);
+    ["Адзенне"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, проспект Рокоссовского, 150Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 347-49-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб,вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.854946,27.610731"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.second-hand.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_hairdressers_105942802391
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Ваша парикмахерская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ваша парикмахерская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Сурганова, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 728-82-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 09:00–18:00; вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919916,30.315147"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

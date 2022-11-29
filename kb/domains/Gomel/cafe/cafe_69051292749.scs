@@ -1,0 +1,26 @@
+ concept_cafe_69051292749
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кофейня 1505"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кофейня 1505"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 139-62-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–22:00; пт,сб 09:00–23:00; вс 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.425501,31.014963"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://1505-coffee-shop.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

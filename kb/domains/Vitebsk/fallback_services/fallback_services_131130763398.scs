@@ -1,0 +1,26 @@
+ concept_fallback_services_131130763398
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Каменная роза"]
+	(* <- lang_ru;; <- name;;*);
+    ["Каменная роза"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Терешковой, 9Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 228-70-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00; сб 10:00–16:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.181752,30.249848"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://k-r.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

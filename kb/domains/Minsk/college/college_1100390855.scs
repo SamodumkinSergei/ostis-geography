@@ -1,0 +1,26 @@
+ concept_college_1100390855
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 76"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 76"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Беломорская улица, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 292-46-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.924309,27.586936"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch76.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

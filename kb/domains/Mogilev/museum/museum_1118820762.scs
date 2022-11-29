@@ -1,0 +1,26 @@
+ concept_museum_1118820762
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Дом культуры Моготекс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дом культуры Моготекс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Гришина, 87А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 273-70-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.92376,30.373246"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.mogotex.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

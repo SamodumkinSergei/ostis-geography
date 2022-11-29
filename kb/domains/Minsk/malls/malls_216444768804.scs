@@ -1,0 +1,26 @@
+ concept_malls_216444768804
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Favorito.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Favorito.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907187,27.484635"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://favorito.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

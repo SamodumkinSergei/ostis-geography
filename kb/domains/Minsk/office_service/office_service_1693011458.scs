@@ -1,0 +1,26 @@
+ concept_office_service_1693011458
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Shop.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Shop.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Кальварийская улица, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 145-77-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905912,27.529474"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://shop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

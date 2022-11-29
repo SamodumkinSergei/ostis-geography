@@ -1,0 +1,26 @@
+ concept_malls_46596906722
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Арт маркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Арт маркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Веры Хоружей, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 500-40-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916125,27.579464"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://artgraffiti.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_banks_121704195774
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Беларусбанк, обменный пункт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Беларусбанк, обменный пункт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Привокзальная площадь, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 210-47-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00, перерыв 15:30–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.891076,27.549685"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://belarusbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

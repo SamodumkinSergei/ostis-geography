@@ -1,0 +1,26 @@
+ concept_restaurants_1057032168
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Чисто пивной ресторанчик"]
+	(* <- lang_ru;; <- name;;*);
+    ["Чисто пивной ресторанчик"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Братьев Лизюковых, 4А/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 193-93-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–01:00; пт,сб 12:00–03:00; вс 12:00–01:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.404333,30.960543"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://4isto.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

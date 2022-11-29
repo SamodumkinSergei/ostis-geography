@@ -1,0 +1,26 @@
+ concept_museum_1232626404
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Стена"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стена"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 292-00-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 12:00–19:00; вс 12:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.188669,30.205262"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

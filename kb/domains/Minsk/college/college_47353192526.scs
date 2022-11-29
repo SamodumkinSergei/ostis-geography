@@ -1,0 +1,26 @@
+ concept_college_47353192526
+ <- concept_college;
+=>nrel_main_idtf:
+	["Кафедра оздоровительной физической культуры БГУФК"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафедра оздоровительной физической культуры БГУФК"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 105"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 369-74-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:15–17:00, перерыв 13:00–13:30; пт 08:15–15:35"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.935905,27.489611"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.sportedu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

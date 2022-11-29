@@ -1,0 +1,26 @@
+ concept_kindergarten_1021200785
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 26"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 26"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Кондратьева, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 226-33-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.200614,30.19183"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sad26vitebsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

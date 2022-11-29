@@ -1,0 +1,26 @@
+ concept_auto_91220421029
+ <- concept_auto;
+=>nrel_main_idtf:
+	["АвтоТехКлиника"]
+	(* <- lang_ru;; <- name;;*);
+    ["АвтоТехКлиника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Дворникова, 87"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 188-69-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.455039,30.980439"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

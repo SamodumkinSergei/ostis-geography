@@ -1,0 +1,26 @@
+ concept_government_1023401853
+ <- concept_government;
+=>nrel_main_idtf:
+	["Газ-Клиент-Офис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Газ-Клиент-Офис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Терешковой, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 566-66-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.177647,30.247067"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

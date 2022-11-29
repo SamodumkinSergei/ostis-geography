@@ -1,0 +1,26 @@
+ concept_sportcenter_155934899871
+ <- concept_sportcenter;
+=>nrel_main_idtf:
+	["Билли Джойс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Билли Джойс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Гурского, 43А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 677-61-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–01:00; пт 12:00–03:00; сб 10:00–03:00; вс 10:00–01:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.87749,27.496265"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

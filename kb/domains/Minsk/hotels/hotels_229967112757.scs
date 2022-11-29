@@ -1,0 +1,26 @@
+ concept_hotels_229967112757
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Easy Stay. No Problem"]
+	(* <- lang_ru;; <- name;;*);
+    ["Easy Stay. No Problem"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Жудро, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 900-33-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.914472,27.480294"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://hostelminsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_97005703003
+ <- concept_college;
+=>nrel_main_idtf:
+	["Воскресная школа"]
+	(* <- lang_ru;; <- name;;*);
+    ["Воскресная школа"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Замковая улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 719-67-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вс 10:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.191796,30.200636"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitprav.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

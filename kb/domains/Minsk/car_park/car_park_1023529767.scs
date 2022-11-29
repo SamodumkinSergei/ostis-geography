@@ -1,0 +1,26 @@
+ concept_car_park_1023529767
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автостоянка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостоянка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кабушкина, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 380-20-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 05:00–01:00, перерыв 09:00–09:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.865554,27.644915"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://upgaip.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

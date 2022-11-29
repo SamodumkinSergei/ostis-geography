@@ -1,0 +1,26 @@
+ concept_malls_110391943041
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Спортмастер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Спортмастер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Куйбышева, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["8 (801) 100-47-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.096345,23.691315"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.sportmaster.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

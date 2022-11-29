@@ -1,0 +1,26 @@
+ concept_hotels_39356798211
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Гостиница Цор по Гребле"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гостиница Цор по Гребле"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Октябрьской Революции, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 248-59-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.08242,23.74228"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

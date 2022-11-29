@@ -1,0 +1,26 @@
+ concept_dental_1034364838
+ <- concept_dental;
+=>nrel_main_idtf:
+	["Витебский областной клинический стоматологический центр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебский областной клинический стоматологический центр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Шрадера, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 210-22-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:00–16:20"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.186563,30.208441"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vosp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

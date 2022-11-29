@@ -1,0 +1,26 @@
+ concept_college_58710303330
+ <- concept_college;
+=>nrel_main_idtf:
+	["Научно-исследовательский институт строительных материалов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Научно-исследовательский институт строительных материалов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кузьмы Минина, 23/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 374-97-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.870493,27.507341"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.niism.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

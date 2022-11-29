@@ -1,0 +1,26 @@
+ concept_cafe_118888514998
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кофейня"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кофейня"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Гикало, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.915977,27.587895"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

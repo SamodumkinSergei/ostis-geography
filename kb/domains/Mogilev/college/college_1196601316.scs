@@ -1,0 +1,26 @@
+ concept_college_1196601316
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 26 города Могилёва"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 26 города Могилёва"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Строителей, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 224-31-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 08:00–17:00, перерыв 13:00–14:00; вт 11:00–20:00, перерыв 13:00–14:00; ср-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906965,30.292502"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sosh26.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

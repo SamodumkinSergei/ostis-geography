@@ -1,0 +1,26 @@
+ concept_cafe_223015255611
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Слэш"]
+	(* <- lang_ru;; <- name;;*);
+    ["Слэш"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Глебки, 118"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 564-77-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:00–23:00; пт-вс 11:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.927259,27.48145"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

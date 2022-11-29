@@ -1,0 +1,26 @@
+ concept_hotels_161144663965
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Хостел"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хостел"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Заслонова, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 264-31-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903684,30.287812"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

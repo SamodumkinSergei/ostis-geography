@@ -1,0 +1,26 @@
+ concept_fast_food_1111727791
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Над Сожем"]
+	(* <- lang_ru;; <- name;;*);
+    ["Над Сожем"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Трудовая улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 273-02-28"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.425665,31.013576"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

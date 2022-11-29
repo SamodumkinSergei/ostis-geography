@@ -1,0 +1,26 @@
+ concept_hypermarket_234290367617
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["7745.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["7745.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Румлёвский проспект, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 512-77-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.666959,23.859873"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://7745.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

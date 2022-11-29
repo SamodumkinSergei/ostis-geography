@@ -1,0 +1,26 @@
+ concept_government_1099288196
+ <- concept_government;
+=>nrel_main_idtf:
+	["Министерство финансов Республики Беларусь по Могилевской области, Главное управление"]
+	(* <- lang_ru;; <- name;;*);
+    ["Министерство финансов Республики Беларусь по Могилевской области, Главное управление"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Мира, 18А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 276-12-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909606,30.338766"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://minfin.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

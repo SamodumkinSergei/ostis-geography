@@ -1,0 +1,26 @@
+ concept_restaurants_113176017840
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Форно"]
+	(* <- lang_ru;; <- name;;*);
+    ["Форно"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, 1-я Трудовая улица, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 744-49-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–23:00; пт,сб 12:00–00:00; вс 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.680962,23.827416"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://forno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

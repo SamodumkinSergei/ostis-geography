@@ -1,0 +1,26 @@
+ concept_furniture_store_1098555978
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Гомельдрев"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельдрев"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Достоевского, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 642-35-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:00–17:00, перерыв 12:30–13:15; пт 08:00–15:45, перерыв 12:30–13:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.385253,31.021027"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gomeldrev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

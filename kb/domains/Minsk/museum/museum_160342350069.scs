@@ -1,0 +1,26 @@
+ concept_museum_160342350069
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Дом культуры"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дом культуры"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, городской посёлок Мачулищи, улица Героев, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.780295,27.594791"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.culture-m.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

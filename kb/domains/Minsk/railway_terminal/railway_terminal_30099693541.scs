@@ -1,0 +1,26 @@
+ concept_railway_terminal_30099693541
+ <- concept_railway_terminal;
+=>nrel_main_idtf:
+	["Минский железнодорожный вокзал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский железнодорожный вокзал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Привокзальная площадь, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.890518,27.552199"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://minsk.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_office_service_201334152046
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Областная радиотелевизионная передающая станция Брест"]
+	(* <- lang_ru;; <- name;;*);
+    ["Областная радиотелевизионная передающая станция Брест"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Куйбышева, 62"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 258-06-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.091702,23.69623"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

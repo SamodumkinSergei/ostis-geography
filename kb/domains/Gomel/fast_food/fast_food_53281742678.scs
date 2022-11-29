@@ -1,0 +1,26 @@
+ concept_fast_food_53281742678
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Сахара"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сахара"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 58"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 967-44-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.43928,31.004319"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

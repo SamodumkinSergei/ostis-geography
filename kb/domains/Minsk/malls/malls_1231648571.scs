@@ -1,0 +1,26 @@
+ concept_malls_1231648571
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Coolman"]
+	(* <- lang_ru;; <- name;;*);
+    ["Coolman"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кульман, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 552-30-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919997,27.582581"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://coolman.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

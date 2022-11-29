@@ -1,0 +1,26 @@
+ concept_clothes_shop_85453856629
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Brand shop"]
+	(* <- lang_ru;; <- name;;*);
+    ["Brand shop"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Космонавтов, 81"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 617-80-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.672781,23.862691"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bshop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

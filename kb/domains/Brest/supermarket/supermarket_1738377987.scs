@@ -1,0 +1,26 @@
+ concept_supermarket_1738377987
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Корона"]
+	(* <- lang_ru;; <- name;;*);
+    ["Корона"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, микрорайон Южный, улица Пуганова, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 253-53-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.054687,23.72567"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://korona.by/hypermarkets/shops/supermarket-korona-puganova-4"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

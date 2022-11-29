@@ -1,0 +1,26 @@
+ concept_drugstores_2910680293
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 79/1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 79/1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Комиссарова, 13/9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 587-88-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:30, перерыв 13:30–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.417165,31.011236"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomelpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

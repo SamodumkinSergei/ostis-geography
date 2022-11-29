@@ -1,0 +1,26 @@
+ concept_baby_shop_175503771662
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Грай"]
+	(* <- lang_ru;; <- name;;*);
+    ["Грай"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Веры Хоружей, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 333-35-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919431,27.574084"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://buyandgrai.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_malls_215948603645
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Пассаж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пассаж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Космонавтов, 81А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 332-01-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.673417,23.864393"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dveri-poly.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

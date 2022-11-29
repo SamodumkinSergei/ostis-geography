@@ -1,0 +1,26 @@
+ concept_museum_1282607868
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Гомельский областной музей истории образования"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский областной музей истории образования"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Юбилейная улица, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 233-93-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.456956,31.000757"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.iro.gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

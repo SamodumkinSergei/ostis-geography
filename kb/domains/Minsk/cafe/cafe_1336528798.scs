@@ -1,0 +1,26 @@
+ concept_cafe_1336528798
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Столовая № 1 Бгас"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столовая № 1 Бгас"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Франциска Скорины, 8, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:30–16:00; пт 11:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.924018,27.666931"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

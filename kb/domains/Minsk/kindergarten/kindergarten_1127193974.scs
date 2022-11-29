@@ -1,0 +1,26 @@
+ concept_kindergarten_1127193974
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли- сад № 288"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли- сад № 288"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Болеслава Берута, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 397-19-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90528,27.500632"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu288.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

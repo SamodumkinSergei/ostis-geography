@@ -1,0 +1,26 @@
+ concept_hotels_1134046437
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Hermitage"]
+	(* <- lang_ru;; <- name;;*);
+    ["Hermitage"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Чкалова, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 327-40-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.094076,23.681375"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://hermitagehotel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

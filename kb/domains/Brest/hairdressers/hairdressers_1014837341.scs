@@ -1,0 +1,26 @@
+ concept_hairdressers_1014837341
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Локон"]
+	(* <- lang_ru;; <- name;;*);
+    ["Локон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Ленина, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 399-01-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00; вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.09484,23.683722"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://lokon.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

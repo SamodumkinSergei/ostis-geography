@@ -1,0 +1,26 @@
+ concept_hotels_1193705094
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Юбилейный"]
+	(* <- lang_ru;; <- name;;*);
+    ["Юбилейный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 226-90-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.9112,27.546342"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.yhotel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

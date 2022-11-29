@@ -1,0 +1,26 @@
+ concept_malls_1280612861
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Ромис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ромис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, 1-я улица Жореса, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 266-33-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00; сб 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.202728,30.194237"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://romis.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

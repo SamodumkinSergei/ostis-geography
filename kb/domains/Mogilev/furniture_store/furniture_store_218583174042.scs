@@ -1,0 +1,26 @@
+ concept_furniture_store_218583174042
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Лавка мебели"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лавка мебели"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Праздничный переулок, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 112-97-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.940631,30.316802"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://lavkamebeli.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

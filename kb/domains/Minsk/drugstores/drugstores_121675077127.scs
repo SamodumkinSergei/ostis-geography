@@ -1,0 +1,26 @@
+ concept_drugstores_121675077127
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Белфармация, аптека № 21"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белфармация, аптека № 21"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 30к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 257-41-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–20:30, перерыв 15:00–15:30; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.87749,27.613481"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

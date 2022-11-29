@@ -1,0 +1,26 @@
+ concept_college_1207742274
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 98"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 98"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Яна Райниса, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 364-05-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.876061,27.608643"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch98.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

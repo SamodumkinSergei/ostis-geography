@@ -1,0 +1,26 @@
+ concept_banks_82166125872
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Белорусский народный банк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусский народный банк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Советская улица, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 309-73-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 10:00–16:00, перерыв 13:30–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.093704,23.692538"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://bnb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_car_park_40991844666
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Паркинг ТРЦ Galleria"]
+	(* <- lang_ru;; <- name;;*);
+    ["Паркинг ТРЦ Galleria"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Димитрова, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 555-74-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909862,27.545832"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://galleria-minsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

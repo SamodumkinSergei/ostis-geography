@@ -1,0 +1,26 @@
+ concept_bus_stop_77911909347
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Поколюбичи-переезд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Поколюбичи-переезд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельская область, Р-30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.489924,31.020365"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

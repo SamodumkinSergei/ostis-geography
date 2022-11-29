@@ -1,0 +1,26 @@
+ concept_college_1005744061
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 2 г. Гомеля имени Г. М. Склезнева"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 2 г. Гомеля имени Г. М. Склезнева"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 53"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 255-90-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.39038,31.029508"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

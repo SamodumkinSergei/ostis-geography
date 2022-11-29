@@ -1,0 +1,26 @@
+ concept_drugstores_107466041699
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["ADEL"]
+	(* <- lang_ru;; <- name;;*);
+    ["ADEL"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Бобруйская улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 683-87-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.890157,27.555536"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://apteka-adel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

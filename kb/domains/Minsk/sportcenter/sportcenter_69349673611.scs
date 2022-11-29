@@ -1,0 +1,26 @@
+ concept_sportcenter_69349673611
+ <- concept_sportcenter;
+=>nrel_main_idtf:
+	["Billia"]
+	(* <- lang_ru;; <- name;;*);
+    ["Billia"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Колесникова, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 342-90-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–07:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.92136,27.437028"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://billia-rd.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

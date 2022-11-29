@@ -1,0 +1,26 @@
+ concept_hotels_236133182866
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Urban Hostel"]
+	(* <- lang_ru;; <- name;;*);
+    ["Urban Hostel"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Архитектора Заборского, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 381-70-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910659,27.557779"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://urban.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

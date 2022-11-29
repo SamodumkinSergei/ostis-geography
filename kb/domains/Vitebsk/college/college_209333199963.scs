@@ -1,0 +1,26 @@
+ concept_college_209333199963
+ <- concept_college;
+=>nrel_main_idtf:
+	["Оскар"]
+	(* <- lang_ru;; <- name;;*);
+    ["Оскар"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Зеньковой, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 950-77-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.191587,30.189143"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitebsk.oscarschools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

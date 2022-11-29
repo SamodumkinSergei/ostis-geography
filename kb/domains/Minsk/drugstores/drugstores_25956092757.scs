@@ -1,0 +1,26 @@
+ concept_drugstores_25956092757
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Столичная аптека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столичная аптека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Логойский тракт, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 395-57-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.955476,27.620057"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

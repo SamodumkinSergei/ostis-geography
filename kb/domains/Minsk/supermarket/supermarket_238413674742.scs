@@ -1,0 +1,26 @@
+ concept_supermarket_238413674742
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["ЛегионМаркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["ЛегионМаркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тухачевского, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 392-83-97"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.869148,27.623188"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

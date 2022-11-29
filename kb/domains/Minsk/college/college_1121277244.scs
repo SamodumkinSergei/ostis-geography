@@ -1,0 +1,26 @@
+ concept_college_1121277244
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 186"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 186"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Алеся Бачило, 38"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 344-12-71"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.845079,27.699775"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch186.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

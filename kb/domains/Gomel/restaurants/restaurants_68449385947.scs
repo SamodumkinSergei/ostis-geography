@@ -1,0 +1,26 @@
+ concept_restaurants_68449385947
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Burger King"]
+	(* <- lang_ru;; <- name;;*);
+    ["Burger King"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Хатаевича, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 659-76-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.44546,31.017268"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://burger-king.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

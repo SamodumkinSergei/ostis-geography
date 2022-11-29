@@ -1,0 +1,26 @@
+ concept_medicine_1054955239
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Республиканский научно-практический центр Кардиология"]
+	(* <- lang_ru;; <- name;;*);
+    ["Республиканский научно-практический центр Кардиология"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Розы Люксембург, 110Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 213-50-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.891274,27.516666"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.cardio.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

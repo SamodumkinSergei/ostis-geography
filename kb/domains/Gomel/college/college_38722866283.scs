@@ -1,0 +1,26 @@
+ concept_college_38722866283
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гомельский государственный медицинский университет, факультет повышения квалификации"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский государственный медицинский университет, факультет повышения квалификации"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ланге, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 232-97-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.427959,31.015792"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gsmu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

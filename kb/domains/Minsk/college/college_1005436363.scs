@@ -1,0 +1,26 @@
+ concept_college_1005436363
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 203"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 203"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Городецкая улица, 54"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 286-42-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.946843,27.671772"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://203minsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

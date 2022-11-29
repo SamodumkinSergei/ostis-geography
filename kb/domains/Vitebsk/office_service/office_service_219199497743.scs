@@ -1,0 +1,26 @@
+ concept_office_service_219199497743
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Витебск-табак"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебск-табак"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 399-31-71"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.194569,30.206858"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://energooil.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

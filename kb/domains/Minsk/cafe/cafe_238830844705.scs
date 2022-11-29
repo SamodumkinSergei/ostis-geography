@@ -1,0 +1,26 @@
+ concept_cafe_238830844705
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Tasty Room"]
+	(* <- lang_ru;; <- name;;*);
+    ["Tasty Room"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Старовиленский тракт, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 650-92-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–21:00; пт 09:00–22:00; сб 10:00–22:00; вс 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.922803,27.550202"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://tasty-room.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

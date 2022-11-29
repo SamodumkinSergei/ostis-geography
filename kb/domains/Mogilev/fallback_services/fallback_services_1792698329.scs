@@ -1,0 +1,26 @@
+ concept_fallback_services_1792698329
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Память"]
+	(* <- lang_ru;; <- name;;*);
+    ["Память"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, бульвар Непокорённых, 34А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 587-88-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.874556,30.336475"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://my-pamyat.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

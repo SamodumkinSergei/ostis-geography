@@ -1,0 +1,26 @@
+ concept_fallback_services_89527770304
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Sushi House"]
+	(* <- lang_ru;; <- name;;*);
+    ["Sushi House"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Змитрока Бядули, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 668-11-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907461,27.583298"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sushihouse.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

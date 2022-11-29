@@ -1,0 +1,26 @@
+ concept_medicine_63934942097
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Mustamäe Polikliinik"]
+	(* <- lang_ru;; <- name;;*);
+    ["Mustamäe Polikliinik"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Таллинн, улица Эхитаятэ, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+372  659 83 18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["59.40011,24.66909"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.perearstikeskus.net/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_clothes_shop_148609305750
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Roroc.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Roroc.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ржавецкая улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 777-24-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.936242,27.462466"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://roroc.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

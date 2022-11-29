@@ -1,0 +1,26 @@
+ concept_drugstores_1035531141
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Центральная аптека № 9 Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Центральная аптека № 9 Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельская область, Ветка, улица Батракова, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 302-35-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 09:00–17:00; вс 09:00–17:30, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.566006,31.171235"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomelpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

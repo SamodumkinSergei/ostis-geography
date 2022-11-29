@@ -1,0 +1,26 @@
+ concept_college_137611634839
+ <- concept_college;
+=>nrel_main_idtf:
+	["Белорусский государственный университет информатики и радиоэлектроники, учебный корпус № 6"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусский государственный университет информатики и радиоэлектроники, учебный корпус № 6"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петруся Бровки, 4А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 293-80-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.918098,27.593916"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bsuir.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

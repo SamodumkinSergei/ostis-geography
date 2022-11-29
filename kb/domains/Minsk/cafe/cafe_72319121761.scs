@@ -1,0 +1,26 @@
+ concept_cafe_72319121761
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Скиф"]
+	(* <- lang_ru;; <- name;;*);
+    ["Скиф"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Фрунзе, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 304-86-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:00–00:00; пт 11:00–01:00; сб 12:00–01:00; вс 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906874,27.573516"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://cafeskif.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

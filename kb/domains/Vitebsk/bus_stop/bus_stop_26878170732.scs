@@ -1,0 +1,26 @@
+ concept_bus_stop_26878170732
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Московская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Московская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Петруся Бровки"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.175193,30.243945"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

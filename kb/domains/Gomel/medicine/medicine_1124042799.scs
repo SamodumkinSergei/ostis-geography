@@ -1,0 +1,26 @@
+ concept_medicine_1124042799
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гомельская областная инфекционная клиническая больница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельская областная инфекционная клиническая больница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Федюнинского, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 235-79-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.488458,30.986346"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://uzgoikb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

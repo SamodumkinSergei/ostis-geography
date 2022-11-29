@@ -1,0 +1,26 @@
+ concept_college_53519474370
+ <- concept_college;
+=>nrel_main_idtf:
+	["Белорусский торгово-экономический университет потребительской кооперации, факультет экономики и управления"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусский торгово-экономический университет потребительской кооперации, факультет экономики и управления"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Октября, 50"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 250-03-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.405791,30.935061"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://i-bteu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

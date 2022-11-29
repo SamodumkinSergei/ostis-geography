@@ -1,0 +1,26 @@
+ concept_auto_1122702300
+ <- concept_auto;
+=>nrel_main_idtf:
+	["СТО Беластр"]
+	(* <- lang_ru;; <- name;;*);
+    ["СТО Беластр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Масюковщина, 2А, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 636-09-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.936105,27.430191"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://belastr.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

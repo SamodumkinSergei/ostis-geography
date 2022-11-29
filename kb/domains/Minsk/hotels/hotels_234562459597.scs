@@ -1,0 +1,26 @@
+ concept_hotels_234562459597
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Райский сад"]
+	(* <- lang_ru;; <- name;;*);
+    ["Райский сад"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Новодворский сельсовет, агрогородок Новый Двор, 53"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 629-92-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.81498,27.653154"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://райскийсад.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

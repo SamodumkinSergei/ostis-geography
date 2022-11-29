@@ -1,0 +1,26 @@
+ concept_malls_1100569856
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Характер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Характер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Максима Танка, 10Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 190-35-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–20:00; вс 11:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907112,27.537291"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://atmosfera.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

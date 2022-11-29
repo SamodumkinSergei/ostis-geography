@@ -1,0 +1,26 @@
+ concept_drugstores_1744797207
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация № 9/1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация № 9/1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельская область, Ветка, улица Заслонова, 1Д"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт,ср,чт,пт,вс 09:00–19:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.568522,31.168539"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomel.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_malls_1108524168
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Пятерочка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пятерочка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Речицкий проспект, 65"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 242-09-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.40796,30.928066"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

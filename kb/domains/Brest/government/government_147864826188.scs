@@ -1,0 +1,26 @@
+ concept_government_147864826188
+ <- concept_government;
+=>nrel_main_idtf:
+	["Главное управление по образованию Брестского облисполкома"]
+	(* <- lang_ru;; <- name;;*);
+    ["Главное управление по образованию Брестского облисполкома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Ленина, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 246-64-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.094051,23.683988"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brest-edu.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

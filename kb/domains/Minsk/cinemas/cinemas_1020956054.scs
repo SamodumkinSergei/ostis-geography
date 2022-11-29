@@ -1,0 +1,26 @@
+ concept_cinemas_1020956054
+ <- concept_cinemas;
+=>nrel_main_idtf:
+	["Салют"]
+	(* <- lang_ru;; <- name;;*);
+    ["Салют"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, проспект Рокоссовского, 150А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 378-41-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.855356,27.61027"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kinominska.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

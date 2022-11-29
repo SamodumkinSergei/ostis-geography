@@ -1,0 +1,26 @@
+ concept_drugstores_150898584514
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 94"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 94"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Пушкина, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.691585,23.835376"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

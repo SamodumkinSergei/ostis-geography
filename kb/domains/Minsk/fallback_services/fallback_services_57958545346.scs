@@ -1,0 +1,26 @@
+ concept_fallback_services_57958545346
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Памятники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Авакяна, 30А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 677-71-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.875724,27.541845"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://granit-minsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

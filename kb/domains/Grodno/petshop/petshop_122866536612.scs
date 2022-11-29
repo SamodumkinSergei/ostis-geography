@@ -1,0 +1,26 @@
+ concept_petshop_122866536612
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Зоосфера"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зоосфера"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, микрорайон Форты-1, улица Врублевского, 5А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 783-54-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.701641,23.80814"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://zoosfera.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

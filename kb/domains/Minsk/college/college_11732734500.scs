@@ -1,0 +1,26 @@
+ concept_college_11732734500
+ <- concept_college;
+=>nrel_main_idtf:
+	["БГПУ имени Максима Танка учебный корпус № 11"]
+	(* <- lang_ru;; <- name;;*);
+    ["БГПУ имени Максима Танка учебный корпус № 11"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кабушкина, 59А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 341-26-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–20:00; сб 07:30–19:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.860202,27.635506"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://bspu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

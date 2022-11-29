@@ -1,0 +1,26 @@
+ concept_drugstores_89534953127
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Альфа аптека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Альфа аптека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 52"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 399-12-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–22:00; сб,вс 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916077,27.585082"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

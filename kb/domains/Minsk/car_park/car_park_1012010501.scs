@@ -1,0 +1,26 @@
+ concept_car_park_1012010501
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Лада-89"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лада-89"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Пономаренко, 75/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 205-07-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.893228,27.46851"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

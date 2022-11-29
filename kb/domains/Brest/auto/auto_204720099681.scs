@@ -1,0 +1,26 @@
+ concept_auto_204720099681
+ <- concept_auto;
+=>nrel_main_idtf:
+	["ЮВКом"]
+	(* <- lang_ru;; <- name;;*);
+    ["ЮВКом"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Белорусская улица, 18/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 725-10-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00, перерыв 13:00–14:00; сб 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.116029,23.666517"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://uvkom.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

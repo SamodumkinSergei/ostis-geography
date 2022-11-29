@@ -1,0 +1,26 @@
+ concept_medicine_58537350229
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Минская областная клиническая больница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минская областная клиническая больница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Боровлянский сельсовет, Лесной"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 517-77-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.004068,27.687594"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://minsk-okb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_banks_1120898841
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Paritetbank"]
+	(* <- lang_ru;; <- name;;*);
+    ["Paritetbank"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Гамарника, 9, корп. 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:35–19:15; сб 09:40–15:40"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.955628,27.611401"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://paritetbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

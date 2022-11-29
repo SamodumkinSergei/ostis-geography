@@ -1,0 +1,26 @@
+ concept_car_park_57567211033
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автостоянка № 35"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостоянка № 35"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Слободская улица, 74"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 380-20-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 05:00–01:00, перерыв 09:00–09:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.851373,27.43667"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://upgaip.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

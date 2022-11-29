@@ -1,0 +1,26 @@
+ concept_college_113283388746
+ <- concept_college;
+=>nrel_main_idtf:
+	["Институт дополнительного образования БГУ, учебный центр доуниверситетской подготовки"]
+	(* <- lang_ru;; <- name;;*);
+    ["Институт дополнительного образования БГУ, учебный центр доуниверситетской подготовки"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Академическая улица, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 284-00-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 13:00–14:00; пт 08:30–16:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916445,27.602158"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://fpuedu.bsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

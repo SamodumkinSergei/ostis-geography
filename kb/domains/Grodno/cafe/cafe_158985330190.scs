@@ -1,0 +1,26 @@
+ concept_cafe_158985330190
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Столовая"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столовая"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Дзержинского, 41к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 311-45-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 12:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.698266,23.841123"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ggpek.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

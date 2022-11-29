@@ -1,0 +1,26 @@
+ concept_supermarket_9894516737
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Кафетерий"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафетерий"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чкалова, 14В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.176722,30.219738"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

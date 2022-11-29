@@ -1,0 +1,26 @@
+ concept_railway_terminal_169099796175
+ <- concept_railway_terminal;
+=>nrel_main_idtf:
+	["Багажное отделение станции Минск-пассажирский Минского отделения БЖД"]
+	(* <- lang_ru;; <- name;;*);
+    ["Багажное отделение станции Минск-пассажирский Минского отделения БЖД"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Вокзальная улица, 9А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 225-67-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00, перерыв 13:00–14:00; сб,вс 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.888726,27.552934"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

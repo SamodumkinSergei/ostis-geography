@@ -1,0 +1,26 @@
+ concept_fallback_services_24619222905
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гранитная мастерская Илья Гран"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гранитная мастерская Илья Гран"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурганова, 74"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 127-61-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 11:00–21:00, перерыв 13:30–14:00; сб 10:00–16:00, перерыв 13:30–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.93073,27.581486"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ilya-gran.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

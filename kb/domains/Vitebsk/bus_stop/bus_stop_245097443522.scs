@@ -1,0 +1,26 @@
+ concept_bus_stop_245097443522
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Фармацевтическое предприятие Рубикон"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармацевтическое предприятие Рубикон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Максима Горького, 62, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.172708,30.155363"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

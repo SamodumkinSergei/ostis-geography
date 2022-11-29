@@ -1,0 +1,26 @@
+ concept_college_1303294153
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 175"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 175"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лобанка, 84"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 254-04-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.890952,27.423313"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch175.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

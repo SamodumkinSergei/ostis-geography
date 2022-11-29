@@ -1,0 +1,26 @@
+ concept_clothes_shop_50944935081
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Эконом Сити"]
+	(* <- lang_ru;; <- name;;*);
+    ["Эконом Сити"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Якуба Коласа, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 338-31-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–20:00; вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.92467,27.591695"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://secondhand.by/shop-20.html"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_office_service_1124129418
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Белтерминал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белтерминал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Лейтенанта Рябцева, 44"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.117542,23.668329"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://belterminal.epfr.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

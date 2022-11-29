@@ -1,0 +1,26 @@
+ concept_fast_food_117514321565
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Kokos street food"]
+	(* <- lang_ru;; <- name;;*);
+    ["Kokos street food"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Богдана Хмельницкого, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 720-56-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.922726,27.596762"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_tailor_87812867945
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Мастерская по ремонту обуви"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мастерская по ремонту обуви"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, бульвар Ленинского Комсомола, 44"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 608-41-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.696555,23.805175"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

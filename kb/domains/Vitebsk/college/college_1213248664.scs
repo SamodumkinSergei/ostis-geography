@@ -1,0 +1,26 @@
+ concept_college_1213248664
+ <- concept_college;
+=>nrel_main_idtf:
+	["Новкинская средняя школа Витебского района"]
+	(* <- lang_ru;; <- name;;*);
+    ["Новкинская средняя школа Витебского района"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебский район, Новкинский сельсовет, агрогородок Новка, Центральная улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 220-22-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.134794,30.150408"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://novka.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

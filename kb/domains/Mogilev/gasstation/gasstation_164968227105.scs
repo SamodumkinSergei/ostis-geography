@@ -1,0 +1,26 @@
+ concept_gasstation_164968227105
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["РН-Запад"]
+	(* <- lang_ru;; <- name;;*);
+    ["РН-Запад"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Чаусское шоссе"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.868123,30.467207"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_college_152904992307
+ <- concept_college;
+=>nrel_main_idtf:
+	["Витебский государственный технический колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебский государственный технический колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Лазо, 113А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 292-58-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.199671,30.25778"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vgtk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

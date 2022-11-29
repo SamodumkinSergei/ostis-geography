@@ -1,0 +1,26 @@
+ concept_bus_stop_195088617247
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["ОАО Коминтерн"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОАО Коминтерн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Интернациональная улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.424474,31.008015"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

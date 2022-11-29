@@ -1,0 +1,26 @@
+ concept_drugstores_58340512800
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация № 195/3"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация № 195/3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Речицкий проспект, 80"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 305-40-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00, перерыв 13:00–13:30; сб,вс 08:30–20:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.405322,30.921517"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomelpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_college_126729990355
+ <- concept_college;
+=>nrel_main_idtf:
+	["Ok! школа английского"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ok! школа английского"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Толстого, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.195128,30.203721"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://okvitebsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_concert_hall_183619394862
+ <- concept_concert_hall;
+=>nrel_main_idtf:
+	["Дрова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дрова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Богдана Хмельницкого, 10А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 109-40-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–05:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.924643,27.596061"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://drovapub.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

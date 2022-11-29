@@ -1,0 +1,26 @@
+ concept_restaurants_233529844300
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Ресторан китайской кухни Личи"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ресторан китайской кухни Личи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 998-07-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 15:00–23:00; вт-вс 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905293,27.552256"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

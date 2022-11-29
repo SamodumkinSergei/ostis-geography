@@ -1,0 +1,26 @@
+ concept_banks_14463447233
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Банк РРБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Банк РРБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Маяковского, 184"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 337-02-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт 09:30–16:30; ср 10:00–16:30; чт 09:30–16:30; пт 09:30–16:15; сб,вс 09:30–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.85525,27.568218"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.rrb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

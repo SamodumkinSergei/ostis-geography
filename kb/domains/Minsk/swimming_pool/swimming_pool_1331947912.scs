@@ -1,0 +1,26 @@
+ concept_swimming_pool_1331947912
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Плавательный бассейн школы № 201"]
+	(* <- lang_ru;; <- name;;*);
+    ["Плавательный бассейн школы № 201"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кунцевщина, 20А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 390-74-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.913348,27.442335"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch201.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

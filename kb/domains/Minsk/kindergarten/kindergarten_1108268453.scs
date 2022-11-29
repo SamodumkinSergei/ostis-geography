@@ -1,0 +1,26 @@
+ concept_kindergarten_1108268453
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-Сад № 221"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-Сад № 221"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Пушкина, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 392-23-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.898443,27.500061"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu221.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

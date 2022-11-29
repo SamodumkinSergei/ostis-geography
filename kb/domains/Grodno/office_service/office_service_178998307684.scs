@@ -1,0 +1,26 @@
+ concept_office_service_178998307684
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Фабрика грибофф"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фабрика грибофф"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Будённого, 48А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 271-84-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.684316,23.844514"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

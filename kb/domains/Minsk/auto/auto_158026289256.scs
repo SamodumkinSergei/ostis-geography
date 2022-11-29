@@ -1,0 +1,26 @@
+ concept_auto_158026289256
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автоцех"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автоцех"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Козлова, 22, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 371-50-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903729,27.591634"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://autoceh.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

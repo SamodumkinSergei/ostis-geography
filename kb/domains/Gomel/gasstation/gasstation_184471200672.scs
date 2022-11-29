@@ -1,0 +1,26 @@
+ concept_gasstation_184471200672
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Магазин продуктов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин продуктов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Барыкина, 271"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 224-99-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.423904,30.942178"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://azs.belorusneft.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

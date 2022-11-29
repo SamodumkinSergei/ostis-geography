@@ -1,0 +1,26 @@
+ concept_fallback_services_125080768744
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Пицца Суши Маркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пицца Суши Маркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Строителей, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 261-52-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:00–23:00; пт,сб 11:00–00:00; вс 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908665,30.303615"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pizza-market.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

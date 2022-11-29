@@ -1,0 +1,26 @@
+ concept_fast_food_1229009475
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["МакДональдс"]
+	(* <- lang_ru;; <- name;;*);
+    ["МакДональдс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Шугаева, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 358-22-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.94262,27.68241"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mcdonalds.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

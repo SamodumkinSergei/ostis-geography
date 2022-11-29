@@ -1,0 +1,26 @@
+ concept_hotels_127461390238
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Мишель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мишель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брестский район, Чернинский сельсовет, агрогородок Черни, Чернинский переулок, 4/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 723-66-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.149781,23.755531"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://usadba-2.brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

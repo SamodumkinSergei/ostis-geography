@@ -1,0 +1,26 @@
+ concept_library_1020693621
+ <- concept_library;
+=>nrel_main_idtf:
+	["Библиотека, филиал № 6"]
+	(* <- lang_ru;; <- name;;*);
+    ["Библиотека, филиал № 6"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Олега Кошевого, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 378-90-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:00–19:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.887741,27.61084"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://publib.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

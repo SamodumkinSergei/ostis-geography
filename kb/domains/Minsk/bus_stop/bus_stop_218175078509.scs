@@ -1,0 +1,26 @@
+ concept_bus_stop_218175078509
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Дворец борьбы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дворец борьбы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Калиновского"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.94737,27.625908"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

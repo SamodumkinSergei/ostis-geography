@@ -1,0 +1,26 @@
+ concept_orthodox_church_1114139220
+ <- concept_orthodox_church;
+=>nrel_main_idtf:
+	["Свято-Симеоновский кафедральный собор"]
+	(* <- lang_ru;; <- name;;*);
+    ["Свято-Симеоновский кафедральный собор"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Карла Маркса, 84"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 220-56-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,вт 07:30–19:00; ср 07:00–19:00; чт-сб 07:30–19:00; вс 06:30–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.085465,23.690074"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://soborbrest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

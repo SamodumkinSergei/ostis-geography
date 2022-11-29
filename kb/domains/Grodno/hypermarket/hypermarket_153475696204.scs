@@ -1,0 +1,26 @@
+ concept_hypermarket_153475696204
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Святобор"]
+	(* <- lang_ru;; <- name;;*);
+    ["Святобор"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Космонавтов, 2Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 781-79-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 09:00–16:00; вс 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.676333,23.846814"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://svyatobor.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

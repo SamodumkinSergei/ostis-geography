@@ -1,0 +1,26 @@
+ concept_college_1134853768
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гродненский колледж бизнеса и права"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненский колледж бизнеса и права"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Мостовая улица, 39"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 271-88-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.673183,23.829075"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gcbip.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

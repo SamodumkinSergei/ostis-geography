@@ -1,0 +1,26 @@
+ concept_college_98081003605
+ <- concept_college;
+=>nrel_main_idtf:
+	["YouCanSwim"]
+	(* <- lang_ru;; <- name;;*);
+    ["YouCanSwim"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 330-02-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917064,27.58467"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://youcanswim.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

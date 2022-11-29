@@ -1,0 +1,26 @@
+ concept_medicine_174391476172
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["The Polyclinic Downtown Imaging"]
+	(* <- lang_ru;; <- name;;*);
+    ["The Polyclinic Downtown Imaging"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["штат Вашингтон, Сиэтл, Olive Way"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+1 206 329 1760"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["47.612738,-122.336595"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.polyclinic.com/locations-nav/locations/wa/the-polyclinic-downtown-imaging-509-olive-way-seattle-wa-98101/c1f54abb-4fae-48a5-b695-6120b5400af8.html"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

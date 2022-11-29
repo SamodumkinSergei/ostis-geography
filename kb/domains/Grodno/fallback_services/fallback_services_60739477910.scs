@@ -1,0 +1,26 @@
+ concept_fallback_services_60739477910
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["МедСервисТранс"]
+	(* <- lang_ru;; <- name;;*);
+    ["МедСервисТранс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Карла Маркса, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 255-74-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт,пт 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.677713,23.832733"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://microlife.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

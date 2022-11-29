@@ -1,0 +1,26 @@
+ concept_college_1112678425
+ <- concept_college;
+=>nrel_main_idtf:
+	["Лицей БГУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лицей БГУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ульяновская улица, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 226-01-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.896627,27.5659"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://lyceum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

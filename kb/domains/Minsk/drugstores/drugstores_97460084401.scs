@@ -1,0 +1,26 @@
+ concept_drugstores_97460084401
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лещинского, 8, корп. 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 399-69-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911672,27.452874"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://farmacia24.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

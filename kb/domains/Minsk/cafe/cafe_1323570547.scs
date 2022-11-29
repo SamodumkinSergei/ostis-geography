@@ -1,0 +1,26 @@
+ concept_cafe_1323570547
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["One More"]
+	(* <- lang_ru;; <- name;;*);
+    ["One More"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 111"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 620-21-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–22:00; сб,вс 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.929154,27.63041"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

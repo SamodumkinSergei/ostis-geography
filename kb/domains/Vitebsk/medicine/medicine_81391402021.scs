@@ -1,0 +1,26 @@
+ concept_medicine_81391402021
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Dr Ismail Medical Center"]
+	(* <- lang_ru;; <- name;;*);
+    ["Dr Ismail Medical Center"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["эмират Дубай, Бур Дубай, Эль Карама, улица 43А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+971 4 043 37 85 85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["25.239141,55.301837"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_mobile_phones_229658635047
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Сервис ремонт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сервис ремонт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Фестивальный"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 108-90-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910654,30.3193"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

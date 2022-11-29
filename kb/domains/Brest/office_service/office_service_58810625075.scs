@@ -1,0 +1,26 @@
+ concept_office_service_58810625075
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["House Group"]
+	(* <- lang_ru;; <- name;;*);
+    ["House Group"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица 17 Сентября, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 802-55-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.084596,23.694632"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

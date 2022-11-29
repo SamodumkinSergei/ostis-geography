@@ -1,0 +1,26 @@
+ concept_sportcenter_100739502535
+ <- concept_sportcenter;
+=>nrel_main_idtf:
+	["Bilik"]
+	(* <- lang_ru;; <- name;;*);
+    ["Bilik"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Пестрака, 36Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 538-38-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–01:00; сб 09:00–00:03; вс 09:00–03:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.653701,23.836806"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bilik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

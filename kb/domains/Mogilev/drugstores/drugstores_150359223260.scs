@@ -1,0 +1,26 @@
+ concept_drugstores_150359223260
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 61"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 61"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, бульвар Непокорённых, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 263-17-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.876907,30.327064"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mogpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

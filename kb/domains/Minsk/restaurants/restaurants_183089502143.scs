@@ -1,0 +1,26 @@
+ concept_restaurants_183089502143
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Doner King"]
+	(* <- lang_ru;; <- name;;*);
+    ["Doner King"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Дунина-Марцинкевича, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 544-66-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–00:00; пт,сб 10:00–01:00; вс 10:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906656,27.491813"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://donerking.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

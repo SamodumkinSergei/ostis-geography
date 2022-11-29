@@ -1,0 +1,26 @@
+ concept_medicine_1366708968
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Фрунзенский районный кардиологический центр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фрунзенский районный кардиологический центр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Бурдейного, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 258-92-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904422,27.458556"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://31gp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

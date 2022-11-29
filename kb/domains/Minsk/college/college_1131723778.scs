@@ -1,0 +1,26 @@
+ concept_college_1131723778
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 202"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 202"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Гинтовта, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 286-55-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.947658,27.674599"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch202.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

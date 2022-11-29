@@ -1,0 +1,26 @@
+ concept_supermarket_1128163742
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Витебские продукты"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебские продукты"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Смоленская улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 247-22-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.1806,30.230366"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitprod.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

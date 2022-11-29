@@ -1,0 +1,26 @@
+ concept_bus_stop_98250874731
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Магазин Юбилейный"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин Юбилейный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.181464,30.210535"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_hotels_1118857644
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Газпром трансгаз Беларусь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Газпром трансгаз Беларусь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Франциска Скорины, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 215-69-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.925195,27.660852"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gazhotel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

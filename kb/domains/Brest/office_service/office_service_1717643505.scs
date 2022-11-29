@@ -1,0 +1,26 @@
+ concept_office_service_1717643505
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Brest. biz"]
+	(* <- lang_ru;; <- name;;*);
+    ["Brest. biz"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 275А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.099173,23.767979"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brest.biz/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

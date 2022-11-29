@@ -1,0 +1,26 @@
+ concept_fast_food_51834725284
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Halal Döner"]
+	(* <- lang_ru;; <- name;;*);
+    ["Halal Döner"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Грибоедова, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 515-30-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917414,27.527591"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_1035365785
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гимназия № 50"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гимназия № 50"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Киселёва, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 290-66-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910332,27.570687"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gym50.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

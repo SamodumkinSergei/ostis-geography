@@ -1,0 +1,26 @@
+ concept_hotels_1193291184
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Губернский"]
+	(* <- lang_ru;; <- name;;*);
+    ["Губернский"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Освобождения, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 392-72-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905753,27.547653"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gubernski.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

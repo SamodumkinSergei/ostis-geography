@@ -1,0 +1,26 @@
+ concept_hotels_76218259026
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Квартира в самом центре Витебска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Квартира в самом центре Витебска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.186272,30.204959"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

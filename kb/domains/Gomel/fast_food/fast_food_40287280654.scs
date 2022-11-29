@@ -1,0 +1,26 @@
+ concept_fast_food_40287280654
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Пирожковая"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пирожковая"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Речицкий проспект, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,ср,чт,пт,сб,вс 09:30–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.407017,30.931377"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

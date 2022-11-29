@@ -1,0 +1,26 @@
+ concept_bus_stop_190805565380
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Полигон Тростенецкий"]
+	(* <- lang_ru;; <- name;;*);
+    ["Полигон Тростенецкий"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Павловского"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.846567,27.751995"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

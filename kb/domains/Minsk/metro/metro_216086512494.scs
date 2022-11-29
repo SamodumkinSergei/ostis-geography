@@ -1,0 +1,26 @@
+ concept_metro_216086512494
+ <- concept_metro;
+=>nrel_main_idtf:
+	["Фрунзенская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фрунзенская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Кальварийская улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 05:30–00:40"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905287,27.538465"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://metropoliten.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

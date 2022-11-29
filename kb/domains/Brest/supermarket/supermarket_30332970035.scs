@@ -1,0 +1,26 @@
+ concept_supermarket_30332970035
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Мини Маркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мини Маркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Луцкая улица, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.078598,23.744446"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

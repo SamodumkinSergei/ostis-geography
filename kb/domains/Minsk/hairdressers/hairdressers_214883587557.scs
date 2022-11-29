@@ -1,0 +1,26 @@
+ concept_hairdressers_214883587557
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Глория"]
+	(* <- lang_ru;; <- name;;*);
+    ["Глория"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Каменногорская улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 682-29-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910138,27.41937"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gloriya1.tilda.ws/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

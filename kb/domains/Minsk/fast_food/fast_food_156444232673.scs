@@ -1,0 +1,26 @@
+ concept_fast_food_156444232673
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Pizza Italia"]
+	(* <- lang_ru;; <- name;;*);
+    ["Pizza Italia"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Зыбицкая улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 750-09-96"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-чт 11:00–20:00; пт 11:00–06:00; сб 15:00–06:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905782,27.560425"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

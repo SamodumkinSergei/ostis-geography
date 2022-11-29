@@ -1,0 +1,26 @@
+ concept_government_2360827776
+ <- concept_government;
+=>nrel_main_idtf:
+	["Инспекция Министерства по налогам и сборам по Ленинскому району"]
+	(* <- lang_ru;; <- name;;*);
+    ["Инспекция Министерства по налогам и сборам по Ленинскому району"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Лошица, Игуменский тракт, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 215-78-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:45–18:00, перерыв 13:00–14:00; пт 08:45–16:45, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.846689,27.567581"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://nalog.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_1012436464
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 137 имени П. М. Машерова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 137 имени П. М. Машерова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Калиновского, 50к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 364-85-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.937943,27.644677"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch137.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

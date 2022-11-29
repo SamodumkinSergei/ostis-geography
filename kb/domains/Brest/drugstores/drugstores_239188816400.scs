@@ -1,0 +1,26 @@
+ concept_drugstores_239188816400
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Белфармация Минск"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белфармация Минск"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брестский район, Мухавецкий сельсовет"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.04739,23.818623"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://brest.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

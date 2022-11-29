@@ -1,0 +1,26 @@
+ concept_clothes_shop_213572909651
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Second hand"]
+	(* <- lang_ru;; <- name;;*);
+    ["Second hand"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Великоморская улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 644-49-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–17:00; сб 11:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.865733,27.562244"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://am-holding.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

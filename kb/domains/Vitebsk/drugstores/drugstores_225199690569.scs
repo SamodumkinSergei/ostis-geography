@@ -1,0 +1,26 @@
+ concept_drugstores_225199690569
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация, аптека № 64"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация, аптека № 64"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Великолукский тракт, 63, корп. 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 169-52-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.215129,30.21061"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pharmacia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

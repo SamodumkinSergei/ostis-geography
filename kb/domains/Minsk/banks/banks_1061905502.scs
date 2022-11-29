@@ -1,0 +1,26 @@
+ concept_banks_1061905502
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Россельхозбанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Россельхозбанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Немига, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 226-45-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.899542,27.543197"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.rshb.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

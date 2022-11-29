@@ -1,0 +1,26 @@
+ concept_hypermarket_1032012158
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["ТехКиоСервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["ТехКиоСервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Победы, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 637-61-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.654426,23.831515"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

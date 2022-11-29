@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_118950400579
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Гомельхлебпром производство № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельхлебпром производство № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Барыкина, 120"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 241-00-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:30–11:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.419097,30.964809"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.gomelhlebprom.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

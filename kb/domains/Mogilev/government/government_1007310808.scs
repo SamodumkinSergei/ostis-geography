@@ -1,0 +1,26 @@
+ concept_government_1007310808
+ <- concept_government;
+=>nrel_main_idtf:
+	["Могилевский городской исполнительный комитет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилевский городской исполнительный комитет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 28А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 242-20-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904774,30.336654"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogilev.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

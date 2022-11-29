@@ -1,0 +1,26 @@
+ concept_drugstores_238821000128
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Красного Флота, 4к1, подъезд 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 274-41-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–19:00, перерыв 13:00–13:20; сб 09:00–17:20, перерыв 13:00–13:20"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.895333,30.301458"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogilev.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_hotels_1054139168
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Октябрьская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Октябрьская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Карла Маркса, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 487-07-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.431771,31.016989"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

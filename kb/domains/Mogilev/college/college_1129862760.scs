@@ -1,0 +1,26 @@
+ concept_college_1129862760
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 38"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 38"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Симонова, 57"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 248-41-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.865182,30.307013"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://38mogilev.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

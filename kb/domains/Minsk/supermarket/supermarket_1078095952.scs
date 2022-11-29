@@ -1,0 +1,26 @@
+ concept_supermarket_1078095952
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Зелёный клён"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зелёный клён"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Лошица, Игуменский тракт, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 318-77-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.84258,27.571746"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

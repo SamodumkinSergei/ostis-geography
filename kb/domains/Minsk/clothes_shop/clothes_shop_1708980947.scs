@@ -1,0 +1,26 @@
+ concept_clothes_shop_1708980947
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Mark Formelle"]
+	(* <- lang_ru;; <- name;;*);
+    ["Mark Formelle"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 56"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 357-66-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917185,27.587287"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://markformelle.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

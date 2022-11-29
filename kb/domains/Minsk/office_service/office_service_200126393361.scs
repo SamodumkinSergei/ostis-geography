@@ -1,0 +1,26 @@
+ concept_office_service_200126393361
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["System"]
+	(* <- lang_ru;; <- name;;*);
+    ["System"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Каменногорская улица, 45"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 706-99-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.933664,27.428525"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

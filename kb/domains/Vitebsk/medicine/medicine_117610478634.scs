@@ -1,0 +1,26 @@
+ concept_medicine_117610478634
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Поликлиника"]
+	(* <- lang_ru;; <- name;;*);
+    ["Поликлиника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Ровно, улица Драгоманова, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+380 (362) 43-81-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["50.615418,26.252824"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

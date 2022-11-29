@@ -1,0 +1,26 @@
+ concept_bus_stop_151717159137
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Тиражная"]
+	(* <- lang_ru;; <- name;;*);
+    ["Тиражная"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Восточный переулок"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.938772,27.595178"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_drugstores_1013970855
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 1 Лигматон"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 1 Лигматон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Кальварийская улица, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 270-11-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907524,27.527702"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ligmaton.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

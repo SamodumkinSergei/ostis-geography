@@ -1,0 +1,26 @@
+ concept_hotels_33538693724
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Гостиница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гостиница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Минский район, Острошицко-Городокский сельсовет"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.062759,27.7333"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

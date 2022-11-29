@@ -1,0 +1,26 @@
+ concept_hairdressers_1012954507
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Орфей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Орфей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Комсомольская улица, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 253-87-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00; вс 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.095078,23.688098"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

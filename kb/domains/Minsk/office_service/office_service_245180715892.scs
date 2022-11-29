@@ -1,0 +1,26 @@
+ concept_office_service_245180715892
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Склад Чистый берег"]
+	(* <- lang_ru;; <- name;;*);
+    ["Склад Чистый берег"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Бабушкина, 55"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 106-00-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.799402,27.595469"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bereg.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

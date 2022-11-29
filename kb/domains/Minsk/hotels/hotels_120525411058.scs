@@ -1,0 +1,26 @@
+ concept_hotels_120525411058
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Отель Олимпийский Спорткомплекс Стайки"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отель Олимпийский Спорткомплекс Стайки"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Новодворский сельсовет, 84, корп. 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 137-09-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.808747,27.732789"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://stayki.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

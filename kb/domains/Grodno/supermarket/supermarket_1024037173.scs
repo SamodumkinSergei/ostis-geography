@@ -1,0 +1,26 @@
+ concept_supermarket_1024037173
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Октябрьский"]
+	(* <- lang_ru;; <- name;;*);
+    ["Октябрьский"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Советских Пограничников, 55"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (0152) 65-93-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.670031,23.817685"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://narochgrodno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

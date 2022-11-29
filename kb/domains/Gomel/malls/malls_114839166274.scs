@@ -1,0 +1,26 @@
+ concept_malls_114839166274
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Всё сразу"]
+	(* <- lang_ru;; <- name;;*);
+    ["Всё сразу"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Любенский, улица 60 лет СССР, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 250-85-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–18:00; вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.404869,30.980159"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://hoztovary.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

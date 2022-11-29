@@ -1,0 +1,26 @@
+ concept_college_1118747708
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 72"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 72"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Холмогорская улица, 59"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 322-95-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00; сб 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.891644,27.652705"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch72.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

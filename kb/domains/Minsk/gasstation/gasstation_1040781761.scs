@@ -1,0 +1,26 @@
+ concept_gasstation_1040781761
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Славнефть"]
+	(* <- lang_ru;; <- name;;*);
+    ["Славнефть"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Шаранговича, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["8 (801) 100-71-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.891706,27.459309"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rn-west.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

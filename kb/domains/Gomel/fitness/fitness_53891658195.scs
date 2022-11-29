@@ -1,0 +1,26 @@
+ concept_fitness_53891658195
+ <- concept_fitness;
+=>nrel_main_idtf:
+	["Спортивный клуб Гомсельмаш"]
+	(* <- lang_ru;; <- name;;*);
+    ["Спортивный клуб Гомсельмаш"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Космонавтов, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 254-97-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.453431,30.96694"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.gomselmash.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

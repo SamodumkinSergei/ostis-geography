@@ -1,0 +1,26 @@
+ concept_restaurants_1018862129
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Румянцевский"]
+	(* <- lang_ru;; <- name;;*);
+    ["Румянцевский"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 38"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 229-76-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.433455,31.008905"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

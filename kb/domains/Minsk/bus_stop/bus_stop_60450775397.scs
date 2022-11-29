@@ -1,0 +1,26 @@
+ concept_bus_stop_60450775397
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Парк Грековой"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парк Грековой"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Малинина"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.849812,27.606187"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

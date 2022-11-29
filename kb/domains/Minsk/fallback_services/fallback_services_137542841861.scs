@@ -1,0 +1,26 @@
+ concept_fallback_services_137542841861
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гранит-Гарант"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гранит-Гарант"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, переулок Корженевского, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 322-21-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00, перерыв 15:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.844166,27.526843"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://granit-garant.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

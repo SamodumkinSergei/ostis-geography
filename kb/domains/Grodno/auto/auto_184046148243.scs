@@ -1,0 +1,26 @@
+ concept_auto_184046148243
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Станция технического обслуживания"]
+	(* <- lang_ru;; <- name;;*);
+    ["Станция технического обслуживания"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Победы 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 888-70-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.660484,23.83279"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sto.ap1.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

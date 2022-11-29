@@ -1,0 +1,26 @@
+ concept_malls_1045017524
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Панорама"]
+	(* <- lang_ru;; <- name;;*);
+    ["Панорама"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Крыленко, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 222-69-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907725,30.335984"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.tcpanorama.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

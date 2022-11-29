@@ -1,0 +1,26 @@
+ concept_gasstation_20603063720
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Газпром трансгаз Беларусь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Газпром трансгаз Беларусь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельский район, Урицкий сельсовет, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 249-02-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 02:10–01:50, перерывы 04:50–05:10, 10:50–11:10, 13:50–14:10, 17:50–18:10, 22:50–23:10"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.445482,30.868375"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://metan.by/ecogas-map/agnks_gomel1"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

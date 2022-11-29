@@ -1,0 +1,26 @@
+ concept_college_1234083859
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гомельский государственный колледж электроники и информационных технологий"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский государственный колледж электроники и информационных технологий"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Федюнинского, 6Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 251-60-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.475535,30.980596"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.electro.gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

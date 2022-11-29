@@ -1,0 +1,26 @@
+ concept_fallback_services_1034343601
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Спутник Офиса"]
+	(* <- lang_ru;; <- name;;*);
+    ["Спутник Офиса"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Октября, 89А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 191-28-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.405075,30.943207"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://s-o.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

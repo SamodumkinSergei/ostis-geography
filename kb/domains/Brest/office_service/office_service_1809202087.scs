@@ -1,0 +1,26 @@
+ concept_office_service_1809202087
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Artbackgallery"]
+	(* <- lang_ru;; <- name;;*);
+    ["Artbackgallery"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Кирова, 48"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 625-55-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.096094,23.679654"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://artback.my1.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

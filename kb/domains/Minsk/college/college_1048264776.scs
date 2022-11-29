@@ -1,0 +1,26 @@
+ concept_college_1048264776
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 182"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 182"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский район, микрорайон Степянка, улица Карвата, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 348-50-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910885,27.668331"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://182minsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

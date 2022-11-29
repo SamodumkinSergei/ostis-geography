@@ -1,0 +1,26 @@
+ concept_college_184608573277
+ <- concept_college;
+=>nrel_main_idtf:
+	["Институт предпринимательской деятельности"]
+	(* <- lang_ru;; <- name;;*);
+    ["Институт предпринимательской деятельности"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Серафимовича, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 298-43-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.889858,27.587169"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.uoipd.org/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

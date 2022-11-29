@@ -1,0 +1,26 @@
+ concept_currency_exchange_235113422638
+ <- concept_currency_exchange;
+=>nrel_main_idtf:
+	["Банк РРБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Банк РРБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Нестерова, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 306-02-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:30–21:00, перерывы 11:00–11:10, 13:00–13:30, 15:00–15:10, 19:00–19:10"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.883481,27.681357"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.rrb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

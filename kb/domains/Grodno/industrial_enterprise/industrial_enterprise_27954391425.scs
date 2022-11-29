@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_27954391425
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Гродненская овощная фабрика"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненская овощная фабрика"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродненский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.618915,23.883856"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.ovoschi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

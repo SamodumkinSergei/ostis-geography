@@ -1,0 +1,26 @@
+ concept_malls_5347671115
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Витебский Хозторг"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебский Хозторг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, 1-я Пролетарская улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 555-25-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 09:00–18:00; вс 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.174062,30.151239"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vithoztorg.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

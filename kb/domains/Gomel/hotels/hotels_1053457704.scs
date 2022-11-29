@@ -1,0 +1,26 @@
+ concept_hotels_1053457704
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Гостиница Цирк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гостиница Цирк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 27А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 233-77-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.434887,31.011384"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gomel-circus.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

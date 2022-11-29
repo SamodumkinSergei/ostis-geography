@@ -1,0 +1,26 @@
+ concept_medicine_38578905452
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гродненский областной клинический кожно-венерологический диспансер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненский областной клинический кожно-венерологический диспансер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Свердлова, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 255-09-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.674902,23.838203"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

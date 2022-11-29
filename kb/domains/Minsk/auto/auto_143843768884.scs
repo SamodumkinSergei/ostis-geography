@@ -1,0 +1,26 @@
+ concept_auto_143843768884
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Abs service"]
+	(* <- lang_ru;; <- name;;*);
+    ["Abs service"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева, 9, корп. 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 671-99-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907129,27.530864"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://abs-service.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

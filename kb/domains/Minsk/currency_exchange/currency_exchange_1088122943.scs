@@ -1,0 +1,26 @@
+ concept_currency_exchange_1088122943
+ <- concept_currency_exchange;
+=>nrel_main_idtf:
+	["Белорусский народный банк, ЦБУ № 4"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусский народный банк, ЦБУ № 4"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 87А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 309-73-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.923767,27.60572"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bnb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

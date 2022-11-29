@@ -1,0 +1,26 @@
+ concept_banks_1331362007
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Белагропромбанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белагропромбанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Куйбышева, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 218-57-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 09:30–17:45, перерыв 14:00–15:00; сб 09:30–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.097432,23.690704"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belapb.by/natural/bankovskie-vklady-depozity/vklady-v-dollarah-ssha/vklad-depozit-plyus-k-stabilnosti-v-dollarah-ssha/?utm_campaign=depositsdollars&utm_medium=maps&utm_source=yandex"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

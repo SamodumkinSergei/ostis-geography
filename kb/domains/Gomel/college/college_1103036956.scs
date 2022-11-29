@@ -1,0 +1,26 @@
+ concept_college_1103036956
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 38 г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 38 г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Фестивальный, Волгоградская улица, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 231-21-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.408529,30.951712"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://38gomel.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

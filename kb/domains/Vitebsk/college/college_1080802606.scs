@@ -1,0 +1,26 @@
+ concept_college_1080802606
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 4"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 4"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 67"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 267-89-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.194146,30.237358"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://4vitebsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

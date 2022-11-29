@@ -1,0 +1,26 @@
+ concept_furniture_store_183740862710
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Кухни Под Заказ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кухни Под Заказ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 87"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 692-25-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.383904,31.028529"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://kuhni-pod-zakaz.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

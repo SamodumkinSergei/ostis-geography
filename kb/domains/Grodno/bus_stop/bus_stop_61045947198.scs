@@ -1,0 +1,26 @@
+ concept_bus_stop_61045947198
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Поповича"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Поповича"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Поповича"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.668605,23.802268"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

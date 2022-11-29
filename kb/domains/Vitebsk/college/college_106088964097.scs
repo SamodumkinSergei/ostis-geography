@@ -1,0 +1,26 @@
+ concept_college_106088964097
+ <- concept_college;
+=>nrel_main_idtf:
+	["Факультет информационных технологий и робототехники ВГТУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Факультет информационных технологий и робототехники ВГТУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 72, корп. 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 249-53-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.17934,30.237466"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://fitr.vstu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_college_116062920496
+ <- concept_college;
+=>nrel_main_idtf:
+	["Мгптк кулинарии, учебный корпус № 3"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мгптк кулинарии, учебный корпус № 3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Строителей, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 291-30-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.86736,27.662604"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ptk-kulinarii.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

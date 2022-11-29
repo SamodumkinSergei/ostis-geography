@@ -1,0 +1,26 @@
+ concept_college_1107886991
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гродненский колледж экономики и управления"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненский колледж экономики и управления"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Поповича, 2, подъезд 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 577-78-96"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.674363,23.805076"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gkeu.bks.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

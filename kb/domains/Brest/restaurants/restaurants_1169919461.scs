@@ -1,0 +1,26 @@
+ concept_restaurants_1169919461
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Прованс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Прованс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, микрорайон Южный, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 308-46-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 13:00–23:00; сб,вс 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.059449,23.738341"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_furniture_store_69857083435
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["The Good Room"]
+	(* <- lang_ru;; <- name;;*);
+    ["The Good Room"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Дзержинского, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 869-64-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб,вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.689764,23.835811"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://goodroom.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

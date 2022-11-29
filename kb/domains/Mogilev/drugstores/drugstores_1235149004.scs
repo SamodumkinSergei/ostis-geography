@@ -1,0 +1,26 @@
+ concept_drugstores_1235149004
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Добрыя лекi"]
+	(* <- lang_ru;; <- name;;*);
+    ["Добрыя лекi"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица 30 лет Победы, 12А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 535-57-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб,вс 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.931011,30.362635"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://d-leki.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

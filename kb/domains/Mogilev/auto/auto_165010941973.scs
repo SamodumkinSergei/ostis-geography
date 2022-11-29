@@ -1,0 +1,26 @@
+ concept_auto_165010941973
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Fatservice.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Fatservice.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, 1-й Брикетный переулок, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 659-37-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.864815,30.353737"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://fatservice.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

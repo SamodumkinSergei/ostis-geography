@@ -1,0 +1,26 @@
+ concept_auto_16091125868
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автоэлектрик"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автоэлектрик"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Широкая улица, 39"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 166-03-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.949193,27.600846"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://autoelektrika.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

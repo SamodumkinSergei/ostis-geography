@@ -1,0 +1,26 @@
+ concept_fallback_services_1005447398
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Воропаевская дистанция пути Витебского отделения Бел ж/д"]
+	(* <- lang_ru;; <- name;;*);
+    ["Воропаевская дистанция пути Витебского отделения Бел ж/д"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебская область, Поставский район, Воропаевский сельсовет, городской посёлок Воропаево, Ленинская улица, 100А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 552-33-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.141531,27.210563"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitebsk.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_office_service_145737072924
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Ювелирная мастерская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ювелирная мастерская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Ленина, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 718-29-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:30; сб,вс 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.429131,30.997784"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://jewelry-repair-service-492.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

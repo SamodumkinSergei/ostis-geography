@@ -1,0 +1,26 @@
+ concept_museum_72958159019
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей истории Витебского народного художественного училища"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей истории Витебского народного художественного училища"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Марка Шагала, 5А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 268-01-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,ср,чт,пт,сб,вс 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.188572,30.202609"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.vitebskavangard.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

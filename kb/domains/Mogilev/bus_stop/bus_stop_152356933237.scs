@@ -1,0 +1,26 @@
+ concept_bus_stop_152356933237
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Ленинская улица"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ленинская улица"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Мира"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908528,30.346723"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

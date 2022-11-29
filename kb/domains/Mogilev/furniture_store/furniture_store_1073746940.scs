@@ -1,0 +1,26 @@
+ concept_furniture_store_1073746940
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Пинскдрев"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пинскдрев"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Симонова, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 263-05-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.875231,30.311354"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pinskdrev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

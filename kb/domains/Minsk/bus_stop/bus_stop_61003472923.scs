@@ -1,0 +1,26 @@
+ concept_bus_stop_61003472923
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Петра Глебки, 120"]
+	(* <- lang_ru;; <- name;;*);
+    ["Петра Глебки, 120"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Глебки"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.92828,27.482154"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

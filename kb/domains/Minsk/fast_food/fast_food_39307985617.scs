@@ -1,0 +1,26 @@
+ concept_fast_food_39307985617
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Vaffel"]
+	(* <- lang_ru;; <- name;;*);
+    ["Vaffel"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 988-67-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90857,27.548608"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

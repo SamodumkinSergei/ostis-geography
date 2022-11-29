@@ -1,0 +1,26 @@
+ concept_auto_159510155997
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автомеханик"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автомеханик"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ольшевского, 20, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 323-20-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.91786,27.503922"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.automehanik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

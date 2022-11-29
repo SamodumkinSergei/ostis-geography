@@ -1,0 +1,26 @@
+ concept_hotels_1207841326
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Newhostel.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Newhostel.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Максима Богдановича, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 180-85-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909427,27.557632"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://newhostel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

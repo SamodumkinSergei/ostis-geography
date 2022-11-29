@@ -1,0 +1,26 @@
+ concept_supermarket_155175091109
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Хлебосолье"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хлебосолье"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гоголя, 82"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 221-83-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.094722,23.699545"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.brestbakaleya.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

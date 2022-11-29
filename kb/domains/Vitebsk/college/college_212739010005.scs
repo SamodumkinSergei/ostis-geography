@@ -1,0 +1,26 @@
+ concept_college_212739010005
+ <- concept_college;
+=>nrel_main_idtf:
+	["Яновская школа"]
+	(* <- lang_ru;; <- name;;*);
+    ["Яновская школа"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебская область, Сенненский район, Коковчинский сельсовет, агрогородок Яново, Богушевская улица, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 352-46-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–17:30; сб 08:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.76006,30.098372"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://yanovo-senno.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

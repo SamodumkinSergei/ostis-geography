@@ -1,0 +1,26 @@
+ concept_car_park_1080185717
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автостоянка Витебский хоккейный клуб"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостоянка Витебский хоккейный клуб"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Строителей, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 258-19-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 05:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.168938,30.227016"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitebsk.hockey.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

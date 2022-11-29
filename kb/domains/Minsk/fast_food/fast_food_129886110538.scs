@@ -1,0 +1,26 @@
+ concept_fast_food_129886110538
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Мистер донер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мистер донер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Первомайский район, микрорайон Уручье, жилой комплекс Вивальди"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 524-11-28"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.949627,27.682822"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

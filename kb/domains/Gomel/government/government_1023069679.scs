@@ -1,0 +1,26 @@
+ concept_government_1023069679
+ <- concept_government;
+=>nrel_main_idtf:
+	["Главное управление Национального банка Республики Беларусь по Гомельской области"]
+	(* <- lang_ru;; <- name;;*);
+    ["Главное управление Национального банка Республики Беларусь по Гомельской области"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 306-00-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 13:00–13:45; пт 08:30–16:15, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.426936,31.013853"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.nbrb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

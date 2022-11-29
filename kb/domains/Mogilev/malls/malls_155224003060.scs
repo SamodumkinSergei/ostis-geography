@@ -1,0 +1,26 @@
+ concept_malls_155224003060
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Автомаркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автомаркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Заднепровье-4, улица Чайковского, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 141-13-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб,вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.877295,30.334099"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://auto-repair-shop-499.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

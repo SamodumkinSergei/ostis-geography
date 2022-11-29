@@ -1,0 +1,26 @@
+ concept_fallback_fun_1332466191
+ <- concept_fallback_fun;
+=>nrel_main_idtf:
+	["Подземка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Подземка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Глебки, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 601-19-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908908,27.470189"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.podzemka-minsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_hairdressers_227584698330
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Мастер Класс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мастер Класс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Гагарина, 27к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 696-08-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб,вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.208821,30.223999"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

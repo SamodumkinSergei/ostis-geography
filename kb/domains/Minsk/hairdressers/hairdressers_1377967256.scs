@@ -1,0 +1,26 @@
+ concept_hairdressers_1377967256
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Барбери"]
+	(* <- lang_ru;; <- name;;*);
+    ["Барбери"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, проспект Рокоссовского, 4к4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 366-95-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–21:00; вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873343,27.59402"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

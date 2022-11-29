@@ -1,0 +1,26 @@
+ concept_government_1085050732
+ <- concept_government;
+=>nrel_main_idtf:
+	["Витебский областной исполнительный комитет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебский областной исполнительный комитет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Гоголя, 6, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 248-11-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.190348,30.210845"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.vitebsk-region.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

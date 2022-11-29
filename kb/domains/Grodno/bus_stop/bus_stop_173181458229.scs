@@ -1,0 +1,26 @@
+ concept_bus_stop_173181458229
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Домейко"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Домейко"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Индурское шоссе"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.624725,23.862149"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

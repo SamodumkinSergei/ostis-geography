@@ -1,0 +1,26 @@
+ concept_tailor_77372727612
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Ремонт Обуви"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт Обуви"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Склезнёва, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 748-88-89"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.388881,31.033863"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

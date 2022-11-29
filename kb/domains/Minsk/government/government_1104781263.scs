@@ -1,0 +1,26 @@
+ concept_government_1104781263
+ <- concept_government;
+=>nrel_main_idtf:
+	["Министерство культуры РБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Министерство культуры РБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 203-75-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909263,27.548341"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_15903463581
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Габриэль"]
+	(* <- lang_ru;; <- name;;*);
+    ["Габриэль"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Чкалова, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 900-52-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.879909,27.533934"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gabriel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

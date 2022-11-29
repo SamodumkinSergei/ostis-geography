@@ -1,0 +1,26 @@
+ concept_supermarket_11595424388
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["У дома"]
+	(* <- lang_ru;; <- name;;*);
+    ["У дома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Воронежский переулок, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 271-82-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.91038,30.360269"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_hairdressers_1103872540
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Чараўніца"]
+	(* <- lang_ru;; <- name;;*);
+    ["Чараўніца"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Машерова, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 220-47-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00; вс 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.085639,23.695869"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

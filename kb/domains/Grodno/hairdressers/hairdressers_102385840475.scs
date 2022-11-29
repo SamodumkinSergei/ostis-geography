@@ -1,0 +1,26 @@
+ concept_hairdressers_102385840475
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Дилема Студио"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дилема Студио"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Южная улица, 11А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 260-50-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 09:00–18:00; вс 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.641369,23.864698"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

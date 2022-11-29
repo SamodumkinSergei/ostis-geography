@@ -1,0 +1,26 @@
+ concept_hotels_47134588101
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Физкультурно-спортивная база ФПБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Физкультурно-спортивная база ФПБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, агрогородок Ждановичи"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 542-43-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 14:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.964408,27.42194"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://fob.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

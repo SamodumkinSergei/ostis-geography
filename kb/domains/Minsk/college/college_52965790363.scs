@@ -1,0 +1,26 @@
+ concept_college_52965790363
+ <- concept_college;
+=>nrel_main_idtf:
+	["БНТУ, кафедра Машины и технологии литейного производства МТФ"]
+	(* <- lang_ru;; <- name;;*);
+    ["БНТУ, кафедра Машины и технологии литейного производства МТФ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Якуба Коласа, 24/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 293-92-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:15–17:30, перерыв 13:00–14:00; пт 08:15–16:15, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.924001,27.592776"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bntu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_148236127935
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Автовокзал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автовокзал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Ленинская улица, 93"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 262-68-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.913159,30.347413"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://avtovokzal-mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

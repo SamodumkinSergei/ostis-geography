@@ -1,0 +1,26 @@
+ concept_college_1038341894
+ <- concept_college;
+=>nrel_main_idtf:
+	["ОСП Аграрный колледж УО Витебской государственной академии ветеринарной медицины"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОСП Аграрный колледж УО Витебской государственной академии ветеринарной медицины"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебский район, Мазоловский сельсовет, деревня Лужесно, Спортивная улица, 3А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 229-52-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.253904,30.139553"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://agrokoledj.vitebsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

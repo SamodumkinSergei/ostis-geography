@@ -1,0 +1,26 @@
+ concept_hotels_102518752596
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Chapelle Des Ursulines"]
+	(* <- lang_ru;; <- name;;*);
+    ["Chapelle Des Ursulines"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Франция, Эр-Сюр-Л'Адур, 40 Rue Felix Despagnet"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 9 79 27 09 01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["43.697685,-0.26892"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.chapelledesursulines.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

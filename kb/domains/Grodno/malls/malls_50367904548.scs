@@ -1,0 +1,26 @@
+ concept_malls_50367904548
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Бьюти"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бьюти"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Дубко, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 759-84-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–21:00; пт,сб 10:00–22:00; вс 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.701678,23.833254"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://hairprof.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

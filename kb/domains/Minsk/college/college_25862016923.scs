@@ -1,0 +1,26 @@
+ concept_college_25862016923
+ <- concept_college;
+=>nrel_main_idtf:
+	["Военно-технический факультет БНТУ, кафедра Военно-инженерная подготовка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Военно-технический факультет БНТУ, кафедра Военно-инженерная подготовка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица пр. Независимости, 59"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 293-95-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:15–17:30, перерыв 13:00–14:00; пт 08:15–16:15, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.918926,27.589641"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bntu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

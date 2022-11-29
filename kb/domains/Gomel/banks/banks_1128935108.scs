@@ -1,0 +1,26 @@
+ concept_banks_1128935108
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Технобанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Технобанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 60"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 388-57-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–19:00; пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.439416,31.002226"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://tb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

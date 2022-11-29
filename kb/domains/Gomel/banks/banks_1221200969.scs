@@ -1,0 +1,26 @@
+ concept_banks_1221200969
+ <- concept_banks;
+=>nrel_main_idtf:
+	["ОптиКурс"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОптиКурс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Ленина, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 675-45-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 14:00–14:30; сб 10:00–17:00, перерыв 14:00–14:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.42768,31.002752"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.optikurs.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

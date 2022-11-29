@@ -1,0 +1,26 @@
+ concept_museum_1112960484
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Гомельский областной центр народного творчества"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский областной центр народного творчества"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Кирова, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 233-87-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.435134,31.003826"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ocnt.gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

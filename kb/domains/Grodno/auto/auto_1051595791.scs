@@ -1,0 +1,26 @@
+ concept_auto_1051595791
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Техника автозапчасти"]
+	(* <- lang_ru;; <- name;;*);
+    ["Техника автозапчасти"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Янки Купалы, 88А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 233-88-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.653535,23.852041"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.ors.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

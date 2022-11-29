@@ -1,0 +1,26 @@
+ concept_auto_1066433525
+ <- concept_auto;
+=>nrel_main_idtf:
+	["ГроМин-авто"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГроМин-авто"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Янки Купалы, 72А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 231-11-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–20:00; сб 08:30–17:00; вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.65546,23.847017"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://громин.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

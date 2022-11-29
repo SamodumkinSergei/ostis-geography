@@ -1,0 +1,26 @@
+ concept_museum_85779841882
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Libra"]
+	(* <- lang_ru;; <- name;;*);
+    ["Libra"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 47"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 540-30-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 12:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.913965,27.580712"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://libra-gallery.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

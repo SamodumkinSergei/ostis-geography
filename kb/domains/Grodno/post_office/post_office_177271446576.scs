@@ -1,0 +1,26 @@
+ concept_post_office_177271446576
+ <- concept_post_office;
+=>nrel_main_idtf:
+	["Европочта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Европочта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Курчатова, 47"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 535-36-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.70611,23.856844"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://evropochta.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

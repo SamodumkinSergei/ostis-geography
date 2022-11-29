@@ -1,0 +1,26 @@
+ concept_restaurants_4777397373
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Пицца Темпо"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пицца Темпо"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 57"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 108-39-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,вт 11:00–22:00; ср 11:00–23:00; чт-вс 11:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903756,30.339311"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.pizzatempo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

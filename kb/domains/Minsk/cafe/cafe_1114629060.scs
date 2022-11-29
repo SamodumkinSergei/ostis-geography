@@ -1,0 +1,26 @@
+ concept_cafe_1114629060
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Latte"]
+	(* <- lang_ru;; <- name;;*);
+    ["Latte"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Платонова, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 635-13-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906986,27.59287"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

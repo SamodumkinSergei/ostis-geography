@@ -1,0 +1,26 @@
+ concept_drugstores_1032864900
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 13 Лигматон"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 13 Лигматон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Яна Райниса, 1Д"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 395-65-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб 10:00–20:00; вс 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.876149,27.606278"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ligmaton.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

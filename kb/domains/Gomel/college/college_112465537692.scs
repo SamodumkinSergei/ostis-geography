@@ -1,0 +1,26 @@
+ concept_college_112465537692
+ <- concept_college;
+=>nrel_main_idtf:
+	["Бтэу Гомель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бтэу Гомель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Октября, 50"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 199-10-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.406014,30.936023"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_government_1079974696
+ <- concept_government;
+=>nrel_main_idtf:
+	["Отдел по образованию, спорта и туризма Брестского горисполкома"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отдел по образованию, спорта и туризма Брестского горисполкома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Энгельса, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 221-34-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.093096,23.681604"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brest.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

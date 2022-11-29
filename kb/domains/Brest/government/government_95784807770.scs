@@ -1,0 +1,26 @@
+ concept_government_95784807770
+ <- concept_government;
+=>nrel_main_idtf:
+	["Управление по образованию администрации Московского района г. Бреста"]
+	(* <- lang_ru;; <- name;;*);
+    ["Управление по образованию администрации Московского района г. Бреста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 273"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 229-12-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.098832,23.766887"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mosue.brestgoo.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

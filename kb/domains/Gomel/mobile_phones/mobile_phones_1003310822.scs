@@ -1,0 +1,26 @@
+ concept_mobile_phones_1003310822
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Ремонт телефонов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт телефонов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Жарковского, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 613-10-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 11:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.430338,31.00592"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

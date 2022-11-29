@@ -1,0 +1,26 @@
+ concept_office_service_1117211091
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Национальный центр маркетинга и конъюнктуры цен, Брестский филиал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Национальный центр маркетинга и конъюнктуры цен, Брестский филиал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Воровского, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 225-14-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–18:00, перерыв 13:00–13:45; пт 09:00–16:45, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.087954,23.680774"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.ncmps.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

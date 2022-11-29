@@ -1,0 +1,26 @@
+ concept_cafe_158896017898
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Донер сити"]
+	(* <- lang_ru;; <- name;;*);
+    ["Донер сити"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кульман, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 766-20-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.921046,27.580469"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://donercity.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

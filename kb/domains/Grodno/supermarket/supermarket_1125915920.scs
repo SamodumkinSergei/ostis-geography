@@ -1,0 +1,26 @@
+ concept_supermarket_1125915920
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Белмаркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белмаркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Лиможа, 45/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 398-21-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.712979,23.850199"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bel-market.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

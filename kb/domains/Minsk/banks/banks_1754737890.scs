@@ -1,0 +1,26 @@
+ concept_banks_1754737890
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Беларусбанк, отделение 511/157"]
+	(* <- lang_ru;; <- name;;*);
+    ["Беларусбанк, отделение 511/157"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Алтайская улица, 64, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["147"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.86825,27.668849"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://belarusbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

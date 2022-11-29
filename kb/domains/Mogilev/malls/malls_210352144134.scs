@@ -1,0 +1,26 @@
+ concept_malls_210352144134
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Соседи"]
+	(* <- lang_ru;; <- name;;*);
+    ["Соседи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Соломинка, Жемчужная улица, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 277-99-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.949269,30.374553"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.sosedi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

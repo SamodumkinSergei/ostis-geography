@@ -1,0 +1,26 @@
+ concept_restaurants_177178142745
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Гранат"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гранат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Мостовая улица, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 551-11-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–01:00; пт 12:00–05:00; сб 16:00–05:00; вс 16:00–01:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.676743,23.828586"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

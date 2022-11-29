@@ -1,0 +1,26 @@
+ concept_malls_1263567392
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Сделай сам"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сделай сам"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Максима Горького, 89"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 243-54-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:30–18:00, перерыв 13:30–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.704592,23.818623"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_fast_food_86701834423
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Тальж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Тальж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Долгобродская улица, 29В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 339-64-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–23:00; сб,вс 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.889688,27.615532"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://shayrma.by.minsk/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

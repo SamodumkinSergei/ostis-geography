@@ -1,0 +1,26 @@
+ concept_furniture_store_199476728861
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["БелВерона"]
+	(* <- lang_ru;; <- name;;*);
+    ["БелВерона"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Станция Луполово, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 797-92-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878962,30.401145"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://belverona.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

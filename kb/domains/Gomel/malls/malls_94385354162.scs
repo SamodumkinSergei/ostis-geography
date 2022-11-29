@@ -1,0 +1,26 @@
+ concept_malls_94385354162
+ <- concept_malls;
+=>nrel_main_idtf:
+	["ТРЦ Кристаll"]
+	(* <- lang_ru;; <- name;;*);
+    ["ТРЦ Кристаll"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 333"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 532-92-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.357237,31.028038"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://tckristall.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

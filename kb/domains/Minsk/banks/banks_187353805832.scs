@@ -1,0 +1,26 @@
+ concept_banks_187353805832
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Белгазпромбанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белгазпромбанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Романовская Слобода, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 218-36-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–19:00; пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902401,27.5464"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.belgazprombank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

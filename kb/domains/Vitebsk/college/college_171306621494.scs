@@ -1,0 +1,26 @@
+ concept_college_171306621494
+ <- concept_college;
+=>nrel_main_idtf:
+	["Кафедра хирургии ФПК и ПК ВГМУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафедра хирургии ФПК и ПК ВГМУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Воинов-Интернационалистов, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.158673,30.224527"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.vsmu.by/about-vsmu/spisok-kafedr/18-departments/121-kafhirfpk.html"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

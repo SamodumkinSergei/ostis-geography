@@ -1,0 +1,26 @@
+ concept_petshop_230716417050
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Ветеринарный кабинет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ветеринарный кабинет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Октября, 28Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 607-56-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 10:00–19:00; сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.4075,30.957277"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

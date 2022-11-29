@@ -1,0 +1,26 @@
+ concept_restaurants_89355436517
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Галактика"]
+	(* <- lang_ru;; <- name;;*);
+    ["Галактика"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица М.Г. Ефремова, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 256-71-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 12:30–00:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.461066,30.966066"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

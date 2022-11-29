@@ -1,0 +1,26 @@
+ concept_supermarket_162177020373
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Магазин Авс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин Авс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Октябрьский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00, перерыв 13:00–14:00; сб 10:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.655408,23.828822"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

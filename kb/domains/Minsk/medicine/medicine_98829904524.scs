@@ -1,0 +1,26 @@
+ concept_medicine_98829904524
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["РНПЦ психического здоровья, 9-е наркологическое отделение для лечения алкоголизма"]
+	(* <- lang_ru;; <- name;;*);
+    ["РНПЦ психического здоровья, 9-е наркологическое отделение для лечения алкоголизма"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Долгиновский тракт, 152, корп. 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 243-98-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–19:00, перерыв 13:00–17:00; сб,вс 10:00–19:00, перерыв 13:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.955833,27.541345"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mentalhealth.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

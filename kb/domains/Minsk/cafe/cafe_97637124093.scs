@@ -1,0 +1,26 @@
+ concept_cafe_97637124093
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Nelly coffee"]
+	(* <- lang_ru;; <- name;;*);
+    ["Nelly coffee"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Якуба Коласа, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 774-07-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб,вс 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.9303,27.5983"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

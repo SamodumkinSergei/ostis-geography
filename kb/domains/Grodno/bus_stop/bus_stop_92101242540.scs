@@ -1,0 +1,26 @@
+ concept_bus_stop_92101242540
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Гроднооблнефтепродукт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гроднооблнефтепродукт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Курчатова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.707243,23.839093"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

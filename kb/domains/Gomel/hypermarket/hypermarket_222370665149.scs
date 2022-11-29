@@ -1,0 +1,26 @@
+ concept_hypermarket_222370665149
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Товары для ремонта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Товары для ремонта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Рабочая улица, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 253-87-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.453213,30.978437"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

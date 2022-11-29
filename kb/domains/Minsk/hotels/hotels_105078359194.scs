@@ -1,0 +1,26 @@
+ concept_hotels_105078359194
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Агроусадьба Смольница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Агроусадьба Смольница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Смолевичский район, Заболотский сельсовет, деревня Смольница, Центральная улица, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 544-05-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.955799,27.949171"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://smolnitca.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

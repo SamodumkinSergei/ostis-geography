@@ -1,0 +1,26 @@
+ concept_museum_1156264654
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Национальный исторический музей Республики Беларусь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Национальный исторический музей Республики Беларусь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Карла Маркса, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 374-83-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.896817,27.555356"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pryroda.histmuseum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

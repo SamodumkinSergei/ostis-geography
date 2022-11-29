@@ -1,0 +1,26 @@
+ concept_cafe_119021960817
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Столовая"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столовая"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Победы, 16к14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 250-90-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.659744,23.830638"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ap1.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

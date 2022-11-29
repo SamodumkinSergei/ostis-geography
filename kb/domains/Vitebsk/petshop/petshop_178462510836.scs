@@ -1,0 +1,26 @@
+ concept_petshop_178462510836
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Зоо Лавка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зоо Лавка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 75"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 513-70-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.203752,30.208223"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://zoolavka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

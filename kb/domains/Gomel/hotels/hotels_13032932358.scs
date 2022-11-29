@@ -1,0 +1,26 @@
+ concept_hotels_13032932358
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Пугачевский"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пугачевский"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Пугачёва, 52"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 103-97-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.40666,31.038269"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

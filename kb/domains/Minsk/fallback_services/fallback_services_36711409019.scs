@@ -1,0 +1,26 @@
+ concept_fallback_services_36711409019
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Онка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Онка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Франциска Скорины, 44"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 774-87-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.928498,27.702552"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://onka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_museum_146383736300
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей истории МЗКТ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей истории МЗКТ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 150/22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 330-18-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.858782,27.6717"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.mzkt.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

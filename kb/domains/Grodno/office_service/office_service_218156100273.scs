@@ -1,0 +1,26 @@
+ concept_office_service_218156100273
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Ами мебель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ами мебель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Белорусская железная дорога, станция Лососно, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.64623,23.793015"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

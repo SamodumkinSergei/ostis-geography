@@ -1,0 +1,26 @@
+ concept_tailor_108958867586
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Ремонт обуви"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт обуви"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Одинцова, 65А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 365-51-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00, перерыв 14:00–14:45; сб 10:00–17:00, перерыв 14:00–14:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.900323,27.440486"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

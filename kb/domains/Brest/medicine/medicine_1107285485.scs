@@ -1,0 +1,26 @@
+ concept_medicine_1107285485
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Брестская центральная городская больница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестская центральная городская больница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Лактионова, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 240-68-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.097378,23.784958"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://brestcgb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

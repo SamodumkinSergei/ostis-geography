@@ -1,0 +1,26 @@
+ concept_malls_31571688871
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Товары для Рыбалки"]
+	(* <- lang_ru;; <- name;;*);
+    ["Товары для Рыбалки"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Челюскинцев, 172Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 616-01-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00; сб,вс 06:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.879604,30.265706"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://shopping-center-17017.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

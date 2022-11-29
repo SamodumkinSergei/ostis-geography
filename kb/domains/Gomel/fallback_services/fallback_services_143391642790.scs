@@ -1,0 +1,26 @@
+ concept_fallback_services_143391642790
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Студия Гранита Rg"]
+	(* <- lang_ru;; <- name;;*);
+    ["Студия Гранита Rg"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Ленина, 51"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 690-30-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.430128,30.996037"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ritualgranit.by/gomel/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

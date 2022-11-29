@@ -1,0 +1,26 @@
+ concept_bus_stop_206289565549
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Онкобольница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Онкобольница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Петруся Бровки"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.155403,30.231001"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

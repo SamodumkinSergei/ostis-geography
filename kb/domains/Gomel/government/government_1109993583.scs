@@ -1,0 +1,26 @@
+ concept_government_1109993583
+ <- concept_government;
+=>nrel_main_idtf:
+	["Управление департамента финансовых расследований КГК РБ по Гомельской области"]
+	(* <- lang_ru;; <- name;;*);
+    ["Управление департамента финансовых расследований КГК РБ по Гомельской области"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Интернациональный проезд, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 233-93-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.423327,31.00401"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.kgk.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

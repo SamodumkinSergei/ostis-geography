@@ -1,0 +1,26 @@
+ concept_restaurants_102052270829
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Мясной ресторан Beef & Fire"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мясной ресторан Beef & Fire"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Захарова, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 177-77-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–00:00; пт,сб 12:00–02:00; вс 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904794,27.582039"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://beeffire.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_malls_197625662491
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Строительная выставка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Строительная выставка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева, 123, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 259-62-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.933958,27.454873"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://zhdanovichi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

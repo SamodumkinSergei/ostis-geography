@@ -1,0 +1,26 @@
+ concept_auto_1351613125
+ <- concept_auto;
+=>nrel_main_idtf:
+	["РМ Маркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["РМ Маркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 165А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 654-07-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–21:00; вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.944117,27.660087"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rmmarket.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

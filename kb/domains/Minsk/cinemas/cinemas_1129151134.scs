@@ -1,0 +1,26 @@
+ concept_cinemas_1129151134
+ <- concept_cinemas;
+=>nrel_main_idtf:
+	["Кинокомната"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кинокомната"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Мележа, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 545-00-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.939183,27.6007"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://kinokomnata.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

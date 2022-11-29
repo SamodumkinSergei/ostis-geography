@@ -1,0 +1,26 @@
+ concept_office_service_1360055971
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Правильная реклама"]
+	(* <- lang_ru;; <- name;;*);
+    ["Правильная реклама"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Севастопольская улица, 102В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 229-33-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.384942,31.025479"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bybook.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

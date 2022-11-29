@@ -1,0 +1,26 @@
+ concept_furniture_store_1033848892
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Аспект"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аспект"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Казинца, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 390-55-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.866533,27.523792"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://aspectmebel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

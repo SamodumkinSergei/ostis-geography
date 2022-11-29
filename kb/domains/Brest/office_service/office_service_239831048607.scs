@@ -1,0 +1,26 @@
+ concept_office_service_239831048607
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Строим Сервис Брест"]
+	(* <- lang_ru;; <- name;;*);
+    ["Строим Сервис Брест"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Писателя Смирнова, 19А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 205-93-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.099585,23.652597"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://stroimservis.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

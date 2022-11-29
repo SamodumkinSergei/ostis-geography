@@ -1,0 +1,26 @@
+ concept_supermarket_1031501171
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Родны кут"]
+	(* <- lang_ru;; <- name;;*);
+    ["Родны кут"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Карповича, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 270-07-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.425779,30.999335"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rodnykut.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_office_service_154237904391
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Hurtownia Elektryczna Grodno S. A."]
+	(* <- lang_ru;; <- name;;*);
+    ["Hurtownia Elektryczna Grodno S. A."]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Ополе, улица Будовляных, 2A"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+48 77 423 24 44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["50.675962,17.918156"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.grodno.pl/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

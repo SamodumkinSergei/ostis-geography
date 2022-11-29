@@ -1,0 +1,26 @@
+ concept_museum_1090659538
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Городская ратуша"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская ратуша"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Ленинская улица, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 224-50-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср-вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.894558,30.331969"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://museumhm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

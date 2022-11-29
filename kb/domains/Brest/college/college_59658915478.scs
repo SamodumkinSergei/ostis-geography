@@ -1,0 +1,26 @@
+ concept_college_59658915478
+ <- concept_college;
+=>nrel_main_idtf:
+	["Политехнический колледж, филиал Брестского государственного технического университета"]
+	(* <- lang_ru;; <- name;;*);
+    ["Политехнический колледж, филиал Брестского государственного технического университета"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Карла Маркса, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 251-33-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:00–17:00, перерыв 12:45–13:30; пт 08:00–15:45, перерыв 12:45–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.090227,23.688116"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bspc.bstu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

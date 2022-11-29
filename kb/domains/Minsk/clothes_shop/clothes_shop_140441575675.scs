@@ -1,0 +1,26 @@
+ concept_clothes_shop_140441575675
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Мода макс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мода макс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Кальварийская улица, 44"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 350-03-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908266,27.513138"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://modamax.by/shops/minsk/minsk-ul-kalvarijskaya-44"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

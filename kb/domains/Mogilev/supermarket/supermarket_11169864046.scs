@@ -1,0 +1,26 @@
+ concept_supermarket_11169864046
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Белмаркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белмаркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 91А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 523-22-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917306,30.34301"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bel-market.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

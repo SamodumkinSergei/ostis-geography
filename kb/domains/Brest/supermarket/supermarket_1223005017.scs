@@ -1,0 +1,26 @@
+ concept_supermarket_1223005017
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Продтовары"]
+	(* <- lang_ru;; <- name;;*);
+    ["Продтовары"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, бульвар Космонавтов, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 293-56-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:30–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.097446,23.695644"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://prodtovary.com/shop/prodtovary/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

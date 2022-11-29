@@ -1,0 +1,26 @@
+ concept_auto_1360309750
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Татико-авто"]
+	(* <- lang_ru;; <- name;;*);
+    ["Татико-авто"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Машиностроителей, 32/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 746-00-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.850293,27.669398"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://autostekla.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

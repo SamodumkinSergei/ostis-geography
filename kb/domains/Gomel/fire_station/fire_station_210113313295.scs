@@ -1,0 +1,26 @@
+ concept_fire_station_210113313295
+ <- concept_fire_station;
+=>nrel_main_idtf:
+	["Smestad Firestation"]
+	(* <- lang_ru;; <- name;;*);
+    ["Smestad Firestation"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Осло, Dalsveien, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+47 21 80 21 80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["59.939861,10.687658"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.oslo.kommune.no/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

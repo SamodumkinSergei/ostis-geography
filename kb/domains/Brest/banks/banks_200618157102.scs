@@ -1,0 +1,26 @@
+ concept_banks_200618157102
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Беларусбанк, отделение № 100/1015"]
+	(* <- lang_ru;; <- name;;*);
+    ["Беларусбанк, отделение № 100/1015"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Советская улица, 58"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 218-84-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.091319,23.695148"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://belarusbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

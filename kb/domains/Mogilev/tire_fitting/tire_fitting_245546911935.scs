@@ -1,0 +1,26 @@
+ concept_tire_fitting_245546911935
+ <- concept_tire_fitting;
+=>nrel_main_idtf:
+	["Шиномонтаж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Шиномонтаж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Гончарная улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 139-44-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.880893,30.3263"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

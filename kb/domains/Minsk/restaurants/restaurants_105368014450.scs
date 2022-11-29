@@ -1,0 +1,26 @@
+ concept_restaurants_105368014450
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Васильки"]
+	(* <- lang_ru;; <- name;;*);
+    ["Васильки"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 150А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 666-92-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.859274,27.673834"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vasilki.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

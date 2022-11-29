@@ -1,0 +1,26 @@
+ concept_medicine_68047207650
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гомельская городская клиническая больница № 3, хирургическое отделение № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельская городская клиническая больница № 3, хирургическое отделение № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 286, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 253-39-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.355536,31.035031"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.ggkb3.by/ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

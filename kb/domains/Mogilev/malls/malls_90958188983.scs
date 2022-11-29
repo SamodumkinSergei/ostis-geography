@@ -1,0 +1,26 @@
+ concept_malls_90958188983
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Фабрика роста"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фабрика роста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Орловского, 17В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 187-36-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916145,30.328386"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://fabrikarosta.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

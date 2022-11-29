@@ -1,0 +1,26 @@
+ concept_fast_food_60470898324
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["KFC"]
+	(* <- lang_ru;; <- name;;*);
+    ["KFC"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Варшавское шоссе, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 740-32-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.075793,23.716945"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.kfc.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

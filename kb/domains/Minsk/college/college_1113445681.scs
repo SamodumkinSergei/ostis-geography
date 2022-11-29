@@ -1,0 +1,26 @@
+ concept_college_1113445681
+ <- concept_college;
+=>nrel_main_idtf:
+	["Филиал БГЭУ Минский финансово-экономический колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Филиал БГЭУ Минский финансово-экономический колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Красная улица, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 284-75-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–16:30, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.91439,27.576999"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.mfec.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

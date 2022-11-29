@@ -1,0 +1,26 @@
+ concept_auto_133802886850
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Avi-service"]
+	(* <- lang_ru;; <- name;;*);
+    ["Avi-service"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Академика Купревича, 10Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 657-01-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–18:30; сб 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.926637,27.687568"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://avi-service.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

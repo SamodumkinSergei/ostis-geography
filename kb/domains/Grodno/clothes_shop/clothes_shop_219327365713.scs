@@ -1,0 +1,26 @@
+ concept_clothes_shop_219327365713
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Мегахенд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мегахенд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Гагарина, 41"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 383-89-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.672661,23.80836"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mega-hand.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

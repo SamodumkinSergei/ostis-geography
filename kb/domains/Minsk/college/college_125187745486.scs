@@ -1,0 +1,26 @@
+ concept_college_125187745486
+ <- concept_college;
+=>nrel_main_idtf:
+	["БНТУ, отдел международных программ и обменов ФМС"]
+	(* <- lang_ru;; <- name;;*);
+    ["БНТУ, отдел международных программ и обменов ФМС"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 67к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 292-42-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:15–17:30, перерыв 13:00–14:00; пт 08:15–16:15, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.920814,27.594763"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bntu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

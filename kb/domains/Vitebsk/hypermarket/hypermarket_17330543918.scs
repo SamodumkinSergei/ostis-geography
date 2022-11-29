@@ -1,0 +1,26 @@
+ concept_hypermarket_17330543918
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Стройматериалы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стройматериалы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чкалова, 30А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 679-40-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.168282,30.212065"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://rbss.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

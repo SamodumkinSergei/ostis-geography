@@ -1,0 +1,26 @@
+ concept_hypermarket_139764623952
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["НесТулс"]
+	(* <- lang_ru;; <- name;;*);
+    ["НесТулс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Комсомольская улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 250-60-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.09863,23.684321"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://instrument-opt.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

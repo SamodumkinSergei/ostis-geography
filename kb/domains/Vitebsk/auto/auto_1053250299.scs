@@ -1,0 +1,26 @@
+ concept_auto_1053250299
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Анатэкс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Анатэкс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Ленинградская улица, 159А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 895-70-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 09:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.206284,30.155501"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://anateks.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

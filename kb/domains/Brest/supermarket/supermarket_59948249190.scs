@@ -1,0 +1,26 @@
+ concept_supermarket_59948249190
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Санта супер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Санта супер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Рябиновая улица, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 744-43-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.06445,23.730244"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://santa.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

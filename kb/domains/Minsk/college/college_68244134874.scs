@@ -1,0 +1,26 @@
+ concept_college_68244134874
+ <- concept_college;
+=>nrel_main_idtf:
+	["Заочный факультет БГТУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Заочный факультет БГТУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Свердлова, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 272-40-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–17:00, перерыв 12:30–13:15; пт 09:00–16:00, перерыв 12:30–13:15; сб 08:15–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.890976,27.559279"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://zf.belstu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

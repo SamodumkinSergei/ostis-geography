@@ -1,0 +1,26 @@
+ concept_college_1397996286
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 34"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 34"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Мирошниченко, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 364-98-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.960121,27.60925"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch34.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

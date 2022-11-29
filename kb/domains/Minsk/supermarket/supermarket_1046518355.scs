@@ -1,0 +1,26 @@
+ concept_supermarket_1046518355
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Белмаркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белмаркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Заводской район, Северный посёлок, улица Варвашени, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 398-22-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.864838,27.668667"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bel-market.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_supermarket_120036907145
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Гродненский консервный завод"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненский консервный завод"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Кстинская улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 265-37-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.64394,23.779076"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://fruktoff.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

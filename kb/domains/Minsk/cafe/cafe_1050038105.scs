@@ -1,0 +1,26 @@
+ concept_cafe_1050038105
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Граф"]
+	(* <- lang_ru;; <- name;;*);
+    ["Граф"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 116"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 270-37-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.931244,27.646305"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.grafcafe.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_fast_food_213421843190
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Шава БРО"]
+	(* <- lang_ru;; <- name;;*);
+    ["Шава БРО"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пушкинский проспект, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 599-36-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878575,30.338438"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

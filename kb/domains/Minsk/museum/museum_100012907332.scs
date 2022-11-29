@@ -1,0 +1,26 @@
+ concept_museum_100012907332
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Луговослободской сельский дом культуры"]
+	(* <- lang_ru;; <- name;;*);
+    ["Луговослободской сельский дом культуры"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Луговослободской сельсовет, агрогородок Луговая Слобода, улица Мира, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 501-50-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 12:00–21:00, перерыв 16:00–17:00; сб 11:00–20:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.782609,27.836818"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_supermarket_1188037942
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Виталюр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Виталюр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Лошица, Игуменский тракт, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 328-77-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.84672,27.570055"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitalur.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

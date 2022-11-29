@@ -1,0 +1,26 @@
+ concept_spa_1391126020
+ <- concept_spa;
+=>nrel_main_idtf:
+	["Студия парикмахерских услуг"]
+	(* <- lang_ru;; <- name;;*);
+    ["Студия парикмахерских услуг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Сосновая улица, 18А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 199-67-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–20:00; вс 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.420359,30.944234"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

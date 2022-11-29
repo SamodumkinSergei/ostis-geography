@@ -1,0 +1,26 @@
+ concept_college_1070199822
+ <- concept_college;
+=>nrel_main_idtf:
+	["Факультет Коммерции и Туристической Индустрии БГЭУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Факультет Коммерции и Туристической Индустрии БГЭУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Свердлова, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 209-79-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.8948,27.552569"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://fcti.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_malls_170683248375
+ <- concept_malls;
+=>nrel_main_idtf:
+	["LaptopShop"]
+	(* <- lang_ru;; <- name;;*);
+    ["LaptopShop"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 161-20-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 12:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910588,27.49267"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://laptopshop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

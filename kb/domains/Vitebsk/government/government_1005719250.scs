@@ -1,0 +1,26 @@
+ concept_government_1005719250
+ <- concept_government;
+=>nrel_main_idtf:
+	["Главное управление ЖКХ Витебского облисполкома"]
+	(* <- lang_ru;; <- name;;*);
+    ["Главное управление ЖКХ Витебского облисполкома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Правды, 38А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 268-00-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.188118,30.219789"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitoblgkh.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_225196286313
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Парниково-тепличный комбинат"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парниково-тепличный комбинат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Филимонова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.918491,27.636198"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

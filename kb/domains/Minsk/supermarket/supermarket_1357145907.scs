@@ -1,0 +1,26 @@
+ concept_supermarket_1357145907
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Корона"]
+	(* <- lang_ru;; <- name;;*);
+    ["Корона"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Одинцова, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 379-53-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.898244,27.456167"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://korona.by/hypermarkets/shops/supermarket-korona-odincova-9"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

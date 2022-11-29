@@ -1,0 +1,26 @@
+ concept_cafe_106018498790
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Chicken House"]
+	(* <- lang_ru;; <- name;;*);
+    ["Chicken House"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Герасименко, 51"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 505-65-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.886138,27.67803"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mfkmandarin.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_petshop_1087710078
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Какаду плюс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Какаду плюс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Крыленко, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 242-92-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907729,30.335692"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kakadu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

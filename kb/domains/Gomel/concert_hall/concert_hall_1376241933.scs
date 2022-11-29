@@ -1,0 +1,26 @@
+ concept_concert_hall_1376241933
+ <- concept_concert_hall;
+=>nrel_main_idtf:
+	["Arena Hall"]
+	(* <- lang_ru;; <- name;;*);
+    ["Arena Hall"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Коммунаров, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 119-05-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 20:00–05:00; пт,сб 19:00–05:00; вс 20:00–05:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.426332,31.011893"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://arena-hall.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

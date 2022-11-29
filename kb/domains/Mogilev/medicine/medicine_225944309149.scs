@@ -1,0 +1,26 @@
+ concept_medicine_225944309149
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Могилёвский детский хоспис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилёвский детский хоспис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Габровская улица, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 320-43-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.867058,30.344397"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://hospismogilev.org/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

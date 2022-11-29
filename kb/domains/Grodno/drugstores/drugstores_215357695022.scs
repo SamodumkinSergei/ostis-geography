@@ -1,0 +1,26 @@
+ concept_drugstores_215357695022
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Госаптека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Госаптека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Дзержинского, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (3412) 39-93-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.687097,23.835422"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gosapteka18.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

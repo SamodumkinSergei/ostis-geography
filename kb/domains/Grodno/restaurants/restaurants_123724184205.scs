@@ -1,0 +1,26 @@
+ concept_restaurants_123724184205
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Burger King"]
+	(* <- lang_ru;; <- name;;*);
+    ["Burger King"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Космонавтов, 81"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 799-72-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.672677,23.8626"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://burger-king.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

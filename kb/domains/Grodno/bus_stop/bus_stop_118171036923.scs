@@ -1,0 +1,26 @@
+ concept_bus_stop_118171036923
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Данилова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Данилова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Данилова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.655754,23.785244"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

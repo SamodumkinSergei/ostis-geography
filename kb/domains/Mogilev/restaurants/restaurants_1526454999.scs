@@ -1,0 +1,26 @@
+ concept_restaurants_1526454999
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["101"]
+	(* <- lang_ru;; <- name;;*);
+    ["101"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пожарный переулок, 6Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 273-31-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.899448,30.3352"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://101rest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

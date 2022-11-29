@@ -1,0 +1,26 @@
+ concept_medicine_102962532047
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Минский научно-практический центр хирургии, трансплантологии и гематологии, приемное отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский научно-практический центр хирургии, трансплантологии и гематологии, приемное отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Семашко, 8к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 277-13-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.859789,27.495528"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://msth.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

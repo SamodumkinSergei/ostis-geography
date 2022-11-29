@@ -1,0 +1,26 @@
+ concept_medicine_1339974341
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городская поликлиника № 29"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская поликлиника № 29"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Казинца, 94"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 374-93-71"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.8472,27.504539"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.29gp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_144508613223
+ <- concept_college;
+=>nrel_main_idtf:
+	["Библиотека БГУИР, отдел каталогизации библиотеки"]
+	(* <- lang_ru;; <- name;;*);
+    ["Библиотека БГУИР, отдел каталогизации библиотеки"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петруся Бровки, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 293-86-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 13:00–13:45; пт 08:30–16:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.918794,27.593867"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://library.bsuir.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

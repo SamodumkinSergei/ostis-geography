@@ -1,0 +1,26 @@
+ concept_hotels_1225530004
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Турист"]
+	(* <- lang_ru;; <- name;;*);
+    ["Турист"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 87"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 554-56-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.448218,30.99975"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomeltourist.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_hypermarket_220769665236
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Ома"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 149"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 229-95-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.46965,30.981984"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.oma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

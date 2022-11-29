@@ -1,0 +1,26 @@
+ concept_auto_180291918642
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автостандарт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостандарт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, 1-й Твёрдый переулок, 7Бк3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 946-46-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907188,27.597574"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://astd.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

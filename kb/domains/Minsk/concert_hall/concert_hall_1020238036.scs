@@ -1,0 +1,26 @@
+ concept_concert_hall_1020238036
+ <- concept_concert_hall;
+=>nrel_main_idtf:
+	["Monaco"]
+	(* <- lang_ru;; <- name;;*);
+    ["Monaco"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 209-44-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["чт-вс 20:00–05:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.91047,27.546548"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

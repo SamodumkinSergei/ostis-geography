@@ -1,0 +1,26 @@
+ concept_mobile_phones_241308996877
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Pafix.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Pafix.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева, 74А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 777-49-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.927035,27.509855"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pafix.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

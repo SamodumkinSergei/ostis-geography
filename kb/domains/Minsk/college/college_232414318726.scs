@@ -1,0 +1,26 @@
+ concept_college_232414318726
+ <- concept_college;
+=>nrel_main_idtf:
+	["Кафедра иностранных языков"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафедра иностранных языков"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 83, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 279-42-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.861962,27.484702"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_petshop_168730011139
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Зоовет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зоовет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Славинского, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 780-93-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.647759,23.831581"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

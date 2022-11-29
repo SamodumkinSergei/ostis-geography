@@ -1,0 +1,26 @@
+ concept_banks_127107826682
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Открытое акционерное общество Приорбанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Открытое акционерное общество Приорбанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Мира, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 289-90-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.869384,27.547122"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.priorbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

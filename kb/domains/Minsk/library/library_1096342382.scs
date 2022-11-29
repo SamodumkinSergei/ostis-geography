@@ -1,0 +1,26 @@
+ concept_library_1096342382
+ <- concept_library;
+=>nrel_main_idtf:
+	["Филиал библиотека № 3"]
+	(* <- lang_ru;; <- name;;*);
+    ["Филиал библиотека № 3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Рыбалко, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 395-04-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 12:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.884692,27.594984"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://publib.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

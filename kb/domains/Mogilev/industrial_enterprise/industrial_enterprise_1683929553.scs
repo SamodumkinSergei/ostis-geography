@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_1683929553
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Могилёвский литейный завод"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилёвский литейный завод"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Симонова, 77"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 260-06-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.85996,30.30734"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.ferro.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

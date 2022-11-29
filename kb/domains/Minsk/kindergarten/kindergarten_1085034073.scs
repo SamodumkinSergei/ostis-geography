@@ -1,0 +1,26 @@
+ concept_kindergarten_1085034073
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 350"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 350"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Жудро, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 363-10-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.913289,27.481814"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu350.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

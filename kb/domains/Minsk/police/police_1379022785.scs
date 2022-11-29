@@ -1,0 +1,26 @@
+ concept_police_1379022785
+ <- concept_police;
+=>nrel_main_idtf:
+	["Минский отдел внутренний дел на транспорте"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский отдел внутренний дел на транспорте"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Розы Люксембург, 105А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 202-84-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.890552,27.518646"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gaiminsk.by/guvd-mingorispolkoma"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

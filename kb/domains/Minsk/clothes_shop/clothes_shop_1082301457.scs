@@ -1,0 +1,26 @@
+ concept_clothes_shop_1082301457
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Эконом стиль"]
+	(* <- lang_ru;; <- name;;*);
+    ["Эконом стиль"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Руссиянова, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 732-53-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.938315,27.68468"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

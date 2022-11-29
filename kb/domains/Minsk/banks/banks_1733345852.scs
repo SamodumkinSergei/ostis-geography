@@ -1,0 +1,26 @@
+ concept_banks_1733345852
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Белинвестбанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белинвестбанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Будённого, 16А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 239-02-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:40–19:20, перерывы 10:50–11:05, 12:30–12:45, 14:20–15:10, 17:10–17:25; сб,вс 09:45–19:30, перерывы 10:50–11:05, 12:30–12:45, 14:45–15:30, 17:20–17:35"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.883335,27.612269"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belinvestbank.by/about-bank/service-points/view-office/15"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

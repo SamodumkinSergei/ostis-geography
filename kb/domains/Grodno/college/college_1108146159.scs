@@ -1,0 +1,26 @@
+ concept_college_1108146159
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 26 имени А. Н. Сивачёва"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 26 имени А. Н. Сивачёва"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Янки Купалы, 55"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 233-14-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.65339,23.841627"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sh26grodno.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

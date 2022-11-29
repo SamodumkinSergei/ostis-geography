@@ -1,0 +1,26 @@
+ concept_drugstores_29952927684
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Любимая аптека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Любимая аптека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Пушкина, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 378-70-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–22:00; сб,вс 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90723,27.494819"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://l-a.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

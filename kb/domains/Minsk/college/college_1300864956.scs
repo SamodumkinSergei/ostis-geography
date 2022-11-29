@@ -1,0 +1,26 @@
+ concept_college_1300864956
+ <- concept_college;
+=>nrel_main_idtf:
+	["БГПУ им. Максима Танка, факультет физико-математический"]
+	(* <- lang_ru;; <- name;;*);
+    ["БГПУ им. Максима Танка, факультет физико-математический"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Советская улица, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 226-40-24"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.894539,27.545326"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://bspu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

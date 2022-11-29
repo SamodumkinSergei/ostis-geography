@@ -1,0 +1,26 @@
+ concept_malls_179119279659
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Корпорация М8"]
+	(* <- lang_ru;; <- name;;*);
+    ["Корпорация М8"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Гаспадарчая улица, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 260-94-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.710394,23.825034"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.m8.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

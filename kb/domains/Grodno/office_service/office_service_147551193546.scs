@@ -1,0 +1,26 @@
+ concept_office_service_147551193546
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Depot"]
+	(* <- lang_ru;; <- name;;*);
+    ["Depot"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Москва, Пестовский переулок, 16с2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (495) 363-22-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.746568,37.660898"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.depotwpf.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_medicine_40353799536
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Dr. Ismail Polyclinic"]
+	(* <- lang_ru;; <- name;;*);
+    ["Dr. Ismail Polyclinic"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Дубай, Дискавери Гарденс, Зен Гарден, улица 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+971 444 940 87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["25.049222,55.131366"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://drismailhealthcaregroup.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

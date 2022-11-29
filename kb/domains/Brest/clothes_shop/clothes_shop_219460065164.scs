@@ -1,0 +1,26 @@
+ concept_clothes_shop_219460065164
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Ertanno shop"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ertanno shop"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Советская улица, 83"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 532-47-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 12:00–18:00; вс 12:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.089502,23.694545"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ertanno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

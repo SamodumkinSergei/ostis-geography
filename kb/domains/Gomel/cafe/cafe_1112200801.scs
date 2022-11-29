@@ -1,0 +1,26 @@
+ concept_cafe_1112200801
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Альянс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Альянс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Киселёва, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 233-67-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:30–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.428028,30.992792"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gomel.amaks-hotels.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

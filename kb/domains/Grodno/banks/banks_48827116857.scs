@@ -1,0 +1,26 @@
+ concept_banks_48827116857
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Альфа-Банк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Альфа-Банк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Лиможа, 32Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["198"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:40–20:40, перерывы 11:30–11:45, 14:45–15:45, 17:30–17:45, 19:30–19:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.711476,23.848781"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.alfabank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

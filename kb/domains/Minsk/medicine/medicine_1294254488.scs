@@ -1,0 +1,26 @@
+ concept_medicine_1294254488
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["11-я Городская Клиническая больница"]
+	(* <- lang_ru;; <- name;;*);
+    ["11-я Городская Клиническая больница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Корженевского, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 242-44-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.845792,27.497128"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.11gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

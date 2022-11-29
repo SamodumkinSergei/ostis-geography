@@ -1,0 +1,26 @@
+ concept_restaurants_213811521306
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Пицца Хайп"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пицца Хайп"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Артиллерийская улица, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.435395,31.000357"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pizzahype.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

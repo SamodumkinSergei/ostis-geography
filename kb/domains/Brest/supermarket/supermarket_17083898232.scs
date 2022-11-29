@@ -1,0 +1,26 @@
+ concept_supermarket_17083898232
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Магазин продуктов Брест"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин продуктов Брест"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брестская область, Пинск, Брестская улица, 61"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.112421,26.075541"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

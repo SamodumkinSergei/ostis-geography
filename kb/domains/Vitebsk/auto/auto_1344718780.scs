@@ -1,0 +1,26 @@
+ concept_auto_1344718780
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Гараж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гараж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Гагарина, 99"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 710-50-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.21424,30.236169"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.stogarage.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

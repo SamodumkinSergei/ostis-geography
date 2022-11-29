@@ -1,0 +1,26 @@
+ concept_college_1056329349
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 21 имени Героя Советского Союза В. А. Демидова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 21 имени Героя Советского Союза В. А. Демидова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ильинского, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 266-53-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.198331,30.196871"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://21vitebsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_supermarket_125143593355
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Диета"]
+	(* <- lang_ru;; <- name;;*);
+    ["Диета"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Сурганова, 41"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:00–17:00, перерыв 12:00–12:45; пт 08:00–15:45, перерыв 12:00–12:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.925237,30.316353"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogilev-dieta.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

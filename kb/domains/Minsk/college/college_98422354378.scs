@@ -1,0 +1,26 @@
+ concept_college_98422354378
+ <- concept_college;
+=>nrel_main_idtf:
+	["БГУИР, кафедра теоретических основ электротехники Фиту"]
+	(* <- lang_ru;; <- name;;*);
+    ["БГУИР, кафедра теоретических основ электротехники Фиту"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Гикало, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 293-89-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 13:00–13:45; пт 08:30–16:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912233,27.594331"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsuir.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

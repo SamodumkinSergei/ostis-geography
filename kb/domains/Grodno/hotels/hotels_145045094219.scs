@@ -1,0 +1,26 @@
+ concept_hotels_145045094219
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Apartment on Yuzhnaya Street Grodno"]
+	(* <- lang_ru;; <- name;;*);
+    ["Apartment on Yuzhnaya Street Grodno"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Yuzhnaya Ulitsa Dom 26 Kvartira 54"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.63525,23.8524"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

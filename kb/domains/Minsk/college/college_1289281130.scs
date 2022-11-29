@@ -1,0 +1,26 @@
+ concept_college_1289281130
+ <- concept_college;
+=>nrel_main_idtf:
+	["БНТУ, приёмная комиссия"]
+	(* <- lang_ru;; <- name;;*);
+    ["БНТУ, приёмная комиссия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 65Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 292-38-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:15–17:30, перерыв 13:00–14:00; пт 08:15–16:15, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.921028,27.59313"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://priem.bntu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

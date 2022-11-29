@@ -1,0 +1,26 @@
+ concept_supermarket_192314755796
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Дворик"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дворик"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, 8-я Иногородняя улица, 16А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.441597,30.944517"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_hotels_1326182648
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Виктория"]
+	(* <- lang_ru;; <- name;;*);
+    ["Виктория"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 59"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 239-77-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.921545,27.527048"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://victoria1.hotel-victoria.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

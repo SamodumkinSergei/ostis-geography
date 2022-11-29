@@ -1,0 +1,26 @@
+ concept_restaurants_1190776897
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Васильки"]
+	(* <- lang_ru;; <- name;;*);
+    ["Васильки"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 89"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 764-46-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.923206,27.6067"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vasilki.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

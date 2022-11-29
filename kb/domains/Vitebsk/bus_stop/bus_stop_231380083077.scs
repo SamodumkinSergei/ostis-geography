@@ -1,0 +1,26 @@
+ concept_bus_stop_231380083077
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Прорезная улица"]
+	(* <- lang_ru;; <- name;;*);
+    ["Прорезная улица"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица 3-я Линия, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.212177,30.200176"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

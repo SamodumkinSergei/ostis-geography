@@ -1,0 +1,26 @@
+ concept_office_83491697387
+ <- concept_office;
+=>nrel_main_idtf:
+	["Бизнес 24"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бизнес 24"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Мостовая улица, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 586-68-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.674229,23.828425"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://business-hub.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

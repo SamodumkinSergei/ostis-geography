@@ -1,0 +1,26 @@
+ concept_restaurants_208600081402
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Траттория Маркони"]
+	(* <- lang_ru;; <- name;;*);
+    ["Траттория Маркони"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Победы, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 551-51-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.43469,31.006013"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pizzamarkoni.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

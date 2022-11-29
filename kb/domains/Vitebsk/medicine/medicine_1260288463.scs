@@ -1,0 +1,26 @@
+ concept_medicine_1260288463
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Витебская городская клиническая больница № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебская городская клиническая больница № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Коммунистическая улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 236-94-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.200036,30.209942"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.uzvgkb1.vitebsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

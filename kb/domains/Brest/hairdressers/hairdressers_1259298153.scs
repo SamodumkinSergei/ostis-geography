@@ -1,0 +1,26 @@
+ concept_hairdressers_1259298153
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Модена"]
+	(* <- lang_ru;; <- name;;*);
+    ["Модена"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гоголя, 4/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 720-24-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.089528,23.675066"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

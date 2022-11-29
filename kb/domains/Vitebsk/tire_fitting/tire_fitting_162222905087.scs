@@ -1,0 +1,26 @@
+ concept_tire_fitting_162222905087
+ <- concept_tire_fitting;
+=>nrel_main_idtf:
+	["Циркон"]
+	(* <- lang_ru;; <- name;;*);
+    ["Циркон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Титова, 121С"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 336-08-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00; сб 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.198157,30.145939"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://zirkon.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

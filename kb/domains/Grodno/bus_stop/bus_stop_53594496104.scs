@@ -1,0 +1,26 @@
+ concept_bus_stop_53594496104
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Репина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Репина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, микрорайон Фолюш"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.654929,23.785995"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

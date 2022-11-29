@@ -1,0 +1,26 @@
+ concept_stadium_1051888219
+ <- concept_stadium;
+=>nrel_main_idtf:
+	["Стадион Трактор"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стадион Трактор"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ванеева, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 230-53-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–18:00, перерыв 13:00–13:45; пт 09:00–16:45, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.881478,27.617566"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://fcminsk.by/uslugi/stadion-traktor/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

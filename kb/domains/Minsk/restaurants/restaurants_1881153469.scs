@@ -1,0 +1,26 @@
+ concept_restaurants_1881153469
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Domino’s Pizza"]
+	(* <- lang_ru;; <- name;;*);
+    ["Domino’s Pizza"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 106"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 532-77-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.858671,27.477374"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://dominos.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

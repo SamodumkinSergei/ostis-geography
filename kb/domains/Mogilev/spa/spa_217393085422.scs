@@ -1,0 +1,26 @@
+ concept_spa_217393085422
+ <- concept_spa;
+=>nrel_main_idtf:
+	["Салон Ирис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Салон Ирис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Шмидта, 3А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 263-10-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб,вс 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.872617,30.31824"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

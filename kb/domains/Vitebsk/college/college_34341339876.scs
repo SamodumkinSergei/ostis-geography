@@ -1,0 +1,26 @@
+ concept_college_34341339876
+ <- concept_college;
+=>nrel_main_idtf:
+	["Факультет химико-биологических и географических наук ВГУ имени П. М. Машерова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Факультет химико-биологических и географических наук ВГУ имени П. М. Машерова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 237-58-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.177948,30.224994"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

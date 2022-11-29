@@ -1,0 +1,26 @@
+ concept_railway_terminal_176594415070
+ <- concept_railway_terminal;
+=>nrel_main_idtf:
+	["Линейный центр транспортного обслуживания"]
+	(* <- lang_ru;; <- name;;*);
+    ["Линейный центр транспортного обслуживания"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Станция Луполово, 4А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.877038,30.40278"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

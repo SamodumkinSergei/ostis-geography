@@ -1,0 +1,26 @@
+ concept_college_1195402859
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 13 имени В. И. Хована"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 13 имени В. И. Хована"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Машерова, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 250-01-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.086698,23.699741"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://13brest.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_supermarket_1043125922
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Аркада"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аркада"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Кирова, 90А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 105-38-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.444525,30.99497"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_college_101157132953
+ <- concept_college;
+=>nrel_main_idtf:
+	["Химический факультет БГУ, кафедра физической химии"]
+	(* <- lang_ru;; <- name;;*);
+    ["Химический факультет БГУ, кафедра физической химии"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинградская улица, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 226-49-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 13:00–13:45; пт 08:30–17:00, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.893677,27.549698"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://chemistry.bsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

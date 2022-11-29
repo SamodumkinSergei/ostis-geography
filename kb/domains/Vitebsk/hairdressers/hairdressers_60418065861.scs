@@ -1,0 +1,26 @@
+ concept_hairdressers_60418065861
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Точка красоты"]
+	(* <- lang_ru;; <- name;;*);
+    ["Точка красоты"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Строителей, 15, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 903-02-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–20:00; вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.170055,30.223319"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

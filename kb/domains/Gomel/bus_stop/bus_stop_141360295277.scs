@@ -1,0 +1,26 @@
+ concept_bus_stop_141360295277
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Бочкина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Бочкина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Залинейный, улица Бочкина"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.426613,30.965776"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_college_1003118399
+ <- concept_college;
+=>nrel_main_idtf:
+	["Lang-office"]
+	(* <- lang_ru;; <- name;;*);
+    ["Lang-office"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Комсомольская улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 721-01-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 13:00–20:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.896232,30.336114"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

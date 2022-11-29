@@ -1,0 +1,26 @@
+ concept_government_1076728571
+ <- concept_government;
+=>nrel_main_idtf:
+	["Главное управление по образованию Витебского облисполкома"]
+	(* <- lang_ru;; <- name;;*);
+    ["Главное управление по образованию Витебского облисполкома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Офицерская улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 222-17-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.18315,30.224637"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vituo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

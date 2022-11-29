@@ -1,0 +1,26 @@
+ concept_hypermarket_1308930877
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Корпоративные Решения"]
+	(* <- lang_ru;; <- name;;*);
+    ["Корпоративные Решения"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева, 67"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 668-78-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.925227,27.508475"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://enterprise-solutions.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_government_1139977576
+ <- concept_government;
+=>nrel_main_idtf:
+	["Главное управление Национального банка Республики Беларусь по Витебской области"]
+	(* <- lang_ru;; <- name;;*);
+    ["Главное управление Национального банка Республики Беларусь по Витебской области"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 229-74-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 13:00–13:45; пт 08:30–16:15, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.189701,30.206026"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.nbrb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

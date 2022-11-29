@@ -1,0 +1,26 @@
+ concept_restaurants_68385842608
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Буэрвэй"]
+	(* <- lang_ru;; <- name;;*);
+    ["Буэрвэй"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Олега Кошевого, 13А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 177-93-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 14:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.885242,27.605537"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

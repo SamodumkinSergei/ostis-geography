@@ -1,0 +1,26 @@
+ concept_kindergarten_1100571062
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Санаторный ясли-сад № 34"]
+	(* <- lang_ru;; <- name;;*);
+    ["Санаторный ясли-сад № 34"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Новая улица, 81"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 232-00-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.685984,23.805007"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://san34grodno.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

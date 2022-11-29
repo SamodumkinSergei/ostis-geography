@@ -1,0 +1,26 @@
+ concept_cafe_1073662147
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Заря"]
+	(* <- lang_ru;; <- name;;*);
+    ["Заря"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Лизы Чайкиной, 43"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 233-20-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–19:00; пт,сб 12:00–01:00; вс 12:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.664872,23.790552"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://m.grodno.in/cafe/sunrise"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

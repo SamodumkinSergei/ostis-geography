@@ -1,0 +1,26 @@
+ concept_fallback_services_1081658213
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Изделия из гранита"]
+	(* <- lang_ru;; <- name;;*);
+    ["Изделия из гранита"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Пушкина, 29А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 244-24-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00, перерыв 13:00–14:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.694816,23.835744"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

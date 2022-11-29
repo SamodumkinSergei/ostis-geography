@@ -1,0 +1,26 @@
+ concept_petshop_4432022308
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Любимые лапки"]
+	(* <- lang_ru;; <- name;;*);
+    ["Любимые лапки"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Лазо, 137"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 895-32-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–20:00; сб 11:00–17:00; вс 11:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.203688,30.269055"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_restaurants_1222747480
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Берёзка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Берёзка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Захарова, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 140-43-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–00:00; пт 09:00–02:00; сб 10:00–02:00; вс 10:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908445,27.575955"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://berezkacafe.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

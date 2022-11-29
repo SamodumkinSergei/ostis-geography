@@ -1,0 +1,26 @@
+ concept_bus_stop_128337299659
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["ГАП № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГАП № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Сокольская улица, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.6524,23.794453"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

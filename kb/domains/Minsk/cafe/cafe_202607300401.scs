@@ -1,0 +1,26 @@
+ concept_cafe_202607300401
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Trdlo house"]
+	(* <- lang_ru;; <- name;;*);
+    ["Trdlo house"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Машерова, 11к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 592-01-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.915217,27.568732"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://taplink.cc/trdlohouse"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

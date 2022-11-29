@@ -1,0 +1,26 @@
+ concept_auto_172611850060
+ <- concept_auto;
+=>nrel_main_idtf:
+	["ИП Сюркин Г.А."]
+	(* <- lang_ru;; <- name;;*);
+    ["ИП Сюркин Г.А."]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пионерская улица, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 646-17-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901801,30.343141"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.avtozamok.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

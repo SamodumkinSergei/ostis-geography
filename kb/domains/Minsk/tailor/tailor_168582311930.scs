@@ -1,0 +1,26 @@
+ concept_tailor_168582311930
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Ремонт обуви и одежды"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт обуви и одежды"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Левкова, 3/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 684-33-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 11:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.882225,27.556814"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://remontov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

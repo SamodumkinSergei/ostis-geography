@@ -1,0 +1,26 @@
+ concept_bus_stop_116578856267
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Проспект Республики"]
+	(* <- lang_ru;; <- name;;*);
+    ["Проспект Республики"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Республики"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.098871,23.763938"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

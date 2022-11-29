@@ -1,0 +1,26 @@
+ concept_mobile_phones_97283074159
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Blackshop"]
+	(* <- lang_ru;; <- name;;*);
+    ["Blackshop"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Жарковского, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 340-71-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00; сб 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.429093,31.002004"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://blackshop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

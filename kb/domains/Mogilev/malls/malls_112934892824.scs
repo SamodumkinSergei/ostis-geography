@@ -1,0 +1,26 @@
+ concept_malls_112934892824
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Мир сантехники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мир сантехники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Мовчанского, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 544-97-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб,вс 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.87566,30.36679"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

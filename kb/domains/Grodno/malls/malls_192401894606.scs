@@ -1,0 +1,26 @@
+ concept_malls_192401894606
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Pilot"]
+	(* <- lang_ru;; <- name;;*);
+    ["Pilot"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Космонавтов, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 586-32-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.676069,23.848286"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

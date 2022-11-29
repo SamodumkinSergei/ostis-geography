@@ -1,0 +1,26 @@
+ concept_kindergarten_1284938284
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 104 г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 104 г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Космонавтов, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 374-98-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.851481,27.462425"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu104.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

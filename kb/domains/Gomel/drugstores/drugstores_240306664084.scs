@@ -1,0 +1,26 @@
+ concept_drugstores_240306664084
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 16 Лигматон"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 16 Лигматон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 200"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 250-50-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.467225,30.981372"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.ligmaton.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

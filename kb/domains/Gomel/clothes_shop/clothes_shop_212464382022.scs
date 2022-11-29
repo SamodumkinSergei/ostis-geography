@@ -1,0 +1,26 @@
+ concept_clothes_shop_212464382022
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Гомельское по Кристалл"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельское по Кристалл"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Черниговская улица, 22Б/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 227-93-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:30, перерыв 13:00–13:30; сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.373646,31.03484"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.kristall.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

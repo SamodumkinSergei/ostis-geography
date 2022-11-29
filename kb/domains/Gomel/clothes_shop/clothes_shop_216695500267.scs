@@ -1,0 +1,26 @@
+ concept_clothes_shop_216695500267
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Мегахенд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мегахенд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Максима Богдановича, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 383-80-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.459728,30.953472"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mega-hand.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

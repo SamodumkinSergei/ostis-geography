@@ -1,0 +1,26 @@
+ concept_supermarket_87791461098
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Родный кут"]
+	(* <- lang_ru;; <- name;;*);
+    ["Родный кут"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Берёзовская улица, 12А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.922158,30.352744"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

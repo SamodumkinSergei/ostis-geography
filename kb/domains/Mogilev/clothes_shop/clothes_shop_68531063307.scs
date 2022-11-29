@@ -1,0 +1,26 @@
+ concept_clothes_shop_68531063307
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["ФорСейл"]
+	(* <- lang_ru;; <- name;;*);
+    ["ФорСейл"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Криулина, 55"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 888-95-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00; сб 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.954893,30.333739"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://forseil.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

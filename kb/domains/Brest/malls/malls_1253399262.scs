@@ -1,0 +1,26 @@
+ concept_malls_1253399262
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Gefest"]
+	(* <- lang_ru;; <- name;;*);
+    ["Gefest"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Горького, 4А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 220-74-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.102153,23.695659"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gefest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

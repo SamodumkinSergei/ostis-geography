@@ -1,0 +1,26 @@
+ concept_bus_station_79205261258
+ <- concept_bus_station;
+=>nrel_main_idtf:
+	["Пос. Грэбянева"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пос. Грэбянева"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Алтайская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.83741,30.287677"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

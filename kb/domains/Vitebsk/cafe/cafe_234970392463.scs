@@ -1,0 +1,26 @@
+ concept_cafe_234970392463
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["The Village Coffeehouse"]
+	(* <- lang_ru;; <- name;;*);
+    ["The Village Coffeehouse"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["штат Луизиана, Калкасье-Пэриш, Салфер"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+1 337 304 1843"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 05:00–21:00; вс 14:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["30.236743,-93.37764"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.thevillagecoffeehouse.org/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

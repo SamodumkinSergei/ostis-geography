@@ -1,0 +1,26 @@
+ concept_college_1007702327
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 16"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 16"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Сухомбаева, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 244-36-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.694889,23.816513"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://16grodno.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

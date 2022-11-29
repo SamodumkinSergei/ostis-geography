@@ -1,0 +1,26 @@
+ concept_gasstation_42364023763
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["РН-Запад"]
+	(* <- lang_ru;; <- name;;*);
+    ["РН-Запад"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Минский район, Щомыслицкий сельский совет, Озерцо"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["8 (801) 100-71-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 00:10–23:45, перерыв 06:40–07:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.841402,27.393783"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rn-west.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

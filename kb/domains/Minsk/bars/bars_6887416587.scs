@@ -1,0 +1,26 @@
+ concept_bars_6887416587
+ <- concept_bars;
+=>nrel_main_idtf:
+	["Лавка на Бельского"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лавка на Бельского"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Пономаренко, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 365-77-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:00–23:00; пт,сб 11:00–00:00; вс 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.894617,27.481836"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://your.beer/place/lavka-belskogo"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_hotels_190278117882
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Brestinlove: Villa Lake"]
+	(* <- lang_ru;; <- name;;*);
+    ["Brestinlove: Villa Lake"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, микрорайон Вычулки, Лебединая улица, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 393-90-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.103251,23.80683"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://brestinlove.by/lake"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

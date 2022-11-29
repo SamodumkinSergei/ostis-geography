@@ -1,0 +1,26 @@
+ concept_tailor_209260908014
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Непогода"]
+	(* <- lang_ru;; <- name;;*);
+    ["Непогода"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Казинца, 87"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 695-22-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.849095,27.509736"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://remont-obuvi.vashparikmaher.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

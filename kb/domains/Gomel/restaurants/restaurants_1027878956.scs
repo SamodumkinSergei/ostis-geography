@@ -1,0 +1,26 @@
+ concept_restaurants_1027878956
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Чабарок"]
+	(* <- lang_ru;; <- name;;*);
+    ["Чабарок"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельский район, Черниговское шоссе, 9-й км"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 722-26-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср-вс 12:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.34531,31.029509"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.chabarok.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_baby_shop_160624609282
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Детский мир"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский мир"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Советская улица, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 221-15-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.096634,23.689591"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.mir.brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

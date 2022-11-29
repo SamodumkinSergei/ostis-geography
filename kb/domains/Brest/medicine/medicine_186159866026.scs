@@ -1,0 +1,26 @@
+ concept_medicine_186159866026
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Центр здорового сна"]
+	(* <- lang_ru;; <- name;;*);
+    ["Центр здорового сна"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Машерова, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 555-53-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб 08:00–20:00; вс 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.086384,23.692691"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.centrsna-brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

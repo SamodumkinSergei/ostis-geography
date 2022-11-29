@@ -1,0 +1,26 @@
+ concept_clothes_shop_183619569560
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Брестский чулочный комбинат"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестский чулочный комбинат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Машерова, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 250-49-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.086399,23.684313"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bchk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

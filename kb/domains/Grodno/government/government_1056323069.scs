@@ -1,0 +1,26 @@
+ concept_government_1056323069
+ <- concept_government;
+=>nrel_main_idtf:
+	["Гродненский районный исполнительный комитет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненский районный исполнительный комитет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Максима Горького, 51"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 272-16-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.692359,23.824668"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.rik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

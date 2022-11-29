@@ -1,0 +1,26 @@
+ concept_hypermarket_103724971886
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Столкам"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столкам"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Ленина, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 588-65-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.42511,31.0082"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

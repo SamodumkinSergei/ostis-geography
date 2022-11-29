@@ -1,0 +1,26 @@
+ concept_drugstores_22667203682
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Белфармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белфармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сергея Есенина, 66"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 277-09-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00, перерыв 15:00–15:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.85703,27.444312"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_fast_food_140335245860
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Ваш лаваш"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ваш лаваш"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Гагарина, 65"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 716-10-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.423852,30.998418"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

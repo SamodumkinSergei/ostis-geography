@@ -1,0 +1,26 @@
+ concept_supermarket_89197060920
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Мини-маркет Сандерторг"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мини-маркет Сандерторг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Боровлянский сельсовет, деревня Копище, улица Николая Михайлашева, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 472-13-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.962302,27.672671"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

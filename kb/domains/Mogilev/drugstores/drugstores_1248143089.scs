@@ -1,0 +1,26 @@
+ concept_drugstores_1248143089
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 18"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 18"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Якубовского, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 228-06-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–21:00; вс 10:00–18:20"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917467,30.313729"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

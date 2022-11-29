@@ -1,0 +1,26 @@
+ concept_kindergarten_1172318363
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Детский сад № 297"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский сад № 297"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Жудро, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 363-42-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911088,27.482872"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu297.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

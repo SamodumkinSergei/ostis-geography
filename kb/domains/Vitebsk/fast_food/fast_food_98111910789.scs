@@ -1,0 +1,26 @@
+ concept_fast_food_98111910789
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Pizza"]
+	(* <- lang_ru;; <- name;;*);
+    ["Pizza"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Санкт-Петербург, Витебский проспект, 101к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (996) 784-09-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["59.829339,30.371804"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

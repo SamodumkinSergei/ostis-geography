@@ -1,0 +1,26 @@
+ concept_college_213688431215
+ <- concept_college;
+=>nrel_main_idtf:
+	["Поколюбичская средняя школа"]
+	(* <- lang_ru;; <- name;;*);
+    ["Поколюбичская средняя школа"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельский район, агрогородок Поколюбичи, улица Ленина, 140"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 292-42-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.505817,31.035422"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pokolubichischool.gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

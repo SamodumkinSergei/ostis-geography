@@ -1,0 +1,26 @@
+ concept_drugstores_156660812634
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Справочная Аптек ЧУП Белфарм-центр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Справочная Аптек ЧУП Белфарм-центр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Центральный район, квартал Раковское предместье"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.9041,27.5471"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

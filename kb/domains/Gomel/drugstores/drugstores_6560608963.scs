@@ -1,0 +1,26 @@
+ concept_drugstores_6560608963
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 8/3"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 8/3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Дубравная улица, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 227-85-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:30–22:00, перерыв 14:00–14:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.35438,31.045495"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomel.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

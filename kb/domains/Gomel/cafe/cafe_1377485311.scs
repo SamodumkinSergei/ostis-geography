@@ -1,0 +1,26 @@
+ concept_cafe_1377485311
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Лиман"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лиман"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Любенский, улица 60 лет СССР, 3А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 226-40-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.406139,30.977792"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://carte.by/gomel/liman/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

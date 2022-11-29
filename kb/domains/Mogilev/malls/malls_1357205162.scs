@@ -1,0 +1,26 @@
+ concept_malls_1357205162
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Эхперт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Эхперт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Дзержинского, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 679-95-71"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 11:00–19:00, перерыв 14:00–15:00; сб,вс 11:00–17:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901418,30.332902"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://expert-sport.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_malls_137059347217
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Озёрный"]
+	(* <- lang_ru;; <- name;;*);
+    ["Озёрный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ольшевского, 20/5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 746-07-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 10:00–18:00; вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917988,27.501388"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://baikal.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

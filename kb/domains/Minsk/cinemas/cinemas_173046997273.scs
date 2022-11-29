@@ -1,0 +1,26 @@
+ concept_cinemas_173046997273
+ <- concept_cinemas;
+=>nrel_main_idtf:
+	["3D Кино"]
+	(* <- lang_ru;; <- name;;*);
+    ["3D Кино"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 65"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 309-54-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 14:00–22:00; сб,вс 12:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.925949,27.517475"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.tczamok.by/poster/facility/28844"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

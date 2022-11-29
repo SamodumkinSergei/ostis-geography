@@ -1,0 +1,26 @@
+ concept_hotels_68639343772
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Пайнвуд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пайнвуд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Смолевичский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 564-01-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.947207,27.983517"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pinewood.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

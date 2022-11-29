@@ -1,0 +1,26 @@
+ concept_hotels_226370081545
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Усадьба Фальварак Kupala"]
+	(* <- lang_ru;; <- name;;*);
+    ["Усадьба Фальварак Kupala"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, агрогородок Сеница, Слуцкое шоссе, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 123-46-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.832292,27.532291"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://fkupala.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

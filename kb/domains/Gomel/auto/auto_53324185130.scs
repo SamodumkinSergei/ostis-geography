@@ -1,0 +1,26 @@
+ concept_auto_53324185130
+ <- concept_auto;
+=>nrel_main_idtf:
+	["АвтоМастер"]
+	(* <- lang_ru;; <- name;;*);
+    ["АвтоМастер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Шоссейная улица, 7А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 539-75-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.441509,30.987285"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://maxavtoservice.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

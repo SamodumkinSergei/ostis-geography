@@ -1,0 +1,26 @@
+ concept_hairdressers_18041088723
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Ария"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ария"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Гражданская улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 532-76-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–20:00; вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.182302,30.192924"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

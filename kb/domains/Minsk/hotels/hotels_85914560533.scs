@@ -1,0 +1,26 @@
+ concept_hotels_85914560533
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Усадьба Душевная"]
+	(* <- lang_ru;; <- name;;*);
+    ["Усадьба Душевная"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Новодворский сельсовет, Королищевичи, Центральная улица, 88"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 368-54-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.801793,27.698123"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

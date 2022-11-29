@@ -1,0 +1,26 @@
+ concept_medicine_177047473140
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["3-я городская клиническая больница, Хирургическое отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["3-я городская клиническая больница, Хирургическое отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ленина, 30/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 327-79-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897051,27.563037"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://3gkb.by/otdeleniya/khirurgicheskoe-otdelenie"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

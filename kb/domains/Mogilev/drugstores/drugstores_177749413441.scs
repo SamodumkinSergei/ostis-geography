@@ -1,0 +1,26 @@
+ concept_drugstores_177749413441
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Остров здоровья"]
+	(* <- lang_ru;; <- name;;*);
+    ["Остров здоровья"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 42"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 763-56-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910042,30.340337"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ostrovzdorovya.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

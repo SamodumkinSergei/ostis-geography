@@ -1,0 +1,26 @@
+ concept_railway_terminal_205780892299
+ <- concept_railway_terminal;
+=>nrel_main_idtf:
+	["Железнодорожный вокзал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Железнодорожный вокзал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Суворова, 21Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:30–21:30, перерывы 09:30–13:30, 14:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.064357,23.749596"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

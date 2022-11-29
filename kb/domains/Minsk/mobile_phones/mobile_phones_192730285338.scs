@@ -1,0 +1,26 @@
+ concept_mobile_phones_192730285338
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Белсервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белсервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Раковская улица, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 665-08-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 11:00–20:00; вс 11:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904748,27.550001"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://belservice.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

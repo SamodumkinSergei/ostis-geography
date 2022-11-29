@@ -1,0 +1,26 @@
+ concept_restaurants_145620071259
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Додо Пицца"]
+	(* <- lang_ru;; <- name;;*);
+    ["Додо Пицца"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 126"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 606-75-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.847363,27.470895"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://dodopizza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

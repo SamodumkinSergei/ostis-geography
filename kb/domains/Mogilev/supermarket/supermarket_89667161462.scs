@@ -1,0 +1,26 @@
+ concept_supermarket_89667161462
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Родны Кут Могилевское РАЙПО"]
+	(* <- lang_ru;; <- name;;*);
+    ["Родны Кут Могилевское РАЙПО"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёвская область, Могилёвский район, Полыковичский сельсовет, Половинный Лог, Центральная улица, 36Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 273-39-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904915,30.404792"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

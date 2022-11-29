@@ -1,0 +1,26 @@
+ concept_office_service_170339731955
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Склад вещевого обеспечения"]
+	(* <- lang_ru;; <- name;;*);
+    ["Склад вещевого обеспечения"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Серова, улица Асаналиева, 42А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.851909,27.544925"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

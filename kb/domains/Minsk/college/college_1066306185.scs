@@ -1,0 +1,26 @@
+ concept_college_1066306185
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 82"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 82"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Народная улица, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 295-20-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873641,27.623653"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch82.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

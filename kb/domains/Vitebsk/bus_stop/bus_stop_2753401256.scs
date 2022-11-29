@@ -1,0 +1,26 @@
+ concept_bus_stop_2753401256
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Витебская ТЭЦ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебская ТЭЦ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Максима Горького, 104"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.16998,30.136943"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

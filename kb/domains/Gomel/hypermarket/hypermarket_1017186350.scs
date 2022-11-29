@@ -1,0 +1,26 @@
+ concept_hypermarket_1017186350
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Белсоюзпечать, Гомельский филиал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белсоюзпечать, Гомельский филиал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ланге, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 255-88-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 13:00–13:48; пт 08:30–16:30, перерыв 13:00–13:48"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.427797,31.017206"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gomel-osp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

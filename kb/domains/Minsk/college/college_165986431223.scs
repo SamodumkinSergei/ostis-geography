@@ -1,0 +1,26 @@
+ concept_college_165986431223
+ <- concept_college;
+=>nrel_main_idtf:
+	["Кафедра психологического обеспечения профессиональной деятельности Института психологии БГПУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафедра психологического обеспечения профессиональной деятельности Института психологии БГПУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Советская улица, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 327-84-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–17:00, перерыв 13:00–13:45; пт 09:00–16:00, перерыв 13:00–13:45; сб 09:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.894518,27.545314"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ipsy.bspu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

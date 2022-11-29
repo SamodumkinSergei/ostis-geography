@@ -1,0 +1,26 @@
+ concept_college_1119874580
+ <- concept_college;
+=>nrel_main_idtf:
+	["Могилёвский государственный областной лицей № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилёвский государственный областной лицей № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Воровского, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 273-65-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.895703,30.319908"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://firstlyceum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

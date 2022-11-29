@@ -1,0 +1,26 @@
+ concept_restaurants_91654174683
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Цельсий"]
+	(* <- lang_ru;; <- name;;*);
+    ["Цельсий"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Машерова, 6А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 800-83-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пт,сб 21:00–05:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.086408,23.67887"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://cels.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

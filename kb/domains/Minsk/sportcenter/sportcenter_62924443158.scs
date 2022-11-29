@@ -1,0 +1,26 @@
+ concept_sportcenter_62924443158
+ <- concept_sportcenter;
+=>nrel_main_idtf:
+	["Бильярдный клуб"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бильярдный клуб"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Старовиленский тракт, 41"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 915-92-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 16:00–21:00; сб 09:00–18:00; вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.924395,27.544276"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mgddm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

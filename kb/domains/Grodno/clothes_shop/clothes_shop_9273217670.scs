@@ -1,0 +1,26 @@
+ concept_clothes_shop_9273217670
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["InterFino"]
+	(* <- lang_ru;; <- name;;*);
+    ["InterFino"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Дубко, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 512-74-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:00–21:00; пт-вс 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.701567,23.834139"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://interfino.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_94557550975
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Станция метро Пушкинская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Станция метро Пушкинская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909507,27.497829"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

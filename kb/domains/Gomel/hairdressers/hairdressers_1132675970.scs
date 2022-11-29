@@ -1,0 +1,26 @@
+ concept_hairdressers_1132675970
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Мира"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мира"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 268"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 223-20-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00; вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.359153,31.030876"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

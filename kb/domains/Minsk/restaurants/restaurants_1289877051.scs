@@ -1,0 +1,26 @@
+ concept_restaurants_1289877051
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Васильки"]
+	(* <- lang_ru;; <- name;;*);
+    ["Васильки"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Глебки, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 188-60-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–22:00; пт,сб 10:00–23:00; вс 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908565,27.469298"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vasilki.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_restaurants_154703143936
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Спарт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Спарт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 111"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 279-04-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 12:00–19:00, перерыв 17:00–18:00; вт-вс 12:00–23:00, перерыв 17:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.936004,27.482678"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

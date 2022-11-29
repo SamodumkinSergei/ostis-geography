@@ -1,0 +1,26 @@
+ concept_supermarket_49129507482
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Квартал Вкуса"]
+	(* <- lang_ru;; <- name;;*);
+    ["Квартал Вкуса"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Малая Боровка, улица Киселёва, 40А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 246-19-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.869744,30.438778"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

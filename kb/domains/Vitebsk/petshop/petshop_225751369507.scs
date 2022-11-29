@@ -1,0 +1,26 @@
+ concept_petshop_225751369507
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Zoo магазин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Zoo магазин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Воинов-Интернационалистов, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 721-38-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.163864,30.214027"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

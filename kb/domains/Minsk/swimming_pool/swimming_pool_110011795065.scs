@@ -1,0 +1,26 @@
+ concept_swimming_pool_110011795065
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Бассейн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бассейн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Московский район, Грушевка, улица Щорса, 3А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.882121,27.518454"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

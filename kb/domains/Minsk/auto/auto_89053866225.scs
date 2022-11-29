@@ -1,0 +1,26 @@
+ concept_auto_89053866225
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Авто Юнит"]
+	(* <- lang_ru;; <- name;;*);
+    ["Авто Юнит"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Брестская улица, 34Г"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 171-83-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.860053,27.523359"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://autounit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

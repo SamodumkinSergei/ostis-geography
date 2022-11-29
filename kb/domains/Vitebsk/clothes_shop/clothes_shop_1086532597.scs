@@ -1,0 +1,26 @@
+ concept_clothes_shop_1086532597
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Свитанак"]
+	(* <- lang_ru;; <- name;;*);
+    ["Свитанак"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 68"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 222-75-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб,вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.19495,30.238181"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://svitanak.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

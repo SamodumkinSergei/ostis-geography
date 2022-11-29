@@ -1,0 +1,26 @@
+ concept_malls_1105921424
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Гребенёвский"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гребенёвский"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Симонова, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 248-45-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873043,30.313928"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vs-vs.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

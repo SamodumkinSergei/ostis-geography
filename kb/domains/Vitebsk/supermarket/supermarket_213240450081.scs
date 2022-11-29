@@ -1,0 +1,26 @@
+ concept_supermarket_213240450081
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Burçak Coffee House"]
+	(* <- lang_ru;; <- name;;*);
+    ["Burçak Coffee House"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Стамбул, Тузла, Постане, улица Лале, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+90 537 916 98 80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["40.816757,29.294083"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

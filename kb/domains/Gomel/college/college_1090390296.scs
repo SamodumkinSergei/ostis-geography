@@ -1,0 +1,26 @@
+ concept_college_1090390296
+ <- concept_college;
+=>nrel_main_idtf:
+	["Базовая школа Кореневская ГУО"]
+	(* <- lang_ru;; <- name;;*);
+    ["Базовая школа Кореневская ГУО"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельский район, Зябровский сельсовет, посёлок Коренёвка, Молодёжная улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.35334,31.11397"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.korenevkaschool.gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

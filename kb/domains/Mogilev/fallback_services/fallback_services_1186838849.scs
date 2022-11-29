@@ -1,0 +1,26 @@
+ concept_fallback_services_1186838849
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Ритуал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ритуал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Лазаренко, 28, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 240-14-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб,вс 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904314,30.321752"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

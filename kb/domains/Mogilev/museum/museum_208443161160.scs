@@ -1,0 +1,26 @@
+ concept_museum_208443161160
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей В. К. Бялыницкого-Бирули"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей В. К. Бялыницкого-Бирули"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Ленинская улица, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 265-02-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср-вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.899462,30.338712"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.artmuseum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

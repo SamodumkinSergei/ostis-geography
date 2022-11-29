@@ -1,0 +1,26 @@
+ concept_supermarket_1238311836
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["АсСорти-3"]
+	(* <- lang_ru;; <- name;;*);
+    ["АсСорти-3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Краснознамённая улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 258-93-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.087743,23.715791"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://alvin.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

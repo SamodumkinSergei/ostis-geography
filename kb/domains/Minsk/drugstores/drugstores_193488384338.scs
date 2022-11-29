@@ -1,0 +1,26 @@
+ concept_drugstores_193488384338
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека Табина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека Табина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Веры Хоружей, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 337-15-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919766,27.578244"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

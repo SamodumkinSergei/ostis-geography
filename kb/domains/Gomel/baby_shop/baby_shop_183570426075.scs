@@ -1,0 +1,26 @@
+ concept_baby_shop_183570426075
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Игрушкино"]
+	(* <- lang_ru;; <- name;;*);
+    ["Игрушкино"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 554-91-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.393282,31.029844"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

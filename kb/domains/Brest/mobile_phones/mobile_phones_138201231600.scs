@@ -1,0 +1,26 @@
+ concept_mobile_phones_138201231600
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["МастерPIN"]
+	(* <- lang_ru;; <- name;;*);
+    ["МастерPIN"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Волгоградская улица, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 334-09-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.077262,23.755013"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://masterpin.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

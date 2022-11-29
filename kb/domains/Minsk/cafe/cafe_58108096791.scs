@@ -1,0 +1,26 @@
+ concept_cafe_58108096791
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кофе профиль"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кофе профиль"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Машерова, 25/3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 175-55-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916877,27.558536"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_230500844340
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Bierbank"]
+	(* <- lang_ru;; <- name;;*);
+    ["Bierbank"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ольшевского, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 355-50-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср,чт 12:00–22:00; пт,сб 16:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.913655,27.507391"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bierbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

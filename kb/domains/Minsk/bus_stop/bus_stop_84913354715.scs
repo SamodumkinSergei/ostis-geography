@@ -1,0 +1,26 @@
+ concept_bus_stop_84913354715
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Станция метро Восток"]
+	(* <- lang_ru;; <- name;;*);
+    ["Станция метро Восток"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.934475,27.650726"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

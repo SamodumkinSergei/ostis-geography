@@ -1,0 +1,26 @@
+ concept_college_137133815451
+ <- concept_college;
+=>nrel_main_idtf:
+	["Биотехнологический факультет Вгавм"]
+	(* <- lang_ru;; <- name;;*);
+    ["Биотехнологический факультет Вгавм"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, 1-я улица Доватора, 7, корп. 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 253-80-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00; сб 08:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.197568,30.214781"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.vsavm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

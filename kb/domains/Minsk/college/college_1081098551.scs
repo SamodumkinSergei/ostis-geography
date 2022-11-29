@@ -1,0 +1,26 @@
+ concept_college_1081098551
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гимназия № 174"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гимназия № 174"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Космонавтов, 15к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 316-60-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.851453,27.467263"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gymn174.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_banks_134701105241
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Банк РРБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Банк РРБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Янки Купалы, 82А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 337-02-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00, перерывы 10:30–10:40, 12:20–12:30, 13:30–14:30, 16:10–16:20, 18:00–18:10; сб,вс 09:00–21:00, перерывы 10:30–10:40, 12:20–12:30, 13:30–14:30, 16:10–16:20, 18:00–18:10, 19:50–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.654431,23.849988"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.rrb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

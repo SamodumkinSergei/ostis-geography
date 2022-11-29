@@ -1,0 +1,26 @@
+ concept_drugstores_47684983408
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Белфармация аптека № 81"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белфармация аптека № 81"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Семашко, 8к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 358-79-71"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:30; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.859742,27.49567"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

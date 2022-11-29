@@ -1,0 +1,26 @@
+ concept_restaurants_183923037286
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Пицца с собой"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пицца с собой"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Д.Н. Пенязькова, 59"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.39622,30.953292"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

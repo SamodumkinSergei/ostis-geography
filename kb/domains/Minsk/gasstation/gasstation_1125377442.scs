@@ -1,0 +1,26 @@
+ concept_gasstation_1125377442
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Газпром трансгаз Беларусь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Газпром трансгаз Беларусь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Бабушкина, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 291-86-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.82242,27.58268"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://metan.by/ecogas-map/agnks_minsk3"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

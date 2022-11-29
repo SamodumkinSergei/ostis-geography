@@ -1,0 +1,26 @@
+ concept_medicine_1102008273
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Центральная районная поликлиника № 25 г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Центральная районная поликлиника № 25 г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Рафиева, 60"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 274-94-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.862983,27.443852"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.25crp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

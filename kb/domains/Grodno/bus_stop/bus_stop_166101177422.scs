@@ -1,0 +1,26 @@
+ concept_bus_stop_166101177422
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Социалистическая"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Социалистическая"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Социалистическая улица, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.679964,23.83523"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_museum_79520000903
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Анатомический музей Вгавм"]
+	(* <- lang_ru;; <- name;;*);
+    ["Анатомический музей Вгавм"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, 1-я улица Доватора, 7, корп. 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 253-80-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.196952,30.215086"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.vsavm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

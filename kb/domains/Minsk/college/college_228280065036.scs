@@ -1,0 +1,26 @@
+ concept_college_228280065036
+ <- concept_college;
+=>nrel_main_idtf:
+	["Университет Дмитрия Пожарского"]
+	(* <- lang_ru;; <- name;;*);
+    ["Университет Дмитрия Пожарского"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Октябрьская улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 336-82-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.893678,27.567302"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://publisher.usdp.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

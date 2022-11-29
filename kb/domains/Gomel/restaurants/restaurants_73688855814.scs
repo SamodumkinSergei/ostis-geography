@@ -1,0 +1,26 @@
+ concept_restaurants_73688855814
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Бирюза"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бирюза"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (3412) 97-28-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.427837,31.012627"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.welcome-group.ru/restaurants/biruza/menu/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_flower_shop_2649260777
+ <- concept_flower_shop;
+=>nrel_main_idtf:
+	["Городские цветы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городские цветы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Строителей, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 227-01-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–19:00; вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.172839,30.209078"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vit-zelenstroy.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_cafe_1364180365
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кафе 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафе 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Октябрьская улица, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 177-00-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.890229,27.574472"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.enzo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

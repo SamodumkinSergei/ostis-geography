@@ -1,0 +1,26 @@
+ concept_bus_stop_186807965415
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["2-е кольцо"]
+	(* <- lang_ru;; <- name;;*);
+    ["2-е кольцо"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.924887,27.509227"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

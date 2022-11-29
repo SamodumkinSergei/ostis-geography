@@ -1,0 +1,26 @@
+ concept_office_service_1039123504
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["ТРК Витебск"]
+	(* <- lang_ru;; <- name;;*);
+    ["ТРК Витебск"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Коммунистическая улица, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 260-11-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.200756,30.209176"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vtv.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

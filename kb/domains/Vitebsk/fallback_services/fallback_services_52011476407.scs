@@ -1,0 +1,26 @@
+ concept_fallback_services_52011476407
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Купить Памятник в Рассрочку"]
+	(* <- lang_ru;; <- name;;*);
+    ["Купить Памятник в Рассрочку"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Замковая улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 297-85-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.192148,30.202689"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitebsk.belpam.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

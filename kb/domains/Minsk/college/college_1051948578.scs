@@ -1,0 +1,26 @@
+ concept_college_1051948578
+ <- concept_college;
+=>nrel_main_idtf:
+	["БГУИР, филиал Минский радиотехнический колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["БГУИР, филиал Минский радиотехнический колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 62"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 292-32-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919291,27.592558"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mrk-bsuir.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

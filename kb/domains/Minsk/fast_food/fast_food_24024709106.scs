@@ -1,0 +1,26 @@
+ concept_fast_food_24024709106
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Grill kebab"]
+	(* <- lang_ru;; <- name;;*);
+    ["Grill kebab"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Бобруйская улица, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 609-07-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.89078,27.554355"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://grillkebab.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

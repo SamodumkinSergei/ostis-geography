@@ -1,0 +1,26 @@
+ concept_malls_47161100955
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Сам Мастер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сам Мастер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гоголя, 82"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 220-88-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–17:30; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.094703,23.701124"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://servic.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

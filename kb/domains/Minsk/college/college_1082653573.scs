@@ -1,0 +1,26 @@
+ concept_college_1082653573
+ <- concept_college;
+=>nrel_main_idtf:
+	["Республиканский институт профессионального образования"]
+	(* <- lang_ru;; <- name;;*);
+    ["Республиканский институт профессионального образования"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Карла Либкнехта, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 215-09-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.898339,27.539535"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ripo.unibel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_drugstores_181377011857
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Остров здоровья"]
+	(* <- lang_ru;; <- name;;*);
+    ["Остров здоровья"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 307-03-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.885007,27.588394"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ostrovzdorovya.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

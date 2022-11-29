@@ -1,0 +1,26 @@
+ concept_college_1230617123
+ <- concept_college;
+=>nrel_main_idtf:
+	["Факультет повышения квалификации и переподготовки руководящих кадров Академии МВД РБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Факультет повышения квалификации и переподготовки руководящих кадров Академии МВД РБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 41А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 289-23-96"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912484,27.576744"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.amia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

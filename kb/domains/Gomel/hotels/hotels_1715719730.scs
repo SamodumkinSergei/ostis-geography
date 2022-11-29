@@ -1,0 +1,26 @@
+ concept_hotels_1715719730
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Квартиры на сутки"]
+	(* <- lang_ru;; <- name;;*);
+    ["Квартиры на сутки"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Киселёва, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 555-70-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–02:00; вс 09:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.42705,30.99296"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.5557070.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

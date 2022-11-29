@@ -1,0 +1,26 @@
+ concept_museum_1019733199
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей истории города Бреста"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей истории города Бреста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Леваневского, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 221-36-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–17:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.095071,23.681688"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://history.brest.museum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

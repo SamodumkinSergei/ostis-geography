@@ -1,0 +1,26 @@
+ concept_bus_stop_42448228942
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Карла Маркса"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Карла Маркса"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Карла Маркса, 105"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.180702,30.153453"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

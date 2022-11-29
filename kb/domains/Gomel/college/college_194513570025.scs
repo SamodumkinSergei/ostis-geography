@@ -1,0 +1,26 @@
+ concept_college_194513570025
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гомельский государственный медицинский университет, медико-диагностический факультет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский государственный медицинский университет, медико-диагностический факультет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ланге, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 235-97-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.428086,31.015639"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gsmu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

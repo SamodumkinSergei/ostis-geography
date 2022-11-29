@@ -1,0 +1,26 @@
+ concept_spa_128176887930
+ <- concept_spa;
+=>nrel_main_idtf:
+	["АртЛок"]
+	(* <- lang_ru;; <- name;;*);
+    ["АртЛок"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Курчатова, 45"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 228-65-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 09:00–18:00; вс 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.706167,23.855976"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://artlok.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

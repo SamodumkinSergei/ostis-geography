@@ -1,0 +1,26 @@
+ concept_hotels_212905582121
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Hôtel De La Chapelle"]
+	(* <- lang_ru;; <- name;;*);
+    ["Hôtel De La Chapelle"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Милон-ла-Шапель, 2 Route De Chevreuse"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 1 30 23 49 40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["48.72541,2.049582"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.hotelchapelle.com/versailles-hotel-paris.html"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_202069588050
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Калинина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Калинина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, 4-й Дальний переулок"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.651266,23.810708"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

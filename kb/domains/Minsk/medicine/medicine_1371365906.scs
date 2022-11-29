@@ -1,0 +1,26 @@
+ concept_medicine_1371365906
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Больница Городская Смиловичская УЗ Червенская ЦРБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Больница Городская Смиловичская УЗ Червенская ЦРБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Червенский район, Смиловичский сельсовет, Смиловичи, Революционная улица, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 142-32-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–18:15; сб 08:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.755084,28.010017"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://chervenmed.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

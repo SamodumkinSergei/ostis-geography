@@ -1,0 +1,26 @@
+ concept_restaurants_3613547830
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Wood&Fire Lounge"]
+	(* <- lang_ru;; <- name;;*);
+    ["Wood&Fire Lounge"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Франциска Скорины, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 618-84-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 14:00–23:00; пт,сб 14:00–00:00; вс 14:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.929651,27.640322"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://woodfire.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

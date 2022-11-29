@@ -1,0 +1,26 @@
+ concept_museum_234075727221
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Дом природы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дом природы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Максима Богдановича, 9А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 237-46-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908264,27.556273"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pryroda.histmuseum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

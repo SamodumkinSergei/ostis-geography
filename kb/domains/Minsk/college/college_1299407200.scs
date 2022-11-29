@@ -1,0 +1,26 @@
+ concept_college_1299407200
+ <- concept_college;
+=>nrel_main_idtf:
+	["Филиал БНТУ Минский государственный технологический колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Филиал БНТУ Минский государственный технологический колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Красная улица, 19Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 337-78-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.915552,27.577655"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mstc.bntu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

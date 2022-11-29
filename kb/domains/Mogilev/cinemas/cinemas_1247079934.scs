@@ -1,0 +1,26 @@
+ concept_cinemas_1247079934
+ <- concept_cinemas;
+=>nrel_main_idtf:
+	["Ветразь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ветразь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Островского, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 244-41-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.871163,30.32666"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.mogilevkino.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

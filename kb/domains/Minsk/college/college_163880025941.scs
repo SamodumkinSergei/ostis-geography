@@ -1,0 +1,26 @@
+ concept_college_163880025941
+ <- concept_college;
+=>nrel_main_idtf:
+	["БГМУ, кафедра общей гигиены"]
+	(* <- lang_ru;; <- name;;*);
+    ["БГМУ, кафедра общей гигиены"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, переулок Асаналиева, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 365-71-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.838142,27.539791"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsmu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

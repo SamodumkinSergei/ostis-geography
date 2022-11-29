@@ -1,0 +1,26 @@
+ concept_college_145494367785
+ <- concept_college;
+=>nrel_main_idtf:
+	["БГУИР, учебный корпус № 3"]
+	(* <- lang_ru;; <- name;;*);
+    ["БГУИР, учебный корпус № 3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петруся Бровки, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 293-89-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916806,27.596207"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsuir.by/ru/virtualnaya-ekskursiya-3-korpus"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

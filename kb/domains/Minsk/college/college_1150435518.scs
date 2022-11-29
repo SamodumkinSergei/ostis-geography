@@ -1,0 +1,26 @@
+ concept_college_1150435518
+ <- concept_college;
+=>nrel_main_idtf:
+	["Мгптк лёгкой промышленности и комплексной логистики, учебный корпус № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мгптк лёгкой промышленности и комплексной логистики, учебный корпус № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Рыбалко, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 298-00-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:15–16:45; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.885674,27.595175"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ptk-logist.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

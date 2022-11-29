@@ -1,0 +1,26 @@
+ concept_museum_163531787849
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Художественный музей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Художественный музей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 226-19-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.193268,30.205838"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitebskavangard.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

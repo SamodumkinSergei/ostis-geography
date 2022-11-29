@@ -1,0 +1,26 @@
+ concept_fallback_services_1301627918
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Памятники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Котовского"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 866-64-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.693478,23.824272"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://novakgranit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_college_1066315495
+ <- concept_college;
+=>nrel_main_idtf:
+	["СДЮШОР № 10 по гандболу"]
+	(* <- lang_ru;; <- name;;*);
+    ["СДЮШОР № 10 по гандболу"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 170"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 234-70-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.463271,30.98504"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sduhor10gomel.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

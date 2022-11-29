@@ -1,0 +1,26 @@
+ concept_office_service_21384794826
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Витебский областной центр маркетинга"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебский областной центр маркетинга"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проезд Гоголя, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 242-61-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.186839,30.203601"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://marketvit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_baby_shop_163005682214
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Funtastik"]
+	(* <- lang_ru;; <- name;;*);
+    ["Funtastik"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 156/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 699-80-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908777,27.431934"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.funtastik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

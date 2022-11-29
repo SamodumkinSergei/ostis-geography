@@ -1,0 +1,26 @@
+ concept_restaurants_78791902100
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Contrast"]
+	(* <- lang_ru;; <- name;;*);
+    ["Contrast"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 102"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 329-28-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 08:00–21:00; вт-пт 08:00–23:00; сб,вс 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.938466,27.477439"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.united-company.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

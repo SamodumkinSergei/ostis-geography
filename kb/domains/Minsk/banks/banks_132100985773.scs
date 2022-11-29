@@ -1,0 +1,26 @@
+ concept_banks_132100985773
+ <- concept_banks;
+=>nrel_main_idtf:
+	["МТБАНК, отделения"]
+	(* <- lang_ru;; <- name;;*);
+    ["МТБАНК, отделения"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Бобруйская улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 188-73-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–21:00, перерыв 14:00–15:00; пт,сб 10:00–23:00, перерывы 14:00–15:00, 20:30–21:30; вс 10:00–21:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.890032,27.55597"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.mtbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

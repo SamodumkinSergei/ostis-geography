@@ -1,0 +1,26 @@
+ concept_clothes_shop_1046578025
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Промбрис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Промбрис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Будённого, 55/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 223-15-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–15:20"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.090729,23.696684"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.prombris.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_supermarket_240459602862
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Магазин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Добрушская улица, 51А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.402084,31.065176"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_railway_station_229628750827
+ <- concept_railway_station;
+=>nrel_main_idtf:
+	["Объединенная станция Брест-Восточный"]
+	(* <- lang_ru;; <- name;;*);
+    ["Объединенная станция Брест-Восточный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Скрипникова, 112"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 226-15-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.10885,23.72218"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

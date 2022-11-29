@@ -1,0 +1,26 @@
+ concept_kindergarten_1000706610
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-Сад № 502"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-Сад № 502"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 81"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 272-58-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.930427,27.506183"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu502.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_1116923800
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гродненский государственный музыкальный колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненский государственный музыкальный колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Янки Купалы, 53"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 239-90-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.656241,23.84229"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://muscollege.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

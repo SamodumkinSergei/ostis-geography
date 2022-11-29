@@ -1,0 +1,26 @@
+ concept_clothes_shop_40708355210
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["МодаМакс"]
+	(* <- lang_ru;; <- name;;*);
+    ["МодаМакс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Газеты Правда, 20А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-ср 10:00–20:00; чт 09:00–20:00; пт,сб 10:00–20:00; вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.866973,27.483651"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://modamax.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

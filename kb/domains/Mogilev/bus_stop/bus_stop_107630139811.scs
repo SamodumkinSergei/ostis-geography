@@ -1,0 +1,26 @@
+ concept_bus_stop_107630139811
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Завод Электродвигатель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Завод Электродвигатель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Королёва"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906576,30.365199"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

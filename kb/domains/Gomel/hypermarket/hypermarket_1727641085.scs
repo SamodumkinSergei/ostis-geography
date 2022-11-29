@@ -1,0 +1,26 @@
+ concept_hypermarket_1727641085
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Строительный магазин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Строительный магазин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельский район, Улуковский сельсовет, деревня Романовичи, Советский переулок, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 193-82-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.427418,31.12861"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

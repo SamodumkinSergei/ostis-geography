@@ -1,0 +1,26 @@
+ concept_hotels_67069847679
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["1 Комнатная Квартира на Сутки Метро Петровщина"]
+	(* <- lang_ru;; <- name;;*);
+    ["1 Комнатная Квартира на Сутки Метро Петровщина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Газеты Правда, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 803-80-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.866207,27.481183"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://myspot.by/apartment/prospekt-gazety-pravda-22-1049"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

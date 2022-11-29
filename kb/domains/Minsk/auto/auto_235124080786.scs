@@ -1,0 +1,26 @@
+ concept_auto_235124080786
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Наш гараж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Наш гараж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петруся Бровки, 30к14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 626-96-96"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910027,27.601778"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.nashgarage.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

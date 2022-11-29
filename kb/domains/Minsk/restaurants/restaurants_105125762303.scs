@@ -1,0 +1,26 @@
+ concept_restaurants_105125762303
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Лидо"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лидо"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Немига, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 109-45-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901808,27.549289"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.lido.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

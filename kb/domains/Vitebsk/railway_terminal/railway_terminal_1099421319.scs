@@ -1,0 +1,26 @@
+ concept_railway_terminal_1099421319
+ <- concept_railway_terminal;
+=>nrel_main_idtf:
+	["Железнодорожный вокзал Витебск"]
+	(* <- lang_ru;; <- name;;*);
+    ["Железнодорожный вокзал Витебск"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Космонавтов, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 237-82-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.194958,30.185987"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitebsk.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

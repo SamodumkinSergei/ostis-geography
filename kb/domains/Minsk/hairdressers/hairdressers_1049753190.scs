@@ -1,0 +1,26 @@
+ concept_hairdressers_1049753190
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Наташа"]
+	(* <- lang_ru;; <- name;;*);
+    ["Наташа"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Голубева, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 234-30-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб 08:00–20:00; вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.863452,27.470228"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://hair-salon-73640.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

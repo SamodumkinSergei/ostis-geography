@@ -1,0 +1,26 @@
+ concept_cafe_171207080230
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Александровские пироги"]
+	(* <- lang_ru;; <- name;;*);
+    ["Александровские пироги"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Ленина, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 303-89-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–22:00; пт 10:00–23:00; сб 11:00–23:00; вс 11:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.681308,23.840744"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://1pirog.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

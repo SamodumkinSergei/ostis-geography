@@ -1,0 +1,26 @@
+ concept_college_1530591436
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гимназия № 8"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гимназия № 8"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Якуба Коласа, 41"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 292-03-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–21:00; сб 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.927546,27.595004"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gymn8.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

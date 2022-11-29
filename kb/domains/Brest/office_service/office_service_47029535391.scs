@@ -1,0 +1,26 @@
+ concept_office_service_47029535391
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Брестоблагросервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестоблагросервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Лейтенанта Рябцева, 110А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 229-86-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.137987,23.672989"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.agrosbrest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

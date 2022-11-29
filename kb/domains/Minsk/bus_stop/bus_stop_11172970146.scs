@@ -1,0 +1,26 @@
+ concept_bus_stop_11172970146
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Школа-интернат"]
+	(* <- lang_ru;; <- name;;*);
+    ["Школа-интернат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ваупшасова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.899789,27.657496"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

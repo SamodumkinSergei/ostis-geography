@@ -1,0 +1,26 @@
+ concept_fast_food_211092467848
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Кинг Шаурма"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кинг Шаурма"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Ленинская улица, 23А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 388-55-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897315,30.336022"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

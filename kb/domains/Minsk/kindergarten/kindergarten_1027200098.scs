@@ -1,0 +1,26 @@
+ concept_kindergarten_1027200098
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Детский сад № 553"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский сад № 553"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Филимонова, 47"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 267-78-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.922833,27.633614"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu553.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

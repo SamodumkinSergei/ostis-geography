@@ -1,0 +1,26 @@
+ concept_clothes_shop_1130571730
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Брестские № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестские № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Советская улица, 39"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 259-31-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.094442,23.691352"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bchk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

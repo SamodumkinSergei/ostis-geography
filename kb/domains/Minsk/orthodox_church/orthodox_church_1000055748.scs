@@ -1,0 +1,26 @@
+ concept_orthodox_church_1000055748
+ <- concept_orthodox_church;
+=>nrel_main_idtf:
+	["Храм Иоанна Рыльского"]
+	(* <- lang_ru;; <- name;;*);
+    ["Храм Иоанна Рыльского"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сапёров, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 555-48-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["сб 08:00–21:00, перерыв 12:00–17:00; вс 08:00–12:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.922757,27.51669"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ioann.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

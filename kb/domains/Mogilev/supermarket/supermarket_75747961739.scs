@@ -1,0 +1,26 @@
+ concept_supermarket_75747961739
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["ЯрмаРка"]
+	(* <- lang_ru;; <- name;;*);
+    ["ЯрмаРка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 84А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 224-34-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.927203,30.339176"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

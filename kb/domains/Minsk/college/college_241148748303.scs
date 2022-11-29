@@ -1,0 +1,26 @@
+ concept_college_241148748303
+ <- concept_college;
+=>nrel_main_idtf:
+	["Кафедра политологии БГЭУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафедра политологии БГЭУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 209-88-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:30–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.87838,27.608017"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bseu.by/russian/faculty18/department2.htm"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

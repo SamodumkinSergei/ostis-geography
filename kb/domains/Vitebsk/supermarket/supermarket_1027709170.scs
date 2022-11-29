@@ -1,0 +1,26 @@
+ concept_supermarket_1027709170
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["МяскоВит"]
+	(* <- lang_ru;; <- name;;*);
+    ["МяскоВит"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Правды, 55"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 268-91-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–21:00; вс 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.184269,30.229827"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vmk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_supermarket_1793772610
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Бакалея № 15"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бакалея № 15"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Шмидта, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 276-05-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.875966,30.31659"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_museum_231716333725
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей Оранжерея"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей Оранжерея"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурганова, 2В, корп. 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 292-69-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916023,27.610027"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.cbg.org.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_1032119080
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 1 с лицейскими классами"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 1 с лицейскими классами"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебская область, Городок, Пролетарская улица, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 395-23-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.457731,29.984494"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch1.gorodok.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

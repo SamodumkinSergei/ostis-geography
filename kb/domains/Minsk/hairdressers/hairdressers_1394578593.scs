@@ -1,0 +1,26 @@
+ concept_hairdressers_1394578593
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Твой День"]
+	(* <- lang_ru;; <- name;;*);
+    ["Твой День"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Максима Богдановича, 78"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 344-03-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 08:00–18:00; вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.929706,27.576045"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

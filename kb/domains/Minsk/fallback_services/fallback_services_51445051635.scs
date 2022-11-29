@@ -1,0 +1,26 @@
+ concept_fallback_services_51445051635
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Диландисс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Диландисс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кнорина, 6Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 263-97-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.931013,27.613241"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://dilandiss.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

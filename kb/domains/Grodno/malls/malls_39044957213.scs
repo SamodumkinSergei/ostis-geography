@@ -1,0 +1,26 @@
+ concept_malls_39044957213
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Магазин Atlant"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин Atlant"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Карла Маркса, 44"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 277-33-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб,вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.677068,23.839907"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://atlantshop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_college_1034205705
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 28"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 28"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Правды, 43"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 247-50-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.185001,30.22478"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://28vitebsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

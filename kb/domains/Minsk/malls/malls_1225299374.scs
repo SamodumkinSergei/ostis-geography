@@ -1,0 +1,26 @@
+ concept_malls_1225299374
+ <- concept_malls;
+=>nrel_main_idtf:
+	["АвтоМир"]
+	(* <- lang_ru;; <- name;;*);
+    ["АвтоМир"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Лошица, улица Владислава Сырокомли, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 378-19-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб,вс 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.842368,27.559596"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://automirauto.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

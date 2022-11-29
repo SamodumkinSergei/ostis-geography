@@ -1,0 +1,26 @@
+ concept_restaurants_139334762343
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Restaurant atlantide Brest"]
+	(* <- lang_ru;; <- name;;*);
+    ["Restaurant atlantide Brest"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Бретань, Финистер, Округ Брест, Брест, Boulevard Léon Blum, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 2 98 80 78 07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["48.402224,-4.484345"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

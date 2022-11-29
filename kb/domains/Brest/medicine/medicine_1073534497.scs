@@ -1,0 +1,26 @@
+ concept_medicine_1073534497
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Брестская областная клиническая больница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестская областная клиническая больница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Медицинская улица, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 227-21-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.105841,23.815046"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.hospital.brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

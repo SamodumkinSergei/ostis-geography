@@ -1,0 +1,26 @@
+ concept_fallback_services_1072185083
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Памятники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Фабричная улица, 20А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 773-45-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.88546,27.589805"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://red-stone.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

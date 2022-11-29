@@ -1,0 +1,26 @@
+ concept_mobile_phones_1209791633
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Хайтексервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хайтексервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Чкалова, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 665-62-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.879958,27.534883"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gsm-pda.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

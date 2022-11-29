@@ -1,0 +1,26 @@
+ concept_currency_exchange_141028432639
+ <- concept_currency_exchange;
+=>nrel_main_idtf:
+	["БТА банк, банкомат"]
+	(* <- lang_ru;; <- name;;*);
+    ["БТА банк, банкомат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Строителей, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 311-32-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.172901,30.201382"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.btabank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

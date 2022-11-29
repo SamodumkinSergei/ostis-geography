@@ -1,0 +1,26 @@
+ concept_college_204229841973
+ <- concept_college;
+=>nrel_main_idtf:
+	["Факультет английского языка МГЛУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Факультет английского языка МГЛУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Румянцева, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 284-43-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:30–17:15, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907308,27.577547"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.mslu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_museum_1082903418
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Витебский областной методический центр народного творчества"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебский областной методический центр народного творчества"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 35А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 226-29-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.194702,30.207692"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://omcnt.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

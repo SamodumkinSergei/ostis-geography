@@ -1,0 +1,26 @@
+ concept_hotels_1201423854
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Парадиз-отель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парадиз-отель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Привокзальная площадь, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 322-25-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.431796,30.991897"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gomelparadise.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

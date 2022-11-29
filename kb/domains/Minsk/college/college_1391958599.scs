@@ -1,0 +1,26 @@
+ concept_college_1391958599
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГУО Средняя школа № 129"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО Средняя школа № 129"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Плеханова, 51"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 316-06-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.864267,27.616972"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch129.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

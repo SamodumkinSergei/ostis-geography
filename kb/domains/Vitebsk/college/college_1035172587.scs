@@ -1,0 +1,26 @@
+ concept_college_1035172587
+ <- concept_college;
+=>nrel_main_idtf:
+	["Витебское государственное училище олимпийского резерва"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебское государственное училище олимпийского резерва"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Шмырёва, 44"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 265-07-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00; сб 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.155407,30.191646"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vguor.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

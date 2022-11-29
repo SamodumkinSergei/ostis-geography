@@ -1,0 +1,26 @@
+ concept_supermarket_135335281765
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Green"]
+	(* <- lang_ru;; <- name;;*);
+    ["Green"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 84"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 532-27-89"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.937898,27.488836"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.green-market.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

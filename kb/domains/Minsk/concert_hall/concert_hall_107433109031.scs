@@ -1,0 +1,26 @@
+ concept_concert_hall_107433109031
+ <- concept_concert_hall;
+=>nrel_main_idtf:
+	["ФортеPiano"]
+	(* <- lang_ru;; <- name;;*);
+    ["ФортеPiano"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Сухая улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 655-64-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 21:00–07:00; пт,сб 20:00–07:00; вс 21:00–07:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904561,27.53972"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://forte-piano.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

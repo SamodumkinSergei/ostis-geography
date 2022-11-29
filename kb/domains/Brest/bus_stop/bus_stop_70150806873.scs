@@ -1,0 +1,26 @@
+ concept_bus_stop_70150806873
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Ковельское шоссе"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ковельское шоссе"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Бориса Маслова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.061213,23.705857"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

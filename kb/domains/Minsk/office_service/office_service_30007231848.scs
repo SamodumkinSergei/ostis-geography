@@ -1,0 +1,26 @@
+ concept_office_service_30007231848
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["ТСК Насосы"]
+	(* <- lang_ru;; <- name;;*);
+    ["ТСК Насосы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Щомыслицкий сельсовет, 72А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 898-28-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.832113,27.464374"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.aqualider.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

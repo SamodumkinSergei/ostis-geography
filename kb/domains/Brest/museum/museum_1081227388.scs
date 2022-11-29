@@ -1,0 +1,26 @@
+ concept_museum_1081227388
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Брестский областной общественно-культурный центр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестский областной общественно-культурный центр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Коммунистическая улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 220-76-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.092638,23.682678"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://okcbrest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

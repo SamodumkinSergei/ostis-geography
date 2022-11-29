@@ -1,0 +1,26 @@
+ concept_mobile_phones_31024338184
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Ремонт телефонов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт телефонов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пожарный переулок, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 296-98-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00, перерыв 14:00–15:00; сб,вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.89891,30.335817"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogilev.myfix.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_cafe_1311227662
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Times Cafe"]
+	(* <- lang_ru;; <- name;;*);
+    ["Times Cafe"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Советская улица, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 220-71-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–23:00; сб,вс 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.09472,23.69139"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://santarest.by/kafe-i-restorany/times-cafe/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

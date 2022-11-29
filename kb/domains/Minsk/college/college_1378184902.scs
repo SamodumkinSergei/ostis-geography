@@ -1,0 +1,26 @@
+ concept_college_1378184902
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 154"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 154"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Голубева, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 277-29-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.867656,27.461159"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch154.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

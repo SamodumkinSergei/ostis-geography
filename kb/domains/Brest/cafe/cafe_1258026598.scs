@@ -1,0 +1,26 @@
+ concept_cafe_1258026598
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Venezia"]
+	(* <- lang_ru;; <- name;;*);
+    ["Venezia"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Интернациональная улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 220-33-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.08347,23.688296"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://venezia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

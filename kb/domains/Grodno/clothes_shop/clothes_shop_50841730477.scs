@@ -1,0 +1,26 @@
+ concept_clothes_shop_50841730477
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Торгодежда"]
+	(* <- lang_ru;; <- name;;*);
+    ["Торгодежда"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Лиможа, 32Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 256-70-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–19:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.711281,23.849161"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://torgodezda.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

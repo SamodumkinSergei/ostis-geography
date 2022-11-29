@@ -1,0 +1,26 @@
+ concept_bus_stop_106537132680
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Рогачевская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Рогачевская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Рогачёвская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.945284,27.720048"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_1243540743
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Могилевлифт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилевлифт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Симонова, 55А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 263-80-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:00–17:00, перерыв 13:00–13:48; пт 08:00–16:00, перерыв 13:00–13:48"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.863531,30.311861"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.mogilevlift.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

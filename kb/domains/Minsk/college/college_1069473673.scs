@@ -1,0 +1,26 @@
+ concept_college_1069473673
+ <- concept_college;
+=>nrel_main_idtf:
+	["Специальная общеобразовательная школа-интернат № 13 г. Минска для детей с нарушением слуха"]
+	(* <- lang_ru;; <- name;;*);
+    ["Специальная общеобразовательная школа-интернат № 13 г. Минска для детей с нарушением слуха"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ваупшасова, 23А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 356-97-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,вт 09:00–18:00; ср 11:00–20:00; чт,пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.900788,27.654993"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://schi13.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_supermarket_223578551625
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Крель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Крель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Терешковой, 26к6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 267-13-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:30–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.18981,30.244796"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

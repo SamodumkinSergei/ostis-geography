@@ -1,0 +1,26 @@
+ concept_restaurants_49408851793
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Кушац"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кушац"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Симонова, 2В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 119-11-97"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.874257,30.313486"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kushats.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

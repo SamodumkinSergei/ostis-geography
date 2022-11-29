@@ -1,0 +1,26 @@
+ concept_petshop_146821673230
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Витзоомаркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витзоомаркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Гагарина, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 362-43-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.20554,30.216484"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitzoomarket.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

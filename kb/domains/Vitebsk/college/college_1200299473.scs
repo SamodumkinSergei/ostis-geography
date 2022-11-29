@@ -1,0 +1,26 @@
+ concept_college_1200299473
+ <- concept_college;
+=>nrel_main_idtf:
+	["Детская художественная школа"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детская художественная школа"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Суворова, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 235-90-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:30; сб 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.196304,30.205194"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://hudojka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

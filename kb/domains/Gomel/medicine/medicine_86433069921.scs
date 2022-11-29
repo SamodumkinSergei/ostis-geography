@@ -1,0 +1,26 @@
+ concept_medicine_86433069921
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Стационарное наркологическое отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стационарное наркологическое отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Богданова, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 251-21-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.454051,30.973789"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://narcology.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

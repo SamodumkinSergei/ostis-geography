@@ -1,0 +1,26 @@
+ concept_supermarket_182004686031
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Продтовары"]
+	(* <- lang_ru;; <- name;;*);
+    ["Продтовары"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Комсомольская улица, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 225-63-24"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:15, перерыв 12:00–12:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.095551,23.688419"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://prodtovary.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

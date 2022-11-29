@@ -1,0 +1,26 @@
+ concept_auto_1312613568
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автосервис Сиас"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автосервис Сиас"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Левкова, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 228-21-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873927,27.556949"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://siasauto.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

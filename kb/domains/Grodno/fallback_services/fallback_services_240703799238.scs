@@ -1,0 +1,26 @@
+ concept_fallback_services_240703799238
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Офис-тех плюс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Офис-тех плюс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Гаспадарчая улица, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 788-36-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.704839,23.828433"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sgm.by/cartridge-grodno/articles/cartridge-grodno"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

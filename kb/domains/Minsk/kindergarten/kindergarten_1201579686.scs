@@ -1,0 +1,26 @@
+ concept_kindergarten_1201579686
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 122"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 122"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Колесникова, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 378-26-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.918175,27.440391"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu122.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

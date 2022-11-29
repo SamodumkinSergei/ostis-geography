@@ -1,0 +1,26 @@
+ concept_drugstores_232376157155
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Планета Здоровья"]
+	(* <- lang_ru;; <- name;;*);
+    ["Планета Здоровья"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Казимировка, Минское шоссе, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["8 (801) 100-50-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.935545,30.257489"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://healthplanet.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

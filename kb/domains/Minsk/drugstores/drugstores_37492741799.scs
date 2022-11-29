@@ -1,0 +1,26 @@
+ concept_drugstores_37492741799
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Планета Здоровья"]
+	(* <- lang_ru;; <- name;;*);
+    ["Планета Здоровья"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лобанка, 107"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 318-96-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:30–20:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.882087,27.434043"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.healthplanet.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

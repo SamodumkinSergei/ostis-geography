@@ -1,0 +1,26 @@
+ concept_government_240139018455
+ <- concept_government;
+=>nrel_main_idtf:
+	["Министерство ЖКХ РБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Министерство ЖКХ РБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Берсона, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 200-15-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897735,27.545349"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.mjkx.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

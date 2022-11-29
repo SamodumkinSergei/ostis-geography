@@ -1,0 +1,26 @@
+ concept_fallback_services_1124726080
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гродногазстройизоляция"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродногазстройизоляция"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Карского, 6А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 274-63-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:45, перерыв 12:00–12:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.686519,23.880003"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gsiz.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

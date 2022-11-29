@@ -1,0 +1,26 @@
+ concept_auto_1214823615
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автосервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автосервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Советской Конституции, 16/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 795-31-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.104558,23.748901"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

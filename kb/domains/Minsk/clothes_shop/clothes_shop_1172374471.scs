@@ -1,0 +1,26 @@
+ concept_clothes_shop_1172374471
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Vivakom"]
+	(* <- lang_ru;; <- name;;*);
+    ["Vivakom"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Стебенёва, 2к15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 572-70-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.838029,27.559103"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vivakom.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

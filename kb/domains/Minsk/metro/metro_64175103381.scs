@@ -1,0 +1,26 @@
+ concept_metro_64175103381
+ <- concept_metro;
+=>nrel_main_idtf:
+	["метро Ковальская Слобода"]
+	(* <- lang_ru;; <- name;;*);
+    ["метро Ковальская Слобода"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Жуковского"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 05:30–00:40"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.876755,27.54964"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://metropoliten.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

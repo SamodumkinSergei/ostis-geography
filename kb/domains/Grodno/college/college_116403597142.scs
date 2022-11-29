@@ -1,0 +1,26 @@
+ concept_college_116403597142
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГРГУ им. Янки Купалы, филологический факультет"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГРГУ им. Янки Купалы, филологический факультет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Ленина, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 274-03-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.683427,23.839838"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://phf.grsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

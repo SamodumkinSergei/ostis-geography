@@ -1,0 +1,26 @@
+ concept_hotels_137594017588
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Прибрежный"]
+	(* <- lang_ru;; <- name;;*);
+    ["Прибрежный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Прибрежная улица, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 536-43-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 14:00–12:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.048035,23.719546"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

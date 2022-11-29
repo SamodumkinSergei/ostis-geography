@@ -1,0 +1,26 @@
+ concept_metro_220767116981
+ <- concept_metro;
+=>nrel_main_idtf:
+	["метро Могилёвская"]
+	(* <- lang_ru;; <- name;;*);
+    ["метро Могилёвская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 05:30–00:40"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.861968,27.674149"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://metropoliten.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

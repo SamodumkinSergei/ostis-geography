@@ -1,0 +1,26 @@
+ concept_cinemas_90715087136
+ <- concept_cinemas;
+=>nrel_main_idtf:
+	["Cinema boutique"]
+	(* <- lang_ru;; <- name;;*);
+    ["Cinema boutique"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 771-01-71"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 17:00–00:00; сб,вс 13:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.932766,27.510622"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://falconclub.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

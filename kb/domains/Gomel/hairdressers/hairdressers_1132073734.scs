@@ -1,0 +1,26 @@
+ concept_hairdressers_1132073734
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Элита"]
+	(* <- lang_ru;; <- name;;*);
+    ["Элита"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Гагарина, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 634-83-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.422205,31.003673"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

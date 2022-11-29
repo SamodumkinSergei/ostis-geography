@@ -1,0 +1,26 @@
+ concept_police_2624180574
+ <- concept_police;
+=>nrel_main_idtf:
+	["Витебское областное управление Департамента охраны МВД Республики Беларусь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебское областное управление Департамента охраны МВД Республики Беларусь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Будённого, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 266-51-89"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.187588,30.188792"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ohrana.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

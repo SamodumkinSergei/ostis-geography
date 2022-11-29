@@ -1,0 +1,26 @@
+ concept_car_park_128477355322
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Парковка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парковка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, поселок Северный"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 273-52-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.886284,27.677253"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mfkmandarin.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

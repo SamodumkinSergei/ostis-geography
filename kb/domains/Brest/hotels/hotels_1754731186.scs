@@ -1,0 +1,26 @@
+ concept_hotels_1754731186
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Брест"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брест"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Воинов-Интернационалистов, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 675-07-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.06309,23.73855"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gogol.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

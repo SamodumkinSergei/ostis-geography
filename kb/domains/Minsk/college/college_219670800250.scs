@@ -1,0 +1,26 @@
+ concept_college_219670800250
+ <- concept_college;
+=>nrel_main_idtf:
+	["Курсы Барберов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Курсы Барберов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Кальварийская улица, 21, корп. 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 762-45-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905218,27.528027"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://shkola-barberov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

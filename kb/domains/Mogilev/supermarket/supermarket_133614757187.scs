@@ -1,0 +1,26 @@
+ concept_supermarket_133614757187
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Pro запас"]
+	(* <- lang_ru;; <- name;;*);
+    ["Pro запас"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Тимирязевская улица, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912179,30.338668"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_college_16495052687
+ <- concept_college;
+=>nrel_main_idtf:
+	["Orange English School"]
+	(* <- lang_ru;; <- name;;*);
+    ["Orange English School"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Гикало, 20А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 378-12-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912419,27.592176"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.orangeschool.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

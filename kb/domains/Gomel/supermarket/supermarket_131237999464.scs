@@ -1,0 +1,26 @@
+ concept_supermarket_131237999464
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Универсам"]
+	(* <- lang_ru;; <- name;;*);
+    ["Универсам"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 87А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 237-04-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.382612,31.028657"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

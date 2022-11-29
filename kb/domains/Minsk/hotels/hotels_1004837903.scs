@@ -1,0 +1,26 @@
+ concept_hotels_1004837903
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Президент-Отель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Президент-Отель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кирова, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 229-70-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.899264,27.565379"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://president-hotel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

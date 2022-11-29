@@ -1,0 +1,26 @@
+ concept_medicine_6147634650
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["New Apollo Polyclinic"]
+	(* <- lang_ru;; <- name;;*);
+    ["New Apollo Polyclinic"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["эмират Дубай, Бур Дубай, Эль Карама"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+971 4 337 90 40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["25.244543,55.30308"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.newapollopolyclinic.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

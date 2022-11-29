@@ -1,0 +1,26 @@
+ concept_malls_1348374464
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Интеграл"]
+	(* <- lang_ru;; <- name;;*);
+    ["Интеграл"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Ленина, 59"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 231-13-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–19:00; вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.430555,30.994938"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.integralgomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

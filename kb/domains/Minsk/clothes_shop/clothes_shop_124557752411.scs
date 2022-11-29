@@ -1,0 +1,26 @@
+ concept_clothes_shop_124557752411
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Рок-магазин Stuff"]
+	(* <- lang_ru;; <- name;;*);
+    ["Рок-магазин Stuff"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 58"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 697-94-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:30–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917978,27.58934"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

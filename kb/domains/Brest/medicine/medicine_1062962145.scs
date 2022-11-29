@@ -1,0 +1,26 @@
+ concept_medicine_1062962145
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Брестская городская поликлиника № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестская городская поликлиника № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Белова, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 221-40-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–20:00; сб 08:30–15:00; вс 08:30–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.091951,23.68424"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

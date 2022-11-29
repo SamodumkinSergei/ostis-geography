@@ -1,0 +1,26 @@
+ concept_clothes_shop_144400860118
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Belwest"]
+	(* <- lang_ru;; <- name;;*);
+    ["Belwest"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чкалова, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 267-30-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.162208,30.208745"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://belwest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

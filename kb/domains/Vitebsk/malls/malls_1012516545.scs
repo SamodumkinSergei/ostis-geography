@@ -1,0 +1,26 @@
+ concept_malls_1012516545
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Глобус"]
+	(* <- lang_ru;; <- name;;*);
+    ["Глобус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Замковая улица, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 307-56-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–18:00; вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.192508,30.205629"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belkniga.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

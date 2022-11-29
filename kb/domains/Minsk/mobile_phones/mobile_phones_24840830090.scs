@@ -1,0 +1,26 @@
+ concept_mobile_phones_24840830090
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Белвидеопрокат"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белвидеопрокат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Московская линия, метро Площадь Ленина"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 678-92-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.895335,27.54827"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

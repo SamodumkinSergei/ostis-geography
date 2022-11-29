@@ -1,0 +1,26 @@
+ concept_car_park_39230860850
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Стоянка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стоянка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Владимирова, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:30–20:10"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.435112,30.95161"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

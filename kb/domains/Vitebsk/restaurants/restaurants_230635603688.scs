@@ -1,0 +1,26 @@
+ concept_restaurants_230635603688
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Agape Coffeehouse"]
+	(* <- lang_ru;; <- name;;*);
+    ["Agape Coffeehouse"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["штат Айдахо, Пайетт-Каунти, Пайетт"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+1 208 642 7233"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 06:00–17:00; сб 07:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["44.07406,-116.923588"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.agapecoffeehouse.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_150909643310
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Чкалова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Чкалова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чкалова, 24, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.173568,30.214113"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_auto_5754693003
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Белпат"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белпат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Антоновская улица, 13, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 555-57-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:00–20:00; вс 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897677,27.593081"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://belpat.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

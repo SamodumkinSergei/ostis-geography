@@ -1,0 +1,26 @@
+ concept_kindergarten_1092251421
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 49 г. Могилёва"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 49 г. Могилёва"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Островского, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 271-18-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 07:00–17:30; вт 14:00–19:00; ср-пт 07:00–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878276,30.340638"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sad49mogilev.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

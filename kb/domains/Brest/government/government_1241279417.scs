@@ -1,0 +1,26 @@
+ concept_government_1241279417
+ <- concept_government;
+=>nrel_main_idtf:
+	["Брестский районный исполнительный комитет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестский районный исполнительный комитет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Веры Хоружей, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 221-14-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.087049,23.684406"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brest.brest-region.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

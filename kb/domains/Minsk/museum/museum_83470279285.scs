@@ -1,0 +1,26 @@
+ concept_museum_83470279285
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Арт-Беларусь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Арт-Беларусь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Козлова, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 11:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910399,27.57899"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.artbelarus.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

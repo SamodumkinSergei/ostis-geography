@@ -1,0 +1,26 @@
+ concept_cafe_1237606743
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кафе Чайка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафе Чайка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Октябрьской Революции, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 232-15-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.082203,23.741439"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://rowingbrest.by/index.php/nashi-uslugi/kafe-chajka"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

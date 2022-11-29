@@ -1,0 +1,26 @@
+ concept_furniture_store_76529872294
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["АксХоум"]
+	(* <- lang_ru;; <- name;;*);
+    ["АксХоум"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Вычулки, 129/10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 370-78-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:30; сб,вс 10:00–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.096397,23.820003"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://akshome.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_malls_112216807139
+ <- concept_malls;
+=>nrel_main_idtf:
+	["ГУМ"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУМ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 325-58-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:30–15:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.900582,27.55842"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

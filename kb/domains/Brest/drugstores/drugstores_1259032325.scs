@@ -1,0 +1,26 @@
+ concept_drugstores_1259032325
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Партизанский проспект, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 225-06-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб 10:00–20:00; вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.103529,23.761061"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://brest.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

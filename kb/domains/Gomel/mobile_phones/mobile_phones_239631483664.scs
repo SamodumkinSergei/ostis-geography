@@ -1,0 +1,26 @@
+ concept_mobile_phones_239631483664
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Pros.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Pros.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Мазурова, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 700-01-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.448258,31.02446"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pros.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_swimming_pool_80685996095
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Бассейн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бассейн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Томина, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 268-67-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 13:30–22:30; вт-сб 10:30–22:30; вс 10:30–21:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.649515,23.822291"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://azots.by/ozdorovitelnyj-centr.html"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

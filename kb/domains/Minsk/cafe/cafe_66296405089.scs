@@ -1,0 +1,26 @@
+ concept_cafe_66296405089
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кофта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кофта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Мира, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 628-94-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб,вс 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.870325,27.549995"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://kofta.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

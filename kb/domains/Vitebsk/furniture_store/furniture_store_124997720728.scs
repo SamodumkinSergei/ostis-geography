@@ -1,0 +1,26 @@
+ concept_furniture_store_124997720728
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["ОфисОпт"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОфисОпт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Черняховского, 34А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 704-02-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб,вс 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.1707,30.199153"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://officeopt.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_library_1089611786
+ <- concept_library;
+=>nrel_main_idtf:
+	["Библиотека имени Янки Купалы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Библиотека имени Янки Купалы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Димитрова, 55А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 278-46-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 09:00–19:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.875695,30.379664"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gb9.mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

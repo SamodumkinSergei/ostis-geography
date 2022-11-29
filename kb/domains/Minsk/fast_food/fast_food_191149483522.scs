@@ -1,0 +1,26 @@
+ concept_fast_food_191149483522
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Комаровские Ласунки"]
+	(* <- lang_ru;; <- name;;*);
+    ["Комаровские Ласунки"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Веры Хоружей, 8к5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 09:00–18:00, перерывы 12:00–12:30, 15:00–15:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919092,27.578425"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

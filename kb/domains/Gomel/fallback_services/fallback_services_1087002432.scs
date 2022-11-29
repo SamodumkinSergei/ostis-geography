@@ -1,0 +1,26 @@
+ concept_fallback_services_1087002432
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["ИнфоСлужба-186"]
+	(* <- lang_ru;; <- name;;*);
+    ["ИнфоСлужба-186"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Ленина, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 116-01-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.425297,31.007786"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://186.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

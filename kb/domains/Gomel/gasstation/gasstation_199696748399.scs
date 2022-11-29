@@ -1,0 +1,26 @@
+ concept_gasstation_199696748399
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["АЗС № 83 РУП Белоруснефть-гомельоблнефтепродукт"]
+	(* <- lang_ru;; <- name;;*);
+    ["АЗС № 83 РУП Белоруснефть-гомельоблнефтепродукт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельская область, Р-150, 4-й км"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 225-06-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.375015,31.005289"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

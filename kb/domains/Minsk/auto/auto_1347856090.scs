@@ -1,0 +1,26 @@
+ concept_auto_1347856090
+ <- concept_auto;
+=>nrel_main_idtf:
+	["СТО Альтернатива"]
+	(* <- lang_ru;; <- name;;*);
+    ["СТО Альтернатива"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, МКАД, 5-й километр, 17А/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 585-98-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.895598,27.694624"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.sto-alternativa.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

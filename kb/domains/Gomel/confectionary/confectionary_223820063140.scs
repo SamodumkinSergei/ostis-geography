@@ -1,0 +1,26 @@
+ concept_confectionary_223820063140
+ <- concept_confectionary;
+=>nrel_main_idtf:
+	["Твой вкус"]
+	(* <- lang_ru;; <- name;;*);
+    ["Твой вкус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 97"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 345-88-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.451037,30.996849"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://tvoyvkus.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

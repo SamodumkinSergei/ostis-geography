@@ -1,0 +1,26 @@
+ concept_supermarket_126504613640
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Мини-Маркет Остановочка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мини-Маркет Остановочка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.886112,27.585624"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

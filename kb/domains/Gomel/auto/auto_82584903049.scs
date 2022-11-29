@@ -1,0 +1,26 @@
+ concept_auto_82584903049
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Авто Дарча"]
+	(* <- lang_ru;; <- name;;*);
+    ["Авто Дарча"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Барыкина, 150/3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 570-51-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.419934,30.956033"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://auto-darcha.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

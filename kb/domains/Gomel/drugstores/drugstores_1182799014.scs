@@ -1,0 +1,26 @@
+ concept_drugstores_1182799014
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Любимая аптека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Любимая аптека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Хатаевича, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 737-47-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.444999,31.016959"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://l-a.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

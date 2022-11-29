@@ -1,0 +1,26 @@
+ concept_drugstores_1218434119
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Витафарм"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витафарм"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица МОПРа, 4/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 220-12-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.088457,23.708562"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

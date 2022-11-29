@@ -1,0 +1,26 @@
+ concept_fallback_services_27946227801
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гранит Карелия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гранит Карелия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Космонавтов, 70"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 866-59-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 12:00–19:00; сб 12:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.67602,23.873735"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://karelia.pamiatnikov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

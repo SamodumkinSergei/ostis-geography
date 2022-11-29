@@ -1,0 +1,26 @@
+ concept_museum_1064662334
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Мемориальный музей-мастерская З. И. Азгура"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мемориальный музей-мастерская З. И. Азгура"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Азгура, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 380-06-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.8992,27.578407"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://azgur.museum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

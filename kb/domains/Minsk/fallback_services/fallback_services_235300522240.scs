@@ -1,0 +1,26 @@
+ concept_fallback_services_235300522240
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Памятники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 178Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 607-76-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.851848,27.695683"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://granko.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_auto_97125118992
+ <- concept_auto;
+=>nrel_main_idtf:
+	["ТаексАвто"]
+	(* <- lang_ru;; <- name;;*);
+    ["ТаексАвто"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Брилевский тупик, 55А/4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 709-26-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.868466,27.521966"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://taex.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

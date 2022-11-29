@@ -1,0 +1,26 @@
+ concept_tailor_46376090062
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Ремонт одежды"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт одежды"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Железнодорожная улица, 136, корп. 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 173-41-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–20:00; сб 10:00–18:00; вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.875459,27.499549"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

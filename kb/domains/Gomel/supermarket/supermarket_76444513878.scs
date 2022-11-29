@@ -1,0 +1,26 @@
+ concept_supermarket_76444513878
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Маркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Маркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица М.Г. Ефремова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 944-87-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.462943,30.969839"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

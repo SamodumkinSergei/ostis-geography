@@ -1,0 +1,26 @@
+ concept_hotels_193576070314
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Hello Grodno Hostel"]
+	(* <- lang_ru;; <- name;;*);
+    ["Hello Grodno Hostel"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Городничанская улица, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 932-97-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 14:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.679777,23.833643"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://hello-grodno-hostel.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

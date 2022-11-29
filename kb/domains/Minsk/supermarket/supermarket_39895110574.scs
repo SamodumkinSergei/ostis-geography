@@ -1,0 +1,26 @@
+ concept_supermarket_39895110574
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Белмаркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белмаркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, деревня Боровляны, улица Берёзовая Роща, 108"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 398-21-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.003439,27.677367"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bel-market.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

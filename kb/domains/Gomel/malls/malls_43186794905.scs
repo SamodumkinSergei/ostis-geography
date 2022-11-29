@@ -1,0 +1,26 @@
+ concept_malls_43186794905
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Медпласт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Медпласт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Объездная улица, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 233-53-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.415636,30.901468"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://medplast.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

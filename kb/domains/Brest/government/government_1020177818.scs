@@ -1,0 +1,26 @@
+ concept_government_1020177818
+ <- concept_government;
+=>nrel_main_idtf:
+	["Брестский областной исполнительный комитет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестский областной исполнительный комитет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Ленина, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 221-51-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.094053,23.683985"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brest-region.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

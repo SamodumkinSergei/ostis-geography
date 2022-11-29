@@ -1,0 +1,26 @@
+ concept_hypermarket_71980287695
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Самсон"]
+	(* <- lang_ru;; <- name;;*);
+    ["Самсон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Терешковой, 13А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 900-03-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.184451,30.25184"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ois.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

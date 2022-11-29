@@ -1,0 +1,26 @@
+ concept_hotels_1288142174
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Смайл"]
+	(* <- lang_ru;; <- name;;*);
+    ["Смайл"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 131"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 771-94-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.844553,27.474102"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://smileminsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

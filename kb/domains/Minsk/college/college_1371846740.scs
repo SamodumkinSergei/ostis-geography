@@ -1,0 +1,26 @@
+ concept_college_1371846740
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 209"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 209"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Рафиева, 91"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 274-69-71"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.858557,27.441366"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch209.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

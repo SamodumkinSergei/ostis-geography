@@ -1,0 +1,26 @@
+ concept_cafe_183935499565
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Unicorn street food"]
+	(* <- lang_ru;; <- name;;*);
+    ["Unicorn street food"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Советский район, микрорайон Комаровка"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 628-18-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–00:00; пт,сб 12:00–02:00; вс 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.918352,27.584649"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

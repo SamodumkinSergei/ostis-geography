@@ -1,0 +1,26 @@
+ concept_college_108474560082
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 5 имени Г. И. Богомазова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 5 имени Г. И. Богомазова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Гагарина, 85А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 222-94-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.213522,30.23163"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch5vitebsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

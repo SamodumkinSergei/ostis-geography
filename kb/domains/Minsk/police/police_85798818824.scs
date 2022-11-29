@@ -1,0 +1,26 @@
+ concept_police_85798818824
+ <- concept_police;
+=>nrel_main_idtf:
+	["Общественный Пункт Охраны Порядка № 43"]
+	(* <- lang_ru;; <- name;;*);
+    ["Общественный Пункт Охраны Порядка № 43"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Газеты Правда, 20А/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 271-08-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 18:00–20:00; сб 16:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.867874,27.484031"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

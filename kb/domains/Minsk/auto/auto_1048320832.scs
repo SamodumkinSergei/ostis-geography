@@ -1,0 +1,26 @@
+ concept_auto_1048320832
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автомойка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автомойка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева, 65"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 361-54-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–21:00; вс 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.924339,27.509461"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.auto-minsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

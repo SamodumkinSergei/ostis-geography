@@ -1,0 +1,26 @@
+ concept_bus_stop_230195564551
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Максима Богдановича"]
+	(* <- lang_ru;; <- name;;*);
+    ["Максима Богдановича"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Машерова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.91656,27.564569"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

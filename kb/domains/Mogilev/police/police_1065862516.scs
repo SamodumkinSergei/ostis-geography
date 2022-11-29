@@ -1,0 +1,26 @@
+ concept_police_1065862516
+ <- concept_police;
+=>nrel_main_idtf:
+	["ОВД администрации Октябрьского района Могилёва"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОВД администрации Октябрьского района Могилёва"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, 1-й Брикетный переулок, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 242-70-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.865315,30.352087"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://uvd.mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

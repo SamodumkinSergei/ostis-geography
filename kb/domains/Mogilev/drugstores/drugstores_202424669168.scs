@@ -1,0 +1,26 @@
+ concept_drugstores_202424669168
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 12"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 12"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Шмидта, 32А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 260-08-28"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:30–21:00; сб,вс 09:30–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873925,30.322332"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitvar.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

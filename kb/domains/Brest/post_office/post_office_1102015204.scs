@@ -1,0 +1,26 @@
+ concept_post_office_1102015204
+ <- concept_post_office;
+=>nrel_main_idtf:
+	["Белпошта, почтовое отделение № 23"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белпошта, почтовое отделение № 23"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 340"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 234-08-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.101195,23.768742"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belpost.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

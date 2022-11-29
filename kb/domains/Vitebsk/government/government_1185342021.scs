@@ -1,0 +1,26 @@
+ concept_government_1185342021
+ <- concept_government;
+=>nrel_main_idtf:
+	["Управление спорта и туризма Витебского облисполкома"]
+	(* <- lang_ru;; <- name;;*);
+    ["Управление спорта и туризма Витебского облисполкома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Строителей, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 268-90-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.171926,30.216167"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitebsk-region.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

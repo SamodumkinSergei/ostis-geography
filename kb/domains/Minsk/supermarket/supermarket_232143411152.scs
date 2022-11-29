@@ -1,0 +1,26 @@
+ concept_supermarket_232143411152
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Green"]
+	(* <- lang_ru;; <- name;;*);
+    ["Green"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кирилла Туровского, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 260-81-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.931,27.653346"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.green-market.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

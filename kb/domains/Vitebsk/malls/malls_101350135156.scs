@@ -1,0 +1,26 @@
+ concept_malls_101350135156
+ <- concept_malls;
+=>nrel_main_idtf:
+	["MySport"]
+	(* <- lang_ru;; <- name;;*);
+    ["MySport"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Строителей, 15В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 888-80-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.170252,30.219705"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.magiccard.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

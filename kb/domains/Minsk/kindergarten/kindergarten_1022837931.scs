@@ -1,0 +1,26 @@
+ concept_kindergarten_1022837931
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 270 г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 270 г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Болеслава Берута, 9/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 375-86-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902876,27.505007"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu270.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

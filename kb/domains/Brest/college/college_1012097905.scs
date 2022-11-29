@@ -1,0 +1,26 @@
+ concept_college_1012097905
+ <- concept_college;
+=>nrel_main_idtf:
+	["Колледж бизнеса и права, Брестский филиал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Колледж бизнеса и права, Брестский филиал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, площадь Свободы, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 622-67-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.090783,23.690732"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brest.kbp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

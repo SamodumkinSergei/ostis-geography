@@ -1,0 +1,26 @@
+ concept_restaurants_153346545102
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Пиццерия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пиццерия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Барыкина, 127А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 376-08-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.419716,30.975931"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

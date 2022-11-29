@@ -1,0 +1,26 @@
+ concept_fallback_services_1130104535
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гомельторгмаш"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельторгмаш"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Владимирова, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 253-28-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.429626,30.945747"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.torgmash.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

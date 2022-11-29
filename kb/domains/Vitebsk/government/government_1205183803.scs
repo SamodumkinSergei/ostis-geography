@@ -1,0 +1,26 @@
+ concept_government_1205183803
+ <- concept_government;
+=>nrel_main_idtf:
+	["Витебское областное объединение профсоюзов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебское областное объединение профсоюзов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Калинина, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 226-18-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:00–17:00, перерыв 12:00–12:45; пт 08:00–15:45, перерыв 12:00–12:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.189506,30.200868"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitebsk.1prof.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_20551010230
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Бабушкина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Бабушкина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, переулок Бабушкина"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.406115,31.043079"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

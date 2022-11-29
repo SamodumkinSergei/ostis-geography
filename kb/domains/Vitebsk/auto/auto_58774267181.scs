@@ -1,0 +1,26 @@
+ concept_auto_58774267181
+ <- concept_auto;
+=>nrel_main_idtf:
+	["АвтоКан"]
+	(* <- lang_ru;; <- name;;*);
+    ["АвтоКан"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, 6-я Суражская улица, 2к3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 536-53-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.209186,30.228973"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.kan-avto.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

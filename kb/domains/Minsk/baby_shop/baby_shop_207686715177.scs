@@ -1,0 +1,26 @@
+ concept_baby_shop_207686715177
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Papa.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Papa.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90729,27.484773"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://papa.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

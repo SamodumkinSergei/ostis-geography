@@ -1,0 +1,26 @@
+ concept_supermarket_145507034516
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Магазин № 13"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин № 13"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Островского, 93/95"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 732-71-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.877822,30.36233"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

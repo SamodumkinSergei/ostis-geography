@@ -1,0 +1,26 @@
+ concept_fallback_services_189991322777
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Магазин ритуальных товаров и услуг"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин ритуальных товаров и услуг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Кооперативная улица, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 671-38-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.387683,31.04014"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

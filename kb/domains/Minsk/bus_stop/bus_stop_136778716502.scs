@@ -1,0 +1,26 @@
+ concept_bus_stop_136778716502
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Городской Вал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городской Вал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Городской Вал"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.900763,27.550042"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

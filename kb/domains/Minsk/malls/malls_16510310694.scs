@@ -1,0 +1,26 @@
+ concept_malls_16510310694
+ <- concept_malls;
+=>nrel_main_idtf:
+	["IntimShop.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["IntimShop.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Веры Хоружей, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 353-35-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.918532,27.576671"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://intimshop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

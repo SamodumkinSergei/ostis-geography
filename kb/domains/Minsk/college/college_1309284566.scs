@@ -1,0 +1,26 @@
+ concept_college_1309284566
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГУО Средняя школа № 207 г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО Средняя школа № 207 г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Рафиева, 103"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 376-86-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 07:30–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.857873,27.438188"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch207.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

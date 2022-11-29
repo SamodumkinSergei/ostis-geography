@@ -1,0 +1,26 @@
+ concept_bus_stop_47224880263
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Лиможа"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Лиможа"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Лиможа"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.710203,23.849365"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

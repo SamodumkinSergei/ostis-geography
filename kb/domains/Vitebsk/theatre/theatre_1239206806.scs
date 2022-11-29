@@ -1,0 +1,26 @@
+ concept_theatre_1239206806
+ <- concept_theatre;
+=>nrel_main_idtf:
+	["Белорусский театр Лялька"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусский театр Лялька"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Пушкина, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 266-32-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 10:00–18:00, перерыв 14:00–15:00; сб,вс 10:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.193909,30.204229"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://lialka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

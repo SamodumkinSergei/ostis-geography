@@ -1,0 +1,26 @@
+ concept_hotels_24215701088
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["La Chapelle Saint Gervais"]
+	(* <- lang_ru;; <- name;;*);
+    ["La Chapelle Saint Gervais"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Лантоск, Quartier Saint Gervais"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 4 93 04 16 49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["43.884499,7.47097"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.lachapellesaintgervais.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_supermarket_125888562415
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Магазин № 44 Райпо"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин № 44 Райпо"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебский район, Бабиничский сельсовет, деревня Подберезье, улица Мира, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.253378,30.191026"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

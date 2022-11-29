@@ -1,0 +1,26 @@
+ concept_hypermarket_1130235622
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Белгран"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белгран"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Радиальная улица, 11А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 303-55-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:15–17:00, перерыв 12:00–12:35; пт 08:15–16:10, перерыв 12:00–12:35"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.888223,27.645282"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://minskstroy.by/ru"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_banks_72609987377
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Беларусбанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Беларусбанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гоголя, 2В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 218-84-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 08:15–19:00; вт 08:15–20:00; ср-пт 08:15–19:00; сб 08:30–16:30, перерыв 12:15–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.089266,23.674134"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://belarusbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

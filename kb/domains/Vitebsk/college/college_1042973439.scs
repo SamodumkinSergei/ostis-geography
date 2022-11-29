@@ -1,0 +1,26 @@
+ concept_college_1042973439
+ <- concept_college;
+=>nrel_main_idtf:
+	["Спортальянс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Спортальянс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Офицерская улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 236-05-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:35, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.180302,30.223636"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sportfpb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

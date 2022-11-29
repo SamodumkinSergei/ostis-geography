@@ -1,0 +1,26 @@
+ concept_college_243129098363
+ <- concept_college;
+=>nrel_main_idtf:
+	["Кафедра непрерывного образования в спорте и туризме БГУФК"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафедра непрерывного образования в спорте и туризме БГУФК"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 105"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 324-66-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:15–17:00, перерыв 13:00–13:30; пт 08:15–15:35"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.935923,27.489617"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.sportedu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

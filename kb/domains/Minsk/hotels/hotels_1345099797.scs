@@ -1,0 +1,26 @@
+ concept_hotels_1345099797
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["М-Отель"]
+	(* <- lang_ru;; <- name;;*);
+    ["М-Отель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Папернянский сельсовет, деревня Приморье, Центральная улица, 5В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 628-97-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.990353,27.484146"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://m-hotel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

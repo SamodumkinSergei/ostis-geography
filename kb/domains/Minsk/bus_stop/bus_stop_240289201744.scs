@@ -1,0 +1,26 @@
+ concept_bus_stop_240289201744
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Станция метро Партизанская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Станция метро Партизанская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Жилуновича, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873563,27.62935"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_149342853473
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Симонова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Симонова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Гребенёвский"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.86388,30.311042"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

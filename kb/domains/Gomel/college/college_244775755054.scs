@@ -1,0 +1,26 @@
+ concept_college_244775755054
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гомельский государственный профессиональный технологический лицей, корпус № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский государственный профессиональный технологический лицей, корпус № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Октября, 36"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 229-33-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 13:00–14:00; пт 08:30–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.406614,30.950257"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ggptl.gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

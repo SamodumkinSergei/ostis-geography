@@ -1,0 +1,26 @@
+ concept_hotels_22333021135
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Квартиры Посуточно Kv. Arenda. Minsk"]
+	(* <- lang_ru;; <- name;;*);
+    ["Квартиры Посуточно Kv. Arenda. Minsk"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Нёманская улица, 36"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 132-10-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912707,27.427641"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://kvarendaminsk.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

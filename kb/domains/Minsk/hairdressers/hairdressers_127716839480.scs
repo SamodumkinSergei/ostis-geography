@@ -1,0 +1,26 @@
+ concept_hairdressers_127716839480
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Мэн энд вумэн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мэн энд вумэн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Красноармейская улица, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 357-75-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–20:30; сб 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.898019,27.569856"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://menandwomen.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

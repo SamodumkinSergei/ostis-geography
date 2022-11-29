@@ -1,0 +1,26 @@
+ concept_malls_110570449399
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Lindero.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Lindero.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Карьерная улица, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 725-97-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.0636,23.760574"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://lindero.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

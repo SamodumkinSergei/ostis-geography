@@ -1,0 +1,26 @@
+ concept_kindergarten_1030772430
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-Сад № 55"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-Сад № 55"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Орловская улица, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 234-18-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.107473,23.77036"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ds55brest.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

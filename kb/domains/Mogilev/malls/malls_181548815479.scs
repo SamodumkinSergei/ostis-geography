@@ -1,0 +1,26 @@
+ concept_malls_181548815479
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Догмакомп"]
+	(* <- lang_ru;; <- name;;*);
+    ["Догмакомп"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Болдина, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 271-09-71"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–17:00; вс 11:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.895961,30.335635"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.dogmacomp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_railway_station_245676941430
+ <- concept_railway_station;
+=>nrel_main_idtf:
+	["станция Лучёса"]
+	(* <- lang_ru;; <- name;;*);
+    ["станция Лучёса"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Первомайский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.151354,30.214951"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

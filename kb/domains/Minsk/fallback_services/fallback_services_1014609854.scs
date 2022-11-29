@@ -1,0 +1,26 @@
+ concept_fallback_services_1014609854
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Элитгран"]
+	(* <- lang_ru;; <- name;;*);
+    ["Элитгран"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Танковая улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 268-14-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.927805,27.740341"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://cub-import.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

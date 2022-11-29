@@ -1,0 +1,26 @@
+ concept_post_office_123958139940
+ <- concept_post_office;
+=>nrel_main_idtf:
+	["Пункт почтовой связи Брест-4"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пункт почтовой связи Брест-4"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Шоссейная улица, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 593-50-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.109904,23.709908"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belpost.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

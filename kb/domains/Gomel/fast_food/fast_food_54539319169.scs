@@ -1,0 +1,26 @@
+ concept_fast_food_54539319169
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Лазиза"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лазиза"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Карповича, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 662-56-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.426249,30.998065"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

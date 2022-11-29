@@ -1,0 +1,26 @@
+ concept_restaurants_218225574270
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Пицца"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пицца"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица 50 лет Завода Гомсельмаш, 10А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 13:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.449731,30.963"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

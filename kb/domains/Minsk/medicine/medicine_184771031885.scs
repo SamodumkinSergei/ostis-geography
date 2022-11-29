@@ -1,0 +1,26 @@
+ concept_medicine_184771031885
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городская клиническая инфекционная больница, отделение хронических вирусных гепатитов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская клиническая инфекционная больница, отделение хронических вирусных гепатитов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кропоткина, 76"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 237-78-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 13:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.921688,27.560322"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gkib.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

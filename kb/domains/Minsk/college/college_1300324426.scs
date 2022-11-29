@@ -1,0 +1,26 @@
+ concept_college_1300324426
+ <- concept_college;
+=>nrel_main_idtf:
+	["БГУ, центр образовательных инноваций, отдел Юридическая клиника"]
+	(* <- lang_ru;; <- name;;*);
+    ["БГУ, центр образовательных инноваций, отдел Юридическая клиника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинградская улица, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 209-55-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.894047,27.549945"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://law.bsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

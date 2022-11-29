@@ -1,0 +1,26 @@
+ concept_college_1284118274
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 130 имени Рут Уоллер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 130 имени Рут Уоллер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Лошица, улица Янки Лучины, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 352-12-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.838717,27.56988"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch130.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

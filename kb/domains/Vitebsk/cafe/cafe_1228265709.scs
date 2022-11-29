@@ -1,0 +1,26 @@
+ concept_cafe_1228265709
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Арена суши"]
+	(* <- lang_ru;; <- name;;*);
+    ["Арена суши"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 53"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 646-92-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 12:00–23:00; сб,вс 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.197913,30.208325"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://arena-pizza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

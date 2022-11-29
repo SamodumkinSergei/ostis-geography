@@ -1,0 +1,26 @@
+ concept_government_237837948294
+ <- concept_government;
+=>nrel_main_idtf:
+	["Управление по Витебской области Департамента по гуманитарной деятельности"]
+	(* <- lang_ru;; <- name;;*);
+    ["Управление по Витебской области Департамента по гуманитарной деятельности"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Гоголя, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 264-12-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.190596,30.207296"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dha.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

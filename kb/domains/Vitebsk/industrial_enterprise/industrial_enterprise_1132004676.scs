@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_1132004676
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Вителла"]
+	(* <- lang_ru;; <- name;;*);
+    ["Вителла"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Петруся Бровки, 44"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 226-15-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.15898,30.238656"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

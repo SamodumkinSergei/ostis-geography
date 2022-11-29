@@ -1,0 +1,26 @@
+ concept_petshop_1761749523
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Шиншилленок"]
+	(* <- lang_ru;; <- name;;*);
+    ["Шиншилленок"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чкалова, 13В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 772-77-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.175432,30.213425"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

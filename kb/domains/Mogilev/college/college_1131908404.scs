@@ -1,0 +1,26 @@
+ concept_college_1131908404
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 23"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 23"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Циолковского, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 224-33-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910062,30.32129"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.sosh23.mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

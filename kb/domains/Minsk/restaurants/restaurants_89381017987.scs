@@ -1,0 +1,26 @@
+ concept_restaurants_89381017987
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Пицца Темпо"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пицца Темпо"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Селицкого, 65"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 655-58-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.836785,27.701605"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.pizzatempo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

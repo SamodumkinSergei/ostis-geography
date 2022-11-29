@@ -1,0 +1,26 @@
+ concept_malls_1243881860
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Санта супер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Санта супер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Ленинградская улица, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 198-85-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.112609,23.776554"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://santa.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

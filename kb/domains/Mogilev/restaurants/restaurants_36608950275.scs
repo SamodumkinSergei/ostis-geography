@@ -1,0 +1,26 @@
+ concept_restaurants_36608950275
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Royal Club"]
+	(* <- lang_ru;; <- name;;*);
+    ["Royal Club"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Якубовского, 71"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 327-77-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919577,30.302718"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

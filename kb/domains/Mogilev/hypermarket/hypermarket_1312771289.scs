@@ -1,0 +1,26 @@
+ concept_hypermarket_1312771289
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Бостчейз"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бостчейз"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Островского, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 601-44-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.876658,30.336549"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_auto_123143584237
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Geely АвтоНова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Geely АвтоНова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Хатаевича, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 221-21-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.443921,31.020861"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://geely-gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

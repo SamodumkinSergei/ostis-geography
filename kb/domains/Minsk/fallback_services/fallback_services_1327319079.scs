@@ -1,0 +1,26 @@
+ concept_fallback_services_1327319079
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Vipmemorial"]
+	(* <- lang_ru;; <- name;;*);
+    ["Vipmemorial"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Калинина, 7Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 774-99-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.926016,27.606104"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vipmemorial.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

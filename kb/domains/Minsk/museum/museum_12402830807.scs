@@ -1,0 +1,26 @@
+ concept_museum_12402830807
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Лидер XXI века"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лидер XXI века"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Фрунзе, 2к4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 379-93-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903887,27.574716"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://lider21.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

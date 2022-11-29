@@ -1,0 +1,26 @@
+ concept_restaurants_1002332419
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Винтаж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Винтаж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 692-41-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,вт 12:00–19:00; ср,чт 12:00–00:00; пт,сб 12:00–02:00; вс 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.900969,30.335463"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

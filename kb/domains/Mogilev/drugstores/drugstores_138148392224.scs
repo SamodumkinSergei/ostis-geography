@@ -1,0 +1,26 @@
+ concept_drugstores_138148392224
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 215"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 215"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Габровская улица, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 274-34-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:20–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.868746,30.348451"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

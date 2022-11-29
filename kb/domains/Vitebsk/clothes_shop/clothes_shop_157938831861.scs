@@ -1,0 +1,26 @@
+ concept_clothes_shop_157938831861
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Имидж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Имидж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чапаева, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 695-02-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.195486,30.230728"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

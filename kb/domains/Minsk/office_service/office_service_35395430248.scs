@@ -1,0 +1,26 @@
+ concept_office_service_35395430248
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Ковка Анлюма"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ковка Анлюма"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева, 125"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 358-72-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.934785,27.452291"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://anluma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

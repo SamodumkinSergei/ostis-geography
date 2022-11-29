@@ -1,0 +1,26 @@
+ concept_restaurants_15758918033
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Venner"]
+	(* <- lang_ru;; <- name;;*);
+    ["Venner"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Ждановичский сельсовет, 83"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 507-00-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 13:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.962461,27.430468"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.venner-restaurant.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

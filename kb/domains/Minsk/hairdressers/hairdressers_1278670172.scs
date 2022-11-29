@@ -1,0 +1,26 @@
+ concept_hairdressers_1278670172
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Sonata"]
+	(* <- lang_ru;; <- name;;*);
+    ["Sonata"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Авакяна, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 263-55-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.87627,27.541492"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

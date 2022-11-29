@@ -1,0 +1,26 @@
+ concept_hotels_95446368960
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Елена"]
+	(* <- lang_ru;; <- name;;*);
+    ["Елена"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Сикорского, 56"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 108-84-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 17:30–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.096216,23.714985"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://hotel-24066.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

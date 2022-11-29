@@ -1,0 +1,26 @@
+ concept_cinemas_1044085533
+ <- concept_cinemas;
+=>nrel_main_idtf:
+	["Кинотеатр им. М. И. Калинина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кинотеатр им. М. И. Калинина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Коммунаров, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 227-94-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.426649,31.012492"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gomelkino.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

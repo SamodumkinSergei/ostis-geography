@@ -1,0 +1,26 @@
+ concept_auto_31392747951
+ <- concept_auto;
+=>nrel_main_idtf:
+	["АвтоБрат"]
+	(* <- lang_ru;; <- name;;*);
+    ["АвтоБрат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, переулок Ольшевского, 7, корп. 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 682-49-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.915632,27.507878"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://avtobrat.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

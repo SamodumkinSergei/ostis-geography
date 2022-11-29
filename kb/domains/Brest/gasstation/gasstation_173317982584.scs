@@ -1,0 +1,26 @@
+ concept_gasstation_173317982584
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Газпромнефть"]
+	(* <- lang_ru;; <- name;;*);
+    ["Газпромнефть"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Шоссейная улица, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["8 (800) 700-51-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.111773,23.715964"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gpncard.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

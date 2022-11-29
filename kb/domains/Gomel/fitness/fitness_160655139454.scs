@@ -1,0 +1,26 @@
+ concept_fitness_160655139454
+ <- concept_fitness;
+=>nrel_main_idtf:
+	["Стадион"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стадион"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Лазурная улица, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 113-00-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.408797,30.91252"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://new.gpml.gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

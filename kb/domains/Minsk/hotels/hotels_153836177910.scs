@@ -1,0 +1,26 @@
+ concept_hotels_153836177910
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Черный Кот"]
+	(* <- lang_ru;; <- name;;*);
+    ["Черный Кот"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, агрогородок Колодищи, Грушевая улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 507-50-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.946024,27.801908"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://agrocat.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

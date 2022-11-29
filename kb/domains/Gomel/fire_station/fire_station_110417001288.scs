@@ -1,0 +1,26 @@
+ concept_fire_station_110417001288
+ <- concept_fire_station;
+=>nrel_main_idtf:
+	["Brooklyn Fire Station"]
+	(* <- lang_ru;; <- name;;*);
+    ["Brooklyn Fire Station"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["провинция Уэстерн-Кейп, Кейптаун, Милнертон, дорога Кингс, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+27 21 510 51 80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["-33.916078,18.480232"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.capetown.gov.za/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

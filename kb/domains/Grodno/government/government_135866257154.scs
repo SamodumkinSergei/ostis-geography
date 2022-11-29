@@ -1,0 +1,26 @@
+ concept_government_135866257154
+ <- concept_government;
+=>nrel_main_idtf:
+	["ФСК Гродно"]
+	(* <- lang_ru;; <- name;;*);
+    ["ФСК Гродно"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Максима Горького, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 274-20-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.6859,23.830535"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

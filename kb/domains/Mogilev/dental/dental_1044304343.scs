@@ -1,0 +1,26 @@
+ concept_dental_1044304343
+ <- concept_dental;
+=>nrel_main_idtf:
+	["Могилёвская детская стоматологическая поликлиника"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилёвская детская стоматологическая поликлиника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, бульвар Непокорённых, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 275-90-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:20–20:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.874976,30.329888"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogcp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_flower_shop_1008810553
+ <- concept_flower_shop;
+=>nrel_main_idtf:
+	["Садовник"]
+	(* <- lang_ru;; <- name;;*);
+    ["Садовник"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пушкинский проспект, 69В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 277-72-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00, перерыв 14:00–15:00; сб,вс 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.871755,30.346389"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sadovnik-mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

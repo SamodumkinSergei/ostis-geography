@@ -1,0 +1,26 @@
+ concept_fallback_services_1085356726
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["AllSecond"]
+	(* <- lang_ru;; <- name;;*);
+    ["AllSecond"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, переулок Ольшевского, 1, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 788-78-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.9139,27.507944"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.allsecond.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

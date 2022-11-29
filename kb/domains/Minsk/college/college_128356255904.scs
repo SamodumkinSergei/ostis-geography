@@ -1,0 +1,26 @@
+ concept_college_128356255904
+ <- concept_college;
+=>nrel_main_idtf:
+	["БГУИР, Кафедра систем управления Фиту"]
+	(* <- lang_ru;; <- name;;*);
+    ["БГУИР, Кафедра систем управления Фиту"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Платонова, 39"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 293-86-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 13:00–13:45; пт 08:30–16:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911544,27.595969"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsuir.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

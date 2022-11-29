@@ -1,0 +1,26 @@
+ concept_drugstores_230246308191
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Государственная аптека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Государственная аптека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 378-55-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–21:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.894825,27.548458"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://belleko.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

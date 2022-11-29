@@ -1,0 +1,26 @@
+ concept_college_11678984431
+ <- concept_college;
+=>nrel_main_idtf:
+	["БГПУ, корпус № 3 Факультет Естествознания"]
+	(* <- lang_ru;; <- name;;*);
+    ["БГПУ, корпус № 3 Факультет Естествознания"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Советская улица, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 311-22-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–18:00, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.894543,27.545313"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://bspu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

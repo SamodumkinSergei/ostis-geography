@@ -1,0 +1,26 @@
+ concept_drugstores_236597177684
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Ясса, аптека № 9"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясса, аптека № 9"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Лазо, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 263-32-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб,вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.199694,30.24293"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

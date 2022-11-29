@@ -1,0 +1,26 @@
+ concept_restaurants_59586864733
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Пицца с собой"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пицца с собой"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Григория Денисенко, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 226-95-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.398304,30.96632"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

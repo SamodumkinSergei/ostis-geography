@@ -1,0 +1,26 @@
+ concept_hotels_224655308681
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Гостиница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гостиница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Смолевичский район, Смолевичи, микрорайон Озеро"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.042167,28.069794"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

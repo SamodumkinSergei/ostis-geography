@@ -1,0 +1,26 @@
+ concept_cafe_112800213422
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["PartyMinsk.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["PartyMinsk.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Якуба Коласа, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 333-25-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.918349,27.585124"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://partyminsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

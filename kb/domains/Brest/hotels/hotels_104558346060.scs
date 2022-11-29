@@ -1,0 +1,26 @@
+ concept_hotels_104558346060
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Brest Chambres d'Hotes"]
+	(* <- lang_ru;; <- name;;*);
+    ["Brest Chambres d'Hotes"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Франция, Брест, 32 Rue De La Petite Chesnaie"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 6 32 00 55 98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["48.42324,-4.49942"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

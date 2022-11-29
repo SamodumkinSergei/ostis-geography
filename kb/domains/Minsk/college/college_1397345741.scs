@@ -1,0 +1,26 @@
+ concept_college_1397345741
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 80"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 80"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Карла Либкнехта, 114"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 367-39-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.893144,27.510035"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch80.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

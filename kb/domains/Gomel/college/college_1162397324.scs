@@ -1,0 +1,26 @@
+ concept_college_1162397324
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гомельский государственный политехнический колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский государственный политехнический колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Билецкого, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 275-95-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.42622,31.015781"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomel.belstu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

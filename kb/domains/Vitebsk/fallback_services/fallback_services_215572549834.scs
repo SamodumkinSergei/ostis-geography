@@ -1,0 +1,26 @@
+ concept_fallback_services_215572549834
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Папа Жарит"]
+	(* <- lang_ru;; <- name;;*);
+    ["Папа Жарит"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Калинина, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 816-47-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.191798,30.202653"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://papazharit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

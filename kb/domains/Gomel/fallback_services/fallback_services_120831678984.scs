@@ -1,0 +1,26 @@
+ concept_fallback_services_120831678984
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Ритуальные услуги и принадлежности"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ритуальные услуги и принадлежности"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица М.Г. Ефремова, 65"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 731-76-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–18:00; сб,вс 08:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.462621,30.969724"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://гранит-память.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

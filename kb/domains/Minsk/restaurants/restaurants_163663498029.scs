@@ -1,0 +1,26 @@
+ concept_restaurants_163663498029
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Maslow6"]
+	(* <- lang_ru;; <- name;;*);
+    ["Maslow6"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Интернациональная улица, 29А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 577-11-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 17:00–02:00; пт 17:00–04:00; сб 10:00–04:00; вс 10:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904576,27.558801"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

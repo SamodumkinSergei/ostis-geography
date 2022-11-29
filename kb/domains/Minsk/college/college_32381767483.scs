@@ -1,0 +1,26 @@
+ concept_college_32381767483
+ <- concept_college;
+=>nrel_main_idtf:
+	["Военная академия РБ, факультет Генерального штаба"]
+	(* <- lang_ru;; <- name;;*);
+    ["Военная академия РБ, факультет Генерального штаба"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Первомайский район, микрорайон Восток, Восток-2, улица Славинского, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 267-25-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.943345,27.630407"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://varb.mil.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

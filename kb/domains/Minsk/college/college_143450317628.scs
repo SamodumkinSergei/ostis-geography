@@ -1,0 +1,26 @@
+ concept_college_143450317628
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 52"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 52"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Каменногорская улица, 114"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 367-07-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.93122,27.432616"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch52.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

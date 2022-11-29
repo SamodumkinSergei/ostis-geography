@@ -1,0 +1,26 @@
+ concept_drugstores_9419367582
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["SuperHerb"]
+	(* <- lang_ru;; <- name;;*);
+    ["SuperHerb"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Восточная улица, 131"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.93996,27.59873"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

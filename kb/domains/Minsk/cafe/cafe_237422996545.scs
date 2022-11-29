@@ -1,0 +1,26 @@
+ concept_cafe_237422996545
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Столовая 12"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столовая 12"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Обойная улица, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 622-97-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905984,27.544583"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

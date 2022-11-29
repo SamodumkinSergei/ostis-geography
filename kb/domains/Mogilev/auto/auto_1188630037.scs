@@ -1,0 +1,26 @@
+ concept_auto_1188630037
+ <- concept_auto;
+=>nrel_main_idtf:
+	["РемонтАС"]
+	(* <- lang_ru;; <- name;;*);
+    ["РемонтАС"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Академика Павлова, 44А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 740-12-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.859132,30.369063"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://remontas.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

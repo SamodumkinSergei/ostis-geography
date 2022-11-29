@@ -1,0 +1,26 @@
+ concept_supermarket_1174627176
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Копеечка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Копеечка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Пестрака, 42к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 254-21-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.653115,23.83408"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://dobronom.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

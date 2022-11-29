@@ -1,0 +1,26 @@
+ concept_fallback_services_1346199252
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Протинус"]
+	(* <- lang_ru;; <- name;;*);
+    ["Протинус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Гурского, 7А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 637-75-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00, перерыв 14:00–15:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.886847,27.481382"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.protinus.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

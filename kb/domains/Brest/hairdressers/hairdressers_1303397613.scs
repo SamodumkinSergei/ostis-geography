@@ -1,0 +1,26 @@
+ concept_hairdressers_1303397613
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Любимая"]
+	(* <- lang_ru;; <- name;;*);
+    ["Любимая"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, микрорайон Киевка, улица Калинина, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 259-56-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–19:00; вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.096064,23.719533"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

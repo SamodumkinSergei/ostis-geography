@@ -1,0 +1,26 @@
+ concept_swimming_pool_119182613888
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Бассейн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бассейн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Чюрлёниса, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 256-12-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 16:00–20:00; сб 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.854894,27.481522"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gymn41.minsk.edu.by/ru/main.aspx?guid=129841"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

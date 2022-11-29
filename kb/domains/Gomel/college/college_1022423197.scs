@@ -1,0 +1,26 @@
+ concept_college_1022423197
+ <- concept_college;
+=>nrel_main_idtf:
+	["Приборский государственный колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Приборский государственный колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельский район, деревня Прибор, улица Мира, 1Ж, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.404052,30.764674"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gpatl-pribor.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

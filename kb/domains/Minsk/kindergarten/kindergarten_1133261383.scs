@@ -1,0 +1,26 @@
+ concept_kindergarten_1133261383
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Санаторный детский сад № 519"]
+	(* <- lang_ru;; <- name;;*);
+    ["Санаторный детский сад № 519"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Бельского, 41"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 373-23-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897678,27.484498"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu519.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

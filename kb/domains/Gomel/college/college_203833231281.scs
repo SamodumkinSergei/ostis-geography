@@ -1,0 +1,26 @@
+ concept_college_203833231281
+ <- concept_college;
+=>nrel_main_idtf:
+	["Факультет иностранных языков Ггу им. Ф. Скорыны"]
+	(* <- lang_ru;; <- name;;*);
+    ["Факультет иностранных языков Ггу им. Ф. Скорыны"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 102"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 250-38-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00, перерыв 13:00–13:40"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.442142,31.001336"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://forlangnew.gsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

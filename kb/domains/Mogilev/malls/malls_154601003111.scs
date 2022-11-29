@@ -1,0 +1,26 @@
+ concept_malls_154601003111
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Сантехточка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сантехточка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Заднепровье-4, улица Чайковского, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 666-05-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб,вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.877305,30.333938"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://santehtochka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

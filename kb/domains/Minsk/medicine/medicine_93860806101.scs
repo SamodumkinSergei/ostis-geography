@@ -1,0 +1,26 @@
+ concept_medicine_93860806101
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Терапевтический корпус ГКБ № 4 имени Н. Е. Савченко"]
+	(* <- lang_ru;; <- name;;*);
+    ["Терапевтический корпус ГКБ № 4 имени Н. Е. Савченко"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Розы Люксембург, 110к7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 242-36-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.893338,27.517152"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://4gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

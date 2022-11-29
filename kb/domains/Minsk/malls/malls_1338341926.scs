@@ -1,0 +1,26 @@
+ concept_malls_1338341926
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Galleria Minsk"]
+	(* <- lang_ru;; <- name;;*);
+    ["Galleria Minsk"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 555-74-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908538,27.548427"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://galleria-minsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

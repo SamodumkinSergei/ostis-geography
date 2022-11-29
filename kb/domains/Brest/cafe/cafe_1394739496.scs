@@ -1,0 +1,26 @@
+ concept_cafe_1394739496
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Клуб 11: 11"]
+	(* <- lang_ru;; <- name;;*);
+    ["Клуб 11: 11"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Лейтенанта Рябцева, 124"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 719-11-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–23:00; сб,вс 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.144416,23.682103"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://club1111.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

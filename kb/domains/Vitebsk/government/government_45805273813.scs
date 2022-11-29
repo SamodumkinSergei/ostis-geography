@@ -1,0 +1,26 @@
+ concept_government_45805273813
+ <- concept_government;
+=>nrel_main_idtf:
+	["Администрация свободной экономической зоны Витебска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Администрация свободной экономической зоны Витебска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, 1-я Журжевская улица, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 265-30-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.248865,30.24757"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.fez-vitebsk.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

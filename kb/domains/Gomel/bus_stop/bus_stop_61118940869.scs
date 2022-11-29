@@ -1,0 +1,26 @@
+ concept_bus_stop_61118940869
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Медицинский колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Медицинский колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Кирова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.428694,31.007404"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

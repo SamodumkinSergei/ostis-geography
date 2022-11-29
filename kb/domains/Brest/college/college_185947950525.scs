@@ -1,0 +1,26 @@
+ concept_college_185947950525
+ <- concept_college;
+=>nrel_main_idtf:
+	["Поступи. бел - дистанционное обучение в Беларуси"]
+	(* <- lang_ru;; <- name;;*);
+    ["Поступи. бел - дистанционное обучение в Беларуси"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Машерова, 23А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 756-65-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.086286,23.698288"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://поступи.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

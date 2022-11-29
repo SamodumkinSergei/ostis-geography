@@ -1,0 +1,26 @@
+ concept_college_1263214025
+ <- concept_college;
+=>nrel_main_idtf:
+	["Брестская санаторная школа-интернат"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестская санаторная школа-интернат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Тришинская улица, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 255-00-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.096437,23.72787"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://school-internat.brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

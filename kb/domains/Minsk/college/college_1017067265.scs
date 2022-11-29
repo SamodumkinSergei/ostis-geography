@@ -1,0 +1,26 @@
+ concept_college_1017067265
+ <- concept_college;
+=>nrel_main_idtf:
+	["Учреждение образования Федерации профсоюзов Беларуси Международный университет Митсо"]
+	(* <- lang_ru;; <- name;;*);
+    ["Учреждение образования Федерации профсоюзов Беларуси Международный университет Митсо"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Казинца, 21, корп. 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 279-98-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.860863,27.520706"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.mitso.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

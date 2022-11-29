@@ -1,0 +1,26 @@
+ concept_bus_stop_153613892877
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Народного Ополчения"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Народного Ополчения"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Народного Ополчения"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.464129,30.962592"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

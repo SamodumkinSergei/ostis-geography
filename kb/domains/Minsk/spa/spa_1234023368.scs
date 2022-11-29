@@ -1,0 +1,26 @@
+ concept_spa_1234023368
+ <- concept_spa;
+=>nrel_main_idtf:
+	["Дикая Орхидея"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дикая Орхидея"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Уманская улица, 54"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 784-10-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.875072,27.498543"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dikaya-orchideya.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_129029848437
+ <- concept_college;
+=>nrel_main_idtf:
+	["БГУИР, кафедра проектирования информационно-компьютерных систем"]
+	(* <- lang_ru;; <- name;;*);
+    ["БГУИР, кафедра проектирования информационно-компьютерных систем"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петруся Бровки, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 293-86-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 13:00–13:45; пт 08:30–16:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917752,27.595093"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsuir.by/ru/kaf-piks"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

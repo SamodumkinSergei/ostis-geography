@@ -1,0 +1,26 @@
+ concept_supermarket_76730530824
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Соседи"]
+	(* <- lang_ru;; <- name;;*);
+    ["Соседи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Белого, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 590-34-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.364105,31.019454"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sosedi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

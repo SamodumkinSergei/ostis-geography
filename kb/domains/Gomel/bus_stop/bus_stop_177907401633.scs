@@ -1,0 +1,26 @@
+ concept_bus_stop_177907401633
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["АЗС"]
+	(* <- lang_ru;; <- name;;*);
+    ["АЗС"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельский район, агрогородок Ерёмино, Советская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.488201,30.966309"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

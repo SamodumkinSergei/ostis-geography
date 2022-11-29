@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_178698807010
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Меандр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Меандр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Володарского, 108"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 223-79-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.21602,30.221346"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://meandr.vitebsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

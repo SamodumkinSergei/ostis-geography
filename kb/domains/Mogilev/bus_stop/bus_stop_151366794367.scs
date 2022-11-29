@@ -1,0 +1,26 @@
+ concept_bus_stop_151366794367
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Кулешова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Кулешова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Аркадия Кулешова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.915343,30.284296"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

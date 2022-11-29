@@ -1,0 +1,26 @@
+ concept_bus_stop_133102115630
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Школа искусств № 3"]
+	(* <- lang_ru;; <- name;;*);
+    ["Школа искусств № 3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Шмидта"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.868508,30.326512"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

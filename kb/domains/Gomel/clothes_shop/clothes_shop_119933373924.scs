@@ -1,0 +1,26 @@
+ concept_clothes_shop_119933373924
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Second Hand № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Second Hand № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Петруся Бровки, 45"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 232-38-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.469115,31.024615"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://secondhand1.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_cafe_141378607634
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Мирта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мирта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Руссиянова, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 264-59-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–23:00; пт,сб 12:00–03:00; вс 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.934969,27.688795"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mirtacafe.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_158299408787
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["ОАО Ратон"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОАО Ратон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Федюнинского"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.482182,30.991103"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

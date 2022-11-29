@@ -1,0 +1,26 @@
+ concept_drugstores_239111402572
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Доминантфарм"]
+	(* <- lang_ru;; <- name;;*);
+    ["Доминантфарм"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Червякова, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 195-11-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–20:00; вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.920102,27.55188"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dominantapharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

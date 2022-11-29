@@ -1,0 +1,26 @@
+ concept_software_1142411241
+ <- concept_software;
+=>nrel_main_idtf:
+	["Брестский вычислительный центр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестский вычислительный центр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Янки Купалы, 110"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 808-92-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.11393,23.769814"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vcops.brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

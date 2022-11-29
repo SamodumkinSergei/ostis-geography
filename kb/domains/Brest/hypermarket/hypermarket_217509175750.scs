@@ -1,0 +1,26 @@
+ concept_hypermarket_217509175750
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Строительные материалы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Строительные материалы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Ленинградская улица, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 529-79-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.112424,23.776528"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

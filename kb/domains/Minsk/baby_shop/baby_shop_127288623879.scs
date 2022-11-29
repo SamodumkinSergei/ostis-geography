@@ -1,0 +1,26 @@
+ concept_baby_shop_127288623879
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Playtime"]
+	(* <- lang_ru;; <- name;;*);
+    ["Playtime"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 104, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 767-02-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.860989,27.479296"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://playtime.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

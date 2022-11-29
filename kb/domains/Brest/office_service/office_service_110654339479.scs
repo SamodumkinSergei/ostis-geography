@@ -1,0 +1,26 @@
+ concept_office_service_110654339479
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Склад Термокаскад"]
+	(* <- lang_ru;; <- name;;*);
+    ["Склад Термокаскад"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Красногвардейская улица, 112"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 209-61-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.124977,23.698429"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://teplovik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

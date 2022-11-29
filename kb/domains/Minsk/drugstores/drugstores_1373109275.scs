@@ -1,0 +1,26 @@
+ concept_drugstores_1373109275
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Alpen Pharma AG"]
+	(* <- lang_ru;; <- name;;*);
+    ["Alpen Pharma AG"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Пархоменко, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 335-06-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.927008,27.5471"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://alpenpharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

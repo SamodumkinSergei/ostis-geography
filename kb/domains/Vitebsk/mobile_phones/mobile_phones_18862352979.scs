@@ -1,0 +1,26 @@
+ concept_mobile_phones_18862352979
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Ремонт сотовых телефонов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт сотовых телефонов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Титова, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 510-04-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 09:00–18:00, перерыв 14:00–14:30; сб,вс 09:00–16:00, перерыв 14:00–14:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.19857,30.182535"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gorodvitebsk.by/firms/mobail_center"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

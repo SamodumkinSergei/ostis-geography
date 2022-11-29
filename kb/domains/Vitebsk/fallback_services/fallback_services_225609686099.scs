@@ -1,0 +1,26 @@
+ concept_fallback_services_225609686099
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Пятая грань"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пятая грань"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Урицкого, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 670-00-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 10:00–18:00, перерыв 14:00–15:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.201561,30.208821"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gorodvitebsk.by/firms/5gran"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

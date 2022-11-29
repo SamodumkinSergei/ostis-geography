@@ -1,0 +1,26 @@
+ concept_college_224300865358
+ <- concept_college;
+=>nrel_main_idtf:
+	["Streamline"]
+	(* <- lang_ru;; <- name;;*);
+    ["Streamline"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Романовская Слобода, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 349-70-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:30; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90219,27.547353"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://str.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_hairdressers_1341922255
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Вероника-стиль"]
+	(* <- lang_ru;; <- name;;*);
+    ["Вероника-стиль"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Селицкого, 79"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 345-84-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.838313,27.702522"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

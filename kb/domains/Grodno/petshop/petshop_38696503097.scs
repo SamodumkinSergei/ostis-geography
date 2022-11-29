@@ -1,0 +1,26 @@
+ concept_petshop_38696503097
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Зоомир"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зоомир"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Огинского, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 281-18-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–21:00; сб,вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.620574,23.806612"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

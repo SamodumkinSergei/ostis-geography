@@ -1,0 +1,26 @@
+ concept_college_1016127500
+ <- concept_college;
+=>nrel_main_idtf:
+	["УО Могилевский государственный профессиональный агролесотехнический колледж им. К. П. Орловского"]
+	(* <- lang_ru;; <- name;;*);
+    ["УО Могилевский государственный профессиональный агролесотехнический колледж им. К. П. Орловского"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёвская область, Могилёвский район, Буйничский сельсовет, агрогородок Буйничи, улица Орловского"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 276-49-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.858424,30.26508"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://agrocollege.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

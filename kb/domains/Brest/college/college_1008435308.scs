@@ -1,0 +1,26 @@
+ concept_college_1008435308
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 37 г. Бреста"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 37 г. Бреста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Рябиновая улица, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 259-13-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00, перерыв 13:00–14:00; сб 08:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.068389,23.728558"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://37brest.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_auto_1311222202
+ <- concept_auto;
+=>nrel_main_idtf:
+	["АлектанСервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["АлектанСервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Федюнинского, 25/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 653-47-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00; сб 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.485113,31.005741"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.avtosteklo-gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

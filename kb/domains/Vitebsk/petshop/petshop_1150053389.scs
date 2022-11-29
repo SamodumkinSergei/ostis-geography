@@ -1,0 +1,26 @@
+ concept_petshop_1150053389
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Зоомагазин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зоомагазин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, 3-я улица Сильницкого, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 359-76-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.19706,30.153114"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

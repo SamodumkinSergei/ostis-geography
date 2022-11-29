@@ -1,0 +1,26 @@
+ concept_bus_stop_2901795227
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["ДС Калиновского"]
+	(* <- lang_ru;; <- name;;*);
+    ["ДС Калиновского"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Седых"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.943265,27.642661"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

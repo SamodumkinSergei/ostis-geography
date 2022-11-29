@@ -1,0 +1,26 @@
+ concept_medicine_181815435935
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["1-я Городская Клиническая больница"]
+	(* <- lang_ru;; <- name;;*);
+    ["1-я Городская Клиническая больница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 64к3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 373-46-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919632,27.595131"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.1gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

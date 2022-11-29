@@ -1,0 +1,26 @@
+ concept_office_service_52724593479
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Белорусская универсальная товарная биржа, Гродненский филиал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусская универсальная товарная биржа, Гродненский филиал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Космонавтов, 37А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 271-51-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–18:00, перерыв 13:00–13:45; пт 09:00–16:45, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.675305,23.849971"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.butb.by/kontakt-tsentr/filialy"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

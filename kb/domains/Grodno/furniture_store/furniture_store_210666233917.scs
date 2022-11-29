@@ -1,0 +1,26 @@
+ concept_furniture_store_210666233917
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["ЮрЛенСервис, отдел заказов"]
+	(* <- lang_ru;; <- name;;*);
+    ["ЮрЛенСервис, отдел заказов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Славинского, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 588-94-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.647795,23.831325"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

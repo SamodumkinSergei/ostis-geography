@@ -1,0 +1,26 @@
+ concept_restaurants_112706171608
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Пиросмани"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пиросмани"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Советская улица, 64"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 765-43-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.090221,23.694486"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://restaurant-76240.business.site/?utm_medium=referral&utm_source=gmb"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

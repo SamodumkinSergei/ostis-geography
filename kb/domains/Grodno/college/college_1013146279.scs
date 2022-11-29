@@ -1,0 +1,26 @@
+ concept_college_1013146279
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гродненский государственный колледж коммунального хозяйства"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненский государственный колледж коммунального хозяйства"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Михася Василька, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 262-37-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.682601,23.838995"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.ggptkkh.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

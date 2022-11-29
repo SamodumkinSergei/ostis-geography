@@ -1,0 +1,26 @@
+ concept_auto_1730812773
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Брест Моторс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брест Моторс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Карьерная улица, 15Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 724-45-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00, перерыв 12:00–13:00; сб 10:00–18:00, перерыв 12:00–13:00; вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.060402,23.757243"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brestmotors.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

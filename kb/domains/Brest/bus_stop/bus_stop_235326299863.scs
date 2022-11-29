@@ -1,0 +1,26 @@
+ concept_bus_stop_235326299863
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Абрикосовая"]
+	(* <- lang_ru;; <- name;;*);
+    ["Абрикосовая"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Октябрьской Революции"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.084821,23.780255"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

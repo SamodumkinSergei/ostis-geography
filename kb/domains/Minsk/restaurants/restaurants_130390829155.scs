@@ -1,0 +1,26 @@
+ concept_restaurants_130390829155
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Charlie"]
+	(* <- lang_ru;; <- name;;*);
+    ["Charlie"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Коммунистическая улица, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 175-17-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 12:00–23:00; сб,вс 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908579,27.571286"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

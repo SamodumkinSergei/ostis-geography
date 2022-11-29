@@ -1,0 +1,26 @@
+ concept_college_1110703987
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гродненский государственный колледж строительных технологий"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненский государственный колледж строительных технологий"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Янки Купалы, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 231-25-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:15, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.660676,23.835145"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_medicine_1022482316
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["УЗ 38-я городская поликлиника"]
+	(* <- lang_ru;; <- name;;*);
+    ["УЗ 38-я городская поликлиника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Воронянского, 50/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 225-50-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.877114,27.5513"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.38gp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

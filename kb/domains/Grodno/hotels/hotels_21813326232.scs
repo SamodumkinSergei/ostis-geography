@@ -1,0 +1,26 @@
+ concept_hotels_21813326232
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Апартаменты Welcome Grodno"]
+	(* <- lang_ru;; <- name;;*);
+    ["Апартаменты Welcome Grodno"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Беларусь, Гродно, Ул. Домбровского, Д. 7-69"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.69973,23.79993"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

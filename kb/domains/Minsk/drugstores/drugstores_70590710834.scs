@@ -1,0 +1,26 @@
+ concept_drugstores_70590710834
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Государственная аптека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Государственная аптека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 369-04-24"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909688,27.4917"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://belleko.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_supermarket_25933012607
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Копеечка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Копеечка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Мошенского, 92, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 144-70-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.114822,23.736867"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dobronom.by/shops/kopeechka/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

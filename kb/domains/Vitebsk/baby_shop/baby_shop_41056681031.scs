@@ -1,0 +1,26 @@
+ concept_baby_shop_41056681031
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Игрушки"]
+	(* <- lang_ru;; <- name;;*);
+    ["Игрушки"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Генерала Белобородова, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 902-15-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.182521,30.200953"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

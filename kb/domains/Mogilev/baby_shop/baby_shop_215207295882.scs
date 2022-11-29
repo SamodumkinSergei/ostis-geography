@@ -1,0 +1,26 @@
+ concept_baby_shop_215207295882
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Магазин смешанных товаров"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин смешанных товаров"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Орловского, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.915544,30.321113"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

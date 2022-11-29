@@ -1,0 +1,26 @@
+ concept_drugstores_1152459156
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация, аптека № 190"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация, аптека № 190"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Лактионова, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 249-27-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.097734,23.785699"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://brest.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

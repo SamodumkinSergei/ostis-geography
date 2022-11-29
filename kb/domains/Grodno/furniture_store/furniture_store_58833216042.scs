@@ -1,0 +1,26 @@
+ concept_furniture_store_58833216042
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Кронес-Гродно"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кронес-Гродно"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродненский район, Коптёвский сельсовет, деревня Коробчицы, Товарищеская улица, 5А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 787-28-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.613435,23.749785"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_cafe_1202972345
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Палуба"]
+	(* <- lang_ru;; <- name;;*);
+    ["Палуба"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Доватора, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 622-24-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–21:00; пт,сб 12:00–02:00; вс 12:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.692899,23.828478"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://narochgrodno.by/cafees/paluba"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

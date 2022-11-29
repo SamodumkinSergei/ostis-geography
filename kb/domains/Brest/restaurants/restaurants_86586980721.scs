@@ -1,0 +1,26 @@
+ concept_restaurants_86586980721
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Pizza al Taglio"]
+	(* <- lang_ru;; <- name;;*);
+    ["Pizza al Taglio"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 329"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 223-13-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.103263,23.7865"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://venezia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

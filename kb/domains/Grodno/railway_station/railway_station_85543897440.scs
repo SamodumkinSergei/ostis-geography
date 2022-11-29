@@ -1,0 +1,26 @@
+ concept_railway_station_85543897440
+ <- concept_railway_station;
+=>nrel_main_idtf:
+	["Manchester Oxford Road"]
+	(* <- lang_ru;; <- name;;*);
+    ["Manchester Oxford Road"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Англия, город Манчестер"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.47368,-2.24226"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

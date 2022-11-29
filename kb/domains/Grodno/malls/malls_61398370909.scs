@@ -1,0 +1,26 @@
+ concept_malls_61398370909
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Электросила"]
+	(* <- lang_ru;; <- name;;*);
+    ["Электросила"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Космонавтов, 81"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 509-31-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.672189,23.863263"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sila.by/?utm_campaign=Grodno_Kosmonavtov_81&utm_medium=maps&utm_source=yandex"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

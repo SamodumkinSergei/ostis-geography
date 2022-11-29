@@ -1,0 +1,26 @@
+ concept_medicine_1195568657
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Витебский областной клинический центр дерматовенерологии и косметологии"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебский областной клинический центр дерматовенерологии и косметологии"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Максима Горького, 183"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 233-51-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.164078,30.118749"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vokcdk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

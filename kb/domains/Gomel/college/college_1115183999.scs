@@ -1,0 +1,26 @@
+ concept_college_1115183999
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гимназия № 10 г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гимназия № 10 г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Карла Маркса, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 277-64-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.431815,31.016216"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gymnasium10.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

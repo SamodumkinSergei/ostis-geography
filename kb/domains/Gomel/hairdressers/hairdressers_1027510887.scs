@@ -1,0 +1,26 @@
+ concept_hairdressers_1027510887
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["СуламитаСтиль"]
+	(* <- lang_ru;; <- name;;*);
+    ["СуламитаСтиль"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Хатаевича, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 755-99-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.44489,31.016592"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_kindergarten_1024481802
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-Сад № 404"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-Сад № 404"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Веры Хоружей, 16А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 275-73-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.921979,27.572327"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu404.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

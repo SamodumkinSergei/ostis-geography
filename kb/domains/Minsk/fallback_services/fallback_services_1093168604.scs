@@ -1,0 +1,26 @@
+ concept_fallback_services_1093168604
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Памятники и надгробия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятники и надгробия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Заводской район, Северный посёлок, Встречная улица, 56"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 619-90-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.880272,27.678124"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://minsk-granit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

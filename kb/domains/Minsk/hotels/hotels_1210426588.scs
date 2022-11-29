@@ -1,0 +1,26 @@
+ concept_hotels_1210426588
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Служба приёма, размещения и продаж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Служба приёма, размещения и продаж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 11к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 209-90-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897304,27.549205"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.hotelminsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

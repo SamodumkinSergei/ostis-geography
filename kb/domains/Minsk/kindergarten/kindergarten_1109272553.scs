@@ -1,0 +1,26 @@
+ concept_kindergarten_1109272553
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Санаторный ясли-сад № 498"]
+	(* <- lang_ru;; <- name;;*);
+    ["Санаторный ясли-сад № 498"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Гинтовта, 38"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 303-45-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.951489,27.686034"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu498.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_malls_23881345245
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Dana Mall"]
+	(* <- lang_ru;; <- name;;*);
+    ["Dana Mall"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Мстиславца, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 201-02-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.933853,27.652223"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://dana-mall.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

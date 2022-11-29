@@ -1,0 +1,26 @@
+ concept_supermarket_1013335136
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Магазин Гродненского Филиала Облпотребобщества"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин Гродненского Филиала Облпотребобщества"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродненская область, Гродненский район, агрогородок Лойки"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.771519,23.759927"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

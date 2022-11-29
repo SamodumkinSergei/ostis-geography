@@ -1,0 +1,26 @@
+ concept_college_1086519851
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 13"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 13"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Берёзовая улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 271-22-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.677851,23.854954"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://13grodno.schools.by/m/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

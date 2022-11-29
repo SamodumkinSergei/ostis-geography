@@ -1,0 +1,26 @@
+ concept_hairdressers_1246008192
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Маргаретт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Маргаретт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Чкалова, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 353-69-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.874737,27.534232"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://website-7285731654495209188207-hairsalon.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

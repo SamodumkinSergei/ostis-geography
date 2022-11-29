@@ -1,0 +1,26 @@
+ concept_malls_172349201200
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Чистый берег"]
+	(* <- lang_ru;; <- name;;*);
+    ["Чистый берег"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Богдана Хмельницкого, 59"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 176-80-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.423897,30.973049"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bereg.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

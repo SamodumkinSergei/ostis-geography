@@ -1,0 +1,26 @@
+ concept_college_1014299410
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа Путришковская ГУО"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа Путришковская ГУО"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродненский район, Путришковский сельсовет, агрогородок Путришки, Школьная улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 291-74-97"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.699339,23.946454"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://putrishki.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

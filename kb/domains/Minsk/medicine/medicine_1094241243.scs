@@ -1,0 +1,26 @@
+ concept_medicine_1094241243
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городская поликлиника № 12"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская поликлиника № 12"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ольшевского, 61"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 378-52-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.922711,27.489828"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://12gp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

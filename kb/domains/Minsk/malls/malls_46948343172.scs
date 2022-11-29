@@ -1,0 +1,26 @@
+ concept_malls_46948343172
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Белнасоспром"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белнасоспром"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Инженерная улица, 18, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 270-45-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:00–17:00; пт 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.842731,27.688583"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://nasosprom.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

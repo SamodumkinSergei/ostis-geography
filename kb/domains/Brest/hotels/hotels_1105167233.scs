@@ -1,0 +1,26 @@
+ concept_hotels_1105167233
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Интурист"]
+	(* <- lang_ru;; <- name;;*);
+    ["Интурист"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Машерова, 15/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 225-25-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.085506,23.692033"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.brestintourist.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

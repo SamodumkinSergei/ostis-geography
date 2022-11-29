@@ -1,0 +1,26 @@
+ concept_hotels_145385367852
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Общежитие Гомельской областной клинической больницы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Общежитие Гомельской областной клинической больницы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Братьев Лизюковых, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.402057,30.947648"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_college_1009880423
+ <- concept_college;
+=>nrel_main_idtf:
+	["Начальная школа № 65"]
+	(* <- lang_ru;; <- name;;*);
+    ["Начальная школа № 65"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Молодёжная улица, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 255-94-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.381964,31.020924"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://65gomel.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

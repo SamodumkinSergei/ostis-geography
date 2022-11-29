@@ -1,0 +1,26 @@
+ concept_auto_1034726017
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Кузовной ремонт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кузовной ремонт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Хатаевича, 31А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 343-40-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.446256,31.014547"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_fast_food_45203952340
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Мини-кафе"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мини-кафе"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Шрадера, 7, корп. 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–18:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.184485,30.210116"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

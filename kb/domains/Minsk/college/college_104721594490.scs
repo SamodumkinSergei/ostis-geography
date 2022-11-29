@@ -1,0 +1,26 @@
+ concept_college_104721594490
+ <- concept_college;
+=>nrel_main_idtf:
+	["Учреждение образования Белорусский торгово-экономический университет потребительской кооперации, Минский филиал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Учреждение образования Белорусский торгово-экономический университет потребительской кооперации, Минский филиал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 73"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 378-72-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:30–13:00; сб 08:00–12:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.876915,27.621557"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mtk-bks.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

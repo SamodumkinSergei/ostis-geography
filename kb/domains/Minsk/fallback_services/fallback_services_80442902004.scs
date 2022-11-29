@@ -1,0 +1,26 @@
+ concept_fallback_services_80442902004
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Прайм-Гранит"]
+	(* <- lang_ru;; <- name;;*);
+    ["Прайм-Гранит"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ольшевского, 76А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:30–17:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.92434,27.487395"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://prime-granit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

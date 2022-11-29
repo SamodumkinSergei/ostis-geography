@@ -1,0 +1,26 @@
+ concept_petshop_125478903436
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Зоомагазин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зоомагазин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Янки Брыля, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 908-17-97"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.879228,27.484062"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

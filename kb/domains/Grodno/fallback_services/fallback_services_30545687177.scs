@@ -1,0 +1,26 @@
+ concept_fallback_services_30545687177
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Визовый центр Гродно"]
+	(* <- lang_ru;; <- name;;*);
+    ["Визовый центр Гродно"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Суворова, 306"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 618-49-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.647491,23.781747"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://visa-center-grodno.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

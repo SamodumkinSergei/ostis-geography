@@ -1,0 +1,26 @@
+ concept_car_park_1104162219
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Ночная Парковка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ночная Парковка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Ленинградская улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 241-37-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 17:30–11:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.110766,23.763797"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

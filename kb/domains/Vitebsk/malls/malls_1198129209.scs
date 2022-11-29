@@ -1,0 +1,26 @@
+ concept_malls_1198129209
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Milavitsa"]
+	(* <- lang_ru;; <- name;;*);
+    ["Milavitsa"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Кирова, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 267-22-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–20:00; вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.193997,30.195665"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://shop.milavitsa.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

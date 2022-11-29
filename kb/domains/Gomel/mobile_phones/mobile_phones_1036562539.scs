@@ -1,0 +1,26 @@
+ concept_mobile_phones_1036562539
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Мобильная Страна"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мобильная Страна"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Крестьянская улица, 45"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 530-24-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.424055,30.998461"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.mobs.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

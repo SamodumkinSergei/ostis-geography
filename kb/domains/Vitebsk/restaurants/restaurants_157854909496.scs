@@ -1,0 +1,26 @@
+ concept_restaurants_157854909496
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Моменто"]
+	(* <- lang_ru;; <- name;;*);
+    ["Моменто"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Черняховского, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 194-94-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.181642,30.203076"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

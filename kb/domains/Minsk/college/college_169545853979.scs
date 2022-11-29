@@ -1,0 +1,26 @@
+ concept_college_169545853979
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 210"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 210"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Алеся Бачило, 38"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 364-69-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 07:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.845046,27.699752"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch210.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

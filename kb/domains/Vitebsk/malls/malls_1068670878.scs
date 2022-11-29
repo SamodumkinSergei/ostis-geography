@@ -1,0 +1,26 @@
+ concept_malls_1068670878
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Фабрика окон"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фабрика окон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Терешковой, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 719-00-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.185693,30.25031"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://oknavitebsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

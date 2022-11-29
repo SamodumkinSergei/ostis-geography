@@ -1,0 +1,26 @@
+ concept_bus_stop_63587758049
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Станция метро Немига"]
+	(* <- lang_ru;; <- name;;*);
+    ["Станция метро Немига"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Раковская улица, 4к4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904405,27.551698"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

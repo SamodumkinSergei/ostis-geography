@@ -1,0 +1,26 @@
+ concept_fallback_services_1380860459
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гранитон"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гранитон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Суворова, 127, корп. 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 265-90-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.655812,23.799568"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.graniton.net/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

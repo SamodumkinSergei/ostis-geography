@@ -1,0 +1,26 @@
+ concept_medicine_78658840676
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Семейная поликлиника № 47"]
+	(* <- lang_ru;; <- name;;*);
+    ["Семейная поликлиника № 47"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Ташкент, Шайхантахурский район, махалля Чакар"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["41.318865,69.24017"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

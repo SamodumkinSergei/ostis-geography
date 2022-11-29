@@ -1,0 +1,26 @@
+ concept_college_91757884959
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГГМУ, Кафедра патологической физиологии"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГГМУ, Кафедра патологической физиологии"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Большая Троицкая улица, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 260-86-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.682503,23.830626"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.grsmu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

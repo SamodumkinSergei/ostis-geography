@@ -1,0 +1,26 @@
+ concept_restaurants_232343964017
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Кухня Neobistro"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кухня Neobistro"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Мира, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 394-68-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.870417,27.550017"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

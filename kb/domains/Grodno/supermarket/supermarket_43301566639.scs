@@ -1,0 +1,26 @@
+ concept_supermarket_43301566639
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Минимаркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минимаркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Богуцкого, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 255-16-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.710785,23.809588"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

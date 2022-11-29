@@ -1,0 +1,26 @@
+ concept_office_service_103701713806
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Парковки склад"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парковки склад"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Янки Купалы, 88"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 258-60-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.111257,23.747414"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://paperki.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

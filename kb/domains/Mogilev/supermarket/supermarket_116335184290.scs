@@ -1,0 +1,26 @@
+ concept_supermarket_116335184290
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Магазин № 21"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин № 21"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, бульвар Непокорённых, 73"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00, перерыв 14:00–14:30; сб,вс 08:30–16:30, перерыв 14:00–14:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.868285,30.338884"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

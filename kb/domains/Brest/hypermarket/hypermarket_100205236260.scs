@@ -1,0 +1,26 @@
+ concept_hypermarket_100205236260
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Эковата Эксперт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Эковата Эксперт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, 2-я Заводская улица, 5Е"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 697-40-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.099034,23.737766"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ecovata-expert.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

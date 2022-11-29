@@ -1,0 +1,26 @@
+ concept_baby_shop_219907133309
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Для всей семьи"]
+	(* <- lang_ru;; <- name;;*);
+    ["Для всей семьи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебский район, агрогородок Октябрьская, Центральная улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–17:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.129514,30.262179"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_225710337897
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Памятники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ложинская улица, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 735-78-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.952139,27.683669"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://golgran.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

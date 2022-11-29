@@ -1,0 +1,26 @@
+ concept_restaurants_25839074478
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["La Maison De L'Ocean"]
+	(* <- lang_ru;; <- name;;*);
+    ["La Maison De L'Ocean"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Бретань, Финистер, Округ Брест, Брест, Quai de la Douane, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 2 98 80 44 84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["48.381278,-4.488145"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://restaurant-fruit-mer-brest.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

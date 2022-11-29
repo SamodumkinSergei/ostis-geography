@@ -1,0 +1,26 @@
+ concept_college_1034156665
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 7"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 7"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Якуба Коласа, 39"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 266-39-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.20001,30.162732"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sh7vitebsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_college_1118053760
+ <- concept_college;
+=>nrel_main_idtf:
+	["Специальная общеобразовательная школа для детей с тяжелыми нарушениями речи г. Могилёва"]
+	(* <- lang_ru;; <- name;;*);
+    ["Специальная общеобразовательная школа для детей с тяжелыми нарушениями речи г. Могилёва"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, переулок Мигая, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 225-01-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90107,30.338166"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://speceduschool.mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

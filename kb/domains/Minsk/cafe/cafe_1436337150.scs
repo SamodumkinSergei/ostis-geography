@@ -1,0 +1,26 @@
+ concept_cafe_1436337150
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Prime Cafe"]
+	(* <- lang_ru;; <- name;;*);
+    ["Prime Cafe"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 67"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 383-10-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.877498,27.617649"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://primecafe.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_medicine_200711231804
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гомельская городская клиническая больница № 3, отделение анестезиологии и реанимации, родовспоможения"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельская городская клиническая больница № 3, отделение анестезиологии и реанимации, родовспоможения"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 286"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 253-39-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.355925,31.034862"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.ggkb3.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

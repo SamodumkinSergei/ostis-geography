@@ -1,0 +1,26 @@
+ concept_medicine_98642367596
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Районный Эндоскопический Консультативно-Диагностический центр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Районный Эндоскопический Консультативно-Диагностический центр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ленина, 30/4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 351-52-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.896138,27.562795"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://3gkb.by/otdeleniya/otdelenie-endoskopii"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_supermarket_209449386627
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Санта Супер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Санта Супер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 86"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 780-54-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.176196,30.247621"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://santa.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

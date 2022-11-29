@@ -1,0 +1,26 @@
+ concept_college_1359538864
+ <- concept_college;
+=>nrel_main_idtf:
+	["Белорусский медицинский государственный колледж, отделение повышения квалификации"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусский медицинский государственный колледж, отделение повышения квалификации"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Седых, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 227-07-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.949141,27.630329"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bsmc.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

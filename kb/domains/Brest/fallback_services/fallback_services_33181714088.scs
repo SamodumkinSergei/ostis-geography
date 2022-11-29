@@ -1,0 +1,26 @@
+ concept_fallback_services_33181714088
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Ритуальные принадлежности"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ритуальные принадлежности"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, городское кладбище Плоска"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 817-31-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.129809,23.731963"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.brestritual.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

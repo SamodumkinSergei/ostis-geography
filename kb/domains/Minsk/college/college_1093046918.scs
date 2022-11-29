@@ -1,0 +1,26 @@
+ concept_college_1093046918
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 70 имени Л. Н. Гуртьева г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 70 имени Л. Н. Гуртьева г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Калиновского, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 364-75-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.940544,27.638625"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://70minsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

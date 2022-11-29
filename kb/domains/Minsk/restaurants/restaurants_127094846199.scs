@@ -1,0 +1,26 @@
+ concept_restaurants_127094846199
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Виктория Платинум"]
+	(* <- lang_ru;; <- name;;*);
+    ["Виктория Платинум"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 59А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 753-53-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.922638,27.525367"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://hotel-victoria.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

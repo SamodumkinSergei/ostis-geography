@@ -1,0 +1,26 @@
+ concept_cafe_136566043988
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Мир 23"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мир 23"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Миронова, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 344-00-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–22:00; сб,вс 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906956,30.341018"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

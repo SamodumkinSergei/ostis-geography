@@ -1,0 +1,26 @@
+ concept_cafe_145992536063
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Палермо pizza house"]
+	(* <- lang_ru;; <- name;;*);
+    ["Палермо pizza house"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Зеньковой, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 521-19-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.19154,30.192426"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.pizza-house.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

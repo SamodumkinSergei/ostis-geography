@@ -1,0 +1,26 @@
+ concept_medicine_76729989821
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Административный корпус ГКБ № 4 имени Н. Е. Савченко"]
+	(* <- lang_ru;; <- name;;*);
+    ["Административный корпус ГКБ № 4 имени Н. Е. Савченко"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Розы Люксембург, 110к6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 208-79-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 07:45–16:00, перерыв 13:00–14:00; пт 07:45–15:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.892211,27.51649"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://4gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

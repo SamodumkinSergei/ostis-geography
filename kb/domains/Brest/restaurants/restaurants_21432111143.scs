@@ -1,0 +1,26 @@
+ concept_restaurants_21432111143
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Bar Easy Rider"]
+	(* <- lang_ru;; <- name;;*);
+    ["Bar Easy Rider"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Люблинское воеводство, повят Бяльский, Тересполь, Круговая улица, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+48 32 238 45 74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.073288,23.620428"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bareasyrider.pl/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

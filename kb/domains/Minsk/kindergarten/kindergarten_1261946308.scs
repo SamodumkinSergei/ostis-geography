@@ -1,0 +1,26 @@
+ concept_kindergarten_1261946308
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 186"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 186"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Фроликова, 25А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 360-06-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901306,27.616954"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu186.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

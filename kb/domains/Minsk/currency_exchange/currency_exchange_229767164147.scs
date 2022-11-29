@@ -1,0 +1,26 @@
+ concept_currency_exchange_229767164147
+ <- concept_currency_exchange;
+=>nrel_main_idtf:
+	["МТБАНК"]
+	(* <- lang_ru;; <- name;;*);
+    ["МТБАНК"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 181-00-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 02:45–02:00, перерывы 05:15–05:30, 08:20–09:20, 10:45–11:00, 13:30–14:15, 17:00–17:15, 21:00–22:00, 23:00–23:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908667,27.548775"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.mtbank.by/business/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

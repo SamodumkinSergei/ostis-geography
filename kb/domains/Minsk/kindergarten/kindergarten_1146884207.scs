@@ -1,0 +1,26 @@
+ concept_kindergarten_1146884207
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Детский-сад № 180"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский-сад № 180"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тухачевского, 41А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 285-44-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср 14:00–20:00; пт 08:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.868262,27.632811"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu180.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_malls_1312839274
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Максимус"]
+	(* <- lang_ru;; <- name;;*);
+    ["Максимус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сергея Есенина, 76"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 211-90-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.861489,27.444324"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://maximus-tc.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

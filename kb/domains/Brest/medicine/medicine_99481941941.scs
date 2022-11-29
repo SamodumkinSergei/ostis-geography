@@ -1,0 +1,26 @@
+ concept_medicine_99481941941
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Медпункт вокзала станции Брест-Центральный"]
+	(* <- lang_ru;; <- name;;*);
+    ["Медпункт вокзала станции Брест-Центральный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Кижеватова, 1Б/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 226-31-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.100356,23.680926"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_office_service_154816453286
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Рой клуб Гомель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Рой клуб Гомель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Речицкий проспект, 80"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 759-09-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.4051,30.921018"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://royclub.site/offices/Gomel"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

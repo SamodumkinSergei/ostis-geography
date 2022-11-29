@@ -1,0 +1,26 @@
+ concept_banks_1246386587
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Национальный банк Республики Беларусь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Национальный банк Республики Беларусь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Толстого, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 218-38-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–16:00; пт 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.88953,27.541567"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.nbrb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

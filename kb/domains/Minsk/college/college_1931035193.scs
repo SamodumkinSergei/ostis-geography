@@ -1,0 +1,26 @@
+ concept_college_1931035193
+ <- concept_college;
+=>nrel_main_idtf:
+	["Хоккейный клуб Юность-Минск"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хоккейный клуб Юность-Минск"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Первомайская улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 330-06-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:45–17:30, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901407,27.574491"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://junost.hockey.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

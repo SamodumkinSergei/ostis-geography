@@ -1,0 +1,26 @@
+ concept_supermarket_43915610219
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["ЛегионМаркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["ЛегионМаркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Болеслава Берута, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 238-72-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903211,27.504577"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

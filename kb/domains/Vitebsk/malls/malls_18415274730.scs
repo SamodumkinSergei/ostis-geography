@@ -1,0 +1,26 @@
+ concept_malls_18415274730
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Индийская сказка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Индийская сказка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Генерала Белобородова, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 365-09-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.182636,30.200886"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://izindii.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

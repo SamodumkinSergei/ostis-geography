@@ -1,0 +1,26 @@
+ concept_college_1079738125
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГУО ЦДО ДиМ Светоч г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО ЦДО ДиМ Светоч г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Золотая Горка, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 272-81-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912452,27.584841"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://svetoch.minsk.edu.by/main.aspx?guid=5361"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

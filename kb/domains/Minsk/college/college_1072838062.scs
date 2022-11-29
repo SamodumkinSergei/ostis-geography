@@ -1,0 +1,26 @@
+ concept_college_1072838062
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минская государственная областная средняя школа-училище олимпийского резерва"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минская государственная областная средняя школа-училище олимпийского резерва"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Героев 120-й Дивизии, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 266-09-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.948641,27.709038"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.mgouor.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

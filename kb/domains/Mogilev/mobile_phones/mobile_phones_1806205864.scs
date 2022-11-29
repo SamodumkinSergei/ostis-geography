@@ -1,0 +1,26 @@
+ concept_mobile_phones_1806205864
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["АйСервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["АйСервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Ленинская улица, 23А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 540-20-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897224,30.336078"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://imogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

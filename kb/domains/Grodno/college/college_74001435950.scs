@@ -1,0 +1,26 @@
+ concept_college_74001435950
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГРГУ имени Янки Купалы, юридический факультет"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГРГУ имени Янки Купалы, юридический факультет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, переулок Доватора, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 243-77-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.695908,23.826561"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://lf.grsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

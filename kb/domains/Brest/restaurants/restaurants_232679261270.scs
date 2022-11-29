@@ -1,0 +1,26 @@
+ concept_restaurants_232679261270
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Les p'tites recettes"]
+	(* <- lang_ru;; <- name;;*);
+    ["Les p'tites recettes"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Бретань, Финистер, Округ Брест, Брест, Rue du Château, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 2 98 44 27 54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["48.386944,-4.486312"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.lesptitesrecettes.fr/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_hotels_66808385223
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Мишель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мишель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, микрорайон Цна, Дубовлянский переулок, 6Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 660-96-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–01:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.96744,27.59567"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

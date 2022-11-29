@@ -1,0 +1,26 @@
+ concept_malls_1084834210
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Электросила"]
+	(* <- lang_ru;; <- name;;*);
+    ["Электросила"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Строителей, 15В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 509-30-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.170105,30.220649"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sila.by/?utm_campaign=Vitebsk_Stroitelei_15&utm_medium=maps&utm_source=yandex"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

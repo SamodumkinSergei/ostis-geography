@@ -1,0 +1,26 @@
+ concept_railway_station_179323842865
+ <- concept_railway_station;
+=>nrel_main_idtf:
+	["остановочный пункт Берёзовая Роща"]
+	(* <- lang_ru;; <- name;;*);
+    ["остановочный пункт Берёзовая Роща"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брестский район, Мухавецкий сельсовет"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.045354,23.776047"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_kindergarten_1002619791
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Детский сад № 32"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский сад № 32"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Димитрова, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 266-00-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.195726,30.19226"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ds32vitebsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

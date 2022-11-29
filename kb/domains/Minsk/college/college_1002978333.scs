@@ -1,0 +1,26 @@
+ concept_college_1002978333
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минский государственный профессиональный лицей № 3 машиностроения"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский государственный профессиональный лицей № 3 машиностроения"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Холмогорская улица, 63"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 324-55-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:20–17:00, перерыв 12:30–13:00; пт 08:20–16:10, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.893055,27.651027"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://licey3.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

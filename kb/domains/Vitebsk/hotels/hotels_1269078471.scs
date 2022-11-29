@@ -1,0 +1,26 @@
+ concept_hotels_1269078471
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Гостиница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гостиница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Придорожная улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 226-34-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:45, перерыв 12:15–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.151326,30.145178"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dst-1.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

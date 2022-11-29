@@ -1,0 +1,26 @@
+ concept_college_127825560673
+ <- concept_college;
+=>nrel_main_idtf:
+	["БГУИР, центр развития дистанционного образования"]
+	(* <- lang_ru;; <- name;;*);
+    ["БГУИР, центр развития дистанционного образования"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Козлова, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 318-16-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт 14:00–17:00; ср 09:00–13:00; чт 14:00–17:00; пт 09:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90308,27.598428"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsuir.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

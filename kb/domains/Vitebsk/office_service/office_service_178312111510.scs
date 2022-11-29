@@ -1,0 +1,26 @@
+ concept_office_service_178312111510
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Витебский филиал Белсоюзпечать, офис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебский филиал Белсоюзпечать, офис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Богдана Хмельницкого, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 235-84-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:00–17:00, перерыв 13:00–13:45; пт 08:00–16:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.189528,30.207087"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitebsk.beldruk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

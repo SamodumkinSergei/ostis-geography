@@ -1,0 +1,26 @@
+ concept_museum_1346572570
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Открытый океан"]
+	(* <- lang_ru;; <- name;;*);
+    ["Открытый океан"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Брилевская улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 333-31-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.876851,27.532769"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.ocean-minsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

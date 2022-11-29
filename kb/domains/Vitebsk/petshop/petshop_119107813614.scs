@@ -1,0 +1,26 @@
+ concept_petshop_119107813614
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Зоомир"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зоомир"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Строителей, 22, корп. 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 891-21-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.171292,30.2344"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

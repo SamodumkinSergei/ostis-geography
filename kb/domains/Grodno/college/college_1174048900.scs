@@ -1,0 +1,26 @@
+ concept_college_1174048900
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 7"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 7"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Курчатова, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 248-17-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.706391,23.811384"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sch7grodno.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

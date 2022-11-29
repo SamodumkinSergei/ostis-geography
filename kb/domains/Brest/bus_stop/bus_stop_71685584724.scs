@@ -1,0 +1,26 @@
+ concept_bus_stop_71685584724
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Гимназия № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гимназия № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Карла Маркса, 42"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.092504,23.688486"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

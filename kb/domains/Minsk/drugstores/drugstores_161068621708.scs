@@ -1,0 +1,26 @@
+ concept_drugstores_161068621708
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Искамед"]
+	(* <- lang_ru;; <- name;;*);
+    ["Искамед"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева, 125, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 259-60-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 09:00–17:00; сб,вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.936249,27.447206"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.iskamed.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

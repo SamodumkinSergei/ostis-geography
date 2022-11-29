@@ -1,0 +1,26 @@
+ concept_clothes_shop_206494647548
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["8 Марта"]
+	(* <- lang_ru;; <- name;;*);
+    ["8 Марта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Антонова, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 268-08-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 10:00–19:00; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.675341,23.84166"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

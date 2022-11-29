@@ -1,0 +1,26 @@
+ concept_hotels_1086944420
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Сигнал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сигнал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Кутепова, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 242-42-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873143,30.310218"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.signalhotel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

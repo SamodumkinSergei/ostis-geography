@@ -1,0 +1,26 @@
+ concept_medicine_74620026568
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Ривьера СПА"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ривьера СПА"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 110"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 550-99-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–23:00; сб,вс 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.939005,27.475742"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://spariviera.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

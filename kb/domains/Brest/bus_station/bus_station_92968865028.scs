@@ -1,0 +1,26 @@
+ concept_bus_station_92968865028
+ <- concept_bus_station;
+=>nrel_main_idtf:
+	["Автовокзал г. Бреста"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автовокзал г. Бреста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Орджоникидзе, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 293-37-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.098875,23.681558"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://av.brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

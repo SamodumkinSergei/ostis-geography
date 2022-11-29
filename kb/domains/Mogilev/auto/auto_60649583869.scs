@@ -1,0 +1,26 @@
+ concept_auto_60649583869
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Авторемонт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Авторемонт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Строителей, 32В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 286-07-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909229,30.298137"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://autoremont-mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

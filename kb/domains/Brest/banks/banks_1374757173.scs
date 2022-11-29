@@ -1,0 +1,26 @@
+ concept_banks_1374757173
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Альфа-Банк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Альфа-Банк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Вульковская улица, 78"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 733-33-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–01:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.069771,23.72956"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.alfabank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

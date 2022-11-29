@@ -1,0 +1,26 @@
+ concept_college_64621169935
+ <- concept_college;
+=>nrel_main_idtf:
+	["Кафедра философии культуры Ффсн БГУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафедра философии культуры Ффсн БГУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Кальварийская улица, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 259-70-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:15–18:00; сб 08:15–13:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90554,27.532805"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.ffsn.bsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

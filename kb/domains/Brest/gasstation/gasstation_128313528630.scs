@@ -1,0 +1,26 @@
+ concept_gasstation_128313528630
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["АЗС"]
+	(* <- lang_ru;; <- name;;*);
+    ["АЗС"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Сябровская улица, 100"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 295-01-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.066568,23.719837"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

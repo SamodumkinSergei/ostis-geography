@@ -1,0 +1,26 @@
+ concept_auto_200126629293
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Честный сервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Честный сервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 268Ж"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 617-59-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.359545,31.031454"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vse-sto.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

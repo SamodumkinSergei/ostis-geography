@@ -1,0 +1,26 @@
+ concept_drugstores_10525140867
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Планета Здоровья"]
+	(* <- lang_ru;; <- name;;*);
+    ["Планета Здоровья"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Янки Купалы, 111Е"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["8 (801) 100-50-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.109703,23.752247"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://healthplanet.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

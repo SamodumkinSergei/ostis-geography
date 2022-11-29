@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_6972736009
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["ОАО СветлогорскХимволокно"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОАО СветлогорскХимволокно"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельская область, Светлогорск, Заводская улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 422-49-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.613646,29.776696"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.sohim.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

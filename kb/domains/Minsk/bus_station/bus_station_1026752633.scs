@@ -1,0 +1,26 @@
+ concept_bus_station_1026752633
+ <- concept_bus_station;
+=>nrel_main_idtf:
+	["Юго-Западная"]
+	(* <- lang_ru;; <- name;;*);
+    ["Юго-Западная"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Железнодорожная улица, 41"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 270-31-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–20:00, перерывы 09:15–09:35, 12:20–13:20, 16:15–16:35"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.872192,27.499787"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://minsktrans.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

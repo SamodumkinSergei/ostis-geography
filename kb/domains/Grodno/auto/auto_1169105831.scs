@@ -1,0 +1,26 @@
+ concept_auto_1169105831
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автомир"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автомир"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Ольги Соломовой, 131"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 260-50-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб,вс 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.660521,23.781503"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.am4.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

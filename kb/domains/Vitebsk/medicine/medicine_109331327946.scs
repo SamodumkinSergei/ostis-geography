@@ -1,0 +1,26 @@
+ concept_medicine_109331327946
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Учреждение здравоохранения Витебский областной детский клинический центр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Учреждение здравоохранения Витебский областной детский клинический центр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чкалова, 14В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 260-77-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.176774,30.219425"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.vdokb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

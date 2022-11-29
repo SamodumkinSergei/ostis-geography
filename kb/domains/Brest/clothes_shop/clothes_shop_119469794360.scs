@@ -1,0 +1,26 @@
+ concept_clothes_shop_119469794360
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Beauty"]
+	(* <- lang_ru;; <- name;;*);
+    ["Beauty"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Советская улица, 73"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 792-75-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.090241,23.693581"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://beautys.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

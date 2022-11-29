@@ -1,0 +1,26 @@
+ concept_medicine_91228699811
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["УЗ 1-я ГКБ, Женская консультация № 4"]
+	(* <- lang_ru;; <- name;;*);
+    ["УЗ 1-я ГКБ, Женская консультация № 4"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 64к5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 379-94-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917759,27.595926"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://1gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

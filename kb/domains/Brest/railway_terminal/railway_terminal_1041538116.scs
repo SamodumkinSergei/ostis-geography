@@ -1,0 +1,26 @@
+ concept_railway_terminal_1041538116
+ <- concept_railway_terminal;
+=>nrel_main_idtf:
+	["Железнодорожный вокзал Брест-Центральный"]
+	(* <- lang_ru;; <- name;;*);
+    ["Железнодорожный вокзал Брест-Центральный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Привокзальная площадь, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 259-21-28"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.100248,23.679933"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

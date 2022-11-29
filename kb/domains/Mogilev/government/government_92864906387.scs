@@ -1,0 +1,26 @@
+ concept_government_92864906387
+ <- concept_government;
+=>nrel_main_idtf:
+	["Главное управление торговли и услуг Могилёвского облисполкома"]
+	(* <- lang_ru;; <- name;;*);
+    ["Главное управление торговли и услуг Могилёвского облисполкома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 71"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 225-28-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90985,30.343117"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogilev-region.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

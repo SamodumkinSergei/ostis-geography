@@ -1,0 +1,26 @@
+ concept_malls_33633038542
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Динамо-Минск"]
+	(* <- lang_ru;; <- name;;*);
+    ["Динамо-Минск"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кирова, 8, корп. 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 313-20-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–20:00, перерыв 15:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.895543,27.56136"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dinamo-minsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_restaurants_110072867793
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Sozhskihub"]
+	(* <- lang_ru;; <- name;;*);
+    ["Sozhskihub"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Подгорная улица, 10Г"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 538-98-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-ср 17:00–00:00; чт,пт 17:00–02:00; сб 15:00–02:00; вс 15:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.441611,31.019417"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://your.beer/place/sozhskihub"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

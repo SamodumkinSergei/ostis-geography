@@ -1,0 +1,26 @@
+ concept_medicine_166166762315
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городская клиническая инфекционная больница, отделение оппортунистических инфекций"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская клиническая инфекционная больница, отделение оппортунистических инфекций"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кропоткина, 76"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 334-16-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 13:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.920206,27.559757"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gkib.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

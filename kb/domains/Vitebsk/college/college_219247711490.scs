@@ -1,0 +1,26 @@
+ concept_college_219247711490
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 15"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 15"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Центральная улица, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 229-22-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.23176,30.179953"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch15.vitebsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

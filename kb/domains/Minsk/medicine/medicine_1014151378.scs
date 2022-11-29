@@ -1,0 +1,26 @@
+ concept_medicine_1014151378
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["6-я Центральная районная клиническая поликлиника Ленинского района г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["6-я Центральная районная клиническая поликлиника Ленинского района г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ульяновская улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 371-00-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 08:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.896565,27.568464"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://poliklinika6.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

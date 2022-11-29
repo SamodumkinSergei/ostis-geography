@@ -1,0 +1,26 @@
+ concept_government_1044750222
+ <- concept_government;
+=>nrel_main_idtf:
+	["Территориальный центр социального обслуживания населения Московского района г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Территориальный центр социального обслуживания населения Московского района г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Московский район, Брилевичи-1, улица Наполеона Орды, 47А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 358-25-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,вт 08:00–17:00, перерыв 13:00–14:00; ср 08:00–20:00, перерыв 13:00–14:00; чт,пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.84987,27.486388"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://tcconmos.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_malls_1327820863
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Райдер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Райдер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 115"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 664-08-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.856189,27.479019"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.ridershop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

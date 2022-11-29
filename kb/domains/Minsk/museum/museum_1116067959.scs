@@ -1,0 +1,26 @@
+ concept_museum_1116067959
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Национальный центр современных искусств Республики Беларусь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Национальный центр современных искусств Республики Беларусь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Некрасова, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 399-09-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср-вс 12:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.930157,27.596575"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ncsm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

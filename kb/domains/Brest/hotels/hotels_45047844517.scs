@@ -1,0 +1,26 @@
+ concept_hotels_45047844517
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Гоголь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гоголь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гоголя, 1Г"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 258-45-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.08846,23.676149"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gogol.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

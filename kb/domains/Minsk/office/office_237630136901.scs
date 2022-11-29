@@ -1,0 +1,26 @@
+ concept_office_237630136901
+ <- concept_office;
+=>nrel_main_idtf:
+	["Офис 13"]
+	(* <- lang_ru;; <- name;;*);
+    ["Офис 13"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Герцена, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 777-66-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904915,27.558512"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://infoffice13.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

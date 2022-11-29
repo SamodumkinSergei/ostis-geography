@@ -1,0 +1,26 @@
+ concept_malls_140638602422
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Officedepot"]
+	(* <- lang_ru;; <- name;;*);
+    ["Officedepot"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Стокгольм, Соллентуна"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+46 1045 852 10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["59.43594,17.93151"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://officedepot.se/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

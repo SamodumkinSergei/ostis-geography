@@ -1,0 +1,26 @@
+ concept_college_11955463686
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГРГУ имени Янки Купалы, факультет биологии и экологии"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГРГУ имени Янки Купалы, факультет биологии и экологии"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, переулок Доватора, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 248-50-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.695908,23.826564"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://fbe.grsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

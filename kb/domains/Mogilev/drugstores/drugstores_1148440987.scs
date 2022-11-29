@@ -1,0 +1,26 @@
+ concept_drugstores_1148440987
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 20"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 20"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, бульвар Непокорённых, 73"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 265-25-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–21:00; вс 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.867824,30.337977"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogilev.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

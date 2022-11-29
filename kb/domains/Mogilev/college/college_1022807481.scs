@@ -1,0 +1,26 @@
+ concept_college_1022807481
+ <- concept_college;
+=>nrel_main_idtf:
+	["Могилёвская государственная гимназия-колледж искусств, корпус № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилёвская государственная гимназия-колледж искусств, корпус № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Крыленко, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 225-28-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908274,30.334997"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mggci.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

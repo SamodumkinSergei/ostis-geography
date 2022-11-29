@@ -1,0 +1,26 @@
+ concept_college_1072206173
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 27 г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 27 г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кропоткина, 74"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 353-27-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919196,27.557915"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch27.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

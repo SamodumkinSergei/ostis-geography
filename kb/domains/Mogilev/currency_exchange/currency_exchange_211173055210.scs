@@ -1,0 +1,26 @@
+ concept_currency_exchange_211173055210
+ <- concept_currency_exchange;
+=>nrel_main_idtf:
+	["БТА банк"]
+	(* <- lang_ru;; <- name;;*);
+    ["БТА банк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пожарный переулок, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 528-22-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–16:45; пт 09:00–15:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.898286,30.33725"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.btabank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

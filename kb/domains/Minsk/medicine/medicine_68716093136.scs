@@ -1,0 +1,26 @@
+ concept_medicine_68716093136
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["1-я Городская Клиническая больница, Акушерский Корпус"]
+	(* <- lang_ru;; <- name;;*);
+    ["1-я Городская Клиническая больница, Акушерский Корпус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 64к5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 292-46-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–19:00, перерыв 15:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.91783,27.595818"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://1gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

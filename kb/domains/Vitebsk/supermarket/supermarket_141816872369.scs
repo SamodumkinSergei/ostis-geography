@@ -1,0 +1,26 @@
+ concept_supermarket_141816872369
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["No: 7 Coffee House"]
+	(* <- lang_ru;; <- name;;*);
+    ["No: 7 Coffee House"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Стамбул, Кадыкёй, Суадие, улица Айшечавуш, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+90 216 380 31 83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–23:00; вс 09:00–22:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["40.962375,29.08517"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://no7coffeehouse.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

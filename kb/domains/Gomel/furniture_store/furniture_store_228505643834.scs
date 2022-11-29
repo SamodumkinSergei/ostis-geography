@@ -1,0 +1,26 @@
+ concept_furniture_store_228505643834
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Мебельные материалы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мебельные материалы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Лепешинского, 2Г"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 193-44-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.473481,30.992893"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://belartwood.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_flower_shop_237402799800
+ <- concept_flower_shop;
+=>nrel_main_idtf:
+	["Kvetkashop"]
+	(* <- lang_ru;; <- name;;*);
+    ["Kvetkashop"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Щорса, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 912-12-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.679094,23.855949"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://kvetkashop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

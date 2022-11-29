@@ -1,0 +1,26 @@
+ concept_cafe_227910966070
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Одесса-мама"]
+	(* <- lang_ru;; <- name;;*);
+    ["Одесса-мама"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Советская улица, 110"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 110-88-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–23:00; пт 09:00–00:00; сб 10:00–00:00; вс 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.087265,23.696038"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://odessamama.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_drugstores_116501376588
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 156/1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 156/1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Клермон-Ферран, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 231-99-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.41509,30.965166"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomelpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

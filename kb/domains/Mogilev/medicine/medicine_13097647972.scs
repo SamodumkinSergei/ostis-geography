@@ -1,0 +1,26 @@
+ concept_medicine_13097647972
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Могилёвская областная больница, приёмное отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилёвская областная больница, приёмное отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Бялыницкого-Бирули, 12Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 262-74-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.914929,30.277241"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

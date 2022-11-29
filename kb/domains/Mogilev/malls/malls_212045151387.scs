@@ -1,0 +1,26 @@
+ concept_malls_212045151387
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Канцтовары"]
+	(* <- lang_ru;; <- name;;*);
+    ["Канцтовары"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, бульвар Непокорённых, 37Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 688-43-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.872958,30.330046"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://stilofis.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

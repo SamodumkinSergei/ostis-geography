@@ -1,0 +1,26 @@
+ concept_fallback_services_19703620840
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Instone"]
+	(* <- lang_ru;; <- name;;*);
+    ["Instone"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Заслонова, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 720-72-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–17:00; сб 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903558,30.288061"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://instone.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

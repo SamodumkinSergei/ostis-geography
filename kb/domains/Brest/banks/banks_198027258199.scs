@@ -1,0 +1,26 @@
+ concept_banks_198027258199
+ <- concept_banks;
+=>nrel_main_idtf:
+	["ОптиКурс"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОптиКурс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Карьерная улица, 9Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 675-45-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:20–19:00, перерыв 14:00–14:40; сб,вс 09:20–18:00, перерыв 14:00–14:40"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.06434,23.75627"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.optikurs.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

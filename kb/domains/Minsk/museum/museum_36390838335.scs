@@ -1,0 +1,26 @@
+ concept_museum_36390838335
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Студенческий клуб БГАТУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Студенческий клуб БГАТУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 99"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 377-16-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:15–17:00, перерыв 13:00–13:30; пт 08:15–15:45, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.927212,27.622442"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bsatu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

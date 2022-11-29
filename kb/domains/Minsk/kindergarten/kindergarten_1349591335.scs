@@ -1,0 +1,26 @@
+ concept_kindergarten_1349591335
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 213 Крошкин дом"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 213 Крошкин дом"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 97"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 277-26-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.857427,27.485943"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu213.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

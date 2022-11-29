@@ -1,0 +1,26 @@
+ concept_printing_services_180408056756
+ <- concept_printing_services;
+=>nrel_main_idtf:
+	["Original Shop"]
+	(* <- lang_ru;; <- name;;*);
+    ["Original Shop"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Платонова, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 766-33-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910746,27.596506"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://original-shop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

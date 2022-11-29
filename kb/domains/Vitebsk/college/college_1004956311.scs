@@ -1,0 +1,26 @@
+ concept_college_1004956311
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 34"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 34"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Правды, 63"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 268-63-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.179383,30.241806"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://34vitebsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

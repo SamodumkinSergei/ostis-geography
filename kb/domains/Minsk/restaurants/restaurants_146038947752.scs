@@ -1,0 +1,26 @@
+ concept_restaurants_146038947752
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Nravizza pizza"]
+	(* <- lang_ru;; <- name;;*);
+    ["Nravizza pizza"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Киселёва, 12А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 380-16-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:30–21:00, перерывы 14:00–14:30, 17:00–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912739,27.569524"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sosedi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

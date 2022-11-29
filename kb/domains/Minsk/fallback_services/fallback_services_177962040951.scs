@@ -1,0 +1,26 @@
+ concept_fallback_services_177962040951
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Car-car.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Car-car.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева, 114"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 530-90-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.934346,27.457784"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://car-car.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

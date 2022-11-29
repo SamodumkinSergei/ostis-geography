@@ -1,0 +1,26 @@
+ concept_malls_35087455185
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Магазин парфюмерии и косметики"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин парфюмерии и косметики"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Фатина, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 130-53-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–20:00; сб,вс 11:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.881915,30.375633"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://profi-mogilev.tilda.ws/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

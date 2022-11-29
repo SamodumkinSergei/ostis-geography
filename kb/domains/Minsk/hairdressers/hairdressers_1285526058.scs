@@ -1,0 +1,26 @@
+ concept_hairdressers_1285526058
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Парикмахерская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парикмахерская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Мельникайте, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 133-31-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90669,27.542935"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://unisex-hairdresser-2765.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

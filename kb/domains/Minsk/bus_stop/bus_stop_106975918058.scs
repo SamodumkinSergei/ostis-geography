@@ -1,0 +1,26 @@
+ concept_bus_stop_106975918058
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Старый аэропорт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Старый аэропорт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Чкалова, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873365,27.535228"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

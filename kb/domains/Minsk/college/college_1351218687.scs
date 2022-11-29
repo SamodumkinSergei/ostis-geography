@@ -1,0 +1,26 @@
+ concept_college_1351218687
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГУО Средняя школа № 95 г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО Средняя школа № 95 г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Гая, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 288-56-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00; сб 09:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.934484,27.563126"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch95.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

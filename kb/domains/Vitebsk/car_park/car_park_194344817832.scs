@@ -1,0 +1,26 @@
+ concept_car_park_194344817832
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Парковка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парковка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Черняховского, 25к4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 237-22-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.174941,30.194859"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.vitebsktourist.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

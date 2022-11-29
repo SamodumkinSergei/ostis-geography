@@ -1,0 +1,26 @@
+ concept_malls_145827846064
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Секс-шоп KissMe"]
+	(* <- lang_ru;; <- name;;*);
+    ["Секс-шоп KissMe"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 695-19-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб,вс 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.88306,27.592212"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://kissme.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_restaurants_123378984339
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Coxo кафе & лаундж бар"]
+	(* <- lang_ru;; <- name;;*);
+    ["Coxo кафе & лаундж бар"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Советская улица, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 776-44-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 17:00–01:00; пт,сб 17:00–04:00; вс 17:00–01:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.68231,23.831645"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;
