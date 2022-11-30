@@ -1,0 +1,16 @@
+name: Run C++ tests on any push event in any branch
+on: [push, pull_request]
+jobs:
+  run_cpp_tests: 
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./scripts
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup project
+        run: ./install_project.sh
+      - name: Setup C++ tests
+        run: ./build_problem_solver.sh -t
+      - name: Run C++ tests
+        run: ./run_cpp_tests.sh
