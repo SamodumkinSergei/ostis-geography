@@ -1,0 +1,14 @@
+vokzalnaya
+-> concept_metro_station;
+-> concept_metro_line;
+
+=> nrel_attribute: nrel_built;
+=> nrel_attribute: nrel_location;
+
+
+=> nrel_main_idtf: 
+    [Вокзальная](* <- lang_ru;; *);
+    [Vokzalnaya](* <- lang_en;; *);
+
+=> nrel_note:
+[Вокзальная – станция метро, построенная 7 ноября 2020 года. Вокзальная находится на Зеленолужской линии и имеет код станции 314.](* <- lang_ru;; *);;

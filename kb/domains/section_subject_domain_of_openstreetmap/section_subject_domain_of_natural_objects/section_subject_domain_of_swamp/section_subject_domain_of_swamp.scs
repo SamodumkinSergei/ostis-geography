@@ -1,0 +1,37 @@
+section_subject_domain_of_swamp
+=> nrel_main_idtf:
+	  [Раздел. Предметная область болот]
+  (* <- lang_ru;; *);
+	  [Section. Subject domain of swamp] 
+  (* <- lang_en;; *);;
+
+/* Структура предметной области (классы объектов исследования и
+ исследуемые отношения) */
+section_subject_domain_of_lakes = [*
+	subject_domain_of_swamp
+<- sc_node_struct;
+	=> nrel_main_idtf:
+   [Предметная область болот]
+   (* <- lang_ru;; *);
+   [Subject domain of swamp]
+   (* <- lang_en;; *);
+	<- subject_domain;
+	-> rrel_maximum_studied_object_class:
+      concept_swamp;
+	-> rrel_not_maximum_studied_object_class:
+      concept_lowland_swamps;
+      concept_pinsk_swamp;
+      concept_polissya;
+      concept_raised_bogs;
+      concept_transitional_swamps;;
+*];;
+
+section_subject_domain_of_hobby
+-> rrel_key_sc_element:
+      subject_domain_of_swamp; 
+      concept_swamp;
+      concept_lowland_swamps;
+      concept_pinsk_swamp;
+      concept_polissya;
+      concept_raised_bogs;
+      concept_transitional_swamps;;

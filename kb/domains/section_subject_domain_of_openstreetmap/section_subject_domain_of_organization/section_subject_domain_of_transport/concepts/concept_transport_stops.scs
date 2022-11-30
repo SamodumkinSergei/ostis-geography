@@ -1,0 +1,38 @@
+sc_node_class -> concept_transport_stops;;
+
+concept_transport_stops => nrel_system_idtf: [concept_transport_stops];;
+concept_transport_stops => nrel_main_idtf: [Транспортная остановка](*<- lang_ru;;*);;
+concept_transport_stops => nrel_idtf: [Транспортная остановка](*<- lang_ru;;*);;
+concept_transport_stops => nrel_idtf: [Transport stops](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_transport_stops;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Транспортная остановка  — общественное место остановки транспортных средств по маршруту регулярных перевозок, оборудованное для посадки, высадки пассажиров и ожидания транспортных средств.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Транспортная остановка)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+		->concept_place;;
+		->concept_vehicle;;
+		->concept_transition;;
+        *);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_transport_stops;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Остановочный пункт является элементом обустройства автомобильных дорог.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(Об.Транспортная остановка)](*<- lang_ru;;*);;
+<= nrel_using_constants: ...
+        (*
+->concept_element;;
+->concept_road;;
+        *);;
+*);;

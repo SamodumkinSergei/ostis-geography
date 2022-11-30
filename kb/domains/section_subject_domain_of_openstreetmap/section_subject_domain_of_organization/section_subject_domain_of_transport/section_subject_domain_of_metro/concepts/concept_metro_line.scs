@@ -1,0 +1,23 @@
+concept_metro_line
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [ветка метро] (*<-lang_ru;;*);
+    [metro line] (*<-lang_en;;*);
+
+
+///определение
+<- rrel_key_sc_element: ... (*
+	<- definition;;
+    => nrel_main_idtf:
+      [Опр. (ветка метро)] (* <- lang_ru;; *);;
+    => nrel_using_constants: {
+       concept_way;
+       concept_metro_station;
+       concept_metro_train
+};;
+<= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+        [Ветка метро - это путь со станциями, по которому едет поезд метрополитена.] (* <- lang_ru;; => nrel_format: format_html;;*);;
+    *);;
+   *);;

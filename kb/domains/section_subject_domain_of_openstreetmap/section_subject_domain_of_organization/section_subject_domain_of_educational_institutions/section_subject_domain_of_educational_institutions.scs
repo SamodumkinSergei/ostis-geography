@@ -1,0 +1,68 @@
+section_subject_domain_of_educational_institutions
+=> nrel_main_idtf:
+	[Раздел. Предметная область образовательных учреждений]
+   (* <- lang_ru;; *);
+	[Section. Subject domain of educational institutions] 
+   (* <- lang_en;; *);
+<- atomic_section;;
+
+=> nrel_private_subject_domain:
+                  section_subject_domain_of_college;
+                  section_subject_domain_of_belarusian_universities;;
+
+section_subject_domain_of_educational_institutions = [*
+	subject_domain_of_educational_institutions
+<- sc_node_struct;
+	=> nrel_main_idtf:
+      [Предметная область образовательных учреждений]
+      (* <- lang_ru;; *);
+      [Subject domain of educational institutions]
+      (* <- lang_en;; *);
+	<- subject_domain;
+	-> rrel_maximum_studied_object_class:
+            concept_institution_of_higher_education;
+            concept_average_passing_grade;         
+            concept_faculty;
+            concept_institute;
+            concept_academy;
+            concept_university;
+            concept_college;
+            concept_student;
+	-> rrel_not_maximum_studied_object_class:
+            concept_address;
+            concept_email;
+            concept_phone_number;
+            concept_number_of_faculties;
+            concept_number_of_students;
+	-> rrel_explored_relation:
+            nrel_address;
+            nrel_average_passing_grade;
+            nrel_email;
+            nrel_number_of_faculties;
+            nrel_number_of_specialties;
+            nrel_number_of_students;
+            nrel_phone_number;;
+*];;
+
+section_subject_domain_of_planets_of_belarusian_universities
+-> rrel_key_sc_element:
+            concept_institution_of_higher_education;
+            concept_average_passing_grade;         
+            concept_faculty;
+            concept_institute;
+            concept_academy;
+            concept_university;
+            concept_college;
+            concept_student;
+            concept_address;
+            concept_email;
+            concept_phone_number;
+            concept_number_of_faculties;
+            concept_number_of_students;
+            nrel_address;
+            nrel_average_passing_grade;
+            nrel_email;
+            nrel_number_of_faculties;
+            nrel_number_of_specialties;
+            nrel_number_of_students;
+            nrel_phone_number;;

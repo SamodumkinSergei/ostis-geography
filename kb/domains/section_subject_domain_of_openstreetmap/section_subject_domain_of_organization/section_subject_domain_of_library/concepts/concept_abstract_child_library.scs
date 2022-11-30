@@ -1,0 +1,37 @@
+concept_abstract_child_library <-sc_node_class;
+=>nrel_main_idtf:
+    [child library]
+    (* <- lang_en;;*);
+    [детская библиотека]
+    (* <- lang_ru;;*);
+
+<= nrel_inclusion:
+    concept_abstract_library;
+
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+        [Опр. (детская библиотека)]
+        (* <- lang_ru;; *);
+        [Def. (child library)]
+        (* <- lang_en;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Детская библиотека - специализированная библиотека или структурное подразделение универсальной библиотеки, предназначенная для оказания библиотечных услуг детям до 14 лет.]
+                    (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [A child library is a specialised library or a unit of a general library that provides library services for children under 14 years of age.]
+                    (* <- lang_en;; *);;
+            *);;
+        <= nrel_using_constants:
+            {
+                concept_abstract_library
+            };;
+    *);;

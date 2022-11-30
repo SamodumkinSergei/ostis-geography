@@ -1,0 +1,37 @@
+sc_node_class -> concept_fare;;
+
+concept_fare => nrel_system_idtf: [concept_fare];;
+concept_fare => nrel_main_idtf: [Стоимость проезда](*<- lang_ru;;*);;
+concept_fare => nrel_idtf: [Стоимость проезда](*<- lang_ru;;*);;
+concept_fare => nrel_idtf: [Fare](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_fare;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Стоимость проезда – плата за перевозку, включающая стоимость проезда, тарифы на услуги, оказываемые при продаже проездного документа.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Стоимость проезда)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+		->concept_transportation_fee;;
+		->concept_tariffs;;
+		->concept_ticket;;
+        *);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_fare;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Оплата проезда имеет ограниченное время действия.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(Об.Стоимость проезда)](*<- lang_ru;;*);;
+<= nrel_using_constants: ...
+        (*
+->concept_time_of_action;;
+        *);;
+*);;

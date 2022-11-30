@@ -1,0 +1,35 @@
+leninsky_city_district_hrodna  <- concept_city_district;
+=>nrel_main_idtf:
+    [Leninsky District]
+    (* <- lang_en;; <- name_en;;*);
+    [Ленинский район]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [9]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    grodno_region;
+=>nrel_district:
+    hrodna_district;
+=>nrel_city:
+    hrodna;;
+
+kastrychnitski_city_district_hrodna  <- concept_city_district;
+=>nrel_main_idtf:
+    [Kastrychnitski District]
+    (* <- lang_en;; <- name_en;;*);
+    [Октябрьский район]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_admin_level:
+    [9]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    grodno_region;
+=>nrel_district:
+    hrodna_district;
+=>nrel_city:
+    hrodna;;

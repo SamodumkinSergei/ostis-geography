@@ -1,0 +1,31 @@
+concept_site
+<-sc_node_class;
+=>nrel_main_idtf:
+	[сайт]
+	(* <- lang_ru;; *);
+	[site]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (сайт)]
+		(* <- lang_ru;; *);
+		[Def. (site)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Сайт - это веб-страница или группа веб-страниц, объединённых единой темой, автором, фирмой и т. п.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Site is a web page or a group of web pages united by a single theme, author, company, etc.]
+			(* <- lang_en;; *);;
+		*);;
+	
+	*);;

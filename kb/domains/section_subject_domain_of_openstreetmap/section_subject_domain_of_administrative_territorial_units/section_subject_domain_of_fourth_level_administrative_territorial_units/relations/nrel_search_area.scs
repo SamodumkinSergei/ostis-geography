@@ -1,0 +1,53 @@
+nrel_search_area
+<-sc_node_norole_relation;
+<-relation;
+<-norole_relation;
+<-binary_relation;
+<-oriented_relation;
+<-antireflexive_relation;
+<-antitransitive_relation;
+<-asymmetric_relation;
+=>nrel_main_idtf:
+	[ область поиска* ]
+	(* <- lang_ru;; *);
+	[ search area* ]
+	(* <- lang_en;; *);
+=>nrel_first_domain: concept_way;
+=>nrel_second_domain: concept_administrative_unit;
+=>nrel_definitional_domain:
+	...
+	(*
+	<= nrel_combination:
+		{
+		concept_administrative_unit;
+		concept_way
+		};;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (область поиска*)]
+		(* <- lang_ru;; *);
+		[Def. (search area*)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Область поиска* — неролевое ориентированное отношение, связывающее путь и административно-территориальную единицу, в области которой нужно производить поиск пути.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Admin level* - a non-role-oriented relationship linking a way and an administrative-territorial unit in the area of which it is necessary to search for the way.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_way;
+			concept_administrative_unit
+		};;
+	*);;

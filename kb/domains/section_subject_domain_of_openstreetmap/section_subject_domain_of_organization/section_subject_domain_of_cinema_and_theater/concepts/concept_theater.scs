@@ -1,0 +1,30 @@
+concept_theater
+<-sc_node_class;
+=>nrel_main_idtf:
+    [театр]
+    (* <- lang_ru;; *);
+    [theater]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+    =>nrel_main_idtf:
+        [Опр. (театр)]
+        (* <- lang_ru;; *);
+        [Def. (theater)]
+        (* <- lang_en;; *);;
+    <- definition;;
+    <= nrel_sc_text_translation:
+        ...
+        (*
+        ->rrel_example:
+            [Театр - здание, специально построенное для показа спектаклей.]
+            (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+        -> rrel_example:
+            [Theater - a building specially built for showing performances]
+            (* <- lang_en;; *);;
+        *);;
+    *);;

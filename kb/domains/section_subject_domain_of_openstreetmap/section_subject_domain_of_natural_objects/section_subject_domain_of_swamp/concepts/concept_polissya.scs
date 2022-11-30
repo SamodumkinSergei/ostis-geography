@@ -1,0 +1,22 @@
+sc_node_class -> concept_polissya;;
+
+concept_polissya => nrel_main_idtf: [Полесье](* <- lang_ru;; *);;
+concept_polissya => nrel_main_idtf: [Polissya](* <- lang_en;; *);;
+
+definition ->...
+(*
+	-> rrel_key_sc_element : concept_polissya;;
+	<= nrel_sc_text_translation: ...(*->rrel_example:[Полесье – Самая большая из европейских болотных территорий.](*<-lang_ru;;*);;*);;
+	=> nrel_main_idtf: [Определение (Полесье)](*<- lang_ru;;*);;
+*);;
+
+statement ->...
+(*
+	-> rrel_key_sc_element :  concept_polissya;;
+	<= nrel_sc_text_translation: ...(*->rrel_example:[Оно расположено Брестской, Гомельской, Минской и  Могилёвской области.](*<-lang_ru;;*);;*);;
+	=> nrel_main_idtf: [Утверждение(Полесье)](*<- lang_ru;;*);;
+	=> nrel_using_constants: ...
+	(* 
+	 -> nrel_location;;
+	*);;
+*);;

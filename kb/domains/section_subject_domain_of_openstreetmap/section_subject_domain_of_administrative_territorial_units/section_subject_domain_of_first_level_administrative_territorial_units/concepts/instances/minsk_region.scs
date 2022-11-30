@@ -1,0 +1,11 @@
+minsk_region <- concept_region;
+=>nrel_main_idtf:
+    [Minsk Region]
+    (* <- lang_en;; <- name_en;;*);
+    [Минская область]
+    (* <- lang_ru;; <- name_ru;;*);
+=>nrel_admin_level:
+    [4]
+    (*<-concept_admin_level;;*);
+=>nrel_country:
+    belarus;;

@@ -1,0 +1,39 @@
+concept_Svir_lakes
+<- sc_node_class;
+<-concept_lake_group;
+=>nrel_main_idtf:
+	[Свирская группа озер]
+	(* <- lang_ru;; *);
+	[Svir group of lakes]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Свирская группа озер)]
+		(* <- lang_ru;; *);
+		[Def. (Svir group of lakes)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Свирская группа озёр — группа озёр на северо-западе Белоруссии на территории Вилейского и Мядельского районов Минской области.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[The Svir group of lakes is a group of lakes in the north-west of Belarus on the territory of the Vileysky and Myadelsky districts of the Minsk region.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_lake_group;
+			myadzel_district;
+            vileyka_district;
+			minsk_region;
+            belarus
+		};;
+	*);;

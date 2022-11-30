@@ -1,0 +1,40 @@
+sc_node_class -> concept_tram;;
+
+concept_tram => nrel_system_idtf: [concept_tram];;
+concept_tram => nrel_main_idtf: [Трамвай](*<- lang_ru;;*);;
+concept_tram => nrel_idtf: [Трамвай](*<- lang_ru;;*);;
+concept_tram => nrel_idtf: [Tram](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_tram;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Трамвай — наземная электрическая железная дорога, вид уличного и частично уличного общественного транспорта для перевозки пассажиров по заданным маршрутам, используемый преимущественно в городах.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Трамвай)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+		->concept_railway;;
+		->concept_public_transport;;
+		->concept_city;;
+		->concept_passenger;;
+        *);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_tram;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Кроме электрических, существуют канатные и дизельные трамваи.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(Об.Трамвай)](*<- lang_ru;;*);;
+<= nrel_using_constants: ...
+        (*
+->concept_electric;;
+->concept_diesel;;
+->concept_cable;;
+        *);;
+*);;

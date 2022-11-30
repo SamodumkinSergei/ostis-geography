@@ -1,0 +1,36 @@
+concept_lake_of_the_Minsk_region
+<- sc_node_class;
+<-concept_lake_group;
+=>nrel_main_idtf:
+	[озеро Минской области]
+	(* <- lang_ru;; *);
+	[lake of the Minsk region]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (озеро Минской области)]
+		(* <- lang_ru;; *);
+		[Def. (lake of the Minsk region)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Озеро Минской области — озеро, которое располагается в Минской области.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Lake of the Minsk region is a lake, which is located in the Minsk region.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			minsk_region;
+            belarus
+		};;
+	*);;

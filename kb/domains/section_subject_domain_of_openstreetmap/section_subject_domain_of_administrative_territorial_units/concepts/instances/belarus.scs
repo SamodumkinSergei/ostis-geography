@@ -1,0 +1,11 @@
+belarus <- concept_country;
+=>nrel_main_idtf:
+    [Belarus]
+    (* <- lang_en;; <- name_en;;*);
+    [Беларусь]
+    (* <- lang_ru;; <- name_ru;;*);
+=>nrel_admin_level:
+    [2]
+    (*<-concept_admin_level;;*);
+=>nrel_capital:
+    minsk;;

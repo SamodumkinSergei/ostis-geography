@@ -1,0 +1,105 @@
+section_subject_domain_of_transport
+=> nrel_main_idtf:
+	[Раздел. Предметная область транспорта]
+  (* <- lang_ru;; *);
+	[Section. Subject domain of transport] 
+  (* <- lang_en;; *);;
+
+=> nrel_private_subject_domain:
+                  section_subject_domain_of_metro;
+                  section_subject_domain_of_ground_transport;
+                  section_subject_domain_of_car_services;;
+                  
+section_subject_domain_of_transport = [*
+	subject_domain_of_transport
+<- sc_node_struct;
+	=> nrel_main_idtf:
+    [Предметная область транспорта]
+   (* <- lang_ru;; *);
+    [Subject domain of transport]
+   (* <- lang_en;; *);
+	<- subject_domain;
+	-> rrel_maximum_studied_object_class:
+    concept_transport;
+	-> rrel_not_maximum_studied_object_class:
+    concept_bus;
+    concept_composter;
+    concept_diesel;
+    concept_electric;
+    concept_fare;
+    concept_fine;
+    concept_metro;
+    concept_minibus;
+    concept_minsktrans;
+    concept_payment_terminal;
+    concept_plane;
+    concept_route;
+    concept_schedule;
+    concept_taxi;
+    concept_tram;
+    concept_transport_stops;
+    concept_trolleybus;
+    concept_vehicle;
+    concept_abstract_ground_transport_station;
+	-> rrel_explored_relation:
+    nrel_brand;
+    nrel_built;
+    nrel_bus_number;
+    nrel_constructor;
+    nrel_detail;
+    nrel_founder;
+    nrel_fuel;
+    nrel_gps;
+    nrel_invetor;
+    nrel_kind_of_transport;
+    nrel_location;
+    nrel_manufacturer;
+    nrel_move_through;
+    nrel_passenger_pick_up_point;
+    nrel_passenger;
+    nrel_phone_number;
+    nrel_transport_number;
+    nrel_working_hours;;
+*];;
+
+
+section_subject_domain_of_transport
+-> rrel_key_sc_element:
+    subject_domain_of_transport; 
+   concept_bus;
+    concept_composter;
+    concept_diesel;
+    concept_electric;
+    concept_fare;
+    concept_fine;
+    concept_metro;
+    concept_minibus;
+    concept_minsktrans;
+    concept_payment_terminal;
+    concept_plane;
+    concept_route;
+    concept_schedule;
+    concept_taxi;
+    concept_tram;
+    concept_transport_stops;
+    concept_trolleybus;
+    concept_vehicle;
+    concept_abstract_ground_transport_station;
+    nrel_brand;
+    nrel_built;
+    nrel_bus_number;
+    nrel_constructor;
+    nrel_detail;
+    nrel_founder;
+    nrel_fuel;
+    nrel_gps;
+    nrel_invetor;
+    nrel_kind_of_transport;
+    nrel_location;
+    nrel_manufacturer;
+    nrel_move_through;
+    nrel_passenger_pick_up_point;
+    nrel_passenger;
+    nrel_phone_number;
+    nrel_transport_number;
+    nrel_working_hours;;

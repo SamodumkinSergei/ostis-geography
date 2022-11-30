@@ -1,0 +1,34 @@
+concept_raised_bogs
+<- sc_node_class;
+=>nrel_main_idtf:
+	[верховые болота]
+	(* <- lang_ru;; *);
+	[raised bogs]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (верховые болота)]
+		(* <- lang_ru;; *);
+		[Def. (raised bogs)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Верховые болота -  болота исключительно атмосферного питания.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[The raised bogs are swamps of exclusively atmospheric nutrition.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_swamp
+		};;
+	*);;

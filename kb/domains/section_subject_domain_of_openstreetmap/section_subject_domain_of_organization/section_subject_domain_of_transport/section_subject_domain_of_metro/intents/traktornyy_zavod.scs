@@ -1,0 +1,14 @@
+traktornyy_zavod
+-> concept_metro_station;
+-> concept_metro_line;
+
+=> nrel_attribute: nrel_built;
+=> nrel_attribute: nrel_location;
+
+
+=> nrel_main_idtf: 
+    [Тракторный завод](* <- lang_ru;; *);
+    [Traktornyy zavod](* <- lang_en;; *);
+
+=> nrel_note:
+[Тракторный завод – станция метро, построенная 31 декабря 1990 года. Тракторный завод находится на Автозаводской линии и имеет код станции 213.](* <- lang_ru;; *);;

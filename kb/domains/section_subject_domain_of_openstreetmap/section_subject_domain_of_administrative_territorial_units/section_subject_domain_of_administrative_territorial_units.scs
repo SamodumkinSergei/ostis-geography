@@ -1,0 +1,37 @@
+section_subject_domain_of_administrative_territorial_units
+=> nrel_main_idtf:
+      [Раздел. Предметная область административно-территориальных единиц]
+      (* <- lang_ru;; *);
+      [Section. Subject domain of administrative territorial units]
+      (* <- lang_en;; *);
+
+=> nrel_private_subject_domain:
+            section_subject_domain_of_first_level_administrative_territorial_units;
+            section_subject_domain_of_second_level_administrative_territorial_units;
+            section_subject_domain_of_third_level_administrative_territorial_units;
+            section_subject_domain_of_fourth_level_administrative_territorial_units;;
+
+section_subject_domain_of_administrative_territorial_units = [*
+      subject_domain_of_museum
+      <- sc_node_struct;
+      => nrel_main_idtf:
+      [Предметная область административно-территориальных единиц]
+      (* <- lang_ru;; *);
+      [Subject domain of administrative territorial units]
+      (* <- lang_en;; *);
+      <- subject_domain;
+      -> rrel_maximum_studied_object_class:
+            concept_administrative_unit;
+      -> rrel_not_maximum_studied_object_class:
+            concept_admin_level;
+            concept_country;
+      -> rrel_explored_relation:
+            nrel_population;;
+*];;
+
+section_subject_domain_of_administrative_territorial_units
+-> rrel_key_sc_element:
+      concept_administrative_unit;
+      concept_admin_level;
+      concept_country;
+      nrel_population;;

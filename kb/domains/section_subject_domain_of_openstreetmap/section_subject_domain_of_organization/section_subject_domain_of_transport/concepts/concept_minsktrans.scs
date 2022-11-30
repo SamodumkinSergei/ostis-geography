@@ -1,0 +1,39 @@
+sc_node_class -> concept_minsktrans;;
+
+concept_minsktrans => nrel_system_idtf: [concept_minsktrans];;
+concept_minsktrans => nrel_main_idtf: [Минсктранс](*<- lang_ru;;*);;
+concept_minsktrans => nrel_idtf: [Минсктранс](*<- lang_ru;;*);;
+concept_minsktrans => nrel_idtf: [MinskTrans](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_minsktrans;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [ Минсктранс — предприятие, охватывающее своей деятельностью Минск и частично Минскую область и выполняющее городские, пригородные и некоторые международные перевозки автобусами, городские перевозки троллейбусами, трамваями, а также заказные перевозки автобусами городского и междугородного класса.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Минсктранс)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+		->concept_company;;
+		->concept_public_transport;;
+        ->concept_services;;
+        *);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_minsktrans;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Занимается организацией перевозок в Минске.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(Об.Минсктранс)](*<- lang_ru;;*);;
+<= nrel_using_constants: ...
+        (*
+->nrel_organize;;
+->concept_minsk;;
+->concept_transportation;;
+        *);;
+*);;

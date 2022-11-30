@@ -1,0 +1,38 @@
+concept_pharmacy_of_the_Grodno_region
+<-sc_node_class;
+<-concept_pharmacy;
+=>nrel_main_idtf:
+	[аптека Гродненской области]
+	(* <- lang_ru;; *);
+	[pharmacy of the Grodno region]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (аптека Гродненской области)]
+		(* <- lang_ru;; *);
+		[Def. (pharmacy of the Grodno region)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Аптека Гродненской области — аптека, которое располагается в Гродненской области.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Pharmacy of the Grodno region is a pharmacy, which is located in the Grodno region.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_pharmacy;
+			concept_grodno_region;
+			concept_belarus
+		};;
+	*);;
+	

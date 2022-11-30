@@ -1,0 +1,39 @@
+sc_node_class -> concept_schedule;;
+
+concept_schedule => nrel_system_idtf: [concept_schedule];;
+concept_schedule => nrel_main_idtf: [Расписание](*<- lang_ru;;*);;
+concept_schedule => nrel_idtf: [Расписание](*<- lang_ru;;*);;
+concept_schedule => nrel_idtf: [Schedule](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_schedule;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Расписание - график, устанавливающий время или интервалы прибытия транспортных средств в остановочный пункт либо отправления транспортных средств от остановочного пункта.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Расписание)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+		->concept_time;;
+		->concept_vehicle;;
+		->concept_stop;;
+        *);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_schedule;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [По расписанию ходят рейсы многих маршрутов общественного транспорта.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(Об.Расписание)](*<- lang_ru;;*);;
+<= nrel_using_constants: ...
+        (*
+->concept_public_transport;;
+->concept_schedule;;
+->concept_trip;;
+        *);;
+*);;

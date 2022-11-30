@@ -1,0 +1,53 @@
+nrel_region
+<-sc_node_norole_relation;
+<-relation;
+<-norole_relation;
+<-binary_relation;
+<-oriented_relation;
+<-antireflexive_relation;
+<-antitransitive_relation;
+<-asymmetric_relation;
+=>nrel_main_idtf:
+	[ область* ]
+	(* <- lang_ru;; *);
+	[ region* ]
+	(* <- lang_en;; *);
+=>nrel_first_domain: concept_administrative_unit;
+=>nrel_second_domain: concept_region;
+=>nrel_definitional_domain:
+	...
+	(*
+	<= nrel_combination:
+		{
+		concept_administrative_unit;
+		concept_region
+		};;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (область*)]
+		(* <- lang_ru;; *);
+		[Def. (region*)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Область* - неролевое ориентированное отношение, связывающее административно-территориальную единицу и область.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Region* - a non-role-oriented relationship linking an administrative-territorial unit and a region.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_region;
+			concept_administrative_unit
+		};;
+	*);;

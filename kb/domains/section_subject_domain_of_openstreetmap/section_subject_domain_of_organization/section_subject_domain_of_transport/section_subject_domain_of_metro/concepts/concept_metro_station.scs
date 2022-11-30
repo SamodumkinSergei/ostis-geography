@@ -1,0 +1,33 @@
+concept_metro_line
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [Станция метро] (*<-lang_ru;;*);
+    [Metro station] (*<-lang_en;;*);
+
+
+///определение
+<- rrel_key_sc_element: ... (*
+	<- definition;;
+    => nrel_main_idtf:
+      [Опр. (ветка метро)] (* <- lang_ru;; *);;
+    => nrel_using_constants: {
+        nrel_transportation_tasks;
+		concept_place
+};;
+<= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+        [Станция метро - остановочный пункт, предназначенный для посадки/высадки пассажиров метрополитена.] (* <- lang_ru;; => nrel_format: format_html;;*);;
+    *);;
+   *);;
+
+//утверждение
+<- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утв.(о станция метро)] (* <- lang_ru;; *);; 
+<= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[Является самым востребованным видом общественного транспорта города. ](*<-lang_ru;; => nrel_format: format_html;;*);;
+      *);;
+*);;

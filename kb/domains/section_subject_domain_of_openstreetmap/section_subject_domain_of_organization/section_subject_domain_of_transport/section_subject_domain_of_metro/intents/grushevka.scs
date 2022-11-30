@@ -1,0 +1,14 @@
+grushevka
+-> concept_metro_station;
+-> concept_metro_line;
+
+=> nrel_attribute: nrel_built;
+=> nrel_attribute: nrel_location;
+
+
+=> nrel_main_idtf: 
+    [Грушевка](* <- lang_ru;; *);
+    [Grushevka](* <- lang_en;; *);
+
+=> nrel_note:
+[Грушевка – станция метро, построенная 7 ноября 2012 года. Грушевка находится на Московской ветке и имеет код станции 113.](* <- lang_ru;; *);;

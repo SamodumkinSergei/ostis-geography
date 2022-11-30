@@ -1,0 +1,39 @@
+section_subject_domain_of_hardware_shops
+=> nrel_main_idtf:
+	[Раздел. Предметная область хозяйственных магазинов]
+  (* <- lang_ru;; *);
+	[Section. Subject domain of hardware shops] 
+  (* <- lang_en;; *);;
+
+section_subject_domain_of_hardware_shops = [*
+	subject_domain_of_hardware_shops
+<- sc_node_struct;
+	=> nrel_main_idtf:
+    [Предметная область хозяйственных магазинов]
+   (* <- lang_ru;; *);
+    [Subject domain of hardware shops]
+   (* <- lang_en;; *);
+	<- subject_domain;
+	-> rrel_maximum_studied_object_class:
+    concept_hardware_store;
+	-> rrel_not_maximum_studied_object_class:
+    concept_address;
+    concept_company;
+    concept_website;
+	-> rrel_explored_relation:
+    nrel_address;
+    nrel_company;
+    nrel_website;;
+*];;
+
+
+section_subject_domain_of_hardware_shops
+-> rrel_key_sc_element:
+    subject_domain_of_hardware_shops; 
+    concept_hardware_store;
+    concept_address;
+    concept_company;
+    concept_website;
+    nrel_address;
+    nrel_company;
+    nrel_website;;

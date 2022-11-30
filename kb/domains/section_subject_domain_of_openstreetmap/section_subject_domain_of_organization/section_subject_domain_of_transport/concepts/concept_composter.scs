@@ -1,0 +1,37 @@
+sc_node_class -> concept_composter;;
+
+concept_composter => nrel_system_idtf: [concept_composter];;
+concept_composter => nrel_main_idtf: [Компостер](*<- lang_ru;;*);;
+concept_composter => nrel_idtf: [Компостер](*<- lang_ru;;*);;
+concept_composter => nrel_idtf: [Composter](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_composter;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Компостер - компактное функциональное устройство, закрепленное в статичном положении, предназначенно для контроля действительности проездных документов.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Компостер)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+		->concept_device;;
+		->concept_ticket;;
+        *);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_composter;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Электронный компостер применяется для обеспечения оплаты однократной поездки в общественном транспорте.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(Об.Компостер)](*<- lang_ru;;*);;
+<= nrel_using_constants: ...
+        (*
+->concept_fare;;
+->concept_public_transport;;
+        *);;
+*);;

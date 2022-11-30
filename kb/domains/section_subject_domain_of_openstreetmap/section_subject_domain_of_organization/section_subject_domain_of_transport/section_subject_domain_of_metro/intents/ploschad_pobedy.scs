@@ -1,0 +1,14 @@
+ploschad_pobedy
+-> concept_metro_station;
+-> concept_metro_line;
+
+=> nrel_attribute: nrel_built;
+=> nrel_attribute: nrel_location;
+
+
+=> nrel_main_idtf: 
+    [Площадь Победы](* <- lang_ru;; *);
+    [Ploschad Pobedy](* <- lang_en;; *);
+
+=> nrel_note:
+[Площадь Победы – станция метро, построенная 30 июня 1984 года. Площадь Победы находится на Московской ветке и имеет код станции 117.](* <- lang_ru;; *);;

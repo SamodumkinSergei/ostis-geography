@@ -1,0 +1,39 @@
+section_subject_domain_of_companies
+=> nrel_main_idtf:
+	[Раздел. Предметная область компаний]
+  (* <- lang_ru;; *);
+	[Section. Subject domain of companies] 
+  (* <- lang_en;; *);;
+
+section_subject_domain_of_companies = [*
+	subject_domain_of_companies
+<- sc_node_struct;
+	=> nrel_main_idtf:
+    [Предметная область компаний]
+   (* <- lang_ru;; *);
+    [Subject domain of companies]
+   (* <- lang_en;; *);
+	<- subject_domain;
+	-> rrel_maximum_studied_object_class:
+    concept_company;
+	-> rrel_not_maximum_studied_object_class:
+    concept_website;
+    concept_address;
+    concept_email;
+    concept_phone_number;
+	-> rrel_explored_relation:
+    nrel_country;
+    nrel_region;
+    nrel_scope;;
+*];;
+
+section_subject_domain_of_companies
+-> rrel_key_sc_element:
+    subject_domain_of_companies;
+    concept_website;
+    concept_address;
+    concept_email;
+    concept_phone_number;
+    nrel_country;
+    nrel_region;
+    nrel_scope;;

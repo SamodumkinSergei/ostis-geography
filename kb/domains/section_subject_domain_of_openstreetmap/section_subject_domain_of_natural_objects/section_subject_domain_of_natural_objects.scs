@@ -1,0 +1,46 @@
+section_subject_domain_of_natural_objects
+=> nrel_main_idtf:
+	[Раздел. Предметная область природных объектов]
+  (* <- lang_ru;; *);
+	[Section. Subject domain of natural objects] 
+  (* <- lang_en;; *);
+
+=> nrel_private_subject_domain:
+            section_subject_domain_of_lakes;
+            section_subject_domain_of_swamp;;
+
+/* Структура предметной области (классы объектов исследования и
+ исследуемые отношения) */
+section_subject_domain_of_natural_objects = [*
+	subject_domain_of_natural_objects
+<- sc_node_struct;
+	=> nrel_main_idtf:
+      [Предметная область природных объектов]
+   (* <- lang_ru;; *);
+      [Subject domain of natural objects]
+   (* <- lang_en;; *);
+	<- subject_domain;
+	-> rrel_maximum_studied_object_class:
+      concept_natural_object;
+	-> rrel_not_maximum_studied_object_class:
+      concept_belovezhskaya_pushcha;
+      concept_botanical_garden_minsk;
+      concept_botanical_garden;
+      concept_nalibokskaya_pushcha;
+      concept_pushcha;
+      concept_river;
+	-> rrel_explored_relation:
+      nrel_basin;;
+*];;
+
+section_subject_domain_of_natural_objects
+-> rrel_key_sc_element:
+      subject_domain_of_natural_objects; 
+      concept_natural_object;
+      concept_belovezhskaya_pushcha;
+      concept_botanical_garden_minsk;
+      concept_botanical_garden;
+      concept_nalibokskaya_pushcha;
+      concept_pushcha;
+      concept_river;
+      nrel_basin;;

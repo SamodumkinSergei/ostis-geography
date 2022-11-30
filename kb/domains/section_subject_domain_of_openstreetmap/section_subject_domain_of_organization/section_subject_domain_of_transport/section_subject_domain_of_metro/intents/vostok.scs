@@ -1,0 +1,14 @@
+vostok
+-> concept_metro_station;
+-> concept_metro_line;
+
+=> nrel_attribute: nrel_built;
+=> nrel_attribute: nrel_location;
+
+
+=> nrel_main_idtf: 
+    [Восток](* <- lang_ru;; *);
+    [Vostok](* <- lang_en;; *);
+
+=> nrel_note:
+[Восток – станция метро, построенная 31 декабря 1986 года. Восток находится на Московской ветке и имеет код станции 122.](* <- lang_ru;; *);;

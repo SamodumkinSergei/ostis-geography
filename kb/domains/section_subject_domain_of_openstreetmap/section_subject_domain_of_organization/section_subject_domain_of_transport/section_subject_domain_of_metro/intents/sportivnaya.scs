@@ -1,0 +1,14 @@
+sportivnaya
+-> concept_metro_station;
+-> concept_metro_line;
+
+=> nrel_attribute: nrel_built;
+=> nrel_attribute: nrel_location;
+
+
+=> nrel_main_idtf: 
+    [Спортивная](* <- lang_ru;; *);
+    [Sportivnaya](* <- lang_en;; *);
+
+=> nrel_note:
+[Спортивная – станция метро, построенная 7 ноября 2005 года. Спортивная находится на Автозаводской линии и имеет код станции 221.](* <- lang_ru;; *);;

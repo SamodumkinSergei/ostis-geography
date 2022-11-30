@@ -1,0 +1,14 @@
+yubileynaya_ploschad
+-> concept_metro_station;
+-> concept_metro_line;
+
+=> nrel_attribute: nrel_built;
+=> nrel_attribute: nrel_location;
+
+
+=> nrel_main_idtf: 
+    [Юбилейная площадь](* <- lang_ru;; *);
+    [Yubileynaya ploschad](* <- lang_en;; *);
+
+=> nrel_note:
+[Юбилейная площадь – станция метро, построенная 7 ноября 2020 года. Юбилейная площадь находится на Зеленолужской линии и имеет код станции 316.](* <- lang_ru;; *);;

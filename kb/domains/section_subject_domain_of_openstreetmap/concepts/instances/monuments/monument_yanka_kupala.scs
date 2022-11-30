@@ -1,0 +1,17 @@
+monument_yanka_kupala
+<- concept_monument;
+
+=> nrel_main_idtf: 
+ 	[Памятник Янке Купале] (*<-lang_ru;;*);
+	[Monument to Yanka Kupala] (*<-lang_en;;*);
+
+///определение
+<- rrel_key_sc_element: ... (*
+	<- definition;;
+    => nrel_main_idtf:
+      [Определение (памятник Янке Купале)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+        [Памятник Янке Купале — памятник выдающемуся белорусскому поэту Янке Купале.] (* <- lang_ru;; => nrel_format: format_html;;*);;
+    *);;
+*);;

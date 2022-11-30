@@ -1,0 +1,14 @@
+proletarskaya
+-> concept_metro_station;
+-> concept_metro_line;
+
+=> nrel_attribute: nrel_built;
+=> nrel_attribute: nrel_location;
+
+
+=> nrel_main_idtf: 
+    [Пролетарская](* <- lang_ru;; *);
+    [Proletarskaya](* <- lang_en;; *);
+
+=> nrel_note:
+[Пролетарская – станция метро, построенная 31 декабря 1990 года. Пролетарская находится на Автозаводской линии и имеет код станции 214.](* <- lang_ru;; *);;

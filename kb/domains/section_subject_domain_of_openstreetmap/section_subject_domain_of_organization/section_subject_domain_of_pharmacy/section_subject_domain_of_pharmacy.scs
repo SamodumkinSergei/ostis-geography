@@ -1,0 +1,59 @@
+section_subject_domain_of_pharmacy
+=> nrel_main_idtf:
+	  [Раздел. Предметная область аптеки]
+  (* <- lang_ru;; *);
+	  [Section. Subject domain of pharmacy] 
+  (* <- lang_en;; *);;
+
+
+
+/* Структура предметной области (классы объектов исследования и
+ исследуемые отношения) */
+section_subject_domain_of_pharmacy = [*
+	subject_domain_of_pharmacy
+<- sc_node_struct;
+	=> nrel_main_idtf:
+   [Предметная область аптеки]
+   (* <- lang_ru;; *);
+   [Subject domain of pharmacy]
+   (* <- lang_en;; *);
+	<- subject_domain;
+	-> rrel_maximum_studied_object_class:
+      concept_pharmacy;
+	-> rrel_not_maximum_studied_object_class:
+      concept_pharmacy;
+      concept_pharmacy_chain;
+      concept_pharmacy_chain_PLanet_Health;
+      concept_pharmacy_of_the_Brest_region;
+      concept_pharmacy_of_the_Gomel_region;
+      concept_pharmacy_of_the_Grodno_region;
+      concept_pharmacy_of_the_Minsk_region;
+      concept_pharmacy_of_the_Mogilev_region;
+      concept_pharmacy_of_the_Vitebsk_region;
+      concept_email;
+      concept_phone_number;
+      concept_site;
+	-> rrel_explored_relation:
+      nrel_email;
+      nrel_phone_number;
+      nrel_site;;
+*];;
+
+
+section_subject_domain_of_pharmacy
+-> rrel_key_sc_element:
+      concept_pharmacy;
+      concept_pharmacy_chain;
+      concept_pharmacy_chain_PLanet_Health;
+      concept_pharmacy_of_the_Brest_region;
+      concept_pharmacy_of_the_Gomel_region;
+      concept_pharmacy_of_the_Grodno_region;
+      concept_pharmacy_of_the_Minsk_region;
+      concept_pharmacy_of_the_Mogilev_region;
+      concept_pharmacy_of_the_Vitebsk_region;
+      concept_email;
+      concept_phone_number;
+      concept_site;
+      nrel_email;
+      nrel_phone_number;
+      nrel_site;;

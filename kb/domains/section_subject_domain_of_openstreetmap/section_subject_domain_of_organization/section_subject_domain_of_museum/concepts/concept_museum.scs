@@ -1,0 +1,35 @@
+concept_museum
+<-sc_node_class;
+=>nrel_main_idtf:
+	[музей]
+	(* <- lang_ru;; *);
+	[museum]
+	(* <- lang_en;; *);
+
+<= nrel_inclusion:
+    concept_organization;
+
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (музей)]
+		(* <- lang_ru;; *);
+		[Def. (museum)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Музей - это учреждение, занимающееся сбором, хранением и выставкой для обозрения памятников искусства, предметов техники, научных коллекций, предметов, представляющих исторический интерес, и т. п.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Museum is an institution that is engaged in collecting, storing and exhibiting of objects of art, scientific collections, objects of historical interests and so on.]
+			(* <- lang_en;; *);;
+		*);;
+	
+	*);;
