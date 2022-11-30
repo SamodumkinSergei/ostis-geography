@@ -1,0 +1,24 @@
+company_mobivayz <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Мобивайз]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 2966783]
+	(* <- concept_phone_number;;*);
+	[pavel@mobiwise.io]
+	(* <- concept_email;;*);
+	[http://mobiwise.io/]
+	(* <- concept_website;;*);
+	[193248338]
+	(* <- concept_ucn;;*);
+	[ул.Краснозвездная, 18Б, пом.4, ком. 5]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2019;
+=>nrel_scope:
+	it;;
+

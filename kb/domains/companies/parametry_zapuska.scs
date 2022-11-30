@@ -1,0 +1,20 @@
+company_parametry_zapuska <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Параметры Запуска]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_872_82_97]
+	(* <- concept_phone_number;;*);
+	[https://launchoptions.by/]
+	(* <- concept_website;;*);
+	[193128686]
+	(* <- concept_ucn;;*);
+	[ул. Кульман, д. 9, помещение 166]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

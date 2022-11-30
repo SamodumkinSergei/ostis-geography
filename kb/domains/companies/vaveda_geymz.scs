@@ -1,0 +1,24 @@
+company_vaveda_geymz <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Ваведа Геймз]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_44_785_50_00]
+	(* <- concept_phone_number;;*);
+	[yury.kovalkov@vaveda.games]
+	(* <- concept_email;;*);
+	[https://vaveda.games/]
+	(* <- concept_website;;*);
+	[193393131]
+	(* <- concept_ucn;;*);
+	[ул. Мясникова, д. 70, офис 219.]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2020;
+=>nrel_scope:
+	it;;
+

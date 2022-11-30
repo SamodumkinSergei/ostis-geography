@@ -1,0 +1,37 @@
+sc_node_not_relation -> concept_trolleytrolleybus;;
+
+concept_trolleybus => nrel_system_idtf: [concept_trolleybus];;
+concept_trolleybus => nrel_main_idtf: [Троллейбус](*<- lang_ru;;*);;
+concept_trolleybus => nrel_idtf: [Троллейбус](*<- lang_ru;;*);;
+concept_trolleybus => nrel_idtf: [Trolleybus](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_trolleybus;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Троллейбус — безрельсовое механическое транспортное средство контактного типа с электрическим приводом.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Троллейбус)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+		->concept_vehicle;;
+		->concept_electric;;
+        *);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_trolleybus;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Троллейбус по конструкции близок к автобусу.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(Об.Троллейбус)](*<- lang_ru;;*);;
+<= nrel_using_constants: ...
+        (*
+->concept_bus;;
+->concept_construction;;
+        *);;
+*);;

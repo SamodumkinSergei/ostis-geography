@@ -1,0 +1,24 @@
+company_bitnet_grupp <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[БИТНЭТ ГРУПП]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_380_00_20]
+	(* <- concept_phone_number;;*);
+	[nadezhda_grebenchenko@bitnet.by]
+	(* <- concept_email;;*);
+	[http://www.bitnet.by/]
+	(* <- concept_website;;*);
+	[193037341]
+	(* <- concept_ucn;;*);
+	[ул. Воронянского, д. 50, корп. 5, пом. 11]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

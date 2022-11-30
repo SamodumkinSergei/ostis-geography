@@ -1,0 +1,24 @@
+company_softek_development <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Софтек Девелопмент]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 388 05 51]
+	(* <- concept_phone_number;;*);
+	[info@softeq.com]
+	(* <- concept_email;;*);
+	[http://www.softeq.com/]
+	(* <- concept_website;;*);
+	[191039309]
+	(* <- concept_ucn;;*);
+	[ул. Притыцкого 2/3, 3 этаж, офис 39]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2008;
+=>nrel_scope:
+	it;;
+

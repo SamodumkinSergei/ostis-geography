@@ -1,0 +1,20 @@
+company_maystrim <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[МайСтрим]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_888_80_39]
+	(* <- concept_phone_number;;*);
+	[https://mystream.by/]
+	(* <- concept_website;;*);
+	[193346198]
+	(* <- concept_ucn;;*);
+	[ул. Грушевская, д. 136, помещение 48Н]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

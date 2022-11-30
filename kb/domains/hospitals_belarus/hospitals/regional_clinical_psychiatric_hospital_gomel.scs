@@ -1,0 +1,12 @@
+regional_clinical_psychiatric_hospital_gomel <- concept_hospital;
+=> nrel_main_idtf:
+   [Regional clinical psychiatric hospital Gomel]
+   (* <- lang_en;; <- name_en;;*);
+   [Гомельская областная клиническая психиатрическая больница]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375232315845]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [https://gokpb.by]
+   (*<-concept_site;;*);;

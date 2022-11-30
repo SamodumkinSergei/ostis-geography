@@ -1,0 +1,24 @@
+company_keytubi <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[КейТуБи]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_130_53_82]
+	(* <- concept_phone_number;;*);
+	[info@k2b.by]
+	(* <- concept_email;;*);
+	[http://k2b.by]
+	(* <- concept_website;;*);
+	[291554174]
+	(* <- concept_ucn;;*);
+	[ул.Пионерская, 52, к. 306]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	brest;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

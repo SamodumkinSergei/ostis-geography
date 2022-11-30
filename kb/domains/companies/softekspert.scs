@@ -1,0 +1,22 @@
+company_softekspert <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[СофтЭксперт]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375297208433]
+	(* <- concept_phone_number;;*);
+	[softexpert@tut.by]
+	(* <- concept_email;;*);
+	[291261540]
+	(* <- concept_ucn;;*);
+	[224008, ул. Нектарная, д.74]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	brest;
+=>nrel_year_registration:
+	2013;
+=>nrel_scope:
+	it;;
+

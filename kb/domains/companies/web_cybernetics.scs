@@ -1,0 +1,24 @@
+company_web_cybernetics <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ВЕБ_КИБЕРНЕТИКА]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 6733690]
+	(* <- concept_phone_number;;*);
+	[office@webernetic.by]
+	(* <- concept_email;;*);
+	[https://webernetic_family.com/]
+	(* <- concept_website;;*);
+	[192833490]
+	(* <- concept_ucn;;*);
+	[ул. Кульман, д. 9, офис 519]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2011;
+=>nrel_scope:
+	it;;
+

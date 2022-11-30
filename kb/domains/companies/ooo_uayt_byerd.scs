@@ -1,0 +1,24 @@
+company_ooo_uayt_byerd <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Уайт Бёрд]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375296111168]
+	(* <- concept_phone_number;;*);
+	[info@whitebird.io]
+	(* <- concept_email;;*);
+	[whitebird.io]
+	(* <- concept_website;;*);
+	[591029489]
+	(* <- concept_ucn;;*);
+	[230025, Республика Беларусь, г. Гродно, ул. Замковая, д. 7]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	grodno;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

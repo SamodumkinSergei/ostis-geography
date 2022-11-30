@@ -1,0 +1,24 @@
+company_apalon_apps <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Апалон Аппс]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 194 59 18]
+	(* <- concept_phone_number;;*);
+	[contact@apalon.com]
+	(* <- concept_email;;*);
+	[http://www.apalon.com/]
+	(* <- concept_website;;*);
+	[192323713]
+	(* <- concept_ucn;;*);
+	[ул. Толстого, 8, помещение 2, каб. 401]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2014;
+=>nrel_scope:
+	it;;
+

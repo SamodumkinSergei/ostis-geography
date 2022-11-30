@@ -1,0 +1,24 @@
+company_softera_solyushns <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Софтера Солюшнс]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 336 63 69]
+	(* <- concept_phone_number;;*);
+	[contact@magedia.com]
+	(* <- concept_email;;*);
+	[https://magedia.com/]
+	(* <- concept_website;;*);
+	[192659741]
+	(* <- concept_ucn;;*);
+	[ул. Мележа, д. 5, корп. 1, оф. 317, 220113, г. Минск, Беларусь]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2013;
+=>nrel_scope:
+	it;;
+

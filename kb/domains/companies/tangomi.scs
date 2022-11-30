@@ -1,0 +1,22 @@
+company_tangomi <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ТангоМи]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_158_72_42]
+	(* <- concept_phone_number;;*);
+	[esorokina@tango.me]
+	(* <- concept_email;;*);
+	[https://www.tango.me/]
+	(* <- concept_website;;*);
+	[193437172]
+	(* <- concept_ucn;;*);
+	[ул. Тимирязева, д. 65Б, помещение 109, офис 2]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

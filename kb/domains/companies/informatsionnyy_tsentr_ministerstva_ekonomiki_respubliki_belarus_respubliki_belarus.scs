@@ -1,0 +1,24 @@
+company_informatsionnyy_tsentr_ministerstva_ekonomiki_respubliki_belarus_respubliki_belarus <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Информационный центр Минэкономики]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_17_200_73_33]
+	(* <- concept_phone_number;;*);
+	[centr@economy.gov.by]
+	(* <- concept_email;;*);
+	[https://torgi.gov.by/]
+	(* <- concept_website;;*);
+	[190318109]
+	(* <- concept_ucn;;*);
+	[ул. Берсона, д. 1а, оф.513]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2002;
+=>nrel_scope:
+	it;;
+

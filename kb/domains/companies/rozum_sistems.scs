@@ -1,0 +1,24 @@
+company_rozum_sistems <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Розум Системс]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 3880178]
+	(* <- concept_phone_number;;*);
+	[info@rozumsystems.by]
+	(* <- concept_email;;*);
+	[http://rozumsystems.by/]
+	(* <- concept_website;;*);
+	[192732552]
+	(* <- concept_ucn;;*);
+	[ул. Толбухина 2а, пом. 7]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2016;
+=>nrel_scope:
+	it;;
+

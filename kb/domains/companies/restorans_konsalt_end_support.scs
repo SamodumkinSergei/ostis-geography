@@ -1,0 +1,22 @@
+company_restorans_konsalt_end_support <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Ресторанс консалт энд суппорт]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_106_73_92]
+	(* <- concept_phone_number;;*);
+	[restoranskonsalt@gmail.com]
+	(* <- concept_email;;*);
+	[192289390]
+	(* <- concept_ucn;;*);
+	[ул. Могилевская, д. 12а, пом. 3]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2014;
+=>nrel_scope:
+	it;;
+

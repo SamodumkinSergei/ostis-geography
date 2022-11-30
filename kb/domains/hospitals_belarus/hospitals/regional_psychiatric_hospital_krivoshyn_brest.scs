@@ -1,0 +1,12 @@
+regional_psychiatric_hospital_krivoshyn_brest <- concept_hospital;
+=> nrel_main_idtf:
+   [Regional psychiatric hospital krivoshyn Brest]
+   (* <- lang_en;; <- name_en;;*);
+   [Брестская областная психиатрическая больница «Кривошин»]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375163351317]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [http://healthcare.by/instinfo.php?orgnum=3394]
+   (*<-concept_site;;*);;

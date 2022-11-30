@@ -1,0 +1,24 @@
+company_svaps_sistemz <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[СВАПС системз]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375296559088]
+	(* <- concept_phone_number;;*);
+	[sales@svaps.com]
+	(* <- concept_email;;*);
+	[http://www.svaps.com/]
+	(* <- concept_website;;*);
+	[192455505]
+	(* <- concept_ucn;;*);
+	[пр_т Дзержинского, 104 А, офис 1301]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2015;
+=>nrel_scope:
+	it;;
+

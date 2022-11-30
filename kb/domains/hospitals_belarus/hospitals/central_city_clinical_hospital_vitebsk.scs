@@ -1,0 +1,12 @@
+central_city_clinical_hospital_vitebsk <- concept_hospital;
+=> nrel_main_idtf:
+   [Central city clinical hospital Vitebsk]
+   (* <- lang_en;; <- name_en;;*);
+   [Витебская центральная городская клиническая больница]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375212351247]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [https://vcgkb.103.by]
+   (*<-concept_site;;*);;

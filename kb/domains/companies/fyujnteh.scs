@@ -1,0 +1,24 @@
+company_fyujnteh <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Фьюжнтех]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375293897059]
+	(* <- concept_phone_number;;*);
+	[contact@fusiontech.by]
+	(* <- concept_email;;*);
+	[http://fusiontech.by/]
+	(* <- concept_website;;*);
+	[192459924]
+	(* <- concept_ucn;;*);
+	[ул. Л.Беды 2б_327]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2015;
+=>nrel_scope:
+	it;;
+

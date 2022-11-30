@@ -1,0 +1,24 @@
+company_travolab <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ТравоЛаб]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 360 50 12]
+	(* <- concept_phone_number;;*);
+	[dcasvigny@travo_lab.com]
+	(* <- concept_email;;*);
+	[http://travo_lab.com/]
+	(* <- concept_website;;*);
+	[193050723]
+	(* <- concept_ucn;;*);
+	[ул. Карла Либкнехта, 66, офис 66]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

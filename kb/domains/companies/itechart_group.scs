@@ -1,0 +1,24 @@
+company_itechart_group <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Техартгруп]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+ 375 17 240 99 02]
+	(* <- concept_phone_number;;*);
+	[hello@itechart_group.com]
+	(* <- concept_email;;*);
+	[http://www.itechart.com/]
+	(* <- concept_website;;*);
+	[190973325]
+	(* <- concept_ucn;;*);
+	[ул. Толстого, д. 10, изолированное пом. № 155, офисное помещение № 355]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2008;
+=>nrel_scope:
+	it;;
+

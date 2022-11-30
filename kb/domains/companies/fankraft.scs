@@ -1,0 +1,24 @@
+company_fankraft <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Фанкрафт]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375445113939]
+	(* <- concept_phone_number;;*);
+	[info@funcraft.games]
+	(* <- concept_email;;*);
+	[http://funcraft.games/]
+	(* <- concept_website;;*);
+	[193204999]
+	(* <- concept_ucn;;*);
+	[ул. Веры Хоружей, 34А, офис 2Н]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2019;
+=>nrel_scope:
+	it;;
+

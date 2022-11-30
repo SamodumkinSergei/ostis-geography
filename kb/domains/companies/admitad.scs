@@ -1,0 +1,24 @@
+company_admitad <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Адмитад]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_17 3181699]
+	(* <- concept_phone_number;;*);
+	[by.sales@admitad.com]
+	(* <- concept_email;;*);
+	[http://www.admitad.com/]
+	(* <- concept_website;;*);
+	[191305039]
+	(* <- concept_ucn;;*);
+	[ул.Кирова, 8, офис 14]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2010;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,24 @@
+company_vipiay_development_centr <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ВиПиАй Девелопмент Центр]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_17_283_68_53]
+	(* <- concept_phone_number;;*);
+	[p.khovrenkov@vpi_minsk.com]
+	(* <- concept_email;;*);
+	[http://www.vpi_minsk.by]
+	(* <- concept_website;;*);
+	[800011158]
+	(* <- concept_ucn;;*);
+	[ул. Филимонова, д. 15]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2001;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,12 @@
+regional_infectious_diseases_clinical_hospital_grodno <- concept_hospital;
+=> nrel_main_idtf:
+   [Grodno regional infectious diseases clinical hospital]
+   (* <- lang_en;; <- name_en;;*);
+   [Гродненская областная инфекционная клиническая больница]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375152435209]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [http://goicb.by]
+   (*<-concept_site;;*);;

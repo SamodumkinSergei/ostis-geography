@@ -1,0 +1,12 @@
+veterinarnaja_klinika_apteka <- concept_veterinary;
+=> nrel_main_idtf:
+[Veterinary Clinic Pharmacy]
+(* <- lang_en;; <- name_en;;*);
+[Ветеринарная клиника Аптека]
+(* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    baranavichy_district;;

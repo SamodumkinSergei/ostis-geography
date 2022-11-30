@@ -1,0 +1,24 @@
+company_ntlab_is <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[НТЛаб_ИС]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375172909797]
+	(* <- concept_phone_number;;*);
+	[office@ntlab.com]
+	(* <- concept_email;;*);
+	[http://www.ntlab_is.by/]
+	(* <- concept_website;;*);
+	[191060307]
+	(* <- concept_ucn;;*);
+	[ул. Сурганова, д. 41, каб. 415]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2016;
+=>nrel_scope:
+	it;;
+

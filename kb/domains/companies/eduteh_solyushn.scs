@@ -1,0 +1,24 @@
+company_eduteh_solyushn <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ЭдуТех Солюшн]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_17_239_06_80]
+	(* <- concept_phone_number;;*);
+	[info@znaj.by]
+	(* <- concept_email;;*);
+	[https://znaj.by]
+	(* <- concept_website;;*);
+	[193287594]
+	(* <- concept_ucn;;*);
+	[ул. Франциска Скорины, д.15Б_2]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2019;
+=>nrel_scope:
+	it;;
+

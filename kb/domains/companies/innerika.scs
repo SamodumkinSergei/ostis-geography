@@ -1,0 +1,20 @@
+company_innerika <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ИННЕРИКА]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[main.office@innerica.by]
+	(* <- concept_email;;*);
+	[https://innerica.ru/]
+	(* <- concept_website;;*);
+	[193298378]
+	(* <- concept_ucn;;*);
+	[ул. Логойский тракт, д. 22А/2, офис 707]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

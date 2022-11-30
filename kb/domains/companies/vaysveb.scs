@@ -1,0 +1,24 @@
+company_vaysveb <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ВайсВеб]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_17_236_80_55]
+	(* <- concept_phone_number;;*);
+	[info@wiseweb.by]
+	(* <- concept_email;;*);
+	[http://www.wiseweb.by/]
+	(* <- concept_website;;*);
+	[191670197]
+	(* <- concept_ucn;;*);
+	[ул.Одоевского, д. 101А, пом. 443]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2011;
+=>nrel_scope:
+	it;;
+

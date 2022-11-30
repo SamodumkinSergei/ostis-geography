@@ -1,0 +1,24 @@
+company_centr_razrabotki_pi_es_ey <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Центр Разработки ПИ ЭС ЭЙ]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 128 98 10]
+	(* <- concept_phone_number;;*);
+	[info@psa.inc]
+	(* <- concept_email;;*);
+	[http://www.psa.inc]
+	(* <- concept_website;;*);
+	[192671637]
+	(* <- concept_ucn;;*);
+	[ул. Нарочанская, 11, пом. 64]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2016;
+=>nrel_scope:
+	it;;
+

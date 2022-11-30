@@ -1,0 +1,22 @@
+company_gudgeymzsoft <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ГудГеймзСофт]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29 773 75 46]
+	(* <- concept_phone_number;;*);
+	[info@goodville.me]
+	(* <- concept_email;;*);
+	[193316072]
+	(* <- concept_ucn;;*);
+	[ул. Гамарника, 30, пом. 409]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2019;
+=>nrel_scope:
+	it;;
+
