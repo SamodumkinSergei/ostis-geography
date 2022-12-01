@@ -31,4 +31,5 @@ concept_hospital
 		{
 			concept_hospital
 		};;
-	*);;
+	*);
+<= nrel_inclusion: concept_administrative_unit;;

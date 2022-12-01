@@ -11,14 +11,14 @@ nrel_phone_number
 	(* <- lang_ru;; *);
 	[phone number]
 	(* <- lang_en;; *);
-=>nrel_first_domain: concept_institution_of_higher_education;
+=>nrel_first_domain: concept_administrative_unit;
 =>nrel_second_domain: concept_phone_number;
 =>nrel_definitional_domain:
 	...
 	(*
 	<= nrel_combination:
 		{
-		concept_institution_of_higher_education;
+		concept_administrative_unit;
 		concept_phone_number
 		};;
 	*);
@@ -35,18 +35,18 @@ nrel_phone_number
 		...
 		(*
 		->rrel_example:
-			[Телефонный номер* — бинарное отношение, связывающее высшее учебное заведение и номер телефонной сети, присвоенной этому учебному заведению, зная который, можно ему позвонить.]
+			[Телефонный номер* — бинарное отношение, связывающее административную единицу и номер телефонной сети, зная который, можно позвонить.]
 			(* <- lang_ru;; *);;
 		*);
 		...
 		(*
 		-> rrel_example: 
-			[Telephone number* - a binary relation that connects an institution of higher education and a telephone network number assigned to that the institution.]
+			[Telephone number* - a binary relation that connects an administrative unit and a telephone network number assigned to that unit.]
 			(* <- lang_en;; *);;
 		*);;
 	<= nrel_using_constants:
 		{
-            concept_institution_of_higher_education;
+            concept_administrative_unit;
 			concept_phone_number;
             binary_relation
 		};;

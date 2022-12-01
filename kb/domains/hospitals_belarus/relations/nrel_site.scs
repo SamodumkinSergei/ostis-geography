@@ -12,7 +12,7 @@ nrel_site
 	(* <- lang_ru;; *);
 	[site]
 	(* <- lang_en;; *);
-=>nrel_first_domain: concept_hospital;
+=>nrel_first_domain: concept_administrative_unit;
 =>nrel_second_domain: concept_site;
 =>nrel_definitional_domain:
 	...
@@ -20,7 +20,7 @@ nrel_site
 	<= nrel_combination:
 		{
 		concept_administrative_unit;
-		concept_region
+		concept_site
 		};;
 	*);
 <- rrel_key_sc_element:
@@ -36,13 +36,13 @@ nrel_site
 		...
 		(*
 		->rrel_example:
-			[Сайт* — бинарное отношение, связывающее больницу и ее сайт.]
+			[Сайт* — бинарное отношение, административную единицу и ее сайт.]
 			(* <- lang_ru;; *);;
 		*);
 		...
 		(*
 		-> rrel_example: 
-			[Site* - a binary relation that connects a hospital and site assigned to that hospital.]
+			[Site* - a binary relation that connects an administrative unit and site assigned to that unit.]
 			(* <- lang_en;; *);;
 		*);;
 	<= nrel_using_constants:
