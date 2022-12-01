@@ -1,0 +1,39 @@
+section_subject_domain_of_banking_institutions
+=> nrel_main_idtf:
+	[Раздел. Предметная область банковских учреждений]
+  (* <- lang_ru;; *);
+	[Section. Subject domain of banking institutions] 
+  (* <- lang_en;; *);;
+
+section_subject_domain_of_banking_institutions = [*
+	subject_domain_of_banking_institutions
+<- sc_node_struct;
+	=> nrel_main_idtf:
+    [Предметная область банковских учреждений]
+   (* <- lang_ru;; *);
+    [Subject domain of banking institutions]
+   (* <- lang_en;; *);
+	<- subject_domain;
+	-> rrel_maximum_studied_object_class:
+    concept_bank;
+	-> rrel_not_maximum_studied_object_class:
+    concept_bank_employee;
+    concept_atm;
+    concept_banking_institution_brand;
+    concept_banking_institution;
+    concept_bureau_de_change;
+	-> rrel_explored_relation:
+    nrel_operator;
+    nrel_atm_availability;;
+*];;
+
+section_subject_domain_of_banking_institutions
+-> rrel_key_sc_element:
+    subject_domain_of_banking_institutions;
+    concept_banking_institution_brand; 
+    concept_bank;
+    concept_banking_institution;
+    concept_bank_employee;
+    concept_bureau_de_change;
+    nrel_operator;
+    nrel_atm_availability;;

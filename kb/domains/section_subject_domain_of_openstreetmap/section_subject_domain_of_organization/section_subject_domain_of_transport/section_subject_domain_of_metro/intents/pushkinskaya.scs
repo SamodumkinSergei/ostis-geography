@@ -1,0 +1,14 @@
+pushkinskaya
+-> concept_metro_station;
+-> concept_metro_line;
+
+=> nrel_attribute: nrel_built;
+=> nrel_attribute: nrel_location;
+
+
+=> nrel_main_idtf: 
+    [Пушкинская](* <- lang_ru;; *);
+    [Pushkinskaya](* <- lang_en;; *);
+
+=> nrel_note:
+[Пушкинская – станция метро, построенная 3 июля 1995 года. Пушкинская находится на Автозаводской линии и имеет код станции 220.](* <- lang_ru;; *);;

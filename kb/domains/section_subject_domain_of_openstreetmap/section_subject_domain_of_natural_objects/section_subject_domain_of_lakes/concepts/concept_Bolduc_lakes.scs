@@ -1,0 +1,37 @@
+concept_Bolduc_lakes
+<- sc_node_class;
+<-concept_lake_group;
+=>nrel_main_idtf:
+	[Болдукская группа озер]
+	(* <- lang_ru;; *);
+	[Bolduc group of lakes]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Болдукская группа озер)]
+		(* <- lang_ru;; *);
+		[Def. (Bolduc group of lakes)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Болдукская группа озёр  — группа озёр на территории Мядельского района Минской области.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Bolduk Lakes are a group of lakes on the territory of the Myadelsky district of the Minsk region.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_lake_group;
+			myadzel_district;
+			minsk_region
+		};;
+	*);;

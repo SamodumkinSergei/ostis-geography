@@ -1,0 +1,14 @@
+pervomayskaya
+-> concept_metro_station;
+-> concept_metro_line;
+
+=> nrel_attribute: nrel_built;
+=> nrel_attribute: nrel_location;
+
+
+=> nrel_main_idtf: 
+    [Первомайская](* <- lang_ru;; *);
+    [Pervomayskaya](* <- lang_en;; *);
+
+=> nrel_note:
+[Первомайская – станция метро, построенная 28 мая 1991 года. Первомайская находится на Автозаводской линии и имеет код станции 215.](* <- lang_ru;; *);;

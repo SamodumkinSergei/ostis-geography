@@ -1,0 +1,14 @@
+partizanskaya
+-> concept_metro_station;
+-> concept_metro_line;
+
+=> nrel_attribute: nrel_built;
+=> nrel_attribute: nrel_location;
+
+
+=> nrel_main_idtf: 
+    [Партизанская](* <- lang_ru;; *);
+    [Partizanskaya](* <- lang_en;; *);
+
+=> nrel_note:
+[Партизанская – станция метро, построенная 7 ноября 1997 года. Партизанская находится на Автозаводской линии и имеет код станции 212.](* <- lang_ru;; *);;

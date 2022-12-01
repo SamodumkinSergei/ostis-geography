@@ -1,0 +1,64 @@
+section_subject_domain_of_openstreetmap
+    => nrel_main_idtf:
+        [Раздел. Предметная область OpenStreetMap] (* <- lang_ru;; *);
+        [Section. Subject domain of OpenStreetMap] (* <- lang_en;; *);
+<- sc_node_not_relation;
+<- atomic_section;
+
+=> nrel_private_subject_domain:
+            section_subject_domain_of_administrative_territorial_units;
+            section_subject_domain_of_natural_objects;
+            section_subject_domain_of_organization;;
+
+
+section_subject_domain_of_openstreetmap = [*
+    subject_domain_of_openstreetmap
+    => nrel_main_idtf: 
+        [Предметная область OpenStreetmap] (* <- lang_ru;; *);
+        [Subject domain of OpenStreetmap] (* <- lang_en;; *);
+    <- subject_domain;
+    //->rrel_maximum_studied_object_class:
+    // concept_openstreetmap;
+    ->rrel_not_maximum_studied_object_class:
+    concept_chain_store;
+    concept_map_object;
+    concept_monument;
+    concept_openstreetmap_tag;
+    concept_sights;
+    ->rrel_explored_relation:
+    nrel_amount_of_children;
+    nrel_built;
+    nrel_catering_opening_year;
+    nrel_catering_price_category;
+    nrel_cuisine;
+    nrel_day_of_work;
+    nrel_distance;
+    nrel_foundation_year;
+    nrel_latitude;
+    nrel_monument_type;
+    nrel_rate;
+    nrel_search_area;
+    nrel_working_hours;;
+*];;
+
+section_subject_domain_of_openstreetmap
+-> rrel_key_sc_element:
+    subject_domain_of_openstreetmap; 
+    concept_chain_store;
+    concept_map_object;
+    concept_monument;
+    concept_openstreetmap_tag;
+    concept_sights;
+    nrel_amount_of_children;
+    nrel_built;
+    nrel_catering_opening_year;
+    nrel_catering_price_category;
+    nrel_cuisine;
+    nrel_day_of_work;
+    nrel_distance;
+    nrel_foundation_year;
+    nrel_latitude;
+    nrel_monument_type;
+    nrel_rate;
+    nrel_search_area;
+    nrel_working_hours;;

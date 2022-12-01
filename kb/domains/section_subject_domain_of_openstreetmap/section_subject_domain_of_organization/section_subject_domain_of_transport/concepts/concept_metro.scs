@@ -1,0 +1,39 @@
+sc_node_class -> concept_metro;;
+
+concept_metro => nrel_system_idtf: [concept_metro];;
+concept_metro => nrel_main_idtf: [Метро](*<- lang_ru;;*);;
+concept_metro => nrel_idtf: [Метро](*<- lang_ru;;*);;
+concept_metro => nrel_idtf: [Metro](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_metro;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Метро — городская внеуличная железная дорога, имеющая собственный габарит, инженерно отделённая от любого другого транспорта и пешеходного движения и предназначенная для пассажирского движения.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Метро)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+		->concept_railway;;
+		->concept_size;;
+		->concept_vehicle;;
+        *);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_metro;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Может быть подземным (в тоннелях), наземным (на поверхности земли) и надземным (на эстакадах).](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(Об.Метро)](*<- lang_ru;;*);;
+<= nrel_using_constants: ...
+        (*
+->concept_tunnel;;
+->concept_surface;;
+->concept_overpass;;
+        *);;
+*);;

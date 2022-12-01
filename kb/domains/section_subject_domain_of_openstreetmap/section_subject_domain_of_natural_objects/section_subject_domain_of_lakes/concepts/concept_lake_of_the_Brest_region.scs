@@ -1,0 +1,36 @@
+concept_lake_of_the_Brest_region
+<- sc_node_class;
+<-concept_lake_group;
+=>nrel_main_idtf:
+	[озеро Брестской области]
+	(* <- lang_ru;; *);
+	[lake of the Brest region]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (озеро Брестской области)]
+		(* <- lang_ru;; *);
+		[Def. (lake of the Brest region)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Озеро Брестской области — озеро, которое располагается в Брестской области.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Lake of the Brest region is a lake, which is located in the Brest region.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			brest_region;
+            belarus
+		};;
+	*);;

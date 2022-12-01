@@ -1,0 +1,17 @@
+monument_prince_boris
+<- concept_monument;
+
+=> nrel_main_idtf: 
+ 	[Памятник князю Борису] (*<-lang_ru;;*);
+	[Monument to Prince Boris-Barysaw] (*<-lang_en;;*);
+
+///определение
+<- rrel_key_sc_element: ... (*
+	<- definition;;
+    => nrel_main_idtf:
+      [Опр. (памятник мулявину)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+        [Памятник князю Борису – появился в центре города в 2002 году, в 900-летний юбилей Борисова.] (* <- lang_ru;; => nrel_format: format_html;;*);;
+    *);;
+*);;

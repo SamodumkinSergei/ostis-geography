@@ -1,0 +1,32 @@
+concept_organization
+<-sc_node_class;
+=>nrel_main_idtf:
+	[организация]
+	(* <- lang_ru;; *);
+	[organization]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (организация)]
+		(* <- lang_ru;; *);
+		[Def. (organization)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Организация - это общественное объединение или государственное учреждение.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[An organization is a public association or government agency.]
+			(* <- lang_en;; *);;
+		*);;
+	
+	*);;

@@ -1,0 +1,17 @@
+monument_sofia_slutskaya
+<- concept_monument;
+
+=> nrel_main_idtf: 
+ 	[Памятник Софии Слуцкой] (*<-lang_ru;;*);
+	[Monument to Sofia Slutskaya] (*<-lang_en;;*);
+
+///определение
+<- rrel_key_sc_element: ... (*
+	<- definition;;
+    => nrel_main_idtf:
+      [Определение (памятник Софии Слуцкой)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+        [Памятник Софии Слуцкой – одна из важных достопримечательностей города.] (* <- lang_ru;; => nrel_format: format_html;;*);;
+    *);;
+*);;

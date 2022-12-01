@@ -1,0 +1,22 @@
+sc_node_class -> concept_botanical_garden;;
+sc_node_class -> concept_territory;;
+sc_node_class -> concept_plants;;
+
+sc_node_class -> nrel_placed;;
+
+concept_botanical_garden => nrel_main_idtf: [Ботанический сад](* <- lang_ru;; *);;
+concept_botanical_garden => nrel_main_idtf: [Botanical Garden](* <- lang_en;; *);;
+
+   
+definition ->...
+(*
+	-> rrel_key_sc_element : concept_botanical_garden;;
+	<= nrel_sc_text_translation: ...(*->rrel_example:[Ботанический сад – Озелененная территория специального назначения, на которой размещается коллекци растений.](*<-lang_ru;;*);;*);;
+	=> nrel_main_idtf: [Определение (Ботанический сад)](*<- lang_ru;;*);;
+	=> nrel_using_constants: ...
+	(*
+           -> concept_territory;;
+		   -> concept_plants;;
+		   -> nrel_placed;;
+	*);;
+*);;

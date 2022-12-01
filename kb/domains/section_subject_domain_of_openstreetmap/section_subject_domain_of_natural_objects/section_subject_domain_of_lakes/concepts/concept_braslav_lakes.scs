@@ -1,0 +1,19 @@
+sc_node_class -> concept_braslav_lakes;;
+sc_node_not_relation -> concept_national_park;;
+
+concept_braslav_lakes => nrel_main_idtf: [Браславские озера](* <- lang_ru;; *);;
+concept_braslav_lakes => nrel_main_idtf: [Braslav lakes](* <- lang_en;; *);;
+
+definition ->...
+(*
+	-> rrel_key_sc_element : concept_braslav_lakes;;
+	<= nrel_sc_text_translation: ...(*->rrel_example:[Браславские озера – это огромный национальный парк.](*<-lang_ru;;*);;*);;
+	=> nrel_main_idtf: [Определение (Браславские озера)](*<- lang_ru;;*);;
+*);;
+
+statement ->...
+(*
+	-> rrel_key_sc_element :  concept_braslav_lakes;;
+	<= nrel_sc_text_translation: ...(*->rrel_example:[в его состав входят 60 озер.](*<-lang_ru;;*);;*);;
+	=> nrel_main_idtf: [Утверждение(Браславские озера)](*<- lang_ru;;*);;
+*);;

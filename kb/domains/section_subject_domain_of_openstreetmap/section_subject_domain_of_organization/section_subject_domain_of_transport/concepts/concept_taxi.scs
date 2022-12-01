@@ -1,0 +1,40 @@
+sc_node_class -> concept_taxi;;
+
+concept_taxi => nrel_system_idtf: [concept_taxi];;
+concept_taxi => nrel_main_idtf: [Такси](*<- lang_ru;;*);;
+concept_taxi => nrel_idtf: [Такси](*<- lang_ru;;*);;
+concept_taxi => nrel_idtf: [Taxi](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_taxi;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Такси — автомобиль, предназначенный для перевозки пассажиров в любое место назначения с оплатой проезда, измеряемой по таксометру.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Такси)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+		->concept_vehicle;;
+		->concept_passenger;;
+		->concept_fare;;
+		->concept_taximeter;;
+		->concept_destination;;
+        *);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_taxi;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Чаще всего в качестве автомобилей такси используются седаны или минивэны.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(Об.Такси)](*<- lang_ru;;*);;
+<= nrel_using_constants: ...
+        (*
+->concept_sedan;;
+->concept_minivan;;
+        *);;
+*);;

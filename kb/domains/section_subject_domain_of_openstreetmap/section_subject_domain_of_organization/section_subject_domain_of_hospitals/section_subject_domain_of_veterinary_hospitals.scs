@@ -1,0 +1,41 @@
+section_subject_domain_of_veterinary_hospitals
+=> nrel_main_idtf:
+	[Раздел. Предметная область ветеринарных клиник]
+  (* <- lang_ru;; *);
+	[Section. Subject domain of veterinaries hospitals] 
+  (* <- lang_en;; *);;
+
+section_subject_domain_of_veterinary_hospitals = [*
+	subject_domain_of_veterinary_hospitals
+<- sc_node_struct;
+	=> nrel_main_idtf:
+    [Предметная область ветеринарных клиник]
+   (* <- lang_ru;; *);
+    [Subject domain of verinaries hospitals]
+   (* <- lang_en;; *);
+	<- subject_domain;
+	-> rrel_maximum_studied_object_class:
+    concept_abstract_veterinary_hospital;
+	-> rrel_not_maximum_studied_object_class:
+    concept_doctor;
+    concept_veterinary;
+	-> rrel_explored_relation:
+    nrel_phone_number;
+    nrel_site;
+    nrel_email;
+    nrel_close_time;
+    nrel_open_time;;
+*];;
+
+
+section_subject_domain_of_veterinary_hospitals
+-> rrel_key_sc_element:
+    subject_domain_of_veterinary_hospital; 
+    concept_abstract_veterinary_hospital;
+    concept_doctor;
+    concept_veterinary;
+    nrel_phone_number;
+    nrel_site;
+    nrel_email;
+    nrel_close_time;
+    nrel_open_time;;

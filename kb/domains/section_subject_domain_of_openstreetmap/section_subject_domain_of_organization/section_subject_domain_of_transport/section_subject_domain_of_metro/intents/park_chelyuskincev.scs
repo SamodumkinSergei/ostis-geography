@@ -1,0 +1,14 @@
+park_chelyuskincev
+-> concept_metro_station;
+-> concept_metro_line;
+
+=> nrel_attribute: nrel_built;
+=> nrel_attribute: nrel_location;
+
+
+=> nrel_main_idtf: 
+    [Парк Челюскинцев](* <- lang_ru;; *);
+    [Park Chelyuskincev](* <- lang_en;; *);
+
+=> nrel_note:
+[Парк Челюскинцев – станция метро, построенная 30 июня 1984 года. Парк Челюскинцев находится на Московской ветке и имеет код станции 120.](* <- lang_ru;; *);;

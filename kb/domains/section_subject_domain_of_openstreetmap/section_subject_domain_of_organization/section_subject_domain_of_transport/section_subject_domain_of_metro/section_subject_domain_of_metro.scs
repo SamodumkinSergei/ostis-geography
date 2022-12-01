@@ -1,0 +1,35 @@
+section_subject_domain_of_metro
+=> nrel_main_idtf:
+	[Раздел. Предметная область метро]
+  (* <- lang_ru;; *);
+	[Section. Subject domain of metro] 
+  (* <- lang_en;; *);;
+
+section_subject_domain_of_metro = [*
+	subject_domain_of_metro
+<- sc_node_struct;
+	=> nrel_main_idtf:
+    [Предметная область метро]
+   (* <- lang_ru;; *);
+    [Subject domain of metro]
+   (* <- lang_en;; *);
+	<- subject_domain;
+	-> rrel_maximum_studied_object_class:
+    concept_abstract_metro;
+	-> rrel_not_maximum_studied_object_class:
+    concept_abstract_metro_station;
+	-> rrel_explored_relation:
+    nrel_built;
+    nrel_location;;
+*];;
+
+
+section_subject_domain_of_metro
+-> rrel_key_sc_element:
+    subject_domain_of_cinema; 
+    concept_abstract_metro;
+    concept_abstract_metro_station;
+    concept_metro_line;
+    concept_metro_station;
+    nrel_built;
+    nrel_location;;

@@ -1,0 +1,20 @@
+monument_mulyavin
+<- concept_monument;
+
+=> nrel_main_idtf: 
+ 	[Памятник Мулявину] (*<-lang_ru;;*);
+	[Monument Mulyavin] (*<-lang_en;;*);
+
+///определение
+<- rrel_key_sc_element: ... (*
+	<- definition;;
+    => nrel_main_idtf:
+      [Опр. (памятник мулявину)] (* <- lang_ru;; *);;
+    => nrel_using_constants: {
+        concept_monument
+};;
+<= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+        [Памятник Мулявину — памятник основателю ансамбля «Песняры».] (* <- lang_ru;; => nrel_format: format_html;;*);;
+    *);;
+*);;

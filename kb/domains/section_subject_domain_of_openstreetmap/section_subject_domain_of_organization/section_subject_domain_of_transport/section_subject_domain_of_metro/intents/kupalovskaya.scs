@@ -1,0 +1,14 @@
+kupalovskaya
+-> concept_metro_station;
+-> concept_metro_line;
+
+=> nrel_attribute: nrel_built;
+=> nrel_attribute: nrel_location;
+
+
+=> nrel_main_idtf: 
+    [Купаловская](* <- lang_ru;; *);
+    [Kupalovskaya](* <- lang_en;; *);
+
+=> nrel_note:
+[Купаловская – станция метро, построенная 31 декабря 1990 года. Купаловская находится на Автозаводской линии и имеет код станции 216.](* <- lang_ru;; *);;

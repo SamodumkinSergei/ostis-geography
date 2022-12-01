@@ -1,0 +1,14 @@
+frunzenskaya
+-> concept_metro_station;
+-> concept_metro_line;
+
+=> nrel_attribute: nrel_built;
+=> nrel_attribute: nrel_location;
+
+
+=> nrel_main_idtf: 
+    [Фрунзенская](* <- lang_ru;; *);
+    [Frunzenskaya](* <- lang_en;; *);
+
+=> nrel_note:
+[Фрунзенская – станция метро, построенная 31 декабря 1990 года. Фрунзенская находится на Автозаводской линии и имеет код станции 218.](* <- lang_ru;; *);;

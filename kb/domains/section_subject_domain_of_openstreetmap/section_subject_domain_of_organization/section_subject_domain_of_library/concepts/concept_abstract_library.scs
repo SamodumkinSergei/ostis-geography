@@ -1,0 +1,31 @@
+concept_abstract_library <-sc_node_class;
+=>nrel_main_idtf:
+    [library]
+    (* <- lang_en;;*);
+    [библиотека]
+    (* <- lang_ru;;*);
+
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+        [Опр. (Библиотека)]
+        (* <- lang_ru;; *);
+        [Def. (Library)]
+        (* <- lang_en;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Библиотека - учреждение, собирающее и осуществляющее хранение произведений печати и письменности для общественного пользования, а также ведущее справочно-библиографическую работу.]
+                    (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [A library is an institution that collects and preserves printed and written works for public use and conducts reference and bibliographic work.]
+                    (* <- lang_en;; *);;
+            *);;
+    *);;
+

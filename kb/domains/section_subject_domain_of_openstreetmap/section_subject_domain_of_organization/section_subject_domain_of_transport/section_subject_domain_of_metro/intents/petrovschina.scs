@@ -1,0 +1,14 @@
+petrovschina
+-> concept_metro_station;
+-> concept_metro_line;
+
+=> nrel_attribute: nrel_built;
+=> nrel_attribute: nrel_location;
+
+
+=> nrel_main_idtf: 
+    [Петровщина](* <- lang_ru;; *);
+    [Petrovschina](* <- lang_en;; *);
+
+=> nrel_note:
+[Петровщина – станция метро, построенная 7 ноября 2012 года. Петровщина находится на Московской ветке и имеет код станции 111.](* <- lang_ru;; *);;

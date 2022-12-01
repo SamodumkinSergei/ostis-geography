@@ -1,0 +1,14 @@
+mogilevskaya
+-> concept_metro_station;
+-> concept_metro_line;
+
+=> nrel_attribute: nrel_built;
+=> nrel_attribute: nrel_location;
+
+
+=> nrel_main_idtf: 
+    [Могилёвская](* <- lang_ru;; *);
+    [Mogilevskaya](* <- lang_en;; *);
+
+=> nrel_note:
+[Могилёвская – станция метро, построенная 5 сентября 2001 года. Могилёвская находится на Автозаводской линии и имеет код станции 210.](* <- lang_ru;; *);;

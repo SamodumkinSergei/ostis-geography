@@ -1,0 +1,32 @@
+concept_sights
+<- sc_node_class;
+<- class;
+
+=> nrel_main_idtf:
+    [достопримечательности] (*<-lang_ru;;*);
+    [sights] (*<-lang_en;;*);
+
+///определение
+<- rrel_key_sc_element: ... (*
+	<- definition;;
+    => nrel_main_idtf:
+      [Определение (Достопримечательность)] (* <- lang_ru;; *);;
+<= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+        [Достопримечательность -  место или объект заслуживающие особого внимания.] (* <- lang_ru;; => nrel_format: format_html;;*);;
+    *);;
+*);
+
+//утверждение
+<- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утв.(Достопримечательность)] (* <- lang_ru;; *);;
+    => nrel_using_constants: {
+		concept_hobby
+};; 
+<= nrel_sc_text_translation: ... (*
+    -> rrel_example:
+	[Понятие достопримечательность было разработано Джоном Мюрреем.](*<-lang_ru;; => nrel_format: format_html;;*);;
+    *);;
+*);;

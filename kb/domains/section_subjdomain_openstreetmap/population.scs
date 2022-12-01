@@ -1,6 +1,0 @@
-sc_node_norole_relation -> nrel_population;;
-sc_relation -> nrel_distance;;
-nrel_population
-	=> nrel_main_idtf: 
-		[ население* ] (* <-lang_ru;; *);
-		[ population* ] (* <-lang_en;; *);;

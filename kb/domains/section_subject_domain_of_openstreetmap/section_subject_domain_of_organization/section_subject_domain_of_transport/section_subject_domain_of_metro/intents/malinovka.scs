@@ -1,0 +1,14 @@
+malinovka
+-> concept_metro_station;
+-> concept_metro_line;
+
+=> nrel_attribute: nrel_built;
+=> nrel_attribute: nrel_location;
+
+
+=> nrel_main_idtf: 
+    [Малиновка](* <- lang_ru;; *);
+    [Malinovka](* <- lang_en;; *);
+
+=> nrel_note:
+[Малиновка – станция метро, построенная 3 июня 2014 года. Малиновка находится на Московской ветке и имеет код станции 110.](* <- lang_ru;; *);;

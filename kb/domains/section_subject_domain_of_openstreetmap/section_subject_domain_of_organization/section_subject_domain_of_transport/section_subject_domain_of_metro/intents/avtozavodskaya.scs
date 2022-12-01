@@ -1,0 +1,14 @@
+avtozavodskaya
+-> concept_metro_station;
+-> concept_metro_line;
+
+=> nrel_attribute: nrel_built;
+=> nrel_attribute: nrel_location;
+
+
+=> nrel_main_idtf: 
+    [Автозаводская](* <- lang_ru;; *);
+    [Avtozavodskaya](* <- lang_en;; *);
+
+=> nrel_note:
+[Автозаводская – станция метро, построенная 7 ноября 1997 года. Автозаводская находится на Автозаводской линии и имеет код станции 211.](* <- lang_ru;; *);;

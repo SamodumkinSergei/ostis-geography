@@ -1,0 +1,14 @@
+moskovskaya
+-> concept_metro_station;
+-> concept_metro_line;
+
+=> nrel_attribute: nrel_built;
+=> nrel_attribute: nrel_location;
+
+
+=> nrel_main_idtf: 
+    [Московская](* <- lang_ru;; *);
+    [Moskovskaya](* <- lang_en;; *);
+
+=> nrel_note:
+[Московская – станция метро, построенная 30 июня 1984 года. Московская находится на Московской ветке и имеет код станции 121.](* <- lang_ru;; *);;

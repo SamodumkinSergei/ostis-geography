@@ -1,0 +1,30 @@
+concept_swamp
+<- sc_node_class;
+=>nrel_main_idtf:
+	[Болото]
+	(* <- lang_ru;; *);
+	[swamp]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (болото)]
+		(* <- lang_ru;; *);
+		[Def. (swamp)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Болото - участок ландшафта, характеризующийся избыточным увлажнением, влаголюбивым живым напочвенным покровом.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[A swamp is a forested wetland]
+			(* <- lang_en;; *);;
+		*);;
+	*);;

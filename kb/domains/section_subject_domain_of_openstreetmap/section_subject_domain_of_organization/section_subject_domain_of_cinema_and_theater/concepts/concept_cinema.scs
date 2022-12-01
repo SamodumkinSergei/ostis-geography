@@ -1,0 +1,36 @@
+concept_cinema
+<-sc_node_class;
+=>nrel_main_idtf:
+	[кинотеатр]
+	(* <- lang_ru;; *);
+	[cinema]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (кинотеатр)]
+		(* <- lang_ru;; *);
+		[Def. (cinema)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Кинотеатр - общественное здание или  его часть, для публичной демонстрации кинофильмов.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[A cinema is a public building or part of it with equipment for public demonstration of films]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_cinema
+		};;
+	*);;
+
+concept_cinema <= nrel_inclusion: concept_theater;;

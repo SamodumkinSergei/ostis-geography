@@ -1,0 +1,14 @@
+ploschad_lenina
+-> concept_metro_station;
+-> concept_metro_line;
+
+=> nrel_attribute: nrel_built;
+=> nrel_attribute: nrel_location;
+
+
+=> nrel_main_idtf: 
+    [Площадь Ленина](* <- lang_ru;; *);
+    [Ploschad Lenina](* <- lang_en;; *);
+
+=> nrel_note:
+[Площадь Ленина – станция метро, построенная 30 июня 1984 года. Площадь Ленина находится на Московской ветке и имеет код станции 115.](* <- lang_ru;; *);;

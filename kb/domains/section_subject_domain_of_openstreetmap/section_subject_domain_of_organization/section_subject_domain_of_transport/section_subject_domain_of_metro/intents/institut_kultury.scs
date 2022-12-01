@@ -1,0 +1,14 @@
+institut_kultury
+-> concept_metro_station;
+-> concept_metro_line;
+
+=> nrel_attribute: nrel_built;
+=> nrel_attribute: nrel_location;
+
+
+=> nrel_main_idtf: 
+    [Институт культуры](* <- lang_ru;; *);
+    [Institut kultury](* <- lang_en;; *);
+
+=> nrel_note:
+[Институт культуры – станция метро, построенная 30 июня 1984 года. Институт культуры находится на Московской ветке и имеет код станции 114.](* <- lang_ru;; *);;
