@@ -1,0 +1,31 @@
+pole_dance
+<- concept_dance_style;
+
+=> nrel_main_idtf:
+	[Танец на шесте](* <- lang_ru;; *);
+        [Pole dance](* <-lang_en;; *);
+
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+   	    	[Опр. (Танец на шесте)]
+		(* <- lang_ru;; *);
+		[Def. (Pole dance)]
+		(* <- lang_en;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Танец на шесте - разновидность танца, в которой исполнитель выступает на одном или двух пилонах, сочетая элементы хореографии, спортивной гимнастики, акробатики.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Pole dance - a kind of dance in which the performer performs on one or two pylons, combining elements of choreography, gymnastics, and acrobatics.]
+			(* <- lang_en;; *);;
+		*);;
+      
+  *);; 
