@@ -8,15 +8,15 @@
 #include "sc-memory/kpm/sc_agent.hpp"
 
 #include "keynodes/keynodes.hpp"
-#include "MuseumsRegionSearch.generated.hpp"
+#include "SearchMuseumsByRegion.generated.hpp"
 
-namespace MuseumsRegionSearchModule
+namespace MuseumsModule
 {
 
-class MuseumsRegionSearch : public ScAgent
+class SearchMuseumsByRegion : public ScAgent
 {
-  SC_CLASS(Agent, Event(Keynodes::action_museumsRegionSearch, ScEvent::Type::AddOutputEdge))
+  SC_CLASS(Agent, Event(Keynodes::action_search_museums_by_region, ScEvent::Type::AddOutputEdge))
   SC_GENERATED_BODY()
 };
 
-}  // namespace MuseumsRegionSearchModule
+}

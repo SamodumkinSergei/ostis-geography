@@ -6,10 +6,10 @@
 
 #include "keynodes.hpp"
 
-namespace MuseumsRegionSearchModule
+namespace MuseumsModule
 {
-ScAddr Keynodes::action_museumsRegionSearch;
 ScAddr Keynodes::nrel_main_idtf;
+ScAddr Keynodes::action_search_museums_by_region;
 ScAddr Keynodes::nrel_region;
 ScAddr Keynodes::concept_museum;
-}  // namespace MuseumsRegionSearchModule
+}  // namespace MuseumsModule

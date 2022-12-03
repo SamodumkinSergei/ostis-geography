@@ -19,5 +19,5 @@ ui_menu_museums_region_search => ui_nrel_command_template:
 		._question_museums_region_instance _<- question;;
 	*];;
 
-ui_menu_museums_region_search => ui_nrel_command_lang_template: [Найти музей по региону $ui_arg_1] (* <- lang_ru;; *);;
-ui_menu_museums_region_search => ui_nrel_command_lang_template: [Find museum by region $ui_arg_1] (* <- lang_en;; *);;
+ui_menu_museums_region_search => ui_nrel_command_lang_template: [Найти музеи по региону $ui_arg_1] (* <- lang_ru;; *);;
+ui_menu_museums_region_search => ui_nrel_command_lang_template: [Find museums by region $ui_arg_1] (* <- lang_en;; *);;

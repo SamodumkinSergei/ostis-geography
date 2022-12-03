@@ -9,14 +9,14 @@
 #include "sc-memory/sc_module.hpp"
 
 #include "keynodes/keynodes.hpp"
-#include "agents/MuseumsRegionSearch.hpp"
+#include "agents/SearchMuseumsByRegion.hpp"
 
-#include "MuseumsRegionSearchModule.generated.hpp"
+#include "MuseumsModule.generated.hpp"
 
-namespace MuseumsRegionSearchModule
+namespace MuseumsModule
 {
 
-class MuseumsRegionSearchModule : public ScModule
+class MuseumsModule : public ScModule
 {
   SC_CLASS(LoadOrder(100))
   SC_GENERATED_BODY()
@@ -25,4 +25,4 @@ class MuseumsRegionSearchModule : public ScModule
 
   virtual sc_result ShutdownImpl() override;
 };
-}  // namespace MuseumsRegionSearchModule
+}  // namespace MuseumsModule
