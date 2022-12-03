@@ -1,0 +1,31 @@
+hip_hop
+<- concept_dance_style;
+
+=> nrel_main_idtf:
+	[Хип хоп](* <- lang_ru;; *);
+        [Hip hop](* <-lang_en;; *);
+
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+   	    	[Опр. (Хип хоп)]
+		(* <- lang_ru;; *);
+		[Def. (Hip hop)]
+		(* <- lang_en;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Хип хоп - очень динамичный и быстрый танец. Относится к уличным танцам свободного стиля, здесь приветствуется импровизация. Есть много стилевых направлений танца от очень пластичных, до откровенно агрессивных.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Hip hop - very dynamic and fast dance. It belongs to free-style street dances, improvisation is welcome here. There are many styles of dance from very plastic to frankly aggressive.]
+			(* <- lang_en;; *);;
+		*);;
+      
+  *);; 

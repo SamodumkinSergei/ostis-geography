@@ -1,0 +1,31 @@
+bachata
+<- concept_dance_style;
+
+=> nrel_main_idtf:
+	[Бачата](* <- lang_ru;; *);
+        [Bachata](* <-lang_en;; *);
+
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+   	    	[Опр. (Бачата)]
+		(* <- lang_ru;; *);
+		[Def. (Bachata)]
+		(* <- lang_en;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Бачата - танец родом из Доминиканской Республики, получивший также широкое распространение в латиноамериканских странах Карибского бассейна.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Bachata - a dance originally from the Dominican Republic, which has also become widespread in the Latin American countries of the Caribbean.]
+			(* <- lang_en;; *);;
+		*);;
+      
+  *);; 

@@ -1,0 +1,31 @@
+modern
+<- concept_dance_style;
+
+=> nrel_main_idtf:
+	[Современный танец](* <- lang_ru;; *);
+        [Modern](* <-lang_en;; *);
+
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+   	    	[Опр. (Современный танец)]
+		(* <- lang_ru;; *);
+		[Def. (Modern)]
+		(* <- lang_en;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Современный танец - современный сценический танец, включающий в себя самые различные направления и техники.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Modern - modern stage dance, which includes a variety of directions and techniques.]
+			(* <- lang_en;; *);;
+		*);;
+      
+  *);; 

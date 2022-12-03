@@ -1,0 +1,31 @@
+latina
+<- concept_dance_style;
+
+=> nrel_main_idtf:
+	[Латиноамериканские танцы](* <- lang_ru;; *);
+        [Latin dance](* <-lang_en;; *);
+
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+   	    	[Опр. (Латиноамериканские танцы)]
+		(* <- lang_ru;; *);
+		[Def. (Latin dance)]
+		(* <- lang_en;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Латиноамериканские танцы - общее название бальных и народных танцев, сформировавшихся на территории Латинской Америки.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Latin dance - the general name of ballroom and folk dances that formed in Latin America.]
+			(* <- lang_en;; *);;
+		*);;
+      
+  *);; 

@@ -1,0 +1,33 @@
+concept_dance_style
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [Стиль танца]
+   (* <- lang_ru;; *);
+=> nrel_main_idtf:
+   [Dance style]
+   (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+   	    [Опр. (Стиль танца)]
+		(* <- lang_ru;; *);
+		[Def. (Dance style)]
+		(* <- lang_en;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Стиль танца — направление танца, котрое имеет свои характерные черты.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Dance style is a direction of dance, which has its own characteristics.]
+			(* <- lang_en;; *);;
+		*);;
+  *);;

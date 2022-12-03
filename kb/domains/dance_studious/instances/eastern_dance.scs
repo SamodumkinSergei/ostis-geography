@@ -1,0 +1,31 @@
+eastern_dance
+<- concept_dance_style;
+
+=> nrel_main_idtf:
+	[Восточные танцы](* <- lang_ru;; *);
+        [Eastern dance](* <-lang_en;; *);
+
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+   	    	[Опр. (Восточные танцы)]
+		(* <- lang_ru;; *);
+		[Def. (Eastern dance)]
+		(* <- lang_en;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Восточные танцы - западное название танцевальной техники, распространённой на Ближнем Востоке и в арабских странах.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Eastern dance - western name for a dance technique common in the Middle East and Arab countries.]
+			(* <- lang_en;; *);;
+		*);;
+      
+  *);; 

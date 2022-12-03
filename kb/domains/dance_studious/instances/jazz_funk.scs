@@ -1,0 +1,31 @@
+jazz_funk
+<- concept_dance_style;
+
+=> nrel_main_idtf:
+	[Джаз-фанк](* <- lang_ru;; *);
+        [Jazz Funk](* <-lang_en;; *);
+
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+   	    	[Опр. (Джаз-фанк)]
+		(* <- lang_ru;; *);
+		[Def. (Jazz Funk)]
+		(* <- lang_en;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Джаз-фанк - стиль, в котором присутствуют элементы классического джаза. Однако это более свободный танец, здесь также приветствуется импровизация. Вы можете увидеть самые яркие элементы уличных стилей. Танец способствует развитию выносливости, пластики, грациозности движений.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Jazz Funk - a style in which elements of classical jazz are present. However, this is a more free dance, improvisation is also welcome here. You can see the brightest elements of street styles. Dance contributes to the development of endurance, plasticity, gracefulness of movements.]
+			(* <- lang_en;; *);;
+		*);;
+      
+  *);; 

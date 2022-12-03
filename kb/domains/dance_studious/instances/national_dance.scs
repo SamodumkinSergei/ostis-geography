@@ -1,0 +1,31 @@
+national_dance
+<- concept_dance_style;
+
+=> nrel_main_idtf:
+	[Народный танец](* <- lang_ru;; *);
+        [National dance](* <-lang_en;; *);
+
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+   	    	[Опр. (Народный танец)]
+		(* <- lang_ru;; *);
+		[Def. (National dance)]
+		(* <- lang_en;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Народный танец - фольклорный бытовой танец, который исполняется в своей естественной среде и имеет определённые традиционные для данной местности движения, ритмы, костюмы и тому подобное.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[National dance - folklore everyday dance, which is performed in its natural environment and has certain movements, rhythms, costumes, and the like, traditional for the area.]
+			(* <- lang_en;; *);;
+		*);;
+      
+  *);; 
