@@ -10,7 +10,7 @@
 
 #include "keynodes.generated.hpp"
 
-namespace MuseumsRegionSearchModule
+namespace MuseumsModule
 {
 
 class Keynodes : public ScObject
@@ -19,8 +19,8 @@ class Keynodes : public ScObject
   SC_GENERATED_BODY()
 
 public:
-  SC_PROPERTY(Keynode("action_museumsRegionSearch"), ForceCreate)
-  static ScAddr action_museumsRegionSearch;
+  SC_PROPERTY(Keynode("action_search_museums_by_region"), ForceCreate)
+  static ScAddr action_search_museums_by_region;
 
   SC_PROPERTY(Keynode("nrel_region"), ForceCreate)
   static ScAddr nrel_region;
@@ -32,4 +32,4 @@ public:
   static ScAddr concept_museum;
 };
 
-}  // namespace MuseumsRegionSearchModule
+}  // namespace MuseumsModule
