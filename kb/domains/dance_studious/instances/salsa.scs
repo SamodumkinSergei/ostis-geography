@@ -1,0 +1,31 @@
+salsa
+<- concept_dance_style;
+
+=> nrel_main_idtf:
+	[Сальса](* <- lang_ru;; *);
+        [Salsa](* <-lang_en;; *);
+
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+   	    	[Опр. (Сальса)]
+		(* <- lang_ru;; *);
+		[Def. (Salsa)]
+		(* <- lang_en;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Сальса - современный социальный танец из США и Латинской Америки, который танцуют парно или в группах.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Salsa - modern social dance from the United States and Latin America, which is danced in pairs or in groups.]
+			(* <- lang_en;; *);;
+		*);;
+      
+  *);; 
