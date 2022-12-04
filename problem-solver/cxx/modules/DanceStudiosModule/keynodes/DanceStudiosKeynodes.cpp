@@ -13,15 +13,15 @@ namespace dance_studios
 
 ScAddr DanceStudiosKeynodes::action_search_dance_studios_by_city;
 ScAddr DanceStudiosKeynodes::action_search_dance_studios_by_founding_year;
-ScAddr DanceStudiosKeynodes::action_search_dance_studios_by_type;
+ScAddr DanceStudiosKeynodes::action_search_dance_studios_by_style;
 ScAddr DanceStudiosKeynodes::concept_solution;
 ScAddr DanceStudiosKeynodes::concept_success_solution;
 ScAddr DanceStudiosKeynodes::concept_city;
 ScAddr DanceStudiosKeynodes::concept_year_of_foundation;
-ScAddr DanceStudiosKeynodes::concept_type;
+ScAddr DanceStudiosKeynodes::concept_dance_style;
 ScAddr DanceStudiosKeynodes::nrel_city;
-ScAddr DanceStudiosKeynodes::nrel_year_of_foundation;
-ScAddr DanceStudiosKeynodes::nrel_type;
+ScAddr DanceStudiosKeynodes::nrel_dance_studio_year_of_foundation;
+ScAddr DanceStudiosKeynodes::nrel_dance_studio_style;
 ScAddr DanceStudiosKeynodes::concept_dance_studio;
 
 }  // namespace dance_studios

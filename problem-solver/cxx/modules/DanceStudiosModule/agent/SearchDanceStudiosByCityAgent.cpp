@@ -10,7 +10,7 @@
 
 #include "keynodes/DanceStudiosKeynodes.hpp"
 
-#include "SearchDanceStudiosByTypeAgent.hpp"
+#include "SearchDanceStudiosByCityAgent.hpp"
 
 using namespace std;
 using namespace utils;
@@ -19,12 +19,13 @@ using namespace scAgentsCommon;
 namespace dance_studios
 {
 
-SC_AGENT_IMPLEMENTATION(SearchDanceStudiosByTypeAgent)
+SC_AGENT_IMPLEMENTATION(SearchDanceStudiosByCityAgent)
 {
-  SC_LOG_INFO("agent start");
+  SC_LOG_INFO("----------SearchDanceStudiosByCityAgent begin----------");
 
   if (!edgeAddr.IsValid())
   {
+    SC_LOG_ERROR("Edge addr is invalid");
     return SC_RESULT_ERROR;
   }
 
@@ -32,10 +33,11 @@ SC_AGENT_IMPLEMENTATION(SearchDanceStudiosByTypeAgent)
 
   ScAddr questionNode = ms_context->GetEdgeTarget(edgeAddr);
   ScAddr answer = danceStudiosByString->findDanceStudiosByString(
-      ms_context.get(), questionNode, DanceStudiosKeynodes::concept_type, DanceStudiosKeynodes::nrel_type);
+      ms_context.get(), questionNode, DanceStudiosKeynodes::concept_city, DanceStudiosKeynodes::nrel_city);
 
   if (!answer.IsValid())
   {
+    SC_LOG_ERROR("Answer is invalid");
     return SC_RESULT_ERROR_INVALID_PARAMS;
   }
 
@@ -43,6 +45,7 @@ SC_AGENT_IMPLEMENTATION(SearchDanceStudiosByTypeAgent)
       DanceStudiosKeynodes::concept_success_solution, answer, ScType::EdgeAccessConstPosPerm);
   AgentUtils::finishAgentWork((ScMemoryContext *)ms_context.get(), questionNode, answer, success);
 
+  SC_LOG_INFO("----------SearchDanceStudiosByCityAgent end----------");
   return SC_RESULT_OK;
 }
 }  // namespace dance_studios

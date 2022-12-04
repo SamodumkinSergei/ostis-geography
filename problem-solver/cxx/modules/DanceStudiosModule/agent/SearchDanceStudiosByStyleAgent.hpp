@@ -11,16 +11,16 @@
 #include "search/DanceStudiosByString.hpp"
 #include <memory>
 
-#include "SearchDanceStudiosByTypeAgent.generated.hpp"
+#include "SearchDanceStudiosByStyleAgent.generated.hpp"
 
 using namespace std;
 
 namespace dance_studios
 {
 
-class SearchDanceStudiosByTypeAgent : public ScAgent
+class SearchDanceStudiosByStyleAgent : public ScAgent
 {
-  SC_CLASS(Agent, Event(DanceStudiosKeynodes::action_search_dance_studios_by_type, ScEvent::Type::AddOutputEdge))
+  SC_CLASS(Agent, Event(DanceStudiosKeynodes::action_search_dance_studios_by_style, ScEvent::Type::AddOutputEdge))
   SC_GENERATED_BODY()
 };
 

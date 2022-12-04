@@ -1,5 +1,5 @@
 add_subdirectory(AdminModule)
-add_subdirectory(dance_studiosModule)
+add_subdirectory(DanceStudiosModule)
 add_subdirectory(PotteryModule)
 add_subdirectory(RiversModule)
 add_subdirectory(VitebskVillagesModule)

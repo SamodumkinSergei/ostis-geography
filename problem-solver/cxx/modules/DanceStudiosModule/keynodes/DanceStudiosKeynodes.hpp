@@ -26,8 +26,8 @@ public:
   SC_PROPERTY(Keynode("action_search_dance_studios_by_founding_year"), ForceCreate)
   static ScAddr action_search_dance_studios_by_founding_year;
 
-  SC_PROPERTY(Keynode("action_search_dance_studios_by_type"), ForceCreate)
-  static ScAddr action_search_dance_studios_by_type;
+  SC_PROPERTY(Keynode("action_search_dance_studios_by_style"), ForceCreate)
+  static ScAddr action_search_dance_studios_by_style;
 
   SC_PROPERTY(Keynode("concept_solution"), ForceCreate)
   static ScAddr concept_solution;
@@ -41,17 +41,17 @@ public:
   SC_PROPERTY(Keynode("concept_year_of_foundation"), ForceCreate)
   static ScAddr concept_year_of_foundation;
 
-  SC_PROPERTY(Keynode("concept_type"), ForceCreate)
-  static ScAddr concept_type;
+  SC_PROPERTY(Keynode("concept_dance_style"), ForceCreate)
+  static ScAddr concept_dance_style;
 
   SC_PROPERTY(Keynode("nrel_city"), ForceCreate)
   static ScAddr nrel_city;
 
-  SC_PROPERTY(Keynode("nrel_year_of_foundation"), ForceCreate)
-  static ScAddr nrel_year_of_foundation;
+  SC_PROPERTY(Keynode("nrel_dance_studio_year_of_foundation"), ForceCreate)
+  static ScAddr nrel_dance_studio_year_of_foundation;
 
-  SC_PROPERTY(Keynode("nrel_type"), ForceCreate)
-  static ScAddr nrel_type;
+  SC_PROPERTY(Keynode("nrel_dance_studio_style"), ForceCreate)
+  static ScAddr nrel_dance_studio_style;
 
   SC_PROPERTY(Keynode("concept_dance_studio"), ForceCreate)
   static ScAddr concept_dance_studio;

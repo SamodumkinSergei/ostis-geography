@@ -10,7 +10,7 @@
 
 #include "keynodes/DanceStudiosKeynodes.hpp"
 
-#include "SearchDanceStudiosByFoundingYearAgent.hpp"
+#include "SearchDanceStudiosByStyleAgent.hpp"
 
 using namespace std;
 using namespace utils;
@@ -19,27 +19,28 @@ using namespace scAgentsCommon;
 namespace dance_studios
 {
 
-SC_AGENT_IMPLEMENTATION(SearchDanceStudiosByFoundingYearAgent)
+SC_AGENT_IMPLEMENTATION(SearchDanceStudiosByStyleAgent)
 {
-  SC_LOG_INFO("agent start");
+  SC_LOG_INFO("----------SearchDanceStudiosByStyleAgent begin----------");
 
   if (!edgeAddr.IsValid())
   {
+    SC_LOG_ERROR("Edge addr is invalid");
     return SC_RESULT_ERROR;
   }
 
-  std::unique_ptr<DanceStudiosByPropertyInNumericalRangeFinder> danceStudiosByPropertyInNumericalRangeFinder =
-      std::make_unique<DanceStudiosByPropertyInNumericalRangeFinder>();
+  std::unique_ptr<DanceStudiosByString> danceStudiosByString = std::make_unique<DanceStudiosByString>();
 
   ScAddr questionNode = ms_context->GetEdgeTarget(edgeAddr);
-  ScAddr answer = danceStudiosByPropertyInNumericalRangeFinder->findDanceStudiosByPropertyInNumericalRange(
+  ScAddr answer = danceStudiosByString->findDanceStudiosByString(
       ms_context.get(),
       questionNode,
-      DanceStudiosKeynodes::concept_year_of_foundation,
-      DanceStudiosKeynodes::nrel_year_of_foundation);
+      DanceStudiosKeynodes::concept_dance_style,
+      DanceStudiosKeynodes::nrel_dance_studio_style);
 
   if (!answer.IsValid())
   {
+    SC_LOG_ERROR("Answer is invalid");
     return SC_RESULT_ERROR_INVALID_PARAMS;
   }
 
@@ -47,6 +48,7 @@ SC_AGENT_IMPLEMENTATION(SearchDanceStudiosByFoundingYearAgent)
       DanceStudiosKeynodes::concept_success_solution, answer, ScType::EdgeAccessConstPosPerm);
   AgentUtils::finishAgentWork((ScMemoryContext *)ms_context.get(), questionNode, answer, success);
 
+  SC_LOG_INFO("----------SearchDanceStudiosByStyleAgent end----------");
   return SC_RESULT_OK;
 }
 }  // namespace dance_studios
