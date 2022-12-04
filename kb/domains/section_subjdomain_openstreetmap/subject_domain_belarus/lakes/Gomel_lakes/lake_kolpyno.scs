@@ -1,0 +1,16 @@
+
+lake_kolpyno
+<- concept_lake;
+<- concept_lake_of_the_Gomel_region;
+<- concept_way;
+=>nrel_search_area:
+    gomel_region;
+=>nrel_temperature:
+    [10];
+=>nrel_main_idtf:
+    [озеро Колпино]
+    (* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    gomel_region;;

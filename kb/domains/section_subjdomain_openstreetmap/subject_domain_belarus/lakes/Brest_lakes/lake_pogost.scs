@@ -1,0 +1,16 @@
+
+lake_pogost  
+<- concept_lake;
+<- concept_lake_of_the_Brest_region;
+=>nrel_main_idtf:
+    [Погост]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_area:
+    [17]
+    (* <- concept_square;; *);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    brest_district;;
