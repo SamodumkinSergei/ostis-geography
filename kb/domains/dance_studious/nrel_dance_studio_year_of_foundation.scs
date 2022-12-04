@@ -2,8 +2,8 @@ nrel_dance_studio_year_of_foundation
 <- sc_node_norole_relation;
 
 => nrel_main_idtf:
-    [год основания*](*<- lang_ru;;*);;
-    [year of foundation*](*<- lang_en;;*);
+    [год основания*](*<- lang_ru;;*);
+    [year of foundation*](*<- lang_en;;*);;
 
 nrel_dance_studio_year_of_foundation <- rrel_key_sc_element:... 
 (*
@@ -21,7 +21,7 @@ nrel_dance_studio_year_of_foundation <- rrel_key_sc_element:...
     *);;
 *);;
 
-nrel_dance_studio_style
+nrel_dance_studio_year_of_foundation
 =>nrel_first_domain:concept_dance_studio;
 =>nrel_second_domain:concept_year_of_foundation;
 
