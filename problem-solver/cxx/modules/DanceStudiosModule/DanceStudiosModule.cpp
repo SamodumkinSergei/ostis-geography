@@ -6,7 +6,7 @@
 
 #include "DanceStudiosModule.hpp"
 
-#include "agent/SearchDanceStudiosByTypeAgent.hpp"
+#include "agent/SearchDanceStudiosByStyleAgent.hpp"
 #include "agent/SearchDanceStudiosByCityAgent.hpp"
 #include "agent/SearchDanceStudiosByFoundingYearAgent.hpp"
 #include "keynodes/DanceStudiosKeynodes.hpp"
@@ -22,7 +22,7 @@ sc_result DanceStudiosModule::InitializeImpl()
   if (!DanceStudiosKeynodes::InitGlobal())
     return SC_RESULT_ERROR;
 
-  SC_AGENT_REGISTER(SearchDanceStudiosByTypeAgent)
+  SC_AGENT_REGISTER(SearchDanceStudiosByStyleAgent)
   SC_AGENT_REGISTER(SearchDanceStudiosByCityAgent)
   SC_AGENT_REGISTER(SearchDanceStudiosByFoundingYearAgent);
 
@@ -31,7 +31,7 @@ sc_result DanceStudiosModule::InitializeImpl()
 
 sc_result DanceStudiosModule::ShutdownImpl()
 {
-  SC_AGENT_UNREGISTER(SearchDanceStudiosByTypeAgent)
+  SC_AGENT_UNREGISTER(SearchDanceStudiosByStyleAgent)
   SC_AGENT_UNREGISTER(SearchDanceStudiosByCityAgent)
   SC_AGENT_UNREGISTER(SearchDanceStudiosByFoundingYearAgent);
 

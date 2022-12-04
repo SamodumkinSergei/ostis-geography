@@ -8,7 +8,7 @@
 
 #include <sc-memory/kpm/sc_agent.hpp>
 #include "keynodes/DanceStudiosKeynodes.hpp"
-#include "search/DanceStudiosByPropertyInNumericalRangeFinder.hpp"
+#include "search/DanceStudiosByString.hpp"
 #include <memory>
 
 #include "SearchDanceStudiosByFoundingYearAgent.generated.hpp"

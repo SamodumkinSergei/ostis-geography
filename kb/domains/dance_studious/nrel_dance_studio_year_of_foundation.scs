@@ -1,0 +1,32 @@
+nrel_dance_studio_year_of_foundation
+<- sc_node_norole_relation;
+
+=> nrel_main_idtf:
+    [год основания*](*<- lang_ru;;*);;
+    [year of foundation*](*<- lang_en;;*);
+
+nrel_dance_studio_year_of_foundation <- rrel_key_sc_element:... 
+(*
+    <- sc_definition;;
+    <- definition;;
+    => nrel_main_idtf: 
+    [Опр. (год основания*)](*<- lang_ru;;*);
+    [Def. (year of foundation*)](*<- lang_en;;*);;
+    <= nrel_sc_text_translation: ...
+    (*
+        -> rrel_example: 
+            [год основания* — бинарное отношение, которое показывает в каком году была основана танцевальная студия.](*<- lang_ru;;*);; 
+        -> rrel_example: 
+            [year of foundation* - a binary relation that shows in what year the dance studio was founded.](*<- lang_en;;*);;
+    *);;
+*);;
+
+nrel_dance_studio_style
+=>nrel_first_domain:concept_dance_studio;
+=>nrel_second_domain:concept_year_of_foundation;
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;;
