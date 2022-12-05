@@ -1,0 +1,22 @@
+company_serindip <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Сериндип]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375292867883]
+	(* <- concept_phone_number;;*);
+	[hello@fling.red]
+	(* <- concept_email;;*);
+	[590960082]
+	(* <- concept_ucn;;*);
+	[улица Гагарина 9, оф. 10]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	grodno;
+=>nrel_year_registration:
+	2019;
+=>nrel_scope:
+	it;;
+

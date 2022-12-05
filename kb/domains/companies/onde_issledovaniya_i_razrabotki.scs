@@ -1,0 +1,24 @@
+company_onde_issledovaniya_i_razrabotki <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Онде исследования и разработки]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 8500646]
+	(* <- concept_phone_number;;*);
+	[contact_by@onde.app]
+	(* <- concept_email;;*);
+	[http://onde.app/]
+	(* <- concept_website;;*);
+	[193033785]
+	(* <- concept_ucn;;*);
+	[ул. Надеждинская, д.2, пом.6, 4 этаж]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

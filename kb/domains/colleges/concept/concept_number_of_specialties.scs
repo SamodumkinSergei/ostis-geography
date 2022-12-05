@@ -1,0 +1,35 @@
+concept_number_of_specialties
+<- sc_node_class;
+=> nrel_main_idtf:
+	[Количество специальностей]
+	(* <- lang_ru;; *);
+	[Number of specialties]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (количество специальностей)]
+		(* <- lang_ru;; *);
+		[Def. (number of specialties)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Количество специальностей - числовая величина, характеризующая количество специальностей в среднем-специальном учебном заведении.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Number of specialties - a numerical value characterizing the number of specialties in a secondary special educational institution.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_institution_of_secondary_special_education;
+			concept_faculty
+		};;
+	*);;

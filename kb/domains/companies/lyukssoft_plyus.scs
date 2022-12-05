@@ -1,0 +1,24 @@
+company_lyukssoft_plyus <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ЛюксСофт плюс]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[8(017)_226_82_29, 8(017)_226_98_07, 8(017)_390_98_07]
+	(* <- concept_phone_number;;*);
+	[luxsoftplus@tut.by]
+	(* <- concept_email;;*);
+	[http://luxsoftplus.by/]
+	(* <- concept_website;;*);
+	[600474236]
+	(* <- concept_ucn;;*);
+	[проспект Победителей, 17, офис 816]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	1997;
+=>nrel_scope:
+	it;;
+

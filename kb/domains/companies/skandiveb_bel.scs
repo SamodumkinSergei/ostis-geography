@@ -1,0 +1,24 @@
+company_skandiveb_bel <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Скандивеб Бел]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+371 29399153]
+	(* <- concept_phone_number;;*);
+	[andrejsn@scandiweb.com]
+	(* <- concept_email;;*);
+	[www.scandiweb.com]
+	(* <- concept_website;;*);
+	[193442514]
+	(* <- concept_ucn;;*);
+	[Республика Беларусь, 220020, ул. Тимирязева, д. 97, каб. 22_116]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2010;
+=>nrel_scope:
+	it;;
+

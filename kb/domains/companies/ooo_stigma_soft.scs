@@ -1,0 +1,22 @@
+company_ooo_stigma_soft <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Стигма Софт]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375296443527]
+	(* <- concept_phone_number;;*);
+	[info@stigma.by]
+	(* <- concept_email;;*);
+	[193155389]
+	(* <- concept_ucn;;*);
+	[220029 г. Минск, ул. Коммунистическая, д.11, пом.3, каб.19]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,24 @@
+company_deksis <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ДекСис]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_17_240_41_99]
+	(* <- concept_phone_number;;*);
+	[info@decsys.org]
+	(* <- concept_email;;*);
+	[http://decsys.org/]
+	(* <- concept_website;;*);
+	[193134667]
+	(* <- concept_ucn;;*);
+	[ул. Интернациональная, д. 25а, офис 412]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

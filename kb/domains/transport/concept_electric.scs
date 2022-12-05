@@ -1,0 +1,39 @@
+sc_node_not_relation -> concept_electric;;
+
+concept_electric => nrel_system_idtf: [concept_electric];;
+concept_electric => nrel_main_idtf: [Электрическое транспортное средство](*<- lang_ru;;*);;
+concept_electric => nrel_idtf: [Электрическое транспортное средство](*<- lang_ru;;*);;
+concept_electric => nrel_idtf: [Electric](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_electric;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Электротранспорт — вид транспорта, использующий в качестве источника энергии электричество, а в приводе используется — тяговый электродвигатель.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Электрическое транспортное средство)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+		->concept_vehicle;;
+		->concept_drive_unit;;
+		->concept_electric_engine;;
+        *);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_electric;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Его основными преимуществами являются более высокая производительность и экологичность.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(Об.Электрическое транспортное средство)](*<- lang_ru;;*);;
+<= nrel_using_constants: ...
+        (*
+->concept_advantage;;
+->concept_performance;;
+->concept_environmental_friendliness;;
+        *);;
+*);;

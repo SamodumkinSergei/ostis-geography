@@ -1,0 +1,24 @@
+company_ineveyt_yurop <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Инэвейт Юроп]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 640 89 73]
+	(* <- concept_phone_number;;*);
+	[Nastassia.Sablina@enavate.com]
+	(* <- concept_email;;*);
+	[http://enavate.com/]
+	(* <- concept_website;;*);
+	[193303150]
+	(* <- concept_ucn;;*);
+	[ул. Городецкая, дом 38А, комната 30_1]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2019;
+=>nrel_scope:
+	it;;
+

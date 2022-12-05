@@ -1,0 +1,12 @@
+regional_medical_and_diagnostic_center_mogilev <- concept_hospital;
+=> nrel_main_idtf:
+   [Regional medical and diagnostic center Mogilev]
+   (* <- lang_en;; <- name_en;;*);
+   [Могилевский областной лечебно-диагностический центр]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375222294400]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [https://modc.by]
+   (*<-concept_site;;*);;

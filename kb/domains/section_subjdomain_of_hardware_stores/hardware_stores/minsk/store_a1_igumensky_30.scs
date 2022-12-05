@@ -1,0 +1,17 @@
+store_a1_igumensky_30
+
+<- sc_node_not_relation;
+
+<- concept_hardware_store;
+
+=> nrel_main_idtf:
+	[Магазин A1 по адресу Минск, Игуменский тр., 30]
+	(* <- lang_ru;; *);
+	[Store A1 at Minsk, Igumensky tr., 30]
+	(* <- lang_en;; *);
+
+=> nrel_address:
+	[Минск, Игуменский тр., 30]
+	(* <- concept_address;; *);
+
+=> nrel_company: company_a1;;

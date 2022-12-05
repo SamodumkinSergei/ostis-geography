@@ -1,0 +1,23 @@
+ui_menu_school_search <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+ui_menu_school_search 
+=> nrel_main_idtf: 
+	[Искать школу по номеру]
+	(* <- lang_ru;; *);;
+
+ui_menu_school_search 
+=> nrel_main_idtf: 
+	[Search for a school by number]
+	(* <- lang_en;; *);;
+
+ui_menu_school_search => ui_nrel_command_template:
+	[*
+		action_schoolByNumberSearch_-> ._question_school_search
+			(*
+				_-> ui_arg_1;;
+			*);;
+		._question_school_search _<- question;;
+	*];;
+
+ui_menu_school_search => ui_nrel_command_lang_template: [Искать школу по номеру] (* <- lang_ru;; *);;
+ui_menu_school_search => ui_nrel_command_lang_template: [Search for a school by number] (* <- lang_en;; *);;

@@ -1,0 +1,22 @@
+company_kupl_biuay <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Купл БиУай]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_17_394_95_03]
+	(* <- concept_phone_number;;*);
+	[mb@bakertilly.by]
+	(* <- concept_email;;*);
+	[https://www.coople.com/ch/]
+	(* <- concept_website;;*);
+	[193407825]
+	(* <- concept_ucn;;*);
+	[ул. Мележа, д. 1, помещение 330]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

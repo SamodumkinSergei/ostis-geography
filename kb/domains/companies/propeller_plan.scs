@@ -1,0 +1,24 @@
+company_propeller_plan <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Пропеллер План]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 (29) 202_78_25]
+	(* <- concept_phone_number;;*);
+	[yarik@propellerplan.com]
+	(* <- concept_email;;*);
+	[http://propellerplan.com]
+	(* <- concept_website;;*);
+	[193265358]
+	(* <- concept_ucn;;*);
+	[ул. Сурганова, д. 57Б, пом. 119Б/11]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2019;
+=>nrel_scope:
+	it;;
+

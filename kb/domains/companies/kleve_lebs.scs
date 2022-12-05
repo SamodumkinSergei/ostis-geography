@@ -1,0 +1,24 @@
+company_kleve_lebs <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[CleverLabs]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375297554439]
+	(* <- concept_phone_number;;*);
+	[hello@cleverlabs.io]
+	(* <- concept_email;;*);
+	[https://cleverlabs.io/]
+	(* <- concept_website;;*);
+	[191109975]
+	(* <- concept_ucn;;*);
+	[ул. Толбухина, д.2, оф.409]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2015;
+=>nrel_scope:
+	it;;
+

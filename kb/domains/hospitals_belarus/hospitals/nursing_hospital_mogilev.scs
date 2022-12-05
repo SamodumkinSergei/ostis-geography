@@ -1,0 +1,12 @@
+nursing_hospital_mogilev <- concept_hospital;
+=> nrel_main_idtf:
+   [Nursing hospital Mogilev]
+   (* <- lang_en;; <- name_en;;*);
+   [Могилевская больница сестринского ухода]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375222324336]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [https://pub-3.103.by]
+   (*<-concept_site;;*);;

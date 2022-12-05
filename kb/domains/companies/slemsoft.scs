@@ -1,0 +1,24 @@
+company_slemsoft <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Слэмсофт]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 44 564_45_64]
+	(* <- concept_phone_number;;*);
+	[info@slam.by]
+	(* <- concept_email;;*);
+	[http://slam.by]
+	(* <- concept_website;;*);
+	[193061216]
+	(* <- concept_ucn;;*);
+	[ул. Казинца, д. 11А, пом. А203]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,12 @@
+regional_clinical_hospital_minsk <- concept_hospital;
+=> nrel_main_idtf:
+   [Regional clinical hospital Minsk]
+   (* <- lang_en;; <- name_en;;*);
+   [Минская областная клиническая больница]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375175177755]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [https://minsk-okb.by]
+   (*<-concept_site;;*);;

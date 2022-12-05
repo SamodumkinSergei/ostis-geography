@@ -1,0 +1,18 @@
+company_fastservapp <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ФастСервАПП]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[ooofastservapp@gmail.com]
+	(* <- concept_email;;*);
+	[193360839]
+	(* <- concept_ucn;;*);
+	[ул. Нововиленская, 38, офис 11]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

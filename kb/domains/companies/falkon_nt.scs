@@ -1,0 +1,22 @@
+company_falkon_nt <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Фалкон НТ]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_17_270_18_78]
+	(* <- concept_phone_number;;*);
+	[falconls@mail.ru]
+	(* <- concept_email;;*);
+	[https://www.spiderwatch.net/]
+	(* <- concept_website;;*);
+	[193217734]
+	(* <- concept_ucn;;*);
+	[ул. Солтыса, д. 187]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

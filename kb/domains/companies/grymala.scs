@@ -1,0 +1,24 @@
+company_grymala <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ГРЫМАЛА]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+ 375 29 315 45 30]
+	(* <- concept_phone_number;;*);
+	[team@grymala.by]
+	(* <- concept_email;;*);
+	[grymala.by]
+	(* <- concept_website;;*);
+	[191715576]
+	(* <- concept_ucn;;*);
+	[ул. Масюковщина 2в, Минск, Беларусь, 220124]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2012;
+=>nrel_scope:
+	it;;
+

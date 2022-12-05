@@ -1,0 +1,24 @@
+company_viavora_konsalting <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Виавора Консалтинг]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_17_275_05_78]
+	(* <- concept_phone_number;;*);
+	[hello@weavora.com]
+	(* <- concept_email;;*);
+	[http://www.weavora.com/]
+	(* <- concept_website;;*);
+	[192490513]
+	(* <- concept_ucn;;*);
+	[пр. Победителей, д. 104, офис 406]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2015;
+=>nrel_scope:
+	it;;
+

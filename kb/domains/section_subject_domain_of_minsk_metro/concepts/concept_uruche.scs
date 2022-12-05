@@ -1,0 +1,33 @@
+sc_node_not_relation -> concept_uruche;;
+sc_node_not_relation -> concept_metro_station;;
+sc_node_not_relation -> concept_metro_line;;
+
+sc_node_norole_relation -> nrel_built;;
+sc_node_norole_relation -> nrel_location;;
+
+
+concept_uruche => nrel_main_idtf: [Уручье](* <- lang_ru;; *);;
+concept_uruche => nrel_main_idtf: [Uruche](* <- lang_en;; *);;
+
+   
+definition ->...
+(*
+    -> rrel_key_sc_element : concept_uruche;;
+    <= nrel_sc_text_translation: ...(*->rrel_example:[Уручье – станция метро, построенная 7 ноября 2007 года.](*<-lang_ru;;*);;*);;
+    => nrel_main_idtf: [Определение (Уручье)](*<- lang_ru;;*);;
+    => nrel_using_constants: ...
+    (*
+       -> nrel_built;;
+    *);;
+*);;
+
+statement ->...
+(*
+    -> rrel_key_sc_element : concept_uruche;;
+    <= nrel_sc_text_translation: ...(*->rrel_example:[Уручье находится на Московской ветке и имеет код станции 124.](*<-lang_ru;;*);;*);;
+    => nrel_main_idtf: [Утверждение(Уручье)](*<- lang_ru;;*);;
+    => nrel_using_constants: ...
+    (* 
+       -> nrel_location;;
+    *);;
+*);;

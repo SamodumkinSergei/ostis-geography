@@ -1,0 +1,24 @@
+company_luvea_blr <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Лувэа БЛР]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 33 6663452]
+	(* <- concept_phone_number;;*);
+	[afralou@luware.com]
+	(* <- concept_email;;*);
+	[http://Luware.com/]
+	(* <- concept_website;;*);
+	[193134812]
+	(* <- concept_ucn;;*);
+	[ул. Немига, д. 5, офис 85]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

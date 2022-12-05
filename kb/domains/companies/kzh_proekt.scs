@@ -1,0 +1,20 @@
+company_kzh_proekt <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[КЖ_ПРОЕКТ]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[_+375_17_241_89_91]
+	(* <- concept_phone_number;;*);
+	[https://kjproject.by/]
+	(* <- concept_website;;*);
+	[192507877]
+	(* <- concept_ucn;;*);
+	[ул. Чеботарёва, д. 7А, каб. 302]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,24 @@
+company_rekomers <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Рекомерс]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 44 555_62_40]
+	(* <- concept_phone_number;;*);
+	[pvt@recommerce.by]
+	(* <- concept_email;;*);
+	[https://recommerce.by/]
+	(* <- concept_website;;*);
+	[790782185]
+	(* <- concept_ucn;;*);
+	[ул. Ленинская 63, офис 111]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	mogilev;
+=>nrel_year_registration:
+	2012;
+=>nrel_scope:
+	it;;
+

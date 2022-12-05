@@ -1,0 +1,22 @@
+company_deip_faundeyshn <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ДЕИП Фаундейшн]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_663_79_81]
+	(* <- concept_phone_number;;*);
+	[artur@deip.world]
+	(* <- concept_email;;*);
+	[https://www.deip.world/]
+	(* <- concept_website;;*);
+	[193013169]
+	(* <- concept_ucn;;*);
+	[ул. Октябрьская, д. 21, офис 220]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

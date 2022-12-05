@@ -1,0 +1,20 @@
+company_uslugi_onlayn <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Услуги Онлайн]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_109_46_34]
+	(* <- concept_phone_number;;*);
+	[dmitriy@geran.in]
+	(* <- concept_email;;*);
+	[193479953]
+	(* <- concept_ucn;;*);
+	[ул. Левкова, 43, помещение 204/2]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

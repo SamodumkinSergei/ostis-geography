@@ -1,0 +1,24 @@
+company_andersenbel <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[АндерсенБел]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_17 3884022]
+	(* <- concept_phone_number;;*);
+	[docs@andersenlab.com]
+	(* <- concept_email;;*);
+	[http://www.andersenlab.com]
+	(* <- concept_website;;*);
+	[192588439]
+	(* <- concept_ucn;;*);
+	[пр. Победителей, д. 7А, п. 70]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2016;
+=>nrel_scope:
+	it;;
+

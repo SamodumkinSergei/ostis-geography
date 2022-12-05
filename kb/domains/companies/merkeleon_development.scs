@@ -1,0 +1,24 @@
+company_merkeleon_development <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Меркелеон девелопмент]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+37529 326 5425]
+	(* <- concept_phone_number;;*);
+	[sales@merkeleon.by]
+	(* <- concept_email;;*);
+	[http://merkeleon.by/]
+	(* <- concept_website;;*);
+	[193084780]
+	(* <- concept_ucn;;*);
+	[ул. Кедышко 14Б, офис 312]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

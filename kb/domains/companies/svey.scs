@@ -1,0 +1,24 @@
+company_svey <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[СВЭЙ]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 264_20_18]
+	(* <- concept_phone_number;;*);
+	[averson@averson.by]
+	(* <- concept_email;;*);
+	[http://www.averson.by]
+	(* <- concept_website;;*);
+	[190789763]
+	(* <- concept_ucn;;*);
+	[ул. Купревича 1/5, офис 409]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2006;
+=>nrel_scope:
+	it;;
+

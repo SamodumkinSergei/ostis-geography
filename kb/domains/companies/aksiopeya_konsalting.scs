@@ -1,0 +1,24 @@
+company_aksiopeya_konsalting <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Аксиопея Консалтинг]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 611_23_70]
+	(* <- concept_phone_number;;*);
+	[info@axiopea_consulting.com]
+	(* <- concept_email;;*);
+	[http://axiopea_consulting.com/]
+	(* <- concept_website;;*);
+	[191753236]
+	(* <- concept_ucn;;*);
+	[ул.Тимирязева 72, оф.9002]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2012;
+=>nrel_scope:
+	it;;
+

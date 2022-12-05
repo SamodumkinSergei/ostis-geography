@@ -1,0 +1,24 @@
+ui_menu_search_dance_studios_by_city <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+ui_menu_search_dance_studios_by_city
+=> nrel_main_idtf:
+	[Искать танцевальные студии по городу]
+	(* <- lang_ru;; *);;
+
+ui_menu_search_dance_studios_by_city
+=> nrel_main_idtf:
+	[Perform search of dance studios by city]
+	(* <- lang_en;; *);;
+
+ui_menu_search_dance_studios_by_city => ui_nrel_command_template:
+	[*
+		action_search_dance_studios_by_city _-> ._question_search_dance_studios_by_city
+			(*
+				_-> ui_arg_1;;
+				
+			*);;
+		._question_search_dance_studios_by_city _<- question;;
+	*];;
+
+ui_menu_search_dance_studios_by_city => ui_nrel_command_lang_template: [Искать танцевальные студии по городу] (* <- lang_ru;; *);;
+ui_menu_search_dance_studios_by_city => ui_nrel_command_lang_template: [Perform search of dance studios by city] (* <- lang_en;; *);;

@@ -1,0 +1,22 @@
+company_eydji_prodakshn <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ЭйДжи Продакшн]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 362 07 68]
+	(* <- concept_phone_number;;*);
+	[agproduction@awem.com]
+	(* <- concept_email;;*);
+	[192970213]
+	(* <- concept_ucn;;*);
+	[г. Минск, 220017, ул. Притыцкого, 156_28]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2017;
+=>nrel_scope:
+	it;;
+

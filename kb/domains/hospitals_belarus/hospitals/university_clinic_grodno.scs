@@ -1,0 +1,12 @@
+university_clinic_grodno <- concept_hospital;
+=> nrel_main_idtf:
+   [University clinic Grodno]
+   (* <- lang_en;; <- name_en;;*);
+   [Гродненская университетская клиника]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375152433628]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [http://gocb.by/ru]
+   (*<-concept_site;;*);;

@@ -1,0 +1,18 @@
+company_aytiey_evolyushn <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[АйТиЭй Эволюшн]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 342 24 02]
+	(* <- concept_phone_number;;*);
+	[193416568]
+	(* <- concept_ucn;;*);
+	[ул. Притыцкого 29, офис 517А]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

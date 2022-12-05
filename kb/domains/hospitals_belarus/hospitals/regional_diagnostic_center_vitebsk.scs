@@ -1,0 +1,12 @@
+regional_diagnostic_center_vitebsk <- concept_hospital;
+=> nrel_main_idtf:
+   [Regional diagostic center Vitebsk]
+   (* <- lang_en;; <- name_en;;*);
+   [Витебский областной диагностический центр]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375212376371]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [https://www.vodc.vitebsk.by]
+   (*<-concept_site;;*);;

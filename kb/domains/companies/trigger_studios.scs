@@ -1,0 +1,24 @@
+company_trigger_studios <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Триггер Студиос]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 44 588 76 01]
+	(* <- concept_phone_number;;*);
+	[office_minsk@triggre.com]
+	(* <- concept_email;;*);
+	[http://triggre.by/]
+	(* <- concept_website;;*);
+	[192344052]
+	(* <- concept_ucn;;*);
+	[проспект Дзержинского, 104, офис 901]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2014;
+=>nrel_scope:
+	it;;
+

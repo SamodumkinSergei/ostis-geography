@@ -1,0 +1,20 @@
+company_flo_khels_bel <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Фло Хелс Бел]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[support@flo.health]
+	(* <- concept_email;;*);
+	[https://flo.health/]
+	(* <- concept_website;;*);
+	[192140362]
+	(* <- concept_ucn;;*);
+	[ул. Петра Мстиславца, 9, офис 12]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

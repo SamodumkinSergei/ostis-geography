@@ -1,0 +1,24 @@
+company_tula_konsalting <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ТУЛА Консалтинг]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 44 4768619]
+	(* <- concept_phone_number;;*);
+	[by@tula.co]
+	(* <- concept_email;;*);
+	[http://www.tulaco.by]
+	(* <- concept_website;;*);
+	[191299461]
+	(* <- concept_ucn;;*);
+	[ул. Парниковая, 57]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2010;
+=>nrel_scope:
+	it;;
+

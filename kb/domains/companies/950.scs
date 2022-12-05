@@ -1,0 +1,20 @@
+company_950 <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Теалиум Бел]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 132 22 55]
+	(* <- concept_phone_number;;*);
+	[https://tealium.com/]
+	(* <- concept_website;;*);
+	[193375753]
+	(* <- concept_ucn;;*);
+	[ул. Интернациональная, 20А, офис 52]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

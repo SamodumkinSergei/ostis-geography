@@ -1,0 +1,20 @@
+company_frinto <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Фринто]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 308 37 70]
+	(* <- concept_phone_number;;*);
+	[https://freento.com/]
+	(* <- concept_website;;*);
+	[791259738]
+	(* <- concept_ucn;;*);
+	[ул. Гагарина, 52А, офис 20]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	mogilev;
+=>nrel_scope:
+	it;;
+

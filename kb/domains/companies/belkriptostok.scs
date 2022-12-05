@@ -1,0 +1,24 @@
+company_belkriptostok <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Белкриптосток]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375296526446]
+	(* <- concept_phone_number;;*);
+	[contact@cyberone.online]
+	(* <- concept_email;;*);
+	[http://cyberone.online]
+	(* <- concept_website;;*);
+	[192979527]
+	(* <- concept_ucn;;*);
+	[ул. Бирюзова, дом 4/5, помещение 302]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2017;
+=>nrel_scope:
+	it;;
+

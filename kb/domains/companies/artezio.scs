@@ -1,0 +1,24 @@
+company_artezio <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Артезио]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[tel/fax:]
+	(* <- concept_phone_number;;*);
+	[info@artezio.by]
+	(* <- concept_email;;*);
+	[http://artezio.by/]
+	(* <- concept_website;;*);
+	[190980782]
+	(* <- concept_ucn;;*);
+	[пр_т Дзержинского, дом 8, пом. 10]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	vitebsk;
+=>nrel_year_registration:
+	2008;
+=>nrel_scope:
+	it;;
+
