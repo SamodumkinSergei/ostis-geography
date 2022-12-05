@@ -1,0 +1,24 @@
+ui_menu_vitebskVeterinary <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+ ui_menu_vitebskVeterinary 
+ => nrel_main_idtf: 
+ 	[Ветеринарная станция Витебска]
+ 	(* <- lang_ru;; *);;
+
+ ui_menu_vitebskVeterinary
+ => nrel_main_idtf: 
+ 	[vitebskVeterinary]
+ 	(* <- lang_en;; *);;
+
+ ui_menu_vitebskVeterinary => ui_nrel_command_template:
+ 	[*
+ 		question_vitebskVeterinary _-> ._question_vitebskVeterinary_instance
+ 			(*
+ 				_-> rrel_1::ui_arg_1;;
+ 				_-> rrel_2::ui_arg_2;;
+ 			*);;
+ 		._question_vitebskVeterinary_instance _<- question;;
+ 	*];;
+
+ ui_menu_vitebskVeterinary => ui_nrel_command_lang_template: [vitebskVeterinary $ui_arg_1 $ui_arg_2] (* <- lang_ru;; *);;
+ ui_menu_vitebskVeterinary => ui_nrel_command_lang_template: [vitebskVeterinary $ui_arg_1 $ui_arg_2] (* <- lang_en;; *);;
