@@ -1,0 +1,17 @@
+
+lake_Boravna 
+<- concept_lake;
+<- concept_Beshenkovichi_lakes;
+<- concept_lake_of_the_Vitebsk_region;
+<- concept_way;
+=>nrel_search_area:
+    vitebsk_region;
+=>nrel_main_idtf:
+    [озеро Боровно]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitebsk_region;
+=>nrel_district:
+    beshenkovichi_district;;

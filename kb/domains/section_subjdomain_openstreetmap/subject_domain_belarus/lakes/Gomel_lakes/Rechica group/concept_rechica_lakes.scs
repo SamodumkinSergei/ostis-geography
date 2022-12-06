@@ -1,0 +1,37 @@
+concept_Rechica_lakes
+<-sc_node_not_relation;
+<-concept_lake_group;
+=>nrel_main_idtf:
+	[Речицкая группа озер]
+	(* <- lang_ru;; *);
+	[Rechica group of lakes]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Речицкая группа озер)]
+		(* <- lang_ru;; *);
+		[Def. (Rechica group of lakes)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Речицкая группа озёр  — группа озёр на территории Речицкого района Минской области.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Rechica Lakes are a group of lakes on the territory of the Rechicki district of the Gomel region.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_lake_group;
+			rechica_district;
+			gomel_region
+		};;
+	*);;

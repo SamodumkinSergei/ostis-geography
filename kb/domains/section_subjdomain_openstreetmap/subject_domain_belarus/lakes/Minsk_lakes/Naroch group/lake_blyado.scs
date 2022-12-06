@@ -1,0 +1,15 @@
+lake_blyado 
+<- concept_lake;
+<- concept_Naroch_lakes;
+<- concept_lake_of_the_Minsk_region;
+=>nrel_main_idtf:
+    [озеро Блядо]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_temperature:
+    [5];
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_district:
+    myadzel_district;;

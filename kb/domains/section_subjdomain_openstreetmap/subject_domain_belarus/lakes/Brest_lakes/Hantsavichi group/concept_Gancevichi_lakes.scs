@@ -1,0 +1,37 @@
+concept_Hantsavichi_lakes
+<-sc_node_not_relation;
+<-concept_lake_group;
+=>nrel_main_idtf:
+	[Ганцевическая группа озер]
+	(* <- lang_ru;; *);
+	[Gancevichi group of lakes]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Ганцевическая группа озер)]
+		(* <- lang_ru;; *);
+		[Def. (Gancevichi group of lakes)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Ганцевическая группа озёр  — группа озёр на территории Ганцевического района Брестской области.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Hantsavichi Lakes are a group of lakes on the territory of the Hantsavichi district of the Brest region.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_lake_group;
+			hantsavichy_district;
+			brest_region
+		};;
+	*);;

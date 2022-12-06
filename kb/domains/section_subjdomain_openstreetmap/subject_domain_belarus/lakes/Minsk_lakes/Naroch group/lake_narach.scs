@@ -1,0 +1,19 @@
+lake_narach 
+<- concept_lake;
+<- concept_Naroch_lakes;
+<- concept_lake_of_the_Minsk_region;
+=>nrel_main_idtf:
+    [lake Narach]
+    (* <- lang_en;; <- name_en;;*);
+    [озеро Нарочь]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_temperature:
+    [10];
+=> nrel_area:
+    [79.62];
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_district:
+    myadzel_district;;

@@ -1,0 +1,17 @@
+
+lake_lukonica 
+<- concept_lake;
+<- concept_Lepelski_lakes;
+<- concept_lake_of_the_Vitebsk_region;
+<- concept_way;
+=>nrel_search_area:
+    vitebsk_region;
+=>nrel_main_idtf:
+    [озеро Луконица]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    vitebsk_region;
+=>nrel_district:
+    lepiel_district;;

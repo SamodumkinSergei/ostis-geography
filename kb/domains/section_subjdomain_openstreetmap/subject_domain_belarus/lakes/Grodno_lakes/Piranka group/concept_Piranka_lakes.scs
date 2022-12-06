@@ -1,0 +1,36 @@
+concept_Piranka_lakes
+<-sc_node_not_relation;
+<-concept_lake_group;
+=>nrel_main_idtf:
+	[Пыранкская группа озер]
+	(* <- lang_ru;; *);
+	[Piranka group of lakes]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Пыранкская группа озер)]
+		(* <- lang_ru;; *);
+		[Def. (Piranka group of lakes)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Пыранкская группа озёр  — группа озёр на территории Гродненской области.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Piranka Lakes are a group of lakes on the territory of the Grodno region.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_lake_group;
+			grodno_region
+		};;
+	*);;

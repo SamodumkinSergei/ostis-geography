@@ -1,0 +1,13 @@
+lake_Bersztanskie 
+<- concept_lake;
+<- concept_lake_of_the_Grodno_region;
+<- concept_way;
+=>nrel_search_area:
+    grodno_region;
+=>nrel_main_idtf:
+    [Берштовское озеро]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    grodno_region;;

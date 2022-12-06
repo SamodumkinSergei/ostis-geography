@@ -1,0 +1,37 @@
+concept_Zhidkovichi_lakes
+<-sc_node_not_relation;
+<-concept_lake_group;
+=>nrel_main_idtf:
+	[Жидковичская группа озер]
+	(* <- lang_ru;; *);
+	[Zhidkovichi group of lakes]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Жидковичская группа озер)]
+		(* <- lang_ru;; *);
+		[Def. (Zhidkovichi group of lakes)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Жидковичская группа озёр  — группа озёр на территории ЖидковичскОГО района Гомельской области.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Zhidkovichi Lakes are a group of lakes on the territory of the Zhidkovichi district of the Gomel region.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_lake_group;
+			zhidkovichi_district;
+			gomel_region
+		};;
+	*);;

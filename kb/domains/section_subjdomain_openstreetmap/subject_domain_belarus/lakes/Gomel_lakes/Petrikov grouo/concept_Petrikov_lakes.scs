@@ -1,0 +1,37 @@
+concept_Petrikov_lakes
+<-sc_node_not_relation;
+<-concept_lake_group;
+=>nrel_main_idtf:
+	[Петриковская группа озер]
+	(* <- lang_ru;; *);
+	[Petrikov group of lakes]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Петриковская группа озер)]
+		(* <- lang_ru;; *);
+		[Def. (Petrikov group of lakes)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Петриковская группа озёр  — группа озёр на территории Петриковского района Гомельской области.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Petrikov Lakes are a group of lakes on the territory of the Petrikov district of the Gomel region.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_lake_group;
+			petrikov_district;
+			gomel_region
+		};;
+	*);;
