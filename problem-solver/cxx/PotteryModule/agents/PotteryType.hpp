@@ -9,14 +9,14 @@
 #include "sc-memory/kpm/sc_agent.hpp"
 
 #include "keynodes/keynodes.hpp"
-#include "PotteryDate.generated.hpp"
+#include "PotteryType.generated.hpp"
 
 namespace PotteryModule
 {
 
-class PotteryDate : public ScAgent
+class PotteryType : public ScAgent
 {
-  SC_CLASS(Agent, Event(Keynodes::question_potteryDate, ScEvent::Type::AddOutputEdge))
+  SC_CLASS(Agent, Event(Keynodes::question_potteryType, ScEvent::Type::AddOutputEdge))
   SC_GENERATED_BODY()
 };
 
