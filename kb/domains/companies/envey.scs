@@ -1,0 +1,20 @@
+company_envey <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ЭНВЭЙ]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[info@enway.com]
+	(* <- concept_email;;*);
+	[https://enway.com]
+	(* <- concept_website;;*);
+	[193137518]
+	(* <- concept_ucn;;*);
+	[Филимонова, 25Г]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

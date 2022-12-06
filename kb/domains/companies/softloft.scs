@@ -1,0 +1,24 @@
+company_softloft <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[СофтЛофт]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375293888120]
+	(* <- concept_phone_number;;*);
+	[mail@softloft.io]
+	(* <- concept_email;;*);
+	[http://softloft.io/]
+	(* <- concept_website;;*);
+	[193033188]
+	(* <- concept_ucn;;*);
+	[пер. Козлова, д. 29, административное помещение 4, офис 310]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

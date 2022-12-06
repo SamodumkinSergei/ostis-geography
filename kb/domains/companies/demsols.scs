@@ -1,0 +1,24 @@
+company_demsols <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ДЭМСОЛС]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_811_37_66]
+	(* <- concept_phone_number;;*);
+	[info@damsols.com]
+	(* <- concept_email;;*);
+	[http://damsols.com/]
+	(* <- concept_website;;*);
+	[193079538]
+	(* <- concept_ucn;;*);
+	[ул. Тимирязева, д. 67, оф. 1504, а/я 12]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,37 @@
+sc_node_not_relation -> concept_bus;;
+
+concept_bus => nrel_system_idtf: [concept_bus];;
+concept_bus => nrel_main_idtf: [Автобус](*<- lang_ru;;*);;
+concept_bus => nrel_idtf: [Автобус](*<- lang_ru;;*);;
+concept_bus => nrel_idtf: [Bus](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_bus;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Автобус — безрельсовое механическое моторное транспортное средство, технически предназначенное для перевозки девяти и более пассажиров и способное маневрировать на дороге.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Автобус)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+		->concept_vehicle;;
+		->concept_passenger;;
+        *);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_bus;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Транспортное средство, предназначенное для перевозки пассажиров и багажа, имеющее более 8 мест для сидения, не считая места водителя.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(Об.Автобус)](*<- lang_ru;;*);;
+<= nrel_using_constants: ...
+        (*
+->concept_seat;;
+->concept_driver;;
+        *);;
+*);;

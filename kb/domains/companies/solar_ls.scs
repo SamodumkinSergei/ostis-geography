@@ -1,0 +1,24 @@
+company_solar_ls <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[СОЛАР ЛС]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 2019590]
+	(* <- concept_phone_number;;*);
+	[info@solarls.eu]
+	(* <- concept_email;;*);
+	[http://solarlaser.com/]
+	(* <- concept_website;;*);
+	[101128058]
+	(* <- concept_ucn;;*);
+	[Пер. Стебенева, 4]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2001;
+=>nrel_scope:
+	it;;
+

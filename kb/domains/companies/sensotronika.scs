@@ -1,0 +1,24 @@
+company_sensotronika <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Сенсотроника]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 288 60 29]
+	(* <- concept_phone_number;;*);
+	[roustam.asimov@sensotronica.com]
+	(* <- concept_email;;*);
+	[http://www.sensotronica.com]
+	(* <- concept_website;;*);
+	[190837634]
+	(* <- concept_ucn;;*);
+	[ул. Кульман, д.9, пом.373]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2007;
+=>nrel_scope:
+	it;;
+

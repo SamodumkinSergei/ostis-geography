@@ -1,0 +1,18 @@
+company_bekomp <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[БЭКОМП]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[101103846]
+	(* <- concept_ucn;;*);
+	[ул. П.Бровки, д. 15, корп.2, оф. 516а]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2000;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,12 @@
+childrens_regional_hospital_grodno <- concept_hospital;
+=> nrel_main_idtf:
+   [Children's regional hospital Grodno]
+   (* <- lang_en;; <- name_en;;*);
+   [Гродненская областная детская клиническая больница]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375152796224]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [http://www.grodkb.by]
+   (*<-concept_site;;*);;

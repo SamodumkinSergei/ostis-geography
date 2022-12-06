@@ -1,0 +1,22 @@
+company_partnerskaya_programma <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Партнерская программа]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_617_17_20]
+	(* <- concept_phone_number;;*);
+	[info@affilka.com]
+	(* <- concept_email;;*);
+	[https://affilka.com/ru/]
+	(* <- concept_website;;*);
+	[193421489]
+	(* <- concept_ucn;;*);
+	[ул. Кедышко, д. 14Б, офис 103]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

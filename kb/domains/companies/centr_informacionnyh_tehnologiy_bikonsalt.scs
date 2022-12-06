@@ -1,0 +1,24 @@
+company_centr_informacionnyh_tehnologiy_bikonsalt <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Центр информационных технологий Биконсалт]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 285 70 54]
+	(* <- concept_phone_number;;*);
+	[info@abiatec.com]
+	(* <- concept_email;;*);
+	[http://abiatec.by/]
+	(* <- concept_website;;*);
+	[190804719]
+	(* <- concept_ucn;;*);
+	[пер. Чайковского, д. 3, пом. 3]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2007;
+=>nrel_scope:
+	it;;
+

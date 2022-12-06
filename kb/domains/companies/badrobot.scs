@@ -1,0 +1,24 @@
+company_badrobot <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[БадРобот]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_180_10_00]
+	(* <- concept_phone_number;;*);
+	[budrobot@tut.by]
+	(* <- concept_email;;*);
+	[http://www.budrobot.by/]
+	(* <- concept_website;;*);
+	[193240365]
+	(* <- concept_ucn;;*);
+	[ул. Дунина_Марцинкевича, д. 4/2, помещение А_3/1]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2019;
+=>nrel_scope:
+	it;;
+

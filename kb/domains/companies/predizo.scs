@@ -1,0 +1,22 @@
+company_predizo <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Предизо]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 266 24 04;]
+	(* <- concept_phone_number;;*);
+	[kulakovskaya@scnsoft.com]
+	(* <- concept_email;;*);
+	[191125110]
+	(* <- concept_ucn;;*);
+	[ул. Блюхера, д. 19, помещение 4]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2009;
+=>nrel_scope:
+	it;;
+

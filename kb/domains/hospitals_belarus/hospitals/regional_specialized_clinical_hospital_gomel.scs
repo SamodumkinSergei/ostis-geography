@@ -1,0 +1,12 @@
+regional_specialized_clinical_hospital_gomel <- concept_hospital;
+=> nrel_main_idtf:
+   [Gomel regional specialized clinical hospital]
+   (* <- lang_en;; <- name_en;;*);
+   [Гомельская областная специализированная клиническая больница]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375232504557]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [https://goskb.by]
+   (*<-concept_site;;*);;

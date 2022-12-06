@@ -1,0 +1,18 @@
+company_tabgreyt <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Табгрейт]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_139_44_85]
+	(* <- concept_phone_number;;*);
+	[193357091]
+	(* <- concept_ucn;;*);
+	[ул. Есенина, д. 73, помещение 1Н]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

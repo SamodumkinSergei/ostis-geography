@@ -1,0 +1,22 @@
+company_getprofit <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Гетпрофит]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_308_12_09]
+	(* <- concept_phone_number;;*);
+	[info@getprofitads.by]
+	(* <- concept_email;;*);
+	[193318404]
+	(* <- concept_ucn;;*);
+	[ул. Толбухина, д. 4, корпус 9, 3 этаж, каб. 43.]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2019;
+=>nrel_scope:
+	it;;
+

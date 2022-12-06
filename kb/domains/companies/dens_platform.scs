@@ -1,0 +1,24 @@
+company_dens_platform <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Дэнс Платформ]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_651_56_11]
+	(* <- concept_phone_number;;*);
+	[ceo@plaskee.com]
+	(* <- concept_email;;*);
+	[https://plaskee.com/]
+	(* <- concept_website;;*);
+	[193480667]
+	(* <- concept_ucn;;*);
+	[ул. Левкова, д. 43, офис 204/1]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2020;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,12 @@
+regional_tuberculosis_clinical_hospital_gomel <- concept_hospital;
+=> nrel_main_idtf:
+   [Gomel regional tuberculosis clinical hospital]
+   (* <- lang_en;; <- name_en;;*);
+   [Гомельская областная туберкулезная клиническая больница]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375232201968]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [https://www.gotkb.by]
+   (*<-concept_site;;*);;

@@ -1,0 +1,24 @@
+company_meynsoft <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[МэйнСофт]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 (29) 820_86_00]
+	(* <- concept_phone_number;;*);
+	[contact@mainsoft.org]
+	(* <- concept_email;;*);
+	[https://www.mainsoft.org/]
+	(* <- concept_website;;*);
+	[391266990]
+	(* <- concept_ucn;;*);
+	[ул. Коммунистическая 16, офис 313]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	vitebsk;
+=>nrel_year_registration:
+	2010;
+=>nrel_scope:
+	it;;
+

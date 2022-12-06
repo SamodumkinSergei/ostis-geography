@@ -1,0 +1,24 @@
+company_alyusoftbel <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[АлюсофтБел]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 (17) 330_11_44]
+	(* <- concept_phone_number;;*);
+	[info@alusoft.by]
+	(* <- concept_email;;*);
+	[http://alusoft.by/]
+	(* <- concept_website;;*);
+	[808001723]
+	(* <- concept_ucn;;*);
+	[Минский район, Новодворский с/с, район д. Королищевичи, д. 62, комн. 406а]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2001;
+=>nrel_scope:
+	it;;
+

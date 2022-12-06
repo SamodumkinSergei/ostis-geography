@@ -1,0 +1,22 @@
+company_loppi_poppi <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ЛОППИ ПОППИ]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375255231541]
+	(* <- concept_phone_number;;*);
+	[loppipoppi.info@gmail.com]
+	(* <- concept_email;;*);
+	[193508061]
+	(* <- concept_ucn;;*);
+	[220035, г. Минск, ул. Тимирязева 67, помещение 274, офис 1]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2021;
+=>nrel_scope:
+	it;;
+

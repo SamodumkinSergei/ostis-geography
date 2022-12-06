@@ -1,0 +1,24 @@
+company_tvoya_stolicaanalitiks <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Твоя столицааналитикс]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 (29) 376 71 71]
+	(* <- concept_phone_number;;*);
+	[info@prometr.by]
+	(* <- concept_email;;*);
+	[http://prometr.by/]
+	(* <- concept_website;;*);
+	[191599470]
+	(* <- concept_ucn;;*);
+	[ул.Шафарнянская, д.11, помещение 10, кабинет 7]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2012;
+=>nrel_scope:
+	it;;
+

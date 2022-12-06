@@ -1,0 +1,24 @@
+company_arbisi_bel <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[АРБИСИ БЕЛ]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 (33) 337_19_66]
+	(* <- concept_phone_number;;*);
+	[info@rbcgrp.com]
+	(* <- concept_email;;*);
+	[https://www.rbcgrp.com/]
+	(* <- concept_website;;*);
+	[193296638]
+	(* <- concept_ucn;;*);
+	[ул. Логойский тракт, д. 22А, корп. 2, оф. 801]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2019;
+=>nrel_scope:
+	it;;
+

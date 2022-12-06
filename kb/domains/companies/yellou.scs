@@ -1,0 +1,24 @@
+company_yellou <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Йеллоу]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375293115249]
+	(* <- concept_phone_number;;*);
+	[htp@yellow.systems]
+	(* <- concept_email;;*);
+	[http://www.yellow.systems]
+	(* <- concept_website;;*);
+	[192572666]
+	(* <- concept_ucn;;*);
+	[ул. Немига 5_301]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2015;
+=>nrel_scope:
+	it;;
+

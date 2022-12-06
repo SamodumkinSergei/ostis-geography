@@ -1,0 +1,22 @@
+company_umnye_torgovye_resheniya <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Умные Торговые Решения]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 2840211]
+	(* <- concept_phone_number;;*);
+	[sss_mail@lbr.ru]
+	(* <- concept_email;;*);
+	[193243165]
+	(* <- concept_ucn;;*);
+	[ул. П. Бровки, д. 19, ком. 507]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2019;
+=>nrel_scope:
+	it;;
+

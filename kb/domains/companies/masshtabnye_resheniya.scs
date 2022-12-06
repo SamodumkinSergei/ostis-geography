@@ -1,0 +1,24 @@
+company_masshtabnye_resheniya <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Масштабные решения]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_17_396_68_83]
+	(* <- concept_phone_number;;*);
+	[mr@mrsoft.by]
+	(* <- concept_email;;*);
+	[http://www.mrsoft.by]
+	(* <- concept_website;;*);
+	[191683606]
+	(* <- concept_ucn;;*);
+	[ул. Могилевская, д. 2, корп. 2, пом. 8, комн. 7]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2011;
+=>nrel_scope:
+	it;;
+

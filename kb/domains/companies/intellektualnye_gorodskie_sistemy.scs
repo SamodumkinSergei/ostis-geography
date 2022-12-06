@@ -1,0 +1,24 @@
+company_intellektualnye_gorodskie_sistemy <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Интеллектуальные городские системы]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 44 5370091]
+	(* <- concept_phone_number;;*);
+	[contact@ius.by]
+	(* <- concept_email;;*);
+	[http://ius.by/]
+	(* <- concept_website;;*);
+	[192710186]
+	(* <- concept_ucn;;*);
+	[ул.Чайкоского, 73А, помещение 27]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2016;
+=>nrel_scope:
+	it;;
+

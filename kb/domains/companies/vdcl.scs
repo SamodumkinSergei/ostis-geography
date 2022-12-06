@@ -1,0 +1,22 @@
+company_vdcl <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ВДЦЛ]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_745_41_45]
+	(* <- concept_phone_number;;*);
+	[hq.wdcl@gmail.com]
+	(* <- concept_email;;*);
+	[192817597]
+	(* <- concept_ucn;;*);
+	[Ул. Домбровская, д. 9, офис 8.3.4]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2017;
+=>nrel_scope:
+	it;;
+

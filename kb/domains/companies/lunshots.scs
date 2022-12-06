@@ -1,0 +1,22 @@
+company_lunshots <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Луншотс]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_893_49_34]
+	(* <- concept_phone_number;;*);
+	[contact@loonshot.app]
+	(* <- concept_email;;*);
+	[https://loonshot.app/]
+	(* <- concept_website;;*);
+	[193426054]
+	(* <- concept_ucn;;*);
+	[ул. Нововиленская, д. 38, офис 11]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

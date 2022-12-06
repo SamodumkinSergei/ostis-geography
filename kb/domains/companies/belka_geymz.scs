@@ -1,0 +1,24 @@
+company_belka_geymz <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Белка Геймз]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 236_90_94]
+	(* <- concept_phone_number;;*);
+	[maryana_mialik@belkatechnologies.com]
+	(* <- concept_email;;*);
+	[http://www.belka_games.com]
+	(* <- concept_website;;*);
+	[192465788]
+	(* <- concept_ucn;;*);
+	[ул. Платонова 49, офис 44_16, этаж 7]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2015;
+=>nrel_scope:
+	it;;
+

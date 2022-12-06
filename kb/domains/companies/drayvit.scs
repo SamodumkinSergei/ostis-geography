@@ -1,0 +1,20 @@
+company_drayvit <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ДрайвИТ]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_44_771_93_7]
+	(* <- concept_phone_number;;*);
+	[driveitcompany@gmail.com]
+	(* <- concept_email;;*);
+	[193550746]
+	(* <- concept_ucn;;*);
+	[ул. Тимирязева, д. 121, корп. 2, офис 1]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

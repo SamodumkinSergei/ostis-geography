@@ -1,0 +1,17 @@
+store_a1_independence_105
+
+<- sc_node_not_relation;
+
+<- concept_hardware_store;
+
+=> nrel_main_idtf:
+	[Магазин A1 по адресу Минск, пр-т Независимости, 105]
+	(* <- lang_ru;; *);
+	[Shop A1 at Minsk, Independence Ave, 105]
+	(* <- lang_en;; *);
+
+=> nrel_address:
+	[Минск, пр-т Независимости, 105]
+	(* <- concept_address;; *);
+
+=> nrel_company: company_a1;;

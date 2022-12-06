@@ -1,0 +1,22 @@
+company_kollab_ayti <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Коллаб Айти]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375293560064]
+	(* <- concept_phone_number;;*);
+	[info@collab_it.com]
+	(* <- concept_email;;*);
+	[192795631]
+	(* <- concept_ucn;;*);
+	[ул.Зыбицкая, 2, пом.8, оф.9]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2017;
+=>nrel_scope:
+	it;;
+

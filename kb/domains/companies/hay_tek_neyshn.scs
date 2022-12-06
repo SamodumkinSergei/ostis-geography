@@ -1,0 +1,24 @@
+company_hay_tek_neyshn <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Хай_тек нэйшн]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29 3455269]
+	(* <- concept_phone_number;;*);
+	[ceo.babushkin@htn.by]
+	(* <- concept_email;;*);
+	[http://htn.by/]
+	(* <- concept_website;;*);
+	[193067189]
+	(* <- concept_ucn;;*);
+	[пер. Загородный 3_й, д.4В, пом.28]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

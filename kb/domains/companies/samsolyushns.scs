@@ -1,0 +1,24 @@
+company_samsolyushns <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[САМСОЛЮШНС]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 309_17_09]
+	(* <- concept_phone_number;;*);
+	[info@sam_solutions.com]
+	(* <- concept_email;;*);
+	[http://www.sam_solutions.com/]
+	(* <- concept_website;;*);
+	[800008653]
+	(* <- concept_ucn;;*);
+	[ул. Филимонова, 15]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	1993;
+=>nrel_scope:
+	it;;
+

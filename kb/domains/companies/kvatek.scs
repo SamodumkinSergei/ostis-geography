@@ -1,0 +1,24 @@
+company_kvatek <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Кватек]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375291853743]
+	(* <- concept_phone_number;;*);
+	[info@sqrd.tech]
+	(* <- concept_email;;*);
+	[sqrd.tech]
+	(* <- concept_website;;*);
+	[692163581]
+	(* <- concept_ucn;;*);
+	[223053, ул. Берёзовая Роща, 108, оф. 46, д. Боровляны, Минский район, Минская область, Республика Беларусь]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2020;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,25 @@
+section_subject_domain_of_pharmacies<-non_atomic_section;
+=>nrel_main_idtf:
+	[Раздел. Предметная область аптек] (*<-lang_ru;;*);
+	[Section. Subject domain of pharmacies] (*<-lang_en;;*);;
+
+section_subject_domain_of_pharmacies -> rrel_key_sc_element:
+concept_pharmacy;
+concept_pharmacy_chain;
+subject_domain_of_pharmacies;;
+
+section_subject_domain_of_pharmacies= [*
+	subject_domain_of_pharmacies<-sc_node_struct;;
+
+	subject_domain_of_pharmacies<-subject_domain;
+	=>nrel_main_idtf:
+		[Предметная область аптек] (*<-lang_ru;;*);
+		[Subject domain of pharmacies] (*<-lang_en;;*);;
+
+	subject_domain_of_pharmacies->rrel_maximum_studied_object_class:
+		concept_pharmacy_chain;;
+
+	subject_domain_of_pharmacies->rrel_not_maximum_studied_object_class:
+		concept_pharmacy;;
+
+*];;

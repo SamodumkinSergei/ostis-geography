@@ -1,0 +1,68 @@
+pharmacy_chain_Green_pharmacy <- sc_node_not_relation;
+<- concept_pharmacy_chain;
+=> nrel_main_idtf:
+    [Зеленая Аптека](* <-lang_ru;; *);
+    [Green pharmacy](* <-lang_en;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+    => nrel_main_idtf:
+        [Опр. (Зеленая Аптека)] (* <-lang_ru;; *);
+        [Def. (Green pharmacy)] (* <-lang_en;; *);;
+    <- definition;;
+    <= nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example: [Зеленая Аптека - популярная в Беларуси аптечная сеть, специализирующаяся на натуральных товарах для здоровья и красоты.] (* <-lang_ru;; *);;
+        *);
+        ...
+        (*
+        -> rrel_example: [Green pharmacy - a popular pharmacy chain in Belarus specializing in natural products for health and beauty.] (* <-lang_en;; *);;
+        *);;
+    *);;
+    
+pharmacy_chain_Belfarmacy <- sc_node_not_relation;
+<- concept_pharmacy_chain;
+=> nrel_main_idtf:
+    [Белфармация](* <-lang_ru;; *);
+    [Belpharmacy](* <-lang_en;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+    => nrel_main_idtf:
+        [Опр. (Белфармация)] (* <-lang_ru;; *);
+        [Def. (Belpharmacy)] (* <-lang_en;; *);;
+    <- definition;;
+    <= nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example: [Белфармация - одна из крупнейших аптечных сетей в Минске.] (* <-lang_ru;; *);;
+        *);
+        ...
+        (*
+        -> rrel_example: [Belpharmacy is one of the largest pharmacy chains in Minsk.] (* <-lang_en;; *);;
+        *);;
+    *);;
+    
+pharmacy_chain_Planet_Health <- sc_node_not_relation;
+<- concept_pharmacy_chain;
+=> nrel_main_idtf:
+    [Планета здоровья](* <-lang_ru;; *);
+    [Planet of Health](* <-lang_en;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+    => nrel_main_idtf:
+        [Опр. (Планета здоровья)] (* <-lang_ru;; *);
+        [Def. (Planet of Health)] (* <-lang_en;; *);;
+    <- definition;;
+    <= nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example: [Планета Здоровья - одна из крупнейших частных аптечных сетей в Беларуси.] (* <-lang_ru;; *);;
+        *);
+        ...
+        (*
+        -> rrel_example: [Planet of Health - is one of the largest private pharmacy chains in Belarus.] (* <-lang_en;; *);;
+        *);;
+    *);;
