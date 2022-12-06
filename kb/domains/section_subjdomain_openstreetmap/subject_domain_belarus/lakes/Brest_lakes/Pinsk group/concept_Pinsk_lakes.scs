@@ -1,0 +1,37 @@
+concept_Pinsk_lakes
+<-sc_node_not_relation;
+<-concept_lake_group;
+=>nrel_main_idtf:
+	[Пинская группа озер]
+	(* <- lang_ru;; *);
+	[Pinsk group of lakes]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Пинская группа озер)]
+		(* <- lang_ru;; *);
+		[Def. (Pinsk group of lakes)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Пинская группа озёр  — группа озёр на территории Пинского района Брестской области.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Pinsk Lakes are a group of lakes on the territory of the Pinsk district of the Brest region.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_lake_group;
+			pinsk_district;
+			brest_region
+		};;
+	*);;

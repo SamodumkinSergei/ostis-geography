@@ -1,0 +1,36 @@
+concept_Solomyanka_lakes
+<-sc_node_not_relation;
+<-concept_lake_group;
+=>nrel_main_idtf:
+	[Соломянкская группа озер]
+	(* <- lang_ru;; *);
+	[Solomyanka group of lakes]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Соломянкская группа озер)]
+		(* <- lang_ru;; *);
+		[Def. (Solomyanka group of lakes)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Соломянкская группа озёр  — группа озёр на территории Гродненской области.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Solomyanka Lakes are a group of lakes on the territory of the Grodno region.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_lake_group;
+			grodno_region
+		};;
+	*);;

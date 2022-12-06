@@ -1,0 +1,20 @@
+
+lake_Miadnianskaje 
+<- concept_lake;
+<- concept_Ivanovski_lakes;
+<- concept_lake_of_the_Brest_region;
+<- concept_way;
+=>nrel_main_idtf:
+    [Меднянское озеро]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=> nrel_area:
+    [0.24]
+   (* <- concept_square;; *);
+=>nrel_district:
+    ivanovski_district;
+=>nrel_search_area:
+    brest_region;;

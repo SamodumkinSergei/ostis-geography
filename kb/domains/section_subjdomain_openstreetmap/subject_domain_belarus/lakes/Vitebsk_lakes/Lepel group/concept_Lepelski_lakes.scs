@@ -1,0 +1,37 @@
+concept_Lepelski_lakes
+<-sc_node_not_relation;
+<-concept_lake_group;
+=>nrel_main_idtf:
+	[Лепельская группа озер]
+	(* <- lang_ru;; *);
+	[Lepel group of lakes]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Лепельская группа озер)]
+		(* <- lang_ru;; *);
+		[Def. (Lepel group of lakes)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Лепельская группа озёр  — группа озёр на территории Лепельского района Витебской области.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Lepel Lakes are a group of lakes on the territory of the Lepel district of the Vitebsk region.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_lake_group;
+            lepel_district;
+			vitebsk_region
+		};;
+	*);;

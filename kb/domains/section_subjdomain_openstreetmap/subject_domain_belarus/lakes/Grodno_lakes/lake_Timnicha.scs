@@ -1,0 +1,15 @@
+lake_Timnicha 
+<- concept_lake;
+<- concept_lake_of_the_Grodno_region;
+<- concept_way;
+=>nrel_search_area:
+    grodno_region;
+=>nrel_main_idtf:
+    [озеро Тимница]
+    (* <- lang_ru;; <- name;;*);
+=> nrel_temperature:
+    [1];
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    grodno_region;;

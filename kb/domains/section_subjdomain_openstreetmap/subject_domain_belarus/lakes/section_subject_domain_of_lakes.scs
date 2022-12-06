@@ -1,0 +1,66 @@
+section_subject_domain_of_lakes
+=> nrel_main_idtf:
+	  [Раздел. Предметная область озера]
+  (* <- lang_ru;; *);
+	  [Section. Subject domain of lakes] 
+  (* <- lang_en;; *);
+
+  <= nrel_section_decomposition: 
+	{
+		section_subject_domain_of_lakes_in_belarus
+	};
+	
+<- atomic_section;;
+
+
+section_subject_domain_of_lakes = [*
+	subject_domain_of_lakes
+<- sc_node_struct;
+	=> nrel_main_idtf:
+   [Предметная область озера]
+   (* <- lang_ru;; *);
+   [Subject domain of lakes]
+   (* <- lang_en;; *);
+	<- subject_domain;
+	=> nrel_private_subject_domain:
+	{
+		subject_domain_of_lakes
+	};
+
+
+
+	-> rrel_maximum_studied_object_class:
+   		concept_lakes;
+	-> rrel_not_maximum_studied_object_class:
+		concept_lake_of_the_Brest_region;
+		concept_lake_of_the_Gomel_region;
+		concept_lake_of_the_Grodno_region;
+		concept_lake_of_the_Minsk_region;
+		concept_lake_of_the_Mogilev_region;
+		concept_lake_of_the_Vitebsk_region;
+		concept_square;
+		concept_lake_group;
+		-> rrel_explored_relation:
+		nrel_area;
+		nrel_salt;
+		nrel_temperature;;
+*];;
+
+section_subject_domain_of_attractions
+-> rrel_key_sc_element:
+	concept_lakes;
+   	concept_entertainment_facility;
+	concept_lake_of_the_Brest_region;
+	concept_lake_of_the_Gomel_region;
+	concept_lake_of_the_Grodno_region;
+	concept_lake_of_the_Minsk_region;
+	concept_lake_of_the_Mogilev_region;
+	concept_lake_of_the_Vitebsk_region;
+	concept_square;
+	concept_lake_group;
+	nrel_area;
+	nrel_salt;
+	nrel_temperature;;
+	
+
+

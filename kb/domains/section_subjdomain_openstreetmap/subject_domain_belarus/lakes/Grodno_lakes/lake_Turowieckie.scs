@@ -1,0 +1,13 @@
+lake_Turowieckie 
+<- concept_lake;
+<- concept_lake_of_the_Grodno_region;
+=>nrel_main_idtf:
+    [Туровейское озеро]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_area:
+    [0.41]
+    (* <- concept_square;; *);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    grodno_region;;

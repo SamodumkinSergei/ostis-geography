@@ -1,0 +1,37 @@
+concept_Chechersk_lakes
+<-sc_node_not_relation;
+<-concept_lake_group;
+=>nrel_main_idtf:
+	[Чечерская группа озер]
+	(* <- lang_ru;; *);
+	[Chechersk group of lakes]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Чечерская группа озер)]
+		(* <- lang_ru;; *);
+		[Def. (Chechersk group of lakes)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Чечерская группа озёр  — группа озёр на территории Чечерского района Гомельской области.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Chechersk Lakes are a group of lakes on the territory of the Chechersk district of the Gomel region.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_lake_group;
+			chechersk_district;
+			gomel_region
+		};;
+	*);;

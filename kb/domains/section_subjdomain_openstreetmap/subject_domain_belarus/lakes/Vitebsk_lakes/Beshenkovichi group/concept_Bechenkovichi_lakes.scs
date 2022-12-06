@@ -1,0 +1,37 @@
+concept_Beshenkovichi_lakes
+<-sc_node_not_relation;
+<-concept_lake_group;
+=>nrel_main_idtf:
+	[Бешенковическая группа озер]
+	(* <- lang_ru;; *);
+	[Beshenkovichi group of lakes]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Бешенковическая группа озер)]
+		(* <- lang_ru;; *);
+		[Def. (Beshenkovichi group of lakes)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Бешенковическая группа озёр  — группа озёр на территории Бешенковического района Витебской области области.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Beshenkovichi Lakes are a group of lakes on the territory of the Beshenkovichi district of the Vitebsk region.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_lake_group;
+            beshenkovichi_district;
+			vitebsk_region
+		};;
+	*);;

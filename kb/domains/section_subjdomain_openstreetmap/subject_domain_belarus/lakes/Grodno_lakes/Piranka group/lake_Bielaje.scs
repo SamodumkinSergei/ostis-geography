@@ -1,0 +1,13 @@
+lake_Bielaje 
+<- concept_lake;
+<- concept_Piranka_lakes;
+<- concept_lake_of_the_Grodno_region;
+=>nrel_main_idtf:
+    [Белое озеро]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    grodno_region;
+=>nrel_district:
+    hrodna_district;;

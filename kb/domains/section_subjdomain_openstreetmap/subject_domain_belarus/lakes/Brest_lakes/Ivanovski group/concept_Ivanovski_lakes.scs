@@ -1,0 +1,37 @@
+concept_Ivanovski_lakes
+<-sc_node_not_relation;
+<-concept_lake_group;
+=>nrel_main_idtf:
+	[Ивановская группа озер]
+	(* <- lang_ru;; *);
+	[Ivanovski group of lakes]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Ивановская группа озер)]
+		(* <- lang_ru;; *);
+		[Def. (Ivanovski group of lakes)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Ивановская группа озёр  — группа озёр на территории Ивановского района Брестской области.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Ivanovski Lakes are a group of lakes on the territory of the Ivanovski district of the Brest region.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_lake_group;
+			ivanovo_district;
+			brest_region
+		};;
+	*);;

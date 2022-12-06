@@ -1,0 +1,37 @@
+concept_Dockshicko_lakes
+<-sc_node_not_relation;
+<-concept_lake_group;
+=>nrel_main_idtf:
+	[Докшицкая группа озер]
+	(* <- lang_ru;; *);
+	[Dockshicki group of lakes]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Докшицкая группа озер)]
+		(* <- lang_ru;; *);
+		[Def. (Dockshicki group of lakes)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Докшицкая группа озёр  — группа озёр на территории Докшицкого района Витебской области.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Dockshicki Lakes are a group of lakes on the territory of the Dockshicki district of the Vitebsk region.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_lake_group;
+            dockshicki_district;
+			vitebsk_region
+		};;
+	*);;

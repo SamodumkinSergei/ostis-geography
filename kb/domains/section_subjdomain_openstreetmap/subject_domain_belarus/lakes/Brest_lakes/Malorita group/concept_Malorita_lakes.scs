@@ -1,0 +1,37 @@
+concept_Baranovichi_lakes
+<-sc_node_not_relation;
+<-concept_lake_group;
+=>nrel_main_idtf:
+	[Малоритская группа озер]
+	(* <- lang_ru;; *);
+	[Malorita group of lakes]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Малоритская группа озер)]
+		(* <- lang_ru;; *);
+		[Def. (Malorita group of lakes)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Малоритская группа озёр  — группа озёр на территории Малоритского района Брестской области.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Malorita Lakes are a group of lakes on the territory of the Malorita district of the Brest region.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_lake_group;
+			malorita_district;
+			brest_region
+		};;
+	*);;

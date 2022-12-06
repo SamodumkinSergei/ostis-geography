@@ -1,0 +1,18 @@
+lake_mlynok 
+<- concept_lake;
+<- concept_Naroch_lakes;
+<- concept_lake_of_the_Minsk_region;
+<- concept_way;
+=>nrel_search_area:
+    minsk_region;
+=>nrel_main_idtf:
+    [озеро Млынок]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_temperature:
+    [7];
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    minsk_region;
+=>nrel_district:
+    myadzel_district;;

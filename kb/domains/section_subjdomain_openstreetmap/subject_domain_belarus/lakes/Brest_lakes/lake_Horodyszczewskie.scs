@@ -1,0 +1,18 @@
+
+lake_Horodyszczewskie  
+<- concept_lake;
+<- concept_lake_of_the_Brest_region;
+<- concept_way;
+=>nrel_main_idtf:
+    [Городищенское озеро]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_temperature:
+    [5];
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    brest_district;
+=>nrel_search_area:
+    brest_region;;

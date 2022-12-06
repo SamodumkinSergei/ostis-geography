@@ -1,0 +1,17 @@
+
+lake_vulkovskoe  
+<- concept_lake;
+<- concept_Ivacevichi_lakes;
+<- concept_lake_of_the_Brest_region;
+<- concept_way;
+=>nrel_search_area:
+    brest_region;
+=>nrel_main_idtf:
+    [озеро Вульковское]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    ivatsevichy_district;;

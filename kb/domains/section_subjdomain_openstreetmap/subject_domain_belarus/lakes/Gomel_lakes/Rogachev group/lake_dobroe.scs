@@ -1,0 +1,15 @@
+
+lake_dobroe 
+<- concept_lake;
+<- concept_Rogachev_lakes;
+<- concept_lake_of_the_Gomel_region;
+<- concept_way;
+=>nrel_search_area:
+    gomel_region;
+=>nrel_main_idtf:
+    [Доброе озеро]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    gomel_region;;

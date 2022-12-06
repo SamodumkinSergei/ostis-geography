@@ -1,0 +1,18 @@
+
+lake_pochapovo  
+<- concept_lake;
+<- concept_Pinsk_lakes;
+<- concept_lake_of_the_Brest_region;
+<- concept_way;
+=>nrel_search_area:
+    brest_region;
+=>nrel_main_idtf:
+    [Почапово]
+    (* <- lang_ru;; <- name;;*);
+=>nrel_country:
+    belarus;
+=>nrel_region:
+    brest_region;
+=>nrel_district:
+    pinsk_district;;
+
