@@ -1,0 +1,24 @@
+company_tvistellar <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Твистеллар]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29 6414136]
+	(* <- concept_phone_number;;*);
+	[hello@twistellar.com]
+	(* <- concept_email;;*);
+	[http://www.twistellar.com]
+	(* <- concept_website;;*);
+	[691831331]
+	(* <- concept_ucn;;*);
+	[ул. Платонова, 20б/4, офис 706]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2017;
+=>nrel_scope:
+	it;;
+

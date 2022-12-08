@@ -1,0 +1,20 @@
+company_duap <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ДУАП]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_162_44_97]
+	(* <- concept_phone_number;;*);
+	[v.a.iakovlev@gmail.com]
+	(* <- concept_email;;*);
+	[193533144]
+	(* <- concept_ucn;;*);
+	[пр. Дзержинского, д. 5, офис 16]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

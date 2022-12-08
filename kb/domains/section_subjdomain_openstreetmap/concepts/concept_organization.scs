@@ -1,0 +1,35 @@
+concept_organization
+<-sc_node_not_relation;
+<-concept_administrative_unit;
+=>nrel_main_idtf:
+	[организация]
+	(* <- lang_ru;; *);
+	[organization]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (организация)]
+		(* <- lang_ru;; *);
+		[Def. (organization)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Организация —  социальная группа, которая распределяет выполнение задач между участниками для достижения определённой коллективной цели..]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Оrganization - a social group that distributes tasks among members to achieve a specific collective goal.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_organization
+		};;
+	*);;

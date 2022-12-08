@@ -1,0 +1,24 @@
+company_almus_media_bay <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Альмус]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 611_699_2]
+	(* <- concept_phone_number;;*);
+	[contact@almusmedia.com]
+	(* <- concept_email;;*);
+	[http://almusmedia.com/]
+	(* <- concept_website;;*);
+	[192283854]
+	(* <- concept_ucn;;*);
+	[пр_т Победителей, д. 108, пом. 7_1]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2014;
+=>nrel_scope:
+	it;;
+

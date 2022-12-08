@@ -1,0 +1,24 @@
+company_blinger_limited <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Блингер Лимитед]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375293353029]
+	(* <- concept_phone_number;;*);
+	[ceo@blinger.io]
+	(* <- concept_email;;*);
+	[http://blinger.io/]
+	(* <- concept_website;;*);
+	[193308987]
+	(* <- concept_ucn;;*);
+	[ул. Интернациональная, д.25А, оф. 408]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2019;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,24 @@
+company_selvin_sistem <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Сэльвин Систем]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29 6662747]
+	(* <- concept_phone_number;;*);
+	[info@sellwin_system.by]
+	(* <- concept_email;;*);
+	[http://sellwin_system.by/]
+	(* <- concept_website;;*);
+	[193155085]
+	(* <- concept_ucn;;*);
+	[ул. Академика Купревича, 14, подвальный этаж, пом. 10]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

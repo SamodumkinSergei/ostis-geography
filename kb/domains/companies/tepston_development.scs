@@ -1,0 +1,24 @@
+company_tepston_development <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Тэпстон Девелопмент]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375296547303]
+	(* <- concept_phone_number;;*);
+	[hello@tapston.com]
+	(* <- concept_email;;*);
+	[https://tapston.com/]
+	(* <- concept_website;;*);
+	[192994544]
+	(* <- concept_ucn;;*);
+	[пр_т Дзержинского, 3Б]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2017;
+=>nrel_scope:
+	it;;
+

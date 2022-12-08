@@ -1,0 +1,12 @@
+regional_hospital_brest <- concept_hospital;
+=> nrel_main_idtf:
+   [Regional hospital Brest]
+   (* <- lang_en;; <- name_en;;*);
+   [Брестская областная больница]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375162370107]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [https://www.bokb.by]
+   (*<-concept_site;;*);;

@@ -1,0 +1,24 @@
+company_gbsoft <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ГБСофт]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 200 99 66]
+	(* <- concept_phone_number;;*);
+	[info@gbsoft.by]
+	(* <- concept_email;;*);
+	[http://gbsoft.by/]
+	(* <- concept_website;;*);
+	[191316185]
+	(* <- concept_ucn;;*);
+	[ул. Скрыганова 6]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2010;
+=>nrel_scope:
+	it;;
+

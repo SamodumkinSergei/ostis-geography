@@ -1,0 +1,24 @@
+company_hyumans_ayti <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Хьюманс АйТи]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 260 37 19]
+	(* <- concept_phone_number;;*);
+	[team.minsk@humans.net]
+	(* <- concept_email;;*);
+	[http://minsk.humans.net/]
+	(* <- concept_website;;*);
+	[192812567]
+	(* <- concept_ucn;;*);
+	[пр. Дзержинского, 104А, 18 этаж, пом. 1801]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2017;
+=>nrel_scope:
+	it;;
+

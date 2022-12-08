@@ -1,0 +1,12 @@
+city_clinical_infectious_diseases_hospital_minsk <- concept_hospital;
+=> nrel_main_idtf:
+   [City clinical infectious diseases hospital Minsk]
+   (* <- lang_en;; <- name_en;;*);
+   [Минская городская клиническая инфекционная больница]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375173341433]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [https://gkib.by]
+   (*<-concept_site;;*);;

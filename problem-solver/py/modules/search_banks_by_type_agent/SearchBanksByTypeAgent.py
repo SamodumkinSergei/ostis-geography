@@ -1,139 +1,120 @@
 from termcolor import colored
+from typing import List
 
-from common import ScAgent, ScEventParams, ScKeynodes
-from sc import *
+from sc_client import client
+
+from sc_client.models import ScAddr, ScTemplate, ScLinkContent
+from sc_client.constants import sc_types
+
+from sc_kpm import ScAgentClassic, ScResult, ScKeynodes
+
+from sc_kpm.utils.action_utils import get_action_arguments
+from sc_kpm.utils import create_edge
+from sc_kpm.utils.creation_utils import create_node, create_structure, wrap_in_set
+from sc_kpm.utils.common_utils import get_system_idtf
+from sc_kpm.logging import get_kpm_logger
 
 
-class SearchBanksByTypeAgent(ScAgent):
-    def __init__(self, module):
-        super().__init__(module)
-        self.ctx = module.ctx
-        self.keynodes = ScKeynodes(self.ctx)
-        self.main_node = None
+_logger = get_kpm_logger()
 
-    def RunImpl(self, evt: ScEventParams) -> ScResult:
-        self.main_node = evt.other_addr # получаем узел который отвечает за вызов агента с определенными параметрами
-        status = ScResult.Ok
 
-        # проверяем что был вызван действительно наш агент
-        if self.module.ctx.HelperCheckEdge(
-                self.keynodes['action_search_banks_by_type'],
-                self.main_node,
-                ScType.EdgeAccessConstPosPerm,
-        ):
-            try:
-                if self.main_node is None or not self.main_node.IsValid():
-                    raise Exception("The question node isn't valid.")
-                # получаем наши аргументы агента
-                node = self.get_action_argument(self.main_node, 'rrel_1') 
-                answerNode = self.ctx.CreateNode(ScType.NodeConstStruct) # создаем узел ответа
-                self.add_nodes_to_answer(answerNode, [node]) # добавляем входные аргументы в ответ
+class SearchBanksByTypeAgent(ScAgentClassic):
+    def __init__(self):
+        super().__init__("action_search_banks_by_type")
+        self._keynodes = ScKeynodes()
 
-                # тут пишите свой агент
-                # в данном примере агент получает как аргумент узел и находит описание этого узла, т.е. конструкцию: node <- rrel_key_sc_element: ...(* <-definition;; <= nrel_sc_text_translation: ...(* ->rrel_example: [Определение];; *);; *);;
-                # ниже получение определения через итераторы
-				
-				# проверка на принадлежность к типам банковских учреждений
-                checkIt = self.ctx.Iterator3(
-                    self.keynodes['concept_banking_institution'],
-                    ScType.EdgeAccessConstPosPerm,
-                    node
-                )
-                if checkIt.Next():
-                    print("+")
-                    # Получение всех банков и схожих объектов
-                    bankIterator = self.ctx.Iterator3(
-                        node,
-                        ScType.EdgeAccessConstPosPerm,
-                        ScType.Unknown
-                    )
-                    while bankIterator.Next():
-                        print("!")
-                        bank = bankIterator.Get(2)
-                        # Проверка на принадлежность к объектам карты
-                        checkIterator = self.ctx.Iterator3(
-                            self.keynodes['concept_map_object'],
-                            ScType.EdgeAccessConstPosPerm,
-                            bank
-                        )
-                        if checkIterator.Next():
-                            print("1")
-                            self.add_nodes_to_answer(answerNode, [bank, bankIterator.Get(1), bankIterator.Get(2)])
-                        else:
-                            print("It is not concept_banking_institution")
-					
-				# print(self.get_definition(node)) # получение определение через шаблон
-                self.finish_agent(self.main_node, answerNode) # завершаем работу агента
-            except Exception as ex:
-                print(colored(str(ex), color='red'))
-                self.set_unsuccessful_status()
-                status = ScResult.Error
-            finally:
-                self.ctx.CreateEdge(
-                    ScType.EdgeAccessConstPosPerm,
-                    self.keynodes['question_finished'],
-                    self.main_node,
-                )
+    def on_event(self, class_node: ScAddr, edge: ScAddr, action_node: ScAddr) -> ScResult:
+        if not self._confirm_action_class(action_node):
+            return ScResult.SKIP
+
+        status = ScResult.OK
+        _logger.debug("SearchBanksByTypeAgent starts")
+
+        try:
+            _logger.debug("SearchBanksByTypeAgent get arguments")
+
+            if action_node is None or not action_node.is_valid():
+                raise Exception("The question node isn't valid")
+
+            node, = get_action_arguments(action_node, 1)
+            answer_node = create_structure(node)
+
+            self.find_banks(node, answer_node)
+
+            self.finish_agent(action_node, answer_node)
+            _logger.debug("SearchBanksByTypeAgent ends")
+        except Exception as ex:
+            self.set_unsuccessful_status(action_node)
+            status = ScResult.ERROR
+        finally:
+            create_edge(
+                sc_types.EDGE_ACCESS_CONST_POS_PERM,
+                self._keynodes['question_finished'],
+                action_node,
+            )
+
         return status
 
-    def set_unsuccessful_status(self):
-        self.module.ctx.CreateEdge(
-            ScType.EdgeAccessConstPosPerm,
-            self.keynodes['question_finished_unsuccessfully'],
-            self.main_node,
-        )
+    # Find objects of the specified bank type if they are map objects
+    def find_banks(self, bank_type: ScAddr, answer_node: ScAddr) -> None:
+        if not self.is_bank_type(bank_type):
+            _logger.debug("The question node isn't a bank_type")
+            return
 
-    def finish_agent(self, action_node, answer):
-        contour_edge = self.ctx.CreateEdge(
-            ScType.EdgeDCommonConst,
+        bank_template = ScTemplate()
+        bank_template.triple(
+            bank_type,
+            sc_types.EDGE_ACCESS_VAR_POS_PERM,
+            [sc_types.UNKNOWN, "_bank"]
+        )
+        bank_template.triple(
+            self._keynodes['concept_map_object'],
+            [sc_types.EDGE_ACCESS_VAR_POS_PERM, "_edge_to_bank"],
+            "_bank"
+        )
+        result = client.template_search(bank_template)
+
+        wrap_in_set(answer_node, self._keynodes['concept_map_object'])
+
+        for item in result:
+            _logger.debug("SearchBanksByTypeAgent get answer: " +
+                          get_system_idtf(item.get(2)))
+
+            wrap_in_set(
+                answer_node, item.get(2), item.get(1))
+
+    # Check if the node is a bank type
+    def is_bank_type(self, node: ScAddr) -> bool:
+        bank_check_template = ScTemplate()
+        bank_check_template.triple(
+            self._keynodes['concept_banking_institution'],
+            sc_types.EDGE_ACCESS_VAR_POS_PERM,
+            node
+        )
+        bank_search_results = client.template_search(bank_check_template)
+
+        return len(bank_search_results) > 0
+
+    def set_unsuccessful_status(self, action_node: ScAddr) -> None:
+        create_edge(
+            sc_types.EDGE_ACCESS_CONST_POS_PERM,
+            self._keynodes['question_finished_unsuccessfully'],
             action_node,
-            answer
         )
-        self.ctx.CreateEdge(
-            ScType.EdgeAccessConstPosPerm,
-            self.keynodes['nrel_answer'],
-            contour_edge
+
+    def finish_agent(self, action_node: ScAddr, answer: ScAddr) -> None:
+        contour_edge = create_edge(
+            sc_types.EDGE_D_COMMON_CONST,
+            action_node,
+            answer,
         )
-        self.ctx.CreateEdge(
-            ScType.EdgeAccessConstPosPerm,
-            self.keynodes['question_finished_successfully'],
+        create_edge(
+            sc_types.EDGE_ACCESS_CONST_POS_PERM,
+            self._keynodes['nrel_answer'],
+            contour_edge,
+        )
+        create_edge(
+            sc_types.EDGE_ACCESS_CONST_POS_PERM,
+            self._keynodes['question_finished_successfully'],
             action_node,
         )
-
-    def get_action_argument(self, question: ScAddr, rrel: str, argument_class=None) -> ScAddr:
-        actual_argument = "_actual_argument"
-
-        keynodes = self.keynodes
-
-        template = ScTemplate()
-        template.TripleWithRelation(
-            question,
-            ScType.EdgeAccessVarPosPerm,
-            ScType.NodeVar >> actual_argument,
-            ScType.EdgeAccessVarPosPerm,
-            keynodes[rrel],
-        )
-        if argument_class is not None:
-            template.Triple(keynodes[argument_class], ScType.EdgeAccessVarPosPerm, actual_argument)
-
-        search_result = self.ctx.HelperSearchTemplate(template)
-
-        search_result_size = search_result.Size()
-        if search_result_size > 0:
-            argument_node = search_result[0][actual_argument]
-        else:
-            raise Exception("The argument node isn't found.")
-
-        return argument_node
-
-    def add_nodes_to_answer(self, contour=None, nodes=None):
-        if contour is None:
-            contour = self.ctx.CreateNode()
-        if nodes is None:
-            nodes = []
-        for node in nodes:
-            self.ctx.CreateEdge(
-                ScType.EdgeAccessConstPosPerm,
-                contour,
-                node
-            )

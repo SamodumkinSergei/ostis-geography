@@ -1,0 +1,24 @@
+company_fp_treyd <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ФП Трэйд]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+ 375 17 346_20_96]
+	(* <- concept_phone_number;;*);
+	[info@fptrade.by]
+	(* <- concept_email;;*);
+	[http://www.fptrade.by]
+	(* <- concept_website;;*);
+	[190557580]
+	(* <- concept_ucn;;*);
+	[Партизанский пр_т, 178, изолированное помещение №601, каб.8]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2004;
+=>nrel_scope:
+	it;;
+

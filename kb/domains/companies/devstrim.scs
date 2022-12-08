@@ -1,0 +1,22 @@
+company_devstrim <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ДЕВСТРИМ]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_29_355_50_07]
+	(* <- concept_phone_number;;*);
+	[dmitry.rudenya@devstream.by]
+	(* <- concept_email;;*);
+	[193239702]
+	(* <- concept_ucn;;*);
+	[ул. Платонова, д. 20Б, помещение 12, ком. 11]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2019;
+=>nrel_scope:
+	it;;
+

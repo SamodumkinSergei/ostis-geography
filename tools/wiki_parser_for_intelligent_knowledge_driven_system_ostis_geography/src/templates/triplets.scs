@@ -1,0 +1,2 @@
+{% for first_entity, relation, second_entity in triplets %}{{first_entity}} => {{relation}}: {{second_entity}};;
+{% endfor %}

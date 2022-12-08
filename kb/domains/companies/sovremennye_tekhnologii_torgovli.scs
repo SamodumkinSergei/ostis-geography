@@ -1,0 +1,22 @@
+company_sovremennye_tekhnologii_torgovli <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[EDI_провайдер СТТ | Современные технологии торговли]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375_17_336_06_28]
+	(* <- concept_phone_number;;*);
+	[info@topby.by]
+	(* <- concept_email;;*);
+	[https://ctt.by/]
+	(* <- concept_website;;*);
+	[191327898]
+	(* <- concept_ucn;;*);
+	[пр. Независимости, д. 181/7Н, каб. 20]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_scope:
+	it;;
+

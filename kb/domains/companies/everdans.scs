@@ -1,0 +1,24 @@
+company_everdans <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Эверданс]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 253 82 13]
+	(* <- concept_phone_number;;*);
+	[admin@everdance.app]
+	(* <- concept_email;;*);
+	[http://everdance.app/]
+	(* <- concept_website;;*);
+	[193273265]
+	(* <- concept_ucn;;*);
+	[ул. Восточная, 39, пом. 2Н, комн.1/1]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2019;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,24 @@
+company_geymmatika <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Геймматика]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 25 912 37 15]
+	(* <- concept_phone_number;;*);
+	[dontsov@gamematica.com]
+	(* <- concept_email;;*);
+	[https://gamematica.com/]
+	(* <- concept_website;;*);
+	[193494082]
+	(* <- concept_ucn;;*);
+	[220035, г. Минск, ул. Тимирязева 65Б, помещение 109, офис 7]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2021;
+=>nrel_scope:
+	it;;
+

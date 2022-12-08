@@ -1,0 +1,36 @@
+concept_dance_studio
+<-sc_node_class;
+=>nrel_main_idtf:
+	[Танцевальная студия]
+	(* <- lang_ru;; *);
+	[Dance studio]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Танцевальная студия)]
+		(* <- lang_ru;; *);
+		[Def. (Dance studio)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Танцевальная студия – это, обычно, коллектив танцоров, развивающих одно или несколько направлений танцев, основной целью которых является создание танцевальных композиций и выступления.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[A dance studio is usually a group of dancers who develop one or more dance styles, the main purpose of which is to create dance compositions and performances.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_studio
+
+		};;
+	*);;
+

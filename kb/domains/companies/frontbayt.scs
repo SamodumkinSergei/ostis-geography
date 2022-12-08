@@ -1,0 +1,24 @@
+company_frontbayt <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Фронтбайт]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 (29) 834_60_04]
+	(* <- concept_phone_number;;*);
+	[htp@frontbyte.by]
+	(* <- concept_email;;*);
+	[http://frontbyte.by/]
+	(* <- concept_website;;*);
+	[192756697]
+	(* <- concept_ucn;;*);
+	[220004, г. Минск, пр_т.Победителей, 7А, пом. № 28]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2017;
+=>nrel_scope:
+	it;;
+

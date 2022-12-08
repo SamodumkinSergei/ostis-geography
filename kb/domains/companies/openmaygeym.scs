@@ -1,0 +1,24 @@
+company_openmaygeym <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ОпенМайГейм]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375257406302]
+	(* <- concept_phone_number;;*);
+	[support@openmygame.com]
+	(* <- concept_email;;*);
+	[http://openmygame.com]
+	(* <- concept_website;;*);
+	[491328242]
+	(* <- concept_ucn;;*);
+	[ул. Интернациональная, 13]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	gomel;
+=>nrel_year_registration:
+	2017;
+=>nrel_scope:
+	it;;
+

@@ -1,0 +1,22 @@
+company_karrensi_kom_bel <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Карренси Ком Бел]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[contactbel@currency.com]
+	(* <- concept_email;;*);
+	[http://currency.com]
+	(* <- concept_website;;*);
+	[193130368]
+	(* <- concept_ucn;;*);
+	[ул. Интернациональная, д. 36_1, офис 724, пом. 2]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

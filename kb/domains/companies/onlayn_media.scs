@@ -1,0 +1,24 @@
+company_onlayn_media <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Онлайн Медиа]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 753 01 55]
+	(* <- concept_phone_number;;*);
+	[pvt@excavate.ru]
+	(* <- concept_email;;*);
+	[http://exkavator.ru/]
+	(* <- concept_website;;*);
+	[191688692]
+	(* <- concept_ucn;;*);
+	[ул. Водолажского, д.15_21]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2011;
+=>nrel_scope:
+	it;;
+

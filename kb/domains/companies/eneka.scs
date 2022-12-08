@@ -1,0 +1,24 @@
+company_eneka <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ЭНЭКА]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 44 790 23 29]
+	(* <- concept_phone_number;;*);
+	[info1@eneca.by]
+	(* <- concept_email;;*);
+	[http://eneca.by/]
+	(* <- concept_website;;*);
+	[190549168]
+	(* <- concept_ucn;;*);
+	[пр_т Независимости, 177, пом. 1а, бизнес_центр "ПОРТ", 3_ й этаж.]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2004;
+=>nrel_scope:
+	it;;
+

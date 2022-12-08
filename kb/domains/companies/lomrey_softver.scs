@@ -1,0 +1,24 @@
+company_lomrey_softver <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Ломрей Софтвер]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375255458868]
+	(* <- concept_phone_number;;*);
+	[diana.yarmaliuk@lomray.com]
+	(* <- concept_email;;*);
+	[lomray.com]
+	(* <- concept_website;;*);
+	[193441362]
+	(* <- concept_ucn;;*);
+	[г. Минск, ул. Карла Либкнехта 66, офис 106]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2020;
+=>nrel_scope:
+	it;;
+

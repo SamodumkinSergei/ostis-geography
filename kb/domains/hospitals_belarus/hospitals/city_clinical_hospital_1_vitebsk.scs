@@ -1,0 +1,12 @@
+city_clinical_hospital_1_vitebsk <- concept_hospital;
+=> nrel_main_idtf:
+   [Vitebsk city clinical hospital №1]
+   (* <- lang_en;; <- name_en;;*);
+   [Городская клиническая больница №1 Витебск]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375212362931]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [http://www.uzvgkb1.vitebsk.by]
+   (*<-concept_site;;*);;

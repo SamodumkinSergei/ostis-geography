@@ -1,0 +1,17 @@
+mir_castle <- concept_museum;
+=> nrel_main_idtf:
+   [Mir Castle]
+   (* <- lang_en;; <- name_en;;*);
+   [Мирский Замок]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_phone_number:
+   [+375159628270]
+   (* <- concept_phone_number;;*);
+=> nrel_site:
+   [http://mirzamak.by]
+   (*<-concept_site;;*);
+=> nrel_email:
+   [info@mirzamak.by]
+   (*<-concept_email;;*);
+=> nrel_region:
+   grodno_region;;

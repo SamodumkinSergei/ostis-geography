@@ -1,0 +1,24 @@
+company_blictim <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Press Fire Games]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 29 2453429]
+	(* <- concept_phone_number;;*);
+	[legal@pressfire.games]
+	(* <- concept_email;;*);
+	[https://pressfire.games/]
+	(* <- concept_website;;*);
+	[193072653]
+	(* <- concept_ucn;;*);
+	[ул. Платонова, д. 49, пом. 24]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+

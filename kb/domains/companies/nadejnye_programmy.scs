@@ -1,0 +1,24 @@
+company_nadejnye_programmy <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Надежные программы]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 239_57_02]
+	(* <- concept_phone_number;;*);
+	[htp@hoster.by]
+	(* <- concept_email;;*);
+	[http://hoster.by/]
+	(* <- concept_website;;*);
+	[100160363]
+	(* <- concept_ucn;;*);
+	[220006, г.Минск, ул. Аранская, 8, блок 1, 4 этаж]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	1992;
+=>nrel_scope:
+	it;;
+

@@ -66,4 +66,6 @@ if [ $do_build_kb == 1 ]; then
 	build_kb
 fi
 
+pip3 install "${APP_ROOT_PATH}"/problem-solver/py/py-sc-kpm
+
 cd "${WORKING_PATH}"

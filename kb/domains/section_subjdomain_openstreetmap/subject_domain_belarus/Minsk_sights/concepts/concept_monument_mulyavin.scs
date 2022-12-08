@@ -1,0 +1,37 @@
+
+sc_node_not_relation -> concept_monument_mulyavin;;
+sc_node_not_relation -> concept_founder;;
+sc_node_not_relation -> concept_monument;;
+sc_node_not_relation -> concept_minsk;;
+
+sc_node_norole_relation -> nrel_street;;
+sc_node_norole_relation -> nrel_location;;
+
+concept_monument_mulyavin => nrel_main_idtf: [Памятник Мулявину](* <- lang_ru;; *);;
+concept_monument_mulyavin => nrel_main_idtf: [Monument Mulyavin](* <- lang_en;; *);;
+
+   
+definition ->...
+(*
+	-> rrel_key_sc_element : concept_monument_mulyavin;;
+	<= nrel_sc_text_translation: ...(*->rrel_example:[Памятник Мулявину — памятник основателю ансамбля «Песняры».](*<-lang_ru;;*);;*);;
+	=> nrel_main_idtf: [Определение (Памятник Мулявину)](*<- lang_ru;;*);;
+	=> nrel_using_constants: ...
+	(*
+           -> concept_founder;;
+		   -> concept_monument;;
+	*);;
+*);;
+
+statement ->...
+(*
+	-> rrel_key_sc_element : concept_monument_mulyavin;;
+	<= nrel_sc_text_translation: ...(*->rrel_example:[Он расположен в Минске на улице Мулявина.](*<-lang_ru;;*);;*);;
+	=> nrel_main_idtf: [Утверждение(Памятник Мулявинуу)](*<- lang_ru;;*);;
+	=> nrel_using_constants: ...
+	(* 
+	 -> nrel_location;;
+	 -> concept_minsk;;
+	 -> nrel_street;;
+	*);;
+*);;

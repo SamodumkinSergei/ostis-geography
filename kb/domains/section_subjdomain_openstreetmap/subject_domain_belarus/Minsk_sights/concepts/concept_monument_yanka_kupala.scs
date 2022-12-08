@@ -1,0 +1,37 @@
+
+sc_node_not_relation -> concept_monument_yanka_kupala;;
+sc_node_not_relation -> concept_belarusian_poet;;
+sc_node_not_relation -> concept_monument;;
+sc_node_not_relation -> concept_minsk;;
+
+sc_node_norole_relation -> nrel_street;;
+sc_node_norole_relation -> nrel_location;;
+
+concept_monument_yanka_kupala => nrel_main_idtf: [Памятник Янке Купале](* <- lang_ru;; *);;
+concept_monument_yanka_kupala => nrel_main_idtf: [Monument to Yanka Kupala](* <- lang_en;; *);;
+
+   
+definition ->...
+(*
+	-> rrel_key_sc_element : concept_monument_yanka_kupala;;
+	<= nrel_sc_text_translation: ...(*->rrel_example:[Памятник Янке Купале — памятник выдающемуся белорусскому поэту Янке Купале.](*<-lang_ru;;*);;*);;
+	=> nrel_main_idtf: [Определение (Памятник Янке Купале)](*<- lang_ru;;*);;
+	=> nrel_using_constants: ...
+	(*
+           -> concept_belarusian_poet;;
+		   -> concept_monument;;
+	*);;
+*);;
+
+statement ->...
+(*
+	-> rrel_key_sc_element : concept_monument_yanka_kupala;;
+	<= nrel_sc_text_translation: ...(*->rrel_example:[Он расположен в Минске на улице Янке Купале.](*<-lang_ru;;*);;*);;
+	=> nrel_main_idtf: [Утверждение(Памятник Янке Купалеу)](*<- lang_ru;;*);;
+	=> nrel_using_constants: ...
+	(* 
+	 -> nrel_location;;
+	 -> concept_minsk;;
+	 -> nrel_street;;
+	*);;
+*);;

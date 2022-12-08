@@ -1,0 +1,24 @@
+company_tehnologii_upravleniya_proektami <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Технологии управления проектами]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 240 83 99]
+	(* <- concept_phone_number;;*);
+	[office@pmtech.by]
+	(* <- concept_email;;*);
+	[http://pmtech.by/]
+	(* <- concept_website;;*);
+	[192929727]
+	(* <- concept_ucn;;*);
+	[ул.Соломенная, 13_420]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2017;
+=>nrel_scope:
+	it;;
+

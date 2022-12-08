@@ -1,0 +1,24 @@
+company_nekstsoft <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Нэкстсофт]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 288_60_25]
+	(* <- concept_phone_number;;*);
+	[raroslik@nextsoftltd.com]
+	(* <- concept_email;;*);
+	[http://nextsoft.by]
+	(* <- concept_website;;*);
+	[192496167]
+	(* <- concept_ucn;;*);
+	[ул. Кульман 9, 7_й этаж, пом. 26]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2015;
+=>nrel_scope:
+	it;;
+

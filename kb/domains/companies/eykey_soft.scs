@@ -1,0 +1,22 @@
+company_eykey_soft <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[ЭйКей софт]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375296118399]
+	(* <- concept_phone_number;;*);
+	[aksoft@aklab.by]
+	(* <- concept_email;;*);
+	[193261988]
+	(* <- concept_ucn;;*);
+	[ул. Домбровская, д. 9, пом. 712А]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2019;
+=>nrel_scope:
+	it;;
+

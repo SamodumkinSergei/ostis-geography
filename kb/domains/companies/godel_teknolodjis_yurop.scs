@@ -1,0 +1,24 @@
+company_godel_teknolodjis_yurop <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Годел Текнолоджис Юроп]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 328_17_34]
+	(* <- concept_phone_number;;*);
+	[info@godeltech.com]
+	(* <- concept_email;;*);
+	[http://www.godeltech.com/]
+	(* <- concept_website;;*);
+	[190508016]
+	(* <- concept_ucn;;*);
+	[ул. Дзержинского, 5, Офис 527]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2003;
+=>nrel_scope:
+	it;;
+

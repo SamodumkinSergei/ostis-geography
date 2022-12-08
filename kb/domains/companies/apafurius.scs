@@ -1,0 +1,22 @@
+company_apafurius <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Апафуриус]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 (29) 856_80_02]
+	(* <- concept_phone_number;;*);
+	[job@appyfurious.com]
+	(* <- concept_email;;*);
+	[193405279]
+	(* <- concept_ucn;;*);
+	[Пономаренко 6А, помещение 2]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2020;
+=>nrel_scope:
+	it;;
+

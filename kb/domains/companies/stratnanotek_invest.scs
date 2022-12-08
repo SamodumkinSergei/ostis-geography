@@ -1,0 +1,24 @@
+company_stratnanotek_invest <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[СтратНаноТек Инвест]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 17 336 33 31]
+	(* <- concept_phone_number;;*);
+	[info@stratnanotech.com]
+	(* <- concept_email;;*);
+	[http://stratnanotech.com/]
+	(* <- concept_website;;*);
+	[192540484]
+	(* <- concept_ucn;;*);
+	[ул. Радиальная, дом 54Б, офис 22Б]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2015;
+=>nrel_scope:
+	it;;
+

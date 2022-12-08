@@ -1,0 +1,24 @@
+company_ferment <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Фермент]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375173007045]
+	(* <- concept_phone_number;;*);
+	[info@ferment.by]
+	(* <- concept_email;;*);
+	[https://fermentpark.com/]
+	(* <- concept_website;;*);
+	[200058575]
+	(* <- concept_ucn;;*);
+	[225373, Республика Беларусь, Брестская область, Флерьяново, пер. Лермонтова д.2а, ком.1]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	brest;
+=>nrel_year_registration:
+	1992;
+=>nrel_scope:
+	it;;
+

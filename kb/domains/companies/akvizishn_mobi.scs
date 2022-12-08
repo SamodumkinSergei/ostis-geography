@@ -1,0 +1,24 @@
+company_akvizishn_mobi <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Аквизишн моби]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375 (29) 325_19_07]
+	(* <- concept_phone_number;;*);
+	[info@acquisition.mobi]
+	(* <- concept_email;;*);
+	[https://acquisition.mobi/]
+	(* <- concept_website;;*);
+	[193363414]
+	(* <- concept_ucn;;*);
+	[Пинская 28А, офис 503, 220073]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2020;
+=>nrel_scope:
+	it;;
+

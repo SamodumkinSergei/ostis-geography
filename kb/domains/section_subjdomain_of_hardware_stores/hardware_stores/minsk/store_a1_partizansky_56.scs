@@ -1,0 +1,17 @@
+store_a1_partizansky_56
+
+<- sc_node_not_relation;
+
+<- concept_hardware_store;
+
+=> nrel_main_idtf:
+	[Магазин A1 по адресу Минск, пр-т Партизанский, 56]
+	(* <- lang_ru;; *);
+	[Shop A1 at Minsk, Partizansky Ave., 56]
+	(* <- lang_en;; *);
+
+=> nrel_address:
+	[Минск, пр-т Партизанский, 56]
+	(* <- concept_address;; *);
+
+=> nrel_company: company_a1;;

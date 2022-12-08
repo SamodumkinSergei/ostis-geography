@@ -1,0 +1,24 @@
+company_helsi_netvorks <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[Хэлси Нэтворкс]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375295048826]
+	(* <- concept_phone_number;;*);
+	[info@lungpass.com]
+	(* <- concept_email;;*);
+	[https://www.lungpass.com/]
+	(* <- concept_website;;*);
+	[192955502]
+	(* <- concept_ucn;;*);
+	[ул. Стариновская д.3, пом. 11Н]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2017;
+=>nrel_scope:
+	it;;
+

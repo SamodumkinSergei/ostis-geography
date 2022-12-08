@@ -1,0 +1,24 @@
+company_npc_mnogofunkcionalnyh_bespilotnyh_kompleksov <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[НПЦ многофункциональных беспилотных комплексов]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[(+37517) 397 00 90]
+	(* <- concept_phone_number;;*);
+	[info@uavbusel.by]
+	(* <- concept_email;;*);
+	[http://uavbusel.by/]
+	(* <- concept_website;;*);
+	[192596785]
+	(* <- concept_ucn;;*);
+	[ул. Купревича, 10/7]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2016;
+=>nrel_scope:
+	it;;
+

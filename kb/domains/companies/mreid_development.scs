@@ -1,0 +1,24 @@
+company_mreid_development <- concept_company;
+<- concept_belarusian_company;
+=>nrel_main_idtf:
+	[МРЭИД Девелопмент]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+	[+375295594373]
+	(* <- concept_phone_number;;*);
+	[sales@mraid.io]
+	(* <- concept_email;;*);
+	[http://mraid.io/]
+	(* <- concept_website;;*);
+	[193053896]
+	(* <- concept_ucn;;*);
+	[ул. Платонова, д. 20Б, офис 610]
+	(* <- lang_ru;; <- name_ru;; <- concept_address;;*);
+=>nrel_country:
+	belarus;
+=>nrel_region:
+	minsk;
+=>nrel_year_registration:
+	2018;
+=>nrel_scope:
+	it;;
+
