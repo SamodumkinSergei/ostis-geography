@@ -5,6 +5,7 @@
 
 #include "keynodes/keynodes.hpp"
 #include "agents/LargerVillageByPopulationInTheDistrict.hpp"
+#include "agents/SmallerVillageByPopulationInTheDistrict.hpp"
 #include "agents/LargerVillageByPopulation.hpp"
 #include "agents/GreatestDistanceToTheRegionalCenter.hpp"
 

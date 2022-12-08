@@ -2,6 +2,7 @@ set(SOURCES
 		"VitebskVillagesModule.cpp"
 		"keynodes/keynodes.cpp"
 		"agents/LargerVillageByPopulationInTheDistrict.cpp"
+		"agents/SmallerVillageByPopulationInTheDistrict.cpp"
 		"agents/LargerVillageByPopulation.cpp"
 		"agents/GreatestDistanceToTheRegionalCenter.cpp"
 		)
@@ -10,6 +11,7 @@ set(HEADERS
 		"VitebskVillagesModule.hpp"
 		"keynodes/keynodes.hpp"
 		"agents/LargerVillageByPopulationInTheDistrict.hpp"
+		"agents/SmallerVillageByPopulationInTheDistrict.hpp"
 		"agents/LargerVillageByPopulation.hpp"
 		"agents/GreatestDistanceToTheRegionalCenter.hpp"
 		)

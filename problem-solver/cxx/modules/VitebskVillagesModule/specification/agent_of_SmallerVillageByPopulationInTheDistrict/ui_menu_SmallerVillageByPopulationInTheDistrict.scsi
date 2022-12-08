@@ -1,0 +1,21 @@
+ui_menu_smallerVillageByPopulationInTheDistrict <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+ui_menu_smallerVillageByPopulationInTheDistrict
+=> nrel_main_idtf: 
+	[Самая не населенная деревня в районе]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf: 
+	[smallerVillageByPopulationInTheDistrict]
+	(* <- lang_en;; *);;
+
+ui_menu_smallerVillageByPopulationInTheDistrict => ui_nrel_command_template:
+	[*
+		question_smallerVillageByPopulationInTheDistrict _-> ._question_smallerVillageByPopulationInTheDistrict_instance
+			(*
+				_-> rrel_1::ui_arg_1;;
+			*);;
+		._question_smallerVillageByPopulationInTheDistrict_instance _<- question;;
+	*];;
+
+ui_menu_smallerVillageByPopulationInTheDistrict => ui_nrel_command_lang_template: [Самая не населенная деревня в районе $ui_arg_1] (* <- lang_ru;; *);;
+ui_menu_smallerVillageByPopulationInTheDistrict => ui_nrel_command_lang_template: [smallerVillageByPopulationInTheDistrict $ui_arg_1] (* <- lang_en;; *);;
