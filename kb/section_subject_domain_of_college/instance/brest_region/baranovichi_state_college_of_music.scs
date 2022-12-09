@@ -1,0 +1,24 @@
+baranovichi_state_college_of_music.scs
+<- concept_college;
+=>nrel_main_idtf:
+    [Baranovichi State College of Music]
+    (* <- lang_en;; <- name_en;;*);
+    [Барановичский государственный музыкальный колледж]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_address:
+    [г. Барановичи, ул. Горького, 91]
+    (*<-concept_address;;*);
+=> nrel_email:
+    [bgmuz@tut.by]
+    (*<-concept_email;;*);
+=> nrel_phone_number:
+    [375 163 41 69 09]
+    (*<-concept_phone_number;;*);
+=> nrel_number_of_specialties:
+    [4]
+    (*<-concept_number_of_specialties;;*);
+=> nrel_number_of_students:
+    [500]
+    (*<-concept_number_of_students;;*);
+=> nrel_region:
+    brest_region;;

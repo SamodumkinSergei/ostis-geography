@@ -1,0 +1,24 @@
+belarusian_state_medical_college.scs
+<- concept_college;
+=>nrel_main_idtf:
+    [Belarusian State Medical College]
+    (* <- lang_en;; <- name_en;;*);
+    [Белорусский государственный медицинский колледж]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_address:
+    [г.Минск, ул. Кижеватова, 60/2]
+    (*<-concept_address;;*);
+=> nrel_email:
+    [belsmc@rambler.ru]
+    (*<-concept_email;;*);
+=> nrel_phone_number:
+    [375 17 212-04-30]
+    (*<-concept_phone_number;;*);
+=> nrel_number_of_specialties:
+    [4]
+    (*<-concept_number_of_specialties;;*);
+=> nrel_number_of_students:
+    [500]
+    (*<-concept_number_of_students;;*);
+=> nrel_region:
+    minsk_region;;

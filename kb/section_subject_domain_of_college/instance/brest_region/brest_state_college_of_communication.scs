@@ -1,0 +1,24 @@
+brest_state_college_of_communication.scs
+<- concept_college;
+=>nrel_main_idtf:
+    [Brest State College of Communications]
+    (* <- lang_en;; <- name_en;;*);
+    [Брестский государственный колледж связи]
+    (* <- lang_ru;; <- name_ru;; <- name;;*);
+=> nrel_address:
+    [г. Брест>, ул. Кирова, 82]
+    (*<-concept_address;;*);
+=> nrel_email:
+    [ptkzviazi@brest.by]
+    (*<-concept_email;;*);
+=> nrel_phone_number:
+    [375 162 21 16 20]
+    (*<-concept_phone_number;;*);
+=> nrel_number_of_specialties:
+    [12]
+    (*<-concept_number_of_specialties;;*);
+=> nrel_number_of_students:
+    [1132]
+    (*<-concept_number_of_students;;*);
+=> nrel_region:
+    brest_region;;

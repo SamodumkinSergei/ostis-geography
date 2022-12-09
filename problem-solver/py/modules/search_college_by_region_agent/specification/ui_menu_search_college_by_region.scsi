@@ -1,0 +1,35 @@
+ui_menu_search_college_by_region <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+ui_menu_search_college_by_region
+=> nrel_main_idtf: 
+	[Найти колледжи в регионе]
+	(* <- lang_ru;; *);
+=> nrel_idtf: 
+	[Запрос поиска колледжей в указанном регионе]
+	(* <- lang_ru;; *);;
+
+ui_menu_search_college_by_region
+=> nrel_main_idtf: 
+	[Find college in region]
+	(* <- lang_en;; *);
+=> nrel_idtf: 
+	[Search for college in the specified region]
+	(* <- lang_en;; *);;
+
+ui_menu_na_example_commands
+<= nrel_ui_commands_decomposition:
+  {
+    ui_menu_search_college_by_region
+  };;
+
+ui_menu_search_college_by_region => ui_nrel_command_template:
+	[*
+		action_search_college_by_region _-> ._question_search_college_by_region
+			(*
+				_-> rrel_1::ui_arg_1;;
+			*);;
+		._question_search_college_by_region _<- question;;
+	*];;
+
+ui_menu_search_college_by_region => ui_nrel_command_lang_template: [Найти колледжи в регионе $ui_arg_1] (* <- lang_ru;; *);;
+ui_menu_search_college_by_region => ui_nrel_command_lang_template: [Find college in region $ui_arg_1] (* <- lang_en;; *);;
