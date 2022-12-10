@@ -2,6 +2,7 @@ import argparse
 
 from sc_kpm import ScServer
 
+from modules.MilasModule.MilasModule import GetMilasByAddressAgent, GetMilasByCoordinatesAgent, GetMilasByTImeAgent
 from modules.lakes_module.LakesModule import LakesModule
 from modules.open_street_map_module.OpenStreetMapModule import OpenStreetMapModule
 from modules.search_banks_by_type_agent.SearchBanksByTypeModule import SearchBanksByTypeModule
@@ -58,6 +59,9 @@ def main(args: dict):
 
     with server.connect():
         modules = [
+	    GetMilasByAddressAgent(),
+	    GetMilasByCoordinatesAgent(),
+	    GetMilasByTImeAgent(),
             LakesModule(),
             OpenStreetMapModule(),
             SearchBanksByTypeModule(),

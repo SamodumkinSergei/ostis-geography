@@ -1,0 +1,9 @@
+action_get_milas_by_coordinates
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[действие. получить мазазины сети Мила по диапазону широты]
+	(* <- lang_ru;; *);
+	[action. get Mila stores by range of latitude]
+	(* <- lang_en;; *);
+<- actions_class;
+<- atomic_action_class;;
