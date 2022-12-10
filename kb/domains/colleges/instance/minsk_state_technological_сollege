@@ -1,22 +1,22 @@
-belarusian_state_medical_college.scs
+minsk_state_technological_сollege.scs
 <- concept_college;
 =>nrel_main_idtf:
-    [Belarusian State Medical College]
+    [Minsk State Technological College]
     (* <- lang_en;; <- name_en;;*);
-    [Белорусский государственный медицинский колледж]
+    [Минский государственный технологический колледж]
     (* <- lang_ru;; <- name_ru;; <- name;;*);
 => nrel_address:
     [г.Минск, ул. Кижеватова, 60/2]
     (*<-concept_address;;*);
 => nrel_email:
-    [belsmc@rambler.ru]
+    [mstc@bntu.by]
     (*<-concept_email;;*);
 => nrel_phone_number:
-    [+375172120430]
+    [+375173377815]
     (*<-concept_phone_number;;*);
 => nrel_number_of_specialties:
-    [4]
+    [15]
     (*<-concept_number_of_specialties;;*);
 => nrel_number_of_students:
-    [500]
+    [380]
     (*<-concept_number_of_students;;*);;
