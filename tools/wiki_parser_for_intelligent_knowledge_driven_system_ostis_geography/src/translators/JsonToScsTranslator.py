@@ -12,7 +12,7 @@ relations_map = {
 
 
 def json_to_scs(raw_info, save_dir):
-    result_triplets = []
+    triplets = []
     try:
         os.mkdir(save_dir)
     except FileExistsError:
@@ -25,18 +25,21 @@ def json_to_scs(raw_info, save_dir):
 
     template = jinja_env.get_template('triplets.scs')
     if len(info['triplets']) != 0:
-        result_triplets = []
+        triplets = []
         for entity1, rel, entity2 in info['triplets']:
-
-            if rel.lower() in relations_map:
-                if relations_map[rel.lower()] is not None:
-                    result_triplets.append(
-                        ['concept_' + entity1.lower(), relations_map[rel.lower()], 'concept_' + entity2.lower()])
+            if rel.lower in relations_map:
+                if relations_map[rel.lower] is not None:
+                    relation = relations_map[rel.lower]
+                    triplets.append([
+                        'concept_' + entity1.lower(),
+                        relation,
+                        'concept_' + entity2.lower()
+                    ])
             else:
-                result_triplets.append(
+                triplets.append(
                     ['concept_' + entity1.lower(), 'nrel_' + rel.lower(), 'concept_' + entity2.lower()])
         scs = open('triplets.scs', 'at', encoding='utf-8')
-        scs.write(template.render(triplets=result_triplets))
+        scs.write(template.render(triplets=triplets))
         scs.close()
 
     try:
@@ -61,7 +64,8 @@ def json_to_scs(raw_info, save_dir):
     template = jinja_env.get_template('relation.scs')
     for idtf, rlt in info['relations'].items():
         if idtf not in relations_map:
-            translate_relation(rlt, template, result_triplets)
+            translate_relation(rlt, template, triplets)
+    os.chdir('..')
     os.chdir('..')
 
 

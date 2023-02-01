@@ -6,8 +6,9 @@ from translators.JsonToScsTranslator import json_to_scs
 
 def parse(entities, save_dir='sc_out'):
     loader = WikiDataWithContextLoader()
-    loader.getEntities(entities)
-    json_to_scs(loader.getJson(), save_dir)
+    loader.load_entities(entities)
+    json_to_scs(loader.get_json(), save_dir)
+
 
 def args_parser_init():
     parser = argparse.ArgumentParser(
@@ -23,6 +24,3 @@ if __name__ == "__main__":
     parser = args_parser_init()
     args = parser.parse_args()
     parse(args.entities, args.dir)
-
-
-
