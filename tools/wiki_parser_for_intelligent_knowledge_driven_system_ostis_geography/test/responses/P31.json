@@ -1,0 +1,70 @@
+{
+  "warnings": {
+    "main": {
+      "warnings": "Unrecognized parameter: www_wikidata_org_(wikidata)_P31."
+    }
+  },
+  "entities": {
+    "P31": {
+      "pageid": 3918489,
+      "ns": 120,
+      "title": "Property:P31",
+      "lastrevid": 1779853802,
+      "modified": "2022-11-27T18:49:12Z",
+      "type": "property",
+      "datatype": "wikibase-item",
+      "id": "P31",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "instance of"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "that class of which this subject is a particular example and member; different from P279 (subclass of); for example: K2 is an instance of mountain; volcano is a subclass of mountain (and an instance of volcanic landform)"
+        }
+      },
+      "aliases": {
+        "en": [
+          {
+            "language": "en",
+            "value": "is a"
+          },
+          {
+            "language": "en",
+            "value": "is an"
+          },
+          {
+            "language": "en",
+            "value": "unique individual of"
+          },
+          {
+            "language": "en",
+            "value": "unitary element of class"
+          },
+          {
+            "language": "en",
+            "value": "rdf:type"
+          },
+          {
+            "language": "en",
+            "value": "type"
+          },
+          {
+            "language": "en",
+            "value": "\u2208"
+          },
+          {
+            "language": "en",
+            "value": "example of"
+          }
+        ]
+      },
+      "claims": {
+      }
+    }
+  },
+  "success": 1
+}

@@ -1,0 +1,29 @@
+site_name: problem-solver-components
+
+dev_addr: 127.0.0.1:8002
+
+extra_css:
+  - _assets/main.css
+extra_javascript:
+  - _assets/scg.min.js
+  - _assets/main.js
+
+nav:
+  - Home: index.md
+  - Ru:
+    - Главная: locale_ru/index.md
+    - Требования: locale_ru/requirements.md
+    - Создание модуля: locale_ru/moduleCreation.md
+    - Создание агента: locale_ru/agentCreation.md
+    - Применение C++ API: locale_ru/cppAPI.md
+    - Завершение работы: locale_ru/finishAgentWork.md
+  - En:
+    - Home: locale_en/index.md
+    - Requirements: locale_en/requirements.md
+    - Creating module: locale_en/moduleCreation.md
+    - Creating agent: locale_en/agentCreation.md
+    - Using the C++ API: locale_en/cppAPI.md
+    - Shutdown: locale_en/finishAgentWork.md
+
+theme: material
+

@@ -7,12 +7,12 @@ class BaseLoader(ABC):
         self._info = {'entities': {}, 'relations': {}, 'triplets': []}
 
     @abstractmethod
-    def getEntity(self, entity, lang='en'):
+    def _load_entity(self, entity, lang='en'):
         pass
 
-    def getEntities(self, entities, lang='en'):
+    def load_entities(self, entities, lang='en'):
         for entity in entities:
-            self.getEntity(entity, lang=lang)
+            self._load_entity(entity, lang=lang)
 
-    def getJson(self):
+    def get_json(self):
         return json.dumps(self._info, ensure_ascii=False)

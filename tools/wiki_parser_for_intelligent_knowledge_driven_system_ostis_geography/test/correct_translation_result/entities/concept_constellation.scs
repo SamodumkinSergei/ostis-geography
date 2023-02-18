@@ -1,0 +1,21 @@
+concept_constellation
+=> nrel_main_idtf:
+	[constellation] (* <- lang_en;; *);
+<- rrel_key_sc_element: ...
+    (*
+		<- sc_definition;;
+		=> nrel_main_idtf:
+			[Def.(constellation)] (* <-lang_en;; *);;
+		
+	    <= nrel_sc_text_translation:
+		    ...
+			(*
+			-> rrel_example:
+				[one of the 88 divisions of the celestial sphere, defined by the IAU, many of which derive from traditional asterisms]
+				(* <-lang_en;; *);; 
+			*);;
+    *);
+
+<-sc_node_class;
+<-class;
+<-sc_node_not_relation;;
