@@ -1,0 +1,52 @@
+my_graph_example = [*
+
+..node_1 <=> ..2_benz: ..node_2;;
+..node_2 <=> ..3_benz: ..node_3;;
+..node_3 <=> ..3_benz: ..node_4;;
+..node_4 <=> ..3_benz: ..node_2;;
+..node_4 <=> ..4_benz: ..node_5;;
+..node_5 <=> ..1_benz: ..node_6;;
+
+..node_2 => nrel_main_idtf: [My home];;
+..node_6 => nrel_main_idtf: [My university];;
+..node_1 => nrel_main_idtf: [KFC];;
+..node_3 => nrel_main_idtf: [Mila];;
+..node_4 => nrel_main_idtf: [Burger King];;
+..node_5 => nrel_main_idtf: [Metropoliten];;
+
+concept_building 
+=> nrel_main_idtf: [building];
+<- sc_node_class;;
+concept_building
+-> ..node_1;
+-> ..node_2;
+-> ..node_3;
+-> ..node_4;
+-> ..node_5;
+-> ..node_6;;
+
+..1_benz => nrel_main_idtf: [1 liter];;
+..2_benz => nrel_main_idtf: [2 liter];;
+..3_benz => nrel_main_idtf: [3 liter];;
+..4_benz => nrel_main_idtf: [4 liter];;
+
+concept_parameter 
+=> nrel_main_idtf: [parameter];
+<- sc_node_class;;
+concept_parameter
+-> ..1_benz;
+-> ..2_benz;
+-> ..3_benz;
+-> ..4_benz;;
+
+concept_liter 
+=> nrel_main_idtf: [liter];
+<- sc_node_class;;
+concept_liter
+-> ..1_benz;
+-> ..2_benz;
+-> ..3_benz;
+-> ..4_benz;;
+
+*];;
+
