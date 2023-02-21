@@ -8,7 +8,7 @@
 namespace soatoClassificationModule
 {
 
-class SoatoClassificationManager;
+class AdministrativeFacility;
 
 class SoatoClassificationAgent : public ScAgent
 {
@@ -17,6 +17,16 @@ class SoatoClassificationAgent : public ScAgent
 
 private:
   bool checkActionClass(ScAddr const & actionAddr);
+
+  void convertSoatoCodes();
+
+  void sew(const AdministrativeFacility & facility);
+
+  ScAddr initializeFacility(const AdministrativeFacility & facility);
+
+  void addToClassIfNotPresent(ScAddr node, const std::string & class_name);
+
+  ScAddr resolveNodeByIdtf(const ScType & type, const std::string & idtf);
 };
 
 }  // namespace soatoClassificationModule

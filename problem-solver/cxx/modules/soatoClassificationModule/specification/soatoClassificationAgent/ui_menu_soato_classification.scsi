@@ -18,13 +18,10 @@ ui_menu_soato_classification
 
 ui_menu_soato_classification => ui_nrel_command_template:
 	[*
-		action_soato_classification _-> ._question_soato_classification
-			(*
-				_-> rrel_1::ui_arg_1;;
-			*);;
+		action_soato_classification _-> ._question_soato_classification;;
 		._question_soato_classification _<- question;;
 	*];;
 
-ui_menu_soato_classification => ui_nrel_command_lang_template: [SOATO классифицировать $ui_arg_1] (* <- lang_ru;; *);;
-ui_menu_soato_classification => ui_nrel_command_lang_template: [SOATO classify $ui_arg_1] (* <- lang_en;; *);;
+ui_menu_soato_classification => ui_nrel_command_lang_template: [SOATO классифицировать] (* <- lang_ru;; *);;
+ui_menu_soato_classification => ui_nrel_command_lang_template: [SOATO classify] (* <- lang_en;; *);;
 

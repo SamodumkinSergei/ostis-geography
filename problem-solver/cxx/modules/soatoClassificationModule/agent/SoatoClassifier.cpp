@@ -1,6 +1,10 @@
 #include "SoatoClassifier.hpp"
+
 #include <iostream>
 #include <vector>
+
+namespace soatoClassificationModule
+{
 
 const std::map<int, std::string> SoatoClassifier::firstDigitMap = {
     {1, "Брестская область"},
@@ -11,8 +15,6 @@ const std::map<int, std::string> SoatoClassifier::firstDigitMap = {
     {6, "Минская область"},
     {7, "Могилевская область"},
 };
-
-SoatoClassifier::SoatoClassifier(){};
 
 std::vector<AdministrativeFacility> SoatoClassifier::classify(
     const std::vector<std::pair<std::string, std::string>> & soatoCodes) const
@@ -151,3 +153,5 @@ std::string SoatoClassifier::getFifthSixthSeventhDigitsCategory(
 
   return result;
 }
+
+}  // namespace soatoClassificationModule

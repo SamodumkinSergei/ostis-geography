@@ -4,12 +4,17 @@
 #include "sc-agents-common/utils/GenerationUtils.hpp"
 #include "sc-agents-common/utils/IteratorUtils.hpp"
 
+#include "agent/AdministrativeFacility.hpp"
+#include "agent/SoatoClassifier.hpp"
 #include "keynodes/Keynodes.hpp"
+
+#include "lib/csv.h"
 
 #include "SoatoClassificationAgent.hpp"
 
 namespace soatoClassificationModule
 {
+
 SC_AGENT_IMPLEMENTATION(SoatoClassificationAgent)
 {
   ScAddr actionAddr = otherAddr;
@@ -22,18 +27,9 @@ SC_AGENT_IMPLEMENTATION(SoatoClassificationAgent)
 
   ScAddrVector answerElements;
 
-  ScAddr const & messageAddr =
-      utils::IteratorUtils::getAnyByOutRelation(&m_memoryCtx, actionAddr, scAgentsCommon::CoreKeynodes::rrel_1);
-  if (!messageAddr.IsValid())
-  {
-    SC_LOG_ERROR("SoatoClassificationAgent: the message isn’t valid");
-    utils::AgentUtils::finishAgentWork(&m_memoryCtx, actionAddr, false);
-    return SC_RESULT_ERROR;
-  }
-
   try
   {
-    // TODO: implement the agent logic here
+    convertSoatoCodes();
   }
   catch (utils::ScException & exception)
   {
@@ -51,6 +47,70 @@ SC_AGENT_IMPLEMENTATION(SoatoClassificationAgent)
 bool SoatoClassificationAgent::checkActionClass(ScAddr const & actionAddr)
 {
   return m_memoryCtx.HelperCheckEdge(Keynodes::action_soato_classification, actionAddr, ScType::EdgeAccessConstPosPerm);
+}
+
+void SoatoClassificationAgent::convertSoatoCodes()
+{
+  SoatoClassifier classifier;
+
+  io::CSVReader<2> inTable(SOATO_CODES);
+  inTable.read_header(io::ignore_extra_column, "СОАТО", "Наименование объекта");
+
+  std::string code;
+  std::string attr;
+
+  while (inTable.read_row(code, attr))
+  {
+    const AdministrativeFacility facility = classifier.classify(std::make_pair(code, attr));
+    sew(facility);
+  }
+}
+
+// VillageSearchAgent is cool to check examples
+void SoatoClassificationAgent::sew(const AdministrativeFacility & facility)
+{
+  ScAddr node = initializeFacility(facility);
+  const std::vector<std::string> & categories = facility.getCategories();
+
+  for (const auto & category : categories)
+  {
+    addToClassIfNotPresent(node, category);
+  }
+}
+
+ScAddr SoatoClassificationAgent::initializeFacility(const AdministrativeFacility & facility)
+{
+  const auto & name = facility.getName();
+  auto node = resolveNodeByIdtf(ScType::Node, name);
+
+  auto code = resolveNodeByIdtf(ScType::Node, facility.getCode());
+  addToClassIfNotPresent(node, "код СОАТО");
+  ms_context->CreateEdge(ScType::EdgeUCommon, node, code);
+
+  return node;
+}
+
+ScAddr SoatoClassificationAgent::resolveNodeByIdtf(const ScType & type, const string & idtf)
+{
+  auto node = ms_context->HelperFindBySystemIdtf(idtf);
+
+  if (node.IsValid())
+  {
+    return node;
+  }
+
+  return ms_context->CreateNode(type);
+}
+
+void SoatoClassificationAgent::addToClassIfNotPresent(ScAddr node, const string & class_name)
+{
+  auto sc_class = SoatoClassificationAgent::resolveNodeByIdtf(ScType::NodeClass, class_name);
+  auto iterator = ms_context->Iterator3(sc_class, ScType::EdgeAccess, node);
+  
+  if (!iterator->Next())
+  {
+    ms_context->CreateEdge(ScType::EdgeAccess, sc_class, node);
+  }
 }
 
 }  // namespace soatoClassificationModule
