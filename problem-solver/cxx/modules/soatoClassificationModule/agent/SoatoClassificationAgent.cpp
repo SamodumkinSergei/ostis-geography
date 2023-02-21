@@ -93,9 +93,8 @@ ScAddr SoatoClassificationAgent::initializeFacility(const AdministrativeFacility
 void SoatoClassificationAgent::addToClassIfNotPresent(ScAddr node, const string & class_name)
 {
   auto sc_class = ms_context->HelperResolveSystemIdtf(class_name, ScType::NodeClass);
-  auto iterator = ms_context->Iterator3(sc_class, ScType::EdgeAccess, node);
-  
-  if (!iterator->Next())
+  auto is_in_class = m_memoryCtx.HelperCheckEdge(sc_class, node, ScType::EdgeAccess);
+  if (!is_in_class)
   {
     ms_context->CreateEdge(ScType::EdgeAccess, sc_class, node);
   }
