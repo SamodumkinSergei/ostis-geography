@@ -81,30 +81,18 @@ void SoatoClassificationAgent::sew(const AdministrativeFacility & facility)
 ScAddr SoatoClassificationAgent::initializeFacility(const AdministrativeFacility & facility)
 {
   const auto & name = facility.getName();
-  auto node = resolveNodeByIdtf(ScType::Node, name);
+  auto node = ms_context->HelperResolveSystemIdtf(name, ScType::Node);
 
-  auto code = resolveNodeByIdtf(ScType::Node, facility.getCode());
+  auto code = ms_context->HelperResolveSystemIdtf(facility.getCode(), ScType::Node);
   addToClassIfNotPresent(node, "код СОАТО");
   ms_context->CreateEdge(ScType::EdgeUCommon, node, code);
 
   return node;
 }
 
-ScAddr SoatoClassificationAgent::resolveNodeByIdtf(const ScType & type, const string & idtf)
-{
-  auto node = ms_context->HelperFindBySystemIdtf(idtf);
-
-  if (node.IsValid())
-  {
-    return node;
-  }
-
-  return ms_context->CreateNode(type);
-}
-
 void SoatoClassificationAgent::addToClassIfNotPresent(ScAddr node, const string & class_name)
 {
-  auto sc_class = SoatoClassificationAgent::resolveNodeByIdtf(ScType::NodeClass, class_name);
+  auto sc_class = ms_context->HelperResolveSystemIdtf(class_name, ScType::NodeClass);
   auto iterator = ms_context->Iterator3(sc_class, ScType::EdgeAccess, node);
   
   if (!iterator->Next())

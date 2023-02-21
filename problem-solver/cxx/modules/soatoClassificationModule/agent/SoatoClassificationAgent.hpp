@@ -25,8 +25,6 @@ private:
   ScAddr initializeFacility(const AdministrativeFacility & facility);
 
   void addToClassIfNotPresent(ScAddr node, const std::string & class_name);
-
-  ScAddr resolveNodeByIdtf(const ScType & type, const std::string & idtf);
 };
 
 }  // namespace soatoClassificationModule
