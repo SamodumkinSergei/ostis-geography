@@ -10,7 +10,7 @@ include_directories(
   ${SC_COMMON_MODULE_SRC}
 )
 
-add_library(soatoClassificationModule SHARED ${SOURCES} agent/service/sewer/SoatoSewer.cpp agent/service/sewer/SoatoSewer.hpp agent/service/sewer/AdministrativeFacility.cpp agent/service/sewer/AdministrativeFacility.hpp)
+add_library(soatoClassificationModule SHARED ${SOURCES})
 
 add_dependencies(
   soatoClassificationModule
