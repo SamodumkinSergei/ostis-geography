@@ -6,20 +6,21 @@
 
 using namespace std;
 
-class AdministrativeFacility {
+class AdministrativeFacility
+{
 public:
-    AdministrativeFacility(const string &name, int code, const vector<string> &classes);
+  AdministrativeFacility(const string & name, int code, const vector<string> & classes);
 
-    const string &getName() const;
+  const string & getName() const;
 
-    int getCode() const;
+  int getCode() const;
 
-    const vector<string> &getClasses() const;
+  const vector<string> & getClasses() const;
 
 private:
-    string name;
-    int code;
-    vector<string> classes;
+  string name;
+  int code;
+  vector<string> classes;
 };
 
 #endif  // SC_MACHINE_ADMINISTRATIVEFACILITY_HPP
