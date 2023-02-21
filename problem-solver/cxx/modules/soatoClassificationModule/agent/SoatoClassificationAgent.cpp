@@ -81,22 +81,22 @@ void SoatoClassificationAgent::sew(const AdministrativeFacility & facility)
 ScAddr SoatoClassificationAgent::initializeFacility(const AdministrativeFacility & facility)
 {
   const auto & name = facility.getName();
-  auto node = ms_context->HelperResolveSystemIdtf(name, ScType::Node);
+  auto node = ms_context->HelperResolveSystemIdtf(name, ScType::NodeConst);
 
-  auto code = ms_context->HelperResolveSystemIdtf(facility.getCode(), ScType::Node);
-  addToClassIfNotPresent(node, "код СОАТО");
-  ms_context->CreateEdge(ScType::EdgeUCommon, node, code);
+  auto code = ms_context->HelperResolveSystemIdtf(facility.getCode(), ScType::NodeConst);
+  addToClassIfNotPresent(code, "код СОАТО");
+  ms_context->CreateEdge(ScType::EdgeDCommonConst, node, code);
 
   return node;
 }
 
 void SoatoClassificationAgent::addToClassIfNotPresent(ScAddr node, const string & class_name)
 {
-  auto sc_class = ms_context->HelperResolveSystemIdtf(class_name, ScType::NodeClass);
-  auto is_in_class = m_memoryCtx.HelperCheckEdge(sc_class, node, ScType::EdgeAccess);
+  auto sc_class = ms_context->HelperResolveSystemIdtf(class_name, ScType::NodeConstClass);
+  auto is_in_class = m_memoryCtx.HelperCheckEdge(sc_class, node, ScType::EdgeAccessConstPosPerm);
   if (!is_in_class)
   {
-    ms_context->CreateEdge(ScType::EdgeAccess, sc_class, node);
+    ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, sc_class, node);
   }
 }
 
