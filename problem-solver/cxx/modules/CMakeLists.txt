@@ -11,5 +11,5 @@ add_subdirectory(PharmacySearchByCityAndRegionAgentModule)
 add_subdirectory(MuseumsRegionSearchModule)
 add_subdirectory(hotelModule)
 add_subdirectory(SearchEconomicPathAgentModule)
+add_subdirectory(SearchCostToBaranovichiAgentModule)
 add_subdirectory(SearchFastestWayAgentModule)
-

@@ -1,0 +1,52 @@
+road_to_Baranovichi = [*
+
+..node_1 <=> ..2_money: ..node_2;;
+..node_2 <=> ..3_money: ..node_3;;
+..node_3 <=> ..3_money: ..node_4;;
+..node_4 <=> ..3_money: ..node_2;;
+..node_4 <=> ..4_money: ..node_5;;
+..node_5 <=> ..1_money: ..node_6;;
+
+..node_2 => nrel_main_idtf: [Dzerzhinsk];;
+..node_6 => nrel_main_idtf: [Baranovichi];;
+..node_1 => nrel_main_idtf: [Minsk];;
+..node_3 => nrel_main_idtf: [GorodeyaNegoreloye];;
+..node_4 => nrel_main_idtf: [Stolbtsy];;
+..node_5 => nrel_main_idtf: [Gorodeya];;
+
+concept_city
+=> nrel_main_idtf: [city];
+<- sc_node_class;;
+concept_city
+-> ..node_1;
+-> ..node_2;
+-> ..node_3;
+-> ..node_4;
+-> ..node_5;
+-> ..node_6;;
+
+..1_money => nrel_main_idtf: [1 ruble];;
+..2_money => nrel_main_idtf: [2 ruble];;
+..3_money => nrel_main_idtf: [3 ruble];;
+..4_money => nrel_main_idtf: [4 ruble];;
+
+concept_parameter
+=> nrel_main_idtf: [parameter];
+<- sc_node_class;;
+concept_parameter
+-> ..1_money;
+-> ..2_money;
+-> ..3_money;
+-> ..4_money;;
+
+concept_ruble
+=> nrel_main_idtf: [ruble];
+<- sc_node_class;;
+concept_ruble
+-> ..1_money;
+-> ..2_money;
+-> ..3_money;
+-> ..4_money;;
+
+*];;
+
