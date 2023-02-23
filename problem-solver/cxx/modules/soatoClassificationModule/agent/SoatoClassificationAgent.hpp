@@ -24,7 +24,7 @@ private:
 
   ScAddr initializeFacility(const AdministrativeFacility & facility);
 
-  void addToClassIfNotPresent(ScAddr node, const std::string & class_name);
+  void addToClassIfNotPresent(ScAddr node, const std::string & className);
 
   ScAddr createEdgeIfNotPresent(const ScAddr & begin, const ScAddr & end, const ScType & type);
 };

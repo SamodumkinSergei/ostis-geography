@@ -57,11 +57,11 @@ void SoatoClassificationAgent::convertSoatoCodes()
   inTable.read_header(io::ignore_extra_column, "СОАТО", "Наименование объекта");
 
   std::string code;
-  std::string attr;
+  std::string name;
 
-  while (inTable.read_row(code, attr))
+  while (inTable.read_row(code, name))
   {
-    const AdministrativeFacility facility = classifier.classify(std::make_pair(code, attr));
+    const AdministrativeFacility facility = classifier.classify(std::make_pair(code, name));
     sew(facility);
   }
 }
@@ -81,28 +81,38 @@ void SoatoClassificationAgent::sew(const AdministrativeFacility & facility)
 ScAddr SoatoClassificationAgent::initializeFacility(const AdministrativeFacility & facility)
 {
   const auto & name = facility.getName();
-  auto node = ms_context->HelperResolveSystemIdtf(name, ScType::NodeConst);
-  addToClassIfNotPresent(node, "АТЕ");
+  auto facilityNode = ms_context->HelperResolveSystemIdtf(name, ScType::NodeConst);
 
-  auto code = ms_context->HelperResolveSystemIdtf(facility.getCode(), ScType::NodeConst);
-  addToClassIfNotPresent(code, "код СОАТО");
+  //Adding facility node into ATE class
+  addToClassIfNotPresent(facilityNode, "АТЕ");
 
-  auto edge = createEdgeIfNotPresent(node, code, ScType::EdgeDCommonConst);
-  auto noRoleRelation = ms_context->HelperResolveSystemIdtf("код СОАТО*", ScType::NodeConstNoRole);
-  createEdgeIfNotPresent(noRoleRelation, edge, ScType::EdgeAccessConstPosPerm);
+  const auto & code = facility.getCode();
+  auto codeNode = ms_context->HelperResolveSystemIdtf(code, ScType::NodeConst);
 
-  return node;
+  //Adding code node into "SOATO code" class
+  addToClassIfNotPresent(codeNode, "код СОАТО");
+
+  //Resolving d-common edge from facility to code
+  auto facilityToCodeEdge = createEdgeIfNotPresent(facilityNode, codeNode, ScType::EdgeDCommonConst);
+
+  //Resolving "SOATO code" relation
+  auto codeNoRole = ms_context->HelperResolveSystemIdtf("код СОАТО*", ScType::NodeConstNoRole);
+
+  //Creating access edge from "SOATO code" relation to d-common-edge between facility to code
+  createEdgeIfNotPresent(codeNoRole, facilityToCodeEdge, ScType::EdgeAccessConstPosPerm);
+
+  return facilityNode;
 }
 
-void SoatoClassificationAgent::addToClassIfNotPresent(ScAddr node, const string & class_name)
+void SoatoClassificationAgent::addToClassIfNotPresent(ScAddr node, const string & className)
 {
-  auto sc_class = ms_context->HelperResolveSystemIdtf(class_name, ScType::NodeConstClass);
-  createEdgeIfNotPresent(sc_class, node, ScType::EdgeAccessConstPosPerm);
+  auto scClass = ms_context->HelperResolveSystemIdtf(className, ScType::NodeConstClass);
+  createEdgeIfNotPresent(scClass, node, ScType::EdgeAccessConstPosPerm);
 }
 
 ScAddr SoatoClassificationAgent::createEdgeIfNotPresent(const ScAddr & begin, const ScAddr & end, const ScType & type) {
-  auto edge_is_present = m_memoryCtx.HelperCheckEdge(begin, end, type);
-  if (!edge_is_present)
+  auto edgeIsPresent = m_memoryCtx.HelperCheckEdge(begin, end, type);
+  if (!edgeIsPresent)
   {
     return ms_context->CreateEdge(type, begin, end);
   }
