@@ -1,0 +1,63 @@
+way_to_uni_graph_example = [*
+
+..node_1 <=> ..10_min: ..node_2;;
+..node_2 <=> ..7_min: ..node_3;;
+..node_3 <=> ..5_min: ..node_4;;
+..node_4 <=> ..12_min: ..node_5;;
+..node_5 <=> ..7_min: ..node_8;;
+..node_2 <=> ..14_min: ..node_6;;
+..node_6 <=> ..8_min: ..node_7;;
+..node_7 <=> ..12_min: ..node_5;;
+
+..node_1 => nrel_main_idtf: [Home bus stop];;
+..node_2 => nrel_main_idtf: [Bus stop 1];;
+..node_3 => nrel_main_idtf: [Bus stop 2];;
+..node_4 => nrel_main_idtf: [Bus stop 3];;
+..node_5 => nrel_main_idtf: [Bus stop 4];;
+..node_6 => nrel_main_idtf: [Bus stop 5];;
+..node_7 => nrel_main_idtf: [Bus stop 6];;
+..node_8 => nrel_main_idtf: [Uni bus stop];;
+
+concept_bus_stop 
+=> nrel_main_idtf: [bus stop];
+<- sc_node_class;;
+concept_bus_stop
+-> ..node_1;
+-> ..node_2;
+-> ..node_3;
+-> ..node_4;
+-> ..node_5;
+-> ..node_6;
+-> ..node_7;
+-> ..node_8;;
+
+..10_min => nrel_main_idtf: [10 minutes];;
+..7_min => nrel_main_idtf: [7 minutes];;
+..5_min => nrel_main_idtf: [5 minutes];;
+..12_min => nrel_main_idtf: [12 minutes];;
+..14_min => nrel_main_idtf: [14 minutes];;
+..8_min => nrel_main_idtf: [8 minutes];;
+
+concept_parameter 
+=> nrel_main_idtf: [parameter];
+<- sc_node_class;;
+concept_parameter
+-> ..10_min;
+-> ..7_min;
+-> ..5_min;
+-> ..12_min;
+-> ..14_min;
+-> ..8_min;;
+
+concept_minute 
+=> nrel_main_idtf: [minute];
+<- sc_node_class;;
+concept_minute
+-> ..10_min;
+-> ..7_min;
+-> ..5_min;
+-> ..12_min;
+-> ..14_min;
+-> ..8_min;;
+
+*];;
