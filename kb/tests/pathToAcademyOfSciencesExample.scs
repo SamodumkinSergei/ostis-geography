@@ -1,0 +1,49 @@
+path_To_Academy_Of_Sciences_Example = [*
+..node_1 <=> ..1_time: ..node_2;;
+..node_2 <=> ..2_time: ..node_3;;
+..node_3 <=> ..1_time: ..node_4;;
+..node_4 <=> ..1_time: ..node_2;;
+..node_4 <=> ..3_time: ..node_5;;
+..node_5 <=> ..3_time: ..node_6;;
+
+..node_1 => nrel_main_idtf: [Gaya];;
+..node_2 => nrel_main_idtf: [Bangalore_Square];;
+..node_3 => nrel_main_idtf: [Supermarket_Riga];;
+..node_4 => nrel_main_idtf: [Yakub_Kolas];;
+..node_5 => nrel_main_idtf: [House of Print];;
+..node_6 => nrel_main_idtf: [Academy_Of_Sciences];;
+
+concept_stop 
+=> nrel_main_idtf: [stop];
+<- sc_node_class;;
+concept_stop
+-> ..node_1;
+-> ..node_2;
+-> ..node_3;
+-> ..node_4;
+-> ..node_5;
+-> ..node_6;;
+
+..1_time => nrel_main_idtf: [5 minute];;
+..2_time => nrel_main_idtf: [7 minute];;
+..3_time => nrel_main_idtf: [4 minute];;
+
+concept_parameter 
+=> nrel_main_idtf: [parameter];
+<- sc_node_class;;
+concept_parameter
+-> ..1_time;
+-> ..2_time;
+-> ..3_time;;
+
+concept_minute 
+=> nrel_main_idtf: [minute];
+<- sc_node_class;;
+concept_minute
+-> ..1_time;
+-> ..2_time;
+-> ..3_time;;
+
+*];;
+
+
