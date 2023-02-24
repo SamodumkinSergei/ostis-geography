@@ -1,0 +1,43 @@
+minimal_graph_example = [*
+
+..node_3 <=> ..2_km: ..node_2;;
+..node_1 <=> ..3_km: ..node_2;;
+..node_4 <=> ..1_km: ..node_2;;
+
+
+..node_2 => nrel_main_idtf: [Gomel];;
+..node_3 => nrel_main_idtf: [Mogilev];;
+..node_1 => nrel_main_idtf: [Minsk];;
+..node_4 => nrel_main_idtf: [Kalinkovichi];;
+
+concept_city
+=> nrel_main_idtf: [city];
+<- sc_node_class;;
+concept_city
+-> ..node_1;
+-> ..node_2;
+-> ..node_3;
+-> ..node_4;;
+
+..1_km => nrel_main_idtf: [25 kilometers];;
+..2_km => nrel_main_idtf: [50 kilometers];;
+..3_km => nrel_main_idtf: [100 kilometers];;
+
+concept_parameter 
+=> nrel_main_idtf: [parameter];
+<- sc_node_class;;
+concept_parameter
+-> ..1_km;
+-> ..2_km;
+-> ..3_km;;
+
+concept_kilometer
+=> nrel_main_idtf: [kilometer];
+<- sc_node_class;;
+concept_kilometer
+-> ..1_km;
+-> ..2_km;
+-> ..3_km;;
+
+*];;
+
