@@ -1,0 +1,30 @@
+ui_menu_finding_time_to_get_to_minsk <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+ui_menu_finding_time_to_get_to_minsk
+=> nrel_main_idtf: 
+	[Найти время необходимое чтобы добраться до Минска]
+	(* <- lang_ru;; *);
+=> nrel_idtf: 
+	[Запрос поиска времени необходимого чтобы добраться до Минска]
+	(* <- lang_ru;; *);;
+
+ui_menu_finding_time_to_get_to_minsk
+=> nrel_main_idtf: 
+	[Find the most short time path on the map]
+	(* <- lang_en;; *);
+=> nrel_idtf: 
+	[Search for the most short time path on the map]
+	(* <- lang_en;; *);;
+
+ui_menu_finding_time_to_get_to_minsk => ui_nrel_command_template:
+	[*
+		action_finding_time_to_get_to_minsk _-> ._question_finding_time_to_get_to_minsk
+			(*
+				_-> rrel_1::ui_arg_1;;
+				_-> rrel_2::ui_arg_2;;
+			*);;
+		._question_finding_time_to_get_to_minsk _<- question;;
+	*];;
+
+ui_menu_finding_time_to_get_to_minsk => ui_nrel_command_lang_template: [Найти самый короткий по времени маршрут от $ui_arg_1 до $ui_arg_2] (* <- lang_ru;; *);;
+ui_menu_finding_time_to_get_to_minsk => ui_nrel_command_lang_template: [Find the most short time path from $ui_arg_1 to $ui_arg_2] (* <- lang_en;; *);;
