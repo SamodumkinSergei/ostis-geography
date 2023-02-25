@@ -1,9 +1,10 @@
-from .WikiDataLoader import WikiDataLoader
 import wptools
 import re
 import threading
 from queue import Queue
 from deep_translator import (GoogleTranslator)
+
+from src.loaders.WikiDataLoader import WikiDataLoader
 
 
 class WikiDataWithContextLoader(WikiDataLoader):
@@ -11,28 +12,28 @@ class WikiDataWithContextLoader(WikiDataLoader):
         super().__init__()
         self._lock = threading.Lock()
         self._THREADS_NUM = 16
-        self._relations = ['P31',    # instance_of
+        self._relations = ['P31',  # instance_of
                            'P1552',  # has_quality
-                           'P361',   # part_of
-                           'P527',   # has_parts
+                           'P361',  # part_of
+                           'P527',  # has_parts
                            'P2283',  # uses
-                           'P111',   # measure_physical_quantity
+                           'P111',  # measure_physical_quantity
                            'P1889',  # different_from
                            'P1269',  # facet_of
                            'P1542',  # has_effect
                            'P1557',  # manifestation_of
-                           'P461',   # opposite_of
+                           'P461',  # opposite_of
                            'P1382',  # partially_coincident_with
                            'P1344',  # participant_in
-                           'P129',   # physically_interacts_with
+                           'P129',  # physically_interacts_with
                            'P1056',  # product_or_material_produced
                            'P3342',  # significant_person
                            'P2579',  # studied_by
-                           'P495',   # country_of_origin
-                           'P425',   # field_of_this_occupation
-                           'P279']   # subclass_of
+                           'P495',  # country_of_origin
+                           'P425',  # field_of_this_occupation
+                           'P279']  # subclass_of
 
-    def load_object(self, obj, obj_type, languages):
+    def _load_object(self, obj, obj_type, languages):
         en_page = wptools.page(wikibase=obj, skip=['labels'], silent=True)
         en_page.get_wikidata()
 
@@ -46,7 +47,7 @@ class WikiDataWithContextLoader(WikiDataLoader):
             page.get_wikidata()
 
         try:
-            obj_id = re.sub(r"\+|-|–|\/|:|\s", '_',
+            obj_id = re.sub(r"\+|-|–|/|:|\s", '_',
                             re.sub(r"'s?|\(|\)|,", '', en_page.data['title']))
         except KeyError:
             obj_id = obj
@@ -76,19 +77,19 @@ class WikiDataWithContextLoader(WikiDataLoader):
                 'label': result_labels,
                 'description': result_descriptions
             }
-            self.add_image_url(en_page, obj_type, obj)
+            self._add_image_url(en_page, obj_type, obj)
 
-    def thread_fun(self, queue, languages):
+    def _thread_fun(self, queue, languages):
         while True:
             obj, obj_type = queue.get()
             try:
-                self.load_object(obj, obj_type, languages)
+                self._load_object(obj, obj_type, languages)
             except:
                 print('Some Error at pulling data. It can cause problems when building the base, so be careful. '
                       'Perhaps you should change the requested entities ')
             queue.task_done()
 
-    def resolve_ids(self):
+    def _resolve_ids(self):
         for triplet in self._info['triplets']:
             _, rlt, ent = triplet
             if rlt.startswith('P'):
@@ -106,19 +107,18 @@ class WikiDataWithContextLoader(WikiDataLoader):
         for rlt in temp_rlt:
             self._info['relations'][temp_rlt[rlt]['identifier']] = temp_rlt[rlt]
 
-    def getEntity(self, entity, lang='en'):
-        additional_languages = ['ru', 'de', 'fr']
-        super().getEntity(entity, lang=lang)
+    def _load_entity(self, entity, lang='en'):
+        super()._load_entity(entity, lang=lang)
         self._page = wptools.page(wikibase=self._page.data['wikibase'], lang='en', skip=[
             'labels', 'imageinfo'], silent=True)
         self._page.get_wikidata()
-        page_title = re.sub(r"\+|-|–|\/|:|\s", '_',
+        page_title = re.sub(r"\+|-|–|/|:|\s", '_',
                             re.sub(r"'s?|\(|\)|,", '', self._page.data['title']))
         loading_queue = Queue()
 
         for _ in range(self._THREADS_NUM):
-            threading.Thread(target=self.thread_fun, args=[
-                loading_queue, additional_languages], daemon=True).start()
+            threading.Thread(target=self._thread_fun, args=[
+                loading_queue, self._languages], daemon=True).start()
 
         context = self._page.data['claims']
         for rlt, ents in context.items():
@@ -135,4 +135,7 @@ class WikiDataWithContextLoader(WikiDataLoader):
                             self._info['triplets'].append([page_title, rlt, '[%s]' % ent])
 
         loading_queue.join()
-        self.resolve_ids()
+        self._resolve_ids()
+
+    def _set_languages(self, languages):
+        self._languages = languages
