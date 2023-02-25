@@ -1,0 +1,24 @@
+concept_PlayLoft_by<-sc_node_not_relation; <- concept_map_object;  <- concept_quest;
+=> nrel_main_idtf:
+    [PlayLoft.by](*<-lang_ru;;*);
+    [PlayLoft_by](*<-lang_en;;*);
+=> nrel_gps:
+    [53.854177,27.47995];
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;
+=>nrel_address:
+    [Минск, ул. Чюрлёниса, 8];
+=>nrel_street:
+    chjurlenisa;
+=>nrel_age_category:
+    16;
+=>nrel_open_time:
+    11;
+=>nrel_close_time:
+    22;
+=>nrel_average_price:
+    30;
+=>nrel_price_currency:
+    BYN;;

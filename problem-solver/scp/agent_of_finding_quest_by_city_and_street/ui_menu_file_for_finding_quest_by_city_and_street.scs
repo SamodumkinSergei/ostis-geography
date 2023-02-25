@@ -1,0 +1,35 @@
+ui_menu_file_for_finding_quest_by_city_and_street <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+ui_menu_file_for_finding_quest_by_city_and_street
+=> nrel_main_idtf: 
+	[Какие квеструмы находятся в указанных городе и улице?] 
+	(* <- lang_ru;; *);
+=> nrel_idtf: 
+	[Запрос всех квеструмов с указанными городом и улицей расположения.] 
+	(* <- lang_ru;; *);;
+
+ui_menu_file_for_finding_quest_by_city_and_street
+=> nrel_main_idtf: 
+	[Which quests correspond to the specified city and street?] 
+	(* <- lang_en;; *);
+=> nrel_idtf: 
+	[Request all quests with the specified city and street.] 
+	(* <- lang_en;; *);;
+
+ui_menu_file_for_finding_quest_by_city_and_street => ui_nrel_command_template:
+	[*
+		action_of_finding_quest_by_city_and_street _-> ._action_of_finding_quest_by_city_and_street
+			(*
+			_-> rrel_1:: ui_arg_1;;	
+			_-> rrel_2:: ui_arg_2;;			
+			*);;
+		._action_of_finding_quest_by_city_and_street _<- question;;
+	*];;
+
+ui_menu_file_for_finding_quest_by_city_and_street => ui_nrel_command_lang_template: 
+	[Какие квесты в городе $ui_arg_1 находятся на улице $ui_arg_2 ?] 
+	(* <- lang_ru;; *);;
+
+ui_menu_file_for_finding_quest_by_city_and_street => ui_nrel_command_lang_template: 
+	[What quests in the city of $ ui_arg_1 are located on $ ui_arg_2 street?] 
+	(* <- lang_en;; *);;

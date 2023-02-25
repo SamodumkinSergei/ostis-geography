@@ -1,0 +1,24 @@
+concept_Leelas_game<-sc_node_not_relation; <- concept_map_object;  <- concept_quest;
+=> nrel_main_idtf:
+    [Игра Лила](*<-lang_ru;;*);
+    [Leelas game](*<-lang_en;;*);
+=> nrel_gps:
+    [53.92982,27.59605];
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;
+=>nrel_address:
+    [Минск, ул. Некрасова, 3/1];
+=>nrel_street:
+    nekrasova;
+=>nrel_age_category:
+    18;
+=>nrel_open_time:
+    11;
+=>nrel_close_time:
+    22;
+=>nrel_average_price:
+    30;
+=>nrel_price_currency:
+    BYN;;

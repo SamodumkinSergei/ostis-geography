@@ -1,0 +1,24 @@
+concept_Iquest<-sc_node_not_relation; <- concept_map_object;  <- concept_quest;
+=> nrel_main_idtf:
+    [Iquest](*<-lang_ru;;*);
+    [Iquest](*<-lang_en;;*);
+=> nrel_gps:
+    [53.702622,23.837631];
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    grodno;
+=>nrel_address:
+    [Гродно, ул. Дзержинского, 84А];
+=>nrel_street:
+    dzerzhinskogo;
+=>nrel_age_category:
+    18;
+=>nrel_open_time:
+    12;
+=>nrel_close_time:
+    00;
+=>nrel_average_price:
+    35;
+=>nrel_price_currency:
+    BYN;;

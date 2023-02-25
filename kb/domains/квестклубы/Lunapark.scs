@@ -1,0 +1,24 @@
+concept_Lunapark<-sc_node_not_relation; <- concept_map_object;  <- concept_quest;
+=> nrel_main_idtf:
+    [Лунапарк](*<-lang_ru;;*);
+    [Lunapark](*<-lang_en;;*);
+=> nrel_gps:
+    [53.851495,27.544389];
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;
+=>nrel_address:
+    [Минск, Серова, ул. Асаналиева, 44];
+=>nrel_street:
+    asanalieva;
+=>nrel_age_category:
+    16;
+=>nrel_open_time:
+    10;
+=>nrel_close_time:
+    21;
+=>nrel_average_price:
+    35;
+=>nrel_price_currency:
+    BYN;;

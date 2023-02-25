@@ -1,0 +1,39 @@
+nrel_gps <-sc_node_norole_relation;
+=> nrel_main_idtf: 
+		 [GPS*](*<- lang_ru;;*);
+		 [GPS*](*<- lang_en;;*);;
+
+nrel_address <-sc_node_norole_relation;
+=> nrel_main_idtf: 
+		 [адрес*](*<- lang_ru;;*);
+		 [address*](*<- lang_en;;*);;
+
+nrel_age_category <-sc_node_norole_relation;
+=> nrel_main_idtf: 
+		 [возрастная категория*](*<- lang_ru;;*);
+		 [age category*](*<- lang_en;;*);;
+
+nrel_average_price <-sc_node_norole_relation;
+=> nrel_main_idtf: 
+		 [средняя цена*](*<- lang_ru;;*);
+		 [average price*](*<- lang_en;;*);;
+
+nrel_price_currency <-sc_node_norole_relation;
+=> nrel_main_idtf: 
+		 [денежная единица*](*<- lang_ru;;*);
+		 [price currency*](*<- lang_en;;*);;
+
+nrel_street <-sc_node_norole_relation;
+=> nrel_main_idtf: 
+		 [улица*](*<- lang_ru;;*);
+		 [street*](*<- lang_en;;*);;
+
+nrel_open_time <-sc_node_norole_relation;
+=> nrel_main_idtf: 
+		 [время открытия*](*<- lang_ru;;*);
+		 [open time*](*<- lang_en;;*);;
+
+nrel_close_time <-sc_node_norole_relation;
+=> nrel_main_idtf: 
+		 [время закрытия*](*<- lang_ru;;*);
+		 [close time*](*<- lang_en;;*);;

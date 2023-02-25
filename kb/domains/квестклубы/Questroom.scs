@@ -1,0 +1,24 @@
+concept_Questroom<-sc_node_not_relation; <- concept_map_object;  <- concept_quest;
+=> nrel_main_idtf:
+    [Questroom](*<-lang_ru;;*);
+    [Questroom](*<-lang_en;;*);
+=> nrel_gps:
+    [53.927363,27.491359];
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;
+=>nrel_address:
+    [Минск, ул. Михася Лынькова, 17];
+=>nrel_street:
+    mihasja_lynkova;
+=>nrel_age_category:
+    14;
+=>nrel_open_time:
+    00;
+=>nrel_close_time:
+    00;
+=>nrel_average_price:
+    40;
+=>nrel_price_currency:
+    BYN;;

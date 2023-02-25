@@ -1,0 +1,24 @@
+concept_Leopard<-sc_node_not_relation; <- concept_map_object;  <- concept_quest;
+=> nrel_main_idtf:
+    [Барс](*<-lang_ru;;*);
+    [Leopard](*<-lang_en;;*);
+=> nrel_gps:
+    [53.921573,27.563529];
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;
+=>nrel_address:
+    [Минск, ул. Веры Хоружей, 25, корп. 3];
+=>nrel_street:
+    very_horuzhej;
+=>nrel_age_category:
+    16;
+=>nrel_open_time:
+    10;
+=>nrel_close_time:
+    23;
+=>nrel_average_price:
+    35;
+=>nrel_price_currency:
+    BYN;;

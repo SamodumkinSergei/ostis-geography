@@ -1,0 +1,24 @@
+concept_Quest_Land<-sc_node_not_relation; <- concept_map_object;  <- concept_quest;
+=> nrel_main_idtf:
+    [Квестленд](*<-lang_ru;;*);
+    [Quest Land](*<-lang_en;;*);
+=> nrel_gps:
+    [52.438811,31.006969];
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    gomel;
+=>nrel_address:
+    [Гомель, ул. Тельмана, 3];
+=>nrel_street:
+    telmana;
+=>nrel_age_category:
+    14;
+=>nrel_open_time:
+    10;
+=>nrel_close_time:
+    23;
+=>nrel_average_price:
+    30;
+=>nrel_price_currency:
+    BYN;;

@@ -1,0 +1,67 @@
+testCase = [*
+
+..node_m2 <=> ..true: ..node_minsk_region;;
+..node_p6 <=> ..true: ..node_brest_region;;
+..node_p35 <=> ..true: ..node_gomel_region;;
+..node_p122 <=> ..true: ..node_mogilev_region;;
+..node_p114 <=> ..true: ..node_vitebsk_region;;
+..node_m6 <=> ..true: ..node_minsk_region;;
+..node_m6 <=> ..true: ..node_hrodna_region;;
+..node_m14 <=> ..false: ..node_hrodna_region;;
+
+..node_mogilev_region => nrel_main_idtf: [Mogilev Region];;
+..node_vitebsk_region => nrel_main_idtf: [Vitebsk Region];;
+..node_hrodna_region => nrel_main_idtf: [Hrodna Region];;
+..node_minsk_region => nrel_main_idtf: [Minsk Region];;
+..node_brest_region => nrel_main_idtf: [Brest Region];;
+..node_gomel_region => nrel_main_idtf: [Gomel Region];;
+
+concept_region
+=> nrel_main_idtf: [region];
+<- sc_node_class;;
+concept_region
+-> ..node_mogilev_region;
+-> ..node_vitebsk_region;
+-> ..node_minsk_region;
+-> ..node_brest_region;
+-> ..node_gomel_region;
+-> ..node_hrodna_region;;
+
+..node_m2 => nrel_main_idtf: [M2];;
+..node_p6 => nrel_main_idtf: [P6];;
+..node_p35 => nrel_main_idtf: [P35];;
+..node_p122 => nrel_main_idtf: [P122];;
+..node_p114 => nrel_main_idtf: [P114];;
+..node_m6 => nrel_main_idtf: [M6];;
+..node_m14 => nrel_main_idtf: [M14];;
+
+concept_parameter 
+=> nrel_main_idtf: [parameter];
+<- sc_node_class;;
+concept_parameter
+-> ..true;
+-> ..false;;
+
+concept_road
+=> nrel_main_idtf: [road];
+<- sc_node_not_relation;;
+concept_road
+-> ..node_m2;
+-> ..node_p6;
+-> ..node_p35;
+-> ..node_p122;
+-> ..node_p114;
+-> ..node_m6;
+-> ..node_m14;;
+
+..true => nrel_main_idtf: [The road passes];;
+..false => nrel_main_idtf: [Road doesn't passes];;
+
+concept_boolean_value 
+=> nrel_main_idtf: [Boolean value];
+<- sc_node_class;;
+concept_boolean_value
+-> ..true;
+-> ..false;;
+
+*];;
