@@ -1,0 +1,29 @@
+ui_menu_road_check <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+ui_menu_road_check
+=> nrel_main_idtf: 
+	[Узнать проходит ли дорога в этом регионе?]
+	(* <- lang_ru;; *);
+=> nrel_idtf: 
+	[Запрос проходит ли дорога в регионе]
+	(* <- lang_ru;; *);;
+
+ui_menu_road_check => nrel_main_idtf: 
+	[Find out if the roud is passing]
+	(* <- lang_en;; *);
+=> nrel_idtf: 
+	[Calculate if the roud is passing]
+	(* <- lang_en;; *);;
+
+ui_menu_road_check => ui_nrel_command_template:
+	[*
+		action_search_road_pass _-> ._question_search_road_pass
+			(*
+				_-> rrel_1::ui_arg_1;;
+				_-> rrel_2::ui_arg_2;;
+			*);;
+		._question_search_road_pass _<- question;;
+	*];;
+
+ui_menu_road_check => ui_nrel_command_lang_template: [Узнать проходит ли дорога $ui_arg_1 в регионе $ui_arg_2] (* <- lang_ru;; *);;
+ui_menu_road_check => ui_nrel_command_lang_template: [Find out if the roud $ui_arg_1 is passing in $ui_arg_2] (* <- lang_en;; *);;
