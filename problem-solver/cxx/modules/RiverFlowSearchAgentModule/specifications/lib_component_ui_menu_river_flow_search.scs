@@ -1,0 +1,9 @@
+lib_component_ui_menu_river_flow_search
+=> nrel_main_idtf:
+	[Компонент библиотеки. Команда пользовательского интерфейса поиска течёт ли река в этом регионе]
+	(* <- lang_ru;; *);
+	[Library component. If the river is flowing in region UI Command.]
+	(* <- lang_en;; *);
+
+<- library_of_platform_independent_reusable_components;
+<- library_of_atomic_reusable_components;;

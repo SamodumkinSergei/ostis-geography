@@ -1,0 +1,69 @@
+testCase = [*
+
+..node_besed <=> ..false: ..node_hrodna_region;;
+..node_berezina <=> ..true: ..node_mogilev_region;;
+..node_adrov <=> ..false: ..node_brest_region;;
+..node_bobr <=> ..true: ..node_minsk_region;;
+..node_neman <=> ..false: ..node_gomel_region;;
+..node_ushacha <=> ..true: ..node_vitebsk_region;;
+..node_sozh <=> ..true: ..node_gomel_region;;
+..node_ganutka <=> ..true: ..node_hrodna_region;;
+
+..node_mogilev_region => nrel_main_idtf: [Mogilev Region];;
+..node_vitebsk_region => nrel_main_idtf: [Vitebsk Region];;
+..node_hrodna_region => nrel_main_idtf: [Hrodna Region];;
+..node_minsk_region => nrel_main_idtf: [Minsk Region];;
+..node_brest_region => nrel_main_idtf: [Brest Region];;
+..node_gomel_region => nrel_main_idtf: [Gomel Region];;
+
+concept_region
+=> nrel_main_idtf: [region];
+<- sc_node_class;;
+concept_region
+-> ..node_mogilev_region;
+-> ..node_vitebsk_region;
+-> ..node_minsk_region;
+-> ..node_brest_region;
+-> ..node_gomel_region;
+-> ..node_hrodna_region;;
+
+..node_besed => nrel_main_idtf: [Besed];;
+..node_berezina => nrel_main_idtf: [Berezina];;
+..node_adrov => nrel_main_idtf: [Adrov];;
+..node_bobr => nrel_main_idtf: [Bobr];;
+..node_neman => nrel_main_idtf: [Neman];;
+..node_ushacha => nrel_main_idtf: [Ushacha];;
+..node_sozh => nrel_main_idtf: [Sozh];;
+..node_ganutka => nrel_main_idtf: [Ganutka];;
+
+concept_parameter 
+=> nrel_main_idtf: [parameter];
+<- sc_node_class;;
+concept_parameter
+-> ..true;
+-> ..false;;
+
+concept_river 
+=> nrel_main_idtf: [river];
+<- sc_node_not_relation;;
+concept_river
+-> ..node_besed;
+-> ..node_berezina;
+-> ..node_adrov;
+-> ..node_bobr;
+-> ..node_neman;
+-> ..node_ushacha;
+-> ..node_sozh;
+-> ..node_ganutka;;
+
+..true => nrel_main_idtf: [The river flows];;
+..false => nrel_main_idtf: [River doesn't flow];;
+
+concept_boolean_value 
+=> nrel_main_idtf: [Boolean value];
+<- sc_node_class;;
+concept_boolean_value
+-> ..true;
+-> ..false;;
+
+*];;
