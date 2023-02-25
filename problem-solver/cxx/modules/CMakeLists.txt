@@ -12,4 +12,4 @@ add_subdirectory(MuseumsRegionSearchModule)
 add_subdirectory(hotelModule)
 add_subdirectory(SearchEconomicPathAgentModule)
 add_subdirectory(SearchFastestWayAgentModule)
-
+add_subdirectory(SearchShortTimePathAgentModule)
