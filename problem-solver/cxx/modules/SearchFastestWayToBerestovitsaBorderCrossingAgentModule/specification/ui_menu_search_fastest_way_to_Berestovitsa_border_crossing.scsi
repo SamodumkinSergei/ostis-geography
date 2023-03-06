@@ -1,0 +1,30 @@
+ui_menu_search_fastest_way_to_Berestovitsa_border_crossing <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+ui_menu_search_fastest_way_to_Berestovitsa_border_crossing
+=> nrel_main_idtf: 
+	[Найти минимальный муршрут от Слонима до погранперехода Берестовица]
+	(* <- lang_ru;; *);
+=> nrel_idtf: 
+	[Запрос поиска минимального муршрута от Слонима до погранперехода Берестовица]
+	(* <- lang_ru;; *);;
+
+ui_menu_search_fastest_way_to_Berestovitsa_border_crossing
+=> nrel_main_idtf: 
+	[Find the fastest way from Slonim to the Berestovitsa border crossing]
+	(* <- lang_en;; *);
+=> nrel_idtf: 
+	[Search for the fastest way from Slonim to the Berestovitsa border crossing]
+	(* <- lang_en;; *);;
+
+ui_menu_search_fastest_way_to_Berestovitsa_border_crossing => ui_nrel_command_template:
+	[*
+		action_search_fastest_way_to_Berestovitsa_border_crossing _-> ._question_search_fastest_way_to_Berestovitsa_border_crossing
+			(*
+				_-> rrel_1::ui_arg_1;;
+				_-> rrel_2::ui_arg_2;;
+			*);;
+		._question_search_fastest_way_to_Berestovitsa_border_crossing _<- question;;
+	*];;
+
+ui_menu_search_fastest_way_to_Berestovitsa_border_crossing => ui_nrel_command_lang_template: [Найти минимальный муршрут от $ui_arg_1 до $ui_arg_2] (* <- lang_ru;; *);;
+ui_menu_search_fastest_way_to_Berestovitsa_border_crossing => ui_nrel_command_lang_template: [Find the fastest way from $ui_arg_1 to $ui_arg_2] (* <- lang_en;; *);;
