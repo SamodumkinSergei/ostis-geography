@@ -1,0 +1,50 @@
+road_to_Bierastavitsa_border_crossing = [*
+
+..node_1 <=> ..1_distance: ..node_2;;
+..node_2 <=> ..2_distance: ..node_3;;
+..node_3 <=> ..3_distance: ..node_4;;
+..node_4 <=> ..2_distance: ..node_2;;
+..node_5 <=> ..4_distance: ..node_6;;
+
+..node_2 => nrel_main_idtf: [Camiary];;
+..node_6 => nrel_main_idtf: [Bierastavica];;
+..node_1 => nrel_main_idtf: [Slonim];;
+..node_3 => nrel_main_idtf: [Zelva];;
+..node_4 => nrel_main_idtf: [Vaukavysk];;
+..node_5 => nrel_main_idtf: [Pagranicny];;
+
+concept_city
+=> nrel_main_idtf: [city];
+<- sc_node_class;;
+concept_city
+-> ..node_1;
+-> ..node_2;
+-> ..node_3;
+-> ..node_4;
+-> ..node_5;
+-> ..node_6;;
+
+..1_distance => nrel_main_idtf: [7 kilometers];;
+..2_distance => nrel_main_idtf: [31 kilometers];; 
+..3_distance => nrel_main_idtf: [26 kilometers];;
+..4_distance => nrel_main_idtf: [17 kilometers];;
+
+concept_parameter
+=> nrel_main_idtf: [parameter];
+<- sc_node_class;;
+concept_parameter
+-> ..1_distance;
+-> ..2_distance;
+-> ..3_distance;
+-> ..4_distance;;
+
+concept_kilometer
+=> nrel_main_idtf: [kilometer];
+<- sc_node_class;;
+concept_ruble
+-> ..1_distance;
+-> ..2_distance;
+-> ..3_distance;
+-> ..4_distance;;
+
+*];;
