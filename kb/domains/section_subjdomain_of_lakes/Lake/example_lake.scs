@@ -1,0 +1,10 @@
+lake_name<-sc_node_not_relation;
+=>nrel_main_idtf:
+[Название озера] (*<-lang_ru;;*);
+[Lake name] (*<-lang_en;;*);;
+
+lake_name<-concept_lake;;
+
+lake_name=>nrel_area:[5];;
+lake_name=>nrel_depth:[5];;
+lake_name=>nrel_volume:[5];;

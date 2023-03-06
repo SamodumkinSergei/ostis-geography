@@ -1,0 +1,39 @@
+nrel_depth_classification
+<-sc_node_norole_relation;
+<-relation;
+<-norole_relation;
+<-binary_relation;
+<-oriented_relation;
+<-antireflexive_relation;
+<-antitransitive_relation;
+<-asymmetric_relation;
+=>nrel_main_idtf:
+	[классификация по глубине]
+	(* <- lang_ru;; *);
+	[depth classification]
+	(* <- lang_en;; *);
+=>nrel_first_domain: concept_lake;
+=>nrel_second_domain: concept_depth_characteristic;
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (классификация по глубине)]
+		(* <- lang_ru;; *);
+		[Def. (depth classification)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[классификация по глубине* — принадлежность озеру к классу, основываясб на его глубине.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[depth classification* - the lake belongs to a class based on its depth.]
+			(* <- lang_en;; *);;
+		*);;
+	*);;
