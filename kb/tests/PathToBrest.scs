@@ -1,0 +1,54 @@
+PathToBrest = [*
+
+..node_5 <=> ..2_time: ..node_1;;
+..node_5 <=> ..2_time: ..node_2;;
+..node_5 <=> ..3_time: ..node_3;;
+..node_5 <=> ..4_time: ..node_4;;
+..node_5 <=> ..5_time: ..node_6;;
+
+..node_1 => nrel_main_idtf: [Minsk];;
+..node_2 => nrel_main_idtf: [Molodechno];;
+..node_3 => nrel_main_idtf: [Grodno];;
+..node_4 => nrel_main_idtf: [Vitebsk];;
+..node_6 => nrel_main_idtf: [Nesvish];;
+..node_5 => nrel_main_idtf: [Brest];;
+
+concept_citi 
+=> nrel_main_idtf: [building];
+<- sc_node_class;;
+concept_citi
+-> ..node_1;
+-> ..node_2;
+-> ..node_3;
+-> ..node_4;
+-> ..node_5;
+-> ..node_6;;
+
+..1_time => nrel_main_idtf: [60 min];;
+..2_time => nrel_main_idtf: [180 min];;
+..3_time => nrel_main_idtf: [300 min];;
+..4_time => nrel_main_idtf: [500 min];;
+..5_time => nrel_main_idtf: [30 min];;
+
+concept_parameter 
+=> nrel_main_idtf: [parameter];
+<- sc_node_class;;
+concept_parameter
+-> ..1_time;
+-> ..2_time;
+-> ..3_time;
+-> ..4_time;
+-> ..5_time;;
+
+concept_minute 
+=> nrel_main_idtf: [liter];
+<- sc_node_class;;
+concept_minute
+-> ..1_time;
+-> ..2_time;
+-> ..3_time;
+-> ..4_time;
+-> ..5_time;;
+
+*];;
+

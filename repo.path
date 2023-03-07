@@ -5,6 +5,7 @@
 #components
 kb/ims.ostis.kb
 kb/ui_menu
+kb/tests
 problem-solver/py/modules/lakes_module/specification
 problem-solver/py/modules/search_kindergartens_by_region_agent
 problem-solver/py/modules/search_kindergartens_by_district_agent
@@ -16,3 +17,7 @@ kb/domains/section_subjdomain_openstreetmap/concepts
 kb/domains/section_subjdomain_openstreetmap/banking institution
 problem-solver/py/modules/search_banks_by_type_agent
 problem-solver/py/modules/search_banks_by_city_agent
+problem-solver/cxx/modules/SearchEconomicPathAgentModule
+problem-solver/cxx/modules/SearchFastestWayAgentModule
+problem-solver/cxx/modules/SearchPathAgentModule
+
