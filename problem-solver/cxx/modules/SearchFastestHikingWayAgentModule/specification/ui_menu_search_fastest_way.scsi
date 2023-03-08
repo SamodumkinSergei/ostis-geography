@@ -1,0 +1,30 @@
+ui_menu_search_fastest_hiking_way <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+ui_menu_search_fastest_hiking_way
+=> nrel_main_idtf: 
+	[Найти самый быстрый пешеходный маршрут на карте]
+	(* <- lang_ru;; *);
+=> nrel_idtf: 
+	[Запрос поиска самого быстрого пешеходного маршрута на карте]
+	(* <- lang_ru;; *);;
+
+ui_menu_search_fastest_hiking_way
+=> nrel_main_idtf: 
+	[Find the fastest hiking way on the map]
+	(* <- lang_en;; *);
+=> nrel_idtf: 
+	[Search for the fastest hiking way on the map]
+	(* <- lang_en;; *);;
+
+ui_menu_search_fastest_hiking_way => ui_nrel_command_template:
+	[*
+		action_search_fastest_hiking_way _-> ._question_search_fastest_hiking_way
+			(*
+				_-> rrel_1::ui_arg_1;;
+				_-> rrel_2::ui_arg_2;;
+			*);;
+		._question_search_fastest_hiking_way _<- question;;
+	*];;
+
+ui_menu_search_fastest_hiking_way => ui_nrel_command_lang_template: [Найти самый быстрый пешеходный маршрут от $ui_arg_1 до $ui_arg_2] (* <- lang_ru;; *);;
+ui_menu_search_fastest_hiking_way => ui_nrel_command_lang_template: [Find the fastest hiking way from $ui_arg_1 to $ui_arg_2] (* <- lang_en;; *);;

@@ -1,0 +1,65 @@
+hiking_way_to_railway_station_graph_example = [*
+
+..node_1 <=> ..72_min: ..node_8;;
+..node_2 <=> ..83_min: ..node_8;;
+..node_3 <=> ..87_min: ..node_8;;
+..node_4 <=> ..42_min: ..node_8;;
+..node_5 <=> ..39_min: ..node_8;;
+..node_6 <=> ..107_min: ..node_8;;
+..node_7 <=> ..53_min: ..node_8;;
+
+..node_1 => nrel_main_idtf: [BSUIR Building #5];;
+..node_2 => nrel_main_idtf: [BSUIR Dormitory #1];;
+..node_3 => nrel_main_idtf: [BSUIR Dormitory #2];;
+..node_4 => nrel_main_idtf: [Gentlemen's house];;
+..node_5 => nrel_main_idtf: [Savkov's house];;
+..node_6 => nrel_main_idtf: [Titenkov's house];;
+..node_7 => nrel_main_idtf: [Makarov's house];;
+..node_8 => nrel_main_idtf: [Railway Station];;
+
+concept_spot 
+=> nrel_main_idtf: [spot];
+<- sc_node_class;;
+concept_spot
+-> ..node_1;
+-> ..node_2;
+-> ..node_3;
+-> ..node_4;
+-> ..node_5;
+-> ..node_6;
+-> ..node_7;
+-> ..node_8;;
+
+..72_min => nrel_main_idtf: [1 hour 12 minutes];;
+..83_min => nrel_main_idtf: [1 hour 23 minutes];;
+..87_min => nrel_main_idtf: [1 hour 27 minutes];;
+..42_min => nrel_main_idtf: [42 minutes];;
+..39_min => nrel_main_idtf: [39 minutes];;
+..107_min => nrel_main_idtf: [1 hour 47 minutes];;
+..53_min => nrel_main_idtf: [53 minutes];;
+
+concept_parameter 
+=> nrel_main_idtf: [parameter];
+<- sc_node_class;;
+concept_parameter
+-> ..72_min;
+-> ..83_min;
+-> ..87_min;
+-> ..42_min;
+-> ..39_min;
+-> ..107_min;
+-> ..53_min;;
+
+concept_time 
+=> nrel_main_idtf: [time];
+<- sc_node_class;;
+concept_time
+-> ..72_min;
+-> ..83_min;
+-> ..87_min;
+-> ..42_min;
+-> ..39_min;
+-> ..107_min;
+-> ..53_min;;
+
+*];;
