@@ -1,0 +1,30 @@
+section_subject_domain_of_dance_studios
+=> nrel_main_idtf:
+	[Раздел. Предметная область танцевальных студий Беларуси]
+   (* <- lang_ru;; *);
+	[Section. Subject domain of dance studios of Belarus] 
+   (* <- lang_en;; *);
+<- atomic_section;;
+
+section_subject_domain_of_dance_studios = [*
+	subject_domain_of_dance_studios
+<- sc_node_struct;
+	=> nrel_main_idtf:
+      [Предметная область танцевальных студий Беларуси]
+      (* <- lang_ru;; *);
+      [Subject domain of dance studios of Belarusk]
+      (* <- lang_en;; *);
+	<- subject_domain;
+	-> rrel_maximum_studied_object_class:
+            concept_year_of_foundation;
+	-> rrel_not_maximum_studied_object_class:
+            concept_dance_studio;
+	-> rrel_explored_relation:
+            nrel_year_of_foundation;;
+*];;
+
+section_subject_domain_of_dance_studios
+-> rrel_key_sc_element:
+            concept_dance_studio;
+            concept_year_of_foundation;
+            nrel_year_of_foundation;;

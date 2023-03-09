@@ -1,0 +1,34 @@
+concept_year_of_foundation
+<- sc_node_class;
+=> nrel_main_idtf:
+	[Год основания]
+	(* <- lang_ru;; *);
+	[Year of foundation]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (Год основания)]
+		(* <- lang_ru;; *);
+		[Def. (Year of foundation)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Год основания - год, когда оранизация юридически начала свою деятельность.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[The year of foundation - is the year when the organization legally began its activities.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_year_of_foundation
+		};;
+	*);

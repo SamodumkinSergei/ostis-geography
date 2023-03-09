@@ -1,22 +1,22 @@
-belarusian_state_medical_college.scs
+minsk_state_automobile_mechanics.scs
 <- concept_college;
 =>nrel_main_idtf:
-    [Belarusian State Medical College]
+    [Minsk State Automobile Mechanics College]
     (* <- lang_en;; <- name_en;;*);
-    [Белорусский государственный медицинский колледж]
+    [Минский государственный автомеханический колледж]
     (* <- lang_ru;; <- name_ru;; <- name;;*);
 => nrel_address:
-    [г.Минск, ул. Кижеватова, 60/2]
+    [гг.Минск, ул. Социалистическая, 5]
     (*<-concept_address;;*);
 => nrel_email:
-    [belsmc@rambler.ru]
+    [mgak@rambler.ru]
     (*<-concept_email;;*);
 => nrel_phone_number:
-    [+375172120430]
+    [+375172912438]
     (*<-concept_phone_number;;*);
 => nrel_number_of_specialties:
     [4]
     (*<-concept_number_of_specialties;;*);
 => nrel_number_of_students:
-    [500]
+    [600]
     (*<-concept_number_of_students;;*);;
