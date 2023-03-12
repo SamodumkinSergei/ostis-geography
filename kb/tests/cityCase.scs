@@ -1,0 +1,69 @@
+cityCase = [*
+
+..node_уelsk  <=> ..false: ..node_hrodna_region;;
+..node_horki <=> ..true: ..node_mogilev_region;;
+..node_kruglae <=> ..false: ..node_brest_region;;
+..node_dzerzhinsk <=> ..true: ..node_minsk_region;;
+..node_vetka <=> ..true: ..node_gomel_region;;
+..node_hlybokae <=> ..true: ..node_vitebsk_region;;
+..node_mozir <=> ..true: ..node_gomel_region;;
+..node_lida <=> ..true: ..node_hrodna_region;;
+
+..node_mogilev_region => nrel_main_idtf: [Mogilev Region];;
+..node_vitebsk_region => nrel_main_idtf: [Vitebsk Region];;
+..node_hrodna_region => nrel_main_idtf: [Hrodna Region];;
+..node_minsk_region => nrel_main_idtf: [Minsk Region];;
+..node_brest_region => nrel_main_idtf: [Brest Region];;
+..node_gomel_region => nrel_main_idtf: [Gomel Region];;
+
+concept_region
+=> nrel_main_idtf: [region];
+<- sc_node_class;;
+concept_region
+-> ..node_mogilev_region;
+-> ..node_vitebsk_region;
+-> ..node_minsk_region;
+-> ..node_brest_region;
+-> ..node_gomel_region;
+-> ..node_hrodna_region;;
+
+..node_уelsk => nrel_main_idtf: [Yelsk];;
+..node_horki => nrel_main_idtf: [Horki];;
+..node_kruglae => nrel_main_idtf: [Kruglae];;
+..node_dzerzhinsk => nrel_main_idtf: [Dzerzhinsk];;
+..node_vetka => nrel_main_idtf: [Vetka];;
+..node_hlybokae => nrel_main_idtf: [Hlybokae];;
+..node_mozir => nrel_main_idtf: [Mozir];;
+..node_lida => nrel_main_idtf: [Lida];;
+
+concept_parameter 
+=> nrel_main_idtf: [parameter];
+<- sc_node_class;;
+concept_parameter
+-> ..true;
+-> ..false;;
+
+concept_city 
+=> nrel_main_idtf: [city];
+<- sc_node_not_relation;;
+concept_city
+-> ..node_уelsk;
+-> ..node_horki;
+-> ..node_kruglae;
+-> ..node_dzerzhinsk;
+-> ..node_vetka;
+-> ..node_hlybokae;
+-> ..node_mozir;
+-> ..node_lida;;
+
+..true => nrel_main_idtf: [The city belongs to the region];;
+..false => nrel_main_idtf: [The city does not belong to the region];;
+
+concept_boolean_value 
+=> nrel_main_idtf: [Boolean value];
+<- sc_node_class;;
+concept_boolean_value
+-> ..true;
+-> ..false;;
+
+*];;
