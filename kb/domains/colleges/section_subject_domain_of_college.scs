@@ -16,11 +16,10 @@ section_subject_domain_of_college = [*
       (* <- lang_en;; *);
 	<- subject_domain;
 	-> rrel_maximum_studied_object_class:
-            concept_institution_of_secondary_education;
-            concept_email;       
+            concept_institution_of_secondary_education;     
             concept_number_of_specialties;
             concept_number_of_students;
-            concept_phone_number;
+
             concept_student;
 	-> rrel_not_maximum_studied_object_class:
             concept_college;
@@ -41,9 +40,5 @@ section_subject_domain_of_college
             concept_phone_number;
             concept_student;
             concept_college;
-            concept_address;
-            nrel_address;
-            nrel_email;
             nrel_number_of_specialties;
-            nrel_number_of_students;
-            nrel_phone_number;;
+            nrel_number_of_students;;
