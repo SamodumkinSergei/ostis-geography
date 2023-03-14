@@ -1,4 +1,4 @@
-for path in `find ../components/ -name "*.jsx"`
+for path in `find ../sc-web/components/ -name "*.jsx"`
 do
   echo "prepare $path"
   jsx $path "$path/../" -x jsx

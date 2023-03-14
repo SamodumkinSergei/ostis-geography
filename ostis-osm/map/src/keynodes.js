@@ -14,9 +14,11 @@ MapKeynodes.IDENTIFIERS = [
   'ui_menu_file_for_finding_persons'
 ];
 
-MapKeynodes.init = function() {
+MapKeynodes.init = function(callback) {
+  let self = this;
   SCWeb.core.Server.resolveScAddr(MapKeynodes.IDENTIFIERS).then(keynodes => {
     self.keynodes = keynodes;
+    callback();
   });
 };
 

@@ -4,8 +4,8 @@ import json, shutil
 
 
 BUILD_FILE = "build.json"
-COMPONENTS_PATH = "../components"
-CLIENT_PATH = "../client/"
+COMPONENTS_PATH = "../sc-web/components"
+CLIENT_PATH = "../sc-web/client/"
 
 
 def copy_replace(src, dst):

@@ -16,7 +16,7 @@ MapViewer = function (sandbox) {
 MapViewer.prototype.init = function () {
     this.generated = false
     var self = this;
-    MapKeynodes.init().done(function () {
+    MapKeynodes.init(function () {
         self.initCallback();
         self.createReactComponent();
         self._callGenerateOSMQueryAgent();
@@ -24,10 +24,12 @@ MapViewer.prototype.init = function () {
 };
 
 MapViewer.prototype._callGenerateOSMQueryAgent = function () {
+    let self = this;
+
     const question = $('a.history-item.active').attr("sc_addr");
     let template = new sc.ScTemplate();
     template.triple(
-        new sc.ScAddr(question),
+        new sc.ScAddr(parseInt(question)),
         sc.ScType.EdgeAccessVarPosPerm,
         sc.ScType.NodeVar
     );
@@ -38,7 +40,7 @@ MapViewer.prototype._callGenerateOSMQueryAgent = function () {
             .then(keynodes => {
                 const cmd = keynodes["ui_menu_generate_osm_query"];
                 SCWeb.core.Server.doCommand(cmd,
-                    [question_arg], function (plain_text_result) {
+                    [question_arg.value], function (plain_text_result) {
                         console.log("GenerateOSMQueryAgent is done");
                         const result_question_node = plain_text_result.question;
                         setTimeout(() => {
@@ -63,7 +65,7 @@ MapViewer.prototype._callGenerateOSMQueryAgent = function () {
                                 window.scClient.templateSearch(template)
                                 .then((result) => {
                                     const answ_cont = result[0].get(2);
-                                    window.scClient.getLinkContents(answ_cont)
+                                    window.scClient.getLinkContents([answ_cont])
                                     .then((content) => {
                                         console.log("query: " + content[0].data);
                                         self.sandbox.updateContent();

@@ -1,9 +1,3 @@
-sudo chmod +x ./prepare_jsx.sh
-cp -R ./map ../sc-web/components
-cp -R ./common ../sc-web/client/static
-cd ../sc-web/client/templates
-
-cat <<EOT >> ./common.html
 <script type="text/javascript" charset="utf-8" src="/static/common/react/react.js"></script>
 <script type="text/javascript" charset="utf-8" src="/static/common/react/react-dom.js"></script>
 <script type="text/javascript" charset="utf-8" src="/static/common/bootstrap-slider/js/bootstrap-slider.js"></script>
@@ -17,15 +11,3 @@ cat <<EOT >> ./common.html
 <link rel="stylesheet" type="text/css" href="/static/common/leaflet/css/leaflet.css" />
 <link rel="stylesheet" type="text/css" href="/static/common/bootstrap-slider/css/bootstrap-slider.css" />
 <link rel="stylesheet" type="text/css" href="/static/common/toast/jquery.toast.min.css" />
-EOT
-
-cat <<EOT >> ./components.html
-<script type="text/javascript" charset="utf-8" src="/static/components/js/map/map.js"></script>
-<link rel="stylesheet" type="text/css" href="/static/components/css/main.css" />
-EOT
-
-cd ../../../ostis-osm
-./prepare_jsx.sh
-python3 build_components.py -i -a
-cd ../sc-web
-grunt build

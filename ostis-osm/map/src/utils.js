@@ -135,46 +135,36 @@ const MapUtils = {
                 const question = $('a.history-item.active').attr("sc_addr");
                 let template = new sc.ScTemplate();
                 template.triple(
-                    new sc.ScAddr(question),
+                    new sc.ScAddr(parseInt(question)),
                     sc.ScType.EdgeAccessVarPosPerm,
                     sc.ScType.NodeVar
                 );
                 window.scClient.templateSearch(template)
-                .done(result => {
+                .then(result => {
                     const question_arg = result[0].get(2);
-                    self.checkTerrainObject(question_arg)
-                    .done(() => {
-                        self.extractIdentifier(question_arg);
-                        self.extractCoordinates(question_arg);
+                    self.checkTerrainObject(question_arg.value)
+                    .then(() => {
+                        self.extractIdentifier(question_arg.value);
+                        self.extractCoordinates(question_arg.value);
                     })
                 })
             },
-            checkTerrainObject: function (object) {
-                return new Promise((resolve, reject) => {
-                    let template = new sc.ScTemplate();
-                    template.triple(
-                        new sc.ScAddr(object),
-                        sc.ScType.EdgeDCommonConst,
-                        sc.ScType.LinkVar,
-                        sc.ScType.EdgeAccessVarPosPerm,
-                        new sc.ScAddr(MapKeynodes.get("nrel_osm_query"))
-                    );
-                    window.scClient.templateSearch(template)
-                    .then(result => {
-                        if (result.length) {
-                            resolve();
-                        }
-                        else {
-                            reject();
-                        }
-                    });
-                })
+            checkTerrainObject: async function (object) {
+                let template = new sc.ScTemplate();
+                template.triple(
+                    new sc.ScAddr(object),
+                    sc.ScType.EdgeDCommonVar,
+                    sc.ScType.LinkVar,
+                    sc.ScType.EdgeAccessVarPosPerm,
+                    new sc.ScAddr(MapKeynodes.get("nrel_osm_query"))
+                );
+                return await window.scClient.templateSearch(template);
             },
             extractIdentifier: function (object) {
                 let template = new sc.ScTemplate();
                 template.tripleWithRelation(
                     new sc.ScAddr(object),
-                    sc.ScType.EdgeDCommonConst,
+                    sc.ScType.EdgeDCommonVar,
                     [sc.ScType.LinkVar, "_link"],
                     sc.ScType.EdgeAccessVarPosPerm,
                     new sc.ScAddr(MapKeynodes.get("nrel_main_idtf"))
@@ -186,7 +176,7 @@ const MapUtils = {
                 );
                 window.scClient.templateSearch(template)
                 .then(result => {
-                    window.scClient.getLinkContents(result[0].get("_link"))
+                    window.scClient.getLinkContents([result[0].get("_link")])
                     .then(result => {
                         fluxify.doAction('changeObject', {id: object, title: result[0].data});
                     });
@@ -196,7 +186,7 @@ const MapUtils = {
                 let template = new sc.ScTemplate();
                 template.tripleWithRelation(
                     [sc.ScType.NodeVar, "_node"],
-                    sc.ScType.EdgeDCommonConst,
+                    sc.ScType.EdgeDCommonVar,
                     new sc.ScAddr(object),
                     sc.ScType.EdgeAccessVarPosPerm,
                     new sc.ScAddr(MapKeynodes.get("rrel_key_sc_element"))
@@ -208,29 +198,31 @@ const MapUtils = {
                 );
                 template.tripleWithRelation(
                     [sc.ScType.NodeVar, "_translation_node"],
-                    sc.ScType.EdgeDCommonConst,
+                    sc.ScType.EdgeDCommonVar,
                     "_node",
                     sc.ScType.EdgeAccessVarPosPerm,
                     new sc.ScAddr(MapKeynodes.get("nrel_sc_text_translation"))
                 );
                 template.tripleWithRelation(
                     "_translation_node",
-                    sc.ScType.EdgeDCommonConst,
+                    sc.ScType.EdgeDCommonVar,
                     [sc.ScType.LinkVar, "_image_link"],
                     sc.ScType.EdgeAccessVarPosPerm,
                     new sc.ScAddr(MapKeynodes.get("rrel_example"))
                 );
                 window.scClient.templateSearch(template)
                 .then(result => {
-                    const image = "api/link/content/?addr=" + result[0].get("_image_link");
-                    fluxify.doAction('changeObject', {id: object, image: image});
+                    window.scClient.getLinkContents([result[0].get("_image_link")])
+                    .then(linkResult => {
+                        fluxify.doAction('changeObject', {id: object, image: linkResult[0].data});
+                    });
                 });
             },
             extractDescription: function (object) {
                 let template = new sc.ScTemplate();
                 template.tripleWithRelation(
                     [sc.ScType.NodeVar, "_node"],
-                    sc.ScType.EdgeDCommonConst,
+                    sc.ScType.EdgeDCommonVar,
                     new sc.ScAddr(object),
                     sc.ScType.EdgeAccessVarPosPerm,
                     new sc.ScAddr(MapKeynodes.get("rrel_key_sc_element"))
@@ -242,14 +234,14 @@ const MapUtils = {
                 );
                 template.tripleWithRelation(
                     [sc.ScType.NodeVar, "_translation_node"],
-                    sc.ScType.EdgeDCommonConst,
+                    sc.ScType.EdgeDCommonVar,
                     "_node",
                     sc.ScType.EdgeAccessVarPosPerm,
                     new sc.ScAddr(MapKeynodes.get("nrel_sc_text_translation"))
                 );
                 template.tripleWithRelation(
                     "_translation_node",
-                    sc.ScType.EdgeDCommonConst,
+                    sc.ScType.EdgeDCommonVar,
                     [sc.ScType.LinkVar, "_description_link"],
                     sc.ScType.EdgeAccessVarPosPerm,
                     new sc.ScAddr(MapKeynodes.get("rrel_example"))
@@ -261,7 +253,7 @@ const MapUtils = {
                 );
                 window.scClient.templateSearch(template)
                 .then(result => {
-                    window.scClient.getLinkContents(result[0].get("_description_link"))
+                    window.scClient.getLinkContents([result[0].get("_description_link")])
                     .then(descriptions => {
                         fluxify.doAction('changeObject', {id: object, description: descriptions[0].data});
                     });
@@ -271,14 +263,14 @@ const MapUtils = {
                 let template = new sc.ScTemplate();
                 template.tripleWithRelation(
                     new sc.ScAddr(object),
-                    sc.ScType.EdgeDCommonConst,
+                    sc.ScType.EdgeDCommonVar,
                     [sc.ScType.LinkVar, "_query_link"],
                     sc.ScType.EdgeAccessVarPosPerm,
                     new sc.ScAddr(MapKeynodes.get("nrel_osm_query"))
                 );
                 window.scClient.templateSearch(template)
                 .then(result => {
-                    window.scClient.getLinkContents(result[0].get("_description_link"))
+                    window.scClient.getLinkContents([result[0].get("_description_link")])
                     .then(quieries => {
                         self.extractGeoJSON(object, quieries[0].data);
                     });

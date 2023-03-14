@@ -1,3 +1,4 @@
+from sc_kpm.logging import get_kpm_logger
 from termcolor import colored
 from typing import List
 
@@ -23,6 +24,7 @@ osm_level_to_tag = {
     None: ['addr:country', 'addr:district', 'addr:region', 'addr:city']
 }
 
+logger = get_kpm_logger()
 
 class OpenStreetMapAgent(ScAgentClassic):
     def __init__(self):
@@ -34,13 +36,13 @@ class OpenStreetMapAgent(ScAgentClassic):
             return ScResult.SKIP
 
         status = ScResult.OK
-        self._logger.debug("GetLakesByAreaAgent starts")
+        logger.debug("GetLakesByAreaAgent starts")
 
         try:
             if action_node is None or not action_node.is_valid():
                 raise Exception("The question node isn't valid.")
 
-            node = get_action_arguments(action_node, 1)
+            [node] = get_action_arguments(action_node, 1)
             contour = create_node(sc_types.NODE_CONST_STRUCT)
             create_edge(
                 sc_types.EDGE_ACCESS_CONST_POS_PERM,
@@ -49,7 +51,7 @@ class OpenStreetMapAgent(ScAgentClassic):
             )
 
             elements = self.get_query(node)
-            if elements is None:
+            if not elements:
                 elements = self.generate_osm_query(node)
 
             self.add_nodes_to_answer(contour, elements)
@@ -70,11 +72,11 @@ class OpenStreetMapAgent(ScAgentClassic):
                 action_node,
             )
         except Exception as ex:
-            print(colored(str(ex), color='red'))
+            logger.debug(colored(str(ex), color='red'))
             self.set_unsuccessful_status(action_node)
             status = ScResult.ERROR
         finally:
-            self.create_edge(
+            create_edge(
                 sc_types.EDGE_ACCESS_CONST_POS_PERM,
                 self._keynodes['question_finished'],
                 action_node,
@@ -83,7 +85,7 @@ class OpenStreetMapAgent(ScAgentClassic):
 
     def set_unsuccessful_status(self, action_node: ScAddr) -> ScAddr:
         create_edge(
-            sc_types,
+            sc_types.EDGE_ACCESS_CONST_POS_PERM,
             self._keynodes['question_finished_unsuccessfully'],
             action_node,
         )
@@ -99,7 +101,7 @@ class OpenStreetMapAgent(ScAgentClassic):
         )
         template_result = client.template_search(template)
         if template_result:
-            print(colored(
+            logger.debug(colored(
                 "Get from base: " + client.get_link_content(template_result[0].get('_value'))[0].data, color='green'))
             return [
                 template_result[0].get('_dedge'),
@@ -157,7 +159,7 @@ class OpenStreetMapAgent(ScAgentClassic):
         template.triple_with_relation(
             "_tag_relation",
             sc_types.EDGE_D_COMMON_VAR,
-            [sc_types.LINK_VAR, "_tag_class"],
+            [sc_types.NODE_VAR, "_tag_class"],
             sc_types.EDGE_ACCESS_VAR_POS_PERM,
             self._keynodes.resolve('nrel_tag', sc_types.NODE_CONST_NOROLE),
         )
@@ -166,7 +168,7 @@ class OpenStreetMapAgent(ScAgentClassic):
             sc_types.EDGE_ACCESS_VAR_POS_PERM,
             "_tag_class"
         )
-        template.TripleWithRelation(
+        template.triple_with_relation(
             "_tag_class",
             sc_types.EDGE_D_COMMON_VAR,
             [sc_types.LINK_VAR, "_tag_name"],
@@ -207,16 +209,16 @@ class OpenStreetMapAgent(ScAgentClassic):
         template.triple_with_relation(
             "_tag_class",
             sc_types.EDGE_D_COMMON_VAR,
-            [sc_types.LINK_VAR, "tag_name"],
+            [sc_types.LINK_VAR, "_tag_name"],
             sc_types.EDGE_ACCESS_VAR_POS_PERM,
             self._keynodes['nrel_main_idtf']
         )
         template_result = client.template_search(template)
         relations_tags = {}
         for item in template_result:
-            tag = client.get_link_content(item.get('_tag_name'))
+            tag = client.get_link_content(item.get('_tag_name'))[0].data
             value = self.get_main_idtf(item.get('_value'))
-            if tag not in osm_level_to_tag.get(admin_level):
+            if osm_level_to_tag.get(admin_level) and tag not in osm_level_to_tag.get(admin_level):
                 relations_tags[tag] = value
         return relations_tags
 
@@ -227,8 +229,8 @@ class OpenStreetMapAgent(ScAgentClassic):
             sc_types.EDGE_ACCESS_VAR_POS_PERM,
             node
         )
-        template_result = self.ctx.HelperSearchTemplate(template)
-        return template_result
+        template_result = client.template_search(template)
+        return bool(template_result)
 
     def get_search_area_name(self, node: ScAddr) -> str:
         template = ScTemplate()
@@ -265,7 +267,7 @@ class OpenStreetMapAgent(ScAgentClassic):
         else:    
             query = f'[out:json][timeout:25];area["name:en"="Belarus"]->.searchArea;' \
                 f'(relation["name"="{self.get_main_idtf(node)}"]{relation}(area.searchArea););out center;>;out skel qt;'
-        print(colored('Generated: ' + query, color='green'))
+        logger.debug(colored('Generated: ' + query, color='green'))
         query_link = create_link(query)
         query_edge = create_edge(
             sc_types.EDGE_D_COMMON_CONST,
