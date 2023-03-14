@@ -21,7 +21,7 @@ osm_level_to_tag = {
     '8': ['addr:city'],
     '9': ['addr:country', 'addr:district', 'addr:region'],
     '10': ['addr:city'],
-    None: ['addr:country', 'addr:district', 'addr:region', 'addr:city']
+    '': ['addr:country', 'addr:district', 'addr:region', 'addr:city']
 }
 
 logger = get_kpm_logger()
@@ -219,7 +219,8 @@ class OpenStreetMapAgent(ScAgentClassic):
             tag = client.get_link_content(item.get('_tag_name'))[0].data
             value = self.get_main_idtf(item.get('_value'))
             if osm_level_to_tag.get(admin_level) and tag not in osm_level_to_tag.get(admin_level):
-                relations_tags[tag] = value
+                if tag != 'addr:region':
+                    relations_tags[tag] = value
         return relations_tags
 
     def get_way(self, node: ScAddr) -> bool:
@@ -257,16 +258,16 @@ class OpenStreetMapAgent(ScAgentClassic):
             relation += '["' + k + '"="' + v + '"]'
         if admin_level is None:
             if not is_way:
-                query = f'[out:json][timeout:25];area["name"="{self.get_search_area_name(node)}"]->.searchArea;' \
-                    f'(node["name"="{self.get_main_idtf(node)}"]{relation}(area.searchArea);' \
-                    f'way["name"="{self.get_main_idtf(node)}"]{relation}(area.searchArea);' \
-                    f'relation["name"="{self.get_main_idtf(node)}"]{relation}(area.searchArea););out center;>;out skel qt;'
+                query = f'[out:json][timeout:25];area["name:ru"="{self.get_search_area_name(node)}"]->.searchArea;' \
+                    f'(node["name:ru"="{self.get_main_idtf(node)}"]{relation}(area.searchArea);' \
+                    f'way["name:ru"="{self.get_main_idtf(node)}"]{relation}(area.searchArea);' \
+                    f'relation["name:ru"="{self.get_main_idtf(node)}"]{relation}(area.searchArea););out center;>;out skel qt;'
             else:
-                query = f'[out:json][timeout:25];area["name"="{self.get_search_area_name(node)}"]->.searchArea;' \
-                    f'(way["name"="{self.get_main_idtf(node)}"]{relation}(area.searchArea););out center;>;out skel qt;'
+                query = f'[out:json][timeout:25];area["name:ru"="{self.get_search_area_name(node)}"]->.searchArea;' \
+                    f'(way["name:ru"="{self.get_main_idtf(node)}"]{relation}(area.searchArea););out center;>;out skel qt;'
         else:    
             query = f'[out:json][timeout:25];area["name:en"="Belarus"]->.searchArea;' \
-                f'(relation["name"="{self.get_main_idtf(node)}"]{relation}(area.searchArea););out center;>;out skel qt;'
+                f'(relation["name:ru"="{self.get_main_idtf(node)}"]{relation}(area.searchArea););out center;>;out skel qt;'
         logger.debug(colored('Generated: ' + query, color='green'))
         query_link = create_link(query)
         query_edge = create_edge(
@@ -281,7 +282,7 @@ class OpenStreetMapAgent(ScAgentClassic):
         )
         return [query_edge, query_link, query_edge2, self._keynodes['nrel_osm_query']]
 
-    def add_nodes_to_answer(self, contour: ScAddr, nodes: ScAddr):
+    def add_nodes_to_answer(self, contour: ScAddr, nodes):
         if contour is None:
             contour = create_node(sc_types.NODE_CONST_STRUCT)
         if nodes is None:

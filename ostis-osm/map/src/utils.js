@@ -260,6 +260,7 @@ const MapUtils = {
                 });
             },
             extractCoordinates: function (object) {
+                let self = this;
                 let template = new sc.ScTemplate();
                 template.tripleWithRelation(
                     new sc.ScAddr(object),
@@ -270,7 +271,7 @@ const MapUtils = {
                 );
                 window.scClient.templateSearch(template)
                 .then(result => {
-                    window.scClient.getLinkContents([result[0].get("_description_link")])
+                    window.scClient.getLinkContents([result[0].get("_query_link")])
                     .then(quieries => {
                         self.extractGeoJSON(object, quieries[0].data);
                     });
