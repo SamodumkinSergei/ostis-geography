@@ -1,0 +1,27 @@
+ui_menu_soato_classification <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+ui_menu_soato_classification
+=> nrel_main_idtf: 
+	[Классифицировать на основе кодов SOATO]
+	(* <- lang_ru;; *);
+=> nrel_idtf: 
+	[Запрос классификации на основе кодов SOATO]
+	(* <- lang_ru;; *);;
+
+ui_menu_soato_classification
+=> nrel_main_idtf: 
+	[SOATO classify]
+	(* <- lang_en;; *);
+=> nrel_idtf: 
+	[SOATO classification request]
+	(* <- lang_en;; *);;
+
+ui_menu_soato_classification => ui_nrel_command_template:
+	[*
+		action_soato_classification _-> ._question_soato_classification;;
+		._question_soato_classification _<- question;;
+	*];;
+
+ui_menu_soato_classification => ui_nrel_command_lang_template: [SOATO классифицировать] (* <- lang_ru;; *);;
+ui_menu_soato_classification => ui_nrel_command_lang_template: [SOATO classify] (* <- lang_en;; *);;
+
