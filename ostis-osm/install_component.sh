@@ -1,6 +1,7 @@
 sudo chmod +x ./prepare_jsx.sh
 cp -R ./map ../sc-web/components
 cp -R ./common ../sc-web/client/static
+cp -R ../interface/sc-web-extensions/bank_way_interface/bank_way ../sc-web/components
 cd ../sc-web/client/templates
 
 cat <<EOT >> ./common.html
@@ -22,6 +23,7 @@ EOT
 cat <<EOT >> ./components.html
 <script type="text/javascript" charset="utf-8" src="/static/components/js/map/map.js"></script>
 <link rel="stylesheet" type="text/css" href="/static/components/css/main.css" />
+<script type="text/javascript" charset="utf-8" src="/static/components/js/bank_way/bank_way.js"></script>]
 EOT
 
 cd ../../../ostis-osm

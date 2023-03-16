@@ -21,7 +21,7 @@ osm_level_to_tag = {
     '8': ['addr:city'],
     '9': ['addr:country', 'addr:district', 'addr:region'],
     '10': ['addr:city'],
-    '': ['addr:country', 'addr:district', 'addr:region', 'addr:city']
+    None: ['addr:country', 'addr:district', 'addr:region', 'addr:city']
 }
 
 logger = get_kpm_logger()
@@ -144,7 +144,7 @@ class OpenStreetMapAgent(ScAgentClassic):
         template_result = client.template_search(template)
         if template_result:
             return client.get_link_content(template_result[0].get('_value'))[0].data
-        return ""
+        return None
 
     def get_values_links_of_tags_for_node(self, node: ScAddr, admin_level):
         global osm_level_to_tag
