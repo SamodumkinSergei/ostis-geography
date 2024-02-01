@@ -30,7 +30,7 @@ SC_AGENT_IMPLEMENTATION(LargerVillageByPopulationInTheDistrict)
   ScAddr actionNode = ms_context->GetEdgeTarget(edgeAddr);
 
   ScAddr district =
-      IteratorUtils::getFirstByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_1);
+      IteratorUtils::getAnyByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_1);
 
   if (!district.IsValid())
   {
@@ -53,7 +53,7 @@ SC_AGENT_IMPLEMENTATION(LargerVillageByPopulationInTheDistrict)
     while (it2->Next())
     {
       ScAddr num = it2->Get(2);
-      std::string str = CommonUtils::getIdtfValue(ms_context.get(), num, Keynodes::nrel_main_idtf);
+      std::string str = CommonUtils::getIdtf(ms_context.get(), num, Keynodes::nrel_main_idtf);
       SC_LOG_INFO(str.c_str());
       int n = std::atoi(str.c_str());
       if (number < n)
@@ -83,8 +83,11 @@ SC_AGENT_IMPLEMENTATION(LargerVillageByPopulationInTheDistrict)
     SC_LOG_WARNING("There is no largest village in this district");
   }
 
+  ScAddr edgeToAnswer = ms_context->CreateEdge(ScType::EdgeDCommonConst, actionNode, answer);
+  ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, scAgentsCommon::CoreKeynodes::nrel_answer, edgeToAnswer);
+
   SC_LOG_INFO("----------LargerVillageByPopulationInTheDistrict	 end----------");
-  AgentUtils::finishAgentWork(ms_context.get(), actionNode, answer);
+  AgentUtils::finishAgentWork(ms_context.get(), actionNode);
   return SC_RESULT_OK;
 }
 }  // namespace VitebskVillagesModule

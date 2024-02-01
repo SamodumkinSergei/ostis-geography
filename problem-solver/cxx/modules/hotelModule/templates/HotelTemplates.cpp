@@ -16,7 +16,7 @@ std::unique_ptr<ScTemplate> HotelTemplates::getHotelByMinPricePerNightTemplate(S
 {
   std::unique_ptr<ScTemplate> hotelByMinPricePerNightTemplate = std::make_unique<ScTemplate>();
 
-  hotelByMinPricePerNightTemplate->TripleWithRelation(
+  hotelByMinPricePerNightTemplate->Quintuple(
       ScType::NodeVar >> HOTEL_ALIAS,
       ScType::EdgeDCommonVar,
       minPricePerNightAddr,

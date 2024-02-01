@@ -30,7 +30,7 @@ SC_AGENT_IMPLEMENTATION(LongerRiver)
   SC_LOG_INFO("----------LongerRiver begin----------");
   ScAddr actionNode = ms_context->GetEdgeTarget(edgeAddr);
 
-  ScAddr river1 = IteratorUtils::getFirstByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_1);
+  ScAddr river1 = IteratorUtils::getAnyByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_1);
 
   if (!river1.IsValid())
   {
@@ -43,7 +43,7 @@ SC_AGENT_IMPLEMENTATION(LongerRiver)
     SC_LOG_INFO("First river main identifier: " + river1_idtf);
   }
 
-  ScAddr river2 = IteratorUtils::getFirstByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_2);
+  ScAddr river2 = IteratorUtils::getAnyByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_2);
 
   if (!river2.IsValid())
   {
@@ -64,7 +64,7 @@ SC_AGENT_IMPLEMENTATION(LongerRiver)
   while (river1_iterator->Next())
   {
     ScAddr len = river1_iterator->Get(2);
-    std::string str = CommonUtils::getIdtfValue(ms_context.get(), len, Keynodes::nrel_main_idtf);
+    std::string str = CommonUtils::getIdtf(ms_context.get(), len, Keynodes::nrel_main_idtf);
     river1_length = std::atoi(str.c_str());
     SC_LOG_INFO("First river length: " + str);
   }
@@ -75,7 +75,7 @@ SC_AGENT_IMPLEMENTATION(LongerRiver)
   while (river2_iterator->Next())
   {
     ScAddr len = river2_iterator->Get(2);
-    std::string str = CommonUtils::getIdtfValue(ms_context.get(), len, Keynodes::nrel_main_idtf);
+    std::string str = CommonUtils::getIdtf(ms_context.get(), len, Keynodes::nrel_main_idtf);
     river2_length = std::atoi(str.c_str());
     SC_LOG_INFO("Second river length: " + str);
   }
@@ -111,8 +111,11 @@ SC_AGENT_IMPLEMENTATION(LongerRiver)
     }
   }
 
+  ScAddr edgeToAnswer = ms_context->CreateEdge(ScType::EdgeDCommonConst, actionNode, answer);
+  ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, scAgentsCommon::CoreKeynodes::nrel_answer, edgeToAnswer);
+
   SC_LOG_INFO("----------LongerRiver end----------");
-  AgentUtils::finishAgentWork(ms_context.get(), actionNode, answer);
+  AgentUtils::finishAgentWork(ms_context.get(), actionNode);
   return SC_RESULT_OK;
 }
 

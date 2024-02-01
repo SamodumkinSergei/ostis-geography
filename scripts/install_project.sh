@@ -1,5 +1,7 @@
-#!/bin/bash
-source set_vars.sh
+#!/usr/bin/env bash
+set -eo pipefail
+
+source "$(cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd)/set_vars.sh"
 
 do_build_kb=1
 do_build_problem_solver=1
@@ -10,25 +12,22 @@ build_kb()
 {
 	echo "Building KB"
 	cd "${APP_ROOT_PATH}"/scripts
-	echo "${APP_ROOT_PATH}"/scripts
 	./build_kb.sh
 }
 
 build_problem_solver()
 {
 	cd "${APP_ROOT_PATH}"/scripts
-	./install_deps_ubuntu.sh
-	"${SC_MACHINE_PATH}/scripts/install_deps_ubuntu.sh" --dev
+	./install_problem_solver_deps.sh
+	./install_py_sc_server_deps.sh
 	./build_problem_solver.sh
 }
 
 build_sc_web() {
 	cd "${APP_ROOT_PATH}"/sc-web || (echo "sc-web not downloaded." && exit 1)
-	echo "${APP_ROOT_PATH}"/sc-web
-	(cd scripts && ./install_deps_ubuntu.sh)
+	(cd scripts && .install_problem_solver_deps.sh)
 	pip3 install -r requirements.txt
-	npm install
-	npm run build
+	./install_interface_deps.sh
 }
 
 set -eo pipefail
@@ -67,5 +66,3 @@ if [ $do_build_kb == 1 ]; then
 fi
 
 pip3 install "${APP_ROOT_PATH}"/problem-solver/py/py-sc-kpm
-
-cd "${WORKING_PATH}"

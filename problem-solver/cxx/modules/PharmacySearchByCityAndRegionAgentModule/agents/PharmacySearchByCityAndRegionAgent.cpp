@@ -24,7 +24,7 @@ SC_AGENT_IMPLEMENTATION(PharmacySearchByCityAndRegionAgent)
   ScAddr actionNode = ms_context->GetEdgeTarget(edgeAddr);
 
   ScAddr pharmacy =
-      IteratorUtils::getFirstByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_1);
+      IteratorUtils::getAnyByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_1);
 
   if (!pharmacy.IsValid())
   {
@@ -52,8 +52,12 @@ SC_AGENT_IMPLEMENTATION(PharmacySearchByCityAndRegionAgent)
     {
       SC_LOG_ERROR("There is no such pharmacy");
     }
-  };
-  AgentUtils::finishAgentWork(ms_context.get(), actionNode, answer);
+  }
+
+  ScAddr edgeToAnswer = ms_context->CreateEdge(ScType::EdgeDCommonConst, actionNode, answer);
+  ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, scAgentsCommon::CoreKeynodes::nrel_answer, edgeToAnswer);
+
+  AgentUtils::finishAgentWork(ms_context.get(), actionNode);
   SC_LOG_INFO("PharmacySearchByCityAndRegionAgent end");
   return SC_RESULT_OK;
 }

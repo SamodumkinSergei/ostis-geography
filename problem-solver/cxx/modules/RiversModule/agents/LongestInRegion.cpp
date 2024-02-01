@@ -83,8 +83,11 @@ SC_AGENT_IMPLEMENTATION(LongestInRegion)
     }
   }
 
+  ScAddr edgeToAnswer = ms_context->CreateEdge(ScType::EdgeDCommonConst, actionNode, answer);
+  ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, scAgentsCommon::CoreKeynodes::nrel_answer, edgeToAnswer);
+
   SC_LOG_INFO("----------LongestInRegion end----------");
-  AgentUtils::finishAgentWork(ms_context.get(), actionNode, answer);
+  AgentUtils::finishAgentWork(ms_context.get(), actionNode);
   return SC_RESULT_OK;
 }
 }  // namespace RiversModule

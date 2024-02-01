@@ -22,7 +22,7 @@ SC_AGENT_IMPLEMENTATION(GetAdminBuildingDistrict)
   SC_LOG_DEBUG("GetAdminBuildingDistrict started");
 
   ScAddr firstParameter =
-      IteratorUtils::getFirstByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_1);
+      IteratorUtils::getAnyByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_1);
   if (!firstParameter.IsValid())
   {
     SC_LOG_ERROR("First parameter isn't valid.");
@@ -50,7 +50,10 @@ SC_AGENT_IMPLEMENTATION(GetAdminBuildingDistrict)
       m_memoryCtx.CreateEdge(ScType::EdgeAccessConstPosPerm, answerNode, key_sc_element);
   }
 
-  AgentUtils::finishAgentWork(&m_memoryCtx, actionNode, answerNode, true);
+  ScAddr edgeToAnswer = ms_context->CreateEdge(ScType::EdgeDCommonConst, actionNode, answerNode);
+  ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, scAgentsCommon::CoreKeynodes::nrel_answer, edgeToAnswer);
+
+  AgentUtils::finishAgentWork(&m_memoryCtx, actionNode, true);
   SC_LOG_DEBUG("GetAdminBuildingDistrict finished");
   return SC_RESULT_OK;
 }

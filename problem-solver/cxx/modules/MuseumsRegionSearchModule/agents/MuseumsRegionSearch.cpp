@@ -29,7 +29,7 @@ SC_AGENT_IMPLEMENTATION(MuseumsRegionSearch)
 
   SC_LOG_INFO("Museums region search begin");
 
-  ScAddr museum = IteratorUtils::getFirstByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_1);
+  ScAddr museum = IteratorUtils::getAnyByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_1);
 
   if (!museum.IsValid())
   {
@@ -51,7 +51,10 @@ SC_AGENT_IMPLEMENTATION(MuseumsRegionSearch)
     m_memoryCtx.CreateEdge(ScType::EdgeAccessConstPosPerm, museumResult, iterator5->Get(2));
   }
 
-  AgentUtils::finishAgentWork(&m_memoryCtx, actionNode, museumResult, true);
+  ScAddr edgeToAnswer = ms_context->CreateEdge(ScType::EdgeDCommonConst, actionNode, museumResult);
+  ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, scAgentsCommon::CoreKeynodes::nrel_answer, edgeToAnswer);
+
+  AgentUtils::finishAgentWork(&m_memoryCtx, actionNode, true);
   SC_LOG_DEBUG("Museums region search finished");
   return SC_RESULT_OK;
 }

@@ -22,7 +22,7 @@ SC_AGENT_IMPLEMENTATION(GetAdminBuildingRegion)
   SC_LOG_DEBUG("GetAdminBuildingRegion started");
 
   ScAddr firstParameter =
-      IteratorUtils::getFirstByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_1);
+      IteratorUtils::getAnyByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_1);
 
   if (!firstParameter.IsValid())
   {
@@ -63,7 +63,11 @@ SC_AGENT_IMPLEMENTATION(GetAdminBuildingRegion)
         m_memoryCtx.CreateEdge(ScType::EdgeAccessConstPosPerm, answerNode, building);
     }
   }
-  AgentUtils::finishAgentWork(&m_memoryCtx, actionNode, answerNode, true);
+
+  ScAddr edgeToAnswer = ms_context->CreateEdge(ScType::EdgeDCommonConst, actionNode, answerNode);
+  ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, scAgentsCommon::CoreKeynodes::nrel_answer, edgeToAnswer);
+
+  AgentUtils::finishAgentWork(&m_memoryCtx, actionNode, true);
   SC_LOG_DEBUG("GetAdminBuildingRegion finished");
   return SC_RESULT_OK;
 }

@@ -28,7 +28,7 @@ SC_AGENT_IMPLEMENTATION(StatusAndDistrictSearch)
   SC_LOG_INFO("StatusAndDistrictSearch begin");
   ScAddr actionNode = ms_context->GetEdgeTarget(edgeAddr);
 
-  ScAddr shop = IteratorUtils::getFirstByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_1);
+  ScAddr shop = IteratorUtils::getAnyByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_1);
 
   if (!shop.IsValid())
   {
@@ -56,8 +56,12 @@ SC_AGENT_IMPLEMENTATION(StatusAndDistrictSearch)
     {
       SC_LOG_ERROR("There is no such shops");
     }
-  };
-  AgentUtils::finishAgentWork(ms_context.get(), actionNode, answer);
+  }
+
+  ScAddr edgeToAnswer = ms_context->CreateEdge(ScType::EdgeDCommonConst, actionNode, answer);
+  ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, scAgentsCommon::CoreKeynodes::nrel_answer, edgeToAnswer);
+
+  AgentUtils::finishAgentWork(ms_context.get(), actionNode);
   SC_LOG_INFO("StatusAndDistrictSearch end");
   return SC_RESULT_OK;
 }

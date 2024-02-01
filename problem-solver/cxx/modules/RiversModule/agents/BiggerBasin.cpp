@@ -29,12 +29,12 @@ SC_AGENT_IMPLEMENTATION(BiggerBasin)
   SC_LOG_INFO("----------BiggerBasin begin----------");
   ScAddr actionNode = ms_context->GetEdgeTarget(edgeAddr);
 
-  ScAddr river1 = IteratorUtils::getFirstByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_1);
+  ScAddr river1 = IteratorUtils::getAnyByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_1);
 
   std::string river1_idtf = CommonUtils::getIdtf(ms_context.get(), river1, Keynodes::nrel_main_idtf);
   SC_LOG_INFO("First river is " + river1_idtf);
 
-  ScAddr river2 = IteratorUtils::getFirstByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_2);
+  ScAddr river2 = IteratorUtils::getAnyByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_2);
 
   std::string river2_idtf = CommonUtils::getIdtf(ms_context.get(), river2, Keynodes::nrel_main_idtf);
   SC_LOG_INFO("Second river is " + river2_idtf);
@@ -47,7 +47,7 @@ SC_AGENT_IMPLEMENTATION(BiggerBasin)
   while (it->Next())
   {
     ScAddr len = it->Get(2);
-    std::string str1 = CommonUtils::getIdtfValue(ms_context.get(), len, Keynodes::nrel_main_idtf);
+    std::string str1 = CommonUtils::getIdtf(ms_context.get(), len, Keynodes::nrel_main_idtf);
     l1 = std::atoi(str1.c_str());
   }
 
@@ -57,7 +57,7 @@ SC_AGENT_IMPLEMENTATION(BiggerBasin)
   while (it1->Next())
   {
     ScAddr len = it1->Get(2);
-    std::string str2 = CommonUtils::getIdtfValue(ms_context.get(), len, Keynodes::nrel_main_idtf);
+    std::string str2 = CommonUtils::getIdtf(ms_context.get(), len, Keynodes::nrel_main_idtf);
     l2 = std::atoi(str2.c_str());
   }
 
@@ -90,8 +90,11 @@ SC_AGENT_IMPLEMENTATION(BiggerBasin)
     }
   }
 
+  ScAddr edgeToAnswer = ms_context->CreateEdge(ScType::EdgeDCommonConst, actionNode, answer);
+  ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, scAgentsCommon::CoreKeynodes::nrel_answer, edgeToAnswer);
+
   SC_LOG_INFO("----------BiggerBasin end----------");
-  AgentUtils::finishAgentWork(ms_context.get(), actionNode, answer);
+  AgentUtils::finishAgentWork(ms_context.get(), actionNode);
   return SC_RESULT_OK;
 }
 }  // namespace RiversModule

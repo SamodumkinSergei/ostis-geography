@@ -29,14 +29,14 @@ SC_AGENT_IMPLEMENTATION(PotteryDate)
   SC_LOG_INFO("----------PotteryDate begin----------");
   ScAddr actionNode = ms_context->GetEdgeTarget(edgeAddr);
 
-  ScAddr date1 = IteratorUtils::getFirstByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_1);
+  ScAddr date1 = IteratorUtils::getAnyByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_1);
 
-  ScAddr date2 = IteratorUtils::getFirstByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_2);
+  ScAddr date2 = IteratorUtils::getAnyByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_2);
 
   ScAddr answer = ms_context->CreateNode(ScType::NodeConstStruct);
 
-  std::string str1 = CommonUtils::getIdtfValue(ms_context.get(), date1, Keynodes::nrel_main_idtf);
-  std::string str2 = CommonUtils::getIdtfValue(ms_context.get(), date2, Keynodes::nrel_main_idtf);
+  std::string str1 = CommonUtils::getIdtf(ms_context.get(), date1, Keynodes::nrel_main_idtf);
+  std::string str2 = CommonUtils::getIdtf(ms_context.get(), date2, Keynodes::nrel_main_idtf);
   SC_LOG_INFO(str1.c_str());
   SC_LOG_INFO(str2.c_str());
   int d1 = std::atoi(str1.c_str());
@@ -53,7 +53,7 @@ SC_AGENT_IMPLEMENTATION(PotteryDate)
     while (it1->Next())
     {
       date = it1->Get(2);
-      std::string str = CommonUtils::getIdtfValue(ms_context.get(), date, Keynodes::nrel_main_idtf);
+      std::string str = CommonUtils::getIdtf(ms_context.get(), date, Keynodes::nrel_main_idtf);
       SC_LOG_INFO(str.c_str());
       int d = std::atoi(str.c_str());
       if (d < d2)
@@ -66,8 +66,11 @@ SC_AGENT_IMPLEMENTATION(PotteryDate)
     }
   }
 
+  ScAddr edgeToAnswer = ms_context->CreateEdge(ScType::EdgeDCommonConst, actionNode, answer);
+  ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, scAgentsCommon::CoreKeynodes::nrel_answer, edgeToAnswer);
+
   SC_LOG_INFO("----------PotteryDate end----------");
-  AgentUtils::finishAgentWork(ms_context.get(), actionNode, answer);
+  AgentUtils::finishAgentWork(ms_context.get(), actionNode);
   return SC_RESULT_OK;
 }
 }  // namespace PotteryModule

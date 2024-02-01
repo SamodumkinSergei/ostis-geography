@@ -21,7 +21,7 @@ SC_AGENT_IMPLEMENTATION(GetDefinitionAgent)
   SC_LOG_DEBUG("GetDefinitionAgent started")
 
   // получаем наши аргументы агента
-  ScAddr firstParameter = IteratorUtils::getFirstByOutRelation(
+  ScAddr firstParameter = IteratorUtils::getAnyByOutRelation(
         &m_memoryCtx,
         actionNode,
         scAgentsCommon::CoreKeynodes::rrel_1); // чтобы получить второй аргумент агента меняем на rrel_2 вместо rrel_1, следующие аргументы по аналогии.
@@ -72,8 +72,11 @@ SC_AGENT_IMPLEMENTATION(GetDefinitionAgent)
   string def = getDefinition(firstParameter); // получение определения через шаблон
   SC_LOG_DEBUG(def)
 
+  ScAddr edgeToAnswer = ms_context->CreateEdge(ScType::EdgeDCommonConst, actionNode, answer);
+  ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, scAgentsCommon::CoreKeynodes::nrel_answer, edgeToAnswer);
+
   // завершаем работу агента
-  AgentUtils::finishAgentWork(&m_memoryCtx, actionNode, answerNode, true);
+  AgentUtils::finishAgentWork(&m_memoryCtx, actionNode, true);
   SC_LOG_DEBUG("GetDefinitionAgent finished")
   return SC_RESULT_OK;
 }
@@ -90,7 +93,7 @@ string GetDefinitionAgent::getDefinition(const ScAddr & node)
 {
   ScTemplate templ;
 
-  templ.TripleWithRelation(
+  templ.Quintuple(
           ScType::NodeVar >> "_definition",    // src
           ScType::EdgeAccessVarPosPerm,        // arcType
           node,                                // trg
@@ -101,14 +104,14 @@ string GetDefinitionAgent::getDefinition(const ScAddr & node)
           ExampleKeynodes::definition,  //src
           ScType::EdgeAccessVarPosPerm, // arcType
           "_definition");               // trg
-  templ.TripleWithRelation(
+  templ.Quintuple(
           ScType::NodeVar >> "_translation",
           ScType::EdgeDCommonVar,
           "_definition",
           ScType::EdgeAccessVarPosPerm,
           ExampleKeynodes::nrel_sc_text_translation
   );
-  templ.TripleWithRelation(
+  templ.Quintuple(
           "_translation",
           ScType::EdgeAccessVarPosPerm,
           ScType::LinkVar >> "_link",

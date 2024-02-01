@@ -41,7 +41,11 @@ SC_AGENT_IMPLEMENTATION(SearchDanceStudiosByCityAgent)
 
   bool success = ms_context->HelperCheckEdge(
       DanceStudiosKeynodes::concept_success_solution, answer, ScType::EdgeAccessConstPosPerm);
-  AgentUtils::finishAgentWork((ScMemoryContext *)ms_context.get(), questionNode, answer, success);
+
+  ScAddr edgeToAnswer = ms_context->CreateEdge(ScType::EdgeDCommonConst, questionNode, answer);
+  ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, scAgentsCommon::CoreKeynodes::nrel_answer, edgeToAnswer);
+
+  AgentUtils::finishAgentWork((ScMemoryContext *)ms_context.get(), questionNode, success);
 
   return SC_RESULT_OK;
 }
