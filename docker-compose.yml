@@ -27,7 +27,7 @@ services:
     restart: unless-stopped
     volumes:
       - ./kb:/ostis-geography/kb
-      - kb-binary:/kb.bin
+      - kb-binary:/ostis-geography/kb.bin
       - ./repo.path:/ostis-geography/repo.path
       - ./ostis-geography.ini:/ostis-geography/ostis-geography.ini
       - ./problem-solver:/ostis-geography/problem-solver
@@ -50,7 +50,10 @@ services:
       - "REBUILD_PS=0"
       # Set FULL_REBUILD_PS env variable to 1 if you need to full build problem solver every startup (only if REBUILD_PS=1).
       - "FULL_REBUILD_PS=0"
-      - "KB_PATH=../repo.path"
+      - "BINARY_PATH=/ostis-geography/bin"
+      - "BUILD_PATH=/ostis-geography/build"
+      - "CONFIG_PATH=/ostis-geography/ostis-geography.ini"
+      - "KB_PATH=/ostis-geography/repo.path"
     command:
       - "serve"
 volumes:
