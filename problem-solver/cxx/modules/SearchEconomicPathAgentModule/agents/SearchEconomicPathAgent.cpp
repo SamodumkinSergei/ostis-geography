@@ -26,7 +26,7 @@ SC_AGENT_IMPLEMENTATION(SearchEconomicPathAgent)
   ScAddr actionNode = ms_context->GetEdgeTarget(edgeAddr);
 
   ScAddr const & startNodeAddr
-      = IteratorUtils::getFirstByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_1);
+      = IteratorUtils::getAnyByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_1);
   if (!startNodeAddr.IsValid())
   {
     SC_LOG_ERROR("First parameter isn't valid.");
@@ -35,7 +35,7 @@ SC_AGENT_IMPLEMENTATION(SearchEconomicPathAgent)
   }
 
   ScAddr const & endNodeAddr
-      = IteratorUtils::getFirstByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_2);
+      = IteratorUtils::getAnyByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_2);
   if (!endNodeAddr.IsValid())
   {
     SC_LOG_ERROR("Second parameter isn't valid.");
@@ -91,7 +91,10 @@ SC_AGENT_IMPLEMENTATION(SearchEconomicPathAgent)
     }
   }
 
-  AgentUtils::finishAgentWork(ms_context.get(), actionNode, answer);
+  ScAddr edgeToAnswer = ms_context->CreateEdge(ScType::EdgeDCommonConst, actionNode, answer);
+  ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, scAgentsCommon::CoreKeynodes::nrel_answer, edgeToAnswer);
+
+  AgentUtils::finishAgentWork(ms_context.get(), actionNode);
   SC_LOG_INFO("SearchEconomicPathAgent end");
   return SC_RESULT_OK;
 }

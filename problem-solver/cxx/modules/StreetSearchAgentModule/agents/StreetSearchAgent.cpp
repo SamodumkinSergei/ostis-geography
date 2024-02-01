@@ -23,7 +23,7 @@ SC_AGENT_IMPLEMENTATION(StreetSearchAgent)
   SC_LOG_INFO("StreetSearchAgent begin");
   ScAddr actionNode = ms_context->GetEdgeTarget(edgeAddr);
 
-  ScAddr street = IteratorUtils::getFirstByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_1);
+  ScAddr street = IteratorUtils::getAnyByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_1);
 
   if (!street.IsValid())
   {
@@ -51,8 +51,12 @@ SC_AGENT_IMPLEMENTATION(StreetSearchAgent)
     {
       SC_LOG_ERROR("There is no such street");
     }
-  };
-  AgentUtils::finishAgentWork(ms_context.get(), actionNode, answer);
+  }
+
+  ScAddr edgeToAnswer = ms_context->CreateEdge(ScType::EdgeDCommonConst, actionNode, answer);
+  ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, scAgentsCommon::CoreKeynodes::nrel_answer, edgeToAnswer);
+
+  AgentUtils::finishAgentWork(ms_context.get(), actionNode);
   SC_LOG_INFO("StreetSearchAgent end");
   return SC_RESULT_OK;
 }

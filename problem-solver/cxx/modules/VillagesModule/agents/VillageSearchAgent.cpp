@@ -48,7 +48,7 @@ SC_AGENT_IMPLEMENTATION(VillageSearchAgent)
 
   ScAddr questionNode = ms_context->GetEdgeTarget(edgeAddr);
 
-  ScAddr node = IteratorUtils::getFirstFromSet(ms_context.get(), questionNode);
+  ScAddr node = IteratorUtils::getAnyFromSet(ms_context.get(), questionNode);
   if (!node.IsValid())
   {
     SC_LOG_ERROR("Arg not found");
@@ -57,7 +57,10 @@ SC_AGENT_IMPLEMENTATION(VillageSearchAgent)
 
   ScAddr answer = getVillageNode(logger, ms_context, node);
 
-  utils::AgentUtils::finishAgentWork(ms_context.get(), questionNode, answer);
+  ScAddr edgeToAnswer = ms_context->CreateEdge(ScType::EdgeDCommonConst, questionNode, answer);
+  ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, scAgentsCommon::CoreKeynodes::nrel_answer, edgeToAnswer);
+
+  utils::AgentUtils::finishAgentWork(ms_context.get(), questionNode);
 
   return SC_RESULT_OK;
 }

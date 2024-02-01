@@ -104,7 +104,7 @@ ScAddr SoatoClassificationAgent::initializeFacility(const AdministrativeFacility
   return facilityNode;
 }
 
-void SoatoClassificationAgent::addToClassIfNotPresent(ScAddr node, const string & className)
+void SoatoClassificationAgent::addToClassIfNotPresent(ScAddr node, const std::string & className)
 {
   auto scClass = ms_context->HelperResolveSystemIdtf(className, ScType::NodeConstClass);
   createEdgeIfNotPresent(scClass, node, ScType::EdgeAccessConstPosPerm);
