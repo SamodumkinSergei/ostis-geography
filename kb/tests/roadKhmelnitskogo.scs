@@ -1,0 +1,58 @@
+road_to_Khmelnitskogo = [*
+
+..node_1 <=> ..1_distance: ..node_2;;
+..node_2 <=> ..2_distance: ..node_3;;
+..node_3 <=> ..3_distance: ..node_4;;
+..node_4 <=> ..4_distance: ..node_5;;
+..node_5 <=> ..5_distance: ..node_6;;
+
+..node_1 => nrel_main_idtf: [Krivoshey_house];;
+..node_2 => nrel_main_idtf: [Kamennaya_gorka];;
+..node_3 => nrel_main_idtf: [Kupalauskaya];;
+..node_4 => nrel_main_idtf: [Oktyabrskaya];;
+..node_5 => nrel_main_idtf: [Akademiya_nauk];;
+..node_6 => nrel_main_idtf: [Khmelnitskogo];;
+
+concept_metro_station
+=> nrel_main_idtf: [metro station];
+<- sc_node_class;;
+concept_metro_station
+-> ..node_2;
+-> ..node_3;
+-> ..node_4;
+-> ..node_5;;
+
+concept_private_house
+=> nrel_main_idtf: [private house];
+<- sc_node_class;;
+concept_private_house
+-> ..node_1;
+-> ..node_6;;
+
+..1_distance => nrel_main_idtf: [1300 meters];;
+..2_distance => nrel_main_idtf: [5600 meters];;
+..3_distance => nrel_main_idtf: [550 meters];;
+..4_distance => nrel_main_idtf: [3200 meters];;
+..5_distance => nrel_main_idtf: [450 meters];;
+
+concept_parameter
+=> nrel_main_idtf: [parameter];
+<- sc_node_class;;
+concept_parameter
+-> ..1_distance;
+-> ..2_distance;
+-> ..3_distance;
+-> ..4_distance;
+-> ..5_distance;;
+
+concept_meter
+=> nrel_main_idtf: [meter];
+<- sc_node_class;;
+concept_meter
+-> ..1_distance;
+-> ..2_distance;
+-> ..3_distance;
+-> ..4_distance;
+-> ..5_distance;;
+
+*];;
