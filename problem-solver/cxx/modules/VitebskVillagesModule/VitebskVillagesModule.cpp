@@ -14,6 +14,7 @@ sc_result VitebskVillagesModule::InitializeImpl()
   ScMemoryContext ctx(sc_access_lvl_make_min, "VitebskVillagesModule");
 
   SC_AGENT_REGISTER(LargerVillageByPopulationInTheDistrict)
+  SC_AGENT_REGISTER(SmallerVillageByPopulationInTheDistrict)
   SC_AGENT_REGISTER(LargerVillageByPopulation)
   SC_AGENT_REGISTER(GreatestDistanceToTheRegionalCenter)
 
@@ -23,6 +24,7 @@ sc_result VitebskVillagesModule::InitializeImpl()
 sc_result VitebskVillagesModule::ShutdownImpl()
 {
   SC_AGENT_UNREGISTER(LargerVillageByPopulationInTheDistrict)
+  SC_AGENT_UNREGISTER(SmallerVillageByPopulationInTheDistrict)
   SC_AGENT_UNREGISTER(LargerVillageByPopulation)
   SC_AGENT_UNREGISTER(GreatestDistanceToTheRegionalCenter)
 

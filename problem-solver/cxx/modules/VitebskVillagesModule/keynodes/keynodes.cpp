@@ -9,6 +9,7 @@
 namespace VitebskVillagesModule
 {
 ScAddr Keynodes::question_largerVillageByPopulationInTheDistrict;
+ScAddr Keynodes::question_smallerVillageByPopulationInTheDistrict;
 ScAddr Keynodes::question_largerVillageByPopulation;
 ScAddr Keynodes::question_greatestDistanceToTheRegionalCenter;
 ScAddr Keynodes::nrel_main_idtf;

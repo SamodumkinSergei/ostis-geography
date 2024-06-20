@@ -22,6 +22,9 @@ class Keynodes : public ScObject
 public:
   SC_PROPERTY(Keynode("question_largerVillageByPopulationInTheDistrict"), ForceCreate)
   static ScAddr question_largerVillageByPopulationInTheDistrict;
+  
+  SC_PROPERTY(Keynode("question_smallerVillageByPopulationInTheDistrict"), ForceCreate)
+  static ScAddr question_smallerVillageByPopulationInTheDistrict;
 
   SC_PROPERTY(Keynode("question_largerVillageByPopulation"), ForceCreate)
   static ScAddr question_largerVillageByPopulation;
