@@ -1,0 +1,29 @@
+ui_menu_generate_osm_query <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+ui_menu_generate_osm_query
+=> nrel_main_idtf: 
+	[Сгенерировать osm запрос]
+	(* <- lang_ru;; *);
+=> nrel_idtf: 
+	[Запрос генерации osm запроса для указанной сущности]
+	(* <- lang_ru;; *);;
+
+ui_menu_generate_osm_query
+=> nrel_main_idtf: 
+	[What is subdividing of the specified entity?]
+	(* <- lang_en;; *);
+=> nrel_idtf: 
+	[Request searches for subdividing of the specified entity]
+	(* <- lang_en;; *);;
+
+ui_menu_generate_osm_query => ui_nrel_command_template:
+	[*
+		action_generate_osm_query _-> ._question_generate_osm_query
+			(*
+				_-> rrel_1::ui_arg_1;;
+			*);;
+		._question_generate_osm_query _<- question;;
+	*];;
+
+ui_menu_generate_osm_query => ui_nrel_command_lang_template: [Сгенерировать osm запрос для $ui_arg_1] (* <- lang_ru;; *);;
+ui_menu_generate_osm_query => ui_nrel_command_lang_template: [Generate osm query for $ui_arg_1] (* <- lang_en;; *);;
