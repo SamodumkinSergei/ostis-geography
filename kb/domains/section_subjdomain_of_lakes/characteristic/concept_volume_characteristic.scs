@@ -1,0 +1,36 @@
+concept_volume_characteristic
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[характеристика объема]
+	(* <- lang_ru;; *);
+	[volume characteristic]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (характеристика объема)]
+		(* <- lang_ru;; *);
+		[Def. (volume characteristic)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Характеристика объема - классификация озера по объему.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[volume characteristic - classification of the lake by volume.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_volume_characteristic
+		};;
+	*);;
+
+concept_volume_characteristic<=nrel_inclusion:concept_characteristic;;

@@ -1,0 +1,52 @@
+nrel_area
+<-sc_node_norole_relation;
+<-relation;
+<-norole_relation;
+<-binary_relation;
+<-oriented_relation;
+<-antireflexive_relation;
+<-antitransitive_relation;
+<-asymmetric_relation;
+=>nrel_main_idtf:
+	[площадь]
+	(* <- lang_ru;; *);
+	[area]
+	(* <- lang_en;; *);
+=>nrel_first_domain: concept_lake;
+=>nrel_second_domain: concept_area;
+=>nrel_definitional_domain:
+	...
+	(*
+	<= nrel_combination:
+		{
+		concept_administrative_unit;
+		concept_region
+		};;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (площадь)]
+		(* <- lang_ru;; *);
+		[Def. (area)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[площадь* — одна из характеристик озера, которая дает нам информацию о его размере.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Area* - one of the characteristics of a lake that gives us information about its size.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_area
+		};;
+	*);;

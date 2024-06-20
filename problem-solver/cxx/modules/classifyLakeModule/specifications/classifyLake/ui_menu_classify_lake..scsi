@@ -1,0 +1,29 @@
+ui_menu_classify_lake <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+ui_menu_classify_lake
+=> nrel_main_idtf: 
+	[Добавить информацию об классификации озера]
+	(* <- lang_ru;; *);
+=> nrel_idtf: 
+	[Запрос добавления информации об классификации озера]
+	(* <- lang_ru;; *);;
+
+ui_menu_classify_lake
+=> nrel_main_idtf: 
+	[Add lake class]
+	(* <- lang_en;; *);
+=> nrel_idtf: 
+	[Request adds lake class]
+	(* <- lang_en;; *);;
+
+ui_menu_classify_lake => ui_nrel_command_template:
+	[*
+		question_classify_lake _-> ._question_classify_lake_instance
+			(*
+				_-> ui_arg_1;;
+			*);;
+		._question_classify_lake_instance _<- question;;
+	*];;
+
+ui_menu_classify_lake => ui_nrel_command_lang_template: [Добавить классификацию озера] (* <- lang_ru;; *);;
+ui_menu_classify_lake => ui_nrel_command_lang_template: [Add lake class] (* <- lang_en;; *);;

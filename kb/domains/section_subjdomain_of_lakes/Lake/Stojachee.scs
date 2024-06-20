@@ -1,0 +1,10 @@
+Stojachee<-sc_node_not_relation;
+=>nrel_main_idtf:
+[ Стоячее] (*<-lang_ru;;*);
+[ Stojachee] (*<-lang_en;;*);;
+
+Stojachee<-concept_lake;;
+
+Stojachee=>nrel_area:[ 1,6  ];;
+Stojachee=>nrel_depth:[ 3,2  ];;
+Stojachee=>nrel_volume:[ 0,02  ];;

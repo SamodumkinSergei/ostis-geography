@@ -1,0 +1,36 @@
+concept_area_characteristic
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[характеристика площади]
+	(* <- lang_ru;; *);
+	[area characteristic]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:
+		[Опр. (характеристика площади)]
+		(* <- lang_ru;; *);
+		[Def. (depth characteristic)]
+		(* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Характеристика площади - классификация озера по площади.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[area characteristic - classification of the lake by area.]
+			(* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_area_characteristic
+		};;
+	*);;
+
+concept_area_characteristic<=nrel_inclusion:concept_characteristic;;
