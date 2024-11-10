@@ -37,7 +37,7 @@ Run on Linux:
 ```sh
 #Terminal 1
 cd scripts
-./run_sc_server.sh
+./run_sc_machine.sh
 #Terminal 2
 cd scripts
 ./run_py_sc_server.sh
@@ -81,7 +81,7 @@ cd scripts
 and run:
 ```
 cd scripts
-./run_sc_server.sh
+./run_sc_machine.sh
 ```
 
 #### Agents on Python

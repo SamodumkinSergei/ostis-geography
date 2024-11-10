@@ -1,11 +1,12 @@
+cmake_minimum_required(VERSION 3.14)
 project(ostis-geography)
+
 set(OSTIS_GEOGRAPHY_ROOT ${CMAKE_CURRENT_LIST_DIR})
-cmake_minimum_required(VERSION 2.8.12)
 set(CMAKE_BUILD_TYPE Debug)
 
 set(PROBLEM_SOLVER_PATH "${CMAKE_CURRENT_LIST_DIR}/problem-solver")
 set(SC_MACHINE_PATH "${PROBLEM_SOLVER_PATH}/cxx/sc-machine")
-include("${SC_MACHINE_PATH}/CMakeLists.txt")
+add_subdirectory("${SC_MACHINE_PATH}")
 project_version(OSTIS_GEOGRAPHY_ROOT "0.1.0")
 
 # platform doesn't support multi-extensions. Have to put project binaries to sc-machine extensions
@@ -36,4 +37,4 @@ foreach(SUBDIR ${SUBDIRS})
     add_subdirectory(${SUBSYSTEMS_PATH}/${SUBDIR}/problem-solver)
 endforeach()
 
-add_subdirectory(problem-solver)
+#add_subdirectory(problem-solver)
