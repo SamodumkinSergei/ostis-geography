@@ -6,18 +6,28 @@
 
 #pragma once
 
-#include "sc-memory/kpm/sc_agent.hpp"
+#include "sc-memory/sc_agent.hpp"
 
-#include "keynodes/keynodes.hpp"
-#include "LongestInRegion.generated.hpp"
-
+#include "keynodes/RiverKeynodes.hpp"
 namespace RiversModule
 {
 
-class LongestInRegion : public ScAgent
+class LongestInRegion : public ScActionInitiatedAgent
 {
-  SC_CLASS(Agent, Event(Keynodes::question_longestInRegion, ScEvent::Type::AddOutputEdge))
-  SC_GENERATED_BODY()
-};
+
+  public:
+  ScAddr GetActionClass() const override;
+
+  // ScResult DoProgram(ScEventAfterGenerateOutgoingArc<ScType::ConstPermPosArc> const & event, ScAction & action) const override;
+  ScResult DoProgram(ScAction & action) override;
+
+  // public:
+  // ScAddr GetActionClass() const override;
+
+  // ScResult DoProgram(ScEventAfterGenerateOutgoingArc<ScType::ConstPermPosArc> const & event, ScAction & action) override;
+
+  // ScAddr GetEventSubscriptionElement() const override;
+
+  };
 
 }  // namespace RiversModule

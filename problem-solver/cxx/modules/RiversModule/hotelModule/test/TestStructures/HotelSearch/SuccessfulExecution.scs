@@ -1,0 +1,52 @@
+test_question_node
+<- action_get_hotel_by_min_price_per_night;
+<- question_initiated;
+<- question;
+-> rrel_1: [50](* <- concept_price;; <- concept_usd;;*);;
+
+hotel_agat_minsk
+<- concept_hotel;
+<- concept_map_object;
+=>nrel_main_idtf:
+	[Агат]
+	(* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_city_centre_distance:
+    [7500]
+    (* <- concept_distance;; <- concept_meters;;*);
+=>nrel_min_price_per_night:
+    [50]
+    (* <- concept_price;; <- concept_usd;;*);
+=>nrel_star_rating:
+    2
+    (* <- concept_hotel_rating;;*);
+=>nrel_nearest_metro_station:
+    [Восток]
+    (* <- concept_metro_station;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;;
+
+hotel_aqua_minsk_minsk
+<- concept_hotel;
+<- concept_map_object;
+=>nrel_main_idtf:
+	[Аква-Минск]
+	(* <- lang_ru;; <- name;;*);
+=>nrel_city_centre_distance:
+    [9200]
+    (* <- concept_distance;; <- concept_meters;;*);
+=>nrel_min_price_per_night:
+    [50]
+    (* <- concept_price;; <- concept_usd;;*);
+=>nrel_star_rating:
+    2
+    (* <- concept_hotel_rating;;*);
+=>nrel_nearest_metro_station:
+    [Кунцевщина]
+    (* <- concept_metro_station;;*);
+=>nrel_country:
+    belarus;
+=>nrel_city:
+    minsk;;
+

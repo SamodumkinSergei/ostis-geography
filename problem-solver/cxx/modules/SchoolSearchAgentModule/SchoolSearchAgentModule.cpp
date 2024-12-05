@@ -1,26 +1,28 @@
 #include "SchoolSearchAgentModule.hpp"
 namespace SchoolSearchAgentModule
 {
-SC_IMPLEMENT_MODULE(SchoolSearchAgentModule)
+// SC_IMPLEMENT_MODULE(SchoolSearchAgentModule)
+SC_MODULE_REGISTER(SchoolSearchAgentModule)
+  ->Agent<SchoolSearchAgent>();
 
-sc_result SchoolSearchAgentModule::InitializeImpl()
-{
-  if (!Keynodes::InitGlobal())
-  {
-    return SC_RESULT_ERROR;
-  }
+// void SchoolSearchAgentModule::Initialize(ScMemoryContext * context)
+// {
+//   // if (!ScKeynodes::InitGlobal())
+//   // {
+//   //   return SC_RESULT_ERROR;
+//   // }
 
-  ScMemoryContext ctx(sc_access_lvl_make_min, "SchoolSearchAgentModule");
+//   // ScMemoryContext ctx(sc_access_lvl_make_min, "SchoolSearchAgentModule");
 
-  SC_AGENT_REGISTER(SchoolSearchAgent)
+//  // context->SubscribeAgent<SchoolSearchAgent>;
 
-  return SC_RESULT_OK;
-}
+//   // return SC_RESULT_OK;
+// }
 
-sc_result SchoolSearchAgentModule::ShutdownImpl()
-{
-  SC_AGENT_UNREGISTER(SchoolSearchAgent)
+// void SchoolSearchAgentModule::Shutdown(ScMemoryContext * context)
+// {
+//  // context->UnsubscribeAgent<SchoolSearchAgent>;
 
-  return SC_RESULT_OK;
-}
+//   // return SC_RESULT_OK;
+// }
 }  // namespace SchoolSearchAgentModule
