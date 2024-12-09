@@ -1,0 +1,14 @@
+name: Check installation scripts
+on: [push, pull_request]
+jobs:
+  check_kb:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./scripts
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install dependencies
+        run: ./install_project.sh
+      - name: Build KB
+        run: ./build_kb.sh
