@@ -1,0 +1,21 @@
+:root {
+    --main-text-color: white;
+    --header-color: rgb(73, 170, 255);
+}
+
+.header {
+    width: 95vw;
+    background-color: var(--header-color);
+    height: 10vh;
+    margin: 1vw auto;
+    border-radius: 0.5vw;
+
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    color: var(--main-text-color);
+    width: 100%;
+    text-align: center;
+}

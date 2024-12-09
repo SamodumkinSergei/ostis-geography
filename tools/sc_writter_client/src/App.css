@@ -1,0 +1,15 @@
+:root {
+    --main-panel-color: rgb(200, 230, 255);
+}
+
+main {
+    margin: 0 auto;
+    background-color: var(--main-panel-color);
+    height: 84vh;
+    width: 95vw;
+    border-radius: 0.5vw;
+    padding: 1vw;
+
+    display: flex;
+    justify-content: space-between;
+}

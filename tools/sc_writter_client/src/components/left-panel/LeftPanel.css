@@ -1,0 +1,88 @@
+:root {
+    --left-panel-background: white;
+    --connectio-status-background: rgb(200, 230, 255);
+    --but-hover-status-background: rgb(231, 244, 255);
+}
+
+.left-panel {
+    height: 100%;
+    width: 25vw;
+    background-color: var(--left-panel-background);
+    border-radius: 0.5vw;
+    padding: 1vw;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.connection-status {
+    width: 100%;
+    height: 10%;
+    background-color: var(--connectio-status-background);
+    border-radius: 0.5vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.connection-status h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.errored-connect {
+    color: rgb(184, 79, 79);
+}
+
+.errored-connect:hover {
+    color: rgb(222, 117, 117);
+    cursor: pointer;
+}
+
+.success-connect {
+    color: rgb(63, 200, 63);
+}
+
+.success-connect:hover {
+    color: rgb(118, 215, 118);
+    cursor: pointer;
+}
+
+.constructions {
+    height: 60vh;
+    width: 100%;
+
+    overflow-y: auto;
+}
+
+.construction {
+    width: 100%;
+    height: 8vh;
+    border-radius: 0.5vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5vw;
+}
+
+.construction p {
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+}
+
+.add-construction {
+    width: 100%;
+    border-radius: 0.5vw;
+    border: 0px;
+    font-weight: 700;
+    background-color: var(--connectio-status-background);
+}
+
+.construction:hover,
+.add-construction:hover {
+    cursor: pointer;
+    background-color: var(--but-hover-status-background);
+}
