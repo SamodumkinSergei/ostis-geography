@@ -6,46 +6,34 @@
 
 #pragma once
 
+#include <sc-memory/sc_keynodes.hpp>
+
 #include "sc-memory/sc_addr.hpp"
 #include "sc-memory/sc_object.hpp"
-
-#include "keynodes.generated.hpp"
 
 namespace RiversModule
 {
 
-class Keynodes : public ScObject
+class Keynodes : public ScKeynodes
 {
-  SC_CLASS()
-  SC_GENERATED_BODY()
+  public:
+  static inline ScKeynode const question_theBiggestBasinInRegion{"question_theBiggestBasinInRegion"};
 
-public:
-  SC_PROPERTY(Keynode("question_theBiggestBasinInRegion"), ForceCreate)
-  static ScAddr question_theBiggestBasinInRegion;
+  static inline ScKeynode const question_longerRiver{"question_longerRiver"};
 
-  SC_PROPERTY(Keynode("question_longerRiver"), ForceCreate)
-  static ScAddr question_longerRiver;
+  static inline ScKeynode const question_shorterRiver{"question_shorterRiver"};
 
-  SC_PROPERTY(Keynode("question_shorterRiver"), ForceCreate)
-  static ScAddr question_shorterRiver;
+  static inline ScKeynode const question_biggerBasin{"question_biggerBasin"};
 
-  SC_PROPERTY(Keynode("question_biggerBasin"), ForceCreate)
-  static ScAddr question_biggerBasin;
+  static inline ScKeynode const question_longestInRegion{"question_longestInRegion"};
 
-  SC_PROPERTY(Keynode("question_longestInRegion"), ForceCreate)
-  static ScAddr question_longestInRegion;
+  static inline ScKeynode const nrel_length{"nrel_length"};
 
-  SC_PROPERTY(Keynode("nrel_length"), ForceCreate)
-  static ScAddr nrel_length;
+  static inline ScKeynode const nrel_basin{"nrel_basin"};
 
-  SC_PROPERTY(Keynode("nrel_basin"), ForceCreate)
-  static ScAddr nrel_basin;
+  static inline ScKeynode const nrel_region{"nrel_region"};
 
-  SC_PROPERTY(Keynode("nrel_region"), ForceCreate)
-  static ScAddr nrel_region;
-
-  SC_PROPERTY(Keynode("nrel_main_idtf"), ForceCreate)
-  static ScAddr nrel_main_idtf;
+  static inline ScKeynode const nrel_main_idtf{"nrel_main_idtf"};
 };
 
 }  // namespace RiversModule

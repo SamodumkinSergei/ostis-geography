@@ -10,7 +10,7 @@ add_subdirectory("${SC_MACHINE_PATH}")
 project_version(OSTIS_GEOGRAPHY_ROOT "0.1.0")
 
 # platform doesn't support multi-extensions. Have to put project binaries to sc-machine extensions
-set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${SC_EXTENSIONS_DIRECTORY})
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/../bin/extensions)
 
 # for multi-config builds (e.g. msvc)
 foreach(OUTPUT_CONFIG ${CMAKE_CONFIGURATION_TYPES})
@@ -37,4 +37,4 @@ foreach(SUBDIR ${SUBDIRS})
     add_subdirectory(${SUBSYSTEMS_PATH}/${SUBDIR}/problem-solver)
 endforeach()
 
-#add_subdirectory(problem-solver)
+add_subdirectory(problem-solver)

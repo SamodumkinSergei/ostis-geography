@@ -1,9 +1,13 @@
 #include "VitebskVillagesModule.hpp"
 namespace VitebskVillagesModule
 {
-SC_IMPLEMENT_MODULE(VitebskVillagesModule)
+SC_MODULE_REGISTER(VitebskVillagesModule)
+  ->Agent<LargerVillageByPopulationInTheDistrict>()
+  ->Agent<LargerVillageByPopulation>()
+  ->Agent<GreatestDistanceToTheRegionalCenter>();
 
-sc_result VitebskVillagesModule::InitializeImpl()
+//todo(codegen-removal): if needed override ScModule::Initialize and move all non-keynodes and non-agents code from previous initialization method
+/*
 {
   if (!Keynodes::InitGlobal())
 
@@ -13,19 +17,29 @@ sc_result VitebskVillagesModule::InitializeImpl()
 
   ScMemoryContext ctx(sc_access_lvl_make_min, "VitebskVillagesModule");
 
-  SC_AGENT_REGISTER(LargerVillageByPopulationInTheDistrict)
-  SC_AGENT_REGISTER(LargerVillageByPopulation)
-  SC_AGENT_REGISTER(GreatestDistanceToTheRegionalCenter)
+  //todo(codegen-removal): Use agentContext.SubscribeAgent<LargerVillageByPopulationInTheDistrict> or UnsubscribeAgent; to register and unregister agent
+SC_AGENT_REGISTER(LargerVillageByPopulationInTheDistrict)
+  //todo(codegen-removal): Use agentContext.SubscribeAgent<LargerVillageByPopulation> or UnsubscribeAgent; to register and unregister agent
+SC_AGENT_REGISTER(LargerVillageByPopulation)
+  //todo(codegen-removal): Use agentContext.SubscribeAgent<GreatestDistanceToTheRegionalCenter> or UnsubscribeAgent; to register and unregister agent
+SC_AGENT_REGISTER(GreatestDistanceToTheRegionalCenter)
 
   return SC_RESULT_OK;
 }
+*/
 
-sc_result VitebskVillagesModule::ShutdownImpl()
+
+//todo(codegen-removal): if needed override ScModule::Shutdown and move all non-agents code from previous shutdown method
+/*
 {
-  SC_AGENT_UNREGISTER(LargerVillageByPopulationInTheDistrict)
-  SC_AGENT_UNREGISTER(LargerVillageByPopulation)
-  SC_AGENT_UNREGISTER(GreatestDistanceToTheRegionalCenter)
+  //todo(codegen-removal): Use agentContext.SubscribeAgent<LargerVillageByPopulationInTheDistrict> or UnsubscribeAgent; to register and unregister agent
+SC_AGENT_UNREGISTER(LargerVillageByPopulationInTheDistrict)
+  //todo(codegen-removal): Use agentContext.SubscribeAgent<LargerVillageByPopulation> or UnsubscribeAgent; to register and unregister agent
+SC_AGENT_UNREGISTER(LargerVillageByPopulation)
+  //todo(codegen-removal): Use agentContext.SubscribeAgent<GreatestDistanceToTheRegionalCenter> or UnsubscribeAgent; to register and unregister agent
+SC_AGENT_UNREGISTER(GreatestDistanceToTheRegionalCenter)
 
   return SC_RESULT_OK;
 }
+*/
 }  // namespace VitebskVillagesModule

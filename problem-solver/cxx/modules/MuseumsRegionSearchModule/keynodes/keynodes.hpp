@@ -5,31 +5,24 @@
  */
 
 #pragma once
+
+#include <sc-memory/sc_keynodes.hpp>
 #include "sc-memory/sc_addr.hpp"
 #include "sc-memory/sc_object.hpp"
-
-#include "keynodes.generated.hpp"
 
 namespace MuseumsRegionSearchModule
 {
 
-class Keynodes : public ScObject
+class Keynodes : public ScKeynodes
 {
-  SC_CLASS()
-  SC_GENERATED_BODY()
+  public:
+  static inline ScKeynode const action_museumsRegionSearch{"action_museumsRegionSearch"};
 
-public:
-  SC_PROPERTY(Keynode("action_museumsRegionSearch"), ForceCreate)
-  static ScAddr action_museumsRegionSearch;
+  static inline ScKeynode const nrel_region{"nrel_region"};
 
-  SC_PROPERTY(Keynode("nrel_region"), ForceCreate)
-  static ScAddr nrel_region;
+  static inline ScKeynode const nrel_main_idtf{"nrel_main_idtf"};
 
-  SC_PROPERTY(Keynode("nrel_main_idtf"), ForceCreate)
-  static ScAddr nrel_main_idtf;
-
-  SC_PROPERTY(Keynode("concept_museum"), ForceCreate)
-  static ScAddr concept_museum;
+  static inline ScKeynode const concept_museum{"concept_museum"};
 };
 
 }  // namespace MuseumsRegionSearchModule

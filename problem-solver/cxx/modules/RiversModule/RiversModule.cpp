@@ -1,33 +1,40 @@
 #include "RiversModule.hpp"
 namespace RiversModule
 {
-SC_IMPLEMENT_MODULE(RiversModule)
+// SC_IMPLEMENT_MODULE(RiversModule)
+SC_MODULE_REGISTER(RiversModule)
+  ->Agent<TheBiggestBasinInRegion>()
+  ->Agent<LongerRiver>()
+  ->Agent<LongestInRegion>()
+  ->Agent<BiggerBasin>()
+  ->Agent<ShorterRiver>();
 
-sc_result RiversModule::InitializeImpl()
-{
-  if (!Keynodes::InitGlobal())
-  {
-    return SC_RESULT_ERROR;
-  }
 
-  ScMemoryContext ctx(sc_access_lvl_make_min, "RiversModule");
+// void RiversModule::Initialize(ScMemoryContext * context)
+// {
+//   // if (!Keynodes::InitGlobal())
+//   // {
+//   //   return SC_RESULT_ERROR;
+//   // }
 
-  SC_AGENT_REGISTER(TheBiggestBasinInRegion)
-  SC_AGENT_REGISTER(LongerRiver)
-  SC_AGENT_REGISTER(LongestInRegion)
-  SC_AGENT_REGISTER(BiggerBasin)
-  SC_AGENT_REGISTER(ShorterRiver)
+//   // ScMemoryContext ctx(sc_access_lvl_make_min, "RiversModule");
 
-  return SC_RESULT_OK;
-}
+//  // context->SubscribeAgent<TheBiggestBasinInRegion>;
+//  // context->SubscribeAgent<LongerRiver>;
+//  // context->SubscribeAgent<LongestInRegion>;
+//  // context->SubscribeAgent<BiggerBasin>;
+//  // context->SubscribeAgent<ShorterRiver>;
 
-sc_result RiversModule::ShutdownImpl()
-{
-  SC_AGENT_UNREGISTER(TheBiggestBasinInRegion)
-  SC_AGENT_UNREGISTER(LongerRiver)
-  SC_AGENT_UNREGISTER(LongestInRegion)
-  SC_AGENT_UNREGISTER(BiggerBasin)
-  SC_AGENT_UNREGISTER(ShorterRiver)
-  return SC_RESULT_OK;
-}
+//   // return SC_RESULT_OK;
+// }
+
+// void RiversModule::Shutdown(ScMemoryContext * context)
+// {
+//  // context->UnsubscribeAgent<TheBiggestBasinInRegion>;
+//  // context->UnsubscribeAgent<LongerRiver>;
+//  // context->UnsubscribeAgent<LongestInRegion>;
+//  // context->UnsubscribeAgent<BiggerBasin>;
+//  // context->UnsubscribeAgent<ShorterRiver>;
+//   // return SC_RESULT_OK;
+// }
 }  // namespace RiversModule

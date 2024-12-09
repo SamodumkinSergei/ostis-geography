@@ -6,18 +6,21 @@
 
 #pragma once
 
-#include "sc-memory/kpm/sc_agent.hpp"
+#include "sc-memory/sc_agent.hpp"
 
 #include "keynodes/keynodes.hpp"
-#include "GreatestDistanceToTheRegionalCenter.generated.hpp"
-
 namespace VitebskVillagesModule
 {
 
-class GreatestDistanceToTheRegionalCenter : public ScAgent
+class GreatestDistanceToTheRegionalCenter : public ScActionInitiatedAgent
 {
-  SC_CLASS(Agent, Event(Keynodes::question_greatestDistanceToTheRegionalCenter, ScEvent::Type::AddOutputEdge))
-  SC_GENERATED_BODY()
-};
+  public:
+  ScAddr GetActionClass() const override;
+
+  ScResult DoProgram(ScEventAfterGenerateOutgoingArc<ScType::ConstPermPosArc> const & event, ScAction & action) override;
+
+  ScAddr GetEventSubscriptionElement() const override;
+
+  };
 
 }  // namespace VitebskVillagesModule

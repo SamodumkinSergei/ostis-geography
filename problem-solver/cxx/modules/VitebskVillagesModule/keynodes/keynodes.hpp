@@ -6,40 +6,30 @@
 
 #pragma once
 
+#include <sc-memory/sc_keynodes.hpp>
+
 #include "sc-memory/sc_addr.hpp"
 #include "sc-memory/sc_object.hpp"
-
-#include "keynodes.generated.hpp"
 
 namespace VitebskVillagesModule
 {
 
-class Keynodes : public ScObject
+class Keynodes : public ScKeynodes
 {
-  SC_CLASS()
-  SC_GENERATED_BODY()
+  public:
+  static inline ScKeynode const question_largerVillageByPopulationInTheDistrict{"question_largerVillageByPopulationInTheDistrict", ScType::ConstNodeClass};
 
-public:
-  SC_PROPERTY(Keynode("question_largerVillageByPopulationInTheDistrict"), ForceCreate)
-  static ScAddr question_largerVillageByPopulationInTheDistrict;
+  static inline ScKeynode const question_largerVillageByPopulation{"question_largerVillageByPopulation", ScType::ConstNodeClass};
 
-  SC_PROPERTY(Keynode("question_largerVillageByPopulation"), ForceCreate)
-  static ScAddr question_largerVillageByPopulation;
+  static inline ScKeynode const question_greatestDistanceToTheRegionalCenter{"question_greatestDistanceToTheRegionalCenter", ScType::ConstNodeClass};
 
-  SC_PROPERTY(Keynode("question_greatestDistanceToTheRegionalCenter"), ForceCreate)
-  static ScAddr question_greatestDistanceToTheRegionalCenter;
+  static inline ScKeynode const nrel_population{"nrel_population", ScType::ConstNodeNonRole};
 
-  SC_PROPERTY(Keynode("nrel_population"), ForceCreate)
-  static ScAddr nrel_population;
+  static inline ScKeynode const nrel_distanceFromArea{"nrel_distanceFromArea", ScType::ConstNodeNonRole};
 
-  SC_PROPERTY(Keynode("nrel_distanceFromArea"), ForceCreate)
-  static ScAddr nrel_distanceFromArea;
+  static inline ScKeynode const nrel_district{"nrel_district", ScType::ConstNodeNonRole};
 
-  SC_PROPERTY(Keynode("nrel_district"), ForceCreate)
-  static ScAddr nrel_district;
-
-  SC_PROPERTY(Keynode("nrel_main_idtf"), ForceCreate)
-  static ScAddr nrel_main_idtf;
+  static inline ScKeynode const nrel_main_idtf{"nrel_main_idtf", ScType::ConstNodeNonRole};
 };
 
 }  // namespace VitebskVillagesModule

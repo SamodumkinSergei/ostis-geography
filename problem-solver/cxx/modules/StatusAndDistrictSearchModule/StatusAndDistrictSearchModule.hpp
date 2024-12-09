@@ -11,18 +11,10 @@
 #include "keynodes/keynodes.hpp"
 #include "agents/StatusAndDistrictSearch.hpp"
 
-#include "StatusAndDistrictSearchModule.generated.hpp"
-
 namespace StatusAndDistrictSearchModule
 {
 
 class StatusAndDistrictSearchModule : public ScModule
 {
-  SC_CLASS(LoadOrder(100))
-  SC_GENERATED_BODY()
-
-  virtual sc_result InitializeImpl() override;
-
-  virtual sc_result ShutdownImpl() override;
-};
+  };
 }  // namespace StatusAndDistrictSearchModule

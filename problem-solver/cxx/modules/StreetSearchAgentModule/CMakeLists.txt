@@ -1,6 +1,6 @@
 ﻿set(SOURCES
         "StreetSearchAgentModule.cpp"
-        "keynodes/keynodes.cpp"
+        #"keynodes/keynodes.cpp"
         "agents/StreetSearchAgent.cpp"
         )
 
@@ -19,8 +19,6 @@ include_directories(
 
 add_library(StreetSearchAgentModule SHARED ${SOURCES} ${HEADERS})
 target_link_libraries(StreetSearchAgentModule sc-memory sc-agents-common)
-
-sc_codegen_ex(StreetSearchAgentModule ${CMAKE_CURRENT_LIST_DIR} ${CMAKE_CURRENT_LIST_DIR}/generated) 
 
 if(${SC_CLANG_FORMAT_CODE})
 	target_clangformat_setup(StreetSearchAgentModule)

@@ -2,9 +2,11 @@
 
 namespace SearchEconomicPathAgentModule
 {
-SC_IMPLEMENT_MODULE(SearchEconomicPathAgentModule)
+SC_MODULE_REGISTER(SearchEconomicPathAgentModule)
+  ->Agent<SearchEconomicPathAgent>();
 
-sc_result SearchEconomicPathAgentModule::InitializeImpl()
+//todo(codegen-removal): if needed override ScModule::Initialize and move all non-keynodes and non-agents code from previous initialization method
+/*
 {
   if (!Keynodes::InitGlobal())
   {
@@ -13,15 +15,21 @@ sc_result SearchEconomicPathAgentModule::InitializeImpl()
 
   ScMemoryContext ctx(sc_access_lvl_make_min, "SearchEconomicPathAgentModule");
 
-  SC_AGENT_REGISTER(SearchEconomicPathAgent)
+  //todo(codegen-removal): Use agentContext.SubscribeAgent<SearchEconomicPathAgent> or UnsubscribeAgent; to register and unregister agent
+SC_AGENT_REGISTER(SearchEconomicPathAgent)
 
   return SC_RESULT_OK;
 }
+*/
 
-sc_result SearchEconomicPathAgentModule::ShutdownImpl()
+
+//todo(codegen-removal): if needed override ScModule::Shutdown and move all non-agents code from previous shutdown method
+/*
 {
-  SC_AGENT_UNREGISTER(SearchEconomicPathAgent)
+  //todo(codegen-removal): Use agentContext.SubscribeAgent<SearchEconomicPathAgent> or UnsubscribeAgent; to register and unregister agent
+SC_AGENT_UNREGISTER(SearchEconomicPathAgent)
 
   return SC_RESULT_OK;
 }
+*/
 }  // namespace SearchEconomicPathAgentModule

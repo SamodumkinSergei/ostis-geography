@@ -9,23 +9,30 @@
 namespace soatoClassificationModule
 {
 
-SC_IMPLEMENT_MODULE(SoatoClassificationModule)
+SC_MODULE_REGISTER(SoatoClassificationModule)
+  ->Agent<SoatoClassificationAgent>();
 
-sc_result SoatoClassificationModule::InitializeImpl()
+//todo(codegen-removal): if needed override ScModule::Initialize and move all non-keynodes and non-agents code from previous initialization method
+/*
 {
   if (!Keynodes::InitGlobal())
   {
     return SC_RESULT_ERROR;
   }
 
-  SC_AGENT_REGISTER(SoatoClassificationAgent);
+  //todo(codegen-removal): Use agentContext.SubscribeAgent<SoatoClassificationAgent> or UnsubscribeAgent; to register and unregister agent
+SC_AGENT_REGISTER(SoatoClassificationAgent);
   return SC_RESULT_OK;
 }
+*/
 
-sc_result SoatoClassificationModule::ShutdownImpl()
+
+//todo(codegen-removal): if needed override ScModule::Shutdown and move all non-agents code from previous shutdown method
+/*
 {
-  SC_AGENT_UNREGISTER(SoatoClassificationAgent);
+  //todo(codegen-removal): Use agentContext.SubscribeAgent<SoatoClassificationAgent> or UnsubscribeAgent; to register and unregister agent
+SC_AGENT_UNREGISTER(SoatoClassificationAgent);
   return SC_RESULT_OK;
 }
-
+*/
 }  // namespace soatoClassificationModule

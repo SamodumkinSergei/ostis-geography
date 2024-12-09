@@ -4,10 +4,9 @@
  * (See accompanying file COPYING.MIT or copy at http://opensource.org/licenses/MIT)
  */
 
-#include "sc-agents-common/utils/AgentUtils.hpp"
 #include "sc-agents-common/utils/CommonUtils.hpp"
 #include "sc-agents-common/utils/IteratorUtils.hpp"
-#include "sc-agents-common/keynodes/coreKeynodes.hpp"
+#include "sc-memory/sc_memory.hpp"
 #include <string>
 #include <iostream>
 #include <vector>
@@ -21,85 +20,95 @@ using namespace utils;
 namespace VitebskVillagesModule
 {
 
-SC_AGENT_IMPLEMENTATION(GreatestDistanceToTheRegionalCenter)
+ScResult GreatestDistanceToTheRegionalCenter::DoProgram(ScEventAfterGenerateOutgoingArc<ScType::ConstPermPosArc> const & event, ScAction & action)
 {
-  if (!edgeAddr.IsValid())
-    return SC_RESULT_ERROR;
+  if (!event.GetArc().IsValid())
+    return action.FinishUnsuccessfully();
 
-  SC_LOG_INFO("----------Greatest Distance To The Regional Center begin agent----------");
-  ScAddr actionNode = ms_context->GetEdgeTarget(edgeAddr);
+  SC_AGENT_LOG_INFO("----------Greatest Distance To The Regional Center begin agent----------");
+  ScAddr actionNode = m_context.GetArcTargetElement(event.GetArc());
 
   ScAddr village1 =
-      IteratorUtils::getAnyByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_1);
+      IteratorUtils::getAnyByOutRelation(&m_context, actionNode, ScKeynodes::rrel_1);
 
   ScAddr village2 =
-      IteratorUtils::getAnyByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_2);
-  ScAddr answer = ms_context->CreateNode(ScType::NodeConstStruct);
+      IteratorUtils::getAnyByOutRelation(&m_context, actionNode, ScKeynodes::rrel_2);
+  ScAddr answer = m_context.GenerateNode(ScType::ConstNodeStructure);
 
-  ScIterator5Ptr it = ms_context->Iterator5(
+  ScIterator5Ptr it = m_context.CreateIterator5(
       village1,
-      ScType::EdgeDCommonConst,
+      ScType::ConstCommonArc,
       ScType::Unknown,
-      ScType::EdgeAccessConstPosPerm,
+      ScType::ConstPermPosArc,
       Keynodes::nrel_distanceFromArea);
   int l1 = 0;
   while (it->Next())
   {
     ScAddr len = it->Get(2);
-    std::string str1 = CommonUtils::getIdtf(ms_context.get(), len, Keynodes::nrel_main_idtf);
+    std::string str1 = CommonUtils::getIdtf(&m_context, len, Keynodes::nrel_main_idtf);
     l1 = std::atoi(str1.c_str());
-    SC_LOG_INFO(str1);
+    SC_AGENT_LOG_INFO(str1);
   }
 
-  ScIterator5Ptr it1 = ms_context->Iterator5(
+  ScIterator5Ptr it1 = m_context.CreateIterator5(
       village2,
-      ScType::EdgeDCommonConst,
+      ScType::ConstCommonArc,
       ScType::Unknown,
-      ScType::EdgeAccessConstPosPerm,
+      ScType::ConstPermPosArc,
       Keynodes::nrel_distanceFromArea);
   int l2 = 0;
   while (it1->Next())
   {
     ScAddr len = it1->Get(2);
-    std::string str2 = CommonUtils::getIdtf(ms_context.get(), len, Keynodes::nrel_main_idtf);
+    std::string str2 = CommonUtils::getIdtf(&m_context, len, Keynodes::nrel_main_idtf);
     l2 = std::atoi(str2.c_str());
-    SC_LOG_INFO(str2);
+    SC_AGENT_LOG_INFO(str2);
   }
 
   if (l1 > l2)
   {
-    ScIterator5Ptr iteratorToAddToAnswer = ms_context->Iterator5(
-        village1, ScType::Unknown, ScType::Unknown, ScType::EdgeAccessConstPosPerm, Keynodes::nrel_distanceFromArea);
+    ScIterator5Ptr iteratorToAddToAnswer = m_context.CreateIterator5(
+        village1, ScType::Unknown, ScType::Unknown, ScType::ConstPermPosArc, Keynodes::nrel_distanceFromArea);
 
     if (iteratorToAddToAnswer->Next())
     {
-      ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, answer, iteratorToAddToAnswer->Get(0));
-      ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, answer, iteratorToAddToAnswer->Get(1));
-      ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, answer, iteratorToAddToAnswer->Get(2));
-      ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, answer, iteratorToAddToAnswer->Get(3));
-      ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, answer, iteratorToAddToAnswer->Get(4));
+      m_context.GenerateConnector(ScType::ConstPermPosArc, answer, iteratorToAddToAnswer->Get(0));
+      m_context.GenerateConnector(ScType::ConstPermPosArc, answer, iteratorToAddToAnswer->Get(1));
+      m_context.GenerateConnector(ScType::ConstPermPosArc, answer, iteratorToAddToAnswer->Get(2));
+      m_context.GenerateConnector(ScType::ConstPermPosArc, answer, iteratorToAddToAnswer->Get(3));
+      m_context.GenerateConnector(ScType::ConstPermPosArc, answer, iteratorToAddToAnswer->Get(4));
     }
   }
   else
   {
-    ScIterator5Ptr iteratorToAddToAnswer = ms_context->Iterator5(
-        village2, ScType::Unknown, ScType::Unknown, ScType::EdgeAccessConstPosPerm, Keynodes::nrel_distanceFromArea);
+    ScIterator5Ptr iteratorToAddToAnswer = m_context.CreateIterator5(
+        village2, ScType::Unknown, ScType::Unknown, ScType::ConstPermPosArc, Keynodes::nrel_distanceFromArea);
 
     if (iteratorToAddToAnswer->Next())
     {
-      ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, answer, iteratorToAddToAnswer->Get(0));
-      ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, answer, iteratorToAddToAnswer->Get(1));
-      ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, answer, iteratorToAddToAnswer->Get(2));
-      ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, answer, iteratorToAddToAnswer->Get(3));
-      ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, answer, iteratorToAddToAnswer->Get(4));
+      m_context.GenerateConnector(ScType::ConstPermPosArc, answer, iteratorToAddToAnswer->Get(0));
+      m_context.GenerateConnector(ScType::ConstPermPosArc, answer, iteratorToAddToAnswer->Get(1));
+      m_context.GenerateConnector(ScType::ConstPermPosArc, answer, iteratorToAddToAnswer->Get(2));
+      m_context.GenerateConnector(ScType::ConstPermPosArc, answer, iteratorToAddToAnswer->Get(3));
+      m_context.GenerateConnector(ScType::ConstPermPosArc, answer, iteratorToAddToAnswer->Get(4));
     }
   }
 
-  ScAddr edgeToAnswer = ms_context->CreateEdge(ScType::EdgeDCommonConst, actionNode, answer);
-  ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, scAgentsCommon::CoreKeynodes::nrel_answer, edgeToAnswer);
+  ScAddr edgeToAnswer = m_context.GenerateConnector(ScType::ConstCommonArc, actionNode, answer);
+  m_context.GenerateConnector(ScType::ConstPermPosArc,ScKeynodes::nrel_result, edgeToAnswer);
+  SC_AGENT_LOG_INFO("----------GreatestDistanceToTheRegionalCenter end agent----------");
+action.SetResult(answer);
+  return action.FinishSuccessfully();
+}
 
-  SC_LOG_INFO("----------GreatestDistanceToTheRegionalCenter end agent----------");
-  AgentUtils::finishAgentWork(ms_context.get(), actionNode);
-  return SC_RESULT_OK;
+ScAddr GreatestDistanceToTheRegionalCenter::GetActionClass() const
+{
+//todo(codegen-removal): replace action with your action class
+  return Keynodes::question_greatestDistanceToTheRegionalCenter;
+}
+
+ScAddr GreatestDistanceToTheRegionalCenter::GetEventSubscriptionElement() const
+{
+  return ScKeynodes::action_initiated;;
 }
 }  // namespace VitebskVillagesModule

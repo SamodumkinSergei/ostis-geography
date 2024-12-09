@@ -24,6 +24,4 @@ target_link_libraries(
   sc-agents-common
 )
 
-sc_codegen_ex(soatoClassificationModule ${CMAKE_CURRENT_LIST_DIR} ${CMAKE_CURRENT_LIST_DIR}/generated)
-
 add_definitions("-DSOATO_CODES=\"${CMAKE_CURRENT_LIST_DIR}/assets/soato-code.csv\"")
