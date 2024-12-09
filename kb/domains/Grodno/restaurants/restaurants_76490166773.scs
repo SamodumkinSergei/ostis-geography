@@ -1,0 +1,26 @@
+ concept_restaurants_76490166773
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Дионис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дионис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Южная улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 502-09-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.643792,23.871866"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dionis-shop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

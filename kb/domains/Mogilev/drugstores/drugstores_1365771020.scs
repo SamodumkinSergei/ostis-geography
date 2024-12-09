@@ -1,0 +1,26 @@
+ concept_drugstores_1365771020
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 67"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 67"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Лазаренко, 68"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 263-27-71"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:20, перерыв 12:40–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910415,30.308807"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogilev.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_college_40457347847
+ <- concept_college;
+=>nrel_main_idtf:
+	["Энергетический факультет БНТУ, кафедра Электротехника и электроника"]
+	(* <- lang_ru;; <- name;;*);
+    ["Энергетический факультет БНТУ, кафедра Электротехника и электроника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 65к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 292-71-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 10:00–12:00; пт 15:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.922404,27.592343"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://electro.bntu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

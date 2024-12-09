@@ -1,0 +1,26 @@
+ concept_kindergarten_1332211340
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 496"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 496"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Космонавтов, 5к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 397-86-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.8531,27.471651"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu496.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_restaurants_168066603252
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["La pataterie Brest"]
+	(* <- lang_ru;; <- name;;*);
+    ["La pataterie Brest"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Бретань, Финистер, Округ Брест, Гипава, Rue Pierre Jakez Hélias, 105"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 2 98 84 88 88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["48.416308,-4.43819"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.lapataterie.fr/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

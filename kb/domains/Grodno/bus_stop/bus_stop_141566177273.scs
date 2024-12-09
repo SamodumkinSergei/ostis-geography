@@ -1,0 +1,26 @@
+ concept_bus_stop_141566177273
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Деревенская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Деревенская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, посёлок Южный, улица Садакова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.620462,23.82685"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_cafe_1105180031
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["БНТУ, столовая № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["БНТУ, столовая № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Якуба Коласа, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 292-15-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.922878,27.591174"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

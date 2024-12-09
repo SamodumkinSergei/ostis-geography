@@ -1,0 +1,26 @@
+ concept_bus_stop_191540037869
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Дворец культуры Фестивальный"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дворец культуры Фестивальный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Речицкий проспект"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.412992,30.953278"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

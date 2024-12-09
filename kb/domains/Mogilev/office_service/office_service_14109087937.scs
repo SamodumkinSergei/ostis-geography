@@ -1,0 +1,26 @@
+ concept_office_service_14109087937
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Облдорстрой"]
+	(* <- lang_ru;; <- name;;*);
+    ["Облдорстрой"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Октябрьский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 273-76-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:20, перерыв 12:00–12:20"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.847411,30.400215"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

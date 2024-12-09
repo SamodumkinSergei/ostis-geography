@@ -1,0 +1,26 @@
+ concept_fallback_services_1149730809
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Мармореал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мармореал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Гончарная улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 320-00-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:30–18:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.182674,30.187928"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.marmoreal.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

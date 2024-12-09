@@ -1,0 +1,26 @@
+ concept_banks_1075797297
+ <- concept_banks;
+=>nrel_main_idtf:
+	["ВТБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["ВТБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 91"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 391-01-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90584,27.441799"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.vtb.by/rg/minskaya-oblast/minsk/minsk-do-no11"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

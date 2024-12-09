@@ -1,0 +1,26 @@
+ concept_hypermarket_1142770596
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Ksk"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ksk"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Междугородняя улица, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 224-24-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 07:30–20:30; вс 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.419898,30.921808"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ksk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

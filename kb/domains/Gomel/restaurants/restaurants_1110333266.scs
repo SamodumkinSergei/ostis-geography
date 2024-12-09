@@ -1,0 +1,26 @@
+ concept_restaurants_1110333266
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Ривьера"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ривьера"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Баумана, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 584-70-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 13:00–22:00; сб,вс 12:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.425483,31.019034"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_office_service_31380446356
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Склад teplo.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Склад teplo.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Основателей, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 132-13-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.944119,27.726959"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://teplo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

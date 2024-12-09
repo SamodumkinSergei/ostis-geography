@@ -1,0 +1,26 @@
+ concept_cafe_64602254496
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Классик"]
+	(* <- lang_ru;; <- name;;*);
+    ["Классик"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Свиридова, 1Е"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 745-55-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.485415,30.997226"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bar-classic.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

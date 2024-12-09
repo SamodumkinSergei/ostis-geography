@@ -1,0 +1,26 @@
+ concept_hypermarket_181461260664
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["DoorsAn"]
+	(* <- lang_ru;; <- name;;*);
+    ["DoorsAn"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Соколовского, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 265-70-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.660827,23.805014"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://doorsan.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

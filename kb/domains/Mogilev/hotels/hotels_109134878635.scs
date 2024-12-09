@@ -1,0 +1,26 @@
+ concept_hotels_109134878635
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Добро в бизнес новой"]
+	(* <- lang_ru;; <- name;;*);
+    ["Добро в бизнес новой"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Крупской, 182"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 242-74-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.951527,30.359311"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

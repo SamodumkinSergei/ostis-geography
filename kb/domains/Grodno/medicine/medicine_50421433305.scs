@@ -1,0 +1,26 @@
+ concept_medicine_50421433305
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гродненский областной клинический кардиологический центр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненский областной клинический кардиологический центр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Болдина, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 279-84-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.691427,23.796444"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

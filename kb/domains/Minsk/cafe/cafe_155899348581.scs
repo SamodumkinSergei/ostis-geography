@@ -1,0 +1,26 @@
+ concept_cafe_155899348581
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["PUBличное место"]
+	(* <- lang_ru;; <- name;;*);
+    ["PUBличное место"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Казинца, 103А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 599-05-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.846118,27.511646"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

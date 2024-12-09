@@ -1,0 +1,26 @@
+ concept_cafe_1102087273
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Лисья нора"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лисья нора"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Калиновского, 32А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 302-61-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–23:00; пт,сб 12:00–02:00; вс 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.941622,27.641162"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

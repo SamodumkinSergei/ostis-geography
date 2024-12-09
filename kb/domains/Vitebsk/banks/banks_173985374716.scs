@@ -1,0 +1,26 @@
+ concept_banks_173985374716
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Банк ВТБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Банк ВТБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 309-15-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.192491,30.211499"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.vtb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

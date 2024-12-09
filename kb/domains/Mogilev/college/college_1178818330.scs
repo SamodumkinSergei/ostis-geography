@@ -1,0 +1,26 @@
+ concept_college_1178818330
+ <- concept_college;
+=>nrel_main_idtf:
+	["Социально-гуманитарный колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Социально-гуманитарный колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Комсомольская улица, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 263-42-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.896143,30.337686"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

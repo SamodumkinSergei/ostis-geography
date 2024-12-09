@@ -1,0 +1,26 @@
+ concept_drugstores_181573139070
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Остров здоровья"]
+	(* <- lang_ru;; <- name;;*);
+    ["Остров здоровья"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, бульвар Шевченко, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 338-35-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.927984,27.556506"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ostrovzdorovya.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_malls_70866588713
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Натали Маркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Натали Маркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Казимировка, Минское шоссе, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 837-98-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–21:00; пт,сб 10:00–22:00; вс 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.935694,30.256989"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://flario.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

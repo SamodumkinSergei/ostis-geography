@@ -1,0 +1,26 @@
+ concept_museum_1003648334
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Могилёвский областной художественный музей имени П. В. Масленикова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилёвский областной художественный музей имени П. В. Масленикова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Миронова, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 262-24-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908145,30.338491"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://maslenikov.museum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

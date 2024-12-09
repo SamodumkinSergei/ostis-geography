@@ -1,0 +1,26 @@
+ concept_clothes_shop_152283725253
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Лель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Мира, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 606-06-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908876,30.334285"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://damskykapriz.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

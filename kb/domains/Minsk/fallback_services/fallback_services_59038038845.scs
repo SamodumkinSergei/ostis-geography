@@ -1,0 +1,26 @@
+ concept_fallback_services_59038038845
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Ритуальный Дом"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ритуальный Дом"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кульман, 33А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 674-22-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.927342,27.56514"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://rda.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

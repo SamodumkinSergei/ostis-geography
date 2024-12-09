@@ -1,0 +1,26 @@
+ concept_tire_fitting_1038091084
+ <- concept_tire_fitting;
+=>nrel_main_idtf:
+	["ВиражСервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["ВиражСервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 539-31-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.114259,23.771964"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://24h-service.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

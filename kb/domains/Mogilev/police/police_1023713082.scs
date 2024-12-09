@@ -1,0 +1,26 @@
+ concept_police_1023713082
+ <- concept_police;
+=>nrel_main_idtf:
+	["Совет общественного пункта охраны правопорядка № 3"]
+	(* <- lang_ru;; <- name;;*);
+    ["Совет общественного пункта охраны правопорядка № 3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Гришина, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 264-48-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт,чт 17:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.926846,30.341028"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://uvd.mogilev.by/page/uchastkovye-inspektory-milicii-leninskogo-rovd-g-mogileva"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

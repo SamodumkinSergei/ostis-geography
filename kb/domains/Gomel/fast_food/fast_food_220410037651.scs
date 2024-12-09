@@ -1,0 +1,26 @@
+ concept_fast_food_220410037651
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Янтарный"]
+	(* <- lang_ru;; <- name;;*);
+    ["Янтарный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Димитрова, 49А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 558-07-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.389394,31.031434"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

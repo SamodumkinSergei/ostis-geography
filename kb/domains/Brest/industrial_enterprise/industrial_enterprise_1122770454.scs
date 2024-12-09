@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_1122770454
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Nova Line"]
+	(* <- lang_ru;; <- name;;*);
+    ["Nova Line"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Красногвардейская улица, 108/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 245-58-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.123775,23.690309"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.novaline.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

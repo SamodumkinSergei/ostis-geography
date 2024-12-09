@@ -1,0 +1,26 @@
+ concept_cafe_211629293379
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Экзюпери"]
+	(* <- lang_ru;; <- name;;*);
+    ["Экзюпери"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 562-92-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:30–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.427623,31.012986"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://just-eat.by/exuperi-gomel"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

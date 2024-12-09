@@ -1,0 +1,26 @@
+ concept_government_231917314506
+ <- concept_government;
+=>nrel_main_idtf:
+	["Отдел торговли и услуг администрации Советского района г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отдел торговли и услуг администрации Советского района г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Дорошевича, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 292-82-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср 08:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919464,27.588194"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sov.minsk.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

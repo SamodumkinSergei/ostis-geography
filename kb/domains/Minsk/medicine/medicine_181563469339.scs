@@ -1,0 +1,26 @@
+ concept_medicine_181563469339
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["РНПЦ Мать и дитя, администрация"]
+	(* <- lang_ru;; <- name;;*);
+    ["РНПЦ Мать и дитя, администрация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Орловская улица, 66к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 233-24-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.931021,27.537386"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.medcenter.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

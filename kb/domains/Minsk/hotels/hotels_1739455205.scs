@@ -1,0 +1,26 @@
+ concept_hotels_1739455205
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Усадьба Алекс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Усадьба Алекс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, агрогородок Колодищи, улица Пушкина, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 510-10-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.944858,27.778877"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

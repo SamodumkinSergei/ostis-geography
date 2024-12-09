@@ -1,0 +1,26 @@
+ concept_hotels_219845355727
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Hampton by Hilton Brest"]
+	(* <- lang_ru;; <- name;;*);
+    ["Hampton by Hilton Brest"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Варшавское шоссе, 41"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 227-82-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.074512,23.708161"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://eurohotel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

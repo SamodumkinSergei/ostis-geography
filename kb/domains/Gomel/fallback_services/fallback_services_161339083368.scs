@@ -1,0 +1,26 @@
+ concept_fallback_services_161339083368
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Бытовые услуги"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бытовые услуги"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Свиридова, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 731-38-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00; сб 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.475775,31.025961"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://kbo-gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

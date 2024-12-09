@@ -1,0 +1,26 @@
+ concept_kindergarten_223131021174
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Единоград"]
+	(* <- lang_ru;; <- name;;*);
+    ["Единоград"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Быховская улица, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 107-60-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.87666,27.544303"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

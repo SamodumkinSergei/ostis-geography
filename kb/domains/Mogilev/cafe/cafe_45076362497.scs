@@ -1,0 +1,26 @@
+ concept_cafe_45076362497
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Столовая ЦУМ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столовая ЦУМ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 61"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 262-73-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:30–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905605,30.339027"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://tsumstolovaya.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_hotels_1686885492
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Брест Лариса"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брест Лариса"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Маяковского, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.093123,23.688079"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

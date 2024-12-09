@@ -1,0 +1,26 @@
+ concept_restaurants_147467862451
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Ресторан Бруклин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ресторан Бруклин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева, 9, корп. 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 577-33-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт,ср 18:00–00:00; чт 18:00–02:00; пт,сб 18:00–05:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908151,27.529457"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brooklyn.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

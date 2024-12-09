@@ -1,0 +1,26 @@
+ concept_bus_stop_65446660027
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Магазин Родны Кут"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин Родны Кут"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Белые Росы"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.714656,23.859809"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_hairdressers_1223302509
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Мастер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мастер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 83"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 318-37-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.922627,27.601709"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rise.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

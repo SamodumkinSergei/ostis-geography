@@ -1,0 +1,26 @@
+ concept_baby_shop_141238143908
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Мягкие игрушки оптом"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мягкие игрушки оптом"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Городецкая улица, 38А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.944876,27.674615"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.plushik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

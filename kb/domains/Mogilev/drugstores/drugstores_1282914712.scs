@@ -1,0 +1,26 @@
+ concept_drugstores_1282914712
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 75"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 75"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Нижняя Карабановская улица, 90"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 242-82-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.927613,30.316878"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

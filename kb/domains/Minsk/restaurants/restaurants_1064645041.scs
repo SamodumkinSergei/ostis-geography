@@ -1,0 +1,26 @@
+ concept_restaurants_1064645041
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Sporting Club"]
+	(* <- lang_ru;; <- name;;*);
+    ["Sporting Club"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 193"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 354-00-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–04:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.955007,27.712521"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sporting.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

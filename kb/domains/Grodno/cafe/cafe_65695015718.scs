@@ -1,0 +1,26 @@
+ concept_cafe_65695015718
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Шеф-кебаб"]
+	(* <- lang_ru;; <- name;;*);
+    ["Шеф-кебаб"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Советская улица, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 333-40-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:00–22:00; пт,сб 11:00–23:00; вс 11:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.679839,23.830473"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://1kebab.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

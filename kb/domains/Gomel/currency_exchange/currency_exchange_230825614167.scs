@@ -1,0 +1,26 @@
+ concept_currency_exchange_230825614167
+ <- concept_currency_exchange;
+=>nrel_main_idtf:
+	["БПС-Сбербанк, банкомат"]
+	(* <- lang_ru;; <- name;;*);
+    ["БПС-Сбербанк, банкомат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, ул. Советская, 58"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.438945,31.004478"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

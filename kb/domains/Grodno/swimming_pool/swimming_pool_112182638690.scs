@@ -1,0 +1,26 @@
+ concept_swimming_pool_112182638690
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["СШ № 39, Бассейн"]
+	(* <- lang_ru;; <- name;;*);
+    ["СШ № 39, Бассейн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Огинского, 44А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 267-28-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00; вс 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.6247,23.806997"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sch39grodno.schools.by/pages/bassejn"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

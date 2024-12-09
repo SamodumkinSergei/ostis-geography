@@ -1,0 +1,26 @@
+ concept_restaurants_142795313983
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Авиньон"]
+	(* <- lang_ru;; <- name;;*);
+    ["Авиньон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Интернациональная улица, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 229-83-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902674,27.556784"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.hoteleurope.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

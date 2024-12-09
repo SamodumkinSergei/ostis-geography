@@ -1,0 +1,26 @@
+ concept_fallback_services_233624818267
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гранит Монтаж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гранит Монтаж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брестская область, Брестский район, Мухавецкий сельсовет, деревня Каменица-Жировецкая, Советская улица, 21/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 803-99-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.055858,23.808355"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://granitmontaz.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

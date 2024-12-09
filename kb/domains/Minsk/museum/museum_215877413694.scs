@@ -1,0 +1,26 @@
+ concept_museum_215877413694
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей природы и экологии"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей природы и экологии"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Максима Богдановича, 9А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 237-46-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908301,27.556185"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.tuda-suda.by/countries/europe/belarus/minsk/dom-prirody-v-minske"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

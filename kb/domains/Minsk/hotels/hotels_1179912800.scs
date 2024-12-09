@@ -1,0 +1,26 @@
+ concept_hotels_1179912800
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Виктория Олимп"]
+	(* <- lang_ru;; <- name;;*);
+    ["Виктория Олимп"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 103"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 308-75-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.935243,27.494668"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://olimphotel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

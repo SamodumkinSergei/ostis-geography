@@ -1,0 +1,26 @@
+ concept_baby_shop_16791367252
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Toystoryminsk.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Toystoryminsk.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 766-75-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906984,27.435695"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://toystory.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

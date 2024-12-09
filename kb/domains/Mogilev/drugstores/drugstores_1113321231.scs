@@ -1,0 +1,26 @@
+ concept_drugstores_1113321231
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 19"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 19"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Димитрова, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 233-00-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00, перерыв 13:30–14:00; сб,вс 09:00–17:30, перерыв 13:30–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.874033,30.377036"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogilev.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

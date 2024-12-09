@@ -1,0 +1,26 @@
+ concept_bus_stop_25095118366
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Мирошниченко"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мирошниченко"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Мирошниченко"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.959977,27.613971"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

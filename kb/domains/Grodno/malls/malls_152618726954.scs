@@ -1,0 +1,26 @@
+ concept_malls_152618726954
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Инкомсервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Инкомсервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Карского, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 747-44-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.686121,23.878544"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://inkomservis.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

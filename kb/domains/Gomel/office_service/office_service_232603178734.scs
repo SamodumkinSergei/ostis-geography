@@ -1,0 +1,26 @@
+ concept_office_service_232603178734
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Высотка логистик"]
+	(* <- lang_ru;; <- name;;*);
+    ["Высотка логистик"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Свиридова, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 644-28-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.48353,30.998922"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

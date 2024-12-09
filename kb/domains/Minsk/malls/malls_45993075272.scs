@@ -1,0 +1,26 @@
+ concept_malls_45993075272
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Виталюр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Виталюр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Центральная улица, 11/106"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 345-60-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.867895,27.650019"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitalur.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

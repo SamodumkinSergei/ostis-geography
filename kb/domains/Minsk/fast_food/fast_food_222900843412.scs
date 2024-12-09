@@ -1,0 +1,26 @@
+ concept_fast_food_222900843412
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Корона"]
+	(* <- lang_ru;; <- name;;*);
+    ["Корона"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Судмалиса, 3А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 399-21-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.890917,27.587358"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.korona.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

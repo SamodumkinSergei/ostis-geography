@@ -1,0 +1,26 @@
+ concept_college_238575712532
+ <- concept_college;
+=>nrel_main_idtf:
+	["Iswim"]
+	(* <- lang_ru;; <- name;;*);
+    ["Iswim"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Фрунзенский район, Домбровка-3, улица Алеся Гаруна, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 333-03-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 18:00–20:00; чт,пт 19:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919267,27.445275"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://iswim.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

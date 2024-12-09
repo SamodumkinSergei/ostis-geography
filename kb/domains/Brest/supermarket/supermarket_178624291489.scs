@@ -1,0 +1,26 @@
+ concept_supermarket_178624291489
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Сладкий уголок 4"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сладкий уголок 4"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Пушкинская улица, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 234-27-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.096008,23.691442"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://fivestars.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

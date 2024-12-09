@@ -1,0 +1,26 @@
+ concept_bus_stop_14675747697
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Григорьева"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Григорьева"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица 39-й Армии"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.170297,30.126725"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

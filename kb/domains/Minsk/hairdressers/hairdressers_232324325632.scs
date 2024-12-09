@@ -1,0 +1,26 @@
+ concept_hairdressers_232324325632
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Комплимент"]
+	(* <- lang_ru;; <- name;;*);
+    ["Комплимент"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Академика Карского, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 692-00-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–20:00; вс 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.876957,27.446527"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

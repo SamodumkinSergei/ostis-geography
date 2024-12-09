@@ -1,0 +1,26 @@
+ concept_fast_food_28912663852
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Таверна на Почтовой"]
+	(* <- lang_ru;; <- name;;*);
+    ["Таверна на Почтовой"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 111-01-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:00–21:00; пт-вс 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903578,30.336825"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

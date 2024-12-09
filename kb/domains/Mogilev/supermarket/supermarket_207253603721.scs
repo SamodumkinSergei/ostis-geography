@@ -1,0 +1,26 @@
+ concept_supermarket_207253603721
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Родны Кут Могилевское РАЙПО"]
+	(* <- lang_ru;; <- name;;*);
+    ["Родны Кут Могилевское РАЙПО"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёвская область, Могилёвский район, Полыковичский сельсовет, деревня Николаевка-2, Почтовая улица, 24В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 220-68-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.952375,30.387069"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

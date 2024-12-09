@@ -1,0 +1,26 @@
+ concept_malls_192341663382
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Чистый берег"]
+	(* <- lang_ru;; <- name;;*);
+    ["Чистый берег"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Карьерная улица, 13А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 176-20-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.063917,23.757547"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bereg.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

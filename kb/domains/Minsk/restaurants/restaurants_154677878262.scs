@@ -1,0 +1,26 @@
+ concept_restaurants_154677878262
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Nravizza pizza"]
+	(* <- lang_ru;; <- name;;*);
+    ["Nravizza pizza"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лобанка, 94"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 397-43-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:30–21:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.886582,27.427654"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://nravizza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

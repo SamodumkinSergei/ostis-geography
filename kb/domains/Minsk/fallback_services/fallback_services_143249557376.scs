@@ -1,0 +1,26 @@
+ concept_fallback_services_143249557376
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["ГлобалСтоун"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГлобалСтоун"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Могилёвская улица, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 638-63-89"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.884145,27.543803"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://requiem.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

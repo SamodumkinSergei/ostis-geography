@@ -1,0 +1,26 @@
+ concept_kindergarten_1038836227
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Детский сад № 130"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский сад № 130"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Слободская улица, 179"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 370-46-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.846989,27.467359"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu130.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

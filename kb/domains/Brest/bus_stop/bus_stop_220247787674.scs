@@ -1,0 +1,26 @@
+ concept_bus_stop_220247787674
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Грибоедова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Грибоедова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Грибоедова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.074021,23.698408"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

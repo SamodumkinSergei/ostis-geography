@@ -1,0 +1,26 @@
+ concept_supermarket_150785376810
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Доброцен"]
+	(* <- lang_ru;; <- name;;*);
+    ["Доброцен"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, 1-й Севастопольский переулок, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (343) 302-05-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.380408,31.019439"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://dobrotsen.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

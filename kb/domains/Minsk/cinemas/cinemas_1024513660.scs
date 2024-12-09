@@ -1,0 +1,26 @@
+ concept_cinemas_1024513660
+ <- concept_cinemas;
+=>nrel_main_idtf:
+	["Пионер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пионер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Энгельса, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 368-89-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.899655,27.563079"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://kinominska.by/objects/25"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

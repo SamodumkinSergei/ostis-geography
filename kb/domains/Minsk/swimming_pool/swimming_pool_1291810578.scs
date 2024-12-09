@@ -1,0 +1,26 @@
+ concept_swimming_pool_1291810578
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Трактор"]
+	(* <- lang_ru;; <- name;;*);
+    ["Трактор"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Долгобродская улица, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 362-04-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 06:30–23:00; вс 07:30–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.887524,27.618456"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.sok-traktor.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

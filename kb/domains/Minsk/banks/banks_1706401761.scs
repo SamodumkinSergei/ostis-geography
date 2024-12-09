@@ -1,0 +1,26 @@
+ concept_banks_1706401761
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Приорбанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Приорбанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 150А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 289-90-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 10:30–19:00, перерыв 14:00–14:45; вт 10:30–19:00, перерыв 15:00–15:30; ср 10:30–19:00, перерыв 14:00–15:45; чт,пт 10:30–19:00, перерыв 14:00–14:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.859307,27.675117"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.priorbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

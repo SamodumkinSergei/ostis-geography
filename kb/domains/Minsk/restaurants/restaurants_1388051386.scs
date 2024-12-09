@@ -1,0 +1,26 @@
+ concept_restaurants_1388051386
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Falcone"]
+	(* <- lang_ru;; <- name;;*);
+    ["Falcone"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Короля, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 377-77-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 13:00–21:00; пт,сб 13:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902041,27.542664"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://falcone.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

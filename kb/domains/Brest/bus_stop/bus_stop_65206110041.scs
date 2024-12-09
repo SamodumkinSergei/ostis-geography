@@ -1,0 +1,26 @@
+ concept_bus_stop_65206110041
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["9-й Калиновый переулок"]
+	(* <- lang_ru;; <- name;;*);
+    ["9-й Калиновый переулок"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, 9-й Калиновый переулок"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.139388,23.706692"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

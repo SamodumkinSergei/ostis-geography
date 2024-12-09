@@ -1,0 +1,26 @@
+ concept_museum_1259346234
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Арт-центр Марка Шагала"]
+	(* <- lang_ru;; <- name;;*);
+    ["Арт-центр Марка Шагала"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Советская улица, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 226-13-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.199853,30.202163"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

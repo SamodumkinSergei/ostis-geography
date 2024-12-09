@@ -1,0 +1,26 @@
+ concept_museum_86490417867
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей истории Чернобыля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей истории Чернобыля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Карбышева, 4А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 256-25-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.405721,30.962814"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

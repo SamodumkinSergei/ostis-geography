@@ -1,0 +1,26 @@
+ concept_bars_1162226752
+ <- concept_bars;
+=>nrel_main_idtf:
+	["Гости"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гости"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 677-79-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–02:00; пт 12:00–06:00; сб 14:00–06:00; вс 14:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903834,27.563846"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gosti-minsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

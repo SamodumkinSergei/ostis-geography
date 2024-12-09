@@ -1,0 +1,26 @@
+ concept_hotels_230655880078
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Couett' Hôtel Brest"]
+	(* <- lang_ru;; <- name;;*);
+    ["Couett' Hôtel Brest"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, 41 Rue du Moulin Blanc"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 3 29 82 55 55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["48.39534,-4.43435"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://couett-hotel-brest.fr/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

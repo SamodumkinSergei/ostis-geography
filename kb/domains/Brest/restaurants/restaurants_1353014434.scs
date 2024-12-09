@@ -1,0 +1,26 @@
+ concept_restaurants_1353014434
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Буг"]
+	(* <- lang_ru;; <- name;;*);
+    ["Буг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Ленина, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 220-75-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.0969,23.681564"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

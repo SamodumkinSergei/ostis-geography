@@ -1,0 +1,26 @@
+ concept_hypermarket_23181719036
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Гродненский камнеобрабатывающий завод"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненский камнеобрабатывающий завод"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродненский район, Подлабенский сельсовет, деревня Пушкари, 48, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 268-50-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.710606,23.741623"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gkz.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

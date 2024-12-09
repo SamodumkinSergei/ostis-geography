@@ -1,0 +1,26 @@
+ concept_medicine_169645721455
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["1-я Городская Клиническая больница, физиотерапевтическое отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["1-я Городская Клиническая больница, физиотерапевтическое отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 64"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 378-51-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 14:00–18:00, перерыв 15:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919596,27.595199"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://1gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

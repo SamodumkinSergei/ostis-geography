@@ -1,0 +1,26 @@
+ concept_catholic_church_1013424966
+ <- concept_catholic_church;
+=>nrel_main_idtf:
+	["Костёл святого Симеона и святой Елены"]
+	(* <- lang_ru;; <- name;;*);
+    ["Костёл святого Симеона и святой Елены"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Советская улица, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 200-44-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–21:30; сб,вс 07:00–22:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.89637,27.547636"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.chyrvony.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

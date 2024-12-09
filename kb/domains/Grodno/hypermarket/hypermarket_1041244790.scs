@@ -1,0 +1,26 @@
+ concept_hypermarket_1041244790
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Строй мир"]
+	(* <- lang_ru;; <- name;;*);
+    ["Строй мир"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Ольги Соломовой, 118А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 321-62-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 09:00–17:00; вс 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.654808,23.779835"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.darm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

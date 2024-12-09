@@ -1,0 +1,26 @@
+ concept_bus_stop_156241857032
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Гостиница Юбилейная"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гостиница Юбилейная"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911366,27.54696"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

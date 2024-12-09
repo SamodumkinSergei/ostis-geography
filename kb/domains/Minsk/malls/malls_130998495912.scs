@@ -1,0 +1,26 @@
+ concept_malls_130998495912
+ <- concept_malls;
+=>nrel_main_idtf:
+	["I'm"]
+	(* <- lang_ru;; <- name;;*);
+    ["I'm"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 555-65-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908333,27.548401"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://time.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

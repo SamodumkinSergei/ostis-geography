@@ -1,0 +1,26 @@
+ concept_college_1029350803
+ <- concept_college;
+=>nrel_main_idtf:
+	["Школа Народного Искусства Императрицы Александры Федоровны"]
+	(* <- lang_ru;; <- name;;*);
+    ["Школа Народного Искусства Императрицы Александры Федоровны"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Санкт-Петербург, Витебская улица, 6-8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (812) 714-09-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:40–15:35"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["59.920738,30.280825"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://школанародногоискусства.рф/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

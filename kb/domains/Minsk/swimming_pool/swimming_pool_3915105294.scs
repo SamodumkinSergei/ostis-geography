@@ -1,0 +1,26 @@
+ concept_swimming_pool_3915105294
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Спортивный клуб Александра Лесуна"]
+	(* <- lang_ru;; <- name;;*);
+    ["Спортивный клуб Александра Лесуна"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Каменногорская улица, 70"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 159-52-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 17:00–21:00; сб 09:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.925907,27.4248"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://lesunclub.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

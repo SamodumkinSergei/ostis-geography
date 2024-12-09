@@ -1,0 +1,26 @@
+ concept_drugstores_1381960767
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Витебское УП Фармация аптека № 155 пятой категории"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебское УП Фармация аптека № 155 пятой категории"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Лиричный проезд, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 229-10-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.231591,30.180339"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.pharmacia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_malls_85198091359
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Офистон Маркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Офистон Маркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 156"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 774-62-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909149,27.430406"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://officetonmarket.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

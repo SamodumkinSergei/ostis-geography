@@ -1,0 +1,26 @@
+ concept_bus_stop_231064824623
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Станция метро Каменная Горка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Станция метро Каменная Горка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лобанка, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906013,27.435417"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

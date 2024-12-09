@@ -1,0 +1,26 @@
+ concept_kindergarten_1218134385
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 351"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 351"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, проспект Рокоссовского, 67"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 361-21-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.865666,27.608196"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu351.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

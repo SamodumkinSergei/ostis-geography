@@ -1,0 +1,26 @@
+ concept_restaurants_7595836369
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Fire Pizza"]
+	(* <- lang_ru;; <- name;;*);
+    ["Fire Pizza"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Заславль, Великая улица, 55"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 555-58-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.990712,27.304255"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

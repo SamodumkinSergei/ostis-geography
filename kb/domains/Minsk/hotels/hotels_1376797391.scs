@@ -1,0 +1,26 @@
+ concept_hotels_1376797391
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["40 лет Победы"]
+	(* <- lang_ru;; <- name;;*);
+    ["40 лет Победы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Азгура, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 263-79-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90074,27.580881"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.40hotel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

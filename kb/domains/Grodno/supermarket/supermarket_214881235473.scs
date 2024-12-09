@@ -1,0 +1,26 @@
+ concept_supermarket_214881235473
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Dreamtea.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Dreamtea.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Максима Горького, 91"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 586-26-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 11:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.710328,23.817295"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dreamtea.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

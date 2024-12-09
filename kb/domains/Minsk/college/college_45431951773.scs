@@ -1,0 +1,26 @@
+ concept_college_45431951773
+ <- concept_college;
+=>nrel_main_idtf:
+	["EduHill"]
+	(* <- lang_ru;; <- name;;*);
+    ["EduHill"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Мирошниченко, 41"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 591-50-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.961701,27.611572"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://eduhill.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

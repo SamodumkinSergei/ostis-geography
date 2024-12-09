@@ -1,0 +1,26 @@
+ concept_college_1109246524
+ <- concept_college;
+=>nrel_main_idtf:
+	["Юридический колледж Белорусского государственного университета"]
+	(* <- lang_ru;; <- name;;*);
+    ["Юридический колледж Белорусского государственного университета"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Комсомольская улица, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 397-12-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:15, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.900173,27.555228"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://lawcollege.bsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

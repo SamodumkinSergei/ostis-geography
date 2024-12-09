@@ -1,0 +1,26 @@
+ concept_hotels_1192970474
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Вояж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Вояж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Якубовского, 52А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 369-42-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.894316,27.450694"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://hotel-vojage.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

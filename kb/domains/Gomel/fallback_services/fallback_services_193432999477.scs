@@ -1,0 +1,26 @@
+ concept_fallback_services_193432999477
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гомельоблсервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельоблсервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Катунина, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 225-26-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.424675,31.004286"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

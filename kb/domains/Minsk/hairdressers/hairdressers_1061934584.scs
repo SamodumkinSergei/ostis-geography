@@ -1,0 +1,26 @@
+ concept_hairdressers_1061934584
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Парикмахерская № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парикмахерская № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Логойский тракт, 15/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 302-64-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.943079,27.608574"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pn1.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

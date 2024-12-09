@@ -1,0 +1,26 @@
+ concept_hotels_174671575357
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["У Груши Арт Апарт-Отель"]
+	(* <- lang_ru;; <- name;;*);
+    ["У Груши Арт Апарт-Отель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Урицкого, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 776-54-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.67986,23.832709"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

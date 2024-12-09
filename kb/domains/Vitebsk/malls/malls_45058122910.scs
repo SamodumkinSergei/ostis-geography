@@ -1,0 +1,26 @@
+ concept_malls_45058122910
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Доброном"]
+	(* <- lang_ru;; <- name;;*);
+    ["Доброном"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Правды, 64А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 144-70-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.186179,30.230057"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dobronom.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

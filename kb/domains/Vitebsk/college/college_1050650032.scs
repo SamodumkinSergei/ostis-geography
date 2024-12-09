@@ -1,0 +1,26 @@
+ concept_college_1050650032
+ <- concept_college;
+=>nrel_main_idtf:
+	["Витебская специальная общеобразовательная школа-интернат"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебская специальная общеобразовательная школа-интернат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Шмырёва, 42А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 227-03-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.157104,30.193567"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitnc.pervroo-vitebsk.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

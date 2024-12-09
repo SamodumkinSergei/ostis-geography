@@ -1,0 +1,26 @@
+ concept_cafe_210726575772
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Тайм аут"]
+	(* <- lang_ru;; <- name;;*);
+    ["Тайм аут"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Куйбышева, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 191-19-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:30–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.915271,27.571192"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

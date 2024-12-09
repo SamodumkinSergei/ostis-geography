@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_151121273931
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Витебский меховой комбинат"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебский меховой комбинат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, 2-я Прибережная улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 224-80-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.16397,30.160242"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

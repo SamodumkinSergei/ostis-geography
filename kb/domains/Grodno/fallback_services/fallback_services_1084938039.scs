@@ -1,0 +1,26 @@
+ concept_fallback_services_1084938039
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гродненский механический завод"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненский механический завод"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Карского, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 271-99-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.679924,23.888647"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gmz.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

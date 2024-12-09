@@ -1,0 +1,26 @@
+ concept_auto_93429961740
+ <- concept_auto;
+=>nrel_main_idtf:
+	["ПетровТрансСервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["ПетровТрансСервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Селицкого, 21Ж"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 250-10-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.816414,27.688898"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://milanagro.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

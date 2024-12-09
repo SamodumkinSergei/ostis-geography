@@ -1,0 +1,26 @@
+ concept_museum_45777484110
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Зал борцовской славы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зал борцовской славы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Калиновского, 55Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 648-31-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–17:00, перерыв 12:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.946526,27.629329"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_theatre_1127901675
+ <- concept_theatre;
+=>nrel_main_idtf:
+	["Экспериментальный театр Eye"]
+	(* <- lang_ru;; <- name;;*);
+    ["Экспериментальный театр Eye"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Фабрициуса, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 365-13-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.890343,27.537666"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://about.me/theater-eye"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

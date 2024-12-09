@@ -1,0 +1,26 @@
+ concept_fallback_services_68055689127
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Арт Гранит"]
+	(* <- lang_ru;; <- name;;*);
+    ["Арт Гранит"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Дзержинского, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 382-80-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.088611,23.69023"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://artgranit-brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

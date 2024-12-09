@@ -1,0 +1,26 @@
+ concept_hotels_65893115855
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Туристская база Минского государственного туристско-экологического центра детей и молодежи"]
+	(* <- lang_ru;; <- name;;*);
+    ["Туристская база Минского государственного туристско-экологического центра детей и молодежи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Воронянского, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 116-83-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:45–18:00, перерыв 13:00–14:00; пт 08:45–16:45, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878199,27.558826"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mgtec.net.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

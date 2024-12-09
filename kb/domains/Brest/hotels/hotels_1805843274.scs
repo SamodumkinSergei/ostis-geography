@@ -1,0 +1,26 @@
+ concept_hotels_1805843274
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Гостиница Брестский гребной канал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гостиница Брестский гребной канал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Октябрьской Революции, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 232-18-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.082338,23.741398"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://rowingbrest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

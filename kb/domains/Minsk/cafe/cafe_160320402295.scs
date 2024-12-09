@@ -1,0 +1,26 @@
+ concept_cafe_160320402295
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Столовая БГЭУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столовая БГЭУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 26/4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 209-88-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–16:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878006,27.605969"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bseu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

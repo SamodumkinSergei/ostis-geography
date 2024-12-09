@@ -1,0 +1,26 @@
+ concept_auto_4705173185
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Могилевский автомобильный завод"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилевский автомобильный завод"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Холмы, Витебский проспект, 5, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 242-25-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–16:30, перерыв 11:30–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.880894,30.402722"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.belaz.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

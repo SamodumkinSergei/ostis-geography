@@ -1,0 +1,26 @@
+ concept_fast_food_152104018727
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["БрестБургер"]
+	(* <- lang_ru;; <- name;;*);
+    ["БрестБургер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Варшавское шоссе, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 386-55-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–08:45, перерыв 20:45–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.076794,23.721885"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brestburger.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

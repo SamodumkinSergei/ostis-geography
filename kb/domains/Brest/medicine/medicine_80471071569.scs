@@ -1,0 +1,26 @@
+ concept_medicine_80471071569
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гинекологический корпус Брестского областного родильного дома"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гинекологический корпус Брестского областного родильного дома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Кирова, 62"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 221-20-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–19:00, перерыв 16:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.092456,23.703091"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bord.brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

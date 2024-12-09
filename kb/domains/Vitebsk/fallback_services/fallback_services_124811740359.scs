@@ -1,0 +1,26 @@
+ concept_fallback_services_124811740359
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Путь к последнему причалу"]
+	(* <- lang_ru;; <- name;;*);
+    ["Путь к последнему причалу"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чехова, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 337-37-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.203736,30.199676"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

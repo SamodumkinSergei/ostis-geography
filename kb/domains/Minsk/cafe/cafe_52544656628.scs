@@ -1,0 +1,26 @@
+ concept_cafe_52544656628
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Ок но"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ок но"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Нововиленская улица, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:00–21:00; пт 08:00–22:00; сб,вс 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.933237,27.532496"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://roast.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

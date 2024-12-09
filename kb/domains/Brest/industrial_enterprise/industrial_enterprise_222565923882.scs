@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_222565923882
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["ВизавиТекстиль"]
+	(* <- lang_ru;; <- name;;*);
+    ["ВизавиТекстиль"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Лейтенанта Рябцева, 90"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 205-12-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.134055,23.672207"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vizavi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

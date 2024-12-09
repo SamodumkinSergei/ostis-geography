@@ -1,0 +1,26 @@
+ concept_fallback_services_64298452671
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Ритуальный магазин от Леонида"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ритуальный магазин от Леонида"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Речицкий проспект, 41А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 614-75-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.410376,30.937211"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://леонид-сервис.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

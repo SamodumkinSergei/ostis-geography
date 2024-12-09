@@ -1,0 +1,26 @@
+ concept_bus_stop_198909250843
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Спецавтобаза"]
+	(* <- lang_ru;; <- name;;*);
+    ["Спецавтобаза"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Старобабиновичский тракт"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.15859,30.264311"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

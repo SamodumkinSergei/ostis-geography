@@ -1,0 +1,26 @@
+ concept_auto_1058287715
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автосервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автосервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Нововиленская улица, 44"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 623-49-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.942369,27.530421"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

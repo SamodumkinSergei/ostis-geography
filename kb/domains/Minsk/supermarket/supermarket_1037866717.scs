@@ -1,0 +1,26 @@
+ concept_supermarket_1037866717
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Соседи"]
+	(* <- lang_ru;; <- name;;*);
+    ["Соседи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Машерова, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 261-79-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916723,27.560369"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sosedi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

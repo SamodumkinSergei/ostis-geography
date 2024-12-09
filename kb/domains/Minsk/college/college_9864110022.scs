@@ -1,0 +1,26 @@
+ concept_college_9864110022
+ <- concept_college;
+=>nrel_main_idtf:
+	["Ихвис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ихвис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, микрорайон Новинки, улица Выготского, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 121-25-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–18:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.956449,27.53851"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://obitel-minsk.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

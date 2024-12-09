@@ -1,0 +1,26 @@
+ concept_government_1108628809
+ <- concept_government;
+=>nrel_main_idtf:
+	["Главное статистическое управление Брестской области"]
+	(* <- lang_ru;; <- name;;*);
+    ["Главное статистическое управление Брестской области"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Машерова, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 220-29-28"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.086499,23.68587"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brest.belstat.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

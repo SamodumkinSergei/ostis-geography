@@ -1,0 +1,26 @@
+ concept_swimming_pool_171142848601
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Бассейн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бассейн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кирова, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 229-70-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–22:00; сб 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.89901,27.565818"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.president-hotel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

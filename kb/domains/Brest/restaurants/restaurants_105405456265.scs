@@ -1,0 +1,26 @@
+ concept_restaurants_105405456265
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["O'delices Brest"]
+	(* <- lang_ru;; <- name;;*);
+    ["O'delices Brest"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Бретань, Финистер, Округ Брест, Брест, Rue Victor Eusen, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 9 87 59 71 96"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["48.379536,-4.535576"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.ubereats.com/brest/food-delivery/o-delices/1SmdYevmQUukHkn9_4gyKw"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

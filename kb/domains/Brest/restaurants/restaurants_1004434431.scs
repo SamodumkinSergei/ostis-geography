@@ -1,0 +1,26 @@
+ concept_restaurants_1004434431
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Чемоdan"]
+	(* <- lang_ru;; <- name;;*);
+    ["Чемоdan"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Комсомольская улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 626-56-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–22:00; сб,вс 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.098365,23.685541"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://santarest.by/kafe-i-restorany/chemodan/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_170085941157
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Кожно-венерологический диспансер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кожно-венерологический диспансер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Сосновая улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.870834,30.398847"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

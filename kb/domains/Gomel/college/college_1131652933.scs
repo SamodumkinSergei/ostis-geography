@@ -1,0 +1,26 @@
+ concept_college_1131652933
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 17 им. Франсиско Де Миранды"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 17 им. Франсиско Де Миранды"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Жукова, 16А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 231-64-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 07:30–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.412493,30.962108"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://17gomel.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

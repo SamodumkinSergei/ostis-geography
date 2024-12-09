@@ -1,0 +1,26 @@
+ concept_college_1399467593
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 131"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 131"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Чижовка, улица Уборевича, 74"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 340-62-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.837982,27.649808"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://131minsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

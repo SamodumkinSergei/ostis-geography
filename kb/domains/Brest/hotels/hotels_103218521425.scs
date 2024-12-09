@@ -1,0 +1,26 @@
+ concept_hotels_103218521425
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Лагуна-Янтарная"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лагуна-Янтарная"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брестский район, агрогородок Мухавец, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 295-95-96"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.027924,23.80423"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://lagunahotel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

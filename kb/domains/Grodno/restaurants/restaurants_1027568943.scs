@@ -1,0 +1,26 @@
+ concept_restaurants_1027568943
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Старый Лямус"]
+	(* <- lang_ru;; <- name;;*);
+    ["Старый Лямус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Дзержинского, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 232-09-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.686413,23.835855"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.markiza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

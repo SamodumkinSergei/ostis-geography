@@ -1,0 +1,26 @@
+ concept_kindergarten_1102049300
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 41 г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 41 г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица 11 Июля, 10А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 253-19-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.396321,31.025791"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sad41gomel.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

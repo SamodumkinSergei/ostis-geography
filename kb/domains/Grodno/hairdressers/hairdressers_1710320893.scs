@@ -1,0 +1,26 @@
+ concept_hairdressers_1710320893
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Дежавю"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дежавю"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Наполеона Орды, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 343-67-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб 09:00–18:00; вс 11:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.620653,23.812437"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_auto_180693270540
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автосервис легковой грузовой"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автосервис легковой грузовой"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 294"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 110-23-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:10"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.34846,31.032056"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

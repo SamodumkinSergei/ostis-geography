@@ -1,0 +1,26 @@
+ concept_cafe_196909532518
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кулинария"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кулинария"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Народная улица, 26/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 250-31-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873259,27.620091"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

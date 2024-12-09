@@ -1,0 +1,26 @@
+ concept_car_park_181094269068
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Паркинг"]
+	(* <- lang_ru;; <- name;;*);
+    ["Паркинг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 65к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 309-54-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–02:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.925645,27.515035"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://tczamok.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

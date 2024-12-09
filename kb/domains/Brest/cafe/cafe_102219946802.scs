@@ -1,0 +1,26 @@
+ concept_cafe_102219946802
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Столовая № 12 Брестского государственного технического университета"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столовая № 12 Брестского государственного технического университета"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 267"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 232-18-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.095748,23.75738"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

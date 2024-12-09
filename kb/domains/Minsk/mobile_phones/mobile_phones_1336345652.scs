@@ -1,0 +1,26 @@
+ concept_mobile_phones_1336345652
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Ремонт телефонов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт телефонов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, проспект Рокоссовского, 80"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 942-69-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 11:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.863203,27.604188"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.service.of.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

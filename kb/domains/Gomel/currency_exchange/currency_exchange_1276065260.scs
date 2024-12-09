@@ -1,0 +1,26 @@
+ concept_currency_exchange_1276065260
+ <- concept_currency_exchange;
+=>nrel_main_idtf:
+	["QIWI"]
+	(* <- lang_ru;; <- name;;*);
+    ["QIWI"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 60"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["8 (800) 100-34-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.439326,31.003522"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://qiwi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

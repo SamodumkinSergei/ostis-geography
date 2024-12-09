@@ -1,0 +1,26 @@
+ concept_clothes_shop_18280213171
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["I Go Go"]
+	(* <- lang_ru;; <- name;;*);
+    ["I Go Go"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 60"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 910-66-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.43923,31.003267"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

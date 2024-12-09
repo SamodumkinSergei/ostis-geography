@@ -1,0 +1,26 @@
+ concept_medicine_236308422722
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Отделение микрохирургии глаза ГКБ № 11"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отделение микрохирургии глаза ГКБ № 11"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Автодоровская улица, 3Е"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 225-52-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.876629,27.522103"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://11gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_supermarket_1003109717
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Продукты"]
+	(* <- lang_ru;; <- name;;*);
+    ["Продукты"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Братьев Лизюковых, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 223-73-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.404426,30.963206"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://holding-gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

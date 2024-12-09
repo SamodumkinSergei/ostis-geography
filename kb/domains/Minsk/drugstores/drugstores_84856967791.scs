@@ -1,0 +1,26 @@
+ concept_drugstores_84856967791
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Дежурная аптека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дежурная аптека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Чижовка, Ташкентская улица, 16, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 373-69-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.840905,27.631555"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_cafe_220418321504
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Gardus"]
+	(* <- lang_ru;; <- name;;*);
+    ["Gardus"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Гинтовта, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 111-00-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–23:00; пт,сб 12:00–02:00; вс 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.946768,27.665402"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gardus.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

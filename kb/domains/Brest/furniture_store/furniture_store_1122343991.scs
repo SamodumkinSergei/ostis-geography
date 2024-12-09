@@ -1,0 +1,26 @@
+ concept_furniture_store_1122343991
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Данарт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Данарт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Дмитрия Донского, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 253-42-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.090013,23.721668"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

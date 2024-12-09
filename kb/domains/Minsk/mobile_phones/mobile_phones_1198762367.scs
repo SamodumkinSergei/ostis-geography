@@ -1,0 +1,26 @@
+ concept_mobile_phones_1198762367
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["АйТи-МИГ"]
+	(* <- lang_ru;; <- name;;*);
+    ["АйТи-МИГ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Городецкая улица, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 387-79-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–20:00; пт 09:00–18:00; сб 11:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.948873,27.685887"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://it-mig.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

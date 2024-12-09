@@ -1,0 +1,26 @@
+ concept_auto_70095443274
+ <- concept_auto;
+=>nrel_main_idtf:
+	["МиниСТО"]
+	(* <- lang_ru;; <- name;;*);
+    ["МиниСТО"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Велосипедный переулок, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 856-56-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.8813,27.586533"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.ministo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

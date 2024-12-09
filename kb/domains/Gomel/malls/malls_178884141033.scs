@@ -1,0 +1,26 @@
+ concept_malls_178884141033
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Русский Лес"]
+	(* <- lang_ru;; <- name;;*);
+    ["Русский Лес"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Борисенко, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 393-01-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.415256,30.922956"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://русскийлес-гомель.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

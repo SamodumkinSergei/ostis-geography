@@ -1,0 +1,26 @@
+ concept_supermarket_27597560406
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Виленский рынок"]
+	(* <- lang_ru;; <- name;;*);
+    ["Виленский рынок"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Лазаренко, 73"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 227-38-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908957,30.308581"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://2019-market.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

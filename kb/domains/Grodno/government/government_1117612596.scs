@@ -1,0 +1,26 @@
+ concept_government_1117612596
+ <- concept_government;
+=>nrel_main_idtf:
+	["Гродненский городской исполнительный комитет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненский городской исполнительный комитет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, площадь Ленина, 2/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 272-04-71"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.683839,23.833424"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://grodno.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

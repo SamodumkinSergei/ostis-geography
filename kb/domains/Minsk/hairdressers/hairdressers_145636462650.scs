@@ -1,0 +1,26 @@
+ concept_hairdressers_145636462650
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Цирюльня"]
+	(* <- lang_ru;; <- name;;*);
+    ["Цирюльня"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Фрунзенский район, Домбровка-3, улица Алеся Гаруна, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 313-52-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,ср,пт 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.920557,27.445427"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_office_service_68625184880
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Офис продаж ЖК Малиновка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Офис продаж ЖК Малиновка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Карьерная улица, 13А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 200-22-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–18:30; сб,вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.063846,23.757422"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mln.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

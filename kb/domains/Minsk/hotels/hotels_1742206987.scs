@@ -1,0 +1,26 @@
+ concept_hotels_1742206987
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Hampton by Hilton Minsk city Centre"]
+	(* <- lang_ru;; <- name;;*);
+    ["Hampton by Hilton Minsk city Centre"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Льва Толстого, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 215-40-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.888815,27.543472"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.hilton.ru/hotels/hampton-by-hilton-minsk-city-centre/?WT.mc_id=zELWAKN0EMEA1HP2DMH3LocalSearch4DGGenericx6MSQHXHX"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

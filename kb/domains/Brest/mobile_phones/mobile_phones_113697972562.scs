@@ -1,0 +1,26 @@
+ concept_mobile_phones_113697972562
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["IT-Expert"]
+	(* <- lang_ru;; <- name;;*);
+    ["IT-Expert"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гаврилова, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 898-65-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:30–18:30, перерыв 13:00–14:00; сб 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.109177,23.774089"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://it-expert.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

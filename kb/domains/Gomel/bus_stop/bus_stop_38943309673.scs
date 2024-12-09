@@ -1,0 +1,26 @@
+ concept_bus_stop_38943309673
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Куйбышевский проезд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Куйбышевский проезд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Куйбышевский проезд, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.418518,30.970379"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

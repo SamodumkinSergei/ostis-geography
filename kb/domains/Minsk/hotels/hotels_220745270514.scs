@@ -1,0 +1,26 @@
+ concept_hotels_220745270514
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Jacuzzi VIP Smart ApartHotel"]
+	(* <- lang_ru;; <- name;;*);
+    ["Jacuzzi VIP Smart ApartHotel"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Скрыганова, 4Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 994-50-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910113,27.519736"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kaskadapartcomplex.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_cafe_1265523138
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Rosso"]
+	(* <- lang_ru;; <- name;;*);
+    ["Rosso"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Веры Хоружей, 36"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 757-67-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–22:00; сб,вс 11:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.923263,27.558997"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

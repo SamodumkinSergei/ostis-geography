@@ -1,0 +1,26 @@
+ concept_bus_stop_172577111060
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["ОАО Ольса"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОАО Ольса"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Техноприбор"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910528,30.381734"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_152334450381
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Rg"]
+	(* <- lang_ru;; <- name;;*);
+    ["Rg"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Черняховского, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 601-35-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.179699,30.201459"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ritualgranit.by/vitebsk/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

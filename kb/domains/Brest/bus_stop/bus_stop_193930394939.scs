@@ -1,0 +1,26 @@
+ concept_bus_stop_193930394939
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Карла Маркса"]
+	(* <- lang_ru;; <- name;;*);
+    ["Карла Маркса"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Карла Маркса, 68"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.088594,23.68911"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

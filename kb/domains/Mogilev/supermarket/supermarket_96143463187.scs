@@ -1,0 +1,26 @@
+ concept_supermarket_96143463187
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Оптовичок"]
+	(* <- lang_ru;; <- name;;*);
+    ["Оптовичок"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Холмы, Витебский проспект, 60"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 263-70-96"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.884995,30.417442"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

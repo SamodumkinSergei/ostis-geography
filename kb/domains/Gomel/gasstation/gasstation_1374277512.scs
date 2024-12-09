@@ -1,0 +1,26 @@
+ concept_gasstation_1374277512
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Газпромнефть"]
+	(* <- lang_ru;; <- name;;*);
+    ["Газпромнефть"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Луначарского, 60А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["8 (800) 700-51-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.408144,31.039415"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gpncard.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

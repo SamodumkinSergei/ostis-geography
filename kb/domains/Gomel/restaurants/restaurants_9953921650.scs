@@ -1,0 +1,26 @@
+ concept_restaurants_9953921650
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Kase pizza"]
+	(* <- lang_ru;; <- name;;*);
+    ["Kase pizza"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельская область, Калинковичи, улица Князева, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 354-98-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.133076,29.342561"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

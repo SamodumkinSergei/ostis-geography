@@ -1,0 +1,26 @@
+ concept_drugstores_127017269652
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Планета Здоровья"]
+	(* <- lang_ru;; <- name;;*);
+    ["Планета Здоровья"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Симонова, 69"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 601-64-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.8631,30.308383"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://healthplanet.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

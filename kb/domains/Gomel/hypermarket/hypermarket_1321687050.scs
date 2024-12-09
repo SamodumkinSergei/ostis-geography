@@ -1,0 +1,26 @@
+ concept_hypermarket_1321687050
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Светлотекс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Светлотекс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельская область, Светлогорск, Заводская улица, 5Б-1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 423-89-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.613397,29.776418"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://svetlotex.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

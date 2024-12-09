@@ -1,0 +1,26 @@
+ concept_police_198906996928
+ <- concept_police;
+=>nrel_main_idtf:
+	["Управление Департамента исполнения наказаний МВД Республики Беларусь по Гомельской области"]
+	(* <- lang_ru;; <- name;;*);
+    ["Управление Департамента исполнения наказаний МВД Республики Беларусь по Гомельской области"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Любенский, улица 60 лет СССР, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 230-04-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.406136,30.976627"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.mvd.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

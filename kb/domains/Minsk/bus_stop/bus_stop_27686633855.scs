@@ -1,0 +1,26 @@
+ concept_bus_stop_27686633855
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Кольцевая дорога"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кольцевая дорога"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Герасименко"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.872793,27.69136"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

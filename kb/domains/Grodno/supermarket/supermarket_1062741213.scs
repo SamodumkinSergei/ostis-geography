@@ -1,0 +1,26 @@
+ concept_supermarket_1062741213
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Алми"]
+	(* <- lang_ru;; <- name;;*);
+    ["Алми"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Кабяка, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 258-17-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–01:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.64327,23.851107"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://almi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

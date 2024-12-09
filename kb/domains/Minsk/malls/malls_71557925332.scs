@@ -1,0 +1,26 @@
+ concept_malls_71557925332
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Магазин сумок и чемоданов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин сумок и чемоданов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Казинца, 52А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 775-07-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.855646,27.510915"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

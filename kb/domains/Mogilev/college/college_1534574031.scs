@@ -1,0 +1,26 @@
+ concept_college_1534574031
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГУО Могилёвский профессиональный электротехнический колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО Могилёвский профессиональный электротехнический колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Якубовского, 18к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 233-08-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917433,30.308947"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mpek.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

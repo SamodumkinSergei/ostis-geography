@@ -1,0 +1,26 @@
+ concept_bus_stop_65067856545
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Национальный аэропорт Минск"]
+	(* <- lang_ru;; <- name;;*);
+    ["Национальный аэропорт Минск"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Октябрьский район, национальный аэропорт Минск"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.889746,28.03212"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_134258790976
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Доставка еды и обедов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Доставка еды и обедов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Максима Горецкого, 95"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 712-07-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.894522,27.434675"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://plp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

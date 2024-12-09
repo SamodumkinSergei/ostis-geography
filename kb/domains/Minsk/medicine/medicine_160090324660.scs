@@ -1,0 +1,26 @@
+ concept_medicine_160090324660
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Минский городской консультативно-диагностический офтальмологический центр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский городской консультативно-диагностический офтальмологический центр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ульяновская улица, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 327-32-97"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.895675,27.564555"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://3gkb.by/otdeleniya/gorodskoj-oftalmologicheskij-konsultativno-diagnosticheskij-tsentr"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

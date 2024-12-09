@@ -1,0 +1,26 @@
+ concept_bus_station_179129542781
+ <- concept_bus_station;
+=>nrel_main_idtf:
+	["Автостанция"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостанция"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебская область, городской посёлок Шумилино, Ленинская улица, 44"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 305-78-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:30–19:30, перерыв 11:30–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.302277,29.615971"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

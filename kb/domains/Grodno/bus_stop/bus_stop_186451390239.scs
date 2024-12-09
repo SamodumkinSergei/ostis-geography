@@ -1,0 +1,26 @@
+ concept_bus_stop_186451390239
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Грандичская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Грандичская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Грандичская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.721232,23.813451"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_gasstation_1820841639
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Белнефтехим"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белнефтехим"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Гурского, 30Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 370-84-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.882237,27.47537"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://azs.belorusneft.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

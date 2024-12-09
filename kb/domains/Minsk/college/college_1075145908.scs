@@ -1,0 +1,26 @@
+ concept_college_1075145908
+ <- concept_college;
+=>nrel_main_idtf:
+	["Санаторная школа-интернат № 9 г. Минска для детей с заболеваниями Костно-мышечной системы и соединительной ткани"]
+	(* <- lang_ru;; <- name;;*);
+    ["Санаторная школа-интернат № 9 г. Минска для детей с заболеваниями Костно-мышечной системы и соединительной ткани"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Октябрьский район, микрорайон Курасовщина, Черниговская улица, 46/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 348-40-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.860601,27.529537"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://schi9.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_car_park_118920125558
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Платная стоянка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Платная стоянка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, 1-й Извозный переулок"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 383-20-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.88968,27.526342"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

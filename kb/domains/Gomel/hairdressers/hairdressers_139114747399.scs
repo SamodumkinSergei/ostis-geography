@@ -1,0 +1,26 @@
+ concept_hairdressers_139114747399
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Адель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Адель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица 50 лет Завода Гомсельмаш, 4А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 756-53-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 09:00–19:00; вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.449943,30.964866"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

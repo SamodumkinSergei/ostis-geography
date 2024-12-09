@@ -1,0 +1,26 @@
+ concept_malls_183997715463
+ <- concept_malls;
+=>nrel_main_idtf:
+	["РубинШоп"]
+	(* <- lang_ru;; <- name;;*);
+    ["РубинШоп"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 334-34-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.888532,27.521189"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rubinshop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

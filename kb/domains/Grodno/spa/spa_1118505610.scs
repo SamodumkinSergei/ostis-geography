@@ -1,0 +1,26 @@
+ concept_spa_1118505610
+ <- concept_spa;
+=>nrel_main_idtf:
+	["Салон-парикмахерская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Салон-парикмахерская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Тавлая, 30А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 296-91-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["сб 10:00–18:00; вс 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.700059,23.854406"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

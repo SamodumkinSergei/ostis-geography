@@ -1,0 +1,26 @@
+ concept_auto_12899126268
+ <- concept_auto;
+=>nrel_main_idtf:
+	["СТО Правда"]
+	(* <- lang_ru;; <- name;;*);
+    ["СТО Правда"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Бородинская улица, 2, корп. 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 314-82-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.857623,27.561781"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sto-pravda.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

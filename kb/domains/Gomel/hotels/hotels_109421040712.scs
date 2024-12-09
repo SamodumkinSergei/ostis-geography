@@ -1,0 +1,26 @@
+ concept_hotels_109421040712
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["ГОЦОР по игровым видам спорта"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГОЦОР по игровым видам спорта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Ирининская улица, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 234-39-89"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.428013,31.005082"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

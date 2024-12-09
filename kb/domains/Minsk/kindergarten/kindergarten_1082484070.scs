@@ -1,0 +1,26 @@
+ concept_kindergarten_1082484070
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 342"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 342"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Уручская улица, 4А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 355-57-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.949925,27.696472"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu342.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

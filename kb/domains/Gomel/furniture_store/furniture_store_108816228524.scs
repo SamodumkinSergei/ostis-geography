@@ -1,0 +1,26 @@
+ concept_furniture_store_108816228524
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Мебельторг"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мебельторг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельская область, Ветка, Комсомольская улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 304-36-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.563402,31.168558"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mebeltorg.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

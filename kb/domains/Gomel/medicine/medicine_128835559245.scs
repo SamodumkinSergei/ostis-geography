@@ -1,0 +1,26 @@
+ concept_medicine_128835559245
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гомельская областная клиническая больница, приёмное отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельская областная клиническая больница, приёмное отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Братьев Лизюковых, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 234-72-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.401868,30.951195"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

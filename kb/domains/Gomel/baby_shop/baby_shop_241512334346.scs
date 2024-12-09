@@ -1,0 +1,26 @@
+ concept_baby_shop_241512334346
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Наши детки"]
+	(* <- lang_ru;; <- name;;*);
+    ["Наши детки"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 60"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 371-65-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.439058,31.003333"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://detki.gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

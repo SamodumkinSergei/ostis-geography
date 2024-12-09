@@ -1,0 +1,26 @@
+ concept_bus_stop_147289218953
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Interestmedical"]
+	(* <- lang_ru;; <- name;;*);
+    ["Interestmedical"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Центральный район, Веснянка, Радужная улица, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 691-82-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.932924,27.489274"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.interestmedical.ee/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_government_210271217252
+ <- concept_government;
+=>nrel_main_idtf:
+	["Департамент по гуманитарной деятельности, управление по Брестской области"]
+	(* <- lang_ru;; <- name;;*);
+    ["Департамент по гуманитарной деятельности, управление по Брестской области"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Мицкевича, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 253-16-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.095416,23.683605"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dha.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

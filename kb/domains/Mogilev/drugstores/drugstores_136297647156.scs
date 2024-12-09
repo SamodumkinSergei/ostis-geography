@@ -1,0 +1,26 @@
+ concept_drugstores_136297647156
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 23"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 23"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Космонавтов, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 278-46-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–22:00; сб,вс 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912088,30.319183"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://healthplanet.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

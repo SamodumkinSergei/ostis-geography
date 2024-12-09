@@ -1,0 +1,26 @@
+ concept_auto_125800872040
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Dsg Service Minsk"]
+	(* <- lang_ru;; <- name;;*);
+    ["Dsg Service Minsk"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, 1-й Твёрдый переулок, 11к3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 187-75-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908445,27.60168"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://dsgservice.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

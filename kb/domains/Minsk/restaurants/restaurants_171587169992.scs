@@ -1,0 +1,26 @@
+ concept_restaurants_171587169992
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Бар Столичный"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бар Столичный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, бульвар Мулявина, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.915178,27.58473"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

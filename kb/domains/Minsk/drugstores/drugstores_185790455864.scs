@@ -1,0 +1,26 @@
+ concept_drugstores_185790455864
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека ООО Табина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека ООО Табина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 52"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 399-12-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916077,27.585082"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

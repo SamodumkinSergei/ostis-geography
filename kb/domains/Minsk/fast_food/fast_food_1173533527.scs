@@ -1,0 +1,26 @@
+ concept_fast_food_1173533527
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Pizza Market"]
+	(* <- lang_ru;; <- name;;*);
+    ["Pizza Market"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ложинская улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 112-11-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.946729,27.688202"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pizzamarket.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

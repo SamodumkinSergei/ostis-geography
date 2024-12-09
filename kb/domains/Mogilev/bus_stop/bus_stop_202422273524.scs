@@ -1,0 +1,26 @@
+ concept_bus_stop_202422273524
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Река Дубровенка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Река Дубровенка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Интернациональная улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901214,30.326693"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

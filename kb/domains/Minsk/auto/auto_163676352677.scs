@@ -1,0 +1,26 @@
+ concept_auto_163676352677
+ <- concept_auto;
+=>nrel_main_idtf:
+	["СТО MyService"]
+	(* <- lang_ru;; <- name;;*);
+    ["СТО MyService"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Калиновского, 111, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 683-33-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.946469,27.647244"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mys.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

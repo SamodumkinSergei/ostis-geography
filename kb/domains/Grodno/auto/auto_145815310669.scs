@@ -1,0 +1,26 @@
+ concept_auto_145815310669
+ <- concept_auto;
+=>nrel_main_idtf:
+	["УКС города Гродно"]
+	(* <- lang_ru;; <- name;;*);
+    ["УКС города Гродно"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Гаражная улица, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 781-15-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.637117,23.838356"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.autogrodno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

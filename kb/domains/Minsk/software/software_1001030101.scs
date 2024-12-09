@@ -1,0 +1,26 @@
+ concept_software_1001030101
+ <- concept_software;
+=>nrel_main_idtf:
+	["Эпам Системз"]
+	(* <- lang_ru;; <- name;;*);
+    ["Эпам Системз"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Академика Купревича, 3В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 389-01-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.928476,27.685385"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.epam.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_12263611877
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Средняя школа № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Колесника"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.073806,23.723334"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

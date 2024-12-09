@@ -1,0 +1,26 @@
+ concept_fallback_services_2556712676
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Нордит"]
+	(* <- lang_ru;; <- name;;*);
+    ["Нордит"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Советская улица, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 667-07-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.68235,23.831536"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://nordit.by/grodno"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

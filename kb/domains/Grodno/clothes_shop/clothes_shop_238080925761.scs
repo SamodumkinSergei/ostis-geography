@@ -1,0 +1,26 @@
+ concept_clothes_shop_238080925761
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Мегабрэнд Одежда Из Европы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мегабрэнд Одежда Из Европы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Южная улица, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 239-02-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.634977,23.852996"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://secondgrodno.by/pages/yujnaya30.html"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

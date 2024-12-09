@@ -1,0 +1,26 @@
+ concept_college_1308042228
+ <- concept_college;
+=>nrel_main_idtf:
+	["БНТУ, паспортный стол"]
+	(* <- lang_ru;; <- name;;*);
+    ["БНТУ, паспортный стол"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурганова, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 292-62-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,ср,чт,пт 10:00–16:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.925488,27.590842"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bntu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

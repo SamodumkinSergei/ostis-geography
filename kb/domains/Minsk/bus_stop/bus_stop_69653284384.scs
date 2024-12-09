@@ -1,0 +1,26 @@
+ concept_bus_stop_69653284384
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Автобаза"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автобаза"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ванеева"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.875846,27.593171"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

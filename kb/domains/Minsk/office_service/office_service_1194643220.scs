@@ -1,0 +1,26 @@
+ concept_office_service_1194643220
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Новый офис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Новый офис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Фабрициуса, 8Б, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 218-33-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.88967,27.536871"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.noffice.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

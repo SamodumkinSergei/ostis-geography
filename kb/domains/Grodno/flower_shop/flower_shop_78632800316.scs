@@ -1,0 +1,26 @@
+ concept_flower_shop_78632800316
+ <- concept_flower_shop;
+=>nrel_main_idtf:
+	["Romashka"]
+	(* <- lang_ru;; <- name;;*);
+    ["Romashka"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Социалистическая улица, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 708-60-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.678566,23.834258"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.romashka-shop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

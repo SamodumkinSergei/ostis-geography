@@ -1,0 +1,26 @@
+ concept_hotels_9607518783
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Hôtel ibis Brest Centre"]
+	(* <- lang_ru;; <- name;;*);
+    ["Hôtel ibis Brest Centre"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Франция, Брест, 13 Rue De Siam"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 2 98 46 20 21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["48.38509,-4.49286"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.accorhotels.com/lien_externe.svlt?code_hotel=1369&goto=fiche_hotel&merchantid=par-triv-&sourceid=fh-ibh-b1-1369&xtor=al-171-[trivago]-[zz]-[0]-[ibh]-[0]"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

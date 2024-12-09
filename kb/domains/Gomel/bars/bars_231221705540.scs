@@ -1,0 +1,26 @@
+ concept_bars_231221705540
+ <- concept_bars;
+=>nrel_main_idtf:
+	["Чисто на Ланге"]
+	(* <- lang_ru;; <- name;;*);
+    ["Чисто на Ланге"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ланге, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 338-38-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–00:00; пт,сб 12:00–01:00; вс 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.427601,31.015074"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.4isto.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

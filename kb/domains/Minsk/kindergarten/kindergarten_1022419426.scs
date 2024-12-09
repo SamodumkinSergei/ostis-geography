@@ -1,0 +1,26 @@
+ concept_kindergarten_1022419426
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Детский сад № 528"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский сад № 528"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Левкова, 8, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 222-16-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.882101,27.555388"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu528.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

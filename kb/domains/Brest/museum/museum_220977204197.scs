@@ -1,0 +1,26 @@
+ concept_museum_220977204197
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Российский центр науки и культуры"]
+	(* <- lang_ru;; <- name;;*);
+    ["Российский центр науки и культуры"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 208А/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 227-28-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.096762,23.741904"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://blr-brest.rs.gov.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

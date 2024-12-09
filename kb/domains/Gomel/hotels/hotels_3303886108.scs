@@ -1,0 +1,26 @@
+ concept_hotels_3303886108
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Chapelle du Miracle"]
+	(* <- lang_ru;; <- name;;*);
+    ["Chapelle du Miracle"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Франция, Авиньон, 13 Rue Velouterie"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 6 63 13 65 67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["43.94448,4.7995"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.lachapelledumiracle.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

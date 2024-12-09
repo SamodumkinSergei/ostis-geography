@@ -1,0 +1,26 @@
+ concept_library_243353930471
+ <- concept_library;
+=>nrel_main_idtf:
+	["Детская библиотека-филиал имени А. С. Пушкина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детская библиотека-филиал имени А. С. Пушкина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пушкинский проспект, 36"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 242-88-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 10:00–18:00; вт-пт 09:00–19:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.871467,30.348421"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dbpushkina.mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

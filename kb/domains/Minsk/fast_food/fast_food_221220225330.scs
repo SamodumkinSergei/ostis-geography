@@ -1,0 +1,26 @@
+ concept_fast_food_221220225330
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["FoodStore"]
+	(* <- lang_ru;; <- name;;*);
+    ["FoodStore"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Сеницкий сельсовет, Атолино, Молодёжная улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.78772,27.429977"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

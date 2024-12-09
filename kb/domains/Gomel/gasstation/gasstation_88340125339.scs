@@ -1,0 +1,26 @@
+ concept_gasstation_88340125339
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["АЗС"]
+	(* <- lang_ru;; <- name;;*);
+    ["АЗС"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Железнодорожный район, район Новая Мильча, улица Дружбы, 169"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 127-47-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.434824,30.893819"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

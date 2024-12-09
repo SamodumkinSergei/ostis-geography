@@ -1,0 +1,26 @@
+ concept_museum_1069433281
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Дом культуры Вгавм"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дом культуры Вгавм"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, 1-я улица Доватора, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 251-75-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:30; сб 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.196708,30.21384"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.vsavm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

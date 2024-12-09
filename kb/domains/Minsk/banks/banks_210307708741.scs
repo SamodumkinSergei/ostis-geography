@@ -1,0 +1,26 @@
+ concept_banks_210307708741
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Всемирный банк, представительство в Республике Беларусь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Всемирный банк, представительство в Республике Беларусь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Румянцева, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 359-19-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906686,27.575875"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://worldbank.org/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

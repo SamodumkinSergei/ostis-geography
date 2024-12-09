@@ -1,0 +1,26 @@
+ concept_hotels_37786563637
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Дом у Роберта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дом у Роберта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, 1-я Прибережная улица, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 197-91-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.16304,30.13943"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

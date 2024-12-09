@@ -1,0 +1,26 @@
+ concept_fire_station_1107761265
+ <- concept_fire_station;
+=>nrel_main_idtf:
+	["Пожарная аварийно-спасательная часть № 35"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пожарная аварийно-спасательная часть № 35"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Космонавтов, 50"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.846486,27.454753"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mchs.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

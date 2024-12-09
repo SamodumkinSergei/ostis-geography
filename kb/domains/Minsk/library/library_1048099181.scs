@@ -1,0 +1,26 @@
+ concept_library_1048099181
+ <- concept_library;
+=>nrel_main_idtf:
+	["Детская библиотека № 11"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детская библиотека № 11"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Жудро, 69"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 392-32-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 10:00–19:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.922796,27.481753"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://childlib.by/o-nas/biblioteki/detskaya-biblioteka-11/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

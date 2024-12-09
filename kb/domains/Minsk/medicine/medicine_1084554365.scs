@@ -1,0 +1,26 @@
+ concept_medicine_1084554365
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["УЗ 8-я городская поликлиника"]
+	(* <- lang_ru;; <- name;;*);
+    ["УЗ 8-я городская поликлиника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Никифорова, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 395-28-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.939537,27.688848"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.8gp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

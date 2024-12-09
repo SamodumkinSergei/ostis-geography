@@ -1,0 +1,26 @@
+ concept_fast_food_233560687458
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Gruzin.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Gruzin.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ложинская улица, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 355-31-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:00–23:00; пт,сб 11:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.94695,27.684123"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gruzin.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

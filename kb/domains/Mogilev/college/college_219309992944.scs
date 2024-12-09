@@ -1,0 +1,26 @@
+ concept_college_219309992944
+ <- concept_college;
+=>nrel_main_idtf:
+	["Медицинский колледж, учебный корпус № 4"]
+	(* <- lang_ru;; <- name;;*);
+    ["Медицинский колледж, учебный корпус № 4"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Карла Маркса, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 277-61-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897004,30.339796"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://med1.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

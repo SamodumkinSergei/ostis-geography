@@ -1,0 +1,26 @@
+ concept_college_1115578061
+ <- concept_college;
+=>nrel_main_idtf:
+	["Могилёвский государственный областной институт развития образования"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилёвский государственный областной институт развития образования"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Берёзовский переулок, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 274-06-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:20, перерыв 13:00–13:20"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.923358,30.361079"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogileviro.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_furniture_store_1038705180
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Фабрика Кветка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фабрика Кветка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Объездная улица, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 646-04-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.419256,30.88973"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

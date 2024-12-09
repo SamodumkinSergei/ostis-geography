@@ -1,0 +1,26 @@
+ concept_malls_109410534022
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Рич-маркет, офис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Рич-маркет, офис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Калиновского, 77А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 982-31-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.946007,27.637627"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://dyson.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

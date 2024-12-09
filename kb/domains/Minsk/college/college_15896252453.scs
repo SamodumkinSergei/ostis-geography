@@ -1,0 +1,26 @@
+ concept_college_15896252453
+ <- concept_college;
+=>nrel_main_idtf:
+	["Институт магистерской подготовки БГЭУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Институт магистерской подготовки БГЭУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 16А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 209-88-71"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878953,27.603778"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://imp.bseu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

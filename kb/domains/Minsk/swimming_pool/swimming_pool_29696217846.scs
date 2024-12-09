@@ -1,0 +1,26 @@
+ concept_swimming_pool_29696217846
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Спорткомбинат Лазурный"]
+	(* <- lang_ru;; <- name;;*);
+    ["Спорткомбинат Лазурный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Козлова, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 369-22-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–21:00; сб 09:00–19:00; вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907276,27.589736"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sklazurniy.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

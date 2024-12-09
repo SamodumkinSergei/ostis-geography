@@ -1,0 +1,26 @@
+ concept_hairdressers_205227416328
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Chop-Chop"]
+	(* <- lang_ru;; <- name;;*);
+    ["Chop-Chop"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 38"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 733-22-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907801,27.575652"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://chopchop.me/city/minsk"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

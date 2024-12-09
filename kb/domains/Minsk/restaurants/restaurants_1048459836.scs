@@ -1,0 +1,26 @@
+ concept_restaurants_1048459836
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Сатурн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сатурн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Долгобродская улица, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 379-99-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–04:00; пт,сб 10:00–05:00; вс 10:00–04:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.8899,27.61368"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.saturn-club.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

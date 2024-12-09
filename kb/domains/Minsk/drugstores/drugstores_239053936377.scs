@@ -1,0 +1,26 @@
+ concept_drugstores_239053936377
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Маршала Лосика, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 680-75-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб 10:00–20:00; вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873553,27.442845"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://dpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_restaurants_231430891796
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Мадам Коко"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мадам Коко"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Карла Маркса, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 677-89-89"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.896786,27.55413"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://madamekoko.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

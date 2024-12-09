@@ -1,0 +1,26 @@
+ concept_government_58150618408
+ <- concept_government;
+=>nrel_main_idtf:
+	["Управление по образованию администрации Московского района г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Управление по образованию администрации Московского района г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Алибегова, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 356-84-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:45–18:00, перерыв 13:00–14:00; пт 08:45–16:45, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.871021,27.469475"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mosue.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

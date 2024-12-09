@@ -1,0 +1,26 @@
+ concept_furniture_store_59499867596
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["МиаМебель"]
+	(* <- lang_ru;; <- name;;*);
+    ["МиаМебель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 653-43-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.414632,30.924874"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://panfasad.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

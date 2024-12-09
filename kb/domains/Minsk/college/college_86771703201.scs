@@ -1,0 +1,26 @@
+ concept_college_86771703201
+ <- concept_college;
+=>nrel_main_idtf:
+	["Ипд, факультет экономики и бизнеса"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ипд, факультет экономики и бизнеса"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Судмалиса, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 298-24-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.889824,27.587128"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.uoipd.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

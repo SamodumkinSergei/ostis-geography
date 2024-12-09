@@ -1,0 +1,26 @@
+ concept_railway_terminal_166722843739
+ <- concept_railway_terminal;
+=>nrel_main_idtf:
+	["Витебский вокзал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебский вокзал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Санкт-Петербург, Загородный проспект, 52А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["8 (800) 775-00-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["59.920149,30.328852"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitebsky.dzvr.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

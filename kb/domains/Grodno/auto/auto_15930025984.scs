@@ -1,0 +1,26 @@
+ concept_auto_15930025984
+ <- concept_auto;
+=>nrel_main_idtf:
+	["АвтоМастер"]
+	(* <- lang_ru;; <- name;;*);
+    ["АвтоМастер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Ткацкая улица, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 666-64-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.676115,23.773359"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://avtomastergrodno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

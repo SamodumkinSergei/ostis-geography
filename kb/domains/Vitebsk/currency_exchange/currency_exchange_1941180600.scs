@@ -1,0 +1,26 @@
+ concept_currency_exchange_1941180600
+ <- concept_currency_exchange;
+=>nrel_main_idtf:
+	["Банк БелВЭБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Банк БелВЭБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Гагарина, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 215-61-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.206863,30.2192"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belveb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

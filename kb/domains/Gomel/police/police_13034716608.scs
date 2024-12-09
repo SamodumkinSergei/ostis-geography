@@ -1,0 +1,26 @@
+ concept_police_13034716608
+ <- concept_police;
+=>nrel_main_idtf:
+	["Отдел департамента охраны МВД"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отдел департамента охраны МВД"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельская область, Мозырь, улица Пушкина, 51"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 624-21-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.045847,29.254329"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ohrana.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

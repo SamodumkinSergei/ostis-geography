@@ -1,0 +1,26 @@
+ concept_fast_food_139977500697
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Grill box"]
+	(* <- lang_ru;; <- name;;*);
+    ["Grill box"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 828-37-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 09:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.934633,27.448643"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

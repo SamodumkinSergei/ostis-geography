@@ -1,0 +1,26 @@
+ concept_restaurants_232923225486
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Бистро о'Да!"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бистро о'Да!"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Мстиславца, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 109-44-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–23:00; сб,вс 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.931445,27.651271"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://o-da.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

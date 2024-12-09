@@ -1,0 +1,26 @@
+ concept_malls_1009934326
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Мир моды-1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мир моды-1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева, 125, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 259-62-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 10:00–18:00; сб,вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.936221,27.447916"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://zhdanovichi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

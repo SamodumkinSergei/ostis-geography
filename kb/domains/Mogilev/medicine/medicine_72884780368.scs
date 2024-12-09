@@ -1,0 +1,26 @@
+ concept_medicine_72884780368
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Любужская областная психиатрическая больница, лечебный корпус"]
+	(* <- lang_ru;; <- name;;*);
+    ["Любужская областная психиатрическая больница, лечебный корпус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Холмы, Витебский проспект, 70"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 273-65-97"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.887809,30.427783"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.mopb.mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

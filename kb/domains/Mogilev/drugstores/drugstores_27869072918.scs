@@ -1,0 +1,26 @@
+ concept_drugstores_27869072918
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 204"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 204"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Привокзальная площадь, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 264-97-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–19:20, перерыв 12:40–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.926166,30.33867"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_kindergarten_1021645148
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 362"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 362"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Жудро, 41"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 365-50-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.918242,27.476049"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu362.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

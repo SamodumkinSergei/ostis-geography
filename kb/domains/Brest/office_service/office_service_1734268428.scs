@@ -1,0 +1,26 @@
+ concept_office_service_1734268428
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Брестский городской центр по управлению недвижимостью"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестский городской центр по управлению недвижимостью"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Ленина, 50"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 253-81-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.090477,23.687689"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bgcn.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

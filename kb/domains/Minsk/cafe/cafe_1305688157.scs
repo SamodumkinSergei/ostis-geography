@@ -1,0 +1,26 @@
+ concept_cafe_1305688157
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Грюнвальд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Грюнвальд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Карла Маркса, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 177-56-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–00:00; сб,вс 10:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.896684,27.554548"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.grunvaldcafe.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

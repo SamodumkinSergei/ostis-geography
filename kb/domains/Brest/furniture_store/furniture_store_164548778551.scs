@@ -1,0 +1,26 @@
+ concept_furniture_store_164548778551
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Mebelplus-brest"]
+	(* <- lang_ru;; <- name;;*);
+    ["Mebelplus-brest"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 348/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 528-84-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.1039,23.773618"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

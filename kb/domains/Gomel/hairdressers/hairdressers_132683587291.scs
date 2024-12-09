@@ -1,0 +1,26 @@
+ concept_hairdressers_132683587291
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Keratin_Gomel"]
+	(* <- lang_ru;; <- name;;*);
+    ["Keratin_Gomel"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Головацкого, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 530-66-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.447548,31.000967"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://keratingm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_restaurants_19068566455
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Ristorant 1 pizza"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ristorant 1 pizza"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Немига, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901893,27.54769"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

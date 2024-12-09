@@ -1,0 +1,26 @@
+ concept_museum_1128622168
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Государственный литературно-мемориальный музей Якуба Коласа"]
+	(* <- lang_ru;; <- name;;*);
+    ["Государственный литературно-мемориальный музей Якуба Коласа"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Академическая улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 270-19-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.91948,27.600145"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kolasmuseum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

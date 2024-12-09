@@ -1,0 +1,26 @@
+ concept_drugstores_224725036917
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Любимая аптека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Любимая аптека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Чижовка, улица Голодеда, 34А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 259-44-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.840299,27.636627"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://l-a.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

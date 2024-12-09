@@ -1,0 +1,26 @@
+ concept_hypermarket_196532063094
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["СтройДомСити"]
+	(* <- lang_ru;; <- name;;*);
+    ["СтройДомСити"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Карьерная улица, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 225-14-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.069418,23.74957"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

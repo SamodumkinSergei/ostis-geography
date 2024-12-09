@@ -1,0 +1,26 @@
+ concept_fallback_services_61778898662
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["МедСервисТранс"]
+	(* <- lang_ru;; <- name;;*);
+    ["МедСервисТранс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Песина, 42"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 273-00-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,ср,пт 09:00–17:30, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.441069,31.00033"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://microlife.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_242670807235
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Кабяка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Кабяка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Кабяка"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.643219,23.848706"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

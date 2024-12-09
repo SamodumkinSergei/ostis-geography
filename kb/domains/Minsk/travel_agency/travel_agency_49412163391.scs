@@ -1,0 +1,26 @@
+ concept_travel_agency_49412163391
+ <- concept_travel_agency;
+=>nrel_main_idtf:
+	["Couple House Minsk"]
+	(* <- lang_ru;; <- name;;*);
+    ["Couple House Minsk"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Сеницкий сельсовет, Атолино, Янтарная улица, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 567-54-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.771157,27.448383"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

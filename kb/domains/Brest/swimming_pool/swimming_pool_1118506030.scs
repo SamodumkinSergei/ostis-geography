@@ -1,0 +1,26 @@
+ concept_swimming_pool_1118506030
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Дельфин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дельфин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Кривошеина, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 225-13-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 19:00–21:00; сб 18:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.10194,23.75589"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://10brest.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_restaurants_1341910483
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Гурман"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гурман"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Чичерина, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 243-67-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912136,27.563396"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.tifani.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

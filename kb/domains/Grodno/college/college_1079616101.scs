@@ -1,0 +1,26 @@
+ concept_college_1079616101
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 15 имени Д. М. Карбышева"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 15 имени Д. М. Карбышева"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Мира, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 265-25-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.674715,23.808847"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sch15grodno.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_medicine_219097677029
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["РНПЦ психического здоровья, 24-е психиатрическое отделение для военно-врачебной экспертизы"]
+	(* <- lang_ru;; <- name;;*);
+    ["РНПЦ психического здоровья, 24-е психиатрическое отделение для военно-врачебной экспертизы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Долгиновский тракт, 152к5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 289-81-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–19:00, перерыв 13:00–17:00; сб,вс 10:00–19:00, перерыв 13:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.955935,27.541971"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mentalhealth.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_office_service_35833881893
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["ИООО БРВ-Брест"]
+	(* <- lang_ru;; <- name;;*);
+    ["ИООО БРВ-Брест"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Янки Купалы, 1В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 199-01-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.100592,23.731406"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

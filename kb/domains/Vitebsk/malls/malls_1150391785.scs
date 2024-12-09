@@ -1,0 +1,26 @@
+ concept_malls_1150391785
+ <- concept_malls;
+=>nrel_main_idtf:
+	["ТДЦ Беларусь"]
+	(* <- lang_ru;; <- name;;*);
+    ["ТДЦ Беларусь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Генерала Белобородова, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 719-99-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.182447,30.200453"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mega.so/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

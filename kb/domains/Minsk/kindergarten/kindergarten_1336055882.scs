@@ -1,0 +1,26 @@
+ concept_kindergarten_1336055882
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 250"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 250"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Нёманская улица, 70"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 205-78-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.923544,27.433115"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu250.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

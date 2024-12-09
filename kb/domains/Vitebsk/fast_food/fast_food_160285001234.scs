@@ -1,0 +1,26 @@
+ concept_fast_food_160285001234
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Big Papa"]
+	(* <- lang_ru;; <- name;;*);
+    ["Big Papa"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Максима Горького, 126"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 995-33-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.167445,30.130095"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

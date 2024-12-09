@@ -1,0 +1,26 @@
+ concept_cafe_145167970471
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Yellow Slon"]
+	(* <- lang_ru;; <- name;;*);
+    ["Yellow Slon"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Максима Богдановича, 133"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 113-85-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–22:00; сб,вс 12:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.923281,27.568755"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.yellowslon.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

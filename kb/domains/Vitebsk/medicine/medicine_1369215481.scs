@@ -1,0 +1,26 @@
+ concept_medicine_1369215481
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Клиническая поликлиника № 1 Центрального района г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Клиническая поликлиника № 1 Центрального района г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Сухая улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 200-32-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903421,27.537931"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.1crp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

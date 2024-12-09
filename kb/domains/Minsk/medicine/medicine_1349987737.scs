@@ -1,0 +1,26 @@
+ concept_medicine_1349987737
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["УЗ 30-я городская клиническая поликлиника"]
+	(* <- lang_ru;; <- name;;*);
+    ["УЗ 30-я городская клиническая поликлиника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кольцова, 53, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 325-30-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.951458,27.602264"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://30gp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

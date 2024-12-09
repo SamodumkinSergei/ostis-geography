@@ -1,0 +1,26 @@
+ concept_restaurants_30472472111
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Масала"]
+	(* <- lang_ru;; <- name;;*);
+    ["Масала"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Старовиленская улица, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 555-58-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908533,27.556515"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://masala.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

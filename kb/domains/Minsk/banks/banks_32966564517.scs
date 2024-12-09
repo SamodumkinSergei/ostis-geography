@@ -1,0 +1,26 @@
+ concept_banks_32966564517
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Банк РРБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Банк РРБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Одинцова, 65"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 306-02-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:30–21:30, перерывы 11:00–11:10, 12:30–13:00, 14:50–15:00, 16:30–17:00, 18:20–18:30, 20:00–20:10"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.900021,27.441237"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://rrb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

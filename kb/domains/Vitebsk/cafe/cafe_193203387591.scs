@@ -1,0 +1,26 @@
+ concept_cafe_193203387591
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Kamili Coffee"]
+	(* <- lang_ru;; <- name;;*);
+    ["Kamili Coffee"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["провинция Уэстерн-Кейп, Кейп Таун Сити Сентр, улица Лонг, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–18:00; вс 08:00–06:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["-33.922011,18.419767"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://kamilicoffee.co.za/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

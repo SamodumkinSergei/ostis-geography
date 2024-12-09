@@ -1,0 +1,26 @@
+ concept_office_service_1743341727
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Транспортно-логистический центр Минск"]
+	(* <- lang_ru;; <- name;;*);
+    ["Транспортно-логистический центр Минск"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Аннаева, 84"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 225-84-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907535,27.639562"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://tlcminsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

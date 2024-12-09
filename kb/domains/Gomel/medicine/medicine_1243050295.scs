@@ -1,0 +1,26 @@
+ concept_medicine_1243050295
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гомельская специализированная кардиологическая МРЭК"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельская специализированная кардиологическая МРЭК"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Медицинская улица, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 223-15-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:12, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.397615,30.903668"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://cardiogomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

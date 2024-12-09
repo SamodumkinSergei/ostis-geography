@@ -1,0 +1,26 @@
+ concept_college_1026538435
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 167"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 167"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Якубовского, 46"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 364-52-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.895332,27.446835"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch167.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

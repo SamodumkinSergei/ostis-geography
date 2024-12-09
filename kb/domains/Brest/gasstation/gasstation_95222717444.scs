@@ -1,0 +1,26 @@
+ concept_gasstation_95222717444
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Газпромнефть, АЗС № 29"]
+	(* <- lang_ru;; <- name;;*);
+    ["Газпромнефть, АЗС № 29"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Лейтенанта Рябцева, 37А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["8 (800) 700-51-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.13942,23.678627"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gpncard.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

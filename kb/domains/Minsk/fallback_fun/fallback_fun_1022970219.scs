@@ -1,0 +1,26 @@
+ concept_fallback_fun_1022970219
+ <- concept_fallback_fun;
+=>nrel_main_idtf:
+	["Подземка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Подземка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 43"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 354-20-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 11:00–20:00; вс 12:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911846,27.578522"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.podzemka-minsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_fast_food_122017834142
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Comida Mexicana"]
+	(* <- lang_ru;; <- name;;*);
+    ["Comida Mexicana"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Советский район, микрорайон Комаровка"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 777-58-89"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–00:00; пт,сб 12:00–02:00; вс 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.918083,27.584347"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

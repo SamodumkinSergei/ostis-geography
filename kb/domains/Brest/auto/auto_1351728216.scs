@@ -1,0 +1,26 @@
+ concept_auto_1351728216
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Continental Auto"]
+	(* <- lang_ru;; <- name;;*);
+    ["Continental Auto"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Суворова, 71/5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 722-76-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.066481,23.757499"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://continentalavto.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

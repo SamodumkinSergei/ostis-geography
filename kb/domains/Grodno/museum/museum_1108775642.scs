@@ -1,0 +1,26 @@
+ concept_museum_1108775642
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей Городницы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей Городницы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Ожешко, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 262-09-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.68528,23.84329"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.museum-grodno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

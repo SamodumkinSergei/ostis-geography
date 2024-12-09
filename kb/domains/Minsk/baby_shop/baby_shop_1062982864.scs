@@ -1,0 +1,26 @@
+ concept_baby_shop_1062982864
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Алёшка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Алёшка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Центральный район, микрорайон Новинки, 1-й Марусинский переулок, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 289-06-89"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–16:00; сб,вс 10:30–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.952788,27.533988"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.aleshka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

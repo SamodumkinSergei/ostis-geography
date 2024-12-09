@@ -1,0 +1,26 @@
+ concept_furniture_store_206797811211
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Фабрика Кухонь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фабрика Кухонь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёвский район, Буйничский сельсовет, агрогородок Буйничи, стр. 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 271-11-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.867627,30.241826"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://fabrikakuhony.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

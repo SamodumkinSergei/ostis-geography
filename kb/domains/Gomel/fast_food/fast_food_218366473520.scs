@@ -1,0 +1,26 @@
+ concept_fast_food_218366473520
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Бурум"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бурум"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Свиридова, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 326-23-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:30–22:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.476113,31.022837"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://burum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

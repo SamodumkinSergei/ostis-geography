@@ -1,0 +1,26 @@
+ concept_concert_hall_1085751140
+ <- concept_concert_hall;
+=>nrel_main_idtf:
+	["Концертный зал Витебск"]
+	(* <- lang_ru;; <- name;;*);
+    ["Концертный зал Витебск"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, парк Фрунзе, 1, Центральный"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 267-44-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.194927,30.210449"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gck.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

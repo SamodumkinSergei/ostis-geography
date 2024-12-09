@@ -1,0 +1,26 @@
+ concept_supermarket_75629831406
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["У дома"]
+	(* <- lang_ru;; <- name;;*);
+    ["У дома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Болдина, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 723-30-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.895643,30.336009"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

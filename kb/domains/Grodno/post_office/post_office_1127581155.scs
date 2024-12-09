@@ -1,0 +1,26 @@
+ concept_post_office_1127581155
+ <- concept_post_office;
+=>nrel_main_idtf:
+	["Белпочта, отделение почтовой связи Гродно-11"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белпочта, отделение почтовой связи Гродно-11"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Гагарина, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 252-24-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.671781,23.819778"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belpost.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

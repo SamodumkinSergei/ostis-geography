@@ -1,0 +1,26 @@
+ concept_college_1250421784
+ <- concept_college;
+=>nrel_main_idtf:
+	["БГУИР, корпус № 7"]
+	(* <- lang_ru;; <- name;;*);
+    ["БГУИР, корпус № 7"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Козлова, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 343-46-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903093,27.598387"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://bsuir.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

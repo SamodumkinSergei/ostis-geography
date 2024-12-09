@@ -1,0 +1,26 @@
+ concept_malls_111429240010
+ <- concept_malls;
+=>nrel_main_idtf:
+	["DiaMond city"]
+	(* <- lang_ru;; <- name;;*);
+    ["DiaMond city"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Щомыслицкий сельсовет, 32к4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 522-23-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.850585,27.433366"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://diamondcity.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_malls_1077112211
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Барс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Барс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Войсковая улица, 9А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 222-48-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.415755,30.930338"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://barsgom.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

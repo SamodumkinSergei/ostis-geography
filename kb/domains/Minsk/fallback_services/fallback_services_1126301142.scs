@@ -1,0 +1,26 @@
+ concept_fallback_services_1126301142
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Памятники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 62"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 201-44-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908218,27.460408"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://granpomnik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

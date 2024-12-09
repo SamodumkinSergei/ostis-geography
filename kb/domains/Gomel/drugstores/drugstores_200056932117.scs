@@ -1,0 +1,26 @@
+ concept_drugstores_200056932117
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 191"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 191"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Огоренко, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 235-81-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00, перерыв 13:00–13:30; сб,вс 09:00–17:30, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.477741,31.024021"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomel.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

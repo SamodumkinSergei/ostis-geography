@@ -1,0 +1,26 @@
+ concept_gasstation_127431013345
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Роснефть"]
+	(* <- lang_ru;; <- name;;*);
+    ["Роснефть"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Луговослободской сельсовет"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["8 (801) 100-71-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.796052,27.760292"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.rn-west.by/nasha-set/adresa-azs.html"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

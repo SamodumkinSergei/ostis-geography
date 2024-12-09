@@ -1,0 +1,26 @@
+ concept_hypermarket_1055588515
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Витебскводтранс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебскводтранс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Максима Горького, 200"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 236-28-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:40, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.162669,30.109644"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.dneprobug.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

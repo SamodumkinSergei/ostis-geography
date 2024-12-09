@@ -1,0 +1,26 @@
+ concept_cafe_112258876018
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кофейня 28"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кофейня 28"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Мястровская улица, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 312-78-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–22:00; сб,вс 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.940403,27.463661"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_240597599709
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Микрорайон Шведская Горка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Микрорайон Шведская Горка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Полины Гельман"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.397405,30.9522"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

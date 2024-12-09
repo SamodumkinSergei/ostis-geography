@@ -1,0 +1,26 @@
+ concept_college_1009072154
+ <- concept_college;
+=>nrel_main_idtf:
+	["Юность"]
+	(* <- lang_ru;; <- name;;*);
+    ["Юность"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Мира, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 227-69-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 13:00–13:45; пт 08:30–16:15, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912055,30.326216"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://spartakfpb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

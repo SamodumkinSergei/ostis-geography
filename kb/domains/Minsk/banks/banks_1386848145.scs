@@ -1,0 +1,26 @@
+ concept_banks_1386848145
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Банк БЕЛВЭБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Банк БЕЛВЭБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 93"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 215-61-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 10:30–19:30; вт-пт 10:30–19:00; сб 10:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906018,27.441194"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belveb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

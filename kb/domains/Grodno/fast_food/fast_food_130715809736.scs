@@ -1,0 +1,26 @@
+ concept_fast_food_130715809736
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["MakaRonin"]
+	(* <- lang_ru;; <- name;;*);
+    ["MakaRonin"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Дзержинского, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 873-27-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.686955,23.834748"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://makaronin.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

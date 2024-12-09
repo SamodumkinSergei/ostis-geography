@@ -1,0 +1,26 @@
+ concept_flower_shop_8309454182
+ <- concept_flower_shop;
+=>nrel_main_idtf:
+	["Садовник"]
+	(* <- lang_ru;; <- name;;*);
+    ["Садовник"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Привокзальная улица, 2/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 115-94-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 14:00–14:30; сб,вс 09:00–16:00, перерыв 14:00–14:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.92769,30.338107"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sadovnik-mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

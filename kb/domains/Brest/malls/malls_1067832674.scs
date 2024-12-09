@@ -1,0 +1,26 @@
+ concept_malls_1067832674
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Аквафорум"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аквафорум"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Карьерная улица, 12Ик2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 644-47-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.063468,23.760981"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.aquaforum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

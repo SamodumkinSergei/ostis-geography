@@ -1,0 +1,26 @@
+ concept_fallback_services_77569070665
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["ФОЛКС-Камень"]
+	(* <- lang_ru;; <- name;;*);
+    ["ФОЛКС-Камень"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Казинца, 98"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 338-78-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–19:00, перерыв 14:00–15:00; пт 10:00–16:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.846894,27.507169"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://folks-pamyatnik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

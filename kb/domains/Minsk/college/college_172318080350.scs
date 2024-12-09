@@ -1,0 +1,26 @@
+ concept_college_172318080350
+ <- concept_college;
+=>nrel_main_idtf:
+	["Центр Научно-технологический парк БГТУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Центр Научно-технологический парк БГТУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Гурского, 21к3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 215-16-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 12:30–13:15; пт 08:30–16:15, перерыв 12:30–13:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.881621,27.49103"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

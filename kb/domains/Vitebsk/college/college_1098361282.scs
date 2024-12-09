@@ -1,0 +1,26 @@
+ concept_college_1098361282
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 30"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 30"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Гагарина, 58А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 263-74-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.214407,30.223485"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://30vitebsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

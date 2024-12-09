@@ -1,0 +1,26 @@
+ concept_fallback_services_110772970158
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Продажа Кассовых Аппаратов в г. Витебске!"]
+	(* <- lang_ru;; <- name;;*);
+    ["Продажа Кассовых Аппаратов в г. Витебске!"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Терешковой, 7А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 108-18-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:00–17:00; пт 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.180141,30.247192"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kassa-vitebsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

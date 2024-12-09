@@ -1,0 +1,26 @@
+ concept_auto_164956658576
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Сервис Лада"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сервис Лада"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Серова, 1/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 576-80-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:30–20:30; вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.844179,27.539418"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://service-lada.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

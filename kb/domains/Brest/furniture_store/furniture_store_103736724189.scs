@@ -1,0 +1,26 @@
+ concept_furniture_store_103736724189
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Белс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брестский район, Тельминский сельсовет, участок Аэропорт свободной экономической зоны Брест"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 303-87-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.117893,23.894619"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://bels.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

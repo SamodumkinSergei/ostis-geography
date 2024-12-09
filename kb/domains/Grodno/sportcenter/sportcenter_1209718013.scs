@@ -1,0 +1,26 @@
+ concept_sportcenter_1209718013
+ <- concept_sportcenter;
+=>nrel_main_idtf:
+	["Метро"]
+	(* <- lang_ru;; <- name;;*);
+    ["Метро"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Победы, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 580-09-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–02:00; пт,сб 12:00–06:00; вс 12:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.653934,23.830236"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.metroclub.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

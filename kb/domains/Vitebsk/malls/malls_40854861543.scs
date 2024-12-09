@@ -1,0 +1,26 @@
+ concept_malls_40854861543
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Планета"]
+	(* <- lang_ru;; <- name;;*);
+    ["Планета"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Строителей, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 990-00-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.172596,30.203665"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mega.so/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

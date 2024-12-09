@@ -1,0 +1,26 @@
+ concept_kindergarten_1035862791
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Дошкольный центр развития ребёнка № 75 г."]
+	(* <- lang_ru;; <- name;;*);
+    ["Дошкольный центр развития ребёнка № 75 г."]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лобанка, 44"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 272-74-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.89887,27.431766"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu75.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_fire_station_101712302023
+ <- concept_fire_station;
+=>nrel_main_idtf:
+	["Пожарная станция"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пожарная станция"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Владимирская область, Кольчугинский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["56.346546,39.444025"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

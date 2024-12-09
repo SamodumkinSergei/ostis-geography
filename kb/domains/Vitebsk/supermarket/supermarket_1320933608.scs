@@ -1,0 +1,26 @@
+ concept_supermarket_1320933608
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Магазин пчеловодства"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин пчеловодства"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Правды, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 268-51-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.188482,30.220496"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://oao-danko.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

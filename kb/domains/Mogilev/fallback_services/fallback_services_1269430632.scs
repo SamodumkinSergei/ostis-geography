@@ -1,0 +1,26 @@
+ concept_fallback_services_1269430632
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Могилёвская дистанция пути"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилёвская дистанция пути"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Вокзальная улица, 1Ак9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 239-22-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.924722,30.338168"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogilev.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_fast_food_19671975623
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Иван-чай"]
+	(* <- lang_ru;; <- name;;*);
+    ["Иван-чай"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица 28 Июля, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 223-40-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.077296,23.737461"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

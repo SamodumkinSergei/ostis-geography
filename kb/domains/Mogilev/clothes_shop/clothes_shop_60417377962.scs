@@ -1,0 +1,26 @@
+ concept_clothes_shop_60417377962
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Favorite shop"]
+	(* <- lang_ru;; <- name;;*);
+    ["Favorite shop"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Крыленко, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 695-18-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907563,30.336093"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

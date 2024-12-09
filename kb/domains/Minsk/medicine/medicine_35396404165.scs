@@ -1,0 +1,26 @@
+ concept_medicine_35396404165
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Главная"]
+	(* <- lang_ru;; <- name;;*);
+    ["Главная"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 119"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 258-76-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.934117,27.635942"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://petrikovcrb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

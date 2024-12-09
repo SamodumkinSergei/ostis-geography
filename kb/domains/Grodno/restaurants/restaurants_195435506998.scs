@@ -1,0 +1,26 @@
+ concept_restaurants_195435506998
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Пит Stop"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пит Stop"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Янки Купалы, 16А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 771-10-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.663151,23.835455"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://korona.by/pit-stop/grodno-pr-t-ya-kupaly-16a-1"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_supermarket_152955542588
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Ярмарка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ярмарка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Заднепровье-4, улица Герцена"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 536-57-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.881662,30.32746"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_currency_exchange_1241541197
+ <- concept_currency_exchange;
+=>nrel_main_idtf:
+	["Белорусский народный банк, пункт обмена валют № 15"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусский народный банк, пункт обмена валют № 15"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Бешенковичское шоссе, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 309-73-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:50–20:10, перерывы 12:00–12:30, 14:30–14:45, 16:00–16:30, 18:00–18:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.159505,30.166343"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://bnb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

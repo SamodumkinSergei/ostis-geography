@@ -1,0 +1,26 @@
+ concept_drugstores_1270348233
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека-музей № 1 НПК Биотест"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека-музей № 1 НПК Биотест"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Советская площадь, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 274-00-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00; вс 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.678497,23.831169"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.am.biotest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

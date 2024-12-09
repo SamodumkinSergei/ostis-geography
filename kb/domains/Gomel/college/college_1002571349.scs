@@ -1,0 +1,26 @@
+ concept_college_1002571349
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 3 г. Гомеля имени Д. Н. Пенязькова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 3 г. Гомеля имени Д. Н. Пенязькова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Барыкина, 93"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 255-02-28"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–20:00; сб 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.418291,30.985789"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://3gomel.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

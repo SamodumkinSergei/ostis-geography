@@ -1,0 +1,26 @@
+ concept_college_1344394995
+ <- concept_college;
+=>nrel_main_idtf:
+	["In Body"]
+	(* <- lang_ru;; <- name;;*);
+    ["In Body"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Воронянского, 17Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 757-23-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–22:00; сб 09:00–14:00; вс 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878539,27.5473"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://grantello.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

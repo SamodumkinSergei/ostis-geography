@@ -1,0 +1,26 @@
+ concept_restaurants_1377158821
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Шоколад"]
+	(* <- lang_ru;; <- name;;*);
+    ["Шоколад"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 130"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 355-70-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 17:00–05:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.865179,27.661305"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

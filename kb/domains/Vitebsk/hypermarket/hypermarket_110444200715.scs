@@ -1,0 +1,26 @@
+ concept_hypermarket_110444200715
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Аква Проф"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аква Проф"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Терешковой, 13Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 895-01-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.18406,30.2502"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

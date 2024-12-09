@@ -1,0 +1,26 @@
+ concept_medicine_74809022002
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городская детская поликлиника № 19"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская детская поликлиника № 19"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 119"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 397-83-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.933899,27.636088"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.19gdp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

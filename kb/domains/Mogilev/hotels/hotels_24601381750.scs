@@ -1,0 +1,26 @@
+ concept_hotels_24601381750
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Могилевский городской физкультурно-спортивный клуб"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилевский городской физкультурно-спортивный клуб"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Сурганова, 46"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 327-93-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.925955,30.301685"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kosmos-kort.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

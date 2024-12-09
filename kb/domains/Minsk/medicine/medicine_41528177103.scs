@@ -1,0 +1,26 @@
+ concept_medicine_41528177103
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["МНПЦ хирургии, трансплантологии и гематологии, отделение функциональной диагностики"]
+	(* <- lang_ru;; <- name;;*);
+    ["МНПЦ хирургии, трансплантологии и гематологии, отделение функциональной диагностики"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Семашко, 8к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 277-10-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.859738,27.495686"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://msth.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

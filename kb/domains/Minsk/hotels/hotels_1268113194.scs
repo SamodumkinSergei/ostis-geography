@@ -1,0 +1,26 @@
+ concept_hotels_1268113194
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["IBB"]
+	(* <- lang_ru;; <- name;;*);
+    ["IBB"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Газеты Правда, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 151-57-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.869312,27.486945"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ibb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

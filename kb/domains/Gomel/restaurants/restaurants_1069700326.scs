@@ -1,0 +1,26 @@
+ concept_restaurants_1069700326
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Ирина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ирина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Гагарина, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 511-12-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 17:00–00:00; вт-чт 13:00–00:00; пт,сб 13:00–02:00; вс 13:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.419237,31.010952"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://restaurant.irina-service.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

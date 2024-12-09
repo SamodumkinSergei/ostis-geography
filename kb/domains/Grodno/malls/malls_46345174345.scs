@@ -1,0 +1,26 @@
+ concept_malls_46345174345
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Авокадо магазин Лакли"]
+	(* <- lang_ru;; <- name;;*);
+    ["Авокадо магазин Лакли"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Стефана Батория, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 353-15-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.676596,23.830229"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

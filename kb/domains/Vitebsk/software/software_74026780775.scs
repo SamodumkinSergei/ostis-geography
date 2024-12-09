@@ -1,0 +1,26 @@
+ concept_software_74026780775
+ <- concept_software;
+=>nrel_main_idtf:
+	["Народные новости Витебска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Народные новости Витебска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 70"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 711-39-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.195483,30.238829"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitebsk.cc/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

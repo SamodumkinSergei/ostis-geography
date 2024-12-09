@@ -1,0 +1,26 @@
+ concept_fallback_services_161726477215
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гранитные памятники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гранитные памятники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Ольги Соломовой, 131"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 384-71-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 12:00–20:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.660502,23.781631"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://granit-grodno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

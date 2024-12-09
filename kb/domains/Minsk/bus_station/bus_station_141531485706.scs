@@ -1,0 +1,26 @@
+ concept_bus_station_141531485706
+ <- concept_bus_station;
+=>nrel_main_idtf:
+	["Алеся Бачылы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Алеся Бачылы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Алеся Бачило"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.841013,27.704522"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

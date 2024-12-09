@@ -1,0 +1,26 @@
+ concept_hypermarket_79153200193
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Халзан"]
+	(* <- lang_ru;; <- name;;*);
+    ["Халзан"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица 17 Сентября, 49А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 360-32-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.688592,23.840821"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://halzan.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

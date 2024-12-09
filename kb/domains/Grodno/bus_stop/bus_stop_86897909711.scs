@@ -1,0 +1,26 @@
+ concept_bus_stop_86897909711
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица 8 Марта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица 8 Марта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Великая Ольшанка"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.624231,23.813528"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

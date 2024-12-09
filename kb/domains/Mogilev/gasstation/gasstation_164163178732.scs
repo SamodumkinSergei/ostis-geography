@@ -1,0 +1,26 @@
+ concept_gasstation_164163178732
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Газонаполнительная станция"]
+	(* <- lang_ru;; <- name;;*);
+    ["Газонаполнительная станция"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёвская область, Могилёвский район, Кадинский сельсовет"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.877794,30.435601"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

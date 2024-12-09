@@ -1,0 +1,26 @@
+ concept_swimming_pool_59324203037
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Аквацентр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аквацентр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Максима Горького, 82"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 244-74-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 07:00–22:00; вс 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.701838,23.816525"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.aquacenter.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

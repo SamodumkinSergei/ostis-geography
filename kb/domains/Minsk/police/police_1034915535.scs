@@ -1,0 +1,26 @@
+ concept_police_1034915535
+ <- concept_police;
+=>nrel_main_idtf:
+	["УВД администрации Фрунзенского района г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["УВД администрации Фрунзенского района г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Кальварийская улица, 41к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 207-67-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907658,27.508255"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://minsk.mvd.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

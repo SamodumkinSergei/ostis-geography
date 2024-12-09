@@ -1,0 +1,26 @@
+ concept_museum_199436971722
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей М.Ф. Шмырева"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей М.Ф. Шмырева"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чехова, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 226-51-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.2031,30.203789"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://shmyrev.museum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

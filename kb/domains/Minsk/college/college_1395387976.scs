@@ -1,0 +1,26 @@
+ concept_college_1395387976
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 56"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 56"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Каменногорская улица, 70"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 360-50-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.925749,27.424793"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch56.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_14796502760
+ <- concept_college;
+=>nrel_main_idtf:
+	["Дирекция студенческого городка БГУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дирекция студенческого городка БГУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Октябрьская улица, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 209-56-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–18:15, перерыв 13:00–13:45; пт 08:30–17:00, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.892657,27.564236"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://studgorodok.bsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

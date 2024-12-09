@@ -1,0 +1,26 @@
+ concept_fallback_services_237300662691
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Программ Маркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Программ Маркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Скрыганова, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 511-01-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–17:30; пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910953,27.516647"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pomarket.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

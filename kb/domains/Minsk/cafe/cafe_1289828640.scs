@@ -1,0 +1,26 @@
+ concept_cafe_1289828640
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Grand cafe"]
+	(* <- lang_ru;; <- name;;*);
+    ["Grand cafe"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ленина, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 703-11-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 12:00–00:00; сб,вс 10:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902342,27.556067"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://grandcafe.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

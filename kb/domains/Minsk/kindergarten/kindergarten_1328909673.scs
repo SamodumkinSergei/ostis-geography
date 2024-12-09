@@ -1,0 +1,26 @@
+ concept_kindergarten_1328909673
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 400"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 400"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Газеты Правда, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 277-14-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.869343,27.481624"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu400.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

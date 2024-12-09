@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_1387524447
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Знамя индустриализации"]
+	(* <- lang_ru;; <- name;;*);
+    ["Знамя индустриализации"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Гагарина, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 260-29-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:00–16:45, перерыв 12:00–12:30; пт 08:00–15:30, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.206913,30.21929"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://znamya.biz/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

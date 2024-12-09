@@ -1,0 +1,26 @@
+ concept_hotels_160056950149
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["524 11 11"]
+	(* <- lang_ru;; <- name;;*);
+    ["524 11 11"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Куйбышева, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 524-11-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.097652,23.690386"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://zaoknom.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

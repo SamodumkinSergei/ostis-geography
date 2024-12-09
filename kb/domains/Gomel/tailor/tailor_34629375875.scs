@@ -1,0 +1,26 @@
+ concept_tailor_34629375875
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["У Семёна"]
+	(* <- lang_ru;; <- name;;*);
+    ["У Семёна"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Мазурова, 113А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 630-06-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 10:00–19:00, перерыв 14:00–15:00; сб 10:00–18:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.457782,31.029515"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://goremobuv.wixsite.com/remontobuvigomel"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

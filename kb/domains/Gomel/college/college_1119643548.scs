@@ -1,0 +1,26 @@
+ concept_college_1119643548
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 29"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 29"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Огоренко, 29А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 255-89-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.470459,31.025189"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://29gomel.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

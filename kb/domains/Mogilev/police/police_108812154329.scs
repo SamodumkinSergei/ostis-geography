@@ -1,0 +1,26 @@
+ concept_police_108812154329
+ <- concept_police;
+=>nrel_main_idtf:
+	["Общественный пункт охраны правопорядка № 10"]
+	(* <- lang_ru;; <- name;;*);
+    ["Общественный пункт охраны правопорядка № 10"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Шмидта, 86"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 276-55-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.864575,30.33562"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://octmogilev.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_fast_food_205244484777
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Salateira"]
+	(* <- lang_ru;; <- name;;*);
+    ["Salateira"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 376-80-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90832,27.548846"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.salateira.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

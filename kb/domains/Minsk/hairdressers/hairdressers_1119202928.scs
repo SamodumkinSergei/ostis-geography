@@ -1,0 +1,26 @@
+ concept_hairdressers_1119202928
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Стильный салон"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стильный салон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Одинцова, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 774-40-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–21:00; вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.9009,27.446441"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_cinemas_42871762581
+ <- concept_cinemas;
+=>nrel_main_idtf:
+	["Starlight Cinema"]
+	(* <- lang_ru;; <- name;;*);
+    ["Starlight Cinema"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 57"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 581-88-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 14:00–21:30; сб,вс 11:00–21:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90441,30.340073"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://starcinema.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

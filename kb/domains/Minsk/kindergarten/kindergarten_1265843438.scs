@@ -1,0 +1,26 @@
+ concept_kindergarten_1265843438
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Государственное учреждение образования детский сад № 298 г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Государственное учреждение образования детский сад № 298 г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Кальварийская улица, 50А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 373-81-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910436,27.513812"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu298.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

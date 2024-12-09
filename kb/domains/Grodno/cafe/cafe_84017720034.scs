@@ -1,0 +1,26 @@
+ concept_cafe_84017720034
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Правінцыя"]
+	(* <- lang_ru;; <- name;;*);
+    ["Правінцыя"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Калючинская улица, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 296-99-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–22:00; пт,сб 12:00–02:00; вс 12:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.680197,23.831638"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

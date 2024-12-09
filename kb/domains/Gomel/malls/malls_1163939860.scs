@@ -1,0 +1,26 @@
+ concept_malls_1163939860
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Хозтовары"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хозтовары"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 134Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 318-58-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–18:00; вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.452963,30.993077"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.valtec.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_furniture_store_87044994734
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Стиль"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стиль"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Могилёвская улица, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 771-10-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.46145,30.933334"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://m-style.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

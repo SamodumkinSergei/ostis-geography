@@ -1,0 +1,26 @@
+ concept_banks_15716413085
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Беларусбанк, отделение 511/267"]
+	(* <- lang_ru;; <- name;;*);
+    ["Беларусбанк, отделение 511/267"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Академика Красина, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 218-84-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00, перерыв 15:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.825647,27.764895"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://belarusbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

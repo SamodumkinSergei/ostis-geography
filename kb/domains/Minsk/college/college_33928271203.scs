@@ -1,0 +1,26 @@
+ concept_college_33928271203
+ <- concept_college;
+=>nrel_main_idtf:
+	["Отдел кадров"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отдел кадров"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лазо, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:45–18:00, перерыв 13:00–14:00; пт 08:45–16:45, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.870472,27.660486"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

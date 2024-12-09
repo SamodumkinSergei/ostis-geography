@@ -1,0 +1,26 @@
+ concept_sportcenter_149396055882
+ <- concept_sportcenter;
+=>nrel_main_idtf:
+	["Ривер клаб"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ривер клаб"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Тверская область, Конаково, Пригородная улица, 70"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (495) 626-23-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["56.76055,36.742446"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://konakovo.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

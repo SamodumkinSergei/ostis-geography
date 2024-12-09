@@ -1,0 +1,26 @@
+ concept_medicine_40721143877
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гомельский областной клинический онкологический диспансер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский областной клинический онкологический диспансер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Залинейный, улица Циолковского, 119А/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 223-42-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.43027,30.966454"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

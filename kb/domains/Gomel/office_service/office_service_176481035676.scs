@@ -1,0 +1,26 @@
+ concept_office_service_176481035676
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Ривер Парк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ривер Парк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Ленинградская область, Выборгский район, посёлок городского типа Рощино, Речной переулок"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (812) 955-55-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["60.259182,29.646034"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gorodu.net/settlements/river_park"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_72876468745
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["ОАО Гронитекс"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОАО Гронитекс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Максима Горького, 91"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 243-00-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.707684,23.818634"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gronitex.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

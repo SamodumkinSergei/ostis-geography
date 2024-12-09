@@ -1,0 +1,26 @@
+ concept_fallback_services_1164991242
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Белтеплоизоляция, Брестское управление"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белтеплоизоляция, Брестское управление"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Янки Купалы, 17/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 241-30-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:15, перерыв 12:00–12:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.108572,23.747329"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.belteplo.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

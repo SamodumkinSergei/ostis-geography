@@ -1,0 +1,26 @@
+ concept_fallback_services_158414460968
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Memorials.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Memorials.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, исторический район Шарики"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 398-53-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.875659,27.629829"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://memorials.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

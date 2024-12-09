@@ -1,0 +1,26 @@
+ concept_fitness_58924089923
+ <- concept_fitness;
+=>nrel_main_idtf:
+	["Городской физкультурно-спортивный клуб Витебск"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городской физкультурно-спортивный клуб Витебск"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Советская улица, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 515-55-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 13:00–21:00; сб,вс 12:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.199244,30.208456"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gfsk.vitebsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

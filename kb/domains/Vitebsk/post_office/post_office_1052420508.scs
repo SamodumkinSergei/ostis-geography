@@ -1,0 +1,26 @@
+ concept_post_office_1052420508
+ <- concept_post_office;
+=>nrel_main_idtf:
+	["Отделение почтовой связи Витебск 210002"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отделение почтовой связи Витебск 210002"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Максима Горького, 67/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 261-67-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.173382,30.151259"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belpost.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

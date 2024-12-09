@@ -1,0 +1,26 @@
+ concept_medicine_143947176362
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["РНПЦ психического здоровья, патологоанатомический корпус"]
+	(* <- lang_ru;; <- name;;*);
+    ["РНПЦ психического здоровья, патологоанатомический корпус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Долгиновский тракт, 152к18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 249-75-28"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.957198,27.543793"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mentalhealth.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

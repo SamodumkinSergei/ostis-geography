@@ -1,0 +1,26 @@
+ concept_swimming_pool_126621182570
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Бассейн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бассейн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Клёнковский, Чечерская улица, 60"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 250-33-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.467746,31.044226"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://school74.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_medicine_51630522805
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Могилёвская областная психиатрическая больница, лечебный корпус"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилёвская областная психиатрическая больница, лечебный корпус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Холмы, Витебский проспект, 70"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 265-24-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.92811,30.316074"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.mopb.mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

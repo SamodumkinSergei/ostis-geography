@@ -1,0 +1,26 @@
+ concept_college_1019111890
+ <- concept_college;
+=>nrel_main_idtf:
+	["Детско-юношеская спортивная школа по спортивной гимнастике"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детско-юношеская спортивная школа по спортивной гимнастике"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Гоголя, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 228-76-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.190011,30.203549"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sportshkola1.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_supermarket_63432517037
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Arabica Coffee House"]
+	(* <- lang_ru;; <- name;;*);
+    ["Arabica Coffee House"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Измир, Борнова, Казымдирик, улица 160, 8A"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+90 312 242 10 01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–01:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["38.461549,27.213978"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://arabicacoffee.com.tr/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

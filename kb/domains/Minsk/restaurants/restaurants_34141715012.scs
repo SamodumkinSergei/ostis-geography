@@ -1,0 +1,26 @@
+ concept_restaurants_34141715012
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Pinsa Romana"]
+	(* <- lang_ru;; <- name;;*);
+    ["Pinsa Romana"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Раковская улица, 36"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 142-04-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905769,27.54372"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pinsaromana.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

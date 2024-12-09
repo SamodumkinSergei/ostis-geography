@@ -1,0 +1,26 @@
+ concept_college_235270771787
+ <- concept_college;
+=>nrel_main_idtf:
+	["Воскресная школа при храме Святого Архангела Михаила"]
+	(* <- lang_ru;; <- name;;*);
+    ["Воскресная школа при храме Святого Архангела Михаила"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Янковского, 2к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 259-59-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вс 10:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.88119,27.43875"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://arhangelhram.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

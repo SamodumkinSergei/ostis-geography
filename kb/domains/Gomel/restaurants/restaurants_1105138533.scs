@@ -1,0 +1,26 @@
+ concept_restaurants_1105138533
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Хрустальный"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хрустальный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 87А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 231-07-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,вт 12:00–17:00; ср-вс 12:00–00:00, перерыв 17:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.382489,31.028707"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

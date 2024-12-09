@@ -1,0 +1,26 @@
+ concept_hotels_38485276297
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Serc"]
+	(* <- lang_ru;; <- name;;*);
+    ["Serc"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Одоевского, 10Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 256-60-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905976,27.51083"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://serc.minsk-hotels.org/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_127038452624
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Смиловичский тракт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Смиловичский тракт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Смиловичский тракт"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.834493,27.73413"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

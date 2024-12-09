@@ -1,0 +1,26 @@
+ concept_flower_shop_185300735902
+ <- concept_flower_shop;
+=>nrel_main_idtf:
+	["Dolinaroz-mogilev.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Dolinaroz-mogilev.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пионерская улица, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 722-11-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–21:00; вс 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897478,30.338141"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dolinaroz-mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

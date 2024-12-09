@@ -1,0 +1,26 @@
+ concept_kindergarten_1049398705
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Государственное учреждение образования Ясли-сад № 114"]
+	(* <- lang_ru;; <- name;;*);
+    ["Государственное учреждение образования Ясли-сад № 114"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Криулина, 25А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 270-12-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 08:00–17:00, перерыв 13:00–14:00; вт 11:00–20:00, перерыв 16:00–17:00; ср-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.951997,30.338072"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sad114mogilev.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

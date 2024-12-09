@@ -1,0 +1,26 @@
+ concept_office_service_227091342385
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Единый кредитный центр GetCredit.by Гродно"]
+	(* <- lang_ru;; <- name;;*);
+    ["Единый кредитный центр GetCredit.by Гродно"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Калючинская улица, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 772-87-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.679529,23.831031"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://getcredit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_235654207390
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Фабрика обуви Коваленко"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фабрика обуви Коваленко"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Франко, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 266-97-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.883118,30.263838"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

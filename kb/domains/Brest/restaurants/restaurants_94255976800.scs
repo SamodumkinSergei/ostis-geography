@@ -1,0 +1,26 @@
+ concept_restaurants_94255976800
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Пицца и Ролотто"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пицца и Ролотто"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гоголя, 78"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 635-51-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.093925,23.697982"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

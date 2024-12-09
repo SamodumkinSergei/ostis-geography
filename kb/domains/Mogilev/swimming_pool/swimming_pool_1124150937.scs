@@ -1,0 +1,26 @@
+ concept_swimming_pool_1124150937
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Бассейн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бассейн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Шмидта, 62"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 224-29-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 19:00–21:45; сб 14:00–17:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.869304,30.33174"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://school18.mogilev.by/внебюджетная-деятельность/бассейн/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

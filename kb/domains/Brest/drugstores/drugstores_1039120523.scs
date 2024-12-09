@@ -1,0 +1,26 @@
+ concept_drugstores_1039120523
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация, аптека № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация, аптека № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, бульвар Космонавтов, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 220-73-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.099646,23.694314"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://brest.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

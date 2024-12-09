@@ -1,0 +1,26 @@
+ concept_restaurants_239479367678
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Пицца Темпо"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пицца Темпо"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Боровлянский сельсовет, деревня Копище, Небесная улица, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 774-81-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.95638,27.662038"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.pizzatempo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

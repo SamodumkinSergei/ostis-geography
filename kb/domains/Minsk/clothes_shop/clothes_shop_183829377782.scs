@@ -1,0 +1,26 @@
+ concept_clothes_shop_183829377782
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Air-shop.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Air-shop.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Зыбицкая улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 844-81-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906331,27.557524"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://air-shop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

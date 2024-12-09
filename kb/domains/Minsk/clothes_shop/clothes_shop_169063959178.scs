@@ -1,0 +1,26 @@
+ concept_clothes_shop_169063959178
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["ЕвроШик Премиум"]
+	(* <- lang_ru;; <- name;;*);
+    ["ЕвроШик Премиум"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Серафимовича, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 507-48-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–20:00; сб,вс 11:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.889064,27.587174"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.euroshik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

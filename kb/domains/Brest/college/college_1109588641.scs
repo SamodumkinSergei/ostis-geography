@@ -1,0 +1,26 @@
+ concept_college_1109588641
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 29 г. Бреста"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 29 г. Бреста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Орловская улица, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 225-96-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–20:00; сб 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.106705,23.77836"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://29brest.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

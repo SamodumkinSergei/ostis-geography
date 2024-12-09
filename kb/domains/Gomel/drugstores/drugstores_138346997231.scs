@@ -1,0 +1,26 @@
+ concept_drugstores_138346997231
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Хорошее лекарство"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хорошее лекарство"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Речицкий проспект, 75"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.407684,30.926956"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

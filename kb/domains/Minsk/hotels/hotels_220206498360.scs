@@ -1,0 +1,26 @@
+ concept_hotels_220206498360
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Balu"]
+	(* <- lang_ru;; <- name;;*);
+    ["Balu"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Боровлянский сельсовет, Дроздово, Цветочная улица, 43"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 577-47-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.990475,27.623464"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.balu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

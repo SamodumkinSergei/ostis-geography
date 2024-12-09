@@ -1,0 +1,26 @@
+ concept_furniture_store_199668974090
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Мебельная фурнитура"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мебельная фурнитура"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Янки Купалы, 102"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 313-19-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.111331,23.751678"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_medicine_203359670487
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Tema Polyclinic"]
+	(* <- lang_ru;; <- name;;*);
+    ["Tema Polyclinic"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Большая Аккра, Тема Метрополитен, город Тема"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["5.635865,-0.006672"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

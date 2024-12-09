@@ -1,0 +1,26 @@
+ concept_hairdressers_75452870700
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Мир красоты"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мир красоты"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Тавлая, 70"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 839-13-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–21:00; вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.713601,23.857852"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mir-krasoty.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

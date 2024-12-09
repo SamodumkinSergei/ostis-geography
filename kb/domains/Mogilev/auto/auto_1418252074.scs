@@ -1,0 +1,26 @@
+ concept_auto_1418252074
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Бош Авто Сервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бош Авто Сервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Вишневецкого, 8В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 696-69-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.889882,30.278397"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.carservice.kin.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

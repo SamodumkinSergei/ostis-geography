@@ -1,0 +1,26 @@
+ concept_bus_stop_65151035802
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Национальная библиотека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Национальная библиотека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.932763,27.645674"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

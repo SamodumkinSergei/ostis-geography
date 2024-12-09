@@ -1,0 +1,26 @@
+ concept_medicine_1071677944
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Минская областная клиническая больница, хирургический корпус"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минская областная клиническая больница, хирургический корпус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Боровлянский сельсовет, Лесной, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 265-21-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.00435,27.687946"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://minsk-okb.by/otdelenia/hirurgia.html"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_drugstores_1744617752
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 4 Белфармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 4 Белфармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Лошица, улица Янки Лучины, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 263-18-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.838645,27.575062"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

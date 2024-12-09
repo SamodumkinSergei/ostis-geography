@@ -1,0 +1,26 @@
+ concept_medicine_1036515507
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Брестская городская больница № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестская городская больница № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Кижеватова, 76"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 226-26-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.106807,23.690154"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bgb1.brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

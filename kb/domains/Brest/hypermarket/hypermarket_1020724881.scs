@@ -1,0 +1,26 @@
+ concept_hypermarket_1020724881
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Асолия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Асолия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, 2-я Заводская улица, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 255-15-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.101505,23.747486"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://asoliabrest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

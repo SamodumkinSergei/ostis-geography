@@ -1,0 +1,26 @@
+ concept_hotels_218981218446
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["У Ольги"]
+	(* <- lang_ru;; <- name;;*);
+    ["У Ольги"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Житняя улица, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 798-59-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.067057,23.768641"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

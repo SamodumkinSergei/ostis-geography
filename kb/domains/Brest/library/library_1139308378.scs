@@ -1,0 +1,26 @@
+ concept_library_1139308378
+ <- concept_library;
+=>nrel_main_idtf:
+	["Медицинская библиотека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Медицинская библиотека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Медицинская улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 227-22-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.106604,23.813149"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

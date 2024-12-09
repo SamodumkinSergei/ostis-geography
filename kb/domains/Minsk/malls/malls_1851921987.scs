@@ -1,0 +1,26 @@
+ concept_malls_1851921987
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Глобус Парк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Глобус Парк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Щомыслицкий сельсовет, Щомыслица, 28А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 575-33-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.822851,27.436659"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.globuspark.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

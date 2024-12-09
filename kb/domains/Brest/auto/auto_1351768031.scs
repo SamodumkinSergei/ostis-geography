@@ -1,0 +1,26 @@
+ concept_auto_1351768031
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автосервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автосервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Карьерная улица, 10А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 670-20-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.065404,23.758886"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

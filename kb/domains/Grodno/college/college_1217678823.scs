@@ -1,0 +1,26 @@
+ concept_college_1217678823
+ <- concept_college;
+=>nrel_main_idtf:
+	["УО Гродненский государственный колледж техники, технологий и дизайна"]
+	(* <- lang_ru;; <- name;;*);
+    ["УО Гродненский государственный колледж техники, технологий и дизайна"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Курчатова, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 248-42-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–19:30; сб 08:30–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.703107,23.808498"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ggkttd.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_supermarket_1630847731
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Виталюр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Виталюр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лейтенанта Кижеватова, 72к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 298-96-89"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.846793,27.534545"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

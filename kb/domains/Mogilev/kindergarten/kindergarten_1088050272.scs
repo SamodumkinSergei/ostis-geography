@@ -1,0 +1,26 @@
+ concept_kindergarten_1088050272
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Детский сад № 16 г. Могилёва"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский сад № 16 г. Могилёва"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Тимирязевская улица, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 274-68-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 07:00–17:00; вт 11:00–20:00; ср-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911137,30.342612"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sad16mogilev.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

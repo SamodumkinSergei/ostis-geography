@@ -1,0 +1,26 @@
+ concept_kindergarten_1006350809
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Дошкольный центр развития ребенка Праменьчык"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дошкольный центр развития ребенка Праменьчык"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица 70 лет БССР, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 250-09-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.403381,30.918638"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dcrr-pramenchik.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

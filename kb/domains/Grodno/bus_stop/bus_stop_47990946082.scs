@@ -1,0 +1,26 @@
+ concept_bus_stop_47990946082
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Волкова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Волкова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, микрорайон Фабричный, Гродненская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.633386,23.807933"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

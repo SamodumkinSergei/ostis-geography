@@ -1,0 +1,26 @@
+ concept_college_1087479006
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 92"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 92"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурикова, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 258-34-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.866103,27.629174"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch92.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

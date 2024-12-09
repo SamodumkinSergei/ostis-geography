@@ -1,0 +1,26 @@
+ concept_medicine_1054532704
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["УЗ 3-я Городская клиническая больница имени Е. В. Клумова"]
+	(* <- lang_ru;; <- name;;*);
+    ["УЗ 3-я Городская клиническая больница имени Е. В. Клумова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ленина, 30/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 327-24-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.895941,27.564548"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://3gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_malls_176673189543
+ <- concept_malls;
+=>nrel_main_idtf:
+	["FeedeRMaster"]
+	(* <- lang_ru;; <- name;;*);
+    ["FeedeRMaster"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Дзержинского, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 646-92-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901493,30.332736"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.feedermaster.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

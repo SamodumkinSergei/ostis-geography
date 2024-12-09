@@ -1,0 +1,26 @@
+ concept_malls_1078310121
+ <- concept_malls;
+=>nrel_main_idtf:
+	["ВитНТТ"]
+	(* <- lang_ru;; <- name;;*);
+    ["ВитНТТ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, 1-я улица Доватора, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 358-17-71"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.193384,30.214015"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitntt.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

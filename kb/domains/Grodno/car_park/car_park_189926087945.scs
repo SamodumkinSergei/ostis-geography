@@ -1,0 +1,26 @@
+ concept_car_park_189926087945
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["АреалТрансБел"]
+	(* <- lang_ru;; <- name;;*);
+    ["АреалТрансБел"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Понемуньская улица, 2Д"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 271-76-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.665643,23.869178"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.arealtrans.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

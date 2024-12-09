@@ -1,0 +1,26 @@
+ concept_clothes_shop_135656403801
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Сэконд шоп"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сэконд шоп"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 41"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 595-16-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.193579,30.227486"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_concert_hall_1205930922
+ <- concept_concert_hall;
+=>nrel_main_idtf:
+	["Могилёв"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилёв"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 275-98-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897811,30.332028"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mogomc.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

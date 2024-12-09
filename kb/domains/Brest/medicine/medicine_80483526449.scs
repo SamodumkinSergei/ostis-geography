@@ -1,0 +1,26 @@
+ concept_medicine_80483526449
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Laboratoire d'analyses médicales - Brest Iroise - Cerballiance"]
+	(* <- lang_ru;; <- name;;*);
+    ["Laboratoire d'analyses médicales - Brest Iroise - Cerballiance"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Бретань, Финистер, Округ Брест, Брест, Rue Émile Rousse"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 2 98 45 21 40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,ср,чт,пт 07:30–18:00, перерыв 12:00–14:00; сб 08:00–12:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["48.386109,-4.527875"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://laboratoires.cerballiance.fr/brest/33-rue-emile-rousse"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

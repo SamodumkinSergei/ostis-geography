@@ -1,0 +1,26 @@
+ concept_clothes_shop_153324834836
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Soda Shop"]
+	(* <- lang_ru;; <- name;;*);
+    ["Soda Shop"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Немига, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 872-87-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903834,27.551795"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://soda.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

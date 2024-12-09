@@ -1,0 +1,26 @@
+ concept_malls_39472035034
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Imarket.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Imarket.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Советская улица, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 704-77-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–20:00; вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.682204,23.831426"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://imarket.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

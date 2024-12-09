@@ -1,0 +1,26 @@
+ concept_auto_1167349269
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Ikey.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ikey.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева, 121/4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 667-66-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00; сб,вс 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.93206,27.460508"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ikey.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

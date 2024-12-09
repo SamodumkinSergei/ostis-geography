@@ -1,0 +1,26 @@
+ concept_medicine_1098649559
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Брестский областной психоневрологический диспансер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестский областной психоневрологический диспансер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, микрорайон Плоска, улица Плоска, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 255-02-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.128156,23.71923"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.psihiatria-brest.org/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

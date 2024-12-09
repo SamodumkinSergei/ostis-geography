@@ -1,0 +1,26 @@
+ concept_college_1369391481
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГГМУ, корпус № 4"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГГМУ, корпус № 4"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Космонавтов, 70"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 263-30-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.454319,30.959719"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gsmu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

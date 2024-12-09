@@ -1,0 +1,26 @@
+ concept_restaurants_204759249360
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Eden-restaurant Brest Centre Ville"]
+	(* <- lang_ru;; <- name;;*);
+    ["Eden-restaurant Brest Centre Ville"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Бретань, Финистер, Округ Брест, Брест, Rue Algésiras, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 2 98 43 26 17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["48.390588,-4.490184"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.hoteldelapaix-brest.com/bases/restaurant_pdf/5/CARTE-COMPLETE-EDEN-OCT-2015.pdf"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

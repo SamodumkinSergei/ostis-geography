@@ -1,0 +1,26 @@
+ concept_malls_1764671017
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Твой Велик"]
+	(* <- lang_ru;; <- name;;*);
+    ["Твой Велик"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Речицкий проспект, 80"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 780-31-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.405234,30.9212"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://tvojvelik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

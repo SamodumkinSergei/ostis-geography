@@ -1,0 +1,26 @@
+ concept_office_service_121736868373
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Аренда Складов Холодильных"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аренда Складов Холодильных"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Шабаны, 14А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 609-00-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.834761,27.696444"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://белга.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

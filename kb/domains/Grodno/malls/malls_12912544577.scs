@@ -1,0 +1,26 @@
+ concept_malls_12912544577
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Воздушная история"]
+	(* <- lang_ru;; <- name;;*);
+    ["Воздушная история"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Дубко, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 586-39-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–21:00; пт,сб 10:00–22:00; вс 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.701797,23.834323"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://shargrodno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

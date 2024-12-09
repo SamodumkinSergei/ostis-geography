@@ -1,0 +1,26 @@
+ concept_malls_126585681457
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Маркет Элит"]
+	(* <- lang_ru;; <- name;;*);
+    ["Маркет Элит"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Шилова, 4А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 148-08-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:30–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.46064,30.991366"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://marketelit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

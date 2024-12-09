@@ -1,0 +1,26 @@
+ concept_sportcenter_202503720038
+ <- concept_sportcenter;
+=>nrel_main_idtf:
+	["Управление спорта и туризма Брестского облисполкома"]
+	(* <- lang_ru;; <- name;;*);
+    ["Управление спорта и туризма Брестского облисполкома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Дзержинского, 46"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 222-16-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.088841,23.696113"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brestoblsport.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

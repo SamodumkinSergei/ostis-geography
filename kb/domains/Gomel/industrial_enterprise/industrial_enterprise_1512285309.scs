@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_1512285309
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Труд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Труд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 41"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 234-48-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 08:30–17:00, перерыв 12:30–13:00; сб 10:00–16:00, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.436072,31.009213"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://oaotrud.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

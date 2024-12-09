@@ -1,0 +1,26 @@
+ concept_bus_stop_211730758439
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Станция метро Спортивная"]
+	(* <- lang_ru;; <- name;;*);
+    ["Станция метро Спортивная"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Бельского"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.9078,27.480771"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

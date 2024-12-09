@@ -1,0 +1,26 @@
+ concept_gasstation_1133425639
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["А-100"]
+	(* <- lang_ru;; <- name;;*);
+    ["А-100"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Брикета, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 233-33-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 03:30–03:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904964,27.409051"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.azs.a-100.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

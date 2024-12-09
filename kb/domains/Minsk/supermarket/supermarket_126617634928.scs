@@ -1,0 +1,26 @@
+ concept_supermarket_126617634928
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Санта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Санта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Первомайский район, микрорайон Великий Лес, улица Водолажского, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 755-83-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–01:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.942845,27.70823"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.santa.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

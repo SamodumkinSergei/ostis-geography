@@ -1,0 +1,26 @@
+ concept_tailor_1031396187
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Ремонт обуви"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт обуви"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Яцыно, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 377-27-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905591,30.336489"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://valler.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

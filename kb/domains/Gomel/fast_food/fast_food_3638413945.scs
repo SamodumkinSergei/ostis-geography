@@ -1,0 +1,26 @@
+ concept_fast_food_3638413945
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Медина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Медина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Богдана Хмельницкого"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 777-99-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–01:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.420034,30.972516"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://medina-fastfood.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

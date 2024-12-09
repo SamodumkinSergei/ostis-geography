@@ -1,0 +1,26 @@
+ concept_medicine_214935541383
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Территориальный центр социального обслуживания населения Центрального района г. Минска, отделение дневного пребывания для инвалидов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Территориальный центр социального обслуживания населения Центрального района г. Минска, отделение дневного пребывания для инвалидов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Киселёва, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 270-97-89"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910434,27.573071"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://tcsoncen.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

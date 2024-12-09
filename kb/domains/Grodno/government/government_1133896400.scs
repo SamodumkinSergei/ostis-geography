@@ -1,0 +1,26 @@
+ concept_government_1133896400
+ <- concept_government;
+=>nrel_main_idtf:
+	["Главное управление министерства финансов Республики Беларусь по Гродненской области"]
+	(* <- lang_ru;; <- name;;*);
+    ["Главное управление министерства финансов Республики Беларусь по Гродненской области"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Городничанская улица, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 279-17-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.681347,23.834075"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://minfin.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

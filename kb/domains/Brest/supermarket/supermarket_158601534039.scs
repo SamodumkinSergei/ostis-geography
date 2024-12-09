@@ -1,0 +1,26 @@
+ concept_supermarket_158601534039
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Доброцен"]
+	(* <- lang_ru;; <- name;;*);
+    ["Доброцен"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Янки Купалы, 130"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (343) 302-05-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.11503,23.773976"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://dobrotsen.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

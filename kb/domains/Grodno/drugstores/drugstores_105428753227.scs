@@ -1,0 +1,26 @@
+ concept_drugstores_105428753227
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродненская область, Свислочский район, Новодворский сельсовет, агрогородок Новый Двор, улица 1 Мая, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 137-52-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,чт 10:50–15:50"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.830723,24.34997"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://farmacia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

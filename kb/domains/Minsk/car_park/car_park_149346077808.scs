@@ -1,0 +1,26 @@
+ concept_car_park_149346077808
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Minsk-Lada, автостоянка № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Minsk-Lada, автостоянка № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Серова, 1Д"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 789-99-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:00–01:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.843472,27.543081"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

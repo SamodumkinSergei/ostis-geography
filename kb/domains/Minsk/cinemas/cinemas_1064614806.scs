@@ -1,0 +1,26 @@
+ concept_cinemas_1064614806
+ <- concept_cinemas;
+=>nrel_main_idtf:
+	["АртКинотеатр"]
+	(* <- lang_ru;; <- name;;*);
+    ["АртКинотеатр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 104, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 336-99-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.860216,27.478936"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://artkinoteatr.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

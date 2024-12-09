@@ -1,0 +1,26 @@
+ concept_hotels_219418075260
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Гости"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гости"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, микрорайон Лучёса, Зеленогурская улица, 50"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 247-30-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.16247,30.18001"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://inn-3408.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_malls_119603061316
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Польза"]
+	(* <- lang_ru;; <- name;;*);
+    ["Польза"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Поповича, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 113-78-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–20:00; вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.67061,23.80341"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://polza-shop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

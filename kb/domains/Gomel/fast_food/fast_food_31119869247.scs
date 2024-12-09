@@ -1,0 +1,26 @@
+ concept_fast_food_31119869247
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Свежая шаурма"]
+	(* <- lang_ru;; <- name;;*);
+    ["Свежая шаурма"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Богдана Хмельницкого, 67"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 188-83-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.422758,30.972565"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

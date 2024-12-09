@@ -1,0 +1,26 @@
+ concept_hotels_171759885218
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Chateau de La Vieille Chapelle"]
+	(* <- lang_ru;; <- name;;*);
+    ["Chateau de La Vieille Chapelle"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Франция, Сен-Сюльпис-э-Камерак, 2 Rue Florence Arthaud"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 5 57 84 48 65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["44.942268,-0.381731"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://chateau-de-la-vieille-chapelle.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

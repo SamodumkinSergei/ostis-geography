@@ -1,0 +1,26 @@
+ concept_drugstores_1305280703
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 6 Лигматон"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 6 Лигматон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 154"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 394-86-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.937112,27.673508"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ligmaton.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

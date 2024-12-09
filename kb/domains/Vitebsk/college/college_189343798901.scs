@@ -1,0 +1,26 @@
+ concept_college_189343798901
+ <- concept_college;
+=>nrel_main_idtf:
+	["Витебский государственный медицинский колледж имени академика И. П. Антонова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебский государственный медицинский колледж имени академика И. П. Антонова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Правды, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 226-25-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.189289,30.210357"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitgmk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

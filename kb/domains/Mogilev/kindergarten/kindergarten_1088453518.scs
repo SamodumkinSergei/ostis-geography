@@ -1,0 +1,26 @@
+ concept_kindergarten_1088453518
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-Сад № 72"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-Сад № 72"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Юбилейный, Днепровский бульвар, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 274-25-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 08:00–17:00; вт 11:00–20:00; ср,чт 08:00–17:00; пт 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90239,30.362929"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sad72mogilev.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

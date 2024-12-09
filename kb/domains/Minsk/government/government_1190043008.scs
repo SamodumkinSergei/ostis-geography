@@ -1,0 +1,26 @@
+ concept_government_1190043008
+ <- concept_government;
+=>nrel_main_idtf:
+	["Президиум НАН Беларуси"]
+	(* <- lang_ru;; <- name;;*);
+    ["Президиум НАН Беларуси"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 66"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 284-14-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.920544,27.598175"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://nasb.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_1520713923
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГУО средняя школа № 40 г. Гродно"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО средняя школа № 40 г. Гродно"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Кремко, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 263-43-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–19:30; сб,вс 09:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.636835,23.861196"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch40.oktobrgrodno.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

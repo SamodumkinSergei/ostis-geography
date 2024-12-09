@@ -1,0 +1,26 @@
+ concept_baby_shop_207335502347
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Магазин игрушек"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин игрушек"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Алибегова, 13/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.871163,27.474548"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

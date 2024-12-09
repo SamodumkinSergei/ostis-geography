@@ -1,0 +1,26 @@
+ concept_college_105428092314
+ <- concept_college;
+=>nrel_main_idtf:
+	["Православная воскресная школа Свято-Николаевской братской церкви"]
+	(* <- lang_ru;; <- name;;*);
+    ["Православная воскресная школа Свято-Николаевской братской церкви"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Советская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 220-77-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["сб,вс 09:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.097124,23.688905"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://stnikolas.by/prikhod/voskresnaya-shkola.html"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_medicine_1020671322
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["ГБУЗ РК поликлиника № 3 Лппо № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГБУЗ РК поликлиника № 3 Лппо № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Республика Крым, Симферополь, улица Павленко, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (3652) 51-07-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00; сб 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["44.957315,34.087826"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

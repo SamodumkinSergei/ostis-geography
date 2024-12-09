@@ -1,0 +1,26 @@
+ concept_drugstores_10475538838
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 15 ВитВар"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 15 ВитВар"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 256-13-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.425837,31.0142"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitvar.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_supermarket_212238091960
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Легенда"]
+	(* <- lang_ru;; <- name;;*);
+    ["Легенда"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Центральный район, микрорайон Новинки, улица Выготского, 45"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 569-51-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.958541,27.551644"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

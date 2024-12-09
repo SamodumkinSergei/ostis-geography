@@ -1,0 +1,26 @@
+ concept_drugstores_201038243611
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 159"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 159"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Ушакова, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 240-01-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 09:00–19:00; вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.939831,30.330644"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mogpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

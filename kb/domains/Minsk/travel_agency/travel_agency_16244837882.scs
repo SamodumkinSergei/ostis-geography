@@ -1,0 +1,26 @@
+ concept_travel_agency_16244837882
+ <- concept_travel_agency;
+=>nrel_main_idtf:
+	["Rock And Lake"]
+	(* <- lang_ru;; <- name;;*);
+    ["Rock And Lake"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Южное Саво, Taipaleentie, 60"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+358 505660905"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["62.01246,26.93082"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rockandlake.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

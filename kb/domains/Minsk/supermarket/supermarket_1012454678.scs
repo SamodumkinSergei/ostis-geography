@@ -1,0 +1,26 @@
+ concept_supermarket_1012454678
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Виталюр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Виталюр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Крупской, 6/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["7060"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.858894,27.627172"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitalur.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

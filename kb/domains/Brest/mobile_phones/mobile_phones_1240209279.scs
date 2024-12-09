@@ -1,0 +1,26 @@
+ concept_mobile_phones_1240209279
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Белтелеком"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белтелеком"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Машерова, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 250-14-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.086224,23.697033"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://beltelecom.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

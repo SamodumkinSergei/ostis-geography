@@ -1,0 +1,26 @@
+ concept_college_1039839725
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гомельский торгово-экономический колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский торгово-экономический колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Привокзальная улица, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 233-70-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:00–17:00, перерыв 12:30–13:20; пт 08:00–16:10, перерыв 12:30–13:20"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.428564,30.993867"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gtec-bks.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

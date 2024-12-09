@@ -1,0 +1,26 @@
+ concept_college_227043023427
+ <- concept_college;
+=>nrel_main_idtf:
+	["Кафедра ортопедической стоматологии БГМУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафедра ортопедической стоматологии БГМУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Сухая улица, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 231-54-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903026,27.53589"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsmu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

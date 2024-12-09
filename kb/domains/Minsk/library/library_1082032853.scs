@@ -1,0 +1,26 @@
+ concept_library_1082032853
+ <- concept_library;
+=>nrel_main_idtf:
+	["Детская библиотека № 7"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детская библиотека № 7"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Денисовская улица, 43"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 338-02-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–19:00; вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873552,27.576493"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://childlib.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

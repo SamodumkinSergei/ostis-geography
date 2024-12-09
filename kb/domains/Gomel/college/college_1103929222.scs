@@ -1,0 +1,26 @@
+ concept_college_1103929222
+ <- concept_college;
+=>nrel_main_idtf:
+	["Костюковский государственный аграрно-технический профессиональный лицей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Костюковский государственный аграрно-технический профессиональный лицей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Михаила Ломоносова, 115"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 290-72-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.549064,30.905689"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kgatpl.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

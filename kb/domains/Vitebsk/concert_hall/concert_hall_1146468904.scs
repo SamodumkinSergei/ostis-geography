@@ -1,0 +1,26 @@
+ concept_concert_hall_1146468904
+ <- concept_concert_hall;
+=>nrel_main_idtf:
+	["Витебская областная филармония"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебская областная филармония"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 69"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 236-83-97"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 12:00–19:00; сб,вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.202316,30.208736"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitebsk-fil.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

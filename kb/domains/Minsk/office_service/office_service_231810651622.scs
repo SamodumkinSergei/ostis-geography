@@ -1,0 +1,26 @@
+ concept_office_service_231810651622
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Арт-фабрика"]
+	(* <- lang_ru;; <- name;;*);
+    ["Арт-фабрика"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Свердлова, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 588-66-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897703,27.547996"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://artfabrika.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

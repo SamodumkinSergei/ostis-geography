@@ -1,0 +1,26 @@
+ concept_medicine_88914915552
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["3-я городская клиническая больница, Офтальмологический корпус"]
+	(* <- lang_ru;; <- name;;*);
+    ["3-я городская клиническая больница, Офтальмологический корпус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ленина, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 226-04-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.896045,27.564112"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://3gkb.by/otdeleniya/otdelenie-lazernoj-mikrokhirurgii-glaza"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_museum_4576827489
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Российский центр науки и культуры"]
+	(* <- lang_ru;; <- name;;*);
+    ["Российский центр науки и культуры"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Старый Аэродром, улица 50 лет БССР, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 231-54-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–18:00; пт 09:00–16:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.454073,30.996986"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://blr-gomel.rs.gov.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

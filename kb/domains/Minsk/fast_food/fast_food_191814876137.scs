@@ -1,0 +1,26 @@
+ concept_fast_food_191814876137
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Mr. Grill"]
+	(* <- lang_ru;; <- name;;*);
+    ["Mr. Grill"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, 1-й Твёрдый переулок"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 320-00-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб,вс 09:00–01:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907639,27.602044"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mrgrill.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

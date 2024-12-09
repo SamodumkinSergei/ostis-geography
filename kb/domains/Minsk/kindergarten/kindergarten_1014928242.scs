@@ -1,0 +1,26 @@
+ concept_kindergarten_1014928242
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-Сад № 487"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-Сад № 487"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ротмистрова, 58"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 394-08-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.847076,27.698443"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu487.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

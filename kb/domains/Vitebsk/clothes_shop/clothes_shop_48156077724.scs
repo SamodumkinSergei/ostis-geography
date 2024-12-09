@@ -1,0 +1,26 @@
+ concept_clothes_shop_48156077724
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Мода Макс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мода Макс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Победы, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 223-57-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.162639,30.220907"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://modamax.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

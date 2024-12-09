@@ -1,0 +1,26 @@
+ concept_fast_food_89594924465
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Don Kebab"]
+	(* <- lang_ru;; <- name;;*);
+    ["Don Kebab"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Пушкинская улица, 40/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 565-55-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.097504,23.694209"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://donkebab.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

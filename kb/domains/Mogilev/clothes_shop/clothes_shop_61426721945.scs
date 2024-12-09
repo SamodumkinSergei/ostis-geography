@@ -1,0 +1,26 @@
+ concept_clothes_shop_61426721945
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["LotuStok"]
+	(* <- lang_ru;; <- name;;*);
+    ["LotuStok"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Космонавтов, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 11:00–19:00; сб 10:00–16:00; вс 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910428,30.315255"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

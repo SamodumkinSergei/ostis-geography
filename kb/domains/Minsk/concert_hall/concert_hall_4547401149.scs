@@ -1,0 +1,26 @@
+ concept_concert_hall_4547401149
+ <- concept_concert_hall;
+=>nrel_main_idtf:
+	["Crossbar"]
+	(* <- lang_ru;; <- name;;*);
+    ["Crossbar"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Центральный район, Веснянка, улица Леси Украинки, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 566-44-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–00:00; пт-вс 12:00–04:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.931451,27.491523"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://crossbar.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_office_1099980476
+ <- concept_office;
+=>nrel_main_idtf:
+	["Национальный центр маркетинга и конъюнктуры цен, филиал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Национальный центр маркетинга и конъюнктуры цен, филиал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Гоголя, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 236-90-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–17:00, перерыв 13:00–14:00; пт 09:00–16:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.190666,30.206486"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ncmps.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

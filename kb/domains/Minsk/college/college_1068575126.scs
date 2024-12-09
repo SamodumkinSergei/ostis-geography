@@ -1,0 +1,26 @@
+ concept_college_1068575126
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минский инновационный университет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский инновационный университет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лазо, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 291-26-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:45–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.869976,27.659968"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.miu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

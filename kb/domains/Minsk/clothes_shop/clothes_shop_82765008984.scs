@@ -1,0 +1,26 @@
+ concept_clothes_shop_82765008984
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Wogy"]
+	(* <- lang_ru;; <- name;;*);
+    ["Wogy"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Скрипникова, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 707-70-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–20:00; вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.888431,27.421415"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://taplink.cc/wogy.by"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

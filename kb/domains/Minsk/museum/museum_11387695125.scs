@@ -1,0 +1,26 @@
+ concept_museum_11387695125
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Национальный исторический музей РБ, фонды"]
+	(* <- lang_ru;; <- name;;*);
+    ["Национальный исторический музей РБ, фонды"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Первомайский район, микрорайон Восток, Восток-2, улица Славинского, 1/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 399-24-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–18:00, перерыв 13:00–13:45; пт 09:00–16:45, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.941937,27.632995"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://histmuseum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_kindergarten_1015618637
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Детский-сад № 22"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский-сад № 22"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тухачевского, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 296-36-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 06:30–18:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.869943,27.625449"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu22.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_41212880140
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Средняя школа № 13"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 13"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Гребенёво"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.855152,30.305738"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

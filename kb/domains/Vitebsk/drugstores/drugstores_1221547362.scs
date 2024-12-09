@@ -1,0 +1,26 @@
+ concept_drugstores_1221547362
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 4 Лигматон"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 4 Лигматон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Бешенковичское шоссе, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 223-53-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.160084,30.168353"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ligmaton.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

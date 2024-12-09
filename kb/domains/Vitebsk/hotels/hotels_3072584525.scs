@@ -1,0 +1,26 @@
+ concept_hotels_3072584525
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Апартаменты Бочкарева"]
+	(* <- lang_ru;; <- name;;*);
+    ["Апартаменты Бочкарева"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Ул. Фрунзе, Д. 65"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.194278,30.235985"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

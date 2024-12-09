@@ -1,0 +1,26 @@
+ concept_bus_stop_32406704689
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Менделеева"]
+	(* <- lang_ru;; <- name;;*);
+    ["Менделеева"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Менделеева"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902446,27.618904"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

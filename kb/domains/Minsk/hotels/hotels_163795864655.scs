@@ -1,0 +1,26 @@
+ concept_hotels_163795864655
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Аколiца"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аколiца"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Острошицко-Городокский сельсовет, деревня Околица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 189-82-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.060733,27.729648"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://akolica.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

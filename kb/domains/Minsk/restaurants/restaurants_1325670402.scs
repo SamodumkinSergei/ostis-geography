@@ -1,0 +1,26 @@
+ concept_restaurants_1325670402
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["ButterBro"]
+	(* <- lang_ru;; <- name;;*);
+    ["ButterBro"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурганова, 43"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 144-11-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-ср 10:00–22:00; чт 10:00–23:00; пт,сб 10:00–00:00; вс 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.927016,27.589365"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://butterbro.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_metro_210067244029
+ <- concept_metro;
+=>nrel_main_idtf:
+	["Парк Челюскинцев"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парк Челюскинцев"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 05:30–00:40"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.924165,27.613378"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://metropoliten.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

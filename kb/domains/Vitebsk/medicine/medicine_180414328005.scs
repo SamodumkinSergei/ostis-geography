@@ -1,0 +1,26 @@
+ concept_medicine_180414328005
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Терапевтический корпус Вгкбсмп"]
+	(* <- lang_ru;; <- name;;*);
+    ["Терапевтический корпус Вгкбсмп"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 71к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 251-99-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.193082,30.242382"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bsmp.vitebsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

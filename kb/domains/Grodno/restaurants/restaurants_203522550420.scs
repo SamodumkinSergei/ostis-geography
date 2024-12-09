@@ -1,0 +1,26 @@
+ concept_restaurants_203522550420
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Burger King"]
+	(* <- lang_ru;; <- name;;*);
+    ["Burger King"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Янки Купалы, 87"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 154-11-24"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.649558,23.85367"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://burger-king.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

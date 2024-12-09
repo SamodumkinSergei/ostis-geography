@@ -1,0 +1,26 @@
+ concept_cafe_1382984612
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Таверна"]
+	(* <- lang_ru;; <- name;;*);
+    ["Таверна"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Газеты Правда, 20А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 160-60-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.867008,27.483754"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

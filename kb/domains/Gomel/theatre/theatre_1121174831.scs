@@ -1,0 +1,26 @@
+ concept_theatre_1121174831
+ <- concept_theatre;
+=>nrel_main_idtf:
+	["Гомельский городской молодежный театр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский городской молодежный театр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Ленина, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 250-90-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 09:00–17:30, перерыв 13:00–14:00; вт-сб 12:00–19:00; вс 13:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.425466,31.007692"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.moltheatre.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

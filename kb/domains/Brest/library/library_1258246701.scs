@@ -1,0 +1,26 @@
+ concept_library_1258246701
+ <- concept_library;
+=>nrel_main_idtf:
+	["Специальная библиотека-филиал № 12"]
+	(* <- lang_ru;; <- name;;*);
+    ["Специальная библиотека-филиал № 12"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, бульвар Космонавтов, 120"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 253-34-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,вт,ср,чт,пт,вс 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.089423,23.702462"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gcbs-brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_60851066499
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Логойский тракт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Логойский тракт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Логойский тракт"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.951264,27.616985"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

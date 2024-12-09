@@ -1,0 +1,26 @@
+ concept_restaurants_61125740936
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Au Bureau Brest"]
+	(* <- lang_ru;; <- name;;*);
+    ["Au Bureau Brest"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Бретань, Финистер, Округ Брест, Брест, Quai Éric Tabarly"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 2 98 43 10 48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:30–23:00; пт,сб 11:30–01:00; вс 11:30–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["48.380258,-4.4907"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.aubureau.fr/restaurant/?ville=AB_Brest1&y_source=1_MzI1NDU1MDItNjMwLWxvY2F0aW9uLndlYnNpdGU%3D"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

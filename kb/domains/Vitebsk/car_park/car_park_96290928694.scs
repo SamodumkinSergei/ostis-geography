@@ -1,0 +1,26 @@
+ concept_car_park_96290928694
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автостоянка № 5 БОАМЛ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостоянка № 5 БОАМЛ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чкалова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 05:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.15525,30.214913"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

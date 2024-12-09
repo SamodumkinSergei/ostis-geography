@@ -1,0 +1,26 @@
+ concept_medicine_1251301466
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["ГУЗ поликлиника № 2, амбулаторно поликлиническое отделение № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУЗ поликлиника № 2, амбулаторно поликлиническое отделение № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Волгоград, улица Кузнецова, 29А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (8442) 73-12-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб,вс 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["48.761638,44.553836"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.polyclinica20.ucoz.net/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

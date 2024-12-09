@@ -1,0 +1,26 @@
+ concept_restaurants_232050866775
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Greenwich"]
+	(* <- lang_ru;; <- name;;*);
+    ["Greenwich"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Советская улица, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 540-20-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 17:00–02:00; пт 17:00–05:00; сб 15:00–05:00; вс 15:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.681871,23.832196"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://greenwich.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

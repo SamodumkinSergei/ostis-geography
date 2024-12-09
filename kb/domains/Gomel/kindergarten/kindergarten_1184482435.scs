@@ -1,0 +1,26 @@
+ concept_kindergarten_1184482435
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Детский сад"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский сад"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельский район, агрогородок Красное, улица 8 Марта, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 293-06-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.472371,30.915597"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://krasnoe-yaslisad.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

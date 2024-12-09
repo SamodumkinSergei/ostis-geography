@@ -1,0 +1,26 @@
+ concept_hypermarket_1645726402
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Кабинетоф Гомель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кабинетоф Гомель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Шилова, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 692-63-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.465933,30.998507"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

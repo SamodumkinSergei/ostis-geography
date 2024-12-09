@@ -1,0 +1,26 @@
+ concept_petshop_230310770571
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Ветеринарная аптека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ветеринарная аптека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Богатырёва, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 831-01-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.167378,30.283556"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://veterinary-pharmacy-494.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

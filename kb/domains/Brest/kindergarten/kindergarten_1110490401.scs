@@ -1,0 +1,26 @@
+ concept_kindergarten_1110490401
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 52 г. Бреста"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 52 г. Бреста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Красногвардейская улица, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 228-26-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.107384,23.681178"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ds52brest.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

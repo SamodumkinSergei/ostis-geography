@@ -1,0 +1,26 @@
+ concept_hairdressers_1009730985
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["МиА"]
+	(* <- lang_ru;; <- name;;*);
+    ["МиА"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Ясеневая улица, 20А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 722-58-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00; вс 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.067027,23.764572"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

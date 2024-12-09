@@ -1,0 +1,26 @@
+ concept_malls_33888084632
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Подземный город"]
+	(* <- lang_ru;; <- name;;*);
+    ["Подземный город"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 1Е"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 688-75-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 11:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.887772,27.58269"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://p-gorod.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

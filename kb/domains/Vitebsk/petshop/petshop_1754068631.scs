@@ -1,0 +1,26 @@
+ concept_petshop_1754068631
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Хамелеон"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хамелеон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 399-66-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.180971,30.214851"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

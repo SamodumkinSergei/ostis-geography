@@ -1,0 +1,26 @@
+ concept_cafe_64100616480
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кинокомната Плойка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кинокомната Плойка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Октябрьская улица, 19Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 622-26-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.890819,27.573914"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://kinokomnataployka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

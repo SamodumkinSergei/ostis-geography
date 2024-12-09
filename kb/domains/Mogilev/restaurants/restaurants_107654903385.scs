@@ -1,0 +1,26 @@
+ concept_restaurants_107654903385
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Salatik"]
+	(* <- lang_ru;; <- name;;*);
+    ["Salatik"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Ленинская улица, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 812-82-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.895228,30.332541"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

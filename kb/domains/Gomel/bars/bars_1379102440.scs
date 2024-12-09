@@ -1,0 +1,26 @@
+ concept_bars_1379102440
+ <- concept_bars;
+=>nrel_main_idtf:
+	["Этаж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Этаж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Пушкина, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 324-22-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 17:00–01:00; пт,сб 17:00–02:00; вс 17:00–01:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.433602,31.010044"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pushkinplaza.by/index.php/guide/4-floor/party-bar-etazh"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

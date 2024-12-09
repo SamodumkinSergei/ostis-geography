@@ -1,0 +1,26 @@
+ concept_catholic_church_118220013643
+ <- concept_catholic_church;
+=>nrel_main_idtf:
+	["Костёл Девы Марии Ангельской"]
+	(* <- lang_ru;; <- name;;*);
+    ["Костёл Девы Марии Ангельской"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Огородная улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 956-48-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:30, перерыв 09:30–19:00; вс 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.671982,23.822164"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://zetgrodno.com/grodnenskiy-kostel-materi-bozhey-an"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

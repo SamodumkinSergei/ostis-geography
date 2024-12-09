@@ -1,0 +1,26 @@
+ concept_hotels_1764690747
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["City Life Apartment"]
+	(* <- lang_ru;; <- name;;*);
+    ["City Life Apartment"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Пушкинская улица, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 225-58-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.094326,23.686037"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://city-life-apartments-on-pushkinskaya.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

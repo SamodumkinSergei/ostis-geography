@@ -1,0 +1,26 @@
+ concept_hypermarket_220204901930
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["СтройНОРМА"]
+	(* <- lang_ru;; <- name;;*);
+    ["СтройНОРМА"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродненский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 334-12-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб,вс 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.632793,23.759351"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.stroynorma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

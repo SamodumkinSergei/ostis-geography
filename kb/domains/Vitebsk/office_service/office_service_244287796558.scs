@@ -1,0 +1,26 @@
+ concept_office_service_244287796558
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Филиал Военсервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Филиал Военсервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 39А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 261-58-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.192857,30.226353"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://voenservice.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

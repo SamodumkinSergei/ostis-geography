@@ -1,0 +1,26 @@
+ concept_restaurants_1089548796
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Шынок у Лявона"]
+	(* <- lang_ru;; <- name;;*);
+    ["Шынок у Лявона"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Веры Хоружей, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 323-59-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-ср 11:00–23:00; чт-сб 11:00–02:00; вс 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919965,27.572707"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://shynok.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

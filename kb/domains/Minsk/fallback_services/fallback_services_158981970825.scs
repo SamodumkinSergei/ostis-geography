@@ -1,0 +1,26 @@
+ concept_fallback_services_158981970825
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Мастер Гранит"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мастер Гранит"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Одинцова, 20В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 702-94-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901248,27.44659"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://master-granit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_230485066042
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Детский сад № 13"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский сад № 13"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Алтайская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.857503,30.302554"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

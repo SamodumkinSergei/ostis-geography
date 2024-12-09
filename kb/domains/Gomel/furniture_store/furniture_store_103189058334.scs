@@ -1,0 +1,26 @@
+ concept_furniture_store_103189058334
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Прогресс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Прогресс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Мицкевича, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 399-87-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб 10:00–18:00; вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.098397,23.691063"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://progres.gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

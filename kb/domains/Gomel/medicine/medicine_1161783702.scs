@@ -1,0 +1,26 @@
+ concept_medicine_1161783702
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["ГУЗ Гомельская городская клиническая больница № 4"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУЗ Гомельская городская клиническая больница № 4"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Костюковка, улица Беляева, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 293-07-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.533254,30.911886"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gyzggb4.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

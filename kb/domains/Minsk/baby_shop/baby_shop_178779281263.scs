@@ -1,0 +1,26 @@
+ concept_baby_shop_178779281263
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Alltoys"]
+	(* <- lang_ru;; <- name;;*);
+    ["Alltoys"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 104Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 650-17-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.86037,27.478485"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://alltoys.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_restaurants_24946629774
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Пешков"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пешков"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Максима Горького, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 222-24-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:30–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.68843,23.827866"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://novisvet.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

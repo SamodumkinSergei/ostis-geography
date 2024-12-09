@@ -1,0 +1,26 @@
+ concept_college_35241822519
+ <- concept_college;
+=>nrel_main_idtf:
+	["Кафедра анатомии человека ВГМУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафедра анатомии человека ВГМУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 23, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 260-14-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.192543,30.217107"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.vsmu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

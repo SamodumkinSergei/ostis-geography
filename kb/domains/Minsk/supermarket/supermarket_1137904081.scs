@@ -1,0 +1,26 @@
+ concept_supermarket_1137904081
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Гиппо"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гиппо"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Боровлянский сельсовет, Лесной, микрорайон Зелёный Бор, улица Н.Н. Александрова, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 378-50-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.013241,27.678394"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gippo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

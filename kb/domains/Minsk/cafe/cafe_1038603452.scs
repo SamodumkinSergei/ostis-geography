@@ -1,0 +1,26 @@
+ concept_cafe_1038603452
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Маэстро"]
+	(* <- lang_ru;; <- name;;*);
+    ["Маэстро"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 3/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 327-54-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.895459,27.548189"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://radzivil.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

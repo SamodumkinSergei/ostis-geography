@@ -1,0 +1,26 @@
+ concept_restaurants_114277247199
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Indian Restaurant Brest"]
+	(* <- lang_ru;; <- name;;*);
+    ["Indian Restaurant Brest"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Бретань, Финистер, Округ Брест, Брест, Rue Louis Pasteur, 61"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 2 98 89 48 26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["48.389314,-4.488738"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.letripura.fr/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

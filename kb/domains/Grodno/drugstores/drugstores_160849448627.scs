@@ -1,0 +1,26 @@
+ concept_drugstores_160849448627
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 74"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 74"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Фомичёва, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 266-20-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–21:00; сб,вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.657681,23.842486"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://farmacia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

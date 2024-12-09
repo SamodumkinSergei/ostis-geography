@@ -1,0 +1,26 @@
+ concept_spa_48653329852
+ <- concept_spa;
+=>nrel_main_idtf:
+	["Дом красоты и здоровья"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дом красоты и здоровья"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гоголя, 1Г"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 344-32-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–20:00; вс 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.088642,23.676226"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://dom-krasoty.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

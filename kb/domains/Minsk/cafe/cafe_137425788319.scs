@@ -1,0 +1,26 @@
+ concept_cafe_137425788319
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Paragraph"]
+	(* <- lang_ru;; <- name;;*);
+    ["Paragraph"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Немига, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 250-66-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–23:00; сб,вс 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902584,27.550134"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.paragraph.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

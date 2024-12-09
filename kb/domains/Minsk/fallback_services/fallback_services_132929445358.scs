@@ -1,0 +1,26 @@
+ concept_fallback_services_132929445358
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Pomnik.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Pomnik.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский район, микрорайон Степянка, Родниковая улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 902-96-96"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916557,27.68397"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pomnik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

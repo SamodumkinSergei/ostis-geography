@@ -1,0 +1,26 @@
+ concept_medicine_98499731324
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Хирургический корпус Ггкб № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хирургический корпус Ггкб № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Дворникова, 80/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 263-36-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.455163,30.979215"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.ggkb1.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

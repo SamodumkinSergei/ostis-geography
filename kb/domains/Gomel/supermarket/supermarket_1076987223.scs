@@ -1,0 +1,26 @@
+ concept_supermarket_1076987223
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Друзья"]
+	(* <- lang_ru;; <- name;;*);
+    ["Друзья"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Минская улица, 42А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 228-51-28"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.428824,30.951236"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

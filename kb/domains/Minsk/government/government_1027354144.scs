@@ -1,0 +1,26 @@
+ concept_government_1027354144
+ <- concept_government;
+=>nrel_main_idtf:
+	["Инспекция Министерства по налогам и сборам РБ по г. Минску"]
+	(* <- lang_ru;; <- name;;*);
+    ["Инспекция Министерства по налогам и сборам РБ по г. Минску"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Мясникова, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 220-25-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:45–18:00, перерыв 13:00–14:00; пт 08:45–16:45, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.898217,27.54452"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.nalog.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

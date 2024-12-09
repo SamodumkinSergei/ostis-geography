@@ -1,0 +1,26 @@
+ concept_police_210041633352
+ <- concept_police;
+=>nrel_main_idtf:
+	["Пожарная аварийно-спасательная часть № 30"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пожарная аварийно-спасательная часть № 30"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Лошица, улица Владислава Сырокомли, 11А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 219-46-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.845287,27.557998"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mchs.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

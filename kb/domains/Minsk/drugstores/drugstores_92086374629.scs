@@ -1,0 +1,26 @@
+ concept_drugstores_92086374629
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Пилюля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пилюля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кузьмы Чорного, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 521-10-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.926452,27.603925"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://aptekapil.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

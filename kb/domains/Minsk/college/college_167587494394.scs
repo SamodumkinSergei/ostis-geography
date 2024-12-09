@@ -1,0 +1,26 @@
+ concept_college_167587494394
+ <- concept_college;
+=>nrel_main_idtf:
+	["Белорусская медицинская академия последипломного образования, кафедра инфекционных болезней и детских инфекций"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусская медицинская академия последипломного образования, кафедра инфекционных болезней и детских инфекций"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кропоткина, 76"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 237-75-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 09:00–17:00; вт-пт 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.920849,27.559189"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://belmapo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

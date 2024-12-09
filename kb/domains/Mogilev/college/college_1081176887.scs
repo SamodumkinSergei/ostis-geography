@@ -1,0 +1,26 @@
+ concept_college_1081176887
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 17 г. Могилёв"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 17 г. Могилёв"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Челюскинцев, 181"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (0222) 64-53-24"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00; сб 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.883264,30.272445"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://17mogilev.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

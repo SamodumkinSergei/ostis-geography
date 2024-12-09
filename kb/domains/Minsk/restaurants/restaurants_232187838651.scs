@@ -1,0 +1,26 @@
+ concept_restaurants_232187838651
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Xun • Ищем вкус"]
+	(* <- lang_ru;; <- name;;*);
+    ["Xun • Ищем вкус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Богдана Хмельницкого, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 17:00–23:00; сб,вс 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.922935,27.596572"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

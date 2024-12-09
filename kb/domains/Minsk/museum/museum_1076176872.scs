@@ -1,0 +1,26 @@
+ concept_museum_1076176872
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Студенческий клуб БГЭУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Студенческий клуб БГЭУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 26/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 209-79-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.877551,27.606745"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bseu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

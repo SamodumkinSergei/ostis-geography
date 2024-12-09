@@ -1,0 +1,26 @@
+ concept_restaurants_69225988748
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Муравьёв"]
+	(* <- lang_ru;; <- name;;*);
+    ["Муравьёв"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Советская площадь, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 773-30-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–23:00; пт,сб 12:00–00:00; вс 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.678794,23.830084"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://muravievgrodno.taplink.ws/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

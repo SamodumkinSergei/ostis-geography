@@ -1,0 +1,26 @@
+ concept_restaurants_116966076422
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Doner King"]
+	(* <- lang_ru;; <- name;;*);
+    ["Doner King"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Минский район, агрогородок Ждановичи, Линейная улица, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 544-66-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:00–23:00; пт,сб 11:00–00:00; вс 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.941675,27.432231"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://donerking.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

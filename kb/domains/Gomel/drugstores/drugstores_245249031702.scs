@@ -1,0 +1,26 @@
+ concept_drugstores_245249031702
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация, аптека № 187/3"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация, аптека № 187/3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Добрушская улица, 2Гк1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 222-05-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:30–20:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.401664,31.057353"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomelpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

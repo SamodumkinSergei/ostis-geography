@@ -1,0 +1,26 @@
+ concept_drugstores_245074707022
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека ООО Табина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека ООО Табина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сергея Есенина, 38"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 317-18-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–21:00; вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.851968,27.452102"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

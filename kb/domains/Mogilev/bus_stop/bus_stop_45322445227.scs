@@ -1,0 +1,26 @@
+ concept_bus_stop_45322445227
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Талалихина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Талалихина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.943069,30.330359"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

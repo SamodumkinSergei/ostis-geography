@@ -1,0 +1,26 @@
+ concept_restaurants_1363332288
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Сезоны"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сезоны"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Красноармейская улица, 36"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 329-77-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:30–23:00, перерыв 14:30–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.891887,27.578753"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://beijinghotelminsk.com/restaurants"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

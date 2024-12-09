@@ -1,0 +1,26 @@
+ concept_auto_1321483083
+ <- concept_auto;
+=>nrel_main_idtf:
+	["ГомельАВТОпрестиж"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГомельАВТОпрестиж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Лепешинского, 176"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 532-02-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.485905,30.970382"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://autostapel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_drugstores_95558111316
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Соцфарма"]
+	(* <- lang_ru;; <- name;;*);
+    ["Соцфарма"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Корженевского, 10/3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 202-19-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.844582,27.503474"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://socpharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

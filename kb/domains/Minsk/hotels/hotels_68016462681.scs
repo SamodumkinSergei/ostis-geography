@@ -1,0 +1,26 @@
+ concept_hotels_68016462681
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Дипсервис Холл"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дипсервис Холл"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Войсковый переулок, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 333-84-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90544,27.57755"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://dipservicehall.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

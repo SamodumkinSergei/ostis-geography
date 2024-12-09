@@ -1,0 +1,26 @@
+ concept_cafe_1170888908
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Чайный дом Чайкоффский"]
+	(* <- lang_ru;; <- name;;*);
+    ["Чайный дом Чайкоффский"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Космонавтов, 6А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 271-71-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб,вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.675741,23.850732"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.chaikoffskiy.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

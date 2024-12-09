@@ -1,0 +1,26 @@
+ concept_cinemas_1139828279
+ <- concept_cinemas;
+=>nrel_main_idtf:
+	["Кинотеатр Киев"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кинотеатр Киев"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Каховская улица, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 357-65-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:30–21:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.929282,27.555968"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_hotels_1140265575
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Valeo"]
+	(* <- lang_ru;; <- name;;*);
+    ["Valeo"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Советский район, микрорайон Цна, Хмаринская улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 661-13-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.970342,27.588621"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

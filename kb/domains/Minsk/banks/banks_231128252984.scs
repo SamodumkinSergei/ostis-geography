@@ -1,0 +1,26 @@
+ concept_banks_231128252984
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Альфа-банк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Альфа-банк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Папернянский сельсовет, Цна, Юбилейная улица, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 733-33-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:30–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.972276,27.588646"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.alfabank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

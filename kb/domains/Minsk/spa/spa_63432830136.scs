@@ -1,0 +1,26 @@
+ concept_spa_63432830136
+ <- concept_spa;
+=>nrel_main_idtf:
+	["Баня № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Баня № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Богдана Хмельницкого, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 362-86-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-ср 08:00–20:00; чт-вс 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.924704,27.594588"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.saunaminska.by/gorodskaya/bania1.htm"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

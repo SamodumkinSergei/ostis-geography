@@ -1,0 +1,26 @@
+ concept_fallback_services_1269251854
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Пункт Приема Заказов Биотит"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пункт Приема Заказов Биотит"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Гоголя, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.190616,30.206804"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_203131908876
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Диспансер спортивной медицины"]
+	(* <- lang_ru;; <- name;;*);
+    ["Диспансер спортивной медицины"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, 1-я улица Доватора"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.194465,30.213541"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

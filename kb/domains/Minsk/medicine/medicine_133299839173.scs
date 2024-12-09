@@ -1,0 +1,26 @@
+ concept_medicine_133299839173
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["МНПЦ хирургии, трансплантологии и гематологии, гастроэнтерологическое отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["МНПЦ хирургии, трансплантологии и гематологии, гастроэнтерологическое отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Семашко, 8к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 276-91-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.859744,27.495681"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://msth.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_museum_1265056932
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей криминалистики"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей криминалистики"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Пушкина, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 234-11-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.430384,31.013129"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://milglory.gomel.museum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

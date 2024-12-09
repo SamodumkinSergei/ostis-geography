@@ -1,0 +1,26 @@
+ concept_supermarket_1140144703
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Продтовары"]
+	(* <- lang_ru;; <- name;;*);
+    ["Продтовары"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Пучкова, 35А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 252-68-71"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:15, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.651679,23.803999"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://prodtovary.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

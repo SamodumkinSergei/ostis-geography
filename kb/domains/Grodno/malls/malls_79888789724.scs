@@ -1,0 +1,26 @@
+ concept_malls_79888789724
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Остров чистоты и вкуса"]
+	(* <- lang_ru;; <- name;;*);
+    ["Остров чистоты и вкуса"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Захарова, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 798-98-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.676724,23.845117"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.ostrov-chistoty.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

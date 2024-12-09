@@ -1,0 +1,26 @@
+ concept_fallback_services_172954061536
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Памятники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Глинки, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 711-71-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.177859,30.192"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://shveiba.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

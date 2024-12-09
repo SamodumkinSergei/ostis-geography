@@ -1,0 +1,26 @@
+ concept_tailor_1687005590
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Три ключа, офис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Три ключа, офис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Скрыганова, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 564-58-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911078,27.516745"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://key-blank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

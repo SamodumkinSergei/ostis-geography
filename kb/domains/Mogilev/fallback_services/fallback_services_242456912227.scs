@@ -1,0 +1,26 @@
+ concept_fallback_services_242456912227
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["На Век"]
+	(* <- lang_ru;; <- name;;*);
+    ["На Век"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пионерская улица, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 601-32-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.900955,30.341534"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://navek.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

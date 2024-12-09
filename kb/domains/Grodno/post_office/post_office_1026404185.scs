@@ -1,0 +1,26 @@
+ concept_post_office_1026404185
+ <- concept_post_office;
+=>nrel_main_idtf:
+	["Белпочта, отделение почтовой связи Гродна-29"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белпочта, отделение почтовой связи Гродна-29"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Максима Горького, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 244-12-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.692729,23.823175"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belpost.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_college_1356511576
+ <- concept_college;
+=>nrel_main_idtf:
+	["Белорусский национальный технический университет, Кафедра Юнеско"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусский национальный технический университет, Кафедра Юнеско"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 65к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 237-33-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–21:05"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.922541,27.591697"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bntu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

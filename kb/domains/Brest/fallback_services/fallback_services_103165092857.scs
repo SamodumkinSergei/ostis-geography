@@ -1,0 +1,26 @@
+ concept_fallback_services_103165092857
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Памятники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Ленинский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 677-77-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.135948,23.647358"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://stonekar.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

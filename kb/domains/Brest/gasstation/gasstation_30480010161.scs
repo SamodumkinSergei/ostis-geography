@@ -1,0 +1,26 @@
+ concept_gasstation_30480010161
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["СлавНефть"]
+	(* <- lang_ru;; <- name;;*);
+    ["СлавНефть"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Пионерская улица, 37/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["8 (801) 100-71-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.102794,23.719672"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.rn-west.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

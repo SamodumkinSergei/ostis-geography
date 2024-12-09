@@ -1,0 +1,26 @@
+ concept_cafe_48500241938
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Пора покушать"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пора покушать"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Глебки, 11/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 618-16-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916639,27.47116"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://porapokushat.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

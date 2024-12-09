@@ -1,0 +1,26 @@
+ concept_malls_231072042857
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Rubinshop"]
+	(* <- lang_ru;; <- name;;*);
+    ["Rubinshop"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Веры Хоружей, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 334-34-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916147,27.579458"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://rubinshop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

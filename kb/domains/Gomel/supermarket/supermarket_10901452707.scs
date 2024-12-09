@@ -1,0 +1,26 @@
+ concept_supermarket_10901452707
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Доброном"]
+	(* <- lang_ru;; <- name;;*);
+    ["Доброном"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Димитрова, 61А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 144-70-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.387047,31.031206"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dobronom.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

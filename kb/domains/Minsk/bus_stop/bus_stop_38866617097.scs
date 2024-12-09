@@ -1,0 +1,26 @@
+ concept_bus_stop_38866617097
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Школа № 122"]
+	(* <- lang_ru;; <- name;;*);
+    ["Школа № 122"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Гамарника"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.955647,27.613267"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

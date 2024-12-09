@@ -1,0 +1,26 @@
+ concept_college_1121458572
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГУО Средняя школа № 168"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО Средняя школа № 168"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Жуковского, 10к5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 390-55-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.880334,27.545878"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch168.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

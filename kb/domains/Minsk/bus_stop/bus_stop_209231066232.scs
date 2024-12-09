@@ -1,0 +1,26 @@
+ concept_bus_stop_209231066232
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["СТ. м. Немига"]
+	(* <- lang_ru;; <- name;;*);
+    ["СТ. м. Немига"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Максима Богдановича"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905953,27.555035"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

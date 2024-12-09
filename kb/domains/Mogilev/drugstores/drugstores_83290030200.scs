@@ -1,0 +1,26 @@
+ concept_drugstores_83290030200
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 225"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 225"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Циолковского, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 273-56-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 09:00–18:00, перерыв 13:00–13:20; вт-пт 09:00–19:00; сб 09:00–18:00, перерыв 13:00–13:20"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90884,30.317422"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_medicine_153768327206
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Минский городской центр остеомиелитов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский городской центр остеомиелитов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Уральская улица, 5, корп. 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 299-51-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.900866,27.609227"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.6gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

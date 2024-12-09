@@ -1,0 +1,26 @@
+ concept_malls_97028296410
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Автозапчасти"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автозапчасти"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Чижовка, улица Уборевича, 99"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 230-22-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00; вс 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.83395,27.60753"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_mobile_phones_70019485517
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Service center"]
+	(* <- lang_ru;; <- name;;*);
+    ["Service center"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Гинтовта, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 500-96-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.949174,27.671907"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

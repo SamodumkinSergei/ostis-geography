@@ -1,0 +1,26 @@
+ concept_fallback_services_1086078489
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Памятники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, 5-й переулок Ильича, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 766-50-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.370237,31.028636"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pomni.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

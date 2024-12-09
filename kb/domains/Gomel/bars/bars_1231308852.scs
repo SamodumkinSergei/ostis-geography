@@ -1,0 +1,26 @@
+ concept_bars_1231308852
+ <- concept_bars;
+=>nrel_main_idtf:
+	["Квартирник"]
+	(* <- lang_ru;; <- name;;*);
+    ["Квартирник"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Билецкий спуск, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 766-02-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-ср 14:00–00:00; чт-сб 14:00–01:00; вс 14:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.427198,31.020137"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

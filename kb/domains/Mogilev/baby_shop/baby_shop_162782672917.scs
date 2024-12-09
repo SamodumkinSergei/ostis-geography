@@ -1,0 +1,26 @@
+ concept_baby_shop_162782672917
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["12 Месяцев"]
+	(* <- lang_ru;; <- name;;*);
+    ["12 Месяцев"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Островского, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 540-80-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.874732,30.332888"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://12m.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

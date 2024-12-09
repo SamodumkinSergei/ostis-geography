@@ -1,0 +1,26 @@
+ concept_restaurants_1152571126
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Пан хмелю"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пан хмелю"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Интернациональная улица, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 198-16-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901587,27.553701"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://hotel-garni.by/restorany/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

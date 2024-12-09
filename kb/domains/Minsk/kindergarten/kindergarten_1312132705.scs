@@ -1,0 +1,26 @@
+ concept_kindergarten_1312132705
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 99"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 99"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Пимена Панченко, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 356-56-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.882925,27.420571"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu99.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

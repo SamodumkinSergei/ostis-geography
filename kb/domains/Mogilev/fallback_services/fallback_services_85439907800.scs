@@ -1,0 +1,26 @@
+ concept_fallback_services_85439907800
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Ремонт глушителей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт глушителей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Гомельское шоссе, 71"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 475-48-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб,вс 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.850459,30.358572"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_banks_1352998118
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Банк ВТБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Банк ВТБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 202"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 268-71-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:30–20:30, перерывы 12:30–13:00, 16:00–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.95265,27.715058"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.vtb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

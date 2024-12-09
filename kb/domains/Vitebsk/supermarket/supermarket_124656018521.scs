@@ -1,0 +1,26 @@
+ concept_supermarket_124656018521
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Людмила"]
+	(* <- lang_ru;; <- name;;*);
+    ["Людмила"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебский район, Октябрьский сельсовет, деревня Орлово, улица Григорьева, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 674-58-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.122448,30.275567"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://supermarket-vitebsk-orlovo.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

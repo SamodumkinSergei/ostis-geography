@@ -1,0 +1,26 @@
+ concept_baby_shop_165522473841
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Дядя Федор"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дядя Федор"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Мошенского, 82"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 798-14-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.112644,23.73414"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

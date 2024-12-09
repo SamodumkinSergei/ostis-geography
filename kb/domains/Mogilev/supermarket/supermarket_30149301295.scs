@@ -1,0 +1,26 @@
+ concept_supermarket_30149301295
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Магазин орехов и сухофруктов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин орехов и сухофруктов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Казимировка, улица Калиновского"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.928689,30.261168"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

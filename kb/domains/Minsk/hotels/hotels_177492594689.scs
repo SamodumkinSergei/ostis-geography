@@ -1,0 +1,26 @@
+ concept_hotels_177492594689
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Квартира на Сутки. Apartament For A Day"]
+	(* <- lang_ru;; <- name;;*);
+    ["Квартира на Сутки. Apartament For A Day"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Куйбышева, 46"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 775-03-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.924564,27.581729"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://apartament-for-a-day.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

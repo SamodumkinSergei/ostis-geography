@@ -1,0 +1,26 @@
+ concept_medicine_202838976697
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Polyclinic Avicennes"]
+	(* <- lang_ru;; <- name;;*);
+    ["Polyclinic Avicennes"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Абиджан, коммуна Маркори, бульвар Ашальм"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+225 21 21 13 00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["5.316286,-3.996709"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.avicennes.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

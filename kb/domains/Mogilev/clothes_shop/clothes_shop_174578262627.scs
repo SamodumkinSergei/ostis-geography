@@ -1,0 +1,26 @@
+ concept_clothes_shop_174578262627
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Сэйфтим"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сэйфтим"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Ганджеев Ров, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 137-14-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.863371,30.340691"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.safeteam.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

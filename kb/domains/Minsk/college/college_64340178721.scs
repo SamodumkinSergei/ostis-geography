@@ -1,0 +1,26 @@
+ concept_college_64340178721
+ <- concept_college;
+=>nrel_main_idtf:
+	["БГУИР, кафедра связи"]
+	(* <- lang_ru;; <- name;;*);
+    ["БГУИР, кафедра связи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петруся Бровки, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 293-22-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 13:00–13:45; пт 08:30–16:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916819,27.59626"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsuir.by/ru/kaf-svyazi"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

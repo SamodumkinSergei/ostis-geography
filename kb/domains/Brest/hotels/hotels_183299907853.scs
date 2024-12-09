@@ -1,0 +1,26 @@
+ concept_hotels_183299907853
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Бутик-отель Статус"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бутик-отель Статус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Республики, 1/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 151-58-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.096791,23.763477"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://statuscenter.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_medicine_1079901873
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["17-я Городская клиническая поликлиника"]
+	(* <- lang_ru;; <- name;;*);
+    ["17-я Городская клиническая поликлиника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Герасименко, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 258-97-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.884645,27.680769"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://17gp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

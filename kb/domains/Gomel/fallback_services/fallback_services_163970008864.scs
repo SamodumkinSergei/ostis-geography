@@ -1,0 +1,26 @@
+ concept_fallback_services_163970008864
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Вечность и К"]
+	(* <- lang_ru;; <- name;;*);
+    ["Вечность и К"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Карповича, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 371-57-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–17:00; сб,вс 10:00–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.425435,30.996715"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vechnostk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

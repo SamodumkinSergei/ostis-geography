@@ -1,0 +1,26 @@
+ concept_college_1117747569
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 55 г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 55 г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Сухого, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 256-67-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.468292,30.968024"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://55gomel.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

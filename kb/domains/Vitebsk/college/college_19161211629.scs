@@ -1,0 +1,26 @@
+ concept_college_19161211629
+ <- concept_college;
+=>nrel_main_idtf:
+	["Фармацевтический факультет ВГМУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармацевтический факультет ВГМУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 265-11-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.19266,30.219345"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.vsmu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

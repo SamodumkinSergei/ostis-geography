@@ -1,0 +1,26 @@
+ concept_cafe_138227319550
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["ММЗ-сервис, кафетерия"]
+	(* <- lang_ru;; <- name;;*);
+    ["ММЗ-сервис, кафетерия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Курако, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 274-03-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:00–17:00, перерыв 13:30–14:18; пт 08:00–16:00, перерыв 13:30–14:18"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916256,30.355546"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

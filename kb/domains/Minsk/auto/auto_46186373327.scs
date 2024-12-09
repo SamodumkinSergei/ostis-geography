@@ -1,0 +1,26 @@
+ concept_auto_46186373327
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автосервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автосервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Евфросиньи Полоцкой, 4к10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 105-40-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904024,27.472686"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://развал.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

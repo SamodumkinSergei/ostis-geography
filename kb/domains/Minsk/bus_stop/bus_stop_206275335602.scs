@@ -1,0 +1,26 @@
+ concept_bus_stop_206275335602
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Колледж промышленности стройматериалов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Колледж промышленности стройматериалов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Гурского"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.87918,27.49005"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.minsktrans.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

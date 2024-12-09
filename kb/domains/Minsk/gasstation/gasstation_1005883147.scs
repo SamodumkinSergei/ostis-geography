@@ -1,0 +1,26 @@
+ concept_gasstation_1005883147
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Газпром трансгаз Беларусь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Газпром трансгаз Беларусь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Франциска Скорины, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 373-95-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:10–07:40, перерыв 19:40–20:10"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.925683,27.667274"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://metan.by/ecogas-map/agnks_minsk4/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

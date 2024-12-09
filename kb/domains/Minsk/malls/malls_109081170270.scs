@@ -1,0 +1,26 @@
+ concept_malls_109081170270
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Girominsk"]
+	(* <- lang_ru;; <- name;;*);
+    ["Girominsk"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кирилла Туровского, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 593-20-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.930777,27.655166"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://girominsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_mobile_phones_191543705928
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Ремонт мобильных телефонов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт мобильных телефонов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Огоренко, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 350-40-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:30–18:00; сб,вс 11:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.468996,31.02278"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

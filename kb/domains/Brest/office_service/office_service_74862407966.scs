@@ -1,0 +1,26 @@
+ concept_office_service_74862407966
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Полесьежилстрой"]
+	(* <- lang_ru;; <- name;;*);
+    ["Полесьежилстрой"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гоголя, 89"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 303-06-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.092158,23.708814"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

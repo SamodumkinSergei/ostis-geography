@@ -1,0 +1,26 @@
+ concept_baby_shop_135060361953
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Антошка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Антошка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Южная улица, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 624-80-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–20:00; вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.63495,23.852823"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

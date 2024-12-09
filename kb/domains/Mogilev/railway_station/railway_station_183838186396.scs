@@ -1,0 +1,26 @@
+ concept_railway_station_183838186396
+ <- concept_railway_station;
+=>nrel_main_idtf:
+	["Могилёв-2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилёв-2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Ленинский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["105"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:25–18:10, перерывы 09:10–10:30, 13:57–14:07, 14:13–14:23, 14:45–15:50"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912011,30.307907"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

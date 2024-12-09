@@ -1,0 +1,26 @@
+ concept_fallback_fun_123076542733
+ <- concept_fallback_fun;
+=>nrel_main_idtf:
+	["Смокоф Маркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Смокоф Маркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Советская улица, 83"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 666-55-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00, перерыв 15:00–15:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.089279,23.69465"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://smokoff.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

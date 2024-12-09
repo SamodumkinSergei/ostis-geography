@@ -1,0 +1,26 @@
+ concept_college_1270253006
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 78"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 78"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Неждановой, 36"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 343-22-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.942934,27.577663"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch78.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

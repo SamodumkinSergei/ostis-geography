@@ -1,0 +1,26 @@
+ concept_medicine_47058659771
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Минская ОКБ, диагностический корпус"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минская ОКБ, диагностический корпус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Боровлянский сельсовет, Лесной, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 265-20-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.005284,27.68243"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://minsk-okb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

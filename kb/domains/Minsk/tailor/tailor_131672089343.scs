@@ -1,0 +1,26 @@
+ concept_tailor_131672089343
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Ключи, ремонт обуви"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ключи, ремонт обуви"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Шаранговича, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 666-88-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–20:00, перерыв 14:30–15:30; пт 10:00–19:00, перерыв 14:30–15:30; сб 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.883597,27.448637"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://кусачки.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

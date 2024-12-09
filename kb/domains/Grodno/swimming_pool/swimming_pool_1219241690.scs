@@ -1,0 +1,26 @@
+ concept_swimming_pool_1219241690
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Бассейн ГУО Гимназия № 9"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бассейн ГУО Гимназия № 9"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Пестрака, 34/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 266-35-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–21:00; сб 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.653494,23.839892"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gymn9grodno.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

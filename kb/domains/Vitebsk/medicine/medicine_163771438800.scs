@@ -1,0 +1,26 @@
+ concept_medicine_163771438800
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Kesklinna Lastepolikliinik"]
+	(* <- lang_ru;; <- name;;*);
+    ["Kesklinna Lastepolikliinik"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["27 Ravi 10138 Таллин, Харьюмаа, Эстония"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["59.428547,24.756572"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.lastehaigla.ee/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

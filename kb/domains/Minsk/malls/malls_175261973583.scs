@@ -1,0 +1,26 @@
+ concept_malls_175261973583
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Dji-Minsk.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Dji-Minsk.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 900-10-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90867,27.548374"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://dji-minsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

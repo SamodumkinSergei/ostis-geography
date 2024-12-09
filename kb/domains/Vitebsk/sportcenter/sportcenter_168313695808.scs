@@ -1,0 +1,26 @@
+ concept_sportcenter_168313695808
+ <- concept_sportcenter;
+=>nrel_main_idtf:
+	["Адмирал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Адмирал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Толстого, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 695-55-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.19487,30.204897"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

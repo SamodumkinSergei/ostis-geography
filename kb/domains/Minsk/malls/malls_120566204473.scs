@@ -1,0 +1,26 @@
+ concept_malls_120566204473
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Магазин товаров из Индии"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин товаров из Индии"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Бурдейного, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 333-55-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90501,27.455048"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://herbal.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

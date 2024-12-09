@@ -1,0 +1,26 @@
+ concept_library_1038658719
+ <- concept_library;
+=>nrel_main_idtf:
+	["Библиотека-филиал № 5"]
+	(* <- lang_ru;; <- name;;*);
+    ["Библиотека-филиал № 5"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Козлова, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 263-39-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 10:00–20:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90956,27.579289"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://publib.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_1070747286
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 159, начальные классы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 159, начальные классы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Одинцова, 38"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 258-64-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902185,27.438104"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch159.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

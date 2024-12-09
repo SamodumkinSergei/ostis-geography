@@ -1,0 +1,26 @@
+ concept_hotels_129019047643
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Комнаты отдыха вокзала станции Брест-Центральный"]
+	(* <- lang_ru;; <- name;;*);
+    ["Комнаты отдыха вокзала станции Брест-Центральный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Привокзальная площадь, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 226-25-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 01:30–01:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.100247,23.679939"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

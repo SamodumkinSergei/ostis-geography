@@ -1,0 +1,26 @@
+ concept_fallback_services_146783650405
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гомель Сервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомель Сервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Речицкий проспект, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 629-30-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:30, перерыв 13:00–14:00; сб 00:09–12:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.415776,30.957523"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gomelservice.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

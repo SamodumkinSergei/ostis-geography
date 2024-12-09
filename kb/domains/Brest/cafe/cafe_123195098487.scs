@@ -1,0 +1,26 @@
+ concept_cafe_123195098487
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Ласкава"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ласкава"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Куйбышева, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 800-22-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–23:00; сб,вс 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.094983,23.693319"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

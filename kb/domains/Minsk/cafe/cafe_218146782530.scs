@@ -1,0 +1,26 @@
+ concept_cafe_218146782530
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Варка кофе"]
+	(* <- lang_ru;; <- name;;*);
+    ["Варка кофе"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 89"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 924-78-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–22:00; сб,вс 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.87413,27.634957"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

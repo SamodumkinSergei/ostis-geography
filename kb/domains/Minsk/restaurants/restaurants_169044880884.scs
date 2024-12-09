@@ -1,0 +1,26 @@
+ concept_restaurants_169044880884
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Пицца Темпо"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пицца Темпо"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 150А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 580-74-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.859122,27.674567"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.pizzatempo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

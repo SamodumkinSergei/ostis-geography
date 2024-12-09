@@ -1,0 +1,26 @@
+ concept_malls_83998305849
+ <- concept_malls;
+=>nrel_main_idtf:
+	["PledMinsk.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["PledMinsk.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Веры Хоружей, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 147-34-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.91677,27.579908"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pledminsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

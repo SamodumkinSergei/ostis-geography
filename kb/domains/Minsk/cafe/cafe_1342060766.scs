@@ -1,0 +1,26 @@
+ concept_cafe_1342060766
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Жбан"]
+	(* <- lang_ru;; <- name;;*);
+    ["Жбан"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петруся Бровки, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 368-94-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.914326,27.59941"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://zhban.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

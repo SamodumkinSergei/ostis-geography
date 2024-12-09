@@ -1,0 +1,26 @@
+ concept_restaurants_164793443117
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Чайхана Столица"]
+	(* <- lang_ru;; <- name;;*);
+    ["Чайхана Столица"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 679-60-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.895146,27.548526"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

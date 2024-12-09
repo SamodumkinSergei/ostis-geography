@@ -1,0 +1,26 @@
+ concept_office_service_91305033202
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Мебельфорт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мебельфорт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 20Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 645-20-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902669,30.334344"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mebelfort.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

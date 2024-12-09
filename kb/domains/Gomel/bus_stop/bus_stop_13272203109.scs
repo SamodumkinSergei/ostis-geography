@@ -1,0 +1,26 @@
+ concept_bus_stop_13272203109
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["ОАО Гомельхимторг"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОАО Гомельхимторг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Дальняя улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.451342,30.933251"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

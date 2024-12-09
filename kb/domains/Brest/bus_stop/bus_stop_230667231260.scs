@@ -1,0 +1,26 @@
+ concept_bus_stop_230667231260
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Лейтенанта Акимочкина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лейтенанта Акимочкина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Дворникова, 51"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.109651,23.655579"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

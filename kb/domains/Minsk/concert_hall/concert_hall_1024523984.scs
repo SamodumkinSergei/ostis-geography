@@ -1,0 +1,26 @@
+ concept_concert_hall_1024523984
+ <- concept_concert_hall;
+=>nrel_main_idtf:
+	["Концертный зал Минск"]
+	(* <- lang_ru;; <- name;;*);
+    ["Концертный зал Минск"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Октябрьская улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 327-87-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:30–19:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.893651,27.56741"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kzminsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

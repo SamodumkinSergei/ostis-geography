@@ -1,0 +1,26 @@
+ concept_college_1849825278
+ <- concept_college;
+=>nrel_main_idtf:
+	["Школа современного бухгалтера Азбука Учета"]
+	(* <- lang_ru;; <- name;;*);
+    ["Школа современного бухгалтера Азбука Учета"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Гоголя, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 663-20-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.190616,30.206804"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitebsk.azbukaucheta.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_mobile_phones_1305400069
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Акстел"]
+	(* <- lang_ru;; <- name;;*);
+    ["Акстел"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Строителей, 11А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 518-65-89"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.17082,30.214829"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.akstel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

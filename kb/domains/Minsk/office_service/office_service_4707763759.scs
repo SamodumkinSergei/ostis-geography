@@ -1,0 +1,26 @@
+ concept_office_service_4707763759
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Склад Телекомсвязьстрой"]
+	(* <- lang_ru;; <- name;;*);
+    ["Склад Телекомсвязьстрой"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Центральный район, микрорайон Новинки, улица Автомобилистов, 2В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 231-12-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.963217,27.543909"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://tcc.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

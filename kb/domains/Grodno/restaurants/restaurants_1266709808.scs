@@ -1,0 +1,26 @@
+ concept_restaurants_1266709808
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Кронон"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кронон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, урочище Пышки, улица Пышки, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 273-98-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:00–23:00; пт,сб 08:00–00:00; вс 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.680565,23.787606"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://taplink.cc/kronon_park_hotel"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

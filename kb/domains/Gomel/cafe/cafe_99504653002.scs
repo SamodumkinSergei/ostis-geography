@@ -1,0 +1,26 @@
+ concept_cafe_99504653002
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Сезонное кафе"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сезонное кафе"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 301"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 235-37-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.358204,31.029096"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.ntkalesya.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

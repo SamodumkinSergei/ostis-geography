@@ -1,0 +1,26 @@
+ concept_museum_1013761246
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Литературный музей Петруся Бровки"]
+	(* <- lang_ru;; <- name;;*);
+    ["Литературный музей Петруся Бровки"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Карла Маркса, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 363-97-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.899335,27.560767"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brouka.museum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

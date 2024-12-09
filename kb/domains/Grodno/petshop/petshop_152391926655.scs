@@ -1,0 +1,26 @@
+ concept_petshop_152391926655
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Зообазар"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зообазар"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Клецкова, 11А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 174-84-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.646894,23.845625"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://zoobazar.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

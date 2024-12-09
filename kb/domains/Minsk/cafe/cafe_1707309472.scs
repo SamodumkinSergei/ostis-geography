@@ -1,0 +1,26 @@
+ concept_cafe_1707309472
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["ШашлычОк"]
+	(* <- lang_ru;; <- name;;*);
+    ["ШашлычОк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ленина, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 555-33-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.88903,27.580873"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://shashlichok.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

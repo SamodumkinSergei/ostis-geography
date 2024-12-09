@@ -1,0 +1,26 @@
+ concept_supermarket_237658081033
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Грошык"]
+	(* <- lang_ru;; <- name;;*);
+    ["Грошык"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Скрипникова, 3Д"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 500-11-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.104163,23.695605"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://groshyk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

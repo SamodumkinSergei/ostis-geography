@@ -1,0 +1,26 @@
+ concept_office_service_71220143328
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["БарановичиИнвест"]
+	(* <- lang_ru;; <- name;;*);
+    ["БарановичиИнвест"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Героев Обороны Брестской Крепости, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 122-40-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.092367,23.657638"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

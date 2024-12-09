@@ -1,0 +1,26 @@
+ concept_tailor_121877333263
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Ателье по ремонту обуви и одежды"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ателье по ремонту обуви и одежды"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, проспект Рокоссовского, 145Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 577-76-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–20:00; вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.856046,27.612395"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

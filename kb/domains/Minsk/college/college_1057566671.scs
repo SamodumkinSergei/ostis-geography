@@ -1,0 +1,26 @@
+ concept_college_1057566671
+ <- concept_college;
+=>nrel_main_idtf:
+	["БНТУ, научно-исследовательский центр оптических материалов и технологий ПСФ"]
+	(* <- lang_ru;; <- name;;*);
+    ["БНТУ, научно-исследовательский центр оптических материалов и технологий ПСФ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Якуба Коласа, 22к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 292-62-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:15–17:30, перерыв 13:00–14:00; пт 08:15–16:15, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.923258,27.592482"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bntu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

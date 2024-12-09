@@ -1,0 +1,26 @@
+ concept_fallback_services_108373671457
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Памятники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Гурского, 18к4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 888-61-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.888723,27.478165"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pamytniki.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

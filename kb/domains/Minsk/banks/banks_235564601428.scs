@@ -1,0 +1,26 @@
+ concept_banks_235564601428
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Белагропромбанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белагропромбанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Железнодорожная улица, 44"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 218-57-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.880441,27.519378"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_1199036364
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Брестское специализированное предприятие"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестское специализированное предприятие"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Фортечная улица, 115, подъезд 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 245-43-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.11849,23.683449"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brestritual.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

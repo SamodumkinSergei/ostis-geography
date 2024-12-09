@@ -1,0 +1,26 @@
+ concept_clothes_shop_24395748307
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Модамакс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Модамакс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, бульвар Космонавтов, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 251-39-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.09768,23.696421"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://modamax.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

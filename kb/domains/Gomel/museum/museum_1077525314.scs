@@ -1,0 +1,26 @@
+ concept_museum_1077525314
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Гомельский областной музей военной cлавы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский областной музей военной cлавы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Пушкина, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 234-11-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.429748,31.014062"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://milglory.gomel.museum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

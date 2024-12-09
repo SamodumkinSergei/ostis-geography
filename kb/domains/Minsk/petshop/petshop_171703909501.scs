@@ -1,0 +1,26 @@
+ concept_petshop_171703909501
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Зообазар"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зообазар"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Каменногорская улица, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 525-08-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:30–20:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912036,27.416531"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://zoobazar.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

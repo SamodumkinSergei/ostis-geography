@@ -1,0 +1,26 @@
+ concept_malls_1188759728
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Optimapro"]
+	(* <- lang_ru;; <- name;;*);
+    ["Optimapro"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Залинейный, улица Островского, 101, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 192-99-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00; сб 09:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.422767,30.972063"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://optimapro.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

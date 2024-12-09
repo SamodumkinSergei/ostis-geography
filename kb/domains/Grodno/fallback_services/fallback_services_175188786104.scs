@@ -1,0 +1,26 @@
+ concept_fallback_services_175188786104
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["PizzaHome"]
+	(* <- lang_ru;; <- name;;*);
+    ["PizzaHome"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Советских Пограничников, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["7933"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:00–22:00; пт-вс 11:00–22:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.668883,23.824615"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pizzahome.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

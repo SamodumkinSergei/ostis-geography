@@ -1,0 +1,26 @@
+ concept_hypermarket_133018637913
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Смартон"]
+	(* <- lang_ru;; <- name;;*);
+    ["Смартон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Петруся Бровки, 4А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 534-34-71"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.174327,30.246161"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.smarton.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_drugstores_193066584866
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптечное дело, аптека № 12"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптечное дело, аптека № 12"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 19А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 337-69-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–12:00; вс 11:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.883997,27.593317"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

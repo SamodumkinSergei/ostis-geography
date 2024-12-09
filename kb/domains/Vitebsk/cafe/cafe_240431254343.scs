@@ -1,0 +1,26 @@
+ concept_cafe_240431254343
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Manao"]
+	(* <- lang_ru;; <- name;;*);
+    ["Manao"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 46"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 190-20-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:00–00:00; пт,сб 11:00–02:00; вс 11:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.19745,30.206729"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_college_1099051339
+ <- concept_college;
+=>nrel_main_idtf:
+	["Тростенецкая средняя школа"]
+	(* <- lang_ru;; <- name;;*);
+    ["Тростенецкая средняя школа"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Новодворский сельсовет, деревня Большой Тростенец, Школьная улица, 41"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 513-07-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.851079,27.714731"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://trostenec.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

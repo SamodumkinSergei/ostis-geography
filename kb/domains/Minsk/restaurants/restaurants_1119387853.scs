@@ -1,0 +1,26 @@
+ concept_restaurants_1119387853
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Bierkeller"]
+	(* <- lang_ru;; <- name;;*);
+    ["Bierkeller"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Войсковый переулок, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 588-83-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–23:00; пт,сб 12:00–00:00; вс 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907252,27.580502"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bier-keller.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

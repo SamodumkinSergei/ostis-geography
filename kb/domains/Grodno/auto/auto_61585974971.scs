@@ -1,0 +1,26 @@
+ concept_auto_61585974971
+ <- concept_auto;
+=>nrel_main_idtf:
+	["МБК сервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["МБК сервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Понемуньская улица, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 588-21-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.658744,23.872808"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mbk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

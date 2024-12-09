@@ -1,0 +1,26 @@
+ concept_college_58843537670
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 1 г. Бреста"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 1 г. Бреста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Колесника, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 253-55-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00; сб 08:40–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.074468,23.724091"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://1brest.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

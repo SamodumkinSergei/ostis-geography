@@ -1,0 +1,26 @@
+ concept_restaurants_206985041748
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Time Pizza"]
+	(* <- lang_ru;; <- name;;*);
+    ["Time Pizza"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Южная улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 551-90-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.642149,23.868665"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

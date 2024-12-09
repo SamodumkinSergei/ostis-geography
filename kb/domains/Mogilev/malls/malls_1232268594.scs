@@ -1,0 +1,26 @@
+ concept_malls_1232268594
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Установка, ремонт и вскрытие замков"]
+	(* <- lang_ru;; <- name;;*);
+    ["Установка, ремонт и вскрытие замков"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Королёва, 37А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 782-64-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:30, перерыв 13:00–14:00; сб 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903355,30.366007"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://korolkey.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

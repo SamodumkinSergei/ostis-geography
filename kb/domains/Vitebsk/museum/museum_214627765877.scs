@@ -1,0 +1,26 @@
+ concept_museum_214627765877
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Центр культуры Витебск"]
+	(* <- lang_ru;; <- name;;*);
+    ["Центр культуры Витебск"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Маяковского, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 267-44-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.196227,30.206378"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gck.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

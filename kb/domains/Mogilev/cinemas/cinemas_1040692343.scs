@@ -1,0 +1,26 @@
+ concept_cinemas_1040692343
+ <- concept_cinemas;
+=>nrel_main_idtf:
+	["Родина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Родина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Ленинская улица, 47"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 242-19-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:45, перерывы 13:00–13:30, 16:00–16:15, 19:30–19:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902127,30.341064"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogilevkino.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

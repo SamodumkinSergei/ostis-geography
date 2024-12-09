@@ -1,0 +1,26 @@
+ concept_flower_shop_1027779391
+ <- concept_flower_shop;
+=>nrel_main_idtf:
+	["Зелёный мир"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зелёный мир"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Антонова, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 268-40-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 10:00–16:00; вт-вс 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.672899,23.841135"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://shop.zelmir.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

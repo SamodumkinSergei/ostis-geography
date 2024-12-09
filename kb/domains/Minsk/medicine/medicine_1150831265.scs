@@ -1,0 +1,26 @@
+ concept_medicine_1150831265
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["19-я центральная районная поликлиника Первомайского района г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["19-я центральная районная поликлиника Первомайского района г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 119"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 374-21-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–20:00; сб 08:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.934416,27.636149"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://19crp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

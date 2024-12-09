@@ -1,0 +1,26 @@
+ concept_hotels_227612645102
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Апрель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Апрель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Минский район, Боровлянский сельсовет, деревня Королёв Стан, Солнечная улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 356-80-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.987527,27.796721"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://aprilmed.by/mini-hotel"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

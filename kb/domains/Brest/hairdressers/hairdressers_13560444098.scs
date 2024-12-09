@@ -1,0 +1,26 @@
+ concept_hairdressers_13560444098
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["ИннСтудия"]
+	(* <- lang_ru;; <- name;;*);
+    ["ИннСтудия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Будённого, 45"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 704-34-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–21:00; вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.090419,23.695032"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

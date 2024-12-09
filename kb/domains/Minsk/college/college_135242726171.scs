@@ -1,0 +1,26 @@
+ concept_college_135242726171
+ <- concept_college;
+=>nrel_main_idtf:
+	["БНТУ, учебный корпус № 7"]
+	(* <- lang_ru;; <- name;;*);
+    ["БНТУ, учебный корпус № 7"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Якуба Коласа, 24/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 292-42-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–22:00; сб 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.924112,27.592387"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bntu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_malls_1316542135
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Деловой тон"]
+	(* <- lang_ru;; <- name;;*);
+    ["Деловой тон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 6Д"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 628-87-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–17:30; пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.882993,27.585444"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://deloton.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

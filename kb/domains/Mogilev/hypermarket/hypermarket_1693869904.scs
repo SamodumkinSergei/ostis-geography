@@ -1,0 +1,26 @@
+ concept_hypermarket_1693869904
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Изделия из камня"]
+	(* <- lang_ru;; <- name;;*);
+    ["Изделия из камня"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, бульвар Непокорённых, 37Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 744-95-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.872887,30.330139"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogilev-ritual-master.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

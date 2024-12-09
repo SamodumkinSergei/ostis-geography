@@ -1,0 +1,26 @@
+ concept_tailor_33686233696
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Мастерская по ремонту одежды"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мастерская по ремонту одежды"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Холмы, Витебский проспект, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 279-35-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.882726,30.409799"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

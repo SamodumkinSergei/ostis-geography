@@ -1,0 +1,26 @@
+ concept_government_75167707283
+ <- concept_government;
+=>nrel_main_idtf:
+	["Главное управление здравоохранения Гомельского облисполкома"]
+	(* <- lang_ru;; <- name;;*);
+    ["Главное управление здравоохранения Гомельского облисполкома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, переулок Спартака, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 250-32-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.422133,31.010557"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomeluzo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

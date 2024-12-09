@@ -1,0 +1,26 @@
+ concept_fallback_services_67610036773
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Кузовной ремонт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кузовной ремонт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Азерина, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 699-40-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.861718,30.34239"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

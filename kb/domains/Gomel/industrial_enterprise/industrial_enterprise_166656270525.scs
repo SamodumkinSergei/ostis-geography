@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_166656270525
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Гомельдрев"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельдрев"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Достоевского, 3/45"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.385836,31.021203"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gomeldrev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

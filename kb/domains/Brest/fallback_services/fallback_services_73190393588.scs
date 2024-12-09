@@ -1,0 +1,26 @@
+ concept_fallback_services_73190393588
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Перетяжка мебели Брест Мебельный Цех"]
+	(* <- lang_ru;; <- name;;*);
+    ["Перетяжка мебели Брест Мебельный Цех"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Старозадворская улица, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 385-47-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.122256,23.771947"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://брест.ремонтмебели.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_restaurants_121025504481
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Ristorante da Claudio"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ristorante da Claudio"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Карла Маркса, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 667-99-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 12:00–23:00; сб,вс 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897934,27.557151"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

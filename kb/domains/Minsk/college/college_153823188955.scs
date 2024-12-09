@@ -1,0 +1,26 @@
+ concept_college_153823188955
+ <- concept_college;
+=>nrel_main_idtf:
+	["Инженерно-образовательный центр БГУИР и Бел Хуавэй Технолоджис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Инженерно-образовательный центр БГУИР и Бел Хуавэй Технолоджис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Платонова, 39"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 13:00–14:00; пт 08:30–16:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911664,27.595612"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsuir.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

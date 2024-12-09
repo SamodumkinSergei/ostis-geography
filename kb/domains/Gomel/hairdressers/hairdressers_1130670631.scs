@@ -1,0 +1,26 @@
+ concept_hairdressers_1130670631
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Neo Studio"]
+	(* <- lang_ru;; <- name;;*);
+    ["Neo Studio"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Жукова, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 510-71-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00; сб 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.414033,30.957404"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

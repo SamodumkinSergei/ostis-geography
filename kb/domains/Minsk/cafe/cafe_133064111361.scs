@@ -1,0 +1,26 @@
+ concept_cafe_133064111361
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Любимая столовая"]
+	(* <- lang_ru;; <- name;;*);
+    ["Любимая столовая"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Академика Купревича, 1/3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 643-15-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:30–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.928577,27.680361"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

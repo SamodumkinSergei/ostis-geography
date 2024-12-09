@@ -1,0 +1,26 @@
+ concept_mobile_phones_140647257945
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Техническая клиника"]
+	(* <- lang_ru;; <- name;;*);
+    ["Техническая клиника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Катунина, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 605-68-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.42466,31.004112"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://tehnoklinika.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

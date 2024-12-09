@@ -1,0 +1,26 @@
+ concept_bus_stop_214406004299
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Восточный мост"]
+	(* <- lang_ru;; <- name;;*);
+    ["Восточный мост"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Большое объездное кольцо"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.651354,23.886099"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

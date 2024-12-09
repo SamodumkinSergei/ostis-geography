@@ -1,0 +1,26 @@
+ concept_hotels_101027858910
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Казан-Мангал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Казан-Мангал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродненский район, Коптёвский сельсовет, деревня Малая Ольшанка, Центральная улица, 43"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 881-17-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.602895,23.836688"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

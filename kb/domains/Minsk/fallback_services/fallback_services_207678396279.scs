@@ -1,0 +1,26 @@
+ concept_fallback_services_207678396279
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Скальный дворик"]
+	(* <- lang_ru;; <- name;;*);
+    ["Скальный дворик"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ольшевского, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 671-09-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.914671,27.505593"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://skalny-dvorik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

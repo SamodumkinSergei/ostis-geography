@@ -1,0 +1,26 @@
+ concept_auto_123125739929
+ <- concept_auto;
+=>nrel_main_idtf:
+	["ТвоёАвто"]
+	(* <- lang_ru;; <- name;;*);
+    ["ТвоёАвто"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, переулок Софьи Ковалевской, 42А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 310-12-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.868605,27.509711"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://idemitsu-shop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

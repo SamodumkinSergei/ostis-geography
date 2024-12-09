@@ -1,0 +1,26 @@
+ concept_cafe_27657869421
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кофе Саунд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кофе Саунд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 79"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 181-40-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905833,27.456867"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://coffeesound.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_currency_exchange_156228010933
+ <- concept_currency_exchange;
+=>nrel_main_idtf:
+	["Банк БелВЭБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Банк БелВЭБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["205"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.183395,30.206256"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belveb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

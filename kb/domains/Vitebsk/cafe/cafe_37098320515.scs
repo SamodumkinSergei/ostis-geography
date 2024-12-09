@@ -1,0 +1,26 @@
+ concept_cafe_37098320515
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Friends Coffee House"]
+	(* <- lang_ru;; <- name;;*);
+    ["Friends Coffee House"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Прага, Палацкего, 719/7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+420 2 72 04 96 65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб,вс 12:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["50.08101,14.423413"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.milujikavu.cz/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

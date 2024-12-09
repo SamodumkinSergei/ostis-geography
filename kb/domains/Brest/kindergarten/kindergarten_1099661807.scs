@@ -1,0 +1,26 @@
+ concept_kindergarten_1099661807
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 1 г. Бреста"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 1 г. Бреста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Высокая улица, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 246-26-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–19:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.096657,23.725146"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ds1brest.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

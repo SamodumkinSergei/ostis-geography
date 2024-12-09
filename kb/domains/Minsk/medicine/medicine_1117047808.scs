@@ -1,0 +1,26 @@
+ concept_medicine_1117047808
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["УЗ Городская туберкулезная больница"]
+	(* <- lang_ru;; <- name;;*);
+    ["УЗ Городская туберкулезная больница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Дзержинский район, Фанипольский сельсовет, деревня Волковичи"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 509-15-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.768379,27.378718"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

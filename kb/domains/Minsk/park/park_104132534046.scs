@@ -1,0 +1,26 @@
+ concept_park_104132534046
+ <- concept_park;
+=>nrel_main_idtf:
+	["Парк имени Челюскинцев"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парк имени Челюскинцев"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Молодёжная аллея"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 235-04-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.921179,27.617262"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://parki.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_hypermarket_1049717352
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Могилёвский комбинат силикатных изделий"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилёвский комбинат силикатных изделий"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Крупской, 224"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 272-22-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.960463,30.358692"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mglksi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

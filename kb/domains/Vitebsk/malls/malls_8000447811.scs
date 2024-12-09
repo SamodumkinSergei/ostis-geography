@@ -1,0 +1,26 @@
+ concept_malls_8000447811
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Склад Модус Керамика"]
+	(* <- lang_ru;; <- name;;*);
+    ["Склад Модус Керамика"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, 4-я улица Чкалова, 7А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 190-09-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.180532,30.199402"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://keramika.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

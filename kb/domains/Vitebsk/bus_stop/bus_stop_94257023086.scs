@@ -1,0 +1,26 @@
+ concept_bus_stop_94257023086
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["ТЦ Материк"]
+	(* <- lang_ru;; <- name;;*);
+    ["ТЦ Материк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.17345,30.266473"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

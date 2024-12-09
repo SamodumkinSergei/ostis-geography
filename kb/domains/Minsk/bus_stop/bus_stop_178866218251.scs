@@ -1,0 +1,26 @@
+ concept_bus_stop_178866218251
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Карла Либкнехта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Карла Либкнехта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Карла Либкнехта"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.893745,27.517772"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

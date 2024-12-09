@@ -1,0 +1,26 @@
+ concept_cafe_196699711111
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Аўстэрыя Уршуля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аўстэрыя Уршуля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Энгельса, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 640-84-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901108,27.562794"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://kupalauski.by/teatr/cafe/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

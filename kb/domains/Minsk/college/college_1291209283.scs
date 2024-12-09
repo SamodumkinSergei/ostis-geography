@@ -1,0 +1,26 @@
+ concept_college_1291209283
+ <- concept_college;
+=>nrel_main_idtf:
+	["Белорусский государственный университет культуры и искусств"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусский государственный университет культуры и искусств"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Рабкоровская улица, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 351-14-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.886791,27.541953"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

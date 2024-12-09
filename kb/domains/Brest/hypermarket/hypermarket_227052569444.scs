@@ -1,0 +1,26 @@
+ concept_hypermarket_227052569444
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["А-центр 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["А-центр 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица 17 Сентября, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 600-19-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.084176,23.694153"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://amaiz.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_restaurants_218754195815
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Ресторан"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ресторан"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Головацкого, 72"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 258-10-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–22:00; сб,вс 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.448982,31.009627"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

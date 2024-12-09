@@ -1,0 +1,26 @@
+ concept_college_156074594818
+ <- concept_college;
+=>nrel_main_idtf:
+	["Школа программирования Coddy"]
+	(* <- lang_ru;; <- name;;*);
+    ["Школа программирования Coddy"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Черняховского, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 290-75-97"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.172506,30.198449"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitebsk.coddyschool.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

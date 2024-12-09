@@ -1,0 +1,26 @@
+ concept_fast_food_154216606836
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Сити Стронг"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сити Стронг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сергея Есенина, 76А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 606-77-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.861046,27.444342"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

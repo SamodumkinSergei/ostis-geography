@@ -1,0 +1,26 @@
+ concept_kindergarten_1119725192
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Санаторный ясли-сад № 154"]
+	(* <- lang_ru;; <- name;;*);
+    ["Санаторный ясли-сад № 154"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кольцова, 4к5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 377-62-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.954558,27.615606"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu154.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

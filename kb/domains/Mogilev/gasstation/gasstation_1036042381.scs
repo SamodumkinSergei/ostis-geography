@@ -1,0 +1,26 @@
+ concept_gasstation_1036042381
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Роснефть"]
+	(* <- lang_ru;; <- name;;*);
+    ["Роснефть"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Мира, 71А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 273-88-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.915741,30.372981"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rn-west.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

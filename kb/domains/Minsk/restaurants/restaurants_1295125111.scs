@@ -1,0 +1,26 @@
+ concept_restaurants_1295125111
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Кухмистр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кухмистр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Карла Маркса, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 119-49-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901538,27.565547"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.kuhmistr.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

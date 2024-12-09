@@ -1,0 +1,26 @@
+ concept_banks_186676263624
+ <- concept_banks;
+=>nrel_main_idtf:
+	["ЮниКредит банк, отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["ЮниКредит банк, отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Платонова, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 200-05-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–17:45; пт 09:00–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.914385,27.602004"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.unicreditbank.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

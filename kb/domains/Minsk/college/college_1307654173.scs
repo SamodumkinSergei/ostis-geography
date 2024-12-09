@@ -1,0 +1,26 @@
+ concept_college_1307654173
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 206"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 206"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сергея Есенина, 101"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 205-34-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 07:30–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.862657,27.437219"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch206.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_hypermarket_164223111527
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Материк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Материк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Белуша, 56"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 264-44-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.671459,23.865951"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://diy.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

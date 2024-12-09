@@ -1,0 +1,26 @@
+ concept_bus_stop_119518171503
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Киселёва"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Киселёва"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Малая Боровка, улица Киселёва"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.871654,30.433925"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

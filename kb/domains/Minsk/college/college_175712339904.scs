@@ -1,0 +1,26 @@
+ concept_college_175712339904
+ <- concept_college;
+=>nrel_main_idtf:
+	["Высшая школа управления и бизнеса БГЭУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Высшая школа управления и бизнеса БГЭУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 22А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 209-78-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878298,27.604755"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bseu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

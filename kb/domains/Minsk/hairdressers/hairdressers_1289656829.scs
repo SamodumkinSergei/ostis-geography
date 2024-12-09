@@ -1,0 +1,26 @@
+ concept_hairdressers_1289656829
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Парикмахерская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парикмахерская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Чичерина, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 633-92-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 13:00–19:00; вт 09:00–15:00; ср,чт 13:00–19:00; пт 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.914983,27.565496"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

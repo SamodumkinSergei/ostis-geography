@@ -1,0 +1,26 @@
+ concept_swimming_pool_1055572752
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Старт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Старт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Глебки, 30А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 365-49-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,вт 06:00–22:00; ср 06:00–21:00; чт,пт 06:00–22:00; сб 06:00–21:00; вс 09:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911505,27.475086"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://start.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

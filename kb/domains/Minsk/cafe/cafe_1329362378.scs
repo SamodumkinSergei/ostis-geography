@@ -1,0 +1,26 @@
+ concept_cafe_1329362378
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Город М"]
+	(* <- lang_ru;; <- name;;*);
+    ["Город М"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурганова, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 692-88-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.925609,27.592251"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://cafe-gorodm.dix.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

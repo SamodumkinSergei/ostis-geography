@@ -1,0 +1,26 @@
+ concept_malls_97072322146
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Офис Партнёр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Офис Партнёр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Урицкого, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 260-22-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.201658,30.205551"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ofp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

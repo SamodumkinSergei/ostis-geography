@@ -1,0 +1,26 @@
+ concept_medicine_92799278012
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Отделение гемодиализа и нефрологии"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отделение гемодиализа и нефрологии"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Бялыницкого-Бирули, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 263-86-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.915222,30.278392"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_medicine_173303009331
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["ГУЗ Гомельская городская клиническая поликлиника № 3"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУЗ Гомельская городская клиническая поликлиника № 3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Огоренко, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 233-65-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.476897,31.024727"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ggkp3.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

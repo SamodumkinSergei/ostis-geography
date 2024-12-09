@@ -1,0 +1,26 @@
+ concept_fallback_services_1681286478
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Вечность"]
+	(* <- lang_ru;; <- name;;*);
+    ["Вечность"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Офицерская улица, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 712-28-89"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб,вс 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.180744,30.223589"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vechnost-vit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

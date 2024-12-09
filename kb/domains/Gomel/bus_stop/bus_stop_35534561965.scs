@@ -1,0 +1,26 @@
+ concept_bus_stop_35534561965
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Домостроительный комбинат"]
+	(* <- lang_ru;; <- name;;*);
+    ["Домостроительный комбинат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Объездная улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.411826,30.899872"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

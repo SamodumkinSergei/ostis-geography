@@ -1,0 +1,26 @@
+ concept_college_1116727905
+ <- concept_college;
+=>nrel_main_idtf:
+	["Индустриально-педагогический колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Индустриально-педагогический колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Матусевича, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 201-45-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:30–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.915714,27.47804"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.ipkripo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

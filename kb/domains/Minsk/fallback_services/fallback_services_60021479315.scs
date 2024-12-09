@@ -1,0 +1,26 @@
+ concept_fallback_services_60021479315
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гранитное дело"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гранитное дело"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Кальварийская улица, 60"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 142-47-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 09:00–18:00; сб 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909872,27.508879"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://granitnoedelo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

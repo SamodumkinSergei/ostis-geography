@@ -1,0 +1,26 @@
+ concept_fallback_services_139906412589
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["МастерОК"]
+	(* <- lang_ru;; <- name;;*);
+    ["МастерОК"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кунцевщина, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 723-68-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907641,27.436983"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://1ok.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

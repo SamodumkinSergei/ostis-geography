@@ -1,0 +1,26 @@
+ concept_currency_exchange_1368735002
+ <- concept_currency_exchange;
+=>nrel_main_idtf:
+	["Bsb Bank, обмен валюты"]
+	(* <- lang_ru;; <- name;;*);
+    ["Bsb Bank, обмен валюты"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Логойский тракт, 15к4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 306-20-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:30–18:00, перерыв 13:30–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.944209,27.609901"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

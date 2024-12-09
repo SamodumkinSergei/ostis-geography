@@ -1,0 +1,26 @@
+ concept_college_42080566624
+ <- concept_college;
+=>nrel_main_idtf:
+	["Белорусский Государственный университет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусский Государственный университет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Кальварийская улица, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905612,27.532731"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ffsn.bsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

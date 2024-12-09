@@ -1,0 +1,26 @@
+ concept_college_1086672845
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 48 имени Ф. А. Малышева"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 48 имени Ф. А. Малышева"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тарханова, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 317-60-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.918006,27.530654"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch48.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

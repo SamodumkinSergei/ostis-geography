@@ -1,0 +1,26 @@
+ concept_college_1105101036
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГУО Лицей № 1 г. Гродно"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО Лицей № 1 г. Гродно"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, бульвар Ленинского Комсомола, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 244-30-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.701384,23.811898"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://liceum1grodno.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

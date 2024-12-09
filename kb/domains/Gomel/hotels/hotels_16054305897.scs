@@ -1,0 +1,26 @@
+ concept_hotels_16054305897
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Ченки"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ченки"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельский район, Чёнковский сельсовет, посёлок Чёнки, Октябрьская улица, 113"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (499) 110-58-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.348276,30.974522"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://chenki-hotel.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

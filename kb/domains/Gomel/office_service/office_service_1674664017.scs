@@ -1,0 +1,26 @@
+ concept_office_service_1674664017
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["СДЭК"]
+	(* <- lang_ru;; <- name;;*);
+    ["СДЭК"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Интернациональная улица, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 300-22-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.422041,31.005546"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://cdek.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_museum_1712876809
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей детства"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей детства"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 534-45-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["сб,вс 11:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903206,27.565179"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://museumd.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

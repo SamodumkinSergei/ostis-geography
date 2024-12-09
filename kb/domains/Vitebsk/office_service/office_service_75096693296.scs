@@ -1,0 +1,26 @@
+ concept_office_service_75096693296
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Маркетинг центр Взтзч"]
+	(* <- lang_ru;; <- name;;*);
+    ["Маркетинг центр Взтзч"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Максима Горького, 51/11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 236-82-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–16:00, перерыв 11:30–12:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.174246,30.170995"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.vztzch.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_malls_102067501085
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Палитра"]
+	(* <- lang_ru;; <- name;;*);
+    ["Палитра"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Стефана Батория, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 722-71-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.67584,23.829542"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://oboigrodno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

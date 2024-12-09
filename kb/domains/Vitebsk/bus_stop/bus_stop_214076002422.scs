@@ -1,0 +1,26 @@
+ concept_bus_stop_214076002422
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Берестеня"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Берестеня"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Берестеня"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.196362,30.242662"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

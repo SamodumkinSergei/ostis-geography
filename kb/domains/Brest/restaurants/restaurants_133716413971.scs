@@ -1,0 +1,26 @@
+ concept_restaurants_133716413971
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Проспект"]
+	(* <- lang_ru;; <- name;;*);
+    ["Проспект"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Машерова, 15А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 399-99-97"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.085487,23.693107"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://prospect.bar/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

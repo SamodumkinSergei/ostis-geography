@@ -1,0 +1,26 @@
+ concept_college_1003239473
+ <- concept_college;
+=>nrel_main_idtf:
+	["Начальная школа № 112"]
+	(* <- lang_ru;; <- name;;*);
+    ["Начальная школа № 112"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Чижовка, улица Уборевича, 142"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 361-87-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.835838,27.623737"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://112minsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

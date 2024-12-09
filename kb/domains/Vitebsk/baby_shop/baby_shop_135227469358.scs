@@ -1,0 +1,26 @@
+ concept_baby_shop_135227469358
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Игромир"]
+	(* <- lang_ru;; <- name;;*);
+    ["Игромир"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чкалова, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 899-96-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:30–18:30; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.167276,30.209603"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_cafe_147701142908
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Точка продажи кофе Coffee House"]
+	(* <- lang_ru;; <- name;;*);
+    ["Точка продажи кофе Coffee House"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Житомир, улица Гагарина, 13/67"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+380 (67) 727-49-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["50.24804,28.687388"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

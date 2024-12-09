@@ -1,0 +1,26 @@
+ concept_petshop_79099992399
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Енотик"]
+	(* <- lang_ru;; <- name;;*);
+    ["Енотик"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Малыщинская улица, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 626-12-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–21:00; сб,вс 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.71155,23.860228"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

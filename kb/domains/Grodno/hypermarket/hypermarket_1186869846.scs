@@ -1,0 +1,26 @@
+ concept_hypermarket_1186869846
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Завод ЖБК Гроднопромстрой"]
+	(* <- lang_ru;; <- name;;*);
+    ["Завод ЖБК Гроднопромстрой"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Скидельское шоссе, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 279-61-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–15:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.66754,23.91066"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.jbk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_college_1056003287
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гомельский государственный педагогический колледж имени Л. С. Выготского"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский государственный педагогический колледж имени Л. С. Выготского"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Пролетарская улица, 69"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 220-81-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00; сб 08:00–14:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.416137,31.006285"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gpk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

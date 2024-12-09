@@ -1,0 +1,26 @@
+ concept_medicine_1001282869
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Поликлиника Минской Цркб"]
+	(* <- lang_ru;; <- name;;*);
+    ["Поликлиника Минской Цркб"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, деревня Боровляны, Фрунзенская улица, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 505-27-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–20:00; сб 08:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.995853,27.679517"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mcrb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_kindergarten_1135005451
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 427"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 427"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Заводской район, Северный посёлок, Охотский переулок, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 299-85-96"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.868959,27.671667"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu427.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

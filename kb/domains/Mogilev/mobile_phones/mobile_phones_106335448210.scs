@@ -1,0 +1,26 @@
+ concept_mobile_phones_106335448210
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Альфа-сервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Альфа-сервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Лазаренко, 73Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 673-89-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909937,30.307288"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://alfaservis111.wixsite.com/website"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

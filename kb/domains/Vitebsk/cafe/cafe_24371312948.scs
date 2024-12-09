@@ -1,0 +1,26 @@
+ concept_cafe_24371312948
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Марко-Сити"]
+	(* <- lang_ru;; <- name;;*);
+    ["Марко-Сити"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 26А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 770-02-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.191224,30.204586"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://marko-city.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

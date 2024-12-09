@@ -1,0 +1,26 @@
+ concept_restaurants_88459500847
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Pappa Pizza"]
+	(* <- lang_ru;; <- name;;*);
+    ["Pappa Pizza"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Люблинское воеводство, повят Бяльский, Тересполь, улица Войска Польского, 130"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.074573,23.614506"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.pappapizza.pl/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

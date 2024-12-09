@@ -1,0 +1,26 @@
+ concept_college_1026137355
+ <- concept_college;
+=>nrel_main_idtf:
+	["Белорусский государственный университет транспорта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусский государственный университет транспорта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Комсомольская улица, 13/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 295-28-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.431999,31.003177"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bsut.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_clothes_shop_228211038797
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["ELIZ"]
+	(* <- lang_ru;; <- name;;*);
+    ["ELIZ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Казимировка, Минское шоссе, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 167-75-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–21:00; пт,сб 10:00–22:00; вс 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.93559,30.257909"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://eliz.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

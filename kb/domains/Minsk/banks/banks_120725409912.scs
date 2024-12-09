@@ -1,0 +1,26 @@
+ concept_banks_120725409912
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Приорбанк, головной офис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Приорбанк, головной офис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Веры Хоружей, 31А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 289-90-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 12:30–13:15; пт 08:30–16:15, перерыв 12:30–13:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.922734,27.557643"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.priorbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

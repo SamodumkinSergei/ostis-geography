@@ -1,0 +1,26 @@
+ concept_fast_food_1880767226
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Grill kebab"]
+	(* <- lang_ru;; <- name;;*);
+    ["Grill kebab"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Фроликова, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 943-18-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901302,27.612617"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://grillkebab.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

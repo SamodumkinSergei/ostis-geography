@@ -1,0 +1,26 @@
+ concept_furniture_store_1011436536
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Фёнэча-арт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фёнэча-арт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 268А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 237-81-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.358908,31.03143"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

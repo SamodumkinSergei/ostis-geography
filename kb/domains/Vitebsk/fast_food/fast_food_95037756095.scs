@@ -1,0 +1,26 @@
+ concept_fast_food_95037756095
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Кафетерий"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафетерий"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, 1-я Пролетарская улица, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 236-26-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб 08:00–20:00; вс 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.174505,30.150267"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vesta-retail.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

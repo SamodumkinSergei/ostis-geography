@@ -1,0 +1,26 @@
+ concept_college_88617141060
+ <- concept_college;
+=>nrel_main_idtf:
+	["Шаг"]
+	(* <- lang_ru;; <- name;;*);
+    ["Шаг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Советская улица, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 633-53-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.094118,23.692776"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://brest.itstep.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

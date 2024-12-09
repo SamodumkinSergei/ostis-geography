@@ -1,0 +1,26 @@
+ concept_museum_59141149095
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Государственное учреждение Дворец культуры Костюковка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Государственное учреждение Дворец культуры Костюковка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, вуліца Незалежнасці, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 297-10-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–22:00, перерыв 13:00–14:00; сб,вс 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.533142,30.914804"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dkkostyukovka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

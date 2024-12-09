@@ -1,0 +1,26 @@
+ concept_clothes_shop_1328411483
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["MEGATOP"]
+	(* <- lang_ru;; <- name;;*);
+    ["MEGATOP"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Черняховского, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 222-35-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–20:00; вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.176836,30.20051"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://megatop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

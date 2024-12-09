@@ -1,0 +1,26 @@
+ concept_hotels_52884974900
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Vipzona. vitebsk"]
+	(* <- lang_ru;; <- name;;*);
+    ["Vipzona. vitebsk"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Правды, 66К"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 337-77-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.18502,30.234168"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

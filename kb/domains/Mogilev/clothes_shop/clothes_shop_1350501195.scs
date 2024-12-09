@@ -1,0 +1,26 @@
+ concept_clothes_shop_1350501195
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["VivaViktoria"]
+	(* <- lang_ru;; <- name;;*);
+    ["VivaViktoria"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Карповича, 28, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 152-29-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 10:00–18:00; вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.424765,30.99717"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vivaviktoria.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

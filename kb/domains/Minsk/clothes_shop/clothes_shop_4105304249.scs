@@ -1,0 +1,26 @@
+ concept_clothes_shop_4105304249
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Мода Макс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мода Макс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ангарская улица, 36А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 385-01-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.871185,27.684545"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://modamax.by/shops/minsk/minsk-ul-angarskaya-36a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_hotels_1742682345
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Райский уголок"]
+	(* <- lang_ru;; <- name;;*);
+    ["Райский уголок"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёвская область, Могилёвский район, Буйничский сельсовет, Тишовка, Центральная улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.888069,30.246806"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

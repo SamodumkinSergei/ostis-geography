@@ -1,0 +1,26 @@
+ concept_hairdressers_1097108666
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Галина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Галина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Богданова, 10Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 227-24-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–19:00; вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.454594,30.970458"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

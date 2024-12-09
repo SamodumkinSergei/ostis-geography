@@ -1,0 +1,26 @@
+ concept_malls_17101243065
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Accent"]
+	(* <- lang_ru;; <- name;;*);
+    ["Accent"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Мостовая улица, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 262-34-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–18:00; вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.676401,23.828457"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.accent-gloves.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

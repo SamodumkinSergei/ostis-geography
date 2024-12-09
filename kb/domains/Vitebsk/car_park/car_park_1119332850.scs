@@ -1,0 +1,26 @@
+ concept_car_park_1119332850
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автостоянка ХК Витебск"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостоянка ХК Витебск"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Воинов-Интернационалистов, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 225-54-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 05:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.160836,30.223706"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitebsk.hockey.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

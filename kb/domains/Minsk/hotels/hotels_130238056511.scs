@@ -1,0 +1,26 @@
+ concept_hotels_130238056511
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Тюльпан"]
+	(* <- lang_ru;; <- name;;*);
+    ["Тюльпан"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Двинская улица, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 627-44-28"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902525,27.626741"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

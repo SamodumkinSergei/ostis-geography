@@ -1,0 +1,26 @@
+ concept_bus_stop_91888505464
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Железнодорожный вокзал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Железнодорожный вокзал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Гришина"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.926565,30.341424"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

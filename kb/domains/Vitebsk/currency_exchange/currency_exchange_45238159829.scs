@@ -1,0 +1,26 @@
+ concept_currency_exchange_45238159829
+ <- concept_currency_exchange;
+=>nrel_main_idtf:
+	["БТА банк"]
+	(* <- lang_ru;; <- name;;*);
+    ["БТА банк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Бешенковичское шоссе, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 311-32-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср-вс 11:00–19:00, перерыв 15:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.159858,30.167898"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.btabank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

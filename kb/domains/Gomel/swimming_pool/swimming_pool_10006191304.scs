@@ -1,0 +1,26 @@
+ concept_swimming_pool_10006191304
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Гомельский центр олимпийского резерва"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский центр олимпийского резерва"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Юбилейная улица, 48"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 752-08-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–21:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.454651,31.005927"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_gasstation_1098858246
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Литэкс-Плюс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Литэкс-Плюс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Петруся Бровки, 58"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 226-28-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.154643,30.230389"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://litex.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

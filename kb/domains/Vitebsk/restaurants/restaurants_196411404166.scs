@@ -1,0 +1,26 @@
+ concept_restaurants_196411404166
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Australian Coffee House"]
+	(* <- lang_ru;; <- name;;*);
+    ["Australian Coffee House"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Овернь-Рона-Альпы, Пюи-де-Дом, Округ Клермон-Ферран, Клермон-Ферран, Rue Saint Esprit, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 4 63 22 63 49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["45.77618,3.085111"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://coffea.fr/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_supermarket_1219036451
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Продукты магазин № 47 Брестского РАЙПО"]
+	(* <- lang_ru;; <- name;;*);
+    ["Продукты магазин № 47 Брестского РАЙПО"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брестский район, Чернавчицкий сельсовет, посёлок Сосновка"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 295-96-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.222983,23.813116"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

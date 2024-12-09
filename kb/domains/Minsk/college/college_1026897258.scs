@@ -1,0 +1,26 @@
+ concept_college_1026897258
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 38"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 38"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Бельского, 59 А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 347-24-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб,вс 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.896357,27.486199"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch38.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

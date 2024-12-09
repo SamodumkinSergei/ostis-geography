@@ -1,0 +1,26 @@
+ concept_fallback_services_79206749663
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Берлио НПООО Могилевский филиал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Берлио НПООО Могилевский филиал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Челюскинцев, 105В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 276-71-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.88933,30.293569"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogilev.berlio.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

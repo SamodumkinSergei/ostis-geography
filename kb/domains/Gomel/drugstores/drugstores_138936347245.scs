@@ -1,0 +1,26 @@
+ concept_drugstores_138936347245
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 44/2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 44/2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Клёнковский, Чечерская улица, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 222-05-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00, перерыв 14:00–14:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.467653,31.038908"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomelpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_car_park_56983948564
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Платная Автостоянка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Платная Автостоянка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Черняховского, 33А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 268-76-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.169082,30.195179"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://автостоянка.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

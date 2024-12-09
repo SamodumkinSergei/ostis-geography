@@ -1,0 +1,26 @@
+ concept_restaurants_12670299158
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Papa Döner"]
+	(* <- lang_ru;; <- name;;*);
+    ["Papa Döner"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, пр. Независимости"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.930226,27.636158"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://papadoner.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

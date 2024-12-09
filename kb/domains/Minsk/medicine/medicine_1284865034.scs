@@ -1,0 +1,26 @@
+ concept_medicine_1284865034
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городская поликлиника № 26"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская поликлиника № 26"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кунцевщина, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 379-85-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911228,27.437566"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://26poliklinika.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_cafe_1400028513
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кухня"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кухня"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, деревня Боровляны, улица 40 лет Победы, 23А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 667-31-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:00–23:00; пт,сб 11:00–01:00; вс 11:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.98767,27.678645"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kafekuhnya.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

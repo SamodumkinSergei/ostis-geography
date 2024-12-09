@@ -1,0 +1,26 @@
+ concept_drugstores_9068252780
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 250"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 250"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Химиков, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 263-26-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–21:00; сб 08:30–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.642535,23.859163"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://farmacia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_hotels_1200819400
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Смарт Инн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Смарт Инн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Красная улица, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 577-22-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.914373,27.580321"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

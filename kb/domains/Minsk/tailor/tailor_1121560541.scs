@@ -1,0 +1,26 @@
+ concept_tailor_1121560541
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Рисервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Рисервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Рафиева, 83"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 696-52-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00, перерыв 14:00–15:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.86112,27.44092"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

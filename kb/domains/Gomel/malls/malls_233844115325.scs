@@ -1,0 +1,26 @@
+ concept_malls_233844115325
+ <- concept_malls;
+=>nrel_main_idtf:
+	["СанВело"]
+	(* <- lang_ru;; <- name;;*);
+    ["СанВело"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Богдана Хмельницкого, 63"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 787-09-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.423043,30.973125"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sunvelo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

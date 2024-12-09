@@ -1,0 +1,26 @@
+ concept_college_1045975801
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 45 имени В. П. Маргелова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 45 имени В. П. Маргелова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чкалова, 47А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 261-69-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.159077,30.209327"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sch45.pervroo-vitebsk.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

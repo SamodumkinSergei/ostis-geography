@@ -1,0 +1,26 @@
+ concept_supermarket_129025403757
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Fix price"]
+	(* <- lang_ru;; <- name;;*);
+    ["Fix price"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Симонова, 71"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.863385,30.311243"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://fix-price.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

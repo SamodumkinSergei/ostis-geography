@@ -1,0 +1,26 @@
+ concept_baby_shop_81962229799
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Игрушкин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Игрушкин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пушкинский проспект, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 662-20-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 09:00–19:00; вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.874225,30.344333"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://игрушкин.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

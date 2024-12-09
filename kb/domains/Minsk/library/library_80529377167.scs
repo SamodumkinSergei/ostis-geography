@@ -1,0 +1,26 @@
+ concept_library_80529377167
+ <- concept_library;
+=>nrel_main_idtf:
+	["БелМАПО, библиотека"]
+	(* <- lang_ru;; <- name;;*);
+    ["БелМАПО, библиотека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петруся Бровки, 3к3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 292-04-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–17:45; пт 09:00–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.915737,27.59867"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://belmapo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_1052341901
+ <- concept_college;
+=>nrel_main_idtf:
+	["УО Гродненское государственное училище олимпийского резерва"]
+	(* <- lang_ru;; <- name;;*);
+    ["УО Гродненское государственное училище олимпийского резерва"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Поповича, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 252-22-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.673547,23.802247"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://uor-grodno.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

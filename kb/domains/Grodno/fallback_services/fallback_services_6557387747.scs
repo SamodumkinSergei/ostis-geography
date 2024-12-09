@@ -1,0 +1,26 @@
+ concept_fallback_services_6557387747
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Ремонт глушителей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт глушителей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Славинского, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 588-65-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00; сб 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.643499,23.826407"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://glushitely.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

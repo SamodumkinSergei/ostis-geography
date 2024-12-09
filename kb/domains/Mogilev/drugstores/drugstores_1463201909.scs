@@ -1,0 +1,26 @@
+ concept_drugstores_1463201909
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 211"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 211"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Аркадия Кулешова, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 274-26-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00, перерыв 14:40–15:00; сб,вс 11:00–19:20, перерыв 14:40–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916541,30.281154"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogilev.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

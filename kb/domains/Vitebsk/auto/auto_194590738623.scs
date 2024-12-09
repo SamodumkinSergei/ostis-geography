@@ -1,0 +1,26 @@
+ concept_auto_194590738623
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Ремонт грузовых автомобилей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт грузовых автомобилей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Ленинградская улица, 217"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 814-32-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.22333,30.120943"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://remont-gruzovikov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

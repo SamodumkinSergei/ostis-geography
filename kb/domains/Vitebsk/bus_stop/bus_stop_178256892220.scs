@@ -1,0 +1,26 @@
+ concept_bus_stop_178256892220
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Пролетарская площадь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пролетарская площадь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Максима Горького"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.1731,30.151645"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

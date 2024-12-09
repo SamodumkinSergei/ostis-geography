@@ -1,0 +1,26 @@
+ concept_museum_1038446543
+ <- concept_museum;
+=>nrel_main_idtf:
+	["ГУ Городской центр культуры"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУ Городской центр культуры"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Ирининская улица, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 250-82-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.428562,31.005642"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gck.gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

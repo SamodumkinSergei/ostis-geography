@@ -1,0 +1,26 @@
+ concept_railway_station_1045111893
+ <- concept_railway_station;
+=>nrel_main_idtf:
+	["Железнодорожная станция Могилев"]
+	(* <- lang_ru;; <- name;;*);
+    ["Железнодорожная станция Могилев"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Привокзальная улица, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 239-22-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.929919,30.336529"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogilev.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

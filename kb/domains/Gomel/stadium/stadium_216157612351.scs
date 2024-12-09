@@ -1,0 +1,26 @@
+ concept_stadium_216157612351
+ <- concept_stadium;
+=>nrel_main_idtf:
+	["Стадион завода Гомсельмаш"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стадион завода Гомсельмаш"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Железнодорожный район, микрорайон Сельмаш"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 259-22-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.452939,30.965191"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gomelstreet.by/zdaniya/sportivnye/stadion-gomselmash/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

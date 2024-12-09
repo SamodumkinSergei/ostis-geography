@@ -1,0 +1,26 @@
+ concept_furniture_store_1195417362
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Viva Line"]
+	(* <- lang_ru;; <- name;;*);
+    ["Viva Line"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Антонова, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 283-03-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.674553,23.841488"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.vivaline.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

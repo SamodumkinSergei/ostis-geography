@@ -1,0 +1,26 @@
+ concept_college_1109056148
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГУО Гимназия № 4 г. Гродно"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО Гимназия № 4 г. Гродно"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Репина, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 253-27-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.66067,23.788718"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gymn4grodno.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_malls_11463538811
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Салби"]
+	(* <- lang_ru;; <- name;;*);
+    ["Салби"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Максима Горького, 72"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 621-79-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.69701,23.819525"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://salbi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

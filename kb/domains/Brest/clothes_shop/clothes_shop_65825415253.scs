@@ -1,0 +1,26 @@
+ concept_clothes_shop_65825415253
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Мода Макс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мода Макс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Суворова, 96/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 225-96-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.071378,23.751452"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://modamax.by/shops/brest/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

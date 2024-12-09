@@ -1,0 +1,26 @@
+ concept_government_1396962747
+ <- concept_government;
+=>nrel_main_idtf:
+	["Брестское областное управление Фонда социальной защиты населения, Брестский районный отдел"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестское областное управление Фонда социальной защиты населения, Брестский районный отдел"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Куйбышева, 11/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 221-85-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.097528,23.689892"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.ssf.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_gasstation_1285970592
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["АЗС № 45 ИООО РН-Запад"]
+	(* <- lang_ru;; <- name;;*);
+    ["АЗС № 45 ИООО РН-Запад"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Шаранговича, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 365-59-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 00:05–23:55"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.891699,27.459342"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.rn-west.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

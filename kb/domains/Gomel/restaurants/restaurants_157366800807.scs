@@ -1,0 +1,26 @@
+ concept_restaurants_157366800807
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Nravizza pizza"]
+	(* <- lang_ru;; <- name;;*);
+    ["Nravizza pizza"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельская область, Добруш, проспект Мира, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 317-12-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:30–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.422035,31.314112"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://nravizza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

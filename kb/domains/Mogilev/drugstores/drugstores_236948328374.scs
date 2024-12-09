@@ -1,0 +1,26 @@
+ concept_drugstores_236948328374
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Планета Здоровья"]
+	(* <- lang_ru;; <- name;;*);
+    ["Планета Здоровья"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Ямницкий, Ямницкая улица, 97Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 262-70-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.895093,30.268599"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.healthplanet.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

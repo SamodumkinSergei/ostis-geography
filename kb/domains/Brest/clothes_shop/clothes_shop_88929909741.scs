@@ -1,0 +1,26 @@
+ concept_clothes_shop_88929909741
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Брестские"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестские"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Кальварийская улица, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 250-49-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90752,27.527727"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bchk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

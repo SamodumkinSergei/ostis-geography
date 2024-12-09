@@ -1,0 +1,26 @@
+ concept_restaurants_92830483306
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Bush"]
+	(* <- lang_ru;; <- name;;*);
+    ["Bush"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Комсомольская улица, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 165-20-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–23:00; сб,вс 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901728,27.552685"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

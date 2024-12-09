@@ -1,0 +1,26 @@
+ concept_railway_terminal_41186918173
+ <- concept_railway_terminal;
+=>nrel_main_idtf:
+	["Минск-Южный"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минск-Южный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Либаво-Роменская улица, 16к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 225-02-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.864829,27.560726"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

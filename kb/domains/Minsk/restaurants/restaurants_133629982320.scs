@@ -1,0 +1,26 @@
+ concept_restaurants_133629982320
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["ГУ Сян"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУ Сян"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Комсомольская улица, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 16:00–23:00; вт-вс 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.899827,27.555339"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_clothes_shop_7854388438
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Mstefa"]
+	(* <- lang_ru;; <- name;;*);
+    ["Mstefa"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 707-40-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908577,27.547916"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mstefa.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

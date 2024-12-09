@@ -1,0 +1,26 @@
+ concept_bus_stop_19250330274
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Промышленный переулок"]
+	(* <- lang_ru;; <- name;;*);
+    ["Промышленный переулок"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Инженерный переулок"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.836628,27.684027"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

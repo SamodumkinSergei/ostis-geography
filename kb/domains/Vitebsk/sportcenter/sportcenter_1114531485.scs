@@ -1,0 +1,26 @@
+ concept_sportcenter_1114531485
+ <- concept_sportcenter;
+=>nrel_main_idtf:
+	["Шанс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Шанс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Петруся Бровки, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 895-23-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 13:00–23:00; пт,сб 13:00–01:00; вс 13:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.170977,30.241772"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_kindergarten_1065402845
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Детский сад № 2 г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский сад № 2 г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Залинейный, улица Чкалова, 47"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 224-02-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.417014,30.98135"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sad2gomel.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

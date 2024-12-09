@@ -1,0 +1,26 @@
+ concept_malls_50354441769
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Bellaktshop.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Bellaktshop.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Челюскинцев, 172"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 782-60-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.879121,30.265455"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://bellaktshop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

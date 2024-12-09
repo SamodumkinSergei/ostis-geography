@@ -1,0 +1,26 @@
+ concept_bus_stop_60580970104
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Минск-Арена"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минск-Арена"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Главная Минская велодорожка"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.937692,27.482431"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

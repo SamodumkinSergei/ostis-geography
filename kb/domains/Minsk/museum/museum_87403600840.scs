@@ -1,0 +1,26 @@
+ concept_museum_87403600840
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей спортивной славы БНТУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей спортивной славы БНТУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Богдана Хмельницкого, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 292-52-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.923231,27.594902"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bntu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

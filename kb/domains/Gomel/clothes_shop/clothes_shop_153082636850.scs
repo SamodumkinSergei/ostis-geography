@@ -1,0 +1,26 @@
+ concept_clothes_shop_153082636850
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["ДисконтОбувь"]
+	(* <- lang_ru;; <- name;;*);
+    ["ДисконтОбувь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Катунина, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.424523,31.004267"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

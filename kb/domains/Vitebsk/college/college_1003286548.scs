@@ -1,0 +1,26 @@
+ concept_college_1003286548
+ <- concept_college;
+=>nrel_main_idtf:
+	["Витебская государственная академия ветеринарной медицины"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебская государственная академия ветеринарной медицины"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, 1-я улица Доватора, 7к11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 248-17-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.197591,30.214813"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.vsavm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

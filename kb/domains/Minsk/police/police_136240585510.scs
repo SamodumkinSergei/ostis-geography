@@ -1,0 +1,26 @@
+ concept_police_136240585510
+ <- concept_police;
+=>nrel_main_idtf:
+	["Управление Следственного Комитета РБ по городу Минск"]
+	(* <- lang_ru;; <- name;;*);
+    ["Управление Следственного Комитета РБ по городу Минск"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Первомайская улица, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 389-56-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902895,27.579559"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sk.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

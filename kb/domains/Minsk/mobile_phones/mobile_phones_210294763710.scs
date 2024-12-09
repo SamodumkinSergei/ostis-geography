@@ -1,0 +1,26 @@
+ concept_mobile_phones_210294763710
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["SmartFix"]
+	(* <- lang_ru;; <- name;;*);
+    ["SmartFix"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 164"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 199-92-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.944246,27.687323"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://smartfix.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

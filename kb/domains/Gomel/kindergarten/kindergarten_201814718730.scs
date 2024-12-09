@@ -1,0 +1,26 @@
+ concept_kindergarten_201814718730
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Санаторный детский сад № 26 г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Санаторный детский сад № 26 г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Ленина, 22А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 233-81-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.427299,31.000487"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sad26gomel.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

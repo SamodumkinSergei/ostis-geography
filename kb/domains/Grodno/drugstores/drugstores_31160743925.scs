@@ -1,0 +1,26 @@
+ concept_drugstores_31160743925
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 14"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 14"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Победы, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 507-35-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.649539,23.836236"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

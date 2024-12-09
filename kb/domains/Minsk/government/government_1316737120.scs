@@ -1,0 +1,26 @@
+ concept_government_1316737120
+ <- concept_government;
+=>nrel_main_idtf:
+	["Главное управление по здравоохранению Минского облисполкома"]
+	(* <- lang_ru;; <- name;;*);
+    ["Главное управление по здравоохранению Минского облисполкома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Интернациональная улица, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 500-42-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90306,27.558578"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://guzmo.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

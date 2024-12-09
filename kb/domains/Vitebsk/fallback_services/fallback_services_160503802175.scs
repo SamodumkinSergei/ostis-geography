@@ -1,0 +1,26 @@
+ concept_fallback_services_160503802175
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Изделия из гранита"]
+	(* <- lang_ru;; <- name;;*);
+    ["Изделия из гранита"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Терешковой, 13Р"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 718-00-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.183616,30.253812"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_flower_shop_133986761927
+ <- concept_flower_shop;
+=>nrel_main_idtf:
+	["Цветы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Цветы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Космонавтов, 81"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 887-77-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.672881,23.862749"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

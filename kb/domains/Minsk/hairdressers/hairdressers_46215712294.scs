@@ -1,0 +1,26 @@
+ concept_hairdressers_46215712294
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Brock"]
+	(* <- lang_ru;; <- name;;*);
+    ["Brock"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Скрыганова, 4Д"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 681-69-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909218,27.520408"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://brock.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

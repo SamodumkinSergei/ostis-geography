@@ -1,0 +1,26 @@
+ concept_drugstores_130167403945
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация, аптека № 58/1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация, аптека № 58/1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Мазурова, 70Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 587-10-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00, перерыв 13:00–13:30; сб,вс 09:00–20:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.455412,31.020814"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomelpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

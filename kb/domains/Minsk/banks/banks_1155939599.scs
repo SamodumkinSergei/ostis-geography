@@ -1,0 +1,26 @@
+ concept_banks_1155939599
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Белагропромбанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белагропромбанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Жукова, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 218-58-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–17:00, перерыв 13:45–14:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.893412,27.499959"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belapb.by/natural/bankovskie-vklady-depozity/vklady-v-dollarah-ssha/vklad-depozit-plyus-k-stabilnosti-v-dollarah-ssha/?utm_campaign=depositsdollars&utm_medium=maps&utm_source=yandex"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

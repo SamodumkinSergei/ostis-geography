@@ -1,0 +1,26 @@
+ concept_restaurants_143998173888
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Гранд Холл"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гранд Холл"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кульман, 14, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 338-05-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–02:00; пт-вс 12:00–05:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.921103,27.581825"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

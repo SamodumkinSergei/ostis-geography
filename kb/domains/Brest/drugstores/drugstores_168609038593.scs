@@ -1,0 +1,26 @@
+ concept_drugstores_168609038593
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Белфармация Минск"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белфармация Минск"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брестская область, Брестский район, агрогородок Мухавец, улица 60 лет Октября, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 225-73-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.027591,23.805939"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://brest.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

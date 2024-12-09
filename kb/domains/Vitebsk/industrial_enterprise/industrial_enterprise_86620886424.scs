@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_86620886424
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Чобот"]
+	(* <- lang_ru;; <- name;;*);
+    ["Чобот"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Гагарина, 11Г"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 388-74-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.206584,30.223367"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://chobot.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

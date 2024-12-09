@@ -1,0 +1,26 @@
+ concept_college_1083266461
+ <- concept_college;
+=>nrel_main_idtf:
+	["Брестский государственный колледж сферы обслуживания"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестский государственный колледж сферы обслуживания"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Пригородная улица, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 224-66-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.099066,23.656107"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bgkso.brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

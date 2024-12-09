@@ -1,0 +1,26 @@
+ concept_bus_stop_90200238640
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Лагерная улица"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лагерная улица"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Куйбышева"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.21256,30.18522"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

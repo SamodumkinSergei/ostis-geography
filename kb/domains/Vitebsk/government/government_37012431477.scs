@@ -1,0 +1,26 @@
+ concept_government_37012431477
+ <- concept_government;
+=>nrel_main_idtf:
+	["Главное управление Министерства финансов по Витебской области"]
+	(* <- lang_ru;; <- name;;*);
+    ["Главное управление Министерства финансов по Витебской области"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 242-53-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.189492,30.206657"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://minfin.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

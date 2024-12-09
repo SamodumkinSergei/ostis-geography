@@ -1,0 +1,26 @@
+ concept_museum_243610319335
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Дом культуры Интеграл"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дом культуры Интеграл"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Казинца, 121Ак2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 398-33-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.843061,27.507947"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.integral.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

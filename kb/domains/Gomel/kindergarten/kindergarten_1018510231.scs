@@ -1,0 +1,26 @@
+ concept_kindergarten_1018510231
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Детский сад-школа № 68 Атиква г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский сад-школа № 68 Атиква г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Ленина, 12А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 224-97-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.425598,31.005257"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://atikva.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_malls_1740056837
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Clipsa"]
+	(* <- lang_ru;; <- name;;*);
+    ["Clipsa"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Речицкий проспект, 80"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 728-06-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:30–17:30; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.405079,30.921219"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://clipsa.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

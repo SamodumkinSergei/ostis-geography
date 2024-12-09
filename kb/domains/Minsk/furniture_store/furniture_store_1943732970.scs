@@ -1,0 +1,26 @@
+ concept_furniture_store_1943732970
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Green Office Group"]
+	(* <- lang_ru;; <- name;;*);
+    ["Green Office Group"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Мележа, 5, корп. 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 880-42-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.940097,27.598067"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://green-office.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_hotels_56082109488
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Тарасовский Маёнтак"]
+	(* <- lang_ru;; <- name;;*);
+    ["Тарасовский Маёнтак"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Ждановичский сельсовет, деревня Тарасово, Садовый переулок, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 616-33-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916982,27.38509"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

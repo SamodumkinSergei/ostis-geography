@@ -1,0 +1,26 @@
+ concept_mobile_phones_55532770552
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["I-Fix.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["I-Fix.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, 8-я Иногородняя улица, 16А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 178-27-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.44188,30.944558"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://i-fix.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_office_service_92374425070
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Белгосстрах"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белгосстрах"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродненская область, Островец, Набережный переулок, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 917-77-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:00–17:00, перерыв 13:00–13:50; пт 08:00–16:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.614343,25.972382"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://grodno.bgs.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

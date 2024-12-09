@@ -1,0 +1,26 @@
+ concept_tailor_1326571367
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Ремонт обуви"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт обуви"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Бобруйская улица, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 800-91-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.890731,27.554959"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://obuvi-remont.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

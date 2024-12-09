@@ -1,0 +1,26 @@
+ concept_college_1040603560
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 124"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 124"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Чижовка, улица Уборевича, 144к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 379-37-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.835449,27.622285"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://124minsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

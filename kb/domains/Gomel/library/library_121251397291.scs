@@ -1,0 +1,26 @@
+ concept_library_121251397291
+ <- concept_library;
+=>nrel_main_idtf:
+	["Региональная научно-медицинская библиотека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Региональная научно-медицинская библиотека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ланге, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 255-96-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.42826,31.017629"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://elib.gsmu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

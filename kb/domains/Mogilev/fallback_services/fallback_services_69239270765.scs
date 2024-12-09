@@ -1,0 +1,26 @@
+ concept_fallback_services_69239270765
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Бытовые услуги"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бытовые услуги"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Соломинка, Каштановая улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 748-82-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 08:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.950188,30.360864"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

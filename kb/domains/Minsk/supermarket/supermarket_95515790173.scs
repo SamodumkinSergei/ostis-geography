@@ -1,0 +1,26 @@
+ concept_supermarket_95515790173
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Зооботанический рыбацкий рынок"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зооботанический рыбацкий рынок"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева, 125"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 259-62-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 09:00–16:00; сб,вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.93556,27.449924"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://zhdanovichi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

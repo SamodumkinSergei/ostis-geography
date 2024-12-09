@@ -1,0 +1,26 @@
+ concept_auto_121805147554
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Ажур Групп"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ажур Групп"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Жилуновича, 2/8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 350-35-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.880669,27.636676"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://azhur.by/car-service"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

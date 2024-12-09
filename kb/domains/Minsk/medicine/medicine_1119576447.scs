@@ -1,0 +1,26 @@
+ concept_medicine_1119576447
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Поликлиника № 3, медицинское отделение по обслуживанию микрорайона Сокол"]
+	(* <- lang_ru;; <- name;;*);
+    ["Поликлиника № 3, медицинское отделение по обслуживанию микрорайона Сокол"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Сокол, улица Барамзиной, 12А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 279-61-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.876081,27.904052"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://3crkp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

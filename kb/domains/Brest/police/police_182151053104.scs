@@ -1,0 +1,26 @@
+ concept_police_182151053104
+ <- concept_police;
+=>nrel_main_idtf:
+	["Полиция"]
+	(* <- lang_ru;; <- name;;*);
+    ["Полиция"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Люблинское воеводство, повят Бяльский, Тересполь, улица Червонего Кшижа, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+48  478 14 92 10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.075258,23.611748"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bip.kgp.policja.gov.pl/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

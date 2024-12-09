@@ -1,0 +1,26 @@
+ concept_swimming_pool_74145504004
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Бассейн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бассейн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Октября, 70"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 231-19-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 17:30–20:30; сб 11:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.402849,30.926494"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_college_115349016191
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гомельский государственный университет им. Франциска Скорины, корпус № 3"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский государственный университет им. Франциска Скорины, корпус № 3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Песина, 80"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 233-32-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–13:40"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.445597,30.996689"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

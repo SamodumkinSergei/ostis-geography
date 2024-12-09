@@ -1,0 +1,26 @@
+ concept_medicine_124395531504
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Витебская городская станция скорой и неотложной медицинской помощи"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебская городская станция скорой и неотложной медицинской помощи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Космонавтов, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 266-40-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.197316,30.188354"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://103vitebsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

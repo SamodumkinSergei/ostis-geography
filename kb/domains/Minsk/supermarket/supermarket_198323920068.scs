@@ -1,0 +1,26 @@
+ concept_supermarket_198323920068
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Соседи"]
+	(* <- lang_ru;; <- name;;*);
+    ["Соседи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Логойский тракт, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 130-51-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.955393,27.620073"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sosedi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

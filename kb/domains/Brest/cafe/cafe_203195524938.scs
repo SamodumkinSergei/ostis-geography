@@ -1,0 +1,26 @@
+ concept_cafe_203195524938
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Paragraph"]
+	(* <- lang_ru;; <- name;;*);
+    ["Paragraph"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Карбышева, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 805-71-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.097588,23.693489"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://paragraph.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

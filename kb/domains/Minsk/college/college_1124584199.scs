@@ -1,0 +1,26 @@
+ concept_college_1124584199
+ <- concept_college;
+=>nrel_main_idtf:
+	["Школа № 83 имени Г. К. Жукова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Школа № 83 имени Г. К. Жукова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Железнодорожная улица, 124"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 395-59-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.877059,27.505248"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch83.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

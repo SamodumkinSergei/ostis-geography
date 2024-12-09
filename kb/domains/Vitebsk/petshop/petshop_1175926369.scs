@@ -1,0 +1,26 @@
+ concept_petshop_1175926369
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Кот и Пес"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кот и Пес"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 247-80-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.181148,30.213943"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://kotipes.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_office_1185886571
+ <- concept_office;
+=>nrel_main_idtf:
+	["Витебские вести"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебские вести"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Гоголя, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 267-34-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:45, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.190397,30.204618"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitvesti.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

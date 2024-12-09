@@ -1,0 +1,26 @@
+ concept_cafe_22783895686
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["У Ганны"]
+	(* <- lang_ru;; <- name;;*);
+    ["У Ганны"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Гоголя, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 248-20-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.189551,30.210695"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ganna.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

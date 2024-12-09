@@ -1,0 +1,26 @@
+ concept_banks_1129920515
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Белагропромбанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белагропромбанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Мошенского, 82"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 257-43-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:30–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.11269,23.734474"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belapb.by/natural/bankovskie-vklady-depozity/vklady-v-dollarah-ssha/vklad-depozit-plyus-k-stabilnosti-v-dollarah-ssha/?utm_campaign=depositsdollars&utm_medium=maps&utm_source=yandex"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

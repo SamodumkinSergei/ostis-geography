@@ -1,0 +1,26 @@
+ concept_bus_stop_12750270970
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Торговый центр Авеню"]
+	(* <- lang_ru;; <- name;;*);
+    ["Торговый центр Авеню"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Загородное шоссе"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919499,30.297129"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

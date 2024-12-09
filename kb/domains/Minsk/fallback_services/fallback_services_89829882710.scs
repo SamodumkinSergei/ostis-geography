@@ -1,0 +1,26 @@
+ concept_fallback_services_89829882710
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Мемористоун"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мемористоун"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Северный переулок, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 757-27-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897955,27.534372"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://memoristoun.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

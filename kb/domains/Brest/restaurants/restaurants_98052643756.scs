@@ -1,0 +1,26 @@
+ concept_restaurants_98052643756
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Cocorico Brest"]
+	(* <- lang_ru;; <- name;;*);
+    ["Cocorico Brest"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Бретань, Финистер, Округ Брест, Плузане, Rue de Brest, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 2 57 52 50 80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["48.36865,-4.58819"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.cocorico.bar/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

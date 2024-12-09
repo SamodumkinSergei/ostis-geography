@@ -1,0 +1,26 @@
+ concept_clothes_shop_48930674237
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Zaraz"]
+	(* <- lang_ru;; <- name;;*);
+    ["Zaraz"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Чигринова, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 366-77-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.879707,30.3385"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

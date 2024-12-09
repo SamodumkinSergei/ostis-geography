@@ -1,0 +1,26 @@
+ concept_baby_shop_68780115839
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["ИП Вайтович Сергей Маратович"]
+	(* <- lang_ru;; <- name;;*);
+    ["ИП Вайтович Сергей Маратович"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Академическая улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 678-37-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.915878,27.602129"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

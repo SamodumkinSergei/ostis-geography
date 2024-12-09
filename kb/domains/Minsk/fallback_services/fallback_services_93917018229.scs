@@ -1,0 +1,26 @@
+ concept_fallback_services_93917018229
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Памятники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Плеханова, 72"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 249-60-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.85934,27.591982"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sogran.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

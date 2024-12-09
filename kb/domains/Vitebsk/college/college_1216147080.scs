@@ -1,0 +1,26 @@
+ concept_college_1216147080
+ <- concept_college;
+=>nrel_main_idtf:
+	["ДЮСШ ФК Витебск"]
+	(* <- lang_ru;; <- name;;*);
+    ["ДЮСШ ФК Витебск"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Черняховского, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 257-28-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.174149,30.197465"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://fc.vitebsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

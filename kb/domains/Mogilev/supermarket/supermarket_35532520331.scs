@@ -1,0 +1,26 @@
+ concept_supermarket_35532520331
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Хит!"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хит!"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Урожайный переулок, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 500-11-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.875895,30.387109"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://hitdiscount.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

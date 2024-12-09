@@ -1,0 +1,26 @@
+ concept_fallback_services_81688585118
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Век Гранита"]
+	(* <- lang_ru;; <- name;;*);
+    ["Век Гранита"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Лиможа, 32Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 782-88-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00, перерыв 14:00–15:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.711281,23.849161"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vekgranita.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_36680899502
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["ГранОсирис"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГранОсирис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 123А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 201-11-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 10:00–18:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.091345,23.727492"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://g-o.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

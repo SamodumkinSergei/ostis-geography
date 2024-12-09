@@ -1,0 +1,26 @@
+ concept_hotels_178312283769
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Гостиница 3"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гостиница 3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Минский район, Острошицко-Городокский сельсовет, агрогородок Острошицкий Городок"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 507-43-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.067532,27.697252"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.rau.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_furniture_store_1174747321
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Смайлмебель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Смайлмебель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Володарского, 102к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 208-13-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.214969,30.219991"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://smilemebel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

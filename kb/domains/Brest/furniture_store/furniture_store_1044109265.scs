@@ -1,0 +1,26 @@
+ concept_furniture_store_1044109265
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Пинскдрев"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пинскдрев"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Кирова, 52/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 173-54-71"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–17:00; вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.095209,23.701438"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pinskdrev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_malls_1061323710
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Makey"]
+	(* <- lang_ru;; <- name;;*);
+    ["Makey"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Советская улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 221-14-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб,вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.199004,30.20696"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://makey.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

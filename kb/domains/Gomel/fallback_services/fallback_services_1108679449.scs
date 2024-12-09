@@ -1,0 +1,26 @@
+ concept_fallback_services_1108679449
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Ритуал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ритуал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Богдана Хмельницкого, 96"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 256-67-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.407882,30.975237"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bvpritual.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

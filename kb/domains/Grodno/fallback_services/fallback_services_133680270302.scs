@@ -1,0 +1,26 @@
+ concept_fallback_services_133680270302
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Granitcity"]
+	(* <- lang_ru;; <- name;;*);
+    ["Granitcity"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Антонова, 25А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 656-61-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 09:30–17:30; сб,вс 09:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.673287,23.840058"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://granitcity.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_college_211328172037
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гимназия № 16, начальная школа"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гимназия № 16, начальная школа"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Центральный район, Веснянка, улица Леси Украинки, 8к3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 369-58-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00; сб 09:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.930851,27.501739"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gymn16.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

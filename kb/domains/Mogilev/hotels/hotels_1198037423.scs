@@ -1,0 +1,26 @@
+ concept_hotels_1198037423
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Губернская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Губернская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Ленинская улица, 56"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 614-90-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90501,30.34338"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gubernsky.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

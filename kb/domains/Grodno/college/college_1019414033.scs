@@ -1,0 +1,26 @@
+ concept_college_1019414033
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГУО Средняя школа № 28"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО Средняя школа № 28"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Брикеля, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 278-58-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.699982,23.849993"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sh28grodno.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_hotels_1335288874
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Иван да Марья"]
+	(* <- lang_ru;; <- name;;*);
+    ["Иван да Марья"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Острошицко-Городокский сельсовет, агрогородок Острошицкий Городок, Озёрная улица, 41"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 649-90-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.076371,27.689949"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

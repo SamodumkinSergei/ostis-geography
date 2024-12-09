@@ -1,0 +1,26 @@
+ concept_malls_224634535524
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Неман, отдел продаж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Неман, отдел продаж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Автомобильная улица, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 787-28-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.638207,23.803084"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

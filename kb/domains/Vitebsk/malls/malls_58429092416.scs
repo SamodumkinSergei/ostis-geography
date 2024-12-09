@@ -1,0 +1,26 @@
+ concept_malls_58429092416
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Метр Плюс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Метр Плюс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Терешковой, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 342-66-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб,вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.188575,30.252135"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://metr2.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

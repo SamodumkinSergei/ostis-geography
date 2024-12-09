@@ -1,0 +1,26 @@
+ concept_malls_1168602554
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Спортландия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Спортландия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Якубовского, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 241-94-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–19:00; вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916988,30.314267"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sportlandia.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

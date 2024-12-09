@@ -1,0 +1,26 @@
+ concept_gasstation_1239238400
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Блок"]
+	(* <- lang_ru;; <- name;;*);
+    ["Блок"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Терешковой, 9А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 248-89-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:30–09:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.182187,30.247912"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

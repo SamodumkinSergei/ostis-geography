@@ -1,0 +1,26 @@
+ concept_hypermarket_48119989279
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Стройматериалы и сантехника"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стройматериалы и сантехника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Королёва, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 613-02-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 09:00–17:00; вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903685,30.365043"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

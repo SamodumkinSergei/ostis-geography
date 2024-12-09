@@ -1,0 +1,26 @@
+ concept_mobile_phones_218187504354
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Окей компьютер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Окей компьютер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Ленина, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 147-12-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.429324,30.997134"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ok-gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

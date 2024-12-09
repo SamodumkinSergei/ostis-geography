@@ -1,0 +1,26 @@
+ concept_fallback_services_156585073719
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Завод Модуль, офис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Завод Модуль, офис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гоголя, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 759-21-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.088819,23.674165"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_237392019431
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Олимпийская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Олимпийская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Олимпийская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.477535,31.028886"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

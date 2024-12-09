@@ -1,0 +1,26 @@
+ concept_auto_1361300003
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автоэлектрик"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автоэлектрик"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Чижовка, улица Уборевича, 82"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 511-51-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.837008,27.651133"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.autoelectric.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

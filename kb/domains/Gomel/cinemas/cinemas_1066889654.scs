@@ -1,0 +1,26 @@
+ concept_cinemas_1066889654
+ <- concept_cinemas;
+=>nrel_main_idtf:
+	["Октябрь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Октябрь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Барыкина, 127"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 223-52-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.419073,30.976617"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gomelkino.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

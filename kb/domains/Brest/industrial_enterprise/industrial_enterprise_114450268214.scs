@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_114450268214
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Инблю"]
+	(* <- lang_ru;; <- name;;*);
+    ["Инблю"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Гродненская улица, 29/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 865-45-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.118414,23.779501"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kiara-onda.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

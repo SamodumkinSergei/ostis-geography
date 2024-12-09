@@ -1,0 +1,26 @@
+ concept_fast_food_225610997384
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Eurohleb"]
+	(* <- lang_ru;; <- name;;*);
+    ["Eurohleb"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Логойский тракт, 22А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 361-06-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.94706,27.61582"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.eurohleb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_236831004645
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Центргранит"]
+	(* <- lang_ru;; <- name;;*);
+    ["Центргранит"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Любимова, 26, корп. 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 182-01-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.862434,27.46096"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://centrgranit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

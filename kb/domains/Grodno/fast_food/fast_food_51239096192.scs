@@ -1,0 +1,26 @@
+ concept_fast_food_51239096192
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Con Carne"]
+	(* <- lang_ru;; <- name;;*);
+    ["Con Carne"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Лиможа, 45/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 563-58-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 13:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.713255,23.850181"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

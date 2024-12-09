@@ -1,0 +1,26 @@
+ concept_college_1093201969
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 11 г. Могилёва"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 11 г. Могилёва"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Менжинского, 14А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 274-50-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:30–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.895957,30.31719"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://school11mog.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

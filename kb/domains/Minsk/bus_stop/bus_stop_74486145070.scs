@@ -1,0 +1,26 @@
+ concept_bus_stop_74486145070
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Парк Павлова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парк Павлова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Любимова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.85837,27.473153"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

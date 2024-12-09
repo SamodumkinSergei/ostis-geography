@@ -1,0 +1,26 @@
+ concept_college_171859991754
+ <- concept_college;
+=>nrel_main_idtf:
+	["Витебский государственный медицинский университет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебский государственный медицинский университет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 23, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 264-81-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.192281,30.217024"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.vsmu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

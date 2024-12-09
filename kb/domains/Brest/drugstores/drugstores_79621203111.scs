@@ -1,0 +1,26 @@
+ concept_drugstores_79621203111
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Pharmacie de Bellevue Brest"]
+	(* <- lang_ru;; <- name;;*);
+    ["Pharmacie de Bellevue Brest"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Бретань, Финистер, Округ Брест, Брест, Place Napoléon III, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 2 98 03 29 00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["48.403719,-4.507441"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.pharmaciebellevue.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_cafe_35538253138
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Icoffee bar"]
+	(* <- lang_ru;; <- name;;*);
+    ["Icoffee bar"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Кальварийская улица, 42"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 301-14-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908564,27.516452"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_banks_1086760695
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Белагропромбанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белагропромбанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебская область, город Глубокое, площадь 17 Сентября, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 218-57-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00, перерыв 12:30–13:15; сб 10:00–13:00, перерыв 11:00–11:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.14096,27.695132"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belapb.by/natural/bankovskie-vklady-depozity/vklady-v-dollarah-ssha/vklad-depozit-plyus-k-stabilnosti-v-dollarah-ssha/?utm_campaign=depositsdollars&utm_medium=maps&utm_source=yandex"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

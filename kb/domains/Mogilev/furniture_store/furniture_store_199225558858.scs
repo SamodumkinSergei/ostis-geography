@@ -1,0 +1,26 @@
+ concept_furniture_store_199225558858
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Блумберг Мебель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Блумберг Мебель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Гагарина, 79"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 209-55-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.880655,30.318261"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://blumberg.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

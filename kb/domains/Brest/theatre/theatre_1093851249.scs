@@ -1,0 +1,26 @@
+ concept_theatre_1093851249
+ <- concept_theatre;
+=>nrel_main_idtf:
+	["Брестский академический театр драмы имени Ленинского комсомола Беларуси"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестский академический театр драмы имени Ленинского комсомола Беларуси"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Ленина, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 234-26-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 13:00–20:00; вс 14:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.090439,23.686367"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bresttheatre.info/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

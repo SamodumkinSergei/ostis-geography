@@ -1,0 +1,26 @@
+ concept_fallback_services_15513498191
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Отделенческий расчетный центр, Белорусская железная дорога, Брестское отделение отделенческий расчетный центр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отделенческий расчетный центр, Белорусская железная дорога, Брестское отделение отделенческий расчетный центр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Белорусская железная дорога, станция Брест-Центральный, 54В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 226-22-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.097896,23.674066"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

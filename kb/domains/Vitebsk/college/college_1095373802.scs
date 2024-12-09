@@ -1,0 +1,26 @@
+ concept_college_1095373802
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 42 имени Д. Ф. Райцева"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 42 имени Д. Ф. Райцева"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Петруся Бровки, 23А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 263-40-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.160991,30.234742"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sch42.pervroo-vitebsk.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

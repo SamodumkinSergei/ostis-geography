@@ -1,0 +1,26 @@
+ concept_medicine_1176602697
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Витебский областной клинический специализированный центр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебский областной клинический специализированный центр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Некрасова, 10А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 233-33-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.19225,30.176144"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.voksc.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

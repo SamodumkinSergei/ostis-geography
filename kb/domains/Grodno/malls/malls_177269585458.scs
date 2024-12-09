@@ -1,0 +1,26 @@
+ concept_malls_177269585458
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Makey"]
+	(* <- lang_ru;; <- name;;*);
+    ["Makey"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Дубко, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 622-70-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–21:00; пт,сб 10:00–22:00; вс 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.701756,23.833256"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://makey.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

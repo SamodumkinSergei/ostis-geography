@@ -1,0 +1,26 @@
+ concept_medicine_202778719413
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Центральная районная больница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Центральная районная больница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельская область, Ветка, улица Батракова, 36"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 302-25-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.576735,31.152528"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vetka-crb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_99614819842
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Овощная фабрика"]
+	(* <- lang_ru;; <- name;;*);
+    ["Овощная фабрика"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Ивана Лебедева"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.638701,23.813829"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

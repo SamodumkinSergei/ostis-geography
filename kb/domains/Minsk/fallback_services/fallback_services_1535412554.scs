@@ -1,0 +1,26 @@
+ concept_fallback_services_1535412554
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Пруды и фонтаны"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пруды и фонтаны"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Руссиянова, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 234-16-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.935754,27.686562"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://prudy.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

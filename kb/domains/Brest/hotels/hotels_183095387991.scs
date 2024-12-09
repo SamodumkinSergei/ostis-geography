@@ -1,0 +1,26 @@
+ concept_hotels_183095387991
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Residence Terres de France Brest"]
+	(* <- lang_ru;; <- name;;*);
+    ["Residence Terres de France Brest"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, 81 Rue Robert Doisneau"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 2 30 90 60 80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["48.401276,-4.485039"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://apparthotel-brest.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

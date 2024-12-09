@@ -1,0 +1,26 @@
+ concept_auto_95062985908
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Евро Кузов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Евро Кузов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Танковая улица, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 350-50-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.913216,27.745743"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://evrokuzov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

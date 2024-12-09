@@ -1,0 +1,26 @@
+ concept_fallback_services_108790358962
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Ритуал сити"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ритуал сити"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Солтыса, 129"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 143-06-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.893485,27.654057"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pamyatniki-minsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

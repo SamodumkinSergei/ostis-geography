@@ -1,0 +1,26 @@
+ concept_swimming_pool_78500993543
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Бассейн Витебского государственного технологического колледжа"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бассейн Витебского государственного технологического колледжа"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Октябрьский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 236-17-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:00–21:00; пт 08:00–20:00; сб 10:00–20:00; вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.2124,30.230929"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitgtk.belstu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

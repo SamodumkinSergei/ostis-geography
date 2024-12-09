@@ -1,0 +1,26 @@
+ concept_hypermarket_30928424070
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Азбука ремонта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Азбука ремонта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Струшня"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 550-05-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903502,30.313473"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ysk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

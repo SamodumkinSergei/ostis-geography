@@ -1,0 +1,26 @@
+ concept_gasstation_167672297705
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Славнефть"]
+	(* <- lang_ru;; <- name;;*);
+    ["Славнефть"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Московский район, Меньковский тракт, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["8 (800) 500-25-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 00:10–23:55"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.852748,27.427043"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rn-west.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

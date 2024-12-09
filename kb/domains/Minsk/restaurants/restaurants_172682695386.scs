@@ -1,0 +1,26 @@
+ concept_restaurants_172682695386
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Хлеб Соль"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хлеб Соль"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Логойский тракт, 22А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 339-05-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.947083,27.615679"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://nabanket.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

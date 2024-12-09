@@ -1,0 +1,26 @@
+ concept_college_1366581455
+ <- concept_college;
+=>nrel_main_idtf:
+	["Театр-школа Образ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Театр-школа Образ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурганова, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 775-79-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["сб,вс 10:00–23:30, перерыв 14:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.925751,27.596281"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.teatr-obraz.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

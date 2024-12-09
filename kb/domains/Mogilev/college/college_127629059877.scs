@@ -1,0 +1,26 @@
+ concept_college_127629059877
+ <- concept_college;
+=>nrel_main_idtf:
+	["Кафедра маркетинга и менеджмента"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафедра маркетинга и менеджмента"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Ленинская улица, 89А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 262-71-28"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:15–17:15, перерыв 12:30–13:30; пт 08:00–15:00, перерыв 12:30–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910413,30.348075"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bru.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

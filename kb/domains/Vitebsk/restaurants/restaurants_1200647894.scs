@@ -1,0 +1,26 @@
+ concept_restaurants_1200647894
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Эридан"]
+	(* <- lang_ru;; <- name;;*);
+    ["Эридан"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Советская улица, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 329-75-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.199421,30.20535"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.eridan-vitebsk.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

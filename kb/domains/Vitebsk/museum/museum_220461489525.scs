@@ -1,0 +1,26 @@
+ concept_museum_220461489525
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Народный биологический музей ВГУ имени П. М. Машерова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Народный биологический музей ВГУ имени П. М. Машерова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 237-58-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.177633,30.226659"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

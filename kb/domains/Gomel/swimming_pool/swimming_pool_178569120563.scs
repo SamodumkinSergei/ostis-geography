@@ -1,0 +1,26 @@
+ concept_swimming_pool_178569120563
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Бассейн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бассейн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Осипова, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 232-00-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб 08:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.458325,30.961072"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://57gomel.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

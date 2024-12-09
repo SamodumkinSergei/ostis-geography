@@ -1,0 +1,26 @@
+ concept_college_208797143618
+ <- concept_college;
+=>nrel_main_idtf:
+	["БГАТУ ФТС"]
+	(* <- lang_ru;; <- name;;*);
+    ["БГАТУ ФТС"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 99, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 625-20-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.928312,27.621587"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsatu.by/ru/fakultety/fakultet-tehnicheskiy-servis-v-apk"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

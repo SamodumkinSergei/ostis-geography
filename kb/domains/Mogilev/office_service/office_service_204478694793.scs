@@ -1,0 +1,26 @@
+ concept_office_service_204478694793
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["ЧТПУП 13район"]
+	(* <- lang_ru;; <- name;;*);
+    ["ЧТПУП 13район"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Димитрова, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 345-75-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.867708,30.36532"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mpo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_179004382026
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Проспект Космонавтов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Проспект Космонавтов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Большое объездное кольцо"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.671599,23.887521"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

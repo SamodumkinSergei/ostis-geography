@@ -1,0 +1,26 @@
+ concept_hypermarket_95023481961
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["КрепЁж"]
+	(* <- lang_ru;; <- name;;*);
+    ["КрепЁж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Кирова, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 101-53-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб,вс 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.43285,31.004736"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://krepeg.pro/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

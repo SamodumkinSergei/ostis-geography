@@ -1,0 +1,26 @@
+ concept_malls_34270341066
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Мила"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мила"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Дубко, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 350-67-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–21:00; пт,сб 10:00–22:00; вс 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.70149,23.833322"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mila.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

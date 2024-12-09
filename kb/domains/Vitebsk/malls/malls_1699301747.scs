@@ -1,0 +1,26 @@
+ concept_malls_1699301747
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Арена Спорта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Арена Спорта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Победы, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 337-98-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:30; сб,вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.169739,30.223958"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://arena-sporta.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

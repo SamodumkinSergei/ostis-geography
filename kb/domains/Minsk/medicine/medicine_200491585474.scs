@@ -1,0 +1,26 @@
+ concept_medicine_200491585474
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["10-я Городская Клиническая больница, Приёмное отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["10-я Городская Клиническая больница, Приёмное отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Чижовка, улица Уборевича, 73к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 345-35-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.837586,27.653966"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.10gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

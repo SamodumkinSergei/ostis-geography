@@ -1,0 +1,26 @@
+ concept_fallback_services_222250081492
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Ремонт Электросамокатов в Гомеле"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт Электросамокатов в Гомеле"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 133"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 922-28-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.465074,30.985966"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://electro-smart.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

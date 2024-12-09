@@ -1,0 +1,26 @@
+ concept_clothes_shop_65202070250
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Модамакс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Модамакс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Чижовка, улица Голодеда, 21к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 221-51-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.839473,27.635919"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://modamax.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

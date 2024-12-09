@@ -1,0 +1,26 @@
+ concept_malls_213416355216
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Корона Дом"]
+	(* <- lang_ru;; <- name;;*);
+    ["Корона Дом"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 154Д"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.933116,27.674576"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://korona.by/korona-dom"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

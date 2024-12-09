@@ -1,0 +1,26 @@
+ concept_hypermarket_11412161111
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Офисная Продукция"]
+	(* <- lang_ru;; <- name;;*);
+    ["Офисная Продукция"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Инженерная улица, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 346-91-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.122334,23.682205"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://officeby.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

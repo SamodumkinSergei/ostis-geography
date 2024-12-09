@@ -1,0 +1,26 @@
+ concept_medicine_210155035052
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Акушерский корпус Вгкбсмп"]
+	(* <- lang_ru;; <- name;;*);
+    ["Акушерский корпус Вгкбсмп"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 71к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 255-15-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.193304,30.243133"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bsmp.vitebsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_college_1332915312
+ <- concept_college;
+=>nrel_main_idtf:
+	["МузШок"]
+	(* <- lang_ru;; <- name;;*);
+    ["МузШок"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Максима Богдановича, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 126-30-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 14:30–23:00; сб,вс 10:00–21:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908153,27.556525"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://muzshok.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

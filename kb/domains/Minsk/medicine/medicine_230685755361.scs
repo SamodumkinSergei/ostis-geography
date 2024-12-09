@@ -1,0 +1,26 @@
+ concept_medicine_230685755361
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Центр медицинской реабилитации"]
+	(* <- lang_ru;; <- name;;*);
+    ["Центр медицинской реабилитации"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Сеницкий сельсовет, Атолино, Западная улица, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.788933,27.420463"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_drugstores_186692330345
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 13 Гратиафарм"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 13 Гратиафарм"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Красногвардейская улица, 95"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 229-20-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб 09:00–20:00; вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.117705,23.689544"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://tabletka.by/pharmacies/7629"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

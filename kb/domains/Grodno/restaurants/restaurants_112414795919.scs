@@ -1,0 +1,26 @@
+ concept_restaurants_112414795919
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Бакст"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бакст"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Замковая улица, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 888-43-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–00:00; пт,сб 12:00–01:30; вс 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.678497,23.824142"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bakst.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

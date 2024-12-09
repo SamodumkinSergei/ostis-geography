@@ -1,0 +1,26 @@
+ concept_malls_170113336144
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Территория людей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Территория людей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 275-95-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 12:00–18:00; сб 13:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901989,30.335192"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

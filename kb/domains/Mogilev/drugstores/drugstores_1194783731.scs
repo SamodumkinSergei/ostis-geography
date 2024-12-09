@@ -1,0 +1,26 @@
+ concept_drugstores_1194783731
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека 195"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека 195"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Казимировка, Краснозвёздная улица, 54"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 232-09-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00, перерыв 14:00–14:30; сб,вс 10:00–18:30, перерыв 14:00–14:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.93139,30.250698"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogilev.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

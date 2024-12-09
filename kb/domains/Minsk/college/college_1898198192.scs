@@ -1,0 +1,26 @@
+ concept_college_1898198192
+ <- concept_college;
+=>nrel_main_idtf:
+	["Экономико-правовой факультет Бип"]
+	(* <- lang_ru;; <- name;;*);
+    ["Экономико-правовой факультет Бип"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Освобождения, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 185-20-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906447,27.547428"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://bip-ip.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

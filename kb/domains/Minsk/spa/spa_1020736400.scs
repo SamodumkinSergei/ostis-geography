@@ -1,0 +1,26 @@
+ concept_spa_1020736400
+ <- concept_spa;
+=>nrel_main_idtf:
+	["Де Пари Шарм"]
+	(* <- lang_ru;; <- name;;*);
+    ["Де Пари Шарм"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Крупской, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 374-74-89"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–20:00; вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.859216,27.625157"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://deparisharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

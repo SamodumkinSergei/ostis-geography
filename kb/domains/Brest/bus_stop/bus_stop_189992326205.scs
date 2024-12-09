@@ -1,0 +1,26 @@
+ concept_bus_stop_189992326205
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Центральный железнодорожный вокзал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Центральный железнодорожный вокзал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Привокзальная площадь"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.100178,23.678924"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

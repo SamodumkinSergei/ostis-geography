@@ -1,0 +1,26 @@
+ concept_bus_stop_214334883288
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Бетонный проезд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бетонный проезд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Харьковская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897739,27.505713"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

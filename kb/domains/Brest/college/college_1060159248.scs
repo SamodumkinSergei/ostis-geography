@@ -1,0 +1,26 @@
+ concept_college_1060159248
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 30 имени Д. Б. Гвишиани г. Бреста"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 30 имени Д. Б. Гвишиани г. Бреста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Волгоградская улица, 42"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 248-43-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 08:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.079889,23.749787"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://30brest.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

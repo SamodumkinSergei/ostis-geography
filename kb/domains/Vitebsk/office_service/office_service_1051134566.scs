@@ -1,0 +1,26 @@
+ concept_office_service_1051134566
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["GorodVitebsk.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["GorodVitebsk.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 54"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 645-63-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.200048,30.206946"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gorodvitebsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

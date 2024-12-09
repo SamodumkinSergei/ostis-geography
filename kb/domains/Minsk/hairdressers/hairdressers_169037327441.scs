@@ -1,0 +1,26 @@
+ concept_hairdressers_169037327441
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Esquire"]
+	(* <- lang_ru;; <- name;;*);
+    ["Esquire"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 108"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 309-33-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–21:00; вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.939434,27.477794"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://esquire.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

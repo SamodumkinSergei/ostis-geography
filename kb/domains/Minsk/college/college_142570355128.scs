@@ -1,0 +1,26 @@
+ concept_college_142570355128
+ <- concept_college;
+=>nrel_main_idtf:
+	["Факультет доуниверситетской подготовки БГПУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Факультет доуниверситетской подготовки БГПУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Советская улица, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 327-82-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:00–17:30; пт 08:00–16:15; сб 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.894535,27.545334"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://fdp.bspu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_museum_1186073616
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей истории города Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей истории города Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, площадь Свободы, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 337-24-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср-вс 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903943,27.553533"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.minskmuseum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

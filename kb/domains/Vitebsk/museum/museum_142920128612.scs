@@ -1,0 +1,26 @@
+ concept_museum_142920128612
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Выставочный зал детской художественной школы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Выставочный зал детской художественной школы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Суворова, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 235-90-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.196321,30.205185"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://hudojka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

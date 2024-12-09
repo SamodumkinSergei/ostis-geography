@@ -1,0 +1,26 @@
+ concept_car_park_1111059868
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автостоянка № 34"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостоянка № 34"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Харьковская улица, 61"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 213-06-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 05:00–01:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.898799,27.509568"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://upgaip.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

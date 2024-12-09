@@ -1,0 +1,26 @@
+ concept_college_208801702398
+ <- concept_college;
+=>nrel_main_idtf:
+	["Институт ИТ и бизнес-администрирования"]
+	(* <- lang_ru;; <- name;;*);
+    ["Институт ИТ и бизнес-администрирования"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Амураторская улица, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 379-37-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–18:00; пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910431,27.529552"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.instituteiba.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

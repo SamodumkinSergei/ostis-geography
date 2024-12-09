@@ -1,0 +1,26 @@
+ concept_college_68350321422
+ <- concept_college;
+=>nrel_main_idtf:
+	["2-я кафедра внутренних болезней БГМУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["2-я кафедра внутренних болезней БГМУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Семашко, 8к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 272-46-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.85974,27.495686"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsmu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

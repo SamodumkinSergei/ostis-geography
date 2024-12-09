@@ -1,0 +1,26 @@
+ concept_hypermarket_1616179622
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Таиер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Таиер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, бульвар Космонавтов, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 722-47-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.101443,23.692678"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://taier.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

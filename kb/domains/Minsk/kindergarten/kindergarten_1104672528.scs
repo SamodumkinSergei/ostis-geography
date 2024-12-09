@@ -1,0 +1,26 @@
+ concept_kindergarten_1104672528
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["ГУО детский сад № 287 г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО детский сад № 287 г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Казинца, 43А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 212-48-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.854394,27.516067"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu287.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_office_service_154237048103
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Свободная экономическая зона Могилев, администрация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Свободная экономическая зона Могилев, администрация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Челюскинцев, 78А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 262-66-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.891381,30.29324"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://fezmogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

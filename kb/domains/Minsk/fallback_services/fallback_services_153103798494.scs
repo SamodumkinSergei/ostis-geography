@@ -1,0 +1,26 @@
+ concept_fallback_services_153103798494
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Фолкс-Камень"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фолкс-Камень"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сергея Есенина, 6/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 338-78-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб,вс 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.849646,27.467062"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://granit.folks-pamyatnik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

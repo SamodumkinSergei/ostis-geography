@@ -1,0 +1,26 @@
+ concept_spa_1100622930
+ <- concept_spa;
+=>nrel_main_idtf:
+	["Стриж-клуб"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стриж-клуб"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Мовчанского, 53"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 260-55-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 09:00–17:00; вс 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.877533,30.374378"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

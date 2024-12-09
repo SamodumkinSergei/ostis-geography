@@ -1,0 +1,26 @@
+ concept_hairdressers_1166106668
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Нон-Стоп"]
+	(* <- lang_ru;; <- name;;*);
+    ["Нон-Стоп"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Дубровская улица, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 229-23-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 11:00–19:00; сб 08:00–17:00; вс 08:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.125739,23.655742"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

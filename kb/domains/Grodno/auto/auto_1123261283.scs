@@ -1,0 +1,26 @@
+ concept_auto_1123261283
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Эльматрейд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Эльматрейд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Максима Горького, 87/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 888-64-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.702117,23.818802"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://partsauto.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

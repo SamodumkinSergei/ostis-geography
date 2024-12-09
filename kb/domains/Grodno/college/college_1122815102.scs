@@ -1,0 +1,26 @@
+ concept_college_1122815102
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица 17 Сентября, 48"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 262-00-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.689767,23.844089"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch2grodno.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

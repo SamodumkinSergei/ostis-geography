@@ -1,0 +1,26 @@
+ concept_bus_station_203312445443
+ <- concept_bus_station;
+=>nrel_main_idtf:
+	["Минский торговый колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский торговый колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Восточная улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.951848,27.60632"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

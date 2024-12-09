@@ -1,0 +1,26 @@
+ concept_fallback_services_1129351782
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Офистехсервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Офистехсервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Весенняя улица, 19А-1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 244-45-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.686758,23.799933"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.ots-grodno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

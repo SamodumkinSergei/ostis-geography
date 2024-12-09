@@ -1,0 +1,26 @@
+ concept_office_service_1342853690
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Белгосстрах"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белгосстрах"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Огоренко, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 617-04-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–19:00, перерыв 14:00–14:30; вс 10:00–18:00, перерыв 14:00–14:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.468851,31.022655"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomel.bgs.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

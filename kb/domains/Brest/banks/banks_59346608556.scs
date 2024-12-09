@@ -1,0 +1,26 @@
+ concept_banks_59346608556
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Paritetbank"]
+	(* <- lang_ru;; <- name;;*);
+    ["Paritetbank"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Машерова, 70"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["171"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00, перерыв 13:00–13:30; сб,вс 10:00–16:00, перерыв 13:45–14:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.087814,23.701425"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.paritetbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

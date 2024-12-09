@@ -1,0 +1,26 @@
+ concept_port_188108237915
+ <- concept_port;
+=>nrel_main_idtf:
+	["Белорусское речное параходство"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусское речное параходство"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Пушкина, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 234-55-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:00–17:00, перерыв 12:15–13:00; пт 08:00–15:45, перерыв 12:15–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.428631,31.017048"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.parohodstvo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_gasstation_212510268429
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Роснефть"]
+	(* <- lang_ru;; <- name;;*);
+    ["Роснефть"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ваупшасова, 3Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["8 (800) 200-10-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.886217,27.622876"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.rn-west.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

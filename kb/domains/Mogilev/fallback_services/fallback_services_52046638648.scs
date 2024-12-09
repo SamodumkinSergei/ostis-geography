@@ -1,0 +1,26 @@
+ concept_fallback_services_52046638648
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Памятники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, переулок Ломако, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 671-01-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб,вс 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90773,30.310352"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://granit-ka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

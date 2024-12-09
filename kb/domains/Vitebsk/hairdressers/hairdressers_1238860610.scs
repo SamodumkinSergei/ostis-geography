@@ -1,0 +1,26 @@
+ concept_hairdressers_1238860610
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Rio"]
+	(* <- lang_ru;; <- name;;*);
+    ["Rio"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Черняховского, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 272-55-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–20:00; вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.178187,30.202057"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

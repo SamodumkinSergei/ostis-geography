@@ -1,0 +1,26 @@
+ concept_museum_1036076473
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Национальный центр современных искусств РБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Национальный центр современных искусств РБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 47"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 235-03-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 12:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.913945,27.580687"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ncsm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

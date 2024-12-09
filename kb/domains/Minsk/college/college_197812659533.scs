@@ -1,0 +1,26 @@
+ concept_college_197812659533
+ <- concept_college;
+=>nrel_main_idtf:
+	["Кафедра патологической анатомии БГМУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафедра патологической анатомии БГМУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Семашко, 8к5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 398-72-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.862232,27.494696"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsmu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

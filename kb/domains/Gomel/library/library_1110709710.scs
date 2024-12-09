@@ -1,0 +1,26 @@
+ concept_library_1110709710
+ <- concept_library;
+=>nrel_main_idtf:
+	["Библиотека-филиал № 6 г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Библиотека-филиал № 6 г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Владимирова, 57"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 225-86-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.424198,30.946907"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ggcbs.gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

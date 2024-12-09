@@ -1,0 +1,26 @@
+ concept_bus_stop_225399793585
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Кутузова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Кутузова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Соколовского"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.659292,23.808394"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_medicine_202409633251
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Al Noor Polyclinic"]
+	(* <- lang_ru;; <- name;;*);
+    ["Al Noor Polyclinic"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["эмират Дубай, Дейра, Эр Рашидия"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+971 4 286 24 10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["25.232503,55.383892"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://alnoorrashidiya.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

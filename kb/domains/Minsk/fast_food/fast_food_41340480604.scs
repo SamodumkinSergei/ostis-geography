@@ -1,0 +1,26 @@
+ concept_fast_food_41340480604
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["KFC"]
+	(* <- lang_ru;; <- name;;*);
+    ["KFC"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Маяковского, 115"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 652-37-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.863184,27.572443"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://kfc.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

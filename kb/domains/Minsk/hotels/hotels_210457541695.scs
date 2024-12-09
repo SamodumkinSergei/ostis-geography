@@ -1,0 +1,26 @@
+ concept_hotels_210457541695
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["У Марины"]
+	(* <- lang_ru;; <- name;;*);
+    ["У Марины"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Смолевичский район, Озерицко-Слободской сельсовет, агрогородок Слобода, Железнодорожная улица, 10А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 728-59-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.007,27.87625"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_cafe_1027887975
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Полешук"]
+	(* <- lang_ru;; <- name;;*);
+    ["Полешук"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Речицкий проспект, 91А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 231-08-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 16:00–00:00; пт,сб 13:00–02:00; вс 16:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.407424,30.925744"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

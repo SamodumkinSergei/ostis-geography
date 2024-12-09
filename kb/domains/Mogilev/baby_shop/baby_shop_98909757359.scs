@@ -1,0 +1,26 @@
+ concept_baby_shop_98909757359
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Мир игрушек"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мир игрушек"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Лазаренко, 73А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 591-32-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90915,30.308"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

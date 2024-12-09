@@ -1,0 +1,26 @@
+ concept_fallback_services_120565379087
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Чёрный гранит"]
+	(* <- lang_ru;; <- name;;*);
+    ["Чёрный гранит"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Сябровская улица, 96/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 824-82-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–18:00, перерыв 14:00–15:00; сб,вс 11:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.066953,23.720646"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

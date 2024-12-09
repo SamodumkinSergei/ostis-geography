@@ -1,0 +1,26 @@
+ concept_drugstores_95152655735
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 16"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 16"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Томина, 6А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 350-85-71"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб 10:00–20:00; вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.648276,23.833327"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://dpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

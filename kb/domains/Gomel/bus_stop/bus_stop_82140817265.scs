@@ -1,0 +1,26 @@
+ concept_bus_stop_82140817265
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Карбышева"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Карбышева"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Октября, 23А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.407538,30.961709"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

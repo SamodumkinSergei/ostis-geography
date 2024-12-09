@@ -1,0 +1,26 @@
+ concept_college_1094390728
+ <- concept_college;
+=>nrel_main_idtf:
+	["Институт повышения квалификации и переподготовки БрГТУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Институт повышения квалификации и переподготовки БрГТУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 267"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 241-83-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:00–19:00, перерыв 13:00–13:45; пт 08:00–17:45, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.096643,23.758254"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ipk.bstu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_malls_183674900910
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Канцтовары"]
+	(* <- lang_ru;; <- name;;*);
+    ["Канцтовары"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Соломинка, Каштановая улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 224-82-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00, перерыв 14:00–15:00; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.949823,30.360556"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

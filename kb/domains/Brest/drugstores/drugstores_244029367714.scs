@@ -1,0 +1,26 @@
+ concept_drugstores_244029367714
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 9 ГратиаФарм"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 9 ГратиаФарм"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Ленина, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 293-50-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб 10:00–20:00; вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.096349,23.682306"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://tabletka.by/pharmacies/3426"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

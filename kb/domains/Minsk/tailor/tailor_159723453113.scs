@@ -1,0 +1,26 @@
+ concept_tailor_159723453113
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Ремонт обуви"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт обуви"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Могилёвская улица, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 355-51-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.884004,27.543858"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://yalina.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

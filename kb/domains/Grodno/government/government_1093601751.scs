@@ -1,0 +1,26 @@
+ concept_government_1093601751
+ <- concept_government;
+=>nrel_main_idtf:
+	["Главное управление здравоохранения Гродненского облисполкома"]
+	(* <- lang_ru;; <- name;;*);
+    ["Главное управление здравоохранения Гродненского облисполкома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Ожешко, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 272-39-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.682731,23.834385"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://grodnouzo.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_fitness_1279446964
+ <- concept_fitness;
+=>nrel_main_idtf:
+	["Бассейн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бассейн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Жудро, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 703-93-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 07:00–21:00; вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917023,27.480397"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.swimming.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

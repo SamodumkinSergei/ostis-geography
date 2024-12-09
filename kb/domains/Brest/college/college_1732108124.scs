@@ -1,0 +1,26 @@
+ concept_college_1732108124
+ <- concept_college;
+=>nrel_main_idtf:
+	["АкваСтарс"]
+	(* <- lang_ru;; <- name;;*);
+    ["АкваСтарс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 348/3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 662-36-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.105535,23.773957"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://aquastars.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

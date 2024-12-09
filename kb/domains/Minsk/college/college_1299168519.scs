@@ -1,0 +1,26 @@
+ concept_college_1299168519
+ <- concept_college;
+=>nrel_main_idtf:
+	["Ветразь Октябрьского района"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ветразь Октябрьского района"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Чкалова, 1, корп. 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 373-54-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.880847,27.538724"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://oktcvr.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

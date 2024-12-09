@@ -1,0 +1,26 @@
+ concept_mobile_phones_1726734824
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["TopSet"]
+	(* <- lang_ru;; <- name;;*);
+    ["TopSet"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Кабяка, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 332-34-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00, перерыв 14:00–15:00; сб 11:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.643462,23.85158"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://topset-grodno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_restaurants_224550245450
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Animal farm"]
+	(* <- lang_ru;; <- name;;*);
+    ["Animal farm"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Платонова, 20Бк1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 787-36-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909331,27.596019"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://animalfarm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

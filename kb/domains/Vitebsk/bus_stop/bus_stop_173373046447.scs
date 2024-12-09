@@ -1,0 +1,26 @@
+ concept_bus_stop_173373046447
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Генерала Ивановского"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Генерала Ивановского"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Баграмяна"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.165731,30.265487"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

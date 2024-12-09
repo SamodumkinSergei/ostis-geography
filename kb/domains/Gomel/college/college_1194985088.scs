@@ -1,0 +1,26 @@
+ concept_college_1194985088
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 25 г. Гомеля имени Б. А. Царикова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 25 г. Гомеля имени Б. А. Царикова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Бориса Царикова, 38"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 231-63-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.447125,30.961838"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

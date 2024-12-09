@@ -1,0 +1,26 @@
+ concept_auto_116791536533
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Qr service"]
+	(* <- lang_ru;; <- name;;*);
+    ["Qr service"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Змитрока Бядули, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 584-65-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902655,27.585585"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://qrservice.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_car_park_193747011176
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автостоянка для легковых и грузовых авто"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостоянка для легковых и грузовых авто"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Кожара, 42"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 334-34-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.459094,31.018109"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

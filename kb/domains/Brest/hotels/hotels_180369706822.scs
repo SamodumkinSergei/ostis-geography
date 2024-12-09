@@ -1,0 +1,26 @@
+ concept_hotels_180369706822
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Старый город"]
+	(* <- lang_ru;; <- name;;*);
+    ["Старый город"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Луцкая улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 505-63-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.075217,23.739239"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.motelbrest.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

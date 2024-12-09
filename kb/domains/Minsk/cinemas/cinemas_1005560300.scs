@@ -1,0 +1,26 @@
+ concept_cinemas_1005560300
+ <- concept_cinemas;
+=>nrel_main_idtf:
+	["Дом кино"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дом кино"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Толбухина, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 272-35-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.930471,27.610488"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://kinominska.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

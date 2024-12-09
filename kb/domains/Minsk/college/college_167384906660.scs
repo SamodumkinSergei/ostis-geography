@@ -1,0 +1,26 @@
+ concept_college_167384906660
+ <- concept_college;
+=>nrel_main_idtf:
+	["Физический факультет БГУ, кафедра энергофизики"]
+	(* <- lang_ru;; <- name;;*);
+    ["Физический факультет БГУ, кафедра энергофизики"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Бобруйская улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 209-53-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:15, перерыв 13:00–13:45; пт 08:30–17:00, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.892887,27.54462"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://energy.bsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

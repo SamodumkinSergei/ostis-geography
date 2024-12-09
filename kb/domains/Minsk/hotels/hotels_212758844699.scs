@@ -1,0 +1,26 @@
+ concept_hotels_212758844699
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Riverside"]
+	(* <- lang_ru;; <- name;;*);
+    ["Riverside"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Старовиленская улица, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 311-27-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908838,27.555762"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

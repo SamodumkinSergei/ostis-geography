@@ -1,0 +1,26 @@
+ concept_travel_agency_88852018880
+ <- concept_travel_agency;
+=>nrel_main_idtf:
+	["Вилла Романо"]
+	(* <- lang_ru;; <- name;;*);
+    ["Вилла Романо"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, агрогородок Колодищи, Верхняя улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 177-75-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.943154,27.81159"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://dom-na-sutki.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

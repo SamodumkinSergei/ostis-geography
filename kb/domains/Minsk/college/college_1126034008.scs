@@ -1,0 +1,26 @@
+ concept_college_1126034008
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гимназия № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гимназия № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 176"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 285-97-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.943554,27.690913"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch198.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

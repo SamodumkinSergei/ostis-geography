@@ -1,0 +1,26 @@
+ concept_fallback_services_172666308143
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Контакт-центр Гродненского городского ЖКХ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Контакт-центр Гродненского городского ЖКХ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Кирова, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 37 515-21-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.678376,23.837374"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://115.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

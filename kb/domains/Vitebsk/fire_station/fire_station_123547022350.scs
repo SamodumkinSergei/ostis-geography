@@ -1,0 +1,26 @@
+ concept_fire_station_123547022350
+ <- concept_fire_station;
+=>nrel_main_idtf:
+	["Fire station Afula"]
+	(* <- lang_ru;; <- name;;*);
+    ["Fire station Afula"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Северный округ, Голан, роща Хативат Барак Фалленс"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+972 4 612 0720"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["33.048669,35.715255"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.102.gov.il/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

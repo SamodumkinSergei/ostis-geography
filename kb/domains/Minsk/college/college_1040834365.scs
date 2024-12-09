@@ -1,0 +1,26 @@
+ concept_college_1040834365
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минский государственный лингвистический университет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский государственный лингвистический университет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Румянцева, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 284-81-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907309,27.577545"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.mslu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

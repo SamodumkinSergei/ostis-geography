@@ -1,0 +1,26 @@
+ concept_baby_shop_22225765834
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Малинка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Малинка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Заводской район, Северный посёлок, 2-й Енисейский переулок, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 751-57-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–19:00; вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.87393,27.676124"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://malinka-toys.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

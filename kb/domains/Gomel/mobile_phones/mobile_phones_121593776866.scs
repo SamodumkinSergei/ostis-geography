@@ -1,0 +1,26 @@
+ concept_mobile_phones_121593776866
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["АйТи Мобайл"]
+	(* <- lang_ru;; <- name;;*);
+    ["АйТи Мобайл"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Карповича, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 603-07-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.427004,30.998674"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_hotels_1376882886
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Green City Hotel"]
+	(* <- lang_ru;; <- name;;*);
+    ["Green City Hotel"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 156"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 317-50-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908333,27.430019"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://greencityhotel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

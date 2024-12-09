@@ -1,0 +1,26 @@
+ concept_petshop_187257574741
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Ветеринарная аптека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ветеринарная аптека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Титова, 136Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 688-04-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.195857,30.151977"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

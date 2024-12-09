@@ -1,0 +1,26 @@
+ concept_malls_111467930175
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Канцлер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Канцлер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Кабяка, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 231-32-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб,вс 09:30–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.646094,23.847677"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://g.page/Magazin_Kancler"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

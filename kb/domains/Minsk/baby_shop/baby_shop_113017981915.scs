@@ -1,0 +1,26 @@
+ concept_baby_shop_113017981915
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Sakavik toys"]
+	(* <- lang_ru;; <- name;;*);
+    ["Sakavik toys"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Янки Брыля, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 696-63-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.872931,27.475656"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sakavik.com.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

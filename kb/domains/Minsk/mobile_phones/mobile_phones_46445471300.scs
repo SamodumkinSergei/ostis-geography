@@ -1,0 +1,26 @@
+ concept_mobile_phones_46445471300
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Ремонт телефонов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт телефонов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 179"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 551-82-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб,вс 11:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.946297,27.688035"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

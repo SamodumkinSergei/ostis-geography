@@ -1,0 +1,26 @@
+ concept_museum_181908882680
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Историко-информационный центр связи РУП Белтелекома"]
+	(* <- lang_ru;; <- name;;*);
+    ["Историко-информационный центр связи РУП Белтелекома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 123"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 327-05-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.938851,27.471471"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://historycenter.beltelecom.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_1127536321
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["ОАО Гродторгмаш"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОАО Гродторгмаш"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Тимирязева, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 262-50-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–16:10, перерыв 12:00–12:40"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.691631,23.846104"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.grodtorgmash.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

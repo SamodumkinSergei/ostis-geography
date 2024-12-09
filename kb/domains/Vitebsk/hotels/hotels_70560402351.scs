@@ -1,0 +1,26 @@
+ concept_hotels_70560402351
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Le Manoir Des Chapelles"]
+	(* <- lang_ru;; <- name;;*);
+    ["Le Manoir Des Chapelles"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Веной, 15 Rue De L'Ancien Chateau"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 3 86 42 81 35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["47.81638,3.62615"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.lemanoirdeschapelles.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

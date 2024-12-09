@@ -1,0 +1,26 @@
+ concept_flower_shop_1108831954
+ <- concept_flower_shop;
+=>nrel_main_idtf:
+	["БукетБери"]
+	(* <- lang_ru;; <- name;;*);
+    ["БукетБери"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Правды, 64А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 377-20-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.186202,30.230349"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

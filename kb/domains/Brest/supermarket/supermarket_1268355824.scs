@@ -1,0 +1,26 @@
+ concept_supermarket_1268355824
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Продукты магазин № 69 Брестского РАЙПО"]
+	(* <- lang_ru;; <- name;;*);
+    ["Продукты магазин № 69 Брестского РАЙПО"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брестская область, Брестский район, Лыщицкий сельсовет, деревня Лыщицы"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 761-40-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.259908,23.53569"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

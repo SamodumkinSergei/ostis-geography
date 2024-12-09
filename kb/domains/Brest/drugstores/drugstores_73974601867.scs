@@ -1,0 +1,26 @@
+ concept_drugstores_73974601867
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Белана"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белана"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Брестских Дивизий, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 293-31-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.103265,23.671305"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://tabletka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_168468426733
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Марка Фрадкина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Марка Фрадкина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица 33-й Армии"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.166709,30.29038"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

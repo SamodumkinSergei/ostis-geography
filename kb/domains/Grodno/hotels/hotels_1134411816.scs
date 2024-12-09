@@ -1,0 +1,26 @@
+ concept_hotels_1134411816
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Омега"]
+	(* <- lang_ru;; <- name;;*);
+    ["Омега"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Михася Василька, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 399-31-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.682447,23.838266"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.hotel-omega.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

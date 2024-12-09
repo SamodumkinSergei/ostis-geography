@@ -1,0 +1,26 @@
+ concept_bus_stop_193740619161
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Бизнес-центр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бизнес-центр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Гинтовта"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.94732,27.666994"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

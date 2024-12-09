@@ -1,0 +1,26 @@
+ concept_restaurants_223987897158
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Лебяжий"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лебяжий"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ратомская улица, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 785-50-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–23:00; пт,сб 12:00–00:00; вс 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.94398,27.454395"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://lebyaziy.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

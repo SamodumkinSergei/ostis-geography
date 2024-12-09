@@ -1,0 +1,26 @@
+ concept_cafe_1125345293
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["АРХидея"]
+	(* <- lang_ru;; <- name;;*);
+    ["АРХидея"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Дзержинского, 2/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 239-88-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,вт 12:00–22:00; ср,чт 12:00–00:00; пт,сб 12:00–02:00; вс 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.686102,23.834193"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.arhidea.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

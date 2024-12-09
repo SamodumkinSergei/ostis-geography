@@ -1,0 +1,26 @@
+ concept_restaurants_1070321206
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Трактир на Ковельской"]
+	(* <- lang_ru;; <- name;;*);
+    ["Трактир на Ковельской"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Ковельская улица, 36"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 395-55-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-ср 12:00–00:00; чт-вс 12:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.064844,23.688067"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_drugstores_75534448699
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 54"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 270-16-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:30–20:30; вс 10:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.9161,27.585627"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

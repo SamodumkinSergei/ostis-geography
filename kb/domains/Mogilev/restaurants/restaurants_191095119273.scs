@@ -1,0 +1,26 @@
+ concept_restaurants_191095119273
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Ренессанс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ренессанс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Челюскинцев, 64А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 311-11-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.893516,30.30438"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

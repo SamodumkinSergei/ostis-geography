@@ -1,0 +1,26 @@
+ concept_hotels_1321675393
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Апарт-Отель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Апарт-Отель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинградская улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 111-22-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.892708,27.549675"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vip-kvartira.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

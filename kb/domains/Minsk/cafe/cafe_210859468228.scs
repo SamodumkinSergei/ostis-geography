@@ -1,0 +1,26 @@
+ concept_cafe_210859468228
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Grinch Cafe"]
+	(* <- lang_ru;; <- name;;*);
+    ["Grinch Cafe"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Казинца, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 377-73-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–23:00; пт 12:00–05:00; сб 19:00–05:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.86626,27.524855"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://grinch.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_malls_113681020874
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Церковный магазин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Церковный магазин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Ожешко"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00, перерыв 14:00–14:30; сб 09:00–18:00, перерыв 14:00–14:30; вс 08:00–17:00, перерыв 14:00–14:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.684835,23.841556"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

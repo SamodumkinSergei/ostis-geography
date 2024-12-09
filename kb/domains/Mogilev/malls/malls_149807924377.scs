@@ -1,0 +1,26 @@
+ concept_malls_149807924377
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Магазин сантехники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин сантехники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, территория Задубровицкий посад"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 134-70-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.895232,30.325378"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

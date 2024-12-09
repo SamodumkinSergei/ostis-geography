@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_236500198691
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Emse group"]
+	(* <- lang_ru;; <- name;;*);
+    ["Emse group"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Заводской район, Северный посёлок, Летняя улица, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 622-20-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.874861,27.676642"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://emse.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_drugstores_1246817868
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 133/3"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 133/3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Залинейный, улица Котовского, 56"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 295-30-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.42573,30.98125"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomelpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

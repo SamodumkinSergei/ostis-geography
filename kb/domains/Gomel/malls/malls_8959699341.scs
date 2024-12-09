@@ -1,0 +1,26 @@
+ concept_malls_8959699341
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Валтек"]
+	(* <- lang_ru;; <- name;;*);
+    ["Валтек"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Крестьянская улица, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 231-09-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–18:00; пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.425781,31.003946"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://valtec.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

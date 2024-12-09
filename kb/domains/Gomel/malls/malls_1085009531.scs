@@ -1,0 +1,26 @@
+ concept_malls_1085009531
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Галерея"]
+	(* <- lang_ru;; <- name;;*);
+    ["Галерея"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Катунина, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 275-16-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–19:00; вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.424241,31.005057"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.galereya.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

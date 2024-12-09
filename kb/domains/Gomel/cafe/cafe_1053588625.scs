@@ -1,0 +1,26 @@
+ concept_cafe_1053588625
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Limoncello"]
+	(* <- lang_ru;; <- name;;*);
+    ["Limoncello"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельская область, Жлобин, улица Карла Маркса, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 343-58-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 07:00–22:00, перерыв 10:00–17:00; пт,сб 07:00–00:00, перерыв 10:00–12:00; вс 07:00–22:00, перерыв 10:00–12:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.908697,30.051151"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://cafelimoncello.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

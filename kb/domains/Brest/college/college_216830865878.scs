@@ -1,0 +1,26 @@
+ concept_college_216830865878
+ <- concept_college;
+=>nrel_main_idtf:
+	["Профильный ресурсный центр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Профильный ресурсный центр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Карбышева, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 221-31-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.096363,23.694154"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ttk.brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

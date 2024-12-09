@@ -1,0 +1,26 @@
+ concept_railway_station_150606710624
+ <- concept_railway_station;
+=>nrel_main_idtf:
+	["ВитебскГрузСервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["ВитебскГрузСервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, переулок Максима Горького, 12А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 714-56-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.172907,30.163361"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

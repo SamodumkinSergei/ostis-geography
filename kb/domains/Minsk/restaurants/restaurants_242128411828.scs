@@ -1,0 +1,26 @@
+ concept_restaurants_242128411828
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Astoria Riverside"]
+	(* <- lang_ru;; <- name;;*);
+    ["Astoria Riverside"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 116"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 576-86-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–23:00; пт,сб 12:00–00:00; вс 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.948485,27.455913"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.astoriariverside.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_82977597097
+ <- concept_college;
+=>nrel_main_idtf:
+	["Институт бизнеса БГУ, учебный корпус № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Институт бизнеса БГУ, учебный корпус № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Обойная улица, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90592,27.546194"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

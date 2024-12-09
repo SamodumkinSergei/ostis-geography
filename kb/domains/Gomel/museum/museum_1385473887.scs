@@ -1,0 +1,26 @@
+ concept_museum_1385473887
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Гомельский историко-краеведческий музей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский историко-краеведческий музей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельский район, агрогородок Поколюбичи, улица Александровка, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 292-42-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–18:30, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.505532,31.033087"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_auto_1783071321
+ <- concept_auto;
+=>nrel_main_idtf:
+	["СТО Индивиал Авто"]
+	(* <- lang_ru;; <- name;;*);
+    ["СТО Индивиал Авто"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Лазаренко, 55Ак16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 344-58-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90451,30.313109"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogilevsto.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

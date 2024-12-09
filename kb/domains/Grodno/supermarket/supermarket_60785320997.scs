@@ -1,0 +1,26 @@
+ concept_supermarket_60785320997
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Гродзенскія прысмакі"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродзенскія прысмакі"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Щорса, 11Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.677555,23.850828"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://prysmakigrodno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

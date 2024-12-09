@@ -1,0 +1,26 @@
+ concept_college_220554346751
+ <- concept_college;
+=>nrel_main_idtf:
+	["ЦРИ Пифагорка"]
+	(* <- lang_ru;; <- name;;*);
+    ["ЦРИ Пифагорка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Менжинского, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 820-26-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.100935,23.699533"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brest.pifagorka.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

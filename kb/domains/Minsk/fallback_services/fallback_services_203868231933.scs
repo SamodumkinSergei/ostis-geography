@@ -1,0 +1,26 @@
+ concept_fallback_services_203868231933
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гранитас"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гранитас"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 371-41-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.888272,27.520632"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.granitas.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_1023362149
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 161"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 161"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Слободская улица, 169"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 300-35-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.846717,27.465468"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch161.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

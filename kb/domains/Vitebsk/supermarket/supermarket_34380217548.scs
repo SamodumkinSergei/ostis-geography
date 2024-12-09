@@ -1,0 +1,26 @@
+ concept_supermarket_34380217548
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Local Coffee House"]
+	(* <- lang_ru;; <- name;;*);
+    ["Local Coffee House"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Кайсери, Талас, Бахчелиэвлер, улица Угур, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+90 530 830 37 72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["38.687511,35.543721"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

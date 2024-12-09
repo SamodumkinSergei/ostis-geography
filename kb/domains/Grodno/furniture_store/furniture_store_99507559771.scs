@@ -1,0 +1,26 @@
+ concept_furniture_store_99507559771
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["101 Стул"]
+	(* <- lang_ru;; <- name;;*);
+    ["101 Стул"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Максима Горького, 91"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 255-50-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.71226,23.8168"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://101stul.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

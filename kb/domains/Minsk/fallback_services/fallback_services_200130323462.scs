@@ -1,0 +1,26 @@
+ concept_fallback_services_200130323462
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Близкий круг"]
+	(* <- lang_ru;; <- name;;*);
+    ["Близкий круг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Серафимовича, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 198-09-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.889604,27.587394"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ritual24.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

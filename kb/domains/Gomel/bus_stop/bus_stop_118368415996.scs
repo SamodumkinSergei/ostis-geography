@@ -1,0 +1,26 @@
+ concept_bus_stop_118368415996
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Туровская улица"]
+	(* <- lang_ru;; <- name;;*);
+    ["Туровская улица"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица И.Е. Полякова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.44057,31.138135"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_college_1197354488
+ <- concept_college;
+=>nrel_main_idtf:
+	["Могилевский Государственный Медицинский колледж, корпус № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилевский Государственный Медицинский колледж, корпус № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Карла Маркса, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 270-15-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.896926,30.340661"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://med1.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_175697904854
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Студия Гранита RG"]
+	(* <- lang_ru;; <- name;;*);
+    ["Студия Гранита RG"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кропоткина, 84"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 234-94-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.923479,27.560503"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ritualgranit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

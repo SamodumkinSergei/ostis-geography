@@ -1,0 +1,26 @@
+ concept_supermarket_162225331227
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Могилёвский мясокомбинат"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилёвский мясокомбинат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Соломинка, Каштановая улица, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 272-27-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб,вс 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.947602,30.366757"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.mogmk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

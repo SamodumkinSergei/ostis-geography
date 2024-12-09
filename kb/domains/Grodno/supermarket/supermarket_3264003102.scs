@@ -1,0 +1,26 @@
+ concept_supermarket_3264003102
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Доброном"]
+	(* <- lang_ru;; <- name;;*);
+    ["Доброном"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Максима Горького, 53"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 144-70-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.69334,23.82389"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dobronom.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

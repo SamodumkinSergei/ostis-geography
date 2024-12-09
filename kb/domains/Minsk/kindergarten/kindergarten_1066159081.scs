@@ -1,0 +1,26 @@
+ concept_kindergarten_1066159081
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 14 г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 14 г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кузьмы Минина, 19А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 222-96-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.871343,27.510325"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu14.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_1099269260
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Гомельский завод станочных узлов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский завод станочных узлов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, 8-я Иногородняя улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 227-26-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.446728,30.942893"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gzsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

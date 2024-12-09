@@ -1,0 +1,26 @@
+ concept_furniture_store_1252430354
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Имвк ОДО"]
+	(* <- lang_ru;; <- name;;*);
+    ["Имвк ОДО"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Орудийный проезд, 192, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.361015,31.038751"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://imvkmaster.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

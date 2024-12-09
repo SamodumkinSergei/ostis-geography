@@ -1,0 +1,26 @@
+ concept_college_1072317180
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГУО Средняя школа № 7 г. Бреста"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО Средняя школа № 7 г. Бреста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Горького, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 221-39-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.09987,23.698436"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brestschool7.iatp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

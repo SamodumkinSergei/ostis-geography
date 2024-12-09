@@ -1,0 +1,26 @@
+ concept_fallback_services_1127253711
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Памятники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Казинца, 6А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 760-72-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:30–18:30; сб 09:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.86611,27.521057"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://galsem.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_medicine_1334815063
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["10-я городская поликлиника, отделение Общей Врачебной Практики"]
+	(* <- lang_ru;; <- name;;*);
+    ["10-я городская поликлиника, отделение Общей Врачебной Практики"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Фрунзенский район, микрорайон Сухарево, микрорайон Сухарево-6, улица Академика Фёдорова, 17к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 374-37-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.886037,27.423366"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://10gp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

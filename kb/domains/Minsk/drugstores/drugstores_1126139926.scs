@@ -1,0 +1,26 @@
+ concept_drugstores_1126139926
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Медтехпром"]
+	(* <- lang_ru;; <- name;;*);
+    ["Медтехпром"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Машерова, 54"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 283-18-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.918052,27.557094"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://medtehprom.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

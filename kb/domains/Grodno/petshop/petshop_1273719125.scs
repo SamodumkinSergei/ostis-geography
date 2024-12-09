@@ -1,0 +1,26 @@
+ concept_petshop_1273719125
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["ZooViar"]
+	(* <- lang_ru;; <- name;;*);
+    ["ZooViar"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Калиновского, 48"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 264-53-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.690008,23.807359"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

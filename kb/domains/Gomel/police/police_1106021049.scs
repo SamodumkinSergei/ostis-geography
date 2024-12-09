@@ -1,0 +1,26 @@
+ concept_police_1106021049
+ <- concept_police;
+=>nrel_main_idtf:
+	["ОВД Администрации Советского района г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОВД Администрации Советского района г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Богдана Хмельницкого, 69"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 608-27-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.42198,30.972634"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gomel.mvd.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

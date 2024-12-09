@@ -1,0 +1,26 @@
+ concept_restaurants_1114202637
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Планета Pizza"]
+	(* <- lang_ru;; <- name;;*);
+    ["Планета Pizza"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 87"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 787-81-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.874388,27.633549"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.tifani.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

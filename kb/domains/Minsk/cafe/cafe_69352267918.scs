@@ -1,0 +1,26 @@
+ concept_cafe_69352267918
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Буфет учебного корпуса № 8 БНТУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Буфет учебного корпуса № 8 БНТУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Якуба Коласа, 12, подъезд 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 357-70-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерывы 14:00–14:15, 16:00–16:15; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.920895,27.589042"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://bntu.by/departments/food-center"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

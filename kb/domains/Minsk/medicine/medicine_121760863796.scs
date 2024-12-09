@@ -1,0 +1,26 @@
+ concept_medicine_121760863796
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Урологическое отделение, Городская клиническая больница № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Урологическое отделение, Городская клиническая больница № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ульяновская улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 327-50-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.898207,27.568558"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://2gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

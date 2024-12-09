@@ -1,0 +1,26 @@
+ concept_currency_exchange_48889325158
+ <- concept_currency_exchange;
+=>nrel_main_idtf:
+	["Белорусский народный банк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусский народный банк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Гагарина, 65"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 309-73-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:10, перерывы 12:00–12:15, 14:15–14:45, 16:45–17:15, 19:00–19:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.423948,30.99823"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://bnb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

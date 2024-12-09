@@ -1,0 +1,26 @@
+ concept_medicine_18487239398
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гродненская университетская клиника, физиотерапевтическое отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненская университетская клиника, физиотерапевтическое отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, бульвар Ленинского Комсомола, 52/4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 260-40-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.694284,23.793482"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_restaurants_142105089889
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Пиццерия Спорт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пиццерия Спорт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кропоткина, 33В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.91535,27.555648"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

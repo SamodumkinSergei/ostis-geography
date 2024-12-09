@@ -1,0 +1,26 @@
+ concept_office_service_17367634528
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Procredit"]
+	(* <- lang_ru;; <- name;;*);
+    ["Procredit"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 566-62-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.181128,30.214412"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.procredit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

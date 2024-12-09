@@ -1,0 +1,26 @@
+ concept_drugstores_1748709055
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 5"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 5"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Независимости, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 294-31-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.533299,30.913639"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomel.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_auto_8679784497
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автосервис и запчасти Geely"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автосервис и запчасти Geely"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кольцова, 48/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 272-47-89"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00, перерывы 11:30–12:00, 17:00–17:30; вс 09:00–17:00, перерыв 11:30–12:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.952399,27.597433"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sto-at.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

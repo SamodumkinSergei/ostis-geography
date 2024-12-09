@@ -1,0 +1,26 @@
+ concept_auto_90414444595
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Сервис Лайн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сервис Лайн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Первомайский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 310-88-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.945897,27.736305"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

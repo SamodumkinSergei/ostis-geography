@@ -1,0 +1,26 @@
+ concept_fallback_services_1804443605
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Витгран"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витгран"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Правды, 46"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 268-71-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 09:00–17:30, перерыв 13:00–14:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.186895,30.221873"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

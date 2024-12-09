@@ -1,0 +1,26 @@
+ concept_auto_55241287792
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Ar Service"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ar Service"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Центральный район, микрорайон Новинки, улица Автомобилистов, 6А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 507-17-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.963586,27.542754"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://arservice.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_restaurants_1205105132
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Evo, ресторан"]
+	(* <- lang_ru;; <- name;;*);
+    ["Evo, ресторан"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Максима Богдановича, 155В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 560-55-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–22:00; сб,вс 12:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.937311,27.582049"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://evo-club.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

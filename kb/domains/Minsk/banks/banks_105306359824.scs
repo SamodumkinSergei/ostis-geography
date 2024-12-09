@@ -1,0 +1,26 @@
+ concept_banks_105306359824
+ <- concept_banks;
+=>nrel_main_idtf:
+	["ОптиКурс"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОптиКурс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Денисовская улица, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 675-45-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:20–19:00; сб,вс 10:40–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.871599,27.572808"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.optikurs.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

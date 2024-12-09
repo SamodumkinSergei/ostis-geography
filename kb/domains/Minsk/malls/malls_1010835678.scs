@@ -1,0 +1,26 @@
+ concept_malls_1010835678
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Лучшие часы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лучшие часы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, исторический район Шарики"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 680-15-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 11:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.876379,27.628749"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

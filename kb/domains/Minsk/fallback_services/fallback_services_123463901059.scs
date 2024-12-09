@@ -1,0 +1,26 @@
+ concept_fallback_services_123463901059
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Белкамень-Плюс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белкамень-Плюс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Казинца, 11Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 568-92-24"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.864501,27.52332"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://belkam.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

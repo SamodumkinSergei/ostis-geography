@@ -1,0 +1,26 @@
+ concept_kindergarten_1134400757
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Детский сад № 280"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский сад № 280"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Чижовка, Ташкентский проезд, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 378-40-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.836852,27.626868"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu280.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

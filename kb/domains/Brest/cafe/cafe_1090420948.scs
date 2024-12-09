@@ -1,0 +1,26 @@
+ concept_cafe_1090420948
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Столовая"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столовая"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Дзержинского, 58"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 221-53-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00; сб,вс 08:00–10:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.089483,23.698593"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.brestenergo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

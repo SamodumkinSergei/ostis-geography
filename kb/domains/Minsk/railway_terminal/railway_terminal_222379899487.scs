@@ -1,0 +1,26 @@
+ concept_railway_terminal_222379899487
+ <- concept_railway_terminal;
+=>nrel_main_idtf:
+	["Столичный"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столичный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Автодоровская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 225-66-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:40–20:50, перерывы 08:40–09:10, 10:00–11:50, 12:50–13:10, 14:45–15:00, 16:30–16:45, 19:05–19:35"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873804,27.520921"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

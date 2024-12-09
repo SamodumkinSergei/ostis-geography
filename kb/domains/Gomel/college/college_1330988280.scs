@@ -1,0 +1,26 @@
+ concept_college_1330988280
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гомельский государственный колледж связи"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский государственный колледж связи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Лепешинского, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 229-36-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:00–17:00, перерыв 13:15–14:00; пт 08:00–16:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.476,30.99842"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.ggplp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

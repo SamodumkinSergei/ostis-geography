@@ -1,0 +1,26 @@
+ concept_tailor_74564185663
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Мастерская по изготовлению ключей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мастерская по изготовлению ключей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Клецкова, 21Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 325-86-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00, перерыв 13:00–14:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.647291,23.845953"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

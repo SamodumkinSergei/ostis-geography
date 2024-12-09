@@ -1,0 +1,26 @@
+ concept_college_1380585490
+ <- concept_college;
+=>nrel_main_idtf:
+	["Лицей № 2 г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лицей № 2 г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, улица Якубова, 74"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 396-25-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.86513,27.587812"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://lyceum2.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_hypermarket_1083321429
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Офиспремьер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Офиспремьер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Школьная улица, 21А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 254-13-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:00; пт 08:30–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878442,27.435573"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ofispremier.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

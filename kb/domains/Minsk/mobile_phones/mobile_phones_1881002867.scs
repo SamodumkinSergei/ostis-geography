@@ -1,0 +1,26 @@
+ concept_mobile_phones_1881002867
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["RDT-service"]
+	(* <- lang_ru;; <- name;;*);
+    ["RDT-service"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Каролинская улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 658-82-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00, перерыв 13:00–14:00; сб 11:00–15:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.849346,27.484531"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

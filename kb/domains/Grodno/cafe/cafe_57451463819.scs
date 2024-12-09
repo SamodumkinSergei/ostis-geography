@@ -1,0 +1,26 @@
+ concept_cafe_57451463819
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Поляна City"]
+	(* <- lang_ru;; <- name;;*);
+    ["Поляна City"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Советская улица, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 244-66-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–00:00; пт,сб 09:00–05:00; вс 09:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.681565,23.832095"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://polyanacity.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

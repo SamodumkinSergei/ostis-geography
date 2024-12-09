@@ -1,0 +1,26 @@
+ concept_office_service_195368604461
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Бочки Кадки"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бочки Кадки"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, переулок Стебенёва, 5/3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 901-22-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.838751,27.552111"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://izdyba.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

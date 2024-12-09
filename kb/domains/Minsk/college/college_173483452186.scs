@@ -1,0 +1,26 @@
+ concept_college_173483452186
+ <- concept_college;
+=>nrel_main_idtf:
+	["Студия вокала Минской школы киноискусства"]
+	(* <- lang_ru;; <- name;;*);
+    ["Студия вокала Минской школы киноискусства"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Серафимовича, 6А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 604-10-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 14:00–17:00; сб,вс 13:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.888897,27.58631"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://cinemaschool.by/filial/vokal"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

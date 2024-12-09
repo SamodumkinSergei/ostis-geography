@@ -1,0 +1,26 @@
+ concept_malls_180028425631
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Честный магазин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Честный магазин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Некрасова, 114"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 634-11-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–20:00; сб 11:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.939708,27.56735"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.4m.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

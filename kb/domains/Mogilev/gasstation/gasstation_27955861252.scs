@@ -1,0 +1,26 @@
+ concept_gasstation_27955861252
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Газпромнефть"]
+	(* <- lang_ru;; <- name;;*);
+    ["Газпромнефть"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Королёва, 8В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["8 (800) 700-51-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905756,30.366805"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gpncard.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

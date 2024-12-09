@@ -1,0 +1,26 @@
+ concept_office_service_1002645222
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Беламаркет дьюти фри"]
+	(* <- lang_ru;; <- name;;*);
+    ["Беламаркет дьюти фри"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Подольная улица, 8Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 275-44-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.672708,23.832654"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.belamarket.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_catholic_church_160570813679
+ <- concept_catholic_church;
+=>nrel_main_idtf:
+	["Приход Святого Иоанна Евангелиста и Святого Максимилиана Кольбе"]
+	(* <- lang_ru;; <- name;;*);
+    ["Приход Святого Иоанна Евангелиста и Святого Максимилиана Кольбе"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Матусевича, 80"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 236-73-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 18:30–20:00; вс 09:00–18:30, перерыв 13:00–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917841,27.443382"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://jan.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

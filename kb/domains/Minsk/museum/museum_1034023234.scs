@@ -1,0 +1,26 @@
+ concept_museum_1034023234
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей кота"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей кота"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Интернациональная улица, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 642-31-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 11:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903883,27.558795"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.catmuseum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_catholic_church_1198473678
+ <- concept_catholic_church;
+=>nrel_main_idtf:
+	["Католический храм"]
+	(* <- lang_ru;; <- name;;*);
+    ["Католический храм"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Снежный переулок, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 256-60-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср 18:30–21:00; сб 10:00–11:30; вс 09:00–12:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901028,27.513938"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://svjazep.org/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

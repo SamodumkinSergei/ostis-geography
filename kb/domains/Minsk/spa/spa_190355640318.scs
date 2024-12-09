@@ -1,0 +1,26 @@
+ concept_spa_190355640318
+ <- concept_spa;
+=>nrel_main_idtf:
+	["Причёскино"]
+	(* <- lang_ru;; <- name;;*);
+    ["Причёскино"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Максима Горецкого, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 647-01-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб 09:00–20:00; вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.876223,27.460828"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pricheskino.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

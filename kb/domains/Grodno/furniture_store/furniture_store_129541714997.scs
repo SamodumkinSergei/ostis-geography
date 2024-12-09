@@ -1,0 +1,26 @@
+ concept_furniture_store_129541714997
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Элитная мебель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Элитная мебель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Тавлая, 46Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 887-33-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.706603,23.858526"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://zov-grodno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

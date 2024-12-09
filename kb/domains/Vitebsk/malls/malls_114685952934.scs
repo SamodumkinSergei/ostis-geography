@@ -1,0 +1,26 @@
+ concept_malls_114685952934
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Спортивные товары"]
+	(* <- lang_ru;; <- name;;*);
+    ["Спортивные товары"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Офицерская улица, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.182475,30.224291"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sportservice.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

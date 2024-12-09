@@ -1,0 +1,26 @@
+ concept_bus_stop_212725382364
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Станция метро Академия наук"]
+	(* <- lang_ru;; <- name;;*);
+    ["Станция метро Академия наук"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Академическая улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919308,27.598511"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

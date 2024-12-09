@@ -1,0 +1,26 @@
+ concept_restaurants_187014414744
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Nravizza pizza"]
+	(* <- lang_ru;; <- name;;*);
+    ["Nravizza pizza"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебская область, Поставы, Юбилейная улица, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 382-66-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:30–21:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.108138,26.871251"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://nravizza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

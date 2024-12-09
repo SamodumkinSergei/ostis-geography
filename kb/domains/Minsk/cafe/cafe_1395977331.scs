@@ -1,0 +1,26 @@
+ concept_cafe_1395977331
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кафе Белстройцентр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафе Белстройцентр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Хмелевского, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 300-41-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.890821,27.520397"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://bsc.by/ru"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

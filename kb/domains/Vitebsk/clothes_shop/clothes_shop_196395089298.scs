@@ -1,0 +1,26 @@
+ concept_clothes_shop_196395089298
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Калинка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Калинка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 26А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 267-02-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.19111,30.203034"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://kalinka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

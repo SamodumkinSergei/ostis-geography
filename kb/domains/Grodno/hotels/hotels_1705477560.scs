@@ -1,0 +1,26 @@
+ concept_hotels_1705477560
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Гостевой дом Хлеб Соль"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гостевой дом Хлеб Соль"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродненский район, Коптёвский сельсовет, деревня Коробчицы, Околичная улица, 50"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 788-22-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.626953,23.736166"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://guest-house-with-sauna.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

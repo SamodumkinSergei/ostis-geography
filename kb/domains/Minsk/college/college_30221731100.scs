@@ -1,0 +1,26 @@
+ concept_college_30221731100
+ <- concept_college;
+=>nrel_main_idtf:
+	["Кроль"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кроль"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 109В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 366-30-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.934048,27.489923"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://krol.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

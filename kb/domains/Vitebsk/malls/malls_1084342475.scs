@@ -1,0 +1,26 @@
+ concept_malls_1084342475
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Витебский Хозторг магазин № 5"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебский Хозторг магазин № 5"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица 39-й Армии, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 237-34-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 09:00–18:00; вс 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.168122,30.128574"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vithoztorg.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

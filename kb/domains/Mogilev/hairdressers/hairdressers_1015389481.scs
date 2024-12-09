@@ -1,0 +1,26 @@
+ concept_hairdressers_1015389481
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Парикмахерские услуги"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парикмахерские услуги"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Циолковского, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 544-80-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 08:00–19:00; сб,вс 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909936,30.318896"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

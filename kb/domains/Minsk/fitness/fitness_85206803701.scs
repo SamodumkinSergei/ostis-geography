@@ -1,0 +1,26 @@
+ concept_fitness_85206803701
+ <- concept_fitness;
+=>nrel_main_idtf:
+	["Клуб пластилин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Клуб пластилин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Стариновская улица, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 108-38-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.946982,27.69696"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://plastilinclub.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_fast_food_166841019062
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["The kebab shop"]
+	(* <- lang_ru;; <- name;;*);
+    ["The kebab shop"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Шевченко, 9В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.434671,30.991389"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_restaurants_1043202032
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Золотой Телёнок"]
+	(* <- lang_ru;; <- name;;*);
+    ["Золотой Телёнок"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, бульвар Ленинского Комсомола, 29А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 838-23-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-ср 12:00–16:00; чт 12:00–00:00; пт 12:00–02:00; сб 14:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.698388,23.807646"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://telenok.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

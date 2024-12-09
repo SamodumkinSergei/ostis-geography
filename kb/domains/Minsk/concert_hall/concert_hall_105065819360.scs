@@ -1,0 +1,26 @@
+ concept_concert_hall_105065819360
+ <- concept_concert_hall;
+=>nrel_main_idtf:
+	["Джельса"]
+	(* <- lang_ru;; <- name;;*);
+    ["Джельса"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Немига, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 520-12-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 21:00–06:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901945,27.549309"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://jelsa.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

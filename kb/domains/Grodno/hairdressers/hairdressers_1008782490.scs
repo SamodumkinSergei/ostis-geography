@@ -1,0 +1,26 @@
+ concept_hairdressers_1008782490
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Декорус"]
+	(* <- lang_ru;; <- name;;*);
+    ["Декорус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, бульвар Ленинского Комсомола, 44"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 650-11-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.696931,23.804486"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

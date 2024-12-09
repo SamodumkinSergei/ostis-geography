@@ -1,0 +1,26 @@
+ concept_haulier_60575121336
+ <- concept_haulier;
+=>nrel_main_idtf:
+	["Белтаможсервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белтаможсервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Борисенко, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 249-21-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.414049,30.920869"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://declarant.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

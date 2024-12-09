@@ -1,0 +1,26 @@
+ concept_cafe_1064185403
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Витрувий"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витрувий"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Космонавтов, 56"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 255-93-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:30–18:30, перерыв 16:00–17:00; пт 11:30–01:00, перерыв 16:00–17:00; сб 17:00–01:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.674524,23.863212"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://giap.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

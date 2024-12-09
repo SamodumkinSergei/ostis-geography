@@ -1,0 +1,26 @@
+ concept_kindergarten_1022612735
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Детский сад № 99"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский сад № 99"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Гришина, 100"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 260-44-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90625,30.379573"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sad99mogilev.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

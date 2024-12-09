@@ -1,0 +1,26 @@
+ concept_supermarket_1099286795
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["ДОРОРС магазин № 61"]
+	(* <- lang_ru;; <- name;;*);
+    ["ДОРОРС магазин № 61"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Рабкоровская улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 228-13-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.889122,27.539619"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dorors.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

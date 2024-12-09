@@ -1,0 +1,26 @@
+ concept_hypermarket_1128559293
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Инструмент маркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Инструмент маркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пионерская улица, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 222-42-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903838,30.344635"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://tdmarket.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

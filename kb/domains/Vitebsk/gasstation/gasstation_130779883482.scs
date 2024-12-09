@@ -1,0 +1,26 @@
+ concept_gasstation_130779883482
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Заправка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Заправка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Короткевича, 3, корп. 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.171035,30.253592"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

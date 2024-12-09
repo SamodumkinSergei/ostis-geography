@@ -1,0 +1,26 @@
+ concept_car_park_69075267237
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автостоянка Лучёса"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостоянка Лучёса"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Строителей, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 229-83-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.172091,30.200982"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://luchesa.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

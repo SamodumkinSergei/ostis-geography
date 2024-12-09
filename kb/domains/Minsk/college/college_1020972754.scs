@@ -1,0 +1,26 @@
+ concept_college_1020972754
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минский государственный колледж торговли и коммерции"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский государственный колледж торговли и коммерции"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ботаническая улица, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 373-64-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:15–16:45, перерыв 12:45–13:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907082,27.603536"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ptkt.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_186618675626
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Дачная"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Дачная"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Каролинская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.672271,23.747735"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

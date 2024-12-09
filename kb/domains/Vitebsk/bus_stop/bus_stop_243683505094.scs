@@ -1,0 +1,26 @@
+ concept_bus_stop_243683505094
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Проспект Строителей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Проспект Строителей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Строителей"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.169975,30.229398"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

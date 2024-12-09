@@ -1,0 +1,26 @@
+ concept_bus_stop_198136198735
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Янки Мавра"]
+	(* <- lang_ru;; <- name;;*);
+    ["Янки Мавра"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Пономаренко"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.893713,27.489177"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

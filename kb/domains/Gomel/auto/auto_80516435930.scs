@@ -1,0 +1,26 @@
+ concept_auto_80516435930
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автосервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автосервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Войсковая улица, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 119-49-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.420429,30.930215"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://сто-войсковая-18.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

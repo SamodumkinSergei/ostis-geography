@@ -1,0 +1,26 @@
+ concept_museum_1055248458
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Государственный музей военной истории РБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Государственный музей военной истории РБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Героев 120-й Дивизии, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 266-82-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.947174,27.71252"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://warmuseum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

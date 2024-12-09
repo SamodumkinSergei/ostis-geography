@@ -1,0 +1,26 @@
+ concept_furniture_store_21638138670
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Каскад"]
+	(* <- lang_ru;; <- name;;*);
+    ["Каскад"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Космонавтов, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 644-29-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909194,30.31289"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://zov-mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

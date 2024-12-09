@@ -1,0 +1,26 @@
+ concept_college_84647331941
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минский филиал РЭУ имени Плеханова, кафедра менеджмента, учёта и финансов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский филиал РЭУ имени Плеханова, кафедра менеджмента, учёта и финансов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Радиальная улица, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 316-11-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.892406,27.64652"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.reu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

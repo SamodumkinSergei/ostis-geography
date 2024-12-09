@@ -1,0 +1,26 @@
+ concept_malls_94195922093
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Мир камня"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мир камня"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Ожешко, 45"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 262-12-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.685877,23.845116"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.mirkamny.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_cafe_1093189624
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["У Рудаково"]
+	(* <- lang_ru;; <- name;;*);
+    ["У Рудаково"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебский район, Новкинский сельсовет, агрогородок Новка, Витебская улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 220-22-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.143592,30.167385"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rudakovo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

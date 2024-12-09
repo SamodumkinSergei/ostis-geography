@@ -1,0 +1,26 @@
+ concept_office_service_30498602406
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["TNT Basildon Depot"]
+	(* <- lang_ru;; <- name;;*);
+    ["TNT Basildon Depot"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Англия, графство Эссекс, город Базилдон"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["51.589312,0.521869"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.tnt.com/express/en_gb/site/company/tnt-depot-locator/basildon-depot.html"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

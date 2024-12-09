@@ -1,0 +1,26 @@
+ concept_college_1385350631
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 138 г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 138 г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Одоевского, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 213-04-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–21:00; сб 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903878,27.492427"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch138.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

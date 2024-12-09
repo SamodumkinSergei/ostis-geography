@@ -1,0 +1,26 @@
+ concept_college_1512621897
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гимназия № 12"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гимназия № 12"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Голубева, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 277-20-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–18:30; сб 07:30–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.867269,27.481118"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gymn12.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_car_park_1037505207
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автостоянка № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостоянка № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Малайчука, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 260-57-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.458738,30.992155"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://avtostoyanka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

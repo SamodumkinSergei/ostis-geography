@@ -1,0 +1,26 @@
+ concept_cafe_170959364764
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Ай да еда"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ай да еда"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Кирова, 82"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 330-16-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.090803,23.703711"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://meal-delivery-1647.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

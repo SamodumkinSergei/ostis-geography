@@ -1,0 +1,26 @@
+ concept_supermarket_9956452237
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Соседи Экспресс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Соседи Экспресс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пушкинский проспект, 36А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 248-95-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.871188,30.350121"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sosedi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

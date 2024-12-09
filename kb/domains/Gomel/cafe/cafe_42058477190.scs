@@ -1,0 +1,26 @@
+ concept_cafe_42058477190
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Пищеблок"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пищеблок"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Жарковского, 7/6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.431585,31.008807"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.godkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

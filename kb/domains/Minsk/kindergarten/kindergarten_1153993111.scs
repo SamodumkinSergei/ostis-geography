@@ -1,0 +1,26 @@
+ concept_kindergarten_1153993111
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 424"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 424"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, проспект Рокоссовского, 61"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 360-32-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.868087,27.606406"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu424.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

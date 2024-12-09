@@ -1,0 +1,26 @@
+ concept_fallback_services_52660562665
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Память в камне"]
+	(* <- lang_ru;; <- name;;*);
+    ["Память в камне"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Герасименко, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 346-20-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 10:00–19:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.883408,27.684899"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pamyatvkamne.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

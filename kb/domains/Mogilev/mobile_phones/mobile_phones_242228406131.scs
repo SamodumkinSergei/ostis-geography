@@ -1,0 +1,26 @@
+ concept_mobile_phones_242228406131
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["IDoktor"]
+	(* <- lang_ru;; <- name;;*);
+    ["IDoktor"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Ленинская улица, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 333-77-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.898235,30.336281"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.idoktor.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

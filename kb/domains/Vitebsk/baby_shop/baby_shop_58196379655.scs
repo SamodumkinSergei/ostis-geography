@@ -1,0 +1,26 @@
+ concept_baby_shop_58196379655
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Твоя игрушка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Твоя игрушка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чкалова, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 298-14-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:30–18:30; вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.167179,30.209965"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

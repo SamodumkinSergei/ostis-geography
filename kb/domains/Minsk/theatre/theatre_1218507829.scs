@@ -1,0 +1,26 @@
+ concept_theatre_1218507829
+ <- concept_theatre;
+=>nrel_main_idtf:
+	["Белорусский государственный академический музыкальный театр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусский государственный академический музыкальный театр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Мясникова, 44"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 301-98-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00, перерыв 14:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.895662,27.54006"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://musicaltheatre.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

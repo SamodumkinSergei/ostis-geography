@@ -1,0 +1,26 @@
+ concept_car_park_23531926357
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["ТС Логойское-1, гараж-стоянка"]
+	(* <- lang_ru;; <- name;;*);
+    ["ТС Логойское-1, гараж-стоянка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Олешева, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 266-24-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 05:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.944124,27.608499"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_hypermarket_208499364285
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Кросбил Плюс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кросбил Плюс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Октябрьский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 805-55-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–18:00; сб 08:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.657405,23.806929"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

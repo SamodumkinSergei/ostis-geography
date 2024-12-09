@@ -1,0 +1,26 @@
+ concept_office_service_199188804282
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["АльфаКров Склад"]
+	(* <- lang_ru;; <- name;;*);
+    ["АльфаКров Склад"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ванеева, 42"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 186-68-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.875045,27.587155"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://alfakrov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

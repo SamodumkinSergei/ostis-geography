@@ -1,0 +1,26 @@
+ concept_kindergarten_1190591399
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 323"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 323"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Глебки, 90Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 353-47-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.920618,27.47764"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu323.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

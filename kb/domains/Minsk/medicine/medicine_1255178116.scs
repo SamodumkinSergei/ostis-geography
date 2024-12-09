@@ -1,0 +1,26 @@
+ concept_medicine_1255178116
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городская клиническая больница № 6, эндоскопическое отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская клиническая больница № 6, эндоскопическое отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Уральская улица, 5к5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 245-44-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901283,27.608867"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://6gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

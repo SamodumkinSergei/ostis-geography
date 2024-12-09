@@ -1,0 +1,26 @@
+ concept_college_1245686897
+ <- concept_college;
+=>nrel_main_idtf:
+	["ОнТайм"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОнТайм"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Мельникайте, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 664-79-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–21:00; сб 09:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.9061,27.542416"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ontime.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

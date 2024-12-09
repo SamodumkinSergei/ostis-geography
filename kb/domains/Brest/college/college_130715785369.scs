@@ -1,0 +1,26 @@
+ concept_college_130715785369
+ <- concept_college;
+=>nrel_main_idtf:
+	["Brest Business School"]
+	(* <- lang_ru;; <- name;;*);
+    ["Brest Business School"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Бретань, Финистер, Округ Брест, Брест, Avenue de Provence, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 2 98 34 44 44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["48.406171,-4.520646"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.brest-bs.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

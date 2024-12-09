@@ -1,0 +1,26 @@
+ concept_hairdressers_1246889562
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Азалия Стиль"]
+	(* <- lang_ru;; <- name;;*);
+    ["Азалия Стиль"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Калиновского, 62"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 229-69-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 10:00–17:00; вс 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.689,23.803562"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://azaliya.grodno.in/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

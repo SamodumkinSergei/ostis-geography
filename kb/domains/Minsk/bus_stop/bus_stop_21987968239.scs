@@ -1,0 +1,26 @@
+ concept_bus_stop_21987968239
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Станция метро Автозаводская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Станция метро Автозаводская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Радиальная улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.869914,27.647791"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

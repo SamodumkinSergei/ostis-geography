@@ -1,0 +1,26 @@
+ concept_hairdressers_1065908914
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Стильный салон"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стильный салон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Плеханова, 72"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 377-86-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.859186,27.59214"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_supermarket_75826578422
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Родны край"]
+	(* <- lang_ru;; <- name;;*);
+    ["Родны край"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебский район, Новкинский сельсовет, агрогородок Новка, улица Сметанина, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 247-81-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–20:00; вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.135557,30.151818"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

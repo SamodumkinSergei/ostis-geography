@@ -1,0 +1,26 @@
+ concept_hotels_31325768740
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Новый Свет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Новый Свет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Максима Горького, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 222-24-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.688424,23.827783"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://novisvet.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

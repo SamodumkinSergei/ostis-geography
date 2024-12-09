@@ -1,0 +1,26 @@
+ concept_mobile_phones_1688938957
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Новый Сервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Новый Сервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Слободская улица, 63"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 743-15-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.853801,27.440064"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://newservice.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

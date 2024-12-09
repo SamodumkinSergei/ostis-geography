@@ -1,0 +1,26 @@
+ concept_gasstation_93836152943
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["АЗС № 21 ИООО РН-Запад"]
+	(* <- lang_ru;; <- name;;*);
+    ["АЗС № 21 ИООО РН-Запад"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилевская обл., г. Могилев, пр-т Мира, 71А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["8 (800) 500-25-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.915641,30.373041"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.rosneft-azs.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

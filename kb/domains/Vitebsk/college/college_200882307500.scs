@@ -1,0 +1,26 @@
+ concept_college_200882307500
+ <- concept_college;
+=>nrel_main_idtf:
+	["Учебно-производственные мастерские ВитГТК"]
+	(* <- lang_ru;; <- name;;*);
+    ["Учебно-производственные мастерские ВитГТК"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Гагарина, 41Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 236-17-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.211686,30.230557"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitgtk.belstu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

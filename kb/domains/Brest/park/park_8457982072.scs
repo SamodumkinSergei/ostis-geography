@@ -1,0 +1,26 @@
+ concept_park_8457982072
+ <- concept_park;
+=>nrel_main_idtf:
+	["Парк культуры и отдыха"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парк культуры и отдыха"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Ленина, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 792-39-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.096111,23.679923"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brestpark.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

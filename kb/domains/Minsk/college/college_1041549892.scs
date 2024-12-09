@@ -1,0 +1,26 @@
+ concept_college_1041549892
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минский государственный архитектурно-строительный колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский государственный архитектурно-строительный колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Змитрока Бядули, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 397-84-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905723,27.584568"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mgask.org/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

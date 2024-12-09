@@ -1,0 +1,26 @@
+ concept_office_service_138422327177
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["7745.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["7745.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Казимировка, Минское шоссе, 29А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 565-77-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.934606,30.25995"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://7745.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

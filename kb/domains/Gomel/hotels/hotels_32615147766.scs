@@ -1,0 +1,26 @@
+ concept_hotels_32615147766
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Гостиница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гостиница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельский район, Поколюбичский сельсовет, Р-129, 12-й километр, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.521114,31.016557"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

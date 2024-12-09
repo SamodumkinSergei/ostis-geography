@@ -1,0 +1,26 @@
+ concept_cafe_98962763433
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Мроя"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мроя"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 43"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 569-94-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–22:00; сб,вс 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911843,27.578441"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

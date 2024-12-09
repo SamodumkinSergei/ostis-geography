@@ -1,0 +1,26 @@
+ concept_baby_shop_8439339104
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Legus - магазин конструкторов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Legus - магазин конструкторов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Максима Богдановича, 118"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 643-67-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.935682,27.583427"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://legus.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_fitness_1402628879
+ <- concept_fitness;
+=>nrel_main_idtf:
+	["Спортивный комплекс ВГТУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Спортивный комплекс ВГТУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Терешковой, 13В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 266-66-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–22:00; сб,вс 08:30–19:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.184878,30.250757"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sport.vstu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

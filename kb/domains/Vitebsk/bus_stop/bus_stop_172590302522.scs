@@ -1,0 +1,26 @@
+ concept_bus_stop_172590302522
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Поликлиника № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Поликлиника № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Терешковой"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.192385,30.249558"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_baby_shop_80968078464
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Полесье"]
+	(* <- lang_ru;; <- name;;*);
+    ["Полесье"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 326"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.098701,23.756576"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.polesie-toys.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

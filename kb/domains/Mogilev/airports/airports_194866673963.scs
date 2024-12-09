@@ -1,0 +1,26 @@
+ concept_airports_194866673963
+ <- concept_airports;
+=>nrel_main_idtf:
+	["Аэропорт Могилёв"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аэропорт Могилёв"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёвский район, аэропорт Могилёв"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.958341,30.09794"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://avia.of.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

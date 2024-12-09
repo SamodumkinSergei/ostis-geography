@@ -1,0 +1,26 @@
+ concept_supermarket_1149180104
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Полоцкий"]
+	(* <- lang_ru;; <- name;;*);
+    ["Полоцкий"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Ленинградская улица, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 255-53-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 07:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.200072,30.182007"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_college_1513770740
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 32 г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 32 г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Центральный район, Камайская улица, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 394-13-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.937669,27.456254"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch32.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

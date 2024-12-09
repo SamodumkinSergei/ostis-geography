@@ -1,0 +1,26 @@
+ concept_cafe_202582377875
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Чисто в парке"]
+	(* <- lang_ru;; <- name;;*);
+    ["Чисто в парке"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Набережная улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.416603,31.013104"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://4isto.by/park.html"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

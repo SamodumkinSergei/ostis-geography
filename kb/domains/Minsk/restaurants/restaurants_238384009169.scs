@@ -1,0 +1,26 @@
+ concept_restaurants_238384009169
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Турист"]
+	(* <- lang_ru;; <- name;;*);
+    ["Турист"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 81"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 195-41-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 07:00–20:00, перерыв 11:00–12:00; вт-сб 07:00–00:00, перерыв 11:00–12:00; вс 07:00–13:00, перерыв 11:00–12:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.876008,27.627549"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.hotel-tourist.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

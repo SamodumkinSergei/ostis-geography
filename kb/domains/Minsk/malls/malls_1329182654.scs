@@ -1,0 +1,26 @@
+ concept_malls_1329182654
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Ваш выбор"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ваш выбор"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Уручская улица, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 266-87-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–19:00; вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.949474,27.694564"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://konfiskat.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

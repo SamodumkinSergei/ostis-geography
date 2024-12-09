@@ -1,0 +1,26 @@
+ concept_supermarket_150145675485
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Хит! Экспресс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хит! Экспресс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Логойский тракт, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 500-11-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.94126,27.608474"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://hitdiscount.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

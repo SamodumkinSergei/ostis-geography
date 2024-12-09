@@ -1,0 +1,26 @@
+ concept_furniture_store_53622776173
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Делком40"]
+	(* <- lang_ru;; <- name;;*);
+    ["Делком40"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Борисенко, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 525-82-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.417637,30.916002"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://delkom40.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

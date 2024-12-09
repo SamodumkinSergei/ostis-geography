@@ -1,0 +1,26 @@
+ concept_restaurants_168572558384
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Animal farm"]
+	(* <- lang_ru;; <- name;;*);
+    ["Animal farm"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Мельникайте, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 754-75-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–22:00; пт,сб 10:00–23:00; вс 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90727,27.541915"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://animalfarm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

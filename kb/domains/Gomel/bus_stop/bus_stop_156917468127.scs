@@ -1,0 +1,26 @@
+ concept_bus_stop_156917468127
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Крестьянская улица"]
+	(* <- lang_ru;; <- name;;*);
+    ["Крестьянская улица"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Ленина, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.42603,31.006948"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

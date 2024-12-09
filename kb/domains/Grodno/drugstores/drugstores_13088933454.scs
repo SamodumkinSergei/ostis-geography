@@ -1,0 +1,26 @@
+ concept_drugstores_13088933454
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптэка № 124 Фармацыя Гродна"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптэка № 124 Фармацыя Гродна"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Домбровского, 41"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.70483,23.799903"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

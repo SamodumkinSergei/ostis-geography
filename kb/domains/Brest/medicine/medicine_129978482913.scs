@@ -1,0 +1,26 @@
+ concept_medicine_129978482913
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Брестская городская поликлиника № 2, лечебно-диагностический корпус"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестская городская поликлиника № 2, лечебно-диагностический корпус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Красногвардейская улица, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 258-08-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.108364,23.683488"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://polyclinic.brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_tailor_1351985765
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Ремонт одежды"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт одежды"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, проспект Рокоссовского, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 775-18-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб 10:00–19:00; вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.867671,27.602445"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

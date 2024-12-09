@@ -1,0 +1,26 @@
+ concept_government_26935858030
+ <- concept_government;
+=>nrel_main_idtf:
+	["Главное статистическое управление Гродненской области"]
+	(* <- lang_ru;; <- name;;*);
+    ["Главное статистическое управление Гродненской области"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Врублевского, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 255-49-24"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.699803,23.809"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://grodno.belstat.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

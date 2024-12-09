@@ -1,0 +1,26 @@
+ concept_hotels_194560340639
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Гостиница Могилёв"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гостиница Могилёв"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Мира, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 500-35-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910003,30.332927"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://hotelmogilev.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

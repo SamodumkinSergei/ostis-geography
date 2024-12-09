@@ -1,0 +1,26 @@
+ concept_fast_food_230310641419
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Формула Еды"]
+	(* <- lang_ru;; <- name;;*);
+    ["Формула Еды"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 9Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 608-22-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.1818,30.20562"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

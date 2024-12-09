@@ -1,0 +1,26 @@
+ concept_medicine_1200961430
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Поликлиническое отделение городской клинической больницы № 5"]
+	(* <- lang_ru;; <- name;;*);
+    ["Поликлиническое отделение городской клинической больницы № 5"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Львовская область, город Львов, улица Генерала Чупринки, 43"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+380 (32) 237-07-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["49.831137,24.010135"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_drugstores_11654911825
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Любимая аптека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Любимая аптека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ландера, 36А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 212-44-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:30; сб,вс 10:00–19:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.84274,27.49344"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://l-a.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

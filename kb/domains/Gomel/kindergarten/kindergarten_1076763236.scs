@@ -1,0 +1,26 @@
+ concept_kindergarten_1076763236
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Детский сад № 35 г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский сад № 35 г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Чапаева, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 263-10-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.45757,30.966042"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sad35gomel.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

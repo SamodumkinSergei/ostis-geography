@@ -1,0 +1,26 @@
+ concept_hotels_1604363752
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Усадьба Андреевская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Усадьба Андреевская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Ждановичский сельсовет, Каменная Горка, Мозырская улица, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 671-20-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.929383,27.411405"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://usadba-pod-minskom.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

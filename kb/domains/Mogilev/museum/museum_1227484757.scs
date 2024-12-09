@@ -1,0 +1,26 @@
+ concept_museum_1227484757
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Метиз, дом культуры"]
+	(* <- lang_ru;; <- name;;*);
+    ["Метиз, дом культуры"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Космонавтов, 27А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 242-23-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904356,30.302872"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kultura.mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

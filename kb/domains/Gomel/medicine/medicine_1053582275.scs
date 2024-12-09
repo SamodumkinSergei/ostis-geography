@@ -1,0 +1,26 @@
+ concept_medicine_1053582275
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["ГУЗ Гомельская городская клиническая поликлиника № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУЗ Гомельская городская клиническая поликлиника № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Залинейный, улица Бочкина, 182А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 228-84-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.427566,30.952625"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ggkp2.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

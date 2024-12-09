@@ -1,0 +1,26 @@
+ concept_bus_stop_123531732174
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Пункт подготовки вагонов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пункт подготовки вагонов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Красногвардейская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.128415,23.696233"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_office_service_146483090735
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Дубна Ривер Клаб"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дубна Ривер Клаб"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Московская область, Дубна, Солнечная улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["56.72554,37.229706"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.dubnarc.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

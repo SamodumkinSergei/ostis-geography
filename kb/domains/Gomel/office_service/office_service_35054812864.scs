@@ -1,0 +1,26 @@
+ concept_office_service_35054812864
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Гомельский Химический завод"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский Химический завод"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.428346,30.863567"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

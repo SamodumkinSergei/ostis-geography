@@ -1,0 +1,26 @@
+ concept_mobile_phones_48461657790
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Clinica iPhone"]
+	(* <- lang_ru;; <- name;;*);
+    ["Clinica iPhone"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Машерова, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 222-22-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.086256,23.697216"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://iclinica.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_baby_shop_115201293584
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Sovenok.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Sovenok.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Чюрлёниса, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 551-37-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.853529,27.483193"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

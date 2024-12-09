@@ -1,0 +1,26 @@
+ concept_malls_204252184889
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Сантехмаркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сантехмаркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Залинейный, Украинская улица, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 643-03-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.422756,30.992339"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

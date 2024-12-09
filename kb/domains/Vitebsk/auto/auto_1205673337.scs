@@ -1,0 +1,26 @@
+ concept_auto_1205673337
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Альтстартсервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Альтстартсервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, 4-я улица Заслонова, 5А/15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 347-61-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.202858,30.147123"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.altstart.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

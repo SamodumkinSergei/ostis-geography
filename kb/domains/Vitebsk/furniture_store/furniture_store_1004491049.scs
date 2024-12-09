@@ -1,0 +1,26 @@
+ concept_furniture_store_1004491049
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Пинскдрев"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пинскдрев"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Правды, 54А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 222-50-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.186613,30.224325"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pinskdrev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_hotels_42760177581
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Kip Town Hostel"]
+	(* <- lang_ru;; <- name;;*);
+    ["Kip Town Hostel"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Карла Маркса, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 237-78-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.677702,23.833028"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://hostelhrodna.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

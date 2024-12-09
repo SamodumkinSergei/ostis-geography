@@ -1,0 +1,26 @@
+ concept_college_1030938475
+ <- concept_college;
+=>nrel_main_idtf:
+	["Институт повышения квалификации и переподготовки кадров БГУКИ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Институт повышения квалификации и переподготовки кадров БГУКИ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Калиновского, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 265-07-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–18:00, перерыв 13:00–13:45; пт 09:00–16:45, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.943583,27.632712"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

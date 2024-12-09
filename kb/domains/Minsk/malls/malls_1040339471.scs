@@ -1,0 +1,26 @@
+ concept_malls_1040339471
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Зеркало"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зеркало"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Веры Хоружей, 6Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 314-17-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.918997,27.580145"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://tczerkalo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

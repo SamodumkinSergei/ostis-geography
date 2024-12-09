@@ -1,0 +1,26 @@
+ concept_college_1083841190
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гимназия № 9 имени А. П. Белобородова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гимназия № 9 имени А. П. Белобородова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 41А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 237-52-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.174333,30.233807"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gymn9.pervroo-vitebsk.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

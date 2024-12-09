@@ -1,0 +1,26 @@
+ concept_medicine_1073452629
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городская поликлиника № 18"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская поликлиника № 18"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Плеханова, 60к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 361-18-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.860732,27.596276"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.18gp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

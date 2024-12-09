@@ -1,0 +1,26 @@
+ concept_supermarket_135529347676
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["ОДО Фирма ABC"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОДО Фирма ABC"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Победы, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 151-93-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.656221,23.830168"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://abcfood.net/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

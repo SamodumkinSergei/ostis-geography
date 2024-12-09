@@ -1,0 +1,26 @@
+ concept_college_1015454901
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гомельский государственный областной лицей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский государственный областной лицей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Жарковского, 14/3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 232-21-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.429989,31.005333"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gsrl.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

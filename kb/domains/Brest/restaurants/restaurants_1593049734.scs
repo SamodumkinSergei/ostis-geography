@@ -1,0 +1,26 @@
+ concept_restaurants_1593049734
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["ПиццаСуши"]
+	(* <- lang_ru;; <- name;;*);
+    ["ПиццаСуши"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Октябрьской Революции, 7А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 500-02-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.080873,23.745408"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.pizzasushi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

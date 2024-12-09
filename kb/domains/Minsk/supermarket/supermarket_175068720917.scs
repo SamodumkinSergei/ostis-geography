@@ -1,0 +1,26 @@
+ concept_supermarket_175068720917
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Green"]
+	(* <- lang_ru;; <- name;;*);
+    ["Green"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 156/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 523-58-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908854,27.434245"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.green-market.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

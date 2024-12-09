@@ -1,0 +1,26 @@
+ concept_kindergarten_1118711270
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Детский сад № 269 г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский сад № 269 г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кабушкина, 82"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 296-90-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.858138,27.63847"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu269.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

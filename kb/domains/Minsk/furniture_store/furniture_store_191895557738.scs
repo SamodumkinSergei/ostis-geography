@@ -1,0 +1,26 @@
+ concept_furniture_store_191895557738
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Мэнроуд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мэнроуд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Мястровская улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 504-05-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.933526,27.474085"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mrd.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

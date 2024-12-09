@@ -1,0 +1,26 @@
+ concept_banks_235193904358
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Банк РРБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Банк РРБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, ул. Тимирязева, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 306-02-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00, перерывы 10:30–10:40, 12:30–12:40, 14:00–15:00, 17:00–17:10, 19:00–19:10"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.68867,23.845402"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.rrb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

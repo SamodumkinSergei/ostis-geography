@@ -1,0 +1,26 @@
+ concept_college_1379687236
+ <- concept_college;
+=>nrel_main_idtf:
+	["Брестский колледж, филиал Белорусского государственного университета транспорта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестский колледж, филиал Белорусского государственного университета транспорта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Папанина, 4/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 226-21-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00; сб 08:00–13:20"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.099237,23.703233"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brest.bsut.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

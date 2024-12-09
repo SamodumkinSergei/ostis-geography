@@ -1,0 +1,26 @@
+ concept_fast_food_115945981581
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Street food"]
+	(* <- lang_ru;; <- name;;*);
+    ["Street food"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ольшевского, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,вт 11:00–17:00; ср-сб 11:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.913681,27.507363"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

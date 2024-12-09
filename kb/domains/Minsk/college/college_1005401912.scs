@@ -1,0 +1,26 @@
+ concept_college_1005401912
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 111"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 111"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Лошица, улица Иосифа Гошкевича, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 220-06-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.842413,27.566827"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch111.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

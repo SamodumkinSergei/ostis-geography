@@ -1,0 +1,26 @@
+ concept_college_1353221549
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минский государственный профессионально-технический колледж железнодорожного транспорта им. Е. П. Юшкевича"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский государственный профессионально-технический колледж железнодорожного транспорта им. Е. П. Юшкевича"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Семашко, 3к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 357-11-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.86141,27.498589"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ptk-zht.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_concert_hall_233565080326
+ <- concept_concert_hall;
+=>nrel_main_idtf:
+	["Опера"]
+	(* <- lang_ru;; <- name;;*);
+    ["Опера"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Калинина, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 833-88-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 20:00–04:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.191756,30.202984"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://opera.chooice.app/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

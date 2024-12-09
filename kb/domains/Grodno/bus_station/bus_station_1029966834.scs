@@ -1,0 +1,26 @@
+ concept_bus_station_1029966834
+ <- concept_bus_station;
+=>nrel_main_idtf:
+	["Автовокзал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автовокзал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Красноармейская улица, 7А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 262-11-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 05:50–20:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.677791,23.843731"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://avgrodno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

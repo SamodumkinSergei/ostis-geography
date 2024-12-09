@@ -1,0 +1,26 @@
+ concept_gasstation_140997384086
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Лукойл"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лукойл"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брестский район, Тельминский сельсовет, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 259-27-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.116146,23.853478"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.lukoil.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

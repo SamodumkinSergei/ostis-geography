@@ -1,0 +1,26 @@
+ concept_college_1082208904
+ <- concept_college;
+=>nrel_main_idtf:
+	["Филиал Российского государственного социального университета в г. Минске"]
+	(* <- lang_ru;; <- name;;*);
+    ["Филиал Российского государственного социального университета в г. Минске"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Народная улица, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 500-83-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.874389,27.620715"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.rgsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

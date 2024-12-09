@@ -1,0 +1,26 @@
+ concept_office_service_85033093488
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["КаргоПромСтрой"]
+	(* <- lang_ru;; <- name;;*);
+    ["КаргоПромСтрой"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Передовая улица, 6к15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.900671,27.629604"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

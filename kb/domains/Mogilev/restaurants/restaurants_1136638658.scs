@@ -1,0 +1,26 @@
+ concept_restaurants_1136638658
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Бирария"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бирария"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 277-77-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср-вс 18:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902709,30.338029"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

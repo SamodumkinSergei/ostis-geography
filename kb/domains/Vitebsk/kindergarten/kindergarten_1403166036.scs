@@ -1,0 +1,26 @@
+ concept_kindergarten_1403166036
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Детский сад № 2 Солнышко"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский сад № 2 Солнышко"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Калинина"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 675-26-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.184757,30.203848"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

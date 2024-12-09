@@ -1,0 +1,26 @@
+ concept_fallback_services_60780655003
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Благо Сервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Благо Сервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Лазаренко, 55А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 772-23-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904692,30.312661"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://blagoservis.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

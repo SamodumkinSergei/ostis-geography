@@ -1,0 +1,26 @@
+ concept_restaurants_119220459415
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Pizza Play"]
+	(* <- lang_ru;; <- name;;*);
+    ["Pizza Play"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Щорса, 11А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 700-79-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–23:00; пт-вс 10:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.678485,23.851271"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pizzaplay.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

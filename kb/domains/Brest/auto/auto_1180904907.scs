@@ -1,0 +1,26 @@
+ concept_auto_1180904907
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Мятый элемент"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мятый элемент"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, микрорайон Ковалёво"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 801-16-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.059392,23.760534"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bamper.brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

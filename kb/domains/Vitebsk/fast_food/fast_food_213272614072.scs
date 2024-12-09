@@ -1,0 +1,26 @@
+ concept_fast_food_213272614072
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Pavetra"]
+	(* <- lang_ru;; <- name;;*);
+    ["Pavetra"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица 39-й Армии"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 280-11-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–21:00; вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.169066,30.127987"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_library_1055081256
+ <- concept_library;
+=>nrel_main_idtf:
+	["Славянская библиотека-филиал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Славянская библиотека-филиал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ланге, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 233-97-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.427757,31.014707"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://goub.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

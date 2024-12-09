@@ -1,0 +1,26 @@
+ concept_restaurants_108568773733
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Le Crabe Marteau"]
+	(* <- lang_ru;; <- name;;*);
+    ["Le Crabe Marteau"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Бретань, Финистер, Округ Брест, Брест, Quai de la Douane, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 2 98 33 38 57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["48.381637,-4.487516"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.crabemarteau.fr/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

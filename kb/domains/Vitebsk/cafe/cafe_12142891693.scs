@@ -1,0 +1,26 @@
+ concept_cafe_12142891693
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Таверна"]
+	(* <- lang_ru;; <- name;;*);
+    ["Таверна"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Петруся Бровки, 21А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 510-13-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00, перерыв 15:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.161657,30.235558"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

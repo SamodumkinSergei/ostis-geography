@@ -1,0 +1,26 @@
+ concept_bus_stop_98493881614
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Автовокзал Гродно"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автовокзал Гродно"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Октябрьский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.677141,23.843984"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

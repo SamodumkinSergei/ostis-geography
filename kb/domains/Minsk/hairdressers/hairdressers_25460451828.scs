@@ -1,0 +1,26 @@
+ concept_hairdressers_25460451828
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["АльСоНе"]
+	(* <- lang_ru;; <- name;;*);
+    ["АльСоНе"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Чижовка, улица Корзюки, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 525-16-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.837407,27.604429"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

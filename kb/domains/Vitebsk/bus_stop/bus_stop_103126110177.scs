@@ -1,0 +1,26 @@
+ concept_bus_stop_103126110177
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Белторгреклама"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белторгреклама"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Старобабиновичский тракт"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.168757,30.250796"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

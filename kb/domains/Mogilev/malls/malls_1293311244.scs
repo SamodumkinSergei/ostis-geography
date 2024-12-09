@@ -1,0 +1,26 @@
+ concept_malls_1293311244
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Сантехника"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сантехника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Плеханова, 4А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 676-36-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.895334,30.324849"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

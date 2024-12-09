@@ -1,0 +1,26 @@
+ concept_bus_stop_111700829515
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Микрорайон Волотова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Микрорайон Волотова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Центральный район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.465605,31.031261"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

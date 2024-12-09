@@ -1,0 +1,26 @@
+ concept_gasstation_1108317527
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Газпром трансгаз Беларусь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Газпром трансгаз Беларусь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Масюковщина, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 513-30-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 02:10–01:50, перерывы 04:50–05:10, 07:40–08:10, 10:50–11:10, 13:50–14:10, 17:50–18:10, 22:50–23:10"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.936973,27.430923"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://metan.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

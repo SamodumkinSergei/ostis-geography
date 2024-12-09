@@ -1,0 +1,26 @@
+ concept_supermarket_1223359866
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Гиппо"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гиппо"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, агрогородок Сеница, Зелёная улица, 1, корп. 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 510-86-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.822296,27.531055"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gippo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

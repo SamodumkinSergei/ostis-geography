@@ -1,0 +1,26 @@
+ concept_petshop_187481826531
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Доктор Вет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Доктор Вет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чкалова, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 264-71-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.162988,30.208172"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vetapteki.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

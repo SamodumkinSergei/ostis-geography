@@ -1,0 +1,26 @@
+ concept_bus_stop_135787817744
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Великий лес"]
+	(* <- lang_ru;; <- name;;*);
+    ["Великий лес"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Героев 120-й Дивизии"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.944132,27.717572"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

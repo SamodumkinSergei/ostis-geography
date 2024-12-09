@@ -1,0 +1,26 @@
+ concept_fast_food_195269763709
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Стрит Бургер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стрит Бургер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Ленина, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 304-78-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.427299,31.002681"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://street-burger.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

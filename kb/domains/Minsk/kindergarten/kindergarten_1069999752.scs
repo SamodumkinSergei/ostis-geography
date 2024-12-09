@@ -1,0 +1,26 @@
+ concept_kindergarten_1069999752
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-Сад № 80"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-Сад № 80"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Стасова, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 358-65-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.887667,27.507705"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu80.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

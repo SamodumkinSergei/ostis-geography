@@ -1,0 +1,26 @@
+ concept_drugstores_1128131897
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Белфармация аптека № 57 второй категории"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белфармация аптека № 57 второй категории"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, проспект Рокоссовского, 114"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 370-06-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.857518,27.608292"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

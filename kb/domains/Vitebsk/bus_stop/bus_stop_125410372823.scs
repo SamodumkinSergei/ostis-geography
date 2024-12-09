@@ -1,0 +1,26 @@
+ concept_bus_stop_125410372823
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["1-я Великолукская улица"]
+	(* <- lang_ru;; <- name;;*);
+    ["1-я Великолукская улица"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Великолукский тракт, 39"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.212682,30.210435"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

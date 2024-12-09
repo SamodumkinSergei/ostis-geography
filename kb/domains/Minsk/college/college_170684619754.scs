@@ -1,0 +1,26 @@
+ concept_college_170684619754
+ <- concept_college;
+=>nrel_main_idtf:
+	["Управление по делам культуры БНТУ, отдел художественного творчества"]
+	(* <- lang_ru;; <- name;;*);
+    ["Управление по делам культуры БНТУ, отдел художественного творчества"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурганова, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 290-23-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:15–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.925537,27.590608"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bntu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

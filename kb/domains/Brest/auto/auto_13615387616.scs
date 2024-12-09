@@ -1,0 +1,26 @@
+ concept_auto_13615387616
+ <- concept_auto;
+=>nrel_main_idtf:
+	["ЕвроДжет"]
+	(* <- lang_ru;; <- name;;*);
+    ["ЕвроДжет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Дубровская улица, 36"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 671-61-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 12:30–13:30; сб 08:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.128276,23.642732"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://eurodjet.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

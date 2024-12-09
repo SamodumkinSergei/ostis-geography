@@ -1,0 +1,26 @@
+ concept_fallback_services_1118365822
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Аква-Брест"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аква-Брест"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Красногвардейская улица, 112"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.12423,23.697333"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://aquabrest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

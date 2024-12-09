@@ -1,0 +1,26 @@
+ concept_malls_126488632510
+ <- concept_malls;
+=>nrel_main_idtf:
+	["I-Store"]
+	(* <- lang_ru;; <- name;;*);
+    ["I-Store"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ленина, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 555-58-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901323,27.558641"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://i-store.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

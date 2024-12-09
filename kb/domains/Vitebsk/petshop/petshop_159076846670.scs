@@ -1,0 +1,26 @@
+ concept_petshop_159076846670
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Котопес"]
+	(* <- lang_ru;; <- name;;*);
+    ["Котопес"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Воинов-Интернационалистов, 11А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 217-35-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.16246,30.214111"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

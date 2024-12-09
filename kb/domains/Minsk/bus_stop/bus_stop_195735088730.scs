@@ -1,0 +1,26 @@
+ concept_bus_stop_195735088730
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Станция метро Борисовский тракт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Станция метро Борисовский тракт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.938396,27.66608"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_software_1301553456
+ <- concept_software;
+=>nrel_main_idtf:
+	["Юкола-Инфо-Брест"]
+	(* <- lang_ru;; <- name;;*);
+    ["Юкола-Инфо-Брест"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брестская область, Пинск, Первомайская улица, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 551-00-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.113414,26.103306"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://1soft.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

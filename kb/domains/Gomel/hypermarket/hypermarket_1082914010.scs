@@ -1,0 +1,26 @@
+ concept_hypermarket_1082914010
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Гермес"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гермес"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Подгорная улица, 10/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 573-10-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30; сб 08:30–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.440854,31.017588"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://evrocement.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

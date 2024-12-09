@@ -1,0 +1,26 @@
+ concept_supermarket_4034861869
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Дионис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дионис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Руссиянова, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 475-55-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.938695,27.686221"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dionis-shop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

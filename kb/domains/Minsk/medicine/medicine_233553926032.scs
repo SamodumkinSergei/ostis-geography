@@ -1,0 +1,26 @@
+ concept_medicine_233553926032
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Терапевтический корпус Гкбсмп"]
+	(* <- lang_ru;; <- name;;*);
+    ["Терапевтический корпус Гкбсмп"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лейтенанта Кижеватова, 58В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 287-86-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.851112,27.535663"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bsmp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

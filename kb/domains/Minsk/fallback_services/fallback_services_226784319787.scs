@@ -1,0 +1,26 @@
+ concept_fallback_services_226784319787
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Еврокамень"]
+	(* <- lang_ru;; <- name;;*);
+    ["Еврокамень"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, проспект Рокоссовского, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 529-82-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.875643,27.59813"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://shop.eurokamen.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_medicine_80851130506
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Государственное Учреждение Республиканский Клинический центр Паллиативной Медицинской Помощи Детям"]
+	(* <- lang_ru;; <- name;;*);
+    ["Государственное Учреждение Республиканский Клинический центр Паллиативной Медицинской Помощи Детям"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, деревня Боровляны, Лесная улица, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 503-57-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.97744,27.669476"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://palliativ.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

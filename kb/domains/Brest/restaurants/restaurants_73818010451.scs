@@ -1,0 +1,26 @@
+ concept_restaurants_73818010451
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Diwali Brest"]
+	(* <- lang_ru;; <- name;;*);
+    ["Diwali Brest"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Бретань, Финистер, Округ Брест, Брест, Rue Auguste Kervern, 65"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 2 98 46 31 68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["48.400698,-4.489106"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.diwali-brest.fr/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

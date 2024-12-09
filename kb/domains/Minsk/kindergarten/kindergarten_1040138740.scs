@@ -1,0 +1,26 @@
+ concept_kindergarten_1040138740
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-Сад № 556"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-Сад № 556"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Рафиева, 87"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 270-24-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.860185,27.440823"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu556.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

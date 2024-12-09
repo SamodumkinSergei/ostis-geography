@@ -1,0 +1,26 @@
+ concept_clothes_shop_37484416400
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Форсейл - секонд опотом из Европы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Форсейл - секонд опотом из Европы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Криулина, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 888-95-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00; сб 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.954687,30.332956"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://forseilsecond.by/?utm_medium=yandexsprav_mobile&utm_source=yandexsprav_mobile"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

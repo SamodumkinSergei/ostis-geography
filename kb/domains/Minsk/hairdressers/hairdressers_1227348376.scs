@@ -1,0 +1,26 @@
+ concept_hairdressers_1227348376
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Прыгажосць"]
+	(* <- lang_ru;; <- name;;*);
+    ["Прыгажосць"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 41"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 224-70-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,ср,пт 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.914894,27.535985"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rise.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

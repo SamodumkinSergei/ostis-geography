@@ -1,0 +1,26 @@
+ concept_office_service_205501095007
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Вкусно и легко, офис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Вкусно и легко, офис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Пушкинская улица, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 222-22-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.095203,23.68941"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://nasha-pizza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

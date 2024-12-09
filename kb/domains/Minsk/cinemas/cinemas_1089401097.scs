@@ -1,0 +1,26 @@
+ concept_cinemas_1089401097
+ <- concept_cinemas;
+=>nrel_main_idtf:
+	["Ракета"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ракета"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Рабочий переулок, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 378-25-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.88588,27.587763"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kinominska.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

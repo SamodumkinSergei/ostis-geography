@@ -1,0 +1,26 @@
+ concept_banks_4850546992
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Сбер Банк, отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сбер Банк, отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, бульвар Мулявина, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 796-88-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.91383,27.5846"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.sber-bank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

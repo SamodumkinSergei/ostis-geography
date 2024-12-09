@@ -1,0 +1,26 @@
+ concept_fast_food_93248535179
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Лимож-кафе"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лимож-кафе"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Брикеля, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:00–22:00; пт,сб 11:00–23:00; вс 11:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.701373,23.845772"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

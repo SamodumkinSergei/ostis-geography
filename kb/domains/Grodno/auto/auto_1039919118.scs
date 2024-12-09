@@ -1,0 +1,26 @@
+ concept_auto_1039919118
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Станция технического обслуживания № 7"]
+	(* <- lang_ru;; <- name;;*);
+    ["Станция технического обслуживания № 7"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Космонавтов, 68"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 275-63-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30; сб 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.673745,23.873565"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://car-service-10388.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_malls_1226658342
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Adidas"]
+	(* <- lang_ru;; <- name;;*);
+    ["Adidas"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Кирова, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 261-72-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.194606,30.190546"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://adishop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_government_218514222063
+ <- concept_government;
+=>nrel_main_idtf:
+	["Управление торговли Гродненского городского исполнительного комитета"]
+	(* <- lang_ru;; <- name;;*);
+    ["Управление торговли Гродненского городского исполнительного комитета"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, площадь Ленина, 2/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 274-06-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.683834,23.833419"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://grodno.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

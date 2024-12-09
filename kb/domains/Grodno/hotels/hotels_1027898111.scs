@@ -1,0 +1,26 @@
+ concept_hotels_1027898111
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Баня Балтийский Берег"]
+	(* <- lang_ru;; <- name;;*);
+    ["Баня Балтийский Берег"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродненская область, Гродненский район, поселок Береговой, Балтийская улица, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.648564,23.979907"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

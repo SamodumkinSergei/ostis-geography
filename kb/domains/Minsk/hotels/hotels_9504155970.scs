@@ -1,0 +1,26 @@
+ concept_hotels_9504155970
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Национальный аэропорт Минск, гостиница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Национальный аэропорт Минск, гостиница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Национальный аэропорт Минск"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 279-18-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.88951,28.034764"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://airport.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

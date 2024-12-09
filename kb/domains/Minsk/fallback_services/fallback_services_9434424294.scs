@@ -1,0 +1,26 @@
+ concept_fallback_services_9434424294
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Ритуальный дом"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ритуальный дом"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Бурдейного, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 134-44-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903519,27.455332"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rda.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_fast_food_203489324739
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Солянка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Солянка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Привокзальная площадь, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 500-72-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.432269,30.993145"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://irina-service.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

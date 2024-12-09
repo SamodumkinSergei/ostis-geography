@@ -1,0 +1,26 @@
+ concept_medicine_57476020814
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Детский сад № 3"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский сад № 3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, городской посёлок Мачулищи, Лесная улица, 28А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 516-78-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.779415,27.605784"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://du-machul3.minsk-roo.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

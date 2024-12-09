@@ -1,0 +1,26 @@
+ concept_office_service_191367173397
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Унитарное предприятие по Оказанию Услуг Санта Холод"]
+	(* <- lang_ru;; <- name;;*);
+    ["Унитарное предприятие по Оказанию Услуг Санта Холод"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Писателя Смирнова, 6А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 730-11-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.094041,23.648536"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://santaholod.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

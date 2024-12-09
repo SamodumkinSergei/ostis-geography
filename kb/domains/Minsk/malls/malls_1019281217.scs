@@ -1,0 +1,26 @@
+ concept_malls_1019281217
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Торговый дом Ждановичи"]
+	(* <- lang_ru;; <- name;;*);
+    ["Торговый дом Ждановичи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева, 129, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 259-62-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.939644,27.441205"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.zhdanovichi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

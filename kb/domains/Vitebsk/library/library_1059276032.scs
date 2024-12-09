@@ -1,0 +1,26 @@
+ concept_library_1059276032
+ <- concept_library;
+=>nrel_main_idtf:
+	["Библиотека имени Н. Островского"]
+	(* <- lang_ru;; <- name;;*);
+    ["Библиотека имени Н. Островского"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Димитрова, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 264-90-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,вт,ср,чт,сб,вс 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.189605,30.19104"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://cbsvit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

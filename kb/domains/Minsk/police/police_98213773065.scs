@@ -1,0 +1,26 @@
+ concept_police_98213773065
+ <- concept_police;
+=>nrel_main_idtf:
+	["ГОМ № 1 Заводского РУВД"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГОМ № 1 Заводского РУВД"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Алеся Бачило, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 344-10-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.843261,27.700168"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_238320681352
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Станция метро Тракторный завод"]
+	(* <- lang_ru;; <- name;;*);
+    ["Станция метро Тракторный завод"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Долгобродская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.888951,27.61615"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

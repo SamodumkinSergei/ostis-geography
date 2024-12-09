@@ -1,0 +1,26 @@
+ concept_malls_206572312713
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Тайлер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Тайлер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Пороховой переулок, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 271-81-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–17:00; вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.674676,23.846952"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.tailer.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

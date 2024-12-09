@@ -1,0 +1,26 @@
+ concept_drugstores_16101767365
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Белфармация Минск"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белфармация Минск"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брестская область, Брестский район, Мотыкальский сельсовет, деревня Скоки, Новая улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 229-24-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.153028,23.631109"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://brest.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

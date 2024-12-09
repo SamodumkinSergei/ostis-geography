@@ -1,0 +1,26 @@
+ concept_medicine_13628250139
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Отделение лучевой диагностики, радиологический корпус"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отделение лучевой диагностики, радиологический корпус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Академика Павлова, 2М"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 265-50-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.862637,30.3828"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mood.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

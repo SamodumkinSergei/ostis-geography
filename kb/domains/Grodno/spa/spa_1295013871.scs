@@ -1,0 +1,26 @@
+ concept_spa_1295013871
+ <- concept_spa;
+=>nrel_main_idtf:
+	["Квартира №"]
+	(* <- lang_ru;; <- name;;*);
+    ["Квартира №"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Михася Василька, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 355-38-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–21:00; сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.682124,23.838328"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

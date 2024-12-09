@@ -1,0 +1,26 @@
+ concept_cafe_103416879851
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Smile Coffee"]
+	(* <- lang_ru;; <- name;;*);
+    ["Smile Coffee"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 345-08-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–22:00; сб,вс 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.192921,30.214564"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.smile-coffee.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

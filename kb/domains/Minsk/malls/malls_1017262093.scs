@@ -1,0 +1,26 @@
+ concept_malls_1017262093
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Некрасовский"]
+	(* <- lang_ru;; <- name;;*);
+    ["Некрасовский"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Максима Богдановича, 118"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 247-44-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.935623,27.583952"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

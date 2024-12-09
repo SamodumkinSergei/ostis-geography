@@ -1,0 +1,26 @@
+ concept_auto_1283036581
+ <- concept_auto;
+=>nrel_main_idtf:
+	["LK-Service.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["LK-Service.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Радиальная улица, 9АС1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 936-69-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.880714,27.654873"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://lk-service.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

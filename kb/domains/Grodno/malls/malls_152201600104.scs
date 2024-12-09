@@ -1,0 +1,26 @@
+ concept_malls_152201600104
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Буслик"]
+	(* <- lang_ru;; <- name;;*);
+    ["Буслик"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Лиможа, 32Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 690-30-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.711341,23.849143"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://buslik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

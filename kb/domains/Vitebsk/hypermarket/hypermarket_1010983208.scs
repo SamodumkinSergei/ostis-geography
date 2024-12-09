@@ -1,0 +1,26 @@
+ concept_hypermarket_1010983208
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Витебский Хозторг"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебский Хозторг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Лазо, 110"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 255-10-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.201349,30.259476"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vithoztorg.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

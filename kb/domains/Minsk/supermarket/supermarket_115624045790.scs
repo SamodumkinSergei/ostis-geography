@@ -1,0 +1,26 @@
+ concept_supermarket_115624045790
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Белмаркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белмаркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Новодворский сельсовет, М-4, 5-й километр, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 398-21-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.833061,27.733974"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bel-market.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

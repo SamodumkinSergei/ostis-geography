@@ -1,0 +1,26 @@
+ concept_car_park_1060471653
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автостоянка Вэствэй"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостоянка Вэствэй"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Франциска Скорины, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 285-95-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 05:00–01:00, перерыв 09:00–09:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.932185,27.698965"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

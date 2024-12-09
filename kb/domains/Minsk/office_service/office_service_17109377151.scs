@@ -1,0 +1,26 @@
+ concept_office_service_17109377151
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Polveka"]
+	(* <- lang_ru;; <- name;;*);
+    ["Polveka"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Каменногорская улица, 45"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 515-05-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.933469,27.427677"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://polveka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

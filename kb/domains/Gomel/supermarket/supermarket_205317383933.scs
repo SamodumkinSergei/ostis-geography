@@ -1,0 +1,26 @@
+ concept_supermarket_205317383933
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Покупай-ка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Покупай-ка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Сосновая улица, 6А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 789-38-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.414059,30.943974"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pokupaika-gomel.business.site/?utm_medium=referral&utm_source=gmb"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

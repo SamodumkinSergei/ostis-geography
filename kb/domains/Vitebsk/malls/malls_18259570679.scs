@@ -1,0 +1,26 @@
+ concept_malls_18259570679
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Витебскоблсоюзпечать"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебскоблсоюзпечать"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Гагарина, 7А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 235-84-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 06:20–19:40, перерывы 12:36–13:06, 18:10–18:45; сб 08:00–16:00; вс 08:00–15:25"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.206712,30.218631"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitebsk.beldruk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

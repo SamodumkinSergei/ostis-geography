@@ -1,0 +1,26 @@
+ concept_post_office_20420724109
+ <- concept_post_office;
+=>nrel_main_idtf:
+	["Автолайтэкспресс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автолайтэкспресс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:30–18:00; сб 09:30–11:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.106803,23.750285"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://autolight.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

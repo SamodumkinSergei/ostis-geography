@@ -1,0 +1,26 @@
+ concept_cafe_150914171539
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Время пиццы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Время пиццы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Корженевского, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 199-96-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср-сб 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.848075,27.50183"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_fast_food_178354493921
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Вкусно быстро"]
+	(* <- lang_ru;; <- name;;*);
+    ["Вкусно быстро"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Езерской, 6/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 965-59-28"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910536,30.344627"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

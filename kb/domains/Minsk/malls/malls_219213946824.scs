@@ -1,0 +1,26 @@
+ concept_malls_219213946824
+ <- concept_malls;
+=>nrel_main_idtf:
+	["IntimShop.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["IntimShop.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Мира, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 670-76-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.870522,27.5498"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://intimshop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

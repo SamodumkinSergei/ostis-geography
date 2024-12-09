@@ -1,0 +1,26 @@
+ concept_baby_shop_231863375922
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Toys-likekids"]
+	(* <- lang_ru;; <- name;;*);
+    ["Toys-likekids"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева, 74А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 617-26-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.926928,27.509763"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://toys-likekids.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

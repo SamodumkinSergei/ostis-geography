@@ -1,0 +1,26 @@
+ concept_medicine_100733422320
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гнойное отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гнойное отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Комиссарова, 13/4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 229-64-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.416985,31.012149"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://uggbsmp.by/gnojnoe-xirurgicheskoe-otdelenie/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

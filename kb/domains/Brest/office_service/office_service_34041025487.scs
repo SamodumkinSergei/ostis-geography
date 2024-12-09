@@ -1,0 +1,26 @@
+ concept_office_service_34041025487
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Филиал Брестский городской ремонтно-строительный трест Ремонтно-строительное управление № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Филиал Брестский городской ремонтно-строительный трест Ремонтно-строительное управление № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Писателя Смирнова, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 235-12-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.095226,23.650449"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brestremtrest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_medicine_195492033272
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городская детская поликлиника № 5"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская детская поликлиника № 5"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кунцевщина, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 242-33-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.91237,27.441067"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://5gdp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

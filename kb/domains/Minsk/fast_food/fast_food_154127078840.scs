@@ -1,0 +1,26 @@
+ concept_fast_food_154127078840
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["ЧебурекМи"]
+	(* <- lang_ru;; <- name;;*);
+    ["ЧебурекМи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Зыбицкая улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 354-93-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905829,27.560331"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://cheburek.me/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_malls_224323355164
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Fsn Gallery"]
+	(* <- lang_ru;; <- name;;*);
+    ["Fsn Gallery"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Максима Богдановича, 108"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 111-11-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 11:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.932909,27.579781"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://fsn.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

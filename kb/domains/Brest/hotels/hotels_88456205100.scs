@@ -1,0 +1,26 @@
+ concept_hotels_88456205100
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Dom Nad Stawem"]
+	(* <- lang_ru;; <- name;;*);
+    ["Dom Nad Stawem"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Люблинское воеводство, повят Бяльский, Тересполь, Новая улица, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+48  695 52 48 52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.073365,23.616269"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://nadstawem.net/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

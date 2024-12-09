@@ -1,0 +1,26 @@
+ concept_theatre_1208002384
+ <- concept_theatre;
+=>nrel_main_idtf:
+	["Национальный академический театр имени Я. Купалы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Национальный академический театр имени Я. Купалы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Энгельса, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 327-32-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.900786,27.562592"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kupalauski.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

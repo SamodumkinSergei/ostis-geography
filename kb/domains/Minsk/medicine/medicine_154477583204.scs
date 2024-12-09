@@ -1,0 +1,26 @@
+ concept_medicine_154477583204
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["1-я Городская Клиническая больница, Планово-экономический Отдел"]
+	(* <- lang_ru;; <- name;;*);
+    ["1-я Городская Клиническая больница, Планово-экономический Отдел"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 64к3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 373-46-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919376,27.594715"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://1gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

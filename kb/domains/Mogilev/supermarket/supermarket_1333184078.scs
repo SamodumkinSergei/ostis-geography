@@ -1,0 +1,26 @@
+ concept_supermarket_1333184078
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Нива"]
+	(* <- lang_ru;; <- name;;*);
+    ["Нива"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Залуцкого, 20к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 274-10-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.87189,30.383864"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

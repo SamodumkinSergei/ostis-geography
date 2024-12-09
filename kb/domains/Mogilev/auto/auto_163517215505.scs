@@ -1,0 +1,26 @@
+ concept_auto_163517215505
+ <- concept_auto;
+=>nrel_main_idtf:
+	["АвтоЛедиКлуб"]
+	(* <- lang_ru;; <- name;;*);
+    ["АвтоЛедиКлуб"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Жемчужная улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 120-04-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.945406,30.372282"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://autoledi.club/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

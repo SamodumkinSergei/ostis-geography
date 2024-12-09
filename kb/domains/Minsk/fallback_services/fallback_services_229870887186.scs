@@ -1,0 +1,26 @@
+ concept_fallback_services_229870887186
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гранитный мастер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гранитный мастер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Веры Хоружей, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 754-10-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.922786,27.55675"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://granmastery.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

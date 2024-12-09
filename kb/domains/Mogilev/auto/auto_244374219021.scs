@@ -1,0 +1,26 @@
+ concept_auto_244374219021
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Самрем сервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Самрем сервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Соломинка, улица Турова, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 585-18-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00; сб,вс 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.943317,30.367165"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://avtoremontmogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

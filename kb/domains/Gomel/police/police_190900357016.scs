@@ -1,0 +1,26 @@
+ concept_police_190900357016
+ <- concept_police;
+=>nrel_main_idtf:
+	["ОВД администрации Центрального района г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОВД администрации Центрального района г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Головацкого, 135"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 251-58-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.4517,31.030021"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gomel.mvd.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

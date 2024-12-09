@@ -1,0 +1,26 @@
+ concept_bus_stop_189496134642
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Владимирова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Владимирова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Владимирова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.4304,30.947107"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

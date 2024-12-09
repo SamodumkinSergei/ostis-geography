@@ -1,0 +1,26 @@
+ concept_baby_shop_133687632900
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["ToyZi"]
+	(* <- lang_ru;; <- name;;*);
+    ["ToyZi"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Кальварийская улица, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 666-64-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907538,27.527727"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://toyzi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

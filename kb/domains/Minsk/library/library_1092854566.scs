@@ -1,0 +1,26 @@
+ concept_library_1092854566
+ <- concept_library;
+=>nrel_main_idtf:
+	["Международная юридическая библиотека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Международная юридическая библиотека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Алоизы Пашкевич, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 224-01-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:30–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910949,27.563117"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://union.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

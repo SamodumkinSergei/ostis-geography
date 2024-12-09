@@ -1,0 +1,26 @@
+ concept_college_1069671385
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 201"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 201"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кунцевщина, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 365-32-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.91254,27.44277"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch201.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

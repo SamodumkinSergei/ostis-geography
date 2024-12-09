@@ -1,0 +1,26 @@
+ concept_college_1066658317
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 96"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 96"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Пушкина, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 378-81-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.89877,27.499091"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch96.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_medicine_1072154774
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["УЗ 10-я Городская детская клиническая поликлиника"]
+	(* <- lang_ru;; <- name;;*);
+    ["УЗ 10-я Городская детская клиническая поликлиника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Шишкина, 24Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 368-66-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:30–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.860888,27.632108"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.10gdp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

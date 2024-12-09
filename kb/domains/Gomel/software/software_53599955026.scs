@@ -1,0 +1,26 @@
+ concept_software_53599955026
+ <- concept_software;
+=>nrel_main_idtf:
+	["A1"]
+	(* <- lang_ru;; <- name;;*);
+    ["A1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 333"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 600-01-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.357003,31.02783"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.a1.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

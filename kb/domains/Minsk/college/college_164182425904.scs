@@ -1,0 +1,26 @@
+ concept_college_164182425904
+ <- concept_college;
+=>nrel_main_idtf:
+	["Mind_kids"]
+	(* <- lang_ru;; <- name;;*);
+    ["Mind_kids"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Масюковщина, 44"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 353-30-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.931277,27.449357"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mind-kids.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

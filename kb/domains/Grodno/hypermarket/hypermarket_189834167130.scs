@@ -1,0 +1,26 @@
+ concept_hypermarket_189834167130
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Ареада"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ареада"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Индустриальная улица, 2А/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 539-88-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.661931,23.80275"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://areada.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

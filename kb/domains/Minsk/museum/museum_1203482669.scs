@@ -1,0 +1,26 @@
+ concept_museum_1203482669
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей современной белорусской государственности"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей современной белорусской государственности"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Карла Маркса, 38"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 234-01-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–16:30; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.899809,27.565157"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://msbd.histmuseum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_car_park_22019625765
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Гараж-стоянка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гараж-стоянка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Литературная улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 501-58-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.94221,27.59641"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

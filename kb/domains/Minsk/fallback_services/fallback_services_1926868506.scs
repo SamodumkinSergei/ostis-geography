@@ -1,0 +1,26 @@
+ concept_fallback_services_1926868506
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Минск-мемориал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минск-мемориал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Веры Хоружей, 6В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 990-77-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919226,27.578853"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://minsk-memorial.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

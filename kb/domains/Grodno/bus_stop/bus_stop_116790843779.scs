@@ -1,0 +1,26 @@
+ concept_bus_stop_116790843779
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Юбилейная"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Юбилейная"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Городенская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.676893,23.725802"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

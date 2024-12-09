@@ -1,0 +1,26 @@
+ concept_petshop_220516849277
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Зоомагазин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зоомагазин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица 39-й Армии, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 362-76-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.170362,30.127379"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitzoomarket.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

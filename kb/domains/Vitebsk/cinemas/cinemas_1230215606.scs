@@ -1,0 +1,26 @@
+ concept_cinemas_1230215606
+ <- concept_cinemas;
+=>nrel_main_idtf:
+	["Кинотеатр Минск"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кинотеатр Минск"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебская область, Новополоцк, Молодёжная улица, 152"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 458-00-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:30–21:00, перерыв 15:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.523133,28.676251"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

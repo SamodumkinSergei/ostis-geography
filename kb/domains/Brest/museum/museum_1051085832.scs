@@ -1,0 +1,26 @@
+ concept_museum_1051085832
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Дом культуры железнодорожников"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дом культуры железнодорожников"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Кижеватова, 9/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 226-27-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.102812,23.6845"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://brest.rw.by/social_sphere/kul_turno_sportivnij_centr/dom_kul_turi_zheleznodorozhnikov/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

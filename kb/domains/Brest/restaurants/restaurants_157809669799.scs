@@ -1,0 +1,26 @@
+ concept_restaurants_157809669799
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Le Boeuf Sur Le Quai"]
+	(* <- lang_ru;; <- name;;*);
+    ["Le Boeuf Sur Le Quai"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Бретань, Финистер, Округ Брест, Брест, Rue Commandant Malbert, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 2 98 43 91 34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["48.382073,-4.489636"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://boeufsurlequai.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

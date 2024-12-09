@@ -1,0 +1,26 @@
+ concept_baby_shop_5851455234
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Дядя Фёдор"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дядя Фёдор"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гоголя, 78"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 798-14-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.09401,23.698445"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

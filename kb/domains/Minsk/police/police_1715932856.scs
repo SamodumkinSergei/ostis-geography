@@ -1,0 +1,26 @@
+ concept_police_1715932856
+ <- concept_police;
+=>nrel_main_idtf:
+	["Управление ДИН МВД Республики Беларусь по г. Минску и Минской области"]
+	(* <- lang_ru;; <- name;;*);
+    ["Управление ДИН МВД Республики Беларусь по г. Минску и Минской области"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Центральная улица, 7Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 215-20-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.866304,27.648658"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mvd.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

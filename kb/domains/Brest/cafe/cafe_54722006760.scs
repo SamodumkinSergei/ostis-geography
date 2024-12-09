@@ -1,0 +1,26 @@
+ concept_cafe_54722006760
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Гагарин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гагарин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Дзержинского, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 298-77-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.088571,23.6909"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://cafe-gagarin.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

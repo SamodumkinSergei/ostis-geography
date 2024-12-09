@@ -1,0 +1,26 @@
+ concept_cafe_73660323349
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Smille coffee"]
+	(* <- lang_ru;; <- name;;*);
+    ["Smille coffee"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Привокзальная площадь, 4Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–22:00; сб,вс 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.925728,30.339792"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.smile-coffee.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

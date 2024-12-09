@@ -1,0 +1,26 @@
+ concept_fallback_services_115631582554
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Памятники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Машерова, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 824-82-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–18:00; сб 11:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.086714,23.700207"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://brestgranit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

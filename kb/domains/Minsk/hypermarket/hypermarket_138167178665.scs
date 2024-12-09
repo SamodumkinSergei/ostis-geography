@@ -1,0 +1,26 @@
+ concept_hypermarket_138167178665
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Актамир"]
+	(* <- lang_ru;; <- name;;*);
+    ["Актамир"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, переулок Бехтерева, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 360-03-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:15, перерыв 12:00–12:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.874995,27.643144"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://aktamir.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

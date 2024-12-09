@@ -1,0 +1,26 @@
+ concept_college_1124028997
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 17"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 17"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Некрасова, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 235-97-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.193836,30.181198"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://17vitebsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_hotels_1780738009
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Коттедж Гранд Плаза"]
+	(* <- lang_ru;; <- name;;*);
+    ["Коттедж Гранд Плаза"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Новодворский сельсовет, деревня Большой Тростенец, Совхозная улица, 63"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 799-10-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.857991,27.713005"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://grand-plaza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

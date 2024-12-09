@@ -1,0 +1,26 @@
+ concept_hypermarket_100188313404
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Адаманд-Комплект"]
+	(* <- lang_ru;; <- name;;*);
+    ["Адаманд-Комплект"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Челюскинцев, 137/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 556-09-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.886201,30.291641"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://adamand.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_college_62776895923
+ <- concept_college;
+=>nrel_main_idtf:
+	["Школа Мужества"]
+	(* <- lang_ru;; <- name;;*);
+    ["Школа Мужества"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Краснозвёздная улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 376-14-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–21:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911519,27.582511"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pobeditel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

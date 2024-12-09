@@ -1,0 +1,26 @@
+ concept_restaurants_155643402866
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Хинкальня"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хинкальня"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 150А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 727-47-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.860279,27.674293"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://taplink.cc/hinkalnyaminsk"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

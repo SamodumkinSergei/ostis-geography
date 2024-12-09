@@ -1,0 +1,26 @@
+ concept_cafe_108562697930
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Столовая № 1 БГТУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столовая № 1 БГТУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Свердлова, 13А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 355-62-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00; сб 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.891736,27.560196"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belstu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

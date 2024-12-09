@@ -1,0 +1,26 @@
+ concept_cafe_1068005036
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Веста"]
+	(* <- lang_ru;; <- name;;*);
+    ["Веста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Крупской, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 221-70-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:30–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.091696,23.682114"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://hotelvesta.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

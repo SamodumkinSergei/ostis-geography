@@ -1,0 +1,26 @@
+ concept_banks_1027456981
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Приорбанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Приорбанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Строителей, 11А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 289-90-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.170769,30.215364"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.priorbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_auto_1806125221
+ <- concept_auto;
+=>nrel_main_idtf:
+	["СТО Автомеханик"]
+	(* <- lang_ru;; <- name;;*);
+    ["СТО Автомеханик"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Харьковская улица, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 323-20-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90414,27.523769"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.automehanik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

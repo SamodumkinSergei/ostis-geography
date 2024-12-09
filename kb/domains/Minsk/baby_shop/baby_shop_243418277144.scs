@@ -1,0 +1,26 @@
+ concept_baby_shop_243418277144
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Собирай играй"]
+	(* <- lang_ru;; <- name;;*);
+    ["Собирай играй"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Платонова, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 729-86-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910421,27.592734"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.cubaduba.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_restaurants_42181819854
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Cultura"]
+	(* <- lang_ru;; <- name;;*);
+    ["Cultura"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 100"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 377-37-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00, перерыв 16:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.938465,27.481701"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_hairdressers_1043162151
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Креатив Студия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Креатив Студия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Машерова, 86"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 504-22-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00; вс 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.089269,23.708416"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

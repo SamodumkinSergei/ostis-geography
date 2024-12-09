@@ -1,0 +1,26 @@
+ concept_mobile_phones_82445377798
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Гарант Сервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гарант Сервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Мазурова, 74"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 515-15-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 09:30–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.456532,31.022366"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://garant-service.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

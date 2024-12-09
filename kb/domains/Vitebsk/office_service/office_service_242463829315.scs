@@ -1,0 +1,26 @@
+ concept_office_service_242463829315
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Белтаможсервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белтаможсервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проезд Гоголя, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 261-62-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.186471,30.202835"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://declarant.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_45827868867
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Княгининская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Княгининская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Мястровская улица, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.938469,27.465729"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

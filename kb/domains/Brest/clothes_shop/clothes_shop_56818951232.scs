@@ -1,0 +1,26 @@
+ concept_clothes_shop_56818951232
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Бонус"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бонус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Маяковского, 17/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 644-45-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 11:00–18:00; вс 11:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.093529,23.690068"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

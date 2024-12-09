@@ -1,0 +1,26 @@
+ concept_travel_agency_1322126800
+ <- concept_travel_agency;
+=>nrel_main_idtf:
+	["Добра хата"]
+	(* <- lang_ru;; <- name;;*);
+    ["Добра хата"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Смолевичский район, Озерицко-Слободской сельсовет, деревня Прилепы, Школьный переулок"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 857-67-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.075955,27.834169"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dobra-hata.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

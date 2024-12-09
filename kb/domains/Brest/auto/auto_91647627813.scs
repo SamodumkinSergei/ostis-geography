@@ -1,0 +1,26 @@
+ concept_auto_91647627813
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Брестский ЦСМС"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестский ЦСМС"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Катин Бор, 99Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 258-08-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:15–17:00, перерыв 12:30–13:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.140998,23.660906"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://csm.brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

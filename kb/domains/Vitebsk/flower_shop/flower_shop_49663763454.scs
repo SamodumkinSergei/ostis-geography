@@ -1,0 +1,26 @@
+ concept_flower_shop_49663763454
+ <- concept_flower_shop;
+=>nrel_main_idtf:
+	["Расцветай"]
+	(* <- lang_ru;; <- name;;*);
+    ["Расцветай"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 240-20-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.177317,30.231274"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://rascvetai.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

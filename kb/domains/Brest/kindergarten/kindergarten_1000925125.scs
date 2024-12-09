@@ -1,0 +1,26 @@
+ concept_kindergarten_1000925125
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 71 г. Бреста"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 71 г. Бреста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гурова, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 226-26-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.105101,23.681501"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ds71brest.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

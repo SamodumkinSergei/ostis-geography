@@ -1,0 +1,26 @@
+ concept_hotels_13559055602
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["La Ferme de la Chapelle"]
+	(* <- lang_ru;; <- name;;*);
+    ["La Ferme de la Chapelle"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Франция, Фекам, Route Du Phare"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 2 35 10 12 12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["49.764397,0.373352"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.fermedelachapelle.fr/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

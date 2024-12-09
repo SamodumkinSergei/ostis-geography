@@ -1,0 +1,26 @@
+ concept_spa_1100755497
+ <- concept_spa;
+=>nrel_main_idtf:
+	["Lakme"]
+	(* <- lang_ru;; <- name;;*);
+    ["Lakme"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кольцова, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 680-66-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб 09:00–20:00; вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.952337,27.610089"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

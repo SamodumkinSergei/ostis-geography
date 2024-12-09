@@ -1,0 +1,26 @@
+ concept_fallback_services_69154281296
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Раз Два Пицца"]
+	(* <- lang_ru;; <- name;;*);
+    ["Раз Два Пицца"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 97, корп. 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 849-84-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–01:00; пт,сб 10:00–02:00; вс 10:00–01:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.456297,30.993095"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://razdvapizza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

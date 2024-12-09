@@ -1,0 +1,26 @@
+ concept_office_service_67610413497
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Интернет-магазин stroyhim.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Интернет-магазин stroyhim.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Долгобродская улица, 75"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.883442,27.632555"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://stroyhim.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

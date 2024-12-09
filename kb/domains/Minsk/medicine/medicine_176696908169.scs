@@ -1,0 +1,26 @@
+ concept_medicine_176696908169
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Отдел по внебюджетной деятельности"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отдел по внебюджетной деятельности"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лейтенанта Кижеватова, 58к5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 297-00-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–16:30, перерыв 13:00–13:30; пт 08:30–16:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.851949,27.534522"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bsmp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

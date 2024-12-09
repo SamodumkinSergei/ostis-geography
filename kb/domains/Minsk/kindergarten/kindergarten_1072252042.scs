@@ -1,0 +1,26 @@
+ concept_kindergarten_1072252042
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["ГУО детский сад № 227"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО детский сад № 227"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Щербакова, 22А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 378-96-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–19:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.886661,27.605621"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu227.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

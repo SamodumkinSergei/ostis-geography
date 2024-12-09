@@ -1,0 +1,26 @@
+ concept_cafe_196426474977
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Таверна у друзей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Таверна у друзей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Якубовского, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 233-19-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.91711,30.313756"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ysabrou.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

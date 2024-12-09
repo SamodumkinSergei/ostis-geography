@@ -1,0 +1,26 @@
+ concept_currency_exchange_68412141342
+ <- concept_currency_exchange;
+=>nrel_main_idtf:
+	["Технобанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Технобанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Налибокская улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 388-57-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:35, перерывы 12:00–12:45, 14:30–15:30, 17:30–18:00, 19:45–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.926811,27.440342"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://tb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

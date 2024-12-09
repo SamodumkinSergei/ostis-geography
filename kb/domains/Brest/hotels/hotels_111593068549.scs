@@ -1,0 +1,26 @@
+ concept_hotels_111593068549
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Гостевой дом Верас"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гостевой дом Верас"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Шишкина, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 532-11-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.108283,23.685575"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

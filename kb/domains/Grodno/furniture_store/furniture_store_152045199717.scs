@@ -1,0 +1,26 @@
+ concept_furniture_store_152045199717
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Зов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, микрорайон Грандичи, Капличная улица, 18А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 273-14-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.718235,23.820282"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://zovofficial.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

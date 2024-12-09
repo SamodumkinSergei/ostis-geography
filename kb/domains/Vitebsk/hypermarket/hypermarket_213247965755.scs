@@ -1,0 +1,26 @@
+ concept_hypermarket_213247965755
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Веста"]
+	(* <- lang_ru;; <- name;;*);
+    ["Веста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Богатырёва, 20А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 267-80-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.168668,30.273051"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.vesta-retail.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

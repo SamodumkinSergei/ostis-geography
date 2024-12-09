@@ -1,0 +1,26 @@
+ concept_clothes_shop_237092381105
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Брестский чулочный комбинат"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестский чулочный комбинат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ильинского, 43"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 267-83-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–18:00; вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.192872,30.196635"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bchk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

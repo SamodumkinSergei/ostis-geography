@@ -1,0 +1,26 @@
+ concept_fallback_services_41497584901
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Памятники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, площадь Славы"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 731-33-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–15:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912443,30.339258"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://памятники-могилев.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_office_service_77516344834
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Belavia, головной офис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Belavia, головной офис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Немига, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 220-25-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–18:00, перерыв 13:00–13:45; пт 09:00–16:45, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902529,27.548411"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://belavia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

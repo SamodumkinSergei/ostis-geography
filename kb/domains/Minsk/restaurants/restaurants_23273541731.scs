@@ -1,0 +1,26 @@
+ concept_restaurants_23273541731
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Пит Stop"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пит Stop"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 154Д"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 269-64-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.933449,27.67435"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://korona.by/pit-stop/tc-korona-dom"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

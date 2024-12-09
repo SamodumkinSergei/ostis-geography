@@ -1,0 +1,26 @@
+ concept_fallback_services_220464229973
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Элит Гранит"]
+	(* <- lang_ru;; <- name;;*);
+    ["Элит Гранит"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Чаусское шоссе, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 162-66-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб,вс 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.879732,30.406499"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://elit-granit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_malls_1194594035
+ <- concept_malls;
+=>nrel_main_idtf:
+	["ВелоСити"]
+	(* <- lang_ru;; <- name;;*);
+    ["ВелоСити"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Уманская улица, 54, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 328-18-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–20:00; вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.874229,27.499373"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://bikesport.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

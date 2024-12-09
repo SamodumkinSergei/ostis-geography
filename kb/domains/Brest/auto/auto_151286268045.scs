@@ -1,0 +1,26 @@
+ concept_auto_151286268045
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Patron Авто"]
+	(* <- lang_ru;; <- name;;*);
+    ["Patron Авто"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Кирова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 900-33-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:30–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.085931,23.705586"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

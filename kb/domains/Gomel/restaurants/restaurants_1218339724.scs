@@ -1,0 +1,26 @@
+ concept_restaurants_1218339724
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Сергеевский"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сергеевский"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Рабочая улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 251-25-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 13:00–01:00, перерыв 16:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.448847,30.972833"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

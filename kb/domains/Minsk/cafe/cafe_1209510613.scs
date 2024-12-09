@@ -1,0 +1,26 @@
+ concept_cafe_1209510613
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Камелия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Камелия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Красноармейская улица, 21к6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 630-31-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:00–23:00; пт,сб 11:00–02:00; вс 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.895533,27.575566"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://cafe-kamelia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

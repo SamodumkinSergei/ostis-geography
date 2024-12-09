@@ -1,0 +1,26 @@
+ concept_baby_shop_91147315047
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Timmy"]
+	(* <- lang_ru;; <- name;;*);
+    ["Timmy"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 173-79-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907734,27.484275"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://timmy.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

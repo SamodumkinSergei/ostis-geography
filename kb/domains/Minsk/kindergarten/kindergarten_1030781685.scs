@@ -1,0 +1,26 @@
+ concept_kindergarten_1030781685
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 168"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 168"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Чкалова, 32А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 213-24-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.874574,27.533195"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu168.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

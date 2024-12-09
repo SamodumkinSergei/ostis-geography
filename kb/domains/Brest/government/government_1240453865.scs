@@ -1,0 +1,26 @@
+ concept_government_1240453865
+ <- concept_government;
+=>nrel_main_idtf:
+	["Отдел ЗАГС Брестского городского исполнительного комитета"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отдел ЗАГС Брестского городского исполнительного комитета"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, набережная Франциска Скорины, 38А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 258-93-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт 08:00–17:00, перерыв 13:00–14:00; ср 11:00–20:00, перерыв 15:00–16:00; чт,пт 08:00–17:00, перерыв 13:00–14:00; сб 08:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.084578,23.7154"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://city-brest.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_sportcenter_1052699670
+ <- concept_sportcenter;
+=>nrel_main_idtf:
+	["Боўлінг"]
+	(* <- lang_ru;; <- name;;*);
+    ["Боўлінг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Мира, 21А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 186-78-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 17:00–00:00; пт 17:00–03:00; сб 12:00–04:00; вс 12:00–03:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909978,30.327065"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://nadubrovke.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

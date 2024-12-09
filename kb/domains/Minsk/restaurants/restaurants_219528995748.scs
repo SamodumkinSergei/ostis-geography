@@ -1,0 +1,26 @@
+ concept_restaurants_219528995748
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Шишка Lounge"]
+	(* <- lang_ru;; <- name;;*);
+    ["Шишка Lounge"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 57"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 536-23-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 13:00–02:00; пт 13:00–04:00; сб 14:00–04:00; вс 14:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.875732,27.497385"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://shishkalounge.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

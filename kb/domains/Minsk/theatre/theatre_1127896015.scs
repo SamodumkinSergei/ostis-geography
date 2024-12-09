@@ -1,0 +1,26 @@
+ concept_theatre_1127896015
+ <- concept_theatre;
+=>nrel_main_idtf:
+	["Молодежный театр эстрады"]
+	(* <- lang_ru;; <- name;;*);
+    ["Молодежный театр эстрады"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Московская улица, 18А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 700-35-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–19:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.887132,27.537099"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://estrada.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

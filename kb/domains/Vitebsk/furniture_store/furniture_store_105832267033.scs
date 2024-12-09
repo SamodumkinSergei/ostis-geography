@@ -1,0 +1,26 @@
+ concept_furniture_store_105832267033
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Lovehouse"]
+	(* <- lang_ru;; <- name;;*);
+    ["Lovehouse"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Строителей, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 215-15-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.172357,30.203516"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://lovehouse.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

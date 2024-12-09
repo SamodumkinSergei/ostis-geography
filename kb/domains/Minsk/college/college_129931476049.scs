@@ -1,0 +1,26 @@
+ concept_college_129931476049
+ <- concept_college;
+=>nrel_main_idtf:
+	["Stars' school"]
+	(* <- lang_ru;; <- name;;*);
+    ["Stars' school"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Короля, 2, корп. 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 688-08-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 14:00–23:00; сб 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.900865,27.546542"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://starsschool.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

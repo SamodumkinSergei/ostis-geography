@@ -1,0 +1,26 @@
+ concept_medicine_198538110712
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Лечебный корпус"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лечебный корпус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Красноармейская улица, 10к3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 327-32-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 06:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.898516,27.56744"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://2gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

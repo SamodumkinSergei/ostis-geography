@@ -1,0 +1,26 @@
+ concept_college_196312315235
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гомельский государственный медицинский университет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский государственный медицинский университет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Федюнинского, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.475111,30.980846"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gsmu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

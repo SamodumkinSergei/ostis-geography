@@ -1,0 +1,26 @@
+ concept_fallback_services_1195175274
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гомелькабель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомелькабель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 151"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 256-64-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.471057,30.980381"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomelcable.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

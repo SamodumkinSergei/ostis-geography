@@ -1,0 +1,26 @@
+ concept_office_service_149858392222
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Зерноток, склад"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зерноток, склад"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Центральная улица, 46"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 338-33-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.875045,27.65584"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.zernotok.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

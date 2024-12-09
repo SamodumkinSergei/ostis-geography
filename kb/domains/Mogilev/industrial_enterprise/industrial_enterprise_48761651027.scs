@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_48761651027
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Союзтекс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Союзтекс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Заднепровье-5, Рогачёвская улица, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 222-22-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.87346,30.340249"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

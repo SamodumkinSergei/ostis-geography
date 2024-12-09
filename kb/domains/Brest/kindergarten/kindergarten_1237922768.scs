@@ -1,0 +1,26 @@
+ concept_kindergarten_1237922768
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 12"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 12"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, площадь Свободы, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 221-40-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.091262,23.691004"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ds12brest.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_244826151587
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Станция аэрации"]
+	(* <- lang_ru;; <- name;;*);
+    ["Станция аэрации"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Свислочская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.83187,27.687729"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

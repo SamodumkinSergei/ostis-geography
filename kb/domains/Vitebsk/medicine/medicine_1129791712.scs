@@ -1,0 +1,26 @@
+ concept_medicine_1129791712
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["ГУЗ Клиническая поликлиника № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУЗ Клиническая поликлиника № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Волгоград, набережная Волжской Флотилии, 25А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (8442) 20-05-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["48.814937,44.631925"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://cl-policlinic1.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

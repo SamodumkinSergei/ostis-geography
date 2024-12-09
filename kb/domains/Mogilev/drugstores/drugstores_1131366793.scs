@@ -1,0 +1,26 @@
+ concept_drugstores_1131366793
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Зеленый лист"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зеленый лист"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Ленинская улица, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 264-88-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб,вс 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.898247,30.336278"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.inlek.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

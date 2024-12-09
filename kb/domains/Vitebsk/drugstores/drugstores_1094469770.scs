@@ -1,0 +1,26 @@
+ concept_drugstores_1094469770
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация, аптека № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация, аптека № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Урицкого, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 261-41-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:30–21:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.201517,30.207793"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pharmacia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

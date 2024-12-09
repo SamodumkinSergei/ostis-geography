@@ -1,0 +1,26 @@
+ concept_restaurants_141824264697
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Суши и пицца"]
+	(* <- lang_ru;; <- name;;*);
+    ["Суши и пицца"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 683-80-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.431043,31.01052"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

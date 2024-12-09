@@ -1,0 +1,26 @@
+ concept_hairdressers_1124741783
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Новый Стиль"]
+	(* <- lang_ru;; <- name;;*);
+    ["Новый Стиль"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Строителей, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 718-20-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб,вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.174166,30.200737"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://nstyle.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

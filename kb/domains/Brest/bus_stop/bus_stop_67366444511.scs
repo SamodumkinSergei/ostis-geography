@@ -1,0 +1,26 @@
+ concept_bus_stop_67366444511
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Стародорожная"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стародорожная"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Стародорожная улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.059265,23.685313"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

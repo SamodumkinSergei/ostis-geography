@@ -1,0 +1,26 @@
+ concept_museum_23884880210
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Дом культуры"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дом культуры"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродненская область, Гродненский район, Путришковский сельсовет, агрогородок Путришки, улица Тарханова, 51"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 291-74-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср-вс 09:00–21:00, перерыв 16:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.696577,23.940451"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://putrishki.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

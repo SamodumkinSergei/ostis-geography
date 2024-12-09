@@ -1,0 +1,26 @@
+ concept_science_1000267941
+ <- concept_science;
+=>nrel_main_idtf:
+	["Институт прикладной физики НАН Беларуси"]
+	(* <- lang_ru;; <- name;;*);
+    ["Институт прикладной физики НАН Беларуси"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Академическая улица, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 357-67-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:45; пт 08:30–14:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.913296,27.605438"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://iaph.bas-net.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

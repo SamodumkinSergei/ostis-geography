@@ -1,0 +1,26 @@
+ concept_banks_1101291225
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Белагропромбанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белагропромбанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 91"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 308-88-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,вт 10:00–19:00; ср 10:00–19:00, перерыв 11:00–15:00; чт,пт 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.9333,27.502512"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://belapb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

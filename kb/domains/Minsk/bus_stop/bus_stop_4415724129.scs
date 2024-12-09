@@ -1,0 +1,26 @@
+ concept_bus_stop_4415724129
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Переулок Козлова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Переулок Козлова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Долгобродская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901938,27.601433"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

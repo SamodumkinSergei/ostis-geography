@@ -1,0 +1,26 @@
+ concept_medicine_3430772643
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Поликлиника № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Поликлиника № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Приднестровье, Тирасполь, Краснодонская улица, 68"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+373 533 4-54-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["46.836942,29.670674"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://medico.totl1.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_post_office_1185911883
+ <- concept_post_office;
+=>nrel_main_idtf:
+	["Белпочта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белпочта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Соломинка, Каштановая улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 272-80-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб,вс 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.950195,30.360852"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belpost.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

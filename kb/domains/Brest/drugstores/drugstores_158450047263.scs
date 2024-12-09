@@ -1,0 +1,26 @@
+ concept_drugstores_158450047263
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация, аптека № 76"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация, аптека № 76"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 273В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 252-64-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–21:00; вс 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.097287,23.76705"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://brest.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

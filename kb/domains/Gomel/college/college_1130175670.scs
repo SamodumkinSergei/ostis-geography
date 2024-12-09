@@ -1,0 +1,26 @@
+ concept_college_1130175670
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГУО Чёнковская базовая школа"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО Чёнковская базовая школа"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельский район, Чёнковский сельсовет, посёлок Чёнки, Октябрьская улица, 81"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 296-13-24"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.350399,30.976601"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://chonki.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

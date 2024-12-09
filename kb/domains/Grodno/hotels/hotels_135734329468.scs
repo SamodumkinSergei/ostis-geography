@@ -1,0 +1,26 @@
+ concept_hotels_135734329468
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Гостим"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гостим"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Мостовая улица, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 313-13-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.676641,23.827835"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gosteam.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

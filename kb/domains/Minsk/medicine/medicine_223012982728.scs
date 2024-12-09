@@ -1,0 +1,26 @@
+ concept_medicine_223012982728
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["УЗ Городская клиническая больница № 5, административный корпус"]
+	(* <- lang_ru;; <- name;;*);
+    ["УЗ Городская клиническая больница № 5, административный корпус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Филатова, 9Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 295-33-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.870542,27.635204"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

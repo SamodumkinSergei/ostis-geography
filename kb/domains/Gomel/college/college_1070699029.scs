@@ -1,0 +1,26 @@
+ concept_college_1070699029
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 44 имени Н. А. Лебедева г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 44 имени Н. А. Лебедева г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Юбилейная улица, 4А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 232-01-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.45939,31.004432"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://44gomel.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

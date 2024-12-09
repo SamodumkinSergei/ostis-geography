@@ -1,0 +1,26 @@
+ concept_office_service_187745804283
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Brestappart"]
+	(* <- lang_ru;; <- name;;*);
+    ["Brestappart"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Интернациональная улица, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 721-80-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.900995,27.552893"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.brestappart.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

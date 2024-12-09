@@ -1,0 +1,26 @@
+ concept_fallback_services_1309494407
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гранир"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гранир"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Сухаревская улица, 70"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 257-01-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00, перерыв 14:00–15:00; сб 11:30–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.886542,27.41734"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://granir.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

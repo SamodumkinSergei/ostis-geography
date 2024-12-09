@@ -1,0 +1,26 @@
+ concept_mobile_phones_202702150275
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["МасТех"]
+	(* <- lang_ru;; <- name;;*);
+    ["МасТех"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Дубравная улица, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 903-63-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–19:00, перерыв 15:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.353098,31.047957"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mactex.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

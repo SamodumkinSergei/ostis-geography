@@ -1,0 +1,26 @@
+ concept_malls_1044316227
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Витебское электротехническое предприятие Свет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебское электротехническое предприятие Свет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ломоносова, 4, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 236-66-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.18029,30.183736"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://svet-vitebsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

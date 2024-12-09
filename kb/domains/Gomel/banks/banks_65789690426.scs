@@ -1,0 +1,26 @@
+ concept_banks_65789690426
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Беларусбанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Беларусбанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельский район, агрогородок Красное, Гомельская улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 293-05-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00, перерыв 13:15–14:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.469696,30.921872"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://belarusbank.by/ru/33139/33142/structure/search_filials/~Otdelenie_300_3071"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

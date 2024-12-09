@@ -1,0 +1,26 @@
+ concept_flower_shop_9957009022
+ <- concept_flower_shop;
+=>nrel_main_idtf:
+	["Stihl"]
+	(* <- lang_ru;; <- name;;*);
+    ["Stihl"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Белуша, 20Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 753-50-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.672364,23.85159"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://1926.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

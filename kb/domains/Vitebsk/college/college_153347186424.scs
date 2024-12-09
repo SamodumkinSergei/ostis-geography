@@ -1,0 +1,26 @@
+ concept_college_153347186424
+ <- concept_college;
+=>nrel_main_idtf:
+	["Художественно-графический факультет ВГУ имени П. М. Машерова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Художественно-графический факультет ВГУ имени П. М. Машерова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 33к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 317-95-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.177132,30.224485"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

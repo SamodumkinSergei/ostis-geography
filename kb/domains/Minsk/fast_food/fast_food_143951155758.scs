@@ -1,0 +1,26 @@
+ concept_fast_food_143951155758
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Prime Time"]
+	(* <- lang_ru;; <- name;;*);
+    ["Prime Time"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурганова, 41"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 317-00-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-ср 11:00–23:00; чт 11:00–02:00; пт,сб 11:00–05:00; вс 11:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.926583,27.590733"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bistro41.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

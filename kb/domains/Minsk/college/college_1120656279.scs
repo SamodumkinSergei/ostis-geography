@@ -1,0 +1,26 @@
+ concept_college_1120656279
+ <- concept_college;
+=>nrel_main_idtf:
+	["СДЮШОР по Боксу Усит Мингорисполкома"]
+	(* <- lang_ru;; <- name;;*);
+    ["СДЮШОР по Боксу Усит Мингорисполкома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Пушкина, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 501-12-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905613,27.496973"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://boxingminsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

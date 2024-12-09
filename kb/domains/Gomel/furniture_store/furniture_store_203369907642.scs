@@ -1,0 +1,26 @@
+ concept_furniture_store_203369907642
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Ofisnaya Liga"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ofisnaya Liga"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Гагарина, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 707-21-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.422227,31.003832"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ofisnayaliga.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

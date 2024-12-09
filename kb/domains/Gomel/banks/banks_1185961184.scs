@@ -1,0 +1,26 @@
+ concept_banks_1185961184
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Белагропромбанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белагропромбанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Костюковка, Октябрьская улица, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 297-29-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00, перерыв 14:00–14:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.534614,30.915637"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belapb.by/natural/bankovskie-vklady-depozity/vklady-v-dollarah-ssha/vklad-depozit-plyus-k-stabilnosti-v-dollarah-ssha/?utm_campaign=depositsdollars&utm_medium=maps&utm_source=yandex"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

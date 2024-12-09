@@ -1,0 +1,26 @@
+ concept_hotels_1783941811
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Усадьба Татьяна"]
+	(* <- lang_ru;; <- name;;*);
+    ["Усадьба Татьяна"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Крупицкий сельсовет, деревня Аннополь, Светлая улица, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 611-77-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.684358,27.552402"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_239628702062
+ <- concept_college;
+=>nrel_main_idtf:
+	["Your English School"]
+	(* <- lang_ru;; <- name;;*);
+    ["Your English School"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Шафарнянская улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 773-76-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.950587,27.678831"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://yesenglish.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

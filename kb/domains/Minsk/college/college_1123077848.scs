@@ -1,0 +1,26 @@
+ concept_college_1123077848
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 105"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 105"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Хмелевского, 12А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 352-10-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.888754,27.524731"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch105.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

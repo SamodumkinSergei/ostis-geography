@@ -1,0 +1,26 @@
+ concept_auto_172456303091
+ <- concept_auto;
+=>nrel_main_idtf:
+	["АвтоПассажСервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["АвтоПассажСервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Аульская улица, 13В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.67386,23.956137"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://stogrodno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

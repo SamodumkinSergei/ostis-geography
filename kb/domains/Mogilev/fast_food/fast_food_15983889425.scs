@@ -1,0 +1,26 @@
+ concept_fast_food_15983889425
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Ресторанный стиль"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ресторанный стиль"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 42Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 650-00-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910147,30.339499"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

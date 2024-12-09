@@ -1,0 +1,26 @@
+ concept_malls_35440923810
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Foroom"]
+	(* <- lang_ru;; <- name;;*);
+    ["Foroom"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Советская улица, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 274-29-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.681964,23.83137"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://foroom.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

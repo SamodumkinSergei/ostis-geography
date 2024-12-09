@@ -1,0 +1,26 @@
+ concept_cafe_1018160707
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Зеленый луг"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зеленый луг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Калиновского, 111Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 363-75-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.946427,27.648388"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bistro-olymp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

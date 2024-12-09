@@ -1,0 +1,26 @@
+ concept_college_1317060780
+ <- concept_college;
+=>nrel_main_idtf:
+	["Comp-As"]
+	(* <- lang_ru;; <- name;;*);
+    ["Comp-As"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Лидская улица, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 343-06-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–17:00; сб,вс 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.923081,27.429836"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://comp-as.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_clothes_shop_60832153070
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Европа люкс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Европа люкс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 87А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 273-25-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–19:00; вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.382507,31.027997"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

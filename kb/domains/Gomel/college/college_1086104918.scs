@@ -1,0 +1,26 @@
+ concept_college_1086104918
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 52 г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 52 г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Лазурная улица, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 232-05-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.410504,30.922428"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://52gomel.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

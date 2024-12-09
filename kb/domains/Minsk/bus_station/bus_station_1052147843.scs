@@ -1,0 +1,26 @@
+ concept_bus_station_1052147843
+ <- concept_bus_station;
+=>nrel_main_idtf:
+	["Центральный"]
+	(* <- lang_ru;; <- name;;*);
+    ["Центральный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Бобруйская улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 251-14-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 04:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.88986,27.556126"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://infobus.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

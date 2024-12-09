@@ -1,0 +1,26 @@
+ concept_malls_73839777642
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Vritme"]
+	(* <- lang_ru;; <- name;;*);
+    ["Vritme"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Советская улица, 80"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 899-97-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 11:00–19:00; сб,вс 11:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.088738,23.695464"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vritme-shop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

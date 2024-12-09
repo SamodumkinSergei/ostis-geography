@@ -1,0 +1,26 @@
+ concept_malls_1005448319
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Белсофт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белсофт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Зеньковой, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 260-60-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.191632,30.189093"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://belsoft.vitebsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

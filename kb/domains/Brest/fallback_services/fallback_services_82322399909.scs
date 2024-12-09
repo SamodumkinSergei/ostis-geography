@@ -1,0 +1,26 @@
+ concept_fallback_services_82322399909
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Легран"]
+	(* <- lang_ru;; <- name;;*);
+    ["Легран"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Пионерская улица, 44"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 605-96-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:00–19:00; пт 11:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.101093,23.724458"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

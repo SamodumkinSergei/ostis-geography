@@ -1,0 +1,26 @@
+ concept_office_135555782823
+ <- concept_office;
+=>nrel_main_idtf:
+	["Альфа-банк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Альфа-банк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Немига, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 666-90-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903129,27.550722"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://hub.client-club.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

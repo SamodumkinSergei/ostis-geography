@@ -1,0 +1,26 @@
+ concept_cafe_141526296236
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Cofix"]
+	(* <- lang_ru;; <- name;;*);
+    ["Cofix"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 168/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 655-97-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:30–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.94521,27.69047"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://cofix.global/ru-by/main/minsk/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

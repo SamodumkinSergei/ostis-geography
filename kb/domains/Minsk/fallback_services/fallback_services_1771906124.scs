@@ -1,0 +1,26 @@
+ concept_fallback_services_1771906124
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Белокаменка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белокаменка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Матусевича, 90"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 646-20-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916516,27.437631"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://belokamenka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

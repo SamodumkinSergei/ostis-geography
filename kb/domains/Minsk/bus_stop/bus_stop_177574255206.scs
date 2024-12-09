@@ -1,0 +1,26 @@
+ concept_bus_stop_177574255206
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Станция метро Парк Челюскинцев"]
+	(* <- lang_ru;; <- name;;*);
+    ["Станция метро Парк Челюскинцев"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.924512,27.615422"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

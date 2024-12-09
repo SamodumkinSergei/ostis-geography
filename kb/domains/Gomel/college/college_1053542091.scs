@@ -1,0 +1,26 @@
+ concept_college_1053542091
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 62 г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 62 г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Речицкий проспект, 140"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 231-48-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.402406,30.911667"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://62gomel.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

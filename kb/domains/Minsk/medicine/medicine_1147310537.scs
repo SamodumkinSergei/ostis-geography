@@ -1,0 +1,26 @@
+ concept_medicine_1147310537
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Республиканский центр медицинской реабилитации и бальнеолечения"]
+	(* <- lang_ru;; <- name;;*);
+    ["Республиканский центр медицинской реабилитации и бальнеолечения"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Макаёнка, 17, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 686-27-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–21:00; сб 08:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917907,27.627955"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://makaenka17med.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

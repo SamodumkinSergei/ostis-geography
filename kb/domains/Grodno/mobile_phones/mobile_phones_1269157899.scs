@@ -1,0 +1,26 @@
+ concept_mobile_phones_1269157899
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["РефАйТи"]
+	(* <- lang_ru;; <- name;;*);
+    ["РефАйТи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Карбышева, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 382-60-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 11:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.681219,23.836634"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.ref-it.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

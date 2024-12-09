@@ -1,0 +1,26 @@
+ concept_fallback_services_23770793552
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Ангел"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ангел"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Димитрова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 712-87-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–16:00; сб 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.196234,30.19276"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://magazinangel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

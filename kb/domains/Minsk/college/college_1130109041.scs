@@ -1,0 +1,26 @@
+ concept_college_1130109041
+ <- concept_college;
+=>nrel_main_idtf:
+	["Начальная школа № 29 г. Минска имени братьев Сенько"]
+	(* <- lang_ru;; <- name;;*);
+    ["Начальная школа № 29 г. Минска имени братьев Сенько"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Солнечная улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 357-55-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.86381,27.562774"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://nsch29.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

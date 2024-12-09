@@ -1,0 +1,26 @@
+ concept_supermarket_65697870017
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Минимаркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минимаркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский район, микрорайон Степянка, Южная улица, 39"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 394-18-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.913364,27.683093"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

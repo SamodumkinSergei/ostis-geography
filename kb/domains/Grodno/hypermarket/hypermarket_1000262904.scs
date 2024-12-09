@@ -1,0 +1,26 @@
+ concept_hypermarket_1000262904
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Тайфун ПТ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Тайфун ПТ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Аульская улица, 18А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 268-88-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.669289,23.950655"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://taifun.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_stadium_203750925211
+ <- concept_stadium;
+=>nrel_main_idtf:
+	["Стадион"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стадион"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебский район, Новкинский сельсовет, агрогородок Новка"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 269-04-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.133639,30.152662"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://fsk-urozhay.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

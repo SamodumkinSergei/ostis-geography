@@ -1,0 +1,26 @@
+ concept_restaurants_1084681917
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Ресторан отеля Hermitage"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ресторан отеля Hermitage"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Чкалова, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 227-60-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–23:00; сб,вс 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.094034,23.681342"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://hermitagehotel.by/restaurants"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_college_115966608322
+ <- concept_college;
+=>nrel_main_idtf:
+	["Факультет экономики и бизнес-управления ВГТУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Факультет экономики и бизнес-управления ВГТУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 72А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 249-53-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.177853,30.236848"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ef.vstu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

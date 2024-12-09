@@ -1,0 +1,26 @@
+ concept_car_park_7679611248
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Парковка ТЦ Galileo"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парковка ТЦ Galileo"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Бобруйская улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 344-24-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.890379,27.553274"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://galileomall.by/service/parking.html"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

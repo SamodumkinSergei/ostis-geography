@@ -1,0 +1,26 @@
+ concept_government_1039027688
+ <- concept_government;
+=>nrel_main_idtf:
+	["Главное управление торговли и услуг Брестского облисполкома"]
+	(* <- lang_ru;; <- name;;*);
+    ["Главное управление торговли и услуг Брестского облисполкома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Ленина, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 221-37-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.094048,23.683992"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brest-region.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_restaurants_181467360429
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Osteria la Bruscetta"]
+	(* <- lang_ru;; <- name;;*);
+    ["Osteria la Bruscetta"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Комсомольская улица, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 556-63-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–23:00; пт,сб 12:00–00:00; вс 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902873,27.551966"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

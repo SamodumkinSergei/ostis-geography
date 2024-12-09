@@ -1,0 +1,26 @@
+ concept_office_service_218238691395
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Регита Витебск"]
+	(* <- lang_ru;; <- name;;*);
+    ["Регита Витебск"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Терешковой, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 651-61-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.17772,30.248944"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://regita.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

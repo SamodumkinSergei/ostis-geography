@@ -1,0 +1,26 @@
+ concept_medicine_239283529951
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гомельская городская клиническая больница № 3, кардиологическое отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельская городская клиническая больница № 3, кардиологическое отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 286к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 253-38-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.355509,31.03419"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.ggkb3.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

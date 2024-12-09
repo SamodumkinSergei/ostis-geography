@@ -1,0 +1,26 @@
+ concept_cafe_189041839081
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Beans&Leaves cafe"]
+	(* <- lang_ru;; <- name;;*);
+    ["Beans&Leaves cafe"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 507-17-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908486,27.548415"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://beansleaves.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

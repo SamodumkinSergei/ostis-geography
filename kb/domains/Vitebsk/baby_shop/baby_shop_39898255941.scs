@@ -1,0 +1,26 @@
+ concept_baby_shop_39898255941
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Твоя игрушка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Твоя игрушка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Генерала Белобородова, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 714-96-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.182431,30.199981"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://твояигрушка.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

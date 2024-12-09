@@ -1,0 +1,26 @@
+ concept_cafe_99968204205
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Roastery House Coffee"]
+	(* <- lang_ru;; <- name;;*);
+    ["Roastery House Coffee"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Стамбул, Фатих, махалля Топкапы, улица Шехит Алпай Башаран, 12A"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+90 552 796 87 03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["41.019752,28.931884"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.roasteryhouse.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

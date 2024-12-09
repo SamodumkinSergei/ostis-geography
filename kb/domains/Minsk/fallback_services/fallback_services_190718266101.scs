@@ -1,0 +1,26 @@
+ concept_fallback_services_190718266101
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Сифуд-Сервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сифуд-Сервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 7А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 309-70-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907685,27.54978"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://seafoodservice.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

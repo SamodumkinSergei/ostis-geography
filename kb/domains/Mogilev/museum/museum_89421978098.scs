@@ -1,0 +1,26 @@
+ concept_museum_89421978098
+ <- concept_museum;
+=>nrel_main_idtf:
+	["БелАЗ, дом культуры"]
+	(* <- lang_ru;; <- name;;*);
+    ["БелАЗ, дом культуры"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Холмы, Автозаводская улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 260-38-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.885814,30.410702"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

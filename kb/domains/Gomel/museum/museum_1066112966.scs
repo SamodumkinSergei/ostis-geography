@@ -1,0 +1,26 @@
+ concept_museum_1066112966
+ <- concept_museum;
+=>nrel_main_idtf:
+	["ГУ центр культуры Гомельского района"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУ центр культуры Гомельского района"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 38"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 236-24-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.386894,31.030074"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://цкгомель.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

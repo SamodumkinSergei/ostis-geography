@@ -1,0 +1,26 @@
+ concept_college_155538071782
+ <- concept_college;
+=>nrel_main_idtf:
+	["Витебский государственный университет имени П. М. Машерова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебский государственный университет имени П. М. Машерова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 237-49-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.177724,30.226446"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

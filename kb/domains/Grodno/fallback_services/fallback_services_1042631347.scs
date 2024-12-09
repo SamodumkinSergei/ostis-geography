@@ -1,0 +1,26 @@
+ concept_fallback_services_1042631347
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Микс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Микс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Дзержинского, 127"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 278-78-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.710038,23.840604"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://miksgrodno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

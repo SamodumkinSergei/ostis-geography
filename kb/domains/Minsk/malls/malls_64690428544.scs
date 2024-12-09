@@ -1,0 +1,26 @@
+ concept_malls_64690428544
+ <- concept_malls;
+=>nrel_main_idtf:
+	["УручьеТорг"]
+	(* <- lang_ru;; <- name;;*);
+    ["УручьеТорг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Никифорова, 51"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 399-68-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.942465,27.698312"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

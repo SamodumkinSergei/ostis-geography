@@ -1,0 +1,26 @@
+ concept_malls_140003355067
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Atlant"]
+	(* <- lang_ru;; <- name;;*);
+    ["Atlant"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Мира, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 273-60-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб,вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909052,30.331364"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.atlantshop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

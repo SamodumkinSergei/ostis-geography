@@ -1,0 +1,26 @@
+ concept_drugstores_64216615205
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека Доброго Дня"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека Доброго Дня"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Привокзальная площадь, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["0800 500-129"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–21:00; вс 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.099862,23.679609"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.add.ua/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

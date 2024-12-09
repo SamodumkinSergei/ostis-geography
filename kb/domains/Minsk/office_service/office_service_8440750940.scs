@@ -1,0 +1,26 @@
+ concept_office_service_8440750940
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Офисы и Склады БСТМ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Офисы и Склады БСТМ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Промышленный переулок, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 123-38-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.837593,27.685143"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.ascom.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

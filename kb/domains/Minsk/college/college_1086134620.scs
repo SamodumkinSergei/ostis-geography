@@ -1,0 +1,26 @@
+ concept_college_1086134620
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минский государственный профессиональный лицей № 9 автомобилестроения"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский государственный профессиональный лицей № 9 автомобилестроения"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Социалистическая улица, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 291-21-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:00–12:30; сб 08:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.86286,27.658708"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://licey9.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

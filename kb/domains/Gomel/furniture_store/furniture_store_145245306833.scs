@@ -1,0 +1,26 @@
+ concept_furniture_store_145245306833
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Мегамебель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мегамебель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельский район, агрогородок Ерёмино, Комсомольская улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 165-44-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.509041,30.92648"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mega-mebel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

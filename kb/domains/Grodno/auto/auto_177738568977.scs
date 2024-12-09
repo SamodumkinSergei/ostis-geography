@@ -1,0 +1,26 @@
+ concept_auto_177738568977
+ <- concept_auto;
+=>nrel_main_idtf:
+	["ПроСТОавто"]
+	(* <- lang_ru;; <- name;;*);
+    ["ПроСТОавто"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Коммунальная улица, 32/3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 655-55-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.68779,23.814589"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://prostoavto.bitrix24site.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

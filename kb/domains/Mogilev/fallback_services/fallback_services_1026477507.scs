@@ -1,0 +1,26 @@
+ concept_fallback_services_1026477507
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Белорусское речное пароходство, филиал речной порт Могилёв"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусское речное пароходство, филиал речной порт Могилёв"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Кутепова, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 248-14-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.872648,30.296446"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.parohodstvo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

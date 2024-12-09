@@ -1,0 +1,26 @@
+ concept_police_1110241668
+ <- concept_police;
+=>nrel_main_idtf:
+	["УВД Гомельского областного исполнительного комитета"]
+	(* <- lang_ru;; <- name;;*);
+    ["УВД Гомельского областного исполнительного комитета"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Коммунаров, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 250-88-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.426941,31.012281"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gomel.mvd.gov.by/ru"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

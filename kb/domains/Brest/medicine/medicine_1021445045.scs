@@ -1,0 +1,26 @@
+ concept_medicine_1021445045
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Брестская городская поликлиника № 6"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестская городская поликлиника № 6"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Лактионова, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 234-01-24"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–20:00; сб 08:30–15:00; вс 08:30–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.097997,23.785944"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://brpol6.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

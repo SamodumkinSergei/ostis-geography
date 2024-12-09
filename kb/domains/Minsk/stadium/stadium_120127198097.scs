@@ -1,0 +1,26 @@
+ concept_stadium_120127198097
+ <- concept_stadium;
+=>nrel_main_idtf:
+	["Стадион БГПУ им. М. Танка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стадион БГПУ им. М. Танка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, исторический район Сеножаны"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 228-03-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.875465,27.554799"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pool.bspu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

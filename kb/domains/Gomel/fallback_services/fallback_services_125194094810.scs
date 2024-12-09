@@ -1,0 +1,26 @@
+ concept_fallback_services_125194094810
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Монстр пицца"]
+	(* <- lang_ru;; <- name;;*);
+    ["Монстр пицца"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, 2-я Революционная улица, 8/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 382-46-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.439929,31.007138"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://monsterpizza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

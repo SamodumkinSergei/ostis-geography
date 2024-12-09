@@ -1,0 +1,26 @@
+ concept_fallback_services_147748728497
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Ремонт инструмента"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт инструмента"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Гаспадарчая улица, 23А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 169-94-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.712179,23.824369"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://remont.tools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

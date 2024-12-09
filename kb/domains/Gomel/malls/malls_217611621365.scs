@@ -1,0 +1,26 @@
+ concept_malls_217611621365
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Фотонавсё"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фотонавсё"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 60"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 337-50-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.439343,31.003571"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://fotonavse.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

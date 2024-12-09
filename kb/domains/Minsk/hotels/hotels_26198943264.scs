@@ -1,0 +1,26 @@
+ concept_hotels_26198943264
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Willing"]
+	(* <- lang_ru;; <- name;;*);
+    ["Willing"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Октябрьская улица, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 336-90-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.889462,27.577603"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://willinghotel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

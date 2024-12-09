@@ -1,0 +1,26 @@
+ concept_bus_stop_27916332338
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Центральный рынок"]
+	(* <- lang_ru;; <- name;;*);
+    ["Центральный рынок"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Белуша"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.672399,23.841921"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

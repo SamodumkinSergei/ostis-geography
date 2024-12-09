@@ -1,0 +1,26 @@
+ concept_drugstores_45982757880
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация, аптека № 319"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация, аптека № 319"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 80к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 264-35-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб,вс 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.195776,30.244177"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pharmacia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

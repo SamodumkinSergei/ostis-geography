@@ -1,0 +1,26 @@
+ concept_kindergarten_1087076717
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Детский сад № 567"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский сад № 567"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Космонавтов, 39"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 365-29-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.846939,27.457697"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu567.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_restaurants_1353208018
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Terra"]
+	(* <- lang_ru;; <- name;;*);
+    ["Terra"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Бурдейного, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 159-11-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:30–23:00; пт,сб 22:00–05:00; вс 09:30–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903758,27.454926"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.terrapizza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

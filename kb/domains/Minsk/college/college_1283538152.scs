@@ -1,0 +1,26 @@
+ concept_college_1283538152
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минская богословская семинария союза ЕХБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минская богословская семинария союза ЕХБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Яна Райниса, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 785-50-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873365,27.611538"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.mbseminary.org/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

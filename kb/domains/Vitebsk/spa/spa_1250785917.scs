@@ -1,0 +1,26 @@
+ concept_spa_1250785917
+ <- concept_spa;
+=>nrel_main_idtf:
+	["Студия красоты Витебскэнерго"]
+	(* <- lang_ru;; <- name;;*);
+    ["Студия красоты Витебскэнерго"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Правды, 30Д"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 566-73-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб,вс 12:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.189589,30.218271"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.vitebsk.energo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

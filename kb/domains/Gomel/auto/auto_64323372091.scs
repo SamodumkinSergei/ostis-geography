@@ -1,0 +1,26 @@
+ concept_auto_64323372091
+ <- concept_auto;
+=>nrel_main_idtf:
+	["ПрофРемКардан"]
+	(* <- lang_ru;; <- name;;*);
+    ["ПрофРемКардан"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Залинейный, улица Рокоссовского"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 116-15-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.428694,30.988891"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kardan-gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

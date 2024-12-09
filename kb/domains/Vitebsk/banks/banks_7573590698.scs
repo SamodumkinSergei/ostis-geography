@@ -1,0 +1,26 @@
+ concept_banks_7573590698
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Банк БЕЛВЭБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Банк БЕЛВЭБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Кирова, 6/37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 215-61-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.194553,30.191451"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belveb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

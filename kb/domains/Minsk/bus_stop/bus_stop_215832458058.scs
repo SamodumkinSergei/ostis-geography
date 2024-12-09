@@ -1,0 +1,26 @@
+ concept_bus_stop_215832458058
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Остановка общественного транспорта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Остановка общественного транспорта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Колесникова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916639,27.43724"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_hairdressers_1152012697
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Мона парикмахерская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мона парикмахерская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 773-72-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб 10:00–17:00; вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.430801,31.0106"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://online-zapis.com/online/00055"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

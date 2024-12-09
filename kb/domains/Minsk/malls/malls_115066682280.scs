@@ -1,0 +1,26 @@
+ concept_malls_115066682280
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Автозапчасть"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автозапчасть"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Некрасова, 73"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 169-60-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб,вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.938068,27.576379"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://zapchastiopel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

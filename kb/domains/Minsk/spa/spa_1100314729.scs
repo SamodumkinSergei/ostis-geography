@@ -1,0 +1,26 @@
+ concept_spa_1100314729
+ <- concept_spa;
+=>nrel_main_idtf:
+	["Венера"]
+	(* <- lang_ru;; <- name;;*);
+    ["Венера"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Сухаревская улица, 39"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 250-51-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–21:00; вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.886849,27.420801"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://salonvenera.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_museum_1060890868
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Берегиня, архитектурный факультет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Берегиня, архитектурный факультет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 65Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 293-92-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–17:00, перерыв 13:00–14:00; пт 10:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.920965,27.592949"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bntu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

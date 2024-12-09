@@ -1,0 +1,26 @@
+ concept_hairdressers_1021179652
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Вилена"]
+	(* <- lang_ru;; <- name;;*);
+    ["Вилена"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Марка Шагала, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 646-91-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–18:00; сб 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.18877,30.202455"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

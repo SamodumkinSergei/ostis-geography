@@ -1,0 +1,26 @@
+ concept_college_97910456470
+ <- concept_college;
+=>nrel_main_idtf:
+	["БГУИР, факультет радиотехники и электроники"]
+	(* <- lang_ru;; <- name;;*);
+    ["БГУИР, факультет радиотехники и электроники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петруся Бровки, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 293-88-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 13:00–14:00; пт 08:30–16:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917644,27.595052"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsuir.by/ru/fre"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

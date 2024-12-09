@@ -1,0 +1,26 @@
+ concept_college_24289790763
+ <- concept_college;
+=>nrel_main_idtf:
+	["Наследие"]
+	(* <- lang_ru;; <- name;;*);
+    ["Наследие"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Франциска Скорины, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 177-23-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.92913,27.656865"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://nasledieschool.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

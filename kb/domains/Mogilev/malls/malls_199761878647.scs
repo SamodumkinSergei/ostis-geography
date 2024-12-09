@@ -1,0 +1,26 @@
+ concept_malls_199761878647
+ <- concept_malls;
+=>nrel_main_idtf:
+	["М4"]
+	(* <- lang_ru;; <- name;;*);
+    ["М4"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Якубовского, 90"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 748-86-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919527,30.286372"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://m4.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

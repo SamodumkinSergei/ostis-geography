@@ -1,0 +1,26 @@
+ concept_baby_shop_206462599758
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Toystory"]
+	(* <- lang_ru;; <- name;;*);
+    ["Toystory"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Глебки, 64"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 722-00-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917787,27.472314"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://toystory.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

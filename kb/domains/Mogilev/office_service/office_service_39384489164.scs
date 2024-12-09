@@ -1,0 +1,26 @@
+ concept_office_service_39384489164
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Белоруснефть-Могилёвоблнефтепродукт, сектор обслуживания корпоративных клиентов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белоруснефть-Могилёвоблнефтепродукт, сектор обслуживания корпоративных клиентов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 249-88-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.898971,30.333183"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belorusneft.by/sitebeloil/ru/addUp/about/stucture/marketing/supplies/mogilev"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

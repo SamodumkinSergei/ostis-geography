@@ -1,0 +1,26 @@
+ concept_museum_1093905356
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей автографа"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей автографа"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 221-27-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,вт,ср,чт,сб,вс 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.429894,31.011371"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gorbibl.gomel.by/museum.html"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

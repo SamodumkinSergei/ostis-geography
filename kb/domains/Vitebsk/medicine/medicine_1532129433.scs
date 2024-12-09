@@ -1,0 +1,26 @@
+ concept_medicine_1532129433
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Поликлиника метрополитена"]
+	(* <- lang_ru;; <- name;;*);
+    ["Поликлиника метрополитена"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Санкт-Петербург, Трамвайный проспект, 22к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (812) 718-33-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–20:00; сб 08:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["59.856418,30.273275"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.metropolik.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

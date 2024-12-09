@@ -1,0 +1,26 @@
+ concept_kindergarten_59766974740
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Мэджик Лэнд клаб"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мэджик Лэнд клаб"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский район, микрорайон Большая Слепянка, улица Бронислава Тарашкевича, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 523-77-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.921322,27.648047"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://magicland.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

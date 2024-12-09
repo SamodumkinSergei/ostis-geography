@@ -1,0 +1,26 @@
+ concept_hotels_35001868042
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Магия Камня"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магия Камня"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Минский район, СТ Политехник БНТУ, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 505-62-97"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.980872,27.512882"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_medicine_1016645594
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гомельская областная клиническая поликлиника, отделение медицинской реабилитации"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельская областная клиническая поликлиника, отделение медицинской реабилитации"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Артёма, 4/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 250-49-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–20:00; сб 08:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.431041,31.017579"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://medcity.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

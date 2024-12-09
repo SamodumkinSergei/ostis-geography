@@ -1,0 +1,26 @@
+ concept_malls_223358061828
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Aliante"]
+	(* <- lang_ru;; <- name;;*);
+    ["Aliante"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Мира, 25Г"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 720-25-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909299,30.330502"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://aliante.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

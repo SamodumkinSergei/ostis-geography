@@ -1,0 +1,26 @@
+ concept_baby_shop_207532750933
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Граф Жираф"]
+	(* <- lang_ru;; <- name;;*);
+    ["Граф Жираф"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Дунина-Марцинкевича, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 696-59-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906973,27.492373"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://grafgiraf.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

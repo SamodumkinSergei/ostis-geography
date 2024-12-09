@@ -1,0 +1,26 @@
+ concept_college_1074755506
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 121 г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 121 г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Калиновского, 50"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 364-90-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–18:00, перерыв 13:00–14:00; сб 09:00–21:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.93911,27.648725"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch121.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

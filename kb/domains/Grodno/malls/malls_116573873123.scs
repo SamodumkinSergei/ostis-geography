@@ -1,0 +1,26 @@
+ concept_malls_116573873123
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Торговый центр Фламинго"]
+	(* <- lang_ru;; <- name;;*);
+    ["Торговый центр Фламинго"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Ольги Соломовой, 82"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 260-20-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.663259,23.785024"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

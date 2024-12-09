@@ -1,0 +1,26 @@
+ concept_hairdressers_1480874986
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Smile"]
+	(* <- lang_ru;; <- name;;*);
+    ["Smile"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чкалова, 19к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 702-19-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.173824,30.213006"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://smile-salon.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

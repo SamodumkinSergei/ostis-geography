@@ -1,0 +1,26 @@
+ concept_fallback_services_242825218161
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Радиосхема"]
+	(* <- lang_ru;; <- name;;*);
+    ["Радиосхема"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 710-00-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.182232,30.207986"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://radiosxema.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

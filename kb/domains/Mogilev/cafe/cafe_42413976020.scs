@@ -1,0 +1,26 @@
+ concept_cafe_42413976020
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Neo"]
+	(* <- lang_ru;; <- name;;*);
+    ["Neo"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Дзержинского, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 150-04-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пт 18:00–05:00; сб 13:00–05:00; вс 13:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901435,30.332744"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

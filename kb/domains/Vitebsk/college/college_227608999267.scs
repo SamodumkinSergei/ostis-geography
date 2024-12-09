@@ -1,0 +1,26 @@
+ concept_college_227608999267
+ <- concept_college;
+=>nrel_main_idtf:
+	["Факультет физической культуры и спорта ВГУ имени П. М. Машерова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Факультет физической культуры и спорта ВГУ имени П. М. Машерова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чапаева, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 267-93-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30, перерыв 11:00–11:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.199207,30.235789"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.vsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_206482779971
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Мастерская гранита"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мастерская гранита"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Васнецова, 50"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 399-03-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.863687,27.626385"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pomnik.mrk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

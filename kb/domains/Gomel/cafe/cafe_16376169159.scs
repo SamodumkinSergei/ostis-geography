@@ -1,0 +1,26 @@
+ concept_cafe_16376169159
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кофе Саунд экспресс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кофе Саунд экспресс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Фрунзе, 6А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.416065,31.00228"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://main.coffeesound.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

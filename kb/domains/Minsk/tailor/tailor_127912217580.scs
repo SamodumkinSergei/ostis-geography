@@ -1,0 +1,26 @@
+ concept_tailor_127912217580
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Мастерская бытовых услуг"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мастерская бытовых услуг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Данилы Сердича, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 120-57-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911941,27.489225"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

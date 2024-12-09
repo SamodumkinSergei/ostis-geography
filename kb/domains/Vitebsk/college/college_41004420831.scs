@@ -1,0 +1,26 @@
+ concept_college_41004420831
+ <- concept_college;
+=>nrel_main_idtf:
+	["Учебный корпус № 2 ВГУ имени П. М. Машерова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Учебный корпус № 2 ВГУ имени П. М. Машерова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чехова, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 226-25-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.203287,30.205423"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

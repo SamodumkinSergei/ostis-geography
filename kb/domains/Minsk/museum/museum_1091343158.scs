@@ -1,0 +1,26 @@
+ concept_museum_1091343158
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей гражданской авиации РБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей гражданской авиации РБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Короткевича, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 243-32-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:15–17:00, перерыв 12:30–13:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873992,27.53131"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

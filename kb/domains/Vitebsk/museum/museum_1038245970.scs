@@ -1,0 +1,26 @@
+ concept_museum_1038245970
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей истории частного коллекционирования"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей истории частного коллекционирования"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 260-15-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.192311,30.20922"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://michk.vitebsk.museum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

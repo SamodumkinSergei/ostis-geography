@@ -1,0 +1,26 @@
+ concept_fallback_services_36172042127
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Изготовление памятников и надгробий"]
+	(* <- lang_ru;; <- name;;*);
+    ["Изготовление памятников и надгробий"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебская область, Полоцк, Строительная улица, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 349-76-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.4668,28.75439"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pomniki.org/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

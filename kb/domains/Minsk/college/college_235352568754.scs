@@ -1,0 +1,26 @@
+ concept_college_235352568754
+ <- concept_college;
+=>nrel_main_idtf:
+	["Dzh Minsk школа Архитектуры"]
+	(* <- lang_ru;; <- name;;*);
+    ["Dzh Minsk школа Архитектуры"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 626-05-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб,вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.89944,27.557492"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dzh-minsk.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_medicine_97667657323
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["33-я Городская Студенческая поликлиника, 2-е Терапевтическое отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["33-я Городская Студенческая поликлиника, 2-е Терапевтическое отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурганова, 45к4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 331-86-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.925827,27.586328"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.33gsp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

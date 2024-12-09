@@ -1,0 +1,26 @@
+ concept_cafe_34367505167
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Бизнес Паб"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бизнес Паб"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Гаспадарчая улица, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 244-34-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.710653,23.826172"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bpub.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

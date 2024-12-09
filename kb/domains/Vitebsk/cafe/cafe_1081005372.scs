@@ -1,0 +1,26 @@
+ concept_cafe_1081005372
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кофейня Кофе хауз"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кофейня Кофе хауз"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Киев, Большая Житомирская улица, 8/14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+380 (44) 278-59-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["50.455597,30.516695"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

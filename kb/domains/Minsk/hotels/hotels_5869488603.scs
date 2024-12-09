@@ -1,0 +1,26 @@
+ concept_hotels_5869488603
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Guest House Zayamnae"]
+	(* <- lang_ru;; <- name;;*);
+    ["Guest House Zayamnae"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Смолевичский район, Драчковский сельсовет, деревня Заямное, Центральная улица, 24А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 651-79-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.850092,27.900263"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

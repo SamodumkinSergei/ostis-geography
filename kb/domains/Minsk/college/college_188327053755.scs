@@ -1,0 +1,26 @@
+ concept_college_188327053755
+ <- concept_college;
+=>nrel_main_idtf:
+	["Кафедра патологической анатомии БГМУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафедра патологической анатомии БГМУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лейтенанта Кижеватова, 60"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 398-72-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.849776,27.532071"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsmu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

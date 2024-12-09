@@ -1,0 +1,26 @@
+ concept_supermarket_4863294718
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Колос"]
+	(* <- lang_ru;; <- name;;*);
+    ["Колос"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Бурденко, 4/10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 240-64-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905851,30.322627"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

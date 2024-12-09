@@ -1,0 +1,26 @@
+ concept_fast_food_112221614498
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Burger Club"]
+	(* <- lang_ru;; <- name;;*);
+    ["Burger Club"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 85"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 229-09-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.385704,31.028735"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

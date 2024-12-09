@@ -1,0 +1,26 @@
+ concept_government_114046785180
+ <- concept_government;
+=>nrel_main_idtf:
+	["Госпромнадзор Гомельское областное управление"]
+	(* <- lang_ru;; <- name;;*);
+    ["Госпромнадзор Гомельское областное управление"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Олимпийская улица, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 251-29-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.479314,31.025546"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gospromnadzor.mchs.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_hotels_86593366510
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Apartment on Pushkina Mogilev"]
+	(* <- lang_ru;; <- name;;*);
+    ["Apartment on Pushkina Mogilev"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Беларусь, Могилев, Pushkin Avenue"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.87559,30.34051"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

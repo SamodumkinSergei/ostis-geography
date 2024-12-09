@@ -1,0 +1,26 @@
+ concept_petshop_145377378043
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Зоо Лавка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зоо Лавка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Космонавтов, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 513-70-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912131,30.318603"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://zoolavka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

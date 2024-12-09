@@ -1,0 +1,26 @@
+ concept_supermarket_31007759210
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Плюс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Плюс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Юбилейный, улица Народного Ополчения, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 277-61-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–21:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90478,30.358373"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.inplus.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

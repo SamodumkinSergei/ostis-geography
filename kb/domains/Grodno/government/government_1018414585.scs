@@ -1,0 +1,26 @@
+ concept_government_1018414585
+ <- concept_government;
+=>nrel_main_idtf:
+	["Центр социального обслуживания населения Октябрьского района города Гродно"]
+	(* <- lang_ru;; <- name;;*);
+    ["Центр социального обслуживания населения Октябрьского района города Гродно"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Фомичёва, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 254-36-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 08:00–16:30, перерыв 13:00–13:30; вт 08:00–13:00; ср 08:00–16:30, перерыв 13:00–13:30; чт,пт 08:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.662293,23.847211"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://aor.gov.by/service_center/4"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

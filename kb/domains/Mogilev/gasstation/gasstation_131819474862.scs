@@ -1,0 +1,26 @@
+ concept_gasstation_131819474862
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Роснефть"]
+	(* <- lang_ru;; <- name;;*);
+    ["Роснефть"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Ленинская улица, 97"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["8 (801) 100-71-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916898,30.348729"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.rn-card.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

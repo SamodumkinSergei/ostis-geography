@@ -1,0 +1,26 @@
+ concept_restaurants_23674321058
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Peaky Blinders"]
+	(* <- lang_ru;; <- name;;*);
+    ["Peaky Blinders"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Гурского, 56"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 344-44-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.876238,27.495248"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://peakyblinders.by/fotootchety/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

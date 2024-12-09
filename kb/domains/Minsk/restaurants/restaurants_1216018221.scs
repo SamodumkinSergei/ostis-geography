@@ -1,0 +1,26 @@
+ concept_restaurants_1216018221
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Il Grottino"]
+	(* <- lang_ru;; <- name;;*);
+    ["Il Grottino"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Интернациональная улица, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 243-63-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902058,27.554715"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ilgrottino.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

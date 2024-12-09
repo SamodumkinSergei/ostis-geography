@@ -1,0 +1,26 @@
+ concept_drugstores_1195774993
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Строителей, 22А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 277-49-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00, перерыв 13:30–13:50; сб,вс 09:00–17:20, перерыв 13:30–13:50"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907562,30.295439"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

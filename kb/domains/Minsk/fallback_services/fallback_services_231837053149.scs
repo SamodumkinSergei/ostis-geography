@@ -1,0 +1,26 @@
+ concept_fallback_services_231837053149
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Память в камне"]
+	(* <- lang_ru;; <- name;;*);
+    ["Память в камне"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ванеева, 42/6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 348-40-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.875705,27.588889"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pamyatvkamne.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

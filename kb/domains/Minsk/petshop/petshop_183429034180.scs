@@ -1,0 +1,26 @@
+ concept_petshop_183429034180
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Зоомаркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зоомаркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Логойский тракт, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 599-84-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–21:00; сб,вс 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.954461,27.618152"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://e-zoo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

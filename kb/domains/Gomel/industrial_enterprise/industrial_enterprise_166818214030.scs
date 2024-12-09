@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_166818214030
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Гомельдрев"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельдрев"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельская область, Речица, Могилёвская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 406-87-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:30–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.349462,30.334089"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gomeldrev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_malls_1161359123
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Трезвый сантехник"]
+	(* <- lang_ru;; <- name;;*);
+    ["Трезвый сантехник"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, микрорайон Старые Задворцы"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 608-88-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.12272,23.770953"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ecovata-expert.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

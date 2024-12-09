@@ -1,0 +1,26 @@
+ concept_hypermarket_241269269560
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Всё для ремонта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Всё для ремонта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, переулок Гоголя, 2Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 144-19-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб,вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.93172,30.36103"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

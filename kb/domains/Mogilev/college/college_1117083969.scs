@@ -1,0 +1,26 @@
+ concept_college_1117083969
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа Вейнянская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа Вейнянская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёвская область, Могилёвский район, Недашевский сельсовет, Князевка, Школьная улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 220-26-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.801942,30.430322"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://veino.mogilev.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

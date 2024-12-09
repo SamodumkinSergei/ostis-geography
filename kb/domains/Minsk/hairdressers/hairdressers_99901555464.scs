@@ -1,0 +1,26 @@
+ concept_hairdressers_99901555464
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Сати"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сати"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Городской Вал, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 455-29-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб,вс 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.898963,27.552305"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

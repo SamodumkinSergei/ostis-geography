@@ -1,0 +1,26 @@
+ concept_gasstation_1235116686
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["БелТрансОйл-Сервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["БелТрансОйл-Сервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Катин Бор, 95А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 229-73-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.142268,23.657115"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_restaurants_1289631992
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Жюль Верн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Жюль Верн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гоголя, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 570-35-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.091712,23.689115"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://santarest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

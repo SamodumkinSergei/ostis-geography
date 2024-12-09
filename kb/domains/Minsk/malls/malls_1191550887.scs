@@ -1,0 +1,26 @@
+ concept_malls_1191550887
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Maximus"]
+	(* <- lang_ru;; <- name;;*);
+    ["Maximus"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лобанка, 94"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 375-18-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.886947,27.428211"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://maximus-tc.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_police_1293546050
+ <- concept_police;
+=>nrel_main_idtf:
+	["УГАИ УВД Гомельского областного исполнительного комитета"]
+	(* <- lang_ru;; <- name;;*);
+    ["УГАИ УВД Гомельского областного исполнительного комитета"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Федюнинского, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 250-44-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.47721,30.986186"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

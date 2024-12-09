@@ -1,0 +1,26 @@
+ concept_supermarket_105861560971
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Эконом-маркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Эконом-маркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Огоренко, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 230-04-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.468868,31.022673"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

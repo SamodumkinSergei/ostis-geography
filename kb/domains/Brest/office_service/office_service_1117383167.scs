@@ -1,0 +1,26 @@
+ concept_office_service_1117383167
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Нотариальная контора Московского района города Бреста"]
+	(* <- lang_ru;; <- name;;*);
+    ["Нотариальная контора Московского района города Бреста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Кирова, 105"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 253-59-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 09:00–18:00; вт 09:00–19:00; ср 09:00–18:00; чт 08:00–17:00; пт 09:00–19:00; сб 08:00–16:00; вс 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.09298,23.702244"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://belnotary.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

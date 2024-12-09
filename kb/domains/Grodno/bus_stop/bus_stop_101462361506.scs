@@ -1,0 +1,26 @@
+ concept_bus_stop_101462361506
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Районные электрические сети"]
+	(* <- lang_ru;; <- name;;*);
+    ["Районные электрические сети"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Тавлая"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.695073,23.854283"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

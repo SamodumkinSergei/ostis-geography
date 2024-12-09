@@ -1,0 +1,26 @@
+ concept_medicine_1040908891
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["1134 Военный клинический медицинский центр"]
+	(* <- lang_ru;; <- name;;*);
+    ["1134 Военный клинический медицинский центр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Дзержинского, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 279-35-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.689688,23.83687"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://1134.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

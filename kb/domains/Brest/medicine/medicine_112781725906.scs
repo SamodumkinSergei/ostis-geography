@@ -1,0 +1,26 @@
+ concept_medicine_112781725906
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Брестская областная консультативная поликлиника"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестская областная консультативная поликлиника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Медицинская улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 237-01-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.106645,23.812816"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.hospital.brest.by/polyclinic/online-registry"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

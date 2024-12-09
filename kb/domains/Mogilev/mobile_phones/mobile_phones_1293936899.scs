@@ -1,0 +1,26 @@
+ concept_mobile_phones_1293936899
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Телремсервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Телремсервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Королёва, 37А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 626-45-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–19:00; сб,вс 11:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903465,30.365749"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.telrem.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

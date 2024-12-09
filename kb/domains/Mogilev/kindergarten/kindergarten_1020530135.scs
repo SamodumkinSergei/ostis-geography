@@ -1,0 +1,26 @@
+ concept_kindergarten_1020530135
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["ГУО Дошкольный центр развития ребёнка № 3 г. Могилёва"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО Дошкольный центр развития ребёнка № 3 г. Могилёва"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Островского, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 270-23-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873904,30.326993"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://dcrr3-mogilev.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

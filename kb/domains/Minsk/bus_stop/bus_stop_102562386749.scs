@@ -1,0 +1,26 @@
+ concept_bus_stop_102562386749
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Хмарынская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хмарынская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Советский район, микрорайон Цна, Хмаринская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.970548,27.587968"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_18260409284
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Память в камне"]
+	(* <- lang_ru;; <- name;;*);
+    ["Память в камне"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 181"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 622-00-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.946772,27.689478"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pamyatvkamne.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

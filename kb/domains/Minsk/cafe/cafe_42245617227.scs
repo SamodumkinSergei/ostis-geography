@@ -1,0 +1,26 @@
+ concept_cafe_42245617227
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Столовая МАЗ Мск-1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столовая МАЗ Мск-1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Социалистическая улица, 2/23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 12:30–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.862267,27.662383"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

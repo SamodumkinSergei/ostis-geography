@@ -1,0 +1,26 @@
+ concept_hypermarket_1127689476
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Бумажная Гильдия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бумажная Гильдия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Шилова, 7В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 221-57-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.461387,30.993309"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://bumgild.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

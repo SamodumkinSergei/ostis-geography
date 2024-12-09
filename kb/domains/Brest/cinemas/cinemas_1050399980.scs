@@ -1,0 +1,26 @@
+ concept_cinemas_1050399980
+ <- concept_cinemas;
+=>nrel_main_idtf:
+	["Мир"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мир"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Пушкинская улица, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 234-18-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.094443,23.687654"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.kinobrest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

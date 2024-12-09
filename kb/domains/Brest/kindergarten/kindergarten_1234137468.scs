@@ -1,0 +1,26 @@
+ concept_kindergarten_1234137468
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 46 г. Бреста"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 46 г. Бреста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Адамковская улица, 46/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 240-83-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.101309,23.653321"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ds46brest.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_auto_1100000551
+ <- concept_auto;
+=>nrel_main_idtf:
+	["ОАО Белкард, город Гродно"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОАО Белкард, город Гродно"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Счастного, 38"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 252-41-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.66667,23.827968"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.belcard-grodno.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_auto_1146524483
+ <- concept_auto;
+=>nrel_main_idtf:
+	["GoodAvto"]
+	(* <- lang_ru;; <- name;;*);
+    ["GoodAvto"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Бетонный проезд, 5Ак2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 617-00-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.896536,27.50853"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://goodavto.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

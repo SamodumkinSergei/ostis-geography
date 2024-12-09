@@ -1,0 +1,26 @@
+ concept_government_7994770766
+ <- concept_government;
+=>nrel_main_idtf:
+	["Сектор культуры администрации Советского района г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сектор культуры администрации Советского района г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 55"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 347-75-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:45–18:00, перерыв 13:00–14:00; пт 08:45–16:45, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.918398,27.588617"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sov.minsk.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

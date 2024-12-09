@@ -1,0 +1,26 @@
+ concept_supermarket_217649900023
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Плюс экспресс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Плюс экспресс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Лепешинского, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 273-89-97"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–22:00; сб,вс 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90229,30.341506"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.inplus.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

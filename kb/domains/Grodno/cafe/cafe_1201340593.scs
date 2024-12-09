@@ -1,0 +1,26 @@
+ concept_cafe_1201340593
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Спадчына"]
+	(* <- lang_ru;; <- name;;*);
+    ["Спадчына"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Белуша, 43"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 271-86-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–19:00; пт-вс 12:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.671558,23.853221"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

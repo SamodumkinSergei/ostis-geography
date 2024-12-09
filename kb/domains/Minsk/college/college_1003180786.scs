@@ -1,0 +1,26 @@
+ concept_college_1003180786
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гимназия № 6 г. Минска Учебный корпус № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гимназия № 6 г. Минска Учебный корпус № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Восточная улица, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 242-30-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 07:30–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.934393,27.596659"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gymn6.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_banks_229876327375
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Альфа-банк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Альфа-банк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 273В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["198"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:30–19:15, перерывы 12:00–12:15, 14:30–15:00, 17:10–17:25"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.097279,23.767043"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.alfabank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_cafe_20388867236
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Пена Дней"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пена Дней"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Интернациональная улица, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 655-44-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–23:00; пт 09:00–02:00; сб 10:00–02:00; вс 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903851,27.558801"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://taplink.cc/penadney"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

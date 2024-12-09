@@ -1,0 +1,26 @@
+ concept_petshop_87632654377
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["ФаунТаун"]
+	(* <- lang_ru;; <- name;;*);
+    ["ФаунТаун"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 186"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 651-01-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.947627,27.697026"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://shop-pet.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

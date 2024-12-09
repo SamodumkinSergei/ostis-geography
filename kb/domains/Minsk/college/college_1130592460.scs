@@ -1,0 +1,26 @@
+ concept_college_1130592460
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минский государственный туристско-экологический центр детей и молодежи"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский государственный туристско-экологический центр детей и молодежи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Воронянского, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 116-83-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:45–18:00, перерыв 13:00–14:00; пт 08:45–16:45, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878223,27.558824"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mgtec.net.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

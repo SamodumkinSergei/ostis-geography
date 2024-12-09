@@ -1,0 +1,26 @@
+ concept_auto_182211528760
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автосервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автосервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Смолевичи, Магистральная улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 762-95-97"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.024541,28.065049"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://сто-смолевичи.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

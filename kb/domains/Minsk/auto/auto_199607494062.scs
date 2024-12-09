@@ -1,0 +1,26 @@
+ concept_auto_199607494062
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Фургон"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фургон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Мележа, 5, корп. 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 753-08-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–21:00, перерыв 13:00–14:00; вс 08:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.939922,27.597846"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sto88.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

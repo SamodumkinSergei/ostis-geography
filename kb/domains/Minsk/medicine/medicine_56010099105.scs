@@ -1,0 +1,26 @@
+ concept_medicine_56010099105
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Пункт вакцинации 4-ой ГКБ им. Н. Е. Савченко"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пункт вакцинации 4-ой ГКБ им. Н. Е. Савченко"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Розы Люксембург, 110Б/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 207-38-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 12:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.891498,27.516688"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://4gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

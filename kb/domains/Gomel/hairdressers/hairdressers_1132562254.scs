@@ -1,0 +1,26 @@
+ concept_hairdressers_1132562254
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Завиток"]
+	(* <- lang_ru;; <- name;;*);
+    ["Завиток"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Карповича, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 234-52-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 08:30–17:00, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.425844,30.998806"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rinok-centr.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

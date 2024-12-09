@@ -1,0 +1,26 @@
+ concept_cafe_225628934828
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Живой Хлеб"]
+	(* <- lang_ru;; <- name;;*);
+    ["Живой Хлеб"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Куйбышева, 69"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 690-10-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.921062,27.576393"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://zhivoyxleb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

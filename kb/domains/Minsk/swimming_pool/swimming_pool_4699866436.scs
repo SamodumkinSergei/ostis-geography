@@ -1,0 +1,26 @@
+ concept_swimming_pool_4699866436
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Babyswim"]
+	(* <- lang_ru;; <- name;;*);
+    ["Babyswim"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурганова, 28А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 920-80-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 17:30–19:30; ср 09:30–12:00; пт 10:00–12:00; сб 09:30–19:30, перерыв 12:00–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.926298,27.596326"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://babyswim.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

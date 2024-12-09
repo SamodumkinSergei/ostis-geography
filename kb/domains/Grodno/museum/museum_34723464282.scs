@@ -1,0 +1,26 @@
+ concept_museum_34723464282
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Гродненский областной методический центр народного творчества"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненский областной методический центр народного творчества"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Советская улица, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 262-37-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.680861,23.829103"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gromc.by/omtsnt/vyistavochnyiy-zal/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

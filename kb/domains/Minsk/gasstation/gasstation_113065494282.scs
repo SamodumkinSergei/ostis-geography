@@ -1,0 +1,26 @@
+ concept_gasstation_113065494282
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["РОС-ВТС"]
+	(* <- lang_ru;; <- name;;*);
+    ["РОС-ВТС"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Героев Сталинграда, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.955267,27.724381"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

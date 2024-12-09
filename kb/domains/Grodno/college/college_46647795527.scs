@@ -1,0 +1,26 @@
+ concept_college_46647795527
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГРГУ имени Янки Купалы, Факультет искусства и дизайна"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГРГУ имени Янки Купалы, Факультет искусства и дизайна"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, площадь Антония Тызенгауза, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 277-05-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.685132,23.833467"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.grsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

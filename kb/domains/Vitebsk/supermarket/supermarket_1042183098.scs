@@ -1,0 +1,26 @@
+ concept_supermarket_1042183098
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Ника"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 260-15-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.193524,30.22393"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.nika.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

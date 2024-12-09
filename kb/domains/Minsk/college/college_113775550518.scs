@@ -1,0 +1,26 @@
+ concept_college_113775550518
+ <- concept_college;
+=>nrel_main_idtf:
+	["Кафедра общественного здоровья и экологии БГМУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафедра общественного здоровья и экологии БГМУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинградская улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 200-89-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–19:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.894661,27.550573"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsmu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

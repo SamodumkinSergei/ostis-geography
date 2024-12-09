@@ -1,0 +1,26 @@
+ concept_office_service_69830395107
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Baza Stroek"]
+	(* <- lang_ru;; <- name;;*);
+    ["Baza Stroek"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Короля, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 200-45-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902406,27.541516"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bazastroek.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

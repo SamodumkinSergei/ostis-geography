@@ -1,0 +1,26 @@
+ concept_furniture_store_196633826105
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Лером"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лером"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Янки Купалы, 94"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 120-66-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.110294,23.749187"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://lerom.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

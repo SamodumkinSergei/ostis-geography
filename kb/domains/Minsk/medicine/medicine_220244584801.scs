@@ -1,0 +1,26 @@
+ concept_medicine_220244584801
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Объединенный институт проблем информатики НАН Беларуси, лаборатория распознавания и синтеза речи"]
+	(* <- lang_ru;; <- name;;*);
+    ["Объединенный институт проблем информатики НАН Беларуси, лаборатория распознавания и синтеза речи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурганова, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–17:00; пт 09:00–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.92012,27.603441"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ssrlab.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

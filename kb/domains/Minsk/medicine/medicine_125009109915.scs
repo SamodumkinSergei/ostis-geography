@@ -1,0 +1,26 @@
+ concept_medicine_125009109915
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Кордис медицинский центр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кордис медицинский центр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Аэродромная улица, 125"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 153-04-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873107,27.558441"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://cordis.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

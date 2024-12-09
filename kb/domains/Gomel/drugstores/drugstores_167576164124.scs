@@ -1,0 +1,26 @@
+ concept_drugstores_167576164124
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Ремедика"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремедика"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица М.Г. Ефремова, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 558-73-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.457077,30.961075"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://remedika.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

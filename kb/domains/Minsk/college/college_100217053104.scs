@@ -1,0 +1,26 @@
+ concept_college_100217053104
+ <- concept_college;
+=>nrel_main_idtf:
+	["Estet School"]
+	(* <- lang_ru;; <- name;;*);
+    ["Estet School"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Газеты Правда, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 154-50-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.871472,27.486973"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://estetschoolminsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

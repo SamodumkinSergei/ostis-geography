@@ -1,0 +1,26 @@
+ concept_auto_173199020367
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Mogilevtruck"]
+	(* <- lang_ru;; <- name;;*);
+    ["Mogilevtruck"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Челюскинцев, 172/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 371-72-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.879121,30.265455"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mogilevtruck.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

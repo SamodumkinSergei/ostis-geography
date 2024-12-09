@@ -1,0 +1,26 @@
+ concept_gasstation_1131567432
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["АЗС № 6 Газпромнефть"]
+	(* <- lang_ru;; <- name;;*);
+    ["АЗС № 6 Газпромнефть"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ваупшасова, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["8 (800) 700-51-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.895332,27.647849"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gpncard.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

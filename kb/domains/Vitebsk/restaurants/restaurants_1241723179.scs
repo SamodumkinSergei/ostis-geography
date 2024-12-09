@@ -1,0 +1,26 @@
+ concept_restaurants_1241723179
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Васильки"]
+	(* <- lang_ru;; <- name;;*);
+    ["Васильки"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 9А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 748-82-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.181621,30.207136"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.vasilki.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

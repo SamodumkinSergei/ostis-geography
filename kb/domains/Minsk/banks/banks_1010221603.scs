@@ -1,0 +1,26 @@
+ concept_banks_1010221603
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Paritetbank"]
+	(* <- lang_ru;; <- name;;*);
+    ["Paritetbank"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Киселёва, 61А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.91507,27.560465"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://paritetbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

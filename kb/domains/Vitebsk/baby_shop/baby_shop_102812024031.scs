@@ -1,0 +1,26 @@
+ concept_baby_shop_102812024031
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Кидс клуб"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кидс клуб"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 60А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 711-63-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.180084,30.22283"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

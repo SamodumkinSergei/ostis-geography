@@ -1,0 +1,26 @@
+ concept_bus_stop_168944848544
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Севастопольская улица"]
+	(* <- lang_ru;; <- name;;*);
+    ["Севастопольская улица"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, 3-й Транзитный переулок"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.374338,31.005459"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

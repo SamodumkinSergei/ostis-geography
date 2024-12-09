@@ -1,0 +1,26 @@
+ concept_cafe_16985816301
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Jungle Lounge Cafe"]
+	(* <- lang_ru;; <- name;;*);
+    ["Jungle Lounge Cafe"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Домбровская улица, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 151-30-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–18:00; пт,сб 20:00–04:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911192,27.454461"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://jcafe.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

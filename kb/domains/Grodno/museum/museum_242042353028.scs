@@ -1,0 +1,26 @@
+ concept_museum_242042353028
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Гродненский городской центр культуры"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненский городской центр культуры"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, микрорайон Форты-1, улица Врублевского, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 268-20-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.704189,23.807789"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ckg.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

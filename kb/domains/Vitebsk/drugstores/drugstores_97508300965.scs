@@ -1,0 +1,26 @@
+ concept_drugstores_97508300965
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Paradise Plus Poly Clinic"]
+	(* <- lang_ru;; <- name;;*);
+    ["Paradise Plus Poly Clinic"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["эмират Дубай, Джебель Али, Дубай Инвестментс Парк 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+971 488 482 70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["24.986717,55.203364"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.paradiseplus.org/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

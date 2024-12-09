@@ -1,0 +1,26 @@
+ concept_bus_stop_212985750751
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Великая Ольшанка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Великая Ольшанка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Великая Ольшанка"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.62225,23.817661"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

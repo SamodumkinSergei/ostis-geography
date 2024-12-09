@@ -1,0 +1,26 @@
+ concept_medicine_148638376662
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гродненская университетская клиника, неврологическое отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненская университетская клиника, неврологическое отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, бульвар Ленинского Комсомола, 52/4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 243-36-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.694506,23.791265"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gocb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

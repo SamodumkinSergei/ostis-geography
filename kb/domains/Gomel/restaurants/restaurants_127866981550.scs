@@ -1,0 +1,26 @@
+ concept_restaurants_127866981550
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Арлекино"]
+	(* <- lang_ru;; <- name;;*);
+    ["Арлекино"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Космонавтов, 61"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 314-44-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–23:00; пт,сб 12:00–00:00; вс 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.456965,30.960477"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://arlekino.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

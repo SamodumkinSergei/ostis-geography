@@ -1,0 +1,26 @@
+ concept_fallback_services_1111254567
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Каменная Книга"]
+	(* <- lang_ru;; <- name;;*);
+    ["Каменная Книга"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Волгоградская улица, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 137-50-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.932638,27.622724"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

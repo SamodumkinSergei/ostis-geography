@@ -1,0 +1,26 @@
+ concept_fallback_services_180282304340
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Памятники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Максима Горького, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 640-35-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.692653,23.823169"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://navechno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

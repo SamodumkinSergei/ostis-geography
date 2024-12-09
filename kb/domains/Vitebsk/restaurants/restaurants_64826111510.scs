@@ -1,0 +1,26 @@
+ concept_restaurants_64826111510
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Coffee House"]
+	(* <- lang_ru;; <- name;;*);
+    ["Coffee House"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Стамбул, Кадыкёй, Фенерьолу, улица Джёмерт, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+90 216 330 30 60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["40.984829,29.050904"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

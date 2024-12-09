@@ -1,0 +1,26 @@
+ concept_kindergarten_1042672415
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Дошкольный центр развития ребенка Колокольчик г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дошкольный центр развития ребенка Колокольчик г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Хатаевича, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 256-95-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.44691,31.019089"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://centr-kolokolchik-gorodgomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_medicine_12100509322
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["1-я Городская Клиническая больница, отделение Кардиологии № 3"]
+	(* <- lang_ru;; <- name;;*);
+    ["1-я Городская Клиническая больница, отделение Кардиологии № 3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 64, корп. 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 378-63-97"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 17:00–20:00; сб 12:00–20:00, перерыв 14:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919017,27.595998"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://1gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

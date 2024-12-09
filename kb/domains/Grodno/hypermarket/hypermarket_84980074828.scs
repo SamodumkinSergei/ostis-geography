@@ -1,0 +1,26 @@
+ concept_hypermarket_84980074828
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Корпорация М8"]
+	(* <- lang_ru;; <- name;;*);
+    ["Корпорация М8"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Гаспадарчая улица, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 710-72-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.710596,23.825549"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://grodno.mansardnoe-okno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

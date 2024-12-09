@@ -1,0 +1,26 @@
+ concept_bus_stop_159142264526
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Парк 1 Мая"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парк 1 Мая"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Ленина"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.095942,23.681856"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

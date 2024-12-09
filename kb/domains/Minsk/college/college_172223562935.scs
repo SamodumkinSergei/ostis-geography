@@ -1,0 +1,26 @@
+ concept_college_172223562935
+ <- concept_college;
+=>nrel_main_idtf:
+	["Центр информационных и инновационных разработок БГУИР, отдел сетевых технологий"]
+	(* <- lang_ru;; <- name;;*);
+    ["Центр информационных и инновационных разработок БГУИР, отдел сетевых технологий"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Платонова, 39"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 293-23-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 13:00–13:45; пт 08:30–16:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911541,27.595976"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsuir.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

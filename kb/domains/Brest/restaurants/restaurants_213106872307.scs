@@ -1,0 +1,26 @@
+ concept_restaurants_213106872307
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Klub Bar & Pizzeria Jolly Joker"]
+	(* <- lang_ru;; <- name;;*);
+    ["Klub Bar & Pizzeria Jolly Joker"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Люблинское воеводство, повят Бяльский, Тересполь, ulica Krótka, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+48 81 517 59 60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.076222,23.611517"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.jolly-joker.pl/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

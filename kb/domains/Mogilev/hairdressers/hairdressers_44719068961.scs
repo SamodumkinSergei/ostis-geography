@@ -1,0 +1,26 @@
+ concept_hairdressers_44719068961
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Парикмахерская № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парикмахерская № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Ленинская улица, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 154-80-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901187,30.339486"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pn1.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

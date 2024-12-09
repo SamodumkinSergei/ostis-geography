@@ -1,0 +1,26 @@
+ concept_kindergarten_1009963151
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Специальный детский сад № 124 для детей с тяжелыми нарушениями речи"]
+	(* <- lang_ru;; <- name;;*);
+    ["Специальный детский сад № 124 для детей с тяжелыми нарушениями речи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Искалиева, 14А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 295-41-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.870547,27.621863"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu124.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

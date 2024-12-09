@@ -1,0 +1,26 @@
+ concept_concert_hall_188634698515
+ <- concept_concert_hall;
+=>nrel_main_idtf:
+	["Шум"]
+	(* <- lang_ru;; <- name;;*);
+    ["Шум"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Киселёва, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 360-66-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–05:00, перерыв 16:00–19:00; сб,вс 19:00–05:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912627,27.569438"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://shum.minsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

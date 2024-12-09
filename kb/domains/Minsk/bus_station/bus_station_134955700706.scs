@@ -1,0 +1,26 @@
+ concept_bus_station_134955700706
+ <- concept_bus_station;
+=>nrel_main_idtf:
+	["Уручье"]
+	(* <- lang_ru;; <- name;;*);
+    ["Уручье"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Первомайский район, микрорайон Уручье"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 219-52-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 05:30–00:40"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.945396,27.68625"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://metropoliten.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

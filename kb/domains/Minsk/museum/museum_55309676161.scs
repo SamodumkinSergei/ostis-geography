@@ -1,0 +1,26 @@
+ concept_museum_55309676161
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Bytespace"]
+	(* <- lang_ru;; <- name;;*);
+    ["Bytespace"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петруся Бровки, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 242-34-97"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919364,27.593216"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://bytespace.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

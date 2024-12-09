@@ -1,0 +1,26 @@
+ concept_medicine_167763514513
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гомельская городская клиническая больница № 2, отделение патологии беременных"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельская городская клиническая больница № 2, отделение патологии беременных"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Медицинская улица, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 232-28-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.395292,30.904595"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.uzggkb2.by/index.php/ru/otdeleniya/rodovspomozhenie/otdelenie-patologii-beremennosti"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

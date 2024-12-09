@@ -1,0 +1,26 @@
+ concept_malls_1075023090
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Ziko"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ziko"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Мовчанского, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 260-64-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.872528,30.363253"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ziko.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

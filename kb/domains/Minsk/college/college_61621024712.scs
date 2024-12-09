@@ -1,0 +1,26 @@
+ concept_college_61621024712
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гимназия № 25, начальные классы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гимназия № 25, начальные классы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Седова, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 373-45-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00; сб 08:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.867085,27.661698"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gymn25.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

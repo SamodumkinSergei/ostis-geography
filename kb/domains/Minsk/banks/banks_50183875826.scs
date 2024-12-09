@@ -1,0 +1,26 @@
+ concept_banks_50183875826
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Банк ВТБ, отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["Банк ВТБ, отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 104"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 500-57-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–20:00; вс 10:00–16:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.861809,27.480302"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.vtb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_malls_126369968111
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Пряжа"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пряжа"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Виленская улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 657-59-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.682912,23.832037"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://nitka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_medicine_1091512394
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Физкультурно-оздоровительный центр БГЭУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Физкультурно-оздоровительный центр БГЭУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ванеева, 32А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 209-88-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 16:30–21:50; сб 14:30–19:50"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.877747,27.603766"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bseu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

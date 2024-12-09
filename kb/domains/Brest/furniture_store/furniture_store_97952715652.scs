@@ -1,0 +1,26 @@
+ concept_furniture_store_97952715652
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Зодчий"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зодчий"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Лейтенанта Рябцева, 44Г"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 297-62-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.128954,23.685531"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gudmag.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

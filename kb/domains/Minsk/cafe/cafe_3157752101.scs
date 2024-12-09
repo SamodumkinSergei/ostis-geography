@@ -1,0 +1,26 @@
+ concept_cafe_3157752101
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Булочки"]
+	(* <- lang_ru;; <- name;;*);
+    ["Булочки"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 655-90-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:30–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.886641,27.516678"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bulochki.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

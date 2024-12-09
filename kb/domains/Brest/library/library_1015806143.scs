@@ -1,0 +1,26 @@
+ concept_library_1015806143
+ <- concept_library;
+=>nrel_main_idtf:
+	["Библиотека, филиал № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Библиотека, филиал № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Молодогвардейская улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 254-85-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,ср,чт,пт,сб,вс 10:00–19:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.103232,23.7508"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gcbs-brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

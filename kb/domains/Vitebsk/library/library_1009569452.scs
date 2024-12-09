@@ -1,0 +1,26 @@
+ concept_library_1009569452
+ <- concept_library;
+=>nrel_main_idtf:
+	["Витебская областная научно-техническая библиотека, филиал РНТБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебская областная научно-техническая библиотека, филиал РНТБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Пушкина, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 248-06-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–19:00; сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.193235,30.203309"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://rlst.org.by/vitebsk/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

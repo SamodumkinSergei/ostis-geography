@@ -1,0 +1,26 @@
+ concept_malls_83750502798
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Галерея искусств Предместье"]
+	(* <- lang_ru;; <- name;;*);
+    ["Галерея искусств Предместье"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Интернациональная улица, 25А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 604-62-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 11:00–19:00; сб,вс 11:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904581,27.558599"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://art-minsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

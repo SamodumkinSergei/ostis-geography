@@ -1,0 +1,26 @@
+ concept_cafe_39884468022
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Буфет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Буфет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Максима Горького, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 267-36-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.17603,30.173518"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.vitmez.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

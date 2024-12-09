@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_1132324579
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["ОАО Витебский завод тракторных запасных частей"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОАО Витебский завод тракторных запасных частей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Максима Горького, 51, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 236-82-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–16:00, перерыв 11:30–12:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.17404,30.170246"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.vztzch.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

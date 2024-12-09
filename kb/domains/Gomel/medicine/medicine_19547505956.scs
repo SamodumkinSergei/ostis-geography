@@ -1,0 +1,26 @@
+ concept_medicine_19547505956
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гомельская областная специализированная клиническая больница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельская областная специализированная клиническая больница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Медицинская улица, 6/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 250-45-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.396245,30.902566"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://goskb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

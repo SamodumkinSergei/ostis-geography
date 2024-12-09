@@ -1,0 +1,26 @@
+ concept_supermarket_157618344204
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Торговый объект от столовой № 26"]
+	(* <- lang_ru;; <- name;;*);
+    ["Торговый объект от столовой № 26"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, поселок Могилёв-2, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30, перерыв 14:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907229,30.299862"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

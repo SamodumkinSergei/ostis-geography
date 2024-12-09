@@ -1,0 +1,26 @@
+ concept_restaurants_1065498177
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Express Pizza"]
+	(* <- lang_ru;; <- name;;*);
+    ["Express Pizza"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 589-11-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–23:00; пт-вс 10:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.883944,27.591693"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://express-pizza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

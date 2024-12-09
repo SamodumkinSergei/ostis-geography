@@ -1,0 +1,26 @@
+ concept_malls_8350888828
+ <- concept_malls;
+=>nrel_main_idtf:
+	["АвтоГрад"]
+	(* <- lang_ru;; <- name;;*);
+    ["АвтоГрад"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева, 114"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 513-90-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.934211,27.457732"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://zhdanovichi.by/area/avtograd"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

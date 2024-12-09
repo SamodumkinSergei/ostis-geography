@@ -1,0 +1,26 @@
+ concept_baby_shop_89632717685
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Экспириментус"]
+	(* <- lang_ru;; <- name;;*);
+    ["Экспириментус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева, 74А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 478-08-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.926617,27.509017"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://expirimentus.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

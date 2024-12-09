@@ -1,0 +1,26 @@
+ concept_cafe_161556400260
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Русские Блины"]
+	(* <- lang_ru;; <- name;;*);
+    ["Русские Блины"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Бялыницкого-Бирули"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00, перерыв 15:00–15:20; сб,вс 09:00–18:00, перерыв 15:00–15:20"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.914787,30.276278"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

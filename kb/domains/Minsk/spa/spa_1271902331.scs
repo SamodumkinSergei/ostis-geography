@@ -1,0 +1,26 @@
+ concept_spa_1271902331
+ <- concept_spa;
+=>nrel_main_idtf:
+	["Мариша"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мариша"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Скрипникова, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 370-53-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 08:00–19:00; вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.893886,27.422245"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

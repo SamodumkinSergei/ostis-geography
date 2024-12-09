@@ -1,0 +1,26 @@
+ concept_drugstores_147885495591
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 209/4"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 209/4"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 331"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 229-58-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–20:00, перерыв 13:30–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.356956,31.029327"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomelpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

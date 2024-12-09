@@ -1,0 +1,26 @@
+ concept_medicine_99812361779
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Республиканский центр детской нефрологии и заместительной почечной терапии"]
+	(* <- lang_ru;; <- name;;*);
+    ["Республиканский центр детской нефрологии и заместительной почечной терапии"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Нарочанская улица, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-ср 10:00–12:00; чт 15:00–17:00; пт-вс 10:00–12:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.932561,27.48128"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

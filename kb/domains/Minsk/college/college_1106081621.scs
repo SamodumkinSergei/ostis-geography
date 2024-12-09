@@ -1,0 +1,26 @@
+ concept_college_1106081621
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минский государственный колледж сферы обслуживания"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский государственный колледж сферы обслуживания"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Семашко, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 319-73-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.860042,27.498825"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kso.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

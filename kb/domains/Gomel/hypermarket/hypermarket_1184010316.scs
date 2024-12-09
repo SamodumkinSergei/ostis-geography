@@ -1,0 +1,26 @@
+ concept_hypermarket_1184010316
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Metro Cash & Carry"]
+	(* <- lang_ru;; <- name;;*);
+    ["Metro Cash & Carry"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Одесса, Аэропортовская улица, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["0800 501-401"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["46.448461,30.661126"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.metro.ua/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

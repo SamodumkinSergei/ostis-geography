@@ -1,0 +1,26 @@
+ concept_supermarket_1623547504
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Виталюр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Виталюр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Одинцова, 22В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 242-41-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.900433,27.446084"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitalur.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

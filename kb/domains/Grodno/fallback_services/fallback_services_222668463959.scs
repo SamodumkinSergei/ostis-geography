@@ -1,0 +1,26 @@
+ concept_fallback_services_222668463959
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гранви"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гранви"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Захарова, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 844-64-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.675191,23.844749"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://granvi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_fitness_1112910658
+ <- concept_fitness;
+=>nrel_main_idtf:
+	["Дворец водного спорта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дворец водного спорта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурганова, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 194-89-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 07:00–21:45; вс 08:45–21:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919172,27.606719"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://olimpiysky.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

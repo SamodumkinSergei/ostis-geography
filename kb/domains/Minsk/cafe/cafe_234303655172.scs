@@ -1,0 +1,26 @@
+ concept_cafe_234303655172
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кофе-Кейк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кофе-Кейк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Долгиновский тракт, 178"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 737-26-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.964148,27.536327"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://coffeecake.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

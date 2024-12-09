@@ -1,0 +1,26 @@
+ concept_malls_1189218255
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Красный Металлист"]
+	(* <- lang_ru;; <- name;;*);
+    ["Красный Металлист"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Гомельское шоссе, 15А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 276-27-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–16:00, перерыв 11:30–12:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.857114,30.355547"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.kramet.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

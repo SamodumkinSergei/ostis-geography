@@ -1,0 +1,26 @@
+ concept_restaurants_1074140536
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Bergamo"]
+	(* <- lang_ru;; <- name;;*);
+    ["Bergamo"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кульман, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 334-45-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.926062,27.563735"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bergamo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

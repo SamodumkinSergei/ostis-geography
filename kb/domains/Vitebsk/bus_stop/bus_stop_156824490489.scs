@@ -1,0 +1,26 @@
+ concept_bus_stop_156824490489
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Проспект Куйбышева"]
+	(* <- lang_ru;; <- name;;*);
+    ["Проспект Куйбышева"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, 4-я улица Куйбышева, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.206784,30.198936"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

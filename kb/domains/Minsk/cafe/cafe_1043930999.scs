@@ -1,0 +1,26 @@
+ concept_cafe_1043930999
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["У Гаспадыни"]
+	(* <- lang_ru;; <- name;;*);
+    ["У Гаспадыни"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Любимова, 26к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 104-56-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.86205,27.460176"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

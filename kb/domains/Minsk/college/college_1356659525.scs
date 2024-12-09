@@ -1,0 +1,26 @@
+ concept_college_1356659525
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 178 г. Минска имени Т. А. Лукьяновича"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 178 г. Минска имени Т. А. Лукьяновича"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Восточная улица, 68"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 266-22-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.942533,27.602465"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://178minsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

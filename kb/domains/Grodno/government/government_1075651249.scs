@@ -1,0 +1,26 @@
+ concept_government_1075651249
+ <- concept_government;
+=>nrel_main_idtf:
+	["Центр социального обслуживания населения"]
+	(* <- lang_ru;; <- name;;*);
+    ["Центр социального обслуживания населения"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Социалистическая улица, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 277-28-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.678254,23.833965"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://glenad-grodno.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

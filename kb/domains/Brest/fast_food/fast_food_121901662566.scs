@@ -1,0 +1,26 @@
+ concept_fast_food_121901662566
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Havka"]
+	(* <- lang_ru;; <- name;;*);
+    ["Havka"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, микрорайон Берёзовка"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 848-40-24"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.115006,23.73742"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://havka.business.site/?utm_medium=referral&utm_source=gmb"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

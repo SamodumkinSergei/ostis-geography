@@ -1,0 +1,26 @@
+ concept_bus_stop_171014121106
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Магазин Ипуть"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин Ипуть"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Свердлова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.400544,31.035422"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_131401094614
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Твой Имидж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Твой Имидж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Суворова, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 254-18-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.064134,23.741819"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://tvojimidzh.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

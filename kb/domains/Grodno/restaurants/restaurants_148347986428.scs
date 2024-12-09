@@ -1,0 +1,26 @@
+ concept_restaurants_148347986428
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Пицца Трак"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пицца Трак"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродненский район, Путришковский сельсовет, агрогородок Путришки, улица Тарханова, 53А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.69707,23.942029"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

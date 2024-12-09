@@ -1,0 +1,26 @@
+ concept_hairdressers_1234607443
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Кудри"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кудри"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Терешковой, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 620-88-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.6956,23.843669"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kudri.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

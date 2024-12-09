@@ -1,0 +1,26 @@
+ concept_clothes_shop_1180123618
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Обувной секонд-хенд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Обувной секонд-хенд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Калиновского, 75"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 504-42-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00, перерыв 14:00–15:00; сб 11:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.690414,23.801626"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

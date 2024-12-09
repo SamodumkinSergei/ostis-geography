@@ -1,0 +1,26 @@
+ concept_drugstores_161997793123
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 79"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 79"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Крупской, 176"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 272-81-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.949566,30.356198"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogilev.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

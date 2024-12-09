@@ -1,0 +1,26 @@
+ concept_office_service_1237937801
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Административный ресурс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Административный ресурс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Веры Хоружей, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 544-00-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916947,27.579533"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ares.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

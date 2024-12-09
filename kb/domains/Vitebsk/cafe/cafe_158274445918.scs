@@ -1,0 +1,26 @@
+ concept_cafe_158274445918
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Esquires Coffee"]
+	(* <- lang_ru;; <- name;;*);
+    ["Esquires Coffee"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Лондон, Кладбище Запад Лондон Синагог"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+44 20 87 40 33 44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб,вс 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["51.503495,-0.219184"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.esquirescoffee.co.uk/?y_source=1_Mjg4ODk1NDItNjMwLWxvY2F0aW9uLndlYnNpdGU%3D"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

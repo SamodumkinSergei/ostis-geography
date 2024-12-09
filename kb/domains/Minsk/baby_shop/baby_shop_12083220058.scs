@@ -1,0 +1,26 @@
+ concept_baby_shop_12083220058
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Bizitoys"]
+	(* <- lang_ru;; <- name;;*);
+    ["Bizitoys"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Новодворский сельсовет, Большое Стиклево, 30/5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 190-00-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.862542,27.702008"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://bizi-toys.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

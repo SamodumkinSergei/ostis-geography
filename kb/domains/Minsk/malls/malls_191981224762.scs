@@ -1,0 +1,26 @@
+ concept_malls_191981224762
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Индийский магазин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Индийский магазин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Бобруйская улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 179-39-28"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–22:00; пт,сб 10:00–23:00; вс 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.890013,27.555784"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://galileomall.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

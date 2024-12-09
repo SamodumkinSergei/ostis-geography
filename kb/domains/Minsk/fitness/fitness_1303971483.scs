@@ -1,0 +1,26 @@
+ concept_fitness_1303971483
+ <- concept_fitness;
+=>nrel_main_idtf:
+	["Фрунзенский физкультурно-оздоровительный центр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фрунзенский физкультурно-оздоровительный центр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Якубовского, 52Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 366-81-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.894078,27.451401"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://frfoc.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

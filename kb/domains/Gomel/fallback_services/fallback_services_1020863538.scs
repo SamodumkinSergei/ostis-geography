@@ -1,0 +1,26 @@
+ concept_fallback_services_1020863538
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Ладан"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ладан"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Богдана Хмельницкого"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 655-50-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.439587,30.978134"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ladan.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

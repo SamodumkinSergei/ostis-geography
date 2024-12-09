@@ -1,0 +1,26 @@
+ concept_auto_188965340704
+ <- concept_auto;
+=>nrel_main_idtf:
+	["BMW Service"]
+	(* <- lang_ru;; <- name;;*);
+    ["BMW Service"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, переулок Калинина, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 657-56-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.931671,27.608115"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bmwservice.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

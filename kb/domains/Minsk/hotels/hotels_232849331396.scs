@@ -1,0 +1,26 @@
+ concept_hotels_232849331396
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Университетская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Университетская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Голубева, 26к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 700-73-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.870251,27.465049"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://hotel.bspu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_furniture_store_131166319403
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["5 Звезд"]
+	(* <- lang_ru;; <- name;;*);
+    ["5 Звезд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Космонавтов, 2/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 525-02-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–17:00; вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.676518,23.846571"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://m-style.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

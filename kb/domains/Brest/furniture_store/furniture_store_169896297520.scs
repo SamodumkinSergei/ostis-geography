@@ -1,0 +1,26 @@
+ concept_furniture_store_169896297520
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Аконто-М"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аконто-М"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, 2-я Заводская улица, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 773-86-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00; сб 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.101612,23.747826"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dsp.brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

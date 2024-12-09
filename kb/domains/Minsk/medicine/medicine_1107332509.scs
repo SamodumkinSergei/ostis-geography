@@ -1,0 +1,26 @@
+ concept_medicine_1107332509
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городская клиническая больница № 10"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская клиническая больница № 10"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Заводской район, Чижовка, улица Уборевича, 73"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 345-30-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.838605,27.65468"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://10gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

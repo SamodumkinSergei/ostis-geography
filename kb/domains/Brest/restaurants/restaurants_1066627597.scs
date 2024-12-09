@@ -1,0 +1,26 @@
+ concept_restaurants_1066627597
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Националь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Националь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Коммерческая улица, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 297-01-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–01:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.134488,23.774638"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

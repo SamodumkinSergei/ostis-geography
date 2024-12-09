@@ -1,0 +1,26 @@
+ concept_college_1311257909
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 123"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 123"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, проспект Рокоссовского, 127А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 355-56-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.856957,27.617812"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch123.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

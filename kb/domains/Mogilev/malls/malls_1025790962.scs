@@ -1,0 +1,26 @@
+ concept_malls_1025790962
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Mattioli"]
+	(* <- lang_ru;; <- name;;*);
+    ["Mattioli"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Крыленко, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 263-89-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 11:00–19:00; сб,вс 11:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906906,30.33772"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mattioli.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

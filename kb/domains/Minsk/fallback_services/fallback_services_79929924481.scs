@@ -1,0 +1,26 @@
+ concept_fallback_services_79929924481
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Памятники Гранит"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятники Гранит"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 127"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 372-83-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.939799,27.467616"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://памятники-гранит.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

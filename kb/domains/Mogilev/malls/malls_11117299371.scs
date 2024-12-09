@@ -1,0 +1,26 @@
+ concept_malls_11117299371
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Макей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Макей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 61"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 156-56-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб,вс 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906137,30.339392"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://makey-shop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_hypermarket_124037458457
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Каменный цветок"]
+	(* <- lang_ru;; <- name;;*);
+    ["Каменный цветок"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гаврилова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 699-91-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.110048,23.773385"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.shtein.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_malls_60197493369
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Gm Shop"]
+	(* <- lang_ru;; <- name;;*);
+    ["Gm Shop"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Дзержинского, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 459-33-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–19:00; сб,вс 11:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901671,30.332952"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gm-shop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

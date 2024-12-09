@@ -1,0 +1,26 @@
+ concept_cafe_240440740244
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Coffee House"]
+	(* <- lang_ru;; <- name;;*);
+    ["Coffee House"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Сахалинская область, Корсаков, Вокзальная улица, 44/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (924) 888-65-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:00–23:00; пт 08:00–00:00; сб 09:00–00:00; вс 10:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["46.633751,142.763104"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

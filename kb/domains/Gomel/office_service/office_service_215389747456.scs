@@ -1,0 +1,26 @@
+ concept_office_service_215389747456
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Пахра Ривер Парк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пахра Ривер Парк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Московская область, Раменский городской округ, село Зелёная Слобода"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (499) 964-64-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.523365,37.988907"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://zem-s-t.ru/pahra-river"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

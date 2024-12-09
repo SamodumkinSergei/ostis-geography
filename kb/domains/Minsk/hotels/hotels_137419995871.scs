@@ -1,0 +1,26 @@
+ concept_hotels_137419995871
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Cuba"]
+	(* <- lang_ru;; <- name;;*);
+    ["Cuba"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Фрунзенский район, микрорайон Сухарево, микрорайон Сухарево-6, улица Академика Фёдорова, 11к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 325-00-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 14:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.885306,27.426677"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://cuba-hostel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

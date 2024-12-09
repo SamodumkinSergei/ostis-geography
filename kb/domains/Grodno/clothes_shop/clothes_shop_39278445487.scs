@@ -1,0 +1,26 @@
+ concept_clothes_shop_39278445487
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Гродно Культторг"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродно Культторг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Дзержинского, 94А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 268-86-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–17:00; вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.706659,23.838593"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://orgpage.by/grodno/torgodezhda-up-259564.html"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

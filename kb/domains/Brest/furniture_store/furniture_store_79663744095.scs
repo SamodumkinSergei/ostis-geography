@@ -1,0 +1,26 @@
+ concept_furniture_store_79663744095
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Сонет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сонет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гоголя, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 221-02-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.090966,23.685608"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.sonetbrest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_supermarket_202477838143
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Виталюр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Виталюр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Первомайский район, микрорайон Великий Лес, улица Водолажского, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 266-04-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.944383,27.705988"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://my.vitalur.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

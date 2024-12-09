@@ -1,0 +1,26 @@
+ concept_drugstores_120325589528
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["БСТФарм"]
+	(* <- lang_ru;; <- name;;*);
+    ["БСТФарм"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Алибегова, 12Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 338-96-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.872186,27.48063"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

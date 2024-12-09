@@ -1,0 +1,26 @@
+ concept_auto_150340115888
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Амтсервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Амтсервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский район, Захарова-Пулихова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 778-33-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.893598,27.586749"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://amtservice.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_1114582294
+ <- concept_college;
+=>nrel_main_idtf:
+	["Республиканская гимназия-колледж при Белорусской государственной академии музыки"]
+	(* <- lang_ru;; <- name;;*);
+    ["Республиканская гимназия-колледж при Белорусской государственной академии музыки"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, площадь Свободы, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 203-60-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903104,27.555193"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.rmcollege.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

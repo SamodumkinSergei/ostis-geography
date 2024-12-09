@@ -1,0 +1,26 @@
+ concept_supermarket_194302888920
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Хит! Экспресс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хит! Экспресс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Островского, 38А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 500-11-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873255,30.328231"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://hitdiscount.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_tailor_105917112989
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Ремонт обуви, сумок, чемоданов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт обуви, сумок, чемоданов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Бурдейного, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 785-53-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903439,27.455245"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

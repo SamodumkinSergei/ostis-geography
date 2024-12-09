@@ -1,0 +1,26 @@
+ concept_college_1324467073
+ <- concept_college;
+=>nrel_main_idtf:
+	["Колледж полиграфии"]
+	(* <- lang_ru;; <- name;;*);
+    ["Колледж полиграфии"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Веры Хоружей, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 284-45-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:15–16:45, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.918061,27.57754"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ptk-pol.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

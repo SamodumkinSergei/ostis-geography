@@ -1,0 +1,26 @@
+ concept_malls_72677599235
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Видеонаблюдение Могилев"]
+	(* <- lang_ru;; <- name;;*);
+    ["Видеонаблюдение Могилев"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Чехова, 10Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 700-60-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907763,30.33478"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://fvideo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

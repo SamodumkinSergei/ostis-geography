@@ -1,0 +1,26 @@
+ concept_hairdressers_1050165665
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Есения"]
+	(* <- lang_ru;; <- name;;*);
+    ["Есения"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Космонавтов, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 697-05-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00; вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.448889,30.968824"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

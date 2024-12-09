@@ -1,0 +1,26 @@
+ concept_malls_8350745473
+ <- concept_malls;
+=>nrel_main_idtf:
+	["VDOM"]
+	(* <- lang_ru;; <- name;;*);
+    ["VDOM"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Янки Купалы, 87"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 681-89-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.650215,23.854847"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vdom.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

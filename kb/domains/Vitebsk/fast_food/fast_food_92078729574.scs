@@ -1,0 +1,26 @@
+ concept_fast_food_92078729574
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Мини-кафе"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мини-кафе"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Титова, 160"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 255-80-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.193043,30.141215"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

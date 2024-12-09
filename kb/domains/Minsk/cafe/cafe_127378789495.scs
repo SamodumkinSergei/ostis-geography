@@ -1,0 +1,26 @@
+ concept_cafe_127378789495
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Столовая"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столовая"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Селицкого, 23А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 186-76-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.819357,27.695603"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://cafe-40697.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

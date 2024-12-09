@@ -1,0 +1,26 @@
+ concept_hotels_40032193925
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Zalkind"]
+	(* <- lang_ru;; <- name;;*);
+    ["Zalkind"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Революционная улица, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 620-62-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902285,27.550929"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://zhotel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

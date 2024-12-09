@@ -1,0 +1,26 @@
+ concept_police_1310501900
+ <- concept_police;
+=>nrel_main_idtf:
+	["Управление информации и общественных связей МВД РБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Управление информации и общественных связей МВД РБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Городской Вал, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 218-79-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.899505,27.552616"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mvd.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

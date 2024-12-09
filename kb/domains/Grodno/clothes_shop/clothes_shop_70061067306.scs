@@ -1,0 +1,26 @@
+ concept_clothes_shop_70061067306
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["ELIZ"]
+	(* <- lang_ru;; <- name;;*);
+    ["ELIZ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Советская улица, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 167-75-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.682351,23.831533"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://eliz.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

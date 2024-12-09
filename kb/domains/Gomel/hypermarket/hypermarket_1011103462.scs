@@ -1,0 +1,26 @@
+ concept_hypermarket_1011103462
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Гомельский завод Сантехзаготовок филиал Трест Белсантехмонтаж № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский завод Сантехзаготовок филиал Трест Белсантехмонтаж № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, 8-й переулок Ильича, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 229-26-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.368479,31.027483"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://trest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

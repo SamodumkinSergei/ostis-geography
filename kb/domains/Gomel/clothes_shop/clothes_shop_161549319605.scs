@@ -1,0 +1,26 @@
+ concept_clothes_shop_161549319605
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Марусин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Марусин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Барыкина, 165"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 617-03-97"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 11:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.420767,30.957652"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

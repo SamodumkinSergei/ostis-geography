@@ -1,0 +1,26 @@
+ concept_drugstores_76191558478
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Ремедика"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремедика"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Варшавское шоссе, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 250-11-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.076012,23.718409"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://interplus.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

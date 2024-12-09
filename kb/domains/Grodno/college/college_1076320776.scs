@@ -1,0 +1,26 @@
+ concept_college_1076320776
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гродненский государственный медицинский колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненский государственный медицинский колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, бульвар Ленинского Комсомола, 53"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 248-40-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:20, перерыв 13:00–13:20"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.695969,23.792764"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

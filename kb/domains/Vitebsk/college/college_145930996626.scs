@@ -1,0 +1,26 @@
+ concept_college_145930996626
+ <- concept_college;
+=>nrel_main_idtf:
+	["Учебный корпус № 3 ВГТУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Учебный корпус № 3 ВГТУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 70, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 222-57-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–22:00; сб 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.179146,30.233634"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vstu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

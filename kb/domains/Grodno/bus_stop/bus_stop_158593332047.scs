@@ -1,0 +1,26 @@
+ concept_bus_stop_158593332047
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Хвойная"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Хвойная"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Суворова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.64888,23.781141"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

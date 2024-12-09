@@ -1,0 +1,26 @@
+ concept_fallback_services_4238128342
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Ритуал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ритуал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Сябровская улица, 61Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 727-85-24"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–18:00, перерыв 14:00–15:00; сб,вс 11:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.065599,23.726765"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ritualbrest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

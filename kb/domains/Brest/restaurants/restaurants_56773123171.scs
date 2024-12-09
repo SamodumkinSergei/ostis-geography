@@ -1,0 +1,26 @@
+ concept_restaurants_56773123171
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Трактир у Озера"]
+	(* <- lang_ru;; <- name;;*);
+    ["Трактир у Озера"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, парк культуры и отдыха имени 1 Мая"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 620-93-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.094364,23.674736"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://santarest.by/kafe-i-restorany/traktir-u-ozera/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_1143769940
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Региональный центр правовой информации Могилевской области"]
+	(* <- lang_ru;; <- name;;*);
+    ["Региональный центр правовой информации Могилевской области"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Дзержинского, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 276-92-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904696,30.334799"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ncpi.gov.by/rcpi/mogilev-obl/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

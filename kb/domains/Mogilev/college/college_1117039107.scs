@@ -1,0 +1,26 @@
+ concept_college_1117039107
+ <- concept_college;
+=>nrel_main_idtf:
+	["Могилевский государственный областной лицей № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилевский государственный областной лицей № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Гагарина, 58"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 224-52-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.87685,30.31853"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mgol2.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_gasstation_1199890308
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Лукойл"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лукойл"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Челюскинцев, 92"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 231-51-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 00:10–23:40"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.888895,30.281276"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.lukoil.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

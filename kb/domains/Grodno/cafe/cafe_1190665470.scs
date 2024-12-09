@@ -1,0 +1,26 @@
+ concept_cafe_1190665470
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Строитель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Строитель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Скидельское шоссе, 2/18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 279-44-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.667243,23.911105"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kafe-stroitel.belorussia.su/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

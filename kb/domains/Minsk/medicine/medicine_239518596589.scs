@@ -1,0 +1,26 @@
+ concept_medicine_239518596589
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Клинический центр пластической хирургии и медицинской косметологии г. Минска, косметологическое отделение № 3"]
+	(* <- lang_ru;; <- name;;*);
+    ["Клинический центр пластической хирургии и медицинской косметологии г. Минска, косметологическое отделение № 3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Иосифа Жиновича, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 360-05-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.92339,27.442219"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://clinicalcenter.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

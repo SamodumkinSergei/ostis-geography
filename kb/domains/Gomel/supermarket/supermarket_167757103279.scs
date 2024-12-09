@@ -1,0 +1,26 @@
+ concept_supermarket_167757103279
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Торговые ряды Сельмашевские"]
+	(* <- lang_ru;; <- name;;*);
+    ["Торговые ряды Сельмашевские"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица М.Г. Ефремова, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 262-02-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.459191,30.965512"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

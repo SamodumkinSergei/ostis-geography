@@ -1,0 +1,26 @@
+ concept_car_park_210134685996
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Атэп-5, автостоянка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Атэп-5, автостоянка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, переулок Асаналиева 4А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 500-58-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.837612,27.538554"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.atep5.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_mobile_phones_1306110784
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["На связи"]
+	(* <- lang_ru;; <- name;;*);
+    ["На связи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 26А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 826-22-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.191362,30.203296"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://nsv.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

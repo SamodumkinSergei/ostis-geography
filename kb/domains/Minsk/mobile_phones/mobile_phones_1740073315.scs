@@ -1,0 +1,26 @@
+ concept_mobile_phones_1740073315
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Pochinika"]
+	(* <- lang_ru;; <- name;;*);
+    ["Pochinika"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Герасименко, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 723-14-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.883428,27.685002"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pochinika.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

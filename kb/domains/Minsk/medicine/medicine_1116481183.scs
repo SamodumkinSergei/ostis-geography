@@ -1,0 +1,26 @@
+ concept_medicine_1116481183
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городская клиническая поликлиника № 5"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская клиническая поликлиника № 5"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сергея Есенина, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 260-83-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.849767,27.457914"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://5gp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

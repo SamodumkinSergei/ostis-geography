@@ -1,0 +1,26 @@
+ concept_auto_214706409428
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автоаптека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автоаптека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Янки Купалы, 19А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 555-29-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.105748,23.745825"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://a-a.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

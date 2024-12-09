@@ -1,0 +1,26 @@
+ concept_fallback_services_73568717712
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Авто Эвакуатор в Бресте МТС"]
+	(* <- lang_ru;; <- name;;*);
+    ["Авто Эвакуатор в Бресте МТС"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Брестских Дивизий, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 654-91-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.102478,23.674093"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://эвакуатор-в-бресте.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_auto_168870135009
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Авторемонт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Авторемонт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Космонавтов, 68"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 303-31-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.673642,23.872874"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://avtoremont-car-service.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

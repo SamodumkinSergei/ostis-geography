@@ -1,0 +1,26 @@
+ concept_hotels_1691953677
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Cottage at Utrennyaya Street"]
+	(* <- lang_ru;; <- name;;*);
+    ["Cottage at Utrennyaya Street"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Утренняя улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 357-78-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.143355,23.723165"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

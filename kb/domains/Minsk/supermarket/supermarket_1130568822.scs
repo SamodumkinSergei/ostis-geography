@@ -1,0 +1,26 @@
+ concept_supermarket_1130568822
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Гиппо"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гиппо"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Червякова, 57"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 375-88-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.930131,27.54773"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gippo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

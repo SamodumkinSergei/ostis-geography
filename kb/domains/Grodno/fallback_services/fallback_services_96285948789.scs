@@ -1,0 +1,26 @@
+ concept_fallback_services_96285948789
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Армкомплект"]
+	(* <- lang_ru;; <- name;;*);
+    ["Армкомплект"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Железный переулок, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 760-26-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.662788,23.824226"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://armkomplekt.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

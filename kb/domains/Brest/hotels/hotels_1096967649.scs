@@ -1,0 +1,26 @@
+ concept_hotels_1096967649
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Молодежная"]
+	(* <- lang_ru;; <- name;;*);
+    ["Молодежная"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Комсомольская улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 221-63-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.098485,23.685094"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.molodezhnaya.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

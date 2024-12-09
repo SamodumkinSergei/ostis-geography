@@ -1,0 +1,26 @@
+ concept_bus_stop_137789829790
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Щетовка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Щетовка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Крупской"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.857786,27.627959"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

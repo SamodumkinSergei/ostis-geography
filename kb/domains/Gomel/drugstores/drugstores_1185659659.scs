@@ -1,0 +1,26 @@
+ concept_drugstores_1185659659
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 176"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 176"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Сосновая улица, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 234-93-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 08:30–18:00; вс 08:30–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.421626,30.944473"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomelpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

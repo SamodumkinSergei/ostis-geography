@@ -1,0 +1,26 @@
+ concept_baby_shop_90656307796
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Magic Toys"]
+	(* <- lang_ru;; <- name;;*);
+    ["Magic Toys"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Бумажкова, 37А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 552-25-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904932,27.619481"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://magictoys.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

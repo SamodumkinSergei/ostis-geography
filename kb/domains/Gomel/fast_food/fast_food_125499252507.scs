@@ -1,0 +1,26 @@
+ concept_fast_food_125499252507
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["ЧебурекМи"]
+	(* <- lang_ru;; <- name;;*);
+    ["ЧебурекМи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 301"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 652-15-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.35838,31.02887"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://cheburek.me/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

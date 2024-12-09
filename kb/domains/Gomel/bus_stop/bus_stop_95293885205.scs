@@ -1,0 +1,26 @@
+ concept_bus_stop_95293885205
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Бульвар Газеты Гомельская правда"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бульвар Газеты Гомельская правда"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Мельников Луг, 18-й микрорайон, бульвар Газеты Гомельская Правда"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.447014,31.029113"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

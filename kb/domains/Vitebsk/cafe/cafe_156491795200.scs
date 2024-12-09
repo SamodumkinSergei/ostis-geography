@@ -1,0 +1,26 @@
+ concept_cafe_156491795200
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кофейный домик"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кофейный домик"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Киев, Харьковское шоссе"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб,вс 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["50.419014,30.655803"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

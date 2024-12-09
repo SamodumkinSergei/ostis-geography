@@ -1,0 +1,26 @@
+ concept_hotels_1212452940
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Турист"]
+	(* <- lang_ru;; <- name;;*);
+    ["Турист"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пушкинский проспект, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 750-00-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.88325,30.335553"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogilevtourist.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

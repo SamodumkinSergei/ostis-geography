@@ -1,0 +1,26 @@
+ concept_office_service_245452059156
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Opalubka 24"]
+	(* <- lang_ru;; <- name;;*);
+    ["Opalubka 24"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 168"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 685-98-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.855139,27.683436"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.opalubka24.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

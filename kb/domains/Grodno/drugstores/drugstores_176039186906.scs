@@ -1,0 +1,26 @@
+ concept_drugstores_176039186906
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Гродненское РУП Фармация аптека № 33 пятой категории"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненское РУП Фармация аптека № 33 пятой категории"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродненская область, Гродненский район, деревня Заболоть, 17Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00; сб,вс 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.710622,23.905625"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.grodno.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_college_1101227953
+ <- concept_college;
+=>nrel_main_idtf:
+	["Институт теологии имени святых Мефодия и Кирилла"]
+	(* <- lang_ru;; <- name;;*);
+    ["Институт теологии имени святых Мефодия и Кирилла"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 289-11-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902482,27.563884"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.theology.bsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

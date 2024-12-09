@@ -1,0 +1,26 @@
+ concept_malls_218434359503
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Цифра Маркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Цифра Маркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Гагарина, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 239-00-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.42227,31.003445"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://z-market.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

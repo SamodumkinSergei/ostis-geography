@@ -1,0 +1,26 @@
+ concept_kindergarten_1113630661
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 425"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 425"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Одинцова, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 258-34-96"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901682,27.444985"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu425.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

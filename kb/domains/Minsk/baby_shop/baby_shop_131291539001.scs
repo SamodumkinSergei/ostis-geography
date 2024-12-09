@@ -1,0 +1,26 @@
+ concept_baby_shop_131291539001
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["A4shop"]
+	(* <- lang_ru;; <- name;;*);
+    ["A4shop"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Немига, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902236,27.549848"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://a4shop.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

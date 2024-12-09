@@ -1,0 +1,26 @@
+ concept_college_1052840368
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гомельский государственный профессионально-технический колледж бытового обслуживания"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский государственный профессионально-технический колледж бытового обслуживания"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Федюнинского, 2Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 256-12-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.475505,30.979214"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ggptkbo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

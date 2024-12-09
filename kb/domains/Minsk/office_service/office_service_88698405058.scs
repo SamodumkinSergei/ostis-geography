@@ -1,0 +1,26 @@
+ concept_office_service_88698405058
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Строка - склад кабельно-проводниковой продукции"]
+	(* <- lang_ru;; <- name;;*);
+    ["Строка - склад кабельно-проводниковой продукции"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ваупшасова, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 246-64-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.886403,27.622063"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://stroka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

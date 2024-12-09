@@ -1,0 +1,26 @@
+ concept_supermarket_81706633273
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Универсам"]
+	(* <- lang_ru;; <- name;;*);
+    ["Универсам"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Чижовка, Ташкентская улица, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 340-97-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.837753,27.631203"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

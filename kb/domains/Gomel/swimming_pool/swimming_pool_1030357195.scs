@@ -1,0 +1,26 @@
+ concept_swimming_pool_1030357195
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Карибия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Карибия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Москва, Зелёный проспект, 10Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (495) 095-75-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.748106,37.778492"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://karibiya.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_office_service_159825746889
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["ЭльбрусСтрой"]
+	(* <- lang_ru;; <- name;;*);
+    ["ЭльбрусСтрой"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Обухова, 18А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 373-78-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.677842,23.870948"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

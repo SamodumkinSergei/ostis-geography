@@ -1,0 +1,26 @@
+ concept_malls_96126950510
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Магазин сантехники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин сантехники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Казимировка, Минское шоссе, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 604-82-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 10:00–17:00; сб,вс 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.931636,30.259316"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

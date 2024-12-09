@@ -1,0 +1,26 @@
+ concept_hotels_1146444825
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Metropol"]
+	(* <- lang_ru;; <- name;;*);
+    ["Metropol"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Комсомольская улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 270-70-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.89785,30.333587"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.metropol.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

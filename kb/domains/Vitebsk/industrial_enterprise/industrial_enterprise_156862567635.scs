@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_156862567635
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Витебскдрев"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебскдрев"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Стахановский переулок, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 237-49-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.1645,30.129176"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitebskdrev.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

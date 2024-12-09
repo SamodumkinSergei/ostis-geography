@@ -1,0 +1,26 @@
+ concept_tailor_110463812315
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Пункт приёма обуви в ремонт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пункт приёма обуви в ремонт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Дубровская улица, 10Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 793-02-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 17:30–19:30; сб 12:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.127137,23.654382"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

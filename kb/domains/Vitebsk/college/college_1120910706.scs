@@ -1,0 +1,26 @@
+ concept_college_1120910706
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 27"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 27"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Ленинградская улица, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 266-53-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.202216,30.178948"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://27vitebsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

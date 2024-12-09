@@ -1,0 +1,26 @@
+ concept_fast_food_85235820734
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Кебап Мастер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кебап Мастер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Гагарина, 65"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 315-90-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.424461,30.996491"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

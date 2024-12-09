@@ -1,0 +1,26 @@
+ concept_furniture_store_1694992729
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Офисбизнесторг"]
+	(* <- lang_ru;; <- name;;*);
+    ["Офисбизнесторг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Первомайская улица, 24, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 325-09-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–17:00; пт 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.900986,27.577866"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.obt.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

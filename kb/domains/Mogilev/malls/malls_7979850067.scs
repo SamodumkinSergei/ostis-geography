@@ -1,0 +1,26 @@
+ concept_malls_7979850067
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Авеню"]
+	(* <- lang_ru;; <- name;;*);
+    ["Авеню"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Якубовского, 44"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 263-38-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.918296,30.300633"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://armada-group.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

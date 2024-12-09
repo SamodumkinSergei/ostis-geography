@@ -1,0 +1,26 @@
+ concept_medicine_177166984107
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["МНПЦ хирургии, трансплантологии и гематологии, кардиохирургическое отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["МНПЦ хирургии, трансплантологии и гематологии, кардиохирургическое отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Семашко, 8к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 370-78-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.859742,27.495687"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://msth.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

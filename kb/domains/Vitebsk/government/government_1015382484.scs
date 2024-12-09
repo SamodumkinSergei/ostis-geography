@@ -1,0 +1,26 @@
+ concept_government_1015382484
+ <- concept_government;
+=>nrel_main_idtf:
+	["Комитет по труду, занятости и социальной защите Витебского облисполкома"]
+	(* <- lang_ru;; <- name;;*);
+    ["Комитет по труду, занятости и социальной защите Витебского облисполкома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Правды, 32А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 268-40-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.187359,30.218252"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitebsk-region.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

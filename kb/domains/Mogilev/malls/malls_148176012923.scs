@@ -1,0 +1,26 @@
+ concept_malls_148176012923
+ <- concept_malls;
+=>nrel_main_idtf:
+	["MySport"]
+	(* <- lang_ru;; <- name;;*);
+    ["MySport"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Казимировка, Минское шоссе, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 888-80-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.935791,30.257551"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.magiccard.by/ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

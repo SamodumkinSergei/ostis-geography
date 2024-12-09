@@ -1,0 +1,26 @@
+ concept_{{ categories }}_{{ id }}
+ <- concept_{{ categories }};
+=>nrel_main_idtf:
+	["{{ name_ru }}"]
+	(* <- lang_ru;; <- name;;*);
+    ["{{ name_en }}"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["{{ address }}"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["{{ phones }}"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["{{ hours }}"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["{{ coordinates_N }},{{ coordinates_E }}"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["{{ url }}"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    {{ city }};;

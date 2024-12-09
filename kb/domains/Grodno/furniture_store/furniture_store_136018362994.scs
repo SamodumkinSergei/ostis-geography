@@ -1,0 +1,26 @@
+ concept_furniture_store_136018362994
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Акс-мебель. Фурнитура. Гродно"]
+	(* <- lang_ru;; <- name;;*);
+    ["Акс-мебель. Фурнитура. Гродно"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Соколовского, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 531-53-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.660085,23.805641"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://aks.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

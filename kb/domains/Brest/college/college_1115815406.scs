@@ -1,0 +1,26 @@
+ concept_college_1115815406
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 8 г. Бреста им. Героя Беларуси В. Н. Карвата"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 8 г. Бреста им. Героя Беларуси В. Н. Карвата"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Железнодорожная улица, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 255-01-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–20:00; сб 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.100901,23.670519"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://8brest.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

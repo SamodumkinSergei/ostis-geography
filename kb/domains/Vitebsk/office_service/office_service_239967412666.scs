@@ -1,0 +1,26 @@
+ concept_office_service_239967412666
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Кастом-Сервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кастом-Сервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Лазо, 121"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 370-21-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.201452,30.264728"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://customs-service.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

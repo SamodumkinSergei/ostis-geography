@@ -1,0 +1,26 @@
+ concept_kindergarten_1002401748
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 243"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 243"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Жудро, 63"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 363-54-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.921516,27.478999"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu243.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

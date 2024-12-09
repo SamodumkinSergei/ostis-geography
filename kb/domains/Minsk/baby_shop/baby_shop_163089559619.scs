@@ -1,0 +1,26 @@
+ concept_baby_shop_163089559619
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Алёшка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Алёшка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 599-00-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908784,27.548927"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.aleshka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

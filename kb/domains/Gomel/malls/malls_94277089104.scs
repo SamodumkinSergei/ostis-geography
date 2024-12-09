@@ -1,0 +1,26 @@
+ concept_malls_94277089104
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Керамин, склад"]
+	(* <- lang_ru;; <- name;;*);
+    ["Керамин, склад"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Центральный район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 308-15-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 10:00–19:00; вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.441449,31.017964"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://keramin.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

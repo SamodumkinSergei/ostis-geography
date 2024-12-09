@@ -1,0 +1,26 @@
+ concept_hypermarket_1038427857
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Кроха"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кроха"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Карповича, 28к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 681-92-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 10:00–17:30; вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.424931,30.997295"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kroha-shop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

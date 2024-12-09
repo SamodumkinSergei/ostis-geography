@@ -1,0 +1,26 @@
+ concept_supermarket_57049708374
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Евроопт Минимаркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Евроопт Минимаркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёвский район, Полыковичский сельсовет, агрогородок Полыковичи, Подгорная улица, 10А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 788-88-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.969987,30.378675"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://evroopt.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_spa_230297601357
+ <- concept_spa;
+=>nrel_main_idtf:
+	["Рафаэль"]
+	(* <- lang_ru;; <- name;;*);
+    ["Рафаэль"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кирилла Туровского, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 123-10-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–21:00; вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.931851,27.655217"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.rafael.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

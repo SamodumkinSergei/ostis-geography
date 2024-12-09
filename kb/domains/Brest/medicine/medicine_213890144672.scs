@@ -1,0 +1,26 @@
+ concept_medicine_213890144672
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Хирургическое отделение, Брестская городская больница № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хирургическое отделение, Брестская городская больница № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Кижеватова, 76"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 226-24-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.106807,23.690149"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

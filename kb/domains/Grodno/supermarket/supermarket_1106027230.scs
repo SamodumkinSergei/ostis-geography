@@ -1,0 +1,26 @@
+ concept_supermarket_1106027230
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Янтарь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Янтарь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Максима Горького, 88"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 255-43-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.70613,23.815877"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

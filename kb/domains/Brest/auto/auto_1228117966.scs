@@ -1,0 +1,26 @@
+ concept_auto_1228117966
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Ремонт дизельной аппаратуры"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт дизельной аппаратуры"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гоздецкого, 22Е"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 250-10-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.119815,23.785378"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://dieselbrest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

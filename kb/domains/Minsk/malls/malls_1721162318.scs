@@ -1,0 +1,26 @@
+ concept_malls_1721162318
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Xistore"]
+	(* <- lang_ru;; <- name;;*);
+    ["Xistore"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кузьмы Чорного, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 679-21-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.924811,27.599005"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://xistore.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

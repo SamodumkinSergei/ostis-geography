@@ -1,0 +1,26 @@
+ concept_college_216907507400
+ <- concept_college;
+=>nrel_main_idtf:
+	["Витебский государственный колледж электротехники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебский государственный колледж электротехники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Черняховского, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 264-89-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.178756,30.20277"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vgke.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

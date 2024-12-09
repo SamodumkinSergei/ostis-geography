@@ -1,0 +1,26 @@
+ concept_petshop_26171064228
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Doctor Vic"]
+	(* <- lang_ru;; <- name;;*);
+    ["Doctor Vic"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Гагарина, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 267-10-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.209514,30.222251"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://doctor-vic.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

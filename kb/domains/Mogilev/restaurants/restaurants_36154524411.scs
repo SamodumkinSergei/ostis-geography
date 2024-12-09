@@ -1,0 +1,26 @@
+ concept_restaurants_36154524411
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Белый Лис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белый Лис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 31А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 307-40-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–00:00; пт,сб 12:00–02:00; вс 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901202,30.336916"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

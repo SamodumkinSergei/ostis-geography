@@ -1,0 +1,26 @@
+ concept_bus_stop_128650066548
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Гребной канал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гребной канал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица 28 Июля"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.081038,23.738117"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_supermarket_102685332165
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Крошка-маркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Крошка-маркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Смоленская улица, 11, корп. 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 233-00-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.187317,30.233038"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_cafe_201304724419
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Столовая Взэп"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столовая Взэп"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Красина, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 600-95-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 12:00–14:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.198653,30.195575"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

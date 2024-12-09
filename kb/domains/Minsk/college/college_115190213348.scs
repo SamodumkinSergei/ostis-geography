@@ -1,0 +1,26 @@
+ concept_college_115190213348
+ <- concept_college;
+=>nrel_main_idtf:
+	["HR-Университет БГУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["HR-Университет БГУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинградская улица, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 309-59-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:15, перерыв 13:00–14:00; пт 08:30–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.892197,27.548157"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://hr.bsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

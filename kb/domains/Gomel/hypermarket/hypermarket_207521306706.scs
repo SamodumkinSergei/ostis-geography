@@ -1,0 +1,26 @@
+ concept_hypermarket_207521306706
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Сантехника и стройматериалы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сантехника и стройматериалы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Фестивальный, улица Павлова, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 692-39-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–18:00; вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.409254,30.960072"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

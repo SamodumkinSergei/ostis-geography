@@ -1,0 +1,26 @@
+ concept_college_1014758236
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 59 г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 59 г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Головацкого, 102"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 253-07-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.448355,31.015638"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.59-ka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

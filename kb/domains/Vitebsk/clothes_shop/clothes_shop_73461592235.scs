@@ -1,0 +1,26 @@
+ concept_clothes_shop_73461592235
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Бренд сток"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бренд сток"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чкалова, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 350-74-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–19:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.158823,30.212077"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

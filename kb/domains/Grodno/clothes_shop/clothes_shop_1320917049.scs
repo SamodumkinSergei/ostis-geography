@@ -1,0 +1,26 @@
+ concept_clothes_shop_1320917049
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Саволе"]
+	(* <- lang_ru;; <- name;;*);
+    ["Саволе"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, посёлок Южный, Звёздная улица, 39"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 651-03-96"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 11:00–19:00; сб,вс 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.623538,23.842005"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://savole.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

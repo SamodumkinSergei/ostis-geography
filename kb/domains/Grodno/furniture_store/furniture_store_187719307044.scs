@@ -1,0 +1,26 @@
+ concept_furniture_store_187719307044
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Стиль"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стиль"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Максима Горького, 91"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 773-35-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.711477,23.816616"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://m-style.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

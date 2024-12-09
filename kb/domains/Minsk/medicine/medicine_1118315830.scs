@@ -1,0 +1,26 @@
+ concept_medicine_1118315830
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городская детская поликлиника № 7"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская детская поликлиника № 7"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Плеханова, 127"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 379-55-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:30–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.858222,27.59288"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.7gdp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

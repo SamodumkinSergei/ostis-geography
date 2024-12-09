@@ -1,0 +1,26 @@
+ concept_hairdressers_104108302006
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Золотая Багира"]
+	(* <- lang_ru;; <- name;;*);
+    ["Золотая Багира"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Московский район, микрорайон Михалово, улица Острожских, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 338-97-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878629,27.472297"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_malls_227584671570
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Офистон Маркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Офистон Маркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурганова, 54"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 138-59-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.929369,27.584961"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://officetonmarket.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

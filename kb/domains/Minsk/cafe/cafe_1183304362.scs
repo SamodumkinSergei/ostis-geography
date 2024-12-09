@@ -1,0 +1,26 @@
+ concept_cafe_1183304362
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Guru Coffee"]
+	(* <- lang_ru;; <- name;;*);
+    ["Guru Coffee"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Комсомольская улица, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 150-22-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–23:00; сб,вс 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897885,27.556336"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

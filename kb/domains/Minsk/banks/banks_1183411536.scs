@@ -1,0 +1,26 @@
+ concept_banks_1183411536
+ <- concept_banks;
+=>nrel_main_idtf:
+	["БСБ банк"]
+	(* <- lang_ru;; <- name;;*);
+    ["БСБ банк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, площадь Свободы, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 306-20-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903962,27.557188"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

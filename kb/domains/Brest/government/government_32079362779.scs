@@ -1,0 +1,26 @@
+ concept_government_32079362779
+ <- concept_government;
+=>nrel_main_idtf:
+	["Главное управление по здравоохранению Брестского облисполкома"]
+	(* <- lang_ru;; <- name;;*);
+    ["Главное управление по здравоохранению Брестского облисполкома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Красногвардейская улица, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 257-43-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.104823,23.680877"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.brest-region.gov.by/index.php/obshchestvo/zdravookhranenie/upravlenie-zdravookhraneniya"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

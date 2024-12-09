@@ -1,0 +1,26 @@
+ concept_hairdressers_1206175760
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Рось"]
+	(* <- lang_ru;; <- name;;*);
+    ["Рось"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, бульвар Космонавтов, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 730-21-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 08:00–18:00; вс 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.096765,23.696223"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

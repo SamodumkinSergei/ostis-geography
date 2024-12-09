@@ -1,0 +1,26 @@
+ concept_college_1002284267
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 150"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 150"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Глебки, 116"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 390-43-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.926206,27.482134"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch150.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

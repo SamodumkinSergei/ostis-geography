@@ -1,0 +1,26 @@
+ concept_hypermarket_62796860876
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["ООО ЗБИ № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["ООО ЗБИ № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Белорусская железная дорога, станция Лососно, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 900-88-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.647554,23.795068"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://zbi1.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

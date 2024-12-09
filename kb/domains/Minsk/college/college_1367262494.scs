@@ -1,0 +1,26 @@
+ concept_college_1367262494
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 199 г. Минска имени Пимена Панченки"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 199 г. Минска имени Пимена Панченки"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Пимена Панченко, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 206-93-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.883979,27.420206"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch199.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

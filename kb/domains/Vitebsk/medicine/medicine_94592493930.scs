@@ -1,0 +1,26 @@
+ concept_medicine_94592493930
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["ГОБУЗ ЦГКБ, поликлиника № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГОБУЗ ЦГКБ, поликлиника № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Великий Новгород, Торговая сторона, Славная улица, 45/24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (8162) 66-99-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["58.519756,31.292595"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://novgorzdrav.ru/departments/poliklinika-1.html"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

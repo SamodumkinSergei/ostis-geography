@@ -1,0 +1,26 @@
+ concept_medicine_1175814989
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городская клиническая больница № 6"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская клиническая больница № 6"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Уральская улица, 5к8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 360-98-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902624,27.610429"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://6gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

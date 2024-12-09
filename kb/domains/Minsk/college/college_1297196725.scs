@@ -1,0 +1,26 @@
+ concept_college_1297196725
+ <- concept_college;
+=>nrel_main_idtf:
+	["БГМУ, кафедра акушерства и гинекологии"]
+	(* <- lang_ru;; <- name;;*);
+    ["БГМУ, кафедра акушерства и гинекологии"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 64к5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 331-59-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917921,27.596073"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsmu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_malls_114551751523
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Соседи"]
+	(* <- lang_ru;; <- name;;*);
+    ["Соседи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Фатина, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 382-66-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.881765,30.375697"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sosedi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

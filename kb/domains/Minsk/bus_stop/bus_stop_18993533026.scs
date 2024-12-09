@@ -1,0 +1,26 @@
+ concept_bus_stop_18993533026
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Республиканский центр тенниса"]
+	(* <- lang_ru;; <- name;;*);
+    ["Республиканский центр тенниса"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сапёров"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.923465,27.519891"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

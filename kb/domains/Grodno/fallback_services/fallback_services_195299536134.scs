@@ -1,0 +1,26 @@
+ concept_fallback_services_195299536134
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Мир камня"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мир камня"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Лиможа, 1, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 730-20-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.702826,23.850069"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.mir-kamny.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

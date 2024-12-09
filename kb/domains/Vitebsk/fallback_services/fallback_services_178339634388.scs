@@ -1,0 +1,26 @@
+ concept_fallback_services_178339634388
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Пригородная касса"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пригородная касса"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Санкт-Петербург, Загородный проспект, 52"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 05:30–00:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["59.919192,30.329539"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

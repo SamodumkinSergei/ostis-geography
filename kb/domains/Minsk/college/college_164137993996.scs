@@ -1,0 +1,26 @@
+ concept_college_164137993996
+ <- concept_college;
+=>nrel_main_idtf:
+	["РЭУ им. Г. В. Плеханова, Минский филиал"]
+	(* <- lang_ru;; <- name;;*);
+    ["РЭУ им. Г. В. Плеханова, Минский филиал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Радиальная улица, 40к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 317-45-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:15, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.892552,27.647026"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.reu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

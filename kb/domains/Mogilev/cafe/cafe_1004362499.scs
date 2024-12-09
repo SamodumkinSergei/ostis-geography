@@ -1,0 +1,26 @@
+ concept_cafe_1004362499
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Русский Дом"]
+	(* <- lang_ru;; <- name;;*);
+    ["Русский Дом"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, бульвар Непокорённых, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 275-94-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.875388,30.329326"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

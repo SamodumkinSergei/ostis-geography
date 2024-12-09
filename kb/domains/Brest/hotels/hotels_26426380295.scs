@@ -1,0 +1,26 @@
+ concept_hotels_26426380295
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["L'Amirauté Brest"]
+	(* <- lang_ru;; <- name;;*);
+    ["L'Amirauté Brest"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Франция, Брест, 41 Rue Branda"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 298808 400"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["48.39225,-4.48104"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://hotel-brest-amiraute.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

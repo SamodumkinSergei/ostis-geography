@@ -1,0 +1,26 @@
+ concept_car_park_28992524360
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Парковка ТЦ Алми"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парковка ТЦ Алми"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 93"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905091,27.439964"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mscom.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

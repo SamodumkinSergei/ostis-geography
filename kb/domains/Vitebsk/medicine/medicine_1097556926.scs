@@ -1,0 +1,26 @@
+ concept_medicine_1097556926
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Витебская областная клиническая больница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебская областная клиническая больница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Воинов-Интернационалистов, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 261-63-89"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.158638,30.225077"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

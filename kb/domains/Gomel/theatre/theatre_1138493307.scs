@@ -1,0 +1,26 @@
+ concept_theatre_1138493307
+ <- concept_theatre;
+=>nrel_main_idtf:
+	["Гомельский государственный театр кукол"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский государственный театр кукол"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Пушкина, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 228-25-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 11:00–18:00; сб,вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.43188,31.012308"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomelpuppet.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

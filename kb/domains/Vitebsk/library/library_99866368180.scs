@@ -1,0 +1,26 @@
+ concept_library_99866368180
+ <- concept_library;
+=>nrel_main_idtf:
+	["Библиотека имени Я. Коласа"]
+	(* <- lang_ru;; <- name;;*);
+    ["Библиотека имени Я. Коласа"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Максима Горького, 120"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 236-26-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 10:00–19:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.166776,30.132345"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://cbsvit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

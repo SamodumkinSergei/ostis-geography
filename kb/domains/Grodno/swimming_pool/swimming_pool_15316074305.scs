@@ -1,0 +1,26 @@
+ concept_swimming_pool_15316074305
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Школьный бассейн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Школьный бассейн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Парижской Коммуны, 3А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 686-56-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 16:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.674224,23.832065"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://swimmingschool.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

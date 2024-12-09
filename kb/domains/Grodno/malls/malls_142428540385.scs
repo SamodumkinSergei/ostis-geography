@@ -1,0 +1,26 @@
+ concept_malls_142428540385
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Белювелирторг"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белювелирторг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Советская улица, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 272-23-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.681087,23.831229"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.beluvelirtorg.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

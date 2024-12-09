@@ -1,0 +1,26 @@
+ concept_fast_food_228512765387
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Шау room"]
+	(* <- lang_ru;; <- name;;*);
+    ["Шау room"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Шабаны, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 721-20-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.835665,27.69624"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

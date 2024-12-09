@@ -1,0 +1,26 @@
+ concept_hypermarket_64859805221
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Красный пищевик"]
+	(* <- lang_ru;; <- name;;*);
+    ["Красный пищевик"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, 2-я улица Фрунзе, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 263-20-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.19323,30.214614"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.zefir.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

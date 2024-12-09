@@ -1,0 +1,26 @@
+ concept_fast_food_74171846654
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Кинобар cinema bar"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кинобар cinema bar"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 73"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 183-00-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.92215,27.596948"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

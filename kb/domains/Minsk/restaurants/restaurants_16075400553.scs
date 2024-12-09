@@ -1,0 +1,26 @@
+ concept_restaurants_16075400553
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Presto Pizza"]
+	(* <- lang_ru;; <- name;;*);
+    ["Presto Pizza"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Щомыслицкий сельсовет, 32к4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 500-57-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.849664,27.433752"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://prestoby.net/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

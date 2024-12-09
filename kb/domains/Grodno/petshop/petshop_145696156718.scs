@@ -1,0 +1,26 @@
+ concept_petshop_145696156718
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Время груминга"]
+	(* <- lang_ru;; <- name;;*);
+    ["Время груминга"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Щорса, 27А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 622-08-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.679789,23.85887"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

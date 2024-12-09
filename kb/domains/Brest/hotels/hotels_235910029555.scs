@@ -1,0 +1,26 @@
+ concept_hotels_235910029555
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Усадьба Соляная благодать"]
+	(* <- lang_ru;; <- name;;*);
+    ["Усадьба Соляная благодать"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брестский район, Тельминский сельсовет, деревня Тельмы-2, Полевая улица, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 297-98-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.121941,23.863575"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

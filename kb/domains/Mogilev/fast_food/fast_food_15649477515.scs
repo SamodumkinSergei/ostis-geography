@@ -1,0 +1,26 @@
+ concept_fast_food_15649477515
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Шаурма № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Шаурма № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Аркадия Кулешова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 774-63-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.91536,30.284256"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

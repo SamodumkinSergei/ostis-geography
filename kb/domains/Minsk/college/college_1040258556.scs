@@ -1,0 +1,26 @@
+ concept_college_1040258556
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 169"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 169"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Илимская улица, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 255-40-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.887848,27.68579"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch169.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

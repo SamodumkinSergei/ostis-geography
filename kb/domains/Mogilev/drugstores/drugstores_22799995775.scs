@@ -1,0 +1,26 @@
+ concept_drugstores_22799995775
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Хорошее лекарство"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хорошее лекарство"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Островского, 1Д"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 535-57-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб,вс 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.871494,30.3287"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://d-leki.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

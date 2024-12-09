@@ -1,0 +1,26 @@
+ concept_hairdressers_1255962924
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Элен-стиль"]
+	(* <- lang_ru;; <- name;;*);
+    ["Элен-стиль"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Короткевича, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 891-14-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 08:00–18:00; вс 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.168627,30.257986"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gorodvitebsk.by/firms/style"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

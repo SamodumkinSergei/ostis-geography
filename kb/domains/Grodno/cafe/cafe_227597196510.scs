@@ -1,0 +1,26 @@
+ concept_cafe_227597196510
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Наша Кава"]
+	(* <- lang_ru;; <- name;;*);
+    ["Наша Кава"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Замковая улица, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 585-42-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.67824,23.826325"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

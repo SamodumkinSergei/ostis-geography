@@ -1,0 +1,26 @@
+ concept_baby_shop_1800532018
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Mothercare"]
+	(* <- lang_ru;; <- name;;*);
+    ["Mothercare"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Строителей, 15В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 569-55-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.170284,30.219832"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://boomkids.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

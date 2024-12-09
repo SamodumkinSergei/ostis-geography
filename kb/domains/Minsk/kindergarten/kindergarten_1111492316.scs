@@ -1,0 +1,26 @@
+ concept_kindergarten_1111492316
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-Сад № 321"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-Сад № 321"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Куйбышева, 79"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 378-50-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.924755,27.57911"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu321.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

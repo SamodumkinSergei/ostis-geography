@@ -1,0 +1,26 @@
+ concept_restaurants_1297163826
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Усадьба"]
+	(* <- lang_ru;; <- name;;*);
+    ["Усадьба"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Филимонова, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 172-66-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–00:00; пт,сб 12:00–02:00; вс 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919753,27.638614"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

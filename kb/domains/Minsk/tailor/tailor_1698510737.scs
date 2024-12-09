@@ -1,0 +1,26 @@
+ concept_tailor_1698510737
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Ремонт Обуви"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт Обуви"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Маяковского, 146"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 912-43-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.871488,27.568496"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://botikmaster.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

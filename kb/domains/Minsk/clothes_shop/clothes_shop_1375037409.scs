@@ -1,0 +1,26 @@
+ concept_clothes_shop_1375037409
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["LC Waikiki"]
+	(* <- lang_ru;; <- name;;*);
+    ["LC Waikiki"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Бобруйская улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 328-47-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–22:00; пт,сб 10:00–23:00; вс 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.890083,27.554815"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.lcwaikiki.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

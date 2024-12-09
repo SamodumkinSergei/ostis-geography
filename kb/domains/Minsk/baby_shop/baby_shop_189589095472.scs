@@ -1,0 +1,26 @@
+ concept_baby_shop_189589095472
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Супер Тойс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Супер Тойс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Мележа, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 331-11-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.939432,27.601169"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://supertoy.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

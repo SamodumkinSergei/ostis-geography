@@ -1,0 +1,26 @@
+ concept_fallback_services_111804369294
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Sushi House"]
+	(* <- lang_ru;; <- name;;*);
+    ["Sushi House"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 668-11-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.91085,27.527695"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sushihouse.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

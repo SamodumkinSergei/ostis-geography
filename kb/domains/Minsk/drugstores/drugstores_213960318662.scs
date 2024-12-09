@@ -1,0 +1,26 @@
+ concept_drugstores_213960318662
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 18"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 18"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Киселёва, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 355-62-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:50"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912067,27.569643"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

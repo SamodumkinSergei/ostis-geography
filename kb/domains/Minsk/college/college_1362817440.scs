@@ -1,0 +1,26 @@
+ concept_college_1362817440
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 196"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 196"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Никифорова, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 320-14-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–21:00; сб 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.940566,27.693309"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch196.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

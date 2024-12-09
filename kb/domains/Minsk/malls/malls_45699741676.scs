@@ -1,0 +1,26 @@
+ concept_malls_45699741676
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Ksecret.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ksecret.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Мира, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 762-77-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.869953,27.549808"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ksecret.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

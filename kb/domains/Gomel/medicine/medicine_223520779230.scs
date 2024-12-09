@@ -1,0 +1,26 @@
+ concept_medicine_223520779230
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гомельская областная клиническая психиатрическая больница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельская областная клиническая психиатрическая больница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Добрушская улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 235-62-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.405902,31.047941"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gokpb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

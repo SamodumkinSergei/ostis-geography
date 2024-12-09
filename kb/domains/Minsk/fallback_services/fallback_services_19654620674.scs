@@ -1,0 +1,26 @@
+ concept_fallback_services_19654620674
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Памятники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Михася Лынькова, 85к6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 625-50-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.925441,27.473249"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vasam-granit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

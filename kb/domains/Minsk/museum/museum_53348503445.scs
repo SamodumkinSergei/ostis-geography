@@ -1,0 +1,26 @@
+ concept_museum_53348503445
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей минского метрополитена"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей минского метрополитена"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 149В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 219-60-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 12:15–13:00; пт 08:30–16:15, перерыв 12:15–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.86245,27.673346"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://metropoliten.by/o_metropolitene/museum/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

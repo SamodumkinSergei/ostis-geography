@@ -1,0 +1,26 @@
+ concept_furniture_store_206227238701
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Мебель Халмар в Гомеле"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мебель Халмар в Гомеле"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Ленина, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 692-26-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.429696,30.997636"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://halmar-furniture.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

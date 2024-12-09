@@ -1,0 +1,26 @@
+ concept_bus_stop_32611098828
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Гуманитарный колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гуманитарный колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Будённого"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.678225,23.841191"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

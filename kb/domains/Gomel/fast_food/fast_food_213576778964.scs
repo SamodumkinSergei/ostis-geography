@@ -1,0 +1,26 @@
+ concept_fast_food_213576778964
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Кебаб бар"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кебаб бар"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Коммунаров, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 980-82-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.426331,31.011311"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://kebab-bar-food.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_malls_1029186325
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Ваш выбор"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ваш выбор"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Карла Маркса, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 275-68-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–18:00; вс 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.67642,23.838557"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://konfiskat.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_medicine_57804891870
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Poliklinika"]
+	(* <- lang_ru;; <- name;;*);
+    ["Poliklinika"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Вильнюс, улица Лоретос Асанавичютес, 27A"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+370 5 216 89 11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.692522,25.215016"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://karpol.lt/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

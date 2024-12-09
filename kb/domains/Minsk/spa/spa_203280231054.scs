@@ -1,0 +1,26 @@
+ concept_spa_203280231054
+ <- concept_spa;
+=>nrel_main_idtf:
+	["Мастерская Красоты"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мастерская Красоты"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 116"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 777-09-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб,вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.931131,27.64503"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

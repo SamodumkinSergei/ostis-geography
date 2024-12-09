@@ -1,0 +1,26 @@
+ concept_supermarket_20938133982
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Ваш выбор"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ваш выбор"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 266-53-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00, перерыв 14:30–15:00; сб,вс 10:00–18:00, перерыв 14:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.898295,30.332572"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://konfiskat.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

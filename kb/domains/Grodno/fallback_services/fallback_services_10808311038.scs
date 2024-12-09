@@ -1,0 +1,26 @@
+ concept_fallback_services_10808311038
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Монумент"]
+	(* <- lang_ru;; <- name;;*);
+    ["Монумент"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Томина, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 916-91-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.65033,23.830652"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://monument-grodno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

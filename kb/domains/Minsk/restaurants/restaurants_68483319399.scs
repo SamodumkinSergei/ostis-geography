@@ -1,0 +1,26 @@
+ concept_restaurants_68483319399
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Хинкальня"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хинкальня"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кирова, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 567-47-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.893492,27.552625"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://taplink.cc/hinkalnyaminsk"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

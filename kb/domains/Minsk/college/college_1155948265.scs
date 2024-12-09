@@ -1,0 +1,26 @@
+ concept_college_1155948265
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 205"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 205"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сергея Есенина, 125"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 243-03-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.863363,27.434071"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch205.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

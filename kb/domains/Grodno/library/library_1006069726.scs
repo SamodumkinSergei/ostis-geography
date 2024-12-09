@@ -1,0 +1,26 @@
+ concept_library_1006069726
+ <- concept_library;
+=>nrel_main_idtf:
+	["Государственный архив Гродненской области"]
+	(* <- lang_ru;; <- name;;*);
+    ["Государственный архив Гродненской области"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Дзержинского, 84"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 272-23-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.702554,23.839138"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://archives.gov.by/?id=184649"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

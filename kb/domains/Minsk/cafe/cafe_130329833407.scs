@@ -1,0 +1,26 @@
+ concept_cafe_130329833407
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Пёрпл кофе"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пёрпл кофе"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Маяковского, 146"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 904-78-97"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.871653,27.568754"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

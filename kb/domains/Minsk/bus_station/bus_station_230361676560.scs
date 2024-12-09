@@ -1,0 +1,26 @@
+ concept_bus_station_230361676560
+ <- concept_bus_station;
+=>nrel_main_idtf:
+	["Автостанция Ольшаны"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостанция Ольшаны"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Червенский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.79126,27.97978"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

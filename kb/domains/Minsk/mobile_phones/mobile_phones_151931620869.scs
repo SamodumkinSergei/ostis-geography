@@ -1,0 +1,26 @@
+ concept_mobile_phones_151931620869
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Fix-Mobile"]
+	(* <- lang_ru;; <- name;;*);
+    ["Fix-Mobile"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ложинская улица, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 365-84-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.952132,27.683552"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://fix-mobile.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

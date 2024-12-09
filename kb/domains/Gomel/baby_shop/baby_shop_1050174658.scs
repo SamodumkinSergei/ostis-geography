@@ -1,0 +1,26 @@
+ concept_baby_shop_1050174658
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Метеорит Плюс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Метеорит Плюс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Октября, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 691-75-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.40781,30.959046"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://meteorit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

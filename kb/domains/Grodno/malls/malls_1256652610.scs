@@ -1,0 +1,26 @@
+ concept_malls_1256652610
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Неман"]
+	(* <- lang_ru;; <- name;;*);
+    ["Неман"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Советская улица, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 655-16-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–20:00; вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.682303,23.831471"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://tdn.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

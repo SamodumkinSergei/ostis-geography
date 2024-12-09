@@ -1,0 +1,26 @@
+ concept_clothes_shop_150765086323
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Мега брэнд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мега брэнд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Габровская улица, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 703-45-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–20:00; пт 10:00–16:00; сб 09:00–20:00; вс 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.869007,30.348886"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://secondbel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

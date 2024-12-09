@@ -1,0 +1,26 @@
+ concept_malls_1036338586
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Ваш выбор"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ваш выбор"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Красногвардейская улица, 110/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 245-20-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.123496,23.6941"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.konfiskat.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_cafe_184685881044
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Ночь, улица, фонарь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ночь, улица, фонарь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Машерова, 50/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 557-75-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.08717,23.695765"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

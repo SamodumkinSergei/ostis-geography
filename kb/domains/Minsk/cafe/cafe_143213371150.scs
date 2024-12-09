@@ -1,0 +1,26 @@
+ concept_cafe_143213371150
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["KaraKum"]
+	(* <- lang_ru;; <- name;;*);
+    ["KaraKum"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 3Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 370-05-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–21:00; сб 12:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.891206,27.527841"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://karakum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

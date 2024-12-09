@@ -1,0 +1,26 @@
+ concept_malls_233022202099
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Канцтовары"]
+	(* <- lang_ru;; <- name;;*);
+    ["Канцтовары"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Адамковская улица, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 672-28-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб,вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.100414,23.655538"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

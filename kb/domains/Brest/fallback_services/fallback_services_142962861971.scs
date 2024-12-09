@@ -1,0 +1,26 @@
+ concept_fallback_services_142962861971
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Сантехцентр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сантехцентр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, микрорайон Ковалёво"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 720-22-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 10:00–16:00; вт-вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.063812,23.7581"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_37928039535
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Акцент"]
+	(* <- lang_ru;; <- name;;*);
+    ["Акцент"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Волковича, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 272-10-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.686438,23.842371"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.accent-gloves.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

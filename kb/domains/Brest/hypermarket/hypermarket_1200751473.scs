@@ -1,0 +1,26 @@
+ concept_hypermarket_1200751473
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Речной порт Брест"]
+	(* <- lang_ru;; <- name;;*);
+    ["Речной порт Брест"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Интернациональная улица, 5А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 222-10-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.083171,23.688591"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://parohodstvo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_petshop_82294165309
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Аквариум"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аквариум"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Генерала Ивановского, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 513-85-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.166478,30.257701"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_museum_162653470791
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей Войны - Территория Мира"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей Войны - Территория Мира"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Героев Обороны Брестской Крепости, 60А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 326-50-96"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.082102,23.658761"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brest-fortress.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

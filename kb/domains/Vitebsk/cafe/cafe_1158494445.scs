@@ -1,0 +1,26 @@
+ concept_cafe_1158494445
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Столовая Витязь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столовая Витязь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Строителей, 23, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 257-19-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:45–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.166272,30.239036"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.vityas.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

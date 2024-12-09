@@ -1,0 +1,26 @@
+ concept_college_1259296221
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 22"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 22"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Куйбышева, 42"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 263-20-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.208311,30.196161"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://22vitebsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

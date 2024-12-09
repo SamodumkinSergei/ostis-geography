@@ -1,0 +1,26 @@
+ concept_medicine_207227521913
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городская клиническая больница № 6, центр травматологии и ортопедии, приёмное отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская клиническая больница № 6, центр травматологии и ортопедии, приёмное отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Уральская улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 245-44-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901378,27.610542"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://6gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

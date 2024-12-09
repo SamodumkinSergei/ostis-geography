@@ -1,0 +1,26 @@
+ concept_hotels_1008569745
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Славия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Славия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Молодёжная улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 799-83-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.678031,23.836579"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.hotel-slavia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_college_1003009695
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГУО Средняя школа"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО Средняя школа"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брестская область, Брестский район, Мотыкальский сельсовет, деревня Скоки, улица Мира, 48"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 254-93-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.157211,23.630336"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://skoki.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_61581178875
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Автовокзал Витебск"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автовокзал Витебск"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Железнодорожный район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.196691,30.18742"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

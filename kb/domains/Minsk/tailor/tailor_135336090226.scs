@@ -1,0 +1,26 @@
+ concept_tailor_135336090226
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Ремонт обуви"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт обуви"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проезд Масюковщина, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 659-99-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.925688,27.451383"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://shuzprosvet.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

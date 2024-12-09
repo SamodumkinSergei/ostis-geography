@@ -1,0 +1,26 @@
+ concept_museum_1057023931
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Витебский областной краеведческий музей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебский областной краеведческий музей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 36"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 266-47-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.195575,30.20586"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ratusha-vit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

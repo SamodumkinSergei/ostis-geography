@@ -1,0 +1,26 @@
+ concept_banks_1117012688
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Банк Дабрабыт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Банк Дабрабыт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лобанка, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 522-21-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901846,27.434366"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bankdabrabyt.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

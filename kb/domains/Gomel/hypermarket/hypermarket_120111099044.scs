@@ -1,0 +1,26 @@
+ concept_hypermarket_120111099044
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Metro"]
+	(* <- lang_ru;; <- name;;*);
+    ["Metro"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Анкара, Чанкая, улица Дикмен, 203B"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["8 (800) 080-02-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["39.884883,32.839847"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.metro.com.kz/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

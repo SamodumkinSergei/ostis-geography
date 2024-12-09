@@ -1,0 +1,26 @@
+ concept_baby_shop_147335795765
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Baghouse"]
+	(* <- lang_ru;; <- name;;*);
+    ["Baghouse"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гаврилова, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 602-79-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.108469,23.772752"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://baghouse.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

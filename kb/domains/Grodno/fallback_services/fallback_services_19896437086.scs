@@ -1,0 +1,26 @@
+ concept_fallback_services_19896437086
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Parikmacher.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Parikmacher.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Карла Маркса, 7А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 273-07-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 10:00–19:00; вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.6777,23.832295"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.parikmacher.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

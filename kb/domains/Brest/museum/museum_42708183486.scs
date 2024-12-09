@@ -1,0 +1,26 @@
+ concept_museum_42708183486
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Выставочный зал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Выставочный зал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, остров Центральный"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 220-03-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср-вс 09:00–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.081361,23.65607"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.brest-fortress.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

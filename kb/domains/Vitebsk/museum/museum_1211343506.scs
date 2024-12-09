@@ -1,0 +1,26 @@
+ concept_museum_1211343506
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Зал спортивной славы Витебщины"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зал спортивной славы Витебщины"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Генерала Людникова, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 243-69-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.198515,30.228164"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.fc.vitebsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

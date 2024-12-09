@@ -1,0 +1,26 @@
+ concept_medicine_1038556196
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городская детская поликлиника № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская детская поликлиника № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Червякова, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 335-07-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.9261,27.549415"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.2gdp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_restaurants_146791964124
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Спорт Пицца"]
+	(* <- lang_ru;; <- name;;*);
+    ["Спорт Пицца"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Рабочая улица, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 302-22-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.45307,30.978575"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sport-pizza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

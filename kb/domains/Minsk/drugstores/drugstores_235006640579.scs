@@ -1,0 +1,26 @@
+ concept_drugstores_235006640579
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Белфармация, аптека № 102 пятой категории"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белфармация, аптека № 102 пятой категории"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Селицкого, 69"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 344-66-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.837509,27.703101"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

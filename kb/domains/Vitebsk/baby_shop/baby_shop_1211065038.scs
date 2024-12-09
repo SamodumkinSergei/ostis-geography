@@ -1,0 +1,26 @@
+ concept_baby_shop_1211065038
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Fantasy"]
+	(* <- lang_ru;; <- name;;*);
+    ["Fantasy"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 60А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 274-55-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–20:00; вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.180363,30.2225"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

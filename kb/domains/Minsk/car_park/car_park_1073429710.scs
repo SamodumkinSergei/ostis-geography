@@ -1,0 +1,26 @@
+ concept_car_park_1073429710
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автостоянка Комби"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостоянка Комби"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лещинского, 8А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 369-44-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 05:30–00:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.913716,27.450633"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

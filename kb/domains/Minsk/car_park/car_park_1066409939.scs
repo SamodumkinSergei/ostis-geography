@@ -1,0 +1,26 @@
+ concept_car_park_1066409939
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автогор, автостоянка № 5"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автогор, автостоянка № 5"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Горовца, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 367-40-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 05:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.871885,27.608047"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

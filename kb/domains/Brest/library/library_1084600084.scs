@@ -1,0 +1,26 @@
+ concept_library_1084600084
+ <- concept_library;
+=>nrel_main_idtf:
+	["Клейниковская сельская библиотека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Клейниковская сельская библиотека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брестский район, Клейниковский сельсовет, агрогородок Клейники, улица 60 лет Октября, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 293-43-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср-вс 10:00–19:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.14045,23.607654"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brest-railib.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

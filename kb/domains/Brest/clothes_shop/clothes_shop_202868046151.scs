@@ -1,0 +1,26 @@
+ concept_clothes_shop_202868046151
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Фирменный магазин Брестские № 39"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фирменный магазин Брестские № 39"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельская область, Речица, Советская улица, 93"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 250-49-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–17:00; вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.366399,30.402169"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bchk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

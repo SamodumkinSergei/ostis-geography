@@ -1,0 +1,26 @@
+ concept_drugstores_1395991824
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация № 165/6"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация № 165/6"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Медицинская улица, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 231-98-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.395319,30.904422"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gomelpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

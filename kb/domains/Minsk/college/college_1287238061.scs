@@ -1,0 +1,26 @@
+ concept_college_1287238061
+ <- concept_college;
+=>nrel_main_idtf:
+	["Мгптк кулинарии Корпус № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мгптк кулинарии Корпус № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 121"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 273-88-24"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.866796,27.658711"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ptk-kulinarii.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

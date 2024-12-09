@@ -1,0 +1,26 @@
+ concept_auto_169929461407
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автодом"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автодом"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Первомайский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 511-75-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00, перерыв 12:00–13:00; сб 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.17289,30.244794"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://autodomvitebsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

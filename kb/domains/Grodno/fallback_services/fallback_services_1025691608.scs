@@ -1,0 +1,26 @@
+ concept_fallback_services_1025691608
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гранитная мастерская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гранитная мастерская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Карского, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 390-97-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:30; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.684551,23.883517"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://scartgranit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

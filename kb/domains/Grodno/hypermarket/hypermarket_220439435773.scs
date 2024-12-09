@@ -1,0 +1,26 @@
+ concept_hypermarket_220439435773
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Магазин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Сокольская улица, 60"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 652-50-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.646194,23.79172"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gkz.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

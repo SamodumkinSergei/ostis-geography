@@ -1,0 +1,26 @@
+ concept_medicine_167952026882
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["1-я Городская Клиническая больница, Приёмное отделение Терапии"]
+	(* <- lang_ru;; <- name;;*);
+    ["1-я Городская Клиническая больница, Приёмное отделение Терапии"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 64к3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 292-61-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.91927,27.594854"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://1gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

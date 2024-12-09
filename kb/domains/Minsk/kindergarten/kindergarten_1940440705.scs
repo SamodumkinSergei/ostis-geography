@@ -1,0 +1,26 @@
+ concept_kindergarten_1940440705
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 128 г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 128 г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Московский район, микрорайон Михалово, улица Тышкевичей, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 247-71-96"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878965,27.475287"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu128.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_restaurants_1326321013
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["ФаСоль"]
+	(* <- lang_ru;; <- name;;*);
+    ["ФаСоль"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 36"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 790-33-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–23:00; сб,вс 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.432998,31.009291"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://fasolrest.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_auto_143027696192
+ <- concept_auto;
+=>nrel_main_idtf:
+	["True service station"]
+	(* <- lang_ru;; <- name;;*);
+    ["True service station"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Московская область, Чехов, Симферопольское шоссе, 1Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (977) 626-02-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.162533,37.468596"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://truestation.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

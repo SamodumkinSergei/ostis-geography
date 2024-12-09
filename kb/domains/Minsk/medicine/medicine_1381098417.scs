@@ -1,0 +1,26 @@
+ concept_medicine_1381098417
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Республиканский токсикологический центр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Республиканский токсикологический центр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лейтенанта Кижеватова, 58"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 287-00-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.852441,27.535466"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bsmp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

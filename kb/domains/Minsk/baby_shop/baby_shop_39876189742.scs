@@ -1,0 +1,26 @@
+ concept_baby_shop_39876189742
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Фабеас"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фабеас"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Московский район, Грушевка, 3-я улица Щорса, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 336-10-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:30–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.883461,27.511862"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://fabeas.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

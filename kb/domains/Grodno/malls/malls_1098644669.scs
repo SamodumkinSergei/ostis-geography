@@ -1,0 +1,26 @@
+ concept_malls_1098644669
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Для дома и дачи"]
+	(* <- lang_ru;; <- name;;*);
+    ["Для дома и дачи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Пестрака, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 239-08-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.658774,23.835814"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://belvtorpolimer.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

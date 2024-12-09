@@ -1,0 +1,26 @@
+ concept_government_68078564800
+ <- concept_government;
+=>nrel_main_idtf:
+	["Главное финансовое управление Витебского облисполкома"]
+	(* <- lang_ru;; <- name;;*);
+    ["Главное финансовое управление Витебского облисполкома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Гоголя, 6, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 248-21-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.190299,30.210334"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitebsk-region.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

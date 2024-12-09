@@ -1,0 +1,26 @@
+ concept_kindergarten_1024895767
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Санаторный детский сад № 360"]
+	(* <- lang_ru;; <- name;;*);
+    ["Санаторный детский сад № 360"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Казинца, 72"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 363-44-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.849937,27.503192"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ddu360.minskedu.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

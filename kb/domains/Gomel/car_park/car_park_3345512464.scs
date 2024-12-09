@@ -1,0 +1,26 @@
+ concept_car_park_3345512464
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автостоянка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостоянка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Юбилейная улица, 48Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 229-79-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–09:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.453391,31.007652"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

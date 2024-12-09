@@ -1,0 +1,26 @@
+ concept_banks_181870352600
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Беларусбанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Беларусбанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Пучкова, 36"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 265-57-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["чт,пт 11:00–20:00, перерыв 15:00–16:00; сб 10:00–19:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.651571,23.805583"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://belarusbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_malls_174891310382
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Mistik.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Mistik.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Кальварийская улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 284-62-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:30–19:00; сб 10:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905111,27.539167"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mistik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_auto_124194453545
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Авторемонт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Авторемонт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Гаражный переулок, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 108-19-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.896724,30.290063"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

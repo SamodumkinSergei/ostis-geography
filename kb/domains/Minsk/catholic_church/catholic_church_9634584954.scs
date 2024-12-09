@@ -1,0 +1,26 @@
+ concept_catholic_church_9634584954
+ <- concept_catholic_church;
+=>nrel_main_idtf:
+	["Греко-католический центр Святого Иосифа"]
+	(* <- lang_ru;; <- name;;*);
+    ["Греко-католический центр Святого Иосифа"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Орджоникидзе, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 273-41-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пт 18:30–20:00; вс 09:30–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.871017,27.653321"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.svjazep.org/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_kindergarten_1132390903
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Детский сад № 106 г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский сад № 106 г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Жукова, 38Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 256-58-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.407962,30.967631"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sad106gomel.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

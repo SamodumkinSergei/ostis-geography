@@ -1,0 +1,26 @@
+ concept_hypermarket_1077844777
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Metro Cash & Carry"]
+	(* <- lang_ru;; <- name;;*);
+    ["Metro Cash & Carry"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Киев, проспект Петра Григоренко, 43"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["0800 501-401"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["50.390365,30.640874"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.metro.ua/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_mobile_phones_122718726410
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Модуль"]
+	(* <- lang_ru;; <- name;;*);
+    ["Модуль"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Строителей, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 849-54-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.172584,30.201232"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://модуль.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

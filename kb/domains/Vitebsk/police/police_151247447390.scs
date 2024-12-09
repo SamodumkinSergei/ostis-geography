@@ -1,0 +1,26 @@
+ concept_police_151247447390
+ <- concept_police;
+=>nrel_main_idtf:
+	["Отделение милиции Билево"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отделение милиции Билево"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица 33-й Армии, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 260-97-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.164909,30.283982"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitebsk.mvd.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

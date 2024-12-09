@@ -1,0 +1,26 @@
+ concept_medicine_1092628059
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Брестская городская больница № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестская городская больница № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Школьная улица, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 224-72-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.10388,23.643911"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bgb2-brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

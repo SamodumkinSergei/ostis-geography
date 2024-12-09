@@ -1,0 +1,26 @@
+ concept_fallback_services_148617541448
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Товарная контора станции Брест-Северный"]
+	(* <- lang_ru;; <- name;;*);
+    ["Товарная контора станции Брест-Северный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Лейтенанта Рябцева, 13А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.116087,23.672318"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

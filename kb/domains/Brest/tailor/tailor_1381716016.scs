@@ -1,0 +1,26 @@
+ concept_tailor_1381716016
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Мастерская по ремонту кожгалантереи и зонтов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мастерская по ремонту кожгалантереи и зонтов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Партизанский проспект, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 299-83-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–19:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.102982,23.761436"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://remontbrest.online/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

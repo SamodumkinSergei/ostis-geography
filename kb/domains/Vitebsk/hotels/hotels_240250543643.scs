@@ -1,0 +1,26 @@
+ concept_hotels_240250543643
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Апартаменты на Урицкого"]
+	(* <- lang_ru;; <- name;;*);
+    ["Апартаменты на Урицкого"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Беларусь, Витебск, Ул. Урицкого, Д. 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.20164,30.21355"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

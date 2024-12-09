@@ -1,0 +1,26 @@
+ concept_spa_1377837235
+ <- concept_spa;
+=>nrel_main_idtf:
+	["БОН салон"]
+	(* <- lang_ru;; <- name;;*);
+    ["БОН салон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, проспект Рокоссовского, 48"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 567-01-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–21:00; вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.867504,27.596374"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bon-salon.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

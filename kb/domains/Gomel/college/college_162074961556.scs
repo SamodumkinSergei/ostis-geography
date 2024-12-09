@@ -1,0 +1,26 @@
+ concept_college_162074961556
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гомельский государственный художественный колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский государственный художественный колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Максима Богдановича, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 256-04-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.462752,30.957241"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

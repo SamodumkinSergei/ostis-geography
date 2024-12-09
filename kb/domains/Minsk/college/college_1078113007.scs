@@ -1,0 +1,26 @@
+ concept_college_1078113007
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 68 г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 68 г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Заводской район, Северный посёлок, Охотский переулок, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 317-30-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.870107,27.672819"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://68minsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

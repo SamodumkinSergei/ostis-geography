@@ -1,0 +1,26 @@
+ concept_college_1052496645
+ <- concept_college;
+=>nrel_main_idtf:
+	["Белорусский государственный медицинский колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусский государственный медицинский колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лейтенанта Кижеватова, 60, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 375-17-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.850716,27.529399"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://bsmc.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

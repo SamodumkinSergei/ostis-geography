@@ -1,0 +1,26 @@
+ concept_college_57359914745
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минская международная гимназия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минская международная гимназия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Вербная улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 378-01-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.941425,27.477654"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gymnasium.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

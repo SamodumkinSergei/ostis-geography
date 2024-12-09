@@ -1,0 +1,26 @@
+ concept_medicine_48627815243
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Al Aliaa Polyclinic"]
+	(* <- lang_ru;; <- name;;*);
+    ["Al Aliaa Polyclinic"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["эмират Дубай, улица Джумейра, 323"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+971 4 349 36 00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["25.202475,55.241477"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://alaliaapolyclinic.net/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

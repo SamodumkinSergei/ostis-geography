@@ -1,0 +1,26 @@
+ concept_car_park_180910627062
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автостоянка Батарейная"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостоянка Батарейная"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Станиславского, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 298-05-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.891243,27.589654"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

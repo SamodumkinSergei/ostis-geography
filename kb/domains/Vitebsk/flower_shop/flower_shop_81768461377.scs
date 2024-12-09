@@ -1,0 +1,26 @@
+ concept_flower_shop_81768461377
+ <- concept_flower_shop;
+=>nrel_main_idtf:
+	["Цветочный островок"]
+	(* <- lang_ru;; <- name;;*);
+    ["Цветочный островок"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Медицинская улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 543-94-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.154846,30.222658"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://cvostrov.wixsite.com/vitebsk"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

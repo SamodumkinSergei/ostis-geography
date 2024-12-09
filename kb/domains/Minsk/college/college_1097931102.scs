@@ -1,0 +1,26 @@
+ concept_college_1097931102
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минский государственный ПТК швейного производства, учебный корпус № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский государственный ПТК швейного производства, учебный корпус № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Машиностроителей, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 341-07-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:15–20:00, перерыв 13:30–14:00; сб 09:00–12:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.848686,27.656033"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ptkshp.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

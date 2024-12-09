@@ -1,0 +1,26 @@
+ concept_medicine_116364488974
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Ожоговое отделение Ггкб № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ожоговое отделение Ггкб № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Дворникова, 80/4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 225-28-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.455436,30.980722"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ggkb1.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

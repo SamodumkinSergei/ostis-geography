@@ -1,0 +1,26 @@
+ concept_hypermarket_1187387541
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Графо"]
+	(* <- lang_ru;; <- name;;*);
+    ["Графо"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Куйбышева, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 253-27-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.098674,23.6902"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.grafo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

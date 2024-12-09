@@ -1,0 +1,26 @@
+ concept_restaurants_225277348197
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Burger King France"]
+	(* <- lang_ru;; <- name;;*);
+    ["Burger King France"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Бретань, Финистер, Округ Брест, Брест, Rue de Keranfurust, 39"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 2 98 41 70 24"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:00–23:00; пт,сб 11:00–00:00; вс 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["48.413386,-4.478944"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.burgerking.fr/restaurant/brest-europe"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

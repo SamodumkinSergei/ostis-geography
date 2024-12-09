@@ -1,0 +1,26 @@
+ concept_car_park_234333362009
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Зона платной парковки"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зона платной парковки"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Гикало, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 338-40-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916295,27.587193"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://parkouka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

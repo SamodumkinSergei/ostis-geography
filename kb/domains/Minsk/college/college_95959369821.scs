@@ -1,0 +1,26 @@
+ concept_college_95959369821
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 224"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 224"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Михаила Пташука, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 270-68-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 07:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.838726,27.590672"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch224.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

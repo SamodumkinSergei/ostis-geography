@@ -1,0 +1,26 @@
+ concept_bus_stop_49775088926
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Войсковая"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Войсковая"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Барыкина, 293"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.424945,30.930736"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

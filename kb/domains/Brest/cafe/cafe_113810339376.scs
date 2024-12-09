@@ -1,0 +1,26 @@
+ concept_cafe_113810339376
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Суши Шоп"]
+	(* <- lang_ru;; <- name;;*);
+    ["Суши Шоп"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гоголя, 57"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 888-80-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–23:00; пт,сб 10:00–01:00; вс 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.092753,23.694201"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://shop-sushi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_kindergarten_1477103616
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-Сад № 264"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-Сад № 264"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Московский район, Брилевичи-2, улица Ежи Гедройца, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (017) 364-32-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.850667,27.478414"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu264.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

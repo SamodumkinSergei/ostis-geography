@@ -1,0 +1,26 @@
+ concept_swimming_pool_207888101572
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["ДельтаСпа"]
+	(* <- lang_ru;; <- name;;*);
+    ["ДельтаСпа"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гоголя, 65"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 370-58-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.09348,23.698051"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_museum_1077789371
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей Дом Ваньковичей, культура и искусство I-й половины XIX века"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей Дом Ваньковичей, культура и искусство I-й половины XIX века"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Интернациональная улица, 33А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 363-77-96"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 11:00–19:00; сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905033,27.56002"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.artmuseum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

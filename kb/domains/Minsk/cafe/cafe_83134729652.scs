@@ -1,0 +1,26 @@
+ concept_cafe_83134729652
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кафе Гамарджоба"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафе Гамарджоба"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Мельникайте, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 611-83-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 12:00–00:00; сб,вс 12:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906301,27.542397"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

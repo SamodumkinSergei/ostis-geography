@@ -1,0 +1,26 @@
+ concept_hotels_18103321924
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Homi Art Apart"]
+	(* <- lang_ru;; <- name;;*);
+    ["Homi Art Apart"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Каховская улица, 28А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 499-30-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.928182,27.549836"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_152205959107
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Unistore опт&розница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Unistore опт&розница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 109"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 191-78-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.171621,30.273956"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://opt.unistore.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

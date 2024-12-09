@@ -1,0 +1,26 @@
+ concept_fast_food_221829073974
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Barracuda"]
+	(* <- lang_ru;; <- name;;*);
+    ["Barracuda"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, переулок Ольшевского, 7к9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 780-01-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.915811,27.508114"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

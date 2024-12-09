@@ -1,0 +1,26 @@
+ concept_college_1012830613
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 3 им. В. М. Усова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 3 им. В. М. Усова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Фомичёва, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 231-03-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.662114,23.844806"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sh3grodno.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

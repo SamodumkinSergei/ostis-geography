@@ -1,0 +1,26 @@
+ concept_college_1118254408
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 20 г. Могилёва"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 20 г. Могилёва"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пушкинский проспект, 77"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 264-77-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.866326,30.353591"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://20mogilev.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

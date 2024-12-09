@@ -1,0 +1,26 @@
+ concept_fallback_services_88471657786
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Памятники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Газеты Правда, 20А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 277-09-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 11:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.86706,27.483269"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ivankamen.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

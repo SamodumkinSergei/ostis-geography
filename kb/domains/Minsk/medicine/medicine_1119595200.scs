@@ -1,0 +1,26 @@
+ concept_medicine_1119595200
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Больница Сестринского Ухода"]
+	(* <- lang_ru;; <- name;;*);
+    ["Больница Сестринского Ухода"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Минский район, агрогородок Колодищи, поселок Колодищи-2, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90465,27.813737"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

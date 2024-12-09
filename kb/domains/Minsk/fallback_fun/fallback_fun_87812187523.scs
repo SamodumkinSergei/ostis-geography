@@ -1,0 +1,26 @@
+ concept_fallback_fun_87812187523
+ <- concept_fallback_fun;
+=>nrel_main_idtf:
+	["Vape Shop"]
+	(* <- lang_ru;; <- name;;*);
+    ["Vape Shop"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Киселёва, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 944-00-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–21:00; сб,вс 11:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909873,27.573902"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vape-shop-minsk.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

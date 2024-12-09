@@ -1,0 +1,26 @@
+ concept_auto_1063733415
+ <- concept_auto;
+=>nrel_main_idtf:
+	["ТехноАвтоСити"]
+	(* <- lang_ru;; <- name;;*);
+    ["ТехноАвтоСити"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Героев Подпольщиков, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 747-36-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.468798,30.974107"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://remsto.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

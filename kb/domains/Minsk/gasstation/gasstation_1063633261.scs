@@ -1,0 +1,26 @@
+ concept_gasstation_1063633261
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["А-100"]
+	(* <- lang_ru;; <- name;;*);
+    ["А-100"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 62В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 350-40-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 03:30–03:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907865,27.461464"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://azs.a-100.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

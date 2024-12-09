@@ -1,0 +1,26 @@
+ concept_cafe_214118019243
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Столовая"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столовая"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Карла Маркса, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 229-53-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:45–15:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.898274,27.558963"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

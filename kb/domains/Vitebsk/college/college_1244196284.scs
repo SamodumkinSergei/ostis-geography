@@ -1,0 +1,26 @@
+ concept_college_1244196284
+ <- concept_college;
+=>nrel_main_idtf:
+	["Базовая школа Лужеснянская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Базовая школа Лужеснянская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебский район, Мазоловский сельсовет, деревня Лужесно, улица Лынькова, 3А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 229-52-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.250869,30.130635"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://lujesno.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

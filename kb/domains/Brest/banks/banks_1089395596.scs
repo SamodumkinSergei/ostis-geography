@@ -1,0 +1,26 @@
+ concept_banks_1089395596
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Банк Дабрабыт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Банк Дабрабыт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Коммунистическая улица, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 522-21-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.089464,23.685688"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bankdabrabyt.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_clothes_shop_42687295006
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["К+с"]
+	(* <- lang_ru;; <- name;;*);
+    ["К+с"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Замковая улица, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 395-88-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–20:00; вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.192436,30.203038"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ks-shoes.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

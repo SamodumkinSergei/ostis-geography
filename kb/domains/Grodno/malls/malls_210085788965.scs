@@ -1,0 +1,26 @@
+ concept_malls_210085788965
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Iкеа Dom"]
+	(* <- lang_ru;; <- name;;*);
+    ["Iкеа Dom"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Максима Горького, 91Г"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 289-65-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 11:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.712447,23.815231"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.ikea-grodno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

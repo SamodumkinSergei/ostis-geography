@@ -1,0 +1,26 @@
+ concept_clothes_shop_148223510664
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Брестский чулочный комбинат"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестский чулочный комбинат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брестская область, Барановичи, Советская улица, 74А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 250-49-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.133457,26.014763"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bchk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

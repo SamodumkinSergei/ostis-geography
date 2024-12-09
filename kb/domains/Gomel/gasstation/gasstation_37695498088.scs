@@ -1,0 +1,26 @@
+ concept_gasstation_37695498088
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["АГЗС"]
+	(* <- lang_ru;; <- name;;*);
+    ["АГЗС"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Железнодорожный район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 256-38-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.440264,30.941308"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

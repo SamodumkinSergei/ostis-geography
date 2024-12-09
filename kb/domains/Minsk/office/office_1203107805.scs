@@ -1,0 +1,26 @@
+ concept_office_1203107805
+ <- concept_office;
+=>nrel_main_idtf:
+	["Бизнес-центр отеля Минск"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бизнес-центр отеля Минск"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 11к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897345,27.549284"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

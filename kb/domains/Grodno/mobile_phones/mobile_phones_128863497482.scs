@@ -1,0 +1,26 @@
+ concept_mobile_phones_128863497482
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["А-сервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["А-сервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Космонавтов, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 781-67-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.676172,23.843239"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://a-servis.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_college_1098336500
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гимназия-колледж искусств имени И. О. Ахремчика"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гимназия-колледж искусств имени И. О. Ахремчика"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Макаёнка, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 215-11-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.920283,27.625685"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gki.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

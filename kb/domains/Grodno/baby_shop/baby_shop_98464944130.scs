@@ -1,0 +1,26 @@
+ concept_baby_shop_98464944130
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Funtastik"]
+	(* <- lang_ru;; <- name;;*);
+    ["Funtastik"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Дубко, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 304-05-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–21:00; пт,сб 10:00–22:00; вс 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.701344,23.833902"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.funtastik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_police_1042233914
+ <- concept_police;
+=>nrel_main_idtf:
+	["Глубокский отдел Департамента охраны МВД Республики Беларусь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Глубокский отдел Департамента охраны МВД Республики Беларусь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебская область, город Глубокое, Минская улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 562-33-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.133353,27.685864"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ohrana.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

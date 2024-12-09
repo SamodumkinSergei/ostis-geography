@@ -1,0 +1,26 @@
+ concept_hairdressers_1094542571
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Город Красоты"]
+	(* <- lang_ru;; <- name;;*);
+    ["Город Красоты"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Лошица, Игуменский тракт, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 646-65-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.845378,27.566961"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gorod-krasoty.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

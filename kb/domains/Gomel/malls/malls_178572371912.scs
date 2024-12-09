@@ -1,0 +1,26 @@
+ concept_malls_178572371912
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Строительный магазин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Строительный магазин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельская область, Ветка, улица Громыко, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 718-90-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00; сб,вс 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.563637,31.171334"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://stroivetka.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

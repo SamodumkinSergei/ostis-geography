@@ -1,0 +1,26 @@
+ concept_baby_shop_225844902557
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["ШарыИгрушкиПиротехника"]
+	(* <- lang_ru;; <- name;;*);
+    ["ШарыИгрушкиПиротехника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Космонавтов, 61А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 190-07-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.456751,30.958849"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://yana-shar.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

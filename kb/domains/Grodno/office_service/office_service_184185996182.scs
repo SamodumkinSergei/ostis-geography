@@ -1,0 +1,26 @@
+ concept_office_service_184185996182
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Радио Гродно"]
+	(* <- lang_ru;; <- name;;*);
+    ["Радио Гродно"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Максима Горького, 85, корп. 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 243-65-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.702606,23.820962"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

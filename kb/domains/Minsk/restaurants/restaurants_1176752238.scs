@@ -1,0 +1,26 @@
+ concept_restaurants_1176752238
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Presto Pizza"]
+	(* <- lang_ru;; <- name;;*);
+    ["Presto Pizza"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Бобруйская улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 694-46-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–22:00; пт,сб 10:00–23:00; вс 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.889671,27.556947"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://presto-pizza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

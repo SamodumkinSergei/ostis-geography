@@ -1,0 +1,26 @@
+ concept_police_214647721789
+ <- concept_police;
+=>nrel_main_idtf:
+	["Государственное управление по борьбе с организованной преступностью и коррупцией МВД Республики Беларусь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Государственное управление по борьбе с организованной преступностью и коррупцией МВД Республики Беларусь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Коммунаров, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 250-88-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.426896,31.012107"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomel.mvd.gov.by/ru"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

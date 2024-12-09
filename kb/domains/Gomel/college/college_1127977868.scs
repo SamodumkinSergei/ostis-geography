@@ -1,0 +1,26 @@
+ concept_college_1127977868
+ <- concept_college;
+=>nrel_main_idtf:
+	["Ясли-сад-средняя школа № 73 г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад-средняя школа № 73 г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 284"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 239-35-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.358513,31.037604"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://school73.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_tire_fitting_1168200508
+ <- concept_tire_fitting;
+=>nrel_main_idtf:
+	["ШиноМастер"]
+	(* <- lang_ru;; <- name;;*);
+    ["ШиноМастер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 275к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 728-00-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.098992,23.769077"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.shinomaster.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

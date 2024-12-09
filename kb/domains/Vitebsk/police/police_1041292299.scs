@@ -1,0 +1,26 @@
+ concept_police_1041292299
+ <- concept_police;
+=>nrel_main_idtf:
+	["УВД Витебского облисполкома"]
+	(* <- lang_ru;; <- name;;*);
+    ["УВД Витебского облисполкома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 41А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 260-90-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.192959,30.228311"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mvd.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

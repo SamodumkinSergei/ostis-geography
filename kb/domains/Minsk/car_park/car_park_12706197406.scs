@@ -1,0 +1,26 @@
+ concept_car_park_12706197406
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Паркинг гостиницы Президент-отель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Паркинг гостиницы Президент-отель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кирова, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 229-70-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.898899,27.565957"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://president-hotel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_baby_shop_43843120720
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Детские игрушки"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детские игрушки"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Федюнинского, 11А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 318-35-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.474348,30.991048"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

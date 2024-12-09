@@ -1,0 +1,26 @@
+ concept_museum_1339373601
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Археологический музей Верхний город"]
+	(* <- lang_ru;; <- name;;*);
+    ["Археологический музей Верхний город"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кирилла и Мефодия, 8В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 337-24-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср-вс 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905727,27.557793"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://minskmuseum.by/arkheologicheskij-muzej"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_baby_shop_61761517660
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Детский каприз"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский каприз"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Бурдейного, 6В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 309-04-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904556,27.457625"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

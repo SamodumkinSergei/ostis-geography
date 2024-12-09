@@ -1,0 +1,26 @@
+ concept_malls_217414446219
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Белсоюзпечать"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белсоюзпечать"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 57В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 255-88-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 06:15–20:00, перерывы 10:40–11:00, 12:30–13:00, 16:40–17:00; сб,вс 07:00–16:40, перерывы 10:40–11:00, 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.439586,31.004687"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://beldruk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

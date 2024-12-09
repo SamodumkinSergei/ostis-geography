@@ -1,0 +1,26 @@
+ concept_furniture_store_1240768488
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Домотека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Домотека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Лиможа, 32Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 385-38-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–19:00; сб 11:00–18:00; вс 11:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.711279,23.848735"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://domoteca.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_college_59567010389
+ <- concept_college;
+=>nrel_main_idtf:
+	["Факультет информационных технологий БГТУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Факультет информационных технологий БГТУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Свердлова, 13А, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 399-33-89"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–16:15, перерыв 12:30–13:15; сб 08:30–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.891383,27.559651"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://it.belstu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

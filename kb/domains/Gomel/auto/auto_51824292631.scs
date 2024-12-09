@@ -1,0 +1,26 @@
+ concept_auto_51824292631
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Авто ПМЖ сервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Авто ПМЖ сервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 678-14-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.413835,30.935196"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

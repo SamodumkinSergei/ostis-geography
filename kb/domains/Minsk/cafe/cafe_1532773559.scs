@@ -1,0 +1,26 @@
+ concept_cafe_1532773559
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Время есть"]
+	(* <- lang_ru;; <- name;;*);
+    ["Время есть"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Матусевича, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 716-97-97"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:00–00:00; пт,сб 11:00–05:00; вс 11:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.915839,27.461702"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

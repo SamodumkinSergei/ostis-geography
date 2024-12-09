@@ -1,0 +1,26 @@
+ concept_drugstores_222130610833
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Зеленый Лист, аптека № 11"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зеленый Лист, аптека № 11"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Бориса Царикова, 53А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 232-29-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.445867,30.951551"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

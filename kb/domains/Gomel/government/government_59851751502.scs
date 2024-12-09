@@ -1,0 +1,26 @@
+ concept_government_59851751502
+ <- concept_government;
+=>nrel_main_idtf:
+	["Управление жилищно-коммунального хозяйства Гомельского облисполкома"]
+	(* <- lang_ru;; <- name;;*);
+    ["Управление жилищно-коммунального хозяйства Гомельского облисполкома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Крестьянская улица, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 275-53-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.426904,31.006621"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ugkh.gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_museum_1065496491
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Витебский районный центр культуры и творчества"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебский районный центр культуры и творчества"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебский район, Новкинский сельсовет, агрогородок Новка, Центральная улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 220-25-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб 09:00–17:30; вс 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.134186,30.150151"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vrckt.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

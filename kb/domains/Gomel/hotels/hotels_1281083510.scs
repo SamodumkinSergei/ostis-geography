@@ -1,0 +1,26 @@
+ concept_hotels_1281083510
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Центральная"]
+	(* <- lang_ru;; <- name;;*);
+    ["Центральная"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ланге, 17/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 225-84-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.428058,31.014294"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

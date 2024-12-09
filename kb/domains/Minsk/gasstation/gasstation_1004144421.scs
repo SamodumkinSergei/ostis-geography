@@ -1,0 +1,26 @@
+ concept_gasstation_1004144421
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Лукойл"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лукойл"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лещинского, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 368-69-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907364,27.45466"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://lukoil.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

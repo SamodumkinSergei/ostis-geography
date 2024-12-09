@@ -1,0 +1,26 @@
+ concept_auto_18116247368
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автопроспект"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автопроспект"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Речицкий проспект, 7/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 170-00-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.418303,30.965858"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.1718.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

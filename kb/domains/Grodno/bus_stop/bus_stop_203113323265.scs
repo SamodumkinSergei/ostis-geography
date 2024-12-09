@@ -1,0 +1,26 @@
+ concept_bus_stop_203113323265
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Магистральная улица"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магистральная улица"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Магистральная улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.684447,23.860663"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

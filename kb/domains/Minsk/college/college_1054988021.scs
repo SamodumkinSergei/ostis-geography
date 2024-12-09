@@ -1,0 +1,26 @@
+ concept_college_1054988021
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 126"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 126"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Янки Мавра, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 228-29-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.895647,27.491536"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch126.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

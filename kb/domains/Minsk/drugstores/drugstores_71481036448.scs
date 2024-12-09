@@ -1,0 +1,26 @@
+ concept_drugstores_71481036448
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 8 второй категории"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 8 второй категории"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Чкалова, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 354-41-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб 09:00–18:00; вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.876253,27.535108"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

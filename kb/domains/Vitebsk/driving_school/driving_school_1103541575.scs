@@ -1,0 +1,26 @@
+ concept_driving_school_1103541575
+ <- concept_driving_school;
+=>nrel_main_idtf:
+	["Витебская областная автомобильная школа БОАМЛ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебская областная автомобильная школа БОАМЛ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 26, корп. 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 260-15-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.194223,30.221714"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://boamlvitebsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_software_1100677406
+ <- concept_software;
+=>nrel_main_idtf:
+	["АйПи ТелКом"]
+	(* <- lang_ru;; <- name;;*);
+    ["АйПи ТелКом"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Гагарина, 55"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 279-80-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.422739,31.001831"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://iptel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

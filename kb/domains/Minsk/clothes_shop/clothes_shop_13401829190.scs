@@ -1,0 +1,26 @@
+ concept_clothes_shop_13401829190
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Сталкер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сталкер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Красная улица, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 145-84-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 11:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.913601,27.577174"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://stalker-shop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

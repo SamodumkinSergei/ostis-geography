@@ -1,0 +1,26 @@
+ concept_cafe_1085408306
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Встретимся на Немиге"]
+	(* <- lang_ru;; <- name;;*);
+    ["Встретимся на Немиге"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Немига, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 229-41-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:30–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904064,27.551147"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

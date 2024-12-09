@@ -1,0 +1,26 @@
+ concept_malls_165844603176
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Нижнее Белье"]
+	(* <- lang_ru;; <- name;;*);
+    ["Нижнее Белье"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Правды, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 712-82-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.189491,30.207199"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ledivit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

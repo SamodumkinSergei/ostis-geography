@@ -1,0 +1,26 @@
+ concept_fallback_services_12413008105
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Электрон мастер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Электрон мастер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, бульвар Непокорённых, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 602-35-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873172,30.331279"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://e-master.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

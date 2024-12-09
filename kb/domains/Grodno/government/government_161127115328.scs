@@ -1,0 +1,26 @@
+ concept_government_161127115328
+ <- concept_government;
+=>nrel_main_idtf:
+	["Главное управление землеустройства Гродненского городского исполнительного комитета"]
+	(* <- lang_ru;; <- name;;*);
+    ["Главное управление землеустройства Гродненского городского исполнительного комитета"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, площадь Ленина, 2/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 273-04-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.683858,23.833429"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://grodno.gov.by/main.aspx?guid=3391"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

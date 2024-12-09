@@ -1,0 +1,26 @@
+ concept_college_1114702106
+ <- concept_college;
+=>nrel_main_idtf:
+	["Многопрофильный центр детей и молодежи"]
+	(* <- lang_ru;; <- name;;*);
+    ["Многопрофильный центр детей и молодежи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Кирова, 129"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 250-66-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.091484,23.702795"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mcdm-brest.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

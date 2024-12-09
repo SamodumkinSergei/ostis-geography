@@ -1,0 +1,26 @@
+ concept_hypermarket_32377322198
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Мотиф"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мотиф"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Суворова, 71А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 643-32-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.06821,23.757708"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://motifbrest.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

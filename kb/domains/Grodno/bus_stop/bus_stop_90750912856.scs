@@ -1,0 +1,26 @@
+ concept_bus_stop_90750912856
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["КПП № 14 ОАО Гродно Азот"]
+	(* <- lang_ru;; <- name;;*);
+    ["КПП № 14 ОАО Гродно Азот"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Октябрьский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.681669,23.907533"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

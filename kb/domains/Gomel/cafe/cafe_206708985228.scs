@@ -1,0 +1,26 @@
+ concept_cafe_206708985228
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Бургер Люкс City"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бургер Люкс City"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Студенческая улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 711-88-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.407996,30.935079"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

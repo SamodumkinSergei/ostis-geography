@@ -1,0 +1,26 @@
+ concept_fallback_services_32698260548
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Памятники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московский район, Юго-Восточный микрорайон № 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 348-46-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт,ср,чт,пт,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.078565,23.753446"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

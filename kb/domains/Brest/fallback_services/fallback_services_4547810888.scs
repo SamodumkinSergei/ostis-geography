@@ -1,0 +1,26 @@
+ concept_fallback_services_4547810888
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гранитный дом"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гранитный дом"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Ленинский район, микрорайон Граевка"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 666-61-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.123136,23.6998"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://granitehouse.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

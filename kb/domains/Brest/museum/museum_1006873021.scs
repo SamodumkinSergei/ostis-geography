@@ -1,0 +1,26 @@
+ concept_museum_1006873021
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Брестский областной краеведческий музей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестский областной краеведческий музей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Карла Маркса, 60"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 220-96-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.090253,23.689257"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brokm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

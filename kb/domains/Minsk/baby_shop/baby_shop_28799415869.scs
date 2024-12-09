@@ -1,0 +1,26 @@
+ concept_baby_shop_28799415869
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Rigonda"]
+	(* <- lang_ru;; <- name;;*);
+    ["Rigonda"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Максима Богдановича, 62"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 242-39-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.921843,27.568689"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rigonda.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

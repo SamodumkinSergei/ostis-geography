@@ -1,0 +1,26 @@
+ concept_supermarket_26580743534
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Мини Маркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мини Маркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ленина, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 603-50-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.896173,27.564786"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

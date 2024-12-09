@@ -1,0 +1,26 @@
+ concept_college_1330677270
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минский государственный колледж электроники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский государственный колледж электроники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кнорина, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 282-92-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00; сб 08:30–15:50"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.934374,27.613223"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mgke.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

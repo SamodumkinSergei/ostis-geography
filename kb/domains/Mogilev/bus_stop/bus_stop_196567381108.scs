@@ -1,0 +1,26 @@
+ concept_bus_stop_196567381108
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["УЗ Могилёвская поликлиника № 3"]
+	(* <- lang_ru;; <- name;;*);
+    ["УЗ Могилёвская поликлиника № 3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Казимировка, Краснозвёздная улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.928489,30.250948"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

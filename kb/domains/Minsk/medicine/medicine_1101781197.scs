@@ -1,0 +1,26 @@
+ concept_medicine_1101781197
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городская детская клиническая поликлиника № 13"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская детская клиническая поликлиника № 13"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лейтенанта Кижеватова, 60Д"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 374-52-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–20:00; сб 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.850643,27.533615"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://13gdp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_restaurants_213041964884
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Компания"]
+	(* <- lang_ru;; <- name;;*);
+    ["Компания"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Октябрьская улица, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 553-77-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.891103,27.572233"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.restcompany.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

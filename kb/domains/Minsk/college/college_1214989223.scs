@@ -1,0 +1,26 @@
+ concept_college_1214989223
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минский государственный машиностроительный колледж, филиал БНТУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский государственный машиностроительный колледж, филиал БНТУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Долгобродская улица, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 398-93-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:30–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.891912,27.615048"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://college.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

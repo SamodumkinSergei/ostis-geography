@@ -1,0 +1,26 @@
+ concept_hotels_137045818396
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Villa Gold"]
+	(* <- lang_ru;; <- name;;*);
+    ["Villa Gold"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, агрогородок Колодищи, Богдановская улица, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 155-53-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.945258,27.752768"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vila.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

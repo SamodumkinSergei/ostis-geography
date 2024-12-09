@@ -1,0 +1,26 @@
+ concept_fallback_services_69881415209
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Папа Жарит"]
+	(* <- lang_ru;; <- name;;*);
+    ["Папа Жарит"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Строителей, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 835-14-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.170857,30.213789"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://papazharit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_malls_82393731364
+ <- concept_malls;
+=>nrel_main_idtf:
+	["КерАмида"]
+	(* <- lang_ru;; <- name;;*);
+    ["КерАмида"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Кирова, 48"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 566-62-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб,вс 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.09665,23.699917"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://keramidas.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

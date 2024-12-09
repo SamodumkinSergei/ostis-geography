@@ -1,0 +1,26 @@
+ concept_fast_food_68328704756
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Шаурмен"]
+	(* <- lang_ru;; <- name;;*);
+    ["Шаурмен"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Бориса Царикова, 20А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 359-15-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.447261,30.966649"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

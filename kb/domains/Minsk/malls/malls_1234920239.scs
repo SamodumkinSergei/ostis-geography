@@ -1,0 +1,26 @@
+ concept_malls_1234920239
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Восток"]
+	(* <- lang_ru;; <- name;;*);
+    ["Восток"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Калиновского, 66А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 267-99-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.939093,27.650665"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

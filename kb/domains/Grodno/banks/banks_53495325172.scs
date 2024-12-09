@@ -1,0 +1,26 @@
+ concept_banks_53495325172
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Банк ВТБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Банк ВТБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Антонова, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 275-55-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.674431,23.840653"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.vtb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

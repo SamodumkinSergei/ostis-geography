@@ -1,0 +1,26 @@
+ concept_fast_food_201704761106
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Горячие чебуреки беляши"]
+	(* <- lang_ru;; <- name;;*);
+    ["Горячие чебуреки беляши"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Железнодорожный район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.468055,31.019312"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

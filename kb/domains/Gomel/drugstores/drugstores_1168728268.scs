@@ -1,0 +1,26 @@
+ concept_drugstores_1168728268
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Моя аптека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Моя аптека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Октября, 22А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 250-58-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб,вс 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.409217,30.964461"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://apteka.103.by/pharmacies/my_pharmacy_ltd_drugstore_20/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

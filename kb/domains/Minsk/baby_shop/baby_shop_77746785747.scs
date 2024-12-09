@@ -1,0 +1,26 @@
+ concept_baby_shop_77746785747
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Зубастик"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зубастик"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 58"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 118-51-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917644,27.588829"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://zubastik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

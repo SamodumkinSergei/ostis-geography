@@ -1,0 +1,26 @@
+ concept_kindergarten_1048872043
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 111"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 111"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Гикало, 20Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 350-43-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911827,27.592043"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu111.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

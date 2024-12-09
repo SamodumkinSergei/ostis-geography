@@ -1,0 +1,26 @@
+ concept_cafe_217911891279
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Суши дом"]
+	(* <- lang_ru;; <- name;;*);
+    ["Суши дом"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Черняховского, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 514-51-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.181687,30.202977"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sushidom.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

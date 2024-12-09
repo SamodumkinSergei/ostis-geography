@@ -1,0 +1,26 @@
+ concept_malls_73213391798
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Фирменный магазин Samsung"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фирменный магазин Samsung"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Тимирязева, 74"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 135-36-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.92631,27.510671"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.samsung.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

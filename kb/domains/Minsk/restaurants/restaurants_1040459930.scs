@@ -1,0 +1,26 @@
+ concept_restaurants_1040459930
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Натврис Хе"]
+	(* <- lang_ru;; <- name;;*);
+    ["Натврис Хе"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский район, микрорайон Степянка, улица Связистов, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 133-73-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912005,27.67306"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gruzin.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

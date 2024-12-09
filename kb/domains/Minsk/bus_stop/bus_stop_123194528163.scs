@@ -1,0 +1,26 @@
+ concept_bus_stop_123194528163
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Трикотажная фабрика"]
+	(* <- lang_ru;; <- name;;*);
+    ["Трикотажная фабрика"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кропоткина"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.925135,27.561717"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

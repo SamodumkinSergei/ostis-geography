@@ -1,0 +1,26 @@
+ concept_supermarket_229075674225
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Доброном"]
+	(* <- lang_ru;; <- name;;*);
+    ["Доброном"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Суворова, 93, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 144-70-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.070018,23.760641"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dobronom.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_museum_1006695322
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Выставочный зал Витебского центра современного искусства"]
+	(* <- lang_ru;; <- name;;*);
+    ["Выставочный зал Витебского центра современного искусства"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Генерала Белобородова, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 222-48-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср-вс 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.182271,30.201928"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitebskavangard.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_hairdressers_1106057441
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Для Вас"]
+	(* <- lang_ru;; <- name;;*);
+    ["Для Вас"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 172"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 642-16-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 08:00–18:00; вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.944624,27.690255"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

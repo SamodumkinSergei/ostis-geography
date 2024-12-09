@@ -1,0 +1,26 @@
+ concept_car_park_50499596855
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автомобильная стоянка спорткомплекса Витебскэнерго"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автомобильная стоянка спорткомплекса Витебскэнерго"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Правды, 30Д"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.189385,30.218294"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.vitebsk.energo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

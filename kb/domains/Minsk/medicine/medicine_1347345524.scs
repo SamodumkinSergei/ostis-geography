@@ -1,0 +1,26 @@
+ concept_medicine_1347345524
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городской центр профилактики остеопороза и болезней костно-мышечной системы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городской центр профилактики остеопороза и болезней костно-мышечной системы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 64"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 292-61-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919637,27.595392"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://1gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

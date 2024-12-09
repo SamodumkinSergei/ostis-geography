@@ -1,0 +1,26 @@
+ concept_mobile_phones_242523733657
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Мастерская № 2 Скай мастер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мастерская № 2 Скай мастер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 38"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 648-68-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 11:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.387002,31.029966"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

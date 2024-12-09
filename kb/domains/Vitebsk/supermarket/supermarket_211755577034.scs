@@ -1,0 +1,26 @@
+ concept_supermarket_211755577034
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Гур Маркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гур Маркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица 39-й Армии"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 316-55-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.167171,30.130049"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_college_210820340458
+ <- concept_college;
+=>nrel_main_idtf:
+	["Институт дополнительного образования БГУ, кафедра общеобразовательных дисциплин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Институт дополнительного образования БГУ, кафедра общеобразовательных дисциплин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Академическая улица, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 235-00-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916451,27.602174"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://fpuedu.bsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

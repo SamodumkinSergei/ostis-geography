@@ -1,0 +1,26 @@
+ concept_kindergarten_1118092730
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 53 г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 53 г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Левкова, 22к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 228-21-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.880113,27.554121"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu53.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

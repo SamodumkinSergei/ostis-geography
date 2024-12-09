@@ -1,0 +1,26 @@
+ concept_fallback_services_1326815980
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["ГранитСнабСбыт"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГранитСнабСбыт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Огоренко, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 834-03-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб,вс 11:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.469195,31.022269"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://гранит-снаб.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_cafe_1070369574
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Station One Cafe"]
+	(* <- lang_ru;; <- name;;*);
+    ["Station One Cafe"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Рогачёвская улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 233-33-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–01:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.438336,31.004366"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

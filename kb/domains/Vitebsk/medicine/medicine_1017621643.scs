@@ -1,0 +1,26 @@
+ concept_medicine_1017621643
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Витебская городская клиническая больница скорой медицинской помощи"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебская городская клиническая больница скорой медицинской помощи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 71"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 255-12-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.194448,30.242069"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bsmp.vitebsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

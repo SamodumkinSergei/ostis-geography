@@ -1,0 +1,26 @@
+ concept_fallback_services_36834639329
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Управление капитального строительства Советского района г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Управление капитального строительства Советского района г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 46А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 224-52-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:15, перерыв 12:30–13:00; пт 08:30–16:00, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.91316,27.582482"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ukssov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

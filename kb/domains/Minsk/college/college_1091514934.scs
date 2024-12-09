@@ -1,0 +1,26 @@
+ concept_college_1091514934
+ <- concept_college;
+=>nrel_main_idtf:
+	["Специальная общеобразовательная школа № 18 для детей с тяжелыми нарушениями речи"]
+	(* <- lang_ru;; <- name;;*);
+    ["Специальная общеобразовательная школа № 18 для детей с тяжелыми нарушениями речи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Народная улица, 51"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 368-32-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,вт 08:00–18:00; ср 07:45–18:00; чт,пт 08:00–18:00; сб 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.871568,27.634513"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ssch18.minskedu.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

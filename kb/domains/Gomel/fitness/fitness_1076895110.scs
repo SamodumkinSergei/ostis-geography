@@ -1,0 +1,26 @@
+ concept_fitness_1076895110
+ <- concept_fitness;
+=>nrel_main_idtf:
+	["Бассейн Белорусского Государственного университета транспорта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бассейн Белорусского Государственного университета транспорта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Комсомольская улица, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 295-35-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:30, перерыв 14:30–15:30; сб,вс 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.431405,31.001063"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bsut.by/university/departments/pool/pool-table"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

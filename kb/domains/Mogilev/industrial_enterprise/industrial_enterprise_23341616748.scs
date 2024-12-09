@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_23341616748
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Обувь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Обувь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Якубовского, 20к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 270-92-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917805,30.307037"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://shagovita.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

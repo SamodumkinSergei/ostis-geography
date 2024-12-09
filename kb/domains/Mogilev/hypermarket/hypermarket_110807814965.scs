@@ -1,0 +1,26 @@
+ concept_hypermarket_110807814965
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["ЭкспортЛайф"]
+	(* <- lang_ru;; <- name;;*);
+    ["ЭкспортЛайф"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Кулибина, 8А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 272-84-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.956402,30.355339"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

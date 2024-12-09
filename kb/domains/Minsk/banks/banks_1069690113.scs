@@ -1,0 +1,26 @@
+ concept_banks_1069690113
+ <- concept_banks;
+=>nrel_main_idtf:
+	["БСБ банк"]
+	(* <- lang_ru;; <- name;;*);
+    ["БСБ банк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Руссиянова, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 306-20-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:40, перерывы 12:00–12:15, 14:00–15:00, 16:45–17:00, 19:00–19:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.938665,27.686183"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

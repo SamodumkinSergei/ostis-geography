@@ -1,0 +1,26 @@
+ concept_supermarket_1399183784
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Центральный рынок"]
+	(* <- lang_ru;; <- name;;*);
+    ["Центральный рынок"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Карповича, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 234-52-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.425412,30.999448"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://rinok-centr.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

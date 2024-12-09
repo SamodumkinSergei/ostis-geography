@@ -1,0 +1,26 @@
+ concept_malls_1121952359
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Арбат"]
+	(* <- lang_ru;; <- name;;*);
+    ["Арбат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пушкинский проспект, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 263-38-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878667,30.338754"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://armada-group.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

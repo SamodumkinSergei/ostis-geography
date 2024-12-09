@@ -1,0 +1,26 @@
+ concept_sportcenter_36346422351
+ <- concept_sportcenter;
+=>nrel_main_idtf:
+	["Школа бильярда Дмитрия Чупрова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Школа бильярда Дмитрия Чупрова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Калиновского, 66А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 613-39-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.939116,27.650737"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://chuprov-billiard.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

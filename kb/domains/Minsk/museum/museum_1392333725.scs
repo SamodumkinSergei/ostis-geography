@@ -1,0 +1,26 @@
+ concept_museum_1392333725
+ <- concept_museum;
+=>nrel_main_idtf:
+	["УО Белорусская государственная академия искусств"]
+	(* <- lang_ru;; <- name;;*);
+    ["УО Белорусская государственная академия искусств"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурганова, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 331-69-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.923331,27.600322"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bdam.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

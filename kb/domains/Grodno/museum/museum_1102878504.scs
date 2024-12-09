@@ -1,0 +1,26 @@
+ concept_museum_1102878504
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Дом культуры Цветлит"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дом культуры Цветлит"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Дзержинского, 41, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 255-01-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.698704,23.840391"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dk.zwetlit-grodno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

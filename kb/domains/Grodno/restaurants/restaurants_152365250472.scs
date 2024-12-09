@@ -1,0 +1,26 @@
+ concept_restaurants_152365250472
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Pizza Box"]
+	(* <- lang_ru;; <- name;;*);
+    ["Pizza Box"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, микрорайон Принеманский"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 552-20-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.656991,23.84064"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_supermarket_1325087015
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Евроопт Market"]
+	(* <- lang_ru;; <- name;;*);
+    ["Евроопт Market"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Алеся Бачило, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 788-88-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.840891,27.70225"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://evroopt.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

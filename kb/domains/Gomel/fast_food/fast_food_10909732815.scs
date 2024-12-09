@@ -1,0 +1,26 @@
+ concept_fast_food_10909732815
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Кунжут"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кунжут"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Пушкина, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["7399"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.433473,31.010234"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://kunzhut.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

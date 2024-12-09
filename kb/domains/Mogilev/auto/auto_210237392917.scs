@@ -1,0 +1,26 @@
+ concept_auto_210237392917
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Авторемонт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Авторемонт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Криулина, 1к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 742-74-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.947516,30.352135"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

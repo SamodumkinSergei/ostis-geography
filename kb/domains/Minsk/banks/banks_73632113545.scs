@@ -1,0 +1,26 @@
+ concept_banks_73632113545
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Беларусбанк, отделение 511/189"]
+	(* <- lang_ru;; <- name;;*);
+    ["Беларусбанк, отделение 511/189"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Чижовка, улица Голодеда, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["147"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.839399,27.632232"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://belarusbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

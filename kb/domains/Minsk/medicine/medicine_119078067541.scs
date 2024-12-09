@@ -1,0 +1,26 @@
+ concept_medicine_119078067541
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Больница паллиативного ухода, хоспис, отделение сестринского ухода"]
+	(* <- lang_ru;; <- name;;*);
+    ["Больница паллиативного ухода, хоспис, отделение сестринского ухода"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Красноармейская улица, 16А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 328-45-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.89649,27.569792"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.mhospice.of.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

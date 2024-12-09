@@ -1,0 +1,26 @@
+ concept_cafe_35890454965
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Спорт тайм"]
+	(* <- lang_ru;; <- name;;*);
+    ["Спорт тайм"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Мястровская улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 279-39-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.931942,27.475272"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.sporttime-hotel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

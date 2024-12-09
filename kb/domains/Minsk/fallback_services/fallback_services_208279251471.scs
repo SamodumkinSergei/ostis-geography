@@ -1,0 +1,26 @@
+ concept_fallback_services_208279251471
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Из гранита"]
+	(* <- lang_ru;; <- name;;*);
+    ["Из гранита"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Григория Ширмы, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 915-67-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:30; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.87825,27.457875"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://izgranita.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

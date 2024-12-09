@@ -1,0 +1,26 @@
+ concept_mobile_phones_172181393389
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["3310.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["3310.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Космонавтов, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 268-00-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00, перерыв 14:00–15:00; сб 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.676118,23.842608"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://3310.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

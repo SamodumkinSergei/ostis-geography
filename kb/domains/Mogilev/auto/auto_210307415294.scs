@@ -1,0 +1,26 @@
+ concept_auto_210307415294
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автомастерская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автомастерская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, бульвар Непокорённых, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 144-50-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00; сб 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.880324,30.325887"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://avtoremtorg.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

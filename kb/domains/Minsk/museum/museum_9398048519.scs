@@ -1,0 +1,26 @@
+ concept_museum_9398048519
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей истории газеты Звезда"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей истории газеты Звезда"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Никифорова, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 324-76-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.938351,27.692244"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

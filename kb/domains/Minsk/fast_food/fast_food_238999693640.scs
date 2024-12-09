@@ -1,0 +1,26 @@
+ concept_fast_food_238999693640
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Rokoko food bar"]
+	(* <- lang_ru;; <- name;;*);
+    ["Rokoko food bar"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, проспект Рокоссовского, 79"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 345-20-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.862226,27.607287"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://rokoko.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_malls_1090523406
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Фирменный магазин Мзив"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фирменный магазин Мзив"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Радиальная улица, 52"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 299-27-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897165,27.642264"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

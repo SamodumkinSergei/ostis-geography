@@ -1,0 +1,26 @@
+ concept_bus_stop_135255810078
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Поворот на Чижовку"]
+	(* <- lang_ru;; <- name;;*);
+    ["Поворот на Чижовку"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, МКАД, 14-й километр"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.833813,27.637426"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

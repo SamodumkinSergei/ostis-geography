@@ -1,0 +1,26 @@
+ concept_spa_1287408531
+ <- concept_spa;
+=>nrel_main_idtf:
+	["Вианика"]
+	(* <- lang_ru;; <- name;;*);
+    ["Вианика"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Данилы Сердича, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 711-07-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–21:00; вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911581,27.489195"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vianika.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

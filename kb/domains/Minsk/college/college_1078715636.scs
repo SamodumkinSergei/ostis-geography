@@ -1,0 +1,26 @@
+ concept_college_1078715636
+ <- concept_college;
+=>nrel_main_idtf:
+	["Филиал БГЭУ Минский торговый колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Филиал БГЭУ Минский торговый колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Восточная улица, 183"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 374-31-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.951929,27.605091"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bseumtc.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

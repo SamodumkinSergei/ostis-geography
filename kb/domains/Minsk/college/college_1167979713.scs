@@ -1,0 +1,26 @@
+ concept_college_1167979713
+ <- concept_college;
+=>nrel_main_idtf:
+	["Академия управления при Президенте РБ, корпус № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Академия управления при Президенте РБ, корпус № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Карла Маркса, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 229-54-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 13:00–13:45; пт 08:30–16:15, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.898467,27.558887"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.pac.by/about/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_cafe_1036269635
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Закусочная"]
+	(* <- lang_ru;; <- name;;*);
+    ["Закусочная"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Гришина, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 260-51-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.926388,30.340724"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

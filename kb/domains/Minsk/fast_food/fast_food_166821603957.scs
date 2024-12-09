@@ -1,0 +1,26 @@
+ concept_fast_food_166821603957
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Poke Bowl"]
+	(* <- lang_ru;; <- name;;*);
+    ["Poke Bowl"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 788-44-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908166,27.54808"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://poke.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

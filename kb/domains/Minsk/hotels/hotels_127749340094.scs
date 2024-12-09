@@ -1,0 +1,26 @@
+ concept_hotels_127749340094
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Гостевой Дом У Галины"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гостевой Дом У Галины"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Kolodishchi Village"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.969464,27.816275"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_kindergarten_1397849263
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Начальная школа-детский сад № 31"]
+	(* <- lang_ru;; <- name;;*);
+    ["Начальная школа-детский сад № 31"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Франциска Скорины, 45А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 268-60-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.930115,27.697368"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://upk31.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

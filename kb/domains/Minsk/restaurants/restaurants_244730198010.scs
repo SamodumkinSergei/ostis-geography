@@ -1,0 +1,26 @@
+ concept_restaurants_244730198010
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Восточный экспресс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Восточный экспресс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Бобруйская улица, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 225-62-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.892113,27.549733"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dorors.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

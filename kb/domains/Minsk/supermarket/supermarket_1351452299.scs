@@ -1,0 +1,26 @@
+ concept_supermarket_1351452299
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Дисконт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дисконт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, 2-й Велосипедный переулок, 30, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 367-01-96"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.872012,27.591386"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://bkvt.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

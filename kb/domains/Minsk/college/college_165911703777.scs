@@ -1,0 +1,26 @@
+ concept_college_165911703777
+ <- concept_college;
+=>nrel_main_idtf:
+	["Детская актёрская студия Минской школы киноискусства"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детская актёрская студия Минской школы киноискусства"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Первомайская улица, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 604-80-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 17:00–21:00; сб,вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904641,27.583935"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://cinemaschool.by/edu/actor/detskaya-studia"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

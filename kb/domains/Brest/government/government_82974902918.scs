@@ -1,0 +1,26 @@
+ concept_government_82974902918
+ <- concept_government;
+=>nrel_main_idtf:
+	["Управление ЖКХ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Управление ЖКХ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гоголя, 2-1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 227-92-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.088799,23.673918"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bujkh.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

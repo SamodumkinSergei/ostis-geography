@@ -1,0 +1,26 @@
+ concept_cafe_80339154891
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кава и Кветки"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кава и Кветки"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Карла Маркса, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 746-00-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–22:00; пт,сб 10:00–23:00; вс 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.89684,27.554844"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

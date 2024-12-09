@@ -1,0 +1,26 @@
+ concept_baby_shop_226497696553
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Kubo Toys"]
+	(* <- lang_ru;; <- name;;*);
+    ["Kubo Toys"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Карьерная улица, 3К-1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 318-18-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.065833,23.751389"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kubotoys.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

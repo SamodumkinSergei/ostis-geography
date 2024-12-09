@@ -1,0 +1,26 @@
+ concept_government_58173473440
+ <- concept_government;
+=>nrel_main_idtf:
+	["Отдел архитектуры и градостроительства Витебского горисполкома"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отдел архитектуры и градостроительства Витебского горисполкома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Шубина, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 224-62-97"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.187258,30.206916"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitebsk.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_auto_101538386997
+ <- concept_auto;
+=>nrel_main_idtf:
+	["ГенСервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГенСервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Кальварийская улица, 33к14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 324-84-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906846,27.512925"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://genservis.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

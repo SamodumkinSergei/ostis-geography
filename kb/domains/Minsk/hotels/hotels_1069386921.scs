@@ -1,0 +1,26 @@
+ concept_hotels_1069386921
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Общежитие № 3 Геосервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Общежитие № 3 Геосервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Коллекторная улица, 20, подъезд 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 186-09-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901919,27.540532"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.geoservice.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

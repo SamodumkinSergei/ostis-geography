@@ -1,0 +1,26 @@
+ concept_office_service_1147238485
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["БПС Альянс"]
+	(* <- lang_ru;; <- name;;*);
+    ["БПС Альянс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский район, Липковский переулок, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 165-63-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.920073,27.705624"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bpstroi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

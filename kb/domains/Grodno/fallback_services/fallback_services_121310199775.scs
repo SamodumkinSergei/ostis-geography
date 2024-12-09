@@ -1,0 +1,26 @@
+ concept_fallback_services_121310199775
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Ремонт инструмента"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт инструмента"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Венечная улица, 2Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 785-78-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.703181,23.829563"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://fixtools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

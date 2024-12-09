@@ -1,0 +1,26 @@
+ concept_college_1052331938
+ <- concept_college;
+=>nrel_main_idtf:
+	["Брестский государственный профессионально-технический колледж приборостроения"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестский государственный профессионально-технический колледж приборостроения"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Янки Купалы, 6к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 246-17-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.101667,23.72775"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ptkp.brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

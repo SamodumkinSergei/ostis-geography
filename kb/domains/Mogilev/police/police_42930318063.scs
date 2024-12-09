@@ -1,0 +1,26 @@
+ concept_police_42930318063
+ <- concept_police;
+=>nrel_main_idtf:
+	["Общественный пункт охраны правопорядка № 7"]
+	(* <- lang_ru;; <- name;;*);
+    ["Общественный пункт охраны правопорядка № 7"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Димитрова, 54"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 278-04-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.872883,30.368789"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://uvd.mogilev.by/page/uchastkovye-inspektory-milicii-leninskogo-rovd-g-mogileva"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

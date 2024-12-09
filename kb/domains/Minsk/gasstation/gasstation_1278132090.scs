@@ -1,0 +1,26 @@
+ concept_gasstation_1278132090
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["АЗС № 8 United Company"]
+	(* <- lang_ru;; <- name;;*);
+    ["АЗС № 8 United Company"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 102"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 307-65-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.938263,27.479048"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.united-company.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_hypermarket_71559810706
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Леонидофф"]
+	(* <- lang_ru;; <- name;;*);
+    ["Леонидофф"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Суворова, 166"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 586-54-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 09:00–15:00; вс 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.657828,23.80708"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://leonidoff.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_restaurants_1711221790
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Прованс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Прованс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Билецкий спуск, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 773-03-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.427338,31.020038"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

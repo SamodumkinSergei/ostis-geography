@@ -1,0 +1,26 @@
+ concept_cafe_11281271509
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["ФанЕжа"]
+	(* <- lang_ru;; <- name;;*);
+    ["ФанЕжа"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 157-73-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–22:00; сб,вс 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.889158,27.522517"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://f-e.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

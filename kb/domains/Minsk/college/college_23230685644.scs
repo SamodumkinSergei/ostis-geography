@@ -1,0 +1,26 @@
+ concept_college_23230685644
+ <- concept_college;
+=>nrel_main_idtf:
+	["БНТУ, кафедра Транспортные системы и технологии АТФ"]
+	(* <- lang_ru;; <- name;;*);
+    ["БНТУ, кафедра Транспортные системы и технологии АТФ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Якуба Коласа, 12, подъезд 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 331-29-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:15–17:30, перерыв 13:00–14:00; пт 08:15–16:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.92099,27.589422"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bntu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

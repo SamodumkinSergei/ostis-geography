@@ -1,0 +1,26 @@
+ concept_hypermarket_55592539724
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Подковыч"]
+	(* <- lang_ru;; <- name;;*);
+    ["Подковыч"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Гаражный переулок, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 188-88-71"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.892765,30.276381"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.podkovich.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

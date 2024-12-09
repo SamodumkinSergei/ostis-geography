@@ -1,0 +1,26 @@
+ concept_medicine_234091222193
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городская клиническая инфекционная больница, отделение интенсивной терапии и реанимации"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская клиническая инфекционная больница, отделение интенсивной терапии и реанимации"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кропоткина, 76"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 237-78-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 13:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.921666,27.560311"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gkib.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

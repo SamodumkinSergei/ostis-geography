@@ -1,0 +1,26 @@
+ concept_college_1332357113
+ <- concept_college;
+=>nrel_main_idtf:
+	["БГМУ, 1-я кафедра детских болезней"]
+	(* <- lang_ru;; <- name;;*);
+    ["БГМУ, 1-я кафедра детских болезней"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Нарочанская улица, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 369-57-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.932415,27.480388"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bsmu.by/page/3/96/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

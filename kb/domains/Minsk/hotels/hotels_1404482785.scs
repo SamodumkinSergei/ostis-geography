@@ -1,0 +1,26 @@
+ concept_hotels_1404482785
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Флэтком"]
+	(* <- lang_ru;; <- name;;*);
+    ["Флэтком"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 2, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 315-92-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911169,27.505759"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://flatcom.by/rus"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_museum_1307749408
+ <- concept_museum;
+=>nrel_main_idtf:
+	["A&v art-gallery"]
+	(* <- lang_ru;; <- name;;*);
+    ["A&v art-gallery"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Революционная улица, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 263-76-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–19:00; сб 12:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901635,27.54982"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.av-artgallery.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

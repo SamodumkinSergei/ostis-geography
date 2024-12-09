@@ -1,0 +1,26 @@
+ concept_sportcenter_230514985729
+ <- concept_sportcenter;
+=>nrel_main_idtf:
+	["Мир бильярда"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мир бильярда"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Юбилейная улица, 8/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 235-40-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 16:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.458033,31.003418"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

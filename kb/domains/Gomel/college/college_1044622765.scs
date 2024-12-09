@@ -1,0 +1,26 @@
+ concept_college_1044622765
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 54 г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 54 г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Огоренко, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 253-04-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.478876,31.021038"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sc54gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

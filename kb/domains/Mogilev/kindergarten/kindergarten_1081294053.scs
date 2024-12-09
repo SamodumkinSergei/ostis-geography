@@ -1,0 +1,26 @@
+ concept_kindergarten_1081294053
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Детский сад № 42"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский сад № 42"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Циолковского, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 223-52-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 08:00–17:00; вт 11:00–20:00; ср-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910235,30.318134"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sad42mogilev.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

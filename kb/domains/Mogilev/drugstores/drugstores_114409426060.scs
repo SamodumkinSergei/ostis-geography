@@ -1,0 +1,26 @@
+ concept_drugstores_114409426060
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 51 Могилёвского РУП Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 51 Могилёвского РУП Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Челюскинцев, 150"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 241-76-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб 08:00–20:00; вс 09:00–17:20, перерыв 13:00–13:20"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.882913,30.269726"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mogpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_mobile_phones_203038032746
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Service Pro"]
+	(* <- lang_ru;; <- name;;*);
+    ["Service Pro"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Космонавтов, 22Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 135-93-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.447613,30.968775"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://spro.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

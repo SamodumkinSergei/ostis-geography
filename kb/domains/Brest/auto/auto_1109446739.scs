@@ -1,0 +1,26 @@
+ concept_auto_1109446739
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Семь ключей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Семь ключей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Задворская улица, 4/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 824-71-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.127585,23.773224"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.7kl.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

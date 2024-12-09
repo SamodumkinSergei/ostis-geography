@@ -1,0 +1,26 @@
+ concept_college_101602711671
+ <- concept_college;
+=>nrel_main_idtf:
+	["Морфологический корпус ВГМУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Морфологический корпус ВГМУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 23к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 260-14-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00; сб,вс 09:00–14:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.192587,30.216954"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.vsmu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

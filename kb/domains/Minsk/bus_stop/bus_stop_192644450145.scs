@@ -1,0 +1,26 @@
+ concept_bus_stop_192644450145
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Домашевская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Домашевская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Домашевская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897906,27.529063"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

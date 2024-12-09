@@ -1,0 +1,26 @@
+ concept_government_1015882439
+ <- concept_government;
+=>nrel_main_idtf:
+	["Администрация Фрунзенского района г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Администрация Фрунзенского района г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Кальварийская улица, 39"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 373-90-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:45–18:00, перерыв 13:00–14:00; пт 08:45–16:45, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908215,27.509401"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://fr.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

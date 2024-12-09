@@ -1,0 +1,26 @@
+ concept_college_1304999584
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минский государственный профессионально-технический колледж строителей имени В. Г. Каменского"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский государственный профессионально-технический колледж строителей имени В. Г. Каменского"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Михаила Гебелева, 5к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 367-45-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:15–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.899984,27.540471"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ptk-stroj.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

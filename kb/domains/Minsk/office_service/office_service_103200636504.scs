@@ -1,0 +1,26 @@
+ concept_office_service_103200636504
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Астэко-М, склад"]
+	(* <- lang_ru;; <- name;;*);
+    ["Астэко-М, склад"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Каменногорская улица, 45"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 235-10-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.933753,27.428812"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://asteko-m.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

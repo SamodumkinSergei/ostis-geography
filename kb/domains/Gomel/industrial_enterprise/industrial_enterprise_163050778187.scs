@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_163050778187
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Мануфактурный ряд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мануфактурный ряд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Борисенко, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 690-85-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:30–19:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.420574,30.920713"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ryad.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_hypermarket_1105385592
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Слодыч кондитерская фабрика, отдел прямых продаж по г. Гомелю и Гомельской области"]
+	(* <- lang_ru;; <- name;;*);
+    ["Слодыч кондитерская фабрика, отдел прямых продаж по г. Гомелю и Гомельской области"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Прудок, 2-я Гражданская улица, 5/19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 225-18-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:15–12:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.460962,31.011909"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.slodych.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

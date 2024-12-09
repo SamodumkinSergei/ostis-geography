@@ -1,0 +1,26 @@
+ concept_hotels_183618497882
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Охотничий дом"]
+	(* <- lang_ru;; <- name;;*);
+    ["Охотничий дом"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Смолевичский район, Плисский сельсовет, посёлок Центральный"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 349-56-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.01275,28.06775"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

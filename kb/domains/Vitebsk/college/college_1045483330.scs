@@ -1,0 +1,26 @@
+ concept_college_1045483330
+ <- concept_college;
+=>nrel_main_idtf:
+	["Витебский государственный колледж культуры и искусств"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебский государственный колледж культуры и искусств"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Максима Горького, 74"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 236-26-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:00, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.173078,30.150438"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vgkki.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

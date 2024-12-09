@@ -1,0 +1,26 @@
+ concept_bus_stop_4436712237
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Максима Горького"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Максима Горького"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Максима Горького"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.165722,30.124106"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

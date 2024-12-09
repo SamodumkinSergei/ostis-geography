@@ -1,0 +1,26 @@
+ concept_fallback_services_1144279380
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["ОАО Брестмаш"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОАО Брестмаш"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Суворова, 21В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 293-22-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.06524,23.743091"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bmz.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_cafe_1072004521
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Столовая № 149"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столовая № 149"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Холмы, Витебский проспект, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 274-07-24"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 12:30–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.881277,30.40251"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

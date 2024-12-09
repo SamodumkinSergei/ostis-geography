@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_1154017230
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Лечебно-производственные трудовые мастерские"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лечебно-производственные трудовые мастерские"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, 5-й Карабановский переулок"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 272-12-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.926828,30.317868"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

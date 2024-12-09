@@ -1,0 +1,26 @@
+ concept_fallback_services_1132415660
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Памятники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Восточная улица, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 171-07-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.93139,27.592405"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.goncharova.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_office_service_1076324838
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Вечерний Брест"]
+	(* <- lang_ru;; <- name;;*);
+    ["Вечерний Брест"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Комсомольская улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 226-25-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.098461,23.684425"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.vb.by/about/publishing/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

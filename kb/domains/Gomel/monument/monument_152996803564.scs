@@ -1,0 +1,26 @@
+ concept_monument_152996803564
+ <- concept_monument;
+=>nrel_main_idtf:
+	["Александр Сергеевич Пушкин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Александр Сергеевич Пушкин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Центральный район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.42806,31.018846"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

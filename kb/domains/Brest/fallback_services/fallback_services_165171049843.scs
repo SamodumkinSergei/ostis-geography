@@ -1,0 +1,26 @@
+ concept_fallback_services_165171049843
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Брест-ВТИ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брест-ВТИ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брестская область, Кобрин, Первомайская улица, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 423-48-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.212317,24.360873"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://brestvti.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

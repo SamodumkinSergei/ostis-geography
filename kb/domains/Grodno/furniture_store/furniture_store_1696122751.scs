@@ -1,0 +1,26 @@
+ concept_furniture_store_1696122751
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Пинскдрев"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пинскдрев"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Озёрское шоссе, 5Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 654-00-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.689745,23.857068"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pinskdrev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

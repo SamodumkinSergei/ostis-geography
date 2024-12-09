@@ -1,0 +1,26 @@
+ concept_museum_167742003352
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Беларт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Беларт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Карла Маркса, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 365-31-24"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.895607,27.552722"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bel-art.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

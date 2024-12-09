@@ -1,0 +1,26 @@
+ concept_college_1031455864
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 29 имени В. В. Пименова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 29 имени В. В. Пименова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица 26 Июня, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 266-15-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.197382,30.236748"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://29vitebsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_1280099317
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Некрополь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Некрополь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Аранская улица, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 197-16-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.887247,27.574804"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://aristado.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

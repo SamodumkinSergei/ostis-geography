@@ -1,0 +1,26 @@
+ concept_medicine_1382945673
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["ГУ МНПЦ хирургии, трансплантологии и гематологии"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУ МНПЦ хирургии, трансплантологии и гематологии"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Семашко, 8, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 277-10-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.859945,27.495553"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://msth.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

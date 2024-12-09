@@ -1,0 +1,26 @@
+ concept_petshop_212020320698
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Зоомир"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зоомир"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Долгобродская улица, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 385-10-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.887793,27.61661"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://zoo1.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

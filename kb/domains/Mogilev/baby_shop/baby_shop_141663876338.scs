@@ -1,0 +1,26 @@
+ concept_baby_shop_141663876338
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Балу"]
+	(* <- lang_ru;; <- name;;*);
+    ["Балу"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Шмидта, 32А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 156-54-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873938,30.322405"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_restaurants_1080934789
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Корчма Старовиленская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Корчма Старовиленская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Старовиленская улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 627-30-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907796,27.555013"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

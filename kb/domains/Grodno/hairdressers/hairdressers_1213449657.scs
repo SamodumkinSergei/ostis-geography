@@ -1,0 +1,26 @@
+ concept_hairdressers_1213449657
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Рената"]
+	(* <- lang_ru;; <- name;;*);
+    ["Рената"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Янки Купалы, 88А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 889-39-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.65374,23.851836"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

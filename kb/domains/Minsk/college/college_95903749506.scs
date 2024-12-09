@@ -1,0 +1,26 @@
+ concept_college_95903749506
+ <- concept_college;
+=>nrel_main_idtf:
+	["Юридический факультет БГУ, кафедра уголовного процесса и прокурорского надзора"]
+	(* <- lang_ru;; <- name;;*);
+    ["Юридический факультет БГУ, кафедра уголовного процесса и прокурорского надзора"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинградская улица, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 209-55-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 13:00–13:45; пт 08:30–17:00, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.894041,27.549939"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://law.bsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

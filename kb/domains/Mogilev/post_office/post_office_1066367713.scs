@@ -1,0 +1,26 @@
+ concept_post_office_1066367713
+ <- concept_post_office;
+=>nrel_main_idtf:
+	["Белпочта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белпочта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Гомельское шоссе, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 272-24-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 08:00–10:00; вт-пт 06:30–20:30; сб 06:30–20:00; вс 07:30–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.857345,30.352387"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belpost.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

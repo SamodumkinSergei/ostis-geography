@@ -1,0 +1,26 @@
+ concept_bus_stop_125911283139
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Троллейбусная"]
+	(* <- lang_ru;; <- name;;*);
+    ["Троллейбусная"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Терешковой"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.186993,30.248622"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

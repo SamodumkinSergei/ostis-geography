@@ -1,0 +1,26 @@
+ concept_drugstores_233877408834
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека 209/5"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека 209/5"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Зайцева, 67/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 231-90-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.369103,31.012836"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomelpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

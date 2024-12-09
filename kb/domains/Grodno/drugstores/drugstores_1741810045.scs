@@ -1,0 +1,26 @@
+ concept_drugstores_1741810045
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродненская область, Щучинский район, Можейковский сельсовет, агрогородок Скрибовцы, Восточная улица, 45А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 143-75-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт,ср,пт 08:00–16:00; сб 08:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.690868,24.999353"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://farmacia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

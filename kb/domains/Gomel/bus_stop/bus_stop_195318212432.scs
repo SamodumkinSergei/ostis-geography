@@ -1,0 +1,26 @@
+ concept_bus_stop_195318212432
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Остановка общественного транспорта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Остановка общественного транспорта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельский район, Зябровский сельсовет, деревня Зябровка, Комсомольская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.330489,31.172043"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

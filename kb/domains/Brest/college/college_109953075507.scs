@@ -1,0 +1,26 @@
+ concept_college_109953075507
+ <- concept_college;
+=>nrel_main_idtf:
+	["Брестский государственный технический университет, корпус № 6"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестский государственный технический университет, корпус № 6"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 232-17-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 13:00–13:45; пт 08:30–16:15, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.093901,23.758733"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bstu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

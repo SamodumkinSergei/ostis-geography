@@ -1,0 +1,26 @@
+ concept_bus_stop_96692259792
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Станция метро Уручье"]
+	(* <- lang_ru;; <- name;;*);
+    ["Станция метро Уручье"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, микрорайон Уручье"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.945385,27.68626"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

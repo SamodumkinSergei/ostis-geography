@@ -1,0 +1,26 @@
+ concept_bus_stop_139419963787
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Луговая улица"]
+	(* <- lang_ru;; <- name;;*);
+    ["Луговая улица"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Фрунзе"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.410283,31.014809"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

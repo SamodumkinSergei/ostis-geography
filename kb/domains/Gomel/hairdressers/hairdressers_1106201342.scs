@@ -1,0 +1,26 @@
+ concept_hairdressers_1106201342
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Комфорт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Комфорт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Петруся Бровки, 45"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 154-48-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб,вс 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.468428,31.024603"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

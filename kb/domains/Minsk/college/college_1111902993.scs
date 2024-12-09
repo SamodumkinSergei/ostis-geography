@@ -1,0 +1,26 @@
+ concept_college_1111902993
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 172"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 172"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Заводской район, Северный посёлок, Охотская улица, 141"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 300-12-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.881802,27.665956"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://172minsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_restaurants_103881874679
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Пиццерия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пиццерия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Романовская Слобода, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903929,27.545099"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_1325692997
+ <- concept_college;
+=>nrel_main_idtf:
+	["БГУФК, учебно-спортивный корпус"]
+	(* <- lang_ru;; <- name;;*);
+    ["БГУФК, учебно-спортивный корпус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 109"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 369-63-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:30–21:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.935007,27.486642"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.sportedu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

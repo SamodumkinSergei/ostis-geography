@@ -1,0 +1,26 @@
+ concept_hairdressers_1146507305
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Парикмахерская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парикмахерская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Воронянского, 13/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 322-00-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб,вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878193,27.545366"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.savanas.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

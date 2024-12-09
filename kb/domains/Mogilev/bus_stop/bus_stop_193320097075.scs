@@ -1,0 +1,26 @@
+ concept_bus_stop_193320097075
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Торговый центр Соседи"]
+	(* <- lang_ru;; <- name;;*);
+    ["Торговый центр Соседи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Соломинка, Жемчужная улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.947906,30.374018"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

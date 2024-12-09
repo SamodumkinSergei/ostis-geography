@@ -1,0 +1,26 @@
+ concept_college_198981105630
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 6 г. Могилёва"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 6 г. Могилёва"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пушкинский проспект, 8к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 264-55-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.882317,30.335633"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://school6.mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

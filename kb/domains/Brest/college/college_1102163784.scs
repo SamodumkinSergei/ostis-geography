@@ -1,0 +1,26 @@
+ concept_college_1102163784
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гимназия № 4"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гимназия № 4"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 338/4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 225-96-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.104255,23.765705"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gymn4brest.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

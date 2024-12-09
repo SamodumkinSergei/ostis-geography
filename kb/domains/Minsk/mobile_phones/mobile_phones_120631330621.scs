@@ -1,0 +1,26 @@
+ concept_mobile_phones_120631330621
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["ILabs"]
+	(* <- lang_ru;; <- name;;*);
+    ["ILabs"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, бульвар Мулявина, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 775-22-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб,вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.914328,27.583453"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ilabs.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

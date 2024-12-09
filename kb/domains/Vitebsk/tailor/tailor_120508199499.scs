@@ -1,0 +1,26 @@
+ concept_tailor_120508199499
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Ремонт одежды и обуви"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт одежды и обуви"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Карла Маркса, 53"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 10:00–17:30; вт,ср 10:00–19:00; чт 10:00–17:30; пт 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.186453,30.168621"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

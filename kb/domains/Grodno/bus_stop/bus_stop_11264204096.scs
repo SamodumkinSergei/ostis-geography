@@ -1,0 +1,26 @@
+ concept_bus_stop_11264204096
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Усова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Усова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Пучкова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.658194,23.814335"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

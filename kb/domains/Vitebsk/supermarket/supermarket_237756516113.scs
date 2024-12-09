@@ -1,0 +1,26 @@
+ concept_supermarket_237756516113
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Доброном"]
+	(* <- lang_ru;; <- name;;*);
+    ["Доброном"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Лазо, 129А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 144-70-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.201194,30.268396"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dobronom.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

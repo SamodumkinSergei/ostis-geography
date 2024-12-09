@@ -1,0 +1,26 @@
+ concept_college_102107997382
+ <- concept_college;
+=>nrel_main_idtf:
+	["Новашкола Я"]
+	(* <- lang_ru;; <- name;;*);
+    ["Новашкола Я"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Фрунзенский район, микрорайон Масюковщина-1, улица Чигладзе, 41"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 640-34-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.925842,27.491843"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

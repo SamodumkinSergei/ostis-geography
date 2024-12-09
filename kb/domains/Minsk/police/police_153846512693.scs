@@ -1,0 +1,26 @@
+ concept_police_153846512693
+ <- concept_police;
+=>nrel_main_idtf:
+	["Отдел по гражданству и миграции Первомайского РУВД"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отдел по гражданству и миграции Первомайского РУВД"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Белинского, 10к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 239-66-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт 08:00–17:00, перерыв 13:00–14:00; ср 11:00–20:00, перерыв 15:00–16:00; чт 08:00–13:00; пт 08:00–17:00, перерыв 13:00–14:00; сб 08:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.935658,27.608545"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://minsk.mvd.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

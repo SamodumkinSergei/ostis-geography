@@ -1,0 +1,26 @@
+ concept_kindergarten_97343169231
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Зубоша"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зубоша"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Карла Либкнехта, 127"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 318-77-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 10:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.892178,27.509115"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://zubosha.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

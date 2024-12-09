@@ -1,0 +1,26 @@
+ concept_museum_1106779828
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Городской дом культуры"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городской дом культуры"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельская область, Ветка, улица Громыко, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 302-13-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.559602,31.174293"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

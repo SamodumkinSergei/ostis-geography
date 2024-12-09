@@ -1,0 +1,26 @@
+ concept_hotels_1687415322
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["SergeApartHotel"]
+	(* <- lang_ru;; <- name;;*);
+    ["SergeApartHotel"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Пихтовая улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 804-67-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.047801,23.717924"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

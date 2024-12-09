@@ -1,0 +1,26 @@
+ concept_cafe_1429072553
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кофе Хаус"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кофе Хаус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Киев, улица Михаила Грушевского, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+380 (44) 591-37-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["50.451435,30.528088"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

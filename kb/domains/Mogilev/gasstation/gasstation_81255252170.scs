@@ -1,0 +1,26 @@
+ concept_gasstation_81255252170
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["МАЗС № 58 РУП Белоруснефть-Могилёвоблнефтепродукт"]
+	(* <- lang_ru;; <- name;;*);
+    ["МАЗС № 58 РУП Белоруснефть-Могилёвоблнефтепродукт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёвский район, Пашковский сельсовет, деревня Присно 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 240-50-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.936683,30.220126"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://azs.belorusneft.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

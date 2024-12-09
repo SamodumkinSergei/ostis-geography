@@ -1,0 +1,26 @@
+ concept_railway_station_46809002867
+ <- concept_railway_station;
+=>nrel_main_idtf:
+	["Брест-Южный"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брест-Южный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:30–21:30, перерывы 09:30–13:30, 14:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.064349,23.750007"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

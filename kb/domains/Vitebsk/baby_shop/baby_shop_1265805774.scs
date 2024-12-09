@@ -1,0 +1,26 @@
+ concept_baby_shop_1265805774
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Свитанак"]
+	(* <- lang_ru;; <- name;;*);
+    ["Свитанак"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Советская улица, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 224-75-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.199169,30.206311"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.artus-kids.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

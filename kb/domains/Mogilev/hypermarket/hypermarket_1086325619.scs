@@ -1,0 +1,26 @@
+ concept_hypermarket_1086325619
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Гиппо"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гиппо"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Мовчанского, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 270-95-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.872165,30.363199"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gippo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

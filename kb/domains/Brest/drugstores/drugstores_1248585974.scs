@@ -1,0 +1,26 @@
+ concept_drugstores_1248585974
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 2 Лигматон"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 2 Лигматон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 210"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 228-23-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.096995,23.745975"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ligmaton.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

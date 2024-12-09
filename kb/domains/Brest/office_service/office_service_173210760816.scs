@@ -1,0 +1,26 @@
+ concept_office_service_173210760816
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["BrestLife"]
+	(* <- lang_ru;; <- name;;*);
+    ["BrestLife"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Бретань, Финистер, Округ Брест, Брест, Rue Coat Ar Gueven, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+33 2 98 33 50 50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["48.393687,-4.482306"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.brest-life.fr/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

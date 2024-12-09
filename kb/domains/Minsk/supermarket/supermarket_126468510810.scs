@@ -1,0 +1,26 @@
+ concept_supermarket_126468510810
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Встречаем!"]
+	(* <- lang_ru;; <- name;;*);
+    ["Встречаем!"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Волоха, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 276-39-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб,вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897423,27.520262"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

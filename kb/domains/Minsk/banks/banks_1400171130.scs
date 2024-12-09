@@ -1,0 +1,26 @@
+ concept_banks_1400171130
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Сбер Банк, отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сбер Банк, отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Чкалова, 18/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 514-81-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.879012,27.534299"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.sber-bank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

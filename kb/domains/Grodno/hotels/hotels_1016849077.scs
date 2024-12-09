@@ -1,0 +1,26 @@
+ concept_hotels_1016849077
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Гродненская обувная фабрика Неман, Общежитие"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненская обувная фабрика Неман, Общежитие"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Монюшко, 1, подъезд 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.672085,23.810386"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

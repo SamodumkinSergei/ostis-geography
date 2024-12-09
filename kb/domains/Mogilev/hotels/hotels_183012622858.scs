@@ -1,0 +1,26 @@
+ concept_hotels_183012622858
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Динамо"]
+	(* <- lang_ru;; <- name;;*);
+    ["Динамо"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёвский район, Полыковичский сельсовет, агрогородок Полыковичи, улица Полыковичское шоссе, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 271-15-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.960024,30.367246"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.dynamo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

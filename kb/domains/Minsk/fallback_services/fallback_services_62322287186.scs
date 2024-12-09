@@ -1,0 +1,26 @@
+ concept_fallback_services_62322287186
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гранитная Студия ВА"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гранитная Студия ВА"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Газеты Звязда, 16, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 271-98-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.865356,27.467436"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://granitst-va.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

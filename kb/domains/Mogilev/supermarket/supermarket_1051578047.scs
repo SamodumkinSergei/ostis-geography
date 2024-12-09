@@ -1,0 +1,26 @@
+ concept_supermarket_1051578047
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Варенец"]
+	(* <- lang_ru;; <- name;;*);
+    ["Варенец"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Димитрова, 74А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 273-59-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.87919,30.377673"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_restaurants_1323427326
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["PizzaMania"]
+	(* <- lang_ru;; <- name;;*);
+    ["PizzaMania"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 51"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 553-00-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.879547,27.608798"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pizzamania.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

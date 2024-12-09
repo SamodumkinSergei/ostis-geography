@@ -1,0 +1,26 @@
+ concept_kindergarten_171827742458
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Детский сад № 100 г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский сад № 100 г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Мазурова, 101Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 222-86-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.456664,31.031292"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sad100gomel.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

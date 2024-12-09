@@ -1,0 +1,26 @@
+ concept_baby_shop_162139623338
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Детский магазин Потеха"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский магазин Потеха"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Тимирязева, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 587-64-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 14:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.693042,23.847791"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://potehashop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

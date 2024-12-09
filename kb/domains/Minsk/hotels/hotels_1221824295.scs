@@ -1,0 +1,26 @@
+ concept_hotels_1221824295
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Мотель Кадм Плюс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мотель Кадм Плюс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Минский район, Папернянский сельсовет, деревня Сёмково, Центральная улица, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.024013,27.433147"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

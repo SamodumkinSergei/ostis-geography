@@ -1,0 +1,26 @@
+ concept_bus_stop_93517406864
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["ОАО Ремонтный завод"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОАО Ремонтный завод"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Вишневецкого"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.888123,30.268248"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

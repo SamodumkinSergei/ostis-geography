@@ -1,0 +1,26 @@
+ concept_cafe_71081667589
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Стейк-кафе Жадина-говядина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стейк-кафе Жадина-говядина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Рабочий переулок, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.885832,27.587681"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.steik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_museum_127614057287
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей белорусского народного искусства"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей белорусского народного искусства"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Острошицко-Городокский сельсовет, деревня Околица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 507-44-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср-вс 08:30–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.060032,27.7393"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

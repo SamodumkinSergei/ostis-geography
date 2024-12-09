@@ -1,0 +1,26 @@
+ concept_mobile_phones_192258349462
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Хайтек"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хайтек"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Сухого, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 145-06-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00, перерыв 14:00–15:00; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.465632,30.971738"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

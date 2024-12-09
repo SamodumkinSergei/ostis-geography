@@ -1,0 +1,26 @@
+ concept_cafe_218009935767
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Чайхана Ташкент"]
+	(* <- lang_ru;; <- name;;*);
+    ["Чайхана Ташкент"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Комсомольская улица, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 666-62-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:00–23:00; пт,сб 11:00–00:00; вс 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897965,27.556266"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

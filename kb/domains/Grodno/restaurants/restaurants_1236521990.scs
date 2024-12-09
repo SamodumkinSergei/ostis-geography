@@ -1,0 +1,26 @@
+ concept_restaurants_1236521990
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Туран"]
+	(* <- lang_ru;; <- name;;*);
+    ["Туран"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Клецкова, 15А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 300-00-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.648365,23.844684"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

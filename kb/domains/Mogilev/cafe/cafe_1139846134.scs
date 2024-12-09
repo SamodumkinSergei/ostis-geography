@@ -1,0 +1,26 @@
+ concept_cafe_1139846134
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Pizzaroni"]
+	(* <- lang_ru;; <- name;;*);
+    ["Pizzaroni"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 272-67-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.898809,30.333062"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://just-eat.by/pizzaroni-mogilev"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_office_service_110572910791
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Маслосырбаза"]
+	(* <- lang_ru;; <- name;;*);
+    ["Маслосырбаза"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Озёрское шоссе, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 271-53-71"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.690856,23.874554"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.grodnommp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

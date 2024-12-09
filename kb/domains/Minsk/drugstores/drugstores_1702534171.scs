@@ -1,0 +1,26 @@
+ concept_drugstores_1702534171
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Белфармация аптека № 32 четвертой категории"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белфармация аптека № 32 четвертой категории"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Академическая улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 351-31-24"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919346,27.595608"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

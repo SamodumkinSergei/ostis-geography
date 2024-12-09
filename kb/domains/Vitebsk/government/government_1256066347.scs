@@ -1,0 +1,26 @@
+ concept_government_1256066347
+ <- concept_government;
+=>nrel_main_idtf:
+	["Управление по сельскому хозяйству и продовольствию Витебского райисполкома"]
+	(* <- lang_ru;; <- name;;*);
+    ["Управление по сельскому хозяйству и продовольствию Витебского райисполкома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Советской Армии, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 266-98-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.196801,30.190618"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitebsk.vitebsk-region.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

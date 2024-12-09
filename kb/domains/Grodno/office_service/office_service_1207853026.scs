@@ -1,0 +1,26 @@
+ concept_office_service_1207853026
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Квадратный метр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Квадратный метр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Карла Маркса, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 272-25-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 11:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.677568,23.832657"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.m2.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

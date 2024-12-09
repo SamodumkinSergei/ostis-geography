@@ -1,0 +1,26 @@
+ concept_college_232521238607
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГГМУ, Лабораторный корпус"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГГМУ, Лабораторный корпус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Большая Троицкая улица, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 244-36-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.682536,23.830668"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.grsmu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_banks_163585605626
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Альфа-банк, для бизнеса"]
+	(* <- lang_ru;; <- name;;*);
+    ["Альфа-банк, для бизнеса"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Красная улица, 7А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 733-33-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912595,27.571318"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.alfabank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

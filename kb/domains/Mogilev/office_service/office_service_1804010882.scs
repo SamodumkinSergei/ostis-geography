@@ -1,0 +1,26 @@
+ concept_office_service_1804010882
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Реклама Могилев"]
+	(* <- lang_ru;; <- name;;*);
+    ["Реклама Могилев"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, переулок Буянова, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 109-33-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902828,30.345706"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://air2007.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

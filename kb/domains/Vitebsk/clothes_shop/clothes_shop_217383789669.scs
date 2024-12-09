@@ -1,0 +1,26 @@
+ concept_clothes_shop_217383789669
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["ELIZ"]
+	(* <- lang_ru;; <- name;;*);
+    ["ELIZ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Замковая улица, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 248-06-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–20:00; вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.192479,30.203058"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://eliz.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

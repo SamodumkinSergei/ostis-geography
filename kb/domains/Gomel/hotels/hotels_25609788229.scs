@@ -1,0 +1,26 @@
+ concept_hotels_25609788229
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Общежитие КЖРЭУП Центральное"]
+	(* <- lang_ru;; <- name;;*);
+    ["Общежитие КЖРЭУП Центральное"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 74"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 256-13-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.441494,31.001444"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://centralnoe.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

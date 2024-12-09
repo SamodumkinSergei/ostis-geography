@@ -1,0 +1,26 @@
+ concept_bus_station_2374256589
+ <- concept_bus_station;
+=>nrel_main_idtf:
+	["Автостанция Л. Карастояновой"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостанция Л. Карастояновой"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лилии Карастояновой, 45"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 288-54-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:30–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.940127,27.565698"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.minsktrans.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

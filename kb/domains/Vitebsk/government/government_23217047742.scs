@@ -1,0 +1,26 @@
+ concept_government_23217047742
+ <- concept_government;
+=>nrel_main_idtf:
+	["Сектор по Витебской области ГХУ Управления делами Президента"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сектор по Витебской области ГХУ Управления делами Президента"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Гоголя, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 242-62-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.190672,30.206508"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ghu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

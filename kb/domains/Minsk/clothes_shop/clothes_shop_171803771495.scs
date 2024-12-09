@@ -1,0 +1,26 @@
+ concept_clothes_shop_171803771495
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Хэпі Хэнд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хэпі Хэнд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Воронянского, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 243-90-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878829,27.536797"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://secondminsk.by/second-hand-voronyanskogo-minsk.html"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_1273305675
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 36 имени Гуляма Якубова г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 36 имени Гуляма Якубова г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, улица Якубова, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 367-11-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–21:00; сб 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.855971,27.599981"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch36.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

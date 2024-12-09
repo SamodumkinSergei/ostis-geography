@@ -1,0 +1,26 @@
+ concept_furniture_store_98423728520
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Мебель Под Заказ в Гомеле"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мебель Под Заказ в Гомеле"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Могилёвская улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 911-60-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.46128,30.931897"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mebel-v-gomele.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

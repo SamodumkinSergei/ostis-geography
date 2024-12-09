@@ -1,0 +1,26 @@
+ concept_college_1033482822
+ <- concept_college;
+=>nrel_main_idtf:
+	["Начальная школа № 103"]
+	(* <- lang_ru;; <- name;;*);
+    ["Начальная школа № 103"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 204-08-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 09:00–16:20"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912665,27.498509"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch103.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

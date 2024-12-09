@@ -1,0 +1,26 @@
+ concept_bus_stop_186480132162
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Сапёрная улица"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сапёрная улица"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Сапёрная улица, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910516,30.361561"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

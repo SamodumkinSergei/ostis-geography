@@ -1,0 +1,26 @@
+ concept_medicine_29263703282
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["МРТ"]
+	(* <- lang_ru;; <- name;;*);
+    ["МРТ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Уральская улица, 5, корп. 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 392-54-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901232,27.609515"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://6gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_government_1029645240
+ <- concept_government;
+=>nrel_main_idtf:
+	["Главное управление Министерства финансов Республики Беларусь по Гомельской области"]
+	(* <- lang_ru;; <- name;;*);
+    ["Главное управление Министерства финансов Республики Беларусь по Гомельской области"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Гагарина, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 225-97-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.419864,31.009709"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://minfin.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

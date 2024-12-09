@@ -1,0 +1,26 @@
+ concept_malls_145008604821
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Iliana shop"]
+	(* <- lang_ru;; <- name;;*);
+    ["Iliana shop"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Строителей, 15, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 853-74-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.169992,30.223171"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.iliana-shop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

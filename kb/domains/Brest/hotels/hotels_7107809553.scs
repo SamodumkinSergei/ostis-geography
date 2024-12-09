@@ -1,0 +1,26 @@
+ concept_hotels_7107809553
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Гостевые номера"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гостевые номера"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Суворова, 21Д"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 650-40-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.064724,23.743556"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

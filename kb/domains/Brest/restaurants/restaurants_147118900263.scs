@@ -1,0 +1,26 @@
+ concept_restaurants_147118900263
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Restauracja Folko"]
+	(* <- lang_ru;; <- name;;*);
+    ["Restauracja Folko"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Люблинское воеводство, повят Бяльский, Тересполь, ulica Topolowa, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+48  517 64 58 42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.074594,23.609621"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://restauracja-folko.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_medicine_239384413553
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["ГУЗ 5-я Городская клиническая больница, отделение анестезиологии и реанимации № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУЗ 5-я Городская клиническая больница, отделение анестезиологии и реанимации № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Филатова, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 295-84-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.870295,27.632397"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.5gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

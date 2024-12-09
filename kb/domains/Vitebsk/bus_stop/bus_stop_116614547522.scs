@@ -1,0 +1,26 @@
+ concept_bus_stop_116614547522
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Софьи Панковой"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Софьи Панковой"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Софьи Панковой"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.18775,30.250964"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

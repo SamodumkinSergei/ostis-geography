@@ -1,0 +1,26 @@
+ concept_medicine_7400687968
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гомельская центральная городская детская поликлиника, Педиатрическое отделение № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельская центральная городская детская поликлиника, Педиатрическое отделение № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ландышева, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 256-42-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.446413,31.003523"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

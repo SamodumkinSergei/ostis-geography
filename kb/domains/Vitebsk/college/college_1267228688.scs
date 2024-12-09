@@ -1,0 +1,26 @@
+ concept_college_1267228688
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГУО Витебское кадетское училище"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО Витебское кадетское училище"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебский район, Мазоловский сельсовет, деревня Лужесно, улица Лынькова, 3, корп. 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 247-87-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.250544,30.128573"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vku.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

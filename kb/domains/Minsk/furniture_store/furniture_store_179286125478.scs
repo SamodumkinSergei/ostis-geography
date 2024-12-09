@@ -1,0 +1,26 @@
+ concept_furniture_store_179286125478
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Летриде"]
+	(* <- lang_ru;; <- name;;*);
+    ["Летриде"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Центральный район, микрорайон Новинки, Будславская улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 589-14-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–18:00; пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.959291,27.537427"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.letride.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

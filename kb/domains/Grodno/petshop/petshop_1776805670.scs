@@ -1,0 +1,26 @@
+ concept_petshop_1776805670
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Фея для Котофея"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фея для Котофея"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Кабяка, 8к3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 302-30-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–20:00; вс 11:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.645258,23.847107"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

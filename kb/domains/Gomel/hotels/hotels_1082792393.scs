@@ -1,0 +1,26 @@
+ concept_hotels_1082792393
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Парк-отель Замковый"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парк-отель Замковый"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Гагарина, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 175-04-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.418979,31.010925"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://zamkovyj.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

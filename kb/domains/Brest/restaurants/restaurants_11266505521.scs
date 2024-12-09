@@ -1,0 +1,26 @@
+ concept_restaurants_11266505521
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Пицца Итальяна"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пицца Итальяна"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Комсомольская улица, 42/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["7325"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–01:00; пт-вс 12:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.094453,23.689516"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pizza-italiana.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

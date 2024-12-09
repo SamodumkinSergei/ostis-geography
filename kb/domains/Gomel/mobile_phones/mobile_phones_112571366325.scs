@@ -1,0 +1,26 @@
+ concept_mobile_phones_112571366325
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["ServicePro"]
+	(* <- lang_ru;; <- name;;*);
+    ["ServicePro"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Карповича, 28, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 135-93-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.425124,30.997282"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rtg.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

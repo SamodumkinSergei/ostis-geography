@@ -1,0 +1,26 @@
+ concept_hotels_1022935445
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Родник"]
+	(* <- lang_ru;; <- name;;*);
+    ["Родник"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёвский район, Полыковичский сельсовет, агрогородок Полыковичи"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 271-14-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.970209,30.365587"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_restaurants_67406599467
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Тан ЧАО"]
+	(* <- lang_ru;; <- name;;*);
+    ["Тан ЧАО"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Машерова, 98"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 916-77-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.090318,23.711803"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_auto_7561655551
+ <- concept_auto;
+=>nrel_main_idtf:
+	["АвтоМагнат"]
+	(* <- lang_ru;; <- name;;*);
+    ["АвтоМагнат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Лепешинского, 7Ж"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 314-15-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.480124,30.996991"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://automagnat.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

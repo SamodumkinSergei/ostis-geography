@@ -1,0 +1,26 @@
+ concept_travel_agency_1191694528
+ <- concept_travel_agency;
+=>nrel_main_idtf:
+	["Pine River"]
+	(* <- lang_ru;; <- name;;*);
+    ["Pine River"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Калужская область, Жуковский район, сельское поселение Деревня Верховье, территория База отдыха Сосновый городок, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (495) 132-13-28"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.955305,36.772499"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.pineriver.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

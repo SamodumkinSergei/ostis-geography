@@ -1,0 +1,26 @@
+ concept_mobile_phones_1093972295
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Белтелеком"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белтелеком"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Ленина, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 270-20-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-ср 08:00–20:00; чт 09:00–20:00; пт 08:00–20:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.424385,31.013108"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://beltelecom.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

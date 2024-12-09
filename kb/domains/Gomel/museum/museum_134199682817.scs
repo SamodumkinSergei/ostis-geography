@@ -1,0 +1,26 @@
+ concept_museum_134199682817
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Дом культуры"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дом культуры"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельский район, Улуковский сельсовет, деревня Берёзки, улица 60 лет СССР, 10А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 291-53-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 08:00–22:00; вс 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.400174,31.104125"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomelrcbs.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

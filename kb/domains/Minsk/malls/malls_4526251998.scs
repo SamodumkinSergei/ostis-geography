@@ -1,0 +1,26 @@
+ concept_malls_4526251998
+ <- concept_malls;
+=>nrel_main_idtf:
+	["vikki.shop.minsk"]
+	(* <- lang_ru;; <- name;;*);
+    ["vikki.shop.minsk"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Воронянского, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 576-60-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878224,27.547413"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vikki-shop-minsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

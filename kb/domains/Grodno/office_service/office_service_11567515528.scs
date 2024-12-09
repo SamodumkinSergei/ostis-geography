@@ -1,0 +1,26 @@
+ concept_office_service_11567515528
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Домолюкс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Домолюкс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, переулок Победы, 16В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 696-91-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.655011,23.814814"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://domolux.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

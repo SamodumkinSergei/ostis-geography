@@ -1,0 +1,26 @@
+ concept_clothes_shop_1301952502
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Хэпи Хэнд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хэпи Хэнд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Пулихова, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 318-14-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.8975,27.579649"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://secondminsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

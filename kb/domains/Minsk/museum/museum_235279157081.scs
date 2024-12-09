@@ -1,0 +1,26 @@
+ concept_museum_235279157081
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Минский городской дворец культуры"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский городской дворец культуры"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Маяковского, 129"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 242-23-89"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:30–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.860389,27.573168"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://minskpalac.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

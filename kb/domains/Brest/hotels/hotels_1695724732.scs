@@ -1,0 +1,26 @@
+ concept_hotels_1695724732
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Брестфлэт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестфлэт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Карбышева, 67/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 796-37-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.091784,23.69797"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

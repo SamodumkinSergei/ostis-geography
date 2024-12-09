@@ -1,0 +1,26 @@
+ concept_hairdressers_131824514793
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["КлюСи"]
+	(* <- lang_ru;; <- name;;*);
+    ["КлюСи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Чижовка, улица Уборевича, 110"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 714-73-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб 09:00–20:00; вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.835337,27.640019"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://klussi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_236856648123
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Oriflame"]
+	(* <- lang_ru;; <- name;;*);
+    ["Oriflame"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Песина, 42"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 461-95-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 10:00–19:00; вт 12:00–19:00; чт 10:00–19:00; пт 12:00–19:00; сб 12:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.441143,31.000214"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://by.oriflame.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

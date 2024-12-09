@@ -1,0 +1,26 @@
+ concept_college_1223167722
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГУО Средняя школа № 34 г. Гродно"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО Средняя школа № 34 г. Гродно"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Индурское шоссе, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 233-20-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–22:00; сб 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.645493,23.843327"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sh34grodno.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

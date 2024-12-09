@@ -1,0 +1,26 @@
+ concept_college_1054564436
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минский государственный колледж технологий коммунального хозяйства и транспортного обслуживания"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский государственный колледж технологий коммунального хозяйства и транспортного обслуживания"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ваупшасова, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 356-41-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:15, перерыв 12:00–12:30; пт 08:30–16:00, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.899292,27.653231"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ptk-skh.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

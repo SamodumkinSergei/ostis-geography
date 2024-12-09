@@ -1,0 +1,26 @@
+ concept_mobile_phones_110116354810
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Dvizhing"]
+	(* <- lang_ru;; <- name;;*);
+    ["Dvizhing"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 57А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 953-53-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:30; сб 08:00–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.439759,31.004413"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.dvizhing.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

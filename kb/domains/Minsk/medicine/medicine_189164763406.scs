@@ -1,0 +1,26 @@
+ concept_medicine_189164763406
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["1-я Городская Клиническая больница, Терапевтический Корпус"]
+	(* <- lang_ru;; <- name;;*);
+    ["1-я Городская Клиническая больница, Терапевтический Корпус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 64"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 292-46-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919619,27.595143"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://1gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

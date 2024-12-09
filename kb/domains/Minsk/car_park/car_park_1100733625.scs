@@ -1,0 +1,26 @@
+ concept_car_park_1100733625
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Олимпийский, автостоянка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Олимпийский, автостоянка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурганова, 6А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 290-48-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919546,27.604388"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://olimpiysky.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

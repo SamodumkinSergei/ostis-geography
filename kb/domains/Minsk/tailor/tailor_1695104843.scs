@@ -1,0 +1,26 @@
+ concept_tailor_1695104843
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Ремонт обуви"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт обуви"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 147"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 796-47-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 15:00–19:00; сб 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.86526,27.665286"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://astytto.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

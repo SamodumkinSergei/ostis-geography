@@ -1,0 +1,26 @@
+ concept_car_park_88149588280
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автостоянка № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостоянка № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Куйбышева, 48А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 296-64-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 05:00–01:00, перерыв 09:00–09:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.926746,27.58445"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://upgaip.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

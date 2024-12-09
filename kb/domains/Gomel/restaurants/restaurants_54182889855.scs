@@ -1,0 +1,26 @@
+ concept_restaurants_54182889855
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Okka"]
+	(* <- lang_ru;; <- name;;*);
+    ["Okka"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Коммунаров, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 315-02-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 15:00–02:00; сб,вс 15:00–04:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.42641,31.01172"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

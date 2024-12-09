@@ -1,0 +1,26 @@
+ concept_cafe_129198100138
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Олимпиец"]
+	(* <- lang_ru;; <- name;;*);
+    ["Олимпиец"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица 30 лет Победы, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 272-12-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.927499,30.362316"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

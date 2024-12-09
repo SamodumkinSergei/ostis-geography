@@ -1,0 +1,26 @@
+ concept_malls_40126795727
+ <- concept_malls;
+=>nrel_main_idtf:
+	["PhotoShop"]
+	(* <- lang_ru;; <- name;;*);
+    ["PhotoShop"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Немига, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 672-33-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903798,27.551975"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://photo-shop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

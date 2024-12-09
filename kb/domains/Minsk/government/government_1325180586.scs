@@ -1,0 +1,26 @@
+ concept_government_1325180586
+ <- concept_government;
+=>nrel_main_idtf:
+	["Департамент финансовых расследований Комитета государственного контроля РБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Департамент финансовых расследований Комитета государственного контроля РБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Кальварийская улица, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 220-23-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90599,27.529932"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kgk.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

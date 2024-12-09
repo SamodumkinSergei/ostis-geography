@@ -1,0 +1,26 @@
+ concept_hotels_109772847296
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Вилла R"]
+	(* <- lang_ru;; <- name;;*);
+    ["Вилла R"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Ждановичский сельсовет, деревня Тарасово, Загородная улица, 55"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 150-75-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.924834,27.414086"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://homeminsk.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

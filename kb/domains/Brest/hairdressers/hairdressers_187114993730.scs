@@ -1,0 +1,26 @@
+ concept_hairdressers_187114993730
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Растрёпка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Растрёпка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гаврилова, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 291-96-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–21:00; вс 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.108995,23.77242"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

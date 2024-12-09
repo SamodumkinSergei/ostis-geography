@@ -1,0 +1,26 @@
+ concept_malls_191238267981
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Ратон"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ратон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Федюнинского, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 258-42-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30, перерыв 11:30–12:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.478703,30.990153"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://raton.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

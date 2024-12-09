@@ -1,0 +1,26 @@
+ concept_malls_1050287202
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Презент"]
+	(* <- lang_ru;; <- name;;*);
+    ["Презент"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Шмидта, 3Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 242-11-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873096,30.319194"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_college_61206695999
+ <- concept_college;
+=>nrel_main_idtf:
+	["Архитектурный факультет БНТУ, кафедра Рисунок, акварель и скульптура"]
+	(* <- lang_ru;; <- name;;*);
+    ["Архитектурный факультет БНТУ, кафедра Рисунок, акварель и скульптура"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 65к7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 293-93-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:15–17:30, перерыв 13:00–14:00; пт 08:15–16:15, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.920593,27.592081"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bntu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

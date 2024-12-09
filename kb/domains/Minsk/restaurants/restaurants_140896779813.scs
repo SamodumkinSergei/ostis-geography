@@ -1,0 +1,26 @@
+ concept_restaurants_140896779813
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["РУП Лидо"]
+	(* <- lang_ru;; <- name;;*);
+    ["РУП Лидо"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 302-59-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917124,27.584744"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.lido.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_kindergarten_1884511214
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 12"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 12"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Иосифа Жиновича, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 313-52-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919132,27.45218"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu12.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

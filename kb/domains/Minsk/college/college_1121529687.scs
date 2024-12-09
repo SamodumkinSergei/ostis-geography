@@ -1,0 +1,26 @@
+ concept_college_1121529687
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минский государственный колледж технологии и дизайна легкой промышленности"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский государственный колледж технологии и дизайна легкой промышленности"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Матусевича, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 365-30-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.91537,27.475735"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://coltechdis.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

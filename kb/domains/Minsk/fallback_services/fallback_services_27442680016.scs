@@ -1,0 +1,26 @@
+ concept_fallback_services_27442680016
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Мемориальные комплексы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мемориальные комплексы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Орловская улица, 42"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 311-13-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:30–18:00; сб 09:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.932474,27.552023"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_baby_shop_1388877772
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Плэйтойс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Плэйтойс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, микрорайон Новинки, 1-й Марусинский переулок, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 289-03-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.952808,27.533987"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://playtoys.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

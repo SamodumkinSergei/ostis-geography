@@ -1,0 +1,26 @@
+ concept_tailor_210300525558
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Цвiк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Цвiк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Яна Райниса, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 667-84-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.874307,27.610869"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.tsvik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

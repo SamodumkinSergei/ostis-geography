@@ -1,0 +1,26 @@
+ concept_furniture_store_1160362405
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Глобус-3"]
+	(* <- lang_ru;; <- name;;*);
+    ["Глобус-3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Дубровская улица, 29/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 229-33-28"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.129449,23.654799"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

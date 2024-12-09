@@ -1,0 +1,26 @@
+ concept_railway_station_63032138980
+ <- concept_railway_station;
+=>nrel_main_idtf:
+	["Брест-Полесский"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брест-Полесский"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Октябрьская улица, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 226-43-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:30–21:30, перерывы 09:30–13:00, 14:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.094666,23.71064"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

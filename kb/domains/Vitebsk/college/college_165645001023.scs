@@ -1,0 +1,26 @@
+ concept_college_165645001023
+ <- concept_college;
+=>nrel_main_idtf:
+	["Факультет математики и информационных технологий ВГУ имени П. М. Машерова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Факультет математики и информационных технологий ВГУ имени П. М. Машерова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 237-58-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.177752,30.22557"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://fmiit.vsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

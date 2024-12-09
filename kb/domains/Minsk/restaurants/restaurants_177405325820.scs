@@ -1,0 +1,26 @@
+ concept_restaurants_177405325820
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Чайный пьяница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Чайный пьяница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Интернациональная улица, 25А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 154-45-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 16:00–02:00; пт 16:00–04:00; сб 13:00–04:00; вс 13:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90411,27.558403"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://chayniypianitsa.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

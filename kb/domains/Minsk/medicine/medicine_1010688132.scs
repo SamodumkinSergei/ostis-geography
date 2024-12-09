@@ -1,0 +1,26 @@
+ concept_medicine_1010688132
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["УЗ 36-я городская поликлиника"]
+	(* <- lang_ru;; <- name;;*);
+    ["УЗ 36-я городская поликлиника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Алеся Бачило, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 344-16-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.841409,27.700193"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.36gp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

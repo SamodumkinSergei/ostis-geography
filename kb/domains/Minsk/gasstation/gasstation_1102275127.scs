@@ -1,0 +1,26 @@
+ concept_gasstation_1102275127
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["А-100"]
+	(* <- lang_ru;; <- name;;*);
+    ["А-100"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Долгиновский тракт, 190"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 541-06-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 03:30–03:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.969039,27.550289"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.azs.a-100.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

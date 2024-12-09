@@ -1,0 +1,26 @@
+ concept_tailor_235834721374
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Мастерская по изготовлению ключей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мастерская по изготовлению ключей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Глебки, 120"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 392-85-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.9278,27.481822"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://dkey.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

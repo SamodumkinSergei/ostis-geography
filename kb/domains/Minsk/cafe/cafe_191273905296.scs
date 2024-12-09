@@ -1,0 +1,26 @@
+ concept_cafe_191273905296
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Персона"]
+	(* <- lang_ru;; <- name;;*);
+    ["Персона"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Маяковского, 129А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 126-15-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–23:00; сб,вс 11:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.860608,27.574582"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

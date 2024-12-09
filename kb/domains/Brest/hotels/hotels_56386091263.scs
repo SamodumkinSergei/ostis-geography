@@ -1,0 +1,26 @@
+ concept_hotels_56386091263
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Hotel Pod Dębami"]
+	(* <- lang_ru;; <- name;;*);
+    ["Hotel Pod Dębami"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Польша, Непле, ul. Warszawska 1, 21-550 Kobylany, Poland"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+48 83 375 16 32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.053353,23.562757"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://hotelpoddebami.pl/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

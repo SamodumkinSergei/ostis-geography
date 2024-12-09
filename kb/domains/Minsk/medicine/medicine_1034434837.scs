@@ -1,0 +1,26 @@
+ concept_medicine_1034434837
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["ГУ РНПЦ травматологии и ортопедии"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУ РНПЦ травматологии и ортопедии"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лейтенанта Кижеватова, 60, корп. 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 272-49-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.852927,27.530671"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ortoped.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

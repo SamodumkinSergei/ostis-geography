@@ -1,0 +1,26 @@
+ concept_cafe_78928514655
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Мир Пиццы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мир Пиццы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский район, микрорайон Степянка, улица Карвата, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 853-45-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.914226,27.667872"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mirpizza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

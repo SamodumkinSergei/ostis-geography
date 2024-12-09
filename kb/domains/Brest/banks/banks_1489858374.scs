@@ -1,0 +1,26 @@
+ concept_banks_1489858374
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Технобанк, удалённое рабочее место № 101"]
+	(* <- lang_ru;; <- name;;*);
+    ["Технобанк, удалённое рабочее место № 101"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Машерова, 52"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 388-57-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:15; сб 11:00–14:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.086856,23.696277"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://tb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

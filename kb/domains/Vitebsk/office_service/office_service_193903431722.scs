@@ -1,0 +1,26 @@
+ concept_office_service_193903431722
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Управление по труду, занятости и социальной защите Витебского горисполкома"]
+	(* <- lang_ru;; <- name;;*);
+    ["Управление по труду, занятости и социальной защите Витебского горисполкома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Богдана Хмельницкого, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 236-25-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,вт 08:00–17:00, перерыв 13:00–14:00; ср 08:00–20:00, перерыв 13:00–14:00; чт 08:00–13:00; пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.18898,30.208963"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitebsk.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_college_42974240198
+ <- concept_college;
+=>nrel_main_idtf:
+	["Совместный институт БГУ и Дпу"]
+	(* <- lang_ru;; <- name;;*);
+    ["Совместный институт БГУ и Дпу"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Октябрьская улица, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 209-56-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:15, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.892656,27.564237"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bdji.bsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

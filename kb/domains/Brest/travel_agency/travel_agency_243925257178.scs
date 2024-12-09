@@ -1,0 +1,26 @@
+ concept_travel_agency_243925257178
+ <- concept_travel_agency;
+=>nrel_main_idtf:
+	["Forest lake"]
+	(* <- lang_ru;; <- name;;*);
+    ["Forest lake"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Ленинградская область, Выборгский район, Рощинское городское поселение"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (999) 009-00-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["60.354541,29.615003"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.forestlake.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

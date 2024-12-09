@@ -1,0 +1,26 @@
+ concept_hotels_9902011713
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Penthouse in Grodno"]
+	(* <- lang_ru;; <- name;;*);
+    ["Penthouse in Grodno"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Ulitsa Kalinovskogo Dom 60 Kvartira 95 Pod Ezd 2 Etazh 13-14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.68941,23.80307"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

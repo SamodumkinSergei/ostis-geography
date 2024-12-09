@@ -1,0 +1,26 @@
+ concept_bus_stop_173893818506
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Институт пограничной службы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Институт пограничной службы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Калиновского"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.944554,27.63487"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

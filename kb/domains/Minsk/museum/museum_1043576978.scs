@@ -1,0 +1,26 @@
+ concept_museum_1043576978
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Литературный музей Максима Богдановича"]
+	(* <- lang_ru;; <- name;;*);
+    ["Литературный музей Максима Богдановича"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Максима Богдановича, 7А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 355-22-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–18:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908062,27.556144"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bellitmuseum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_cafe_160433430959
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Gran Caffè"]
+	(* <- lang_ru;; <- name;;*);
+    ["Gran Caffè"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Советская улица, 73"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 220-92-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–22:00; пт,сб 10:00–23:00; вс 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.090007,23.694259"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

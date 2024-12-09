@@ -1,0 +1,26 @@
+ concept_hairdressers_1130944647
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Твой Style"]
+	(* <- lang_ru;; <- name;;*);
+    ["Твой Style"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Максима Горького, 59"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 711-41-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–20:00; вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.173182,30.157597"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

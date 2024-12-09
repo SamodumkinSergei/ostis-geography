@@ -1,0 +1,26 @@
+ concept_cafe_34013067914
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Yummy Coffee To Go"]
+	(* <- lang_ru;; <- name;;*);
+    ["Yummy Coffee To Go"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Коммунистическая улица, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 754-66-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–18:00, перерыв 14:30–15:00; пт 09:00–17:00, перерыв 14:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.914143,27.552137"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

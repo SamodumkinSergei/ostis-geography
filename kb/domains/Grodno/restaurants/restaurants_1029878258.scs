@@ -1,0 +1,26 @@
+ concept_restaurants_1029878258
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["ОДО Камелия"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОДО Камелия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Клецкова, 66А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 268-49-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср,чт 16:00–00:00; пт,сб 16:00–02:00; вс 16:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.650333,23.846611"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

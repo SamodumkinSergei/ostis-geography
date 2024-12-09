@@ -1,0 +1,26 @@
+ concept_hypermarket_1037528588
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Копимир"]
+	(* <- lang_ru;; <- name;;*);
+    ["Копимир"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Речицкая улица, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 222-29-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.422817,30.998123"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kopimir.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

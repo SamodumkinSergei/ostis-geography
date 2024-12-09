@@ -1,0 +1,26 @@
+ concept_college_241926032602
+ <- concept_college;
+=>nrel_main_idtf:
+	["Брестский государственный торгово-технологический колледж, учебный корпус № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестский государственный торгово-технологический колледж, учебный корпус № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Свердлова, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 220-57-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.08717,23.689858"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ptktorg.brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

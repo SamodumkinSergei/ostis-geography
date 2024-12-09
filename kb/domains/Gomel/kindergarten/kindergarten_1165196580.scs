@@ -1,0 +1,26 @@
+ concept_kindergarten_1165196580
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 121 г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 121 г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Петруся Бровки, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 256-51-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.475449,31.029036"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://121.sadiki.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

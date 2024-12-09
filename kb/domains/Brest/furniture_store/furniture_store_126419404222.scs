@@ -1,0 +1,26 @@
+ concept_furniture_store_126419404222
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Гудмаг"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гудмаг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Ленинский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 995-28-28"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.124199,23.697332"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gudmag.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

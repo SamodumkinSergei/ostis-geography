@@ -1,0 +1,26 @@
+ concept_fast_food_230522569519
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Фастфуд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фастфуд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, аллея Клёна Серебристого"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.915786,27.61075"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_242112050778
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Сантехника и отопительные оборудование"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сантехника и отопительные оборудование"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Карьерная улица, 12/3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 526-53-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 09:00–16:00; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.064405,23.759593"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://s-brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

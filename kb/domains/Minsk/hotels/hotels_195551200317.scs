@@ -1,0 +1,26 @@
+ concept_hotels_195551200317
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Hostel Tower 31/18"]
+	(* <- lang_ru;; <- name;;*);
+    ["Hostel Tower 31/18"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 560-91-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908136,27.571911"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.hosteltower.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

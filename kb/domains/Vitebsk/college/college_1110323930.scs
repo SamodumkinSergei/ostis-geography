@@ -1,0 +1,26 @@
+ concept_college_1110323930
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гимназия № 3 имени А. С. Пушкина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гимназия № 3 имени А. С. Пушкина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Правды, 57"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 268-18-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.181952,30.236094"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gymn3vitebsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

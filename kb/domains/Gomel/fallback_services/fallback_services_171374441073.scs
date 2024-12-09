@@ -1,0 +1,26 @@
+ concept_fallback_services_171374441073
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Религия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Религия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Октября, 217"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 350-13-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–19:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.399303,30.923674"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://religiya.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

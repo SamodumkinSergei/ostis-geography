@@ -1,0 +1,26 @@
+ concept_college_1124417762
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа Бобовичская ГУО"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа Бобовичская ГУО"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельский район, агрогородок Бобовичи, Пролетарская улица, 1Е/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 292-24-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–20:00; сб 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.339763,30.923607"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bobovichi.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

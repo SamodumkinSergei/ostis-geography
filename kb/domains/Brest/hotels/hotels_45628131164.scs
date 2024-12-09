@@ -1,0 +1,26 @@
+ concept_hotels_45628131164
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["City Life"]
+	(* <- lang_ru;; <- name;;*);
+    ["City Life"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Ленина, 48"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 225-58-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.090738,23.687047"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://city-life-apartments-on-pushkinskaya.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

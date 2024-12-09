@@ -1,0 +1,26 @@
+ concept_malls_1059841501
+ <- concept_malls;
+=>nrel_main_idtf:
+	["ФарбХауз"]
+	(* <- lang_ru;; <- name;;*);
+    ["ФарбХауз"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Белуша, 20Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 780-04-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.672436,23.850633"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://farbhaus.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

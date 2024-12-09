@@ -1,0 +1,26 @@
+ concept_railway_station_10216320376
+ <- concept_railway_station;
+=>nrel_main_idtf:
+	["Санкт-Петербург (Витебский вокзал)"]
+	(* <- lang_ru;; <- name;;*);
+    ["Санкт-Петербург (Витебский вокзал)"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Санкт-Петербург, Адмиралтейский район, муниципальный округ Семёновский"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["59.91885,30.330207"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_cafe_95365266902
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Coffee Embassy"]
+	(* <- lang_ru;; <- name;;*);
+    ["Coffee Embassy"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Румянцева, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 563-44-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.9078,27.577272"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://embassy.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

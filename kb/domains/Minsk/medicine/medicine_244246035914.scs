@@ -1,0 +1,26 @@
+ concept_medicine_244246035914
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["1-я Городская Клиническая больница, отделение Медицинской Реабилитации"]
+	(* <- lang_ru;; <- name;;*);
+    ["1-я Городская Клиническая больница, отделение Медицинской Реабилитации"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 64"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 373-46-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919463,27.594911"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://1gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_malls_25420124872
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Купаловский"]
+	(* <- lang_ru;; <- name;;*);
+    ["Купаловский"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Октябрьская площадь"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 321-21-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902893,27.562649"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://tc-kupalovskij.instella.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

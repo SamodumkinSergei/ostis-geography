@@ -1,0 +1,26 @@
+ concept_spa_1305894513
+ <- concept_spa;
+=>nrel_main_idtf:
+	["В. салон"]
+	(* <- lang_ru;; <- name;;*);
+    ["В. салон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Лошица, улица Прушинских, 58"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 674-59-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб,вс 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.835885,27.575283"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vsalonminsk.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

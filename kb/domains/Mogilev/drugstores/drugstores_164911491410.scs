@@ -1,0 +1,26 @@
+ concept_drugstores_164911491410
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 68"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 68"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Симонова, 55Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 263-01-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–19:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.865148,30.315081"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogilev.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_malls_82874778379
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Tgt.by Гродно"]
+	(* <- lang_ru;; <- name;;*);
+    ["Tgt.by Гродно"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Калючинская улица, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 996-67-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.679524,23.830993"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://grodno.tgt.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

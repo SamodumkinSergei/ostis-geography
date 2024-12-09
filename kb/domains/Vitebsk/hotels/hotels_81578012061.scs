@@ -1,0 +1,26 @@
+ concept_hotels_81578012061
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Общежитие Витебский государственный колледж электротехники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Общежитие Витебский государственный колледж электротехники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, микрорайон Бровки"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 236-03-71"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.163506,30.237335"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vgke.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

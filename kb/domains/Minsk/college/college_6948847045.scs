@@ -1,0 +1,26 @@
+ concept_college_6948847045
+ <- concept_college;
+=>nrel_main_idtf:
+	["БГМУ, кафедра детской хирургии"]
+	(* <- lang_ru;; <- name;;*);
+    ["БГМУ, кафедра детской хирургии"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 64, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 292-41-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919774,27.595771"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.bsmu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

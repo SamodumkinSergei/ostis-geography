@@ -1,0 +1,26 @@
+ concept_college_132915443350
+ <- concept_college;
+=>nrel_main_idtf:
+	["Академия МВД Республики Беларусь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Академия МВД Республики Беларусь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 41А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 289-23-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912676,27.577018"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.amia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_cafe_142843110246
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Буфет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Буфет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ольшевского, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 134-88-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–15:00, перерыв 10:30–11:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.915503,27.504915"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.ritual-minsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

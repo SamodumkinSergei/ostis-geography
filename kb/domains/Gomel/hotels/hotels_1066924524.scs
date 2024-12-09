@@ -1,0 +1,26 @@
+ concept_hotels_1066924524
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Надзея"]
+	(* <- lang_ru;; <- name;;*);
+    ["Надзея"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Головацкого, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 223-34-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.447416,31.000574"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gomeltourist.by/rooms/nadzeya/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

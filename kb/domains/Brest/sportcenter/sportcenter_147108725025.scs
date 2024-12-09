@@ -1,0 +1,26 @@
+ concept_sportcenter_147108725025
+ <- concept_sportcenter;
+=>nrel_main_idtf:
+	["Академия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Академия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Комсомольская улица, 42/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 207-00-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.094485,23.689484"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_medicine_1092291221
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["ГБУЗ Подольская городская поликлиника № 1, филиал"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГБУЗ Подольская городская поликлиника № 1, филиал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Московская область, Подольск, Профсоюзная улица, 4Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["8 (800) 550-50-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.464643,37.553013"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pgp1.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

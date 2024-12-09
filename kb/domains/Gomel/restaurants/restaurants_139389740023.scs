@@ -1,0 +1,26 @@
+ concept_restaurants_139389740023
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Вкусный Dом"]
+	(* <- lang_ru;; <- name;;*);
+    ["Вкусный Dом"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Жемчужная улица, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 399-20-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.357719,31.011341"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vcysnyidom.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

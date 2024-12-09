@@ -1,0 +1,26 @@
+ concept_museum_1193689410
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Ночная книжная ярмарка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ночная книжная ярмарка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Даумана, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 169-39-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пт,сб 23:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919517,27.548024"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://nightbook.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

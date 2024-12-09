@@ -1,0 +1,26 @@
+ concept_drugstores_184739910293
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 1 Могилёвского РУП Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 1 Могилёвского РУП Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 59"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 265-92-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–21:00; сб,вс 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905133,30.338552"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

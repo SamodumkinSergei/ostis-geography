@@ -1,0 +1,26 @@
+ concept_government_69556246035
+ <- concept_government;
+=>nrel_main_idtf:
+	["Департамент по ценным бумагам министерства финансов РБ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Департамент по ценным бумагам министерства финансов РБ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кропоткина, 44"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 334-22-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916692,27.55716"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.minfin.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

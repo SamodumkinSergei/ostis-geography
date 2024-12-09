@@ -1,0 +1,26 @@
+ concept_college_1107054955
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гомельская городская СДЮШОР № 8"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельская городская СДЮШОР № 8"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 53А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 234-47-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.389658,31.02906"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.sdushor8.lepshy.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_cafe_9705057880
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Заўжды цікава"]
+	(* <- lang_ru;; <- name;;*);
+    ["Заўжды цікава"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Хатаевича, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 643-14-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:00–20:00; пт 08:00–23:00; сб 11:00–23:00; вс 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.443773,31.023421"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

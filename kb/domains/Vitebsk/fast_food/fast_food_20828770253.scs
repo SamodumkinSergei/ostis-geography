@@ -1,0 +1,26 @@
+ concept_fast_food_20828770253
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Crazy шаурма"]
+	(* <- lang_ru;; <- name;;*);
+    ["Crazy шаурма"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чкалова, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 719-26-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.167337,30.210145"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

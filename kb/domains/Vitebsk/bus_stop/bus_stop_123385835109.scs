@@ -1,0 +1,26 @@
+ concept_bus_stop_123385835109
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Поликлиника № 3"]
+	(* <- lang_ru;; <- name;;*);
+    ["Поликлиника № 3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Новооршанская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.17591,30.236135"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

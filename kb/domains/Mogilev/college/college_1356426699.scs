@@ -1,0 +1,26 @@
+ concept_college_1356426699
+ <- concept_college;
+=>nrel_main_idtf:
+	["Могилёвский торговый колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилёвский торговый колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Казимировка, Минское шоссе, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 270-19-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.931137,30.258778"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogtk-bks.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

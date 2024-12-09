@@ -1,0 +1,26 @@
+ concept_medicine_1159099731
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Поликлиника № 19, Взрослый травмпункт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Поликлиника № 19, Взрослый травмпункт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 119"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 374-47-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 20:00–08:00; пт 20:00–00:00; сб,вс круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.934551,27.63621"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://19crp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

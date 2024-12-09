@@ -1,0 +1,26 @@
+ concept_fast_food_220093852212
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Brest burger"]
+	(* <- lang_ru;; <- name;;*);
+    ["Brest burger"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица 17 Сентября, 47"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 386-55-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–03:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.084878,23.693913"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

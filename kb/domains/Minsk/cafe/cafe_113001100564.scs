@@ -1,0 +1,26 @@
+ concept_cafe_113001100564
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Хинкальная"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хинкальная"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 97Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 105-99-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906335,27.436301"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://hinkalnaia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

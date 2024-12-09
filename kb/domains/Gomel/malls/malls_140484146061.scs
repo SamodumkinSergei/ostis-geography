@@ -1,0 +1,26 @@
+ concept_malls_140484146061
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Byki.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Byki.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Тельмана, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 165-23-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.4387,31.006628"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://byki.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

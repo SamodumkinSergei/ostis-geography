@@ -1,0 +1,26 @@
+ concept_baby_shop_1001785874
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Funtastik"]
+	(* <- lang_ru;; <- name;;*);
+    ["Funtastik"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Гагарина, 65"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 762-95-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:30–19:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.423864,30.996956"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.funtastik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

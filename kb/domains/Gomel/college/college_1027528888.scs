@@ -1,0 +1,26 @@
+ concept_college_1027528888
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 24"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 24"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Крестьянская улица, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 270-49-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–20:00; сб 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.427633,31.007129"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

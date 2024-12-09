@@ -1,0 +1,26 @@
+ concept_college_219988326917
+ <- concept_college;
+=>nrel_main_idtf:
+	["Могилёвский Государственный университет имени А. А. Кулешова, корпус 1а"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилёвский Государственный университет имени А. А. Кулешова, корпус 1а"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Космонавтов, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912709,30.317268"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://msu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

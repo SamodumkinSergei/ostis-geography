@@ -1,0 +1,26 @@
+ concept_bus_stop_170530639033
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Завод химических изделий"]
+	(* <- lang_ru;; <- name;;*);
+    ["Завод химических изделий"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.361935,31.029799"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_museum_70746785334
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Экспозиция Минская ратуша: история и наши дни"]
+	(* <- lang_ru;; <- name;;*);
+    ["Экспозиция Минская ратуша: история и наши дни"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, площадь Свободы, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 321-24-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср-вс 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903669,27.556019"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://minskmuseum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_fast_food_227874121783
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Быстрое питание"]
+	(* <- lang_ru;; <- name;;*);
+    ["Быстрое питание"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ангарская улица, 38"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 299-86-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.871689,27.684648"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

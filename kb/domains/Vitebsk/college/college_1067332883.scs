@@ -1,0 +1,26 @@
+ concept_college_1067332883
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГУО Кировская средняя школа Витебского района"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО Кировская средняя школа Витебского района"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебский район, Летчанский сельсовет, агрогородок Кировская, улица Мира, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (0212) 69-05-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.18952,30.117115"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kirovskaya.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

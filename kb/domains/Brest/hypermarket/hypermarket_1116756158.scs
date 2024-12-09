@@ -1,0 +1,26 @@
+ concept_hypermarket_1116756158
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Тех"]
+	(* <- lang_ru;; <- name;;*);
+    ["Тех"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Пушкинская улица, 16/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 293-56-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:30–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.095879,23.68868"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.tech.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

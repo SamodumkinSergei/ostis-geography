@@ -1,0 +1,26 @@
+ concept_furniture_store_222083436083
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Аксамит"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аксамит"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Барыкина, 155"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 649-31-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.420346,30.964164"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://aksamit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

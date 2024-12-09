@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_79322550191
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Ingman"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ingman"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Университетская улица, 3/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 233-34-28"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.443964,31.004784"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ingman.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_142693346673
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Доставка Витебские продукты"]
+	(* <- lang_ru;; <- name;;*);
+    ["Доставка Витебские продукты"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Смоленская улица, 3, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 355-34-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:30–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.18139,30.23113"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

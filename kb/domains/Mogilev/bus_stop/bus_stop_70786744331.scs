@@ -1,0 +1,26 @@
+ concept_bus_stop_70786744331
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["МГКУП Горэлектротранспорт"]
+	(* <- lang_ru;; <- name;;*);
+    ["МГКУП Горэлектротранспорт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Челюскинцев, 139А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.887634,30.281247"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogtrollbus.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

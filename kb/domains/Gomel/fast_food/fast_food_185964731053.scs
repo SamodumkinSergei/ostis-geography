@@ -1,0 +1,26 @@
+ concept_fast_food_185964731053
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Шаурма за обе щеки"]
+	(* <- lang_ru;; <- name;;*);
+    ["Шаурма за обе щеки"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Крестьянская улица, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 363-48-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:30–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.426576,31.005628"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

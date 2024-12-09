@@ -1,0 +1,26 @@
+ concept_bus_stop_235851204311
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица 1-я Встречная"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица 1-я Встречная"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, 1-я Встречная улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.427084,30.965297"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

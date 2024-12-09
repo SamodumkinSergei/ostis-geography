@@ -1,0 +1,26 @@
+ concept_malls_166333602251
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Уценёнка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Уценёнка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Мележа, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 530-28-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.938706,27.600766"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ucenenka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_160871169322
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Сделаем Бай"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сделаем Бай"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Советская улица, 64"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 835-79-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.090269,23.694525"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mebel.sdelaem.by/brestskaya-oblast"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

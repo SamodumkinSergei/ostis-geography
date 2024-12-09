@@ -1,0 +1,26 @@
+ concept_supermarket_188991320203
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Квартал вкуса"]
+	(* <- lang_ru;; <- name;;*);
+    ["Квартал вкуса"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Симонова, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 263-90-24"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873538,30.311943"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

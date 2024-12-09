@@ -1,0 +1,26 @@
+ concept_hairdressers_1160140496
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Восход № 15"]
+	(* <- lang_ru;; <- name;;*);
+    ["Восход № 15"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Селицкого, 105"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 348-47-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 08:00–18:00; вс 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.843883,27.705913"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rise.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_supermarket_1059436463
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Магазин Продукты"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин Продукты"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, 2-й переулок Некрасова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.9369,30.32142"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_85275575127
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Памятники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Памятники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Сябровская улица, 61/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 824-82-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–18:00, перерыв 14:00–15:00; сб,вс 11:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.065429,23.727256"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://brestgranit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

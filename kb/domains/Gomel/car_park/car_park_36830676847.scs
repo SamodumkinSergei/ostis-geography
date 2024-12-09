@@ -1,0 +1,26 @@
+ concept_car_park_36830676847
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автомобильная парковка стоматологической поликлиники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автомобильная парковка стоматологической поликлиники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Ленина, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.425217,31.007144"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

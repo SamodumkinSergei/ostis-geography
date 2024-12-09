@@ -1,0 +1,26 @@
+ concept_college_1363135502
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 42"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 42"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Нёманская улица, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 364-71-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911461,27.420888"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch42.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

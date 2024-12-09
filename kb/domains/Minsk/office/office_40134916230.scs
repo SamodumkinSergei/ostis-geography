@@ -1,0 +1,26 @@
+ concept_office_40134916230
+ <- concept_office;
+=>nrel_main_idtf:
+	["Коворкинг-клуб"]
+	(* <- lang_ru;; <- name;;*);
+    ["Коворкинг-клуб"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ольшевского, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 787-37-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.920322,27.499633"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://legaladdress.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

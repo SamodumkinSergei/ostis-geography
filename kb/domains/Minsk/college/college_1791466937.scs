@@ -1,0 +1,26 @@
+ concept_college_1791466937
+ <- concept_college;
+=>nrel_main_idtf:
+	["БГЭУ, Факультет маркетинга и логистики"]
+	(* <- lang_ru;; <- name;;*);
+    ["БГЭУ, Факультет маркетинга и логистики"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 26/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 209-88-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.877554,27.606972"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://fmk.bseu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

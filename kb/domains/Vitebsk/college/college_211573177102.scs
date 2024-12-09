@@ -1,0 +1,26 @@
+ concept_college_211573177102
+ <- concept_college;
+=>nrel_main_idtf:
+	["Старосельская средняя школа Витебского района ГУО"]
+	(* <- lang_ru;; <- name;;*);
+    ["Старосельская средняя школа Витебского района ГУО"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебский район, Летчанский сельсовет, деревня Старое Село, Советская улица, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 229-82-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00; сб 09:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.225691,29.877183"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sh-staroeselo.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_auto_243745329510
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Сервис по ремонту авто"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сервис по ремонту авто"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский район, микрорайон Степянка, Южная улица, 41"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 259-88-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911826,27.683626"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

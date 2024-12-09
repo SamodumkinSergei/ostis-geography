@@ -1,0 +1,26 @@
+ concept_college_1112358947
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГУО Средняя школа № 22"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО Средняя школа № 22"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, микрорайон Форты-1, улица Врублевского, 92"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 243-90-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.707421,23.800996"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch22grodno.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

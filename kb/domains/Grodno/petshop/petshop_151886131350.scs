@@ -1,0 +1,26 @@
+ concept_petshop_151886131350
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Зоотовары"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зоотовары"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Огинского, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 363-33-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб,вс 11:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.619058,23.814711"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

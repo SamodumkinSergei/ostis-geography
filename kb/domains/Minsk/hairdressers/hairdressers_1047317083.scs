@@ -1,0 +1,26 @@
+ concept_hairdressers_1047317083
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Зазеркалье"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зазеркалье"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лобанка, 94"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 103-33-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.886273,27.428388"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://zazerkalie-salon.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

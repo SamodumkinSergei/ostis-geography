@@ -1,0 +1,26 @@
+ concept_medicine_1069621409
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Филиал Кардиологическая больница УЗ Могилевский областной лечебно-диагностический центр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Филиал Кардиологическая больница УЗ Могилевский областной лечебно-диагностический центр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Белинского, 22Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 239-38-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.931047,30.346065"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://modc.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

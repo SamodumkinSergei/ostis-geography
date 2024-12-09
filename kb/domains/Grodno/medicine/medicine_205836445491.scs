@@ -1,0 +1,26 @@
+ concept_medicine_205836445491
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Биар"]
+	(* <- lang_ru;; <- name;;*);
+    ["Биар"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Янки Купалы, 80/3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 334-03-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–20:00; вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.65655,23.849799"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.biar.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

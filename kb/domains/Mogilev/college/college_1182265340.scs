@@ -1,0 +1,26 @@
+ concept_college_1182265340
+ <- concept_college;
+=>nrel_main_idtf:
+	["Могилёвский государственный машиностроительный профессионально-технический колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилёвский государственный машиностроительный профессионально-технический колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Плеханова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 225-72-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.898448,30.322985"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mgmptk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

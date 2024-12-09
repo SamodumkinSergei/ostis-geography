@@ -1,0 +1,26 @@
+ concept_malls_1721517147
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Импульс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Импульс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Веры Хоружей, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 557-18-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916531,27.581368"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://tcimpuls.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

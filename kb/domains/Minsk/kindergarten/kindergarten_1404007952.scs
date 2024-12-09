@@ -1,0 +1,26 @@
+ concept_kindergarten_1404007952
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Санаторный детский сад № 480"]
+	(* <- lang_ru;; <- name;;*);
+    ["Санаторный детский сад № 480"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Октябрьский район, Серова, улица Асаналиева, 34А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 398-80-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.853256,27.544982"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu480.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_car_park_17974270675
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Гараж-стоянка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гараж-стоянка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Дунина-Марцинкевича, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 602-61-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906886,27.483637"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

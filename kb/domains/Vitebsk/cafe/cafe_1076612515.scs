@@ -1,0 +1,26 @@
+ concept_cafe_1076612515
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кофейня Кофе хауз"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кофейня Кофе хауз"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Киев, улица Ярославов Вал, 13/2Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+380 (44) 235-35-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–22:00; сб,вс 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["50.450835,30.509394"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.coffeehouse.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

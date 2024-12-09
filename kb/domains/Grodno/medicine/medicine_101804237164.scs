@@ -1,0 +1,26 @@
+ concept_medicine_101804237164
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гродненская университетская клиника, микрохирургия глаза"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненская университетская клиника, микрохирургия глаза"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, бульвар Ленинского Комсомола, 52/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 241-84-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.694776,23.793057"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gocb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

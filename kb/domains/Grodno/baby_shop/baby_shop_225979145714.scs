@@ -1,0 +1,26 @@
+ concept_baby_shop_225979145714
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["12 Месяцев"]
+	(* <- lang_ru;; <- name;;*);
+    ["12 Месяцев"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Янки Купалы, 87"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 553-11-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.649582,23.855092"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.12m.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

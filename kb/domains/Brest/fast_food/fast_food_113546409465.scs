@@ -1,0 +1,26 @@
+ concept_fast_food_113546409465
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Хинкальня"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хинкальня"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гоголя, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 112-33-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–23:00; пт-вс 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.092362,23.689471"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://hinkalnia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

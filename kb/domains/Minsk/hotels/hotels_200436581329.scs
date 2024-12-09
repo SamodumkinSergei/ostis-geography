@@ -1,0 +1,26 @@
+ concept_hotels_200436581329
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Apartments - Your House"]
+	(* <- lang_ru;; <- name;;*);
+    ["Apartments - Your House"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Беларусь, Минск, Pereulok Budslavskii Dom 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 385-82-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.95942,27.53915"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://apartments-your-house.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

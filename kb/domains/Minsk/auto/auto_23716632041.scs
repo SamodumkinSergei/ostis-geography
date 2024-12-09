@@ -1,0 +1,26 @@
+ concept_auto_23716632041
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Ремонт авто"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт авто"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, 3-й Загородный переулок, 4А/6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 464-90-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб,вс 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.89863,27.516728"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://storemontavto.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

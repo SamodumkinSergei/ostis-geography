@@ -1,0 +1,26 @@
+ concept_hotels_237780834905
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Апартаменты Franca"]
+	(* <- lang_ru;; <- name;;*);
+    ["Апартаменты Franca"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Советская улица, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 723-89-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.094069,23.692773"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

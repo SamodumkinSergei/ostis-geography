@@ -1,0 +1,26 @@
+ concept_bus_stop_113902642056
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Слуцкий Гостинец"]
+	(* <- lang_ru;; <- name;;*);
+    ["Слуцкий Гостинец"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Корженевского"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.843741,27.532605"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

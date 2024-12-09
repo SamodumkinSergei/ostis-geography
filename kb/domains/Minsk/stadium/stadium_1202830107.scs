@@ -1,0 +1,26 @@
+ concept_stadium_1202830107
+ <- concept_stadium;
+=>nrel_main_idtf:
+	["Стадион Озёрный"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стадион Озёрный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Смолевичский район, Центральный парк"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 617-61-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.044273,28.066089"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

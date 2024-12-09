@@ -1,0 +1,26 @@
+ concept_malls_22876519789
+ <- concept_malls;
+=>nrel_main_idtf:
+	["21vek.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["21vek.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Богдана Хмельницкого, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 302-10-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–21:00; сб,вс 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.184856,30.207373"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.21vek.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

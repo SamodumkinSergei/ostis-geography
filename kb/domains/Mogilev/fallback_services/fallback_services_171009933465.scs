@@ -1,0 +1,26 @@
+ concept_fallback_services_171009933465
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Трубы и трубопроводная арматура"]
+	(* <- lang_ru;; <- name;;*);
+    ["Трубы и трубопроводная арматура"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Заднепровье-4, улица Чайковского, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 744-11-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб,вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.8773,30.33394"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

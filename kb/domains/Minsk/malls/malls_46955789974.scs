@@ -1,0 +1,26 @@
+ concept_malls_46955789974
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Acm"]
+	(* <- lang_ru;; <- name;;*);
+    ["Acm"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Уманская улица, 54"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 346-35-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб,вс 11:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.87518,27.497569"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sochno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

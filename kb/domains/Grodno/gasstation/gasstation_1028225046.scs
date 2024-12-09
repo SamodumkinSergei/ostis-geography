@@ -1,0 +1,26 @@
+ concept_gasstation_1028225046
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Газпром трансгаз Беларусь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Газпром трансгаз Беларусь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Космонавтов, 87"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 255-50-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 02:10–01:50, перерывы 04:50–05:10, 08:30–09:00, 10:50–11:10, 13:50–14:10, 17:50–18:10, 20:30–21:00, 22:50–23:10"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.671198,23.882361"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://metan.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

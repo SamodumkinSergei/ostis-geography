@@ -1,0 +1,26 @@
+ concept_supermarket_239075579861
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Отдел кулинарии"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отдел кулинарии"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00, перерыв 14:30–15:00; сб,вс 10:00–18:00, перерыв 14:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.898311,30.332582"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_college_1114289182
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гомельский государственный колледж строителей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский государственный колледж строителей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Малайчука, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 260-52-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.460884,30.997909"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.ggpls.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

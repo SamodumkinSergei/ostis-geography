@@ -1,0 +1,26 @@
+ concept_government_1053182054
+ <- concept_government;
+=>nrel_main_idtf:
+	["Управление культуры Витебского облисполкома"]
+	(* <- lang_ru;; <- name;;*);
+    ["Управление культуры Витебского облисполкома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Гоголя, 6, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 242-52-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.190109,30.21078"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitebsk-region.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

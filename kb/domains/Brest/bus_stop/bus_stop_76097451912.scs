@@ -1,0 +1,26 @@
+ concept_bus_stop_76097451912
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Брестское пиво"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестское пиво"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Ленинский район, микрорайон Адамково"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.113337,23.642548"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

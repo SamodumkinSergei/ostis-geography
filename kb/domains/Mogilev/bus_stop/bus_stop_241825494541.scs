@@ -1,0 +1,26 @@
+ concept_bus_stop_241825494541
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Кулибина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Кулибина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Крупской"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.95518,30.363291"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

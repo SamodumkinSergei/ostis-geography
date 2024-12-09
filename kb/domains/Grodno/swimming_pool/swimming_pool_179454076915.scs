@@ -1,0 +1,26 @@
+ concept_swimming_pool_179454076915
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Бассейн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бассейн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Кремко, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 263-43-97"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 18:00–21:00; сб 16:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.636079,23.861186"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

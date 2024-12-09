@@ -1,0 +1,26 @@
+ concept_bus_stop_89218192699
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Автовокзал Восточный"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автовокзал Восточный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.876581,27.599552"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_23573172773
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Колледж экономики и управления"]
+	(* <- lang_ru;; <- name;;*);
+    ["Колледж экономики и управления"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Поповича"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.674238,23.804568"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

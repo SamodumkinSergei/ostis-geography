@@ -1,0 +1,26 @@
+ concept_bus_stop_102515764241
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Магазин 1000 мелочей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин 1000 мелочей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Бориса Царикова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.446107,30.95112"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

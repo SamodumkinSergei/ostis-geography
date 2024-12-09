@@ -1,0 +1,26 @@
+ concept_drugstores_43874140604
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 4"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 4"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 275-95-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–19:00, перерыв 14:00–14:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.89657,30.332038"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mogpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

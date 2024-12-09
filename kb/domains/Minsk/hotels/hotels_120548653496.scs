@@ -1,0 +1,26 @@
+ concept_hotels_120548653496
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Tvoi24chasa"]
+	(* <- lang_ru;; <- name;;*);
+    ["Tvoi24chasa"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Братская улица, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 603-36-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.868255,27.55106"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_cafe_208292469893
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["B&a coffee"]
+	(* <- lang_ru;; <- name;;*);
+    ["B&a coffee"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Заславская улица, 23/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 705-10-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–22:00; сб,вс 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910126,27.537175"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_hotels_80789628101
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Идея Студия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Идея Студия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Партизанский проспект, 10А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 555-13-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.101833,23.760229"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ideastudia.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

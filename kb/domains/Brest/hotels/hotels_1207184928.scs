@@ -1,0 +1,26 @@
+ concept_hotels_1207184928
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Энергия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Энергия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Дзержинского, 58"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 293-56-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.089462,23.698623"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.hotelenergia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

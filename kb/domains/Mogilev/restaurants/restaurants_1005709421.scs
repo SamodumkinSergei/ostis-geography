@@ -1,0 +1,26 @@
+ concept_restaurants_1005709421
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Клуб Рок-Портал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Клуб Рок-Портал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Шмидта, 46Д"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 847-60-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пт,сб 18:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.869508,30.326486"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

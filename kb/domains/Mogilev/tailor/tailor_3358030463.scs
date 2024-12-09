@@ -1,0 +1,26 @@
+ concept_tailor_3358030463
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Домик Быта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Домик Быта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пушкинский проспект, 35Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 796-01-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.880483,30.335839"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

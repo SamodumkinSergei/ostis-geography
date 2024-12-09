@@ -1,0 +1,26 @@
+ concept_banks_122897047562
+ <- concept_banks;
+=>nrel_main_idtf:
+	["БТА банк"]
+	(* <- lang_ru;; <- name;;*);
+    ["БТА банк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Ленина, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 528-22-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–17:00; пт 09:00–15:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.428159,30.999748"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.btabank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

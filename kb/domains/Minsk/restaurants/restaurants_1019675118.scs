@@ -1,0 +1,26 @@
+ concept_restaurants_1019675118
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Застолье"]
+	(* <- lang_ru;; <- name;;*);
+    ["Застолье"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Мясникова, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 622-39-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 11:00–19:00, перерыв 16:00–17:00; вт-пт 11:00–23:00, перерыв 16:00–17:00; сб,вс 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.896781,27.542988"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://cateringzastolica.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

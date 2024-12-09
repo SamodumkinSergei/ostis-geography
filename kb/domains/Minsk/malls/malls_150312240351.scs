@@ -1,0 +1,26 @@
+ concept_malls_150312240351
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Talisman"]
+	(* <- lang_ru;; <- name;;*);
+    ["Talisman"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, проспект Рокоссовского, 145Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 333-32-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.855965,27.612319"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://talisman.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

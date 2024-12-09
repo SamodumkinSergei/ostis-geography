@@ -1,0 +1,26 @@
+ concept_medicine_1070253088
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Психиатрия-наркология, Гродненский областной клинический центр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Психиатрия-наркология, Гродненский областной клинический центр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Обухова, 15/3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 239-83-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.681275,23.863763"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

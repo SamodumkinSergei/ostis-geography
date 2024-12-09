@@ -1,0 +1,26 @@
+ concept_museum_1194104530
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей истории и быта города Гродно"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей истории и быта города Гродно"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Лермонтова, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 604-90-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.685738,23.82546"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://museumparulisgrodno.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_college_1398081928
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минский государственный колледж сервиса и технологии"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский государственный колледж сервиса и технологии"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Казинца, 89к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 365-09-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:45–17:15, перерыв 12:30–13:00; сб 09:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.84866,27.511257"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ptk-lpbon.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

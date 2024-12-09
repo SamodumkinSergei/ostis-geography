@@ -1,0 +1,26 @@
+ concept_hairdressers_1010837886
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["ОтражениеСтиль"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОтражениеСтиль"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Кабяка, 8к4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 266-44-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.645585,23.846407"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

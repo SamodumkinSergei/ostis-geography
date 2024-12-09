@@ -1,0 +1,26 @@
+ concept_bus_stop_131162121760
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Станция метро Институт культуры"]
+	(* <- lang_ru;; <- name;;*);
+    ["Станция метро Институт культуры"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Суражская улица, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.885671,27.540476"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

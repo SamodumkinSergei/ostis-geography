@@ -1,0 +1,26 @@
+ concept_hotels_112360521208
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Отель Раубичи"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отель Раубичи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Тарасово, Ivanovskaya Ulitsa 4B"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.043606,27.778629"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

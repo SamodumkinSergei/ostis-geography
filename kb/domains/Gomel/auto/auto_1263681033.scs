@@ -1,0 +1,26 @@
+ concept_auto_1263681033
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Авто7Сервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Авто7Сервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Прудок, улица Мичурина, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 655-92-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.471008,31.015245"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://avto7servis.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_restaurants_39824712841
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Пицца хайп"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пицца хайп"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, переулок Карпинской, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 703-77-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903231,30.333918"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pizzahype.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

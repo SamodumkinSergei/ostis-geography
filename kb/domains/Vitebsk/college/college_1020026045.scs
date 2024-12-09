@@ -1,0 +1,26 @@
+ concept_college_1020026045
+ <- concept_college;
+=>nrel_main_idtf:
+	["УО Огп Лицей текстильщиков им. Г. В. Семёнова"]
+	(* <- lang_ru;; <- name;;*);
+    ["УО Огп Лицей текстильщиков им. Г. В. Семёнова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебская область, Орша, Молодёжная улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 650-65-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00; сб 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.487856,30.398267"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.lyceum-textile.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

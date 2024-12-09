@@ -1,0 +1,26 @@
+ concept_hypermarket_1330239115
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Слодыч"]
+	(* <- lang_ru;; <- name;;*);
+    ["Слодыч"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Суворова, 298"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 239-29-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:15–12:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.637733,23.779888"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://slodych.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

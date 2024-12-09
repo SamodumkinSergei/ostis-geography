@@ -1,0 +1,26 @@
+ concept_kindergarten_1038673155
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 3"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Лошица, улица Владислава Сырокомли, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 379-83-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.843905,27.566787"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu3.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

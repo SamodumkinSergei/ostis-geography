@@ -1,0 +1,26 @@
+ concept_fallback_services_42774272965
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["ГлавМехСервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГлавМехСервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Петруся Бровки, 4А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 975-94-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.174289,30.246163"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gms.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

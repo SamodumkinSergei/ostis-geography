@@ -1,0 +1,26 @@
+ concept_medicine_1118262299
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Могилевская инфекционная больница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилевская инфекционная больница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Берёзовский переулок, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 274-03-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.923893,30.358005"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogcp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

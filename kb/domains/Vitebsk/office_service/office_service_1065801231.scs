@@ -1,0 +1,26 @@
+ concept_office_service_1065801231
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Европа Плюс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Европа Плюс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 248-03-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.182451,30.206913"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://europaplus.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

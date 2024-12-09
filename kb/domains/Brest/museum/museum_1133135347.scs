@@ -1,0 +1,26 @@
+ concept_museum_1133135347
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Брестский городской центр культуры"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестский городской центр культуры"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гоголя, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 221-62-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.089355,23.679076"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

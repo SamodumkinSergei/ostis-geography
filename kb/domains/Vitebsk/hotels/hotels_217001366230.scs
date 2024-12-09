@@ -1,0 +1,26 @@
+ concept_hotels_217001366230
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Коттедж на Зеленогорской"]
+	(* <- lang_ru;; <- name;;*);
+    ["Коттедж на Зеленогорской"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Беларусь, Витебск, Ул. 1-Я Зеленогорская, Д. 6/5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (909) 676-92-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.16167,30.17129"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

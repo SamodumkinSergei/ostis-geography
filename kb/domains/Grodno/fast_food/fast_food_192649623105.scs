@@ -1,0 +1,26 @@
+ concept_fast_food_192649623105
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["MC Doner"]
+	(* <- lang_ru;; <- name;;*);
+    ["MC Doner"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Янки Купалы, 87"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 563-77-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.649704,23.853056"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.mcdoner.by/menu/novinki"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

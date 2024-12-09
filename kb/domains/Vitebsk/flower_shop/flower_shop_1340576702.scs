@@ -1,0 +1,26 @@
+ concept_flower_shop_1340576702
+ <- concept_flower_shop;
+=>nrel_main_idtf:
+	["Цветы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Цветы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Лазо, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 256-11-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–19:00; вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.199306,30.233511"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vit-zelenstroy.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

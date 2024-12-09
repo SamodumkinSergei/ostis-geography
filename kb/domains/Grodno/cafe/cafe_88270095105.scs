@@ -1,0 +1,26 @@
+ concept_cafe_88270095105
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Yellowstreet17"]
+	(* <- lang_ru;; <- name;;*);
+    ["Yellowstreet17"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Академическая улица, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 377-77-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–23:00; пт,сб 12:00–00:00; вс 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.688975,23.839621"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gastrofest.by/node/13519"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

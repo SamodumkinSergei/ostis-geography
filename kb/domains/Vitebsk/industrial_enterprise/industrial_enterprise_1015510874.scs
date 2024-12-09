@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_1015510874
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Витебский маслоэкстракционный завод"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебский маслоэкстракционный завод"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Максима Горького, 49"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 267-36-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:00–17:00, перерыв 12:00–12:45; пт 08:00–15:45, перерыв 12:00–12:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.175953,30.173488"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.vitmez.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

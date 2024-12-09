@@ -1,0 +1,26 @@
+ concept_kindergarten_1013031456
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-Сад № 63"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-Сад № 63"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Ленинградская улица, 31/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 235-59-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.111177,23.775442"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ds63brest.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

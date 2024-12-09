@@ -1,0 +1,26 @@
+ concept_fallback_services_185012223490
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Купитьпамятник. бел"]
+	(* <- lang_ru;; <- name;;*);
+    ["Купитьпамятник. бел"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ольшевского, 20/5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 707-64-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.918103,27.501633"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.купитьпамятник.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

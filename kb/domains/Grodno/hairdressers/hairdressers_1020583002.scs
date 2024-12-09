@@ -1,0 +1,26 @@
+ concept_hairdressers_1020583002
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Южанка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Южанка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, посёлок Южный, Центральная улица, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 294-88-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 09:00–15:00; вс 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.627428,23.857933"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

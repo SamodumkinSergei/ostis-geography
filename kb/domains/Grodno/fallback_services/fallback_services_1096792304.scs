@@ -1,0 +1,26 @@
+ concept_fallback_services_1096792304
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гродноэнерго"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродноэнерго"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Космонавтов, 64"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 279-23-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:15–17:15, перерыв 12:30–13:15; пт 08:15–16:00, перерыв 12:30–13:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.674246,23.867124"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

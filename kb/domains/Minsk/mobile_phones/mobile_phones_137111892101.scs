@@ -1,0 +1,26 @@
+ concept_mobile_phones_137111892101
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Telefon-Notebook.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Telefon-Notebook.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Маяковского, 144"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 619-05-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.871853,27.568227"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://telefon-notebook.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

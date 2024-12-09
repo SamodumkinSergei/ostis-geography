@@ -1,0 +1,26 @@
+ concept_kindergarten_1009872233
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Дошкольный центр развития ребенка № 490"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дошкольный центр развития ребенка № 490"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Левкова, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 220-51-97"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.879836,27.558181"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu490.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

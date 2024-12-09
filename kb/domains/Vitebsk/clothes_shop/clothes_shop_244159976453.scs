@@ -1,0 +1,26 @@
+ concept_clothes_shop_244159976453
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Conte"]
+	(* <- lang_ru;; <- name;;*);
+    ["Conte"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Замковая улица, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 226-29-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.192674,30.203283"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://conteshop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

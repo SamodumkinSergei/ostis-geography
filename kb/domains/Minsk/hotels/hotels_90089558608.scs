@@ -1,0 +1,26 @@
+ concept_hotels_90089558608
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Imperial Palace"]
+	(* <- lang_ru;; <- name;;*);
+    ["Imperial Palace"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Мясникова, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 342-80-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.898778,27.545019"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://imperialhotel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_railway_station_74089611439
+ <- concept_railway_station;
+=>nrel_main_idtf:
+	["Центролит"]
+	(* <- lang_ru;; <- name;;*);
+    ["Центролит"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:45–20:50"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.429948,30.903985"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

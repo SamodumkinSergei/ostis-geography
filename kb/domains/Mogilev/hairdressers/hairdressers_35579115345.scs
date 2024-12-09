@@ -1,0 +1,26 @@
+ concept_hairdressers_35579115345
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Панда"]
+	(* <- lang_ru;; <- name;;*);
+    ["Панда"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Комсомольская улица, 8А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 177-76-24"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб,вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897871,30.334246"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

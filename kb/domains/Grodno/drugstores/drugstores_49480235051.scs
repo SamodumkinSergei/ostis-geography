@@ -1,0 +1,26 @@
+ concept_drugstores_49480235051
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Франтишка Богушевича, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 267-72-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,вт 10:00–21:00; ср 10:00–20:00; чт-вс 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.618216,23.805849"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://farmacia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

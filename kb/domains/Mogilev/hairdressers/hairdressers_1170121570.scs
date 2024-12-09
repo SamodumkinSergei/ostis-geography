@@ -1,0 +1,26 @@
+ concept_hairdressers_1170121570
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Улыбка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улыбка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Космонавтов, 34А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 276-96-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00; сб 08:00–17:00; вс 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908546,30.312445"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

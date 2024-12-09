@@ -1,0 +1,26 @@
+ concept_hotels_1223832126
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Пекин"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пекин"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Красноармейская улица, 36"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 329-77-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.892403,27.578749"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.beijinghotelminsk.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

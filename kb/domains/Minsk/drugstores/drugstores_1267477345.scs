@@ -1,0 +1,26 @@
+ concept_drugstores_1267477345
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Юнифарм"]
+	(* <- lang_ru;; <- name;;*);
+    ["Юнифарм"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Скрипникова, 11Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 314-34-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб,вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.890964,27.420836"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

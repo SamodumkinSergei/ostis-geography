@@ -1,0 +1,26 @@
+ concept_auto_27214486840
+ <- concept_auto;
+=>nrel_main_idtf:
+	["ГомельавтоГАЗ"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГомельавтоГАЗ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Могилёвская улица, 1Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 326-60-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–20:30; сб 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.465565,30.944736"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gomelautogaz.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

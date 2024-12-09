@@ -1,0 +1,26 @@
+ concept_fallback_services_102977961190
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["ШарханАвто"]
+	(* <- lang_ru;; <- name;;*);
+    ["ШарханАвто"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, переулок Максима Горького, 10А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 714-10-24"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.174609,30.166613"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.sauto.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_restaurants_231524653854
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Агниво"]
+	(* <- lang_ru;; <- name;;*);
+    ["Агниво"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, 2-я улица Доватора, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 393-72-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–23:00; пт 12:00–04:00; сб 14:00–04:00; вс 14:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.196924,30.211209"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://carte.by/vitebsk/agnivo/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

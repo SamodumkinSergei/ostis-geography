@@ -1,0 +1,26 @@
+ concept_malls_173779119010
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Напольник"]
+	(* <- lang_ru;; <- name;;*);
+    ["Напольник"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Терешковой, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 226-55-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.180018,30.245497"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://napolnik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

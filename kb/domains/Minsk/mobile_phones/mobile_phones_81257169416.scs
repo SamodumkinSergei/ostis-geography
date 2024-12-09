@@ -1,0 +1,26 @@
+ concept_mobile_phones_81257169416
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Джаст Фикс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Джаст Фикс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 93"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 357-79-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905725,27.439427"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://justfix.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

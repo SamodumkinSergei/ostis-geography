@@ -1,0 +1,26 @@
+ concept_swimming_pool_37358963269
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Кроль"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кроль"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чехова, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 695-02-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.203519,30.204405"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://swim-kids.com/?city=vitebsk"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

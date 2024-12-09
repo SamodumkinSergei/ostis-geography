@@ -1,0 +1,26 @@
+ concept_restaurants_157052716859
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Rozmarin"]
+	(* <- lang_ru;; <- name;;*);
+    ["Rozmarin"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Советская улица, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 325-09-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–23:00; пт,сб 12:00–00:00; вс 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.680579,23.830453"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

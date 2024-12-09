@@ -1,0 +1,26 @@
+ concept_drugstores_198388676625
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 96"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 96"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, 1-я Коллективная улица, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 260-09-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:20, перерыв 13:00–13:20"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.898905,30.272532"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_cafe_1346449711
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["TariCoffee"]
+	(* <- lang_ru;; <- name;;*);
+    ["TariCoffee"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Некрасова, 114"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 193-51-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.939898,27.566955"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

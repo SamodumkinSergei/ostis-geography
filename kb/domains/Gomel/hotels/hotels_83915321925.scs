@@ -1,0 +1,26 @@
+ concept_hotels_83915321925
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Ривер Хаус"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ривер Хаус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Орёл, Покровская улица, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (961) 623-13-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.971197,36.073116"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://riverhouse57.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_petshop_107247556663
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Zooqi.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Zooqi.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Машиностроителей, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 334-24-24"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.84878,27.667266"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://zooqi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

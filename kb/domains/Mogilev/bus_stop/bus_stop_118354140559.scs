@@ -1,0 +1,26 @@
+ concept_bus_stop_118354140559
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Могилёвский государственный университет продовольствия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилёвский государственный университет продовольствия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, проспект Шмидта"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.875227,30.316469"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

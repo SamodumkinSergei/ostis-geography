@@ -1,0 +1,26 @@
+ concept_cafe_1720013085
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Тимохин Закуток"]
+	(* <- lang_ru;; <- name;;*);
+    ["Тимохин Закуток"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сергея Есенина, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 145-50-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.849875,27.472155"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://taplink.cc/timohin_zakutok_malinovka"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

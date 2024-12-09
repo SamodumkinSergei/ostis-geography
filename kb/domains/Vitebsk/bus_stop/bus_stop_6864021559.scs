@@ -1,0 +1,26 @@
+ concept_bus_stop_6864021559
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["12-я улица Бебеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["12-я улица Бебеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Карла Маркса"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.182985,30.159974"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

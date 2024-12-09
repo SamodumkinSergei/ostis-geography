@@ -1,0 +1,26 @@
+ concept_furniture_store_91528370344
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Офисный Магнат"]
+	(* <- lang_ru;; <- name;;*);
+    ["Офисный Магнат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Интернациональная улица, 25А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 655-08-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.420965,31.003821"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ofmag.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

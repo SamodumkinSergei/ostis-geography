@@ -1,0 +1,26 @@
+ concept_office_57814017950
+ <- concept_office;
+=>nrel_main_idtf:
+	["Вестник Могилёва"]
+	(* <- lang_ru;; <- name;;*);
+    ["Вестник Могилёва"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 89"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 263-72-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.91681,30.342739"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.vestnikmogileva.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

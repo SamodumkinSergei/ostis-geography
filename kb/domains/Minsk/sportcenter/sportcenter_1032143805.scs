@@ -1,0 +1,26 @@
+ concept_sportcenter_1032143805
+ <- concept_sportcenter;
+=>nrel_main_idtf:
+	["Классик"]
+	(* <- lang_ru;; <- name;;*);
+    ["Классик"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петруся Бровки, 8А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 339-99-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–07:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.917016,27.594684"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://klassik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

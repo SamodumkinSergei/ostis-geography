@@ -1,0 +1,26 @@
+ concept_library_73812730342
+ <- concept_library;
+=>nrel_main_idtf:
+	["Медицинская библиотека ВГМУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Медицинская библиотека ВГМУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 255-10-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–20:00, перерыв 13:00–14:00; сб 09:00–17:00; вс 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.192697,30.218063"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://lib.vsmu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_malls_131774393110
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Олимп"]
+	(* <- lang_ru;; <- name;;*);
+    ["Олимп"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Суворова, 123А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 666-41-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:30–19:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.659085,23.805514"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://grodnosantehnika.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

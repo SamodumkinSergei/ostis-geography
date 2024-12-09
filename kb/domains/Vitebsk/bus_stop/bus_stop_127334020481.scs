@@ -1,0 +1,26 @@
+ concept_bus_stop_127334020481
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Новооршанское шоссе"]
+	(* <- lang_ru;; <- name;;*);
+    ["Новооршанское шоссе"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Новооршанская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.165468,30.22873"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

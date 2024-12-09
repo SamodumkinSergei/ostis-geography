@@ -1,0 +1,26 @@
+ concept_drugstores_86941319428
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Дубровская улица, 15А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 223-73-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб,вс 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.127745,23.655337"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://farmabrest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

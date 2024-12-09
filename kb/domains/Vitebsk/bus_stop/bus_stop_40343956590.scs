@@ -1,0 +1,26 @@
+ concept_bus_stop_40343956590
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Сенненская улица"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сенненская улица"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Сенненская улица, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.161766,30.184097"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

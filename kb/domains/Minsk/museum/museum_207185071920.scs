@@ -1,0 +1,26 @@
+ concept_museum_207185071920
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей МТЗ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей МТЗ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Долгобродская улица, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 333-04-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.889012,27.61928"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.belarus-tractor.com/company/the-museum-of-the-minsk-tractor-plant.php"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

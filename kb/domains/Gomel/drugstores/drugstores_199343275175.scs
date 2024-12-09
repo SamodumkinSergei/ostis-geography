@@ -1,0 +1,26 @@
+ concept_drugstores_199343275175
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["АстраФарма"]
+	(* <- lang_ru;; <- name;;*);
+    ["АстраФарма"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Малайчука, 19А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 538-21-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.459771,30.997471"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

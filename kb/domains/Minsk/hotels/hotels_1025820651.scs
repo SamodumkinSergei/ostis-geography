@@ -1,0 +1,26 @@
+ concept_hotels_1025820651
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Академическая"]
+	(* <- lang_ru;; <- name;;*);
+    ["Академическая"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурганова, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 284-27-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.918743,27.603151"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://academhotel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_museum_243653085743
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Арт-пространство"]
+	(* <- lang_ru;; <- name;;*);
+    ["Арт-пространство"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Толстого, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 261-74-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср-вс 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.195287,30.20339"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitebskavangard.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

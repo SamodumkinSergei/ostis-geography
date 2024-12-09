@@ -1,0 +1,26 @@
+ concept_cafe_1071356835
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Авеню"]
+	(* <- lang_ru;; <- name;;*);
+    ["Авеню"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Советская улица, 50"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 754-54-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.091926,23.693753"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://avenuecafe.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

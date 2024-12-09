@@ -1,0 +1,26 @@
+ concept_medicine_1161354290
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Могилевская областная клиническая больница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилевская областная клиническая больница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Бялыницкого-Бирули, 12/3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 274-49-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.915026,30.277122"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.uzmob.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

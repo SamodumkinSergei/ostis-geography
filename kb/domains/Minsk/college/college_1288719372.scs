@@ -1,0 +1,26 @@
+ concept_college_1288719372
+ <- concept_college;
+=>nrel_main_idtf:
+	["Бип - университет права и социально-информационных технологий"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бип - университет права и социально-информационных технологий"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Короля, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 263-01-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901291,27.544346"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bip-ip.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

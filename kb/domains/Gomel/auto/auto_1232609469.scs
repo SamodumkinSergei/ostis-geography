@@ -1,0 +1,26 @@
+ concept_auto_1232609469
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автосервис Голес"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автосервис Голес"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Федюнинского, 19, корп. 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 657-11-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00; сб 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.478097,30.991527"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.goles.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

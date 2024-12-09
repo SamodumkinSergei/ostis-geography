@@ -1,0 +1,26 @@
+ concept_auto_1884660274
+ <- concept_auto;
+=>nrel_main_idtf:
+	["ТО-Авто"]
+	(* <- lang_ru;; <- name;;*);
+    ["ТО-Авто"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Пороховая улица, 9Т"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 234-84-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:30–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.175791,30.138756"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://to-auto.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

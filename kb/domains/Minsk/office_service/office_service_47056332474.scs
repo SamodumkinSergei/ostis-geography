@@ -1,0 +1,26 @@
+ concept_office_service_47056332474
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Revera Legal"]
+	(* <- lang_ru;; <- name;;*);
+    ["Revera Legal"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Обойная улица, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 500-15-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906663,27.545801"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://revera.legal/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

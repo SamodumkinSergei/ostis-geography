@@ -1,0 +1,26 @@
+ concept_malls_1007560079
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Консор"]
+	(* <- lang_ru;; <- name;;*);
+    ["Консор"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельская область, Гомельский район, Бобовичский сельсовет, деревня Уза"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 555-36-34"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.38552,30.884897"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

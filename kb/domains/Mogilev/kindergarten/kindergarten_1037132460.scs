@@ -1,0 +1,26 @@
+ concept_kindergarten_1037132460
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 81"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 81"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Юбилейный, Днепровский бульвар, 44"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 274-43-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 08:00–17:00; вт 11:00–20:00; ср-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902868,30.372517"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sad81mogilev.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_drugstores_1732666106
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация, аптека № 79/2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация, аптека № 79/2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Курчатова, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 234-60-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:30–19:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.434118,30.993289"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomelpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

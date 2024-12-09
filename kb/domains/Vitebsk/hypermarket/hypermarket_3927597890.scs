@@ -1,0 +1,26 @@
+ concept_hypermarket_3927597890
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Build smart"]
+	(* <- lang_ru;; <- name;;*);
+    ["Build smart"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Софьи Панковой"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 679-99-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 10:00–13:00; вт-вс 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.187637,30.250584"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://buildsmart.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

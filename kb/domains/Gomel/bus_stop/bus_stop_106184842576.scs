@@ -1,0 +1,26 @@
+ concept_bus_stop_106184842576
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["ОАО Гомельоблавтотранс"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОАО Гомельоблавтотранс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Речицкий проспект"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.415074,30.958891"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

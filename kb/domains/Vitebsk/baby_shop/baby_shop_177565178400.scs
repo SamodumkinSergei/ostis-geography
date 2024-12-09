@@ -1,0 +1,26 @@
+ concept_baby_shop_177565178400
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Буслик"]
+	(* <- lang_ru;; <- name;;*);
+    ["Буслик"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 26А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 236-36-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.190983,30.203053"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://buslik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

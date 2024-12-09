@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_1057742868
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Ликеро-водочный завод"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ликеро-водочный завод"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Виленская улица, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 262-44-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.684171,23.827515"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.grodnovodka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

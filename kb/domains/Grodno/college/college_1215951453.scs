@@ -1,0 +1,26 @@
+ concept_college_1215951453
+ <- concept_college;
+=>nrel_main_idtf:
+	["Ггау, Факультет ветеринарной медицины"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ггау, Факультет ветеринарной медицины"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Волковича, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 274-09-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:50, перерыв 12:00–12:50"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.686284,23.843017"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ggau.by/fwm"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

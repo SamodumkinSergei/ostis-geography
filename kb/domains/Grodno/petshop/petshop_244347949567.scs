@@ -1,0 +1,26 @@
+ concept_petshop_244347949567
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Зообум"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зообум"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, бульвар Ленинского Комсомола, 26А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 734-68-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 11:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.697913,23.811614"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

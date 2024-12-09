@@ -1,0 +1,26 @@
+ concept_fast_food_26565821238
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Streer Food Bar"]
+	(* <- lang_ru;; <- name;;*);
+    ["Streer Food Bar"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Скрыганова, 6А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 548-55-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:30–21:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910734,27.516655"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sfbar.online/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_restaurants_1108701566
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Панорама"]
+	(* <- lang_ru;; <- name;;*);
+    ["Панорама"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Сторожовская улица, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 209-71-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–00:00; пт,сб 12:00–02:00; вс 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.915395,27.550415"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.hotel-belarus.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_railway_terminal_1052301477
+ <- concept_railway_terminal;
+=>nrel_main_idtf:
+	["Железнодорожный вокзал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Железнодорожный вокзал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Привокзальная площадь, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 239-22-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.926449,30.338619"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

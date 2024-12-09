@@ -1,0 +1,26 @@
+ concept_malls_198266758877
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Точка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Точка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Тимирязева, 10, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 310-31-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:30; сб 11:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.68849,23.846478"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://3103103.by/ru"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

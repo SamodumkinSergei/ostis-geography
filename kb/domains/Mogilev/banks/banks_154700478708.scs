@@ -1,0 +1,26 @@
+ concept_banks_154700478708
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Беларусбанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Беларусбанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёвский район, Вейно, Вейнянская улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 232-33-89"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт,пт 09:15–17:00, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.82967,30.38615"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://belarusbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_office_service_81704448511
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Отдел материально-технического снабжения Витебского отделения БЖД"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отдел материально-технического снабжения Витебского отделения БЖД"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Карла Маркса, 42Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 233-29-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.185898,30.170244"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitebsk.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

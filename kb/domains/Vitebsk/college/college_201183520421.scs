@@ -1,0 +1,26 @@
+ concept_college_201183520421
+ <- concept_college;
+=>nrel_main_idtf:
+	["Витебская основная общеобразовательная школа Болотнинского района Новосибирской области"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебская основная общеобразовательная школа Болотнинского района Новосибирской области"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Новосибирская область, Болотнинский район, деревня Витебск"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.739742,84.358848"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://s_viteb.bol.edu54.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

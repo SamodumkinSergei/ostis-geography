@@ -1,0 +1,26 @@
+ concept_currency_exchange_18886972563
+ <- concept_currency_exchange;
+=>nrel_main_idtf:
+	["МС банк Рус Операционная касса № 33"]
+	(* <- lang_ru;; <- name;;*);
+    ["МС банк Рус Операционная касса № 33"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Санкт-Петербург, Витебский проспект, 17к6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["8 (800) 770-05-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00, перерывы 12:30–13:00, 18:00–18:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["59.868555,30.354073"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.mcbankrus.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

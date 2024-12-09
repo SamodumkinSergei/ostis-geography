@@ -1,0 +1,26 @@
+ concept_furniture_store_8426498145
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Прогресс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Прогресс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Матусевича, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 154-05-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916982,27.454195"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://progres.gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

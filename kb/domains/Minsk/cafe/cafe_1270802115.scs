@@ -1,0 +1,26 @@
+ concept_cafe_1270802115
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["CubeCafe"]
+	(* <- lang_ru;; <- name;;*);
+    ["CubeCafe"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Боровлянский сельсовет, деревня Валерьяново, Радужная улица, 1Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 175-08-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:00–23:00; пт,сб 11:00–01:00; вс 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.965083,27.668854"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://cubecafe.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

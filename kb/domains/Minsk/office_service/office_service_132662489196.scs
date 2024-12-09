@@ -1,0 +1,26 @@
+ concept_office_service_132662489196
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Аренда склада Минск Снять склад"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аренда склада Минск Снять склад"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Казинца, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 602-74-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.864432,27.524632"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://megapolis-real.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

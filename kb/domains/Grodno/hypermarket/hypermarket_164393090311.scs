@@ -1,0 +1,26 @@
+ concept_hypermarket_164393090311
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Офис-техника"]
+	(* <- lang_ru;; <- name;;*);
+    ["Офис-техника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Соколовского, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 266-56-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.66133,23.803536"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://officetechnica.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

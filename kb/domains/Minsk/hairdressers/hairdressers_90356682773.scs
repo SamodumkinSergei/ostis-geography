@@ -1,0 +1,26 @@
+ concept_hairdressers_90356682773
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Парикмахерская Люкс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парикмахерская Люкс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Шугаева, 17Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 332-25-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.938262,27.683821"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_193321910976
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Поликлиника имени Калинина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Поликлиника имени Калинина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ильинского"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.201658,30.196177"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

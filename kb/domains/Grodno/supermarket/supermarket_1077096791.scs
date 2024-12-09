@@ -1,0 +1,26 @@
+ concept_supermarket_1077096791
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Дисконт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дисконт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Полиграфистов, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 275-81-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.673147,23.839156"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

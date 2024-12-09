@@ -1,0 +1,26 @@
+ concept_supermarket_13310925657
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Олимпийский"]
+	(* <- lang_ru;; <- name;;*);
+    ["Олимпийский"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, переулок Гоголя, 2Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 240-01-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.93183,30.361659"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

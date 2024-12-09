@@ -1,0 +1,26 @@
+ concept_restaurants_181633496500
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Пицца дискаунтер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пицца дискаунтер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Любенский, улица 60 лет СССР, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 597-59-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.404974,30.982862"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

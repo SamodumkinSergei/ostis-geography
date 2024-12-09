@@ -1,0 +1,26 @@
+ concept_kindergarten_136816889535
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Детский клуб Галактикум"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский клуб Галактикум"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, переулок Солтыса, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 395-51-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:30–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901603,27.650273"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

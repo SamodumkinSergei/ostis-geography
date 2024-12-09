@@ -1,0 +1,26 @@
+ concept_spa_1090299463
+ <- concept_spa;
+=>nrel_main_idtf:
+	["VIP-Персона"]
+	(* <- lang_ru;; <- name;;*);
+    ["VIP-Персона"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Строителей, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 249-83-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 11:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.172521,30.20047"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

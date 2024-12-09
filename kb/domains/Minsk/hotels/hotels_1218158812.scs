@@ -1,0 +1,26 @@
+ concept_hotels_1218158812
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Your Hostel"]
+	(* <- lang_ru;; <- name;;*);
+    ["Your Hostel"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, 1-й переулок Франциска Скорины, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 610-42-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.946379,27.590733"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://your-hostel.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

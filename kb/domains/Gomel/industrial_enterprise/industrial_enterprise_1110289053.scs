@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_1110289053
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Гомельский завод пусковых двигателей имени П.К. Пономаренко"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский завод пусковых двигателей имени П.К. Пономаренко"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Барыкина, 150"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 223-84-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.419879,30.955346"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gzpd.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_college_1058865360
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гомельский государственный медицинский колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский государственный медицинский колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Кирова, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 234-20-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:00–16:42, перерыв 12:00–12:30; пт 08:00–15:42, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.427717,31.007687"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.ggmc.info/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

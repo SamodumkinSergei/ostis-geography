@@ -1,0 +1,26 @@
+ concept_government_25280849548
+ <- concept_government;
+=>nrel_main_idtf:
+	["Управление торговли и услуг Витгорисполкома"]
+	(* <- lang_ru;; <- name;;*);
+    ["Управление торговли и услуг Витгорисполкома"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Замковая улица, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 233-60-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.193092,30.204926"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.vitebsk.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

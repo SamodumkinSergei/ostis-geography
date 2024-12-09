@@ -1,0 +1,26 @@
+ concept_fallback_services_1134475020
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Батавтотрейд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Батавтотрейд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Победы, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 231-63-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.654285,23.831719"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://battorg.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

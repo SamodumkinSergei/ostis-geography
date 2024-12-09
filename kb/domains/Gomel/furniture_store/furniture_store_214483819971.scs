@@ -1,0 +1,26 @@
+ concept_furniture_store_214483819971
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Милитина плюс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Милитина плюс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Речицкий проспект, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 364-82-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.417397,30.965844"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

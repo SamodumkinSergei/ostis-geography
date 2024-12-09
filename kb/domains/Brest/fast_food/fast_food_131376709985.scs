@@ -1,0 +1,26 @@
+ concept_fast_food_131376709985
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Блинная"]
+	(* <- lang_ru;; <- name;;*);
+    ["Блинная"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московский район, Юго-Восточный микрорайон № 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.078531,23.753634"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ekspresssmak.belorussia.su/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

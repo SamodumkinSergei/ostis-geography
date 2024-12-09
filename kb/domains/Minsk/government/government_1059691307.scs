@@ -1,0 +1,26 @@
+ concept_government_1059691307
+ <- concept_government;
+=>nrel_main_idtf:
+	["Управление по образованию администрации Фрунзенского района г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["Управление по образованию администрации Фрунзенского района г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Кальварийская улица, 50"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 259-65-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:45–18:00, перерыв 13:00–14:00; пт 08:45–16:45, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909373,27.513681"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://phrue.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

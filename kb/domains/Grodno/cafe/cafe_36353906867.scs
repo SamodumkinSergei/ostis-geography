@@ -1,0 +1,26 @@
+ concept_cafe_36353906867
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Родны Кут"]
+	(* <- lang_ru;; <- name;;*);
+    ["Родны Кут"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица 1 Мая, 28"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 555-05-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.688007,23.843193"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://carte.by/grodno/rodny-kut/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

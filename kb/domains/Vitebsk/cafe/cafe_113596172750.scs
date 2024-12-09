@@ -1,0 +1,26 @@
+ concept_cafe_113596172750
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Coffee House"]
+	(* <- lang_ru;; <- name;;*);
+    ["Coffee House"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Бурса, Нилюфер, махалле Гёрюкле, улица Ататюрк, 101"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+90 224 483 42 12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["40.223217,28.850492"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://coffeehouse.com.tr/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

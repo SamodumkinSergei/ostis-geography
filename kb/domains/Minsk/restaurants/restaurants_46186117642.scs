@@ -1,0 +1,26 @@
+ concept_restaurants_46186117642
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Smokkin: Gastrobar & Hookah Place"]
+	(* <- lang_ru;; <- name;;*);
+    ["Smokkin: Gastrobar & Hookah Place"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Интернациональная улица, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 602-00-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–02:00; пт,сб 12:00–04:00; вс 12:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904219,27.559289"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://lp.smokkin.net/?utm_source=yandexk_smokk"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

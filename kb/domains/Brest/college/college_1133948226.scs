@@ -1,0 +1,26 @@
+ concept_college_1133948226
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 20 г. Бреста имени героя Советского Союза Д. М. Карбышева"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 20 г. Бреста имени героя Советского Союза Д. М. Карбышева"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Карбышева, 81"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 223-67-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.090806,23.698087"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sch20.brestgoo.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_clothes_shop_131259857908
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Second24.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Second24.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Олега Кошевого, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 626-71-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.887493,27.611179"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://second24.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

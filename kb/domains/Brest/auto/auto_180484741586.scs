@@ -1,0 +1,26 @@
+ concept_auto_180484741586
+ <- concept_auto;
+=>nrel_main_idtf:
+	["АвтоМеханик"]
+	(* <- lang_ru;; <- name;;*);
+    ["АвтоМеханик"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Янки Купалы, 13А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 914-81-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.105095,23.742365"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://stobrest.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

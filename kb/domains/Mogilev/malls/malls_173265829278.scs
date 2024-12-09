@@ -1,0 +1,26 @@
+ concept_malls_173265829278
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Скрепка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Скрепка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Терёхина, 6А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 120-96-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–19:00; вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.880771,30.356803"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

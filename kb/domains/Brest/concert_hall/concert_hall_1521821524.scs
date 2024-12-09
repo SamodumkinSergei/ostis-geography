@@ -1,0 +1,26 @@
+ concept_concert_hall_1521821524
+ <- concept_concert_hall;
+=>nrel_main_idtf:
+	["Solo"]
+	(* <- lang_ru;; <- name;;*);
+    ["Solo"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Чкалова, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 104-00-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 21:00–03:00; пт,сб 21:00–04:00; вс 21:00–03:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.094151,23.681099"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

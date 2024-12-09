@@ -1,0 +1,26 @@
+ concept_bus_stop_42595203905
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["ДП Южный городок"]
+	(* <- lang_ru;; <- name;;*);
+    ["ДП Южный городок"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, микрорайон Южный"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.061936,23.734891"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

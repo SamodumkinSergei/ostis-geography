@@ -1,0 +1,26 @@
+ concept_college_111362194144
+ <- concept_college;
+=>nrel_main_idtf:
+	["Лабораторно-теоретический корпус ВГМУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лабораторно-теоретический корпус ВГМУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 264-81-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.192234,30.21566"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.vsmu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

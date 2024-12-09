@@ -1,0 +1,26 @@
+ concept_bus_stop_237878734976
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["УЗ Могилёвская больница № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["УЗ Могилёвская больница № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Академика Павлова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.866473,30.383397"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

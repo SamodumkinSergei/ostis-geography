@@ -1,0 +1,26 @@
+ concept_hotels_1449329428
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Смартмит"]
+	(* <- lang_ru;; <- name;;*);
+    ["Смартмит"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Смолевичский район, Смолевичи, Песчаная улица, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 312-62-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.025996,28.066403"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://гостиница-смолевичи.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

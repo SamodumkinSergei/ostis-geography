@@ -1,0 +1,26 @@
+ concept_hotels_1172433297
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["СОЖ"]
+	(* <- lang_ru;; <- name;;*);
+    ["СОЖ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Крестьянская улица, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 349-44-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.428068,31.012147"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://hotelsozh.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_college_12010878282
+ <- concept_college;
+=>nrel_main_idtf:
+	["Profedu, УО РИПО"]
+	(* <- lang_ru;; <- name;;*);
+    ["Profedu, УО РИПО"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Карла Либкнехта, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 351-19-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.898453,27.539724"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://profedu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

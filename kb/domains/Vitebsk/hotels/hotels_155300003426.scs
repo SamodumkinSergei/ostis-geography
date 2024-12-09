@@ -1,0 +1,26 @@
+ concept_hotels_155300003426
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Апартаменты в башне Витебск"]
+	(* <- lang_ru;; <- name;;*);
+    ["Апартаменты в башне Витебск"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Правды, 66К"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 273-50-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.185033,30.233953"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://apartment-studio-in-vitebsk-tower.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

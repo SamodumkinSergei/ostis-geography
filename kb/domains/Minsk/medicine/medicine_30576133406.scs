@@ -1,0 +1,26 @@
+ concept_medicine_30576133406
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городская клиническая больница № 2, рентгеновское отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская клиническая больница № 2, рентгеновское отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Красноармейская улица, 10/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 327-50-29"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.898508,27.568098"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://2gkb.by/lechebno-diagnosticheskie-otdeleniya/rentgenovskoe-otdelenie"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

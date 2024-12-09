@@ -1,0 +1,26 @@
+ concept_drugstores_1734748644
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Белфармация № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белфармация № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Золотая Горка, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 380-06-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.914222,27.587455"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_office_service_234947413753
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Эталон Кровли"]
+	(* <- lang_ru;; <- name;;*);
+    ["Эталон Кровли"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Советской Конституции, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 230-28-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.107512,23.752929"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://etalonkrovli.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

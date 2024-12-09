@@ -1,0 +1,26 @@
+ concept_museum_1122065840
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Goethe Institut"]
+	(* <- lang_ru;; <- name;;*);
+    ["Goethe Institut"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Веры Хоружей, 25, корп. 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 237-71-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.92147,27.563374"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.goethe.de/minsk"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

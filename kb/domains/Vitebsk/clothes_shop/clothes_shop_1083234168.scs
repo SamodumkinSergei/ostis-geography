@@ -1,0 +1,26 @@
+ concept_clothes_shop_1083234168
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Elema"]
+	(* <- lang_ru;; <- name;;*);
+    ["Elema"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чкалова, 19к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 226-04-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–19:00; вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.173248,30.212869"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://elema.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

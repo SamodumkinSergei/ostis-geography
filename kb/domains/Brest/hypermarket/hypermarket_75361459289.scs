@@ -1,0 +1,26 @@
+ concept_hypermarket_75361459289
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Стройкамаркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стройкамаркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Интернациональная улица, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 993-19-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.08323,23.690935"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

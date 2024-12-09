@@ -1,0 +1,26 @@
+ concept_hairdressers_1013849873
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Студия Сергеенко"]
+	(* <- lang_ru;; <- name;;*);
+    ["Студия Сергеенко"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 91"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 362-58-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.923644,27.609593"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.sergeenko.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_swimming_pool_147908209857
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Бассейн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бассейн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Головацкого, 102"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 253-07-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 17:00–20:00; сб 15:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.448705,31.016922"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.59-ka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

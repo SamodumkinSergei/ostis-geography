@@ -1,0 +1,26 @@
+ concept_car_park_143298189506
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Подземная гараж-стоянка ТС Олимпийский дом"]
+	(* <- lang_ru;; <- name;;*);
+    ["Подземная гараж-стоянка ТС Олимпийский дом"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Филимонова, 55к3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 594-94-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.925476,27.638421"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://olympicdom.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

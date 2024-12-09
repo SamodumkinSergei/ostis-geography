@@ -1,0 +1,26 @@
+ concept_cafe_1075520373
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Центр общественного питания"]
+	(* <- lang_ru;; <- name;;*);
+    ["Центр общественного питания"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Ожешко, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 273-19-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00; сб 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.685443,23.840067"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

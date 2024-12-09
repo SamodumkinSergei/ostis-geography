@@ -1,0 +1,26 @@
+ concept_fast_food_169886590654
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["ШаваПоинт"]
+	(* <- lang_ru;; <- name;;*);
+    ["ШаваПоинт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Серебрянка, проспект Рокоссовского, 145Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 237-37-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.856047,27.612262"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

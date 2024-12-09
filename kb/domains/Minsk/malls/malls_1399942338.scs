@@ -1,0 +1,26 @@
+ concept_malls_1399942338
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Ромакс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ромакс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Каховская улица, 70А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 335-07-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.928679,27.562287"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://romax.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

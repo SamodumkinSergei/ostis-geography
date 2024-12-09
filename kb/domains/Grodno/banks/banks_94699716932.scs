@@ -1,0 +1,26 @@
+ concept_banks_94699716932
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Беларусбанк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Беларусбанк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Будённого, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 218-84-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 00:00–23:50, перерывы 00:30–00:45, 01:30–01:45, 02:30–02:45, 03:30–03:45, 04:30–04:55, 06:30–06:45, 07:30–08:40, 10:45–11:00, 13:00–14:00, 16:00–16:15, 18:15–18:30, 19:15–19:30, 20:20–21:30, 23:00–23:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.686355,23.848433"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://belarusbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

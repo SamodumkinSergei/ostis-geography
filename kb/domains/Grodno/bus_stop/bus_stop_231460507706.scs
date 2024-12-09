@@ -1,0 +1,26 @@
+ concept_bus_stop_231460507706
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Отделение Беларусбанка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отделение Беларусбанка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, проспект Янки Купалы"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.647731,23.865945"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

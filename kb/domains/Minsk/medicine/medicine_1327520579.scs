@@ -1,0 +1,26 @@
+ concept_medicine_1327520579
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Больница Центральная Районная УЗ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Больница Центральная Районная УЗ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, деревня Боровляны, Фрунзенская улица, 1А, корп. 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 505-25-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.996183,27.678883"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mcrb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

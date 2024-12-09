@@ -1,0 +1,26 @@
+ concept_drugstores_66760503834
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека Белфармация № 11"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека Белфармация № 11"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Дзержинского, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 323-68-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:30–21:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.890037,27.520474"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_petshop_241713353019
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Четыре лапы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Четыре лапы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Полиграфистов, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 787-72-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 09:30–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.672441,23.840587"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

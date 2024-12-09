@@ -1,0 +1,26 @@
+ concept_supermarket_1089103695
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Магазин № 5"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин № 5"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Доминиканская улица, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 274-02-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.68108,23.829513"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://grodnobkl.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

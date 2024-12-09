@@ -1,0 +1,26 @@
+ concept_stadium_1036528793
+ <- concept_stadium;
+=>nrel_main_idtf:
+	["Локомотив"]
+	(* <- lang_ru;; <- name;;*);
+    ["Локомотив"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Богдана Хмельницкого, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 295-23-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 13:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.431959,30.973177"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

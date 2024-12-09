@@ -1,0 +1,26 @@
+ concept_medicine_1304384569
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["УЗ Клиническая городская больница № 4, кабинет гинеколога"]
+	(* <- lang_ru;; <- name;;*);
+    ["УЗ Клиническая городская больница № 4, кабинет гинеколога"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Розы Люксембург, 110"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 213-56-24"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.891704,27.518074"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://4gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

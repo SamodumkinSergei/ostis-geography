@@ -1,0 +1,26 @@
+ concept_banks_239119462190
+ <- concept_banks;
+=>nrel_main_idtf:
+	["Альфа-Выручка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Альфа-Выручка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Немига, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 701-64-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.899712,27.543093"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.alfabank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

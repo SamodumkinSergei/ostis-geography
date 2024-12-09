@@ -1,0 +1,26 @@
+ concept_baby_shop_225629657690
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Тюленик"]
+	(* <- lang_ru;; <- name;;*);
+    ["Тюленик"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Гагарина, 46Б/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 584-71-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.422678,30.999612"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://tulenik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

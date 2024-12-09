@@ -1,0 +1,26 @@
+ concept_college_1130081714
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гимназия № 2 г. Могилев"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гимназия № 2 г. Могилев"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Якубовского, 47"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 242-67-71"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.920235,30.308199"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gym2.mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

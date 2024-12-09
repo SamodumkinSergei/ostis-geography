@@ -1,0 +1,26 @@
+ concept_fast_food_150082456569
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Экспресс Кебаб"]
+	(* <- lang_ru;; <- name;;*);
+    ["Экспресс Кебаб"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Гагарина, 65"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–21:00; сб,вс 10:00–21:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.424707,30.996416"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

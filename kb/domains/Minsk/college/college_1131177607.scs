@@ -1,0 +1,26 @@
+ concept_college_1131177607
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 179"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 179"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лещинского, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 314-84-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:30–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911267,27.447446"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch179.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

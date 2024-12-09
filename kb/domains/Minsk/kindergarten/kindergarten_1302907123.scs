@@ -1,0 +1,26 @@
+ concept_kindergarten_1302907123
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Детский сад № 260"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский сад № 260"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Захарова, 62"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 378-71-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.89796,27.585712"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu260.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

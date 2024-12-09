@@ -1,0 +1,26 @@
+ concept_college_1165637916
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 51"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 51"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Лошица, улица Язепа Дроздовича, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 322-65-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 07:30–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.847738,27.56297"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch51.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_229000102789
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Заречная улица"]
+	(* <- lang_ru;; <- name;;*);
+    ["Заречная улица"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Броды, 1-й Ангарский переулок"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.858499,30.296166"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

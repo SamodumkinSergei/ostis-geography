@@ -1,0 +1,26 @@
+ concept_museum_1044655581
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Гомельский областной центр народного творчества, выставочный зал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский областной центр народного творчества, выставочный зал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Ирининская улица, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 233-90-54"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 09:30–18:30, перерыв 13:30–14:30; сб 09:00–17:20"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.428691,31.004735"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

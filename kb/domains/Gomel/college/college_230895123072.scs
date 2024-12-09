@@ -1,0 +1,26 @@
+ concept_college_230895123072
+ <- concept_college;
+=>nrel_main_idtf:
+	["Биологический факультет Ггу им. Ф. Скорины"]
+	(* <- lang_ru;; <- name;;*);
+    ["Биологический факультет Ггу им. Ф. Скорины"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 108"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 251-21-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:40, перерыв 13:00–13:40"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.445623,30.998624"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

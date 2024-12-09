@@ -1,0 +1,26 @@
+ concept_office_service_1381009482
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Белгосстрах"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белгосстрах"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 26А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 267-42-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00, перерывы 11:50–13:20, 18:50–19:10"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.191265,30.203819"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitebsk.bgs.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

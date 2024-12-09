@@ -1,0 +1,26 @@
+ concept_bus_stop_200407293078
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Средняя школа № 38"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 38"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Алтайская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.863844,30.304586"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

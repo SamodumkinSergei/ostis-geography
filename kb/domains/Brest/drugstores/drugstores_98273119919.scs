@@ -1,0 +1,26 @@
+ concept_drugstores_98273119919
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 273"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 273"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Машерова, 39"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 253-20-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб,вс 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.087187,23.702048"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://farmabrest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

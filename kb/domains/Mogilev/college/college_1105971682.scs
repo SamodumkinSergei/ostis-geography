@@ -1,0 +1,26 @@
+ concept_college_1105971682
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 4 г. Могилёва"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 4 г. Могилёва"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Лазаренко, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 227-39-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904233,30.322679"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://school4.mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

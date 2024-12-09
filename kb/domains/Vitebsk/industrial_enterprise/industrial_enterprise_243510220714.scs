@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_243510220714
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["БС-Инжиниринг"]
+	(* <- lang_ru;; <- name;;*);
+    ["БС-Инжиниринг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Гагарина, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 555-58-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.206072,30.218033"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.belstanko.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

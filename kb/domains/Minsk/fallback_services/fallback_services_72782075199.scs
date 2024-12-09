@@ -1,0 +1,26 @@
+ concept_fallback_services_72782075199
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["DHL Express"]
+	(* <- lang_ru;; <- name;;*);
+    ["DHL Express"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Мясникова, 70"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 215-11-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.895285,27.541101"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.logitrack.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

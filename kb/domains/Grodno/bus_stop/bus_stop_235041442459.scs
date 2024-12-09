@@ -1,0 +1,26 @@
+ concept_bus_stop_235041442459
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Советских Пограничников"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Советских Пограничников"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Советских Пограничников"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.67102,23.80994"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

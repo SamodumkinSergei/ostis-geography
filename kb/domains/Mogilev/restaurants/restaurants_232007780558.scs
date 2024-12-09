@@ -1,0 +1,26 @@
+ concept_restaurants_232007780558
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Grand Savoy"]
+	(* <- lang_ru;; <- name;;*);
+    ["Grand Savoy"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Лепешинского, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 370-55-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903859,30.339465"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://atriumhotel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

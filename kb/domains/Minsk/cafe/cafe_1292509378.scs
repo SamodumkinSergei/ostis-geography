@@ -1,0 +1,26 @@
+ concept_cafe_1292509378
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Своё кафе"]
+	(* <- lang_ru;; <- name;;*);
+    ["Своё кафе"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, 2-й Велосипедный переулок, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 223-86-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.87256,27.591135"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

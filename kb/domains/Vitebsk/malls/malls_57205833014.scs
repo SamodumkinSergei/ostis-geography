@@ -1,0 +1,26 @@
+ concept_malls_57205833014
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Польза"]
+	(* <- lang_ru;; <- name;;*);
+    ["Польза"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 177-11-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–20:00; вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.19358,30.22474"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://polza-shop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

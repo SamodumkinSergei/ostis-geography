@@ -1,0 +1,26 @@
+ concept_mobile_phones_47650931354
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["МобайлЦентр"]
+	(* <- lang_ru;; <- name;;*);
+    ["МобайлЦентр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Смоленская площадь, 18к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 510-04-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 09:00–16:30; сб,вс 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.204424,30.211846"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gorodvitebsk.by/firms/mobail_center"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

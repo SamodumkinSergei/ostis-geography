@@ -1,0 +1,26 @@
+ concept_medicine_1025577638
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["ГУЗ Со Федоровская РБ поликлиника"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУЗ Со Федоровская РБ поликлиника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Саратовская область, Фёдоровский район, рабочий посёлок Мокроус, Советская улица, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (84565) 5-04-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["51.236822,47.521609"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

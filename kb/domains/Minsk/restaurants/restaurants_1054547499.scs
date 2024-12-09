@@ -1,0 +1,26 @@
+ concept_restaurants_1054547499
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Академия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Академия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 66"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 344-73-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.921103,27.598672"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_auto_1027472635
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Опытно-экспериментальная станция технического обслуживания автомобилей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Опытно-экспериментальная станция технического обслуживания автомобилей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Могилёвская улица, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 730-24-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.45766,30.922038"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.oestoa.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

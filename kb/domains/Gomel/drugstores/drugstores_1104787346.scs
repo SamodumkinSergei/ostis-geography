@@ -1,0 +1,26 @@
+ concept_drugstores_1104787346
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация, аптека № 7"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация, аптека № 7"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Космонавтов, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 222-26-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.449,30.967709"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomelpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

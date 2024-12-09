@@ -1,0 +1,26 @@
+ concept_library_1090878367
+ <- concept_library;
+=>nrel_main_idtf:
+	["Библиотека № 11"]
+	(* <- lang_ru;; <- name;;*);
+    ["Библиотека № 11"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Чижовка, Ташкентский проезд, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 341-07-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–20:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.838255,27.629168"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://uk.minsk.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

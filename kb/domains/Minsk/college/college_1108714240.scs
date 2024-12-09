@@ -1,0 +1,26 @@
+ concept_college_1108714240
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 90"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 90"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Чкалова, 15к3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 220-39-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.875882,27.537985"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch90.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_150128717477
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Белтрансконсалт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белтрансконсалт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Автолюбителей, 1/288"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.116685,23.757085"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

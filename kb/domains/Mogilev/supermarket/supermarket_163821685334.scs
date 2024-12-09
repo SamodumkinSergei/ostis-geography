@@ -1,0 +1,26 @@
+ concept_supermarket_163821685334
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Александрийское"]
+	(* <- lang_ru;; <- name;;*);
+    ["Александрийское"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, переулок Гоголя, 2Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 397-02-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.931862,30.36163"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

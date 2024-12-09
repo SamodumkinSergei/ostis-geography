@@ -1,0 +1,26 @@
+ concept_fallback_services_50631183380
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гранитная мастерская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гранитная мастерская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Мележа, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 320-40-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 11:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.938571,27.601297"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://monumental.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

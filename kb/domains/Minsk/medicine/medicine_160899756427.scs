@@ -1,0 +1,26 @@
+ concept_medicine_160899756427
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Лодэ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лодэ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 140"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 293-98-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–21:00; сб 08:00–21:00; вс 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907598,27.438833"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.lode.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

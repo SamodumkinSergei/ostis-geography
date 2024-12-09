@@ -1,0 +1,26 @@
+ concept_hotels_241381569901
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Хостел 128"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хостел 128"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Одесская улица, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 128-02-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.870088,27.655799"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://hostel128minsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

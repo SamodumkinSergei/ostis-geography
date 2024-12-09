@@ -1,0 +1,26 @@
+ concept_auto_41394248059
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Ваш автосервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ваш автосервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Прудок, 2-я Гражданская улица, 5/20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 777-31-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.461085,31.013022"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://startuy.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

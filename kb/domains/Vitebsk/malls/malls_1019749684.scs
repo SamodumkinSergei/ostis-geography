@@ -1,0 +1,26 @@
+ concept_malls_1019749684
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Эвиком"]
+	(* <- lang_ru;; <- name;;*);
+    ["Эвиком"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 81, корп. 33"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 224-02-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.191972,30.251617"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://evikom.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

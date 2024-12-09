@@ -1,0 +1,26 @@
+ concept_malls_202707181429
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Беламаркет Duty Free"]
+	(* <- lang_ru;; <- name;;*);
+    ["Беламаркет Duty Free"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Варшавское шоссе, 81"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.07377,23.658626"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://belamarket.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

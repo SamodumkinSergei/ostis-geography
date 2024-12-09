@@ -1,0 +1,26 @@
+ concept_college_1107507488
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 32"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 32"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, микрорайон Берёзовка, Строительная улица, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 250-31-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–20:00; сб 08:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.113473,23.730531"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://32brest.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

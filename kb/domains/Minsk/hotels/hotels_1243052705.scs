@@ -1,0 +1,26 @@
+ concept_hotels_1243052705
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Belmotel"]
+	(* <- lang_ru;; <- name;;*);
+    ["Belmotel"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Заводской район, Чижовка, улица Уборевича, 128/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 345-45-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.835305,27.628936"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.belmotel.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_malls_1681976434
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Ласс, офис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ласс, офис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Октября, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 256-33-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.406796,30.958205"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://lass.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_1240125498
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Гомельский вагоностроительный завод"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский вагоностроительный завод"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Химакова, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 233-70-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.437132,30.98796"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

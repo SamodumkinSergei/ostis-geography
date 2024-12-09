@@ -1,0 +1,26 @@
+ concept_college_1012391857
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 6"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 6"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Лазо, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 264-53-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 07:20–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.199127,30.250365"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://6vitebsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

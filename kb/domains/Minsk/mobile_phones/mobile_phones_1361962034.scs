@@ -1,0 +1,26 @@
+ concept_mobile_phones_1361962034
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Newtonlabs"]
+	(* <- lang_ru;; <- name;;*);
+    ["Newtonlabs"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кирова, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 657-65-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.896966,27.558771"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.newtonlabs.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

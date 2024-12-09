@@ -1,0 +1,26 @@
+ concept_petshop_187514923558
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Зоошоп"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зоошоп"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Соломинка, Каштановая улица, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 946-57-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб 10:00–18:00; вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.950499,30.361628"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

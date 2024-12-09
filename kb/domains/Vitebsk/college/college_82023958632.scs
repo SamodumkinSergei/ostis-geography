@@ -1,0 +1,26 @@
+ concept_college_82023958632
+ <- concept_college;
+=>nrel_main_idtf:
+	["Кафедра фтизиопульмонологии ВГМУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафедра фтизиопульмонологии ВГМУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 75"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 224-02-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.195075,30.24815"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.vsmu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

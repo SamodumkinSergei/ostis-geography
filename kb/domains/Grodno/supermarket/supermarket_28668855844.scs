@@ -1,0 +1,26 @@
+ concept_supermarket_28668855844
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Гродненская овощная фабрика"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненская овощная фабрика"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, бульвар Ленинского Комсомола, 44"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:30–18:30, перерыв 14:00–15:00; сб 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.697035,23.805006"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

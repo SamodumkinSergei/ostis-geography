@@ -1,0 +1,26 @@
+ concept_medicine_219713535110
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Травматологический пункт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Травматологический пункт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Комиссарова, 13/4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 256-14-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.41706,31.012006"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://uggbsmp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

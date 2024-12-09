@@ -1,0 +1,26 @@
+ concept_college_177834919805
+ <- concept_college;
+=>nrel_main_idtf:
+	["Могилёвское областное кадетское училище имени героя Советского Союза Е. Николаенко"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилёвское областное кадетское училище имени героя Советского Союза Е. Николаенко"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Космонавтов, 41А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 264-50-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.89669,30.292451"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.kadet.mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

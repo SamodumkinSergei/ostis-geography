@@ -1,0 +1,26 @@
+ concept_government_1122973138
+ <- concept_government;
+=>nrel_main_idtf:
+	["Инспекция министерства по налогам и сборам Республики Беларусь по Гомельской области"]
+	(* <- lang_ru;; <- name;;*);
+    ["Инспекция министерства по налогам и сборам Республики Беларусь по Гомельской области"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Интернациональная улица, 10А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 279-88-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.421677,31.006317"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://nalog.gov.by/ru/obschie-dannye-405/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_cafe_131886580097
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Don Kebab"]
+	(* <- lang_ru;; <- name;;*);
+    ["Don Kebab"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Машерова, 53"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 344-07-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.087609,23.704125"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://donkebab.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

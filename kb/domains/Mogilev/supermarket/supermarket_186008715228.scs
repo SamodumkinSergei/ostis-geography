@@ -1,0 +1,26 @@
+ concept_supermarket_186008715228
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Евроопт минимаркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Евроопт минимаркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёвский район, Буйничский сельсовет, агрогородок Буйничи"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.859163,30.264935"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://evroopt.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

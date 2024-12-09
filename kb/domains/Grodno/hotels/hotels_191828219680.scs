@@ -1,0 +1,26 @@
+ concept_hotels_191828219680
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Сарматия"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сарматия"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Карла Маркса, 11А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 672-30-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.677621,23.832639"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://hostelgrodno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

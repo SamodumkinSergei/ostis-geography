@@ -1,0 +1,26 @@
+ concept_clothes_shop_186736950138
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Модная семья"]
+	(* <- lang_ru;; <- name;;*);
+    ["Модная семья"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лобанка, 79"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 777-79-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.889137,27.428818"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://moda7.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

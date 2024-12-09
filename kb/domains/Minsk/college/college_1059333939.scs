@@ -1,0 +1,26 @@
+ concept_college_1059333939
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гимназия № 7"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гимназия № 7"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Захарова, 58"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 364-26-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.899472,27.583859"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gymn7.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

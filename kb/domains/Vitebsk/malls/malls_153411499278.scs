@@ -1,0 +1,26 @@
+ concept_malls_153411499278
+ <- concept_malls;
+=>nrel_main_idtf:
+	["БелЮрОбеспечение"]
+	(* <- lang_ru;; <- name;;*);
+    ["БелЮрОбеспечение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Терешковой, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 529-39-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 09:00–18:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.181839,30.248709"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://e-auction.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

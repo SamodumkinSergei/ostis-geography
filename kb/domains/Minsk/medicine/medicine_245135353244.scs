@@ -1,0 +1,26 @@
+ concept_medicine_245135353244
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["МНПЦ хирургии, трансплантологии и гематологии, неврологическое отделение № 4"]
+	(* <- lang_ru;; <- name;;*);
+    ["МНПЦ хирургии, трансплантологии и гематологии, неврологическое отделение № 4"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Семашко, 8к3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 277-18-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.858584,27.494372"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://msth.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

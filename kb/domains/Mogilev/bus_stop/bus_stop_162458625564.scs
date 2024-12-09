@@ -1,0 +1,26 @@
+ concept_bus_stop_162458625564
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["ОАО Могилёвтехмонтаж"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОАО Могилёвтехмонтаж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Космонавтов"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.895405,30.297023"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

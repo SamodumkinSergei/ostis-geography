@@ -1,0 +1,26 @@
+ concept_tire_fitting_144068013154
+ <- concept_tire_fitting;
+=>nrel_main_idtf:
+	["Шиномонтаж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Шиномонтаж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого, 93"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 317-51-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905509,27.440096"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://shinland.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

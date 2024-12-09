@@ -1,0 +1,26 @@
+ concept_clothes_shop_45435678797
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Одежда из Европы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Одежда из Европы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Грюнвальдская улица, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 703-51-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб,вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.933919,30.250305"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://secondbel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

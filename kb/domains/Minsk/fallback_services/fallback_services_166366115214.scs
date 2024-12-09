@@ -1,0 +1,26 @@
+ concept_fallback_services_166366115214
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Могилки"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилки"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кунцевщина, 36"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 732-96-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.913964,27.437387"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mogilki.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

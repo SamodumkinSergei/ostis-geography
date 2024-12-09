@@ -1,0 +1,26 @@
+ concept_college_243414279296
+ <- concept_college;
+=>nrel_main_idtf:
+	["Факультет повышения квалификации и переподготовки БГУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Факультет повышения квалификации и переподготовки БГУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Кальварийская улица, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 259-70-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905527,27.532816"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://fpk.bsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

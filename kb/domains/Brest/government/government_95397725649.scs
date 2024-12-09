@@ -1,0 +1,26 @@
+ concept_government_95397725649
+ <- concept_government;
+=>nrel_main_idtf:
+	["Брестское ЖКХ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестское ЖКХ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Фомина, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 229-04-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:45, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.091617,23.671081"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.brgkh.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_college_190833047550
+ <- concept_college;
+=>nrel_main_idtf:
+	["Шаг"]
+	(* <- lang_ru;; <- name;;*);
+    ["Шаг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Карла Маркса, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 706-85-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–22:00; сб,вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.899572,27.561261"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://itstep.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_government_1122606232
+ <- concept_government;
+=>nrel_main_idtf:
+	["Управление Департамента финансовых расследований КГК по Витебской области"]
+	(* <- lang_ru;; <- name;;*);
+    ["Управление Департамента финансовых расследований КГК по Витебской области"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Правды, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 263-36-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.189502,30.209284"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.kgk.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_restaurants_220160627729
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Бамбук"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бамбук"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Мельникайте, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 605-69-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906695,27.541668"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

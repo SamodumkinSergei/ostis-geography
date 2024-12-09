@@ -1,0 +1,26 @@
+ concept_bus_stop_190241998764
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Стадион Гомсельмаш"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стадион Гомсельмаш"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Космонавтов"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.452461,30.963339"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

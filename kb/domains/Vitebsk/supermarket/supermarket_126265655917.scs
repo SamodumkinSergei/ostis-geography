@@ -1,0 +1,26 @@
+ concept_supermarket_126265655917
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Лаванда"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лаванда"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, 2-я Заречная улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 214-07-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.159433,30.14608"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

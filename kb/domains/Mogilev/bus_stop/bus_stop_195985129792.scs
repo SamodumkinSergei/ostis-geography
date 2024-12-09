@@ -1,0 +1,26 @@
+ concept_bus_stop_195985129792
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Магазин Универсал"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин Универсал"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Славгородское шоссе"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.860177,30.364371"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

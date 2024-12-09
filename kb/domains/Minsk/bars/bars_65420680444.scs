@@ -1,0 +1,26 @@
+ concept_bars_65420680444
+ <- concept_bars;
+=>nrel_main_idtf:
+	["Ресторан-клуб Crazy Horse"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ресторан-клуб Crazy Horse"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 305-66-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пт,сб 20:00–05:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.886296,27.580784"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

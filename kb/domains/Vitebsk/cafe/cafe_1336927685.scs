@@ -1,0 +1,26 @@
+ concept_cafe_1336927685
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Coffee House"]
+	(* <- lang_ru;; <- name;;*);
+    ["Coffee House"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Южная Карелия, регион Лаппеенранта, муниципалитет Лаппеенранта, Торговая улица, 29-31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+358 107621350"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:00–21:00; пт 08:00–23:00; сб 09:00–23:00; вс 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["61.05928,28.18471"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://prismafinland.ru/magaziny/kafe-coffee-house"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

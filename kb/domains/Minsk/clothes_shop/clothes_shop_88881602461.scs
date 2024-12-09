@@ -1,0 +1,26 @@
+ concept_clothes_shop_88881602461
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Ochnik"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ochnik"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 65"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 394-02-64"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.925803,27.517915"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ochnik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

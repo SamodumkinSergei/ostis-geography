@@ -1,0 +1,26 @@
+ concept_malls_37750718899
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Пивной фей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пивной фей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Восточная улица, 129"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 706-57-23"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–23:00; пт-вс 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.939312,27.597838"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

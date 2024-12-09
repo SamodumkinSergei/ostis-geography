@@ -1,0 +1,26 @@
+ concept_malls_1083334538
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Дом сантехники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дом сантехники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Терешковой, 3А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 263-48-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–19:00; вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.178113,30.246357"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dom-san.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

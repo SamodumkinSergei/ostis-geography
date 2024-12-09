@@ -1,0 +1,26 @@
+ concept_museum_27214391569
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей истории потребительской кооперации Витебской области"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей истории потребительской кооперации Витебской области"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Белорусская улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 260-68-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:30–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.1952,30.190089"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vitoblpo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

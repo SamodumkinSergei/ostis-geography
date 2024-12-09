@@ -1,0 +1,26 @@
+ concept_drugstores_244843914417
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Минская Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минская Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Боровлянский сельсовет, Лесной, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 265-17-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:15, перерыв 13:30–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.998133,27.685317"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://minfarm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

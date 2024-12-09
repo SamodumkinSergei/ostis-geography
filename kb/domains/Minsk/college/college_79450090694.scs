@@ -1,0 +1,26 @@
+ concept_college_79450090694
+ <- concept_college;
+=>nrel_main_idtf:
+	["Ректорат БГУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ректорат БГУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Бобруйская улица, 5А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 209-52-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.893017,27.545685"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

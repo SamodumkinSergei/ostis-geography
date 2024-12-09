@@ -1,0 +1,26 @@
+ concept_tailor_1933198299
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["КлючНик Плюс"]
+	(* <- lang_ru;; <- name;;*);
+    ["КлючНик Плюс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 326"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 666-82-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.098751,23.757851"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ключник.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

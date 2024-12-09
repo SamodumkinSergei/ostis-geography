@@ -1,0 +1,26 @@
+ concept_furniture_store_1135113838
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["АС-Гранд-Тех"]
+	(* <- lang_ru;; <- name;;*);
+    ["АС-Гранд-Тех"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лещинского, 8к4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 672-51-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911737,27.453577"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mebelminska.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

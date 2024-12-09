@@ -1,0 +1,26 @@
+ concept_supermarket_26640788963
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Маяк"]
+	(* <- lang_ru;; <- name;;*);
+    ["Маяк"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Быховская улица, 107"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 144-70-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.411816,30.974942"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mayak-bel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

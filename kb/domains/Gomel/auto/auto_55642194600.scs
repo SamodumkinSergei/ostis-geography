@@ -1,0 +1,26 @@
+ concept_auto_55642194600
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Гомель СТО"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомель СТО"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, 3-я Витебская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 305-10-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.489515,31.00472"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://blrs.by/sto-gomel-1"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

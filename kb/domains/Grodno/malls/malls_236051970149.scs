@@ -1,0 +1,26 @@
+ concept_malls_236051970149
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Палац"]
+	(* <- lang_ru;; <- name;;*);
+    ["Палац"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Калючинская улица, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 262-03-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.679503,23.831092"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://tc-palac.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

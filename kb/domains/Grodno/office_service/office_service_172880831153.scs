@@ -1,0 +1,26 @@
+ concept_office_service_172880831153
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["ГродноТоргСервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГродноТоргСервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Подольная улица, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 271-85-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.671526,23.834131"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.grodnotorgservice.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

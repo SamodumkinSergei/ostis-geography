@@ -1,0 +1,26 @@
+ concept_cafe_22014226743
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Руккола"]
+	(* <- lang_ru;; <- name;;*);
+    ["Руккола"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 60"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 770-30-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.438955,31.00335"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://rukkola-gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

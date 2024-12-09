@@ -1,0 +1,26 @@
+ concept_fallback_services_219006519533
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Данотон"]
+	(* <- lang_ru;; <- name;;*);
+    ["Данотон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Челюскинцев, 155"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 263-20-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.885378,30.280405"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://danoton.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

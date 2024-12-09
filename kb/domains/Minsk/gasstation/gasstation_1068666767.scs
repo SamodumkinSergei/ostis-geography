@@ -1,0 +1,26 @@
+ concept_gasstation_1068666767
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["А-100"]
+	(* <- lang_ru;; <- name;;*);
+    ["А-100"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 8А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 541-06-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 03:30–03:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.880751,27.597189"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://a-100.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

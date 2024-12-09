@@ -1,0 +1,26 @@
+ concept_college_1328869506
+ <- concept_college;
+=>nrel_main_idtf:
+	["Академия Искусств"]
+	(* <- lang_ru;; <- name;;*);
+    ["Академия Искусств"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 82"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 573-74-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.922342,27.607843"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bdam.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_swimming_pool_38805193996
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Iswim.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Iswim.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Юрия Семеняко, 38"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 333-03-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["сб 16:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.874726,27.45238"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://iswim.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

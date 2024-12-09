@@ -1,0 +1,26 @@
+ concept_museum_1007629044
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Могилёвский городской центр культуры и досуга"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилёвский городской центр культуры и досуга"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Первомайская улица, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 222-76-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб 11:00–20:00; вс 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906686,30.339237"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kultura.mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

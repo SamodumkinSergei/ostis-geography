@@ -1,0 +1,26 @@
+ concept_theatre_1250503218
+ <- concept_theatre;
+=>nrel_main_idtf:
+	["Гродненский областной театр кукол"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненский областной театр кукол"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Дзержинского, 1/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 255-98-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 12:00–19:00, перерыв 14:00–14:30; сб,вс 09:30–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.685322,23.836069"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.grodnolyalka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

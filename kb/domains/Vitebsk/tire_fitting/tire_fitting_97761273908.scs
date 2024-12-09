@@ -1,0 +1,26 @@
+ concept_tire_fitting_97761273908
+ <- concept_tire_fitting;
+=>nrel_main_idtf:
+	["Шиномонтаж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Шиномонтаж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Петруся Бровки, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 719-54-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–19:00; вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.167485,30.243145"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

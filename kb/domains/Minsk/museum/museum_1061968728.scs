@@ -1,0 +1,26 @@
+ concept_museum_1061968728
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Дом-музей 1-го съезда РСДРП"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дом-музей 1-го съезда РСДРП"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 31А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 290-68-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–18:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907833,27.571599"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://domusmuseum.histmuseum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

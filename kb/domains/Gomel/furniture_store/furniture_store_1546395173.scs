@@ -1,0 +1,26 @@
+ concept_furniture_store_1546395173
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Частное предприятие ДокаДомострой"]
+	(* <- lang_ru;; <- name;;*);
+    ["Частное предприятие ДокаДомострой"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Костюковка, Первомайская улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 342-12-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.534997,30.91314"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

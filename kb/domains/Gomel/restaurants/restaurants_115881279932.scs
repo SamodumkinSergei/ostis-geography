@@ -1,0 +1,26 @@
+ concept_restaurants_115881279932
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Villa Grilla"]
+	(* <- lang_ru;; <- name;;*);
+    ["Villa Grilla"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Фестивальный, Волгоградская улица, 45"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 531-92-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 13:00–23:00; пт,сб 15:00–02:00; вс 13:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.409746,30.95046"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

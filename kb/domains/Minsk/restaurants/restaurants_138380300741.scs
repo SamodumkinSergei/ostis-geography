@@ -1,0 +1,26 @@
+ concept_restaurants_138380300741
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Pon-Pizza"]
+	(* <- lang_ru;; <- name;;*);
+    ["Pon-Pizza"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Чижовка, улица Уборевича, 60"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 504-49-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.84272,27.649731"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pon-pizza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

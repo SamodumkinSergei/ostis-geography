@@ -1,0 +1,26 @@
+ concept_supermarket_1248243715
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Алми"]
+	(* <- lang_ru;; <- name;;*);
+    ["Алми"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Скрипникова, 15А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 391-06-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.891254,27.42093"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://almi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

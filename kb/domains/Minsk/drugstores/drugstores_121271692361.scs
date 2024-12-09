@@ -1,0 +1,26 @@
+ concept_drugstores_121271692361
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Доминантафарм"]
+	(* <- lang_ru;; <- name;;*);
+    ["Доминантафарм"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сергея Есенина, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 388-47-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 10:00–20:00; вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.851978,27.456077"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_concert_hall_101884877937
+ <- concept_concert_hall;
+=>nrel_main_idtf:
+	["San Remo"]
+	(* <- lang_ru;; <- name;;*);
+    ["San Remo"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 26А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 599-59-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 18:00–04:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.42963,31.011587"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sanremobar.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

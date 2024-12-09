@@ -1,0 +1,26 @@
+ concept_bus_stop_36673362699
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Лидская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Лидская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Белуша"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.671439,23.854608"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

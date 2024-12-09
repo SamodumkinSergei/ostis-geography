@@ -1,0 +1,26 @@
+ concept_medicine_1065413794
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Воронежская городская клиническая поликлиника № 1, корпус № 4"]
+	(* <- lang_ru;; <- name;;*);
+    ["Воронежская городская клиническая поликлиника № 1, корпус № 4"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Воронеж, улица Чайковского, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (473) 253-03-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–15:00; сб 08:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["51.674817,39.20378"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gp1.zdrav36.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

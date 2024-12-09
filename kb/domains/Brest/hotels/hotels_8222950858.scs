@@ -1,0 +1,26 @@
+ concept_hotels_8222950858
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Гостевой дом Лесная"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гостевой дом Лесная"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Д. Старое Село, Новый Переулок, Д. 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.155925,23.654578"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

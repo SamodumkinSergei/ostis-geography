@@ -1,0 +1,26 @@
+ concept_college_1029659340
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа Мазоловская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа Мазоловская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебский район, Мазоловский сельсовет, агрогородок Мазолово, улица Мелиораторов, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 229-57-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.276322,30.135707"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mazolovo.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

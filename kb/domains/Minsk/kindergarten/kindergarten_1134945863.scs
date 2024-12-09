@@ -1,0 +1,26 @@
+ concept_kindergarten_1134945863
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 273"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 273"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Калиновского, 89"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 379-83-97"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.945686,27.639784"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu273.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

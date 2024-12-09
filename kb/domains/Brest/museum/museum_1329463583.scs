@@ -1,0 +1,26 @@
+ concept_museum_1329463583
+ <- concept_museum;
+=>nrel_main_idtf:
+	["ГУК Мухавецкий сельский дом культуры"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУК Мухавецкий сельский дом культуры"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брестский район, агрогородок Мухавец, улица 60 лет Октября, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 294-71-44"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср-вс 12:00–21:00, перерыв 16:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.029791,23.801281"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://agrotour.biz/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

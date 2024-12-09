@@ -1,0 +1,26 @@
+ concept_cinemas_14512316168
+ <- concept_cinemas;
+=>nrel_main_idtf:
+	["Дом кино"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дом кино"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Янки Купалы, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 260-32-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–21:40"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.196924,30.206639"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.kino.vitebsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

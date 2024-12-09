@@ -1,0 +1,26 @@
+ concept_college_27156482046
+ <- concept_college;
+=>nrel_main_idtf:
+	["МГЛУ, корпус Д"]
+	(* <- lang_ru;; <- name;;*);
+    ["МГЛУ, корпус Д"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Петра Румянцева, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 294-76-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:15, перерыв 13:00–13:30; пт 08:30–16:00, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.908308,27.57916"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mslu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

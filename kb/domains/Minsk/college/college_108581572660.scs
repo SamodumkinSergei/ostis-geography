@@ -1,0 +1,26 @@
+ concept_college_108581572660
+ <- concept_college;
+=>nrel_main_idtf:
+	["Факультет Предпринимательства и Управления БГАТУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Факультет Предпринимательства и Управления БГАТУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 99"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 323-42-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:15–17:00, перерыв 13:00–13:30; пт 08:15–15:45, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.927195,27.622462"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bsatu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

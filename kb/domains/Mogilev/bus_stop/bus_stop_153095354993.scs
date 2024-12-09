@@ -1,0 +1,26 @@
+ concept_bus_stop_153095354993
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Сосновая улица"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сосновая улица"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Сосновая улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.866961,30.39198"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

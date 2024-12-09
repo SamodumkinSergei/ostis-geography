@@ -1,0 +1,26 @@
+ concept_bus_stop_64776946793
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Универсам Брянский"]
+	(* <- lang_ru;; <- name;;*);
+    ["Универсам Брянский"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Огоренко"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.475021,31.022431"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

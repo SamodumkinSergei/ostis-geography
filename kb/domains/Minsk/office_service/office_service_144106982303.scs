@@ -1,0 +1,26 @@
+ concept_office_service_144106982303
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Hovanka.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Hovanka.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Папернянский сельсовет, деревня Дубовляны, Центральная улица, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 917-48-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.001908,27.541628"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://hovanka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

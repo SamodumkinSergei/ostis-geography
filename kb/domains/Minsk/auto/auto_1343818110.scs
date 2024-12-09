@@ -1,0 +1,26 @@
+ concept_auto_1343818110
+ <- concept_auto;
+=>nrel_main_idtf:
+	["ТранспортерСервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["ТранспортерСервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Монтажников, 9/5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 620-43-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–19:00; сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.870791,27.411248"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://tsplus.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

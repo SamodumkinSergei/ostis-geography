@@ -1,0 +1,26 @@
+ concept_theatre_1090167548
+ <- concept_theatre;
+=>nrel_main_idtf:
+	["Большой театр Беларуси"]
+	(* <- lang_ru;; <- name;;*);
+    ["Большой театр Беларуси"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, площадь Парижской Коммуны, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 243-10-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.909991,27.561106"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://bolshoibelarus.by/rus/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_library_1125604202
+ <- concept_library;
+=>nrel_main_idtf:
+	["Гродненская городская центральная библиотека имени Андрея Макаенка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненская городская центральная библиотека имени Андрея Макаенка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Советских Пограничников, 51/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 269-68-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.669658,23.81943"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.nlb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

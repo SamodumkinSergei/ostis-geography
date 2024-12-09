@@ -1,0 +1,26 @@
+ concept_travel_agency_12505069301
+ <- concept_travel_agency;
+=>nrel_main_idtf:
+	["Dolce Vita"]
+	(* <- lang_ru;; <- name;;*);
+    ["Dolce Vita"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельский район, Чёнковский сельсовет, посёлок Чёнки, улица Мира, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 516-92-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.35293,30.99164"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

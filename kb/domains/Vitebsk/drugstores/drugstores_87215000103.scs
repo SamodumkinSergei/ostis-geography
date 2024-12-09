@@ -1,0 +1,26 @@
+ concept_drugstores_87215000103
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Ясса, аптека № 6"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясса, аптека № 6"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Генерала Белобородова, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 227-07-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.182541,30.201147"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

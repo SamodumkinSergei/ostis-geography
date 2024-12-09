@@ -1,0 +1,26 @@
+ concept_cafe_1005815920
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Сити"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сити"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Октября, 46"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 154-04-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.405483,30.942058"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gomel-city.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_hotels_148416196853
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Арена"]
+	(* <- lang_ru;; <- name;;*);
+    ["Арена"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Чижовка, Ташкентская улица, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 330-01-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.84063,27.629554"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://hotelarena.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

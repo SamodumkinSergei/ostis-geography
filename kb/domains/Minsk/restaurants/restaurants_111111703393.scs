@@ -1,0 +1,26 @@
+ concept_restaurants_111111703393
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Банкетное бюро отеля Минск"]
+	(* <- lang_ru;; <- name;;*);
+    ["Банкетное бюро отеля Минск"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 11к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 209-92-24"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 12:00–12:48; пт 08:30–16:30, перерыв 12:00–12:48"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897335,27.549233"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://hotelminsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

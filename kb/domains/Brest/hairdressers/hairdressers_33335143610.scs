@@ -1,0 +1,26 @@
+ concept_hairdressers_33335143610
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Эвита-салон"]
+	(* <- lang_ru;; <- name;;*);
+    ["Эвита-салон"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Лейтенанта Рябцева, 108"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 844-44-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,ср,чт,пт 09:00–19:00; сб 09:00–18:00; вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.136913,23.675273"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

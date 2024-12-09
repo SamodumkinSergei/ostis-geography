@@ -1,0 +1,26 @@
+ concept_fast_food_38363444459
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Grill Manero"]
+	(* <- lang_ru;; <- name;;*);
+    ["Grill Manero"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Ждановичский сельсовет, 83"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 126-60-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:15–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.962406,27.428298"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

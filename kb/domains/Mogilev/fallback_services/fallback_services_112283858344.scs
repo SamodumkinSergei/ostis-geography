@@ -1,0 +1,26 @@
+ concept_fallback_services_112283858344
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Бел Вий"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бел Вий"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Тимирязевская улица, 25А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 815-01-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–16:00; сб 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.912627,30.339817"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://belvii.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

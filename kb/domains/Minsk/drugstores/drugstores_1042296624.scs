@@ -1,0 +1,26 @@
+ concept_drugstores_1042296624
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Пимена Панченко, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 507-25-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:30–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.882101,27.424364"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://tabletka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

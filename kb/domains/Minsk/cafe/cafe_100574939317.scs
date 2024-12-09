@@ -1,0 +1,26 @@
+ concept_cafe_100574939317
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Хазар"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хазар"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Долгобродская улица, 46"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 295-22-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–20:00; пт,сб 12:00–05:00; вс 12:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.88205,27.621268"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

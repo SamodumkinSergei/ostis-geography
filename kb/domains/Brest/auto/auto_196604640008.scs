@@ -1,0 +1,26 @@
+ concept_auto_196604640008
+ <- concept_auto;
+=>nrel_main_idtf:
+	["АвтоСпецифика"]
+	(* <- lang_ru;; <- name;;*);
+    ["АвтоСпецифика"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица 28 Июля, 50"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 357-02-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб,вс 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.079143,23.737111"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://asbrest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

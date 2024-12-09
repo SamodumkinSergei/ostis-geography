@@ -1,0 +1,26 @@
+ concept_kindergarten_1016476218
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 338/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 235-50-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.103244,23.765533"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ds2brest.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

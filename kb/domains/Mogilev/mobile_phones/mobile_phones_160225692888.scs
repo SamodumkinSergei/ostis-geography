@@ -1,0 +1,26 @@
+ concept_mobile_phones_160225692888
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Dr. Mobilka"]
+	(* <- lang_ru;; <- name;;*);
+    ["Dr. Mobilka"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Холмы, Витебский проспект, 4В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 629-63-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.883248,30.406404"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

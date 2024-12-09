@@ -1,0 +1,26 @@
+ concept_supermarket_15880934298
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Евроопт Market"]
+	(* <- lang_ru;; <- name;;*);
+    ["Евроопт Market"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Центральный район, микрорайон Лебяжий, Ильянская улица, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 788-88-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.932969,27.473535"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.euroopt.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

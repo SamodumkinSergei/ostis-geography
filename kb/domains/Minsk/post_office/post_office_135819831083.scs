@@ -1,0 +1,26 @@
+ concept_post_office_135819831083
+ <- concept_post_office;
+=>nrel_main_idtf:
+	["Бизнес-Почта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бизнес-Почта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Логойский тракт, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+357 17 352 14 67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.941813,27.605499"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belpost.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

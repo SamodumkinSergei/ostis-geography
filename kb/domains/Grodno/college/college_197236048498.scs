@@ -1,0 +1,26 @@
+ concept_college_197236048498
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гродненский государственный университет им. Я. Купалы, факультет физической культуры"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненский государственный университет им. Я. Купалы, факультет физической культуры"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Захарова, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 275-42-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:30–13:00; сб 08:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.678762,23.846802"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ffc.grsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

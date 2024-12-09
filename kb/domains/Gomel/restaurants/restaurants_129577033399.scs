@@ -1,0 +1,26 @@
+ concept_restaurants_129577033399
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Nravizza pizza"]
+	(* <- lang_ru;; <- name;;*);
+    ["Nravizza pizza"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Косарева, 53"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 588-36-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:30–21:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.400522,30.923151"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://nravizza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

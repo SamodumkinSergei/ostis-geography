@@ -1,0 +1,26 @@
+ concept_malls_1243149652
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Outleto"]
+	(* <- lang_ru;; <- name;;*);
+    ["Outleto"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Жукова, 44"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 366-46-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.8768,27.517762"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://outleto.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

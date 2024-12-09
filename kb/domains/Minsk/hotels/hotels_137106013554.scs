@@ -1,0 +1,26 @@
+ concept_hotels_137106013554
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Монастырский"]
+	(* <- lang_ru;; <- name;;*);
+    ["Монастырский"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кирилла и Мефодия, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 329-03-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.905094,27.557606"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://monastyrski.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

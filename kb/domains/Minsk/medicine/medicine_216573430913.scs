@@ -1,0 +1,26 @@
+ concept_medicine_216573430913
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["РНПЦ пульмонологии и фтизиатрии"]
+	(* <- lang_ru;; <- name;;*);
+    ["РНПЦ пульмонологии и фтизиатрии"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Долгиновский тракт, 157"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 289-87-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–21:00; вс 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.962884,27.52661"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.rnpcpf.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

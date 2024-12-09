@@ -1,0 +1,26 @@
+ concept_theatre_211697107013
+ <- concept_theatre;
+=>nrel_main_idtf:
+	["Театр кукол"]
+	(* <- lang_ru;; <- name;;*);
+    ["Театр кукол"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Ленина, 56"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 225-57-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 10:00–19:00, перерыв 14:00–15:00; сб,вс 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.089849,23.686959"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.puppet-brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

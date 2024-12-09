@@ -1,0 +1,26 @@
+ concept_fallback_services_129010378178
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Современный сервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Современный сервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, микрорайон Форты-1, улица Врублевского, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 132-38-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.700527,23.806406"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sovservis.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

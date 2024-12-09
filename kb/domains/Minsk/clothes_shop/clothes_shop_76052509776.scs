@@ -1,0 +1,26 @@
+ concept_clothes_shop_76052509776
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Секонд хэнд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Секонд хэнд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Волгоградская улица, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 10:00–20:00; вс 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.928574,27.625946"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

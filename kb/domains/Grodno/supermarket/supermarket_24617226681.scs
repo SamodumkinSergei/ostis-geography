@@ -1,0 +1,26 @@
+ concept_supermarket_24617226681
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Гродноторгсервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродноторгсервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Индурское шоссе, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 271-85-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.622099,23.865434"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://grodnotorgservice.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

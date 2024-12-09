@@ -1,0 +1,26 @@
+ concept_malls_5995756183
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Barracuda"]
+	(* <- lang_ru;; <- name;;*);
+    ["Barracuda"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Генерала Белобородова, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 267-85-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,вт,чт,пт,сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.182629,30.19968"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://fishmix.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

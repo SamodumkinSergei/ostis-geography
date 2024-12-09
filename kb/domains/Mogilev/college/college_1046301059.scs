@@ -1,0 +1,26 @@
+ concept_college_1046301059
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 37"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 37"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, бульвар Непокорённых, 70"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 224-96-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.870272,30.343861"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://37mogilev.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

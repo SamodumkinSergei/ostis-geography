@@ -1,0 +1,26 @@
+ concept_supermarket_186514865650
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Явар"]
+	(* <- lang_ru;; <- name;;*);
+    ["Явар"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Боровлянский сельсовет, Лесной, 19А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 265-58-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["54.004391,27.680262"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

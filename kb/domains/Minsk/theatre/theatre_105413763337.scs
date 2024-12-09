@@ -1,0 +1,26 @@
+ concept_theatre_105413763337
+ <- concept_theatre;
+=>nrel_main_idtf:
+	["Театральная мастерская Наталии Башевой"]
+	(* <- lang_ru;; <- name;;*);
+    ["Театральная мастерская Наталии Башевой"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Фрунзе, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 396-30-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–19:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90636,27.574786"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kdtminsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

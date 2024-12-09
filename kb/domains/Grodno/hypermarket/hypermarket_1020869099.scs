@@ -1,0 +1,26 @@
+ concept_hypermarket_1020869099
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Трафик"]
+	(* <- lang_ru;; <- name;;*);
+    ["Трафик"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Победы, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 781-65-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.649688,23.83587"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://trafik-grodno.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

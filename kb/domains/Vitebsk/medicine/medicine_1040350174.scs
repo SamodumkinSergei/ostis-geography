@@ -1,0 +1,26 @@
+ concept_medicine_1040350174
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городская поликлиника № 4 имени В. И. Ленина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская поликлиника № 4 имени В. И. Ленина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Богдана Хмельницкого, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 226-17-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб,вс 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.186083,30.208019"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.vgcp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_bus_stop_15194183581
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["ГЦ Перекрёсток"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГЦ Перекрёсток"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пушкинский проспект"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 04:51–00:11; сб,вс 04:58–00:10"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.881266,30.336015"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

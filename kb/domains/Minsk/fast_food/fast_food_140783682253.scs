@@ -1,0 +1,26 @@
+ concept_fast_food_140783682253
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Гемо"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гемо"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 58А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 653-33-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.918138,27.590066"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

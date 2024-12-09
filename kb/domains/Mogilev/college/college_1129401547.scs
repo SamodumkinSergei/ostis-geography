@@ -1,0 +1,26 @@
+ concept_college_1129401547
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 41"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 41"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Фатина, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 224-38-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–21:00; сб 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.883375,30.371061"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://school41.mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

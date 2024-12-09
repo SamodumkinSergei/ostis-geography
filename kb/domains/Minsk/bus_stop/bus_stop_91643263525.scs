@@ -1,0 +1,26 @@
+ concept_bus_stop_91643263525
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Станция метро Московская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Станция метро Московская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 96А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.92819,27.629335"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

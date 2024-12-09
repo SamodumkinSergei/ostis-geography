@@ -1,0 +1,26 @@
+ concept_hypermarket_1107201986
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["БелКукла"]
+	(* <- lang_ru;; <- name;;*);
+    ["БелКукла"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Заднепровье-4, Резервная улица, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 276-94-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.877806,30.331108"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://belkukla.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

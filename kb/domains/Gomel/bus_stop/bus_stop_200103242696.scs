@@ -1,0 +1,26 @@
+ concept_bus_stop_200103242696
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Гаражно-строительный кооператив"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гаражно-строительный кооператив"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Лепешинского"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.481692,30.983596"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

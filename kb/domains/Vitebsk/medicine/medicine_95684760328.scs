@@ -1,0 +1,26 @@
+ concept_medicine_95684760328
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["УЗ Могилёвская поликлиника № 3"]
+	(* <- lang_ru;; <- name;;*);
+    ["УЗ Могилёвская поликлиника № 3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Тишки Гартного, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 268-00-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–20:00; сб 09:00–18:00; вс 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.930406,30.248657"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mogcp.by/clinic/clinics-adults/clinic3"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

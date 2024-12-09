@@ -1,0 +1,26 @@
+ concept_baby_shop_79849480412
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Igraika.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Igraika.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Руссиянова, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 238-75-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.93845,27.685761"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://igraika.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

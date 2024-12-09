@@ -1,0 +1,26 @@
+ concept_college_1000675880
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 4 г. Бреста"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 4 г. Бреста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московский район, микрорайон Волынка, Волынская улица, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 256-04-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.065646,23.689574"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://4brest.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_fallback_services_1011919235
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Изготовление памятников"]
+	(* <- lang_ru;; <- name;;*);
+    ["Изготовление памятников"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, 1-й переулок Куйбышева, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 615-78-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.871816,30.354686"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

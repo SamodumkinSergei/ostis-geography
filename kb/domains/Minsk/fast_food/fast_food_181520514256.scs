@@ -1,0 +1,26 @@
+ concept_fast_food_181520514256
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Папа Донер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Папа Донер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Могилёвская улица, 12А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 357-11-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.88444,27.54254"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://papadoner.foodpicasso.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

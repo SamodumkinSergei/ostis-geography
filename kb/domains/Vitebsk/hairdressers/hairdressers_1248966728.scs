@@ -1,0 +1,26 @@
+ concept_hairdressers_1248966728
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Для тебя"]
+	(* <- lang_ru;; <- name;;*);
+    ["Для тебя"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Мира, 24к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 711-49-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00; вс 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.197205,30.237934"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

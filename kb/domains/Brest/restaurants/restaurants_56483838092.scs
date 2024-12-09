@@ -1,0 +1,26 @@
+ concept_restaurants_56483838092
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Кусочек пиццы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кусочек пиццы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Адамковская улица, 45"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 240-80-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.10145,23.655759"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://venezia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

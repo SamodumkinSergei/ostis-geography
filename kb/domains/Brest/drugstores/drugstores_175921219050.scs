@@ -1,0 +1,26 @@
+ concept_drugstores_175921219050
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Мелисса"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мелисса"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, бульвар Космонавтов, 66"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 240-52-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.095889,23.698325"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

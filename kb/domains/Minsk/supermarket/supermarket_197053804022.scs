@@ -1,0 +1,26 @@
+ concept_supermarket_197053804022
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Фреш маркет Лайм"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фреш маркет Лайм"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Гая, 36Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 500-09-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.93557,27.563059"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.thefresh.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

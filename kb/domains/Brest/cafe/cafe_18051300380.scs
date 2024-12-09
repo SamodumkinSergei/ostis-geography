@@ -1,0 +1,26 @@
+ concept_cafe_18051300380
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Столовая-раздаточная № 3"]
+	(* <- lang_ru;; <- name;;*);
+    ["Столовая-раздаточная № 3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Лейтенанта Рябцева, 27/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 226-34-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 12:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.11733,23.673451"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

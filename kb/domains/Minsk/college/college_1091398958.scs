@@ -1,0 +1,26 @@
+ concept_college_1091398958
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 3"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Московский район, Грушевка, 3-й Железнодорожный переулок, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 338-87-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.884807,27.522711"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch3.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

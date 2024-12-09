@@ -1,0 +1,26 @@
+ concept_cafe_51838343325
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Гарадзенская кавярня"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гарадзенская кавярня"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Карла Маркса, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–23:00; пт,сб 10:00–00:00; вс 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.677904,23.83153"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

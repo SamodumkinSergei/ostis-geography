@@ -1,0 +1,26 @@
+ concept_supermarket_1167288277
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Перекресток"]
+	(* <- lang_ru;; <- name;;*);
+    ["Перекресток"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Ленинская улица, 14/10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 265-22-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.89716,30.335386"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://perekrestok24.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

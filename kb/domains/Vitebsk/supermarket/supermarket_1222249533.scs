@@ -1,0 +1,26 @@
+ concept_supermarket_1222249533
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Бакалея"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бакалея"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Базовая улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 235-51-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.223717,30.09676"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.vitbakaleya.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

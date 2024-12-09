@@ -1,0 +1,26 @@
+ concept_hairdressers_1174356484
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Zebra"]
+	(* <- lang_ru;; <- name;;*);
+    ["Zebra"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Суворова, 108"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 252-11-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–20:00; вс 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.072185,23.759405"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

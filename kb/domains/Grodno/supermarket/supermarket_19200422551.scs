@@ -1,0 +1,26 @@
+ concept_supermarket_19200422551
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Купалинка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Купалинка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, микрорайон Фолюш, улица Фолюш, 15/193"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (0152) 60-26-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.666379,23.777076"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

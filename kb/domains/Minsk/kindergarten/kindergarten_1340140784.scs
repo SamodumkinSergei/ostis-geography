@@ -1,0 +1,26 @@
+ concept_kindergarten_1340140784
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 300"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 300"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Надеждинская улица, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 374-51-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878897,27.565721"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu300.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

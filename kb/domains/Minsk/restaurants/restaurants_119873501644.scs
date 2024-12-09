@@ -1,0 +1,26 @@
+ concept_restaurants_119873501644
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Пицца Лисицца"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пицца Лисицца"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Газеты Правда, 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 755-66-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–03:00; пт 10:00–00:00; сб,вс круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.867942,27.484368"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://pzz.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

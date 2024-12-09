@@ -1,0 +1,26 @@
+ concept_fast_food_233980807729
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Boeing"]
+	(* <- lang_ru;; <- name;;*);
+    ["Boeing"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельский район, Улуковский сельсовет, 46"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 811-00-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.428791,31.073567"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_hotels_1259680357
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Тарасово Усадьба"]
+	(* <- lang_ru;; <- name;;*);
+    ["Тарасово Усадьба"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Ждановичский сельсовет, деревня Тарасово, Олимпийский переулок, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 628-47-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.914045,27.376622"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

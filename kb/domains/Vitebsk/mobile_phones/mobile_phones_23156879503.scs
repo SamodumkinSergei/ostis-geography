@@ -1,0 +1,26 @@
+ concept_mobile_phones_23156879503
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Ремонт сотовых телефонов"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт сотовых телефонов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 81к33А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 710-50-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 09:00–18:00, перерыв 12:00–13:00; сб 09:00–15:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.19272,30.251569"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gsm1.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

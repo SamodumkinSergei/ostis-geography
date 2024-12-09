@@ -1,0 +1,26 @@
+ concept_bus_stop_55352335912
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Дом науки и техники"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дом науки и техники"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Максима Горького"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.69807,23.819598"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

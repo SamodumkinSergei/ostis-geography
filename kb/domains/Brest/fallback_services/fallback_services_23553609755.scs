@@ -1,0 +1,26 @@
+ concept_fallback_services_23553609755
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Фор Метрум"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фор Метрум"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Машерова, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 823-75-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.085354,23.694754"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

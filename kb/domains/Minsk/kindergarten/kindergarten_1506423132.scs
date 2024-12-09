@@ -1,0 +1,26 @@
+ concept_kindergarten_1506423132
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 222"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 222"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Фрунзенский район, Домбровка-3, улица Алеся Гаруна, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 378-20-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.921149,27.444594"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu222.minsk.edu.by/?m=1"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

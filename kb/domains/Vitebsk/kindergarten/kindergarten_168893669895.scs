@@ -1,0 +1,26 @@
+ concept_kindergarten_168893669895
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Малинка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Малинка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Правды, 66К"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 346-31-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–20:00, перерыв 13:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.18489,30.234141"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.malinkaclub.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

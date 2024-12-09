@@ -1,0 +1,26 @@
+ concept_cafe_1113152743
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Surf Coffee"]
+	(* <- lang_ru;; <- name;;*);
+    ["Surf Coffee"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кирова, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 330-69-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–23:00; сб,вс 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897147,27.55925"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://linktr.ee/surfcoffee.minsk"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

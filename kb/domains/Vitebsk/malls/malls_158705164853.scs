@@ -1,0 +1,26 @@
+ concept_malls_158705164853
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Спортмастер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Спортмастер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Строителей, 15Г"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 222-10-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.170586,30.217703"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.sportmaster.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

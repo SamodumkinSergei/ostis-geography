@@ -1,0 +1,26 @@
+ concept_drugstores_1710927086
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека № 194/2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека № 194/2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Героев Подпольщиков, 13А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 235-89-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:40–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.466348,30.972643"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gomelpharm.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

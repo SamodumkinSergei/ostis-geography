@@ -1,0 +1,26 @@
+ concept_auto_80206989899
+ <- concept_auto;
+=>nrel_main_idtf:
+	["FIT SERVICE"]
+	(* <- lang_ru;; <- name;;*);
+    ["FIT SERVICE"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Санкт-Петербург, Витебский проспект, 106"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (812) 982-28-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["59.835823,30.372337"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://spb.fitauto.ru/?utm_campaign=spb&utm_medium=map&utm_source=yandex"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

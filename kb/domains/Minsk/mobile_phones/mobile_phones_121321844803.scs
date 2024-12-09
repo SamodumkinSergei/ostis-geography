@@ -1,0 +1,26 @@
+ concept_mobile_phones_121321844803
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["White Service"]
+	(* <- lang_ru;; <- name;;*);
+    ["White Service"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Брилевская улица, 8к2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 982-20-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.877636,27.532595"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://white-service.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_furniture_store_226833699317
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Мебель для офиса"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мебель для офиса"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Ленинский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 720-10-76"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.139117,23.673771"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

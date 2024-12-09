@@ -1,0 +1,26 @@
+ concept_fallback_services_1316147031
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["МемориСтоун"]
+	(* <- lang_ru;; <- name;;*);
+    ["МемориСтоун"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Даумана, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 757-27-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.919277,27.551074"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://memoristoun.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

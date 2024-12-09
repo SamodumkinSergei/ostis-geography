@@ -1,0 +1,26 @@
+ concept_restaurants_181180349629
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Чаровница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Чаровница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Рабочая улица, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 259-25-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.452123,30.977997"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_hotels_1056767388
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Сити"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сити"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Октября, 46"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 140-62-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.405519,30.942163"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gomel-city.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

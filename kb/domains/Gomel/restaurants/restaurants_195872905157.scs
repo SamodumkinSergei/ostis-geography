@@ -1,0 +1,26 @@
+ concept_restaurants_195872905157
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["БаРак"]
+	(* <- lang_ru;; <- name;;*);
+    ["БаРак"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Федосеенко, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 693-78-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.449784,30.993726"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://barak.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

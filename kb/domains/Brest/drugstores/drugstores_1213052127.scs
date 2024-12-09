@@ -1,0 +1,26 @@
+ concept_drugstores_1213052127
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация, аптека № 105"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация, аптека № 105"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Ленина, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 220-00-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб 09:00–20:00; вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.087915,23.686504"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://brest.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

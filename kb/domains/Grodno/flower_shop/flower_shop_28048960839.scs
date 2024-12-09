@@ -1,0 +1,26 @@
+ concept_flower_shop_28048960839
+ <- concept_flower_shop;
+=>nrel_main_idtf:
+	["Цветочка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Цветочка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Ольги Соломовой, 82"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 373-38-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.663393,23.784754"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://kypit-tsvety-grodno.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

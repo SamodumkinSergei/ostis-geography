@@ -1,0 +1,26 @@
+ concept_bus_stop_203510387580
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Домбровского"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Домбровского"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Домбровского"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.706703,23.795154"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

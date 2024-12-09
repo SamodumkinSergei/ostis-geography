@@ -1,0 +1,26 @@
+ concept_college_1048136064
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 8"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 8"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Минский переулок, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 242-22-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.931935,30.339799"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://school8.mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_college_1048288665
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 10"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 10"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Броневой переулок, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 354-63-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90619,27.581344"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://10minsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

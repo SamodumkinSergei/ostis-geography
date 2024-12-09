@@ -1,0 +1,26 @@
+ concept_kindergarten_1196606527
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 40 г. Могилёва"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 40 г. Могилёва"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Плеханова, 14Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 271-36-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.896528,30.323628"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sad40mogilev.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

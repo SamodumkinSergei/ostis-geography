@@ -1,0 +1,26 @@
+ concept_college_1104865532
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Генерала Белобородова, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 262-33-97"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.18365,30.201216"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://2vitebsk.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

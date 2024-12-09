@@ -1,0 +1,26 @@
+ concept_college_1023925545
+ <- concept_college;
+=>nrel_main_idtf:
+	["Библейский колледж ХВЕ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Библейский колледж ХВЕ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Бельского, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 213-03-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90507,27.483202"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://biblecollege.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_college_34468211588
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гомельский государственный технический университет имени П. О. Сухого, учебный корпус № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельский государственный технический университет имени П. О. Сухого, учебный корпус № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Октября, 48/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 222-46-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.405581,30.937928"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gstu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

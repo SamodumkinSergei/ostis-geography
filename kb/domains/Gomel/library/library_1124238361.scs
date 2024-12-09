@@ -1,0 +1,26 @@
+ concept_library_1124238361
+ <- concept_library;
+=>nrel_main_idtf:
+	["Библиотека-филиал № 10 имени В. Ю. Драгунского"]
+	(* <- lang_ru;; <- name;;*);
+    ["Библиотека-филиал № 10 имени В. Ю. Драгунского"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, микрорайон Старый Аэродром, улица Тимофеенко, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 231-34-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,вт,ср,чт,сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.456477,30.996931"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ggcbs.gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

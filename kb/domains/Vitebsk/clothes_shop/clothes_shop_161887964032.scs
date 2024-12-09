@@ -1,0 +1,26 @@
+ concept_clothes_shop_161887964032
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Семейный"]
+	(* <- lang_ru;; <- name;;*);
+    ["Семейный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чкалова, 25Г"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 710-21-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб,вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.167922,30.207624"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

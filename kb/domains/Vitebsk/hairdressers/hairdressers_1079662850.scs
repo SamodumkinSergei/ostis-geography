@@ -1,0 +1,26 @@
+ concept_hairdressers_1079662850
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Дана"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дана"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Титова, 117"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 226-33-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–19:00; вс 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.196661,30.151561"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

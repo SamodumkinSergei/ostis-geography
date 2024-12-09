@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_58036412865
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Новобелицкий комбинат хлебопродуктов филиал Гомельхлебопродукт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Новобелицкий комбинат хлебопродуктов филиал Гомельхлебопродукт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Коренёвское шоссе, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 227-73-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30, перерыв 12:00–12:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.385054,31.043451"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_railway_station_172914803629
+ <- concept_railway_station;
+=>nrel_main_idtf:
+	["Станция Гомель-Северный"]
+	(* <- lang_ru;; <- name;;*);
+    ["Станция Гомель-Северный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Железнодорожный район, микрорайон Сельмаш"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 295-55-79"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:00–20:45, перерывы 10:45–13:00, 15:45–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.455312,30.945492"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

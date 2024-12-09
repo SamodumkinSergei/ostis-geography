@@ -1,0 +1,26 @@
+ concept_hotels_90599628948
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Апартаменты House on Tsentralnaya street"]
+	(* <- lang_ru;; <- name;;*);
+    ["Апартаменты House on Tsentralnaya street"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Центральная улица, 184"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 720-95-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.076637,23.761769"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_college_1057844385
+ <- concept_college;
+=>nrel_main_idtf:
+	["Вспомогательная школа г. Могилёва"]
+	(* <- lang_ru;; <- name;;*);
+    ["Вспомогательная школа г. Могилёва"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Лазаренко, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 274-37-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903591,30.323366"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vspomshkola.mogilev.by/contact.html"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

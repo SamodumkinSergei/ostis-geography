@@ -1,0 +1,26 @@
+ concept_supermarket_48002793605
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Светофор"]
+	(* <- lang_ru;; <- name;;*);
+    ["Светофор"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Веры Хоружей, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 392-52-81"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.921811,27.563584"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.svetofor-info.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

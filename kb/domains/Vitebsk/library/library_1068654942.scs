@@ -1,0 +1,26 @@
+ concept_library_1068654942
+ <- concept_library;
+=>nrel_main_idtf:
+	["Библиотека имени А. Пушкина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Библиотека имени А. Пушкина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Максима Горького, 61"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 234-36-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–19:00; сб,вс 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.173134,30.154482"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://cbsvit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

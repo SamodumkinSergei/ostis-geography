@@ -1,0 +1,26 @@
+ concept_furniture_store_168406251840
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Goodsleep.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Goodsleep.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гоголя, 85А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 534-88-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб,вс 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.092874,23.706217"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://goodsleep.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_hairdressers_1073972637
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Илона"]
+	(* <- lang_ru;; <- name;;*);
+    ["Илона"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Якуба Коласа, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 256-07-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–20:00; вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.445261,30.970285"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_furniture_store_1118087996
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["БелДрев"]
+	(* <- lang_ru;; <- name;;*);
+    ["БелДрев"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Советской Армии, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 898-38-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–18:00; вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.197635,30.189438"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

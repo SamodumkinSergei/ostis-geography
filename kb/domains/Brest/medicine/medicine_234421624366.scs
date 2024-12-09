@@ -1,0 +1,26 @@
+ concept_medicine_234421624366
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Приемное отделение, Брестская областная клиническая больница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Приемное отделение, Брестская областная клиническая больница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Медицинская улица, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 227-21-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.106227,23.814816"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.hospital.brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

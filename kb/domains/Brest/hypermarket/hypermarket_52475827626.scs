@@ -1,0 +1,26 @@
+ concept_hypermarket_52475827626
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Альтагамма"]
+	(* <- lang_ru;; <- name;;*);
+    ["Альтагамма"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Коммерческая улица, 17А/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 500-40-18"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.129771,23.766576"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.altagamma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

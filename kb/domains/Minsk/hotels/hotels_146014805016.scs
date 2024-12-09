@@ -1,0 +1,26 @@
+ concept_hotels_146014805016
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Сезоны"]
+	(* <- lang_ru;; <- name;;*);
+    ["Сезоны"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Боровлянский сельсовет, Дроздово, Центральная улица, 23"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 751-05-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.982923,27.610044"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

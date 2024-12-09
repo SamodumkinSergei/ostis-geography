@@ -1,0 +1,26 @@
+ concept_cafe_195002353596
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Кафе бар"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафе бар"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Академика Купревича, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 269-66-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.92684,27.685808"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_kindergarten_1128230134
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 194"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 194"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Олега Кошевого, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 369-24-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.882164,27.602917"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu194.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

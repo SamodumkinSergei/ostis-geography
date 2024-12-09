@@ -1,0 +1,26 @@
+ concept_college_1347839983
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГУО Средняя школа № 218 г. Минска"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО Средняя школа № 218 г. Минска"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сергея Есенина, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 373-80-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.847238,27.461138"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch218.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

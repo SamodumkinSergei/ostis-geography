@@ -1,0 +1,26 @@
+ concept_college_188394885109
+ <- concept_college;
+=>nrel_main_idtf:
+	["Студенческий отдел кадров БГЭУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Студенческий отдел кадров БГЭУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 229-12-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878491,27.606678"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bseu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

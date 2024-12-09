@@ -1,0 +1,26 @@
+ concept_bus_stop_172523846803
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Школа № 46"]
+	(* <- lang_ru;; <- name;;*);
+    ["Школа № 46"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Баграмяна"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.168305,30.265737"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

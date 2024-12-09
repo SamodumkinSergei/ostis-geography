@@ -1,0 +1,26 @@
+ concept_furniture_store_171552505827
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Kulik system"]
+	(* <- lang_ru;; <- name;;*);
+    ["Kulik system"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Матусевича, 35"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 778-98-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916987,27.453307"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kulik-system.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_hairdressers_225026524602
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Парикмахерская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парикмахерская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Октябрьский район, микрорайон Курасовщина, Брестская улица, 2/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 638-08-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.864713,27.528601"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.autosit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

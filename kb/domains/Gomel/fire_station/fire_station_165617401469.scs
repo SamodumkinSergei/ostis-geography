@@ -1,0 +1,26 @@
+ concept_fire_station_165617401469
+ <- concept_fire_station;
+=>nrel_main_idtf:
+	["Central fire station"]
+	(* <- lang_ru;; <- name;;*);
+    ["Central fire station"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Хайфа, Хелец, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+972 4 860 1200"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["32.799094,35.021351"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.102.co.il/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

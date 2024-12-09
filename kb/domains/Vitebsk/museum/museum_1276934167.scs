@@ -1,0 +1,26 @@
+ concept_museum_1276934167
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Дом-музей Марка Шагала"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дом-музей Марка Шагала"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Кондратьева, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 266-34-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.200349,30.190672"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://chagal.vitebsk.museum.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

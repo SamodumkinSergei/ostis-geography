@@ -1,0 +1,26 @@
+ concept_office_service_178186173737
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["СДЭК"]
+	(* <- lang_ru;; <- name;;*);
+    ["СДЭК"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Янки Купалы, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 777-44-28"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб 10:00–18:00; вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.197064,30.206068"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://cdek.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

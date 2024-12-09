@@ -1,0 +1,26 @@
+ concept_restaurants_1338374349
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Baldenini"]
+	(* <- lang_ru;; <- name;;*);
+    ["Baldenini"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Центральный район, микрорайон Новинки, Будславская улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 773-21-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.959354,27.537214"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://baldenini.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

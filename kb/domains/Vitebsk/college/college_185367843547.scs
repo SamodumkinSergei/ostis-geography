@@ -1,0 +1,26 @@
+ concept_college_185367843547
+ <- concept_college;
+=>nrel_main_idtf:
+	["100 Баллов"]
+	(* <- lang_ru;; <- name;;*);
+    ["100 Баллов"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Толстого, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 737-71-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 15:00–20:00; сб 10:00–18:00; вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.19484,30.204908"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.100ballov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

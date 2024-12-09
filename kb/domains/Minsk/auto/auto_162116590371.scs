@@ -1,0 +1,26 @@
+ concept_auto_162116590371
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Ремонт глушителя"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт глушителя"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Бабушкина, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 134-34-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб,вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.814807,27.586017"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ремонтглушителей.бел/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

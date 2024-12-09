@@ -1,0 +1,26 @@
+ concept_college_1042462521
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 26"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 26"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Ленинградская улица, 41"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 225-13-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.111243,23.77776"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch26.brestgoo.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

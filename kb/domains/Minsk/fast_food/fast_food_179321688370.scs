@@ -1,0 +1,26 @@
+ concept_fast_food_179321688370
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Шаурмар"]
+	(* <- lang_ru;; <- name;;*);
+    ["Шаурмар"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 84А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 616-12-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.869475,27.647033"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_railway_terminal_121059928647
+ <- concept_railway_terminal;
+=>nrel_main_idtf:
+	["Зал ожидания"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зал ожидания"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Ленинский район, микрорайон Граевка"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:00–21:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.101546,23.680453"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_auto_232560933153
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Авто Семали"]
+	(* <- lang_ru;; <- name;;*);
+    ["Авто Семали"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Маяковского, 79А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 318-08-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.876491,27.570803"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.semali.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

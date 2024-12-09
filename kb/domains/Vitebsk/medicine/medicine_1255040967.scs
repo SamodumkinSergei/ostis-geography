@@ -1,0 +1,26 @@
+ concept_medicine_1255040967
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["ГУ Ибб Навт НЗ Украины Поликлиническое отделение № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУ Ибб Навт НЗ Украины Поликлиническое отделение № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Одеська область, Іллічівська міська рада, селище Олександрівка, вулиця Перемоги, 64"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+380 (48) 686-00-87"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00; сб 08:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["46.332128,30.625428"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

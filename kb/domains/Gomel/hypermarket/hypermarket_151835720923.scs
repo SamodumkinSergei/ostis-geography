@@ -1,0 +1,26 @@
+ concept_hypermarket_151835720923
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Стройматериалы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стройматериалы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Техническая улица, 2А/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 592-58-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00; вс 08:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.363555,31.019096"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

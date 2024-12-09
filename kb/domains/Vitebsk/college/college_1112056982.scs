@@ -1,0 +1,26 @@
+ concept_college_1112056982
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гимназия № 5 имени И. И. Людникова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гимназия № 5 имени И. И. Людникова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чкалова, 19А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 264-27-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.173987,30.206633"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gymn5.pervroo-vitebsk.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

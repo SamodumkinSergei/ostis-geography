@@ -1,0 +1,26 @@
+ concept_college_36968047153
+ <- concept_college;
+=>nrel_main_idtf:
+	["Белорусский государственный университет транспорта, старый корпус"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белорусский государственный университет транспорта, старый корпус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Комсомольская улица, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 295-39-41"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.431996,31.003184"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bsut.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

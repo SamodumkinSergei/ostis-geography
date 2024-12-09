@@ -1,0 +1,26 @@
+ concept_college_86245850529
+ <- concept_college;
+=>nrel_main_idtf:
+	["Кафедра физического воспитания и спорта факультета физического воспитания БГПУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кафедра физического воспитания и спорта факультета физического воспитания БГПУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Советская улица, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 200-89-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:30, перерыв 12:30–13:15; пт 08:30–16:15, перерыв 12:30–13:15"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.894541,27.545305"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ffv.bspu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

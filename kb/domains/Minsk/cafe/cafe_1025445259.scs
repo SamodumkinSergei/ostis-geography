@@ -1,0 +1,26 @@
+ concept_cafe_1025445259
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["PizzaMania"]
+	(* <- lang_ru;; <- name;;*);
+    ["PizzaMania"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Маяковского, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 393-62-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.88292,27.567464"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pizzamania.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

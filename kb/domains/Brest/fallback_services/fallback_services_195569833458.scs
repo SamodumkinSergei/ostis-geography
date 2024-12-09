@@ -1,0 +1,26 @@
+ concept_fallback_services_195569833458
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Багажное отделение вокзала станции Брест-центральный"]
+	(* <- lang_ru;; <- name;;*);
+    ["Багажное отделение вокзала станции Брест-центральный"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Привокзальная площадь, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 225-70-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.101275,23.682869"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_museum_1002923613
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Галерея Тизенгауз"]
+	(* <- lang_ru;; <- name;;*);
+    ["Галерея Тизенгауз"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, площадь Антония Тызенгауза, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 272-27-57"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–18:00; сб,вс 11:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.684951,23.833728"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://grodno.in/exhibition/tizengauz/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

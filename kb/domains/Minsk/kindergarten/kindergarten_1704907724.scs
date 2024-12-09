@@ -1,0 +1,26 @@
+ concept_kindergarten_1704907724
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Тукитук"]
+	(* <- lang_ru;; <- name;;*);
+    ["Тукитук"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Газеты Правда, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 640-32-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00, перерыв 13:00–17:00; сб 09:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.86964,27.48851"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.tukituk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

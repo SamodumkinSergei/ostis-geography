@@ -1,0 +1,26 @@
+ concept_hairdressers_1773220412
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["На Успенской"]
+	(* <- lang_ru;; <- name;;*);
+    ["На Успенской"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Комиссара Крылова, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 260-60-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.195863,30.204902"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

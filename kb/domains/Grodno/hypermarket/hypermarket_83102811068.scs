@@ -1,0 +1,26 @@
+ concept_hypermarket_83102811068
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["ОМА"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОМА"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Обухова, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 268-30-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.678224,23.869198"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.oma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

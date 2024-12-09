@@ -1,0 +1,26 @@
+ concept_hotels_46872539426
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["About"]
+	(* <- lang_ru;; <- name;;*);
+    ["About"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Максима Богдановича, 129А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 674-93-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.923689,27.567913"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bgpack.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

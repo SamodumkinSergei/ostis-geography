@@ -1,0 +1,26 @@
+ concept_medicine_1129705044
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["13-я городская поликлиника"]
+	(* <- lang_ru;; <- name;;*);
+    ["13-я городская поликлиника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ломоносова, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 272-44-14"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.930927,27.597644"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.13gp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

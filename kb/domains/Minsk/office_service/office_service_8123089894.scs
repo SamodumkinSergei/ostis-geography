@@ -1,0 +1,26 @@
+ concept_office_service_8123089894
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["ЦСВ"]
+	(* <- lang_ru;; <- name;;*);
+    ["ЦСВ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Щомыслицкий сельсовет, 72А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 898-28-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.832035,27.464229"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.csv.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

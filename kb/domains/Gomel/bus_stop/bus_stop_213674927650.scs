@@ -1,0 +1,26 @@
+ concept_bus_stop_213674927650
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Предприятие Красная гвоздика"]
+	(* <- lang_ru;; <- name;;*);
+    ["Предприятие Красная гвоздика"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Железнодорожный район, микрорайон Новая Жизнь, Аграрная улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.489254,30.970725"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

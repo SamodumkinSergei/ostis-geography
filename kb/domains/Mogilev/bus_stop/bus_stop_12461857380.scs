@@ -1,0 +1,26 @@
+ concept_bus_stop_12461857380
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Рабочий посёлок"]
+	(* <- lang_ru;; <- name;;*);
+    ["Рабочий посёлок"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Челюскинцев"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.882263,30.269995"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

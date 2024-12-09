@@ -1,0 +1,26 @@
+ concept_medicine_1021018818
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Городская гинекологическая больница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская гинекологическая больница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Сенницкая улица, 53"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 205-42-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.874873,27.551769"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

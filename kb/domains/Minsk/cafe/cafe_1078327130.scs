@@ -1,0 +1,26 @@
+ concept_cafe_1078327130
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["У Пунтуса"]
+	(* <- lang_ru;; <- name;;*);
+    ["У Пунтуса"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Папернянский сельсовет, деревня Приморье, Центральная улица, 5Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 365-02-65"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–00:00; пт,сб 09:00–02:00; вс 09:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.990517,27.483076"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://u-puntusa.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

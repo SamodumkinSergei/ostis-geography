@@ -1,0 +1,26 @@
+ concept_college_97054159506
+ <- concept_college;
+=>nrel_main_idtf:
+	["Школа Underground Language Club"]
+	(* <- lang_ru;; <- name;;*);
+    ["Школа Underground Language Club"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Немига, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 555-59-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–20:00; сб 10:00–17:00; вс 11:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.902348,27.549886"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ulc.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

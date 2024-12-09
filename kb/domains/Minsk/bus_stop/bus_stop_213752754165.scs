@@ -1,0 +1,26 @@
+ concept_bus_stop_213752754165
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Веры Слуцкой"]
+	(* <- lang_ru;; <- name;;*);
+    ["Веры Слуцкой"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Червякова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.930808,27.547755"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

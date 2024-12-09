@@ -1,0 +1,26 @@
+ concept_swimming_pool_82693853110
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Термы Ист Ривер"]
+	(* <- lang_ru;; <- name;;*);
+    ["Термы Ист Ривер"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Калужская область, Боровский район, Балабаново, Зелёная улица, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (920) 611-98-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 17:00–22:00; вт-чт 14:00–22:00; пт,сб 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.190036,36.683366"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.istriver-hotel.com/termy"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_college_1075065187
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа Кадинская"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа Кадинская"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёвский район, Кадинский сельсовет, агрогородок Кадино, Центральная улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 221-96-30"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878895,30.508366"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kadino.mogilev.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

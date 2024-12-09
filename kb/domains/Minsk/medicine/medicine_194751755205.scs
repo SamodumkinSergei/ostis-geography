@@ -1,0 +1,26 @@
+ concept_medicine_194751755205
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["1-я Городская Клиническая больница, Приёмное отделение Гинекологии"]
+	(* <- lang_ru;; <- name;;*);
+    ["1-я Городская Клиническая больница, Приёмное отделение Гинекологии"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 64к6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 292-20-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср,пт 15:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.918003,27.596715"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://1gkb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

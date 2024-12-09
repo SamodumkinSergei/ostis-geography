@@ -1,0 +1,26 @@
+ concept_auto_1178977789
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Экспресс СТО Texx Service"]
+	(* <- lang_ru;; <- name;;*);
+    ["Экспресс СТО Texx Service"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Машиностроителей, 32/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 755-99-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00; сб 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.850162,27.669443"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://texx.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

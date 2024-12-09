@@ -1,0 +1,26 @@
+ concept_fallback_services_108903714235
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Память"]
+	(* <- lang_ru;; <- name;;*);
+    ["Память"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чкалова, 30Ак2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 610-38-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб,вс 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.168846,30.212527"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

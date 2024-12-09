@@ -1,0 +1,26 @@
+ concept_malls_1183256204
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Краник люкс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Краник люкс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 161Д"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 567-80-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.378101,31.026128"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.kranlux.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

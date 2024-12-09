@@ -1,0 +1,26 @@
+ concept_government_1076682156
+ <- concept_government;
+=>nrel_main_idtf:
+	["Комитет государственного контроля Витебской области"]
+	(* <- lang_ru;; <- name;;*);
+    ["Комитет государственного контроля Витебской области"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ленина, 15"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 237-30-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.188997,30.205861"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.kgk.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

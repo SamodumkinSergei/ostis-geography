@@ -1,0 +1,26 @@
+ concept_college_1105569462
+ <- concept_college;
+=>nrel_main_idtf:
+	["БНТУ, международный институт дистанционного образования"]
+	(* <- lang_ru;; <- name;;*);
+    ["БНТУ, международный институт дистанционного образования"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Франциска Скорины, 25, корп. 20"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 266-26-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.930569,27.668699"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mido.bntu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

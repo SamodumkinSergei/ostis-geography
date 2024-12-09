@@ -1,0 +1,26 @@
+ concept_bus_stop_48624926423
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Санаторная школа-интернат"]
+	(* <- lang_ru;; <- name;;*);
+    ["Санаторная школа-интернат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, улица Бакунина"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.933739,30.290513"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

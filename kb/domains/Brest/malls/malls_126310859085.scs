@@ -1,0 +1,26 @@
+ concept_malls_126310859085
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Торговый флот"]
+	(* <- lang_ru;; <- name;;*);
+    ["Торговый флот"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Лейтенанта Рябцева, 52"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 629-73-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.120563,23.670255"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://trubokomplekt.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

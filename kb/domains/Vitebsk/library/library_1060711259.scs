@@ -1,0 +1,26 @@
+ concept_library_1060711259
+ <- concept_library;
+=>nrel_main_idtf:
+	["Библиотека имени Л. Толстого"]
+	(* <- lang_ru;; <- name;;*);
+    ["Библиотека имени Л. Толстого"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Герцена, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 266-07-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.17972,30.189491"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.cbsvit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

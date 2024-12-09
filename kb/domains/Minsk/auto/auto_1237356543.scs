@@ -1,0 +1,26 @@
+ concept_auto_1237356543
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Автоаргумент"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автоаргумент"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Воронянского, 50, корп. 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 625-75-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб,вс 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.876473,27.552519"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://stalirina.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

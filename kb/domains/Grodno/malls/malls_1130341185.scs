@@ -1,0 +1,26 @@
+ concept_malls_1130341185
+ <- concept_malls;
+=>nrel_main_idtf:
+	["ГродноПакПласт"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГродноПакПласт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Щорса, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 260-50-93"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00; сб 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.678924,23.855846"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pakplast.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

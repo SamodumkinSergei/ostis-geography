@@ -1,0 +1,26 @@
+ concept_museum_1003968282
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Дворец культуры Гомсельмаш"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дворец культуры Гомсельмаш"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, проспект Космонавтов, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 259-25-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–21:30; вс 08:00–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.448188,30.968134"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dk.gomselmash.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

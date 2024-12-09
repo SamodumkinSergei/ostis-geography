@@ -1,0 +1,26 @@
+ concept_restaurants_1282390216
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Друзья"]
+	(* <- lang_ru;; <- name;;*);
+    ["Друзья"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кульман, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 396-58-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 10:00–02:00; пт,сб 10:00–03:00; вс 10:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.927932,27.568004"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://druzya.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

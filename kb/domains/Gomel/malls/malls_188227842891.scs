@@ -1,0 +1,26 @@
+ concept_malls_188227842891
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Хозтовары"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хозтовары"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Мазурова, 60"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 170-94-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.455658,31.023712"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

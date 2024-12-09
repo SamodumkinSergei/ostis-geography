@@ -1,0 +1,26 @@
+ concept_malls_170981328049
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Торговый ряд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Торговый ряд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Бурдейного, 6к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 365-54-80"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 09:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904821,27.456766"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://zahodni.agroservis6.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

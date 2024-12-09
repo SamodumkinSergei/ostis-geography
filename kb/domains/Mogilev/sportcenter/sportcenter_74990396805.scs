@@ -1,0 +1,26 @@
+ concept_sportcenter_74990396805
+ <- concept_sportcenter;
+=>nrel_main_idtf:
+	["Олимп"]
+	(* <- lang_ru;; <- name;;*);
+    ["Олимп"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Пушкинский проспект, 43"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 311-51-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–02:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.876987,30.33885"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://biliard-mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

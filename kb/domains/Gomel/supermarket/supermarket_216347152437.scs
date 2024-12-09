@@ -1,0 +1,26 @@
+ concept_supermarket_216347152437
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["ОРС Гомель"]
+	(* <- lang_ru;; <- name;;*);
+    ["ОРС Гомель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Калинина, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 295-23-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.439908,30.982594"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

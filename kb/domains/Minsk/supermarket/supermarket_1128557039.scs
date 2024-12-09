@@ -1,0 +1,26 @@
+ concept_supermarket_1128557039
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Рынок Уральский"]
+	(* <- lang_ru;; <- name;;*);
+    ["Рынок Уральский"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Фроликова, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 331-72-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901554,27.612552"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

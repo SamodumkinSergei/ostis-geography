@@ -1,0 +1,26 @@
+ concept_kindergarten_1021131931
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Детский сад-начальная школа № 7 г. Бреста"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский сад-начальная школа № 7 г. Бреста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Луцкая улица, 36А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 293-58-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.077661,23.748608"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://upk7.brestgoo.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

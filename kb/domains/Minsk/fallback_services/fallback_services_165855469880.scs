@@ -1,0 +1,26 @@
+ concept_fallback_services_165855469880
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Shop-energo.by - электротехническая продукция"]
+	(* <- lang_ru;; <- name;;*);
+    ["Shop-energo.by - электротехническая продукция"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинский район, микрорайон Лошица, улица Прушинских, 31А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 777-94-94"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.834329,27.580191"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://shop-energo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

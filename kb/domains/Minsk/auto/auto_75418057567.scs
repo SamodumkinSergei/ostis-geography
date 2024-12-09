@@ -1,0 +1,26 @@
+ concept_auto_75418057567
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Dat Service"]
+	(* <- lang_ru;; <- name;;*);
+    ["Dat Service"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, агрогородок Ждановичи, Белорусская улица, 40"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 703-77-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–19:00; сб 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.941082,27.409342"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://datserv.business.site/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

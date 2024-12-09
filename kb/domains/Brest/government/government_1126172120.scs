@@ -1,0 +1,26 @@
+ concept_government_1126172120
+ <- concept_government;
+=>nrel_main_idtf:
+	["Отдел социальной защиты администрации Московского района г. Бреста"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отдел социальной защиты администрации Московского района г. Бреста"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 273"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 234-25-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.098887,23.766836"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://komtsz.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

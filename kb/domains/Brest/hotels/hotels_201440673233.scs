@@ -1,0 +1,26 @@
+ concept_hotels_201440673233
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Хостел Брест-Литовск"]
+	(* <- lang_ru;; <- name;;*);
+    ["Хостел Брест-Литовск"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Привокзальная площадь, 3А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 688-60-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.099697,23.67778"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

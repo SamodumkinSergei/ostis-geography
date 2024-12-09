@@ -1,0 +1,26 @@
+ concept_kindergarten_1014999354
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["ГУО Брилёвский детский сад Гомельского района"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО Брилёвский детский сад Гомельского района"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельская область, Гомельский район, Красненский сельсовет, агрогородок Мичуринская, улица Мира, 29А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 290-73-95"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.474441,30.968925"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sad-brilevo.gomel.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

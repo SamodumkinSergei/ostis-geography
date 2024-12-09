@@ -1,0 +1,26 @@
+ concept_furniture_store_230709640980
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["ИП Хвалей"]
+	(* <- lang_ru;; <- name;;*);
+    ["ИП Хвалей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, 2-я Заводская улица, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 720-19-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.101505,23.747486"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dveri-kupe.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

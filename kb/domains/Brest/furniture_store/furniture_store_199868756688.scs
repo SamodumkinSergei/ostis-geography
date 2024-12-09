@@ -1,0 +1,26 @@
+ concept_furniture_store_199868756688
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["СеСлав-сервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["СеСлав-сервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, микрорайон Красный Двор, 108Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 791-17-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.081402,23.797676"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://seslav.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_library_1184527900
+ <- concept_library;
+=>nrel_main_idtf:
+	["Центральная городская библиотека им. А. И. Герцена"]
+	(* <- lang_ru;; <- name;;*);
+    ["Центральная городская библиотека им. А. И. Герцена"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Советская улица, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 234-14-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,вт,ср,чт,сб,вс 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.429884,31.011426"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gorbibl.gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

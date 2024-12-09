@@ -1,0 +1,26 @@
+ concept_medicine_1007127968
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гродненская областная инфекционная клиническая больница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненская областная инфекционная клиническая больница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, бульвар Ленинского Комсомола, 57"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 243-52-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.697159,23.789879"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://goicb.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

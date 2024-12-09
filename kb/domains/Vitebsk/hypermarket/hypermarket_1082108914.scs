@@ -1,0 +1,26 @@
+ concept_hypermarket_1082108914
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Лента"]
+	(* <- lang_ru;; <- name;;*);
+    ["Лента"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Революционная улица, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 236-50-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.198507,30.192081"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://lentabel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

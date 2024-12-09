@@ -1,0 +1,26 @@
+ concept_medicine_1026440074
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["МУЗ городская поликлиника № 3"]
+	(* <- lang_ru;; <- name;;*);
+    ["МУЗ городская поликлиника № 3"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Ростовская область, Волгодонск, улица Ленина, 106"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+7 (8639) 22-43-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–20:00; сб 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["47.509988,42.163767"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

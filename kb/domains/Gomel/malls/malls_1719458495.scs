@@ -1,0 +1,26 @@
+ concept_malls_1719458495
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Офис Поинт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Офис Поинт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Крестьянская улица, 26"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 790-48-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 10:00–19:00; вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.426596,31.006883"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

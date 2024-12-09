@@ -1,0 +1,26 @@
+ concept_protestant_church_148396367522
+ <- concept_protestant_church;
+=>nrel_main_idtf:
+	["Дом молитвы евангельских христиан"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дом молитвы евангельских христиан"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Вычулки, 9"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 246-40-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт,пт,сб,вс 17:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.097233,23.790192"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.rusbaptist.stunda.org/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

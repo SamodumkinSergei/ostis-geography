@@ -1,0 +1,26 @@
+ concept_gasstation_1112841540
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["АГЗС № 3 Витебскоблгаз"]
+	(* <- lang_ru;; <- name;;*);
+    ["АГЗС № 3 Витебскоблгаз"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Петруся Бровки, 42, корп. 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 258-39-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.160681,30.238296"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

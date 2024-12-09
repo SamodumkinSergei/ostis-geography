@@ -1,0 +1,26 @@
+ concept_office_service_18013246676
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["E-trade"]
+	(* <- lang_ru;; <- name;;*);
+    ["E-trade"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Комсомольская улица, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 333-37-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901662,27.552953"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://e-trade.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

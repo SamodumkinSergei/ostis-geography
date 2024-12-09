@@ -1,0 +1,26 @@
+ concept_library_1245245241
+ <- concept_library;
+=>nrel_main_idtf:
+	["Библиотека имени Янки Купалы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Библиотека имени Янки Купалы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Покровская улица, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 236-00-71"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 09:00–19:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.198403,30.190893"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://cbsvit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

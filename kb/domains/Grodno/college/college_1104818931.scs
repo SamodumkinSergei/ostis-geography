@@ -1,0 +1,26 @@
+ concept_college_1104818931
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 11 имени генерала армии А. И. Антонова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 11 имени генерала армии А. И. Антонова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Белуша, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 271-22-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.672788,23.848618"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sch11grodno.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_concert_hall_179662134051
+ <- concept_concert_hall;
+=>nrel_main_idtf:
+	["Serebro karaoke room"]
+	(* <- lang_ru;; <- name;;*);
+    ["Serebro karaoke room"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Якуба Коласа, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 330-70-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 20:00–05:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.925724,27.592526"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

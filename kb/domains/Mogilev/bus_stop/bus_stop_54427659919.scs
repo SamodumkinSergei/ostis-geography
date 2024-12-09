@@ -1,0 +1,26 @@
+ concept_bus_stop_54427659919
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Гипермаркет ГИППО"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гипермаркет ГИППО"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Габровская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.873176,30.362787"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

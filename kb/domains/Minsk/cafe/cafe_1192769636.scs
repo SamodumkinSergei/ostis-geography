@@ -1,0 +1,26 @@
+ concept_cafe_1192769636
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Штолле"]
+	(* <- lang_ru;; <- name;;*);
+    ["Штолле"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Свердлова, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 677-90-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.893659,27.553538"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://stolle.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_medicine_35836224803
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гокб медицинской реабилитации Терапевтическое отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гокб медицинской реабилитации Терапевтическое отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Коммунальная улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 277-20-62"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.687415,23.825288"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gokbmr.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_tailor_90771017504
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Ремонт одежды"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт одежды"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Веры Хоружей, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 653-53-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00, перерыв 14:00–15:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.922956,27.556624"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

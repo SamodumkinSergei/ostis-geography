@@ -1,0 +1,26 @@
+ concept_hotels_1016147851
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Дружба"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дружба"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Коммерческая улица, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 241-13-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.13441,23.774826"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://druzbahotel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

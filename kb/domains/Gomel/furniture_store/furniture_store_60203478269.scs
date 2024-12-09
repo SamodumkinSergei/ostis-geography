@@ -1,0 +1,26 @@
+ concept_furniture_store_60203478269
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Aupi"]
+	(* <- lang_ru;; <- name;;*);
+    ["Aupi"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Каменщикова, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 675-90-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.470464,31.014013"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://aupi.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_kindergarten_1019247859
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Детский сад № 394"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детский сад № 394"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Шишкина, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 235-04-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.861654,27.629423"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu394.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

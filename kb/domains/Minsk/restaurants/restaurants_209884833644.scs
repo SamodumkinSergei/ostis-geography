@@ -1,0 +1,26 @@
+ concept_restaurants_209884833644
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Nravizza"]
+	(* <- lang_ru;; <- name;;*);
+    ["Nravizza"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лещинского, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 113-69-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:30–21:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.906838,27.452653"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://nravizza.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

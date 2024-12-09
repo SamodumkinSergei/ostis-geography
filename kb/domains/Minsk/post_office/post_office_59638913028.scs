@@ -1,0 +1,26 @@
+ concept_post_office_59638913028
+ <- concept_post_office;
+=>nrel_main_idtf:
+	["Европочта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Европочта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Машерова, 51"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 535-36-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–21:00; сб,вс 09:00–21:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911268,27.528691"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://evropochta.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

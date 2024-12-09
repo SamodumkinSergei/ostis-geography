@@ -1,0 +1,26 @@
+ concept_clothes_shop_202655875612
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Секонд хенд № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Секонд хенд № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Богдана Хмельницкого, 67"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 151-32-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.422718,30.972747"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_cafe_93987415762
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Багата хата"]
+	(* <- lang_ru;; <- name;;*);
+    ["Багата хата"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гурова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 500-80-08"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-ср 11:00–21:00; чт-сб 11:00–23:00; вс 11:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.105085,23.680912"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

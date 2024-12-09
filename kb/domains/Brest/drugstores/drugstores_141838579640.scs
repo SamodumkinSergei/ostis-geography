@@ -1,0 +1,26 @@
+ concept_drugstores_141838579640
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Белфармация Минск"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белфармация Минск"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Машерова, 76-130"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 255-47-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.086101,23.69206"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://brest.pharma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

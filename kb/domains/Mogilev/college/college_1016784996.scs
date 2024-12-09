@@ -1,0 +1,26 @@
+ concept_college_1016784996
+ <- concept_college;
+=>nrel_main_idtf:
+	["Учебно-педагогический комплекс детский сад - средняя школа № 12 г. Могилёва"]
+	(* <- lang_ru;; <- name;;*);
+    ["Учебно-педагогический комплекс детский сад - средняя школа № 12 г. Могилёва"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Нижняя Карабановская улица, 81"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 227-92-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.928779,30.317314"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://12mogilev.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

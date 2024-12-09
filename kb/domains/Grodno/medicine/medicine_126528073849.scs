@@ -1,0 +1,26 @@
+ concept_medicine_126528073849
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гродненская университетская клиника, поликлиника"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненская университетская клиника, поликлиника"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, бульвар Ленинского Комсомола, 52/5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 243-36-28"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00; сб 08:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.694681,23.790265"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gocb.by/ru"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

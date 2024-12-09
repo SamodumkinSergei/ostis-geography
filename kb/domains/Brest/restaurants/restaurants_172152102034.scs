@@ -1,0 +1,26 @@
+ concept_restaurants_172152102034
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Momoo"]
+	(* <- lang_ru;; <- name;;*);
+    ["Momoo"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гоголя, 21"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 623-82-82"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.091517,23.687542"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://momoo.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

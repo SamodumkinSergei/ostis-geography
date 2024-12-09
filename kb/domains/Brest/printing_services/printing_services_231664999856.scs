@@ -1,0 +1,26 @@
+ concept_printing_services_231664999856
+ <- concept_printing_services;
+=>nrel_main_idtf:
+	["Принт Брест"]
+	(* <- lang_ru;; <- name;;*);
+    ["Принт Брест"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Ленинградская улица, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 991-09-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:30; сб,вс 09:00–12:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.112662,23.777265"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

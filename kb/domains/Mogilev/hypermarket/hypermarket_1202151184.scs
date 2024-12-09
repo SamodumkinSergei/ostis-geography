@@ -1,0 +1,26 @@
+ concept_hypermarket_1202151184
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Савушкин, офис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Савушкин, офис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Алтайская улица, 22А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["8 (801) 201-77-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.855639,30.30718"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.savushkin.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

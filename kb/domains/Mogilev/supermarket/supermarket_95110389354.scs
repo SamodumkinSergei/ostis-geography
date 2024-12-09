@@ -1,0 +1,26 @@
+ concept_supermarket_95110389354
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Продукт для вас"]
+	(* <- lang_ru;; <- name;;*);
+    ["Продукт для вас"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Казимировка, Краснозвёздная улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–19:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.930595,30.249795"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

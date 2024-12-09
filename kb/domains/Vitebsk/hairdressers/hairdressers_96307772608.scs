@@ -1,0 +1,26 @@
+ concept_hairdressers_96307772608
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Шик"]
+	(* <- lang_ru;; <- name;;*);
+    ["Шик"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 49А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 242-80-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 09:00–18:00; вс 09:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.175235,30.241341"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

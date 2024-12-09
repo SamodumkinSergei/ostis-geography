@@ -1,0 +1,26 @@
+ concept_malls_147547713169
+ <- concept_malls;
+=>nrel_main_idtf:
+	["X-s.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["X-s.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Веры Хоружей, 1А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 670-78-77"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916288,27.579337"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://x-s.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

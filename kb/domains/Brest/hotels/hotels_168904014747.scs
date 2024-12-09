@@ -1,0 +1,26 @@
+ concept_hotels_168904014747
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Zajazd Jędrula"]
+	(* <- lang_ru;; <- name;;*);
+    ["Zajazd Jędrula"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Польша, Непле, 3-go Maja 37, 21-550, Terespol, PL"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+48 46 861 54 74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.068986,23.63884"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://hotel-terespol.pl/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_office_service_123862407283
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Дом Керамики склад"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дом Керамики склад"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Чаусское шоссе, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.880145,30.40764"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_baby_shop_209134409185
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Sensorica.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Sensorica.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Долгобродская улица, 41А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 394-06-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.886859,27.621066"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sensorica.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

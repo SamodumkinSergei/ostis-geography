@@ -1,0 +1,26 @@
+ concept_drugstores_1009132613
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Аптека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аптека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Гоголя, 67"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 221-47-51"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:30–20:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.093473,23.699587"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

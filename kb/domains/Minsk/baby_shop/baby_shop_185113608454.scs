@@ -1,0 +1,26 @@
+ concept_baby_shop_185113608454
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Supertoy"]
+	(* <- lang_ru;; <- name;;*);
+    ["Supertoy"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минская область, Минский район, пересечение Логойского тракта и МКАД"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 331-11-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.96344,27.625898"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://supertoy.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_malls_119769838809
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Паприка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Паприка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Найдуса, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 781-30-03"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 10:00–19:00; вс 12:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.681708,23.831388"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://paprika.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

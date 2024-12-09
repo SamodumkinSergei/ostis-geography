@@ -1,0 +1,26 @@
+ concept_museum_1117466228
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Дворец искусства"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дворец искусства"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Козлова, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 395-15-49"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 11:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910293,27.579234"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://artpalace.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

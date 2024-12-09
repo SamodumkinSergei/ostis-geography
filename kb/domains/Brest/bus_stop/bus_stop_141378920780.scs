@@ -1,0 +1,26 @@
+ concept_bus_stop_141378920780
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Центральная городская больница"]
+	(* <- lang_ru;; <- name;;*);
+    ["Центральная городская больница"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Лактионова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.098444,23.784869"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

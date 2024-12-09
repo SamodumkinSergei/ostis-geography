@@ -1,0 +1,26 @@
+ concept_college_1168456417
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гимназия № 13, начальные классы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гимназия № 13, начальные классы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Одинцова, 45"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 258-99-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.897324,27.443888"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gymn13.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

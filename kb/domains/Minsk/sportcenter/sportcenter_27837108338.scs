@@ -1,0 +1,26 @@
+ concept_sportcenter_27837108338
+ <- concept_sportcenter;
+=>nrel_main_idtf:
+	["Бильярдный клуб Трактор"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бильярдный клуб Трактор"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Долгобродская улица, 24"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 698-88-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 16:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.889696,27.612857"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

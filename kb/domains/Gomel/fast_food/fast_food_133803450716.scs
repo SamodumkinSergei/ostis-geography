@@ -1,0 +1,26 @@
+ concept_fast_food_133803450716
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Кинг"]
+	(* <- lang_ru;; <- name;;*);
+    ["Кинг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Трудовая улица, 3А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 349-00-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–01:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.425937,31.013164"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://king-fastfood.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

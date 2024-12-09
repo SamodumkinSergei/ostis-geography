@@ -1,0 +1,26 @@
+ concept_fallback_services_33280801096
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Nvk Granit"]
+	(* <- lang_ru;; <- name;;*);
+    ["Nvk Granit"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Болдина, 4Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 283-12-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.694711,23.801765"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://nvk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

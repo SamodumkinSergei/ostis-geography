@@ -1,0 +1,26 @@
+ concept_college_1023897090
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минский государственный профессиональный лицей № 10 строительства имени И. М. Жижеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский государственный профессиональный лицей № 10 строительства имени И. М. Жижеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Ваупшасова, 29"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 296-42-53"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:10–16:50; пт 08:10–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.901509,27.658877"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://licey10.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

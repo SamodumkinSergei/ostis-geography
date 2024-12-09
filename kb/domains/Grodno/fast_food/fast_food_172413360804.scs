@@ -1,0 +1,26 @@
+ concept_fast_food_172413360804
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Kentucky Fried Chicken"]
+	(* <- lang_ru;; <- name;;*);
+    ["Kentucky Fried Chicken"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Тимирязева, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.688642,23.84546"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

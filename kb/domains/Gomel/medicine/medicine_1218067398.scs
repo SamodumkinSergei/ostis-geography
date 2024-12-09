@@ -1,0 +1,26 @@
+ concept_medicine_1218067398
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Гомельская городская клиническая больница № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гомельская городская клиническая больница № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Медицинская улица, 7"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 232-28-09"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.395328,30.904589"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://uzggkb2.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

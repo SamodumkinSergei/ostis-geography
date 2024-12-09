@@ -1,0 +1,26 @@
+ concept_college_53770290925
+ <- concept_college;
+=>nrel_main_idtf:
+	["Факультет социальной педагогики и психологии ВГУ имени П. М. Машерова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Факультет социальной педагогики и психологии ВГУ имени П. М. Машерова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Чапаева, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 317-95-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:30, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.19932,30.235598"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

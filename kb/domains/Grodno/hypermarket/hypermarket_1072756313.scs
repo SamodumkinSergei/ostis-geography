@@ -1,0 +1,26 @@
+ concept_hypermarket_1072756313
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Согрей-М"]
+	(* <- lang_ru;; <- name;;*);
+    ["Согрей-М"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Соколовского, 20Г"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 252-00-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–19:00; сб 09:00–18:00; вс 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.658935,23.802617"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sogrey-m.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_college_85601938076
+ <- concept_college;
+=>nrel_main_idtf:
+	["Факультет дополнительного профессионального образования БГПУ, кафедра андрагогики"]
+	(* <- lang_ru;; <- name;;*);
+    ["Факультет дополнительного профессионального образования БГПУ, кафедра андрагогики"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Советская улица, 18"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 328-63-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–17:00, перерыв 13:00–13:45; пт 09:00–16:00, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.894542,27.545306"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ipkip.bspu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

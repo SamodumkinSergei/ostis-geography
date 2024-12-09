@@ -1,0 +1,26 @@
+ concept_car_park_124276032707
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Парковка-гараж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Парковка-гараж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Гвардейская улица, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 263-72-38"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.913954,27.533426"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

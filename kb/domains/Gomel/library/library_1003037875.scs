@@ -1,0 +1,26 @@
+ concept_library_1003037875
+ <- concept_library;
+=>nrel_main_idtf:
+	["Детская библиотека-филиал № 15"]
+	(* <- lang_ru;; <- name;;*);
+    ["Детская библиотека-филиал № 15"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица М.Г. Ефремова, 2, корп. 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 250-59-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн,вт,ср,чт,пт,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.458277,30.958776"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.ggcbs.gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

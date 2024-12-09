@@ -1,0 +1,26 @@
+ concept_gasstation_218605936502
+ <- concept_gasstation;
+=>nrel_main_idtf:
+	["Azs-servis"]
+	(* <- lang_ru;; <- name;;*);
+    ["Azs-servis"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, агрогородок Колодищи, Минская улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 321-40-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.95532,27.778235"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://azs-servis.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

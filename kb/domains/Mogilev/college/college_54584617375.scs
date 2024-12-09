@@ -1,0 +1,26 @@
+ concept_college_54584617375
+ <- concept_college;
+=>nrel_main_idtf:
+	["Могилёвский государственный колледж искусств, учебный корпус № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Могилёвский государственный колледж искусств, учебный корпус № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Ленинская улица, 53"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 279-41-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.903381,30.342237"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mgki.mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

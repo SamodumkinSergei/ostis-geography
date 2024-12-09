@@ -1,0 +1,26 @@
+ concept_bus_stop_223436870221
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Советская площадь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Советская площадь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Стефана Батория"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.677523,23.830534"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

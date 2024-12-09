@@ -1,0 +1,26 @@
+ concept_hotels_57522116080
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Апартаменты на Машерова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Апартаменты на Машерова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, проспект Машерова, 39"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 331-32-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.087064,23.701555"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://flatbrest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

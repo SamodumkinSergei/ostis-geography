@@ -1,0 +1,26 @@
+ concept_fallback_services_219958567010
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Фолкс-камень"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фолкс-камень"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Воронянского, 17А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 338-78-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–19:00; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878276,27.546949"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://granit.folks-pamyatnik.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

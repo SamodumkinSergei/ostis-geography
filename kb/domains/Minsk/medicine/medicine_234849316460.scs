@@ -1,0 +1,26 @@
+ concept_medicine_234849316460
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["ЛогоРост"]
+	(* <- lang_ru;; <- name;;*);
+    ["ЛогоРост"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Стариновская улица, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 774-25-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.94591,27.697746"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://logorost.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

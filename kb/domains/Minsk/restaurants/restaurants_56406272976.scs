@@ -1,0 +1,26 @@
+ concept_restaurants_56406272976
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Аква-Минск"]
+	(* <- lang_ru;; <- name;;*);
+    ["Аква-Минск"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 118"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 505-65-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.95017,27.452757"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://aq.aquaminskhotel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

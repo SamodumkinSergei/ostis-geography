@@ -1,0 +1,26 @@
+ concept_swimming_pool_39813750593
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Волат"]
+	(* <- lang_ru;; <- name;;*);
+    ["Волат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Шабаны, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 231-07-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 06:30–22:00; сб,вс 07:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.836343,27.699791"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://cfor.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

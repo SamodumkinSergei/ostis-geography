@@ -1,0 +1,26 @@
+ concept_bus_stop_186233403085
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Дорожник"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дорожник"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Химзаводская улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.430312,30.886198"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

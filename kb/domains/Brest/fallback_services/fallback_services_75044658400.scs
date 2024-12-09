@@ -1,0 +1,26 @@
+ concept_fallback_services_75044658400
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["БелАРТгрант"]
+	(* <- lang_ru;; <- name;;*);
+    ["БелАРТгрант"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Будённого, 65"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 520-22-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.091176,23.698908"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.artgrant.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

@@ -1,0 +1,26 @@
+ concept_hotels_82425970609
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Family Hostel"]
+	(* <- lang_ru;; <- name;;*);
+    ["Family Hostel"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Октябрьский район, микрорайон Курасовщина, 2-й Брестский переулок, 31Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 656-99-07"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.859369,27.52794"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

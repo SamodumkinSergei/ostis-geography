@@ -1,0 +1,26 @@
+ concept_office_service_1715317416
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Акваланг"]
+	(* <- lang_ru;; <- name;;*);
+    ["Акваланг"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 161"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 229-22-47"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.377835,31.028699"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

@@ -1,0 +1,26 @@
+ concept_malls_1202850213
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Эксперт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Эксперт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 30"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 375-54-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.193369,30.222558"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://expert-sport.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

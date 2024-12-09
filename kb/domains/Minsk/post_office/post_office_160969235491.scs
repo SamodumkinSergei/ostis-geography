@@ -1,0 +1,26 @@
+ concept_post_office_160969235491
+ <- concept_post_office;
+=>nrel_main_idtf:
+	["РУП Белпочта Производство Минская почта"]
+	(* <- lang_ru;; <- name;;*);
+    ["РУП Белпочта Производство Минская почта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Вокзальная улица, 22"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 293-59-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:15, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.889327,27.550296"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belpost.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

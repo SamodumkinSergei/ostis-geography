@@ -1,0 +1,26 @@
+ concept_bus_stop_153136997023
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Школа олимпийского резерва"]
+	(* <- lang_ru;; <- name;;*);
+    ["Школа олимпийского резерва"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Шмырёва"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.157758,30.19146"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

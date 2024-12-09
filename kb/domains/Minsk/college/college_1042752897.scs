@@ -1,0 +1,26 @@
+ concept_college_1042752897
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минский государственный механико-технологический колледж"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский государственный механико-технологический колледж"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Казинца, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 373-40-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00; сб 09:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.864593,27.5221"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mtk.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

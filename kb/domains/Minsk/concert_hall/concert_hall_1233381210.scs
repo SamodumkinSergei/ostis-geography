@@ -1,0 +1,26 @@
+ concept_concert_hall_1233381210
+ <- concept_concert_hall;
+=>nrel_main_idtf:
+	["Национальный Академический Народный Хор РБ им Г. И. Цитовича"]
+	(* <- lang_ru;; <- name;;*);
+    ["Национальный Академический Народный Хор РБ им Г. И. Цитовича"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, площадь Парижской Коммуны, 1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 335-29-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:20, перерыв 13:00–13:20"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910117,27.561282"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://belhor.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

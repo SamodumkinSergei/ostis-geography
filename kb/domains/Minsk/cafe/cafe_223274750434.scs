@@ -1,0 +1,26 @@
+ concept_cafe_223274750434
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["American BBQ"]
+	(* <- lang_ru;; <- name;;*);
+    ["American BBQ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Володько, 6к6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 777-51-99"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 12:00–00:00; пт,сб 12:00–04:00; вс 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.881979,27.56145"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://americanbbq.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

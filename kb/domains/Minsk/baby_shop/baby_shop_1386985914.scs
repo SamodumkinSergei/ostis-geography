@@ -1,0 +1,26 @@
+ concept_baby_shop_1386985914
+ <- concept_baby_shop;
+=>nrel_main_idtf:
+	["Поиграйка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Поиграйка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурганова, 50"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 767-48-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.928845,27.58768"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://poigraika.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

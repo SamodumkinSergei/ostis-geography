@@ -1,0 +1,26 @@
+ concept_bus_stop_34093253834
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Маркелова"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Маркелова"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица И.Е. Полякова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.43695,31.125017"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

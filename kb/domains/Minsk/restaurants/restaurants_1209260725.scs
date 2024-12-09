@@ -1,0 +1,26 @@
+ concept_restaurants_1209260725
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Раковский Бровар"]
+	(* <- lang_ru;; <- name;;*);
+    ["Раковский Бровар"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Раковская улица, 19А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 733-93-39"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-ср 12:00–00:00; чт-сб 12:00–01:00; вс 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904364,27.548444"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://brovar.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_library_1122292229
+ <- concept_library;
+=>nrel_main_idtf:
+	["Городская библиотека им. А. С. Пушкина, филиал № 10"]
+	(* <- lang_ru;; <- name;;*);
+    ["Городская библиотека им. А. С. Пушкина, филиал № 10"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Гродненская улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 247-93-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.106847,23.785412"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.gcbs-brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

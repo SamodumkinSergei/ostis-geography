@@ -1,0 +1,26 @@
+ concept_college_1220396565
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гродненский областной институт развития образования"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гродненский областной институт развития образования"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Гагарина, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 239-90-15"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:00, перерыв 12:30–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.670743,23.821151"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://groiro.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

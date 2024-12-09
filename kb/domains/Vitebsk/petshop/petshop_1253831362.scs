@@ -1,0 +1,26 @@
+ concept_petshop_1253831362
+ <- concept_petshop;
+=>nrel_main_idtf:
+	["Зоомаркет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зоомаркет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Кирова, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 362-24-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.193212,30.196263"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

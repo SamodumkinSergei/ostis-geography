@@ -1,0 +1,26 @@
+ concept_college_1110379921
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 7 г. Гомеля"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 7 г. Гомеля"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Минская улица, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 232-18-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 07:30–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.435063,30.956943"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://7gomel.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

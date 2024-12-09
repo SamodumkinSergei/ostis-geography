@@ -1,0 +1,26 @@
+ concept_malls_1071931144
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Магазин бытовой техники Горизонт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Магазин бытовой техники Горизонт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Ожешко, 42"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 277-21-46"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–17:00; вс 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.686348,23.845264"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://horizont.garant.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

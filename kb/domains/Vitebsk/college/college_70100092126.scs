@@ -1,0 +1,26 @@
+ concept_college_70100092126
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 15"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 15"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, городской посёлок Руба, Центральная улица, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 269-66-42"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.298784,30.307417"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch15.vitebsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

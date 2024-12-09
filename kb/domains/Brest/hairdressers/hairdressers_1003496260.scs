@@ -1,0 +1,26 @@
+ concept_hairdressers_1003496260
+ <- concept_hairdressers;
+=>nrel_main_idtf:
+	["Золотая шпилька"]
+	(* <- lang_ru;; <- name;;*);
+    ["Золотая шпилька"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Мицкевича, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 225-31-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–19:00; вс 08:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.098998,23.690623"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

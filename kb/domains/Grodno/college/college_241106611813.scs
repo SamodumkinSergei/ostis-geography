@@ -1,0 +1,26 @@
+ concept_college_241106611813
+ <- concept_college;
+=>nrel_main_idtf:
+	["Ггау, биотехнологический факультет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ггау, биотехнологический факультет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Академическая улица, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 274-39-27"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–16:50, перерыв 12:00–13:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.68719,23.839943"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ggau.by/btf"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

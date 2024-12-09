@@ -1,0 +1,26 @@
+ concept_restaurants_96119615126
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Белая дача"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белая дача"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельский район, Чёнковский сельсовет, посёлок Чёнки, Октябрьская улица, 117"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 596-11-96"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.344587,30.967186"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://belladacha.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

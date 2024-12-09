@@ -1,0 +1,26 @@
+ concept_swimming_pool_1062453352
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Нептун"]
+	(* <- lang_ru;; <- name;;*);
+    ["Нептун"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Воровского, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 220-42-13"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–20:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.087924,23.683099"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.bfos.by/neptun.html"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

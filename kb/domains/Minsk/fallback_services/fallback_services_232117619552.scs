@@ -1,0 +1,26 @@
+ concept_fallback_services_232117619552
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["АртГранит"]
+	(* <- lang_ru;; <- name;;*);
+    ["АртГранит"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Пономаренко, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 350-73-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.894754,27.481968"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://artgranit.com.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

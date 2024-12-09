@@ -1,0 +1,26 @@
+ concept_college_1234139714
+ <- concept_college;
+=>nrel_main_idtf:
+	["Минский государственный колледж ремесленничества и дизайна имени Н. А. Кедышко"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минский государственный колледж ремесленничества и дизайна имени Н. А. Кедышко"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Сурганова, 45к1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 379-43-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.926588,27.588558"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ptk-dpi.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

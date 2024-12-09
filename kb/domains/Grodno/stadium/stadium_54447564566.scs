@@ -1,0 +1,26 @@
+ concept_stadium_54447564566
+ <- concept_stadium;
+=>nrel_main_idtf:
+	["Стадион"]
+	(* <- lang_ru;; <- name;;*);
+    ["Стадион"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Октябрьский район"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 248-35-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.678553,23.848147"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ggau.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_kindergarten_1221418638
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 108 г. Могилёва"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 108 г. Могилёва"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Соломинка, Каштановая улица, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 272-81-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн 08:00–17:00, перерыв 13:00–14:00; вт 11:00–20:00, перерыв 13:00–14:00; ср-пт 08:00–17:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.948612,30.361643"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sad108mogilev.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

@@ -1,0 +1,26 @@
+ concept_cafe_136664147205
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Took Coffee"]
+	(* <- lang_ru;; <- name;;*);
+    ["Took Coffee"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Макаёнка, 12В"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 190-91-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–23:00; сб,вс 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.923473,27.6256"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

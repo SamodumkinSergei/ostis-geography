@@ -1,0 +1,26 @@
+ concept_spa_1023291172
+ <- concept_spa;
+=>nrel_main_idtf:
+	["Gala"]
+	(* <- lang_ru;; <- name;;*);
+    ["Gala"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кульман, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 609-46-16"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–22:00; сб 08:00–20:00; вс 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.926338,27.564342"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://galasalon.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

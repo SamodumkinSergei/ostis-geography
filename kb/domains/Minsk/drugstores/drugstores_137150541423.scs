@@ -1,0 +1,26 @@
+ concept_drugstores_137150541423
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Флора-Фарм аптека № 14"]
+	(* <- lang_ru;; <- name;;*);
+    ["Флора-Фарм аптека № 14"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Мирошниченко, 51"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 342-42-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–21:00; вс 10:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.961677,27.617134"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

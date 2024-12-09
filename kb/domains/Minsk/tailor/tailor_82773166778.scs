@@ -1,0 +1,26 @@
+ concept_tailor_82773166778
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Ремонт одежды и обуви"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт одежды и обуви"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Налибокская улица, 31"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 322-60-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.928177,27.426624"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

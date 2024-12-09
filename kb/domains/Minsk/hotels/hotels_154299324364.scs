@@ -1,0 +1,26 @@
+ concept_hotels_154299324364
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Hotel Services Minsk"]
+	(* <- lang_ru;; <- name;;*);
+    ["Hotel Services Minsk"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Мирошниченко, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 310-11-86"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.960311,27.617131"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

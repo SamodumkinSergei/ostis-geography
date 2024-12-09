@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_76100460132
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Amori"]
+	(* <- lang_ru;; <- name;;*);
+    ["Amori"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Интернациональная улица, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 688-11-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.083479,23.688173"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://amori.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

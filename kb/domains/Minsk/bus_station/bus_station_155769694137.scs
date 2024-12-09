@@ -1,0 +1,26 @@
+ concept_bus_station_155769694137
+ <- concept_bus_station;
+=>nrel_main_idtf:
+	["Минсктранс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минсктранс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Притыцкого"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 251-14-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 06:20–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907312,27.43428"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

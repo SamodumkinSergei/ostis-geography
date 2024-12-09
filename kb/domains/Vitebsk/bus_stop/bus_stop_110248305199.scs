@@ -1,0 +1,26 @@
+ concept_bus_stop_110248305199
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Передовой переулок"]
+	(* <- lang_ru;; <- name;;*);
+    ["Передовой переулок"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, 14-я Полоцкая улица"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.190796,30.155476"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

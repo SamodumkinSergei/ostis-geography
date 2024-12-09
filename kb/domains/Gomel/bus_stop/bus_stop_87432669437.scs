@@ -1,0 +1,26 @@
+ concept_bus_stop_87432669437
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Поворот на деревню Романовичи"]
+	(* <- lang_ru;; <- name;;*);
+    ["Поворот на деревню Романовичи"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельская область, Н-4109"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.425768,31.070174"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

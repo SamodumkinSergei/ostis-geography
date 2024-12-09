@@ -1,0 +1,26 @@
+ concept_railway_terminal_1282138002
+ <- concept_railway_terminal;
+=>nrel_main_idtf:
+	["Минск-Пассажирский"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минск-Пассажирский"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Привокзальная площадь, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 225-19-45"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.89104,27.550887"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

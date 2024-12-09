@@ -1,0 +1,26 @@
+ concept_restaurants_191612869669
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["Basilico Trattoria"]
+	(* <- lang_ru;; <- name;;*);
+    ["Basilico Trattoria"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, улица Островского, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 108-22-55"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.087345,23.69357"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://taplink.cc/basilico_trattoria"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

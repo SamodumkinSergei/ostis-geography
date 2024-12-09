@@ -1,0 +1,26 @@
+ concept_fast_food_165283966545
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["Фуди"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фуди"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Гагарина, 36"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 686-60-66"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.421227,31.003355"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

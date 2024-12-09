@@ -1,0 +1,26 @@
+ concept_fast_food_63849988524
+ <- concept_fast_food;
+=>nrel_main_idtf:
+	["MC Doner"]
+	(* <- lang_ru;; <- name;;*);
+    ["MC Doner"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 150А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 248-82-43"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.859068,27.674652"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://mcdoner.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

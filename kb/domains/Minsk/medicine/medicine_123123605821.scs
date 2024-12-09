@@ -1,0 +1,26 @@
+ concept_medicine_123123605821
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Отделение медицинской реабилитации ГДП № 13"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отделение медицинской реабилитации ГДП № 13"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лейтенанта Кижеватова, 60Дк1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 373-84-04"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–19:30, перерыв 13:30–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.85093,27.53259"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://13gdp.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

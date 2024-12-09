@@ -1,0 +1,26 @@
+ concept_supermarket_27427186616
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Зорина"]
+	(* <- lang_ru;; <- name;;*);
+    ["Зорина"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Якуба Коласа, 48"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 370-81-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.935976,27.604132"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://zorina.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

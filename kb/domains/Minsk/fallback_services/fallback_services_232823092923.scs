@@ -1,0 +1,26 @@
+ concept_fallback_services_232823092923
+ <- concept_fallback_services;
+=>nrel_main_idtf:
+	["Белокаменка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Белокаменка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лобанка, 81"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 744-60-84"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-пт 10:00–19:00; сб 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.887502,27.42972"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://belokamenka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

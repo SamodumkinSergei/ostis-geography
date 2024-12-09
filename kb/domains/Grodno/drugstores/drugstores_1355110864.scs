@@ -1,0 +1,26 @@
+ concept_drugstores_1355110864
+ <- concept_drugstores;
+=>nrel_main_idtf:
+	["Фармация"]
+	(* <- lang_ru;; <- name;;*);
+    ["Фармация"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Полиграфистов, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 269-38-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 08:15–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.672916,23.838934"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://farmacia.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

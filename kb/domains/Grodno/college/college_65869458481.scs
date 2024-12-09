@@ -1,0 +1,26 @@
+ concept_college_65869458481
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГрГМУ, Биологический корпус"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГрГМУ, Биологический корпус"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Виленская улица, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 244-36-52"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.684486,23.830252"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.grsmu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_clothes_shop_119073791507
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Неман"]
+	(* <- lang_ru;; <- name;;*);
+    ["Неман"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Славинского, 11"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 788-55-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб,вс 10:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.647153,23.827075"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

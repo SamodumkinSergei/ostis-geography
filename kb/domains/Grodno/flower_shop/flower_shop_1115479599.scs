@@ -1,0 +1,26 @@
+ concept_flower_shop_1115479599
+ <- concept_flower_shop;
+=>nrel_main_idtf:
+	["Евроцветы"]
+	(* <- lang_ru;; <- name;;*);
+    ["Евроцветы"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Антонова, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 763-90-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:30–21:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.676393,23.842166"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

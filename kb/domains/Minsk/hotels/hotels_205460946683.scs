@@ -1,0 +1,26 @@
+ concept_hotels_205460946683
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Комаровка"]
+	(* <- lang_ru;; <- name;;*);
+    ["Комаровка"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Куйбышева, 46"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 660-55-85"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 12:00–00:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.924521,27.581707"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

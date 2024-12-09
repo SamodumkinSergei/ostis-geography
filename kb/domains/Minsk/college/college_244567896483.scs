@@ -1,0 +1,26 @@
+ concept_college_244567896483
+ <- concept_college;
+=>nrel_main_idtf:
+	["Факультет географии и геоинформатики БГУ, кафедра почвоведения и геоинформационных систем"]
+	(* <- lang_ru;; <- name;;*);
+    ["Факультет географии и геоинформатики БГУ, кафедра почвоведения и геоинформационных систем"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Ленинградская улица, 16"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 209-52-63"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:30–17:15, перерыв 13:00–13:45; пт 08:30–17:00, перерыв 13:00–13:45"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.893295,27.548291"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://geo.bsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

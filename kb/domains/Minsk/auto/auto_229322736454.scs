@@ -1,0 +1,26 @@
+ concept_auto_229322736454
+ <- concept_auto;
+=>nrel_main_idtf:
+	["ТочкаБ Логистик"]
+	(* <- lang_ru;; <- name;;*);
+    ["ТочкаБ Логистик"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Партизанский проспект, 12А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 958-48-60"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.879785,27.602246"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://pointblogistic.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

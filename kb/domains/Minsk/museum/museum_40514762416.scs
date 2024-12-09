@@ -1,0 +1,26 @@
+ concept_museum_40514762416
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Музей Физической Культуры и Спорта БГУФК"]
+	(* <- lang_ru;; <- name;;*);
+    ["Музей Физической Культуры и Спорта БГУФК"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Победителей, 105"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 202-66-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:15–17:00, перерыв 13:00–13:30; пт 08:15–15:35"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.935922,27.489615"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.sportedu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

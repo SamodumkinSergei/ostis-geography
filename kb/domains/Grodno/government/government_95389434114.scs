@@ -1,0 +1,26 @@
+ concept_government_95389434114
+ <- concept_government;
+=>nrel_main_idtf:
+	["Отдел технической поддержки Скко по г. Гродно и Гродненской области"]
+	(* <- lang_ru;; <- name;;*);
+    ["Отдел технической поддержки Скко по г. Гродно и Гродненской области"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица 17 Сентября, 47"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 262-02-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:45–18:00, перерыв 13:00–14:00; пт 08:45–16:45, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.689064,23.839668"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://skko.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

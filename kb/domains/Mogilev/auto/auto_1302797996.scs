@@ -1,0 +1,26 @@
+ concept_auto_1302797996
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Дизель сервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дизель сервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Гаражный переулок, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 777-99-70"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.896853,30.289984"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://diesel-mogilev.mya5.ru/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

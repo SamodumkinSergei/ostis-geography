@@ -1,0 +1,26 @@
+ concept_college_5761129789
+ <- concept_college;
+=>nrel_main_idtf:
+	["Военный факультет БГУ"]
+	(* <- lang_ru;; <- name;;*);
+    ["Военный факультет БГУ"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Октябрьская улица, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 209-52-83"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.892376,27.564026"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://bsu.by/faculties/voennyy-fakultet-d"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

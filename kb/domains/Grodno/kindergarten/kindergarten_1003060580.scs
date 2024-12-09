@@ -1,0 +1,26 @@
+ concept_kindergarten_1003060580
+ <- concept_kindergarten;
+=>nrel_main_idtf:
+	["Ясли-сад № 93 Дударики"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ясли-сад № 93 Дударики"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Лиможа, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 256-97-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–18:00, перерыв 09:00–16:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.703046,23.852294"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://ddu93grodno.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

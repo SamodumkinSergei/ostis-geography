@@ -1,0 +1,26 @@
+ concept_concert_hall_115067938585
+ <- concept_concert_hall;
+=>nrel_main_idtf:
+	["БарДО"]
+	(* <- lang_ru;; <- name;;*);
+    ["БарДО"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Студенческая улица, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 779-99-90"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["чт 19:00–03:00; пт,сб 18:00–06:00; вс 18:00–03:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.683403,23.840763"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

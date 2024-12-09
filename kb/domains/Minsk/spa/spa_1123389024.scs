@@ -1,0 +1,26 @@
+ concept_spa_1123389024
+ <- concept_spa;
+=>nrel_main_idtf:
+	["ИнСити"]
+	(* <- lang_ru;; <- name;;*);
+    ["ИнСити"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Лобанка, 14"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 121-05-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–21:00; вс 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904023,27.43435"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://incity.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

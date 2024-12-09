@@ -1,0 +1,26 @@
+ concept_college_1060020686
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 5"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 5"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Пролетарская улица, 69"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 271-22-69"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.684542,23.857172"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sch5grodno.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

@@ -1,0 +1,26 @@
+ concept_industrial_enterprise_1121841318
+ <- concept_industrial_enterprise;
+=>nrel_main_idtf:
+	["Двинский Бровар"]
+	(* <- lang_ru;; <- name;;*);
+    ["Двинский Бровар"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Ильинского"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 267-07-68"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.200602,30.197279"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.dbrovar.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

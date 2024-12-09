@@ -1,0 +1,26 @@
+ concept_library_1330707023
+ <- concept_library;
+=>nrel_main_idtf:
+	["Минское отделение БЖД, техническая библиотека"]
+	(* <- lang_ru;; <- name;;*);
+    ["Минское отделение БЖД, техническая библиотека"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Брест-Литовская улица, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 225-90-40"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.878167,27.527631"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://minsk.rw.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

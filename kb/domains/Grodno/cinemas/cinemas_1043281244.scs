@@ -1,0 +1,26 @@
+ concept_cinemas_1043281244
+ <- concept_cinemas;
+=>nrel_main_idtf:
+	["Октябрь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Октябрь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Поповича, 3"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 250-17-56"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:30–22:00; пт,сб 09:30–04:30; вс 09:30–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.671154,23.801024"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://kinoteatr.megamag.by/?cPath=1"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

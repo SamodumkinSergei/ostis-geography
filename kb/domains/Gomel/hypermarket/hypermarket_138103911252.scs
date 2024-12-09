@@ -1,0 +1,26 @@
+ concept_hypermarket_138103911252
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Альтагамма"]
+	(* <- lang_ru;; <- name;;*);
+    ["Альтагамма"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Лепешинского, 2А/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 500-40-20"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-сб 10:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.47413,30.99609"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.altagamma.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

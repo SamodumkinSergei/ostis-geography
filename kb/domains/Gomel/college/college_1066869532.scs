@@ -1,0 +1,26 @@
+ concept_college_1066869532
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 1"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 1"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Ильича, 162А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 229-21-35"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.372104,31.031531"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://1gomel.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

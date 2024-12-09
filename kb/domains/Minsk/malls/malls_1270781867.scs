@@ -1,0 +1,26 @@
+ concept_malls_1270781867
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Метрополь"]
+	(* <- lang_ru;; <- name;;*);
+    ["Метрополь"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Немига, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 575-75-75"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.90183,27.549065"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://metropolnemiga.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_dental_215411670468
+ <- concept_dental;
+=>nrel_main_idtf:
+	["Fildent Dental Policlinic"]
+	(* <- lang_ru;; <- name;;*);
+    ["Fildent Dental Policlinic"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Анкара, Чанкая, улица 3250, 11A"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+90 312 217 01 00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–19:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["39.864049,32.638269"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.fildentankara.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

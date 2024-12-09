@@ -1,0 +1,26 @@
+ concept_post_office_1087222463
+ <- concept_post_office;
+=>nrel_main_idtf:
+	["Витебский филиал Белпочта"]
+	(* <- lang_ru;; <- name;;*);
+    ["Витебский филиал Белпочта"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 10"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 261-41-25"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.182442,30.206961"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.belpost.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

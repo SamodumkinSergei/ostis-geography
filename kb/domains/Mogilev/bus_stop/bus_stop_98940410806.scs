@@ -1,0 +1,26 @@
+ concept_bus_stop_98940410806
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Днепровский бульвар"]
+	(* <- lang_ru;; <- name;;*);
+    ["Днепровский бульвар"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, микрорайон Юбилейный, Днепровский бульвар"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.899703,30.362914"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

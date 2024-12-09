@@ -1,0 +1,26 @@
+ concept_malls_1008769152
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Пламб"]
+	(* <- lang_ru;; <- name;;*);
+    ["Пламб"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, Гребенёвский, улица Мелиораторов, 2-1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 278-58-58"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:00–17:00; сб 09:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.877885,30.310703"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://plumb-market.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

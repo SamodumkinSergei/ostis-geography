@@ -1,0 +1,26 @@
+ concept_college_1020908617
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГУО Средняя школа № 16"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО Средняя школа № 16"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Бирюзова, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 204-79-36"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–21:00; сб 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911313,27.512396"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch16.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_car_park_160092026498
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автостоянка № 82"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостоянка № 82"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["г. Минск, ул. Илимская, 10-А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 380-20-73"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.8895,27.689"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://parkouka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_tailor_147359490446
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Ремонт одежды"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ремонт одежды"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Шаранговича, 64"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 702-79-17"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–19:00; сб 11:00–17:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.882715,27.429312"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

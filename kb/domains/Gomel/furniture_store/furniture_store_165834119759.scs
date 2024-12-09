@@ -1,0 +1,26 @@
+ concept_furniture_store_165834119759
+ <- concept_furniture_store;
+=>nrel_main_idtf:
+	["Прогресс"]
+	(* <- lang_ru;; <- name;;*);
+    ["Прогресс"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельская область, Светлогорск, улица Калинина, 47А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 300-35-12"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00; сб 10:00–18:00; вс 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.640532,29.729897"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://progres.gomel.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

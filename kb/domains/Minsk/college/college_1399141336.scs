@@ -1,0 +1,26 @@
+ concept_college_1399141336
+ <- concept_college;
+=>nrel_main_idtf:
+	["Мгак имени академика М. С. Высоцкого, учебный корпус № 2"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мгак имени академика М. С. Высоцкого, учебный корпус № 2"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Социалистическая улица, 13"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 369-21-98"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:30, перерыв 13:00–13:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.86307,27.661243"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mgak1.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

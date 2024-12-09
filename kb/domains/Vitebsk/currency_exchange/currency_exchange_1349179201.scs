@@ -1,0 +1,26 @@
+ concept_currency_exchange_1349179201
+ <- concept_currency_exchange;
+=>nrel_main_idtf:
+	["Беларусбанк, обменный пункт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Беларусбанк, обменный пункт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Московский проспект, 130"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 218-84-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–20:30, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.175238,30.266417"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://belarusbank.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

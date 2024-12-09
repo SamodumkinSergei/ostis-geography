@@ -1,0 +1,26 @@
+ concept_college_1013705426
+ <- concept_college;
+=>nrel_main_idtf:
+	["Средняя школа № 21 имени Н. Ф. Гастелло"]
+	(* <- lang_ru;; <- name;;*);
+    ["Средняя школа № 21 имени Н. Ф. Гастелло"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Куйбышева, 19"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 288-22-11"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 07:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.910928,27.564519"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://sch21.minsk.edu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

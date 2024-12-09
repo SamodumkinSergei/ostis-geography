@@ -1,0 +1,26 @@
+ concept_museum_81600237350
+ <- concept_museum;
+=>nrel_main_idtf:
+	["Дом культуры"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дом культуры"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Самохваловичский сельсовет, агрогородок Самохваловичи, Парковая улица, 7А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ср-вс 12:00–21:00, перерыв 14:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.745837,27.494881"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://самохваловичи.бел/samoxvalovichskij-centr-kultury.html"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

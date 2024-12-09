@@ -1,0 +1,26 @@
+ concept_mobile_phones_1765982942
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["Ок Ремонт"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ок Ремонт"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Скрыганова, 6/2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 259-09-89"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 11:00–18:00; сб,вс 12:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.911373,27.51703"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://ok-remont.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

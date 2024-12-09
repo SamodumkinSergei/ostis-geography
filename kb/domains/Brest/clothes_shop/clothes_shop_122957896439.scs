@@ -1,0 +1,26 @@
+ concept_clothes_shop_122957896439
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Брест-шоп"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брест-шоп"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Пушкинская улица, 35/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 364-53-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.096465,23.692697"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://www.brest-shop.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

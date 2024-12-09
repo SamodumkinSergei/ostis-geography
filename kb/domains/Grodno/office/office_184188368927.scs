@@ -1,0 +1,26 @@
+ concept_office_184188368927
+ <- concept_office;
+=>nrel_main_idtf:
+	["Регистрационный центр ГосСУОК"]
+	(* <- lang_ru;; <- name;;*);
+    ["Регистрационный центр ГосСУОК"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Академическая улица, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 269-19-19"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 08:45–18:00, перерыв 13:00–14:00; пт 08:45–16:45, перерыв 13:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.689038,23.83968"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://info-center.by/services/pki"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

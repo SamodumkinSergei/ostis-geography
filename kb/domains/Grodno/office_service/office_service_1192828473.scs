@@ -1,0 +1,26 @@
+ concept_office_service_1192828473
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Центр"]
+	(* <- lang_ru;; <- name;;*);
+    ["Центр"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Социалистическая улица, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 778-99-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–17:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.682634,23.83553"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://racentr.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

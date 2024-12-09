@@ -1,0 +1,26 @@
+ concept_cafe_2768558783
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Дукат"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дукат"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомельская область, Гомельский район, Приборский сельсовет"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 176-12-31"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.384768,30.812287"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://dukat.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

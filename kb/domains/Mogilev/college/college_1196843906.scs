@@ -1,0 +1,26 @@
+ concept_college_1196843906
+ <- concept_college;
+=>nrel_main_idtf:
+	["ГУО Средняя школа № 35 г. Могилёва"]
+	(* <- lang_ru;; <- name;;*);
+    ["ГУО Средняя школа № 35 г. Могилёва"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Могилёв, переулок Гоголя, 2"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 22 272-70-37"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 07:30–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.932918,30.35913"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://school35.mogilev.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Mogilev;;

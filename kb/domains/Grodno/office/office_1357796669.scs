@@ -1,0 +1,26 @@
+ concept_office_1357796669
+ <- concept_office;
+=>nrel_main_idtf:
+	["Вечерний Гродно"]
+	(* <- lang_ru;; <- name;;*);
+    ["Вечерний Гродно"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, Социалистическая улица, 32"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 15 262-15-02"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.679299,23.835014"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.vgr.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

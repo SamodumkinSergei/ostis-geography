@@ -1,0 +1,26 @@
+ concept_car_park_1077991466
+ <- concept_car_park;
+=>nrel_main_idtf:
+	["Автостоянка № 5"]
+	(* <- lang_ru;; <- name;;*);
+    ["Автостоянка № 5"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Максима Богдановича"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 955-44-33"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.461495,30.952909"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://avtostoyanka.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

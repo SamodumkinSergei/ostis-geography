@@ -1,0 +1,26 @@
+ concept_college_1104380384
+ <- concept_college;
+=>nrel_main_idtf:
+	["Гимназия № 56 г. Гомеля имени А. А. Вишневского"]
+	(* <- lang_ru;; <- name;;*);
+    ["Гимназия № 56 г. Гомеля имени А. А. Вишневского"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Новополесская улица, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 255-77-05"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.441203,30.995209"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gim56.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

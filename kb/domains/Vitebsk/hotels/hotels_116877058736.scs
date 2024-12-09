@@ -1,0 +1,26 @@
+ concept_hotels_116877058736
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Бело и чайная роза"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бело и чайная роза"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, проспект Фрунзе, 90"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 710-00-72"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.196058,30.248133"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_supermarket_223509360076
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Coffeehouse & PS!"]
+	(* <- lang_ru;; <- name;;*);
+    ["Coffeehouse & PS!"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Блекинге, город Сельвесборг, Repslagaregatan, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+46 456 100 10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["56.05222,14.583861"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.coffeehouseps.se/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

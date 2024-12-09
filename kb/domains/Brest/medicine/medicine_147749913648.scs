@@ -1,0 +1,26 @@
+ concept_medicine_147749913648
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Брестская городская больница № 2, приемное отделение"]
+	(* <- lang_ru;; <- name;;*);
+    ["Брестская городская больница № 2, приемное отделение"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Школьная улица, 8"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 16 224-81-00"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.103689,23.643778"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://bgb2-brest.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

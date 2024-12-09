@@ -1,0 +1,26 @@
+ concept_medicine_1004420648
+ <- concept_medicine;
+=>nrel_main_idtf:
+	["Медицинская служба ДФиТ МВД по Витебской области"]
+	(* <- lang_ru;; <- name;;*);
+    ["Медицинская служба ДФиТ МВД по Витебской области"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, улица Калинина, 5"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 21 224-29-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 07:30–20:00; сб 08:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.188235,30.200818"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://vitebsk.mvd.gov.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

@@ -1,0 +1,26 @@
+ concept_hypermarket_18626979856
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Салон сайдинга"]
+	(* <- lang_ru;; <- name;;*);
+    ["Салон сайдинга"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Дубко, 17"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 894-38-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-чт 11:00–19:00; пт 11:00–16:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.702443,23.836044"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

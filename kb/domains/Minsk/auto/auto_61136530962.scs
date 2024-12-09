@@ -1,0 +1,26 @@
+ concept_auto_61136530962
+ <- concept_auto;
+=>nrel_main_idtf:
+	["СТО"]
+	(* <- lang_ru;; <- name;;*);
+    ["СТО"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Бехтерева, 12/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 609-09-74"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:30–19:00; сб 09:30–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.877279,27.641067"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://sto-na-behtereva.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

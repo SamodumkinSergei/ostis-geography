@@ -1,0 +1,26 @@
+ concept_hypermarket_72937925214
+ <- concept_hypermarket;
+=>nrel_main_idtf:
+	["Строитель"]
+	(* <- lang_ru;; <- name;;*);
+    ["Строитель"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 328/1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 371-28-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.100429,23.757139"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

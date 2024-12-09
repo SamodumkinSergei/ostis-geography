@@ -1,0 +1,26 @@
+ concept_hotels_1846997141
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Vip-kvartira"]
+	(* <- lang_ru;; <- name;;*);
+    ["Vip-kvartira"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Кузьмы Чорного, 4"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 111-22-22"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, круглосуточно"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.924767,27.599819"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

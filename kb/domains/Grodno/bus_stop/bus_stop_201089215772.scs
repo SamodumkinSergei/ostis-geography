@@ -1,0 +1,26 @@
+ concept_bus_stop_201089215772
+ <- concept_bus_stop;
+=>nrel_main_idtf:
+	["Улица Господарчая"]
+	(* <- lang_ru;; <- name;;*);
+    ["Улица Господарчая"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Курчатова"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["n/a"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.706579,23.829622"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

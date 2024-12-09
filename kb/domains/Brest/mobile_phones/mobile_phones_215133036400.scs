@@ -1,0 +1,26 @@
+ concept_mobile_phones_215133036400
+ <- concept_mobile_phones;
+=>nrel_main_idtf:
+	["GSM"]
+	(* <- lang_ru;; <- name;;*);
+    ["GSM"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Варшавское шоссе, 37"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 25 517-44-67"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–19:00, перерыв 13:00–14:00; сб 10:00–15:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.074053,23.710201"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

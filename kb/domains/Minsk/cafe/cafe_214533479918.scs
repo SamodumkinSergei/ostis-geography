@@ -1,0 +1,26 @@
+ concept_cafe_214533479918
+ <- concept_cafe;
+=>nrel_main_idtf:
+	["Yummy Coffee to Go"]
+	(* <- lang_ru;; <- name;;*);
+    ["Yummy Coffee to Go"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, Краснозвёздная улица, 18Б"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 754-66-50"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 08:30–18:30"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.907645,27.590569"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

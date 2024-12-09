@@ -1,0 +1,26 @@
+ concept_supermarket_1065815923
+ <- concept_supermarket;
+=>nrel_main_idtf:
+	["Рассвет"]
+	(* <- lang_ru;; <- name;;*);
+    ["Рассвет"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, Жемчужная улица, 12"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 239-21-92"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.358483,31.023064"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://www.rassvet.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

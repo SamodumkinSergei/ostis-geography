@@ -1,0 +1,26 @@
+ concept_auto_103838504556
+ <- concept_auto;
+=>nrel_main_idtf:
+	["Мегасервис"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мегасервис"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Короля, 88"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 627-44-88"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–21:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.904726,27.527295"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://megaservice.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

@@ -1,0 +1,26 @@
+ concept_tailor_1196778419
+ <- concept_tailor;
+=>nrel_main_idtf:
+	["Дубликат ключей"]
+	(* <- lang_ru;; <- name;;*);
+    ["Дубликат ключей"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, проспект Независимости, 54"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 276-06-06"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–20:00; сб 10:00–20:00; вс 11:00–18:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.916481,27.586175"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://vskritie.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

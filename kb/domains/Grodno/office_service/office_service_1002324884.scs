@@ -1,0 +1,26 @@
+ concept_office_service_1002324884
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Ойкос в Гродно"]
+	(* <- lang_ru;; <- name;;*);
+    ["Ойкос в Гродно"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гродно, улица Карла Маркса, 25"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 731-58-61"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–14:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.677316,23.835727"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://oikosminsk.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Grodno;;

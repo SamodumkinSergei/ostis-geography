@@ -1,0 +1,26 @@
+ concept_malls_20271377259
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Santehvit.by"]
+	(* <- lang_ru;; <- name;;*);
+    ["Santehvit.by"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Витебск, Офицерская улица, 2А"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 712-01-32"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["вт-вс 09:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["55.181191,30.2231"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://santehvit.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Vitebsk;;

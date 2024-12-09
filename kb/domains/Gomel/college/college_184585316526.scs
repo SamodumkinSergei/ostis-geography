@@ -1,0 +1,26 @@
+ concept_college_184585316526
+ <- concept_college;
+=>nrel_main_idtf:
+	["Юридический факультет Ггу им. Ф. Скорины"]
+	(* <- lang_ru;; <- name;;*);
+    ["Юридический факультет Ггу им. Ф. Скорины"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Кирова, 119"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 251-03-26"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 09:00–17:40, перерыв 13:00–13:40"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.445693,30.995075"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://gsu.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

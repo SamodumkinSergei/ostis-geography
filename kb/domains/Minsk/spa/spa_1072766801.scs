@@ -1,0 +1,26 @@
+ concept_spa_1072766801
+ <- concept_spa;
+=>nrel_main_idtf:
+	["ПерсонаСити"]
+	(* <- lang_ru;; <- name;;*);
+    ["ПерсонаСити"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минск, улица Свердлова, 34"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 610-28-10"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-сб 09:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.890313,27.559305"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://personacity.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

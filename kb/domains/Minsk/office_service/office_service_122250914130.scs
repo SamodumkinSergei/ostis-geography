@@ -1,0 +1,26 @@
+ concept_office_service_122250914130
+ <- concept_office_service;
+=>nrel_main_idtf:
+	["Склад ОриентирСтрой"]
+	(* <- lang_ru;; <- name;;*);
+    ["Склад ОриентирСтрой"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Минский район, Сеницкий сельсовет, посёлок Юбилейный, Коммунальная улица, 4Ак1"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 17 506-16-91"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["n/a"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["53.818131,27.517679"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://orientirstroy.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Minsk;;

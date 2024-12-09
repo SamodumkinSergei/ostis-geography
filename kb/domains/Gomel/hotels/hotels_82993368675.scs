@@ -1,0 +1,26 @@
+ concept_hotels_82993368675
+ <- concept_hotels;
+=>nrel_main_idtf:
+	["Hvalana Apartments"]
+	(* <- lang_ru;; <- name;;*);
+    ["Hvalana Apartments"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица Т.С. Бородина, 6"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 44 718-08-59"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 09:00–22:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.45979,31.028587"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["http://hvalana-hotel.com/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

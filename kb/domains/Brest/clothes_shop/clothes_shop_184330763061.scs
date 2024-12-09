@@ -1,0 +1,26 @@
+ concept_clothes_shop_184330763061
+ <- concept_clothes_shop;
+=>nrel_main_idtf:
+	["Мегахенд"]
+	(* <- lang_ru;; <- name;;*);
+    ["Мегахенд"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Московская улица, 332"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 383-84-78"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 10:00–19:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.099746,23.761421"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://mega-hand.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

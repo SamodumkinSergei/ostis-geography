@@ -1,0 +1,26 @@
+ concept_swimming_pool_241073383122
+ <- concept_swimming_pool;
+=>nrel_main_idtf:
+	["Бассейн"]
+	(* <- lang_ru;; <- name;;*);
+    ["Бассейн"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Гомель, улица 70 лет БССР, 27"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 23 231-26-48"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 08:00–20:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.402148,30.913629"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["https://gimn58gomel.schools.by/"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Gomel;;

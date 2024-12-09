@@ -1,0 +1,26 @@
+ concept_restaurants_95304433579
+ <- concept_restaurants;
+=>nrel_main_idtf:
+	["ЖыШи чайхана"]
+	(* <- lang_ru;; <- name;;*);
+    ["ЖыШи чайхана"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Пионерская улица, 39"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 29 872-17-21"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["ежедневно, 11:00–23:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.102323,23.72049"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;

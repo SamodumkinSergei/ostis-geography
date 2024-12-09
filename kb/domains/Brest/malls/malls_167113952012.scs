@@ -1,0 +1,26 @@
+ concept_malls_167113952012
+ <- concept_malls;
+=>nrel_main_idtf:
+	["Вам сюда"]
+	(* <- lang_ru;; <- name;;*);
+    ["Вам сюда"]
+	(* <- lang_en;; <- name_en;;*);
+=>nrel_adress:
+    ["Брест, Советская улица, 134"]
+    (* <- concept_adress;;*);
+=>nrel_contacts:
+    ["+375 33 399-11-01"]
+    (* <- concept_contacts;;*);
+=>nrel_schedule:
+    ["пн-пт 10:00–18:00; сб 10:00–16:00"]
+    (* <- concept_schedule;;*);
+=>nrel_coordinates:
+    ["52.083294,23.69809"]
+    (* <- concept_coordinates;;*);
+=>nrel_url:
+    ["n/a"]
+    (* <- concept_url;;*);
+=>nrel_country:
+    Belarus;
+=>nrel_city:
+    Brest;;
