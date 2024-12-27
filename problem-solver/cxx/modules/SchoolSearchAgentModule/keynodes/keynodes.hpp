@@ -1,30 +1,23 @@
 #pragma once
 
+#include <sc-memory/sc_keynodes.hpp>
+
 #include <sc-memory/sc_object.hpp>
 #include <sc-memory/sc_addr.hpp>
-
-#include "keynodes.generated.hpp"
 
 namespace SchoolSearchAgentModule
 {
 
-class Keynodes : public ScObject
+class Keynodes : public ScKeynodes
 {
-  SC_CLASS()
-  SC_GENERATED_BODY()
+  public:
+  static inline ScKeynode const action_schoolByNumberSearch{"action_schoolByNumberSearch"};
 
-public:
-  SC_PROPERTY(Keynode("action_schoolByNumberSearch"), ForceCreate)
-  static ScAddr action_schoolByNumberSearch;
+  static inline ScKeynode const nrel_main_idtf{"nrel_main_idtf"};
 
-  SC_PROPERTY(Keynode("nrel_main_idtf"), ForceCreate)
-  static ScAddr nrel_main_idtf;
+  static inline ScKeynode const nrel_school_number{"nrel_school_number"};
 
-  SC_PROPERTY(Keynode("nrel_school_number"), ForceCreate)
-  static ScAddr nrel_school_number;
-
-  SC_PROPERTY(Keynode("nrel_search_area"), ForceCreate)
-  static ScAddr nrel_search_area;
+  static inline ScKeynode const nrel_search_area{"nrel_search_area"};
 };
 
 }  // namespace SchoolSearchAgentModule

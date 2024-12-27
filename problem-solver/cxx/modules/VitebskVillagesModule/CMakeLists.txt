@@ -1,6 +1,6 @@
 set(SOURCES
 		"VitebskVillagesModule.cpp"
-		"keynodes/keynodes.cpp"
+		#"keynodes/keynodes.cpp"
 		"agents/LargerVillageByPopulationInTheDistrict.cpp"
 		"agents/LargerVillageByPopulation.cpp"
 		"agents/GreatestDistanceToTheRegionalCenter.cpp"
@@ -23,8 +23,6 @@ include_directories(
 
 add_library(VitebskVillagesModule SHARED ${SOURCES} ${HEADERS})
 target_link_libraries(VitebskVillagesModule sc-memory sc-agents-common)
-
-sc_codegen_ex(VitebskVillagesModule ${CMAKE_CURRENT_LIST_DIR} ${CMAKE_CURRENT_LIST_DIR}/generated)
 
 if(${SC_CLANG_FORMAT_CODE})
 	target_clangformat_setup(VitebskVillagesModule)

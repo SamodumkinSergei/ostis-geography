@@ -2,9 +2,16 @@
 
 namespace SearchFastestWayAgentModule
 {
-SC_IMPLEMENT_MODULE(SearchFastestWayAgentModule)
+SC_MODULE_REGISTER(SearchFastestWayAgentModule)
+  ->Agent<SearchFastestWayAgent>();
+void SearchFastestWayAgentModule::Initialize(ScMemoryContext* context){
 
-sc_result SearchFastestWayAgentModule::InitializeImpl()
+}
+void SearchFastestWayAgentModule::Shutdown(ScMemoryContext* context){
+  
+}
+//todo(codegen-removal): if needed override ScModule::Initialize and move all non-keynodes and non-agents code from previous initialization method
+/*
 {
   if (!Keynodes::InitGlobal())
   {
@@ -13,16 +20,22 @@ sc_result SearchFastestWayAgentModule::InitializeImpl()
 
   ScMemoryContext ctx(sc_access_lvl_make_min, "SearchFastestWayAgentModule");
 
-  SC_AGENT_REGISTER(SearchFastestWayAgent)
+  //todo(codegen-removal): Use agentContext.SubscribeAgent<SearchFastestWayAgent> or UnsubscribeAgent; to register and unregister agent
+SC_AGENT_REGISTER(SearchFastestWayAgent)
 
   return SC_RESULT_OK;
 }
+*/
 
-sc_result SearchFastestWayAgentModule::ShutdownImpl()
+
+//todo(codegen-removal): if needed override ScModule::Shutdown and move all non-agents code from previous shutdown method
+/*
 {
-  SC_AGENT_UNREGISTER(SearchFastestWayAgent)
+  //todo(codegen-removal): Use agentContext.SubscribeAgent<SearchFastestWayAgent> or UnsubscribeAgent; to register and unregister agent
+SC_AGENT_UNREGISTER(SearchFastestWayAgent)
 
   return SC_RESULT_OK;
 }
+*/
 }  // namespace SearchFastestWayAgentModule
   

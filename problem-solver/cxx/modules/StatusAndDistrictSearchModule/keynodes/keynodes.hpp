@@ -5,37 +5,30 @@
  */
 
 #pragma once
+
+#include <sc-memory/sc_keynodes.hpp>
 #include "sc-memory/sc_addr.hpp"
 #include "sc-memory/sc_object.hpp"
 
-#include "keynodes.generated.hpp"
-
 namespace StatusAndDistrictSearchModule
 {
-
-class Keynodes : public ScObject
+// Класс Keynodes содержит определения для ключевых узлов, используемых в проекте
+class Keynodes : public ScKeynodes
 {
-  SC_CLASS()
-  SC_GENERATED_BODY()
+  public:
+  // Ключевые узлы для разных вопросов
+  static inline ScKeynode const action_statusAndDistrictSearch{"action_statusAndDistrictSearch", ScType::ConstNodeClass};
 
-public:
-  SC_PROPERTY(Keynode("action_statusAndDistrictSearch"), ForceCreate)
-  static ScAddr action_statusAndDistrictSearch;
+// Ключевые узлы для различных типов отношений
+  static inline ScKeynode const nrel_district{"nrel_district", ScType::ConstNodeNonRole};
 
-  SC_PROPERTY(Keynode("nrel_district"), ForceCreate)
-  static ScAddr nrel_district;
+  static inline ScKeynode const nrel_search_area{"nrel_search_area", ScType::ConstNodeNonRole};
 
-  SC_PROPERTY(Keynode("nrel_search_area"), ForceCreate)
-  static ScAddr nrel_search_area;
+  static inline ScKeynode const nrel_city{"nrel_city", ScType::ConstNodeNonRole};
 
-  SC_PROPERTY(Keynode("nrel_city"), ForceCreate)
-  static ScAddr nrel_city;
+  static inline ScKeynode const nrel_main_idtf{"nrel_main_idtf", ScType::ConstNodeNonRole};
 
-  SC_PROPERTY(Keynode("nrel_main_idtf"), ForceCreate)
-  static ScAddr nrel_main_idtf;
-
-  SC_PROPERTY(Keynode("nrel_status"), ForceCreate)
-  static ScAddr nrel_status;
+  static inline ScKeynode const nrel_status{"nrel_status", ScType::ConstNodeNonRole};
 };
 
 }  // namespace StatusAndDistrictSearchModule

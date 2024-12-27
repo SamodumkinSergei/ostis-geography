@@ -1,17 +1,19 @@
 #pragma once
 
-#include <sc-memory/kpm/sc_agent.hpp>
+#include <sc-memory/sc_agent.hpp>
 
 #include "keynodes/keynodes.hpp"
-#include "SearchFastestWayAgent.generated.hpp"
-
 namespace SearchFastestWayAgentModule
 {
 
-class SearchFastestWayAgent : public ScAgent
+class SearchFastestWayAgent : public ScActionInitiatedAgent
 {
-  SC_CLASS(Agent, Event(Keynodes::action_search_fastest_way, ScEvent::Type::AddOutputEdge))
-  SC_GENERATED_BODY()
+  public:
+  ScAddr GetActionClass() const override;
+
+  ScResult DoProgram(ScEventAfterGenerateOutgoingArc<ScType::ConstPermPosArc> const & event, ScAction & action) override;
+
+  ScAddr GetEventSubscriptionElement() const override;
 
   static void findMinimalPath(
       ScAddr currentNode,
@@ -19,17 +21,17 @@ class SearchFastestWayAgent : public ScAgent
       int currentLength,
       int& resultLength,
       std::vector<ScAddr>& currentPath,
-      std::vector<ScAddr>& result);
+      std::vector<ScAddr>& result,ScAgentContext& m_context);
 
-  static std::list<ScAddr> getAllIncidentNodes(const ScAddr& node);
+  static std::list<ScAddr> getAllIncidentNodes(const ScAddr& node,ScAgentContext& m_context);
 
-  static std::list<ScAddr> getIdentifierMeta(const ScAddr& addr);
+  static std::list<ScAddr> getIdentifierMeta(const ScAddr& addr,ScAgentContext& m_context);
 
-  static ScAddr getMinutesNode(const ScAddr& edge);
+  static ScAddr getMinutesNode(const ScAddr& edge,ScAgentContext& m_context);
 
-  static int getMinutesCount(ScAddr edge);
+  static int getMinutesCount(ScAddr edge,ScAgentContext& m_context);
 
-  static ScAddr getEdgeBetween(const ScAddr& from, const ScAddr& to, ScType type, bool findReverse);
+  static ScAddr getEdgeBetween(const ScAddr& from, const ScAddr& to, ScType type, bool findReverse,ScAgentContext& m_context);
 };
 
 }  // namespace SearchFastestWayAgentModule

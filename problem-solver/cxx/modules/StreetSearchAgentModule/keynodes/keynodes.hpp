@@ -1,30 +1,26 @@
 #pragma once
 
+#include <sc-memory/sc_keynodes.hpp>
+
 #include <sc-memory/sc_object.hpp>
 #include <sc-memory/sc_addr.hpp>
 
-#include "keynodes.generated.hpp"
-
 namespace StreetSearchAgentModule
 {
-
-class Keynodes : public ScObject
+  
+// Класс Keynodes содержит определения для ключевых узлов, используемых в проекте
+class Keynodes : public ScKeynodes
 {
-  SC_CLASS()
-  SC_GENERATED_BODY()
+  public:
+  // Ключевые узлы для разных вопросов
+  static inline ScKeynode const action_streetByLenghtSearch{"action_streetByLenghtSearch", ScType::ConstNodeClass};
 
-public:
-  SC_PROPERTY(Keynode("action_streetByLenghtSearch"), ForceCreate)
-  static ScAddr action_streetByLenghtSearch;
+// Ключевые узлы для различных типов отношений
+  static inline ScKeynode const nrel_main_idtf{"nrel_main_idtf", ScType::ConstNodeNonRole};
 
-  SC_PROPERTY(Keynode("nrel_main_idtf"), ForceCreate)
-  static ScAddr nrel_main_idtf;
+  static inline ScKeynode const nrel_street_length{"nrel_street_length", ScType::ConstNodeNonRole};
 
-  SC_PROPERTY(Keynode("nrel_street_length"), ForceCreate)
-  static ScAddr nrel_street_length;
-
-  SC_PROPERTY(Keynode("nrel_search_area"), ForceCreate)
-  static ScAddr nrel_search_area;
+  static inline ScKeynode const nrel_search_area{"nrel_search_area", ScType::ConstNodeNonRole};
 };
 
 }  // namespace StreetSearchAgentModule

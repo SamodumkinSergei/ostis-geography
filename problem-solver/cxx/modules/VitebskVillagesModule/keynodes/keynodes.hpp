@@ -6,40 +6,29 @@
 
 #pragma once
 
+#include <sc-memory/sc_keynodes.hpp>
+
 #include "sc-memory/sc_addr.hpp"
 #include "sc-memory/sc_object.hpp"
-
-#include "keynodes.generated.hpp"
 
 namespace VitebskVillagesModule
 {
 
-class Keynodes : public ScObject
+// Класс Keynodes содержит определения для ключевых узлов, используемых в проекте
+class Keynodes : public ScKeynodes
 {
-  SC_CLASS()
-  SC_GENERATED_BODY()
+  public:
+    // Ключевые узлы для разных вопросов
+    static inline ScKeynode const question_largerVillageByPopulationInTheDistrict{"question_largerVillageByPopulationInTheDistrict", ScType::ConstNodeClass};
+    static inline ScKeynode const question_largerVillageByPopulation{"question_largerVillageByPopulation", ScType::ConstNodeClass};
+    static inline ScKeynode const question_greatestDistanceToTheRegionalCenter{"question_greatestDistanceToTheRegionalCenter", ScType::ConstNodeClass};
 
-public:
-  SC_PROPERTY(Keynode("question_largerVillageByPopulationInTheDistrict"), ForceCreate)
-  static ScAddr question_largerVillageByPopulationInTheDistrict;
-
-  SC_PROPERTY(Keynode("question_largerVillageByPopulation"), ForceCreate)
-  static ScAddr question_largerVillageByPopulation;
-
-  SC_PROPERTY(Keynode("question_greatestDistanceToTheRegionalCenter"), ForceCreate)
-  static ScAddr question_greatestDistanceToTheRegionalCenter;
-
-  SC_PROPERTY(Keynode("nrel_population"), ForceCreate)
-  static ScAddr nrel_population;
-
-  SC_PROPERTY(Keynode("nrel_distanceFromArea"), ForceCreate)
-  static ScAddr nrel_distanceFromArea;
-
-  SC_PROPERTY(Keynode("nrel_district"), ForceCreate)
-  static ScAddr nrel_district;
-
-  SC_PROPERTY(Keynode("nrel_main_idtf"), ForceCreate)
-  static ScAddr nrel_main_idtf;
+    // Ключевые узлы для различных типов отношений
+    static inline ScKeynode const nrel_population{"nrel_population", ScType::ConstNodeNonRole}; // Население
+    static inline ScKeynode const nrel_distanceFromArea{"nrel_distanceFromArea", ScType::ConstNodeNonRole}; // Расстояние от района
+    static inline ScKeynode const nrel_district{"nrel_district", ScType::ConstNodeNonRole}; // Район
+    static inline ScKeynode const nrel_main_idtf{"nrel_main_idtf", ScType::ConstNodeNonRole}; // Основное наименование
 };
 
 }  // namespace VitebskVillagesModule
+

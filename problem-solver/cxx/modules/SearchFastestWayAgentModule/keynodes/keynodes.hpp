@@ -1,27 +1,23 @@
 #pragma once
 
+#include <sc-memory/sc_keynodes.hpp>
+
 #include <sc-memory/sc_object.hpp>
 #include <sc-memory/sc_addr.hpp>
 
-#include "keynodes.generated.hpp"
-
 namespace SearchFastestWayAgentModule
 {
-
-class Keynodes : public ScObject
+// Класс Keynodes содержит определения для ключевых узлов, используемых в проекте
+class Keynodes : public ScKeynodes
 {
-  SC_CLASS()
-  SC_GENERATED_BODY()
+  public:
+  // Ключевые узлы для разных вопросов
+  static inline ScKeynode const action_search_fastest_way{"action_search_fastest_way" , ScType::ConstNodeClass};
 
-public:
-  SC_PROPERTY(Keynode("action_search_fastest_way"), ForceCreate)
-  static ScAddr action_search_fastest_way;
+  // Ключевые узлы для различных типов отношений
+  static inline ScKeynode const nrel_main_idtf{"nrel_main_idtf", ScType::ConstNodeNonRole};
 
-  SC_PROPERTY(Keynode("nrel_main_idtf"), ForceCreate)
-  static ScAddr nrel_main_idtf;
-
-  SC_PROPERTY(Keynode("concept_parameter"), ForceCreate)
-  static ScAddr concept_parameter;
+  static inline ScKeynode const concept_parameter{"concept_parameter", ScType::ConstNodeClass};
 };
 
 }  // namespace SearchFastestWayAgentModule

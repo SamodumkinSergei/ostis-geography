@@ -6,18 +6,21 @@
 
 #pragma once
 
-#include <sc-memory/kpm/sc_agent.hpp>
+#include <sc-memory/sc_agent.hpp>
 
 #include "keynodes/keynodes.hpp"
-#include "VillageSearchAgent.generated.hpp"
-
 namespace VillagesModule
 {
 
-class VillageSearchAgent : public ScAgent
+class VillageSearchAgent : public ScActionInitiatedAgent
 {
-  SC_CLASS(Agent, Event(Keynodes::question_vitebskVillage, ScEvent::Type::AddOutputEdge))
-  SC_GENERATED_BODY()
-};
+  public:
+  ScAddr GetActionClass() const override;
+
+  ScResult DoProgram(ScEventAfterGenerateOutgoingArc<ScType::ConstPermPosArc> const & event, ScAction & action) override;
+
+  ScAddr GetEventSubscriptionElement() const override;
+
+  };
 
 }  // namespace VillagesModule

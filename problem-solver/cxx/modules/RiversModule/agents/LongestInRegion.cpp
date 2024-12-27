@@ -4,7 +4,6 @@
  * (See accompanying file COPYING.MIT or copy at http://opensource.org/licenses/MIT)
  */
 
-#include "sc-agents-common/utils/AgentUtils.hpp"
 #include "sc-agents-common/utils/CommonUtils.hpp"
 #include "sc-agents-common/utils/IteratorUtils.hpp"
 #include <string>
@@ -18,45 +17,44 @@ using namespace utils;
 namespace RiversModule
 {
 
-SC_AGENT_IMPLEMENTATION(LongestInRegion)
+ScAddr LongestInRegion::GetActionClass() const
 {
-  if (!edgeAddr.IsValid())
-    return SC_RESULT_ERROR;
+//todo(codegen-removal): replace action with your action class
+  return RiverKeynodes::action_get_longestInRegion;
+}
 
-  SC_LOG_INFO("----------LongestInRegion begin----------");
-  ScAddr actionNode = ms_context->GetEdgeTarget(edgeAddr);
+// ScResult LongestInRegion::DoProgram(ScEventAfterGenerateOutgoingArc<ScType::ConstPermPosArc> const & event, ScAction & action)
+ScResult LongestInRegion::DoProgram(ScAction & action)
+{  
+  auto const & [region] = action.GetArguments<1>();
 
-  ScAddr region = IteratorUtils::getAnyByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_1);
-
-  if (!region.IsValid())
+  if (!m_context.IsElement(region))
   {
-    SC_LOG_ERROR("region is not valid");
-    return SC_RESULT_ERROR_INVALID_PARAMS;
-  }
+    SC_AGENT_LOG_ERROR("Action does not have argument.");
 
-  std::string regionIdtf = CommonUtils::getIdtf(ms_context.get(), region, Keynodes::nrel_main_idtf);
-  SC_LOG_INFO("region is " + regionIdtf);
+    return action.FinishWithError();
+  }  
 
-  ScAddr answer = ms_context->CreateNode(ScType::NodeConstStruct);
+  ScAddr answer = m_context.GenerateNode(ScType::ConstNodeStructure);
 
   int maxLength = 0;
-  ScAddr longestRiverAddr{};
+  ScAddr longestRiverAddr;
 
-  auto iteratorForRivers = ms_context->Iterator5(
-      ScType::Unknown, ScType::EdgeDCommonConst, region, ScType::EdgeAccessConstPosPerm, Keynodes::nrel_region);
+  auto iteratorForRivers = m_context.CreateIterator5(
+      ScType::Unknown, ScType::ConstCommonArc, region, ScType::ConstPermPosArc, RiverKeynodes::nrel_region);
   while (iteratorForRivers->Next())
   {
     ScAddr riverAddr = iteratorForRivers->Get(0);
-    std::string riverName = CommonUtils::getIdtf(ms_context.get(), riverAddr, Keynodes::nrel_main_idtf);
-    auto iteratorForLength = ms_context->Iterator5(
-        riverAddr, ScType::EdgeDCommonConst, ScType::Unknown, ScType::EdgeAccessConstPosPerm, Keynodes::nrel_length);
+    std::string riverName = CommonUtils::getIdtf(&m_context, riverAddr, ScKeynodes::nrel_main_idtf);
+    auto iteratorForLength = m_context.CreateIterator5(
+        riverAddr, ScType::ConstCommonArc, ScType::Unknown, ScType::ConstPermPosArc, RiverKeynodes::nrel_length);
 
     while (iteratorForLength->Next())
     {
       ScAddr lengthAddr = iteratorForLength->Get(2);
-      std::string lengthStr = CommonUtils::getIdtf(ms_context.get(), lengthAddr, Keynodes::nrel_main_idtf);
-      SC_LOG_INFO("Found river " + riverName + " with length " + lengthStr);
-      int lengthInt = std::stoi(lengthStr);
+      std::string lengthStr = CommonUtils::getIdtf(&m_context, lengthAddr, ScKeynodes::nrel_main_idtf);
+      
+      int lengthInt = std::stoi(lengthStr.c_str());
       if (maxLength < lengthInt)
       {
         maxLength = lengthInt;
@@ -64,30 +62,22 @@ SC_AGENT_IMPLEMENTATION(LongestInRegion)
       }
     }
   }
+  
+  ScIterator5Ptr iteratorToAddToAnswer = m_context.CreateIterator5(
+      longestRiverAddr, ScType::Unknown, ScType::Unknown, ScType::ConstPermPosArc, RiverKeynodes::nrel_length);
 
-  if (longestRiverAddr.IsValid())
+  if (iteratorToAddToAnswer->Next())
   {
-    std::string riverName = CommonUtils::getIdtf(ms_context.get(), longestRiverAddr, Keynodes::nrel_main_idtf);
-    SC_LOG_INFO("longest river in " + regionIdtf + " is " + riverName);
-
-    ScIterator5Ptr iteratorToAddToAnswer = ms_context->Iterator5(
-        longestRiverAddr, ScType::Unknown, region, ScType::EdgeAccessConstPosPerm, Keynodes::nrel_region);
-
-    if (iteratorToAddToAnswer->Next())
-    {
-      ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, answer, iteratorToAddToAnswer->Get(0));
-      ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, answer, iteratorToAddToAnswer->Get(1));
-      ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, answer, iteratorToAddToAnswer->Get(2));
-      ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, answer, iteratorToAddToAnswer->Get(3));
-      ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, answer, iteratorToAddToAnswer->Get(4));
-    }
+    m_context.GenerateConnector(ScType::ConstPermPosArc, answer, iteratorToAddToAnswer->Get(0));
+    m_context.GenerateConnector(ScType::ConstPermPosArc, answer, iteratorToAddToAnswer->Get(1));
+    m_context.GenerateConnector(ScType::ConstPermPosArc, answer, iteratorToAddToAnswer->Get(2));
+    m_context.GenerateConnector(ScType::ConstPermPosArc, answer, iteratorToAddToAnswer->Get(3));
+    m_context.GenerateConnector(ScType::ConstPermPosArc, answer, iteratorToAddToAnswer->Get(4));
   }
+  
 
-  ScAddr edgeToAnswer = ms_context->CreateEdge(ScType::EdgeDCommonConst, actionNode, answer);
-  ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, scAgentsCommon::CoreKeynodes::nrel_answer, edgeToAnswer);
-
-  SC_LOG_INFO("----------LongestInRegion end----------");
-  AgentUtils::finishAgentWork(ms_context.get(), actionNode);
-  return SC_RESULT_OK;
+  action.SetResult(answer);
+  return action.FinishSuccessfully();
 }
+
 }  // namespace RiversModule

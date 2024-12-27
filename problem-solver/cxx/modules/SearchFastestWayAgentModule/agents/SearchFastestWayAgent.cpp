@@ -1,8 +1,8 @@
-#include "sc-agents-common/utils/AgentUtils.hpp"
 #include "sc-agents-common/utils/CommonUtils.hpp"
 #include "sc-agents-common/utils/GenerationUtils.hpp"
 #include "sc-agents-common/utils/IteratorUtils.hpp"
-#include "sc-agents-common/keynodes/coreKeynodes.hpp"
+#include "sc-memory/sc_memory.hpp"
+#include <list>
 #include <string>
 #include <iostream>
 #include <vector>
@@ -17,96 +17,124 @@ using namespace utils;
 namespace SearchFastestWayAgentModule
 {
 
-SC_AGENT_IMPLEMENTATION(SearchFastestWayAgent)
+// Основная функция, реализующая логику агента
+ScResult SearchFastestWayAgent::DoProgram(ScEventAfterGenerateOutgoingArc<ScType::ConstPermPosArc> const & event, ScAction & action)
 {
-  if (!edgeAddr.IsValid())
-    return SC_RESULT_ERROR;
+  // Проверяем, является ли дуга события валидной
+  if (!event.GetArc().IsValid())
+    return action.FinishUnsuccessfully();
 
-  SC_LOG_INFO("SearchFastestWayAgent begin");
-  ScAddr actionNode = ms_context->GetEdgeTarget(edgeAddr);
+  SC_AGENT_LOG_INFO("начало");
+  
+  // Получаем узел действия, вызвавший событие
+  ScAddr actionNode = m_context.GetArcTargetElement(event.GetArc());
 
+  // Извлекаем начальный узел из первого параметра действия
   ScAddr const & startNodeAddr
-      = IteratorUtils::getAnyByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_1);
+      = IteratorUtils::getAnyByOutRelation(&m_context, actionNode, ScKeynodes::rrel_1);
   if (!startNodeAddr.IsValid())
   {
-    SC_LOG_ERROR("First parameter isn't valid.");
-    AgentUtils::finishAgentWork(&m_memoryCtx, actionNode, false);
-    return SC_RESULT_ERROR_INVALID_PARAMS;
+    SC_AGENT_LOG_ERROR("Первый параметр невалиден.");
+    return action.FinishUnsuccessfully();
   }
 
+  // Извлекаем конечный узел из второго параметра действия
   ScAddr const & endNodeAddr
-      = IteratorUtils::getAnyByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_2);
+      = IteratorUtils::getAnyByOutRelation(&m_context, actionNode, ScKeynodes::rrel_2);
   if (!endNodeAddr.IsValid())
   {
-    SC_LOG_ERROR("Second parameter isn't valid.");
-    AgentUtils::finishAgentWork(&m_memoryCtx, actionNode, false);
-    return SC_RESULT_ERROR_INVALID_PARAMS;
+    SC_AGENT_LOG_ERROR("Второй параметр невалиден.");
+    return action.FinishUnsuccessfully();
   }
 
-  ScAddr const & answer = ms_context->CreateNode(ScType::NodeConstStruct);
+  // Создаем узел для хранения результата поиска
+  ScAddr const & answer = m_context.GenerateNode(ScType::ConstNodeStructure);
 
+  // Вектор для хранения кратчайшего пути
   std::vector<ScAddr> result;
 
   {
+    // Инициализируем переменные для хранения минимального пути и его длины
     int length = INT32_MAX;
     std::vector<ScAddr> currentPath;
 
-    findMinimalPath(startNodeAddr, endNodeAddr, 0, length, currentPath, result);
+    // Поиск кратчайшего пути с использованием рекурсии
+    findMinimalPath(startNodeAddr, endNodeAddr, 0, length, currentPath, result, m_context);
   }
 
+  // Обрабатываем найденный путь и генерируем связи для визуализации результата
   for (int i = 1; i < result.size(); ++i)
   {
     auto fromNode = result[i - 1];
     auto toNode = result[i];
-    auto edge = getEdgeBetween(fromNode, toNode, ScType::EdgeUCommonConst, true);
+    auto edge = getEdgeBetween(fromNode, toNode, ScType::ConstCommonEdge, true, m_context);
 
-    auto fromNodeMeta = getIdentifierMeta(fromNode);
-    auto toNodeMeta = getIdentifierMeta(toNode);
+    // Получаем метаданные для узлов и их связей
+    auto fromNodeMeta = getIdentifierMeta(fromNode, m_context);
+    auto toNodeMeta = getIdentifierMeta(toNode, m_context);
 
-    auto minutesNode = getMinutesNode(edge);
+    // Получаем узел, представляющий время пути в минутах
+    auto minutesNode = getMinutesNode(edge, m_context);
 
-    auto edgeToMinutesNode = getEdgeBetween(edge, minutesNode, ScType::EdgeAccessConstPosPerm, false);
-    auto minutesNodeMeta = getIdentifierMeta(minutesNode);
+    auto edgeToMinutesNode = getEdgeBetween(edge, minutesNode, ScType::ConstPermPosArc, false, m_context);
+    auto minutesNodeMeta = getIdentifierMeta(minutesNode, m_context);
 
-    ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, answer, fromNode);
-    ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, answer, edge);
-    ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, answer, toNode);
+    // Создаем связи в результирующем узле
+    m_context.GenerateConnector(ScType::ConstPermPosArc, answer, fromNode);
+    m_context.GenerateConnector(ScType::ConstPermPosArc, answer, edge);
+    m_context.GenerateConnector(ScType::ConstPermPosArc, answer, toNode);
 
     for (auto item : fromNodeMeta)
     {
-      ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, answer, item);
+      m_context.GenerateConnector(ScType::ConstPermPosArc, answer, item);
     }
 
     for (auto item : toNodeMeta)
     {
-      ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, answer, item);
+      m_context.GenerateConnector(ScType::ConstPermPosArc, answer, item);
     }
 
-    ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, answer, minutesNode);
-    ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, answer, edgeToMinutesNode);
+    m_context.GenerateConnector(ScType::ConstPermPosArc, answer, minutesNode);
+    m_context.GenerateConnector(ScType::ConstPermPosArc, answer, edgeToMinutesNode);
 
     for (auto item : minutesNodeMeta)
     {
-      ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, answer, item);
+      m_context.GenerateConnector(ScType::ConstPermPosArc, answer, item);
     }
   }
 
-  ScAddr edgeToAnswer = ms_context->CreateEdge(ScType::EdgeDCommonConst, actionNode, answer);
-  ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, scAgentsCommon::CoreKeynodes::nrel_answer, edgeToAnswer);
+  // Связываем результат с узлом действия через общую дугу
+  ScAddr edgeToAnswer = m_context.GenerateConnector(ScType::ConstCommonArc, actionNode, answer);
+  m_context.GenerateConnector(ScType::ConstPermPosArc, ScKeynodes::nrel_result, edgeToAnswer);
 
-  AgentUtils::finishAgentWork(ms_context.get(), actionNode);
-  SC_LOG_INFO("SearchFastestWayAgent end");
-  return SC_RESULT_OK;
+  action.SetResult(answer);
+  SC_AGENT_LOG_INFO("конец");
+  return action.FinishSuccessfully();
 }
 
+// Определяем класс действия, которое обрабатывается этим агентом
+ScAddr SearchFastestWayAgent::GetActionClass() const
+{
+  return Keynodes::action_search_fastest_way;
+}
+
+// Указываем элемент, на который подписывается агент
+ScAddr SearchFastestWayAgent::GetEventSubscriptionElement() const
+{
+  return ScKeynodes::action_initiated;
+}
+
+// Рекурсивный поиск минимального пути между узлами
 void SearchFastestWayAgent::findMinimalPath(
     ScAddr currentNode,
     ScAddr target,
     int currentLength,
     int& resultLength,
     std::vector<ScAddr>& currentPath,
-    std::vector<ScAddr>& result)
+    std::vector<ScAddr>& result,
+    ScAgentContext& m_context)
 {
+  // Проверяем, если узел уже был в пути, выходим
   if (std::find(currentPath.begin(), currentPath.end(), currentNode) != currentPath.end())
   {
     return;
@@ -114,6 +142,7 @@ void SearchFastestWayAgent::findMinimalPath(
 
   currentPath.push_back(currentNode);
 
+  // Если текущий узел совпадает с целевым
   if (currentNode == target)
   {
     if (currentLength < resultLength)
@@ -126,36 +155,38 @@ void SearchFastestWayAgent::findMinimalPath(
     }
   }
 
-  auto incidentNodes = getAllIncidentNodes(currentNode);
+  // Получаем соседние узлы
+  auto incidentNodes = getAllIncidentNodes(currentNode, m_context);
 
   for (auto incidentNode : incidentNodes)
   {
-    auto edge = getEdgeBetween(currentNode, incidentNode, ScType::EdgeUCommonConst, true);
-    auto minutesCount = getMinutesCount(edge);
+    auto edge = getEdgeBetween(currentNode, incidentNode, ScType::ConstCommonEdge, true, m_context);
+    auto minutesCount = getMinutesCount(edge, m_context);
 
-    findMinimalPath(incidentNode, target, currentLength + minutesCount, resultLength, currentPath, result);
+    findMinimalPath(incidentNode, target, currentLength + minutesCount, resultLength, currentPath, result, m_context);
   }
 
   currentPath.pop_back();
 }
 
-std::list<ScAddr> SearchFastestWayAgent::getAllIncidentNodes(const ScAddr& node)
+// Получение всех соседних узлов для заданного узла
+std::list<ScAddr> SearchFastestWayAgent::getAllIncidentNodes(const ScAddr& node, ScAgentContext& m_context)
 {
   std::list<ScAddr> result;
 
-  auto iteratorForward = ms_context->Iterator3(
+  auto iteratorForward = m_context.CreateIterator3(
       node,
-      ScType::EdgeUCommonConst,
-      ScType::NodeConst);
+      ScType::ConstCommonEdge,
+      ScType::ConstNode);
 
   while (iteratorForward->Next())
   {
     result.push_back(iteratorForward->Get(2));
   }
 
-  auto iteratorBackward = ms_context->Iterator3(
-      ScType::NodeConst,
-      ScType::EdgeUCommonConst,
+  auto iteratorBackward = m_context.CreateIterator3(
+      ScType::ConstNode,
+      ScType::ConstCommonEdge,
       node);
 
   while (iteratorBackward->Next())
@@ -166,9 +197,10 @@ std::list<ScAddr> SearchFastestWayAgent::getAllIncidentNodes(const ScAddr& node)
   return result;
 }
 
-std::list<ScAddr> SearchFastestWayAgent::getIdentifierMeta(const ScAddr& addr)
+// Получение метаданных для заданного узла
+std::list<ScAddr> SearchFastestWayAgent::getIdentifierMeta(const ScAddr& addr, ScAgentContext& m_context)
 {
-  auto iterator = ms_context->Iterator5(addr, ScType::EdgeDCommonConst, ScType::LinkConst, ScType::EdgeAccessConstPosPerm, Keynodes::nrel_main_idtf);
+  auto iterator = m_context.CreateIterator5(addr, ScType::ConstCommonArc, ScType::ConstNodeLink, ScType::ConstPermPosArc, Keynodes::nrel_main_idtf);
 
   if (iterator->Next())
   {
@@ -183,23 +215,31 @@ std::list<ScAddr> SearchFastestWayAgent::getIdentifierMeta(const ScAddr& addr)
   return {};
 }
 
-int SearchFastestWayAgent::getMinutesCount(ScAddr edge)
+// Получение времени в минутах из дуги
+int SearchFastestWayAgent::getMinutesCount(ScAddr edge, ScAgentContext& m_context)
 {
-  auto minutesNode = getMinutesNode(edge);
-  auto idtf = CommonUtils::getMainIdtf(ms_context.get(), minutesNode);
-
-  return std::stoi(idtf);
+  auto minutesNode = getMinutesNode(edge, m_context);
+  auto idtf = CommonUtils::getMainIdtf(&m_context, minutesNode);
+  try
+  {
+    return std::stoi(idtf);
+  }
+  catch (const std::invalid_argument& e)
+  {
+    return 0;
+  }
 }
 
-ScAddr SearchFastestWayAgent::getMinutesNode(const ScAddr& edge)
+// Получение узла времени пути из дуги
+ScAddr SearchFastestWayAgent::getMinutesNode(const ScAddr& edge, ScAgentContext& m_context)
 {
-  auto iterator = ms_context->Iterator3(ScType::NodeConst, ScType::EdgeAccessConstPosPerm, edge);
+  auto iterator = m_context.CreateIterator3(ScType::ConstNode, ScType::ConstPermPosArc, edge);
 
   while (iterator->Next())
   {
     auto minutesNode = iterator->Get(0);
 
-    if (!ms_context->HelperCheckEdge(Keynodes::concept_parameter, minutesNode, ScType::EdgeAccessConstPosPerm))
+    if (!m_context.CheckConnector(Keynodes::concept_parameter, minutesNode, ScType::ConstPermPosArc))
     {
       continue;
     }
@@ -210,9 +250,10 @@ ScAddr SearchFastestWayAgent::getMinutesNode(const ScAddr& edge)
   return ScAddr::Empty;
 }
 
-ScAddr SearchFastestWayAgent::getEdgeBetween(const ScAddr& from, const ScAddr& to, ScType type, bool findReverse)
+// Получение дуги между двумя узлами
+ScAddr SearchFastestWayAgent::getEdgeBetween(const ScAddr& from, const ScAddr& to, ScType type, bool findReverse, ScAgentContext& m_context)
 {
-  auto iterator = ms_context->Iterator3(from, type, to);
+  auto iterator = m_context.CreateIterator3(from, type, to);
 
   if (iterator->Next())
   {
@@ -221,8 +262,9 @@ ScAddr SearchFastestWayAgent::getEdgeBetween(const ScAddr& from, const ScAddr& t
 
   if (findReverse)
   {
-    return getEdgeBetween(to, from, type, false);
+    return getEdgeBetween(to, from, type, false, m_context);
   }
+  return ScAddr::Empty;
 }
 
 }  // namespace SearchFastestWayAgentModule

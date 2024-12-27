@@ -1,24 +1,20 @@
 #pragma once
 
+#include <sc-memory/sc_keynodes.hpp>
+
 #include "sc-memory/sc_addr.hpp"
 #include "sc-memory/sc_object.hpp"
 
-#include "Keynodes.generated.hpp"
-
 namespace soatoClassificationModule
 {
-
-class Keynodes : public ScObject
+// Класс Keynodes содержит определения для ключевых узлов, используемых в проекте
+class Keynodes : public ScKeynodes
 {
-  SC_CLASS()
-  SC_GENERATED_BODY()
-
-public:
-  SC_PROPERTY(Keynode("action_soato_classification"), ForceCreate)
-  static ScAddr action_soato_classification;
-
-  SC_PROPERTY(Keynode("rrel_entity"), ForceCreate)
-  static ScAddr rrel_entity;
+  public:
+  // Ключевые узлы для разных вопросов
+  static inline ScKeynode const action_soato_classification{"action_soato_classification", ScType::ConstNodeClass};
+  // Ключевые узлы для различных типов отношений
+  static inline ScKeynode const rrel_entity{"rrel_entity", ScType::ConstNodeRole};
 };
 
 }

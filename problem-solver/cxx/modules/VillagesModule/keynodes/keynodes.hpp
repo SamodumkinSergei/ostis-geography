@@ -6,28 +6,25 @@
 
 #pragma once
 
+#include <sc-memory/sc_keynodes.hpp>
+
 #include "sc-memory/sc_addr.hpp"
 #include "sc-memory/sc_object.hpp"
-
-#include "keynodes.generated.hpp"
 
 namespace VillagesModule
 {
 
-class Keynodes : public ScObject
+// Класс Keynodes содержит определения для ключевых узлов, используемых в проекте
+class Keynodes : public ScKeynodes
 {
-  SC_CLASS()
-  SC_GENERATED_BODY()
+  public:
+  // Ключевые узлы для разных вопросов
+  static inline ScKeynode const question_vitebskVillage{"question_vitebskVillage", ScType::ConstNodeClass};
+  
+  // Ключевые узлы для различных типов отношений
+  static inline ScKeynode const nrel_length{"nrel_length", ScType::ConstNodeNonRole};
 
-public:
-  SC_PROPERTY(Keynode("question_vitebskVillage"), ForceCreate)
-  static ScAddr question_vitebskVillage;
-
-  SC_PROPERTY(Keynode("nrel_length"), ForceCreate)
-  static ScAddr nrel_length;
-
-  SC_PROPERTY(Keynode("nrel_main_idtf"), ForceCreate)
-  static ScAddr nrel_main_idtf;
+  static inline ScKeynode const nrel_main_idtf{"nrel_main_idtf", ScType::ConstNodeNonRole};
 };
 
 }  // namespace VillagesModule

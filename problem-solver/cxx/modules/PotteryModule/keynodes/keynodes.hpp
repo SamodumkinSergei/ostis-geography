@@ -6,52 +6,38 @@
 
 #pragma once
 
+#include <sc-memory/sc_keynodes.hpp>
+
 #include "sc-memory/sc_addr.hpp"
 #include "sc-memory/sc_object.hpp"
-
-#include "keynodes.generated.hpp"
 
 namespace PotteryModule
 {
 
-class Keynodes : public ScObject
+class Keynodes : public ScKeynodes
 {
-  SC_CLASS()
-  SC_GENERATED_BODY()
+  public:
+  static inline ScKeynode const question_potteryType{"question_potteryType"};
 
-public:
-  SC_PROPERTY(Keynode("question_potteryType"), ForceCreate)
-  static ScAddr question_potteryType;
+  static inline ScKeynode const question_potteryTech{"question_potteryTech"};
 
-  SC_PROPERTY(Keynode("question_potteryTech"), ForceCreate)
-  static ScAddr question_potteryTech;
+  static inline ScKeynode const question_potteryDate{"question_potteryDate"};
 
-  SC_PROPERTY(Keynode("question_potteryDate"), ForceCreate)
-  static ScAddr question_potteryDate;
+  static inline ScKeynode const nrel_technologies_used{"nrel_technologies_used"};
 
-  SC_PROPERTY(Keynode("nrel_technologies_used"), ForceCreate)
-  static ScAddr nrel_technologies_used;
+  static inline ScKeynode const nrel_type_of_production{"nrel_type_of_production"};
 
-  SC_PROPERTY(Keynode("nrel_type_of_production"), ForceCreate)
-  static ScAddr nrel_type_of_production;
+  static inline ScKeynode const nrel_main_idtf{"nrel_main_idtf"};
 
-  SC_PROPERTY(Keynode("nrel_main_idtf"), ForceCreate)
-  static ScAddr nrel_main_idtf;
+  static inline ScKeynode const nrel_date{"nrel_date"};
 
-  SC_PROPERTY(Keynode("nrel_date"), ForceCreate)
-  static ScAddr nrel_date;
+  static inline ScKeynode const pottery_centre{"pottery_centre"};
 
-  SC_PROPERTY(Keynode("pottery_centre"), ForceCreate)
-  static ScAddr pottery_centre;
+  // static inline ScKeynode const nrel_system_identifier{"nrel_system_identifier"};
 
-  // SC_PROPERTY(Keynode("nrel_system_identifier"), ForceCreate)
-  // static ScAddr nrel_system_identifier;
+  // static inline ScKeynode const system_identifier{"system_identifier"};
 
-  // SC_PROPERTY(Keynode("system_identifier"), ForceCreate)
-  // static ScAddr system_identifier;
-
-  // SC_PROPERTY(Keynode("nrel_sys_idtf"), ForceCreate)
-  // static ScAddr nrel_sys_idtf;
+  // static inline ScKeynode const nrel_sys_idtf{"nrel_sys_idtf"};
 };
 
 }  // namespace PotteryModule

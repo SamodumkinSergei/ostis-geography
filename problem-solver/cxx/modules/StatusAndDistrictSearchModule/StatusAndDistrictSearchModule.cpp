@@ -7,9 +7,11 @@
 #include "StatusAndDistrictSearchModule.hpp"
 namespace StatusAndDistrictSearchModule
 {
-SC_IMPLEMENT_MODULE(StatusAndDistrictSearchModule)
+SC_MODULE_REGISTER(StatusAndDistrictSearchModule)
+  ->Agent<StatusAndDistrictSearch>();
 
-sc_result StatusAndDistrictSearchModule::InitializeImpl()
+//todo(codegen-removal): if needed override ScModule::Initialize and move all non-keynodes and non-agents code from previous initialization method
+/*
 {
   if (!Keynodes::InitGlobal())
   {
@@ -18,15 +20,21 @@ sc_result StatusAndDistrictSearchModule::InitializeImpl()
 
   ScMemoryContext ctx(sc_access_lvl_make_min, "StatusAndDistrictSearchModule");
 
-  SC_AGENT_REGISTER(StatusAndDistrictSearch)
+  //todo(codegen-removal): Use agentContext.SubscribeAgent<StatusAndDistrictSearch> or UnsubscribeAgent; to register and unregister agent
+SC_AGENT_REGISTER(StatusAndDistrictSearch)
 
   return SC_RESULT_OK;
 }
+*/
 
-sc_result StatusAndDistrictSearchModule::ShutdownImpl()
+
+//todo(codegen-removal): if needed override ScModule::Shutdown and move all non-agents code from previous shutdown method
+/*
 {
-  SC_AGENT_UNREGISTER(StatusAndDistrictSearch)
+  //todo(codegen-removal): Use agentContext.SubscribeAgent<StatusAndDistrictSearch> or UnsubscribeAgent; to register and unregister agent
+SC_AGENT_UNREGISTER(StatusAndDistrictSearch)
 
   return SC_RESULT_OK;
 }
+*/
 }  // namespace StatusAndDistrictSearchModule
