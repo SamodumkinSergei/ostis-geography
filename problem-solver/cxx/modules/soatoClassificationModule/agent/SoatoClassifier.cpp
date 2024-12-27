@@ -1,157 +1,129 @@
-#include "SoatoClassifier.hpp"
+#include "sc-agents-common/utils/CommonUtils.hpp"  // Общие утилиты
+#include "sc-agents-common/utils/GenerationUtils.hpp"  // Утилиты генерации
+#include "sc-agents-common/utils/IteratorUtils.hpp"  // Утилиты итерации
+#include "sc-memory/sc_memory.hpp"  // Работа с SC-памятью
+#include "agent/AdministrativeFacility.hpp"  // Административные объекты
+#include "agent/SoatoClassifier.hpp"  // Классификатор СОАТО
+#include "keynodes/Keynodes.hpp"  // Узлы ключевых элементов
 
-#include <iostream>
-#include <vector>
+#include "lib/csv.h"  // Чтение CSV
 
-namespace soatoClassificationModule
+#include "SoatoClassificationAgent.hpp"  // Интерфейс агента
+
+namespace soatoClassificationModule  // Пространство имен для модуля
 {
 
-const std::map<int, std::string> SoatoClassifier::firstDigitMap = {
-    {1, "Брестская область"},
-    {2, "Витебская область"},
-    {3, "Гомельская область"},
-    {4, "Гродненская область"},
-    {5, "г. Минск"},
-    {6, "Минская область"},
-    {7, "Могилевская область"},
-};
-
-std::vector<AdministrativeFacility> SoatoClassifier::classify(
-    const std::vector<std::pair<std::string, std::string>> & soatoCodes) const
+// Основной метод агента, выполняющий логику программы
+ScResult SoatoClassificationAgent::DoProgram(ScActionInitiatedEvent const & event, ScAction & action)
 {
-  std::vector<AdministrativeFacility> result;
-
-  for (int i = 0; i < soatoCodes.size(); i++)
+  ScAddr actionAddr = event.GetOtherElement();
+  if (!checkActionClass(actionAddr))  // Проверяем, принадлежит ли действие к классу агента
   {
-    result.push_back(classify(soatoCodes[i]));
+    return action.FinishSuccessfully();  // Если нет, завершаем действие успешно
   }
 
-  return result;
-};
+  SC_AGENT_LOG_DEBUG("started");  // Логируем начало работы агента
 
-AdministrativeFacility SoatoClassifier::classify(const std::pair<std::string, std::string> & soatoCode) const
-{
-  AdministrativeFacility facility = AdministrativeFacility(soatoCode.second, soatoCode.first);
+  ScAddrVector answerElements;
 
-  std::string code = facility.getCode();
-
-  int firstDigit = std::stoi(code.substr(0, 1));
-  int secondDigit = std::stoi(code.substr(1, 1));
-  int thirdAndFourthDigits = std::stoi(code.substr(2, 2));
-  int fifthDigit = std::stoi(code.substr(4, 1));
-  int sixthAndSeventhDigits = std::stoi(code.substr(5, 2));
-  int eighthAndNinthAndTenthDigits = std::stoi(code.substr(7, 3));
-
-  facility.addCategory(getFirstDigitCategory(firstDigit));
-
-  std::string secondCategory = getSecondDigitCategory(firstDigit, secondDigit);
-  if (!secondCategory.empty())
+  try
   {
-    facility.addCategory(secondCategory);
+    convertSoatoCodes();  // Выполняем конвертацию кодов СОАТО
+  }
+  catch (utils::ScException & exception)
+  {
+    SC_AGENT_LOG_ERROR(exception.Description());  // Логируем ошибку
+    SC_AGENT_LOG_DEBUG("finished with an error");
+    return action.FinishUnsuccessfully();
   }
 
-  std::string fifthSixthSeventhCategory =
-      getFifthSixthSeventhDigitsCategory(secondDigit, fifthDigit, sixthAndSeventhDigits);
-  if (!fifthSixthSeventhCategory.empty())
-  {
-    facility.addCategory(fifthSixthSeventhCategory);
-  }
-
-  return facility;
-};
-
-std::string SoatoClassifier::getFirstDigitCategory(const int & code) const
-{
-  std::string result;
-
-  if (firstDigitMap.count(code) == 0)
-  {
-    result = "undefined";
-  }
-  else
-  {
-    result = firstDigitMap.at(code);
-  }
-
-  return result;
+  action.SetResult(answerElements[0]);  // Устанавливаем результат действия
+  SC_AGENT_LOG_DEBUG("finished");
+  return action.FinishSuccessfully();
 }
 
-std::string SoatoClassifier::getSecondDigitCategory(const int & firstDigitCode, const int & secondDigitCode) const
+// Возвращает SC-адрес действия, связанного с агентом
+ScAddr SoatoClassificationAgent::GetActionClass() const
 {
-  std::string result;
-
-  if (secondDigitCode == 2)
-  {
-    if (firstDigitCode == 5)
-    {
-      result = "район г. Минска";
-    }
-    else
-    {
-      result = "район области";
-    }
-  }
-  else if (secondDigitCode == 4)
-  {
-    result = "город областного подчинения";
-  }
-
-  return result;
+  return Keynodes::action_soato_classification;  // Возвращаем узел действия
 }
 
-std::string SoatoClassifier::getFifthSixthSeventhDigitsCategory(
-    const int & secondDigitCode,
-    const int & fifthDigitCode,
-    const int & sixthAndSeventhDigitCode) const
+// Проверяет, принадлежит ли заданное действие классу агента
+bool SoatoClassificationAgent::checkActionClass(ScAddr const & actionAddr)
 {
-  std::string result;
+  return m_context.CheckConnector(Keynodes::action_soato_classification, actionAddr, ScType::ConstPermPosArc);
+}
 
-  if (fifthDigitCode == 3)
-  {
-    result = "район города областного подчинения";
-  }
-  else if (fifthDigitCode == 5)
-  {
-    if (sixthAndSeventhDigitCode >= 1 && sixthAndSeventhDigitCode <= 49)
-    {
-      result = "город районного подчинения";
-    }
-    else if (sixthAndSeventhDigitCode >= 50 && sixthAndSeventhDigitCode <= 99)
-    {
-      if (secondDigitCode == 2)
-      {
-        result = "поселок городского типа районного подчинения";
-      }
-      else if (secondDigitCode == 4)
-      {
-        result = "поселок городскоготипа, подчиненный городу областного подчинения";
-      }
-    }
-  }
-  else if (fifthDigitCode == 7)
-  {
-    if (sixthAndSeventhDigitCode == 0)
-    {
-      result = "сельский населенный пункт районного подчинения";
-    }
-    else if (sixthAndSeventhDigitCode >= 1 && sixthAndSeventhDigitCode <= 49)
-    {
-      if (secondDigitCode == 2)
-      {
-        result = "сельский населенный пункт, подчиненный городу районного подчинения";
-      }
-      else if (secondDigitCode == 4)
-      {
-        result = "сельский населенный пункт, подчиненный городу областного подчинения";
-      }
-    }
-  }
-  else if (fifthDigitCode == 8)
-  {
-    result = "сельсовет";
-  }
+// Конвертирует коды СОАТО в SC-память
+void SoatoClassificationAgent::convertSoatoCodes()
+{
+  SoatoClassifier classifier;
 
-  return result;
+  io::CSVReader<2> inTable(SOATO_CODES);  // Чтение CSV с двумя столбцами
+  inTable.read_header(io::ignore_extra_column, "СОАТО", "Наименование объекта");
+
+  std::string code;
+  std::string name;
+
+  while (inTable.read_row(code, name))  // Построчно читаем коды и имена
+  {
+    const AdministrativeFacility facility = classifier.classify(std::make_pair(code, name));  // Классифицируем объект
+    sew(facility);  // Связываем объект с SC-памятью
+  }
+}
+
+// Метод связывания объекта в SC-памяти
+void SoatoClassificationAgent::sew(const AdministrativeFacility & facility)
+{
+  ScAddr node = initializeFacility(facility);  // Инициализируем объект
+  const std::vector<std::string> & categories = facility.getCategories();
+
+  for (const auto & category : categories)  // Добавляем категории объекта
+  {
+    addToClassIfNotPresent(node, category);
+  }
+}
+
+// Инициализирует узел объекта в SC-памяти
+ScAddr SoatoClassificationAgent::initializeFacility(const AdministrativeFacility & facility)
+{
+  ScAgentContext ms_context;
+  const auto & name = facility.getName();
+  auto facilityNode = ms_context.ResolveElementSystemIdentifier(name, ScType::ConstNode);  // Узел объекта
+
+  addToClassIfNotPresent(facilityNode, "АТЕ");  // Добавляем объект в класс "АТЕ"
+
+  const auto & code = facility.getCode();
+  auto codeNode = ms_context.ResolveElementSystemIdentifier(code, ScType::ConstNode);  // Узел кода
+
+  addToClassIfNotPresent(codeNode, "код СОАТО");  // Добавляем код в класс "код СОАТО"
+
+  auto facilityToCodeEdge = createEdgeIfNotPresent(facilityNode, codeNode, ScType::ConstCommonArc);  // Связываем объект и код
+
+  auto codeNoRole = ms_context.ResolveElementSystemIdentifier("код СОАТО*", ScType::ConstNodeNonRole);  // Узел отношения
+
+  createEdgeIfNotPresent(codeNoRole, facilityToCodeEdge, ScType::ConstPermPosArc);  // Связываем отношение с узлом
+
+  return facilityNode;
+}
+
+// Добавляет узел в класс, если он еще не принадлежит ему
+void SoatoClassificationAgent::addToClassIfNotPresent(ScAddr node, const std::string & className)
+{
+  ScAgentContext ms_context;
+  auto scClass = ms_context.ResolveElementSystemIdentifier(className, ScType::ConstNodeClass);
+  createEdgeIfNotPresent(scClass, node, ScType::ConstPermPosArc);
+}
+
+// Создает дугу, если она еще не существует
+ScAddr SoatoClassificationAgent::createEdgeIfNotPresent(const ScAddr & begin, const ScAddr & end, const ScType & type)
+{
+  ScAgentContext ms_context;
+  auto edgeIsPresent = m_context.CheckConnector(begin, end, type);
+  if (!edgeIsPresent)
+  {
+    return ms_context.GenerateConnector(type, begin, end);  // Генерируем новую дугу
+  }
 }
 
 }  // namespace soatoClassificationModule

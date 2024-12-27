@@ -14,11 +14,14 @@
 namespace VillagesModule
 {
 
+// Класс Keynodes содержит определения для ключевых узлов, используемых в проекте
 class Keynodes : public ScKeynodes
 {
   public:
+  // Ключевые узлы для разных вопросов
   static inline ScKeynode const question_vitebskVillage{"question_vitebskVillage", ScType::ConstNodeClass};
-
+  
+  // Ключевые узлы для различных типов отношений
   static inline ScKeynode const nrel_length{"nrel_length", ScType::ConstNodeNonRole};
 
   static inline ScKeynode const nrel_main_idtf{"nrel_main_idtf", ScType::ConstNodeNonRole};

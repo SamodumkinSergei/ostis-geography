@@ -14,22 +14,21 @@
 namespace VitebskVillagesModule
 {
 
+// Класс Keynodes содержит определения для ключевых узлов, используемых в проекте
 class Keynodes : public ScKeynodes
 {
   public:
-  static inline ScKeynode const question_largerVillageByPopulationInTheDistrict{"question_largerVillageByPopulationInTheDistrict", ScType::ConstNodeClass};
+    // Ключевые узлы для разных вопросов
+    static inline ScKeynode const question_largerVillageByPopulationInTheDistrict{"question_largerVillageByPopulationInTheDistrict", ScType::ConstNodeClass};
+    static inline ScKeynode const question_largerVillageByPopulation{"question_largerVillageByPopulation", ScType::ConstNodeClass};
+    static inline ScKeynode const question_greatestDistanceToTheRegionalCenter{"question_greatestDistanceToTheRegionalCenter", ScType::ConstNodeClass};
 
-  static inline ScKeynode const question_largerVillageByPopulation{"question_largerVillageByPopulation", ScType::ConstNodeClass};
-
-  static inline ScKeynode const question_greatestDistanceToTheRegionalCenter{"question_greatestDistanceToTheRegionalCenter", ScType::ConstNodeClass};
-
-  static inline ScKeynode const nrel_population{"nrel_population", ScType::ConstNodeNonRole};
-
-  static inline ScKeynode const nrel_distanceFromArea{"nrel_distanceFromArea", ScType::ConstNodeNonRole};
-
-  static inline ScKeynode const nrel_district{"nrel_district", ScType::ConstNodeNonRole};
-
-  static inline ScKeynode const nrel_main_idtf{"nrel_main_idtf", ScType::ConstNodeNonRole};
+    // Ключевые узлы для различных типов отношений
+    static inline ScKeynode const nrel_population{"nrel_population", ScType::ConstNodeNonRole}; // Население
+    static inline ScKeynode const nrel_distanceFromArea{"nrel_distanceFromArea", ScType::ConstNodeNonRole}; // Расстояние от района
+    static inline ScKeynode const nrel_district{"nrel_district", ScType::ConstNodeNonRole}; // Район
+    static inline ScKeynode const nrel_main_idtf{"nrel_main_idtf", ScType::ConstNodeNonRole}; // Основное наименование
 };
 
 }  // namespace VitebskVillagesModule
+

@@ -11,52 +11,56 @@
 #include "SearchEconomicPathAgent.hpp"
 #include "keynodes/keynodes.hpp"
 
+// Подключение необходимых библиотек и заголовочных файлов, которые содержат определения используемых функций и классов.
+
 using namespace std;
 using namespace utils;
 
 namespace SearchEconomicPathAgentModule
 {
 
+// Основная функция агента, реализующая поиск экономического пути.
 ScResult SearchEconomicPathAgent::DoProgram(ScEventAfterGenerateOutgoingArc<ScType::ConstPermPosArc> const & event, ScAction & action)
 {
-  ScAgentContext m_context; 
-  if (!event.GetArc().IsValid())
+  ScAgentContext m_context; // Создание контекста для работы с памятью.
+  if (!event.GetArc().IsValid()) // Проверка валидности дуги события.
     return action.FinishUnsuccessfully();
 
   SC_AGENT_LOG_INFO("begin");
-  ScAddr actionNode = m_context.GetArcTargetElement(event.GetArc());
+  ScAddr actionNode = m_context.GetArcTargetElement(event.GetArc()); // Получение узла действия.
 
+  // Извлечение начального узла.
   ScAddr const & startNodeAddr
       = IteratorUtils::getAnyByOutRelation(&m_context, actionNode, ScKeynodes::rrel_1);
   if (!startNodeAddr.IsValid())
   {
     SC_AGENT_LOG_ERROR("First parameter isn't valid.");
-//todo(codegen-removal): replace AgentUtils:: usage
-    //AgentUtils::finishAgentWork(&m_context, actionNode, false);
     return action.FinishUnsuccessfully();
   }
 
+  // Извлечение конечного узла.
   ScAddr const & endNodeAddr
       = IteratorUtils::getAnyByOutRelation(&m_context, actionNode, ScKeynodes::rrel_2);
   if (!endNodeAddr.IsValid())
   {
     SC_AGENT_LOG_ERROR("Second parameter isn't valid.");
-//todo(codegen-removal): replace AgentUtils:: usage
-    //AgentUtils::finishAgentWork(&m_context, actionNode, false);
     return action.FinishUnsuccessfully();
   }
 
+  // Генерация структуры ответа.
   ScAddr const & answer = m_context.GenerateNode(ScType::ConstNodeStructure);
 
-  std::vector<ScAddr> result;
+  std::vector<ScAddr> result; // Список для хранения итогового пути.
 
   {
+    // Инициализация поиска минимального пути.
     int length = INT32_MAX;
     std::vector<ScAddr> currentPath;
 
     findMinimalPath(startNodeAddr, endNodeAddr, 0, length, currentPath, result);
   }
 
+  // Построение ответа на основе найденного пути.
   for (int i = 1; i < result.size(); ++i)
   {
     auto fromNode = result[i - 1];
@@ -71,6 +75,7 @@ ScResult SearchEconomicPathAgent::DoProgram(ScEventAfterGenerateOutgoingArc<ScTy
     auto edgeToFuelNode = getEdgeBetween(edge, fuelNode, ScType::ConstPermPosArc, false);
     auto fuelNodeMeta = getIdentifierMeta(fuelNode);
 
+    // Генерация связей между элементами структуры ответа.
     m_context.GenerateConnector(ScType::ConstPermPosArc, answer, fromNode);
     m_context.GenerateConnector(ScType::ConstPermPosArc, answer, edge);
     m_context.GenerateConnector(ScType::ConstPermPosArc, answer, toNode);
@@ -100,17 +105,19 @@ ScResult SearchEconomicPathAgent::DoProgram(ScEventAfterGenerateOutgoingArc<ScTy
   return action.FinishSuccessfully();
 }
 
+// Возвращает идентификатор класса действия агента.
 ScAddr SearchEconomicPathAgent::GetActionClass() const
 {
-//todo(codegen-removal): replace action with your action class
   return Keynodes::action_search_economic_path;
 }
 
+// Возвращает элемент подписки на событие.
 ScAddr SearchEconomicPathAgent::GetEventSubscriptionElement() const
 {
-  return ScKeynodes::action_initiated;;
+  return ScKeynodes::action_initiated;
 }
 
+// Функция для поиска минимального пути между двумя узлами.
 void SearchEconomicPathAgent::findMinimalPath(
     ScAddr currentNode,
     ScAddr target,
@@ -119,6 +126,7 @@ void SearchEconomicPathAgent::findMinimalPath(
     std::vector<ScAddr>& currentPath,
     std::vector<ScAddr>& result)
 {
+  // Проверка на зацикливание.
   if (std::find(currentPath.begin(), currentPath.end(), currentNode) != currentPath.end())
   {
     return;
@@ -126,6 +134,7 @@ void SearchEconomicPathAgent::findMinimalPath(
 
   currentPath.push_back(currentNode);
 
+  // Если достигли цели, обновляем минимальный путь.
   if (currentNode == target)
   {
     if (currentLength < resultLength)
@@ -138,6 +147,7 @@ void SearchEconomicPathAgent::findMinimalPath(
     }
   }
 
+  // Рекурсивно обходим инцидентные узлы.
   auto incidentNodes = getAllIncidentNodes(currentNode);
 
   for (auto incidentNode : incidentNodes)
@@ -151,6 +161,7 @@ void SearchEconomicPathAgent::findMinimalPath(
   currentPath.pop_back();
 }
 
+// Возвращает список всех инцидентных узлов.
 std::list<ScAddr> SearchEconomicPathAgent::getAllIncidentNodes(const ScAddr& node)
 {
   ScAgentContext ms_context;
@@ -179,6 +190,7 @@ std::list<ScAddr> SearchEconomicPathAgent::getAllIncidentNodes(const ScAddr& nod
   return result;
 }
 
+// Возвращает метаданные для заданного адреса.
 std::list<ScAddr> SearchEconomicPathAgent::getIdentifierMeta(const ScAddr& addr)
 {
   ScAgentContext ms_context;
@@ -197,8 +209,9 @@ std::list<ScAddr> SearchEconomicPathAgent::getIdentifierMeta(const ScAddr& addr)
   return {};
 }
 
+// Получает стоимость топлива для заданного ребра.
 int SearchEconomicPathAgent::getFuelCost(ScAddr edge)
-{ 
+{
   ScAgentContext ms_context;
   auto fuelNode = getFuelNode(edge);
   auto idtf = CommonUtils::getMainIdtf(&ms_context, fuelNode);
@@ -206,6 +219,7 @@ int SearchEconomicPathAgent::getFuelCost(ScAddr edge)
   return std::stoi(idtf);
 }
 
+// Получает узел, связанный с топливом, для заданного ребра.
 ScAddr SearchEconomicPathAgent::getFuelNode(const ScAddr& edge)
 {
   ScAgentContext ms_context;
@@ -226,6 +240,7 @@ ScAddr SearchEconomicPathAgent::getFuelNode(const ScAddr& edge)
   return ScAddr::Empty;
 }
 
+// Получает ребро между двумя узлами.
 ScAddr SearchEconomicPathAgent::getEdgeBetween(const ScAddr& from, const ScAddr& to, ScType type, bool findReverse)
 {
   ScAgentContext ms_context;
@@ -242,4 +257,4 @@ ScAddr SearchEconomicPathAgent::getEdgeBetween(const ScAddr& from, const ScAddr&
   }
 }
 
-}  // namespace StreetSearchAgentModule
+}  // namespace SearchEconomicPathAgentModule
