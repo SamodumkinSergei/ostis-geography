@@ -18,4 +18,4 @@ public:
 
   static std::unique_ptr<ScTemplate> getHotelByMinPricePerNightTemplate(ScAddr const & minPricePerNightAddr);
 };
-}  // namespace hotelModule
+}  

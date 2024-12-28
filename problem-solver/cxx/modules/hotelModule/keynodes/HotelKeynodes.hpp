@@ -29,4 +29,4 @@ class HotelKeynodes : public ScKeynodes
   static inline ScKeynode const concept_hotel_request{"concept_hotel_request"};
 
 };
-}  // namespace hotelModule
+}  

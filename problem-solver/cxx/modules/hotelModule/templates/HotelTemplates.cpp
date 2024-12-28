@@ -24,4 +24,4 @@ std::unique_ptr<ScTemplate> HotelTemplates::getHotelByMinPricePerNightTemplate(S
       HotelKeynodes::nrel_min_price_per_night);
   return hotelByMinPricePerNightTemplate;
 }
-}  // namespace hotelModule
+}  

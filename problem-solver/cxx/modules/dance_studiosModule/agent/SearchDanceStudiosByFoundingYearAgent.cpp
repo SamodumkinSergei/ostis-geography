@@ -1,7 +1,7 @@
 /*
- * This source file is part of an OSTIS project. For the latest info, see http://ostis.net
+ * This source file is part of an OSTIS project. For the latest info, see http:
  * Distributed under the MIT License
- * (See accompanying file COPYING.MIT or copy at http://opensource.org/licenses/MIT)
+ * (See accompanying file COPYING.MIT or copy at http:
  */
 
 #include <sc-agents-common/utils/IteratorUtils.hpp>
@@ -14,19 +14,19 @@ using namespace utils;
 namespace dance_studios
 {
 
-ScAddr SearchDanceStudiosByFoundingYearAgent::GetActionClass() const
+ScAddr SearchDanceStudiosByFoundingYearAgent::GetActionClass() const // Метод получения класса действия агента
 {
-//todo(codegen-removal): replace action with your action class
   return DanceStudiosKeynodes::action_search_dance_studios_by_founding_year;
 }
 
-// ScResult SearchDanceStudiosByFoundingYearAgent::DoProgram(ScActionInitiatedEvent const & event, ScAction & action)
-// ScResult SearchDanceStudiosByFoundingYearAgent::DoProgram(ScEventAfterGenerateOutgoingArc<ScType::ConstPermPosArc> const & event, ScAction & action)
-ScResult SearchDanceStudiosByFoundingYearAgent::DoProgram(ScAction & action)
+
+
+ScResult SearchDanceStudiosByFoundingYearAgent::DoProgram(ScAction & action) // Главный метод агента
 {
 
-  auto const & [first] = action.GetArguments<1>();
+  auto const & [first] = action.GetArguments<1>(); // Получение аргумента
 
+  // Проверка наличия аргумента
   if (!m_context.IsElement(first))
   {
     SC_AGENT_LOG_ERROR("Action does not have argument.");
@@ -37,9 +37,9 @@ ScResult SearchDanceStudiosByFoundingYearAgent::DoProgram(ScAction & action)
 
   std::unique_ptr<DanceStudiosByPropertyInNumericalRangeFinder> danceStudiosByPropertyInNumericalRangeFinder =
       std::make_unique<DanceStudiosByPropertyInNumericalRangeFinder>();
-  // ScMemoryContext * memory_ctx;
+  
 
-
+  // Вызов класса для поиска танцевальных студий по числовому свойству
   ScAddr questionNode = m_context.GetArcTargetElement(first);
   ScAddr answer = danceStudiosByPropertyInNumericalRangeFinder->findDanceStudiosByPropertyInNumericalRange(
       &m_context,
@@ -47,13 +47,14 @@ ScResult SearchDanceStudiosByFoundingYearAgent::DoProgram(ScAction & action)
       DanceStudiosKeynodes::concept_year_of_foundation,
       DanceStudiosKeynodes::nrel_year_of_foundation);
 
+  // Проверка наличия ответа
   if (!answer.IsValid())
   {
     return action.FinishUnsuccessfully();
   }
 
 
-  action.SetResult(answer);
+  action.SetResult(answer); // Привязка структуры ответа к агенту
   return action.FinishSuccessfully();
 }
 

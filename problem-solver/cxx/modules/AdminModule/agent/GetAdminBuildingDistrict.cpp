@@ -8,18 +8,16 @@ using namespace adminModule;
 using namespace utils;
 
 
-ScAddr GetAdminBuildingDistrict::GetActionClass() const
+ScAddr GetAdminBuildingDistrict::GetActionClass() const // Метод получения класса действия агента
 {
-//todo(codegen-removal): replace action with your action class
   return AdminKeynodes::action_get_admin_building_district; 
-  // return m_context.SearchElementBySystemIdentifier("action_get_admin_building_district");
 }
 
-// ScResult GetAdminBuildingDistrict::DoProgram(ScEventAfterGenerateOutgoingArc<ScType::ConstPermPosArc> const & event, ScAction & action) const 
-ScResult GetAdminBuildingDistrict::DoProgram(ScAction & action) 
+ScResult GetAdminBuildingDistrict::DoProgram(ScAction & action) // Главный метод агента
 {
-  auto const & [first] = action.GetArguments<1>();
+  auto const & [first] = action.GetArguments<1>(); // Получение аргумента
 
+  // Проверка наличия аргумента
   if (!m_context.IsElement(first))
   {
     SC_AGENT_LOG_ERROR("Action does not have argument.");
@@ -27,7 +25,7 @@ ScResult GetAdminBuildingDistrict::DoProgram(ScAction & action)
     return action.FinishWithError();
   }
 
-  ScAddr answerNode = m_context.GenerateNode(ScType::ConstNodeStructure);
+  ScAddr answerNode = m_context.GenerateNode(ScType::ConstNodeStructure); // Создание структуры ответа  
 
   ScAddr key_sc_element;
 
@@ -36,28 +34,18 @@ ScResult GetAdminBuildingDistrict::DoProgram(ScAction & action)
       ScType::ConstCommonArc,
       first,
       ScType::ConstPermPosArc,
-      AdminKeynodes::nrel_search_area);
+      AdminKeynodes::nrel_search_area); // Итератор для поиска района
 
+  // Поиск района
   while (iterator5->Next())
   {
     key_sc_element = iterator5->Get(0);
 
-    if (m_context.CheckConnector(
-            AdminKeynodes::concept_admin_building, key_sc_element, ScType::ConstPermPosArc));
+    // Проверка принадлежности к району
+    if (m_context.CheckConnector(AdminKeynodes::concept_admin_building, key_sc_element, ScType::ConstPermPosArc));
       m_context.GenerateConnector(ScType::ConstPermPosArc, answerNode, key_sc_element);
   }
 
-  action.SetResult(answerNode);
+  action.SetResult(answerNode); // Привязка структуры ответа к агенту
   return action.FinishSuccessfully();
 }
-
-// ScAddr GetAdminBuildingDistrict::GetEventSubscriptionElement() const
-// {
-//   return ScKeynodes::action_initiated;
-// }
-
-// bool GetAdminBuildingDistrict::checkActionClass(const ScAddr & actionNode) const
-// {
-//   return m_context.CheckConnector(
-//       AdminKeynodes::action_get_admin_building_district, actionNode, ScType::ConstPermPosArc);
-// }

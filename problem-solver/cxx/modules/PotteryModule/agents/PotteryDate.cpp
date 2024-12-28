@@ -1,7 +1,7 @@
 /*
- * This source file is part of an OSTIS project. For the latest info, see http://ostis.net
+ * This source file is part of an OSTIS project. For the latest info, see http:
  * Distributed under the MIT License
- * (See accompanying file COPYING.MIT or copy at http://opensource.org/licenses/MIT)
+ * (See accompanying file COPYING.MIT or copy at http:
  */
 
 #include "sc-agents-common/utils/CommonUtils.hpp"
@@ -19,20 +19,17 @@ using namespace utils;
 namespace PotteryModule
 {
 
-ScAddr PotteryDate::GetActionClass() const
+ScAddr PotteryDate::GetActionClass() const // Метод получения класса действия агента
 {
-//todo(codegen-removal): replace action with your action class
   return PotteryKeynodes::action_get_pottery;
 }
 
-// ScResult PotteryDate::DoProgram(ScEventAfterGenerateOutgoingArc<ScType::ConstPermPosArc> const & event, ScAction & action)
-ScResult PotteryDate::DoProgram(ScAction & action)
-{
-  // if (!event.GetArc().IsValid())
-  //   return action.FinishUnsuccessfully();
 
+ScResult PotteryDate::DoProgram(ScAction & action) // Гланый метод агента
+{
   auto const & [date1, date2] = action.GetArguments<2>();
 
+  // Проверка наличия первого аргумента
   if (!m_context.IsElement(date1))
   {
     SC_AGENT_LOG_ERROR("Action does not have first argument.");
@@ -40,6 +37,7 @@ ScResult PotteryDate::DoProgram(ScAction & action)
     return action.FinishWithError();
   }
 
+  // Проверка наличия второго аргумента
   if (!m_context.IsElement(date2))
   {
     SC_AGENT_LOG_ERROR("Action does not have second argument.");
@@ -56,14 +54,25 @@ ScResult PotteryDate::DoProgram(ScAction & action)
   int d1 = std::atoi(str1.c_str());
   int d2 = std::atoi(str2.c_str());
 
-  ScIterator3Ptr it2 = m_context.CreateIterator3(PotteryKeynodes::pottery_centre, ScType::ConstPermPosArc, ScType::Unknown);
+  ScIterator3Ptr it2 = m_context.CreateIterator3(
+      PotteryKeynodes::pottery_centre, 
+      ScType::ConstPermPosArc, 
+      ScType::Unknown); // Итератор для поиска предприятий по производству керамики 
   ScAddr smth;
+
+  // Поиск предприятий по производству керамики
   while (it2->Next())
   {
+
     smth = it2->Get(2);
     ScIterator5Ptr it1 = m_context.CreateIterator5(
-        smth, ScType::ConstCommonArc, ScType::Unknown, ScType::ConstPermPosArc, PotteryKeynodes::nrel_date);
+        smth, ScType::ConstCommonArc, 
+        ScType::Unknown, 
+        ScType::ConstPermPosArc, 
+        PotteryKeynodes::nrel_date); // Итератор для поска даты
     ScAddr date;
+
+    // Поиск даты
     while (it1->Next())
     {
       date = it1->Get(2);
@@ -81,16 +90,16 @@ ScResult PotteryDate::DoProgram(ScAction & action)
   }
 
   
-//todo(codegen-removal): replace AgentUtils:: usage
-  // AgentUtils::usage(&m_context, actionNode);
-  action.SetResult(answer);
+
+  
+  action.SetResult(answer); // Привязка структуры агента к агенту
   return action.FinishSuccessfully();
 }
 
 
 
-// ScAddr PotteryDate::GetEventSubscriptionElement() const
-// {
-//   return ScKeynodes::action_initiated;
-// }
-}  // namespace PotteryModule
+
+
+
+
+}  

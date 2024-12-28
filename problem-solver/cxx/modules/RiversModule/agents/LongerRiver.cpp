@@ -1,7 +1,7 @@
 /*
- * This source file is part of an OSTIS project. For the latest info, see http://ostis.net
+ * This source file is part of an OSTIS project. For the latest info, see http:
  * Distributed under the MIT License
- * (See accompanying file COPYING.MIT or copy at http://opensource.org/licenses/MIT)
+ * (See accompanying file COPYING.MIT or copy at http:
  */
 
 #include "sc-agents-common/utils/CommonUtils.hpp"
@@ -17,17 +17,18 @@ using namespace utils;
 namespace RiversModule
 {
 
-ScAddr LongerRiver::GetActionClass() const
+ScAddr LongerRiver::GetActionClass() const // Метод получения класса действия агента
 {
-//todo(codegen-removal): replace action with your action class
+
   return RiverKeynodes::action_get_longerRiver;
 }
 
-// ScResult LongerRiver::DoProgram(ScEventAfterGenerateOutgoingArc<ScType::ConstPermPosArc> const & event, ScAction & action)
-ScResult LongerRiver::DoProgram(ScAction & action)
+
+ScResult LongerRiver::DoProgram(ScAction & action) // Главный метод агента
 { 
   auto const & [river1, river2] = action.GetArguments<2>();
 
+  // Проверка наличия первого аргумента
   if (!m_context.IsElement(river1))
   {
     SC_AGENT_LOG_ERROR("Action does not have first argument.");
@@ -35,6 +36,7 @@ ScResult LongerRiver::DoProgram(ScAction & action)
     return action.FinishWithError();
   }
 
+  // Проверка наличия второго аргумента
   if (!m_context.IsElement(river2))
   {
     SC_AGENT_LOG_ERROR("Action does not have second argument.");
@@ -45,8 +47,13 @@ ScResult LongerRiver::DoProgram(ScAction & action)
   ScAddr answer = m_context.GenerateNode(ScType::ConstNodeStructure);
 
   ScIterator5Ptr river1_iterator = m_context.CreateIterator5(
-      river1, ScType::ConstCommonArc, ScType::Unknown, ScType::ConstPermPosArc, RiverKeynodes::nrel_length);
+      river1, ScType::ConstCommonArc, 
+      ScType::Unknown, 
+      ScType::ConstPermPosArc, 
+      RiverKeynodes::nrel_length); // Итератор для поиска длины первой реки  
   int river1_length = 0;
+
+  // Поиск длины первой реки
   while (river1_iterator->Next())
   {
     ScAddr len = river1_iterator->Get(2);
@@ -56,8 +63,13 @@ ScResult LongerRiver::DoProgram(ScAction & action)
   }
 
   ScIterator5Ptr river2_iterator = m_context.CreateIterator5(
-      river2, ScType::ConstCommonArc, ScType::Unknown, ScType::ConstPermPosArc, RiverKeynodes::nrel_length);
+      river2, ScType::ConstCommonArc, 
+      ScType::Unknown, 
+      ScType::ConstPermPosArc, 
+      RiverKeynodes::nrel_length); // Итератор для поиска длины второй реки
   int river2_length = 0;
+
+  // Поиск длины второй реки
   while (river2_iterator->Next())
   {
     ScAddr len = river2_iterator->Get(2);
@@ -66,12 +78,17 @@ ScResult LongerRiver::DoProgram(ScAction & action)
     
   }
 
+  // Проверка какая река длиннее 
   if (river1_length > river2_length)
   {
     
     ScIterator5Ptr iteratorToAddToAnswer = m_context.CreateIterator5(
-        river1, ScType::Unknown, ScType::Unknown, ScType::ConstPermPosArc, RiverKeynodes::nrel_length);
+        river1, ScType::Unknown, 
+        ScType::Unknown, 
+        ScType::ConstPermPosArc, 
+        RiverKeynodes::nrel_length); // Итератор для обхода всех знаний о первой реке
 
+    // 
     if (iteratorToAddToAnswer->Next())
     {
       m_context.GenerateConnector(ScType::ConstPermPosArc, answer, iteratorToAddToAnswer->Get(0));
@@ -85,7 +102,10 @@ ScResult LongerRiver::DoProgram(ScAction & action)
   {
     
     ScIterator5Ptr iteratorToAddToAnswer = m_context.CreateIterator5(
-        river2, ScType::Unknown, ScType::Unknown, ScType::ConstPermPosArc, RiverKeynodes::nrel_length);
+        river2, ScType::Unknown, 
+        ScType::Unknown, 
+        ScType::ConstPermPosArc, 
+        RiverKeynodes::nrel_length); // Итератор для обхода всех знаний о второй реке
 
     if (iteratorToAddToAnswer->Next())
     {
@@ -97,8 +117,8 @@ ScResult LongerRiver::DoProgram(ScAction & action)
     }
   }
 
-  action.SetResult(answer);
+  action.SetResult(answer); // Привязка структуры ответа к агенту
   return action.FinishSuccessfully();
 }
 
-}  // namespace RiversModule
+}  

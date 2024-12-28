@@ -13,29 +13,29 @@ class GetHotelByMinPricePerNightAgent : public ScActionInitiatedAgent
 {
   
   public:
-  ScAddr GetActionClass() const override;
+  ScAddr GetActionClass() const override; // Метод получения класса действий агента
 
-  // ScResult DoProgram(ScEventAfterGenerateOutgoingArc<ScType::ConstPermPosArc> const & event, ScAction & action) const override;
-  ScResult DoProgram(ScAction & action) override;
+  
+  ScResult DoProgram(ScAction & action) override; // Главный метод агента
 
-  // public:
-  // ScAddr GetActionClass() const override;
+  
+  
 
-  // ScAddr GetEventSubscriptionElement() const override;
+  
 
-  // ScResult DoProgram(ScActionInitiatedEvent const & event, ScAction & action) override;
+  
 
   private:
   std::unique_ptr<HotelSearcher> hotelSearcher;
 
-  bool checkActionClass(ScAddr const & actionAddr);
+  bool checkActionClass(ScAddr const & actionAddr); 
 
   static bool isHotel(ScMemoryContext * memory_ctx, ScAddr const & hotel);
 
   static bool isPriceLink(ScMemoryContext * memory_ctx, ScAddr const & priceLink);
 
-  static ScAddrVector getPricesLinks(ScMemoryContext * memory_ctx, ScAddr const & InputLink);
+  static ScAddrVector getPricesLinks(ScMemoryContext * memory_ctx, ScAddr const & InputLink); // Метод получения цен
 
-  void initFields();
+  void initFields(); // Метод для инициализации класса поиска отелей
 };
-}  // namespace hotelModule
+}  

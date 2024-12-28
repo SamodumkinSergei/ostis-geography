@@ -10,6 +10,5 @@
 
 class AdminModule : public ScModule  // название модуля может быть любым (модуль может содержать несколько агентов)
 {
-  // void Initialize(ScMemoryContext * context) ;
-  // void Shutdown(ScMemoryContext * context) ;
+  
 };

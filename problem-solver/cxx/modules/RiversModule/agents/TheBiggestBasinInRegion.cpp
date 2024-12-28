@@ -1,7 +1,7 @@
 /*
- * This source file is part of an OSTIS project. For the latest info, see http://ostis.net
+ * This source file is part of an OSTIS project. For the latest info, see http:
  * Distributed under the MIT License
- * (See accompanying file COPYING.MIT or copy at http://opensource.org/licenses/MIT)
+ * (See accompanying file COPYING.MIT or copy at http:
  */
 
 #include "sc-agents-common/utils/CommonUtils.hpp"
@@ -19,46 +19,54 @@ using namespace utils;
 namespace RiversModule
 {
 
-ScAddr TheBiggestBasinInRegion::GetActionClass() const
+ScAddr TheBiggestBasinInRegion::GetActionClass() const // Метод получения класса действия агента
 {
-//todo(codegen-removal): replace action with your action class
   return RiverKeynodes::action_get_theBiggestBasinInRegion;
 }
 
-// ScResult TheBiggestBasinInRegion::DoProgram(ScEventAfterGenerateOutgoingArc<ScType::ConstPermPosArc> const & event, ScAction & action)
-ScResult TheBiggestBasinInRegion::DoProgram(ScAction & action)
-{
-  // if (!event.GetArc().IsValid())
-  //   return action.FinishUnsuccessfully();
 
-  
+ScResult TheBiggestBasinInRegion::DoProgram(ScAction & action) // Главный метод агента
+{
   auto const & [region] = action.GetArguments<1>();
 
-   if (!m_context.IsElement(region))
-   {
-      SC_AGENT_LOG_ERROR("Action does not have argument.");
+  // Проверка наличия аргумента
+  if (!m_context.IsElement(region))
+  {
+    SC_AGENT_LOG_ERROR("Action does not have argument.");
 
-      return action.FinishWithError();
-   }
+    return action.FinishWithError();
+  }
 
   ScAddr answer = m_context.GenerateNode(ScType::ConstNodeStructure);
 
   ScIterator5Ptr it1 = m_context.CreateIterator5(
-      ScType::Unknown, ScType::ConstCommonArc, region, ScType::ConstPermPosArc, RiverKeynodes::nrel_region);
+      ScType::Unknown, 
+      ScType::ConstCommonArc, region, 
+      ScType::ConstPermPosArc, 
+      RiverKeynodes::nrel_region); // Итератор для поиска рек
   ScAddr river;
   int number = 0;
   ScAddr riv;
+
+  // Поиск рек
   while (it1->Next())
   {
     river = it1->Get(0);
     ScIterator5Ptr it2 = m_context.CreateIterator5(
-        river, ScType::ConstCommonArc, ScType::Unknown, ScType::ConstPermPosArc, RiverKeynodes::nrel_basin);
+        river, ScType::ConstCommonArc, 
+        ScType::Unknown, 
+        ScType::ConstPermPosArc, 
+        RiverKeynodes::nrel_basin); // Итератор для поиска площадей бассейна областных рек
+
+    // Поиск площадей бассейна областных рек
     while (it2->Next())
     {
       ScAddr num = it2->Get(2);
       std::string str = CommonUtils::getIdtf(&m_context, num, ScKeynodes::nrel_main_idtf);
       
       int n = std::atoi(str.c_str());
+
+      // Проверка больше ли площадь бассейнав найденной реки уже записанной
       if (number < n)
       {
         number = n;
@@ -68,7 +76,10 @@ ScResult TheBiggestBasinInRegion::DoProgram(ScAction & action)
   }
 
   ScIterator5Ptr iteratorToAddToAnswer = m_context.CreateIterator5(
-  riv, ScType::Unknown, region, ScType::ConstPermPosArc, RiverKeynodes::nrel_region);
+      river, ScType::Unknown, 
+      ScType::Unknown, 
+      ScType::ConstPermPosArc, 
+      RiverKeynodes::nrel_basin); // Итератор для обхода знаний о областной реке с самой большой площадью бассейна
 
   if (iteratorToAddToAnswer->Next())
   {
@@ -80,14 +91,14 @@ ScResult TheBiggestBasinInRegion::DoProgram(ScAction & action)
   }
 
   
-//todo(codegen-removal): replace AgentUtils:: usage
-  // AgentUtils::usage(&m_context, actionNode);
-  action.SetResult(answer);
+
+  
+  action.SetResult(answer); // Привязка структуры ответа к агенту
   return action.FinishSuccessfully();
 }
 
-// ScAddr TheBiggestBasinInRegion::GetEventSubscriptionElement() const
-// {
-//   return ScKeynodes::action_initiated;
-// }
-}  // namespace RiversModule
+
+
+
+
+}  

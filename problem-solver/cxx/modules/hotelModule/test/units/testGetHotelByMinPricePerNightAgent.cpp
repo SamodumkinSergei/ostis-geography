@@ -33,7 +33,7 @@ namespace testGetHotelByMinPricePerNightAgent {
         ScAgentInit(true);
         initializedClasses();
 
-        //todo(codegen-removal): Use context.SubscribeAgent<hotelModule::GetHotelByMinPricePerNightAgent> or UnsubscribeAgent; to register and unregister agent
+        
 SC_AGENT_REGISTER(hotelModule::GetHotelByMinPricePerNightAgent)
 
         context.GenerateConnector(
@@ -43,7 +43,7 @@ SC_AGENT_REGISTER(hotelModule::GetHotelByMinPricePerNightAgent)
                 ScWaitEvent<ScEventAfterGenerateOutgoingArc>(context, ScKeynodes::question_finished_successfully)
                         .Wait(WAIT_TIME));
 
-        //todo(codegen-removal): Use context.SubscribeAgent<hotelModule::GetHotelByMinPricePerNightAgent> or UnsubscribeAgent; to register and unregister agent
+        
 SC_AGENT_UNREGISTER(hotelModule::GetHotelByMinPricePerNightAgent);
     }
 }

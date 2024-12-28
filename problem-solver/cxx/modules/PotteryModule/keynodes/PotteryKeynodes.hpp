@@ -1,7 +1,7 @@
 /*
- * This source file is part of an OSTIS project. For the latest info, see http://ostis.net
+ * This source file is part of an OSTIS project. For the latest info, see http:
  * Distributed under the MIT License
- * (See accompanying file COPYING.MIT or copy at http://opensource.org/licenses/MIT)
+ * (See accompanying file COPYING.MIT or copy at http:
  */
 
 #pragma once
@@ -35,13 +35,13 @@ class PotteryKeynodes : public ScKeynodes
 
   static inline ScKeynode const pottery_centre{"pottery_centre"};
 
-  // static inline ScKeynode const nrel_system_identifier{"nrel_system_identifier"};
+  
 
-  // static inline ScKeynode const system_identifier{"system_identifier"};
+  
 
-  // static inline ScKeynode const nrel_sys_idtf{"nrel_sys_idtf"};
+  
 
-  // static inline ScKeynode const concept_pottery_request("concept_pottery_request");
+  
 };
 
-}  // namespace PotteryModule
+}  

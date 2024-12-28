@@ -8,18 +8,12 @@ namespace adminModule
 {
 
 class GetAdminBuildingRegion : public ScActionInitiatedAgent
-// class GetAdminBuildingRegion: public ScActionInitiatedAgent
+
 {
   public:
-  ScAddr GetActionClass() const ;
+  ScAddr GetActionClass() const; // Метод получения класса действия 
 
-  ScResult DoProgram(ScAction & action) ;
-  // ScResult DoProgram(ScEventAfterGenerateOutgoingArc<ScType::ConstPermPosArc> const & event, ScAction & action) const ;
-
-  // ScAddr GetEventSubscriptionElement() const ;
-
-  private:
-  bool checkActionClass(const ScAddr & actionNode) const ;
+  ScResult DoProgram(ScAction & action) override; // Главный метод агента
 };
 
-}  // namespace adminModule
+}  

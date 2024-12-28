@@ -11,7 +11,7 @@ namespace hotelModule
 {
 class HotelModule : public ScModule
 {
-  // void Initialize(ScMemoryContext * context);
-  // void Shutdown(ScMemoryContext * context);
+  
+  
   };
-}  // namespace hotelModule
+}  

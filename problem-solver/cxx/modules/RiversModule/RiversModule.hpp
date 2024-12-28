@@ -15,7 +15,7 @@ namespace RiversModule
 
 class RiversModule : public ScModule
 {
-  // void Initialize(ScMemoryContext * context);
-  // void Shutdown(ScMemoryContext * context);
+  
+  
   };
-}  // namespace RiversModule
+}  

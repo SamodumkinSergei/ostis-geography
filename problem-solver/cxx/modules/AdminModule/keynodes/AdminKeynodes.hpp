@@ -30,4 +30,4 @@ class AdminKeynodes : public ScKeynodes
   static inline ScKeynode const minsk{"minsk"};
 };
 
-}  // namespace adminModule
+}  

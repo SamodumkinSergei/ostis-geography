@@ -7,19 +7,13 @@
 namespace adminModule
 {
 
-// class GetAdminBuildingDistrict: public ScAgent<ScEventAfterGenerateOutgoingArc<ScType::ConstPermPosArc>>
+
 class GetAdminBuildingDistrict : public ScActionInitiatedAgent
 {
   public:
-  ScAddr GetActionClass() const ;
+  ScAddr GetActionClass() const; // Метод получения класса действия агента
+  ScResult DoProgram(ScAction & action) override; // Главный метод агента
 
-  // ScResult DoProgram(ScEventAfterGenerateOutgoingArc<ScType::ConstPermPosArc> const & event, ScAction & action) const ;
-  ScResult DoProgram(ScAction & action) ;
-
-  // ScAddr GetEventSubscriptionElement() const ;
-
-  private:
-  bool checkActionClass(const ScAddr & actionNode) const  ;
 };
 
-}  // namespace adminModule
+}  

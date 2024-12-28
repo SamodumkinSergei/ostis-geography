@@ -1,7 +1,7 @@
 /*
- * This source file is part of an OSTIS project. For the latest info, see http://ostis.net
+ * This source file is part of an OSTIS project. For the latest info, see http:
  * Distributed under the MIT License
- * (See accompanying file COPYING.MIT or copy at http://opensource.org/licenses/MIT)
+ * (See accompanying file COPYING.MIT or copy at http:
  */
 
 #pragma once
@@ -11,6 +11,6 @@
 
 class DanceStudiosModule : public ScModule
 {
-  // void Initialize(ScMemoryContext * context);
-  // void Shutdown(ScMemoryContext * context);
+  
+  
   };

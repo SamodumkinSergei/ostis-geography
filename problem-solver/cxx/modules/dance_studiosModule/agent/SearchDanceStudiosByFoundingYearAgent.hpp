@@ -1,7 +1,7 @@
 /*
- * This source file is part of an OSTIS project. For the latest info, see http://ostis.net
+ * This source file is part of an OSTIS project. For the latest info, see http:
  * Distributed under the MIT License
- * (See accompanying file COPYING.MIT or copy at http://opensource.org/licenses/MIT)
+ * (See accompanying file COPYING.MIT or copy at http:
  */
 
 #pragma once
@@ -11,7 +11,7 @@
 #include "search/DanceStudiosByPropertyInNumericalRangeFinder.hpp"
 #include <memory>
 
-// #include "SearchDanceStudiosByFoundingYearAgent.generated.hpp"
+
 
 using namespace std;
 
@@ -22,23 +22,9 @@ class SearchDanceStudiosByFoundingYearAgent : public ScActionInitiatedAgent
 {
 
   public:
-  ScAddr GetActionClass() const override;
-
-  // ScResult DoProgram(ScEventAfterGenerateOutgoingArc<ScType::ConstPermPosArc> const & event, ScAction & action) const override;
-  ScResult DoProgram(ScAction & action) override;
-
-  // public:
-  // ScAddr GetActionClass() const override;
-
-  // ScResult DoProgram(ScEventAfterGenerateOutgoingArc<ScType::ConstPermPosArc> const & event, ScAction & action) override;
-
-  // ScAddr GetEventSubscriptionElement() const override;
-  /*
-  SC_CLASS(
-      Agent,
-      Event(DanceStudiosKeynodes::action_search_dance_studios_by_founding_year, ScEventAfterGenerateOutgoingArc));
-  SC_GENERATED_BODY();
-  */
+  ScAddr GetActionClass() const override; // Метод получения класса действий агента 
+  
+  ScResult DoProgram(ScAction & action) // Главный метод агента
 };
 
-}  // namespace dance_studios
+}  

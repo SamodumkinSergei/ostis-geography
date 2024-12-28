@@ -11,7 +11,7 @@ namespace PotteryModule
 
 class PotteryModule : public ScModule
 {
-  // void Initialize(ScMemoryContext * context);
-  // void Shutdown(ScMemoryContext * context);
+  
+  
 };
-}  // namespace PotteryModule
+}  
