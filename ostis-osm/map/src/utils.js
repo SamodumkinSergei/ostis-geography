@@ -1,3 +1,4 @@
+// Module that describes utilities for preparing data for query agent
 const MapUtils = {
     SQUARE_SIDE: 0.0001,
     doOSMQuery: function (query, callback) {
@@ -39,19 +40,20 @@ const MapUtils = {
                 MapUtils.doOSMQuery(MapUtils.getOSMQueryForCoordinates(coordinates), (data) => {
                     data.elements.map((element) => {
                         if (element["tags"] && element["tags"]["name"])
-                            this.createNode(element);
+                            this.generateNode(element);
                     });
                 });
             },
-            createNode: function (element) {
+            generateNode: function (element) {
                 let constr = new sc.ScConstruction();
-                constr.createNode(sc.ScType.NodeConst);
-                window.scClient.createElements(constr)
+                constr.generateNode(sc.ScType.NodeConst);
+                window.scClient.generateElements(constr)
                 .then(elems => {
                     element["ostisId"] = elems[0];
                     $.when(this.importIdentifier(element), this.importQuery(element))
                     .done(() => {
-                        console.log("Created");
+                        console.log("Node created");
+                        console.log("===foundElement===", element)
                         this.addToContour(element);
                     })
                     .fail(() => {
@@ -65,62 +67,62 @@ const MapUtils = {
             importIdentifier: function (element) {
                 return new Promise(resolve => {
                     let constr = new sc.ScConstruction();
-                    constr.createLink(
+                    constr.generateLink(
                         sc.ScType.LinkConst,
                         new sc.ScLinkContent(element, element["tags"]["name"]),
                         "_link"
                     );
-                    constr.createEdge(
+                    constr.generateConnector(
                         sc.ScType.EdgeDCommonConst,
                         new sc.ScAddr(element["ostisId"]),
                         "_link",
                         "_arc"
                     );
-                    constr.createEdge(
+                    constr.generateConnector(
                         sc.ScType.EdgeAccessConstPosPerm,
                         new sc.ScAddr(MapKeynodes.get("nrel_main_idtf")),
                         "_arc"
                     );
-                    constr.createEdge(
+                    constr.generateConnector(
                         sc.ScType.EdgeAccessConstPosPerm,
                         new sc.ScAddr(MapKeynodes.get("lang_ru")),
                         "_link"
                     );
-                    window.scClient.createElements(constr).then(resolve);
+                    window.scClient.generateElements(constr).then(resolve);
                 });
             },
             importQuery: function (element) {
                 return new Promise(resolve => {
                     let constr = new sc.ScConstruction();
-                    constr.createLink(
+                    constr.generateLink(
                         sc.ScType.LinkConst,
                         new sc.ScLinkContent(element, element["type"] + "(" + element["id"] + ");"),
                         "_link"
                     );
-                    constr.createEdge(
+                    constr.generateConnector(
                         sc.ScType.EdgeDCommonConst,
                         new sc.ScAddr(element["ostisId"]),
                         "_link",
                         "_arc"
                     );
-                    constr.createEdge(
+                    constr.generateConnector(
                         sc.ScType.EdgeAccessConstPosPerm,
                         new sc.ScAddr(MapKeynodes.get("nrel_osm_query")),
                         "_arc"
                     );
-                    window.scClient.createElements(constr).then(resolve);
+                    window.scClient.generateElements(constr).then(resolve);
                 });
             },
             addToContour: function (element) {
-                console.log(contour);
-                console.log(element["ostisId"]);
+                console.log("===Contour===", contour);
+                console.log("===elementOstisID===", element["ostisId"]);
                 let constr = new sc.ScConstruction();
-                constr.createEdge(
+                constr.generateConnector(
                     sc.ScType.EdgeAccessConstPosPerm,
                     new sc.ScAddr(contour),
                     new sc.ScAddr(element["ostisId"]),
                 );
-                window.scClient.createElements(constr)
+                window.scClient.generateElements(constr)
                 .then(_ => {
                     this.showModal(element);
                 });
@@ -139,7 +141,7 @@ const MapUtils = {
                     sc.ScType.EdgeAccessVarPosPerm,
                     sc.ScType.NodeVar
                 );
-                window.scClient.templateSearch(template)
+                window.scClient.searchByTemplate(template)
                 .then(result => {
                     const question_arg = result[0].get(2);
                     self.checkTerrainObject(question_arg.value)
@@ -158,7 +160,7 @@ const MapUtils = {
                     sc.ScType.EdgeAccessVarPosPerm,
                     new sc.ScAddr(MapKeynodes.get("nrel_osm_query"))
                 );
-                return await window.scClient.templateSearch(template);
+                return await window.scClient.searchByTemplate(template);
             },
             extractIdentifier: function (object) {
                 let template = new sc.ScTemplate();
@@ -174,7 +176,7 @@ const MapUtils = {
                     sc.ScType.EdgeAccessVarPosPerm,
                     "_link"
                 );
-                window.scClient.templateSearch(template)
+                window.scClient.searchByTemplate(template)
                 .then(result => {
                     window.scClient.getLinkContents([result[0].get("_link")])
                     .then(result => {
@@ -210,7 +212,7 @@ const MapUtils = {
                     sc.ScType.EdgeAccessVarPosPerm,
                     new sc.ScAddr(MapKeynodes.get("rrel_example"))
                 );
-                window.scClient.templateSearch(template)
+                window.scClient.searchByTemplate(template)
                 .then(result => {
                     window.scClient.getLinkContents([result[0].get("_image_link")])
                     .then(linkResult => {
@@ -251,7 +253,7 @@ const MapUtils = {
                     sc.ScType.EdgeAccessVarPosPerm,
                     "_description_link"
                 );
-                window.scClient.templateSearch(template)
+                window.scClient.searchByTemplate(template)
                 .then(result => {
                     window.scClient.getLinkContents([result[0].get("_description_link")])
                     .then(descriptions => {
@@ -269,7 +271,7 @@ const MapUtils = {
                     sc.ScType.EdgeAccessVarPosPerm,
                     new sc.ScAddr(MapKeynodes.get("nrel_osm_query"))
                 );
-                window.scClient.templateSearch(template)
+                window.scClient.searchByTemplate(template)
                 .then(result => {
                     window.scClient.getLinkContents([result[0].get("_query_link")])
                     .then(quieries => {

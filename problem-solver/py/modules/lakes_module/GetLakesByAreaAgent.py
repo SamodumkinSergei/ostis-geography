@@ -1,37 +1,42 @@
-from sc_kpm.logging import get_kpm_logger
+# from sc_kpm.logging import get_kpm_logger
 from termcolor import colored
+import logging
 
 from sc_client import client
 
 from sc_client.models import ScAddr, ScTemplate
-from sc_client.constants import sc_types
+from sc_client.constants import sc_type
 
 from sc_kpm import ScAgentClassic, ScResult, ScKeynodes
 
 from sc_kpm.utils.action_utils import get_action_arguments
-from sc_kpm.utils import create_edge
-from sc_kpm.utils.creation_utils import create_structure, wrap_in_set
+from sc_kpm.utils import generate_connector
+from sc_kpm.utils.common_utils import generate_node
+from sc_kpm.sc_sets import ScSet
 
-logger = get_kpm_logger()
+# logger = get_kpm_logger()
 
+logging.basicConfig(
+    level=logging.DEBUG, format="%(asctime)s | %(name)s | %(message)s", datefmt="[%d-%b-%y %H:%M:%S]"
+)
 
 class GetLakesByAreaAgent(ScAgentClassic):
     def __init__(self):
         super().__init__("action_get_lake_by_area")
-        self._keynodes = ScKeynodes()
+        # self._keynodes = ScKeynodes()
 
     def on_event(self, class_node: ScAddr, edge: ScAddr, action_node: ScAddr) -> ScResult:
         if not self._confirm_action_class(action_node):
             return ScResult.SKIP
 
         status = ScResult.OK
-        logger.debug("GetLakesByAreaAgent starts")
+        self.logger.debug("GetLakesByAreaAgent starts")
         try:
-            logger.debug("GetLakesByAreaAgent get arguments")
+            self.logger.debug("GetLakesByAreaAgent get arguments")
 
             first_area_node, second_area_node = get_action_arguments(action_node, 2)
 
-            answer_node = create_structure(first_area_node, second_area_node)
+            answer_node = generate_node(sc_type.CONST_NODE) #first_area_node, second_area_node
 
             lake_area = self.get_lakes_with_area()
             first_area = float(client.get_link_content(first_area_node)[0].data)
@@ -44,63 +49,63 @@ class GetLakesByAreaAgent(ScAgentClassic):
                     results.append(lake)
 
             for lake in results:
-                logger.debug("GetLakesByAreaAgent get answer")
+                self.logger.debug("GetLakesByAreaAgent get answer")
                 self.add_lake_to_answer(lake, answer_node)
 
             self.finish_agent(action_node, answer_node)
-            logger.debug("GetLakesByAreaAgent ends")
+            self.logger.debug("GetLakesByAreaAgent ends")
 
         except Exception as ex:
             self.set_unsuccessful_status(action_node)
             status = ScResult.ERROR
         finally:
-            create_edge(
-                sc_types.EDGE_ACCESS_CONST_POS_PERM,
-                self._keynodes['question_finished'],
+            generate_connector(
+                sc_type.CONST_PERM_POS_ARC,
+                ScKeynodes['question_finished'],
                 action_node,
             )
         return status
 
     def set_unsuccessful_status(self, action_node: ScAddr) -> None:
-        create_edge(
-            sc_types.EDGE_ACCESS_CONST_POS_PERM,
-            self._keynodes['question_finished_unsuccessfully'],
+        generate_connector(
+            sc_type.CONST_PERM_POS_ARC,
+            ScKeynodes['question_finished_unsuccessfully'],
             action_node,
         )
 
     def finish_agent(self, action_node: ScAddr, answer: ScAddr) -> None:
-        contour_edge = create_edge(
-            sc_types.EDGE_D_COMMON_CONST,
+        contour_edge = generate_connector(
+            sc_type.CONST_COMMON_ARC,
             action_node,
             answer,
         )
-        create_edge(
-            sc_types.EDGE_ACCESS_CONST_POS_PERM,
-            self._keynodes['nrel_answer'],
+        generate_connector(
+            sc_type.CONST_PERM_POS_ARC,
+            ScKeynodes['nrel_answer'],
             contour_edge,
         )
-        create_edge(
-            sc_types.EDGE_ACCESS_CONST_POS_PERM,
-            self._keynodes['question_finished_successfully'],
+        generate_connector(
+            sc_type.CONST_PERM_POS_ARC,
+            ScKeynodes['question_finished_successfully'],
             action_node,
         )
 
     def add_lake_to_answer(self, lake, answer):
         template = ScTemplate()
-        template.triple_with_relation(
+        template.quintuple(
             lake,
-            [sc_types.EDGE_D_COMMON_VAR, "_arc_1"],
-            [sc_types.LINK_VAR, '_area'],
-            [sc_types.EDGE_ACCESS_VAR_POS_PERM, "_arc_2"],
-            self._keynodes['nrel_area'],
+            [sc_type.VAR_COMMON_ARC, "_arc_1"],
+            [sc_type.VAR_NODE_LINK, '_area'],
+            [sc_type.VAR_PERM_POS_ARC, "_arc_2"],
+            ScKeynodes['nrel_area'],
         )
-        search_result = client.template_search(template)
+        search_result = client.search_by_template(template)
 
         if len(search_result):
-            wrap_in_set(
+            ScSet(
                 answer,
                 lake,
-                self._keynodes['nrel_area'],
+                ScKeynodes['nrel_area'],
                 search_result[0].get('_arc_1'),
                 search_result[0].get('_arc_2'),
                 search_result[0].get('_area'),
@@ -109,19 +114,19 @@ class GetLakesByAreaAgent(ScAgentClassic):
     def get_lakes_with_area(self):
         template = ScTemplate()
         template.triple(
-            self._keynodes['concept_lake'],
-            sc_types.EDGE_ACCESS_VAR_POS_PERM,
-            [sc_types.NODE_VAR, '_lake'],
+            ScKeynodes['concept_lake'],
+            sc_type.VAR_PERM_POS_ARC,
+            [sc_type.VAR_NODE, '_lake'],
         )
-        template.triple_with_relation(
+        template.quintuple(
             '_lake',
-            sc_types.EDGE_D_COMMON_VAR,
-            [sc_types.LINK_VAR, '_area'],
-            sc_types.EDGE_ACCESS_VAR_POS_PERM,
-            self._keynodes['nrel_area'],
+            sc_type.VAR_COMMON_ARC,
+            [sc_type.VAR_NODE_LINK, '_area'],
+            sc_type.VAR_PERM_POS_ARC,
+            ScKeynodes['nrel_area'],
         )
 
-        search_result = client.template_search(template)
+        search_result = client.search_by_template(template)
         lakes_with_area = {}
         for item in search_result:
             lakes_with_area[item.get('_lake')] = float(client.get_link_content(item.get("_area"))[0].data)
@@ -129,14 +134,14 @@ class GetLakesByAreaAgent(ScAgentClassic):
 
     def get_main_idtf(self, node: ScAddr) -> str:
         template = ScTemplate()
-        template.triple_with_relation(
+        template.quintuple(
             node,
-            sc_types.EDGE_D_COMMON_VAR,
-            [sc_types.LINK_VAR, '_value'],
-            sc_types.EDGE_ACCESS_VAR_POS_PERM,
-            self._keynodes['nrel_main_idtf'],
+            sc_type.VAR_COMMON_ARC,
+            [sc_type.VAR_NODE_LINK, '_value'],
+            sc_type.VAR_PERM_POS_ARC,
+            ScKeynodes['nrel_main_idtf'],
         )
-        template_result = client.template_search(template)
+        template_result = client.search_by_template(template)
         value = ''
         if len(template_result):
             value = client.get_link_content(template_result[0].get('_value'))[0].data

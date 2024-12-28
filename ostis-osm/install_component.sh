@@ -4,6 +4,8 @@ cp -R ./common ../sc-web/client/static
 cp -R ../interface/sc-web-extensions/bank_way_interface/bank_way ../sc-web/components
 cd ../sc-web/client/templates
 
+# Lines til 29 should be commented when updating component in system to prevent importing errors
+
 cat <<EOT >> ./common.html
 <script type="text/javascript" charset="utf-8" src="/static/common/react/react.js"></script>
 <script type="text/javascript" charset="utf-8" src="/static/common/react/react-dom.js"></script>

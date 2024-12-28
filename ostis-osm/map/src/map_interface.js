@@ -1,3 +1,4 @@
+// Module that describes interfac interaction
 const MapInterface = React.createClass({displayName: "MapInterface",
   propTypes: {
     store: React.PropTypes.object
@@ -33,6 +34,7 @@ const MapInterface = React.createClass({displayName: "MapInterface",
   },
 
   getInitialState: function() {
+    console.log("<===getInitialState===>")
     return {
       objects: Object.values(this.props.store.objects),
       chosen: this.props.store.chosen,
@@ -40,11 +42,14 @@ const MapInterface = React.createClass({displayName: "MapInterface",
     };
   },
 
+  // function for handling marker interaction
   onClick: function(object) {
+    console.log("===chosenObject===", object)
     fluxify.doAction('chooseObject', object);
   },
 
   onMapClick: function(coordinates) {
+    console.log('==coordinates==>', coordinates)
     fluxify.doAction('importObject', coordinates);
   },
 
