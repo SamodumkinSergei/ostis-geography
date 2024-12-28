@@ -1,3 +1,4 @@
+// Module that describes used fluxify store for map states
 MapStore = {
   get: function() {
     this.store = this.store || this.create();
@@ -15,6 +16,7 @@ MapStore = {
       },
       actionCallbacks: {
         importObject: function(updater, coordinates) {
+          console.log("<===enterImportObject===>")
           Object.assign({}, this.objects);
           MapUtils.importer(coordinates).import();
         },
@@ -27,6 +29,8 @@ MapStore = {
           updater.set({objects: {}, chosen: null});
         },
         chooseObject: function(updater, object) {
+          console.log("<===chooseObject===>")
+          console.log("===chosenObject===", object)
           updater.set({chosen: object})
         },
         resetChosen: function(updater) {
