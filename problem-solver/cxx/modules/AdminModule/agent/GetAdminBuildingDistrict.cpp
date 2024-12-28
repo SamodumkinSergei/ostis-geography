@@ -1,8 +1,5 @@
-#include "sc-agents-common/utils/AgentUtils.hpp"
 #include "sc-agents-common/utils/CommonUtils.hpp"
 #include "sc-agents-common/utils/IteratorUtils.hpp"
-#include "sc-agents-common/keynodes/coreKeynodes.hpp"
-
 #include "keynodes/AdminKeynodes.hpp"
 
 #include "GetAdminBuildingDistrict.hpp"
@@ -10,56 +7,45 @@
 using namespace adminModule;
 using namespace utils;
 
-SC_AGENT_IMPLEMENTATION(GetAdminBuildingDistrict)
+
+ScAddr GetAdminBuildingDistrict::GetActionClass() const // Метод получения класса действия агента
 {
-  ScAddr actionNode = m_memoryCtx.GetEdgeTarget(edgeAddr);
+  return AdminKeynodes::action_get_admin_building_district; 
+}
 
-  if (!checkActionClass(actionNode))
+ScResult GetAdminBuildingDistrict::DoProgram(ScAction & action) // Главный метод агента
+{
+  auto const & [first] = action.GetArguments<1>(); // Получение аргумента
+
+  // Проверка наличия аргумента
+  if (!m_context.IsElement(first))
   {
-    return SC_RESULT_OK;
+    SC_AGENT_LOG_ERROR("Action does not have argument.");
+
+    return action.FinishWithError();
   }
 
-  SC_LOG_DEBUG("GetAdminBuildingDistrict started");
-
-  ScAddr firstParameter =
-      IteratorUtils::getAnyByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_1);
-  if (!firstParameter.IsValid())
-  {
-    SC_LOG_ERROR("First parameter isn't valid.");
-    AgentUtils::finishAgentWork(&m_memoryCtx, actionNode, false);
-    return SC_RESULT_ERROR_INVALID_PARAMS;
-  }
-
-  ScAddr answerNode = m_memoryCtx.CreateNode(ScType::NodeConstStruct);
+  ScAddr answerNode = m_context.GenerateNode(ScType::ConstNodeStructure); // Создание структуры ответа  
 
   ScAddr key_sc_element;
 
-  ScIterator5Ptr iterator5 = m_memoryCtx.Iterator5(
+  ScIterator5Ptr iterator5 = m_context.CreateIterator5(
       ScType::Unknown,
-      ScType::EdgeDCommonConst,
-      firstParameter,
-      ScType::EdgeAccessConstPosPerm,
-      AdminKeynodes::nrel_search_area);
+      ScType::ConstCommonArc,
+      first,
+      ScType::ConstPermPosArc,
+      AdminKeynodes::nrel_search_area); // Итератор для поиска района
 
+  // Поиск района
   while (iterator5->Next())
   {
     key_sc_element = iterator5->Get(0);
 
-    if (m_memoryCtx.HelperCheckEdge(
-            AdminKeynodes::concept_admin_building, key_sc_element, ScType::EdgeAccessConstPosPerm))
-      m_memoryCtx.CreateEdge(ScType::EdgeAccessConstPosPerm, answerNode, key_sc_element);
+    // Проверка принадлежности к району
+    if (m_context.CheckConnector(AdminKeynodes::concept_admin_building, key_sc_element, ScType::ConstPermPosArc));
+      m_context.GenerateConnector(ScType::ConstPermPosArc, answerNode, key_sc_element);
   }
 
-  ScAddr edgeToAnswer = ms_context->CreateEdge(ScType::EdgeDCommonConst, actionNode, answerNode);
-  ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, scAgentsCommon::CoreKeynodes::nrel_answer, edgeToAnswer);
-
-  AgentUtils::finishAgentWork(&m_memoryCtx, actionNode, true);
-  SC_LOG_DEBUG("GetAdminBuildingDistrict finished");
-  return SC_RESULT_OK;
-}
-
-bool GetAdminBuildingDistrict::checkActionClass(const ScAddr & actionNode)
-{
-  return m_memoryCtx.HelperCheckEdge(
-      AdminKeynodes::action_get_admin_building_district, actionNode, ScType::EdgeAccessConstPosPerm);
+  action.SetResult(answerNode); // Привязка структуры ответа к агенту
+  return action.FinishSuccessfully();
 }

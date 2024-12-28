@@ -2,7 +2,6 @@
  * Author Artsiom Salauyou
  */
 
-#include "sc-agents-common/utils/AgentUtils.hpp"
 #include "sc-agents-common/utils/IteratorUtils.hpp"
 
 #include "keynodes/HotelKeynodes.hpp"
@@ -11,19 +10,27 @@
 
 using namespace hotelModule;
 
-SC_AGENT_IMPLEMENTATION(GetHotelByMinPricePerNightAgent)
+ScAddr GetHotelByMinPricePerNightAgent::GetActionClass() const // Метод получения класса действия агента
 {
-  ScAddr actionAddr = otherAddr;
 
-  if (checkActionClass(actionAddr) == SC_FALSE)
-    return SC_RESULT_OK;
+  return HotelKeynodes::action_get_hotel_by_min_price_per_night;
+}
 
-  SC_LOG_DEBUG("GetHotelByMinPricePerNightAgent started");
+ScResult GetHotelByMinPricePerNightAgent::DoProgram(ScAction & action) // Главный метод агента 
+{
+  auto const & [priceLink] = action.GetArguments<1>();
 
-  ScAddr inputPriceLink =
-      utils::IteratorUtils::getAnyByOutRelation(&m_memoryCtx, actionAddr, scAgentsCommon::CoreKeynodes::rrel_1);
+  // Проверка наличия аргумента
+  if (!m_context.IsElement(priceLink))
+  {
+    SC_AGENT_LOG_ERROR("Action does not have argument.");
 
-  ScAddrVector minPricesPerNight = getPricesLinks(inputPriceLink);
+    return action.FinishWithError();
+  }
+
+  ScAddr answerNode = m_context.GenerateNode(ScType::NodeConstStructure );
+
+  ScAddrVector minPricesPerNight = getPricesLinks(&m_context, priceLink);
 
   ScAddrVector answerVector;
   initFields();
@@ -31,63 +38,77 @@ SC_AGENT_IMPLEMENTATION(GetHotelByMinPricePerNightAgent)
   try
   {
     ScAddr hotel;
+
+    // Проверка вектора минимальных цен за ночь на не пустоту
     if (!minPricesPerNight.empty())
     {
+
       for (ScAddr minPricePerNight : minPricesPerNight)
       {
         hotel = hotelSearcher->searchHotelByMinPricePerNight(minPricePerNight);
-        if (isHotel(hotel))
+
+        // Проверка является ли найденный узел отелем
+        if (isHotel(&m_context, hotel))
+          SC_AGENT_LOG_DEBUG("Hotel: ");
           answerVector.push_back(hotel);
       }
     }
     else
-      SC_LOG_WARNING("No hotels found");
+      SC_AGENT_LOG_WARNING("No hotels found");
+
+    // Цикл для добавления найденных отелей в структуру ответа
+    for (ScAddr findHotel : answerVector)
+    {
+      m_context.GenerateConnector(ScType::ConstPermPosArc, answerNode, findHotel);
+    }
   }
   catch (utils::ScException &)
   {
-    utils::AgentUtils::finishAgentWork(&m_memoryCtx, actionAddr, answerVector, false);
-    SC_LOG_DEBUG("GetHotelByMinPricePerNightAgent finished");
-    return SC_RESULT_ERROR;
+    return action.FinishUnsuccessfully();
   }
 
-  utils::AgentUtils::finishAgentWork(&m_memoryCtx, actionAddr, answerVector, true);
-  SC_LOG_DEBUG("GetHotelByMinPricePerNightAgent finished");
-  return SC_RESULT_OK;
+
+  
+  
+  action.SetResult(answerNode); 
+  return action.FinishSuccessfully();
 }
 
-void GetHotelByMinPricePerNightAgent::initFields()
+
+void GetHotelByMinPricePerNightAgent::initFields() // Метод для инициализации класса поиска отелей
 {
-  this->hotelSearcher = std::make_unique<HotelSearcher>(&m_memoryCtx);
+  this->hotelSearcher = std::make_unique<HotelSearcher>(&m_context);
 }
 
-bool GetHotelByMinPricePerNightAgent::checkActionClass(const ScAddr & actionNode)
+bool GetHotelByMinPricePerNightAgent::checkActionClass(const ScAddr & actionNode) 
 {
-  return m_memoryCtx.HelperCheckEdge(
-      HotelKeynodes::action_get_hotel_by_min_price_per_night, actionNode, ScType::EdgeAccessConstPosPerm);
+  return m_context.CheckConnector(
+      HotelKeynodes::action_get_hotel_by_min_price_per_night, actionNode, ScType::ConstPermPosArc);
 }
 
-ScAddrVector GetHotelByMinPricePerNightAgent::getPricesLinks(const ScAddr & inputLink)
+ScAddrVector GetHotelByMinPricePerNightAgent::getPricesLinks(ScMemoryContext * memory_ctx, const ScAddr & inputLink) // Метод для получения цен
 {
-  auto minPriceLinkContent = ms_context->GetLinkContent(inputLink);
-  ScAddrVector links = ms_context->FindLinksByContent(minPriceLinkContent);
+  auto minPriceLinkContent = memory_ctx->GetLinkContent(inputLink);
+
+  ScAddrSet links = memory_ctx->SearchLinksByContent(minPriceLinkContent);
 
   ScAddrVector resultVector;
   for (ScAddr link : links)
   {
-    if (isPriceLink(link) && link != inputLink)
+    if (isPriceLink(memory_ctx, link) && link != inputLink)
       resultVector.push_back(link);
   }
   return resultVector;
 }
 
-bool GetHotelByMinPricePerNightAgent::isHotel(const ScAddr & hotel)
+bool GetHotelByMinPricePerNightAgent::isHotel(ScMemoryContext * memory_ctx, const ScAddr & hotel)
 {
-  return ms_context->HelperCheckEdge(HotelKeynodes::concept_hotel, hotel, ScType::EdgeAccessConstPosPerm) &&
-         ms_context->HelperCheckEdge(HotelKeynodes::concept_map_object, hotel, ScType::EdgeAccessConstPosPerm);
+  return (memory_ctx->CheckConnector(HotelKeynodes::concept_hotel, hotel, ScType::ConstPermPosArc) && 
+          memory_ctx->CheckConnector(HotelKeynodes::concept_map_object, hotel, ScType::ConstPermPosArc));
 }
 
-bool GetHotelByMinPricePerNightAgent::isPriceLink(const ScAddr & priceLink)
+bool GetHotelByMinPricePerNightAgent::isPriceLink(ScMemoryContext * memory_ctx, const ScAddr & priceLink)
 {
-  return ms_context->HelperCheckEdge(HotelKeynodes::concept_price, priceLink, ScType::EdgeAccessConstPosPerm) &&
-         ms_context->HelperCheckEdge(HotelKeynodes::concept_usd, priceLink, ScType::EdgeAccessConstPosPerm);
+  return (memory_ctx->CheckConnector(HotelKeynodes::concept_price, priceLink, ScType::ConstPermPosArc) && 
+          memory_ctx->CheckConnector(HotelKeynodes::concept_usd, priceLink, ScType::ConstPermPosArc));
 }

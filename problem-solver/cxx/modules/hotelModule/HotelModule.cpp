@@ -10,21 +10,29 @@
 
 using namespace hotelModule;
 
-SC_IMPLEMENT_MODULE(HotelModule)
+// Регистрация агентов
+SC_MODULE_REGISTER(HotelModule)
+  ->Agent<GetHotelByMinPricePerNightAgent>();
 
-sc_result HotelModule::InitializeImpl()
-{
-  if (hotelModule::HotelKeynodes::InitGlobal() == SC_FALSE)
-    return SC_RESULT_ERROR;
 
-  SC_AGENT_REGISTER(GetHotelByMinPricePerNightAgent)
 
-  return SC_RESULT_OK;
-}
 
-sc_result HotelModule::ShutdownImpl()
-{
-  SC_AGENT_UNREGISTER(GetHotelByMinPricePerNightAgent)
 
-  return SC_RESULT_OK;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,23 +1,27 @@
 /*
- * This source file is part of an OSTIS project. For the latest info, see http://ostis.net
+ * This source file is part of an OSTIS project. For the latest info, see http:
  * Distributed under the MIT License
- * (See accompanying file COPYING.MIT or copy at http://opensource.org/licenses/MIT)
+ * (See accompanying file COPYING.MIT or copy at http:
  */
 
 #pragma once
 
-#include "sc-memory/kpm/sc_agent.hpp"
+#include "sc-memory/sc_agent.hpp"
 
-#include "keynodes/keynodes.hpp"
-#include "PotteryDate.generated.hpp"
-
+#include "keynodes/PotteryKeynodes.hpp"
 namespace PotteryModule
 {
 
-class PotteryDate : public ScAgent
+class PotteryDate : public ScActionInitiatedAgent
 {
-  SC_CLASS(Agent, Event(Keynodes::question_potteryDate, ScEvent::Type::AddOutputEdge))
-  SC_GENERATED_BODY()
-};
 
-}  // namespace PotteryModule
+
+  public:
+  ScAddr GetActionClass() const override; // Метод получения класса действия агента
+
+  
+  ScResult DoProgram(ScAction & action) override; // Главный метод агента
+
+  };
+
+}  

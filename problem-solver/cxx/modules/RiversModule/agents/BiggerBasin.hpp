@@ -1,23 +1,24 @@
 /*
- * This source file is part of an OSTIS project. For the latest info, see http://ostis.net
+ * This source file is part of an OSTIS project. For the latest info, see http:
  * Distributed under the MIT License
- * (See accompanying file COPYING.MIT or copy at http://opensource.org/licenses/MIT)
+ * (See accompanying file COPYING.MIT or copy at http:
  */
 
 #pragma once
 
-#include "sc-memory/kpm/sc_agent.hpp"
+#include "sc-memory/sc_agent.hpp"
 
-#include "keynodes/keynodes.hpp"
-#include "BiggerBasin.generated.hpp"
-
+#include "keynodes/RiverKeynodes.hpp"
 namespace RiversModule
 {
 
-class BiggerBasin : public ScAgent
+class BiggerBasin : public ScActionInitiatedAgent
 {
-  SC_CLASS(Agent, Event(Keynodes::question_biggerBasin, ScEvent::Type::AddOutputEdge))
-  SC_GENERATED_BODY()
-};
 
-}  // namespace RiversModule
+  public:
+  ScAddr GetActionClass() const override; // Метод полученрия класса действия агента
+  ScResult DoProgram(ScAction & action) override; // Главный метод агента
+  
+  };
+
+}  

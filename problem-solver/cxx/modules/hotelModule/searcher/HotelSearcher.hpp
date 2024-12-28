@@ -23,4 +23,4 @@ public:
 
   ScAddr searchHotelByMinPricePerNight(ScAddr const & minPricePerNightAddr);
 };
-}  // namespace hotelModule
+}  

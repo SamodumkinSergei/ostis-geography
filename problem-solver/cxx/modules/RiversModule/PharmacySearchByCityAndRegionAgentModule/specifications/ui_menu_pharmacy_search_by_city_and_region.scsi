@@ -1,0 +1,23 @@
+ui_menu_pharmacy_search_by_city_and_region <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+ui_menu_pharmacy_search_by_city_and_region
+=> nrel_main_idtf: 
+	[Искать аптеку по городу и региону]
+	(* <- lang_ru;; *);;
+
+ui_menu_pharmacy_search_by_city_and_region
+=> nrel_main_idtf: 
+	[Search for a pharmacy by city and region]
+	(* <- lang_en;; *);;
+
+ui_menu_pharmacy_search_by_city_and_region => ui_nrel_command_template:
+	[*
+		action_pharmacyByCityAndRegionSearch_-> ._question_pharmacy_search_by_city_and_region
+			(*
+				_-> ui_arg_1;;
+			*);;
+		._question_pharmacy_search_by_city_and_region _<- question;;
+	*];;
+
+ui_menu_pharmacy_search_by_city_and_region => ui_nrel_command_lang_template: [Искать аптеку по городу и региону] (* <- lang_ru;; *);;
+ui_menu_pharmacy_search_by_city_and_region => ui_nrel_command_lang_template: [Search for a pharmacy by city and region] (* <- lang_en;; *);;

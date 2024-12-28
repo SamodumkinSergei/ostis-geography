@@ -1,7 +1,7 @@
 /*
- * This source file is part of an OSTIS project. For the latest info, see http://ostis.net
+ * This source file is part of an OSTIS project. For the latest info, see http:
  * Distributed under the MIT License
- * (See accompanying file COPYING.MIT or copy at http://opensource.org/licenses/MIT)
+ * (See accompanying file COPYING.MIT or copy at http:
  */
 
 #include "DanceStudiosByString.hpp"
@@ -18,14 +18,12 @@ ScAddr DanceStudiosByString::findDanceStudiosByString(
 {
   ScAddr rangeTop;
 
-  SC_LOG_INFO("search start");
-
-  ScIterator3Ptr arguments = ms_context->Iterator3(questionNode, ScType::EdgeAccessConstPosPerm, ScType::NodeConst);
+  ScIterator3Ptr arguments = ms_context->CreateIterator3(questionNode, ScType::ConstPermPosArc, ScType::ConstNode);
 
   while (arguments->Next())
   {
     ScAddr value = arguments->Get(2);
-    if (ms_context->HelperCheckEdge(valueConcept, value, ScType::EdgeAccessConstPosPerm))
+    if (ms_context->CheckConnector(valueConcept, value, ScType::ConstPermPosArc))
     {
       rangeTop = value;
     }
@@ -36,42 +34,42 @@ ScAddr DanceStudiosByString::findDanceStudiosByString(
     return {};
   }
 
-  std::string top = ms_context->HelperGetSystemIdtf(rangeTop);
-  SC_LOG_INFO("search value \"" + top + "\"");
+  std::string top = ms_context->GetElementSystemIdentifier(rangeTop);
+  
 
-  ScIterator3Ptr danceStudios = ms_context->Iterator3(
-      DanceStudiosKeynodes::concept_dance_studio, ScType::EdgeAccessConstPosPerm, ScType::NodeConst);
+  ScIterator3Ptr danceStudios = ms_context->CreateIterator3(
+      DanceStudiosKeynodes::concept_dance_studio, ScType::ConstPermPosArc, ScType::ConstNode);
 
-  ScAddr solution = ms_context->CreateNode(ScType::NodeConst);
-  ScAddr set = ms_context->CreateNode(ScType::NodeConst);
-  ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, solution, set);
+  ScAddr solution = ms_context->GenerateNode(ScType::ConstNode);
+  ScAddr set = ms_context->GenerateNode(ScType::ConstNode);
+  ms_context->GenerateConnector(ScType::ConstPermPosArc, solution, set);
 
   while (danceStudios->Next())
   {
     ScAddr danceStudio = danceStudios->Get(2);
 
-    ScIterator5Ptr property = ms_context->Iterator5(
-        danceStudio, ScType::EdgeDCommon, ScType::NodeConst, ScType::EdgeAccessConstPosPerm, propertyNrel);
+    ScIterator5Ptr property = ms_context->CreateIterator5(
+        danceStudio, ScType::CommonArc, ScType::ConstNode, ScType::ConstPermPosArc, propertyNrel);
 
     if (property->Next())
     {
       ScAddr propertyValue = property->Get(2);
 
-      std::string value = ms_context->HelperGetSystemIdtf(propertyValue);
+      std::string value = ms_context->GetElementSystemIdentifier(propertyValue);
 
       if (value == top)
       {
-        SC_LOG_INFO(value + " == " + top);
+        
 
-        ScAddr edge = ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, set, danceStudio);
-        ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, solution, edge);
-        ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, solution, danceStudio);
+        ScAddr edge = ms_context->GenerateConnector(ScType::ConstPermPosArc, set, danceStudio);
+        ms_context->GenerateConnector(ScType::ConstPermPosArc, solution, edge);
+        ms_context->GenerateConnector(ScType::ConstPermPosArc, solution, danceStudio);
       }
     }
   }
 
-  ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, DanceStudiosKeynodes::concept_success_solution, solution);
+  ms_context->GenerateConnector(ScType::ConstPermPosArc, DanceStudiosKeynodes::concept_success_solution, solution);
 
   return solution;
 }
-}  // namespace dance_studios
+}  

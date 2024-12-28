@@ -4,35 +4,29 @@
 
 #pragma once
 
+#include <sc-memory/sc_keynodes.hpp>
+
 #include "sc-memory/sc_addr.hpp"
 #include "sc-memory/sc_object.hpp"
 
-#include "HotelKeynodes.generated.hpp"
-
 namespace hotelModule
 {
-class HotelKeynodes : public ScObject
+class HotelKeynodes : public ScKeynodes
 {
-  SC_CLASS()
-  SC_GENERATED_BODY()
+  public:
+  static inline ScKeynode const action_get_hotel_by_min_price_per_night{"action_get_hotel_by_min_price_per_night"};
 
-public:
-  SC_PROPERTY(Keynode("action_get_hotel_by_min_price_per_night"), ForceCreate)
-  static ScAddr action_get_hotel_by_min_price_per_night;
+  static inline ScKeynode const nrel_min_price_per_night{"nrel_min_price_per_night"};
 
-  SC_PROPERTY(Keynode("nrel_min_price_per_night"), ForceCreate)
-  static ScAddr nrel_min_price_per_night;
+  static inline ScKeynode const concept_hotel{"concept_hotel"};
 
-  SC_PROPERTY(Keynode("concept_hotel"), ForceCreate)
-  static ScAddr concept_hotel;
+  static inline ScKeynode const concept_map_object{"concept_map_object"};
 
-  SC_PROPERTY(Keynode("concept_map_object"), ForceCreate)
-  static ScAddr concept_map_object;
+  static inline ScKeynode const concept_price{"concept_price"};
 
-  SC_PROPERTY(Keynode("concept_price"), ForceCreate)
-  static ScAddr concept_price;
+  static inline ScKeynode const concept_usd{"concept_usd"};
 
-  SC_PROPERTY(Keynode("concept_usd"), ForceCreate)
-  static ScAddr concept_usd;
+  static inline ScKeynode const concept_hotel_request{"concept_hotel_request"};
+
 };
-}  // namespace hotelModule
+}  

@@ -1,19 +1,17 @@
 /*
- * This source file is part of an OSTIS project. For the latest info, see http://ostis.net
+ * This source file is part of an OSTIS project. For the latest info, see http:
  * Distributed under the MIT License
- * (See accompanying file COPYING.MIT or copy at http://opensource.org/licenses/MIT)
+ * (See accompanying file COPYING.MIT or copy at http:
  */
 
-#include "sc-agents-common/utils/AgentUtils.hpp"
 #include "sc-agents-common/utils/CommonUtils.hpp"
 #include "sc-agents-common/utils/IteratorUtils.hpp"
-#include "sc-agents-common/keynodes/coreKeynodes.hpp"
 #include <string>
 #include <iostream>
 #include <vector>
 
 #include "PotteryDate.hpp"
-#include "keynodes/keynodes.hpp"
+#include "keynodes/PotteryKeynodes.hpp"
 
 using namespace std;
 using namespace utils;
@@ -21,56 +19,87 @@ using namespace utils;
 namespace PotteryModule
 {
 
-SC_AGENT_IMPLEMENTATION(PotteryDate)
+ScAddr PotteryDate::GetActionClass() const // Метод получения класса действия агента
 {
-  if (!edgeAddr.IsValid())
-    return SC_RESULT_ERROR;
+  return PotteryKeynodes::action_get_pottery;
+}
 
-  SC_LOG_INFO("----------PotteryDate begin----------");
-  ScAddr actionNode = ms_context->GetEdgeTarget(edgeAddr);
 
-  ScAddr date1 = IteratorUtils::getAnyByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_1);
+ScResult PotteryDate::DoProgram(ScAction & action) // Гланый метод агента
+{
+  auto const & [date1, date2] = action.GetArguments<2>();
 
-  ScAddr date2 = IteratorUtils::getAnyByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_2);
+  // Проверка наличия первого аргумента
+  if (!m_context.IsElement(date1))
+  {
+    SC_AGENT_LOG_ERROR("Action does not have first argument.");
 
-  ScAddr answer = ms_context->CreateNode(ScType::NodeConstStruct);
+    return action.FinishWithError();
+  }
 
-  std::string str1 = CommonUtils::getIdtf(ms_context.get(), date1, Keynodes::nrel_main_idtf);
-  std::string str2 = CommonUtils::getIdtf(ms_context.get(), date2, Keynodes::nrel_main_idtf);
-  SC_LOG_INFO(str1.c_str());
-  SC_LOG_INFO(str2.c_str());
+  // Проверка наличия второго аргумента
+  if (!m_context.IsElement(date2))
+  {
+    SC_AGENT_LOG_ERROR("Action does not have second argument.");
+
+    return action.FinishWithError();
+  }
+
+  ScAddr answer = m_context.GenerateNode(ScType::ConstNodeStructure);
+
+  std::string str1 = CommonUtils::getIdtf(&m_context, date1, ScKeynodes::nrel_main_idtf);
+  std::string str2 = CommonUtils::getIdtf(&m_context, date2, ScKeynodes::nrel_main_idtf);
+  
+  
   int d1 = std::atoi(str1.c_str());
   int d2 = std::atoi(str2.c_str());
 
-  ScIterator3Ptr it2 = ms_context->Iterator3(Keynodes::pottery_centre, ScType::EdgeAccessConstPosPerm, ScType::Unknown);
+  ScIterator3Ptr it2 = m_context.CreateIterator3(
+      PotteryKeynodes::pottery_centre, 
+      ScType::ConstPermPosArc, 
+      ScType::Unknown); // Итератор для поиска предприятий по производству керамики 
   ScAddr smth;
+
+  // Поиск предприятий по производству керамики
   while (it2->Next())
   {
+
     smth = it2->Get(2);
-    ScIterator5Ptr it1 = ms_context->Iterator5(
-        smth, ScType::EdgeDCommonConst, ScType::Unknown, ScType::EdgeAccessConstPosPerm, Keynodes::nrel_date);
+    ScIterator5Ptr it1 = m_context.CreateIterator5(
+        smth, ScType::ConstCommonArc, 
+        ScType::Unknown, 
+        ScType::ConstPermPosArc, 
+        PotteryKeynodes::nrel_date); // Итератор для поска даты
     ScAddr date;
+
+    // Поиск даты
     while (it1->Next())
     {
       date = it1->Get(2);
-      std::string str = CommonUtils::getIdtf(ms_context.get(), date, Keynodes::nrel_main_idtf);
-      SC_LOG_INFO(str.c_str());
+      std::string str = CommonUtils::getIdtf(&m_context, date, ScKeynodes::nrel_main_idtf);
+      
       int d = std::atoi(str.c_str());
       if (d < d2)
       {
         if (d > d1)
         {
-          ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, answer, smth);
+          m_context.GenerateConnector(ScType::ConstPermPosArc, answer, smth);
         }
       }
     }
   }
 
-  ScAddr edgeToAnswer = ms_context->CreateEdge(ScType::EdgeDCommonConst, actionNode, answer);
-  ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, scAgentsCommon::CoreKeynodes::nrel_answer, edgeToAnswer);
+  
 
-  SC_LOG_INFO("----------PotteryDate end----------");
-  AgentUtils::finishAgentWork(ms_context.get(), actionNode);
-  return SC_RESULT_OK;
+  
+  action.SetResult(answer); // Привязка структуры агента к агенту
+  return action.FinishSuccessfully();
 }
-}  // namespace PotteryModule
+
+
+
+
+
+
+
+}  

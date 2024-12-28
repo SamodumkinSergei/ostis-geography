@@ -4,31 +4,38 @@
 
 #pragma once
 
-#include "sc-memory/kpm/sc_agent.hpp"
-#include "sc-agents-common/keynodes/coreKeynodes.hpp"
-
+#include "sc-memory/sc_agent.hpp"
 #include "searcher/HotelSearcher.hpp"
-
-#include "GetHotelByMinPricePerNightAgent.generated.hpp"
 
 namespace hotelModule
 {
-class GetHotelByMinPricePerNightAgent : public ScAgent
+class GetHotelByMinPricePerNightAgent : public ScActionInitiatedAgent
 {
-  SC_CLASS(Agent, Event(scAgentsCommon::CoreKeynodes::question_initiated, ScEvent::Type::AddOutputEdge))
-  SC_GENERATED_BODY()
+  
+  public:
+  ScAddr GetActionClass() const override; // Метод получения класса действий агента
 
-private:
+  
+  ScResult DoProgram(ScAction & action) override; // Главный метод агента
+
+  
+  
+
+  
+
+  
+
+  private:
   std::unique_ptr<HotelSearcher> hotelSearcher;
 
-  bool checkActionClass(ScAddr const & actionAddr);
+  bool checkActionClass(ScAddr const & actionAddr); 
 
-  static bool isHotel(ScAddr const & hotel);
+  static bool isHotel(ScMemoryContext * memory_ctx, ScAddr const & hotel);
 
-  static bool isPriceLink(ScAddr const & priceLink);
+  static bool isPriceLink(ScMemoryContext * memory_ctx, ScAddr const & priceLink);
 
-  static ScAddrVector getPricesLinks(ScAddr const & InputLink);
+  static ScAddrVector getPricesLinks(ScMemoryContext * memory_ctx, ScAddr const & InputLink); // Метод получения цен
 
-  void initFields();
+  void initFields(); // Метод для инициализации класса поиска отелей
 };
-}  // namespace hotelModule
+}  

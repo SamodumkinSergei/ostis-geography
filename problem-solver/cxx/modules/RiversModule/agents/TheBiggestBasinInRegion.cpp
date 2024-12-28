@@ -1,19 +1,17 @@
 /*
- * This source file is part of an OSTIS project. For the latest info, see http://ostis.net
+ * This source file is part of an OSTIS project. For the latest info, see http:
  * Distributed under the MIT License
- * (See accompanying file COPYING.MIT or copy at http://opensource.org/licenses/MIT)
+ * (See accompanying file COPYING.MIT or copy at http:
  */
 
-#include "sc-agents-common/utils/AgentUtils.hpp"
 #include "sc-agents-common/utils/CommonUtils.hpp"
 #include "sc-agents-common/utils/IteratorUtils.hpp"
-#include "sc-agents-common/keynodes/coreKeynodes.hpp"
 #include <string>
 #include <iostream>
 #include <vector>
 
 #include "TheBiggestBasinInRegion.hpp"
-#include "keynodes/keynodes.hpp"
+#include "keynodes/RiverKeynodes.hpp"
 
 using namespace std;
 using namespace utils;
@@ -21,34 +19,54 @@ using namespace utils;
 namespace RiversModule
 {
 
-SC_AGENT_IMPLEMENTATION(TheBiggestBasinInRegion)
+ScAddr TheBiggestBasinInRegion::GetActionClass() const // Метод получения класса действия агента
 {
-  if (!edgeAddr.IsValid())
-    return SC_RESULT_ERROR;
+  return RiverKeynodes::action_get_theBiggestBasinInRegion;
+}
 
-  SC_LOG_INFO("----------TheBiggestBasinInRegion begin----------");
-  ScAddr actionNode = ms_context->GetEdgeTarget(edgeAddr);
 
-  ScAddr region = IteratorUtils::getAnyByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_1);
+ScResult TheBiggestBasinInRegion::DoProgram(ScAction & action) // Главный метод агента
+{
+  auto const & [region] = action.GetArguments<1>();
 
-  ScAddr answer = ms_context->CreateNode(ScType::NodeConstStruct);
+  // Проверка наличия аргумента
+  if (!m_context.IsElement(region))
+  {
+    SC_AGENT_LOG_ERROR("Action does not have argument.");
 
-  ScIterator5Ptr it1 = ms_context->Iterator5(
-      ScType::Unknown, ScType::EdgeDCommonConst, region, ScType::EdgeAccessConstPosPerm, Keynodes::nrel_region);
+    return action.FinishWithError();
+  }
+
+  ScAddr answer = m_context.GenerateNode(ScType::ConstNodeStructure);
+
+  ScIterator5Ptr it1 = m_context.CreateIterator5(
+      ScType::Unknown, 
+      ScType::ConstCommonArc, region, 
+      ScType::ConstPermPosArc, 
+      RiverKeynodes::nrel_region); // Итератор для поиска рек
   ScAddr river;
   int number = 0;
   ScAddr riv;
+
+  // Поиск рек
   while (it1->Next())
   {
     river = it1->Get(0);
-    ScIterator5Ptr it2 = ms_context->Iterator5(
-        river, ScType::EdgeDCommonConst, ScType::Unknown, ScType::EdgeAccessConstPosPerm, Keynodes::nrel_basin);
+    ScIterator5Ptr it2 = m_context.CreateIterator5(
+        river, ScType::ConstCommonArc, 
+        ScType::Unknown, 
+        ScType::ConstPermPosArc, 
+        RiverKeynodes::nrel_basin); // Итератор для поиска площадей бассейна областных рек
+
+    // Поиск площадей бассейна областных рек
     while (it2->Next())
     {
       ScAddr num = it2->Get(2);
-      std::string str = CommonUtils::getIdtf(ms_context.get(), num, Keynodes::nrel_main_idtf);
-      SC_LOG_INFO(str.c_str());
+      std::string str = CommonUtils::getIdtf(&m_context, num, ScKeynodes::nrel_main_idtf);
+      
       int n = std::atoi(str.c_str());
+
+      // Проверка больше ли площадь бассейнав найденной реки уже записанной
       if (number < n)
       {
         number = n;
@@ -56,13 +74,31 @@ SC_AGENT_IMPLEMENTATION(TheBiggestBasinInRegion)
       }
     }
   }
-  ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, answer, riv);
 
-  ScAddr edgeToAnswer = ms_context->CreateEdge(ScType::EdgeDCommonConst, actionNode, answer);
-  ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, scAgentsCommon::CoreKeynodes::nrel_answer, edgeToAnswer);
+  ScIterator5Ptr iteratorToAddToAnswer = m_context.CreateIterator5(
+      river, ScType::Unknown, 
+      ScType::Unknown, 
+      ScType::ConstPermPosArc, 
+      RiverKeynodes::nrel_basin); // Итератор для обхода знаний о областной реке с самой большой площадью бассейна
 
-  SC_LOG_INFO("----------TheBiggestBasinInRegion end----------");
-  AgentUtils::finishAgentWork(ms_context.get(), actionNode);
-  return SC_RESULT_OK;
+  if (iteratorToAddToAnswer->Next())
+  {
+    m_context.GenerateConnector(ScType::ConstPermPosArc, answer, iteratorToAddToAnswer->Get(0));
+    m_context.GenerateConnector(ScType::ConstPermPosArc, answer, iteratorToAddToAnswer->Get(1));
+    m_context.GenerateConnector(ScType::ConstPermPosArc, answer, iteratorToAddToAnswer->Get(2));
+    m_context.GenerateConnector(ScType::ConstPermPosArc, answer, iteratorToAddToAnswer->Get(3));
+    m_context.GenerateConnector(ScType::ConstPermPosArc, answer, iteratorToAddToAnswer->Get(4));
+  }
+
+  
+
+  
+  action.SetResult(answer); // Привязка структуры ответа к агенту
+  return action.FinishSuccessfully();
 }
-}  // namespace RiversModule
+
+
+
+
+
+}  

@@ -1,21 +1,19 @@
 #pragma once
 
-#include "sc-memory/kpm/sc_agent.hpp"
+#include "sc-memory/sc_agent.hpp"
 
 #include "keynodes/AdminKeynodes.hpp"
-
-#include "GetAdminBuildingRegion.generated.hpp"
 
 namespace adminModule
 {
 
-class GetAdminBuildingRegion : public ScAgent
-{
-  SC_CLASS(Agent, Event(AdminKeynodes::action_get_admin_building_region, ScEvent::Type::AddOutputEdge))
-  SC_GENERATED_BODY()
+class GetAdminBuildingRegion : public ScActionInitiatedAgent
 
-private:
-  bool checkActionClass(const ScAddr & actionNode);
+{
+  public:
+  ScAddr GetActionClass() const; // Метод получения класса действия 
+
+  ScResult DoProgram(ScAction & action) override; // Главный метод агента
 };
 
-}  // namespace adminModule
+}  

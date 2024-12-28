@@ -1,18 +1,16 @@
 /*
- * This source file is part of an OSTIS project. For the latest info, see http://ostis.net
+ * This source file is part of an OSTIS project. For the latest info, see http:
  * Distributed under the MIT License
- * (See accompanying file COPYING.MIT or copy at http://opensource.org/licenses/MIT)
+ * (See accompanying file COPYING.MIT or copy at http:
  */
 
-#include "sc-agents-common/utils/AgentUtils.hpp"
 #include "sc-agents-common/utils/CommonUtils.hpp"
 #include "sc-agents-common/utils/IteratorUtils.hpp"
-#include "sc-agents-common/keynodes/coreKeynodes.hpp"
 #include <string>
 #include <iostream>
 
 #include "ShorterRiver.hpp"
-#include "keynodes/keynodes.hpp"
+#include "keynodes/RiverKeynodes.hpp"
 
 using namespace std;
 using namespace utils;
@@ -20,54 +18,107 @@ using namespace utils;
 namespace RiversModule
 {
 
-SC_AGENT_IMPLEMENTATION(ShorterRiver)
+ScAddr ShorterRiver::GetActionClass() const // Метод получения класса действия агента
 {
-  if (!edgeAddr.IsValid())
-    return SC_RESULT_ERROR;
 
-  SC_LOG_INFO("----------LongerRiver begin----------");
-  ScAddr actionNode = ms_context->GetEdgeTarget(edgeAddr);
+  return RiverKeynodes::action_get_shorterRiver;
+}
 
-  ScAddr river1 = IteratorUtils::getAnyByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_1);
 
-  ScAddr river2 = IteratorUtils::getAnyByOutRelation(&m_memoryCtx, actionNode, scAgentsCommon::CoreKeynodes::rrel_2);
-  ScAddr answer = ms_context->CreateNode(ScType::NodeConstStruct);
+ScResult ShorterRiver::DoProgram(ScAction & action) // Главный метод агента
+{
+  auto const & [river1, river2] = action.GetArguments<2>();
 
-  ScIterator5Ptr it = ms_context->Iterator5(
-      river1, ScType::EdgeDCommonConst, ScType::Unknown, ScType::EdgeAccessConstPosPerm, Keynodes::nrel_length);
+  // Проверка наличия первого аргумента
+  if (!m_context.IsElement(river1))
+  {
+    SC_AGENT_LOG_ERROR("Action does not have first argument.");
+    return action.FinishWithError();
+  }
+
+  // Проверка наличия второго аргумента
+  if (!m_context.IsElement(river2))
+  {
+    SC_AGENT_LOG_ERROR("Action does not have second argument.");
+    return action.FinishWithError();
+  }
+
+  ScAddr answer = m_context.GenerateNode(ScType::ConstNodeStructure);
+
+  ScIterator5Ptr it = m_context.CreateIterator5(
+      river1, ScType::ConstCommonArc, 
+      ScType::Unknown, 
+      ScType::ConstPermPosArc, 
+      RiverKeynodes::nrel_length); // Итератор для поиска длины первой реки
   int l1 = 0;
+
+  //Поиск длины первой реки 
   while (it->Next())
   {
     ScAddr len = it->Get(2);
-    std::string str1 = CommonUtils::getIdtf(ms_context.get(), len, Keynodes::nrel_main_idtf);
+    std::string str1 = CommonUtils::getIdtf(&m_context, len, ScKeynodes::nrel_main_idtf);
     l1 = std::atoi(str1.c_str());
   }
 
-  ScIterator5Ptr it1 = ms_context->Iterator5(
-      river2, ScType::EdgeDCommonConst, ScType::Unknown, ScType::EdgeAccessConstPosPerm, Keynodes::nrel_length);
+  ScIterator5Ptr it1 = m_context.CreateIterator5(
+      river2, ScType::ConstCommonArc, 
+      ScType::Unknown, 
+      ScType::ConstPermPosArc, 
+      RiverKeynodes::nrel_length); // Итератор для поиска длины второй реки
   int l2 = 0;
+
+  // Поиск длины второй реки
   while (it1->Next())
   {
     ScAddr len = it1->Get(2);
-    std::string str2 = CommonUtils::getIdtf(ms_context.get(), len, Keynodes::nrel_main_idtf);
+    std::string str2 = CommonUtils::getIdtf(&m_context, len, ScKeynodes::nrel_main_idtf);
     l2 = std::atoi(str2.c_str());
   }
 
+  
   if (l1 < l2)
   {
-    ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, answer, river1);
+    ScIterator5Ptr iteratorToAddToAnswer = m_context.CreateIterator5(
+        river1, ScType::Unknown, 
+        ScType::Unknown, 
+        ScType::ConstPermPosArc, 
+        RiverKeynodes::nrel_length); // Итератор для обхода всех знаний о первой реке
+
+    if (iteratorToAddToAnswer->Next())
+    {
+      m_context.GenerateConnector(ScType::ConstPermPosArc, answer, iteratorToAddToAnswer->Get(0));
+      m_context.GenerateConnector(ScType::ConstPermPosArc, answer, iteratorToAddToAnswer->Get(1));
+      m_context.GenerateConnector(ScType::ConstPermPosArc, answer, iteratorToAddToAnswer->Get(2));
+      m_context.GenerateConnector(ScType::ConstPermPosArc, answer, iteratorToAddToAnswer->Get(3));
+      m_context.GenerateConnector(ScType::ConstPermPosArc, answer, iteratorToAddToAnswer->Get(4));
+    }
   }
   else
   {
-    ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, answer, river2);
+    ScIterator5Ptr iteratorToAddToAnswer = m_context.CreateIterator5(
+        river2, ScType::Unknown, 
+        ScType::Unknown, 
+        ScType::ConstPermPosArc, 
+        RiverKeynodes::nrel_length); // Итератор для обхода всех знаний о второй реке
+
+
+    if (iteratorToAddToAnswer->Next())
+    {
+      m_context.GenerateConnector(ScType::ConstPermPosArc, answer, iteratorToAddToAnswer->Get(0));
+      m_context.GenerateConnector(ScType::ConstPermPosArc, answer, iteratorToAddToAnswer->Get(1));
+      m_context.GenerateConnector(ScType::ConstPermPosArc, answer, iteratorToAddToAnswer->Get(2));
+      m_context.GenerateConnector(ScType::ConstPermPosArc, answer, iteratorToAddToAnswer->Get(3));
+      m_context.GenerateConnector(ScType::ConstPermPosArc, answer, iteratorToAddToAnswer->Get(4));
+    }
   }
-
-  ScAddr edgeToAnswer = ms_context->CreateEdge(ScType::EdgeDCommonConst, actionNode, answer);
-  ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, scAgentsCommon::CoreKeynodes::nrel_answer, edgeToAnswer);
-
-  SC_LOG_INFO("----------LongerRiver end----------");
-  AgentUtils::finishAgentWork(ms_context.get(), actionNode);
-  return SC_RESULT_OK;
+  
+  action.SetResult(answer); // Привязка структуры ответа к агенту
+  return action.FinishSuccessfully();
 }
 
-}  // namespace RiversModule
+
+
+
+
+
+}  

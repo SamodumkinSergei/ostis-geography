@@ -17,11 +17,11 @@ std::unique_ptr<ScTemplate> HotelTemplates::getHotelByMinPricePerNightTemplate(S
   std::unique_ptr<ScTemplate> hotelByMinPricePerNightTemplate = std::make_unique<ScTemplate>();
 
   hotelByMinPricePerNightTemplate->Quintuple(
-      ScType::NodeVar >> HOTEL_ALIAS,
-      ScType::EdgeDCommonVar,
+      ScType::VarNode >> HOTEL_ALIAS,
+      ScType::VarCommonArc,
       minPricePerNightAddr,
-      ScType::EdgeAccessVarPosPerm,
+      ScType::VarPermPosArc,
       HotelKeynodes::nrel_min_price_per_night);
   return hotelByMinPricePerNightTemplate;
 }
-}  // namespace hotelModule
+}  

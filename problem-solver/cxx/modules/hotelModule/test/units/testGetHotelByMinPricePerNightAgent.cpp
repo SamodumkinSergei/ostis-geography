@@ -4,8 +4,7 @@
 
 #include "sc-agents-common/utils/CommonUtils.hpp"
 #include "sc-builder/src/scs_loader.hpp"
-#include "sc-memory/kpm/sc_agent.hpp"
-#include "sc-memory/sc_wait.hpp"
+#include "sc-memory/sc_agent.hpp"
 #include "sc_test.hpp"
 
 #include "keynodes/HotelKeynodes.hpp"
@@ -20,7 +19,7 @@ namespace testGetHotelByMinPricePerNightAgent {
     using SerchHotelTest = ScMemoryTest;
 
     void initializedClasses() {
-        scAgentsCommon::CoreKeynodes::InitGlobal();
+        ScKeynodes::InitGlobal();
         hotelModule::HotelKeynodes::InitGlobal();
     }
 
@@ -28,21 +27,23 @@ namespace testGetHotelByMinPricePerNightAgent {
         ScMemoryContext &context = *m_ctx;
 
         loader.loadScsFile(context, TEST_FILES_DIR_PATH + "SuccessfulExecution.scs");
-        ScAddr test_question_node = context.HelperFindBySystemIdtf("test_question_node");
+        ScAddr test_question_node = context.SearchElementBySystemIdentifier("test_question_node");
         EXPECT_TRUE(test_question_node.IsValid());
 
         ScAgentInit(true);
         initializedClasses();
 
-        SC_AGENT_REGISTER(hotelModule::GetHotelByMinPricePerNightAgent)
+        
+SC_AGENT_REGISTER(hotelModule::GetHotelByMinPricePerNightAgent)
 
-        context.CreateEdge(
-                ScType::EdgeAccessConstPosPerm, scAgentsCommon::CoreKeynodes::question_initiated, test_question_node);
+        context.GenerateConnector(
+                ScType::ConstPermPosArc, ScKeynodes::question_initiated, test_question_node);
 
         EXPECT_TRUE(
-                ScWaitEvent<ScEventAddOutputEdge>(context, scAgentsCommon::CoreKeynodes::question_finished_successfully)
+                ScWaitEvent<ScEventAfterGenerateOutgoingArc>(context, ScKeynodes::question_finished_successfully)
                         .Wait(WAIT_TIME));
 
-        SC_AGENT_UNREGISTER(hotelModule::GetHotelByMinPricePerNightAgent);
+        
+SC_AGENT_UNREGISTER(hotelModule::GetHotelByMinPricePerNightAgent);
     }
 }

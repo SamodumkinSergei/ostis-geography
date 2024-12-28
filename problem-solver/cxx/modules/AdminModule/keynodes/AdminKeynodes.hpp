@@ -1,42 +1,33 @@
 #pragma once
 
+#include <sc-memory/sc_keynodes.hpp>
+
 #include "sc-memory/sc_addr.hpp"
 #include "sc-memory/sc_object.hpp"
-
-#include "AdminKeynodes.generated.hpp"
 
 namespace adminModule
 {
 
-class AdminKeynodes : public ScObject
+class AdminKeynodes : public ScKeynodes
 {
-  SC_CLASS()
-  SC_GENERATED_BODY()
+  public:
+  static inline ScKeynode const action_get_embassy{"action_get_embassy"};
 
-public:
-  SC_PROPERTY(Keynode("action_get_embassy"), ForceCreate)
-  static ScAddr action_get_embassy;
+  static inline ScKeynode const action_get_admin_building_district{"action_get_admin_building_district"};
 
-  SC_PROPERTY(Keynode("action_get_admin_building_district"), ForceCreate)
-  static ScAddr action_get_admin_building_district;
+  static inline ScKeynode const concept_admin_building{"concept_admin_building"};
 
-  SC_PROPERTY(Keynode("concept_admin_building"), ForceCreate)
-  static ScAddr concept_admin_building;
+  static inline ScKeynode const concept_admin_building_request{"concept_admin_building_request"};
 
-  SC_PROPERTY(Keynode("action_get_admin_building_region"), ForceCreate)
-  static ScAddr action_get_admin_building_region;
+  static inline ScKeynode const action_get_admin_building_region{"action_get_admin_building_region"};
 
-  SC_PROPERTY(Keynode("nrel_region"), ForceCreate)
-  static ScAddr nrel_region;
+  static inline ScKeynode const nrel_region{"nrel_region"};
 
-  SC_PROPERTY(Keynode("nrel_embassy"), ForceCreate)
-  static ScAddr nrel_embassy;
+  static inline ScKeynode const nrel_embassy{"nrel_embassy"};
 
-  SC_PROPERTY(Keynode("nrel_search_area"), ForceCreate)
-  static ScAddr nrel_search_area;
+  static inline ScKeynode const nrel_search_area{"nrel_search_area"};
 
-  SC_PROPERTY(Keynode("minsk"), ForceCreate)
-  static ScAddr minsk;
+  static inline ScKeynode const minsk{"minsk"};
 };
 
-}  // namespace adminModule
+}  

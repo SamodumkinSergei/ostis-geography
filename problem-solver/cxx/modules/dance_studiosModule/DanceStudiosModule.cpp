@@ -1,7 +1,7 @@
 /*
- * This source file is part of an OSTIS project. For the latest info, see http://ostis.net
+ * This source file is part of an OSTIS project. For the latest info, see http:
  * Distributed under the MIT License
- * (See accompanying file COPYING.MIT or copy at http://opensource.org/licenses/MIT)
+ * (See accompanying file COPYING.MIT or copy at http:
  */
 
 #include "DanceStudiosModule.hpp"
@@ -13,27 +13,32 @@
 
 using namespace dance_studios;
 
-SC_IMPLEMENT_MODULE(DanceStudiosModule)
+// Регистрация агентов
+SC_MODULE_REGISTER(DanceStudiosModule)
+  ->Agent<SearchDanceStudiosByTypeAgent>()
+  ->Agent<SearchDanceStudiosByCityAgent>()
+  ->Agent<SearchDanceStudiosByFoundingYearAgent>();
 
-sc_result DanceStudiosModule::InitializeImpl()
-{
-  SC_LOG_INFO("module start");
 
-  if (!DanceStudiosKeynodes::InitGlobal())
-    return SC_RESULT_ERROR;
 
-  SC_AGENT_REGISTER(SearchDanceStudiosByTypeAgent)
-  SC_AGENT_REGISTER(SearchDanceStudiosByCityAgent)
-  SC_AGENT_REGISTER(SearchDanceStudiosByFoundingYearAgent);
 
-  return SC_RESULT_OK;
-}
 
-sc_result DanceStudiosModule::ShutdownImpl()
-{
-  SC_AGENT_UNREGISTER(SearchDanceStudiosByTypeAgent)
-  SC_AGENT_UNREGISTER(SearchDanceStudiosByCityAgent)
-  SC_AGENT_UNREGISTER(SearchDanceStudiosByFoundingYearAgent);
 
-  return SC_RESULT_OK;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
